@@ -1,0 +1,63 @@
+---
+import brandConfig from '../../config/brand.json';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const supportedLanguages = brandConfig.supportedLanguages;
+---
+
+<BaseLayout
+  title={`${brandConfig.name} - Choose Your Story Language`}
+  description={brandConfig.description}
+  lang="en"
+>
+  <div class="max-w-4xl mx-auto px-4 py-12 sm:py-20 text-center">
+    
+    <!-- Hero Icon & Title -->
+    <div class="w-20 h-20 sm:w-24 sm:h-24 mx-auto rounded-3xl bg-amber-500 flex items-center justify-center text-4xl sm:text-5xl shadow-xl mb-6">
+      🦉
+    </div>
+
+    <h1 class="text-3xl sm:text-5xl font-black text-amber-950 dark:text-amber-100 tracking-tight mb-3">
+      {brandConfig.name}
+    </h1>
+    <p class="text-lg sm:text-xl font-bold text-amber-700 dark:text-amber-300 mb-4">
+      {brandConfig.nativeName}
+    </p>
+    <p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed mb-10">
+      {brandConfig.description}
+    </p>
+
+    <!-- Language Selection Grid -->
+    <div class="mb-12">
+      <h2 class="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-6">
+        Choose Your Story Language / உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்
+      </h2>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+        {supportedLanguages.map((l) => (
+          <a
+            href={`/${l.code}/`}
+            class="p-5 rounded-3xl bg-white dark:bg-slate-900 border-2 border-amber-200 dark:border-slate-800 hover:border-amber-500 hover:shadow-lg transition-all group flex flex-col items-center justify-center gap-2"
+          >
+            <span class="text-3xl sm:text-4xl group-hover:scale-110 transition-transform">{l.flag}</span>
+            <span class="font-extrabold text-sm sm:text-base text-slate-800 dark:text-slate-100 group-hover:text-amber-600 transition-colors">
+              {l.native}
+            </span>
+            <span class="text-xs text-slate-400 font-medium">
+              {l.name}
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <!-- Quick Direct Entry Button for English Default -->
+    <a
+      href="/en/"
+      class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-extrabold text-base shadow-lg hover:shadow-amber-500/25 transition-all"
+    >
+      <span>📖 Enter Global Library (English)</span>
+      <span>→</span>
+    </a>
+  </div>
+</BaseLayout>

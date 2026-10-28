@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="meadowSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="50%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#meadowSky)"/>
+  <!-- Rolling Hills -->
+  <path d="M 0 450 Q 300 320 700 440 T 1200 380 L 1200 630 L 0 630 Z" fill="#86efac"/>
+  <path d="M 0 500 Q 400 420 800 520 T 1200 480 L 1200 630 L 0 630 Z" fill="#4ade80"/>
+  
+  <!-- Great Finish Line Oak Tree -->
+  <rect x="940" y="240" width="40" height="280" fill="#78350f" rx="10"/>
+  <circle cx="960" cy="200" r="140" fill="#15803d"/>
+  <circle cx="900" cy="220" r="90" fill="#16a34a"/>
+  <circle cx="1020" cy="210" r="100" fill="#22c55e"/>
+  <!-- Finish Banner -->
+  <rect x="910" y="320" width="100" height="30" fill="#ef4444" rx="4"/>
+  <text x="930" y="342" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">FINISH</text>
+
+  <!-- Patient Tortoise -->
+  <g transform="translate(760, 470) scale(1.2)">
+    <!-- Shell -->
+    <path d="M 20 50 Q 55 10 90 50 Z" fill="#15803d" stroke="#14532d" stroke-width="3"/>
+    <path d="M 35 48 Q 55 25 75 48" fill="none" stroke="#86efac" stroke-width="2"/>
+    <!-- Head -->
+    <ellipse cx="105" cy="45" rx="14" ry="10" fill="#4ade80"/>
+    <circle cx="109" cy="42" r="2" fill="#0f172a"/>
+    <path d="M 108 48 Q 112 50 115 47" fill="none" stroke="#15803d" stroke-width="2"/>
+    <!-- Legs -->
+    <ellipse cx="32" cy="56" rx="10" ry="7" fill="#4ade80"/>
+    <ellipse cx="78" cy="56" rx="10" ry="7" fill="#4ade80"/>
+    <!-- Tail -->
+    <polygon points="18,50 8,52 18,54" fill="#4ade80"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="50" y="50" width="600" height="90" rx="20" fill="#0f172a" fill-opacity="0.85" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="90" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#fef3c7">The Tortoise and the Hare</text>
+  <text x="80" y="122" font-family="system-ui, sans-serif" font-size="18" fill="#86efac">Aesop's Fables • Slow &amp; Steady Wins the Race</text>
+</svg>

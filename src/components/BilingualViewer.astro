@@ -1,0 +1,83 @@
+---
+import brandConfig from '../../config/brand.json';
+import { getSiblingStoryInLang } from '../lib/stories';
+
+interface Props {
+  currentStoryId: string;
+  currentLang: string;
+}
+
+const { currentStoryId, currentLang } = Astro.props;
+
+// Prepare available translations for side-by-side comparison
+const availableSiblings = brandConfig.supportedLanguages
+  .filter(l => l.code !== currentLang)
+  .map(l => {
+    const sibling = getSiblingStoryInLang(currentStoryId, l.code);
+    return sibling ? { lang: l, story: sibling } : null;
+  })
+  .filter(Boolean);
+---
+
+{availableSiblings.length > 0 && (
+  <div class="my-6 p-5 rounded-3xl bg-amber-50/70 dark:bg-slate-900 border border-amber-200 dark:border-slate-800" id="bilingual-viewer-wrapper">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+      <div class="flex items-center gap-2">
+        <span class="text-xl">🌐</span>
+        <h3 class="text-sm sm:text-base font-extrabold text-slate-900 dark:text-white">
+          Bilingual Reading Mode (Side-by-Side Dual Language)
+        </h3>
+      </div>
+      
+      <!-- Target Language Selector -->
+      <div class="flex items-center gap-2">
+        <span class="text-xs text-slate-500 font-medium">Compare with:</span>
+        <select id="bilingual-lang-select" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-xs font-bold text-slate-800 dark:text-white">
+          <option value="">Choose Language...</option>
+          {availableSiblings.map(item => (
+            <option value={item!.lang.code}>
+              {item!.lang.flag} {item!.lang.native} ({item!.lang.name})
+            </option>
+          ))}
+        </select>
+      </div>
+    </div>
+
+    <!-- Hidden by default until language selected -->
+    <div id="bilingual-comparison-grid" class="hidden mt-4 pt-4 border-t border-amber-200 dark:border-slate-800">
+      <div class="p-5 rounded-2xl bg-white dark:bg-slate-950 border border-amber-100 dark:border-slate-800 font-serif leading-relaxed text-slate-800 dark:text-slate-200 text-sm sm:text-base whitespace-pre-line" id="bilingual-target-text">
+      </div>
+    </div>
+
+    <!-- Data storage for fast client swapping without fetch -->
+    {availableSiblings.map(item => (
+      <div class="hidden bilingual-data-store" id={`bilingual-data-${item!.lang.code}`}>
+        {item!.story.full_text}
+      </div>
+    ))}
+  </div>
+)}
+
+<script is:inline>
+  (function initBilingualViewer() {
+    const select = document.getElementById('bilingual-lang-select');
+    const grid = document.getElementById('bilingual-comparison-grid');
+    const targetText = document.getElementById('bilingual-target-text');
+
+    if (!select || !grid || !targetText) return;
+
+    select.addEventListener('change', () => {
+      const chosenLang = select.value;
+      if (!chosenLang) {
+        grid.classList.add('hidden');
+        return;
+      }
+
+      const store = document.getElementById(`bilingual-data-${chosenLang}`);
+      if (store) {
+        targetText.innerText = store.innerText.trim();
+        grid.classList.remove('hidden');
+      }
+    });
+  })();
+</script>

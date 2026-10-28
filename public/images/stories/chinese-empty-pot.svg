@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="mistyMountains" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdf4ff"/>
+      <stop offset="40%" stop-color="#fae8ff"/>
+      <stop offset="100%" stop-color="#f3e8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#mistyMountains)"/>
+  <!-- Distant Blue Mountains -->
+  <polygon points="100,630 350,220 600,630" fill="#cbd5e1" opacity="0.5"/>
+  <polygon points="450,630 750,180 1050,630" fill="#94a3b8" opacity="0.6"/>
+  <polygon points="750,630 950,280 1200,630" fill="#cbd5e1" opacity="0.4"/>
+  
+  <!-- Courtyard Stone Floor -->
+  <rect x="0" y="480" width="1200" height="150" fill="#475569"/>
+  <line x1="0" y1="480" x2="1200" y2="480" stroke="#fcd34d" stroke-width="4"/>
+  
+  <!-- Empty Clay Pot -->
+  <g transform="translate(520, 360) scale(1.4)">
+    <!-- Pot Body -->
+    <path d="M 30 50 Q 15 100 50 110 Q 85 100 70 50 Z" fill="#b45309" stroke="#78350f" stroke-width="3"/>
+    <!-- Rim -->
+    <ellipse cx="50" cy="50" rx="26" ry="8" fill="#d97706" stroke="#78350f" stroke-width="2"/>
+    <!-- Dark Soil Inside -->
+    <ellipse cx="50" cy="51" rx="20" ry="5" fill="#3f2314"/>
+    <!-- Subtle Golden Radiance of Honesty -->
+    <circle cx="50" cy="40" r="30" fill="#fde68a" opacity="0.25"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="50" y="50" width="600" height="90" rx="20" fill="#0f172a" fill-opacity="0.85" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="90" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#fef3c7">The Empty Flowerpot</text>
+  <text x="80" y="122" font-family="system-ui, sans-serif" font-size="18" fill="#fbcfe8">Chinese Folktales • Courage of Pure Honesty</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="twilightAndes" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="60%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="waterDroplet" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#twilightAndes)"/>
+  <!-- Mountain Peaks -->
+  <polygon points="-50,630 300,340 650,630" fill="#0f172a" opacity="0.8"/>
+  <polygon points="350,630 800,260 1250,630" fill="#020617" opacity="0.9"/>
+  
+  <!-- The Brave Hummingbird -->
+  <g transform="translate(520, 200) scale(1.6)">
+    <!-- Wings Blur / Motion -->
+    <ellipse cx="60" cy="30" rx="35" ry="12" fill="#ec4899" opacity="0.6" transform="rotate(-30, 60, 30)"/>
+    <ellipse cx="60" cy="30" rx="30" ry="10" fill="#fbbf24" opacity="0.5" transform="rotate(-15, 60, 30)"/>
+    <!-- Body -->
+    <ellipse cx="50" cy="45" rx="20" ry="14" fill="#059669"/>
+    <!-- Head -->
+    <circle cx="68" cy="40" r="10" fill="#047857"/>
+    <!-- Eye -->
+    <circle cx="71" cy="38" r="2.2" fill="#ffffff"/>
+    <circle cx="71.5" cy="38" r="1" fill="#0f172a"/>
+    <!-- Beak -->
+    <polygon points="76,41 106,42 76,44" fill="#0f172a"/>
+    <!-- Shimmering Crystal Water Drop -->
+    <circle cx="107" cy="46" r="7" fill="url(#waterDroplet)"/>
+    <!-- Tail -->
+    <polygon points="32,48 10,65 25,44" fill="#0284c7"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="50" y="50" width="600" height="90" rx="20" fill="#0f172a" fill-opacity="0.85" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="90" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#fef3c7">The Little Hummingbird</text>
+  <text x="80" y="122" font-family="system-ui, sans-serif" font-size="18" fill="#38bdf8">Andean Folktale • Doing Your Part With Love</text>
+</svg>

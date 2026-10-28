@@ -1,0 +1,253 @@
+{
+  "legalReviewDisclaimer": "NOTICE: The following legal, trust, and privacy texts are comprehensive operational templates crafted for family and educational digital publishing. Prior to commercial public launch, they must be formally reviewed and tailored by a qualified attorney in your operating jurisdiction.",
+  "lastUpdated": "2026-10-28",
+  "pages": {
+    "about": {
+      "title": "About Us",
+      "h1": "About Dhinam Oru Kathai (A Story a Day)",
+      "metaDescription": "Learn about our mission to bring safe, inspiring, multilingual moral and bedtime stories to children, families, and classrooms worldwide.",
+      "sections": [
+        {
+          "heading": "Our Mission",
+          "content": "Dhinam Oru Kathai (தினம் ஒரு கதை, meaning 'A Story a Day') was born from a timeless truth: stories shape character, awaken empathy, and build bridges across cultures. In an internet overflowing with noisy feeds, distracting ads, and dopamine loops, we offer a peaceful sanctuary—a place where children, families, teachers, and curious readers everywhere can gather daily for wisdom, wonder, and gentle bedtimes."
+        },
+        {
+          "heading": "Ten Equal World Languages",
+          "content": "While our name pays homage to the ancient storytelling heritage of Tamil Nadu, Dhinam Oru Kathai is a global, multilingual library. Tamil is one of ten equal, celebrated languages: English, Tamil, Hindi, Spanish, Chinese (Simplified), Portuguese, Malayalam, Telugu, Kannada, and Marathi. Every language is treated with equal care, natural vocabulary, and cultural respect."
+        },
+        {
+          "heading": "Our Sacred Promise: Safe, Calm & Ad-Free for Children",
+          "content": "We make four unwavering commitments to every parent and teacher:\n1. 100% Family-Safe: Every single story is vetted by editors. No graphic violence, no gore, and strictly no 18+ themes.\n2. No Manipulative Engagement: We do not use casino streaks, shaming notifications, autoplay chains, or hidden tracking.\n3. Zero Child Data Profiling: Children never need an account. Reading progress, favorites, and badges remain strictly on your local device.\n4. Educational Depth: Stories are paired with Bloom's taxonomy discussion cards, vocabulary pronunciation, and creative activities."
+        },
+        {
+          "heading": "How Stories are Chosen and Retold",
+          "content": "We curate timeless public-domain fables, folklore, and cultural legends from ancient traditions (Panchatantra, Aesop, Jataka, Andersen, Grimm, Arabian Nights, Latin American folklore, and African lore). In accordance with our editorial standards, traditional narratives are retold with cultural nuance, removing historical cruelty while preserving their core moral truth and wonder."
+        },
+        {
+          "heading": "Our Human-in-the-Loop AI Translation Policy",
+          "content": "To bring stories to ten languages, we leverage advanced linguistic AI models to draft meaning-based translations that preserve regional idioms. However, machine output is never final. Every translation is placed behind a strict 'reviewed: false' quarantine and is made public and indexable only after human linguistic and pedagogical review."
+        },
+        {
+          "heading": "Collection & Cultural Credits",
+          "content": "We honour the collective human heritage of world folklore. Retellings derive from verified public domain sources, historical folk anthologies, and credited community contributions. We celebrate the oral storytellers of every continent who kept these fires burning across generations."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us & Grievance Cell",
+      "h1": "Get in Touch with Our Editorial Team",
+      "metaDescription": "Contact Dhinam Oru Kathai for editorial feedback, classroom partnerships, content reports, or our Statutory Grievance Cell.",
+      "responseCommitment": "We respond to all community inquiries within 48 business hours. Content reports are reviewed by a human moderator within 24 hours.",
+      "topics": [
+        "General Question or Praise",
+        "Teacher / School Partnership",
+        "Report Content or Safety Concern",
+        "Report Translation or Typo Issue",
+        "Press & Educational Research"
+      ],
+      "grievanceDetails": {
+        "title": "Statutory Grievance Officer (India IT Rules Compliance)",
+        "content": "In compliance with the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021, and DPDP Act 2023 guidelines, our designated Grievance Officer handles user content complaints, copyright notices, and child safety escalations.",
+        "officer": "Editorial Grievance Cell (Dhinam Oru Kathai)",
+        "email": "grievance-officer@dhinamorukathai.com",
+        "address": "Dhinam Oru Kathai Digital Publications, Chennai / Global Operations"
+      }
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "h1": "Disclaimer & Content Notice",
+      "metaDescription": "Educational and entertainment disclaimer regarding retold folklore, neutralized cultural figures, and AI translation assistance.",
+      "sections": [
+        {
+          "heading": "1. Purpose of the Platform",
+          "content": "All stories, quizzes, moral summaries, and learning activities provided on Dhinam Oru Kathai are intended strictly for educational, ethical, and entertainment purposes. They do not constitute professional, legal, medical, or psychological advice."
+        },
+        {
+          "heading": "2. Folklore Retelling & Religious Neutralization",
+          "content": "Stories originating from ancient mythology, classical lore, and folk traditions are presented purely as cultural heritage and literary parables. To maintain a peaceful, universal, and non-sectarian environment accessible to families of all faiths and beliefs worldwide, divine deity names are intentionally neutralized with generic terms (e.g., 'the wise guardian', 'the celestial spirit'). The platform does not endorse, depict, or promote religious worship, rituals, or sectarian dogmas."
+        },
+        {
+          "heading": "3. AI-Assisted Translations",
+          "content": "Multilingual translations are prepared with the assistance of advanced language models and reviewed by human linguists. While we strive for absolute linguistic elegance, nuances may occasionally differ. Readers are encouraged to use our 'Report an Issue' link to highlight any phrase that needs refinement."
+        },
+        {
+          "heading": "4. Reader Submissions",
+          "content": "Original tales submitted by community members and published after moderation reflect the creative imagination of their respective authors, not the official stance of Dhinam Oru Kathai."
+        },
+        {
+          "heading": "5. Parental & Guardian Oversight",
+          "content": "While our editorial board strictly enforces family-safe ratings and child safety standards, parents and educators remain the ultimate arbiters of age-appropriateness for individual children."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "h1": "Privacy Policy: Zero-Tracking Family Protection",
+      "metaDescription": "Plain-language, cookie-free privacy policy adhering to COPPA, GDPR, and India DPDP Act 2023. We protect children by collecting almost nothing.",
+      "summary": "Plain Language Summary: We believe children's digital reading should be completely private. We do not require accounts for children, we do not track reading behavior across the web, we use zero third-party advertising trackers, and we never sell data. Your favorites, reading badges, and streak stay exclusively inside your own device's browser memory.",
+      "sections": [
+        {
+          "heading": "1. What We Collect and Why",
+          "content": "Because we operate without user logins for readers, we collect virtually no personal information:\n• On-Device Data (localStorage): Your reading history, bookmarked favorites, earned badges, and sound preferences remain strictly in your browser's local memory. We never transmit or store this on our servers.\n• Daily Story Email Subscribers (Adults Only): When an adult subscribes to our daily story email, we store their email address and language preference in our encrypted Cloudflare D1 database. This requires explicit double opt-in confirmation.\n• Community Story Submissions: When a writer submits a story, we collect the submitted text, pen name, city/country, and contact email solely for editorial communication and attribution.\n• Privacy-Friendly Aggregated Metrics: We log anonymous counts of story reads and quiz attempts to understand which stories children love. We do NOT log IP addresses, fingerprint devices, or run invasive analytics."
+        },
+        {
+          "heading": "2. Children's Privacy (COPPA & DPDP Act 2023)",
+          "content": "We comply strictly with the Children's Online Privacy Protection Act (COPPA), the General Data Protection Regulation (GDPR-K), and India's Digital Personal Data Protection (DPDP) Act 2023:\n• No personal data is knowingly requested or collected from children under the age of 13 (or under 18 where applicable).\n• Newsletter signups and contact forms are intended strictly for adults and guardians.\n• If we learn that personal data of a child has been unintentionally submitted, we purge it immediately."
+        },
+        {
+          "heading": "3. No Advertising & No Data Selling",
+          "content": "We do not sell, rent, monetize, or disclose user information to data brokers, ad networks, or commercial third parties under any circumstances."
+        },
+        {
+          "heading": "4. Your Legal Rights & Data Deletion",
+          "content": "You have the right to request access, correction, or permanent erasure of any contact details or subscriber records associated with your email. Every newsletter includes a single-click instant unsubscribe link. You may also contact privacy@dhinamorukathai.com at any time."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "h1": "Terms of Use & Reader Agreement",
+      "metaDescription": "Terms of service governing reading, fair classroom use, community story submissions, and intellectual property rights.",
+      "sections": [
+        {
+          "heading": "1. Acceptance of Terms",
+          "content": "By accessing or using Dhinam Oru Kathai, you agree to these Terms of Use and our community guidelines. If you are accessing this platform on behalf of a minor, you represent that you are their parent, guardian, or authorized educator."
+        },
+        {
+          "heading": "2. Permitted Educational & Personal Use",
+          "content": "You are warmly welcome to read, listen to, and share these stories with children at home, during bedtime, and in school classrooms. Teachers and homeschoolers are explicitly permitted to project stories and print PDF worksheets for non-commercial educational use."
+        },
+        {
+          "heading": "3. Restrictions: No Scraping or Bulk Copying",
+          "content": "You may not systematically scrape, harvest, reproduce in bulk, mirror, or ingest our stories, translations, audio, or quizzes into automated commercial databases or competing services without prior written permission."
+        },
+        {
+          "heading": "4. Community Submission License",
+          "content": "When you submit an original story, you retain full copyright ownership of your work. By submitting, you grant Dhinam Oru Kathai a non-exclusive, worldwide, royalty-free license to edit for clarity, format, translate, and publish the story on our platform with credit to your pen name."
+        },
+        {
+          "heading": "5. Limitation of Liability",
+          "content": "Dhinam Oru Kathai is provided on an 'as-is' and 'as-available' basis without warranties of any kind. We are not liable for incidental or consequential damages resulting from platform use."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie & Local Storage Notice",
+      "h1": "Cookie & Local Storage Transparency Notice",
+      "metaDescription": "Detailed disclosure of the zero-cookie policy and device local storage keys used to save reading streaks, bookmarks, and bedtime settings.",
+      "sections": [
+        {
+          "heading": "Our Zero-Tracking Cookie Policy",
+          "content": "Dhinam Oru Kathai does not use third-party tracking cookies, advertising beacons, or cross-site fingerprinting scripts. Essential Cloudflare security cookies (such as cf_clearance) may be set strictly to prevent DDoS attacks and spam."
+        },
+        {
+          "heading": "What We Store in Your Device's LocalStorage",
+          "content": "To provide a delightful reading experience without requiring child accounts, the following lightweight keys are stored exclusively on your device:\n• `story_lang`: Your preferred reading language (e.g. 'en', 'ta', 'es').\n• `story_favorites`: The IDs of stories you have bookmarked in My Story Corner.\n• `story_history`: The last 10 stories you read, allowing quick resumption.\n• `story_streak`: Your reading streak counter and recorded 'pause/freeze' days.\n• `story_badges`: Earned stickers (e.g. 'Honesty Star', 'Quiz Star').\n• `story_passport`: Cultural and collection stamps earned from reading stories worldwide.\n• `story_bedtime_theme`: Your dark/bedtime visual theme preference.\n• `story_speech_rate`: Your preferred read-along audio playback speed."
+        },
+        {
+          "heading": "How to Clear Your Storage",
+          "content": "Because these keys reside on your own computer, tablet, or phone, you can clear them at any time using your browser's 'Clear Site Data' or 'Clear Cookies and Site Storage' settings."
+        }
+      ]
+    },
+    "copyright": {
+      "title": "Copyright & Takedown Policy",
+      "h1": "Copyright Notice & DMCA Takedown Procedure",
+      "metaDescription": "Notice of public domain sources, educational fair use, and our rapid 24-hour DMCA copyright takedown procedure.",
+      "sections": [
+        {
+          "heading": "Public Domain and Proprietary Content",
+          "content": "Traditional folktales and fables on this platform are drawn from public-domain folklore. Original retellings, translations, pedagogical quizzes, discussion cards, custom artwork, logos, and UI code are the exclusive intellectual property of Dhinam Oru Kathai."
+        },
+        {
+          "heading": "Notice and Takedown Procedure (DMCA & Indian IT Rules)",
+          "content": "If you are a copyright owner or authorized agent and believe that content published on our platform infringes upon your copyright, please submit a written notice to copyright@dhinamorukathai.com including:\n1. Identification of the copyrighted work claimed to be infringed.\n2. The exact URL of the material on our platform.\n3. Your contact address, phone number, and email.\n4. A statement of good faith belief that the use is unauthorized.\n5. A statement made under penalty of perjury that you are authorized to act."
+        },
+        {
+          "heading": "Resolution Timeline",
+          "content": "Upon receipt of a valid notice, our team will review the claim, temporarily restrict access if warranted, and respond within 24 to 48 hours."
+        }
+      ]
+    },
+    "guidelines": {
+      "title": "Community & Submission Guidelines",
+      "h1": "Community Guidelines for Readers and Storytellers",
+      "metaDescription": "Submission guidelines for community stories: family-safe standards, original storytelling, wholesome humor, and moderation rules.",
+      "sections": [
+        {
+          "heading": "What We Welcome with Open Arms",
+          "content": "• Original folktales, humorous tales, moral parables, and gentle bedtime stories.\n• Stories celebrating kindness, honesty, perseverance, courage, and empathy.\n• Tales rooted in authentic regional cultures, legends, and everyday life.\n• Wholesome humor that brings families together in shared laughter."
+        },
+        {
+          "heading": "What is Strictly Prohibited",
+          "content": "• Any 18+, adult, or suggestive themes.\n• Graphic violence, gore, terror, or intense nightmares.\n• Hate speech, prejudice, or mockery of any ethnicity, nationality, or community.\n• Religious proselytization, sectarian disputes, or theological debates.\n• Commercial promotions, spam, or plagiarism."
+        },
+        {
+          "heading": "Moderation Process",
+          "content": "All community submissions are automatically scanned for keywords and reviewed manually by our editorial team before publication. Approved stories appear with the author's pen name and city/country."
+        }
+      ]
+    },
+    "editorial-policy": {
+      "title": "Editorial & AI-Use Policy",
+      "h1": "Editorial Standards & Responsible AI Policy",
+      "metaDescription": "Our pedagogical principles, folklore adaptation standards, human-reviewed AI translations, and transparent corrections log.",
+      "sections": [
+        {
+          "heading": "1. Pedagogical Framing with Bloom's Taxonomy",
+          "content": "Stories are not passive entertainment—they are doorways to thought. Every published story is paired with discussion questions tiered by Bloom's Revised Taxonomy (Remember, Understand, Apply, Evaluate, Create). This empowers teachers and parents to nurture higher-order critical thinking."
+        },
+        {
+          "heading": "2. Culture-Level Neutralization of Religious Names",
+          "content": "To ensure our global library remains universally welcoming to children of all backgrounds, mythic tales are retold at the cultural and folkloric level. Deity names are replaced with universal literary descriptions (e.g., 'the wise mountain ascetic'), focusing on ethical wisdom rather than devotional ritual."
+        },
+        {
+          "heading": "3. Ethical AI Translation with Mandatory Human Review",
+          "content": "We use artificial intelligence to expand access across languages, but we never publish raw machine output. Every AI translation is stored with `reviewed: false` and kept noindex until verified by a bilingual editor."
+        },
+        {
+          "heading": "4. Corrections and Transparency Log",
+          "content": "We maintain an active corrections log for factual, grammatical, or translation adjustments. If you notice a typo or translation nuance that can be improved, click 'Report a Problem' on any story page."
+        }
+      ]
+    },
+    "parent-guide": {
+      "title": "Child Safety & Parent Guide",
+      "h1": "Parent & Teacher Guide: Fostering a Love for Stories",
+      "metaDescription": "Tips for mindful bedtime routines, screen-time balance, bilingual reading, and creating family rituals around stories.",
+      "sections": [
+        {
+          "heading": "The Bedtime Ritual: Calming the Senses",
+          "content": "Bedtime should be a transition from the bustle of the day to peaceful rest. We recommend activating our 'Bedtime Mode' which dims the screen palette, slows the read-along audio speed, and offers soothing ambient sounds like night crickets or gentle rain. Our automated 'Sweet Dreams' guardrail gently signals when it is time to turn off the screen."
+        },
+        {
+          "heading": "Bilingual Reading for Growing Minds",
+          "content": "Use our side-by-side 'Bilingual Mode' to compare two languages sentence by sentence. This feature is especially loved by diaspora families, heritage language learners, and migrant children discovering their mother tongue alongside global languages."
+        },
+        {
+          "heading": "Screen-Time Balance Tips",
+          "content": "Stories can be enjoyed screen-free! Use our Web Speech API or audio playback with your screen flipped over or dimmed, allowing children to listen with eyes closed, painting pictures in their minds."
+        }
+      ]
+    },
+    "accessibility": {
+      "title": "Accessibility Statement",
+      "h1": "Accessibility Commitment (WCAG 2.2 AA)",
+      "metaDescription": "Our pledge to digital accessibility for all children, including OpenDyslexic font, screen reader support, keyboard navigation, and high contrast.",
+      "sections": [
+        {
+          "heading": "Our Commitment",
+          "content": "Dhinam Oru Kathai is designed to be accessible to children and adults with diverse abilities, in adherence with Web Content Accessibility Guidelines (WCAG) 2.2 Level AA standards."
+        },
+        {
+          "heading": "Accessibility Features Included",
+          "content": "• OpenDyslexic Font Option: Instant toggle to aid readers with dyslexia.\n• Adjustable Font Size & Line Spacing: Customize text from 16px to 24px with generous line height.\n• High Contrast & Bedtime Dark Themes: Optimized color contrast ratios exceeding 4.5:1.\n• Reduced Motion Respect: Full compatibility with `prefers-reduced-motion` settings.\n• Full Keyboard Navigation: Skip-to-content links and accessible focus indicators.\n• Screen Reader Compatibility: Semantic HTML5 elements and ARIA attributes for all interactive audio players and quizzes."
+        },
+        {
+          "heading": "Reporting Barriers",
+          "content": "If you encounter any accessibility barrier on our website, please email accessibility@dhinamorukathai.com. We prioritize accessibility bug fixes within 48 hours."
+        }
+      ]
+    }
+  }
+}

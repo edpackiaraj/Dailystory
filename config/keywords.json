@@ -1,0 +1,152 @@
+{
+  "rules": {
+    "usage": "Use natural placement in titles, H1/H2 headings, summaries, hub intros, and body text. Never keyword stuff. Meta keywords tags are low-priority fallback only.",
+    "minStoriesPerGenre": 5,
+    "minStoriesPerCollection": 5
+  },
+  "core": [
+    "moral stories",
+    "bedtime stories",
+    "short stories with moral",
+    "fairy tales",
+    "folktales",
+    "fables",
+    "stories for kids",
+    "funny stories",
+    "audio stories",
+    "stories from around the world",
+    "world stories",
+    "short stories",
+    "stories online",
+    "stories in multiple languages",
+    "global story library",
+    "traditional stories",
+    "online story collection"
+  ],
+  "collections": [
+    "Aesop's fables",
+    "Panchatantra",
+    "Jataka tales",
+    "Hans Christian Andersen",
+    "La Fontaine",
+    "Akbar and Birbal",
+    "Tenali Rama",
+    "Mulla Nasruddin",
+    "Vikram and Vetal",
+    "Sheikh Chilli",
+    "Arabian Nights",
+    "Grimm fairy tales",
+    "Charles Perrault",
+    "Simhasana Battisi",
+    "Paramartha Guru",
+    "Mariyadai Raman",
+    "African Folktales",
+    "Chinese Folktales and Fables",
+    "Latin American Folktales",
+    "Tamil Folk",
+    "Tamil Folk Humor"
+  ],
+  "longTail": [
+    "short bedtime stories with moral for 5-year-olds",
+    "5 minute bedtime stories",
+    "free bedtime stories with audio",
+    "printable moral stories PDF",
+    "bilingual stories for kids",
+    "stories to teach honesty or kindness",
+    "classroom moral stories",
+    "short stories with moral lessons",
+    "funny short stories to read",
+    "traditional folktales from around the world",
+    "fairy tales for children",
+    "bedtime stories in different languages",
+    "stories from different cultures",
+    "classic fables with morals",
+    "inspirational stories about life",
+    "short stories for all ages",
+    "free stories online"
+  ],
+  "perLanguage": {
+    "en": [
+      "moral stories",
+      "bedtime stories for kids",
+      "fables with moral",
+      "folktales from around the world",
+      "audio bedtime stories",
+      "short stories with life lessons"
+    ],
+    "es": [
+      "cuentos para dormir",
+      "cuentos infantiles",
+      "cuentos con moraleja",
+      "fábulas",
+      "cuentos de hadas",
+      "historias cortas para niños",
+      "cuentos populares del mundo"
+    ],
+    "pt": [
+      "histórias para dormir",
+      "contos infantis",
+      "fábulas",
+      "histórias com moral",
+      "contos de fadas",
+      "narrativas populares infantis",
+      "histórias curtas com valores"
+    ],
+    "hi": [
+      "hindi kahaniyan",
+      "naitik kahaniyan",
+      "bacchon ki kahani",
+      "panchatantra ki kahaniyan",
+      "akbar birbal",
+      "prernadayak kahaniyan",
+      "sote samay ki kahaniyan"
+    ],
+    "zh": [
+      "睡前故事",
+      "寓言故事",
+      "童话故事",
+      "儿童故事",
+      "民间故事",
+      "经典成语故事",
+      "带道德寓意的短篇故事"
+    ],
+    "ta": [
+      "நீதிக்கதைகள்",
+      "சிறுவர் கதைகள்",
+      "தெனாலிராமன் கதைகள்",
+      "பஞ்சதந்திரக் கதைகள்",
+      "ஈசாப் கதைகள்",
+      "இரவுக் கதைகள்",
+      "அறிவுக் கதைகள்"
+    ],
+    "te": [
+      "నీతి కథలు",
+      "పిల్లల కథలు",
+      "పంచతంత్ర కథలు",
+      "తెనాలి రామకృష్ణ కథలు",
+      "అక్బర్ బీర్బల్ కథలు",
+      "నిద్రపోయే ముందు కథలు"
+    ],
+    "kn": [
+      "ನೀತಿ ಕಥೆಗಳು",
+      "ಮಕ್ಕಳ ಕಥೆಗಳು",
+      "ಪಂಚತಂತ್ರ ಕಥೆಗಳು",
+      "ತೆನಾಲಿ ರಾಮ ಕಥೆಗಳು",
+      "ಮಲಗುವ ಮುನ್ನ ಕಥೆಗಳು"
+    ],
+    "ml": [
+      "കുട്ടിക്കഥകൾ",
+      "നീതികഥകൾ",
+      "പഞ്ചതന്ത്രം കഥകൾ",
+      "ഐതിഹ്യമാല കഥകൾ",
+      "ഈസോപ്പ് കഥകൾ"
+    ],
+    "mr": [
+      "बोधकथा",
+      "लहान मुलांच्या गोष्टी",
+      "पंचतंत्रातील गोष्टी",
+      "अकबर बिरबल गोष्टी",
+      "इसापनीती गोष्टी"
+    ]
+  }
+}

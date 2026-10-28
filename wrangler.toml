@@ -1,0 +1,35 @@
+name = "dhinam-oru-kathai"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "dist"
+
+# D1 Database Binding
+[[d1_databases]]
+binding = "DB"
+database_name = "dhinam_oru_kathai_d1"
+database_id = "00000000-0000-0000-0000-000000000000" # Replace with your Cloudflare D1 UUID
+
+# KV Namespace Binding for Fast Edge Caching
+[[kv_namespaces]]
+binding = "CACHE_KV"
+id = "00000000000000000000000000000000" # Replace with your Cloudflare KV ID
+
+# R2 Object Storage for Audio & High-Res Illustrations
+[[r2_buckets]]
+binding = "MEDIA_BUCKET"
+bucket_name = "dhinam-media"
+
+# Scheduled Cron Triggers (UTC)
+# 18:30 UTC = 00:00 IST (Daily story rotation)
+# 00:30 UTC = 06:00 IST (Daily morning family story email)
+[triggers]
+crons = ["30 18 * * *", "30 0 * * *"]
+
+[vars]
+SITE_URL = "https://dhinamorukathai.pages.dev"
+ENVIRONMENT = "production"
+DEFAULT_LANGUAGE = "en"
+TURNSTILE_SITE_KEY = "0x4AAAAAAABBBBBBCCCCCC" # Replace with your Cloudflare Turnstile public key
+# Secrets configured via `wrangler secret put`:
+# - TURNSTILE_SECRET_KEY
+# - RESEND_API_KEY
+# - CLOUDFLARE_ACCESS_AUD

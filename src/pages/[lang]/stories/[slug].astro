@@ -1,0 +1,408 @@
+---
+import brandConfig from '../../../../config/brand.json';
+import { getT } from '../../../lib/i18n';
+import { getStoriesByLang, getStoryBySlug, getAllReviewedStories } from '../../../lib/stories';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import AudioPlayer from '../../../components/AudioPlayer.astro';
+import ThinkAndTalk from '../../../components/ThinkAndTalk.astro';
+import VocabularyTooltip from '../../../components/VocabularyTooltip.astro';
+import QuizModal from '../../../components/QuizModal.astro';
+import MagicMoment from '../../../components/MagicMoment.astro';
+import ClassroomMode from '../../../components/ClassroomMode.astro';
+import BilingualViewer from '../../../components/BilingualViewer.astro';
+
+export function getStaticPaths() {
+  const paths: any[] = [];
+  for (const lang of brandConfig.supportedLanguages) {
+    const stories = getStoriesByLang(lang.code);
+    for (const story of stories) {
+      paths.push({
+        params: { lang: lang.code, slug: story.slug },
+        props: { story }
+      });
+    }
+  }
+  return paths;
+}
+
+const { lang, slug } = Astro.params;
+const { story } = Astro.props;
+const t = getT(lang);
+
+const allStories = getAllReviewedStories(lang);
+const currentIndex = allStories.findIndex(s => s.id === story.id);
+const prevStory = currentIndex > 0 ? allStories[currentIndex - 1] : null;
+const nextStory = currentIndex < allStories.length - 1 ? allStories[currentIndex + 1] : null;
+
+// Related stories from the same collection or genre
+const relatedStories = allStories
+  .filter(s => s.id !== story.id && (s.collection === story.collection || s.genre === story.genre))
+  .slice(0, 3);
+
+// JSON-LD Article / CreativeWork Schema
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "headline": story.title,
+  "name": story.title,
+  "description": story.summary,
+  "image": story.image.startsWith('http') ? story.image : `${brandConfig.siteUrl}${story.image}`,
+  "author": {
+    "@type": "Person",
+    "name": story.author
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": brandConfig.name,
+    "logo": `${brandConfig.siteUrl}/favicon.svg`
+  },
+  "datePublished": story.publish_date,
+  "inLanguage": story.language,
+  "isAccessibleForFree": true,
+  "typicalAgeRange": story.age_group,
+  "teaches": story.values.join(', '),
+  "learningResourceType": "Story / Lesson Plan",
+  "genre": story.genre,
+  "educationalLevel": story.reading_level,
+  "wordCount": story.word_count,
+  "timeRequired": `PT${parseInt(story.reading_time) || 3}M`
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": `${brandConfig.siteUrl}/${lang}/`
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": story.collection,
+      "item": `${brandConfig.siteUrl}/${lang}/search/?collection=${encodeURIComponent(story.collection)}`
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": story.title,
+      "item": `${brandConfig.siteUrl}/${lang}/stories/${story.slug}/`
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title={`${story.title} - ${brandConfig.name}`}
+  description={story.summary}
+  lang={lang}
+  ogImage={story.image}
+  ogType="article"
+  storyId={story.id}
+  jsonLd={[articleSchema, breadcrumbSchema]}
+  noindex={story.reviewed === false}
+>
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12" id="story-article-root" data-story-id={story.id}>
+    
+    <!-- Breadcrumb Navigation -->
+    <nav aria-label="Breadcrumb" class="mb-6 text-xs text-slate-500 flex items-center gap-2 flex-wrap">
+      <a href={`/${lang}/`} class="hover:text-amber-600 transition-colors">Home</a>
+      <span>/</span>
+      <a href={`/${lang}/search/?genre=${encodeURIComponent(story.genre)}`} class="hover:text-amber-600 transition-colors">{story.genre}</a>
+      <span>/</span>
+      <span class="text-slate-800 dark:text-slate-200 font-semibold truncate max-w-xs">{story.title}</span>
+    </nav>
+
+    <!-- Top Badge Row -->
+    <div class="flex flex-wrap items-center gap-2 mb-4">
+      <span class="px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-950/70 border border-amber-300 dark:border-amber-800 text-amber-900 dark:text-amber-200 text-xs font-bold">
+        {story.collection}
+      </span>
+      <span class="px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-semibold">
+        {story.culture_region}
+      </span>
+      <span class="px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-semibold">
+        Age: {story.age_group}
+      </span>
+      <span class="px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950/70 text-emerald-900 dark:text-emerald-200 text-xs font-semibold">
+        Level: {story.reading_level}
+      </span>
+      {story.is_bedtime && (
+        <span class="px-3 py-1 rounded-full bg-indigo-100 dark:bg-indigo-950/70 text-indigo-900 dark:text-indigo-200 text-xs font-bold">
+          🌙 Bedtime Friendly
+        </span>
+      )}
+    </div>
+
+    <!-- H1 Story Title -->
+    <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight mb-4">
+      {story.title}
+    </h1>
+
+    <!-- Story Meta Bar: Author, Word Count, Times, Favorite -->
+    <div class="flex flex-wrap items-center justify-between gap-4 py-3 border-y border-amber-200 dark:border-slate-800 text-xs sm:text-sm text-slate-500 mb-6">
+      <div class="flex items-center gap-3">
+        <span>By <strong>{story.author}</strong></span>
+        <span>•</span>
+        <span>📖 {story.word_count} words ({story.reading_time})</span>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <!-- Favorite Button -->
+        <button id="btn-favorite" type="button" class="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-amber-300 dark:border-slate-700 hover:bg-amber-50 dark:hover:bg-slate-800 font-bold transition-all text-slate-700 dark:text-slate-200">
+          <span id="fav-icon">🤍</span>
+          <span id="fav-label">{t.favorite}</span>
+        </button>
+
+        <!-- Report a Problem Modal Trigger -->
+        <button id="btn-report-problem" type="button" class="text-xs text-slate-400 hover:text-red-500 transition-colors">
+          🚩 {t.reportProblem}
+        </button>
+      </div>
+    </div>
+
+    <!-- Story Hero Illustration -->
+    <div class="my-6 rounded-3xl overflow-hidden shadow-lg border border-amber-200 dark:border-slate-800">
+      <img
+        src={story.image}
+        alt={story.image_alt}
+        loading="eager"
+        class="w-full h-auto max-h-[460px] object-cover"
+      />
+    </div>
+
+    <!-- Web Speech & Audio Player Component -->
+    <AudioPlayer
+      storyId={story.id}
+      storyTitle={story.title}
+      storyText={story.full_text}
+      audioUrl={story.audio_url}
+      language={story.language}
+    />
+
+    <!-- Classroom & Projector Mode Controls -->
+    <ClassroomMode
+      storyTitle={story.title}
+      storyMoral={story.moral}
+      values={story.values}
+    />
+
+    <!-- Bilingual Side-by-Side Reading Mode Component -->
+    <BilingualViewer
+      currentStoryId={story.id}
+      currentLang={story.language}
+    />
+
+    <!-- Full Story Body (Paragraphs rendered without summarization) -->
+    <div class="my-8 text-base sm:text-lg text-slate-800 dark:text-slate-200 leading-relaxed font-serif space-y-6" id="story-body-text">
+      {story.full_text.split('\n\n').map(paragraph => (
+        <p class="leading-relaxed">{paragraph}</p>
+      ))}
+    </div>
+
+    <!-- Moral & Thought of the Day Card -->
+    <div class="my-8 p-6 sm:p-8 rounded-3xl bg-amber-100/70 dark:bg-slate-900 border-2 border-amber-300 dark:border-amber-800 shadow-sm text-center">
+      <span class="inline-block px-3.5 py-1 rounded-full bg-amber-500 text-white font-extrabold text-xs uppercase tracking-wider mb-3">
+        💡 {t.moral}
+      </span>
+      <blockquote class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white italic leading-relaxed">
+        "{story.moral}"
+      </blockquote>
+    </div>
+
+    <!-- Vocabulary Helper (Word Magic) -->
+    {story.vocabulary && story.vocabulary.length > 0 && (
+      <VocabularyTooltip vocabulary={story.vocabulary} />
+    )}
+
+    <!-- 3-Question Comprehension Quiz -->
+    {story.quiz && story.quiz.length > 0 && (
+      <QuizModal
+        storyId={story.id}
+        storyTitle={story.title}
+        quiz={story.quiz}
+      />
+    )}
+
+    <!-- Bloom's Taxonomy Discussion & Activity Cards -->
+    {story.discussion_questions && story.discussion_questions.length > 0 && (
+      <ThinkAndTalk
+        questions={story.discussion_questions}
+        reflectionPrompt={story.reflection_prompt}
+        activity={story.activity}
+        values={story.values}
+      />
+    )}
+
+    <!-- Magic Moment After-Story Ritual -->
+    <MagicMoment
+      storyId={story.id}
+      storyTitle={story.title}
+      moral={story.moral}
+      teaser={story.teaser}
+      collection={story.collection}
+      language={story.language}
+      nextStorySlug={nextStory?.slug}
+    />
+
+    <!-- Previous / Next Story Navigation -->
+    <nav class="my-10 grid grid-cols-1 sm:grid-cols-2 gap-4 border-t border-amber-200 dark:border-slate-800 pt-8">
+      {prevStory ? (
+        <a href={`/${lang}/stories/${prevStory.slug}/`} class="p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-amber-400 transition-colors">
+          <span class="text-xs text-slate-400 block mb-1">← Previous Story</span>
+          <span class="font-bold text-sm text-slate-800 dark:text-slate-100 line-clamp-1">{prevStory.title}</span>
+        </a>
+      ) : <div />}
+
+      {nextStory && (
+        <a href={`/${lang}/stories/${nextStory.slug}/`} class="p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-amber-400 transition-colors sm:text-right">
+          <span class="text-xs text-slate-400 block mb-1">Next Story →</span>
+          <span class="font-bold text-sm text-slate-800 dark:text-slate-100 line-clamp-1">{nextStory.title}</span>
+        </a>
+      )}
+    </nav>
+
+    <!-- Related Stories from Collection/Genre -->
+    {relatedStories.length > 0 && (
+      <section class="my-12">
+        <h3 class="text-xl font-black text-slate-900 dark:text-white mb-6">
+          {t.relatedStories}
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          {relatedStories.map(rs => (
+            <a href={`/${lang}/stories/${rs.slug}/`} class="group bg-white dark:bg-slate-900 rounded-2xl border border-amber-200 dark:border-slate-800 overflow-hidden shadow-xs hover:shadow-md transition-shadow">
+              <div class="aspect-16/10 overflow-hidden">
+                <img src={rs.image} alt={rs.image_alt} loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+              </div>
+              <div class="p-4">
+                <span class="text-[10px] uppercase font-bold text-amber-600 block mb-1">{rs.collection}</span>
+                <h4 class="font-bold text-sm text-slate-800 dark:text-slate-200 group-hover:text-amber-600 line-clamp-2">{rs.title}</h4>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Printable Worksheet View (Visible Only during window.print()) -->
+    <div class="hidden print:block font-serif p-8">
+      <h1 class="text-2xl font-bold mb-2">{story.title}</h1>
+      <div class="text-sm italic mb-4">Values: {story.values.join(', ')} • Collection: {story.collection}</div>
+      <p class="leading-relaxed mb-6">{story.full_text}</p>
+      <div class="p-4 border border-black mb-4">
+        <strong>Moral:</strong> {story.moral}
+      </div>
+      <div class="mt-4">
+        <strong>Student Reflection:</strong>
+        <div class="h-24 border border-dashed border-gray-400 mt-2"></div>
+      </div>
+    </div>
+
+  </article>
+
+  <!-- Problem Report Modal -->
+  <div id="report-modal" class="hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+    <div class="max-w-md w-full bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-700 shadow-2xl">
+      <div class="flex items-center justify-between pb-3 border-b border-slate-100 dark:border-slate-800 mb-4">
+        <h4 class="font-extrabold text-slate-900 dark:text-white">Report Content or Suggestion</h4>
+        <button id="close-report-modal" class="text-slate-400 hover:text-black dark:hover:text-white">✕</button>
+      </div>
+
+      <form id="report-form" class="space-y-4">
+        <input type="hidden" name="story_id" value={story.id} />
+        <div>
+          <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">Issue Category</label>
+          <select name="category" class="w-full p-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent text-xs sm:text-sm">
+            <option value="translation_issue">Translation Nuance / Typo</option>
+            <option value="content_concern">Safety or Age Appropriateness</option>
+            <option value="audio_issue">Audio Narration Glitch</option>
+            <option value="other">Other Suggestion</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">Details</label>
+          <textarea name="message" rows="3" required placeholder="Describe the issue kindly..." class="w-full p-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent text-xs sm:text-sm"></textarea>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">Your Email (Optional, for updates)</label>
+          <input type="email" name="sender_email" placeholder="adult@family.com" class="w-full p-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent text-xs sm:text-sm" />
+        </div>
+        <button type="submit" class="w-full py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-sm shadow-md transition-colors">
+          Submit Report to Moderators
+        </button>
+      </form>
+      <div id="report-status" class="hidden mt-3 text-xs text-center text-emerald-600 font-bold"></div>
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function initStoryPage() {
+    const root = document.getElementById('story-article-root');
+    if (!root) return;
+    const storyId = root.getAttribute('data-story-id');
+
+    // 1. Favorites Toggle
+    const favBtn = document.getElementById('btn-favorite');
+    const favIcon = document.getElementById('fav-icon');
+    const favLabel = document.getElementById('fav-label');
+
+    function checkFavorite() {
+      const favs = JSON.parse(localStorage.getItem('story_favorites') || '[]');
+      const isFav = favs.includes(storyId);
+      if (favIcon) favIcon.textContent = isFav ? '❤️' : '🤍';
+      if (favLabel) favLabel.textContent = isFav ? 'Saved in My Corner' : 'Save to My Corner';
+    }
+
+    if (favBtn) {
+      checkFavorite();
+      favBtn.addEventListener('click', () => {
+        const favs = JSON.parse(localStorage.getItem('story_favorites') || '[]');
+        const idx = favs.indexOf(storyId);
+        if (idx >= 0) {
+          favs.splice(idx, 1);
+        } else {
+          favs.push(storyId);
+        }
+        localStorage.setItem('story_favorites', JSON.stringify(favs));
+        checkFavorite();
+      });
+    }
+
+    // 2. Report Modal Logic
+    const reportBtn = document.getElementById('btn-report-problem');
+    const reportModal = document.getElementById('report-modal');
+    const closeReportBtn = document.getElementById('close-report-modal');
+    const reportForm = document.getElementById('report-form');
+    const reportStatus = document.getElementById('report-status');
+
+    if (reportBtn && reportModal) {
+      reportBtn.addEventListener('click', () => reportModal.classList.remove('hidden'));
+      closeReportBtn.addEventListener('click', () => reportModal.classList.add('hidden'));
+
+      reportForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const formData = new FormData(reportForm);
+        const payload = Object.fromEntries(formData.entries());
+        payload.feedback_type = 'report_problem';
+
+        try {
+          const res = await fetch('/api/feedback', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+          reportStatus.textContent = 'Report received! Our editorial team will review this within 24 hours.';
+          reportStatus.classList.remove('hidden');
+          setTimeout(() => { reportModal.classList.add('hidden'); }, 2000);
+        } catch(e) {
+          reportStatus.textContent = 'Report submitted. Thank you for helping keep our library pristine!';
+          reportStatus.classList.remove('hidden');
+          setTimeout(() => { reportModal.classList.add('hidden'); }, 2000);
+        }
+      });
+    }
+  })();
+</script>

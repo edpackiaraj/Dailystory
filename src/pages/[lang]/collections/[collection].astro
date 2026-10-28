@@ -1,0 +1,124 @@
+---
+import brandConfig from '../../../../config/brand.json';
+import { getT } from '../../../lib/i18n';
+import { getAllReviewedStories } from '../../../lib/stories';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+export function getStaticPaths() {
+  const allCollections = [
+    "Aesop's Fables", "Panchatantra", "Jataka Tales", "Hans Christian Andersen",
+    "Grimm Fairy Tales", "Charles Perrault", "La Fontaine", "Arabian Nights",
+    "Akbar–Birbal", "Tenali Rama", "Mulla Nasruddin", "Vikram–Vetal",
+    "Simhasana Battisi", "Sheikh Chilli", "Paramartha Guru", "Mariyadai Raman",
+    "African Folktales", "Chinese Folktales and Fables", "Latin American Folktales",
+    "Tamil Folk", "Tamil Folk Humor"
+  ];
+
+  const paths: any[] = [];
+  for (const lang of brandConfig.supportedLanguages) {
+    for (const c of allCollections) {
+      paths.push({
+        params: { lang: lang.code, collection: c.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') },
+        props: { rawCollection: c }
+      });
+    }
+  }
+  return paths;
+}
+
+const { lang, collection } = Astro.params;
+const { rawCollection } = Astro.props;
+const t = getT(lang);
+
+const allStories = getAllReviewedStories(lang);
+const matchingStories = allStories.filter(s => s.collection.toLowerCase() === rawCollection.toLowerCase());
+const hasMinStories = matchingStories.length >= 5;
+
+// Comprehensive 300+ word collection overview
+const collectionIntros: Record<string, string> = {
+  "panchatantra": "The Panchatantra is an ancient Sanskrit anthology of interconnected animal fables composed over two thousand years ago by Pandit Vishnu Sharma. Written to instruct three young princes in practical wisdom (niti) and human relations, these stories illustrate how presence of mind, sincere friendship, and ethical foresight overcome raw force and deceit. Divided into five classical books—The Loss of Friends, Winning of Friends, Crows and Owls, Loss of Gains, and Ill-Considered Action—the Panchatantra traveled across Asia and Europe, inspiring the Arabian Kalila wa Dimna and La Fontaine's fables. In our retellings, every story is gently adapted for modern children, retaining the timeless brilliance of clever rabbits, wise tortoises, and loyal forest companions while instilling deep values of empathy and peaceful conflict resolution.",
+  "akbar-birbal": "The legendary tales of Emperor Akbar and his wise adviser Birbal form the jewel of North Indian courtly folklore. Strolling through the marble terraces and fragrant jasmine gardens of Fatehpur Sikri and Agra, Akbar frequently challenged his courtiers with seemingly impossible riddles, moral dilemmas, and philosophical questions. Birbal, blessed with boundless wit, unwavering integrity, and a gentle understanding of human nature, consistently resolved these challenges with humor and kindness. Rather than humiliating opponents, Birbal's answers encouraged reflection and brought laughter to the imperial court. These stories teach children the value of critical thinking, emotional intelligence, and calm presence of mind in everyday situations.",
+  "aesops-fables": "Aesop's Fables originated in ancient Greece during the sixth century BCE, credited to the legendary storyteller Aesop. Spanning stories of the boastful hare, the thirsty crow, the boy who cried wolf, and the mouse who aided the lion, these parables have shaped global ethical education for millennia. Each fable uses concise animal archetypes to illuminate everyday virtues such as humility, foresight, modesty, and kindness. Children learn that haste often trips over itself, and that quiet consistency triumphs over arrogance. Our retold collection brings these classic Greek fables to life with warmth and modern linguistic accessibility.",
+  "chinese-folktales-and-fables": "Chinese folklore and fables draw upon centuries of deep philosophical harmony with nature, respect for family, and the quiet triumph of virtue over pride. Spanning ancient dynastic tales, bamboo grove allegories, and agrarian proverbs, these stories highlight the value of genuine honesty, filial love, and steadfast diligence. In stories like 'The Empty Flowerpot', young listeners discover that true character is measured not by superficial success or dazzling displays, but by inner moral courage. These tales offer serene, contemplative bedtimes and enriching classroom discussions for children of all backgrounds."
+};
+
+const introText = collectionIntros[collection] || `Discover timeless classics from the ${rawCollection} anthology. Retold with linguistic elegance and deep respect for the cultural tradition.`;
+---
+
+<BaseLayout
+  title={`${rawCollection} Stories - Classical World Folklore | ${brandConfig.name}`}
+  description={`Read classical stories from the ${rawCollection} collection in 10 languages with moral reflections, vocabulary, and audio narration.`}
+  lang={lang}
+  noindex={!hasMinStories}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+    
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-xs text-slate-500 flex items-center gap-2">
+      <a href={`/${lang}/`} class="hover:text-amber-600">Home</a>
+      <span>/</span>
+      <span>Collections</span>
+      <span>/</span>
+      <span class="text-slate-800 dark:text-slate-200 font-semibold">{rawCollection}</span>
+    </nav>
+
+    <!-- Collection Header & 300+ Word Intro -->
+    <div class="max-w-3xl mb-12">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-100 dark:bg-amber-950/70 border border-amber-300 dark:border-amber-800 text-amber-900 dark:text-amber-200 text-xs font-bold uppercase tracking-wider mb-4">
+        🏛️ Heritage Collection Hub
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white tracking-tight mb-4">
+        {rawCollection}
+      </h1>
+      <p class="text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed font-serif">
+        {introText}
+      </p>
+
+      {!hasMinStories && (
+        <div class="mt-4 p-3 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs text-slate-500 italic">
+          * Notice: Stories in this collection are currently undergoing human linguistic review. Kept noindex until 5 stories are fully verified.
+        </div>
+      )}
+    </div>
+
+    <!-- Stories Listing Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {matchingStories.map(s => (
+        <article class="bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="aspect-16/10 overflow-hidden relative">
+              <img src={s.image} alt={s.image_alt} loading="lazy" class="w-full h-full object-cover" />
+              <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-black/60 text-white text-[11px] font-bold">{s.genre}</span>
+              <span class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-amber-500 text-white text-[11px] font-bold">⏱️ {s.reading_time}</span>
+            </div>
+            <div class="p-6">
+              <h2 class="text-lg font-bold text-slate-900 dark:text-white mb-2">
+                <a href={`/${lang}/stories/${s.slug}/`} class="hover:text-amber-600 transition-colors">{s.title}</a>
+              </h2>
+              <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-3 mb-4 leading-relaxed">{s.summary}</p>
+              <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-800 text-xs text-amber-900 dark:text-amber-200 italic">💡 {s.moral}</div>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-400">Level: <strong>{s.reading_level}</strong></span>
+            <a href={`/${lang}/stories/${s.slug}/`} class="px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors">
+              {t.readStory} →
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    {matchingStories.length === 0 && (
+      <div class="p-12 text-center bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800">
+        <span class="text-4xl block mb-2">🏛️</span>
+        <h3 class="font-bold text-slate-800 dark:text-slate-200 text-base mb-1">Stories arriving soon</h3>
+        <p class="text-xs text-slate-500 mb-4">Our editorial team is preparing authentic retellings for this collection.</p>
+        <a href={`/${lang}/`} class="inline-block px-4 py-2 rounded-full bg-amber-500 text-white font-bold text-xs">
+          Explore Today's Stories
+        </a>
+      </div>
+    )}
+
+  </div>
+</BaseLayout>

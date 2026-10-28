@@ -1,0 +1,86 @@
+---
+interface Props {
+  vocabulary: { word: string; meaning: string }[];
+}
+
+const { vocabulary } = Astro.props;
+---
+
+<div class="my-6 p-5 sm:p-6 rounded-3xl bg-amber-50/50 dark:bg-slate-900 border border-amber-200 dark:border-slate-800">
+  <div class="flex items-center gap-2 mb-4">
+    <span class="text-xl">📚</span>
+    <h3 class="text-sm sm:text-base font-extrabold text-slate-900 dark:text-white">
+      Word Magic (Tap for meaning &amp; sound)
+    </h3>
+  </div>
+
+  <div class="flex flex-wrap gap-2.5">
+    {vocabulary.map((item) => (
+      <button
+        type="button"
+        class="vocab-pill px-3 py-1.5 rounded-full bg-white dark:bg-slate-800 border border-amber-300 dark:border-slate-700 text-xs sm:text-sm font-semibold text-amber-900 dark:text-amber-200 hover:bg-amber-100 dark:hover:bg-slate-700 shadow-2xs transition-all flex items-center gap-1.5"
+        data-word={item.word}
+        data-meaning={item.meaning}
+      >
+        <span>{item.word}</span>
+        <span class="text-[10px] text-amber-600 dark:text-amber-400">🔍</span>
+      </button>
+    ))}
+  </div>
+
+  <!-- Definition Modal/Popup Bar -->
+  <div id="vocab-display" class="hidden mt-4 p-4 rounded-2xl bg-amber-100 dark:bg-amber-950/70 border border-amber-300 dark:border-amber-800 text-amber-950 dark:text-amber-100 text-xs sm:text-sm flex items-center justify-between gap-4 animate-in fade-in-50">
+    <div>
+      <div class="font-extrabold text-sm capitalize flex items-center gap-2">
+        <span id="vocab-display-word"></span>
+        <button id="vocab-pronounce-btn" title="Pronounce word" class="p-1 rounded bg-amber-200 dark:bg-amber-800 hover:bg-amber-300">
+          🔊
+        </button>
+      </div>
+      <div id="vocab-display-meaning" class="text-xs text-amber-900 dark:text-amber-200/90 mt-0.5"></div>
+    </div>
+    <button id="vocab-dismiss-btn" class="text-xs text-amber-800 dark:text-amber-300 hover:underline px-2 py-1">
+      Close ✕
+    </button>
+  </div>
+</div>
+
+<script is:inline>
+  (function initVocabHelper() {
+    const pills = document.querySelectorAll('.vocab-pill');
+    const display = document.getElementById('vocab-display');
+    const displayWord = document.getElementById('vocab-display-word');
+    const displayMeaning = document.getElementById('vocab-display-meaning');
+    const pronounceBtn = document.getElementById('vocab-pronounce-btn');
+    const dismissBtn = document.getElementById('vocab-dismiss-btn');
+
+    let currentWord = '';
+
+    pills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        currentWord = pill.getAttribute('data-word');
+        const meaning = pill.getAttribute('data-meaning');
+
+        if (display && displayWord && displayMeaning) {
+          displayWord.textContent = currentWord;
+          displayMeaning.textContent = meaning;
+          display.classList.remove('hidden');
+        }
+      });
+    });
+
+    if (pronounceBtn) {
+      pronounceBtn.addEventListener('click', () => {
+        if (!currentWord || !('speechSynthesis' in window)) return;
+        const utter = new SpeechSynthesisUtterance(currentWord);
+        window.speechSynthesis.speak(utter);
+      });
+    }
+
+    if (dismissBtn && display) {
+      dismissBtn.addEventListener('click', () => {
+        display.classList.add('hidden');
+      });
+    }
+  })();
+</script>

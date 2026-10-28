@@ -1,0 +1,64 @@
+---
+---
+
+<div class="p-6 sm:p-8 rounded-3xl bg-linear-to-b from-indigo-50 to-blue-50 dark:from-slate-900 dark:to-slate-950 border border-indigo-200 dark:border-indigo-950 shadow-sm" id="story-passport-root">
+  <div class="flex items-center gap-3 mb-6">
+    <div class="w-12 h-12 rounded-2xl bg-indigo-600 text-white flex items-center justify-center text-2xl shadow-sm">
+      🛂
+    </div>
+    <div>
+      <h3 class="text-lg sm:text-xl font-black text-slate-900 dark:text-white">
+        Your World Story Passport
+      </h3>
+      <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+        Collect cultural stamps from folklore traditions around the globe.
+      </p>
+    </div>
+  </div>
+
+  <!-- Stamps Grid -->
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-4" id="passport-stamps-grid">
+    <!-- Populated from localStorage -->
+  </div>
+</div>
+
+<script is:inline>
+  (function renderPassport() {
+    const grid = document.getElementById('passport-stamps-grid');
+    if (!grid) return;
+
+    const availableStamps = [
+      { id: 'Panchatantra', title: 'Ancient India', flag: '🇮🇳', icon: '🐘' },
+      { id: 'Akbar–Birbal', title: 'Mughal Wisdom', flag: '🇮🇳', icon: '👑' },
+      { id: "Aesop's Fables", title: 'Ancient Greece', flag: '🏛️', icon: '🐢' },
+      { id: 'Chinese Folktales and Fables', title: 'Misty Mountains', flag: '🇨🇳', icon: '🎋' },
+      { id: 'Latin American Folktales', title: 'Andean Canopy', flag: '🌿', icon: '🦜' },
+      { id: 'African Folktales', title: 'Serengeti Lore', flag: '🌍', icon: '🦁' },
+      { id: 'Grimm Fairy Tales', title: 'European Woods', flag: '🏰', icon: '🍎' },
+      { id: 'Tamil Folk Humor', title: 'Kaveri Heritage', flag: '🌴', icon: '📜' }
+    ];
+
+    const passport = JSON.parse(localStorage.getItem('story_passport') || '{"collections":[],"languages":[]}');
+    const unlocked = new Set(passport.collections || []);
+
+    grid.innerHTML = '';
+    availableStamps.forEach(s => {
+      const isUnlocked = unlocked.has(s.id) || unlocked.size === 0; // Show first as welcoming starter
+      const stampCard = document.createElement('div');
+      stampCard.className = `p-4 rounded-2xl border text-center transition-all ${
+        isUnlocked 
+          ? 'bg-white dark:bg-slate-800 border-indigo-200 dark:border-indigo-800 shadow-2xs' 
+          : 'bg-slate-100/50 dark:bg-slate-900/40 border-slate-200 dark:border-slate-800 opacity-50'
+      }`;
+      stampCard.innerHTML = `
+        <div class="text-3xl mb-1">${s.icon}</div>
+        <div class="text-xs font-bold text-slate-800 dark:text-slate-200">${s.title}</div>
+        <div class="text-[10px] text-slate-500">${s.id}</div>
+        <div class="mt-2 text-xs font-semibold ${isUnlocked ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-400'}">
+          ${isUnlocked ? '✓ Stamp Earned' : '🔒 Read to Unlock'}
+        </div>
+      `;
+      grid.appendChild(stampCard);
+    });
+  })();
+</script>

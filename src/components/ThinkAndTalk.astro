@@ -1,0 +1,78 @@
+---
+interface Props {
+  questions: { tier: string; prompt: string }[];
+  reflectionPrompt: string;
+  activity: string;
+  values: string[];
+}
+
+const { questions, reflectionPrompt, activity, values } = Astro.props;
+
+const tierIcons: Record<string, string> = {
+  Remember: "🔍",
+  Understand: "💡",
+  Apply: "🌱",
+  Evaluate: "⚖️",
+  Create: "🎨"
+};
+---
+
+<div class="my-8 space-y-6">
+  <!-- Think & Talk Section Header -->
+  <div class="p-6 sm:p-8 rounded-3xl bg-indigo-50/70 dark:bg-slate-900 border border-indigo-200 dark:border-indigo-950 shadow-sm">
+    <div class="flex items-center gap-3 mb-6">
+      <div class="w-12 h-12 rounded-2xl bg-indigo-600 text-white flex items-center justify-center text-2xl shadow-sm">
+        💬
+      </div>
+      <div>
+        <h3 class="text-lg sm:text-xl font-black text-slate-900 dark:text-white">
+          Think &amp; Talk (Bloom's Taxonomy)
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+          Guided questions to spark deep thinking, family conversation, and classroom wonder.
+        </p>
+      </div>
+    </div>
+
+    <!-- Bloom's Taxonomy Tiered Discussion Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+      {questions.map((q) => (
+        <div class="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-indigo-100 dark:border-indigo-900/60 shadow-xs flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 mb-2">
+              <span class="text-base">{tierIcons[q.tier] || "✨"}</span>
+              <span class="text-[11px] font-extrabold uppercase tracking-wider text-indigo-700 dark:text-indigo-300">
+                Level: {q.tier}
+              </span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 dark:text-slate-200 font-medium leading-relaxed">
+              "{q.prompt}"
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Reflection Prompt ("What would you have done?") -->
+    <div class="p-5 rounded-2xl bg-amber-100/60 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 mb-6">
+      <div class="flex items-center gap-2 mb-2 font-bold text-amber-900 dark:text-amber-200 text-sm">
+        <span>🌟</span>
+        <span>Reflection Prompt: "What would you have done?"</span>
+      </div>
+      <p class="text-xs sm:text-sm text-amber-950 dark:text-amber-100 italic leading-relaxed">
+        {reflectionPrompt}
+      </p>
+    </div>
+
+    <!-- Activity of the Day -->
+    <div class="p-5 rounded-2xl bg-emerald-100/60 dark:bg-emerald-950/40 border border-emerald-300 dark:border-emerald-800">
+      <div class="flex items-center gap-2 mb-2 font-bold text-emerald-900 dark:text-emerald-200 text-sm">
+        <span>🎨</span>
+        <span>Hands-On Family &amp; Classroom Activity</span>
+      </div>
+      <p class="text-xs sm:text-sm text-emerald-950 dark:text-emerald-100 leading-relaxed">
+        {activity}
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,652 @@
+[
+  {
+    "id": "latin-golden-hummingbird",
+    "slug": "el-pequeno-colibri-y-el-fuego-del-bosque",
+    "language": "es",
+    "title": "El Pequeño Colibrí y el Gran Fuego del Bosque",
+    "genre": "Folktales",
+    "collection": "Latin American Folktales",
+    "culture_region": "Andes / South America",
+    "age_group": "Below 13",
+    "summary": "Cuando un incendio amenaza el bosque andino, un diminuto colibrí transporta gotas de agua una a una, inspirando a todos los animales a unirse.",
+    "keywords": [
+      "cuentos para dormir",
+      "cuentos infantiles",
+      "fabulas con moraleja",
+      "leyenda del colibri",
+      "cuentos populares de america latina"
+    ],
+    "tags": [
+      "Naturaleza",
+      "Trabajo en equipo",
+      "Valentía",
+      "Cuentos para dormir"
+    ],
+    "full_text": "En las altas laderas verdes de los Andes, el bosque milenario rebosaba de vida. Los osos de anteojos buscaban bayas silvestres y los tucanes cantaban entre las nubes. Entre todos ellos vivía Colibrí, un pajarito cuyas plumas brillaban con destellos de rubí, oro y zafiro.\n\nUna tarde calurosa de verano, un rayo solitario encendió las ramas secas de un viejo pino. Pronto, densas columnas de humo se elevaron hacia el cielo y el fuego comenzó a avanzar con rapidez. Los animales, asustados, comenzaron a huir. El gran jaguar cruzó el río a saltos, los tapires corrieron hacia las llanuras y los monos se balancearon rápidamente lejos del peligro.\n\nTodos huyeron, excepto el pequeño Colibrí.\n\nEl valiente pajarito voló hacia el río de la montaña, sumergió su pico fino en el agua fresca y recogió una única gota cristalina. Volando a toda prisa hacia el humo, dejó caer esa diminuta gota sobre las llamas. Luego regresó al río, tomó otra gota y volvió a arrojarla. Una y otra vez, batiendo sus alas a una velocidad asombrosa, era un destello de luz y valor en medio del humo.\n\nDesde la orilla lejana del río, el armadillo lo miró con asombro y gritó: '¡Colibrí! ¿Qué locura estás haciendo? ¡Eres más pequeño que una hoja! ¡Tus gotas de agua jamás podrán apagar semejante incendio! ¡Sálvate tú también!'\n\nColibrí se detuvo apenas un instante en el aire y respondió con voz clara y serena: 'Sé que mis gotas son pequeñas, querido amigo. Sé que no puedo apagar todo el fuego yo solo. Pero este bosque es nuestro hogar. Yo estoy haciendo mi parte.'\n\nY sin dudarlo, regresó al río por otra gota de agua.\n\nLos animales en la orilla guardaron un silencio absoluto. El poderoso jaguar miró sus fuertes garras; los tapires contemplaron sus amplias espaldas; el gran cóndor extendió sus inmensas alas. 'Si una criatura tan pequeña no se rinde ante el peligro,' rugió el jaguar con nobleza, '¿cómo podemos nosotros, que somos fuertes, quedarnos sin hacer nada?'\n\nEl cóndor voló alto agitando sus alas para dispersar el humo. Los osos y tapires cargaron agua en calabazas y la arrojaron sobre la hierba seca. Los monos se organizaron pasando musgo empapado de rama en rama.\n\nTrabajando juntos, gota a gota y esfuerzo tras esfuerzo, los animales lograron enfriar las brasas y apagar el fuego. Al caer la tarde, una suave llovizna bendijo la montaña.\n\nTodos se reunieron alrededor del pequeño colibrí, que descansaba sobre un helecho verde. Comprendieron que la verdadera grandeza no reside en el tamaño de las alas, sino en la generosidad y el coraje del corazón.",
+    "moral": "Ninguna acción bondadosa es insignificante. Cuando cada uno aporta su parte con el corazón, superamos cualquier adversidad.",
+    "image": "/images/stories/latin-hummingbird.svg",
+    "image_alt": "Ilustración de un colibrí dorado brillante llevando una gota de agua cristalina sobre el bosque",
+    "word_count": 480,
+    "reading_time": "3 min",
+    "listen_time": "4 min",
+    "audio_url": null,
+    "publish_date": "2026-10-24",
+    "is_bedtime": true,
+    "quiz": [
+      {
+        "question": "¿Qué llevaba el colibrí en su pico para ayudar a apagar el fuego?",
+        "options": [
+          "(Recommended) Gotas de agua pura del río de la montaña",
+          "Hojas secas del bosque",
+          "Semillas doradas"
+        ],
+        "answerIndex": 0,
+        "hint": "Aunque era diminuto, llevaba agua gota a gota."
+      },
+      {
+        "question": "¿Qué respondió Colibrí cuando le dijeron que sus esfuerzos eran inútiles?",
+        "options": [
+          "'Yo estoy haciendo mi parte.'",
+          "'Tengo mucho miedo.'",
+          "'El fuego es mi amigo.'"
+        ],
+        "answerIndex": 0,
+        "hint": "Él creía que cada pequeño esfuerzo cuenta para salvar su hogar."
+      },
+      {
+        "question": "¿Qué hicieron los demás animales al ver el coraje de Colibrí?",
+        "options": [
+          "Se unieron en equipo para ayudar a apagar el incendio",
+          "Se fueron a dormir a una cueva lejana",
+          "Se rieron y no hicieron nada"
+        ],
+        "answerIndex": 0,
+        "hint": "El ejemplo del colibrí inspiró a todos los animales grandes."
+      }
+    ],
+    "author": "Leyenda tradicional quechua y guaraní",
+    "status": "published",
+    "content_notes": "Cuento tradicional sobre el cuidado de la naturaleza y el trabajo en equipo. Seguro para toda la familia.",
+    "values": [
+      "teamwork",
+      "courage",
+      "empathy",
+      "responsibility"
+    ],
+    "reading_level": "Beginner",
+    "vocabulary": [
+      {
+        "word": "milenario",
+        "meaning": "que tiene miles de años de antigüedad"
+      },
+      {
+        "word": "destellos",
+        "meaning": "brillos rápidos y hermosos de luz"
+      },
+      {
+        "word": "solidaridad",
+        "meaning": "ayudarse mutuamente para lograr un bien común"
+      }
+    ],
+    "discussion_questions": [
+      {
+        "tier": "Remember",
+        "prompt": "¿Dónde se desarrolla esta hermosa historia tradicional?"
+      },
+      {
+        "tier": "Understand",
+        "prompt": "¿Por qué el armadillo pensaba al principio que el colibrí perdía su tiempo?"
+      },
+      {
+        "tier": "Apply",
+        "prompt": "¿Qué pequeña acción puedes hacer hoy en tu casa o escuela para 'hacer tu parte'?"
+      },
+      {
+        "tier": "Evaluate",
+        "prompt": "¿Por qué el ejemplo de una sola persona puede motivar a todo un grupo?"
+      },
+      {
+        "tier": "Create",
+        "prompt": "Dibuja al colibrí descansando felizmente entre los helechos verdes tras salvar el bosque."
+      }
+    ],
+    "reflection_prompt": "¿Alguna vez te has sentido pequeño para ayudar? ¿Qué te enseña Colibrí?",
+    "activity": "Llena un vaso con agua gota a gota usando una cuchara y descubre cuánta paciencia tiene la naturaleza.",
+    "mood": [
+      "brave",
+      "calm",
+      "comforting"
+    ],
+    "teaser": "¡Mañana, acompáñanos a descubrir la legendaria fábula de la tortuga paciente y la liebre veloz!",
+    "series_id": null,
+    "part_number": null,
+    "reviewed": true,
+    "source": "Tradición oral andina",
+    "license": "Public Domain",
+    "credit": "Equipo Editorial Dhinam Oru Kathai"
+  },
+  {
+    "id": "panchatantra-clever-rabbit-lion",
+    "slug": "clever-little-rabbit-and-the-fierce-lion-es",
+    "language": "es",
+    "title": "[Draft ES] The Clever Little Rabbit and the Proud Lion",
+    "genre": "Fables",
+    "collection": "Panchatantra",
+    "culture_region": "Ancient India",
+    "age_group": "Below 13",
+    "summary": "[Draft ES] When a mighty lion terrifies the forest animals, a tiny but clever rabbit uses wisdom and a deep jungle well to restore peace.",
+    "keywords": [
+      "clever rabbit story",
+      "panchatantra fables for kids",
+      "brain over brawn moral story",
+      "short bedtime story about animals",
+      "panchatantra lion and rabbit"
+    ],
+    "tags": [
+      "Animals",
+      "Wisdom",
+      "Forest",
+      "Courage",
+      "Bedtime"
+    ],
+    "full_text": "[Draft ES] Deep in the whispering forest of Chandravan lived a mighty lion named Bhasuraka. He was strong, fierce, and proud. Every single morning, he roared so loudly that the trees trembled, hunting far more animals than he ever needed for his meal. The birds grew silent, the deer hid behind thickets, and the woodland was filled with worry.\n\nOne afternoon, the wise elders of the forest—the grandmother elephant, the spotted deer, and the little brown rabbit—gathered by the riverbank. 'If Bhasuraka continues like this,' said the deer, 'soon none of us will remain.' They decided to speak gently with the lion. The elders walked to the lion's den and bowed politely. 'O King of the Forest,' spoke the elephant, 'hunting every creature wastes the forest's life. We promise to send one animal peacefully each day to your door, so you need not tire yourself, and our families may live without terror.' The proud lion agreed, with one stern warning: 'If anyone is late by a single heartbeat, I will consume the entire woodland.'\n\nMany peaceful days passed until it was the turn of a tiny rabbit named Chatura. Chatura was small, with soft velvety ears and bright inquisitive eyes. His companions wept as they bade him farewell, but Chatura smiled warmly. 'Do not weep, dear friends,' he whispered. 'Physical strength is grand, but a calm mind can solve what muscles cannot.'\n\nChatura deliberately took his time. He rested beneath shady banyan leaves, munched sweet clovers, watched the gentle clouds drift by, and listened to the bubbling creek. By the time the sunset painted the sky in shades of amber and violet, the lion was furious. His stomach was growling like thunder.\n\nWhen Chatura finally hopped toward the den, Bhasuraka sprang up, teeth bared. 'You puny speck of fluff!' roared the lion. 'How dare you keep me waiting? I shall gobble you up and destroy all your friends before sunrise!'\n\nChatura bowed with complete tranquility. 'Majesty,' he said in a calm, respectful tone, 'it is not my fault. Three other rabbits and I set out at noon to serve you. But on the way, another enormous lion stepped out from an ancient stone fortress. He roared that he is the true king of this forest. He captured my companions and sent me only to warn you.'\n\nBhasuraka's pride flared like wild flames. 'Another lion in my kingdom? Take me to him at once!'\n\nChatura hopped ahead, leading the furious lion to an ancient, deep stone well near the forest edge. The water inside was crystal-clear and calm as a mirror. 'He is hiding down inside his fortress, Your Majesty,' said the rabbit, pointing with his ear.\n\nBhasuraka peered over the stone wall. Looking straight back up at him was the face of a fierce lion with blazing eyes. When Bhasuraka opened his jaws and unleashed a deafening roar, the deep well echoed the roar back at twice the volume. Seeing his reflection mimic his rage and hearing the roaring echo, Bhasuraka believed his rival was defying him. Without a second thought, he leapt down into the well to battle the illusion.\n\nThe forest instantly fell quiet. Chatura smiled, thanked the cool water, and hopped joyfully back to his family. From that day forward, the animals of Chandravan lived in harmony and safety, always remembering that true wisdom is greater than raw force.",
+    "moral": "[Draft ES] Wisdom and presence of mind can overcome brute force and protect the innocent.",
+    "image": "/images/stories/panchatantra-rabbit.svg",
+    "image_alt": "Illustration of a tiny clever rabbit looking thoughtfully into an ancient stone well in a lush forest",
+    "word_count": 560,
+    "reading_time": "3 min",
+    "listen_time": "4 min",
+    "audio_url": null,
+    "publish_date": "2026-10-28",
+    "is_bedtime": true,
+    "quiz": [
+      {
+        "question": "Why did the forest animals offer to send one animal each day to the lion?",
+        "options": [
+          "(Recommended) To stop the lion from over-hunting and restore peaceful safety",
+          "Because the lion was too elderly to run",
+          "Because they wanted to play a hide-and-seek game"
+        ],
+        "answerIndex": 0,
+        "hint": "Think about what the elephant elder said about protecting their forest families."
+      },
+      {
+        "question": "What did the lion actually see inside the deep well?",
+        "options": [
+          "His own reflection mirrored in the clear water",
+          "A magical sea monster",
+          "Another giant lion from a rival kingdom"
+        ],
+        "answerIndex": 0,
+        "hint": "Water acts like a shiny mirror when you look down into it."
+      },
+      {
+        "question": "When facing a big problem in school or at home, what does this story teach us to do?",
+        "options": [
+          "Stay calm and use patient thinking instead of anger or fear",
+          "Run away and never tell anyone",
+          "Shout as loudly as possible to scare others"
+        ],
+        "answerIndex": 0,
+        "hint": "Remember Chatura's words: a calm mind can solve what muscles cannot."
+      }
+    ],
+    "author": "Vishnu Sharma (Traditional Panchatantra Retelling)",
+    "status": "published",
+    "content_notes": "Family safe. Completely non-violent folklore retelling. The lion is trapped safely in the water without graphic depiction. (Machine draft awaiting human pedagogical review)",
+    "values": [
+      "wisdom",
+      "courage",
+      "patience",
+      "peacefulness"
+    ],
+    "reading_level": "Beginner",
+    "vocabulary": [
+      {
+        "word": "inquisitive",
+        "meaning": "eager to learn and explore new things"
+      },
+      {
+        "word": "tranquility",
+        "meaning": "a state of deep calm and peace"
+      },
+      {
+        "word": "reflection",
+        "meaning": "an image you see bounced back on shiny water or glass"
+      },
+      {
+        "word": "harmony",
+        "meaning": "living together happily without fighting"
+      }
+    ],
+    "discussion_questions": [
+      {
+        "tier": "Remember",
+        "prompt": "Where did Chatura lead the proud lion at sunset?"
+      },
+      {
+        "tier": "Understand",
+        "prompt": "Why did the well make the lion's roar sound twice as loud?"
+      },
+      {
+        "tier": "Apply",
+        "prompt": "How can you use calm thinking the next time something frightens or frustrates you?"
+      },
+      {
+        "tier": "Evaluate",
+        "prompt": "Do you think the lion's pride was his biggest weakness? Why or why not?"
+      },
+      {
+        "tier": "Create",
+        "prompt": "Draw a picture of Chatura's peaceful forest celebration with all his animal friends."
+      }
+    ],
+    "reflection_prompt": "What would you have done if you were the little rabbit standing before the lion?",
+    "activity": "Draw your own reflection in a bowl of still water! Watch how smiling at the water makes the water smile back at you.",
+    "mood": [
+      "calm",
+      "curious",
+      "brave"
+    ],
+    "teaser": "Tomorrow, discover how a clever courtier counted every crow in the kingdom with just a twinkle in his eye!",
+    "series_id": null,
+    "part_number": null,
+    "reviewed": false,
+    "source": "Panchatantra (Book 1: Mitra-bheda)",
+    "license": "Public Domain / Educational Retelling",
+    "credit": "Dhinam Oru Kathai Editorial Team"
+  },
+  {
+    "id": "akbar-birbal-how-many-crows",
+    "slug": "how-many-crows-in-the-kingdom-es",
+    "language": "es",
+    "title": "[Draft ES] How Many Crows in the Kingdom?",
+    "genre": "Humorous Tales",
+    "collection": "Akbar–Birbal",
+    "culture_region": "Mughal Empire",
+    "age_group": "All",
+    "summary": "[Draft ES] Emperor Akbar poses an impossible question to his royal court, only for his witty adviser Birbal to deliver an answer full of warmth and laughter.",
+    "keywords": [
+      "akbar birbal how many crows",
+      "funny moral stories for kids",
+      "witty court stories",
+      "birbal intelligence tales",
+      "humorous bedtime stories"
+    ],
+    "tags": [
+      "Humor",
+      "Wisdom",
+      "Royalty",
+      "Family",
+      "Wit"
+    ],
+    "full_text": "[Draft ES] One crisp autumn morning, Emperor Akbar and his favourite minister, Birbal, were strolling through the royal palace gardens. Dewdrops sparkled like diamonds on jasmine petals, and flock after flock of sleek black crows fluttered among the leafy mango trees, cawing cheerfully to one another.\n\nAkbar paused and watched a crow land gracefully upon a marble fountain. A mischievous thought blossomed in the Emperor's mind. He loved testing the sharp wit of his courtiers, especially Birbal.\n\nTurning with a serious expression, Akbar asked, 'Tell me, Birbal, you are famous for knowing the answer to every riddle under the sun. Can you tell me exactly how many crows reside in our entire imperial city?'\n\nBirbal looked at the crows. He closed his eyes for a quiet moment, as though mentally counting every rooftop, garden branch, and riverbank across the empire. The other courtiers nearby smirked, believing that this time, Birbal was finally trapped by an impossible question.\n\nBirbal opened his eyes, smiled with genuine warmth, and bowed gracefully. 'Your Imperial Majesty, there are exactly ninety-five thousand, four hundred and sixty-three crows in our city.'\n\nAkbar raised his eyebrow, thoroughly astonished. 'Are you certain of this exact count, Birbal? What if our royal guards conduct a census and find there are more crows than you stated?'\n\nBirbal chuckled softly. 'If there are more, Huzoor, it simply means that relatives from neighbouring kingdoms have flown in to visit their families for the holidays.'\n\nAkbar suppressed a smile, eager to test him further. 'And what if my guards count fewer crows than your number?'\n\n'Then, Majesty,' Birbal answered without a heartbeat of hesitation, 'it only proves that some of our city's crows have flown away on vacation to visit their dear relatives in faraway lands.'\n\nEmperor Akbar burst into hearty laughter that echoed across the fragrant gardens. He admired Birbal not just for his quick intelligence, but because his humor was always joyful, kind, and harm-free. Akbar removed a string of pearls from his cloak and gifted it to Birbal with great admiration.",
+    "moral": "[Draft ES] Wit and a lighthearted perspective can transform impossible riddles into shared moments of joy.",
+    "image": "/images/stories/akbar-birbal-crows.svg",
+    "image_alt": "Illustration of Emperor Akbar and Birbal laughing under an autumn tree with friendly black crows",
+    "word_count": 420,
+    "reading_time": "2 min",
+    "listen_time": "3 min",
+    "audio_url": null,
+    "publish_date": "2026-10-27",
+    "is_bedtime": true,
+    "quiz": [
+      {
+        "question": "What impossible question did Emperor Akbar ask Birbal?",
+        "options": [
+          "(Recommended) Exactly how many crows live in the city",
+          "How many stars shine in the night sky",
+          "How many leaves grow on the royal mango tree"
+        ],
+        "answerIndex": 0,
+        "hint": "Look at the birds resting on the marble garden fountain."
+      },
+      {
+        "question": "According to Birbal, why might there be fewer crows than his count?",
+        "options": [
+          "Because they flew away to visit their relatives in other lands",
+          "Because they fell asleep in their nests",
+          "Because they were hiding from the palace guards"
+        ],
+        "answerIndex": 0,
+        "hint": "Birbal gave a funny, heartwarming answer about visiting family."
+      },
+      {
+        "question": "Why did Emperor Akbar laugh and reward Birbal?",
+        "options": [
+          "He loved Birbal's clever wit, kindness, and cheerful presence of mind",
+          "Birbal brought him delicious sweets",
+          "Birbal caught a crow with his hands"
+        ],
+        "answerIndex": 0,
+        "hint": "Akbar enjoyed the gentle and harmless humor of his minister."
+      }
+    ],
+    "author": "Traditional Mughal Folklore Retelling",
+    "status": "published",
+    "content_notes": "Wholesome, cheerful family humor. Safe for all ages. (Machine draft awaiting human pedagogical review)",
+    "values": [
+      "humor",
+      "curiosity",
+      "kindness",
+      "teamwork"
+    ],
+    "reading_level": "Beginner",
+    "vocabulary": [
+      {
+        "word": "mischievous",
+        "meaning": "playfully teasing or fun-loving"
+      },
+      {
+        "word": "courtier",
+        "meaning": "an adviser or noble visitor in a royal palace"
+      },
+      {
+        "word": "census",
+        "meaning": "an official count of people or things"
+      },
+      {
+        "word": "suppressed",
+        "meaning": "gently held back or kept from bursting out"
+      }
+    ],
+    "discussion_questions": [
+      {
+        "tier": "Remember",
+        "prompt": "What bird did Akbar and Birbal watch in the palace garden?"
+      },
+      {
+        "tier": "Understand",
+        "prompt": "Why is it impossible to truly count every single flying bird in a whole kingdom?"
+      },
+      {
+        "tier": "Apply",
+        "prompt": "How can humor help make a tense or difficult situation feel lighter at school or home?"
+      },
+      {
+        "tier": "Evaluate",
+        "prompt": "What makes Birbal's answer kind rather than deceptive?"
+      },
+      {
+        "tier": "Create",
+        "prompt": "Make up your own playful riddle to share with your family at dinner tonight!"
+      }
+    ],
+    "reflection_prompt": "What would you answer if someone asked you how many grains of sand are on a beach?",
+    "activity": "Count how many birds you can spot outside your window in 5 minutes! Give each bird a friendly name.",
+    "mood": [
+      "funny",
+      "happy",
+      "calm"
+    ],
+    "teaser": "Tomorrow, meet a slow and steady friend who showed the fastest runner that patience wins the prize!",
+    "series_id": null,
+    "part_number": null,
+    "reviewed": false,
+    "source": "North Indian Folklore",
+    "license": "Public Domain",
+    "credit": "Dhinam Oru Kathai Editorial Team"
+  },
+  {
+    "id": "aesop-tortoise-and-hare",
+    "slug": "the-patient-tortoise-and-the-boastful-hare-es",
+    "language": "es",
+    "title": "[Draft ES] The Patient Tortoise and the Boastful Hare",
+    "genre": "Fables",
+    "collection": "Aesop's Fables",
+    "culture_region": "Ancient Greece",
+    "age_group": "Below 13",
+    "summary": "[Draft ES] A speedy hare laughs at a slow-moving tortoise, leading to a legendary race that demonstrates the quiet power of steady persistence.",
+    "keywords": [
+      "tortoise and hare moral story",
+      "aesop fables for children",
+      "slow and steady wins the race",
+      "bedtime moral stories",
+      "classic greek fables"
+    ],
+    "tags": [
+      "Animals",
+      "Patience",
+      "Perseverance",
+      "Modesty",
+      "Bedtime"
+    ],
+    "full_text": "[Draft ES] On the sunlit hills of Thessaly, Swift the Hare was known as the fastest animal in the valley. His hind legs were like coiled springs, and he could dash across clover meadows in the blink of an eye. Unfortunately, Swift was also terribly boastful. He spent hours teasing the gentle creatures who walked at a calm pace.\n\n'Look at you, Plod the Tortoise!' laughed Swift one morning, kicking up a cloud of dust. 'You carry your house on your back and take all day just to reach the foot of the hill. I could run to the top and back three times before you take ten steps!'\n\nPlod poked his wrinkly head from his shell and smiled with patient goodwill. 'You run like the autumn breeze, Swift,' said Plod gently. 'Yet haste often trips on its own heels. Would you care to race to the great oak tree at the valley's crest?'\n\nThe Hare roared with laughter. 'A race against a tortoise? This will be the funniest spectacle the valley has ever seen!'\n\nThe wise old Fox agreed to mark the course and act as the honest judge. At sunrise, animals from all around gathered along the green path. The squirrels chattered, the badgers clapped, and the bluebirds sang from branch to branch.\n\n'Ready... Steady... Go!' barked the Fox.\n\nSwift shot forward like an arrow released from a bow. Within seconds, he was far ahead, a tiny dot dashing over the rolling slopes. Plod, meanwhile, placed one green foot forward, then the next. Step by step, slow and rhythmic, he began his journey under the warm morning sun.\n\nHalfway up the long hill, Swift looked over his shoulder. The tortoise was barely visible near the starting line. 'I have plenty of time,' thought Swift with a chuckle. 'The sun is warm, the wild lavender smells sweet, and a quick nap will be delightful. Even if Plod walks all morning, I can overtake him in five leaps.'\n\nSwift curled up beneath a shady willow tree and drifted off into a deep, peaceful sleep.\n\nMeanwhile, the sun climbed higher in the sky. Plod never stopped. He did not rush, nor did he halt to gaze at the butterflies. He kept his eyes on the winding trail ahead, breathing evenly, taking one steady step after another. Hours slipped quietly past.\n\nWhen Swift finally opened his eyes, the afternoon light was turning golden. He stretched his paws, yawned, and glanced casually back down the path. To his shock, the path behind was empty! He whipped his head toward the finish line—and there, just a single step away from the great oak tree, was Plod, greeted by the cheering applause of all the woodland friends.\n\nSwift sprinted with all his might, kicking up dust like a whirlwind, but it was too late. Plod gently touched the oak bark with his front foot.\n\nThe Hare hung his long ears in humility. Plod offered his paw with warm sportsmanship. 'Never mock someone who moves at their own pace, friend,' said Plod. 'Slow and steady wins the race.'",
+    "moral": "[Draft ES] Consistent patience and steady effort accomplish far more than careless haste.",
+    "image": "/images/stories/aesop-tortoise-hare.svg",
+    "image_alt": "Illustration of the patient tortoise smiling next to the great oak finish line while the hare catches up",
+    "word_count": 520,
+    "reading_time": "3 min",
+    "listen_time": "4 min",
+    "audio_url": null,
+    "publish_date": "2026-10-26",
+    "is_bedtime": true,
+    "quiz": [
+      {
+        "question": "Why did Swift the Hare decide to take a nap during the race?",
+        "options": [
+          "(Recommended) He was overly confident that he was too far ahead to lose",
+          "He fell ill with a cold",
+          "The Fox instructed him to stop"
+        ],
+        "answerIndex": 0,
+        "hint": "Think about how Swift thought he had hours to spare."
+      },
+      {
+        "question": "How did Plod the Tortoise manage to win the race?",
+        "options": [
+          "By taking steady, continuous steps without quitting or getting distracted",
+          "By taking a secret shortcut through the forest",
+          "By riding on the back of an eagle"
+        ],
+        "answerIndex": 0,
+        "hint": "Remember the key phrase: slow and steady."
+      },
+      {
+        "question": "What is the best way to handle schoolwork or learning a new musical instrument?",
+        "options": [
+          "Practicing a little bit every day with patience and dedication",
+          "Rushing everything at the very last minute",
+          "Giving up if it seems difficult on day one"
+        ],
+        "answerIndex": 0,
+        "hint": "Plod showed us that daily, consistent steps lead to victory."
+      }
+    ],
+    "author": "Aesop (Traditional Retelling)",
+    "status": "published",
+    "content_notes": "Gentle, timeless educational fable. Safe for all audiences. (Machine draft awaiting human pedagogical review)",
+    "values": [
+      "patience",
+      "perseverance",
+      "humility",
+      "responsibility"
+    ],
+    "reading_level": "Beginner",
+    "vocabulary": [
+      {
+        "word": "boastful",
+        "meaning": "speaking with excessive pride about one's abilities"
+      },
+      {
+        "word": "spectacle",
+        "meaning": "an exciting or memorable scene that attracts viewers"
+      },
+      {
+        "word": "persistence",
+        "meaning": "continuing firmly on a task even when it takes time"
+      },
+      {
+        "word": "sportsmanship",
+        "meaning": "fair, generous, and polite behavior in games"
+      }
+    ],
+    "discussion_questions": [
+      {
+        "tier": "Remember",
+        "prompt": "Who was chosen as the honest judge of the race?"
+      },
+      {
+        "tier": "Understand",
+        "prompt": "Why was the Tortoise unbothered when the Hare made fun of his slow walk?"
+      },
+      {
+        "tier": "Apply",
+        "prompt": "Can you think of a time when taking your time helped you avoid a mistake?"
+      },
+      {
+        "tier": "Evaluate",
+        "prompt": "Was the Hare truly a bad runner, or did his overconfidence ruin his talent?"
+      },
+      {
+        "tier": "Create",
+        "prompt": "Write a short apology letter from Swift the Hare to Plod the Tortoise."
+      }
+    ],
+    "reflection_prompt": "What is one thing in your life where being 'slow and steady' will help you succeed?",
+    "activity": "Do a slow-motion walk race with a family member! The person who moves the most smoothly and slowly wins.",
+    "mood": [
+      "calm",
+      "comforting",
+      "happy"
+    ],
+    "teaser": "Tomorrow, journey to ancient hills where an honest boy named Ling holds an empty clay pot with pride!",
+    "series_id": null,
+    "part_number": null,
+    "reviewed": false,
+    "source": "Aesopica Collection",
+    "license": "Public Domain",
+    "credit": "Dhinam Oru Kathai Editorial Team"
+  },
+  {
+    "id": "chinese-empty-pot-ling",
+    "slug": "the-emperor-and-the-empty-pot-es",
+    "language": "es",
+    "title": "[Draft ES] The Empty Flowerpot and the Honest Child",
+    "genre": "Moral Stories",
+    "collection": "Chinese Folktales and Fables",
+    "culture_region": "Ancient China",
+    "age_group": "Below 13",
+    "summary": "[Draft ES] An aging emperor gives every child in the province a flower seed to test their character. Only young Ling possesses the courage of pure honesty.",
+    "keywords": [
+      "the empty pot moral story",
+      "chinese folktales for children",
+      "stories teaching honesty and integrity",
+      "inspirational stories for kids",
+      "bedtime moral tales"
+    ],
+    "tags": [
+      "Honesty",
+      "Integrity",
+      "Courage",
+      "Nature",
+      "Bedtime"
+    ],
+    "full_text": "[Draft ES] Long ago, in a peaceful province framed by misty bamboo mountains, lived an elderly ruler named Emperor Han. The Emperor was beloved by his people for his fairness, but he had no children to inherit the responsibility of caring for the land. As the autumn of his life drew near, he pondered deeply on how to choose the next custodian of the realm.\n\n'A leader must possess sharp wisdom, but above all, an unyielding heart of honesty,' the Emperor said to his counsellors.\n\nThe next day, a proclamation was sounded through every village. All the children of the land were invited to the palace gates. Each child was handed a small clay bowl and a single black seed. 'Take this seed home,' announced the Emperor with a gentle smile. 'Plant it in the richest soil, water it with devotion, and bring it back to me exactly one year from today. The child who grows the truest flower shall be chosen as my successor.'\n\nAmong the children was a quiet boy named Ling. Ling loved plants dearly. In his little garden behind his grandmother's cottage, sweet orchids and vibrant honeysuckles blossomed under his tender care. Ling carefully placed the seed in an earthen pot, adding compost, rich loam, and fresh spring water.\n\nDays turned into weeks. Ling tended the pot every morning and evening. He placed it where the morning sun was sweetest and shielded it from cold midnight winds. Yet, weeks passed, and not a single green sprout pushed through the dark soil.\n\nLing transferred the seed into a larger glazed pot with richer earth, but still, nothing grew. Meanwhile, his classmates in the village boasted loudly. 'Look at my splendid jade lily!' cheered one. 'My peony is growing tall and fragrant!' bragged another.\n\nLing felt a heavy knot in his stomach. 'Grandmother, why will my seed not grow? Did I do something wrong?'\n\nHis wise grandmother placed her hand over his. 'You gave it pure water, rich soil, and honest care, Ling. You have done your best. Whatever happens, bring your honest effort before the Emperor.'\n\nA full year passed, and the children gathered at the palace square. The courtyard looked like a magnificent ocean of radiant blossoms—scarlet roses, golden chrysanthemums, and towering blue bells. Every child held a dazzling flowerpot, proud and eager.\n\nLing stood in the back row, holding his plain earthen pot filled only with dark, empty earth. Several children whispered and giggled at him, but Ling stood straight, holding his pot with quiet dignity.\n\nEmperor Han walked slowly through the ranks of children. He inspected the blossoms, but his face remained solemn. He did not smile at the towering roses, nor did he praise the fragrant orchids. When he reached the end of the courtyard, his gaze fell upon Ling and his barren pot.\n\n'Child,' asked the Emperor gently, 'why is your pot empty? Did you not plant the seed I gave you?'\n\nLing bowed respectfully, tears glistening in his eyes. 'Your Majesty, I planted your seed in fertile soil. I watered it every day and protected it from storms. But it simply would not grow. I am sorry, Sire. This empty pot is the only truth I have to offer.'\n\nA luminous smile spread across the Emperor's face. He took Ling by the hand, turned toward the gathering, and spoke in a clear, ringing voice:\n\n'People of the realm, behold your next leader! Before I gave out the seeds a year ago, I had every single one boiled so that none could ever sprout. All these magnificent flowers grew from different seeds brought in when my seed failed. Only this child had the courage to bring an empty pot. Ling gave me the rarest blossom of all—the flower of pure honesty.'",
+    "moral": "[Draft ES] Honesty requires profound courage, and true integrity is more valuable than counterfeit success.",
+    "image": "/images/stories/chinese-empty-pot.svg",
+    "image_alt": "Illustration of young Ling holding an empty clay pot proudly before the kind elderly Emperor",
+    "word_count": 680,
+    "reading_time": "4 min",
+    "listen_time": "5 min",
+    "audio_url": null,
+    "publish_date": "2026-10-25",
+    "is_bedtime": true,
+    "quiz": [
+      {
+        "question": "Why did the Emperor boil all the seeds before giving them to the children?",
+        "options": [
+          "(Recommended) To test the honesty and integrity of each child",
+          "To make them grow faster and taller",
+          "To protect them from hungry birds"
+        ],
+        "answerIndex": 0,
+        "hint": "Boiled seeds can never sprout, so anyone with flowers must have switched the seed."
+      },
+      {
+        "question": "What did Ling bring to the palace on the appointed day?",
+        "options": [
+          "An empty pot filled with honest soil",
+          "A pot full of bright red roses",
+          "A basket of fresh garden vegetables"
+        ],
+        "answerIndex": 0,
+        "hint": "Ling refused to cheat even when his seed didn't grow."
+      },
+      {
+        "question": "What does this story show about telling the truth even when it feels scary?",
+        "options": [
+          "Honesty is respected and celebrated because it builds trust",
+          "It is always better to hide your mistakes",
+          "Telling the truth is only useful if everyone else does it"
+        ],
+        "answerIndex": 0,
+        "hint": "The Emperor praised Ling's courage above all other things."
+      }
+    ],
+    "author": "Traditional Chinese Folktale Retelling",
+    "status": "published",
+    "content_notes": "Deeply inspiring, family-safe folk classic teaching integrity and moral courage. (Machine draft awaiting human pedagogical review)",
+    "values": [
+      "honesty",
+      "courage",
+      "responsibility",
+      "curiosity"
+    ],
+    "reading_level": "Intermediate",
+    "vocabulary": [
+      {
+        "word": "custodian",
+        "meaning": "a responsible protector or guardian of something precious"
+      },
+      {
+        "word": "proclamation",
+        "meaning": "an official announcement made to all citizens"
+      },
+      {
+        "word": "integrity",
+        "meaning": "the quality of being honest and keeping strong moral values"
+      },
+      {
+        "word": "barren",
+        "meaning": "empty of growth or blossoms"
+      }
+    ],
+    "discussion_questions": [
+      {
+        "tier": "Remember",
+        "prompt": "What kind of seeds were the children given by the Emperor?"
+      },
+      {
+        "tier": "Understand",
+        "prompt": "Why did the other children bring pots full of flowers even though the seeds were boiled?"
+      },
+      {
+        "tier": "Apply",
+        "prompt": "Have you ever felt tempted to hide a mistake? What helped you make the honest choice?"
+      },
+      {
+        "tier": "Evaluate",
+        "prompt": "Why is honesty more important for a leader than simply having pretty results?"
+      },
+      {
+        "tier": "Create",
+        "prompt": "Write or describe the gentle advice Ling's grandmother gave him on the night before he went to the palace."
+      }
+    ],
+    "reflection_prompt": "What would you have done if your seed didn't sprout while your friends' plants were blooming?",
+    "activity": "Plant a bean seed in a small cup with a damp paper towel! Track its growth in a tiny daily notebook.",
+    "mood": [
+      "calm",
+      "brave",
+      "comforting"
+    ],
+    "teaser": "Tomorrow, travel to the high Andes to meet a shimmering golden hummingbird who brought water to thirsty valleys!",
+    "series_id": null,
+    "part_number": null,
+    "reviewed": false,
+    "source": "Traditional Chinese Folklore",
+    "license": "Public Domain",
+    "credit": "Dhinam Oru Kathai Editorial Team"
+  }
+]

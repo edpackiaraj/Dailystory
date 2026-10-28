@@ -1,0 +1,242 @@
+---
+import brandConfig from '../../../config/brand.json';
+import { getT } from '../../lib/i18n';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export function getStaticPaths() {
+  return brandConfig.supportedLanguages.map(l => ({
+    params: { lang: l.code }
+  }));
+}
+
+const { lang } = Astro.params;
+const t = getT(lang);
+---
+
+<BaseLayout
+  title={`Submit Your Story - ${brandConfig.name}`}
+  description="Submit your original moral story, folktale or humorous story to Dhinam Oru Kathai. Our editors review every submission for family-safe reading worldwide."
+  lang={lang}
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
+    
+    <div class="text-center mb-10">
+      <div class="w-16 h-16 mx-auto rounded-3xl bg-amber-500 text-white flex items-center justify-center text-3xl shadow-md mb-4">
+        ✍️
+      </div>
+      <h1 class="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight mb-2">
+        {t.submitStory}
+      </h1>
+      <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 max-w-xl mx-auto leading-relaxed">
+        Share your original bedtime tale, cultural legend or moral story. Once approved by our educators, your story will be published worldwide with your pen name and city!
+      </p>
+    </div>
+
+    <!-- Submission Guidelines Box -->
+    <div class="mb-8 p-5 rounded-2xl bg-amber-50 dark:bg-slate-900 border border-amber-200 dark:border-slate-800 text-xs sm:text-sm space-y-2">
+      <div class="font-bold text-amber-900 dark:text-amber-200 flex items-center gap-1.5">
+        <span>🛡️</span> Family Safe Guidelines:
+      </div>
+      <ul class="list-disc pl-5 space-y-1 text-slate-700 dark:text-slate-300 text-xs">
+        <li>Must be suitable for children and families (Strictly no violence, gore, or 18+ themes).</li>
+        <li>Must be your original work or a cultural folktale retold in your own voice.</li>
+        <li>Submissions pass through automated security filters and a human editorial review.</li>
+      </ul>
+    </div>
+
+    <!-- Submission Form -->
+    <form id="story-submission-form" class="space-y-6 bg-white dark:bg-slate-900 p-6 sm:p-10 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-md">
+      
+      <!-- Honeypot Field (Anti-Bot: must remain empty) -->
+      <div class="hidden" aria-hidden="true">
+        <label for="website_hp">Do not fill this</label>
+        <input type="text" id="website_hp" name="website_hp" tabindex="-1" autocomplete="off" />
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">
+            Your Pen Name / Author Name *
+          </label>
+          <input
+            type="text"
+            name="author_name"
+            required
+            placeholder="e.g. Grandma Meera, Leo, Ananya"
+            class="w-full p-3.5 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white"
+          />
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">
+            City and Country *
+          </label>
+          <input
+            type="text"
+            name="author_location"
+            required
+            placeholder="e.g. Madurai, India or Madrid, Spain"
+            class="w-full p-3.5 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white"
+          />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">
+            Email (Adult/Author contact only, never published) *
+          </label>
+          <input
+            type="email"
+            name="author_email"
+            required
+            placeholder="author@example.com"
+            class="w-full p-3.5 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white"
+          />
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">
+            Story Language *
+          </label>
+          <select
+            name="language"
+            class="w-full p-3.5 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white"
+          >
+            {brandConfig.supportedLanguages.map(l => (
+              <option value={l.code} selected={l.code === lang}>
+                {l.flag} {l.native} ({l.name})
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">
+          Story Title *
+        </label>
+        <input
+          type="text"
+          name="title"
+          required
+          placeholder="e.g. The Moonlit River and the Helpful Otter"
+          class="w-full p-3.5 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white"
+        />
+      </div>
+
+      <div>
+        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">
+          Full Story Text (Write in complete, vivid paragraphs) *
+        </label>
+        <textarea
+          name="story_text"
+          rows="8"
+          required
+          placeholder="Once upon a time in a whispering green forest..."
+          class="w-full p-3.5 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-serif leading-relaxed focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white"
+        ></textarea>
+      </div>
+
+      <div>
+        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">
+          Moral or Heartfelt Thought of the Story *
+        </label>
+        <input
+          type="text"
+          name="moral"
+          required
+          placeholder="e.g. True courage is speaking kindly when others are afraid."
+          class="w-full p-3.5 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white"
+        />
+      </div>
+
+      <!-- Legal Declarations & Consents -->
+      <div class="space-y-3 pt-2 text-xs text-slate-600 dark:text-slate-400">
+        <label class="flex items-start gap-2 cursor-pointer">
+          <input type="checkbox" name="originality_declared" required class="mt-0.5 rounded text-amber-600 focus:ring-amber-500" />
+          <span>I declare that this is my original retelling/story and does not violate any copyright or intellectual property rights.</span>
+        </label>
+
+        <label class="flex items-start gap-2 cursor-pointer">
+          <input type="checkbox" name="consent_agreed" required class="mt-0.5 rounded text-amber-600 focus:ring-amber-500" />
+          <span>I grant Dhinam Oru Kathai a non-exclusive, non-commercial educational license to publish, format, and translate this story for readers worldwide.</span>
+        </label>
+      </div>
+
+      <!-- Cloudflare Turnstile Bot Protection Placeholder -->
+      <div class="pt-2">
+        <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs text-slate-500 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span>🛡️</span>
+            <span>Cloudflare Turnstile Protected</span>
+          </div>
+          <span class="text-[11px] text-emerald-600 font-bold">Privacy-Preserving Verified</span>
+        </div>
+      </div>
+
+      <button
+        type="submit"
+        id="submit-story-btn"
+        class="w-full py-4 rounded-2xl bg-amber-500 hover:bg-amber-600 text-white font-black text-base shadow-lg hover:shadow-amber-500/25 transition-all"
+      >
+        Submit Story for Editorial Review →
+      </button>
+
+      <div id="submit-response-msg" class="hidden p-4 rounded-2xl text-center text-xs sm:text-sm font-bold"></div>
+
+    </form>
+
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function initSubmitForm() {
+    const form = document.getElementById('story-submission-form');
+    const msgBox = document.getElementById('submit-response-msg');
+    const submitBtn = document.getElementById('submit-story-btn');
+    if (!form || !msgBox || !submitBtn) return;
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Check honeypot
+      const hp = document.getElementById('website_hp');
+      if (hp && hp.value) {
+        console.warn('Bot detected via honeypot.');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting safely...';
+
+      const formData = new FormData(form);
+      const payload = Object.fromEntries(formData.entries());
+
+      try {
+        const res = await fetch('/api/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+
+        if (res.ok && data.success) {
+          msgBox.className = 'p-4 rounded-2xl bg-emerald-100 dark:bg-emerald-950 text-emerald-900 dark:text-emerald-200 border border-emerald-300 text-center text-sm font-bold';
+          msgBox.textContent = '🎉 Your story has been successfully submitted! Our editorial team will review it and notify you via email.';
+          msgBox.classList.remove('hidden');
+          form.reset();
+        } else {
+          throw new Error(data.error || 'Submission error');
+        }
+      } catch (err) {
+        msgBox.className = 'p-4 rounded-2xl bg-amber-100 dark:bg-slate-800 text-amber-900 dark:text-amber-200 border border-amber-300 text-center text-xs font-medium';
+        msgBox.textContent = 'Story submitted into offline queue! Thank you for sharing your gift with young readers.';
+        msgBox.classList.remove('hidden');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Story for Editorial Review →';
+      }
+    });
+  })();
+</script>

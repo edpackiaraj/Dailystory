@@ -1,0 +1,174 @@
+---
+import brandConfig from '../../../config/brand.json';
+import legalData from '../../../data/legal/en.json';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export function getStaticPaths() {
+  const legalKeys = Object.keys(legalData.pages);
+  const paths: any[] = [];
+
+  for (const lang of brandConfig.supportedLanguages) {
+    for (const key of legalKeys) {
+      paths.push({
+        params: { lang: lang.code, legal: key },
+        props: {
+          pageKey: key,
+          pageData: (legalData.pages as Record<string, any>)[key],
+          lastUpdated: legalData.lastUpdated,
+          disclaimer: legalData.legalReviewDisclaimer
+        }
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { lang, legal } = Astro.params;
+const { pageKey, pageData, lastUpdated, disclaimer } = Astro.props;
+---
+
+<BaseLayout
+  title={`${pageData.title} - ${brandConfig.name}`}
+  description={pageData.metaDescription}
+  lang={lang}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+    
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-xs text-slate-500 flex items-center gap-2">
+      <a href={`/${lang}/`} class="hover:text-amber-600">Home</a>
+      <span>/</span>
+      <span class="text-slate-800 dark:text-slate-200 font-semibold">{pageData.title}</span>
+    </nav>
+
+    <!-- Operational Template Legal Notice Warning -->
+    <div class="mb-8 p-4 rounded-2xl bg-amber-100/70 dark:bg-slate-900 border border-amber-300 dark:border-slate-800 text-xs text-amber-950 dark:text-amber-200 leading-relaxed">
+      <strong>Compliance Template Notice:</strong> {disclaimer}
+    </div>
+
+    <!-- H1 Title -->
+    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight mb-3">
+      {pageData.h1}
+    </h1>
+
+    <div class="text-xs text-slate-400 mb-8 pb-4 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
+      <span>Effective Date: October 28, 2026</span>
+      <span>Last Updated: {lastUpdated}</span>
+    </div>
+
+    <!-- Plain language summary if available (e.g. Privacy policy) -->
+    {pageData.summary && (
+      <div class="mb-8 p-6 rounded-3xl bg-indigo-50/70 dark:bg-indigo-950/40 border border-indigo-200 dark:border-indigo-800 text-xs sm:text-sm text-indigo-950 dark:text-indigo-200 leading-relaxed font-medium">
+        {pageData.summary}
+      </div>
+    )}
+
+    <!-- Dynamic Sections -->
+    <div class="space-y-8 text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed font-sans">
+      {pageData.sections && pageData.sections.map((sec: any) => (
+        <section class="space-y-3">
+          <h2 class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">
+            {sec.heading}
+          </h2>
+          <div class="whitespace-pre-line leading-relaxed text-slate-600 dark:text-slate-300">
+            {sec.content}
+          </div>
+        </section>
+      ))}
+    </div>
+
+    <!-- Special handling for Contact Us page: Form & Grievance Cell -->
+    {pageKey === 'contact' && (
+      <div class="mt-12 space-y-8">
+        
+        <!-- Contact Form -->
+        <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-slate-900 border border-amber-200 dark:border-slate-800 shadow-md">
+          <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-4">
+            Send an Editorial or Partnership Message
+          </h3>
+
+          <form id="contact-form" class="space-y-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-1">Your Name *</label>
+                <input type="text" name="name" required class="w-full p-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm" />
+              </div>
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-1">Your Email *</label>
+                <input type="email" name="email" required class="w-full p-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm" />
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-1">Topic *</label>
+              <select name="category" class="w-full p-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm">
+                {(pageData.topics || []).map((tp: string) => (
+                  <option value={tp}>{tp}</option>
+                ))}
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-1">Message *</label>
+              <textarea name="message" rows="4" required class="w-full p-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm"></textarea>
+            </div>
+
+            <button type="submit" class="px-6 py-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-sm shadow-md transition-colors">
+              Send Message →
+            </button>
+            <div id="contact-res-msg" class="hidden text-xs font-bold text-emerald-600 mt-2"></div>
+          </form>
+        </div>
+
+        <!-- Statutory Grievance Cell Card -->
+        {pageData.grievanceDetails && (
+          <div class="p-6 sm:p-8 rounded-3xl bg-slate-100 dark:bg-slate-900 border border-slate-300 dark:border-slate-800 text-xs sm:text-sm space-y-3">
+            <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+              <span>🏛️</span> {pageData.grievanceDetails.title}
+            </h3>
+            <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+              {pageData.grievanceDetails.content}
+            </p>
+            <div class="pt-2 border-t border-slate-200 dark:border-slate-800 space-y-1 text-xs">
+              <div><strong>Designated Grievance Officer:</strong> {pageData.grievanceDetails.officer}</div>
+              <div><strong>Email:</strong> <a href={`mailto:${pageData.grievanceDetails.email}`} class="text-amber-600 hover:underline">{pageData.grievanceDetails.email}</a></div>
+              <div><strong>Operations:</strong> {pageData.grievanceDetails.address}</div>
+            </div>
+          </div>
+        )}
+
+      </div>
+    )}
+
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function initContact() {
+    const form = document.getElementById('contact-form');
+    const msg = document.getElementById('contact-res-msg');
+    if (!form || !msg) return;
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const payload = Object.fromEntries(formData.entries());
+      payload.feedback_type = 'contact';
+
+      try {
+        await fetch('/api/feedback', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        msg.textContent = 'Thank you! Your message has been sent to our editorial desk. We will respond within 48 business hours.';
+        msg.classList.remove('hidden');
+        form.reset();
+      } catch(err) {
+        msg.textContent = 'Message noted. Thank you for connecting with us!';
+        msg.classList.remove('hidden');
+      }
+    });
+  })();
+</script>

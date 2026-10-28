@@ -1,0 +1,316 @@
+---
+import { getT } from '../lib/i18n';
+
+interface Props {
+  currentLang: string;
+}
+
+const { currentLang } = Astro.props;
+const t = getT(currentLang);
+---
+
+<!-- Floating or Docked Bedtime Control Drawer -->
+<div id="bedtime-dock" class="hidden fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:w-96 z-50 bg-slate-900/95 border border-indigo-500/40 backdrop-blur-xl rounded-3xl p-5 shadow-2xl text-slate-100 transition-all duration-500">
+  <div class="flex items-center justify-between pb-3 border-b border-indigo-900/50">
+    <div class="flex items-center gap-2">
+      <span class="text-xl">🌙</span>
+      <h3 class="font-extrabold text-sm text-indigo-200">Bedtime Sanctuary</h3>
+    </div>
+    <button id="close-bedtime-dock" class="text-slate-400 hover:text-white text-xs px-2 py-1 rounded-full bg-slate-800">
+      Close ✕
+    </button>
+  </div>
+
+  <!-- Ambient Sound Generator Controls (Web Audio API) -->
+  <div class="mt-4 space-y-3 text-xs">
+    <div class="text-slate-400 font-semibold uppercase tracking-wider text-[10px]">
+      Soothing Ambient Sounds (Synthesized &amp; Offline)
+    </div>
+
+    <!-- Rain Sound -->
+    <div class="flex items-center justify-between gap-3">
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="checkbox" id="ambient-rain-toggle" class="rounded text-indigo-500" />
+        <span>🌧️ {t.rain}</span>
+      </label>
+      <input type="range" id="ambient-rain-vol" min="0" max="1" step="0.05" value="0.3" class="w-24 accent-indigo-400" />
+    </div>
+
+    <!-- Crickets Sound -->
+    <div class="flex items-center justify-between gap-3">
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="checkbox" id="ambient-crickets-toggle" class="rounded text-indigo-500" />
+        <span>🦗 {t.crickets}</span>
+      </label>
+      <input type="range" id="ambient-crickets-vol" min="0" max="1" step="0.05" value="0.2" class="w-24 accent-indigo-400" />
+    </div>
+
+    <!-- Starlight Chimes -->
+    <div class="flex items-center justify-between gap-3">
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="checkbox" id="ambient-chimes-toggle" class="rounded text-indigo-500" />
+        <span>✨ {t.calmMusic}</span>
+      </label>
+      <input type="range" id="ambient-chimes-vol" min="0" max="1" step="0.05" value="0.25" class="w-24 accent-indigo-400" />
+    </div>
+  </div>
+
+  <!-- Sleep Timer (10 / 20 / 30 mins) with Gradual Fade -->
+  <div class="mt-4 pt-3 border-t border-indigo-900/50">
+    <div class="flex items-center justify-between text-xs mb-2">
+      <span class="text-slate-400 font-semibold">{t.sleepTimer}:</span>
+      <span id="sleep-timer-display" class="font-mono text-indigo-300 font-bold">Off</span>
+    </div>
+    <div class="grid grid-cols-4 gap-2">
+      <button class="sleep-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/50 text-[11px] font-medium" data-mins="10">10m</button>
+      <button class="sleep-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/50 text-[11px] font-medium" data-mins="20">20m</button>
+      <button class="sleep-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/50 text-[11px] font-medium" data-mins="30">30m</button>
+      <button class="sleep-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-red-900/40 text-[11px] font-medium" data-mins="0">Off</button>
+    </div>
+  </div>
+</div>
+
+<!-- Healthy-Use Guardrail Modal ("That's enough stories for tonight. Sweet dreams!") -->
+<div id="bedtime-guardrail-modal" class="hidden fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4">
+  <div class="max-w-md w-full bg-slate-900 border border-indigo-500/30 rounded-3xl p-8 text-center shadow-2xl">
+    <div class="text-6xl mb-4 animate-pulse">🌟</div>
+    <h2 class="text-2xl font-black text-indigo-200 mb-2">
+      That's enough stories for tonight.
+    </h2>
+    <p class="text-indigo-300/80 text-sm leading-relaxed mb-6">
+      Your story garden is safely saved under the stars. Close your eyes, let your imagination dream, and wake up fresh for tomorrow's tale.
+    </p>
+    <div class="p-4 rounded-2xl bg-indigo-950/60 border border-indigo-800 text-xs text-indigo-300 font-medium mb-6">
+      "May your sleep be peaceful and your dreams full of kindness."
+    </div>
+    <button id="close-guardrail-btn" class="w-full py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm shadow-lg transition-transform active:scale-95">
+      Sweet Dreams! (Close Site)
+    </button>
+  </div>
+</div>
+
+<script is:inline>
+  // Web Audio API Ambient Synthesizer
+  (function initBedtimeSynthesizer() {
+    let audioCtx = null;
+    let rainGain = null;
+    let rainNode = null;
+    let cricketsGain = null;
+    let cricketsInterval = null;
+    let chimesGain = null;
+    let chimesInterval = null;
+    let sleepTimerTimeout = null;
+    let sleepSecondsRemaining = 0;
+    let timerInterval = null;
+
+    const dock = document.getElementById('bedtime-dock');
+    const toggleBtn = document.getElementById('toggle-bedtime-btn');
+    const closeDockBtn = document.getElementById('close-bedtime-dock');
+
+    const rainToggle = document.getElementById('ambient-rain-toggle');
+    const rainVol = document.getElementById('ambient-rain-vol');
+    const cricketsToggle = document.getElementById('ambient-crickets-toggle');
+    const cricketsVol = document.getElementById('ambient-crickets-vol');
+    const chimesToggle = document.getElementById('ambient-chimes-toggle');
+    const chimesVol = document.getElementById('ambient-chimes-vol');
+
+    const timerDisplay = document.getElementById('sleep-timer-display');
+    const sleepBtns = document.querySelectorAll('.sleep-btn');
+    const guardrailModal = document.getElementById('bedtime-guardrail-modal');
+    const closeGuardrailBtn = document.getElementById('close-guardrail-btn');
+
+    function ensureAudioContext() {
+      if (!audioCtx) {
+        const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+        audioCtx = new AudioContextClass();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+
+    // Toggle Bedtime Mode Visuals & Dock
+    function toggleBedtimeMode() {
+      const isBedtime = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('story_bedtime_theme', isBedtime ? 'dark' : 'light');
+      if (dock) {
+        dock.classList.toggle('hidden');
+      }
+    }
+
+    if (toggleBtn) toggleBtn.addEventListener('click', toggleBedtimeMode);
+    if (closeDockBtn) closeDockBtn.addEventListener('click', () => dock.classList.add('hidden'));
+
+    // 1. Synthesize Pink/Brown Noise for Soothing Rain
+    function startRain() {
+      ensureAudioContext();
+      const bufferSize = audioCtx.sampleRate * 2;
+      const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+      const data = buffer.getChannelData(0);
+      let b0 = 0, b1 = 0, b2 = 0;
+      for (let i = 0; i < bufferSize; i++) {
+        const white = Math.random() * 2 - 1;
+        b0 = 0.99886 * b0 + white * 0.0555179;
+        b1 = 0.99332 * b1 + white * 0.0750759;
+        b2 = 0.96900 * b2 + white * 0.1538520;
+        data[i] = (b0 + b1 + b2) * 0.15;
+      }
+
+      rainNode = audioCtx.createBufferSource();
+      rainNode.buffer = buffer;
+      rainNode.loop = true;
+
+      // Filter to simulate soft raindrops
+      const filter = audioCtx.createBiquadFilter();
+      filter.type = 'lowpass';
+      filter.frequency.value = 800;
+
+      rainGain = audioCtx.createGain();
+      rainGain.gain.value = parseFloat(rainVol.value);
+
+      rainNode.connect(filter);
+      filter.connect(rainGain);
+      rainGain.connect(audioCtx.destination);
+      rainNode.start(0);
+    }
+
+    function stopRain() {
+      if (rainNode) {
+        try { rainNode.stop(); } catch(e) {}
+        rainNode.disconnect();
+        rainNode = null;
+      }
+    }
+
+    // 2. Synthesize Gentle Crickets Chirping
+    function chirpCricket() {
+      if (!audioCtx) return;
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(4500 + Math.random() * 300, audioCtx.currentTime);
+      gain.gain.setValueAtTime(0, audioCtx.currentTime);
+      gain.gain.linearRampToValueAtTime(parseFloat(cricketsVol.value) * 0.5, audioCtx.currentTime + 0.02);
+      gain.gain.linearRampToValueAtTime(0, audioCtx.currentTime + 0.08);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.1);
+    }
+
+    function startCrickets() {
+      ensureAudioContext();
+      cricketsInterval = setInterval(() => {
+        chirpCricket();
+        setTimeout(chirpCricket, 90);
+        setTimeout(chirpCricket, 180);
+      }, 1200 + Math.random() * 800);
+    }
+
+    function stopCrickets() {
+      if (cricketsInterval) {
+        clearInterval(cricketsInterval);
+        cricketsInterval = null;
+      }
+    }
+
+    // 3. Synthesize Starlight Ambient Chimes
+    function chime() {
+      if (!audioCtx) return;
+      const freqs = [329.63, 392.00, 493.88, 587.33, 659.25]; // E minor pentatonic
+      const f = freqs[Math.floor(Math.random() * freqs.length)];
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+
+      osc.type = 'sine';
+      osc.frequency.value = f;
+      gain.gain.setValueAtTime(0, audioCtx.currentTime);
+      gain.gain.linearRampToValueAtTime(parseFloat(chimesVol.value) * 0.4, audioCtx.currentTime + 0.3);
+      gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 4.0);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 4.2);
+    }
+
+    function startChimes() {
+      ensureAudioContext();
+      chimesInterval = setInterval(chime, 3000 + Math.random() * 2000);
+      chime();
+    }
+
+    function stopChimes() {
+      if (chimesInterval) {
+        clearInterval(chimesInterval);
+        chimesInterval = null;
+      }
+    }
+
+    // Event listeners for ambient toggles
+    if (rainToggle) {
+      rainToggle.addEventListener('change', () => rainToggle.checked ? startRain() : stopRain());
+    }
+    if (rainVol) {
+      rainVol.addEventListener('input', () => { if (rainGain) rainGain.gain.value = parseFloat(rainVol.value); });
+    }
+
+    if (cricketsToggle) {
+      cricketsToggle.addEventListener('change', () => cricketsToggle.checked ? startCrickets() : stopCrickets());
+    }
+
+    if (chimesToggle) {
+      chimesToggle.addEventListener('change', () => chimesToggle.checked ? startChimes() : stopChimes());
+    }
+
+    // Sleep Timer with Gradual Fade
+    sleepBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const mins = parseInt(btn.getAttribute('data-mins'), 10);
+        if (timerInterval) clearInterval(timerInterval);
+        if (sleepTimerTimeout) clearTimeout(sleepTimerTimeout);
+
+        if (mins === 0) {
+          timerDisplay.textContent = 'Off';
+          return;
+        }
+
+        sleepSecondsRemaining = mins * 60;
+        updateTimerDisplay();
+
+        timerInterval = setInterval(() => {
+          sleepSecondsRemaining--;
+          if (sleepSecondsRemaining <= 0) {
+            clearInterval(timerInterval);
+            triggerBedtimeGuardrail();
+          } else {
+            updateTimerDisplay();
+          }
+        }, 1000);
+      });
+    });
+
+    function updateTimerDisplay() {
+      const m = Math.floor(sleepSecondsRemaining / 60);
+      const s = sleepSecondsRemaining % 60;
+      timerDisplay.textContent = `${m}:${s < 10 ? '0' : ''}${s}`;
+    }
+
+    function triggerBedtimeGuardrail() {
+      stopRain();
+      stopCrickets();
+      stopChimes();
+      if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+      if (guardrailModal) guardrailModal.classList.remove('hidden');
+    }
+
+    if (closeGuardrailBtn) {
+      closeGuardrailBtn.addEventListener('click', () => {
+        guardrailModal.classList.add('hidden');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  })();
+</script>

@@ -1,0 +1,53 @@
+---
+interface Props {
+  storyTitle: string;
+  storyMoral: string;
+  values: string[];
+}
+
+const { storyTitle, storyMoral, values } = Astro.props;
+---
+
+<div class="my-6 p-4 rounded-2xl bg-indigo-50 dark:bg-slate-800/60 border border-indigo-200 dark:border-slate-700 flex flex-wrap items-center justify-between gap-4 text-xs sm:text-sm">
+  <div class="flex items-center gap-2">
+    <span class="text-xl">🏫</span>
+    <div>
+      <strong class="text-slate-900 dark:text-white">Classroom &amp; Projector Controls</strong>
+      <div class="text-xs text-slate-500">Distraction-free high-visibility reading for teachers &amp; families</div>
+    </div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <button id="btn-toggle-projector" type="button" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-700 border font-semibold text-slate-700 dark:text-slate-200 hover:bg-slate-100 transition-colors">
+      📽️ Projector Mode (Extra Large Text)
+    </button>
+    <button id="btn-print-worksheet" type="button" class="px-3 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 font-bold text-white transition-colors">
+      🖨️ Printable PDF Worksheet
+    </button>
+  </div>
+</div>
+
+<script is:inline>
+  (function initClassroomMode() {
+    const projBtn = document.getElementById('btn-toggle-projector');
+    const printBtn = document.getElementById('btn-print-worksheet');
+
+    if (projBtn) {
+      projBtn.addEventListener('click', () => {
+        const bodyText = document.getElementById('story-body-text');
+        if (bodyText) {
+          bodyText.classList.toggle('text-2xl');
+          bodyText.classList.toggle('leading-loose');
+          const isEnlarged = bodyText.classList.contains('text-2xl');
+          projBtn.textContent = isEnlarged ? '✓ Normal Size' : '📽️ Projector Mode (Extra Large Text)';
+        }
+      });
+    }
+
+    if (printBtn) {
+      printBtn.addEventListener('click', () => {
+        window.print();
+      });
+    }
+  })();
+</script>

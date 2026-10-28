@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="palaceDawn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="60%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fdba74"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#palaceDawn)"/>
+  <!-- Mughal Arches -->
+  <path d="M 100 630 L 100 300 Q 250 160 400 300 L 400 630 Z" fill="#ffedd5" stroke="#f97316" stroke-width="2"/>
+  <path d="M 450 630 L 450 260 Q 600 120 750 260 L 750 630 Z" fill="#ffedd5" stroke="#f97316" stroke-width="2"/>
+  <path d="M 800 630 L 800 300 Q 950 160 1100 300 L 1100 630 Z" fill="#ffedd5" stroke="#f97316" stroke-width="2"/>
+  
+  <!-- Marble Fountain -->
+  <ellipse cx="600" cy="540" rx="200" ry="40" fill="#f8fafc" stroke="#cbd5e1" stroke-width="3"/>
+  <ellipse cx="600" cy="510" rx="120" ry="25" fill="#e2e8f0"/>
+  <path d="M 595 510 C 590 440 570 420 560 430 C 570 420 595 440 600 510" fill="none" stroke="#38bdf8" stroke-width="4"/>
+  <path d="M 605 510 C 610 440 630 420 640 430 C 630 420 605 440 600 510" fill="none" stroke="#38bdf8" stroke-width="4"/>
+  
+  <!-- Friendly Crows -->
+  <g transform="translate(680, 360)">
+    <ellipse cx="30" cy="25" rx="24" ry="16" fill="#1e293b"/>
+    <circle cx="50" cy="18" r="12" fill="#1e293b"/>
+    <polygon points="60,16 75,20 60,24" fill="#f59e0b"/>
+    <circle cx="52" cy="15" r="2.5" fill="#ffffff"/>
+    <circle cx="53" cy="15" r="1.2" fill="#0f172a"/>
+  </g>
+  <g transform="translate(820, 220) scale(0.8)">
+    <ellipse cx="30" cy="25" rx="24" ry="16" fill="#1e293b"/>
+    <circle cx="50" cy="18" r="12" fill="#1e293b"/>
+    <polygon points="60,16 75,20 60,24" fill="#f59e0b"/>
+  </g>
+  <g transform="translate(300, 240) scale(0.85)">
+    <ellipse cx="30" cy="25" rx="24" ry="16" fill="#1e293b"/>
+    <circle cx="15" cy="18" r="12" fill="#1e293b"/>
+    <polygon points="5,16 -10,20 5,24" fill="#f59e0b"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="50" y="50" width="620" height="90" rx="20" fill="#0f172a" fill-opacity="0.85" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="90" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#fef3c7">How Many Crows in the City?</text>
+  <text x="80" y="122" font-family="system-ui, sans-serif" font-size="18" fill="#fdba74">Akbar–Birbal • Witty &amp; Humorous Court Tale</text>
+</svg>

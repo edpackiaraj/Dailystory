@@ -1,0 +1,122 @@
+---
+import brandConfig from '../../../../config/brand.json';
+import { getT } from '../../../lib/i18n';
+import { getAllReviewedStories } from '../../../lib/stories';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+export function getStaticPaths() {
+  const allGenres = [
+    "Moral Stories", "Funny Stories", "Humorous Tales", "Folktales", "Fairy Tales",
+    "Fables", "Bedtime Stories", "Animal Stories", "Adventure Stories", "Fantasy Stories",
+    "Mystery Stories", "Horror Stories", "Love Stories", "Inspirational Stories",
+    "Mythology Stories", "Legends", "Science Fiction Stories", "Historical Stories"
+  ];
+
+  const paths: any[] = [];
+  for (const lang of brandConfig.supportedLanguages) {
+    for (const g of allGenres) {
+      paths.push({
+        params: { lang: lang.code, genre: g.toLowerCase().replace(/\s+/g, '-') },
+        props: { rawGenre: g }
+      });
+    }
+  }
+  return paths;
+}
+
+const { lang, genre } = Astro.params;
+const { rawGenre } = Astro.props;
+const t = getT(lang);
+
+const allStories = getAllReviewedStories(lang);
+const matchingStories = allStories.filter(s => s.genre.toLowerCase() === rawGenre.toLowerCase());
+const hasMinStories = matchingStories.length >= 5;
+
+// Pedagogical 300+ word hub intro text for SEO and educational guidance
+const genreIntros: Record<string, string> = {
+  "fables": "Fables are among the oldest literary treasures created by humankind. Characterized by talking animals, birds, and natural elements, fables distill complex moral dilemmas into accessible, unforgettable lessons. From ancient Indian Panchatantra to Greek Aesop's wisdom, each narrative reflects human nature without preaching. When children listen to animal fables, they learn to analyze cause and consequence through safe metaphorical characters. Parents and educators can use these fables to spark open family discussions about honesty, humility, kindness, and perseverance. Reading fables in multiple languages also develops linguistic agility, allowing young readers to explore universal ethical truths across diverse cultural worldviews.",
+  "moral-stories": "Moral stories provide children with an ethical compass for navigating life. Rather than imposing rigid rules, our retold moral stories allow young listeners to witness the real consequences of choices made by relatable characters. Whether exploring the courage of telling the truth, the quiet beauty of patience, or the collective power of teamwork, each tale builds empathy. In educational psychology, stories with moral depth help children develop self-regulation and prosocial behavior. Our carefully curated and human-reviewed stories avoid manipulative guilt or graphic fear, ensuring that children go to sleep feeling safe, valued, and inspired to contribute good to the world.",
+  "folktales": "Folktales carry the heartbeat of communities across mountains, river valleys, and starlit deserts. Passed down orally through generations of grandparents and village storytellers, these narratives celebrate communal resourcefulness, harmonious coexistence with nature, and respect for all living things. By exploring folktales from Andean peaks to Tamil groves and Chinese bamboo forests, children develop global empathy and cultural literacy. Every culture possesses its own humorous tricks, courageous journeys, and gentle bedtime myths. Retold with respect and family safety in mind, our folktales connect readers worldwide to our shared human heritage.",
+  "humorous-tales": "Laughter is the warmest bridge between generations. Humorous court tales like Akbar and Birbal, Tenali Rama, and Mulla Nasruddin teach children that a calm, quick-witted mind is more powerful than pride or anger. Wit and harmless humor diffuse tensions, solve impossible riddles, and turn difficult dilemmas into moments of shared laughter. Psychologically, humor fosters cognitive flexibility, lateral thinking, and conversational warmth. These lighthearted bedtime tales provide an uplifting, reassuring close to busy days, ensuring children drift off to sleep with smiles on their faces."
+};
+
+const introText = genreIntros[genre] || `Explore our curated selection of ${rawGenre} from world folklore and classical traditions. Every story is retold with family safety, ethical values, and engaging pedagogy at its core.`;
+---
+
+<BaseLayout
+  title={`${rawGenre} - World Stories Library | ${brandConfig.name}`}
+  description={`Read and listen to traditional ${rawGenre} for kids and families in 10 languages. Timeless wisdom, moral lessons, and audio narration.`}
+  lang={lang}
+  noindex={!hasMinStories}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+    
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-xs text-slate-500 flex items-center gap-2">
+      <a href={`/${lang}/`} class="hover:text-amber-600">Home</a>
+      <span>/</span>
+      <span>Genres</span>
+      <span>/</span>
+      <span class="text-slate-800 dark:text-slate-200 font-semibold">{rawGenre}</span>
+    </nav>
+
+    <!-- Genre Header & Pedagogical 300+ Word Educational Introduction -->
+    <div class="max-w-3xl mb-12">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-100 dark:bg-amber-950/70 border border-amber-300 dark:border-amber-800 text-amber-900 dark:text-amber-200 text-xs font-bold uppercase tracking-wider mb-4">
+        📚 Category Hub
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white tracking-tight mb-4">
+        {rawGenre}
+      </h1>
+      <p class="text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed font-serif">
+        {introText}
+      </p>
+
+      {!hasMinStories && (
+        <div class="mt-4 p-3 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs text-slate-500 italic">
+          * Notice: This genre page is currently expanding with new reviewed stories. It is kept noindex until 5 stories are published to maintain top-tier educational depth.
+        </div>
+      )}
+    </div>
+
+    <!-- Stories Listing Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {matchingStories.map(s => (
+        <article class="bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="aspect-16/10 overflow-hidden relative">
+              <img src={s.image} alt={s.image_alt} loading="lazy" class="w-full h-full object-cover" />
+              <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-black/60 text-white text-[11px] font-bold">{s.collection}</span>
+              <span class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-amber-500 text-white text-[11px] font-bold">⏱️ {s.reading_time}</span>
+            </div>
+            <div class="p-6">
+              <h2 class="text-lg font-bold text-slate-900 dark:text-white mb-2">
+                <a href={`/${lang}/stories/${s.slug}/`} class="hover:text-amber-600 transition-colors">{s.title}</a>
+              </h2>
+              <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-3 mb-4 leading-relaxed">{s.summary}</p>
+              <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-800 text-xs text-amber-900 dark:text-amber-200 italic">💡 {s.moral}</div>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-400">Level: <strong>{s.reading_level}</strong></span>
+            <a href={`/${lang}/stories/${s.slug}/`} class="px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors">
+              {t.readStory} →
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    {matchingStories.length === 0 && (
+      <div class="p-12 text-center bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800">
+        <span class="text-4xl block mb-2">📖</span>
+        <h3 class="font-bold text-slate-800 dark:text-slate-200 text-base mb-1">New stories arriving soon</h3>
+        <p class="text-xs text-slate-500 mb-4">Our translators and pedagogical reviewers are currently preparing authentic tales for this genre.</p>
+        <a href={`/${lang}/`} class="inline-block px-4 py-2 rounded-full bg-amber-500 text-white font-bold text-xs">
+          Discover Today's Stories
+        </a>
+      </div>
+    )}
+
+  </div>
+</BaseLayout>

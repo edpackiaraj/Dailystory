@@ -1,0 +1,243 @@
+---
+import brandConfig from '../../../config/brand.json';
+import { getT } from '../../lib/i18n';
+import { getAllReviewedStories } from '../../lib/stories';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export function getStaticPaths() {
+  return brandConfig.supportedLanguages.map(l => ({
+    params: { lang: l.code }
+  }));
+}
+
+const { lang } = Astro.params;
+const t = getT(lang);
+const stories = getAllReviewedStories(lang);
+
+// Extract unique filter tags
+const genres = Array.from(new Set(stories.map(s => s.genre)));
+const collections = Array.from(new Set(stories.map(s => s.collection)));
+const readingLevels = ["Beginner", "Intermediate", "Advanced"];
+---
+
+<BaseLayout
+  title={`Search Stories in ${brandConfig.supportedLanguages.find(l => l.code === lang)?.native} - ${brandConfig.name}`}
+  description={t.searchPlaceholder}
+  lang={lang}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+    
+    <!-- Search Header -->
+    <div class="max-w-2xl mx-auto text-center mb-8 sm:mb-12">
+      <h1 class="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight mb-3">
+        Discover Global Stories
+      </h1>
+      <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+        Search by keyword, life value, collection, bedtime tag or reading level.
+      </p>
+
+      <!-- Instant Search Input -->
+      <div class="mt-6 relative">
+        <input
+          type="search"
+          id="search-input"
+          placeholder={t.searchPlaceholder}
+          aria-label="Search stories"
+          class="w-full pl-12 pr-4 py-4 rounded-2xl bg-white dark:bg-slate-900 border-2 border-amber-300 dark:border-slate-700 shadow-md text-sm sm:text-base font-medium focus:outline-none focus:border-amber-500 transition-all text-slate-900 dark:text-white"
+        />
+        <span class="absolute left-4 top-4 text-xl">🔍</span>
+      </div>
+    </div>
+
+    <!-- Interactive Filters Row -->
+    <div class="mb-8 p-4 rounded-2xl bg-amber-50 dark:bg-slate-900 border border-amber-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-4 text-xs">
+      
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="font-bold text-slate-600 dark:text-slate-300">Filter By:</span>
+
+        <select id="filter-genre" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 font-semibold text-slate-700 dark:text-slate-200">
+          <option value="">All Genres</option>
+          {genres.map(g => <option value={g}>{g}</option>)}
+        </select>
+
+        <select id="filter-collection" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 font-semibold text-slate-700 dark:text-slate-200">
+          <option value="">All Collections</option>
+          {collections.map(c => <option value={c}>{c}</option>)}
+        </select>
+
+        <select id="filter-level" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 font-semibold text-slate-700 dark:text-slate-200">
+          <option value="">All Reading Levels</option>
+          {readingLevels.map(rl => <option value={rl}>{rl}</option>)}
+        </select>
+
+        <label class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 font-semibold cursor-pointer">
+          <input type="checkbox" id="filter-bedtime" class="rounded text-amber-600 focus:ring-amber-500" />
+          <span>🌙 Bedtime Only</span>
+        </label>
+      </div>
+
+      <div class="text-xs text-slate-500 font-medium">
+        Showing <span id="results-count" class="font-bold text-slate-800 dark:text-white">{stories.length}</span> stories
+      </div>
+    </div>
+
+    <!-- Search Results Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="stories-grid">
+      {stories.map(s => (
+        <article
+          class="story-card bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all overflow-hidden flex flex-col justify-between"
+          data-title={s.title.toLowerCase()}
+          data-summary={s.summary.toLowerCase()}
+          data-keywords={(s.keywords || []).join(' ').toLowerCase()}
+          data-genre={s.genre}
+          data-collection={s.collection}
+          data-level={s.reading_level}
+          data-bedtime={s.is_bedtime ? 'true' : 'false'}
+          data-values={(s.values || []).join(' ').toLowerCase()}
+          data-moods={(s.mood || []).join(' ').toLowerCase()}
+        >
+          <div>
+            <div class="aspect-16/10 overflow-hidden relative">
+              <img src={s.image} alt={s.image_alt} loading="lazy" class="w-full h-full object-cover" />
+              <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-black/60 backdrop-blur-sm text-white text-[11px] font-bold">
+                {s.collection}
+              </span>
+              <span class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-amber-500 text-white text-[11px] font-bold">
+                ⏱️ {s.reading_time}
+              </span>
+            </div>
+
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-xs text-slate-400 mb-2">
+                <span>{s.culture_region}</span>
+                <span>•</span>
+                <span>{s.genre}</span>
+              </div>
+
+              <h2 class="text-lg font-bold text-slate-900 dark:text-white mb-2 line-clamp-2">
+                <a href={`/${lang}/stories/${s.slug}/`} class="hover:text-amber-600 transition-colors">
+                  {s.title}
+                </a>
+              </h2>
+
+              <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-3 mb-4 leading-relaxed">
+                {s.summary}
+              </p>
+
+              <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-800 text-xs text-amber-900 dark:text-amber-200 italic line-clamp-2">
+                💡 {s.moral}
+              </div>
+            </div>
+          </div>
+
+          <div class="px-6 pb-6 pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-400">Level: <strong>{s.reading_level}</strong></span>
+            <a href={`/${lang}/stories/${s.slug}/`} class="px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors">
+              Read Story →
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <!-- Empty Results State -->
+    <div id="no-results-box" class="hidden text-center py-16">
+      <div class="text-5xl mb-3">🔍</div>
+      <h3 class="text-lg font-black text-slate-800 dark:text-white mb-1">No matching stories found</h3>
+      <p class="text-xs sm:text-sm text-slate-500 mb-4">Try searching for other words like "kindness", "rabbit", "lion", or clear filters.</p>
+      <button id="clear-search-btn" class="px-4 py-2 rounded-full bg-amber-500 text-white font-bold text-xs">
+        Clear All Filters
+      </button>
+    </div>
+
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function initSearch() {
+    const searchInput = document.getElementById('search-input');
+    const filterGenre = document.getElementById('filter-genre');
+    const filterCollection = document.getElementById('filter-collection');
+    const filterLevel = document.getElementById('filter-level');
+    const filterBedtime = document.getElementById('filter-bedtime');
+    const cards = document.querySelectorAll('.story-card');
+    const resultsCount = document.getElementById('results-count');
+    const noResultsBox = document.getElementById('no-results-box');
+    const clearBtn = document.getElementById('clear-search-btn');
+
+    // Parse URL params for initial filters (e.g. ?mood=happy or ?genre=Fables)
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialQuery = urlParams.get('q') || '';
+    const initialMood = urlParams.get('mood') || '';
+    const initialGenre = urlParams.get('genre') || '';
+    const initialCollection = urlParams.get('collection') || '';
+
+    if (initialQuery && searchInput) searchInput.value = initialQuery;
+    if (initialGenre && filterGenre) filterGenre.value = initialGenre;
+    if (initialCollection && filterCollection) filterCollection.value = initialCollection;
+
+    function runFilter() {
+      const q = (searchInput?.value || '').trim().toLowerCase();
+      const genre = filterGenre?.value || '';
+      const collection = filterCollection?.value || '';
+      const level = filterLevel?.value || '';
+      const bedtimeOnly = filterBedtime?.checked || false;
+
+      let visible = 0;
+
+      cards.forEach(card => {
+        const title = card.getAttribute('data-title') || '';
+        const summary = card.getAttribute('data-summary') || '';
+        const keywords = card.getAttribute('data-keywords') || '';
+        const values = card.getAttribute('data-values') || '';
+        const moods = card.getAttribute('data-moods') || '';
+        const cGenre = card.getAttribute('data-genre') || '';
+        const cCollection = card.getAttribute('data-collection') || '';
+        const cLevel = card.getAttribute('data-level') || '';
+        const isBedtime = card.getAttribute('data-bedtime') === 'true';
+
+        const matchesQuery = !q || title.includes(q) || summary.includes(q) || keywords.includes(q) || values.includes(q) || moods.includes(q);
+        const matchesMood = !initialMood || moods.includes(initialMood);
+        const matchesGenre = !genre || cGenre === genre;
+        const matchesCollection = !collection || cCollection === collection;
+        const matchesLevel = !level || cLevel === level;
+        const matchesBedtime = !bedtimeOnly || isBedtime;
+
+        if (matchesQuery && matchesMood && matchesGenre && matchesCollection && matchesLevel && matchesBedtime) {
+          card.classList.remove('hidden');
+          visible++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      if (resultsCount) resultsCount.textContent = visible.toString();
+      if (noResultsBox) {
+        if (visible === 0) {
+          noResultsBox.classList.remove('hidden');
+        } else {
+          noResultsBox.classList.add('hidden');
+        }
+      }
+    }
+
+    if (searchInput) searchInput.addEventListener('input', runFilter);
+    if (filterGenre) filterGenre.addEventListener('change', runFilter);
+    if (filterCollection) filterCollection.addEventListener('change', runFilter);
+    if (filterLevel) filterLevel.addEventListener('change', runFilter);
+    if (filterBedtime) filterBedtime.addEventListener('change', runFilter);
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (searchInput) searchInput.value = '';
+        if (filterGenre) filterGenre.value = '';
+        if (filterCollection) filterCollection.value = '';
+        if (filterLevel) filterLevel.value = '';
+        if (filterBedtime) filterBedtime.checked = false;
+        runFilter();
+      });
+    }
+
+    runFilter();
+  })();
+</script>

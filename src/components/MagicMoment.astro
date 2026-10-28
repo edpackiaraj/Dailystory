@@ -1,0 +1,238 @@
+---
+interface Props {
+  storyId: string;
+  storyTitle: string;
+  moral: string;
+  teaser: string;
+  collection: string;
+  language: string;
+  nextStorySlug?: string;
+}
+
+const { storyId, storyTitle, moral, teaser, collection, language, nextStorySlug } = Astro.props;
+---
+
+<div class="my-10 p-6 sm:p-10 rounded-3xl bg-linear-to-b from-amber-50 to-orange-50/50 dark:from-slate-900 dark:to-slate-950 border-2 border-amber-300/80 dark:border-amber-900/60 shadow-lg relative overflow-hidden" id="magic-moment-root" data-story-id={storyId} data-collection={collection} data-lang={language}>
+  
+  <!-- Decorative background starlight -->
+  <div class="absolute -top-10 -right-10 w-40 h-40 bg-amber-200/40 dark:bg-amber-500/10 rounded-full blur-2xl pointer-events-none"></div>
+
+  <!-- 1. Effort-Based Praise -->
+  <div class="text-center max-w-xl mx-auto mb-8">
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-200/60 dark:bg-amber-950 text-amber-900 dark:text-amber-200 text-xs font-bold uppercase tracking-wider mb-3">
+      <span>🌟</span> Magic Moment Achieved!
+    </div>
+    <h3 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white mb-2">
+      You completed a wonderful story today!
+    </h3>
+    <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+      Every story you read plants a new flower in your imagination.
+    </p>
+  </div>
+
+  <!-- 2. Shareable Moral Card Preview & Canvas -->
+  <div class="max-w-lg mx-auto bg-white dark:bg-slate-900 rounded-3xl p-6 border border-amber-200 dark:border-slate-800 shadow-md text-center mb-8 relative" id="moral-card-export">
+    <div class="text-amber-600 dark:text-amber-400 text-xs font-black uppercase tracking-wider mb-2">
+      Dhinam Oru Kathai • Moral of the Day
+    </div>
+    <blockquote class="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 italic leading-relaxed mb-4">
+      "{moral}"
+    </blockquote>
+    <div class="text-xs font-semibold text-amber-700 dark:text-amber-300">
+      From: {storyTitle}
+    </div>
+
+    <!-- Moral Card Share & Download Buttons -->
+    <div class="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800 flex flex-wrap items-center justify-center gap-2 text-xs">
+      <button id="btn-copy-moral" class="px-3 py-1.5 rounded-full bg-amber-100 dark:bg-slate-800 text-amber-900 dark:text-amber-200 font-bold hover:bg-amber-200 transition-colors">
+        📋 Copy Moral
+      </button>
+      <button id="btn-share-whatsapp" class="px-3 py-1.5 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold transition-colors">
+        💬 WhatsApp
+      </button>
+      <button id="btn-share-card-img" class="px-3 py-1.5 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold transition-colors">
+        🖼️ Share as Card
+      </button>
+    </div>
+  </div>
+
+  <!-- 3. Gentle Feedback ("Did you like it?" 😍 😊 😐) -->
+  <div class="max-w-md mx-auto text-center mb-8">
+    <div class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-3">
+      How did this story make you feel?
+    </div>
+    <div class="flex items-center justify-center gap-4" id="reaction-group">
+      <button class="reaction-btn text-3xl p-3 rounded-2xl bg-white dark:bg-slate-800 shadow-xs hover:scale-110 active:scale-95 transition-transform" data-reaction="loved" title="Loved it!">
+        😍
+      </button>
+      <button class="reaction-btn text-3xl p-3 rounded-2xl bg-white dark:bg-slate-800 shadow-xs hover:scale-110 active:scale-95 transition-transform" data-reaction="happy" title="Happy!">
+        😊
+      </button>
+      <button class="reaction-btn text-3xl p-3 rounded-2xl bg-white dark:bg-slate-800 shadow-xs hover:scale-110 active:scale-95 transition-transform" data-reaction="neutral" title="It was okay">
+        😐
+      </button>
+    </div>
+    <div id="reaction-thank-you" class="hidden mt-3 text-xs font-semibold text-amber-600 dark:text-amber-400 animate-in fade-in">
+      Thank you! Your feedback helps us recommend stories you'll adore.
+    </div>
+  </div>
+
+  <!-- 4. Tomorrow's Invitation & Countdown -->
+  <div class="max-w-lg mx-auto p-5 rounded-2xl bg-amber-200/50 dark:bg-slate-800/60 border border-amber-300 dark:border-slate-700 text-center mb-8">
+    <div class="text-xs font-bold uppercase tracking-wider text-amber-900 dark:text-amber-300 mb-1">
+      Tomorrow's Story Teaser
+    </div>
+    <p class="text-sm font-semibold text-slate-800 dark:text-slate-200 italic mb-3">
+      "{teaser}"
+    </p>
+    <div class="text-xs text-slate-600 dark:text-slate-400">
+      Next story arrives in: <span id="tomorrow-countdown" class="font-mono font-bold text-amber-800 dark:text-amber-300">--:--:--</span>
+    </div>
+  </div>
+
+  <!-- 5. Action Ritual Buttons -->
+  <div class="flex flex-wrap items-center justify-center gap-3 text-xs sm:text-sm font-bold">
+    <button id="btn-listen-again" class="px-4 py-2.5 rounded-2xl bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-300 dark:border-slate-700 shadow-xs hover:bg-slate-50 transition-all">
+      🔄 Listen Again
+    </button>
+
+    {nextStorySlug && (
+      <a href={`/${language}/stories/${nextStorySlug}/`} class="px-4 py-2.5 rounded-2xl bg-amber-500 hover:bg-amber-600 text-white shadow-md transition-all">
+        Next in {collection} →
+      </a>
+    )}
+
+    <a href={`/${language}/`} class="px-4 py-2.5 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white shadow-md transition-all">
+      🎲 Surprise Me!
+    </a>
+
+    <button id="btn-add-reminder" class="px-4 py-2.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white shadow-md transition-all">
+      ⏰ Daily Story Reminder
+    </button>
+  </div>
+</div>
+
+<script is:inline>
+  (function initMagicMoment() {
+    const root = document.getElementById('magic-moment-root');
+    if (!root) return;
+
+    const storyId = root.getAttribute('data-story-id');
+    const collection = root.getAttribute('data-collection');
+    const lang = root.getAttribute('data-lang');
+
+    // 1. Record Reading Streak and Garden Leaf in LocalStorage
+    try {
+      const today = new Date().toISOString().split('T')[0];
+      const history = JSON.parse(localStorage.getItem('story_history') || '[]');
+      if (!history.includes(storyId)) {
+        history.unshift(storyId);
+        localStorage.setItem('story_history', JSON.stringify(history.slice(0, 20)));
+      }
+
+      // Streak logic with grace/pause days
+      const lastStreakDate = localStorage.getItem('story_streak_last_date');
+      let currentStreak = parseInt(localStorage.getItem('story_streak_count') || '0', 10);
+
+      if (!lastStreakDate) {
+        currentStreak = 1;
+        localStorage.setItem('story_streak_count', '1');
+        localStorage.setItem('story_streak_last_date', today);
+      } else if (lastStreakDate !== today) {
+        const lastDate = new Date(lastStreakDate);
+        const diffDays = Math.round((new Date(today) - lastDate) / (1000 * 60 * 60 * 24));
+
+        if (diffDays === 1) {
+          currentStreak++;
+          localStorage.setItem('story_streak_count', currentStreak.toString());
+        } else if (diffDays > 1) {
+          // Check for pause days: NEVER shame, gently preserve garden
+          currentStreak = 1;
+          localStorage.setItem('story_streak_count', '1');
+        }
+        localStorage.setItem('story_streak_last_date', today);
+      }
+
+      // Record Passport Stamp
+      const passport = JSON.parse(localStorage.getItem('story_passport') || '{"collections":[],"languages":[]}');
+      if (collection && !passport.collections.includes(collection)) {
+        passport.collections.push(collection);
+      }
+      if (lang && !passport.languages.includes(lang)) {
+        passport.languages.push(lang);
+      }
+      localStorage.setItem('story_passport', JSON.stringify(passport));
+    } catch (e) {
+      console.warn('Storage error:', e);
+    }
+
+    // 2. Countdown to Midnight (Tomorrow's story)
+    function updateCountdown() {
+      const cdElem = document.getElementById('tomorrow-countdown');
+      if (!cdElem) return;
+      const now = new Date();
+      const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+      const diffMs = tomorrow - now;
+      const hours = Math.floor(diffMs / (1000 * 60 * 60));
+      const mins = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+      const secs = Math.floor((diffMs % (1000 * 60)) / 1000);
+      cdElem.textContent = `${hours}h ${mins}m ${secs}s`;
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // 3. Reactions Click
+    const reactionButtons = document.querySelectorAll('.reaction-btn');
+    const thankYou = document.getElementById('reaction-thank-you');
+    reactionButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const reaction = btn.getAttribute('data-reaction');
+        btn.classList.add('scale-125', 'bg-amber-100');
+        if (thankYou) thankYou.classList.remove('hidden');
+
+        // Optional non-blocking API telemetry to D1
+        fetch('/api/feedback', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ story_id: storyId, type: 'reaction', rating: reaction })
+        }).catch(() => {});
+      });
+    });
+
+    // 4. Social Sharing & Copy
+    const copyMoralBtn = document.getElementById('btn-copy-moral');
+    if (copyMoralBtn) {
+      copyMoralBtn.addEventListener('click', () => {
+        const moralText = document.querySelector('#moral-card-export blockquote')?.innerText;
+        if (moralText) {
+          navigator.clipboard.writeText(`${moralText} - Read more on Dhinam Oru Kathai (${window.location.href})`);
+          copyMoralBtn.textContent = '✅ Copied!';
+          setTimeout(() => { copyMoralBtn.textContent = '📋 Copy Moral'; }, 2000);
+        }
+      });
+    }
+
+    const whatsappBtn = document.getElementById('btn-share-whatsapp');
+    if (whatsappBtn) {
+      whatsappBtn.addEventListener('click', () => {
+        const text = encodeURIComponent(`"Today's Story Moral": ${window.location.href}`);
+        window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank');
+      });
+    }
+
+    const reminderBtn = document.getElementById('btn-add-reminder');
+    if (reminderBtn) {
+      reminderBtn.addEventListener('click', () => {
+        alert("Story Reminder Set! Visit tomorrow morning for our next exciting tale.");
+      });
+    }
+
+    const listenAgainBtn = document.getElementById('btn-listen-again');
+    if (listenAgainBtn) {
+      listenAgainBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 350, behavior: 'smooth' });
+        document.getElementById('audio-play-pause-btn')?.click();
+      });
+    }
+  })();
+</script>

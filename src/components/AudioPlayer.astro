@@ -1,0 +1,307 @@
+---
+interface Props {
+  storyId: string;
+  storyTitle: string;
+  storyText: string;
+  audioUrl?: string | null;
+  language: string;
+}
+
+const { storyId, storyTitle, storyText, audioUrl, language } = Astro.props;
+---
+
+<div id="audio-player-wrapper" class="my-6 p-4 sm:p-5 rounded-3xl bg-amber-100/70 dark:bg-slate-800/80 border border-amber-300 dark:border-slate-700 shadow-sm" data-story-id={storyId} data-lang={language} data-audio-url={audioUrl || ''}>
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+    
+    <!-- Left: Main Controls (Play, Pause, Stop) -->
+    <div class="flex items-center gap-3">
+      <button id="audio-play-pause-btn" type="button" aria-label="Play or Pause Story Narration" class="w-12 h-12 rounded-2xl bg-amber-500 hover:bg-amber-600 active:scale-95 text-white flex items-center justify-center shadow-md transition-all">
+        <svg id="play-icon" class="w-6 h-6 ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+        <svg id="pause-icon" class="w-6 h-6 hidden" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+        </svg>
+      </button>
+
+      <button id="audio-stop-btn" type="button" aria-label="Stop Narration" class="p-2.5 rounded-xl bg-white dark:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-300 dark:border-slate-600 hover:bg-slate-100 transition-colors">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M6 6h12v12H6z"/>
+        </svg>
+      </button>
+
+      <div>
+        <div class="text-xs font-bold text-amber-950 dark:text-amber-200 uppercase tracking-wider flex items-center gap-1.5">
+          <span>🎧</span>
+          <span id="audio-status-label">Listen to this story</span>
+        </div>
+        <div class="text-[11px] text-slate-500 dark:text-slate-400">
+          {audioUrl ? 'Studio Narration (R2 High-Definition)' : 'Natural Web Speech Synthesis'}
+        </div>
+      </div>
+    </div>
+
+    <!-- Center/Right: Speed, Voices & Read-along Toggle -->
+    <div class="flex flex-wrap items-center gap-2 sm:gap-3 text-xs">
+      
+      <!-- Read-Along Mode Toggle -->
+      <label class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white dark:bg-slate-700 border border-amber-300 dark:border-slate-600 font-semibold cursor-pointer text-slate-700 dark:text-slate-200 shadow-sm">
+        <input type="checkbox" id="toggle-read-along" class="rounded text-amber-600 focus:ring-amber-500" checked />
+        <span>Highlight Words</span>
+      </label>
+
+      <!-- Speed Selector (0.5x to 2x) -->
+      <div class="flex items-center gap-1 bg-white dark:bg-slate-700 px-2 py-1 rounded-full border border-slate-300 dark:border-slate-600">
+        <span class="text-slate-500 font-medium">Speed:</span>
+        <select id="audio-speed-select" aria-label="Audio Playback Speed" class="bg-transparent font-bold text-slate-800 dark:text-white focus:outline-none cursor-pointer">
+          <option value="0.5">0.5x</option>
+          <option value="0.75">0.75x</option>
+          <option value="1.0" selected>1.0x</option>
+          <option value="1.25">1.25x</option>
+          <option value="1.5">1.5x</option>
+          <option value="2.0">2.0x</option>
+        </select>
+      </div>
+
+      <!-- Voice Selector (Dynamic from window.speechSynthesis) -->
+      <select id="audio-voice-select" aria-label="Voice Selector" class="bg-white dark:bg-slate-700 px-3 py-1 rounded-full border border-slate-300 dark:border-slate-600 font-medium text-slate-800 dark:text-white focus:outline-none max-w-[140px] truncate">
+        <option value="">Default Voice</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Audio Progress Slider & Scrubbing -->
+  <div class="mt-4 pt-3 border-t border-amber-200 dark:border-slate-700 flex items-center gap-3">
+    <span id="audio-time-current" class="text-xs font-mono font-medium text-slate-600 dark:text-slate-400">0:00</span>
+    <input type="range" id="audio-progress-bar" min="0" max="100" value="0" aria-label="Story audio progress" class="w-full h-2 bg-amber-200 dark:bg-slate-700 rounded-lg appearance-none cursor-pointer accent-amber-500" />
+    <span id="audio-time-total" class="text-xs font-mono font-medium text-slate-600 dark:text-slate-400">--:--</span>
+  </div>
+
+  <!-- Device Voice Quality Notice -->
+  <p class="mt-2 text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400 italic">
+    * Note: Web Speech synthesis voices are provided directly by your device/browser engine. Voice availability and naturalness vary by operating system and device language packs.
+  </p>
+
+  <!-- Hidden native audio element if MP3 is provided -->
+  {audioUrl && (
+    <audio id="native-audio" src={audioUrl} preload="metadata" class="hidden"></audio>
+  )}
+</div>
+
+<script is:inline>
+  (function initAudioPlayer() {
+    const playerWrapper = document.getElementById('audio-player-wrapper');
+    if (!playerWrapper) return;
+
+    const playPauseBtn = document.getElementById('audio-play-pause-btn');
+    const stopBtn = document.getElementById('audio-stop-btn');
+    const playIcon = document.getElementById('play-icon');
+    const pauseIcon = document.getElementById('pause-icon');
+    const statusLabel = document.getElementById('audio-status-label');
+    const speedSelect = document.getElementById('audio-speed-select');
+    const voiceSelect = document.getElementById('audio-voice-select');
+    const progressBar = document.getElementById('audio-progress-bar');
+    const timeCurrent = document.getElementById('audio-time-current');
+    const timeTotal = document.getElementById('audio-time-total');
+    const readAlongToggle = document.getElementById('toggle-read-along');
+    const nativeAudio = document.getElementById('native-audio');
+
+    const lang = playerWrapper.getAttribute('data-lang') || 'en';
+    const storyId = playerWrapper.getAttribute('data-story-id');
+    const storyContentElem = document.getElementById('story-body-text');
+
+    let isPlaying = false;
+    let isPaused = false;
+    let currentUtterance = null;
+    let sentences = [];
+    let currentSentenceIdx = 0;
+
+    // Split story text into sentences for read-along highlighting
+    if (storyContentElem) {
+      const paragraphs = Array.from(storyContentElem.querySelectorAll('p'));
+      paragraphs.forEach((p, pIdx) => {
+        const text = p.innerText.trim();
+        if (!text) return;
+        // Wrap sentences in span elements for highlight tracking
+        const sentenceMatches = text.match(/[^.!?]+[.!?]+(\s+|$)/g) || [text];
+        p.innerHTML = sentenceMatches.map((s, sIdx) => 
+          `<span class="story-sentence transition-colors duration-200" id="sent-${pIdx}-${sIdx}">${s}</span>`
+        ).join('');
+      });
+      sentences = Array.from(document.querySelectorAll('.story-sentence'));
+    }
+
+    // Populate Available Speech Synthesis Voices
+    function loadVoices() {
+      if (!('speechSynthesis' in window)) {
+        if (voiceSelect) voiceSelect.style.display = 'none';
+        return;
+      }
+      const voices = window.speechSynthesis.getVoices();
+      if (!voiceSelect || !voices.length) return;
+
+      voiceSelect.innerHTML = '<option value="">Default Voice</option>';
+      const langPrefix = lang.slice(0, 2);
+      const filtered = voices.filter(v => v.lang.toLowerCase().startsWith(langPrefix));
+      const pool = filtered.length > 0 ? filtered : voices;
+
+      pool.forEach((v) => {
+        const opt = document.createElement('option');
+        opt.value = v.name;
+        opt.textContent = `${v.name} (${v.lang})`;
+        voiceSelect.appendChild(opt);
+      });
+    }
+
+    if ('speechSynthesis' in window) {
+      loadVoices();
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+
+    function highlightSentence(idx) {
+      if (!readAlongToggle || !readAlongToggle.checked) return;
+      sentences.forEach((s, i) => {
+        if (i === idx) {
+          s.classList.add('bg-amber-200', 'dark:bg-amber-900/60', 'rounded', 'px-0.5');
+          s.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } else {
+          s.classList.remove('bg-amber-200', 'dark:bg-amber-900/60', 'rounded', 'px-0.5');
+        }
+      });
+    }
+
+    function clearHighlights() {
+      sentences.forEach(s => s.classList.remove('bg-amber-200', 'dark:bg-amber-900/60', 'rounded', 'px-0.5'));
+    }
+
+    function playSentence(idx) {
+      if (idx >= sentences.length) {
+        stopPlayback();
+        statusLabel.textContent = 'Completed narration!';
+        return;
+      }
+      currentSentenceIdx = idx;
+      highlightSentence(idx);
+
+      const text = sentences[idx].innerText;
+      const rate = parseFloat(speedSelect.value || '1.0');
+
+      currentUtterance = new SpeechSynthesisUtterance(text);
+      currentUtterance.lang = lang;
+      currentUtterance.rate = rate;
+
+      if (voiceSelect && voiceSelect.value) {
+        const voice = window.speechSynthesis.getVoices().find(v => v.name === voiceSelect.value);
+        if (voice) currentUtterance.voice = voice;
+      }
+
+      currentUtterance.onend = () => {
+        if (isPlaying && !isPaused) {
+          playSentence(idx + 1);
+        }
+      };
+
+      currentUtterance.onerror = (e) => {
+        console.warn('Speech synthesis error:', e);
+        if (isPlaying && !isPaused) {
+          playSentence(idx + 1);
+        }
+      };
+
+      window.speechSynthesis.speak(currentUtterance);
+
+      // Update progress bar
+      if (sentences.length > 0) {
+        const pct = Math.round(((idx + 1) / sentences.length) * 100);
+        progressBar.value = pct;
+        timeCurrent.textContent = `${idx + 1}/${sentences.length}`;
+      }
+    }
+
+    function startPlayback() {
+      isPlaying = true;
+      isPaused = false;
+      playIcon.classList.add('hidden');
+      pauseIcon.classList.remove('hidden');
+      statusLabel.textContent = 'Reading story aloud...';
+
+      if (nativeAudio && nativeAudio.src) {
+        nativeAudio.playbackRate = parseFloat(speedSelect.value || '1.0');
+        nativeAudio.play();
+      } else if ('speechSynthesis' in window) {
+        if (window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+        } else {
+          playSentence(currentSentenceIdx);
+        }
+      }
+    }
+
+    function pausePlayback() {
+      isPaused = true;
+      playIcon.classList.remove('hidden');
+      pauseIcon.classList.add('hidden');
+      statusLabel.textContent = 'Paused';
+
+      if (nativeAudio && nativeAudio.src) {
+        nativeAudio.pause();
+      } else if ('speechSynthesis' in window) {
+        window.speechSynthesis.pause();
+      }
+    }
+
+    function stopPlayback() {
+      isPlaying = false;
+      isPaused = false;
+      currentSentenceIdx = 0;
+      playIcon.classList.remove('hidden');
+      pauseIcon.classList.add('hidden');
+      statusLabel.textContent = 'Listen to this story';
+      progressBar.value = 0;
+      clearHighlights();
+
+      if (nativeAudio && nativeAudio.src) {
+        nativeAudio.pause();
+        nativeAudio.currentTime = 0;
+      } else if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+    }
+
+    playPauseBtn.addEventListener('click', () => {
+      if (!isPlaying || isPaused) {
+        startPlayback();
+      } else {
+        pausePlayback();
+      }
+    });
+
+    stopBtn.addEventListener('click', stopPlayback);
+
+    if (speedSelect) {
+      speedSelect.addEventListener('change', () => {
+        if (isPlaying && !isPaused) {
+          if ('speechSynthesis' in window) {
+            window.speechSynthesis.cancel();
+            playSentence(currentSentenceIdx);
+          }
+        }
+      });
+    }
+
+    // Scrubber click to jump
+    if (progressBar) {
+      progressBar.addEventListener('input', (e) => {
+        const targetPct = parseFloat(e.target.value);
+        const targetIdx = Math.floor((targetPct / 100) * sentences.length);
+        currentSentenceIdx = Math.max(0, Math.min(sentences.length - 1, targetIdx));
+        if (isPlaying) {
+          window.speechSynthesis.cancel();
+          playSentence(currentSentenceIdx);
+        } else {
+          highlightSentence(currentSentenceIdx);
+        }
+      });
+    }
+  })();
+</script>

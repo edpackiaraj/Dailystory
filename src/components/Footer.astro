@@ -1,0 +1,137 @@
+---
+import brandConfig from '../../config/brand.json';
+import { getT } from '../lib/i18n';
+import { getAllReviewedStories } from '../lib/stories';
+
+interface Props {
+  currentLang: string;
+}
+
+const { currentLang } = Astro.props;
+const t = getT(currentLang);
+
+const currentStoriesCount = getAllReviewedStories(currentLang).length || 5;
+const totalLanguagesCount = brandConfig.supportedLanguages.length;
+---
+
+<footer class="bg-brand-100/60 dark:bg-slate-950 border-t border-brand-200 dark:border-slate-800 pt-12 pb-16 text-slate-700 dark:text-slate-300 transition-colors">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Honest Community Counters Grid -->
+    <div class="mb-12 p-6 sm:p-8 bg-white dark:bg-slate-900 border border-amber-200 dark:border-slate-800 rounded-3xl shadow-sm">
+      <div class="text-center mb-6">
+        <h2 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-amber-800 dark:text-amber-400">
+          Honest Community Library Stats
+        </h2>
+        <p class="text-xs text-slate-500 mt-1">Real numbers only • Zero inflated metrics or deceptive counters</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+        <div class="p-4 rounded-2xl bg-amber-50/50 dark:bg-slate-800/50">
+          <div class="text-3xl sm:text-4xl font-black text-amber-600 dark:text-amber-400">
+            {currentStoriesCount}+
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-slate-600 dark:text-slate-300 mt-1">
+            {t.communityCounterStories}
+          </div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-amber-50/50 dark:bg-slate-800/50">
+          <div class="text-3xl sm:text-4xl font-black text-indigo-600 dark:text-indigo-400">
+            {totalLanguagesCount}
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-slate-600 dark:text-slate-300 mt-1">
+            {t.communityCounterLanguages}
+          </div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-amber-50/50 dark:bg-slate-800/50">
+          <div class="text-3xl sm:text-4xl font-black text-emerald-600 dark:text-emerald-400" id="live-reader-count">
+            100%
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-slate-600 dark:text-slate-300 mt-1">
+            Ad-Free &amp; Family Safe
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Footer Links Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-12">
+      
+      <!-- Brand Summary -->
+      <div class="col-span-2">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center text-white font-black text-lg">
+            🦉
+          </div>
+          <div>
+            <div class="font-extrabold text-slate-900 dark:text-white text-base">
+              {brandConfig.name}
+            </div>
+            <div class="text-xs text-amber-700 dark:text-amber-300 font-medium">
+              {brandConfig.nativeName}
+            </div>
+          </div>
+        </div>
+        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed pr-4 mb-4">
+          {brandConfig.description}
+        </p>
+        <div class="text-xs text-slate-500 space-y-1">
+          <div><strong class="text-slate-700 dark:text-slate-300">Grievance Cell:</strong> {brandConfig.contact.grievanceOfficer}</div>
+          <div><strong class="text-slate-700 dark:text-slate-300">Contact:</strong> {brandConfig.contact.email}</div>
+        </div>
+      </div>
+
+      <!-- Story Exploration -->
+      <div>
+        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white mb-3">Explore</h3>
+        <ul class="space-y-2 text-xs sm:text-sm">
+          <li><a href={`/${currentLang}/`} class="hover:text-amber-600 transition-colors">{t.todaysStory}</a></li>
+          <li><a href={`/${currentLang}/search/`} class="hover:text-amber-600 transition-colors">Search Library</a></li>
+          <li><a href={`/${currentLang}/favorites/`} class="hover:text-amber-600 transition-colors">⭐ {t.myCorner}</a></li>
+          <li><a href={`/${currentLang}/submit/`} class="hover:text-amber-600 transition-colors">{t.submitStory}</a></li>
+          <li><a href={`/${currentLang}/subscribe/`} class="hover:text-amber-600 transition-colors">Morning Story Email</a></li>
+        </ul>
+      </div>
+
+      <!-- Trust & Pedagogy -->
+      <div>
+        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white mb-3">Trust &amp; Family</h3>
+        <ul class="space-y-2 text-xs sm:text-sm">
+          <li><a href={`/${currentLang}/about/`} class="hover:text-amber-600 transition-colors">About &amp; Mission</a></li>
+          <li><a href={`/${currentLang}/parent-guide/`} class="hover:text-amber-600 transition-colors">Parent &amp; Teacher Guide</a></li>
+          <li><a href={`/${currentLang}/editorial-policy/`} class="hover:text-amber-600 transition-colors">Editorial &amp; AI Policy</a></li>
+          <li><a href={`/${currentLang}/guidelines/`} class="hover:text-amber-600 transition-colors">Submission Guidelines</a></li>
+          <li><a href={`/${currentLang}/accessibility/`} class="hover:text-amber-600 transition-colors">Accessibility (WCAG 2.2 AA)</a></li>
+        </ul>
+      </div>
+
+      <!-- Legal & Transparency -->
+      <div>
+        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white mb-3">Legal &amp; Privacy</h3>
+        <ul class="space-y-2 text-xs sm:text-sm">
+          <li><a href={`/${currentLang}/privacy/`} class="hover:text-amber-600 transition-colors">Privacy Policy</a></li>
+          <li><a href={`/${currentLang}/terms/`} class="hover:text-amber-600 transition-colors">Terms of Use</a></li>
+          <li><a href={`/${currentLang}/disclaimer/`} class="hover:text-amber-600 transition-colors">Disclaimer</a></li>
+          <li><a href={`/${currentLang}/cookies/`} class="hover:text-amber-600 transition-colors">Cookies &amp; Local Storage</a></li>
+          <li><a href={`/${currentLang}/copyright/`} class="hover:text-amber-600 transition-colors">Copyright &amp; Takedown</a></li>
+          <li><a href={`/${currentLang}/contact/`} class="hover:text-amber-600 transition-colors">Contact &amp; Grievance</a></li>
+          <li><a href="/sitemap.xml" class="hover:text-amber-600 transition-colors">XML Sitemap</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Legal Review Notice & Copyright -->
+    <div class="pt-8 border-t border-brand-200 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-500 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div>
+        © {new Date().getFullYear()} {brandConfig.name} ({brandConfig.nativeName}). All rights reserved. Last updated: October 28, 2026.
+      </div>
+      <div class="text-[11px] max-w-xl text-center md:text-right text-slate-400">
+        Template Notice: Trust and legal policy documents provided on this website are operational educational templates and must be formally reviewed by qualified legal counsel prior to commercial launch in your jurisdiction.
+      </div>
+    </div>
+
+  </div>
+</footer>

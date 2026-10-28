@@ -1,0 +1,128 @@
+---
+interface Props {
+  storyId: string;
+  storyTitle: string;
+  quiz: {
+    question: string;
+    options: string[];
+    answerIndex: number;
+    hint: string;
+  }[];
+}
+
+const { storyId, storyTitle, quiz } = Astro.props;
+---
+
+<div class="my-8 p-6 sm:p-8 rounded-3xl bg-amber-50/70 dark:bg-slate-800/60 border border-amber-200 dark:border-slate-700 shadow-sm" id="story-quiz-container" data-story-id={storyId}>
+  <div class="flex items-center gap-3 mb-6">
+    <div class="w-12 h-12 rounded-2xl bg-amber-500 text-white flex items-center justify-center text-2xl shadow-sm">
+      🎯
+    </div>
+    <div>
+      <h3 class="text-lg sm:text-xl font-black text-slate-900 dark:text-white">
+        Fun Comprehension Quiz
+      </h3>
+      <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+        Three gentle questions to celebrate your reading journey! (No timers, no red crosses).
+      </p>
+    </div>
+  </div>
+
+  <div class="space-y-6" id="quiz-questions-list">
+    {quiz.map((q, qIdx) => (
+      <div class="quiz-question-card p-5 rounded-2xl bg-white dark:bg-slate-900 border border-amber-100 dark:border-slate-800" data-question-idx={qIdx} data-correct-idx={q.answerIndex}>
+        <div class="font-bold text-sm sm:text-base text-slate-800 dark:text-slate-100 mb-3 flex items-start gap-2">
+          <span class="w-6 h-6 rounded-full bg-amber-200 dark:bg-amber-900/60 text-amber-900 dark:text-amber-200 text-xs flex items-center justify-center shrink-0 mt-0.5 font-black">
+            {qIdx + 1}
+          </span>
+          <span>{q.question}</span>
+        </div>
+
+        <div class="space-y-2 options-group">
+          {q.options.map((opt, oIdx) => (
+            <button
+              type="button"
+              class="quiz-option-btn w-full text-left p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-amber-50 dark:hover:bg-slate-800 transition-all flex items-center justify-between"
+              data-opt-idx={oIdx}
+            >
+              <span>{opt.replace(/^\(Recommended\)\s*/, '')}</span>
+              <span class="status-marker text-sm hidden"></span>
+            </button>
+          ))}
+        </div>
+
+        <!-- Gentle retry hint -->
+        <div class="quiz-hint-box hidden mt-3 p-3 rounded-xl bg-amber-100/60 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 text-xs">
+          <strong>Friendly Hint:</strong> {q.hint}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <!-- Quiz Completed Celebration Banner -->
+  <div id="quiz-complete-card" class="hidden mt-6 p-6 rounded-2xl bg-emerald-100 dark:bg-emerald-950/60 border border-emerald-300 dark:border-emerald-800 text-center animate-in fade-in-50">
+    <div class="text-4xl mb-2">⭐ 🎉 ⭐</div>
+    <h4 class="text-lg font-black text-emerald-900 dark:text-emerald-200 mb-1">
+      Brilliant Reading, Explorer!
+    </h4>
+    <p class="text-xs sm:text-sm text-emerald-800 dark:text-emerald-300">
+      You've earned the <strong>Quiz Star Sticker</strong> in your Story Garden!
+    </p>
+  </div>
+</div>
+
+<script is:inline>
+  (function initStoryQuiz() {
+    const container = document.getElementById('story-quiz-container');
+    if (!container) return;
+
+    const cards = container.querySelectorAll('.quiz-question-card');
+    const completeCard = document.getElementById('quiz-complete-card');
+    let answeredCorrectly = 0;
+
+    cards.forEach(card => {
+      const correctIdx = parseInt(card.getAttribute('data-correct-idx'), 10);
+      const hintBox = card.querySelector('.quiz-hint-box');
+      const buttons = card.querySelectorAll('.quiz-option-btn');
+      let solved = false;
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          if (solved) return;
+          const chosenIdx = parseInt(btn.getAttribute('data-opt-idx'), 10);
+          const marker = btn.querySelector('.status-marker');
+
+          if (chosenIdx === correctIdx) {
+            solved = true;
+            btn.classList.add('bg-emerald-100', 'dark:bg-emerald-900/50', 'border-emerald-400', 'text-emerald-900', 'dark:text-emerald-100');
+            marker.textContent = '🌟 Correct!';
+            marker.classList.remove('hidden');
+            hintBox.classList.add('hidden');
+            answeredCorrectly++;
+
+            // Disable siblings
+            buttons.forEach(b => {
+              if (b !== btn) b.classList.add('opacity-50', 'pointer-events-none');
+            });
+
+            if (answeredCorrectly === cards.length) {
+              completeCard.classList.remove('hidden');
+              // Record badge in localStorage
+              const badges = JSON.parse(localStorage.getItem('story_badges') || '[]');
+              if (!badges.includes('Quiz Star')) {
+                badges.push('Quiz Star');
+                localStorage.setItem('story_badges', JSON.stringify(badges));
+              }
+            }
+          } else {
+            // Gentle retry: NO red crosses or scary noises
+            btn.classList.add('bg-amber-100/50', 'dark:bg-slate-800', 'border-amber-300');
+            marker.textContent = '💭 Let\'s try again!';
+            marker.classList.remove('hidden');
+            hintBox.classList.remove('hidden');
+          }
+        });
+      });
+    });
+  })();
+</script>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="forestSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a2f"/>
+      <stop offset="50%" stop-color="#2d5a45"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.3"/>
+    </linearGradient>
+    <radialGradient id="wellGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.9"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#forestSky)"/>
+  <!-- Trees -->
+  <circle cx="200" cy="500" r="280" fill="#14532d" opacity="0.6"/>
+  <circle cx="1000" cy="520" r="300" fill="#166534" opacity="0.7"/>
+  <path d="M 0 520 Q 300 480 600 520 T 1200 500 L 1200 630 L 0 630 Z" fill="#0f291e"/>
+  
+  <!-- Ancient Stone Well -->
+  <ellipse cx="600" cy="460" rx="140" ry="40" fill="#475569"/>
+  <path d="M 460 460 L 460 550 Q 600 590 740 550 L 740 460 Z" fill="#334155"/>
+  <ellipse cx="600" cy="460" rx="120" ry="32" fill="url(#wellGlow)"/>
+  
+  <!-- Reflection ripple -->
+  <ellipse cx="600" cy="460" rx="70" ry="18" fill="none" stroke="#93c5fd" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Clever Rabbit -->
+  <g transform="translate(380, 420) scale(1.1)">
+    <!-- Body -->
+    <ellipse cx="40" cy="60" rx="35" ry="30" fill="#fef3c7"/>
+    <!-- Head -->
+    <circle cx="70" cy="35" r="22" fill="#fef3c7"/>
+    <!-- Ears -->
+    <ellipse cx="65" cy="8" rx="7" ry="24" fill="#fde68a" transform="rotate(-10, 65, 8)"/>
+    <ellipse cx="80" cy="12" rx="7" ry="22" fill="#fde68a" transform="rotate(15, 80, 12)"/>
+    <ellipse cx="65" cy="8" rx="4" ry="16" fill="#fca5a5" transform="rotate(-10, 65, 8)"/>
+    <ellipse cx="80" cy="12" rx="4" ry="15" fill="#fca5a5" transform="rotate(15, 80, 12)"/>
+    <!-- Eye & Smile -->
+    <circle cx="78" cy="32" r="3.5" fill="#1e293b"/>
+    <circle cx="79" cy="31" r="1.2" fill="#ffffff"/>
+    <path d="M 85 40 Q 82 46 76 43" fill="none" stroke="#92400e" stroke-width="2" stroke-linecap="round"/>
+    <!-- Paws -->
+    <ellipse cx="65" cy="85" rx="15" ry="8" fill="#fef3c7"/>
+    <ellipse cx="30" cy="85" rx="14" ry="8" fill="#fef3c7"/>
+    <!-- Fluffy Tail -->
+    <circle cx="8" cy="55" r="12" fill="#ffffff"/>
+  </g>
+  
+  <!-- Title Badge -->
+  <rect x="50" y="50" width="560" height="90" rx="20" fill="#0f172a" fill-opacity="0.8" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="90" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#fef3c7">The Clever Little Rabbit</text>
+  <text x="80" y="122" font-family="system-ui, sans-serif" font-size="18" fill="#cbd5e1">Panchatantra • Wisdom Over Force</text>
+</svg>
