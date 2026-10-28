@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="cinderellaSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="40%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <radialGradient id="glassSparkle" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#cinderellaSky)"/>
+  
+  <!-- Enchanted Palace Silhouettes & Starlight -->
+  <polygon points="150,630 150,300 200,200 250,300 250,630" fill="#1e1b4b" opacity="0.8"/>
+  <polygon points="900,630 900,260 980,150 1060,260 1060,630" fill="#1e1b4b" opacity="0.8"/>
+  <polygon points="220,630 220,380 270,300 320,380 320,630" fill="#312e81" opacity="0.9"/>
+  <polygon points="850,630 850,340 910,240 970,340 970,630" fill="#312e81" opacity="0.9"/>
+
+  <!-- Grand Palace Ballroom Stairs -->
+  <path d="M 300 630 L 450 440 L 750 440 L 900 630 Z" fill="#475569"/>
+  <line x1="430" y1="470" x2="770" y2="470" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="390" y1="520" x2="810" y2="520" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="350" y1="570" x2="850" y2="570" stroke="#94a3b8" stroke-width="4"/>
+
+  <!-- Shimmering Glass Slipper on Pillow -->
+  <g transform="translate(520, 360)">
+    <!-- Silk Crimson Cushion -->
+    <ellipse cx="80" cy="90" rx="95" ry="32" fill="#be123c" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="8" cy="90" r="6" fill="#fbbf24"/>
+    <circle cx="152" cy="90" r="6" fill="#fbbf24"/>
+    
+    <!-- Glass Slipper -->
+    <path d="M 40 85 Q 55 50 85 55 Q 115 60 130 82 Q 95 86 65 84 Z" fill="url(#glassSparkle)" stroke="#ffffff" stroke-width="3" filter="drop-shadow(0 0 15px rgba(186, 230, 253, 0.9))"/>
+    <path d="M 125 80 L 135 95 L 122 95 Z" fill="#ffffff"/>
+    
+    <!-- Magic Sparkle Stars -->
+    <polygon points="75,30 78,40 88,43 78,46 75,56 72,46 62,43 72,40" fill="#fef08a"/>
+    <polygon points="120,40 122,46 128,48 122,50 120,56 118,50 112,48 118,46" fill="#ffffff"/>
+    <polygon points="35,60 37,64 42,66 37,68 35,73 33,68 28,66 33,64" fill="#bae6fd"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="50" y="50" width="620" height="90" rx="20" fill="#0f172a" fill-opacity="0.85" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="90" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#fef3c7">Cinderella &amp; the Glass Slipper</text>
+  <text x="80" y="122" font-family="system-ui, sans-serif" font-size="18" fill="#bae6fd">Charles Perrault • Kindness, Patience &amp; Grace</text>
+</svg>

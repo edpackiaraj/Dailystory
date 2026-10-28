@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="lakeMist" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="60%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#lakeMist)"/>
+  
+  <!-- Reeds & Water Lilies -->
+  <path d="M 80 630 L 110 380" stroke="#15803d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 120 630 L 140 420" stroke="#16a34a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 1050 630 L 1020 390" stroke="#15803d" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Elegant White Swan -->
+  <g transform="translate(500, 320) scale(1.4)">
+    <ellipse cx="60" cy="80" rx="45" ry="25" fill="#ffffff" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <path d="M 85 75 Q 110 50 100 20 Q 95 10 90 20 Q 80 40 80 75 Z" fill="#ffffff"/>
+    <circle cx="95" cy="18" r="2" fill="#0f172a"/>
+    <polygon points="98,18 112,22 98,24" fill="#f97316"/>
+    <!-- Water Ripple -->
+    <ellipse cx="60" cy="100" rx="60" ry="10" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="50" y="50" width="600" height="90" rx="20" fill="#0f172a" fill-opacity="0.85" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="90" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#fef3c7">The Transformation of the Swan</text>
+  <text x="80" y="122" font-family="system-ui, sans-serif" font-size="18" fill="#bae6fd">Hans Christian Andersen • Inner Beauty &amp; Patience</text>
+</svg>

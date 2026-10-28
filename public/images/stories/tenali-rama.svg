@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="gardenSunset" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="50%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#gardenSunset)"/>
+  
+  <!-- Plantain trees & Well -->
+  <path d="M 120 630 Q 150 400 130 350 Q 80 340 50 380" fill="none" stroke="#16a34a" stroke-width="12"/>
+  <path d="M 130 350 Q 200 320 230 360" fill="none" stroke="#16a34a" stroke-width="10"/>
+
+  <!-- Ancient Brick Garden Well -->
+  <ellipse cx="600" cy="460" rx="140" ry="40" fill="#991b1b"/>
+  <path d="M 460 460 L 460 560 Q 600 600 740 560 L 740 460 Z" fill="#7f1d1d"/>
+  <ellipse cx="600" cy="460" rx="120" ry="32" fill="#0284c7"/>
+  
+  <!-- Water bucket on pulley -->
+  <rect x="580" y="320" width="40" height="70" fill="#78350f" rx="4"/>
+  <line x1="600" y1="200" x2="600" y2="320" stroke="#fcd34d" stroke-width="3"/>
+  <ellipse cx="600" cy="390" rx="18" ry="6" fill="#38bdf8"/>
+
+  <!-- Title Badge -->
+  <rect x="50" y="50" width="600" height="90" rx="20" fill="#0f172a" fill-opacity="0.85" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="90" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#fef3c7">Tenali Rama &amp; the Garden Well</text>
+  <text x="80" y="122" font-family="system-ui, sans-serif" font-size="18" fill="#fde68a">Tamil Folk Humor • Wit That Solves Any Trouble</text>
+</svg>

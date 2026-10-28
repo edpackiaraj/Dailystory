@@ -56,13 +56,15 @@ for (const lang of languages) {
       const checkAndReplace = (sourceText, fieldName) => {
         if (!sourceText) return sourceText;
         return sourceText.replace(regex, (match, offset, str) => {
-          // Check if surrounding context contains allowlist
-          const windowStart = Math.max(0, offset - 25);
-          const windowEnd = Math.min(str.length, offset + term.length + 25);
+          // Check if surrounding context or story metadata contains allowlist
+          const windowStart = Math.max(0, offset - 50);
+          const windowEnd = Math.min(str.length, offset + term.length + 50);
           const surrounding = str.substring(windowStart, windowEnd);
 
           const isAllowed = allowlist.some((allowed) =>
-            surrounding.toLowerCase().includes(allowed.toLowerCase())
+            surrounding.toLowerCase().includes(allowed.toLowerCase()) ||
+            (story.collection && story.collection.toLowerCase().includes(allowed.toLowerCase())) ||
+            (story.title && story.title.toLowerCase().includes(allowed.toLowerCase()))
           );
 
           if (isAllowed) {
@@ -100,12 +102,14 @@ for (const lang of languages) {
       let match;
       while ((match = regex.exec(combined)) !== null) {
         const offset = match.index;
-        const windowStart = Math.max(0, offset - 25);
-        const windowEnd = Math.min(combined.length, offset + rule.term.length + 25);
+        const windowStart = Math.max(0, offset - 50);
+        const windowEnd = Math.min(combined.length, offset + rule.term.length + 50);
         const surrounding = combined.substring(windowStart, windowEnd);
 
         const isAllowed = allowlist.some((allowed) =>
-          surrounding.toLowerCase().includes(allowed.toLowerCase())
+          surrounding.toLowerCase().includes(allowed.toLowerCase()) ||
+          (story.collection && story.collection.toLowerCase().includes(allowed.toLowerCase())) ||
+          (story.title && story.title.toLowerCase().includes(allowed.toLowerCase()))
         );
 
         if (!isAllowed) {

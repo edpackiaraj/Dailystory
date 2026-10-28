@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="riverSunset" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="50%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#riverSunset)"/>
+  
+  <!-- Great Rose-Apple Tree Branch -->
+  <path d="M 0 180 Q 350 220 600 180" fill="none" stroke="#78350f" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="480" cy="140" r="14" fill="#e11d48"/>
+  <circle cx="520" cy="150" r="16" fill="#e11d48"/>
+  <circle cx="450" cy="160" r="13" fill="#e11d48"/>
+  
+  <!-- Friendly Monkey sitting on branch -->
+  <g transform="translate(480, 80) scale(1.1)">
+    <circle cx="30" cy="40" r="22" fill="#b45309"/>
+    <circle cx="30" cy="40" r="16" fill="#fde68a"/>
+    <circle cx="24" cy="36" r="3" fill="#1e293b"/>
+    <circle cx="36" cy="36" r="3" fill="#1e293b"/>
+    <path d="M 26 44 Q 30 48 34 44" fill="none" stroke="#b45309" stroke-width="2"/>
+    <!-- Tail -->
+    <path d="M 12 50 Q 0 80 15 90" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="50" y="50" width="600" height="90" rx="20" fill="#0f172a" fill-opacity="0.85" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="90" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#fef3c7">The Monkey &amp; the Crocodile</text>
+  <text x="80" y="122" font-family="system-ui, sans-serif" font-size="18" fill="#fed7aa">Panchatantra • Quick Thinking &amp; True Friendship</text>
+</svg>
