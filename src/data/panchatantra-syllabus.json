@@ -1,0 +1,529 @@
+{
+  "collection": "Panchatantra",
+  "sanskrit_name": "Pañcatantra",
+  "meaning": "Five Treatises / Five Principles",
+  "author_traditionally": "Vishnu Sharma (Vishnusharman)",
+  "origin": "~200 BCE - 300 CE, India",
+  "description": "Ancient Indian collection of interrelated animal fables in Sanskrit verse and prose, arranged in a frame story to teach niti - wise conduct of life.",
+  "tantras": [
+    {
+      "id": 1,
+      "sanskrit_name": "Mitra-bheda",
+      "english_name": "The Loss of Friends",
+      "ryder_name": "The Loss of Friends",
+      "olivelle_name": "On Causing Dissension among Allies",
+      "theme": "How to break friendships - conspiracies that lead to inseparable friends breaking up",
+      "frame_characters": [
+        "Lion King Pingalaka",
+        "Bull Sanjivaka",
+        "Jackals Karataka and Damanaka"
+      ],
+      "story_count": 34,
+      "stories": [
+        {
+          "id": "1.0",
+          "title": "The Loss of Friends (Frame)",
+          "characters": [
+            "Lion",
+            "Bull",
+            "Jackals"
+          ],
+          "moral": "Beware of wicked counsel that sows discord"
+        },
+        {
+          "id": "1.1",
+          "title": "The Wedge-Pulling Monkey",
+          "moral": "Do not meddle in affairs that are not your own"
+        },
+        {
+          "id": "1.2",
+          "title": "The Jackal and the War-Drum",
+          "moral": "Do not be frightened by mere sound"
+        },
+        {
+          "id": "1.3",
+          "title": "Merchant Strong-Tooth",
+          "moral": "Greed leads to destruction"
+        },
+        {
+          "id": "1.4",
+          "title": "Godly and June",
+          "moral": "Wicked persons cannot change their nature"
+        },
+        {
+          "id": "1.5",
+          "title": "The Jackal at the Ram-Fight",
+          "moral": "The fool suffers by interfering in others' quarrels"
+        },
+        {
+          "id": "1.6",
+          "title": "The Weaver's Wife",
+          "moral": "Deceit begets deceit"
+        },
+        {
+          "id": "1.7",
+          "title": "How the Crow-Hen Killed the Black Snake",
+          "moral": "Intelligence wins over brute strength"
+        },
+        {
+          "id": "1.8",
+          "title": "The Heron that Liked Crab-Meat",
+          "moral": "Greed blinds judgment"
+        },
+        {
+          "id": "1.9",
+          "title": "Numskull and the Rabbit",
+          "moral": "Wit can defeat the mighty"
+        },
+        {
+          "id": "1.10",
+          "title": "The Weaver Who Loved a Princess",
+          "moral": "Building castles in the air leads to ruin"
+        },
+        {
+          "id": "1.11",
+          "title": "The Ungrateful Man",
+          "moral": "Never help a wicked person"
+        },
+        {
+          "id": "1.12",
+          "title": "Leap and Creep",
+          "moral": "United we stand, divided we fall is reversed by cunning"
+        },
+        {
+          "id": "1.13",
+          "title": "The Blue Jackal",
+          "moral": "False appearance can create temporary power but not last"
+        },
+        {
+          "id": "1.14",
+          "title": "Passion and the Owl",
+          "moral": "Do not trust flatterers"
+        },
+        {
+          "id": "1.15",
+          "title": "Ugly's Trust Abused",
+          "moral": "Beauty is deceptive, character matters"
+        },
+        {
+          "id": "1.16",
+          "title": "The Lion and the Carpenter",
+          "moral": "Foolish friendship is dangerous"
+        },
+        {
+          "id": "1.17",
+          "title": "The Plover Who Fought the Ocean",
+          "moral": "Even the weak can achieve by perseverance and allies"
+        },
+        {
+          "id": "1.18",
+          "title": "Shell-Neck Slim and Grim",
+          "moral": "Deceitful speech can cause loss of what you have"
+        },
+        {
+          "id": "1.19",
+          "title": "Forethought, Readywit and Fatalist",
+          "moral": "Forethought prevents disaster, fatalism invites it"
+        },
+        {
+          "id": "1.20",
+          "title": "The Duel Between Elephant and Sparrow",
+          "moral": "Never underestimate a small enemy with determined friends"
+        },
+        {
+          "id": "1.21",
+          "title": "The Shrewd Old Gander",
+          "moral": "A wise counselor detects deceit"
+        },
+        {
+          "id": "1.22",
+          "title": "The Lion and the Ram",
+          "moral": "Evil company corrupts good nature"
+        },
+        {
+          "id": "1.23",
+          "title": "Smart the Jackal",
+          "moral": "Cunning without wisdom leads to self-destruction"
+        },
+        {
+          "id": "1.24",
+          "title": "The Monk Who Left His Body Behind",
+          "moral": "Do not trust blindly"
+        },
+        {
+          "id": "1.25",
+          "title": "The Girl Who Married a Snake",
+          "moral": "Destiny is powerful"
+        },
+        {
+          "id": "1.26",
+          "title": "Poor Blossom",
+          "moral": "Kindness returns to you"
+        },
+        {
+          "id": "1.27",
+          "title": "The Unteachable Monkey",
+          "moral": "You cannot teach a fool"
+        },
+        {
+          "id": "1.28",
+          "title": "Right-Mind and Wrong-Mind",
+          "moral": "Righteousness ultimately wins"
+        },
+        {
+          "id": "1.29",
+          "title": "A Remedy Worse than the Disease",
+          "moral": "An improper remedy can be worse than illness"
+        },
+        {
+          "id": "1.30",
+          "title": "The Mice That Ate Iron",
+          "moral": "Trust should be based on proof"
+        },
+        {
+          "id": "1.31",
+          "title": "The Results of Education",
+          "moral": "Education shapes nature"
+        },
+        {
+          "id": "1.32",
+          "title": "The Sensible Enemy",
+          "moral": "A wise enemy is better than a foolish friend"
+        },
+        {
+          "id": "1.33",
+          "title": "The Foolish Friend",
+          "moral": "A foolish friend is more dangerous than a wise enemy"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "sanskrit_name": "Mitra-labha / Mitra-samprapti",
+      "english_name": "The Winning of Friends",
+      "ryder_name": "The Winning of Friends",
+      "olivelle_name": "On Securing Allies",
+      "theme": "Importance of friendship, teamwork and alliance among those with different abilities",
+      "frame_characters": [
+        "Crow",
+        "Mouse",
+        "Turtle",
+        "Deer"
+      ],
+      "story_count": 10,
+      "stories": [
+        {
+          "id": "2.0",
+          "title": "The Winning of Friends (Frame - Crow, Mouse, Turtle, Deer)",
+          "moral": "Friendship among different abilities overcomes great threats"
+        },
+        {
+          "id": "2.1",
+          "title": "The Bharunda Birds",
+          "moral": "Discord over small things destroys all"
+        },
+        {
+          "id": "2.2",
+          "title": "Gold's Gloom (The Mice and Gold)",
+          "moral": "Wealth can be a burden"
+        },
+        {
+          "id": "2.3",
+          "title": "Mother Shandilee's Bargain",
+          "moral": "Greed makes you lose everything"
+        },
+        {
+          "id": "2.4",
+          "title": "Self-defeating Forethought",
+          "moral": "Over-caution can cause self-destruction"
+        },
+        {
+          "id": "2.5",
+          "title": "Mister Duly (The Jackal and the Drum)",
+          "moral": "Do not judge by outward appearance"
+        },
+        {
+          "id": "2.6",
+          "title": "Soft, the Weaver",
+          "moral": "One should not covet what belongs to others"
+        },
+        {
+          "id": "2.7",
+          "title": "Hang-Ball and Greedy",
+          "moral": "Greed leads to entrapment"
+        },
+        {
+          "id": "2.8",
+          "title": "The Mice That Set Elephant Free",
+          "moral": "Small friends can help in big ways"
+        },
+        {
+          "id": "2.9",
+          "title": "Spot's Captivity",
+          "moral": "True friends stay in adversity"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "sanskrit_name": "Kakolukiyam",
+      "english_name": "Of Crows and Owls",
+      "ryder_name": "Crows and Owls",
+      "olivelle_name": "On War and Peace",
+      "theme": "War and peace, battle of wits is mightier than battle of swords; choosing good counsel",
+      "frame_characters": [
+        "Crow King Cloud",
+        "Owl King Enemy",
+        "Counselors Chiranjivin and Raktaksha"
+      ],
+      "story_count": 18,
+      "stories": [
+        {
+          "id": "3.0",
+          "title": "Crows and Owls (Frame - War between crows and owls)",
+          "moral": "Wit defeats superior brute force"
+        },
+        {
+          "id": "3.1",
+          "title": "How the Birds Picked a King",
+          "moral": "Do not choose a fool as leader"
+        },
+        {
+          "id": "3.2",
+          "title": "How the Rabbit Fooled the Elephant",
+          "moral": "Intelligence can tame power"
+        },
+        {
+          "id": "3.3",
+          "title": "The Cat's Judgment (The Partridge and the Hare)",
+          "moral": "Do not seek justice from your enemy"
+        },
+        {
+          "id": "3.4",
+          "title": "The Brahmin's Goat",
+          "moral": "Repeated lies become truth in fools' minds"
+        },
+        {
+          "id": "3.5",
+          "title": "The Snake and the Ants",
+          "moral": "Even small enemies together can defeat a big one"
+        },
+        {
+          "id": "3.6",
+          "title": "The Snake Who Paid Cash",
+          "moral": "Greed has consequences"
+        },
+        {
+          "id": "3.7",
+          "title": "The Unsocial Swans",
+          "moral": "Evil company ruins the good"
+        },
+        {
+          "id": "3.8",
+          "title": "The Self-sacrificing Dove",
+          "moral": "Hospitality even at cost of life is noble"
+        },
+        {
+          "id": "3.9",
+          "title": "The Old Man with the Young Wife",
+          "moral": "Circumstances change feelings"
+        },
+        {
+          "id": "3.10",
+          "title": "The Brahmin, the Thief and the Ghost",
+          "moral": "Deceivers deceive each other"
+        },
+        {
+          "id": "3.11",
+          "title": "The Snake in the Prince's Belly",
+          "moral": "A secret ailment needs wise cure"
+        },
+        {
+          "id": "3.12",
+          "title": "The Gullible Carpenter",
+          "moral": "Do not trust your wife with a stranger"
+        },
+        {
+          "id": "3.13",
+          "title": "Mouse-Maid Made Mouse (The Mouse Maiden)",
+          "moral": "Nature cannot be changed - marry your own kind"
+        },
+        {
+          "id": "3.14",
+          "title": "The Bird with Golden Dung",
+          "moral": "Greed destroys the source of gain"
+        },
+        {
+          "id": "3.15",
+          "title": "The Cave That Talked",
+          "moral": "Presence of mind saves from danger"
+        },
+        {
+          "id": "3.16",
+          "title": "The Frog That Rode Snakeback",
+          "moral": "Necessity makes enemies cooperate"
+        },
+        {
+          "id": "3.17",
+          "title": "The Butter-blinded Brahmin",
+          "moral": "Greed makes you blind"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "sanskrit_name": "Labdhapranasham",
+      "english_name": "Loss of Gains",
+      "ryder_name": "Loss of Gains",
+      "olivelle_name": "On Losing What You Have Gained",
+      "theme": "Do not lose what you have gained - cautions against peer pressure and sweet-talking cunning",
+      "frame_characters": [
+        "Monkey and Crocodile"
+      ],
+      "story_count": 13,
+      "stories": [
+        {
+          "id": "4.0",
+          "title": "Loss of Gains (Frame - Monkey and Crocodile)",
+          "moral": "A witty mind saves from deceitful friends"
+        },
+        {
+          "id": "4.1",
+          "title": "The Monkey and the Crocodile",
+          "moral": "Intelligence saves from flattery and betrayal"
+        },
+        {
+          "id": "4.2",
+          "title": "Handsome and Theodore (The Frog and King)",
+          "moral": "Do not trust an ungrateful person"
+        },
+        {
+          "id": "4.3",
+          "title": "Flop-Ear and Dusty",
+          "moral": "Do not be swayed by honeyed words"
+        },
+        {
+          "id": "4.4",
+          "title": "The Potter Militant",
+          "moral": "Do not fight beyond your strength"
+        },
+        {
+          "id": "4.5",
+          "title": "The Jackal Who Killed No Elephants",
+          "moral": "Boasting without ability leads to exposure"
+        },
+        {
+          "id": "4.6",
+          "title": "The Ungrateful Wife",
+          "moral": "Ingratitude is the worst vice"
+        },
+        {
+          "id": "4.7",
+          "title": "King Joy and Secretary Splendor",
+          "moral": "Fate and effort both matter"
+        },
+        {
+          "id": "4.8",
+          "title": "The Ass in the Tiger-Skin",
+          "moral": "False appearance does not last long"
+        },
+        {
+          "id": "4.9",
+          "title": "The Farmer's Wife",
+          "moral": "Adultery and deceit lead to ruin"
+        },
+        {
+          "id": "4.10",
+          "title": "The Pert Hen-Sparrow",
+          "moral": "Over-ambition destroys"
+        },
+        {
+          "id": "4.11",
+          "title": "How Supersmart Ate the Elephant",
+          "moral": "Wicked counsel destroys the counselor"
+        },
+        {
+          "id": "4.12",
+          "title": "The Dog Who Went Abroad",
+          "moral": "Home is best - abroad is not always better"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "sanskrit_name": "Aparikshitakarakam",
+      "english_name": "Ill-Considered Action",
+      "ryder_name": "Ill-Considered Action / Hasty Actions",
+      "olivelle_name": "On Hasty Actions",
+      "theme": "Do not act without consideration - get facts, be patient, don't build castles in air",
+      "frame_characters": [
+        "Brahmin and Mongoose"
+      ],
+      "story_count": 12,
+      "stories": [
+        {
+          "id": "5.0",
+          "title": "Ill-Considered Action (Frame)",
+          "moral": "Never act in haste without verifying facts"
+        },
+        {
+          "id": "5.1",
+          "title": "The Loyal Mongoose (The Loyal Mungoose and the Brahmin's wife)",
+          "moral": "Hasty judgment leads to irreparable regret"
+        },
+        {
+          "id": "5.2",
+          "title": "The Four Treasure-Seekers",
+          "moral": "Wrong knowledge leads to destruction"
+        },
+        {
+          "id": "5.3",
+          "title": "The Lion-Makers (The Four Learned Fools)",
+          "moral": "Learning without common sense is dangerous"
+        },
+        {
+          "id": "5.4",
+          "title": "Hundred-Wit, Thousand-Wit and Single-Wit",
+          "moral": "Common sense beats mere intelligence"
+        },
+        {
+          "id": "5.5",
+          "title": "The Musical Donkey (The Donkey in Tiger Skin / Donkey and the Washerman)",
+          "moral": "Foolish display reveals true nature"
+        },
+        {
+          "id": "5.6",
+          "title": "Slow, the Weaver",
+          "moral": "Desire should not exceed ability"
+        },
+        {
+          "id": "5.7",
+          "title": "The Brahmin's Dream (The Brahman Who Built Castles in Air)",
+          "moral": "Do not build castles in the air"
+        },
+        {
+          "id": "5.8",
+          "title": "The Unforgiving Monkey",
+          "moral": "Do not quarrel with wicked people"
+        },
+        {
+          "id": "5.9",
+          "title": "The Credulous Fiend (The Demon and the Brahmin)",
+          "moral": "Do not trust demons / wicked persons"
+        },
+        {
+          "id": "5.10",
+          "title": "The Three-Breasted Princess",
+          "moral": "Foolish remedies make matters worse"
+        },
+        {
+          "id": "5.11",
+          "title": "The Fiend Who Washed His Feet",
+          "moral": "Do not trust a reformed villain too quickly"
+        }
+      ]
+    }
+  ],
+  "total_stories": 87,
+  "source_note": "Compiled from Arthur W. Ryder translation (1925) and traditional lists, cross-referenced with Wikipedia and slife.org Panchatantra overview. Panchatantra is public domain."
+}
