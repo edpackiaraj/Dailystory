@@ -1,7 +1,7 @@
 ---
 import brandConfig from '../../../config/brand.json';
 import { getT } from '../../lib/i18n';
-import { getAllReviewedStories, getTodaysStory, getSurpriseStory, getGenresWithCounts, getCollectionsWithCounts } from '../../lib/stories';
+import { getAllReviewedStories, getTodaysStory, getSurpriseStory, getGenresWithCounts, getCollectionsWithCounts, getStoryUrl } from '../../lib/stories';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import MascotCompanion from '../../components/MascotCompanion.astro';
 import StoryGarden from '../../components/StoryGarden.astro';
@@ -90,7 +90,7 @@ const moods = [
             <!-- Action Buttons: Read Story & Surprise Me -->
             <div class="flex flex-wrap items-center gap-3 pt-2">
               <a
-                href={`/${lang}/stories/${todaysStory.slug}/`}
+                href={getStoryUrl(todaysStory, lang)}
                 class="px-6 py-3.5 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-extrabold text-sm sm:text-base shadow-lg hover:shadow-amber-500/25 transition-all flex items-center gap-2"
               >
                 <span>📖 {t.readStory}</span>
@@ -99,7 +99,7 @@ const moods = [
 
               {surpriseStory && (
                 <a
-                  href={`/${lang}/stories/${surpriseStory.slug}/`}
+                  href={getStoryUrl(surpriseStory, lang)}
                   class="px-5 py-3 rounded-full bg-white dark:bg-slate-800 border border-amber-300 dark:border-slate-700 hover:bg-amber-50 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-sm shadow-xs transition-all flex items-center gap-2"
                 >
                   <span>🎲</span>
@@ -193,7 +193,7 @@ const moods = [
                 </div>
 
                 <h3 class="text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2 hover:text-amber-600 transition-colors">
-                  <a href={`/${lang}/stories/${s.slug}/`}>
+                  <a href={getStoryUrl(s, lang)}>
                     {s.title}
                   </a>
                 </h3>
@@ -213,7 +213,7 @@ const moods = [
                 Level: <strong>{s.reading_level}</strong>
               </span>
               <a
-                href={`/${lang}/stories/${s.slug}/`}
+                href={getStoryUrl(s, lang)}
                 class="px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors"
               >
                 {t.readStory} →

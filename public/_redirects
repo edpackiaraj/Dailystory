@@ -1,0 +1,12 @@
+# Cloudflare Pages Redirects
+# Redirect legacy individual story URLs directly to the collection hubs
+/en/stories/*  /en/collections/  301
+/ta/stories/*  /ta/collections/  301
+/hi/stories/*  /hi/collections/  301
+/es/stories/*  /es/collections/  301
+/zh/stories/*  /zh/collections/  301
+/pt/stories/*  /pt/collections/  301
+/ml/stories/*  /ml/collections/  301
+/te/stories/*  /te/collections/  301
+/kn/stories/*  /kn/collections/  301
+/mr/stories/*  /mr/collections/  301

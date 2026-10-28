@@ -1,7 +1,7 @@
 ---
 import brandConfig from '../../../../config/brand.json';
 import { getT } from '../../../lib/i18n';
-import { getAllReviewedStories } from '../../../lib/stories';
+import { getAllReviewedStories, getStoryUrl } from '../../../lib/stories';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 
 export function getStaticPaths() {
@@ -91,7 +91,7 @@ const introText = genreIntros[genre] || `Explore our curated selection of ${rawG
             </div>
             <div class="p-6">
               <h2 class="text-lg font-bold text-slate-900 dark:text-white mb-2">
-                <a href={`/${lang}/stories/${s.slug}/`} class="hover:text-amber-600 transition-colors">{s.title}</a>
+                <a href={getStoryUrl(s, lang)} class="hover:text-amber-600 transition-colors">{s.title}</a>
               </h2>
               <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-3 mb-4 leading-relaxed">{s.summary}</p>
               <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-800 text-xs text-amber-900 dark:text-amber-200 italic">💡 {s.moral}</div>
@@ -99,7 +99,7 @@ const introText = genreIntros[genre] || `Explore our curated selection of ${rawG
           </div>
           <div class="px-6 pb-6 pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
             <span class="text-xs text-slate-400">Level: <strong>{s.reading_level}</strong></span>
-            <a href={`/${lang}/stories/${s.slug}/`} class="px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors">
+            <a href={getStoryUrl(s, lang)} class="px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors">
               {t.readStory} →
             </a>
           </div>

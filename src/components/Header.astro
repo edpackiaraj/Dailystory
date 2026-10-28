@@ -1,7 +1,7 @@
 ---
 import brandConfig from '../../config/brand.json';
 import { getT } from '../lib/i18n';
-import { getSiblingStoryInLang } from '../lib/stories';
+import { getSiblingStoryInLang, getStoryUrl } from '../lib/stories';
 
 interface Props {
   currentLang: string;
@@ -19,7 +19,7 @@ const langLinks = brandConfig.supportedLanguages.map(lang => {
   if (storyId) {
     const sibling = getSiblingStoryInLang(storyId, lang.code);
     if (sibling) {
-      targetUrl = `/${lang.code}/stories/${sibling.slug}/`;
+      targetUrl = getStoryUrl(sibling, lang.code);
     }
   }
   return {

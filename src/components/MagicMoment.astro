@@ -97,7 +97,7 @@ const { storyId, storyTitle, moral, teaser, collection, language, nextStorySlug 
     </button>
 
     {nextStorySlug && (
-      <a href={`/${language}/stories/${nextStorySlug}/`} class="px-4 py-2.5 rounded-2xl bg-amber-500 hover:bg-amber-600 text-white shadow-md transition-all">
+      <a href={`#${nextStorySlug}`} class="px-4 py-2.5 rounded-2xl bg-amber-500 hover:bg-amber-600 text-white shadow-md transition-all">
         Next in {collection} →
       </a>
     )}

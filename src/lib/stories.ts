@@ -131,3 +131,14 @@ export function getCollectionsWithCounts(lang: string) {
   }
   return counts;
 }
+
+export function getCollectionSlug(collection: string): string {
+  if (!collection) return 'world-folktales';
+  return collection.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+
+export function getStoryUrl(story: { collection: string; slug: string }, lang: string): string {
+  const colSlug = getCollectionSlug(story.collection);
+  return `/${lang}/collections/${colSlug}/#${story.slug}`;
+}
+

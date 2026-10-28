@@ -20,6 +20,22 @@ console.log('[Sitemap Generator] Generating multilingual XML sitemaps & robots.t
 
 const sitemapFilenames = [];
 
+const allCollections = [
+  "Cinderella Stories", "Akbar–Birbal", "Panchatantra", "Tenali Rama",
+  "Aesop's Fables", "Grimm Fairy Tales", "Hans Christian Andersen", "Mulla Nasruddin",
+  "Jataka Tales", "Charles Perrault", "Chinese Folktales and Fables", "Arabian Nights",
+  "Vikram–Vetal", "Simhasana Battisi", "Sheikh Chilli", "Paramartha Guru",
+  "Mariyadai Raman", "African Folktales", "Latin American Folktales",
+  "Tamil Folk", "Tamil Folk Humor", "La Fontaine"
+];
+
+const allGenres = [
+  "Moral Stories", "Funny Stories", "Humorous Tales", "Folktales", "Fairy Tales",
+  "Fables", "Bedtime Stories", "Animal Stories", "Adventure Stories", "Fantasy Stories",
+  "Mystery Stories", "Horror Stories", "Love Stories", "Inspirational Stories",
+  "Mythology Stories", "Legends", "Science Fiction Stories", "Historical Stories"
+];
+
 // Static core routes for each language
 const coreRoutes = [
   '',
@@ -51,13 +67,13 @@ for (const lang of languages) {
     }
   }
 
-  // Filter only reviewed stories for indexing (unreviewed translations must not be indexed)
+  // Filter only reviewed stories for indexing
   const indexableStories = stories.filter(s => s.reviewed !== false);
 
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
 
-  // Core pages
+  // 1. Core pages
   for (const route of coreRoutes) {
     const loc = route ? `${siteUrl}/${lang}/${route}/` : `${siteUrl}/${lang}/`;
     xml += '  <url>\n';
@@ -65,42 +81,64 @@ for (const lang of languages) {
     xml += `    <changefreq>${route === '' ? 'daily' : 'monthly'}</changefreq>\n`;
     xml += `    <priority>${route === '' ? '1.0' : '0.7'}</priority>\n`;
 
-    // Add hreflang links across all languages for core pages
     for (const altLang of languages) {
       const altLoc = route ? `${siteUrl}/${altLang}/${route}/` : `${siteUrl}/${altLang}/`;
       xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${altLoc}"/>\n`;
     }
-    // x-default points to English
     const xDefaultLoc = route ? `${siteUrl}/en/${route}/` : `${siteUrl}/en/`;
     xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${xDefaultLoc}"/>\n`;
 
     xml += '  </url>\n';
   }
 
-  // Story pages
-  for (const story of indexableStories) {
-    const loc = `${siteUrl}/${lang}/stories/${story.slug}/`;
-    xml += '  <url>\n';
-    xml += `    <loc>${loc}</loc>\n`;
-    xml += `    <lastmod>${story.publish_date || new Date().toISOString().split('T')[0]}</lastmod>\n`;
-    xml += `    <changefreq>monthly</changefreq>\n`;
-    xml += `    <priority>0.8</priority>\n`;
-
-    // Only link to sibling translations if they are reviewed!
-    for (const otherLang of languages) {
-      const otherStoriesPath = path.join(dataDir, otherLang, 'stories.json');
-      if (fs.existsSync(otherStoriesPath)) {
-        try {
-          const siblingStories = JSON.parse(fs.readFileSync(otherStoriesPath, 'utf8'));
-          const sibling = siblingStories.find(s => s.id === story.id && s.reviewed !== false);
-          if (sibling) {
-            xml += `    <xhtml:link rel="alternate" hreflang="${otherLang}" href="${siteUrl}/${otherLang}/stories/${sibling.slug}/"/>\n`;
-          }
-        } catch(e) {}
+  // 2. Collection Hubs (Indexable if 5+ stories in that collection)
+  let collectionsIndexed = 0;
+  for (const col of allCollections) {
+    const colSlug = col.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const colStories = indexableStories.filter(s => {
+      const norm = (s.collection || '').toLowerCase();
+      if (colSlug.includes('cinderella')) {
+        return norm.includes('cinderella') || (s.tags && s.tags.some(t => t.toLowerCase().includes('cinderella'))) || s.slug.includes('cinderella');
       }
-    }
+      return norm === col.toLowerCase();
+    });
 
-    xml += '  </url>\n';
+    if (colStories.length >= 5 || lang === 'en') {
+      collectionsIndexed++;
+      const loc = `${siteUrl}/${lang}/collections/${colSlug}/`;
+      xml += '  <url>\n';
+      xml += `    <loc>${loc}</loc>\n`;
+      xml += `    <changefreq>weekly</changefreq>\n`;
+      xml += `    <priority>0.9</priority>\n`;
+
+      for (const altLang of languages) {
+        xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/collections/${colSlug}/"/>\n`;
+      }
+      xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/collections/${colSlug}/"/>\n`;
+      xml += '  </url>\n';
+    }
+  }
+
+  // 3. Genre Hubs
+  let genresIndexed = 0;
+  for (const genre of allGenres) {
+    const genreSlug = genre.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const genreStories = indexableStories.filter(s => (s.genre || '').toLowerCase() === genre.toLowerCase());
+
+    if (genreStories.length >= 5 || lang === 'en') {
+      genresIndexed++;
+      const loc = `${siteUrl}/${lang}/genres/${genreSlug}/`;
+      xml += '  <url>\n';
+      xml += `    <loc>${loc}</loc>\n`;
+      xml += `    <changefreq>weekly</changefreq>\n`;
+      xml += `    <priority>0.8</priority>\n`;
+
+      for (const altLang of languages) {
+        xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/genres/${genreSlug}/"/>\n`;
+      }
+      xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/genres/${genreSlug}/"/>\n`;
+      xml += '  </url>\n';
+    }
   }
 
   xml += '</urlset>\n';
@@ -108,10 +146,10 @@ for (const lang of languages) {
   const sitemapFilename = `sitemap-${lang}.xml`;
   fs.writeFileSync(path.join(publicDir, sitemapFilename), xml, 'utf8');
   sitemapFilenames.push(sitemapFilename);
-  console.log(`[Sitemap Generator] Generated ${sitemapFilename} with ${coreRoutes.length + indexableStories.length} URLs.`);
+  console.log(`[Sitemap Generator] Generated ${sitemapFilename} with ${coreRoutes.length + collectionsIndexed + genresIndexed} URLs.`);
 }
 
-// Write sitemap index
+// Write master sitemap index
 let indexXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
 indexXml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 for (const fn of sitemapFilenames) {
@@ -130,7 +168,6 @@ const robotsTxt = `User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
-Disallow: /*?*preview=true
 
 Sitemap: ${siteUrl}/sitemap.xml
 `;

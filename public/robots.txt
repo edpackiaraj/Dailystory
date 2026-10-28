@@ -2,6 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
-Disallow: /*?*preview=true
 
 Sitemap: https://dhinamorukathai.pages.dev/sitemap.xml

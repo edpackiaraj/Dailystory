@@ -124,7 +124,7 @@ const allStories = getAllReviewedStories(lang);
             </div>
           </div>
           <div class="p-5 pt-0">
-            <a href="/${window.location.pathname.split('/')[1] || 'en'}/stories/${slug}/" class="block text-center py-2.5 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors">
+            <a href="/${window.location.pathname.split('/')[1] || 'en'}/collections/${(collection || 'world-folktales').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}/#${slug}" class="block text-center py-2.5 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors">
               Read Again →
             </a>
           </div>

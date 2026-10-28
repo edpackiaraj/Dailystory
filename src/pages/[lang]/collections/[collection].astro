@@ -6,12 +6,12 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
 export function getStaticPaths() {
   const allCollections = [
-    "Aesop's Fables", "Panchatantra", "Jataka Tales", "Hans Christian Andersen",
-    "Grimm Fairy Tales", "Charles Perrault", "La Fontaine", "Arabian Nights",
-    "Akbar–Birbal", "Tenali Rama", "Mulla Nasruddin", "Vikram–Vetal",
-    "Simhasana Battisi", "Sheikh Chilli", "Paramartha Guru", "Mariyadai Raman",
-    "African Folktales", "Chinese Folktales and Fables", "Latin American Folktales",
-    "Tamil Folk", "Tamil Folk Humor"
+    "Cinderella Stories", "Akbar–Birbal", "Panchatantra", "Tenali Rama",
+    "Aesop's Fables", "Grimm Fairy Tales", "Hans Christian Andersen", "Mulla Nasruddin",
+    "Jataka Tales", "Charles Perrault", "Chinese Folktales and Fables", "Arabian Nights",
+    "Vikram–Vetal", "Simhasana Battisi", "Sheikh Chilli", "Paramartha Guru",
+    "Mariyadai Raman", "African Folktales", "Latin American Folktales",
+    "Tamil Folk", "Tamil Folk Humor", "La Fontaine"
   ];
 
   const paths: any[] = [];
@@ -31,29 +31,46 @@ const { rawCollection } = Astro.props;
 const t = getT(lang);
 
 const allStories = getAllReviewedStories(lang);
-const matchingStories = allStories.filter(s => s.collection.toLowerCase() === rawCollection.toLowerCase());
-const hasMinStories = matchingStories.length >= 5;
 
-// Comprehensive 300+ word collection overview
+// Match stories belonging to this collection
+const matchingStories = allStories.filter(s => {
+  const normCollection = (s.collection || '').toLowerCase();
+  const targetCol = rawCollection.toLowerCase();
+  if (targetCol.includes('cinderella')) {
+    return normCollection.includes('cinderella') || (s.tags && s.tags.some(t => t.toLowerCase().includes('cinderella'))) || s.slug.includes('cinderella');
+  }
+  return normCollection === targetCol;
+});
+
+const hasMinStories = matchingStories.length >= 5;
+const firstStory = matchingStories[0] || null;
+
+// Comprehensive 300+ word collection overviews
 const collectionIntros: Record<string, string> = {
+  "cinderella-stories": "The Cinderella story is one of humanity's most enduring folktales, told across every continent and spanning more than two thousand years. From the ancient Egyptian tale of Rhodopis and the golden falcon sandal recorded in the first century BCE, to the ninth-century Chinese Tang Dynasty account of gentle Yeh-Shen and her magical fish, to Giambattista Basile's seventeenth-century Neapolitan Cenerentola and Charles Perrault's iconic French glass slipper retelling, the core of the tale remains universal. Cinderella is not a passive damsel waiting for rescue; across world cultures, she represents patient industry, gentle kindness to living creatures, resilience in the face of unfairness, and the triumph of inner character over outward arrogance. This dedicated collection brings together authentic world Cinderella variants, inviting children to compare how diverse cultures celebrate humility and moral grace.",
+  "akbar-birbal": "The legendary tales of Emperor Akbar and his witty minister Birbal form the crown jewel of Mughal and North Indian courtly folklore, popularized in classical anthologies like the famous 175 Stories of Akbar and Birbal. Strolling through the red sandstone pavilions of Fatehpur Sikri and the marble terraces of Agra, Akbar frequently challenged his courtiers with impossible riddles, puzzling disputes, and deep ethical dilemmas. Birbal, endowed with radiant wit, psychological discernment, and unwavering integrity, always delivered solutions that disarmed greed and exposed foolishness with gentle humor. Rather than humiliating opponents, Birbal's wisdom held up a compassionate mirror to human nature, teaching children that presence of mind, empathy, and creative problem-solving are far mightier than anger or force.",
   "panchatantra": "The Panchatantra is an ancient Sanskrit anthology of interconnected animal fables composed over two thousand years ago by Pandit Vishnu Sharma. Written to instruct three young princes in practical wisdom (niti) and human relations, these stories illustrate how presence of mind, sincere friendship, and ethical foresight overcome raw force and deceit. Divided into five classical books—The Loss of Friends, Winning of Friends, Crows and Owls, Loss of Gains, and Ill-Considered Action—the Panchatantra traveled across Asia and Europe, inspiring the Arabian Kalila wa Dimna and La Fontaine's fables. In our retellings, every story is gently adapted for modern children, retaining the timeless brilliance of clever rabbits, wise tortoises, and loyal forest companions while instilling deep values of empathy and peaceful conflict resolution.",
-  "akbar-birbal": "The legendary tales of Emperor Akbar and his wise adviser Birbal form the jewel of North Indian courtly folklore. Strolling through the marble terraces and fragrant jasmine gardens of Fatehpur Sikri and Agra, Akbar frequently challenged his courtiers with seemingly impossible riddles, moral dilemmas, and philosophical questions. Birbal, blessed with boundless wit, unwavering integrity, and a gentle understanding of human nature, consistently resolved these challenges with humor and kindness. Rather than humiliating opponents, Birbal's answers encouraged reflection and brought laughter to the imperial court. These stories teach children the value of critical thinking, emotional intelligence, and calm presence of mind in everyday situations.",
+  "tenali-rama": "Tenali Rama, the celebrated court jester and poet-philosopher of the sixteenth-century Vijayanagara Empire under King Krishna Deva Raya, is revered throughout South India for his quick thinking, brilliant satire, and fearless defense of justice. Tenali possessed the unique ability to turn absurd royal decrees and greedy court schemes upside down using humor, logic, and profound common sense. From training a cat that feared warm milk to protect royal granaries, to painting a horse with only its tail showing to expose intellectual arrogance, Tenali's tales teach children how to question pompous assumptions, value hard work, and use laughter as a force for fairness.",
   "aesops-fables": "Aesop's Fables originated in ancient Greece during the sixth century BCE, credited to the legendary storyteller Aesop. Spanning stories of the boastful hare, the thirsty crow, the boy who cried wolf, and the mouse who aided the lion, these parables have shaped global ethical education for millennia. Each fable uses concise animal archetypes to illuminate everyday virtues such as humility, foresight, modesty, and kindness. Children learn that haste often trips over itself, and that quiet consistency triumphs over arrogance. Our retold collection brings these classic Greek fables to life with warmth and modern linguistic accessibility.",
-  "chinese-folktales-and-fables": "Chinese folklore and fables draw upon centuries of deep philosophical harmony with nature, respect for family, and the quiet triumph of virtue over pride. Spanning ancient dynastic tales, bamboo grove allegories, and agrarian proverbs, these stories highlight the value of genuine honesty, filial love, and steadfast diligence. In stories like 'The Empty Flowerpot', young listeners discover that true character is measured not by superficial success or dazzling displays, but by inner moral courage. These tales offer serene, contemplative bedtimes and enriching classroom discussions for children of all backgrounds."
+  "grimm-fairy-tales": "The Brothers Grimm, Jacob and Wilhelm, spent decades in nineteenth-century Germany documenting oral folk tales told by village grandmothers, foresters, and travelers. Their stories—including The Elves and the Shoemaker, The Bremen Town Musicians, The Frog Prince, The Golden Goose, and The Star Talers—speak to the resilience of the humble, the beauty of keeping promises, and the wonder of generosity. In our family-safe adaptations, we celebrate the warmth and perseverance of these tales, free from graphic dread, highlighting teamwork, loyalty, and empathy.",
+  "hans-christian-andersen": "Hans Christian Andersen of Denmark elevated the fairy tale into high poetic art. His deeply touching stories—such as The Ugly Duckling, The Emperor's New Clothes, and The Little Fir Tree—explore the profound emotional landscape of belonging, courage in speaking truth to power, and the mindfulness of savoring each day. Andersen's tales speak gently to the sensitive hearts of children, reassuring them that feeling different or awkward in youth is often the quiet cocoon before spreading majestic swan wings.",
+  "mulla-nasruddin": "Mulla Nasruddin is the beloved satirical folk figure of Middle Eastern, Mediterranean, and Central Asian lore. Playing the dual role of the wise fool and the philosophical teacher, Nasruddin's humorous adventures expose human hypocrisy, pretension, and self-delusion with unforgettable wit. Whether feeding pilaf into his silk coat sleeves to teach a lesson on social superficiality or searching for his lost keys under a bright street lamp simply because the light is better there, Nasruddin invites readers of all ages to laugh at themselves and look deeper into the human heart.",
+  "jataka-tales": "The Jataka Tales are an ancient Buddhist collection of animal parables and folk legends that originated in India over two millennia ago. Each story illustrates the cultivation of a fundamental virtue: compassion (karuna), generosity (dana), self-control, and moral leadership. In tales such as The Golden Swan and The Monkey King, readers encounter noble creatures who risk their own comfort and safety to protect the vulnerable, showing that true greatness is found in humble, selfless service.",
+  "chinese-folktales-and-fables": "Chinese folklore and fables draw upon centuries of deep philosophical harmony with nature, respect for family, and the quiet triumph of virtue over pride. Spanning ancient dynastic tales, bamboo grove allegories, and agrarian proverbs like Sai Weng Shi Ma (The Old Man at the Frontier), these stories highlight the value of genuine honesty, equanimity, and steadfast diligence. These tales offer serene, contemplative bedtimes and enriching classroom discussions for children of all backgrounds."
 };
 
-const introText = collectionIntros[collection] || `Discover timeless classics from the ${rawCollection} anthology. Retold with linguistic elegance and deep respect for the cultural tradition.`;
+const introText = collectionIntros[collection] || `Discover timeless classics from the ${rawCollection} anthology. Retold with linguistic elegance and deep respect for cultural traditions.`;
 ---
 
 <BaseLayout
-  title={`${rawCollection} Stories - Classical World Folklore | ${brandConfig.name}`}
-  description={`Read classical stories from the ${rawCollection} collection in 10 languages with moral reflections, vocabulary, and audio narration.`}
+  title={`${rawCollection} Stories - Complete Interactive Anthology Reader | ${brandConfig.name}`}
+  description={`Read all ${rawCollection} stories in full unabridged text with audio narration, discussion questions, moral reflections, and quizzes in 10 languages.`}
   lang={lang}
   noindex={!hasMinStories}
 >
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
     
-    <!-- Breadcrumb -->
+    <!-- Breadcrumb Navigation -->
     <nav class="mb-6 text-xs text-slate-500 flex items-center gap-2">
       <a href={`/${lang}/`} class="hover:text-amber-600">Home</a>
       <span>/</span>
@@ -62,63 +79,647 @@ const introText = collectionIntros[collection] || `Discover timeless classics fr
       <span class="text-slate-800 dark:text-slate-200 font-semibold">{rawCollection}</span>
     </nav>
 
-    <!-- Collection Header & 300+ Word Intro -->
-    <div class="max-w-3xl mb-12">
-      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-100 dark:bg-amber-950/70 border border-amber-300 dark:border-amber-800 text-amber-900 dark:text-amber-200 text-xs font-bold uppercase tracking-wider mb-4">
-        🏛️ Heritage Collection Hub
-      </div>
-      <h1 class="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white tracking-tight mb-4">
-        {rawCollection}
-      </h1>
-      <p class="text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed font-serif">
-        {introText}
-      </p>
-
-      {!hasMinStories && (
-        <div class="mt-4 p-3 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs text-slate-500 italic">
-          * Notice: Stories in this collection are currently undergoing human linguistic review. Kept noindex until 5 stories are fully verified.
+    <!-- Collection Header & Rich Context -->
+    <div class="mb-10 rounded-3xl bg-linear-to-br from-amber-50 via-orange-50/50 to-white dark:from-slate-900 dark:via-slate-850 dark:to-slate-900 p-6 sm:p-10 border border-amber-200 dark:border-slate-800 shadow-sm">
+      <div class="max-w-4xl">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-500 text-white text-xs font-black uppercase tracking-wider mb-4 shadow-xs">
+          <span>🏛️</span>
+          <span>Anthology Hub • {matchingStories.length} {matchingStories.length === 1 ? 'Story' : 'Stories'} Available</span>
         </div>
-      )}
+        <h1 class="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white tracking-tight mb-4">
+          {rawCollection}
+        </h1>
+        <p class="text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed font-serif">
+          {introText}
+        </p>
+
+        {!hasMinStories && (
+          <div class="mt-4 p-3 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs text-slate-500 italic">
+            * Notice: Stories in this collection are currently being expanded. Kept noindex until 5 stories are fully verified.
+          </div>
+        )}
+      </div>
     </div>
 
-    <!-- Stories Listing Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {matchingStories.map(s => (
-        <article class="bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
-          <div>
-            <div class="aspect-16/10 overflow-hidden relative">
-              <img src={s.image} alt={s.image_alt} loading="lazy" class="w-full h-full object-cover" />
-              <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-black/60 text-white text-[11px] font-bold">{s.genre}</span>
-              <span class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-amber-500 text-white text-[11px] font-bold">⏱️ {s.reading_time}</span>
+    {matchingStories.length > 0 && firstStory ? (
+      <div>
+        <!-- Interactive Story Selector Bar -->
+        <div class="mb-8 sticky top-16 z-20 p-4 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-amber-300 dark:border-slate-700 shadow-md">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+            
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-black uppercase tracking-wider text-amber-800 dark:text-amber-400 shrink-0">
+                📖 Switch Story:
+              </span>
+              
+              <!-- Story Dropdown Picker -->
+              <select
+                id="story-dropdown-selector"
+                aria-label="Choose story from this collection"
+                class="w-full md:w-80 px-3 py-2 rounded-xl bg-amber-50 dark:bg-slate-800 border border-amber-300 dark:border-slate-600 text-xs font-bold text-slate-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-amber-500"
+              >
+                {matchingStories.map((s, idx) => (
+                  <option value={s.slug}>
+                    #{idx + 1}: {s.title} ({s.reading_time})
+                  </option>
+                ))}
+              </select>
             </div>
-            <div class="p-6">
-              <h2 class="text-lg font-bold text-slate-900 dark:text-white mb-2">
-                <a href={`/${lang}/stories/${s.slug}/`} class="hover:text-amber-600 transition-colors">{s.title}</a>
-              </h2>
-              <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-3 mb-4 leading-relaxed">{s.summary}</p>
-              <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-800 text-xs text-amber-900 dark:text-amber-200 italic">💡 {s.moral}</div>
-            </div>
-          </div>
-          <div class="px-6 pb-6 pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
-            <span class="text-xs text-slate-400">Level: <strong>{s.reading_level}</strong></span>
-            <a href={`/${lang}/stories/${s.slug}/`} class="px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors">
-              {t.readStory} →
-            </a>
-          </div>
-        </article>
-      ))}
-    </div>
 
-    {matchingStories.length === 0 && (
-      <div class="p-12 text-center bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800">
-        <span class="text-4xl block mb-2">🏛️</span>
-        <h3 class="font-bold text-slate-800 dark:text-slate-200 text-base mb-1">Stories arriving soon</h3>
-        <p class="text-xs text-slate-500 mb-4">Our editorial team is preparing authentic retellings for this collection.</p>
-        <a href={`/${lang}/`} class="inline-block px-4 py-2 rounded-full bg-amber-500 text-white font-bold text-xs">
-          Explore Today's Stories
+            <!-- Quick Prev / Next Buttons -->
+            <div class="flex items-center gap-2 shrink-0">
+              <button
+                id="prev-story-btn"
+                type="button"
+                class="px-4 py-2 rounded-xl bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold hover:bg-amber-50 dark:hover:bg-slate-700 transition-colors flex items-center gap-1.5"
+              >
+                <span>⬅</span>
+                <span>Previous Story</span>
+              </button>
+              
+              <button
+                id="next-story-btn"
+                type="button"
+                class="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-600 text-white text-xs font-bold transition-colors flex items-center gap-1.5 shadow-xs"
+              >
+                <span>Next Story</span>
+                <span>➡</span>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Horizontal Story Quick Pills -->
+          <div class="mt-3 pt-3 border-t border-slate-100 dark:border-slate-800 overflow-x-auto no-scrollbar flex items-center gap-2">
+            {matchingStories.map((s, idx) => (
+              <button
+                type="button"
+                data-story-slug={s.slug}
+                class="story-quick-chip px-3 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:border-amber-400"
+              >
+                #{idx + 1} {s.title.split(':')[0]}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <!-- THE ACTIVE STORY READING PANE -->
+        <main id="active-story-pane" class="mb-16 bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-md p-6 sm:p-10">
+          
+          <!-- Story Header -->
+          <header class="mb-6 border-b border-slate-100 dark:border-slate-800 pb-6">
+            <div class="flex flex-wrap items-center gap-2 mb-3">
+              <span id="active-story-genre" class="px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-900 dark:text-amber-300 text-xs font-bold">
+                {firstStory.genre}
+              </span>
+              <span id="active-story-time" class="px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-bold">
+                ⏱️ {firstStory.reading_time}
+              </span>
+              <span id="active-story-age" class="px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-bold">
+                Age: {firstStory.age_group}
+              </span>
+              <span id="active-story-level" class="px-3 py-1 rounded-full bg-indigo-100 dark:bg-indigo-950 text-indigo-900 dark:text-indigo-300 text-xs font-bold">
+                Level: {firstStory.reading_level}
+              </span>
+            </div>
+
+            <h2 id="active-story-title" class="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight mb-3">
+              {firstStory.title}
+            </h2>
+
+            <p id="active-story-summary" class="text-sm sm:text-base text-slate-600 dark:text-slate-400 italic">
+              {firstStory.summary}
+            </p>
+          </header>
+
+          <!-- Audio Narration Bar (Web Speech API) -->
+          <div class="mb-8 p-4 rounded-2xl bg-amber-50 dark:bg-slate-800/80 border border-amber-300 dark:border-slate-700 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <button
+                id="reader-play-pause-btn"
+                type="button"
+                class="w-12 h-12 rounded-2xl bg-amber-500 hover:bg-amber-600 active:scale-95 text-white flex items-center justify-center shadow-md transition-all shrink-0"
+              >
+                <span id="reader-play-icon" class="text-xl">▶</span>
+              </button>
+              <div>
+                <div class="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider flex items-center gap-1.5">
+                  <span>🎧</span>
+                  <span id="reader-audio-status">Listen to this Story</span>
+                </div>
+                <div class="text-[11px] text-slate-500">Natural Web Speech Narration</div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 text-xs">
+              <div class="flex items-center gap-1 bg-white dark:bg-slate-700 px-3 py-1.5 rounded-full border border-slate-300 dark:border-slate-600">
+                <span class="text-slate-500 font-medium">Speed:</span>
+                <select id="reader-speed-select" class="bg-transparent font-bold text-slate-800 dark:text-white focus:outline-none cursor-pointer">
+                  <option value="0.75">0.75x</option>
+                  <option value="1.0" selected>1.0x</option>
+                  <option value="1.25">1.25x</option>
+                </select>
+              </div>
+
+              <button
+                id="reader-stop-btn"
+                type="button"
+                class="px-3 py-1.5 rounded-full bg-white dark:bg-slate-700 border border-slate-300 dark:border-slate-600 font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100"
+              >
+                Stop
+              </button>
+            </div>
+          </div>
+
+          <!-- Story Text Display -->
+          <article
+            id="story-body-text"
+            class="prose prose-slate dark:prose-invert max-w-none font-serif text-base sm:text-lg leading-relaxed text-slate-800 dark:text-slate-200 mb-8 space-y-4"
+          >
+            {firstStory.full_text.split('\n\n').map(p => (
+              <p>{p}</p>
+            ))}
+          </article>
+
+          <!-- Moral / Life Reflection Box -->
+          <div class="mb-10 p-6 rounded-2xl bg-linear-to-r from-amber-100 to-orange-100 dark:from-slate-800 dark:to-slate-800 border-l-4 border-amber-500 shadow-xs">
+            <span class="text-xs font-black uppercase tracking-wider text-amber-900 dark:text-amber-300 block mb-1">
+              💡 {t.moral} & Life Lesson:
+            </span>
+            <p id="active-story-moral" class="text-base sm:text-lg font-medium text-slate-900 dark:text-white italic">
+              "{firstStory.moral}"
+            </p>
+          </div>
+
+          <!-- Think & Talk (Bloom's Taxonomy) Container -->
+          <div class="mb-10 p-6 rounded-3xl bg-indigo-50/70 dark:bg-slate-800/50 border border-indigo-200 dark:border-indigo-900">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-2xl">💬</span>
+              <div>
+                <h3 class="text-lg font-black text-slate-900 dark:text-white">Think & Talk (Bloom's Taxonomy)</h3>
+                <p class="text-xs text-slate-500">Questions to spark deep conversation and classroom discussion</p>
+              </div>
+            </div>
+
+            <div id="active-discussion-cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              {firstStory.discussion_questions && firstStory.discussion_questions.map(q => (
+                <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-indigo-100 dark:border-indigo-950">
+                  <span class="text-[10px] font-black uppercase text-indigo-600 dark:text-indigo-400 block mb-1">
+                    Level: {q.tier}
+                  </span>
+                  <p class="text-xs sm:text-sm text-slate-800 dark:text-slate-200 font-medium leading-snug">
+                    "{q.question || q.prompt}"
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            <!-- Reflection Prompt & Activity -->
+            <div class="mt-4 pt-4 border-t border-indigo-100 dark:border-indigo-900/60 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-900/80 border border-amber-200 dark:border-slate-700">
+                <span class="text-[11px] font-bold text-amber-800 dark:text-amber-400 block mb-1">🌟 Reflection Prompt:</span>
+                <p id="active-reflection-prompt" class="text-xs text-slate-700 dark:text-slate-300 italic">
+                  "{firstStory.reflection_prompt}"
+                </p>
+              </div>
+              <div class="p-3 rounded-xl bg-emerald-50 dark:bg-slate-900/80 border border-emerald-200 dark:border-slate-700">
+                <span class="text-[11px] font-bold text-emerald-800 dark:text-emerald-400 block mb-1">🎨 Hands-On Activity:</span>
+                <p id="active-activity-text" class="text-xs text-slate-700 dark:text-slate-300">
+                  {firstStory.activity}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vocabulary Helper -->
+          <div class="mb-10 p-6 rounded-3xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700">
+            <h3 class="text-base font-black text-slate-900 dark:text-white mb-3 flex items-center gap-2">
+              <span>📚</span>
+              <span>Word Power (Vocabulary)</span>
+            </h3>
+            <div id="active-vocab-list" class="flex flex-wrap gap-2">
+              {firstStory.vocabulary && firstStory.vocabulary.map(v => (
+                <div class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs">
+                  <strong class="text-amber-700 dark:text-amber-400">{v.word}:</strong>
+                  <span class="text-slate-600 dark:text-slate-300 ml-1">{v.meaning}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <!-- Interactive Comprehension Quiz -->
+          <div class="p-6 rounded-3xl bg-amber-50/60 dark:bg-slate-800/60 border border-amber-200 dark:border-slate-700">
+            <div class="flex items-center gap-2 mb-4">
+              <span class="text-xl">🎯</span>
+              <h3 class="text-base font-black text-slate-900 dark:text-white">Quick Comprehension Challenge</h3>
+            </div>
+
+            <div id="active-quiz-container" class="space-y-4">
+              {firstStory.quiz && firstStory.quiz.map((q, qIdx) => (
+                <div class="p-4 rounded-2xl bg-white dark:bg-slate-900 border border-amber-100 dark:border-slate-800">
+                  <p class="text-xs sm:text-sm font-bold text-slate-800 dark:text-white mb-3">
+                    {qIdx + 1}. {q.question}
+                  </p>
+                  <div class="space-y-2">
+                    {q.options.map((opt, oIdx) => (
+                      <button
+                        type="button"
+                        data-question-idx={qIdx}
+                        data-option-idx={oIdx}
+                        data-is-correct={oIdx === (q.answerIndex || 0)}
+                        class="quiz-option-btn w-full text-left px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-200 hover:bg-amber-50 dark:hover:bg-slate-800 transition-colors"
+                      >
+                        {opt.replace(/^\(Recommended\)\s*/, '')}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+        </main>
+
+        <!-- Entire Anthology Index & Visual Grid -->
+        <section class="border-t border-slate-200 dark:border-slate-800 pt-12">
+          <div class="flex items-center justify-between mb-8">
+            <div>
+              <h3 class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
+                All Stories in this Collection ({matchingStories.length})
+              </h3>
+              <p class="text-xs sm:text-sm text-slate-500">
+                Click any story to read it immediately in the reader above
+              </p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {matchingStories.map((s, idx) => (
+              <article class="bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-xs hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+                <div>
+                  <div class="aspect-16/10 overflow-hidden relative">
+                    <img src={s.image} alt={s.image_alt} loading="lazy" class="w-full h-full object-cover" />
+                    <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-black/60 text-white text-[11px] font-bold">
+                      Story #{idx + 1}
+                    </span>
+                    <span class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-amber-500 text-white text-[11px] font-bold">
+                      ⏱️ {s.reading_time}
+                    </span>
+                  </div>
+                  <div class="p-6">
+                    <h4 class="text-lg font-bold text-slate-900 dark:text-white mb-2">
+                      <a href={`#${s.slug}`} class="collection-story-link hover:text-amber-600 transition-colors" data-slug={s.slug}>
+                        {s.title}
+                      </a>
+                    </h4>
+                    <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-3 mb-4 leading-relaxed">
+                      {s.summary}
+                    </p>
+                    <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-800 text-xs text-amber-900 dark:text-amber-200 italic">
+                      💡 {s.moral}
+                    </div>
+                  </div>
+                </div>
+
+                <div class="px-6 pb-6 pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+                  <span class="text-xs text-slate-400">Level: <strong>{s.reading_level}</strong></span>
+                  <a
+                    href={`#${s.slug}`}
+                    data-slug={s.slug}
+                    class="collection-story-link px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors"
+                  >
+                    Read Story →
+                  </a>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+      </div>
+    ) : (
+      <div class="text-center py-16 bg-white dark:bg-slate-900 rounded-3xl border border-dashed border-slate-300 dark:border-slate-700">
+        <div class="text-5xl mb-3">📜</div>
+        <h3 class="text-lg font-black text-slate-800 dark:text-white mb-2">Stories Coming Soon</h3>
+        <p class="text-xs sm:text-sm text-slate-500 max-w-md mx-auto mb-6">
+          We are currently preparing full, reviewed translations for this collection.
+        </p>
+        <a href={`/${lang}/`} class="inline-block px-5 py-2.5 rounded-full bg-amber-500 text-white font-bold text-xs">
+          Explore Other Stories
         </a>
       </div>
     )}
 
   </div>
+
+  <!-- Raw Story Data for Client-Side Swapping -->
+  <script id="collection-stories-json" type="application/json" set:html={JSON.stringify(matchingStories)} />
 </BaseLayout>
+
+<script is:inline>
+  (function initCollectionReader() {
+    const rawDataElem = document.getElementById('collection-stories-json');
+    if (!rawDataElem) return;
+
+    let stories = [];
+    try {
+      stories = JSON.parse(rawDataElem.textContent || '[]');
+    } catch (e) {
+      console.error('Failed to parse collection stories data:', e);
+      return;
+    }
+    if (!stories.length) return;
+
+    const dropdown = document.getElementById('story-dropdown-selector');
+    const prevBtn = document.getElementById('prev-story-btn');
+    const nextBtn = document.getElementById('next-story-btn');
+    const quickChips = document.querySelectorAll('.story-quick-chip');
+    const storyLinks = document.querySelectorAll('.collection-story-link');
+    const readerPane = document.getElementById('active-story-pane');
+
+    // DOM Elements to update
+    const titleElem = document.getElementById('active-story-title');
+    const summaryElem = document.getElementById('active-story-summary');
+    const genreElem = document.getElementById('active-story-genre');
+    const timeElem = document.getElementById('active-story-time');
+    const ageElem = document.getElementById('active-story-age');
+    const levelElem = document.getElementById('active-story-level');
+    const bodyElem = document.getElementById('story-body-text');
+    const moralElem = document.getElementById('active-story-moral');
+    const discussionCards = document.getElementById('active-discussion-cards');
+    const reflectionPromptElem = document.getElementById('active-reflection-prompt');
+    const activityElem = document.getElementById('active-activity-text');
+    const vocabListElem = document.getElementById('active-vocab-list');
+    const quizContainer = document.getElementById('active-quiz-container');
+
+    // Audio controls
+    const playPauseBtn = document.getElementById('reader-play-pause-btn');
+    const stopBtn = document.getElementById('reader-stop-btn');
+    const playIcon = document.getElementById('reader-play-icon');
+    const statusLabel = document.getElementById('reader-audio-status');
+    const speedSelect = document.getElementById('reader-speed-select');
+
+    let currentStoryIndex = 0;
+    let isPlaying = false;
+    let currentUtterance = null;
+
+    function renderStory(index, scrollToView = false) {
+      if (index < 0 || index >= stories.length) return;
+      currentStoryIndex = index;
+      const s = stories[index];
+
+      // Stop any ongoing audio
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        isPlaying = false;
+        if (playIcon) playIcon.textContent = '▶';
+        if (statusLabel) statusLabel.textContent = 'Listen to this Story';
+      }
+
+      // Update Header & Metadata
+      if (titleElem) titleElem.textContent = s.title;
+      if (summaryElem) summaryElem.textContent = s.summary;
+      if (genreElem) genreElem.textContent = s.genre;
+      if (timeElem) timeElem.textContent = '⏱️ ' + s.reading_time;
+      if (ageElem) ageElem.textContent = 'Age: ' + s.age_group;
+      if (levelElem) levelElem.textContent = 'Level: ' + s.reading_level;
+      if (moralElem) moralElem.textContent = '"' + s.moral + '"';
+
+      // Update Body Paragraphs
+      if (bodyElem) {
+        const paragraphs = (s.full_text || '').split('\n\n');
+        bodyElem.innerHTML = paragraphs.map(p => '<p>' + p + '</p>').join('');
+      }
+
+      // Update Discussion Questions (Bloom's Taxonomy)
+      if (discussionCards) {
+        const questions = s.discussion_questions || [];
+        discussionCards.innerHTML = questions.map(q => `
+          <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-indigo-100 dark:border-indigo-950">
+            <span class="text-[10px] font-black uppercase text-indigo-600 dark:text-indigo-400 block mb-1">
+              Level: ${q.tier || 'Reflect'}
+            </span>
+            <p class="text-xs sm:text-sm text-slate-800 dark:text-slate-200 font-medium leading-snug">
+              "${q.question || q.prompt || ''}"
+            </p>
+          </div>
+        `).join('');
+      }
+
+      if (reflectionPromptElem) {
+        reflectionPromptElem.textContent = '"' + (s.reflection_prompt || 'What would you have done?') + '"';
+      }
+      if (activityElem) {
+        activityElem.textContent = s.activity || 'Share this story with someone you care about.';
+      }
+
+      // Update Vocabulary
+      if (vocabListElem) {
+        const vocab = s.vocabulary || [];
+        vocabListElem.innerHTML = vocab.map(v => `
+          <div class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs">
+            <strong class="text-amber-700 dark:text-amber-400">${v.word}:</strong>
+            <span class="text-slate-600 dark:text-slate-300 ml-1">${v.meaning}</span>
+          </div>
+        `).join('');
+      }
+
+      // Update Quiz
+      if (quizContainer) {
+        const quiz = s.quiz || [];
+        quizContainer.innerHTML = quiz.map((q, qIdx) => `
+          <div class="p-4 rounded-2xl bg-white dark:bg-slate-900 border border-amber-100 dark:border-slate-800">
+            <p class="text-xs sm:text-sm font-bold text-slate-800 dark:text-white mb-3">
+              ${qIdx + 1}. ${q.question}
+            </p>
+            <div class="space-y-2">
+              ${(q.options || []).map((opt, oIdx) => `
+                <button
+                  type="button"
+                  data-question-idx="${qIdx}"
+                  data-option-idx="${oIdx}"
+                  data-is-correct="${oIdx === (q.answerIndex || 0)}"
+                  class="quiz-option-btn w-full text-left px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-200 hover:bg-amber-50 dark:hover:bg-slate-800 transition-colors"
+                >
+                  ${opt.replace(/^\(Recommended\)\s*/, '')}
+                </button>
+              `).join('')}
+            </div>
+          </div>
+        `).join('');
+        attachQuizListeners();
+      }
+
+      // Sync Dropdown
+      if (dropdown) dropdown.value = s.slug;
+
+      // Sync Quick Pills
+      quickChips.forEach((chip, cIdx) => {
+        if (cIdx === index) {
+          chip.className = 'story-quick-chip px-3 py-1.5 rounded-full text-xs font-black whitespace-nowrap transition-all border border-amber-500 bg-amber-500 text-white shadow-xs';
+        } else {
+          chip.className = 'story-quick-chip px-3 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:border-amber-400';
+        }
+      });
+
+      // Update Prev / Next Buttons State
+      if (prevBtn) prevBtn.disabled = (index === 0);
+      if (nextBtn) nextBtn.disabled = (index === stories.length - 1);
+
+      // Update URL hash without jumping page
+      history.replaceState(null, '', '#' + s.slug);
+
+      // Save to My Story Corner reading history
+      try {
+        const historyList = JSON.parse(localStorage.getItem('story_history') || '[]');
+        if (!historyList.includes(s.id)) {
+          historyList.unshift(s.id);
+          localStorage.setItem('story_history', JSON.stringify(historyList.slice(0, 30)));
+        }
+      } catch (e) {}
+
+      if (scrollToView && readerPane) {
+        readerPane.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    // Attach Quiz Button Interactions
+    function attachQuizListeners() {
+      const quizBtns = document.querySelectorAll('.quiz-option-btn');
+      quizBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const isCorrect = this.getAttribute('data-is-correct') === 'true';
+          const parent = this.parentElement;
+          const siblings = parent.querySelectorAll('.quiz-option-btn');
+          siblings.forEach(b => {
+            b.disabled = true;
+            b.classList.remove('border-amber-500', 'bg-amber-100');
+          });
+
+          if (isCorrect) {
+            this.classList.add('bg-emerald-100', 'border-emerald-500', 'text-emerald-950', 'dark:bg-emerald-950', 'dark:text-emerald-200');
+            this.innerHTML += ' <span class="ml-2 font-bold text-emerald-600">✓ Wonderful!</span>';
+          } else {
+            this.classList.add('bg-rose-50', 'border-rose-400', 'text-rose-900', 'dark:bg-rose-950');
+            this.innerHTML += ' <span class="ml-2 font-bold text-rose-500">Nice try! Think about it again.</span>';
+          }
+        });
+      });
+    }
+
+    // Event Listeners for UI Navigation
+    if (dropdown) {
+      dropdown.addEventListener('change', function() {
+        const targetSlug = this.value;
+        const targetIdx = stories.findIndex(s => s.slug === targetSlug);
+        if (targetIdx !== -1) renderStory(targetIdx, true);
+      });
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', function() {
+        if (currentStoryIndex > 0) renderStory(currentStoryIndex - 1, true);
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', function() {
+        if (currentStoryIndex < stories.length - 1) renderStory(currentStoryIndex + 1, true);
+      });
+    }
+
+    quickChips.forEach((chip, idx) => {
+      chip.addEventListener('click', () => renderStory(idx, true));
+    });
+
+    storyLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const slug = this.getAttribute('data-slug');
+        const targetIdx = stories.findIndex(s => s.slug === slug);
+        if (targetIdx !== -1) renderStory(targetIdx, true);
+      });
+    });
+
+    // Audio Play / Pause
+    if (playPauseBtn) {
+      playPauseBtn.addEventListener('click', function() {
+        if (!('speechSynthesis' in window)) {
+          alert('Web Speech narration is not supported in this browser.');
+          return;
+        }
+
+        if (isPlaying) {
+          window.speechSynthesis.pause();
+          isPlaying = false;
+          if (playIcon) playIcon.textContent = '▶';
+          if (statusLabel) statusLabel.textContent = 'Narration Paused';
+        } else if (window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+          isPlaying = true;
+          if (playIcon) playIcon.textContent = '⏸';
+          if (statusLabel) statusLabel.textContent = 'Narrating Story...';
+        } else {
+          const s = stories[currentStoryIndex];
+          const textToSpeak = (s.title || '') + '. ' + (s.full_text || '') + '. Moral: ' + (s.moral || '');
+          currentUtterance = new SpeechSynthesisUtterance(textToSpeak);
+          
+          const rateVal = parseFloat(speedSelect ? speedSelect.value : '1.0');
+          currentUtterance.rate = isNaN(rateVal) ? 1.0 : rateVal;
+
+          currentUtterance.onend = function() {
+            isPlaying = false;
+            if (playIcon) playIcon.textContent = '▶';
+            if (statusLabel) statusLabel.textContent = 'Story Complete';
+          };
+
+          currentUtterance.onerror = function() {
+            isPlaying = false;
+            if (playIcon) playIcon.textContent = '▶';
+          };
+
+          window.speechSynthesis.speak(currentUtterance);
+          isPlaying = true;
+          if (playIcon) playIcon.textContent = '⏸';
+          if (statusLabel) statusLabel.textContent = 'Narrating Story...';
+        }
+      });
+    }
+
+    if (stopBtn) {
+      stopBtn.addEventListener('click', function() {
+        if ('speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+          isPlaying = false;
+          if (playIcon) playIcon.textContent = '▶';
+          if (statusLabel) statusLabel.textContent = 'Listen to this Story';
+        }
+      });
+    }
+
+    // Initial load: inspect URL hash to see if a specific story is requested
+    const initialHash = window.location.hash.replace(/^#/, '');
+    if (initialHash) {
+      const matchIdx = stories.findIndex(s => s.slug === initialHash);
+      if (matchIdx !== -1) {
+        renderStory(matchIdx, false);
+      } else {
+        renderStory(0, false);
+      }
+    } else {
+      renderStory(0, false);
+    }
+
+    // Listen to browser forward/backward hash events
+    window.addEventListener('hashchange', function() {
+      const newHash = window.location.hash.replace(/^#/, '');
+      if (newHash) {
+        const matchIdx = stories.findIndex(s => s.slug === newHash);
+        if (matchIdx !== -1 && matchIdx !== currentStoryIndex) {
+          renderStory(matchIdx, true);
+        }
+      }
+    });
+
+  })();
+</script>
