@@ -1,0 +1,667 @@
+---
+import brandConfig from '../../../../config/brand.json';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getT } from '../../../lib/i18n';
+import {
+  getAllReviewedStories,
+  getCollectionSlug,
+  getAudienceCategory,
+  getLengthCategory,
+  getStoryUrl,
+  type Story
+} from '../../../lib/stories';
+
+export function getStaticPaths() {
+  const paths: any[] = [];
+
+  for (const lang of brandConfig.supportedLanguages) {
+    const stories = getAllReviewedStories(lang.code);
+    for (let i = 0; i < stories.length; i++) {
+      const story = stories[i];
+      const colSlug = getCollectionSlug(story.collection);
+      const prevStory = i > 0 ? stories[i - 1] : null;
+      const nextStory = i < stories.length - 1 ? stories[i + 1] : null;
+
+      paths.push({
+        params: {
+          lang: lang.code,
+          collection: colSlug,
+          slug: story.slug
+        },
+        props: {
+          story,
+          prevStory,
+          nextStory
+        }
+      });
+    }
+  }
+
+  return paths;
+}
+
+interface Props {
+  story: Story;
+  prevStory: Story | null;
+  nextStory: Story | null;
+}
+
+const { lang, collection, slug } = Astro.params;
+const { story, prevStory, nextStory } = Astro.props;
+const t = getT(lang || 'en');
+
+const colSlug = getCollectionSlug(story.collection);
+const audienceKey = getAudienceCategory(story.age_group);
+const audienceLabel = audienceKey === 'kids' ? t.kids : (audienceKey === 'teens' ? t.teens : t.everyone);
+const canonicalUrl = `${brandConfig.siteUrl}/${lang}/${colSlug}/${story.slug}/`;
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": story.title,
+    "description": story.summary,
+    "image": story.image ? `${brandConfig.siteUrl}${story.image}` : `${brandConfig.siteUrl}/images/og-default.svg`,
+    "inLanguage": lang,
+    "genre": story.genre,
+    "articleSection": story.collection,
+    "wordCount": story.word_count || 450,
+    "author": {
+      "@type": "Person",
+      "name": story.author || brandConfig.name
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": brandConfig.name,
+      "logo": `${brandConfig.siteUrl}/favicon.svg`
+    }
+  }
+];
+---
+
+<BaseLayout
+  title={story.title}
+  description={story.summary}
+  lang={lang}
+  canonicalUrl={canonicalUrl}
+  ogImage={story.image}
+  ogType="article"
+  articleMeta={{
+    publishDate: story.publishDate || '2026-03-25',
+    author: story.author || brandConfig.name,
+    genre: story.genre,
+    tags: story.tags,
+    readingTime: story.reading_time
+  }}
+  storyId={story.id}
+  jsonLd={jsonLd}
+>
+  <!-- Reading Progress Bar -->
+  <div
+    id="reading-progress-bar"
+    class="fixed top-0 inset-x-0 h-1 bg-[#D97706] z-50 origin-left scale-x-0 transition-transform duration-75"
+    aria-hidden="true"
+  ></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
+    
+    <!-- Breadcrumbs -->
+    <nav aria-label="Breadcrumb" class="flex items-center gap-2 text-xs text-[#6B5644] dark:text-[#C8BFAF] mb-6 overflow-x-auto whitespace-nowrap">
+      <a href={`/${lang}/`} class="hover:text-[#D97706] transition-colors">{t.home}</a>
+      <span>/</span>
+      <a href={`/${lang}/collections/`} class="hover:text-[#D97706] transition-colors">{t.collections}</a>
+      <span>/</span>
+      <a href={`/${lang}/collections/${lang}-collection-${colSlug}/`} class="hover:text-[#D97706] transition-colors">
+        {story.collection}
+      </a>
+      <span>/</span>
+      <span class="text-[#3B2A1A] dark:text-[#F3EBDD] font-semibold truncate max-w-xs">{story.title}</span>
+    </nav>
+
+    <!-- Main Reader Layout: 2 Columns on Desktop (Centered Reading Column + Right Companion Panel) -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+      
+      <!-- Left / Center Reading Column (lg:col-span-8) -->
+      <article class="lg:col-span-8 max-w-prose mx-auto lg:mx-0 w-full space-y-8">
+        
+        <!-- Story Header -->
+        <header class="space-y-4">
+          <div class="flex flex-wrap items-center gap-2 text-xs">
+            <span class="px-3 py-1 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] font-bold">
+              {story.collection}
+            </span>
+            <span class="px-3 py-1 rounded-full bg-[#0F766E]/15 text-[#0F766E] dark:text-[#2DD4BF] font-semibold">
+              {audienceLabel}
+            </span>
+            <span class="text-[#6B5644] dark:text-[#C8BFAF]">
+              ⏱ {story.reading_time || '4 min'}
+            </span>
+            {story.culture_region && (
+              <span class="text-[#6B5644] dark:text-[#C8BFAF]">
+                • {story.culture_region}
+              </span>
+            )}
+          </div>
+
+          <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-tight">
+            {story.title}
+          </h1>
+
+          <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed italic">
+            {story.summary}
+          </p>
+        </header>
+
+        <!-- Story Illustration -->
+        {story.image && (
+          <div class="relative rounded-3xl overflow-hidden shadow-lg border border-[#EEDFC8] dark:border-[#383659] aspect-16/10 bg-[#EEDFC8]/30">
+            <img
+              src={story.image}
+              alt={story.image_alt || story.title}
+              width="800"
+              height="500"
+              loading="eager"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        )}
+
+        <!-- Audio Player Card (Visible on Phone/Tablet inline) -->
+        <div class="lg:hidden p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm flex items-center justify-between gap-3">
+          <button
+            type="button"
+            id="mobile-audio-play-btn"
+            class="px-5 py-2.5 rounded-full bg-[#0F766E] hover:bg-[#0D655E] text-white text-sm font-bold flex items-center gap-2 shadow transition-all min-h-[48px]"
+          >
+            <span id="mobile-play-icon">▶</span>
+            <span id="mobile-play-text">{t.listen}</span>
+          </button>
+
+          <div class="flex items-center gap-1.5 text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">
+            <span>{t.speed}:</span>
+            <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#EEDFC8] dark:border-[#383659]" data-speed="0.8">0.8x</button>
+            <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#0F766E] bg-[#0F766E]/15 text-[#0F766E] font-bold" data-speed="1.0">1x</button>
+            <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#EEDFC8] dark:border-[#383659]" data-speed="1.2">1.2x</button>
+          </div>
+        </div>
+
+        <!-- Story Body Text (Ergonomic Typography 65-75ch, 19px base, 1.75 line-height) -->
+        <div
+          id="story-body-content"
+          class="story-reading-content text-[#3B2A1A] dark:text-[#F3EBDD] space-y-6 text-lg leading-relaxed pt-2"
+          style="font-size: var(--story-font-size, 19px); line-height: var(--story-line-height, 1.75);"
+        >
+          {story.full_text.split('\n\n').map((paragraph: string) => (
+            <p class="leading-[1.75] tracking-normal">{paragraph}</p>
+          ))}
+        </div>
+
+        <!-- Highlighted Moral Card -->
+        <div class="p-6 rounded-3xl bg-[#D97706]/10 dark:bg-[#D97706]/20 border-2 border-[#D97706]/40 shadow-sm space-y-2">
+          <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#D97706] dark:text-[#F59E0B]">
+            <span>💡</span>
+            <span>{t.moral}</span>
+          </div>
+          <p class="text-base sm:text-lg font-bold text-[#3B2A1A] dark:text-[#F3EBDD] leading-snug">
+            {story.moral}
+          </p>
+        </div>
+
+        <!-- Interactive Collapsible Sections: Discuss, Vocabulary, Quiz -->
+        <div class="space-y-4 pt-4">
+          
+          <!-- Section 1: Think & Talk (Bloom's Taxonomy) -->
+          {story.discussion_questions && story.discussion_questions.length > 0 && (
+            <details class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
+              <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+                <span class="flex items-center gap-2.5">
+                  <span>💬</span> {t.discuss}
+                </span>
+                <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+              </summary>
+              <div class="pt-4 space-y-3 text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+                {story.discussion_questions.map(q => (
+                  <div class="p-3 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60">
+                    <span class="text-xs font-bold text-[#D97706] uppercase">{q.tier}:</span>
+                    <p class="mt-0.5 text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">{q.prompt}</p>
+                  </div>
+                ))}
+              </div>
+            </details>
+          )}
+
+          <!-- Section 2: Words to Learn (Vocabulary) -->
+          {story.vocabulary && story.vocabulary.length > 0 && (
+            <details class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
+              <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+                <span class="flex items-center gap-2.5">
+                  <span>📚</span> {t.vocabulary}
+                </span>
+                <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+              </summary>
+              <div class="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-sm">
+                {story.vocabulary.map(v => (
+                  <div class="p-3 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60">
+                    <strong class="text-[#0F766E] dark:text-[#2DD4BF]">{v.word}</strong>
+                    <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] mt-0.5">{v.meaning}</p>
+                  </div>
+                ))}
+              </div>
+            </details>
+          )}
+
+          <!-- Section 3: Quick Quiz Challenge -->
+          {story.quiz && story.quiz.length > 0 && (
+            <details class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all" open>
+              <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+                <span class="flex items-center gap-2.5">
+                  <span>🎯</span> {t.quiz}
+                </span>
+                <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+              </summary>
+              <div class="pt-4 space-y-4 text-sm" id="quiz-container">
+                {story.quiz.map((q, qIdx) => (
+                  <div class="space-y-3 p-4 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">
+                    <p class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+                      {qIdx + 1}. {q.question}
+                    </p>
+                    <div class="space-y-2">
+                      {q.options.map((opt, optIdx) => (
+                        <button
+                          type="button"
+                          class="quiz-option-btn w-full text-start p-3 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs sm:text-sm hover:border-[#D97706] transition-all flex items-center justify-between"
+                          data-correct={optIdx === q.answerIndex ? 'true' : 'false'}
+                          data-hint={q.hint}
+                        >
+                          <span>{opt}</span>
+                          <span class="quiz-feedback-icon hidden"></span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </details>
+          )}
+
+        </div>
+
+        <!-- Social Share & Favourite Action Bar -->
+        <div class="pt-6 border-t border-[#EEDFC8] dark:border-[#383659] flex flex-wrap items-center justify-between gap-4">
+          <!-- Favourite Button -->
+          <button
+            type="button"
+            id="favourite-story-btn"
+            data-story-id={story.id}
+            data-story-title={story.title}
+            data-story-url={canonicalUrl}
+            class="px-5 py-2.5 rounded-full border border-[#D97706] bg-[#D97706]/10 text-[#D97706] dark:text-[#F59E0B] font-bold text-xs sm:text-sm flex items-center gap-2 hover:bg-[#D97706]/20 transition-all min-h-[48px]"
+          >
+            <span id="fav-icon">⭐</span>
+            <span id="fav-label">{t.favourite}</span>
+          </button>
+
+          <!-- Share Links -->
+          <div class="flex items-center gap-2 text-xs font-bold">
+            <span class="text-[#6B5644] dark:text-[#C8BFAF]">{t.share}:</span>
+            <a
+              href={`https://api.whatsapp.com/send?text=${encodeURIComponent(story.title + ' - Read on Daily Tale: ' + canonicalUrl)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="p-2.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] hover:border-green-600 hover:text-green-600 transition-all flex items-center justify-center min-w-[44px] min-h-[44px]"
+              title="Share on WhatsApp"
+            >
+              💬 WhatsApp
+            </a>
+            <a
+              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(story.title)}&url=${encodeURIComponent(canonicalUrl)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="p-2.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] hover:border-blue-400 hover:text-blue-400 transition-all flex items-center justify-center min-w-[44px] min-h-[44px]"
+              title="Share on X"
+            >
+              𝕏
+            </a>
+            <button
+              type="button"
+              id="copy-link-btn"
+              data-url={canonicalUrl}
+              class="p-2.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] transition-all flex items-center justify-center min-w-[44px] min-h-[44px]"
+              title="Copy Story Link"
+            >
+              🔗 Copy
+            </button>
+          </div>
+        </div>
+
+        <!-- Story Pagination: Previous Story & Next Story -->
+        <nav aria-label="Story Navigation" class="grid grid-cols-2 gap-4 pt-6">
+          {prevStory ? (
+            <a
+              href={getStoryUrl(prevStory, lang || 'en')}
+              class="p-4 rounded-2xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] transition-all text-start group space-y-1"
+            >
+              <span class="text-xs text-[#6B5644] dark:text-[#C8BFAF] flex items-center gap-1 group-hover:text-[#D97706]">
+                ← {t.previous}
+              </span>
+              <p class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1">
+                {prevStory.title}
+              </p>
+            </a>
+          ) : <div />}
+
+          {nextStory && (
+            <a
+              href={getStoryUrl(nextStory, lang || 'en')}
+              class="p-4 rounded-2xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] transition-all text-end group space-y-1"
+            >
+              <span class="text-xs text-[#6B5644] dark:text-[#C8BFAF] flex items-center justify-end gap-1 group-hover:text-[#D97706]">
+                {t.next} →
+              </span>
+              <p class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1">
+                {nextStory.title}
+              </p>
+            </a>
+          )}
+        </nav>
+
+      </article>
+
+      <!-- Right Companion Panel on PC (1024px+ Sticky Column) -->
+      <aside class="hidden lg:block lg:col-span-4 sticky top-24 space-y-6">
+        
+        <!-- Desktop Audio Player Card -->
+        <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-4">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold uppercase tracking-wider text-[#0F766E] dark:text-[#2DD4BF] flex items-center gap-1.5">
+              <span>🎧</span> Audio Narration
+            </span>
+            <span id="desktop-audio-status" class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">Ready</span>
+          </div>
+
+          <button
+            type="button"
+            id="desktop-audio-play-btn"
+            class="w-full py-3 rounded-2xl bg-[#0F766E] hover:bg-[#0D655E] text-white font-bold flex items-center justify-center gap-2 shadow-md transition-all min-h-[48px]"
+          >
+            <span id="desktop-play-icon">▶</span>
+            <span id="desktop-play-text">{t.listen}</span>
+          </button>
+
+          <!-- Speed Controls -->
+          <div class="flex items-center justify-between text-xs pt-1">
+            <span class="text-[#6B5644] dark:text-[#C8BFAF] font-semibold">{t.speed}:</span>
+            <div class="flex items-center gap-1.5">
+              <button type="button" class="audio-speed-btn px-2.5 py-1 rounded-lg border border-[#EEDFC8] dark:border-[#383659] text-xs hover:border-[#0F766E]" data-speed="0.8">0.8x</button>
+              <button type="button" class="audio-speed-btn px-2.5 py-1 rounded-lg border border-[#0F766E] bg-[#0F766E]/15 text-[#0F766E] font-bold text-xs" data-speed="1.0">1.0x</button>
+              <button type="button" class="audio-speed-btn px-2.5 py-1 rounded-lg border border-[#EEDFC8] dark:border-[#383659] text-xs hover:border-[#0F766E]" data-speed="1.2">1.2x</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Reader Controls Card (Aa Settings) -->
+        <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold uppercase tracking-wider text-[#6B5644] dark:text-[#C8BFAF]">
+              Comfort Reading
+            </span>
+            <button
+              type="button"
+              data-open-aa-panel
+              class="text-xs font-bold text-[#D97706] hover:underline"
+            >
+              All Settings (Aa) →
+            </button>
+          </div>
+
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            Adjust font size, spacing, contrast, and OpenDyslexic mode anytime.
+          </p>
+        </div>
+
+        <!-- Keyboard Shortcuts Helper Card -->
+        <div class="p-5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-xs space-y-2">
+          <span class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] uppercase tracking-wider block">
+            ⌨️ {t.keyboardShortcuts}
+          </span>
+          <div class="grid grid-cols-2 gap-2 text-[#6B5644] dark:text-[#C8BFAF]">
+            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">Space</kbd> Play/Pause</div>
+            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">/</kbd> Search</div>
+            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">→</kbd> Next Story</div>
+            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">←</kbd> Prev Story</div>
+          </div>
+        </div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+  <!-- Mobile Sticky Bottom Reader Bar (Previous | Listen | Aa | Next) -->
+  <aside
+    class="md:hidden fixed bottom-16 inset-x-0 z-40 bg-white/95 dark:bg-[#1B1A2E]/95 backdrop-blur-md border-t border-[#EEDFC8] dark:border-[#383659] px-4 py-2 shadow-lg"
+    aria-label="Story Quick Controls"
+  >
+    <div class="max-w-md mx-auto flex items-center justify-between gap-2">
+      {prevStory ? (
+        <a
+          href={getStoryUrl(prevStory, lang || 'en')}
+          class="p-2 rounded-xl text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF] hover:text-[#D97706] flex items-center gap-1 min-h-[44px]"
+        >
+          <span>←</span> {t.previous}
+        </a>
+      ) : <div class="w-16" />}
+
+      <button
+        type="button"
+        id="bottom-bar-audio-btn"
+        class="px-4 py-2 rounded-full bg-[#0F766E] text-white font-bold text-xs flex items-center gap-1.5 shadow min-h-[44px]"
+      >
+        <span>▶</span>
+        <span>{t.listen}</span>
+      </button>
+
+      <button
+        type="button"
+        data-open-aa-panel
+        class="p-2 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold min-h-[44px] min-w-[44px] flex items-center justify-center font-serif"
+      >
+        Aa
+      </button>
+
+      {nextStory ? (
+        <a
+          href={getStoryUrl(nextStory, lang || 'en')}
+          class="p-2 rounded-xl text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF] hover:text-[#D97706] flex items-center gap-1 min-h-[44px]"
+        >
+          {t.next} <span>→</span>
+        </a>
+      ) : <div class="w-16" />}
+    </div>
+  </aside>
+</BaseLayout>
+
+<script is:inline>
+  // 1. Reading Progress Bar
+  const progressBar = document.getElementById('reading-progress-bar');
+  window.addEventListener('scroll', () => {
+    const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+    if (totalHeight > 0) {
+      const progress = window.scrollY / totalHeight;
+      progressBar.style.transform = `scaleX(${progress})`;
+    }
+  }, { passive: true });
+
+  // 2. Save Last-Read Story to localStorage for "Continue Reading"
+  try {
+    const historyItem = {
+      title: document.title.replace(' — Daily Tale', ''),
+      url: window.location.pathname,
+      date: new Date().toISOString()
+    };
+    localStorage.setItem('dailytale_last_read', JSON.stringify(historyItem));
+  } catch(e) {}
+
+  // 3. Web Speech API Audio Narration Engine
+  let speechUtterance = null;
+  let isSpeaking = false;
+  let playbackSpeed = 1.0;
+
+  const storyText = document.getElementById('story-body-content')?.innerText || '';
+  const langCode = document.documentElement.lang || 'en';
+
+  const playBtns = [
+    document.getElementById('mobile-audio-play-btn'),
+    document.getElementById('desktop-audio-play-btn'),
+    document.getElementById('bottom-bar-audio-btn')
+  ].filter(Boolean);
+
+  function toggleSpeech() {
+    if (!('speechSynthesis' in window)) {
+      alert('Text-to-speech audio narration is not supported on this browser.');
+      return;
+    }
+
+    if (isSpeaking) {
+      window.speechSynthesis.cancel();
+      isSpeaking = false;
+      updateAudioUI(false);
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+    speechUtterance = new SpeechSynthesisUtterance(storyText);
+    speechUtterance.rate = playbackSpeed;
+    speechUtterance.lang = langCode;
+
+    // Pick best matching voice if available
+    const voices = window.speechSynthesis.getVoices();
+    const match = voices.find(v => v.lang.startsWith(langCode));
+    if (match) speechUtterance.voice = match;
+
+    speechUtterance.onstart = () => {
+      isSpeaking = true;
+      updateAudioUI(true);
+    };
+
+    speechUtterance.onend = () => {
+      isSpeaking = false;
+      updateAudioUI(false);
+    };
+
+    speechUtterance.onerror = () => {
+      isSpeaking = false;
+      updateAudioUI(false);
+    };
+
+    window.speechSynthesis.speak(speechUtterance);
+  }
+
+  function updateAudioUI(speaking) {
+    playBtns.forEach(btn => {
+      const textSpan = btn.querySelector('span:last-child');
+      const iconSpan = btn.querySelector('span:first-child');
+      if (textSpan) textSpan.textContent = speaking ? 'Pause' : 'Listen';
+      if (iconSpan) iconSpan.textContent = speaking ? '⏸' : '▶';
+    });
+    const status = document.getElementById('desktop-audio-status');
+    if (status) status.textContent = speaking ? 'Speaking...' : 'Ready';
+  }
+
+  playBtns.forEach(btn => btn.addEventListener('click', toggleSpeech));
+
+  // Speed Buttons
+  document.querySelectorAll('.audio-speed-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      playbackSpeed = parseFloat(btn.getAttribute('data-speed'));
+      document.querySelectorAll('.audio-speed-btn').forEach(b => {
+        b.classList.remove('border-[#0F766E]', 'bg-[#0F766E]/15', 'text-[#0F766E]', 'font-bold');
+      });
+      btn.classList.add('border-[#0F766E]', 'bg-[#0F766E]/15', 'text-[#0F766E]', 'font-bold');
+      if (isSpeaking) {
+        toggleSpeech();
+        toggleSpeech();
+      }
+    });
+  });
+
+  // Spacebar Play/Pause
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'Space' && !['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName)) {
+      e.preventDefault();
+      toggleSpeech();
+    }
+  });
+
+  // 4. Interactive Quiz Option Checker
+  document.querySelectorAll('.quiz-option-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const parent = btn.closest('.space-y-2');
+      const isCorrect = btn.getAttribute('data-correct') === 'true';
+      const hint = btn.getAttribute('data-hint');
+
+      parent.querySelectorAll('.quiz-option-btn').forEach(b => {
+        b.disabled = true;
+        if (b.getAttribute('data-correct') === 'true') {
+          b.classList.add('bg-green-100', 'border-green-500', 'text-green-900', 'dark:bg-green-950/70', 'dark:text-green-200');
+        }
+      });
+
+      if (!isCorrect) {
+        btn.classList.add('bg-red-100', 'border-red-500', 'text-red-900', 'dark:bg-red-950/70', 'dark:text-red-200');
+      }
+    });
+  });
+
+  // 5. Favourites LocalStorage Management
+  const favBtn = document.getElementById('favourite-story-btn');
+  if (favBtn) {
+    const storyId = favBtn.getAttribute('data-story-id');
+    const storyTitle = favBtn.getAttribute('data-story-title');
+    const storyUrl = favBtn.getAttribute('data-story-url');
+
+    function checkFavState() {
+      const favs = JSON.parse(localStorage.getItem('dailytale_favourites') || '[]');
+      const isFav = favs.some(f => f.id === storyId);
+      const icon = document.getElementById('fav-icon');
+      const label = document.getElementById('fav-label');
+      if (icon) icon.textContent = isFav ? '★' : '⭐';
+      if (label) label.textContent = isFav ? 'Saved in Favourites' : 'Save to Favourites';
+      if (isFav) {
+        favBtn.classList.add('bg-[#D97706]', 'text-white');
+      } else {
+        favBtn.classList.remove('bg-[#D97706]', 'text-white');
+      }
+    }
+
+    favBtn.addEventListener('click', () => {
+      let favs = JSON.parse(localStorage.getItem('dailytale_favourites') || '[]');
+      const exists = favs.some(f => f.id === storyId);
+      if (exists) {
+        favs = favs.filter(f => f.id !== storyId);
+      } else {
+        favs.push({ id: storyId, title: storyTitle, url: storyUrl, date: new Date().toISOString() });
+      }
+      localStorage.setItem('dailytale_favourites', JSON.stringify(favs));
+      checkFavState();
+    });
+
+    checkFavState();
+  }
+
+  // 6. Copy Link Helper
+  const copyBtn = document.getElementById('copy-link-btn');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', async () => {
+      const url = copyBtn.getAttribute('data-url') || window.location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        copyBtn.textContent = '✓ Copied!';
+        setTimeout(() => { copyBtn.textContent = '🔗 Copy'; }, 2000);
+      } catch(e) {
+        alert(url);
+      }
+    });
+  }
+</script>

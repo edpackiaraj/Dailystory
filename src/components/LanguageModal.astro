@@ -1,0 +1,165 @@
+---
+import brandConfig from '../../config/brand.json';
+import { getT } from '../lib/i18n';
+
+interface Props {
+  currentLang: string;
+}
+
+const { currentLang } = Astro.props;
+const t = getT(currentLang);
+const languages = brandConfig.supportedLanguages;
+---
+
+<!-- Searchable Multilingual Language Modal -->
+<div
+  id="language-modal"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="lang-modal-title"
+  class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200"
+>
+  <div
+    class="bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] rounded-3xl shadow-2xl max-w-lg w-full p-6 space-y-4 max-h-[90vh] flex flex-col"
+    id="language-modal-content"
+  >
+    <!-- Header -->
+    <div class="flex items-center justify-between pb-3 border-b border-[#EEDFC8] dark:border-[#383659]">
+      <div class="flex items-center gap-2">
+        <span class="text-2xl">🌐</span>
+        <h2 id="lang-modal-title" class="text-lg sm:text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+          Choose Your Language / மொழி
+        </h2>
+      </div>
+      <button
+        id="close-lang-modal-btn"
+        type="button"
+        aria-label="Close language selector"
+        class="w-10 h-10 flex items-center justify-center rounded-full text-[#6B5644] dark:text-[#C8BFAF] hover:bg-[#EEDFC8] dark:hover:bg-[#2E2D4D] transition-colors text-lg"
+      >
+        ✕
+      </button>
+    </div>
+
+    <!-- Live Search Input -->
+    <div class="relative">
+      <span class="absolute inset-y-0 left-3.5 flex items-center pointer-events-none text-slate-400">
+        🔍
+      </span>
+      <input
+        type="search"
+        id="lang-search-input"
+        placeholder="Search language / மொழியைத் தேடுக..."
+        class="w-full pl-10 pr-4 py-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-sm text-[#3B2A1A] dark:text-[#F3EBDD] placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#D97706] transition-all"
+        autocomplete="off"
+      />
+    </div>
+
+    <!-- Searchable Language List -->
+    <div class="overflow-y-auto flex-grow divide-y divide-[#EEDFC8]/60 dark:divide-[#383659]/60 pr-1 space-y-1" id="language-list">
+      {languages.map(lang => (
+        <a
+          href={`/${lang.code}/`}
+          data-lang-code={lang.code}
+          data-lang-name={lang.name.toLowerCase()}
+          data-lang-native={lang.native.toLowerCase()}
+          class={`lang-choice-item flex items-center justify-between p-3.5 rounded-2xl transition-all min-h-[48px] ${
+            lang.code === currentLang
+              ? 'bg-[#D97706]/15 dark:bg-[#D97706]/25 border border-[#D97706]/40 font-bold text-[#D97706] dark:text-[#F59E0B]'
+              : 'text-[#3B2A1A] dark:text-[#F3EBDD] hover:bg-white/80 dark:hover:bg-[#25243E]'
+          }`}
+        >
+          <div class="flex items-center gap-3">
+            <span class="text-2xl leading-none">{lang.flag}</span>
+            <div class="flex flex-col text-start">
+              <span class="text-base font-bold leading-snug">{lang.native}</span>
+              <span class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-none">{lang.name}</span>
+            </div>
+          </div>
+          {lang.code === currentLang && (
+            <span class="text-xs px-2.5 py-1 rounded-full bg-[#D97706] text-white font-semibold">
+              Current
+            </span>
+          )}
+        </a>
+      ))}
+    </div>
+
+    <!-- Footer Note -->
+    <div class="pt-2 text-center text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+      Your selection will be remembered for all future visits.
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  // Language Modal Open, Search & Selection Logic
+  const langModal = document.getElementById('language-modal');
+  const closeLangBtn = document.getElementById('close-lang-modal-btn');
+  const langSearchInput = document.getElementById('lang-search-input');
+  const langItems = document.querySelectorAll('.lang-choice-item');
+
+  function openLanguageModal() {
+    langModal.classList.remove('hidden');
+    langSearchInput.value = '';
+    filterLanguages('');
+    setTimeout(() => langSearchInput.focus(), 100);
+  }
+
+  function closeLanguageModal() {
+    langModal.classList.add('hidden');
+  }
+
+  function filterLanguages(query) {
+    const q = query.trim().toLowerCase();
+    langItems.forEach(item => {
+      const name = item.getAttribute('data-lang-name') || '';
+      const native = item.getAttribute('data-lang-native') || '';
+      const code = item.getAttribute('data-lang-code') || '';
+      if (!q || name.includes(q) || native.includes(q) || code.includes(q)) {
+        item.style.display = 'flex';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+
+  if (langSearchInput) {
+    langSearchInput.addEventListener('input', (e) => filterLanguages(e.target.value));
+  }
+
+  if (closeLangBtn) {
+    closeLangBtn.addEventListener('click', closeLanguageModal);
+  }
+
+  if (langModal) {
+    langModal.addEventListener('click', (e) => {
+      if (e.target === langModal) closeLanguageModal();
+    });
+  }
+
+  // Store preferred language on selection
+  langItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const code = item.getAttribute('data-lang-code');
+      if (code) {
+        localStorage.setItem('dailytale_lang', code);
+      }
+    });
+  });
+
+  // Global trigger listener
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('[data-open-lang-modal]')) {
+      e.preventDefault();
+      openLanguageModal();
+    }
+  });
+
+  // Keyboard shortcut: Escape to close
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !langModal.classList.contains('hidden')) {
+      closeLanguageModal();
+    }
+  });
+</script>

@@ -1,11 +1,16 @@
 ---
 import brandConfig from '../../../config/brand.json';
-import { getT } from '../../lib/i18n';
-import { getAllReviewedStories, getTodaysStory, getSurpriseStory, getGenresWithCounts, getCollectionsWithCounts, getStoryUrl } from '../../lib/stories';
+import { getT, getLanguageMeta } from '../../lib/i18n';
+import {
+  getAllReviewedStories,
+  getTodaysStory,
+  getCollectionSlug,
+  getAudienceCategory,
+  getLengthCategory,
+  getStoryUrl,
+  type Story
+} from '../../lib/stories';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import MascotCompanion from '../../components/MascotCompanion.astro';
-import StoryGarden from '../../components/StoryGarden.astro';
-import StoryPassport from '../../components/StoryPassport.astro';
 
 export function getStaticPaths() {
   return brandConfig.supportedLanguages.map(l => ({
@@ -14,125 +19,106 @@ export function getStaticPaths() {
 }
 
 const { lang } = Astro.params;
-const t = getT(lang);
-const localizedMeta = (brandConfig.localizedBrand as Record<string, any>)[lang] || brandConfig.localizedBrand.en;
+const currentLang = lang || 'en';
+const t = getT(currentLang);
+const currentLangObj = getLanguageMeta(currentLang);
 
-const stories = getAllReviewedStories(lang);
-const todaysStory = getTodaysStory(lang);
-const surpriseStory = getSurpriseStory(lang, todaysStory?.id);
+const allStories = getAllReviewedStories(currentLang);
+const todaysStory = getTodaysStory(currentLang);
 
-const genresCount = getGenresWithCounts(lang);
-const collectionsCount = getCollectionsWithCounts(lang);
+// Short stories under 3 min (word count <= 350)
+const shortStories = allStories.filter(s => (s.word_count || 400) <= 350).slice(0, 8);
 
-// Available moods for interactive mood picker
-const moods = [
-  { id: 'happy', label: 'Happy & Joyful', icon: '😄' },
-  { id: 'calm', label: 'Calm & Relaxed', icon: '🍃' },
-  { id: 'brave', label: 'Brave & Bold', icon: '🦁' },
-  { id: 'curious', label: 'Curious & Wondering', icon: '✨' },
-  { id: 'comforting', label: 'Comforting Bedtime', icon: '🌙' },
-  { id: 'funny', label: 'Funny & Silly', icon: '🤪' }
-];
+// Core cultural collections
+const collectionsMap: Record<string, { name: string; count: number; image: string }> = {};
+for (const s of allStories) {
+  if (!collectionsMap[s.collection]) {
+    collectionsMap[s.collection] = {
+      name: s.collection,
+      count: 0,
+      image: s.image || '/images/og-default.svg'
+    };
+  }
+  collectionsMap[s.collection].count++;
+}
+const collectionList = Object.values(collectionsMap);
+
+// Latest stories for grid
+const recentStories = allStories.slice(0, 16);
 ---
 
 <BaseLayout
-  title={localizedMeta.title}
-  description={localizedMeta.metaDescription}
-  keywords={localizedMeta.keywords}
-  lang={lang}
-  ogImage={todaysStory?.image || '/images/og-default.svg'}
+  title={t.siteName}
+  description={brandConfig.description}
+  lang={currentLang}
+  canonicalUrl={`${brandConfig.siteUrl}/${currentLang}/`}
+  ogImage={todaysStory?.image}
+  activeNavTab="home"
 >
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-12 sm:space-y-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-12 sm:space-y-16">
     
-    <!-- Portal Header with Primary Semantic H1 -->
-    <header class="text-center sm:text-left max-w-4xl">
-      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-100 dark:bg-amber-950/70 border border-amber-300 dark:border-amber-800 text-amber-900 dark:text-amber-200 text-xs font-bold uppercase tracking-wider mb-3">
-        <span>📖</span>
-        <span>{brandConfig.name} • 10 World Languages • 2,500+ Illustrated Tales</span>
-      </div>
-      <h1 class="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight leading-snug">
-        {localizedMeta.tagline}
-      </h1>
-      <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-2 max-w-2xl font-serif leading-relaxed">
-        {localizedMeta.metaDescription}
-      </p>
-    </header>
-
-    <!-- Katha Mascot Welcome Banner -->
-    <MascotCompanion tip={`"Welcome to today's reading journey in ${brandConfig.supportedLanguages.find(l => l.code === lang)?.native}! Read with an open heart and gentle curiosity."`} />
-
-    <!-- 1. "Today's Story" Hero Card -->
+    <!-- Hero: "Story of the Day" -->
     {todaysStory && (
-      <section class="relative rounded-3xl bg-linear-to-br from-amber-100 via-orange-50 to-amber-100/40 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 p-6 sm:p-10 border border-amber-300 dark:border-slate-700 shadow-md overflow-hidden">
-        
-        <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
+      <section class="relative rounded-3xl bg-linear-to-br from-amber-100/80 via-[#FFFDF9] to-amber-50 dark:from-[#25243E] dark:via-[#1B1A2E] dark:to-[#25243E] p-6 sm:p-10 border border-[#EEDFC8] dark:border-[#383659] shadow-md overflow-hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           
-          <div class="flex-1 space-y-4">
+          <!-- Story Info (lg:col-span-7) -->
+          <div class="lg:col-span-7 space-y-4">
             
             <div class="flex flex-wrap items-center gap-2">
-              <span class="px-3.5 py-1 rounded-full bg-amber-500 text-white font-black text-xs uppercase tracking-wider shadow-xs">
-                ⭐ {t.todaysStory}
+              <span class="px-3.5 py-1 rounded-full bg-[#D97706] text-white font-black text-xs uppercase tracking-wider shadow-xs">
+                ⭐ {t.storyOfTheDay}
               </span>
-              <span class="px-3 py-1 rounded-full bg-white dark:bg-slate-800 border border-amber-200 dark:border-slate-700 text-xs font-bold text-slate-700 dark:text-slate-300">
-                {todaysStory.genre}
-              </span>
-              <span class="px-3 py-1 rounded-full bg-white dark:bg-slate-800 border border-amber-200 dark:border-slate-700 text-xs font-bold text-slate-700 dark:text-slate-300">
+              <span class="px-3 py-1 rounded-full bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">
                 {todaysStory.collection}
               </span>
-              <span class="text-xs text-slate-500 font-medium">
-                ⏱️ {todaysStory.reading_time}
+              <span class="px-3 py-1 rounded-full bg-[#0F766E]/15 text-[#0F766E] dark:text-[#2DD4BF] text-xs font-semibold">
+                {getAudienceCategory(todaysStory.age_group) === 'kids' ? t.kids : (getAudienceCategory(todaysStory.age_group) === 'teens' ? t.teens : t.everyone)}
+              </span>
+              <span class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+                ⏱ {todaysStory.reading_time || '4 min'}
               </span>
             </div>
 
-            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
+            <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-tight">
               {todaysStory.title}
-            </h2>
+            </h1>
 
-            <p class="text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed max-w-2xl">
+            <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed line-clamp-3">
               {todaysStory.summary}
             </p>
 
-            <!-- Moral Preview Box -->
-            <div class="p-4 rounded-2xl bg-white/80 dark:bg-slate-800/80 border border-amber-200 dark:border-slate-700">
-              <span class="text-xs font-bold text-amber-800 dark:text-amber-300 uppercase tracking-wider block mb-1">
-                {t.moral}:
-              </span>
-              <span class="text-xs sm:text-sm italic font-medium text-slate-800 dark:text-slate-200">
-                "{todaysStory.moral}"
-              </span>
-            </div>
-
-            <!-- Action Buttons: Read Story & Surprise Me -->
-            <div class="flex flex-wrap items-center gap-3 pt-2">
+            <!-- Actions -->
+            <div class="pt-2 flex flex-wrap items-center gap-3">
               <a
-                href={getStoryUrl(todaysStory, lang)}
-                class="px-6 py-3.5 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-extrabold text-sm sm:text-base shadow-lg hover:shadow-amber-500/25 transition-all flex items-center gap-2"
+                href={getStoryUrl(todaysStory, currentLang)}
+                class="px-6 py-3.5 rounded-full bg-[#D97706] hover:bg-[#B45309] text-white font-black text-sm shadow-md hover:scale-105 transition-all flex items-center gap-2 min-h-[48px]"
               >
-                <span>📖 {t.readStory}</span>
-                <span>→</span>
+                <span>📖</span>
+                <span>{t.stories} →</span>
               </a>
 
-              {surpriseStory && (
-                <a
-                  href={getStoryUrl(surpriseStory, lang)}
-                  class="px-5 py-3 rounded-full bg-white dark:bg-slate-800 border border-amber-300 dark:border-slate-700 hover:bg-amber-50 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-sm shadow-xs transition-all flex items-center gap-2"
-                >
-                  <span>🎲</span>
-                  <span>{t.surpriseMe}</span>
-                </a>
-              )}
+              <a
+                href={`${getStoryUrl(todaysStory, currentLang)}#listen`}
+                class="px-6 py-3.5 rounded-full bg-white dark:bg-[#2E2D4D] border border-[#EEDFC8] dark:border-[#383659] text-[#0F766E] dark:text-[#2DD4BF] hover:border-[#0F766E] font-bold text-sm shadow-xs transition-all flex items-center gap-2 min-h-[48px]"
+              >
+                <span>▶</span>
+                <span>{t.listen}</span>
+              </a>
             </div>
 
           </div>
 
-          <!-- Hero Image Illustration -->
-          <div class="w-full lg:w-96 shrink-0">
-            <div class="aspect-4/3 rounded-2xl overflow-hidden shadow-xl border-4 border-white dark:border-slate-800">
+          <!-- Story Visual (lg:col-span-5) -->
+          <div class="lg:col-span-5">
+            <div class="aspect-4/3 rounded-2xl overflow-hidden shadow-xl border-4 border-white dark:border-[#2E2D4D] bg-[#EEDFC8]/30">
               <img
                 src={todaysStory.image}
-                alt={todaysStory.image_alt}
+                alt={todaysStory.image_alt || todaysStory.title}
+                width="600"
+                height="450"
                 loading="eager"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>
@@ -141,109 +127,237 @@ const moods = [
       </section>
     )}
 
-    <!-- 2. Interactive Mood Picker ("How are you feeling today?") -->
-    <section class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-slate-900 border border-amber-200 dark:border-slate-800 shadow-sm">
-      <div class="text-center max-w-xl mx-auto mb-6">
-        <h2 class="text-lg sm:text-2xl font-black text-slate-900 dark:text-white mb-1">
-          {t.howAreYouFeeling}
-        </h2>
-        <p class="text-xs sm:text-sm text-slate-500">
-          Pick your mood and let Katha find a gentle, matching story for your heart.
-        </p>
+    <!-- Dynamic "Continue Reading" Section (Populated via client-side localStorage) -->
+    <section id="continue-reading-section" class="hidden p-5 sm:p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <span class="text-2xl">🔖</span>
+          <div>
+            <h2 class="text-xs font-bold uppercase tracking-wider text-[#D97706] dark:text-[#F59E0B]">
+              {t.continueReading}
+            </h2>
+            <p id="continue-reading-title" class="text-sm sm:text-base font-bold text-[#3B2A1A] dark:text-[#F3EBDD]"></p>
+          </div>
+        </div>
+        <a
+          id="continue-reading-link"
+          href="#"
+          class="px-4 py-2 rounded-full bg-[#D97706] text-white text-xs font-bold hover:bg-[#B45309] transition-all min-h-[40px] flex items-center"
+        >
+          Resume →
+        </a>
+      </div>
+    </section>
+
+    <!-- Audience Filter Chips: Everyone, Kids, Teens -->
+    <section class="space-y-4">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-xl sm:text-2xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
+            Explore by Reader / {t.audience}
+          </h2>
+          <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+            Thoughtfully curated fables, folktales and wisdom for every stage of life
+          </p>
+        </div>
       </div>
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
-        {moods.map(m => (
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        {brandConfig.audiences.map(aud => (
           <a
-            href={`/${lang}/${lang}-search/?mood=${m.id}`}
-            class="p-4 rounded-2xl bg-amber-50/60 dark:bg-slate-800/60 border border-amber-100 dark:border-slate-700 hover:border-amber-400 hover:scale-105 text-center transition-all group"
+            href={`/${currentLang}/search/?audience=${aud.id}`}
+            class="p-4 sm:p-5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:scale-[1.02] transition-all group flex items-center gap-3 shadow-xs"
           >
-            <div class="text-3xl mb-1 group-hover:scale-110 transition-transform">{m.icon}</div>
-            <div class="text-xs font-bold text-slate-800 dark:text-slate-200">{m.label}</div>
+            <span class="text-3xl group-hover:scale-110 transition-transform">{aud.icon}</span>
+            <div>
+              <h3 class="text-base font-black text-[#3B2A1A] dark:text-[#F3EBDD] group-hover:text-[#D97706] transition-colors">
+                {aud.label === 'Everyone' ? t.everyone : (aud.label === 'Kids' ? t.kids : t.teens)}
+              </h3>
+              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+                {aud.id === 'everyone' ? 'Universal wisdom & folktales' : (aud.id === 'kids' ? 'Gentle fables & fun animals' : 'Moral dilemmas & sharp wit')}
+              </p>
+            </div>
           </a>
         ))}
       </div>
     </section>
 
-    <!-- 3. Latest Stories Grid -->
-    <section>
-      <div class="flex items-center justify-between mb-6">
+    <!-- Short Stories Under 3 Min (Quick Bedtime / Commute Reads) -->
+    {shortStories.length > 0 && (
+      <section class="space-y-4">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-xl sm:text-2xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
+              {t.shortStoriesUnder3Min}
+            </h2>
+            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+              Bite-sized life lessons perfect for a 2-minute tea break or bedtime pause
+            </p>
+          </div>
+          <a href={`/${currentLang}/search/?length=short`} class="text-xs sm:text-sm font-bold text-[#D97706] hover:underline">
+            View all →
+          </a>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+          {shortStories.map(story => (
+            <a
+              href={getStoryUrl(story, currentLang)}
+              class="group p-3.5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-md transition-all flex flex-col justify-between"
+            >
+              <div class="space-y-2">
+                <div class="aspect-16/10 rounded-xl overflow-hidden bg-[#EEDFC8]/30">
+                  <img
+                    src={story.image}
+                    alt={story.title}
+                    width="300"
+                    height="190"
+                    loading="lazy"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div class="flex items-center justify-between text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
+                  <span class="font-bold text-[#D97706]">{story.collection}</span>
+                  <span>⏱ {story.reading_time || '2m'}</span>
+                </div>
+                <h3 class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-2 leading-snug group-hover:text-[#D97706] transition-colors">
+                  {story.title}
+                </h3>
+              </div>
+              <p class="text-[11px] text-[#6B5644] dark:text-[#C8BFAF] line-clamp-2 mt-2">
+                {story.moral}
+              </p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Classic Cultural Story Collections -->
+    <section class="space-y-4">
+      <div class="flex items-center justify-between">
         <div>
-          <h2 class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
-            {t.latestStories}
+          <h2 class="text-xl sm:text-2xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
+            {t.collections}
           </h2>
-          <p class="text-xs sm:text-sm text-slate-500">
-            Timeless fables and moral folktales translated with care
+          <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+            Treasures of world folklore translated with cultural reverence
           </p>
         </div>
-        <a href={`/${lang}/${lang}-search/`} class="text-xs sm:text-sm font-bold text-amber-600 hover:underline">
-          View all stories →
+        <a href={`/${currentLang}/collections/`} class="text-xs sm:text-sm font-bold text-[#D97706] hover:underline">
+          All Collections →
         </a>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {stories.slice(0, 18).map(s => (
-          <article class="bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
-            <div>
-              <div class="aspect-16/10 overflow-hidden relative">
-                <img
-                  src={s.image}
-                  alt={s.image_alt}
-                  loading="lazy"
-                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                />
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-black/60 backdrop-blur-sm text-white text-[11px] font-bold">
-                  {s.collection}
-                </span>
-                <span class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-amber-500 text-white text-[11px] font-bold">
-                  ⏱️ {s.reading_time}
-                </span>
-              </div>
-
-              <div class="p-6">
-                <div class="flex items-center gap-2 text-xs text-slate-400 mb-2">
-                  <span>{s.culture_region}</span>
-                  <span>•</span>
-                  <span>{s.age_group}</span>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
+        {collectionList.map(col => {
+          const colSlug = getCollectionSlug(col.name);
+          return (
+            <a
+              href={`/${currentLang}/collections/${currentLang}-collection-${colSlug}/`}
+              class="group p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-md transition-all flex flex-col justify-between"
+            >
+              <div class="space-y-2">
+                <div class="aspect-16/10 rounded-xl overflow-hidden bg-[#EEDFC8]/30">
+                  <img
+                    src={col.image}
+                    alt={col.name}
+                    width="300"
+                    height="190"
+                    loading="lazy"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
                 </div>
-
-                <h3 class="text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2 hover:text-amber-600 transition-colors">
-                  <a href={getStoryUrl(s, lang)}>
-                    {s.title}
-                  </a>
+                <h3 class="text-sm sm:text-base font-black text-[#3B2A1A] dark:text-[#F3EBDD] group-hover:text-[#D97706] transition-colors leading-tight">
+                  {col.name}
                 </h3>
-
-                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-3 mb-4 leading-relaxed">
-                  {s.summary}
-                </p>
-
-                <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-800 text-xs text-amber-900 dark:text-amber-200 italic">
-                  💡 {s.moral}
-                </div>
               </div>
+              <span class="text-xs font-semibold text-[#0F766E] dark:text-[#2DD4BF] mt-3">
+                {col.count} {t.stories} →
+              </span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- Latest Stories Grid (Responsive: 2-col Phone, 3-col Tablet, 4-col PC) -->
+    <section class="space-y-4">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-xl sm:text-2xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
+            Timeless Stories to Read
+          </h2>
+          <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+            Stories of wit, virtue, courage and laughter
+          </p>
+        </div>
+        <a href={`/${currentLang}/search/`} class="text-xs sm:text-sm font-bold text-[#D97706] hover:underline">
+          View all library →
+        </a>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-5">
+        {recentStories.map(story => (
+          <a
+            href={getStoryUrl(story, currentLang)}
+            class="group p-3.5 sm:p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-lg transition-all flex flex-col justify-between"
+          >
+            <div class="space-y-2.5">
+              <div class="aspect-4/3 rounded-xl overflow-hidden bg-[#EEDFC8]/30">
+                <img
+                  src={story.image}
+                  alt={story.title}
+                  width="400"
+                  height="300"
+                  loading="lazy"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+
+              <div class="flex items-center justify-between text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
+                <span class="font-bold text-[#D97706] truncate max-w-[60%]">{story.collection}</span>
+                <span>⏱ {story.reading_time || '4m'}</span>
+              </div>
+
+              <h3 class="text-xs sm:text-sm font-black text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-2 leading-snug group-hover:text-[#D97706] transition-colors">
+                {story.title}
+              </h3>
+
+              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] line-clamp-2 leading-relaxed">
+                {story.summary}
+              </p>
             </div>
 
-            <div class="px-6 pb-6 pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
-              <span class="text-xs text-slate-400">
-                Level: <strong>{s.reading_level}</strong>
+            <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex items-center justify-between text-xs mt-3">
+              <span class="text-[11px] font-semibold text-[#0F766E] dark:text-[#2DD4BF]">
+                {getAudienceCategory(story.age_group) === 'kids' ? t.kids : (getAudienceCategory(story.age_group) === 'teens' ? t.teens : t.everyone)}
               </span>
-              <a
-                href={getStoryUrl(s, lang)}
-                class="px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors"
-              >
-                {t.readStory} →
-              </a>
+              <span class="font-bold text-[#D97706] group-hover:translate-x-1 transition-transform">
+                Read →
+              </span>
             </div>
-          </article>
+          </a>
         ))}
       </div>
     </section>
 
-    <!-- 4. Story Garden & World Story Passport Widgets -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-      <StoryGarden />
-      <StoryPassport />
-    </div>
-
   </div>
 </BaseLayout>
+
+<script is:inline>
+  // Check for "Continue Reading" from localStorage
+  try {
+    const lastRead = JSON.parse(localStorage.getItem('dailytale_last_read'));
+    if (lastRead && lastRead.title && lastRead.url) {
+      const section = document.getElementById('continue-reading-section');
+      const titleEl = document.getElementById('continue-reading-title');
+      const linkEl = document.getElementById('continue-reading-link');
+      if (section && titleEl && linkEl) {
+        titleEl.textContent = lastRead.title;
+        linkEl.href = lastRead.url;
+        section.classList.remove('hidden');
+      }
+    }
+  } catch(e) {}
+</script>

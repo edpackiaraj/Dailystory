@@ -1,17 +1,27 @@
 {
-  "name": "Dhinam Oru Kathai",
-  "nativeName": "தினம் ஒரு கதை",
-  "tagline": "A Story a Day: Moral, Bedtime & Folktales Worldwide",
-  "positioning": "A global, multilingual story library celebrating timeless wisdom, moral values, and imaginative folktales from every culture. Tamil is one of ten equal, celebrated world languages.",
-  "description": "Discover moral stories, humorous tales, folktales, fairy tales, fables, and bedtime stories from around the world. Enjoy timeless classics, life lessons, and entertaining stories for readers of all ages in multiple languages.",
-  "homeTitle": "Dhinam Oru Kathai: Moral & Bedtime Stories Worldwide",
-  "homeMetaDescription": "Discover moral stories, humorous tales, folktales, fairy tales, fables and bedtime stories from around the world, in 10 languages. A new story every day.",
-  "siteUrl": "https://dhinamorukathai.pages.dev",
+  "name": "Daily Tale",
+  "nativeName": "Daily Tale",
+  "tagline": "One story. Every day. Every language.",
+  "positioning": "A timeless multilingual storytelling sanctuary celebrating wisdom, folklore, and moral stories from every culture for readers of all ages.",
+  "description": "Discover folktales, fables, and wisdom stories from around the world in 10 languages. One story. Every day. Every language.",
+  "homeTitle": "Daily Tale — One story. Every day. Every language.",
+  "homeMetaDescription": "Timeless folktales, fables, and moral stories from world cultures in 10 languages. Formatted for readers of all ages with audio narration.",
+  "siteUrl": "https://dailystory.pages.dev",
   "mascot": {
     "name": "Katha",
     "title": "The Story Owl",
-    "description": "A kind, starry-eyed owl who loves sharing wisdom, celebrating kindness, and tucking children into sweet dreams."
+    "description": "A kind, starry-eyed owl who loves sharing timeless wisdom and celebrating cultural stories from around the globe."
   },
+  "audiences": [
+    { "id": "everyone", "label": "Everyone", "icon": "🌍" },
+    { "id": "kids", "label": "Kids", "icon": "🎈" },
+    { "id": "teens", "label": "Teens", "icon": "🌱" }
+  ],
+  "lengths": [
+    { "id": "short", "label": "Under 3 min", "maxWords": 350 },
+    { "id": "medium", "label": "3 to 7 min", "minWords": 351, "maxWords": 900 },
+    { "id": "long", "label": "Over 7 min", "minWords": 901 }
+  ],
   "supportedLanguages": [
     { "code": "en", "name": "English", "native": "English", "direction": "ltr", "flag": "🌐", "fontClass": "font-sans" },
     { "code": "ta", "name": "Tamil", "native": "தமிழ்", "direction": "ltr", "flag": "🇮🇳", "fontClass": "font-tamil" },

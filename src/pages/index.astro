@@ -6,44 +6,49 @@ const supportedLanguages = brandConfig.supportedLanguages;
 ---
 
 <BaseLayout
-  title={`${brandConfig.name} - Choose Your Story Language`}
+  title={`${brandConfig.name} — ${brandConfig.tagline}`}
   description={brandConfig.description}
   lang="en"
 >
-  <div class="max-w-4xl mx-auto px-4 py-12 sm:py-20 text-center">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-20 text-center space-y-10">
     
     <!-- Hero Icon & Title -->
-    <div class="w-20 h-20 sm:w-24 sm:h-24 mx-auto rounded-3xl bg-amber-500 flex items-center justify-center text-4xl sm:text-5xl shadow-xl mb-6">
-      🦉
+    <div class="space-y-4">
+      <div class="w-20 h-20 sm:w-24 sm:h-24 mx-auto rounded-3xl bg-[#D97706] flex items-center justify-center text-4xl sm:text-5xl shadow-xl">
+        🦉
+      </div>
+
+      <h1 class="text-3xl sm:text-6xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight">
+        {brandConfig.name}
+      </h1>
+      
+      <p class="text-base sm:text-xl font-bold text-[#D97706] dark:text-[#F59E0B]">
+        {brandConfig.tagline}
+      </p>
+
+      <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] max-w-2xl mx-auto leading-relaxed">
+        {brandConfig.description}
+      </p>
     </div>
 
-    <h1 class="text-3xl sm:text-5xl font-black text-amber-950 dark:text-amber-100 tracking-tight mb-3">
-      {brandConfig.name}
-    </h1>
-    <p class="text-lg sm:text-xl font-bold text-amber-700 dark:text-amber-300 mb-4">
-      {brandConfig.nativeName}
-    </p>
-    <p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed mb-10">
-      {brandConfig.description}
-    </p>
-
     <!-- Language Selection Grid -->
-    <div class="mb-12">
-      <h2 class="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-6">
-        Choose Your Story Language / உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்
+    <div class="space-y-6">
+      <h2 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-[#6B5644] dark:text-[#C8BFAF]">
+        Select Your Language / மொழியைத் தேர்ந்தெடுக்கவும்
       </h2>
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5 sm:gap-4">
         {supportedLanguages.map((l) => (
           <a
             href={`/${l.code}/`}
-            class="p-5 rounded-3xl bg-white dark:bg-slate-900 border-2 border-amber-200 dark:border-slate-800 hover:border-amber-500 hover:shadow-lg transition-all group flex flex-col items-center justify-center gap-2"
+            data-lang={l.code}
+            class="lang-choice-card p-5 rounded-3xl bg-white dark:bg-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-lg transition-all group flex flex-col items-center justify-center gap-2 min-h-[90px]"
           >
             <span class="text-3xl sm:text-4xl group-hover:scale-110 transition-transform">{l.flag}</span>
-            <span class="font-extrabold text-sm sm:text-base text-slate-800 dark:text-slate-100 group-hover:text-amber-600 transition-colors">
+            <span class="font-extrabold text-sm sm:text-base text-[#3B2A1A] dark:text-[#F3EBDD] group-hover:text-[#D97706] transition-colors">
               {l.native}
             </span>
-            <span class="text-xs text-slate-400 font-medium">
+            <span class="text-xs text-[#6B5644] dark:text-[#C8BFAF] font-medium">
               {l.name}
             </span>
           </a>
@@ -51,13 +56,52 @@ const supportedLanguages = brandConfig.supportedLanguages;
       </div>
     </div>
 
-    <!-- Quick Direct Entry Button for English Default -->
-    <a
-      href="/en/"
-      class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-extrabold text-base shadow-lg hover:shadow-amber-500/25 transition-all"
-    >
-      <span>📖 Enter Global Library (English)</span>
-      <span>→</span>
-    </a>
+    <!-- Quick Features Highlight -->
+    <div class="pt-8 border-t border-[#EEDFC8] dark:border-[#383659] grid grid-cols-1 sm:grid-cols-3 gap-6 text-center text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+      <div class="space-y-1">
+        <span class="text-2xl">🎧</span>
+        <h3 class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">Audio Narration</h3>
+        <p class="text-xs">Listen to stories narrated with speech synthesis and custom speeds.</p>
+      </div>
+      <div class="space-y-1">
+        <span class="text-2xl">🌱</span>
+        <h3 class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">For Every Generation</h3>
+        <p class="text-xs">Curated for Everyone, Kids and Teens with pedagogical thought prompts.</p>
+      </div>
+      <div class="space-y-1">
+        <span class="text-2xl">🌙</span>
+        <h3 class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">Bedtime &amp; Dyslexia Modes</h3>
+        <p class="text-xs">Gentle night theme, sepia paper, and OpenDyslexic accessibility font.</p>
+      </div>
+    </div>
+
   </div>
 </BaseLayout>
+
+<script is:inline>
+  // Save chosen language when clicked
+  document.querySelectorAll('.lang-choice-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const lang = card.getAttribute('data-lang');
+      if (lang) localStorage.setItem('dailytale_lang', lang);
+    });
+  });
+
+  // Auto-detect on first visit:
+  // If user previously chose a language, redirect to it; if browser matches supported language, route to it.
+  (function() {
+    const saved = localStorage.getItem('dailytale_lang');
+    if (saved && saved !== 'en') {
+      window.location.replace(`/${saved}/`);
+      return;
+    }
+    if (!saved && navigator.language) {
+      const prefix = navigator.language.split('-')[0].toLowerCase();
+      const supported = ['ta', 'hi', 'es', 'zh', 'pt', 'ml', 'te', 'kn', 'mr'];
+      if (supported.includes(prefix)) {
+        localStorage.setItem('dailytale_lang', prefix);
+        window.location.replace(`/${prefix}/`);
+      }
+    }
+  })();
+</script>

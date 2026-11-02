@@ -176,6 +176,24 @@ export function getCollectionsWithCounts(lang: string) {
   return counts;
 }
 
+export function getAudienceCategory(ageGroup?: string): 'kids' | 'teens' | 'everyone' {
+  const lower = (ageGroup || '').toLowerCase();
+  if (lower.includes('below 10') || lower.includes('below 8') || lower.includes('kids') || lower.includes('children') || lower.includes('below 13')) {
+    return 'kids';
+  }
+  if (lower.includes('teen') || lower.includes('13-18') || lower.includes('young adult')) {
+    return 'teens';
+  }
+  return 'everyone';
+}
+
+export function getLengthCategory(wordCount?: number): 'short' | 'medium' | 'long' {
+  const count = wordCount || 400;
+  if (count <= 350) return 'short';
+  if (count <= 850) return 'medium';
+  return 'long';
+}
+
 export function getCollectionSlug(collection: string): string {
   if (!collection) return 'world-folktales';
   return collection.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -183,6 +201,6 @@ export function getCollectionSlug(collection: string): string {
 
 export function getStoryUrl(story: { collection: string; slug: string }, lang: string): string {
   const colSlug = getCollectionSlug(story.collection);
-  return `/${lang}/collections/${lang}-collection-${colSlug}/#${story.slug}`;
+  return `/${lang}/${colSlug}/${story.slug}/`;
 }
 

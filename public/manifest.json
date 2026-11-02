@@ -1,11 +1,11 @@
 {
-  "name": "Dhinam Oru Kathai: World Stories",
-  "short_name": "Story a Day",
-  "description": "Discover moral stories, folktales and bedtime stories from around the world in 10 languages.",
+  "name": "Daily Tale: One Story Every Day",
+  "short_name": "Daily Tale",
+  "description": "Timeless folktales, fables and wisdom stories from world cultures in 10 languages. Formatted for readers of all ages.",
   "start_url": "/en/",
   "display": "standalone",
-  "background_color": "#fffbeb",
-  "theme_color": "#d97706",
+  "background_color": "#FFF8EC",
+  "theme_color": "#D97706",
   "orientation": "portrait-primary",
   "icons": [
     {

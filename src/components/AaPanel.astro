@@ -1,0 +1,260 @@
+---
+import { getT } from '../lib/i18n';
+
+interface Props {
+  currentLang: string;
+}
+
+const { currentLang } = Astro.props;
+const t = getT(currentLang);
+---
+
+<!-- Reader Aa Customization Panel (Bottom Sheet on Mobile, Popover on Desktop) -->
+<div
+  id="aa-panel-backdrop"
+  class="hidden fixed inset-0 z-50 bg-black/50 backdrop-blur-sm transition-opacity duration-200"
+  aria-hidden="true"
+></div>
+
+<aside
+  id="aa-panel"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="aa-panel-title"
+  class="hidden fixed z-50 bottom-0 inset-x-0 md:bottom-auto md:top-20 md:right-8 md:inset-x-auto w-full md:w-96 bg-[#FFF8EC] dark:bg-[#1B1A2E] border-t md:border border-[#EEDFC8] dark:border-[#383659] rounded-t-3xl md:rounded-3xl shadow-2xl p-6 space-y-5 animate-in slide-in-from-bottom md:slide-in-from-top-4 duration-200"
+>
+  <!-- Handle Bar on Mobile -->
+  <div class="md:hidden w-12 h-1.5 bg-[#6B5644]/20 rounded-full mx-auto -mt-2 mb-3"></div>
+
+  <!-- Header -->
+  <div class="flex items-center justify-between pb-3 border-b border-[#EEDFC8] dark:border-[#383659]">
+    <div class="flex items-center gap-2">
+      <span class="text-xl font-bold font-serif">Aa</span>
+      <h3 id="aa-panel-title" class="text-base font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+        {t.textSettings}
+      </h3>
+    </div>
+    <button
+      id="close-aa-btn"
+      type="button"
+      aria-label="Close text settings"
+      class="w-8 h-8 flex items-center justify-center rounded-full text-[#6B5644] dark:text-[#C8BFAF] hover:bg-[#EEDFC8] dark:hover:bg-[#2E2D4D] text-sm"
+    >
+      ✕
+    </button>
+  </div>
+
+  <!-- 1. Text Size -->
+  <div class="space-y-2">
+    <div class="flex items-center justify-between text-xs font-semibold text-[#6B5644] dark:text-[#C8BFAF] uppercase tracking-wider">
+      <span>{t.fontSize}</span>
+      <span id="font-size-label" class="text-xs text-[#D97706] dark:text-[#F59E0B] font-bold">19px</span>
+    </div>
+    <div class="grid grid-cols-4 gap-2">
+      <button type="button" data-size="16" class="aa-size-btn min-h-[44px] rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold hover:border-[#D97706] transition-all">
+        A- (16)
+      </button>
+      <button type="button" data-size="19" class="aa-size-btn min-h-[44px] rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-sm font-bold hover:border-[#D97706] transition-all bg-[#D97706]/15 border-[#D97706] text-[#D97706]">
+        A (19)
+      </button>
+      <button type="button" data-size="22" class="aa-size-btn min-h-[44px] rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-base font-bold hover:border-[#D97706] transition-all">
+        A+ (22)
+      </button>
+      <button type="button" data-size="25" class="aa-size-btn min-h-[44px] rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-lg font-bold hover:border-[#D97706] transition-all">
+        A++ (25)
+      </button>
+    </div>
+  </div>
+
+  <!-- 2. Font Style -->
+  <div class="space-y-2">
+    <span class="text-xs font-semibold text-[#6B5644] dark:text-[#C8BFAF] uppercase tracking-wider">
+      {t.fontFamily}
+    </span>
+    <div class="grid grid-cols-3 gap-2">
+      <button type="button" data-font="serif" class="aa-font-btn min-h-[44px] p-2 rounded-xl border border-[#D97706] bg-[#D97706]/15 text-[#D97706] text-xs font-serif font-bold transition-all">
+        Storybook
+      </button>
+      <button type="button" data-font="sans" class="aa-font-btn min-h-[44px] p-2 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-sans font-bold hover:border-[#D97706] transition-all">
+        Clean Sans
+      </button>
+      <button type="button" data-font="dyslexic" class="aa-font-btn min-h-[44px] p-2 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-mono font-bold hover:border-[#D97706] transition-all" title="OpenDyslexic Font for reading ease">
+        Dyslexic
+      </button>
+    </div>
+  </div>
+
+  <!-- 3. Line Spacing -->
+  <div class="space-y-2">
+    <span class="text-xs font-semibold text-[#6B5644] dark:text-[#C8BFAF] uppercase tracking-wider">
+      {t.lineSpacing}
+    </span>
+    <div class="grid grid-cols-3 gap-2">
+      <button type="button" data-spacing="1.6" class="aa-spacing-btn min-h-[44px] p-2 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold hover:border-[#D97706] transition-all">
+        Normal
+      </button>
+      <button type="button" data-spacing="1.8" class="aa-spacing-btn min-h-[44px] p-2 rounded-xl border border-[#D97706] bg-[#D97706]/15 text-[#D97706] text-xs font-bold transition-all">
+        Relaxed
+      </button>
+      <button type="button" data-spacing="2.1" class="aa-spacing-btn min-h-[44px] p-2 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold hover:border-[#D97706] transition-all">
+        Spacious
+      </button>
+    </div>
+  </div>
+
+  <!-- 4. Reading Theme -->
+  <div class="space-y-2">
+    <span class="text-xs font-semibold text-[#6B5644] dark:text-[#C8BFAF] uppercase tracking-wider">
+      {t.theme}
+    </span>
+    <div class="grid grid-cols-4 gap-2 text-xs font-bold">
+      <button type="button" data-theme="light" class="aa-theme-btn min-h-[44px] rounded-xl border border-[#EEDFC8] bg-[#FFF8EC] text-[#3B2A1A] p-2 flex flex-col items-center justify-center hover:scale-105 transition-all">
+        <span>☀️</span>
+        <span>{t.light}</span>
+      </button>
+      <button type="button" data-theme="sepia" class="aa-theme-btn min-h-[44px] rounded-xl border border-[#DCC8AC] bg-[#F4ECD8] text-[#3A2B1C] p-2 flex flex-col items-center justify-center hover:scale-105 transition-all">
+        <span>📜</span>
+        <span>{t.sepia}</span>
+      </button>
+      <button type="button" data-theme="night" class="aa-theme-btn min-h-[44px] rounded-xl border border-[#383659] bg-[#1B1A2E] text-[#F3EBDD] p-2 flex flex-col items-center justify-center hover:scale-105 transition-all">
+        <span>🌙</span>
+        <span>{t.night}</span>
+      </button>
+      <button type="button" data-theme="auto" class="aa-theme-btn min-h-[44px] rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-[#6B5644] dark:text-[#C8BFAF] p-2 flex flex-col items-center justify-center hover:scale-105 transition-all">
+        <span>💻</span>
+        <span>{t.system}</span>
+      </button>
+    </div>
+  </div>
+</aside>
+
+<script is:inline>
+  // Aa Panel Drawer & Live Preferences
+  const aaBackdrop = document.getElementById('aa-panel-backdrop');
+  const aaPanel = document.getElementById('aa-panel');
+  const closeAaBtn = document.getElementById('close-aa-btn');
+
+  function openAaPanel() {
+    aaBackdrop.classList.remove('hidden');
+    aaPanel.classList.remove('hidden');
+  }
+
+  function closeAaPanel() {
+    aaBackdrop.classList.add('hidden');
+    aaPanel.classList.add('hidden');
+  }
+
+  if (closeAaBtn) closeAaBtn.addEventListener('click', closeAaPanel);
+  if (aaBackdrop) aaBackdrop.addEventListener('click', closeAaPanel);
+
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('[data-open-aa-panel]')) {
+      e.preventDefault();
+      openAaPanel();
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !aaPanel.classList.contains('hidden')) {
+      closeAaPanel();
+    }
+  });
+
+  // Settings State Management
+  const defaultSettings = {
+    fontSize: 19,
+    fontStyle: 'serif',
+    lineSpacing: 1.8,
+    theme: 'auto'
+  };
+
+  function loadReaderSettings() {
+    try {
+      const saved = JSON.parse(localStorage.getItem('dailytale_reader_settings'));
+      return { ...defaultSettings, ...(saved || {}) };
+    } catch {
+      return defaultSettings;
+    }
+  }
+
+  function applySettings(settings) {
+    document.documentElement.style.setProperty('--story-font-size', `${settings.fontSize}px`);
+    document.documentElement.style.setProperty('--story-line-height', `${settings.lineSpacing}`);
+    
+    // Font family class
+    document.body.classList.remove('font-serif-reading', 'font-sans-reading', 'font-dyslexic');
+    if (settings.fontStyle === 'serif') document.body.classList.add('font-serif-reading');
+    else if (settings.fontStyle === 'sans') document.body.classList.add('font-sans-reading');
+    else if (settings.fontStyle === 'dyslexic') document.body.classList.add('font-dyslexic');
+
+    // Theme
+    applyTheme(settings.theme);
+
+    // Save
+    localStorage.setItem('dailytale_reader_settings', JSON.stringify(settings));
+    
+    // UI update
+    const label = document.getElementById('font-size-label');
+    if (label) label.textContent = `${settings.fontSize}px`;
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.classList.remove('dark', 'theme-sepia');
+    if (theme === 'night') {
+      document.documentElement.classList.add('dark');
+    } else if (theme === 'sepia') {
+      document.documentElement.classList.add('theme-sepia');
+    } else if (theme === 'light') {
+      // Default light
+    } else {
+      // Auto
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+      }
+    }
+    localStorage.setItem('dailytale_theme', theme);
+  }
+
+  const currentSettings = loadReaderSettings();
+  applySettings(currentSettings);
+
+  // Wire buttons
+  document.querySelectorAll('.aa-size-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentSettings.fontSize = parseInt(btn.getAttribute('data-size'));
+      applySettings(currentSettings);
+      highlightActive('.aa-size-btn', btn);
+    });
+  });
+
+  document.querySelectorAll('.aa-font-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentSettings.fontStyle = btn.getAttribute('data-font');
+      applySettings(currentSettings);
+      highlightActive('.aa-font-btn', btn);
+    });
+  });
+
+  document.querySelectorAll('.aa-spacing-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentSettings.lineSpacing = parseFloat(btn.getAttribute('data-spacing'));
+      applySettings(currentSettings);
+      highlightActive('.aa-spacing-btn', btn);
+    });
+  });
+
+  document.querySelectorAll('.aa-theme-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentSettings.theme = btn.getAttribute('data-theme');
+      applySettings(currentSettings);
+      highlightActive('.aa-theme-btn', btn);
+    });
+  });
+
+  function highlightActive(selector, activeEl) {
+    document.querySelectorAll(selector).forEach(el => {
+      el.classList.remove('border-[#D97706]', 'bg-[#D97706]/15', 'text-[#D97706]');
+    });
+    activeEl.classList.add('border-[#D97706]', 'bg-[#D97706]/15', 'text-[#D97706]');
+  }
+</script>
