@@ -177,12 +177,14 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${curren
       {matchingStories.map((story, idx) => {
         const aud = getAudienceCategory(story.age_group);
         const len = getLengthCategory(story.word_count);
+        const cleanTitle = (story.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').replace(/\s*\([A-Za-z\s\u0B80-\u0BFF\u0900-\u097F]+\)$/, '').trim();
+        const cleanSummary = (story.summary || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim();
         return (
           <article
             class={`story-card group p-3.5 sm:p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-lg transition-all flex flex-col justify-between ${idx >= 12 ? 'hidden' : ''}`}
             data-index={idx}
-            data-title={story.title.toLowerCase()}
-            data-summary={(story.summary || '').toLowerCase()}
+            data-title={cleanTitle.toLowerCase()}
+            data-summary={cleanSummary.toLowerCase()}
             data-audience={aud}
             data-length={len}
           >
@@ -190,7 +192,7 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${curren
               <div class="aspect-4/3 rounded-xl overflow-hidden bg-[#EEDFC8]/30">
                 <img
                   src={story.image}
-                  alt={story.title}
+                  alt={cleanTitle}
                   width="400"
                   height="300"
                   loading="lazy"
@@ -207,12 +209,12 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${curren
 
               <h2 class="text-xs sm:text-sm font-black text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-2 leading-snug group-hover:text-[#D97706] transition-colors">
                 <a href={getStoryUrl(story, currentLang)}>
-                  {story.title}
+                  {cleanTitle}
                 </a>
               </h2>
 
               <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] line-clamp-2 leading-relaxed">
-                {story.summary}
+                {cleanSummary}
               </p>
             </div>
 

@@ -48,7 +48,32 @@ interface Props {
 
 const { lang, collection, slug } = Astro.params;
 const { story, prevStory, nextStory } = Astro.props;
-const t = getT(lang || 'en');
+const currentLang = lang || 'en';
+const t = getT(currentLang);
+
+function sanitizeTag(str?: string) {
+  if (!str) return '';
+  return str
+    .replace(/\s*\[[A-Za-z]{2}\]/g, '')
+    .replace(/\s*\([A-Za-z\s\u0B80-\u0BFF\u0900-\u097F]+\)$/, '')
+    .trim();
+}
+
+const cleanTitle = sanitizeTag(story.title);
+const cleanSummary = sanitizeTag(story.summary);
+const cleanMoral = sanitizeTag(story.moral);
+
+const scriptRegexes: Record<string, RegExp> = {
+  ta: /[\u0B80-\u0BFF]/,
+  hi: /[\u0900-\u097F]/,
+  mr: /[\u0900-\u097F]/,
+  te: /[\u0C00-\u0C7F]/,
+  kn: /[\u0C80-\u0CFF]/,
+  ml: /[\u0D00-\u0D7F]/,
+  zh: /[\u4E00-\u9FFF]/
+};
+const hasScript = scriptRegexes[currentLang] ? scriptRegexes[currentLang].test(story.full_text) : true;
+const isTranslated = currentLang === 'en' || hasScript;
 
 const colSlug = getCollectionSlug(story.collection);
 const audienceKey = getAudienceCategory(story.age_group);
@@ -59,8 +84,8 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": story.title,
-    "description": story.summary,
+    "headline": cleanTitle,
+    "description": cleanSummary,
     "image": story.image ? `${brandConfig.siteUrl}${story.image}` : `${brandConfig.siteUrl}/images/og-default.png`,
     "inLanguage": lang,
     "genre": story.genre,
@@ -80,8 +105,8 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title={story.title}
-  description={story.summary}
+  title={cleanTitle}
+  description={cleanSummary}
   lang={lang}
   canonicalUrl={canonicalUrl}
   ogImage={story.image}
@@ -111,11 +136,11 @@ const jsonLd = [
       <span>/</span>
       <a href={`/${lang}/collections/`} class="hover:text-[#D97706] transition-colors">{t.collections}</a>
       <span>/</span>
-      <a href={`/${lang}/collections/${lang}-collection-${colSlug}/`} class="hover:text-[#D97706] transition-colors">
+      <a href={`/${lang}/collections/${colSlug}/`} class="hover:text-[#D97706] transition-colors">
         {story.collection}
       </a>
       <span>/</span>
-      <span class="text-[#3B2A1A] dark:text-[#F3EBDD] font-semibold truncate max-w-xs">{story.title}</span>
+      <span class="text-[#3B2A1A] dark:text-[#F3EBDD] font-semibold truncate max-w-xs">{cleanTitle}</span>
     </nav>
 
     <!-- Main Reader Layout: 2 Columns on Desktop (Centered Reading Column + Right Companion Panel) -->
@@ -144,11 +169,11 @@ const jsonLd = [
           </div>
 
           <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-tight">
-            {story.title}
+            {cleanTitle}
           </h1>
 
           <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed italic">
-            {story.summary}
+            {cleanSummary}
           </p>
         </header>
 
@@ -163,6 +188,27 @@ const jsonLd = [
               loading="eager"
               class="w-full h-full object-cover"
             />
+          </div>
+        )}
+
+        <!-- Untranslated Story Fallback Notice -->
+        {!isTranslated && (
+          <div class="p-5 sm:p-6 rounded-3xl bg-amber-500/10 border-2 border-amber-500/30 text-start space-y-3">
+            <div class="flex items-center gap-2.5 text-[#D97706] font-bold text-sm">
+              <span class="text-xl">🌐</span>
+              <span>{t.availableInNote || "Available in:"} English</span>
+            </div>
+            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              This story is in editorial review for translation. You can read the original English version below or switch to the English edition.
+            </p>
+            <div class="pt-1">
+              <a
+                href={`/en/${colSlug}/${story.slug.replace(new RegExp(`-${currentLang}$`), '')}/`}
+                class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#D97706] text-white font-bold text-xs hover:bg-[#B45309] transition-all min-h-[40px]"
+              >
+                <span>{t.readInEnglish || "Read in English"} →</span>
+              </a>
+            </div>
           </div>
         )}
 
@@ -203,7 +249,7 @@ const jsonLd = [
             <span>{t.moral}</span>
           </div>
           <p class="text-base sm:text-lg font-bold text-[#3B2A1A] dark:text-[#F3EBDD] leading-snug">
-            {story.moral}
+            {cleanMoral}
           </p>
         </div>
 
