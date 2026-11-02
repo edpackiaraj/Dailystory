@@ -11,6 +11,6 @@
   X-Robots-Tag: noindex, nofollow, noarchive
 
 /api/*
-  Access-Control-Allow-Origin: https://dhinamorukathai.pages.dev
+  Access-Control-Allow-Origin: https://dailystory.pages.dev
   Access-Control-Allow-Methods: GET, POST, OPTIONS
   Access-Control-Allow-Headers: Content-Type, CF-Access-Jwt-Assertion

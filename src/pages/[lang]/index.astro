@@ -36,7 +36,7 @@ for (const s of allStories) {
     collectionsMap[s.collection] = {
       name: s.collection,
       count: 0,
-      image: s.image || '/images/og-default.svg'
+      image: s.image || '/images/og-default.png'
     };
   }
   collectionsMap[s.collection].count++;
@@ -254,7 +254,7 @@ const recentStories = allStories.slice(0, 16);
           const colSlug = getCollectionSlug(col.name);
           return (
             <a
-              href={`/${currentLang}/collections/${currentLang}-collection-${colSlug}/`}
+              href={`/${currentLang}/collections/${colSlug}/`}
               class="group p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-md transition-all flex flex-col justify-between"
             >
               <div class="space-y-2">

@@ -35,6 +35,12 @@ export function getStaticPaths() {
   for (const lang of brandConfig.supportedLanguages) {
     for (const c of allCollections) {
       const colSlug = c.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      // Clean path: /en/collections/aesop-s-fables/
+      paths.push({
+        params: { lang: lang.code, collection: colSlug },
+        props: { rawCollection: c, colSlug }
+      });
+      // Legacy path: /en/collections/en-collection-aesop-s-fables/
       paths.push({
         params: { lang: lang.code, collection: `${lang.code}-collection-${colSlug}` },
         props: { rawCollection: c, colSlug }

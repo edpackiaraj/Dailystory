@@ -1,50 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
   <defs>
-    <linearGradient id="brandBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fffbeb"/>
-      <stop offset="50%" stop-color="#fef3c7"/>
-      <stop offset="100%" stop-color="#fde68a"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8EC"/>
+      <stop offset="50%" stop-color="#FEF3C7"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="630" fill="url(#brandBg)"/>
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
   
-  <!-- Subtle decorative stars -->
-  <circle cx="150" cy="120" r="3" fill="#f59e0b"/>
-  <circle cx="1050" cy="140" r="4" fill="#f59e0b"/>
-  <circle cx="950" cy="500" r="3" fill="#f59e0b"/>
-  <circle cx="200" cy="520" r="4" fill="#f59e0b"/>
-  
-  <!-- Brand Center Card -->
-  <rect x="150" y="80" width="900" height="470" rx="36" fill="#ffffff" stroke="#f59e0b" stroke-width="4" filter="drop-shadow(0 20px 25px rgba(0, 0, 0, 0.1))"/>
-  
-  <!-- Mascot Katha the Story Owl -->
-  <circle cx="600" cy="210" r="64" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
-  <!-- Eyes -->
-  <circle cx="580" cy="200" r="16" fill="#d97706"/>
-  <circle cx="620" cy="200" r="16" fill="#d97706"/>
-  <circle cx="580" cy="200" r="7" fill="#ffffff"/>
-  <circle cx="620" cy="200" r="7" fill="#ffffff"/>
-  <!-- Beak -->
-  <polygon points="600,210 592,226 608,226" fill="#f59e0b" stroke="#92400e" stroke-width="1"/>
+  <circle cx="140" cy="110" r="5" fill="#D97706" opacity="0.4"/>
+  <circle cx="1080" cy="120" r="6" fill="#D97706" opacity="0.4"/>
+  <circle cx="1020" cy="520" r="5" fill="#D97706" opacity="0.4"/>
+  <circle cx="180" cy="530" r="6" fill="#D97706" opacity="0.4"/>
 
-  <!-- Brand Typography -->
-  <text x="600" y="330" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" fill="#78350f">Dhinam Oru Kathai</text>
-  <text x="600" y="380" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#d97706">தினம் ஒரு கதை • A Story a Day</text>
+  <rect x="100" y="60" width="1000" height="510" rx="32" fill="#FFFFFF" stroke="#D97706" stroke-width="3"/>
+
+  <!-- Owl Mascot Icon Circle -->
+  <circle cx="600" cy="180" r="52" fill="#D97706"/>
+  <text x="600" y="202" text-anchor="middle" font-size="52">🦉</text>
+
+  <!-- Typography -->
+  <text x="600" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="900" fill="#3B2A1A">Daily Tale</text>
+  <text x="600" y="335" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-style="italic" font-weight="bold" fill="#D97706">One story. Every day. Every language.</text>
   
-  <text x="600" y="440" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569">Moral, Bedtime &amp; Folktales from Around the World in 10 Languages</text>
+  <text x="600" y="395" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#6B5644">Folktales, Fables &amp; Wisdom Stories Across World Cultures in 10 Languages</text>
   
-  <!-- Pill Badges -->
-  <g transform="translate(300, 475)">
-    <rect x="0" y="0" width="120" height="34" rx="17" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
-    <text x="60" y="22" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#92400e">Safe for Kids</text>
-    
-    <rect x="140" y="0" width="140" height="34" rx="17" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
-    <text x="210" y="22" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#92400e">No Manipulative Ads</text>
-    
-    <rect x="300" y="0" width="140" height="34" rx="17" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
-    <text x="370" y="22" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#92400e">10 World Languages</text>
-    
-    <rect x="460" y="0" width="140" height="34" rx="17" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
-    <text x="530" y="22" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#92400e">Bedtime Mode</text>
+  <!-- Badges -->
+  <g transform="translate(190, 445)">
+    <rect x="0" y="0" width="180" height="42" rx="21" fill="#FFF8EC" stroke="#D97706" stroke-width="1.5"/>
+    <text x="90" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#78350F">🎧 Audio Narration</text>
+
+    <rect x="200" y="0" width="190" height="42" rx="21" fill="#FFF8EC" stroke="#D97706" stroke-width="1.5"/>
+    <text x="295" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#78350F">🌍 10 World Languages</text>
+
+    <rect x="410" y="0" width="190" height="42" rx="21" fill="#FFF8EC" stroke="#D97706" stroke-width="1.5"/>
+    <text x="505" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#78350F">🌱 For All Generations</text>
+
+    <rect x="620" y="0" width="190" height="42" rx="21" fill="#FFF8EC" stroke="#D97706" stroke-width="1.5"/>
+    <text x="715" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#78350F">✨ 100% Free &amp; Ad-Free</text>
   </g>
 </svg>

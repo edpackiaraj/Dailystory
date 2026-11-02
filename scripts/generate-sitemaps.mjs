@@ -13,10 +13,24 @@ if (!fs.existsSync(publicDir)) {
   fs.mkdirSync(publicDir, { recursive: true });
 }
 
+function safeWriteFileSync(filePath, data, maxRetries = 5) {
+  for (let i = 0; i < maxRetries; i++) {
+    try {
+      fs.writeFileSync(filePath, data, 'utf8');
+      return;
+    } catch (err) {
+      if (i === maxRetries - 1) throw err;
+      const waitMs = 300 * (i + 1);
+      const start = Date.now();
+      while (Date.now() - start < waitMs) {} // Synchronous spin wait for file unlock
+    }
+  }
+}
+
 const siteUrl = brandConfig.siteUrl.replace(/\/$/, '');
 const languages = brandConfig.supportedLanguages.map(l => l.code);
 
-console.log('[Sitemap Generator] Generating multilingual XML sitemaps & robots.txt...');
+console.log('[Sitemap Generator] Generating multilingual XML sitemaps & robots.txt with dedicated story URLs...');
 
 const sitemapFilenames = [];
 
@@ -26,27 +40,23 @@ let allCollections = [
   "Aesop's Fables", "Grimm Fairy Tales", "Hans Christian Andersen", "Mulla Nasruddin",
   "Jataka Tales", "Charles Perrault", "Arabian Nights", "Vikram–Vetal", "Paramartha Guru"
 ];
-let allGenres = [
-  "Humorous Tales", "Folktales", "Fairy Tales", "Fables",
-  "Fantasy Stories", "Mystery Stories", "Love Stories",
-  "Adventure Stories", "Historical Stories", "Jataka Tales"
-];
 
 if (fs.existsSync(manifestPath)) {
   try {
     const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
     allCollections = Array.from(new Set(manifest.map(m => m.collection))).filter(Boolean);
-    allGenres = Array.from(new Set(manifest.map(m => m.genre))).filter(Boolean);
   } catch {}
 }
 
-// Static core routes for each language
+// Clean static core routes for each language
 const coreRoutes = [
   '',
   'search',
+  'favourites',
+  'collections',
   'submit',
   'subscribe',
-  'favorites',
+  'guide',
   'about',
   'contact',
   'disclaimer',
@@ -61,43 +71,56 @@ const coreRoutes = [
 ];
 
 for (const lang of languages) {
-  const langStoriesFilePath = path.join(dataDir, lang, `stories-${lang}.json`);
-  const legacyStoriesFilePath = path.join(dataDir, lang, 'stories.json');
-  const langStoriesPath = fs.existsSync(langStoriesFilePath) ? langStoriesFilePath : legacyStoriesFilePath;
+  // Load stories for this language
   let stories = [];
-  if (fs.existsSync(langStoriesPath)) {
+  const collectionsDir = path.join(dataDir, lang, 'collections');
+  if (fs.existsSync(collectionsDir)) {
     try {
-      stories = JSON.parse(fs.readFileSync(langStoriesPath, 'utf8'));
-    } catch (e) {
-      stories = [];
+      const files = fs.readdirSync(collectionsDir).filter(f => f.endsWith('.json'));
+      for (const file of files) {
+        const filePath = path.join(collectionsDir, file);
+        stories.push(...JSON.parse(fs.readFileSync(filePath, 'utf8')));
+      }
+    } catch (e) {}
+  }
+
+  if (stories.length === 0) {
+    const langStoriesFilePath = path.join(dataDir, lang, `stories-${lang}.json`);
+    const legacyStoriesFilePath = path.join(dataDir, lang, 'stories.json');
+    const langStoriesPath = fs.existsSync(langStoriesFilePath) ? langStoriesFilePath : legacyStoriesFilePath;
+    if (fs.existsSync(langStoriesPath)) {
+      try {
+        stories = JSON.parse(fs.readFileSync(langStoriesPath, 'utf8'));
+      } catch (e) {
+        stories = [];
+      }
     }
   }
 
-  // Filter only reviewed stories for indexing
-  const indexableStories = stories.filter(s => s.reviewed !== false);
+  // Filter reviewed published stories
+  const indexableStories = stories.filter(s => s.reviewed !== false && s.status !== 'draft');
 
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
 
-  // 1. Core pages
+  // 1. Core pages (clean URLs)
   for (const route of coreRoutes) {
-    const loc = route ? `${siteUrl}/${lang}/${lang}-${route}/` : `${siteUrl}/${lang}/`;
+    const loc = route ? `${siteUrl}/${lang}/${route}/` : `${siteUrl}/${lang}/`;
     xml += '  <url>\n';
     xml += `    <loc>${loc}</loc>\n`;
     xml += `    <changefreq>${route === '' ? 'daily' : 'monthly'}</changefreq>\n`;
     xml += `    <priority>${route === '' ? '1.0' : '0.7'}</priority>\n`;
 
     for (const altLang of languages) {
-      const altLoc = route ? `${siteUrl}/${altLang}/${altLang}-${route}/` : `${siteUrl}/${altLang}/`;
+      const altLoc = route ? `${siteUrl}/${altLang}/${route}/` : `${siteUrl}/${altLang}/`;
       xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${altLoc}"/>\n`;
     }
-    const xDefaultLoc = route ? `${siteUrl}/en/en-${route}/` : `${siteUrl}/en/`;
+    const xDefaultLoc = route ? `${siteUrl}/en/${route}/` : `${siteUrl}/`;
     xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${xDefaultLoc}"/>\n`;
-
     xml += '  </url>\n';
   }
 
-  // 2. Collection Hubs (Indexable if 5+ stories in that collection)
+  // 2. Collection Hubs (clean URLs)
   let collectionsIndexed = 0;
   for (const col of allCollections) {
     const colSlug = col.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -109,67 +132,63 @@ for (const lang of languages) {
       return norm === col.toLowerCase();
     });
 
-    if (colStories.length >= 5) {
+    if (colStories.length >= 1) {
       collectionsIndexed++;
-      const loc = `${siteUrl}/${lang}/collections/${lang}-collection-${colSlug}/`;
+      const loc = `${siteUrl}/${lang}/collections/${colSlug}/`;
       xml += '  <url>\n';
       xml += `    <loc>${loc}</loc>\n`;
       xml += `    <changefreq>weekly</changefreq>\n`;
       xml += `    <priority>0.9</priority>\n`;
 
       for (const altLang of languages) {
-        xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/collections/${altLang}-collection-${colSlug}/"/>\n`;
+        xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/collections/${colSlug}/"/>\n`;
       }
-      xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/collections/en-collection-${colSlug}/"/>\n`;
+      xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/collections/${colSlug}/"/>\n`;
       xml += '  </url>\n';
     }
   }
 
-  // 3. Genre Hubs
-  let genresIndexed = 0;
-  for (const genre of allGenres) {
-    const genreSlug = genre.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-    const genreStories = indexableStories.filter(s => (s.genre || '').toLowerCase() === genre.toLowerCase());
+  // 3. Individual Story Pages (giving every story its own indexable URL!)
+  let storiesIndexed = 0;
+  for (const story of indexableStories) {
+    const colSlug = (story.collection || 'world-folktales').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const storyLoc = `${siteUrl}/${lang}/${colSlug}/${story.slug}/`;
+    const lastModDate = story.publish_date || '2026-03-25';
 
-    if (genreStories.length >= 5) {
-      genresIndexed++;
-      const loc = `${siteUrl}/${lang}/genres/${lang}-genre-${genreSlug}/`;
-      xml += '  <url>\n';
-      xml += `    <loc>${loc}</loc>\n`;
-      xml += `    <changefreq>weekly</changefreq>\n`;
-      xml += `    <priority>0.8</priority>\n`;
-
-      for (const altLang of languages) {
-        xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/genres/${altLang}-genre-${genreSlug}/"/>\n`;
-      }
-      xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/genres/en-genre-${genreSlug}/"/>\n`;
-      xml += '  </url>\n';
-    }
+    xml += '  <url>\n';
+    xml += `    <loc>${storyLoc}</loc>\n`;
+    xml += `    <lastmod>${lastModDate}</lastmod>\n`;
+    xml += `    <changefreq>monthly</changefreq>\n`;
+    xml += `    <priority>0.8</priority>\n`;
+    xml += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${storyLoc}"/>\n`;
+    xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/${colSlug}/${story.slug}/"/>\n`;
+    xml += '  </url>\n';
+    storiesIndexed++;
   }
 
   xml += '</urlset>\n';
 
   const sitemapFilename = `sitemap-${lang}.xml`;
-  fs.writeFileSync(path.join(publicDir, sitemapFilename), xml, 'utf8');
+  safeWriteFileSync(path.join(publicDir, sitemapFilename), xml);
   sitemapFilenames.push(sitemapFilename);
-  console.log(`[Sitemap Generator] Generated ${sitemapFilename} with ${coreRoutes.length + collectionsIndexed + genresIndexed} URLs.`);
+  console.log(`[Sitemap Generator] Generated ${sitemapFilename}: ${coreRoutes.length} core, ${collectionsIndexed} collections, ${storiesIndexed} stories.`);
 }
 
-// Write master sitemap index
+// Master sitemap index
 let indexXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
 indexXml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 for (const fn of sitemapFilenames) {
   indexXml += '  <sitemap>\n';
   indexXml += `    <loc>${siteUrl}/${fn}</loc>\n`;
-  indexXml += `    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>\n`;
+  indexXml += `    <lastmod>2026-11-02</lastmod>\n`;
   indexXml += '  </sitemap>\n';
 }
 indexXml += '</sitemapindex>\n';
 
-fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), indexXml, 'utf8');
+safeWriteFileSync(path.join(publicDir, 'sitemap.xml'), indexXml);
 console.log('[Sitemap Generator] Generated master sitemap.xml index.');
 
-// Write robots.txt
+// robots.txt
 const robotsTxt = `User-agent: *
 Allow: /
 Disallow: /admin/
@@ -177,5 +196,5 @@ Disallow: /api/
 
 Sitemap: ${siteUrl}/sitemap.xml
 `;
-fs.writeFileSync(path.join(publicDir, 'robots.txt'), robotsTxt, 'utf8');
+safeWriteFileSync(path.join(publicDir, 'robots.txt'), robotsTxt);
 console.log('[Sitemap Generator] Generated robots.txt.');

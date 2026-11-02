@@ -98,12 +98,12 @@ const currentLangObj = getLanguageMeta(currentLang);
         <button
           type="button"
           data-open-lang-modal
-          title="Change language / மொழியை மாற்று"
+          title="Change language"
           aria-label="Change Language"
-          class="px-3 py-2 rounded-2xl border border-[#D97706]/40 bg-[#D97706]/10 text-[#D97706] dark:text-[#F59E0B] hover:bg-[#D97706]/20 transition-all flex items-center gap-2 text-xs sm:text-sm font-bold min-h-[44px]"
+          class="px-3 py-2 rounded-2xl border border-[#D97706]/40 bg-[#D97706]/10 text-[#D97706] dark:text-[#F59E0B] hover:bg-[#D97706]/20 transition-all flex items-center gap-1.5 text-xs sm:text-sm font-bold min-h-[44px]"
         >
-          <span class="text-base leading-none">{currentLangObj.flag}</span>
-          <span class="hidden sm:inline font-bold">{currentLangObj.native}</span>
+          <span class="text-sm">🌐</span>
+          <span class="font-bold">{currentLangObj.native}</span>
           <span class="text-[10px] opacity-70">▼</span>
         </button>
 

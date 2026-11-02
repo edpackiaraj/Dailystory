@@ -42,11 +42,12 @@ const currentLangObj = getLanguageMeta(currentLang);
           <button
             type="button"
             data-open-lang-modal
+            aria-label="Change Language"
             class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all min-h-[44px]"
           >
-            <span>{currentLangObj.flag}</span>
+            <span>🌐</span>
             <span>{currentLangObj.native} ({currentLangObj.name})</span>
-            <span class="text-[10px] text-[#D97706]">Change 🌐</span>
+            <span class="text-[10px] text-[#D97706]">Change</span>
           </button>
         </div>
       </div>

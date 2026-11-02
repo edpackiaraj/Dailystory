@@ -1,0 +1,70 @@
+import sharp from 'sharp';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const rootDir = path.resolve(__dirname, '..');
+const imagesDir = path.join(rootDir, 'public', 'images');
+
+if (!fs.existsSync(imagesDir)) {
+  fs.mkdirSync(imagesDir, { recursive: true });
+}
+
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8EC"/>
+      <stop offset="50%" stop-color="#FEF3C7"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <circle cx="140" cy="110" r="5" fill="#D97706" opacity="0.4"/>
+  <circle cx="1080" cy="120" r="6" fill="#D97706" opacity="0.4"/>
+  <circle cx="1020" cy="520" r="5" fill="#D97706" opacity="0.4"/>
+  <circle cx="180" cy="530" r="6" fill="#D97706" opacity="0.4"/>
+
+  <rect x="100" y="60" width="1000" height="510" rx="32" fill="#FFFFFF" stroke="#D97706" stroke-width="3"/>
+
+  <!-- Owl Mascot Icon Circle -->
+  <circle cx="600" cy="180" r="52" fill="#D97706"/>
+  <text x="600" y="202" text-anchor="middle" font-size="52">🦉</text>
+
+  <!-- Typography -->
+  <text x="600" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="900" fill="#3B2A1A">Daily Tale</text>
+  <text x="600" y="335" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-style="italic" font-weight="bold" fill="#D97706">One story. Every day. Every language.</text>
+  
+  <text x="600" y="395" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#6B5644">Folktales, Fables &amp; Wisdom Stories Across World Cultures in 10 Languages</text>
+  
+  <!-- Badges -->
+  <g transform="translate(190, 445)">
+    <rect x="0" y="0" width="180" height="42" rx="21" fill="#FFF8EC" stroke="#D97706" stroke-width="1.5"/>
+    <text x="90" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#78350F">🎧 Audio Narration</text>
+
+    <rect x="200" y="0" width="190" height="42" rx="21" fill="#FFF8EC" stroke="#D97706" stroke-width="1.5"/>
+    <text x="295" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#78350F">🌍 10 World Languages</text>
+
+    <rect x="410" y="0" width="190" height="42" rx="21" fill="#FFF8EC" stroke="#D97706" stroke-width="1.5"/>
+    <text x="505" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#78350F">🌱 For All Generations</text>
+
+    <rect x="620" y="0" width="190" height="42" rx="21" fill="#FFF8EC" stroke="#D97706" stroke-width="1.5"/>
+    <text x="715" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#78350F">✨ 100% Free &amp; Ad-Free</text>
+  </g>
+</svg>`;
+
+async function run() {
+  const outputPath = path.join(imagesDir, 'og-default.png');
+  await sharp(Buffer.from(svg))
+    .png({ quality: 95 })
+    .toFile(outputPath);
+  console.log(`[OG Generator] Created: ${outputPath}`);
+
+  // Also write updated SVG
+  fs.writeFileSync(path.join(imagesDir, 'og-default.svg'), svg, 'utf8');
+  console.log(`[OG Generator] Updated: public/images/og-default.svg`);
+}
+
+run().catch(console.error);

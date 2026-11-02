@@ -98,7 +98,7 @@ for (const file of htmlFiles) {
     if (!isAdmin && !is404) issues.missingCanonical.push(relPath);
   } else {
     const canonUrl = canonMatch[1].trim();
-    if (!canonUrl.startsWith('https://dhinamorukathai.pages.dev')) {
+    if (!canonUrl.startsWith('https://dailystory.pages.dev')) {
       issues.invalidCanonicalDomain.push({ path: relPath, url: canonUrl });
     }
   }
@@ -197,7 +197,7 @@ if (issues.missingDescription.length === 0) {
 
 console.log(`\n4. Canonical URLs:`);
 if (issues.missingCanonical.length === 0 && issues.invalidCanonicalDomain.length === 0) {
-  console.log(`   ✓ PASS: All pages have self-referencing canonical URLs on https://dhinamorukathai.pages.dev.`);
+  console.log(`   ✓ PASS: All pages have self-referencing canonical URLs on https://dailystory.pages.dev.`);
 } else {
   console.log(`   ✗ FAIL: Issues found in canonical URLs (missing: ${issues.missingCanonical.length}, invalid domain: ${issues.invalidCanonicalDomain.length}).`);
 }
