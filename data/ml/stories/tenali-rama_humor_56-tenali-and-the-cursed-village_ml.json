@@ -1,0 +1,127 @@
+{
+  "id": "tenali-rama-56-tenali-and-the-cursed-village",
+  "slug": "tenali-rama-56-tenali-and-the-cursed-village-ml",
+  "language": "ml",
+  "title": "Tenali and the Cursed Village (മലയാളം)",
+  "genre": "Humorous Tales",
+  "collection": "Tenali Rama",
+  "culture_region": "India",
+  "age_group": "Below 13",
+  "summary": "A delegation of terrified village elders from Ramapuram, three leagues south of Vijayanagara, arrived at the court pleading for royal hel... [ML]",
+  "keywords": [
+    "tenali rama",
+    "tenali and the cursed village",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "tenali-rama"
+  ],
+  "tags": [
+    "tenali-rama",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "A delegation of terrified village elders from Ramapuram, three leagues south of Vijayanagara, arrived at the court pleading for royal help:\n'Maharaj, our village has been struck by an evil demon’s curse!\nWhoever drinks from our central stone well falls victim to burning stomach fevers, shivering, and vomiting!\nTwo astrologers have performed animal sacrifices and burned black incense, but the curse grows stronger! We must abandon our ancestral village!'\n\nKing Krishnadevaraya was about to order the village evacuated when Tenali Raman spoke:\n'Maharaj, demons rarely live in clean stone wells. Allow me to visit Ramapuram and investigate this curse.'\n\nTenali rode to Ramapuram accompanied by two royal apothecaries.\nHe inspected the 'cursed' well.\nThe stone well was situated in a low hollow near the village perimeter.\nTenali walked around the surrounding area:\nJust fifty yards uphill from the well was a large commercial leather tannery operated by a careless merchant, along with an open pile of rotting animal hides and refuse!\nTenali noticed that recent summer rains had washed the toxic, rotting runoff from the tannery down the slope, where it was seeping through the porous limestone rocks directly into the groundwater of the well!\n\nTenali gathered the villagers:\n'Look, brothers! Your curse does not come from demons of the underworld, but from the dirt and rotting waste of yonder tannery!\nWhen you allow filth to soak into your drinking water, the fever is born of your own neglect!'\n\nTenali immediately organized the villagers into work teams:\nThey shut down the tannery and moved it two miles downriver;\nThey thoroughly drained and cleaned the stone well, scrubbing its walls with lime and burning charcoal;\nThey treated the water with fresh lime and clearing-nuts (*Strychnos potatorum*);\nAnd they constructed a high stone wall and drainage ditch around the wellhead to divert all surface runoff.\n\nWithin three days, the water was sparkling clear, cool, and sweet.\nThose who drank it suffered no fevers, and the sick recovered with simple herbal teas.\n\nThe villagers rejoiced, celebrating Tenali as their savior.\nTenali smiled:\n'Remember, friends: cleanliness is the truest prayer, and clean water is the greatest blessing. When disease strikes, look to your drains and wells before you blame the stars!'",
+  "moral": "Superstition blames phantoms for human neglect; scientific hygiene and sanitation cure what spells cannot. [ML]",
+  "image": "/images/stories/tenali-rama.webp",
+  "image_alt": "Tenali and the Cursed Village illustration from the Tenali Rama collection.",
+  "word_count": 367,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"Tenali and the Cursed Village\"?",
+      "options": [
+        "Wit and humor triumph over arrogance and power",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Tenali Rama. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"Tenali and the Cursed Village\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Wit and humor triumph over arrogance and power\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": 56,
+  "reviewed": true,
+  "source": "Folklore - Vijayanagara Empire 16th century, public domain",
+  "license": "Public Domain",
+  "credit": "Tenali Rama Heritage Anthology"
+}

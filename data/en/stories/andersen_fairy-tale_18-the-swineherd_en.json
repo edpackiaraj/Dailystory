@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-18-the-swineherd",
+  "slug": "hans-christian-andersen-18-the-swineherd",
+  "language": "en",
+  "title": "The Swineherd",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "There was once a poor young prince who ruled a tiny kingdom; yet his realm was large enough to marry on, and marry he would!...",
+  "keywords": [
+    "hans christian andersen",
+    "the swineherd",
+    "moral stories for children",
+    "world folktales and fables",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "There was once a poor young prince who ruled a tiny kingdom; yet his realm was large enough to marry on, and marry he would!\n\nHis father's grave held a rose tree that bloomed only once in five years; but when it bloomed, its single blossom breathed a perfume so sweet that whoever smelled it forgot all sorrows. The prince also possessed a nightingale that sang so exquisitely that all the melodies in the world seemed collected in its throat.\n\nThe prince sent the rose and the nightingale in silver caskets to the emperor's daughter, hoping to win her hand.\n\nWhen the imperial princess opened the caskets, she clapped her hands: \"Oh, papa! How charmingly they are made!\" But when she smelled the rose, she pouted with disgust: \"Fie, papa! It is not made of porcelain or silk; it is a natural rose!\" And when the nightingale burst into heavenly song, the princess turned her back: \"Pah! It is a real live bird! Let it fly away!\"\n\nThe prince did not lose heart. He stained his face brown, dressed in rags, and went to the palace gates, begging for work. The emperor appointed him imperial swineherd.\n\nIn his dirty hut near the pigsties, the prince constructed a marvelous little cooking pot hung with brass bells. When the pot boiled, the bells chimed a sweet waltz, and whoever held his finger in the steam could smell what was cooking in every chimney in the town!\n\nThe princess heard the music and sent her lady-in-waiting to inquire about the price. \"The swineherd demands ten kisses from the princess!\" reported the maid. The vain princess hesitated, but her curiosity conquered her pride: her ladies held out their skirts to shield her, and she gave the dirty swineherd ten kisses.\n\nNext, the swineherd fashioned a musical rattle that played all the dance tunes of the world. The price? \"One hundred kisses from the princess!\"\n\nAs the princess stood in the pigsty kissing the ragged swineherd for the toy, the emperor stepped out onto the balcony, rubbed his spectacles, and saw the disgraceful spectacle. \"Be off with both of you!\" roared the emperor, driving them both out of the empire with his slippers.\n\nThe princess wept by the roadside: \"Alas, miserable wretch that I am! If only I had accepted the noble prince!\"\n\nThe swineherd went behind a tree, washed the grime from his face, donned his royal garments, and stepped forward in magnificent majesty. The princess fell on her knees before him.\n\nThe prince looked upon her with scorn: \"I have come to despise you! You would not accept an honest prince, nor care for a genuine rose or a living nightingale; but you were ready to kiss a dirty swineherd in the muck for a silly plaything! Now keep what you have chosen!\" And he marched back to his own kingdom, shutting the palace gates against her forever.",
+  "moral": "Flippant vanity that scorns true beauty for superficial novelties inevitably loses all honor.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Swineherd illustration from the Hans Christian Andersen collection.",
+  "word_count": 485,
+  "reading_time": "4 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Swineherd\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Hans Christian Andersen anthology.",
+  "values": [
+    "discernment",
+    "authenticity",
+    "self-respect"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Swineherd\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Andersen's tales teach compassion, resilience, and Christian hope\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 18,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Global Treasury"
+}

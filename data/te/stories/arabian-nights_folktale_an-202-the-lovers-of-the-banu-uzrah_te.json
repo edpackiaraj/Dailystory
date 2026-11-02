@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-202-the-lovers-of-the-banu-uzrah",
+  "slug": "an-202-the-lovers-of-the-banu-uzrah-te",
+  "language": "te",
+  "title": "The Lovers of the Banu Uzrah (తెలుగు)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "A merchant caravan traveling from Basra to Mecca halted for the night at a secluded desert oasis in the territory of the Banu Uzrah. Whil... [TE]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the lovers of the banu uzrah",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "A merchant caravan traveling from Basra to Mecca halted for the night at a secluded desert oasis in the territory of the Banu Uzrah. While resting beside the water-channel beneath the date palms, the merchant heard a young Bedouin reciting verses of classical elevation, accompanying himself upon a one-stringed rebab.\n\nThe merchant approached and asked: 'Young warrior, who is the lady for whom you pour forth such sublime poetry?'\n\nThe youth answered with modest dignity: 'Her name is Mayya, daughter of our clan’s chief. We grew up together among the tents, our souls bound by shared reverence for truth, poetry, and honor. But her father’s herds were destroyed in a winter blizzard, and to rebuild his tribe’s fortunes, he has been compelled to accept the proposal of a wealthy emir of Syria.'\n\nThe merchant, deeply touched by their pure and sorrowful devotion, said: 'Has all hope vanished?'\n\nThe youth answered: 'Hope never vanishes while honor endures. We have sworn that though oceans of sand divide our paths, our thoughts shall remain pure and our loyalty unbroken. True love does not demand possession; it rejoices in the honor and peace of the beloved.'\n\nThe merchant was so moved by his noble character that he rode directly to the camp of Mayya’s father. He opened his caravan chests, weighed out two thousand gold dinars, and provided forty pedigree camels to restore the tribe’s herds, presenting them as a gift in the youth’s name.\n\nThe clan celebrated the union of Mayya and her faithful poet with ten days of joyous festivities, and the merchant departed with a joyful heart, knowing that generosity had preserved the sacred covenant of the Banu Uzrah.",
+  "moral": "Chaste affection and steadfast fidelity shine like unmoving stars across the shifting desert sands. [TE]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Lovers of the Banu Uzrah illustration from the 1001 Arabian Nights collection.",
+  "word_count": 278,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Lovers of the Banu Uzrah\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Telugu readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Lovers of the Banu Uzrah\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 202,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

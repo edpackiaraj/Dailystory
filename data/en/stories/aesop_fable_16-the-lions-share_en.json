@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-16-the-lions-share",
+  "slug": "aesops-fables-16-the-lions-share",
+  "language": "en",
+  "title": "The Lion's Share",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "The Lion, the Fox, the Jackal, and the Wolf agreed to form a solemn hunting alliance, swearing upon their honor to share equally whatever game they brought down in the wilderness....",
+  "keywords": [
+    "aesop's fables",
+    "the lion's share",
+    "moral stories for children",
+    "world folktales and fables",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "The Lion, the Fox, the Jackal, and the Wolf agreed to form a solemn hunting alliance, swearing upon their honor to share equally whatever game they brought down in the wilderness.\n\nAfter a long chase through the rocky gorges, the four companions managed to trap and bring down a magnificent, fat stag. The hunters gathered around the quarry, licking their chops in anticipation of a grand feast.\n\nThe Lion, assuming the mantle of leadership, raised his paw and commanded: \"Cut the stag into four equal quarters, so that justice may be preserved among partners.\"\n\nThe wolf and jackal carved the carcass into four identical shares with great care. The Lion stood before the four portions, cleared his throat with a rumbling growl, and began his royal distribution:\n\n\"The first quarter belongs to me by right of my royal title, for I am sovereign of all the beasts of the forest. The second quarter falls to me on account of my superior strength and valor, since it was my claw that struck down the stag. The third quarter is mine because I contributed the greatest endurance to the hunt. And as for the fourth quarter,\" growled the Lion, baring his razor-sharp fangs and unsheathing his massive claws, \"whoever among you dares to lay a single paw upon it must first defeat me in mortal combat!\"\n\nThe Fox, the Jackal, and the Wolf exchanged silent, rueful glances, tucked their tails between their legs, and slunk away into the bushes with empty bellies, having learned the harsh lesson that an alliance with a tyrant always ends with the tyrant taking everything.",
+  "moral": "Partnership with the powerful rarely brings equal rewards to the weak.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Lion's Share illustration from the Aesop's Fables collection.",
+  "word_count": 268,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Lion's Share\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Aesop's Fables anthology.",
+  "values": [
+    "justice",
+    "fairness",
+    "caution-with-tyrants"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Lion's Share\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": "Perry 16",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Global Treasury"
+}

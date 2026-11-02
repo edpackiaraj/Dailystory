@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-30-the-fox-and-the-hedgehog",
+  "slug": "aesops-fables-30-the-fox-and-the-hedgehog-ml",
+  "language": "ml",
+  "title": "The Fox and the Hedgehog",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A fox, attempting to leap across a swollen mountain torrent, was swept downstream by the rushing current and cast battered and bruised into a muddy bog. Trapped in the deep mire, u...",
+  "keywords": [
+    "aesop's fables",
+    "the fox and the hedgehog",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "A fox, attempting to leap across a swollen mountain torrent, was swept downstream by the rushing current and cast battered and bruised into a muddy bog. Trapped in the deep mire, unable to pull his paws free, he lay helpless while swarms of bloodthirsty horseflies settled upon his skin, stinging him mercilessly and drinking their fill.\n\nA kindly hedgehog, bustling past through the sedges, was touched with pity at the sight of the suffering animal.\n\n\"Neighbor Fox,\" whispered the hedgehog, stepping toward the mire, \"you are in torment! Shall I use my prickles to drive off these vicious flies that are draining your life away?\"\n\n\"No, I beg you, do not touch them!\" gasped the fox weakly through gritted teeth.\n\nThe hedgehog stared in surprise: \"Why on earth would you wish to keep these tormentors on your back?\"\n\n\"Because,\" explained the wise fox with a painful groan, \"these flies upon me are already bloated and gorged with my blood; their stings have grown dull, and they can drink no more. If you drive them away, a fresh swarm of starving, ravenous flies will take their place and drain every remaining drop of blood from my veins!\"",
+  "moral": "Better to endure familiar burdens than invite fresh and hungrier afflictions.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Fox and the Hedgehog illustration from the Aesop's Fables collection.",
+  "word_count": 196,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Fox and the Hedgehog\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience",
+    "practicality"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Fox and the Hedgehog\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 30",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

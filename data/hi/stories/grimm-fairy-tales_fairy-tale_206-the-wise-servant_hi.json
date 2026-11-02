@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-206-the-wise-servant",
+  "slug": "grimm-fairy-tales-206-the-wise-servant-hi",
+  "language": "hi",
+  "title": "The Wise Servant",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A country master possessed a servant named Hans whom he considered the wisest man in seven counties, because Hans never did anything without thorough consideration....",
+  "keywords": [
+    "grimm fairy tales",
+    "the wise servant",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A country master possessed a servant named Hans whom he considered the wisest man in seven counties, because Hans never did anything without thorough consideration.\n\nOne afternoon, the master sent Hans to the pasture to search for three lost cows. Hans walked into the meadow, sat down beneath a shady oak, and fell fast asleep for four hours.\n\nWhen he awoke, he saw three cows grazing peacefully by the brook. Hans thought to himself: \"If I drive them home now, they will surely get thirsty on the road. And if they get thirsty, they might drink from the pond and swallow a leech. And if they swallow a leech, they might perish of fever!\"\n\nTo prevent this tragedy, Hans drove the three healthy cows straight into the town slaughterhouse, sold their meat for a pittance, and bought three wheelbarrows of dry hay, which he pushed home in triumph.\n\n\"Where are my cows?\" shouted the furious master.\n\n\"Master,\" answered Hans with profound dignity, \"I have saved your cattle from lethal leeches and brought you enough hay to feed ten herds!\" The master raised his walking stick in despair, while Hans smiled serenely, confident that his profound wisdom had averted a colossal disaster.",
+  "moral": "Beware of the servant who does more than he is asked and turns every chore into a calamity.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Wise Servant illustration from the Grimm Fairy Tales collection.",
+  "word_count": 201,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Wise Servant\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "humor",
+    "satire",
+    "wit"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Wise Servant\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 206,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-134-tales-of-the-paddock",
+  "slug": "grimm-fairy-tales-134-tales-of-the-paddock-mr",
+  "language": "mr",
+  "title": "Tales of the Paddock",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A sweet, innocent little country child would sit every afternoon on the stone terrace behind her mother's cottage, eating a wooden bowl of sweet milk and crumbled white bread. When...",
+  "keywords": [
+    "grimm fairy tales",
+    "tales of the paddock",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A sweet, innocent little country child would sit every afternoon on the stone terrace behind her mother's cottage, eating a wooden bowl of sweet milk and crumbled white bread. Whenever she sat down, a little spotted toad would hop out from the foundation stones to share her meal.\n\nThe child loved the creature dearly and would tap her wooden spoon upon the grass, singing: \"Little toad, hop out to me, come and drink your milk with glee!\" The toad would lap the warm milk from her spoon, and the child grew rosy and happy in its company.\n\nOnce, when the toad ate only the milk and left the bread, the little girl gently tapped its head with her spoon, scolding softly: \"Eat breadcrumbs too, little thing, not just the cream!\" The toad obeyed like a gentle pet.\n\nWhen the anxious mother saw the creature one day, she took fright and struck the toad dead with a broom. Immediately, the little child grew pale and sad; she lost her joyful smile, refused her meals, and soon faded away like a wilting flower, illustrating how the delicate bonds of innocent love are woven into the very fabric of life.",
+  "moral": "Pure innocence lives in gentle harmony with nature, sharing joy without fear.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "Tales of the Paddock illustration from the Grimm Fairy Tales collection.",
+  "word_count": 197,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Tales of the Paddock\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "innocence",
+    "kindness",
+    "harmony"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Tales of the Paddock\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 134,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

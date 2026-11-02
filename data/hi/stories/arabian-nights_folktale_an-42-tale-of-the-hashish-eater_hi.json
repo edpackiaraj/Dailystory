@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-42-tale-of-the-hashish-eater",
+  "slug": "an-42-tale-of-the-hashish-eater-hi",
+  "language": "hi",
+  "title": "Tale of the Hashish Eater (हिन्दी)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In a crowded quarter of Cairo lived an idle young man named Bakkar who refused to learn a trade, preferring to spend his pennies on herba... [HI]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of the hashish eater",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In a crowded quarter of Cairo lived an idle young man named Bakkar who refused to learn a trade, preferring to spend his pennies on herbal smoke that induced vivid, waking dreams. One sultry afternoon, he sat upon a stone bench before an ancient public fountain, closed his eyes, and drifted into an elaborate reverie.\n\nIn his dream, he was no longer an impoverished beggar in patched wool, but the Grand Sultan of the Orient! He rode through the gates on a magnificent Arabian steed caparisoned in velvet and pearls. Heralds blew silver trumpets, courtiers bowed to the dust, and crowds showered him with rose petals and gold coin.\n\nEntering the royal palace, he ascended the throne of ivory and gold. He summoned his treasurer and commanded a million dinars to be distributed among the poor of Cairo. He ordered forty ships to set sail for the Spice Islands and decreed a feast of roasted peacocks for the whole city. Then, imagining his royal guards stood before him awaiting his command to march upon his enemies, he shouted aloud with royal majesty: 'Charge! Spare none who oppose my will!'\n\nLost in his delusion, Bakkar leaped from the stone bench, flailed his arms wildly, and dove headfirst into the public fountain! The icy water instantly shattered his dream. He spluttered, choked on fountain moss, and scrambled out into the street drenched from head to foot, his turban floating away in the gutter.\n\nA crowd of laughing washerwomen and schoolboys gathered round, clapping their hands at the dripping 'Sultan' who had conquered nothing but a horse-trough. Shivering with cold and burning with shame, Bakkar realized that illusions provide a moment of mock majesty at the cost of enduring dignity. From that afternoon, he threw away his herbs, took an apprenticeship with a cooper, and discovered the genuine satisfaction of an honest day's labor.",
+  "moral": "Chasing artificial illusions weakens the spirit; true happiness is built on clear-headed reality. [HI]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the Hashish Eater illustration from the 1001 Arabian Nights collection.",
+  "word_count": 311,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of the Hashish Eater\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of the Hashish Eater\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 42,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

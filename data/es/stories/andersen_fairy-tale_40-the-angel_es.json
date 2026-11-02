@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-40-the-angel",
+  "slug": "hans-christian-andersen-40-the-angel-es",
+  "language": "es",
+  "title": "The Angel",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "Whenever a good child dies, an angel of God comes down from heaven, gathers the sleeping child into his arms, spreads his great white wings, and flies gently over all the places th...",
+  "keywords": [
+    "hans christian andersen",
+    "the angel",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "Whenever a good child dies, an angel of God comes down from heaven, gathers the sleeping child into his arms, spreads his great white wings, and flies gently over all the places the child loved on earth.\n\nBefore soaring to the celestial gates, the angel gathers a large handful of wild flowers to plant in heaven, where they will bloom more radiantly than on earth.\n\nAs they flew over green fields and gardens, the angel gathered red roses, blue violets, and white lilies. But flying over a dark, narrow alleyway in the crowded city, the angel descended toward a heap of broken pottery and street refuse in the gutter.\n\nThere, lying among the broken shards, lay a dry, withered field marigold that had fallen from a cracked flowerpot.\n\n\"Why do you gather that poor, broken flower?\" asked the child.\n\nThe angel smiled with heavenly tenderness: \"In a dark cellar in this narrow lane lived a poor, crippled boy. From his childhood, he lay confined to his bed; on the finest summer days, the sunbeams touched the cellar floor for half an hour, and he would hold his pale hands in the light, saying: 'Today I have been out!'\n\nOne spring morning, a neighbor's boy brought him this wild field marigold with its roots intact. The crippled boy planted it in an old cracked earthen pot, watered it with loving care, and watched every leaf unfold. It was his garden, his companion, his little treasure on earth. He smiled at its yellow blossom and smelled its fragrance until the day God called his soul home.\n\nWhen the boy died, the people cleared the cellar and threw the poor withered marigold into the gutter. But that humble flower brought more pure joy to a suffering soul than the rarest rose in an emperor's palace!\"\n\n\"How do you know this so well, dear angel?\" asked the child with wonder.\n\nThe angel looked upon the child with boundless love: \"I know it, because I was myself that little crippled boy who lay in the dark cellar, and this was my beloved flower!\"\n\nAnd the angel kissed the child, and they soared together into the golden light of heaven, where the withered marigold bloomed forever in the garden of eternal peace.",
+  "moral": "The humblest flower cherished in sorrow shines brightest in the garden of heaven.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Angel illustration from the Hans Christian Andersen collection.",
+  "word_count": 376,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Angel\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Hans Christian Andersen. (Localized for Spanish readers, safe for schools and family bedtime).",
+  "values": [
+    "compassion",
+    "immortality",
+    "divine-love"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Angel\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": 40,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Heritage Anthology"
+}

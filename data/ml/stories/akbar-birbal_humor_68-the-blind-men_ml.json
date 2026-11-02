@@ -1,0 +1,127 @@
+{
+  "id": "akbar-birbal-68-the-blind-men",
+  "slug": "akbar-birbal-68-the-blind-men-ml",
+  "language": "ml",
+  "title": "The Blind Men (മലയാളം)",
+  "genre": "Humorous Tales",
+  "collection": "Akbar–Birbal",
+  "culture_region": "India",
+  "age_group": "Below 13",
+  "summary": "Birbal retells the ancient parable of the blind men and the elephant to settle a bitter religious dispute in the imperial council. [ML]",
+  "keywords": [
+    "akbar–birbal",
+    "the blind men",
+    "moral stories for children",
+    "world folktales and fables",
+    "akbar-birbal"
+  ],
+  "tags": [
+    "akbar-birbal",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A heated theological dispute broke out in the Diwan-i-Khas between scholars of different faiths. Each scholar insisted that his own doctrine possessed the absolute, exclusive truth, shouting insults and accusing others of heresy.\n\nAkbar was distressed by the intolerance: 'Birbal, how can learned men who seek the same Almighty be so blind to one another?'\n\nBirbal requested permission to demonstrate a parable. He brought an elephant into the courtyard and summoned six blind men from the city.\n\nBirbal asked each blind man to touch the beast and describe what an elephant was like.\n\nThe first blind man felt the broad, flat side of the elephant and said: 'An elephant is like a colossal, sturdy wall!'\n\nThe second felt the sharp, smooth tusk: 'No, an elephant is like a spear!'\n\nThe third felt the trunk: 'You are both wrong; an elephant is like a giant serpent!'\n\nThe fourth felt the leg: 'An elephant is like the trunk of a great tree!'\n\nThe fifth felt the ear: 'An elephant is like a giant fan!'\n\nThe sixth felt the tail: 'An elephant is like a rough piece of rope!'\n\nThe six blind men began shouting and beating each other with their walking sticks, each swearing his own perception was the sole truth.\n\nBirbal turned to the arguing scholars:\n\n'Behold, my lords! Each blind man touched a genuine part of the elephant, yet each was completely wrong about the whole beast!\n\n'So it is with mortal men who grasp only one aspect of the Infinite Divine and condemn their brothers. God is greater than any single human doctrine. Peace begins when men open their hearts to the whole truth instead of fighting over the part they have touched.'\n\nAshamed of their pettiness, the scholars fell silent, and Akbar thanked Birbal for illuminating the court with the spirit of harmony.",
+  "moral": "ഗുണപാഠം: Wit beats power",
+  "image": "/images/stories/akbar-birbal.webp",
+  "image_alt": "The Blind Men illustration from the Akbar–Birbal collection.",
+  "word_count": 305,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Blind Men\"?",
+      "options": [
+        "Wit beats power",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional Court Folklore of Akbar and Birbal",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Akbar–Birbal anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Blind Men\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wit beats power\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 68,
+  "reviewed": true,
+  "source": "Akbar-Birbal folklore - Mughal India 16th century - public domain oral tradition",
+  "license": "Public Domain",
+  "credit": "Akbar–Birbal Global Treasury"
+}

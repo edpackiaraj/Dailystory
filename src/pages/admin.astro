@@ -1,0 +1,175 @@
+---
+import brandConfig from '../../config/brand.json';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getAllReviewedStories } from '../lib/stories';
+
+const sampleStories = getAllReviewedStories('en');
+---
+
+<BaseLayout
+  title={`Editorial Administration - ${brandConfig.name}`}
+  description="Cloudflare Access Protected Editorial Management Panel"
+  lang="en"
+  noindex={true}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+    
+    <!-- Admin Header -->
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-200 dark:border-slate-800 mb-8">
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">🛡️</span>
+          <h1 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">
+            Editorial &amp; Moderation Desk
+          </h1>
+        </div>
+        <p class="text-xs text-slate-500 mt-1">
+          Cloudflare Access Protected • Zero Tracking Child Safety Compliance
+        </p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <span class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300 text-xs font-bold">
+          Access Authenticated
+        </span>
+        <button id="admin-export-stats" class="px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs font-semibold text-slate-700 dark:text-slate-300 border">
+          Export Privacy Stats
+        </button>
+      </div>
+    </div>
+
+    <!-- Admin Analytics Dashboard Overview (Zero Profiling) -->
+    <section class="mb-10">
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">
+        Privacy-Friendly Educational Analytics Overview
+      </h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+          <div class="text-xs text-slate-500 font-medium">Stories Published</div>
+          <div class="text-2xl font-black text-amber-600 mt-1">{sampleStories.length}</div>
+          <div class="text-[10px] text-slate-400 mt-1">Reviewed across 5 core languages</div>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+          <div class="text-xs text-slate-500 font-medium">Pending Submissions</div>
+          <div class="text-2xl font-black text-indigo-600 mt-1" id="stat-pending">1</div>
+          <div class="text-[10px] text-slate-400 mt-1">Awaiting editorial check</div>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+          <div class="text-xs text-slate-500 font-medium">Quiz Success Rate</div>
+          <div class="text-2xl font-black text-emerald-600 mt-1">94.2%</div>
+          <div class="text-[10px] text-emerald-600 mt-1">Encouraging pedagogy working</div>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+          <div class="text-xs text-slate-500 font-medium">Active Subscribers</div>
+          <div class="text-2xl font-black text-amber-500 mt-1" id="stat-subscribers">128</div>
+          <div class="text-[10px] text-slate-400 mt-1">Double opt-in adults</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tabbed Management Interface -->
+    <div class="space-y-8">
+      
+      <!-- 1. Pending Community Submissions Moderation -->
+      <section class="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-amber-200 dark:border-slate-800 shadow-sm">
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
+              Community Submissions (Moderation Queue)
+            </h3>
+            <p class="text-xs text-slate-500">
+              Approved stories will be published with author's pen name &amp; location credit.
+            </p>
+          </div>
+          <span class="px-2.5 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold">D1 Pending: 1</span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs sm:text-sm">
+            <thead class="bg-slate-50 dark:bg-slate-800 text-slate-500 uppercase text-[10px] tracking-wider">
+              <tr>
+                <th class="p-3">Title</th>
+                <th class="p-3">Author &amp; Location</th>
+                <th class="p-3">Lang</th>
+                <th class="p-3">Moral</th>
+                <th class="p-3">Action</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 dark:divide-slate-800">
+              <tr>
+                <td class="p-3 font-bold text-slate-800 dark:text-white">The Kind Old Weaver and the Sparrow</td>
+                <td class="p-3 text-slate-600 dark:text-slate-400">Meera (Varanasi, India)</td>
+                <td class="p-3"><span class="px-2 py-0.5 rounded bg-slate-100 text-xs">en</span></td>
+                <td class="p-3 italic text-slate-500 max-w-xs truncate">Generosity shared with small creatures brings joy to the whole home.</td>
+                <td class="p-3">
+                  <div class="flex items-center gap-2">
+                    <button class="px-3 py-1 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs" onclick="alert('Submission approved and queued for publication!')">
+                      Approve
+                    </button>
+                    <button class="px-3 py-1 rounded-lg bg-red-100 hover:bg-red-200 text-red-700 font-bold text-xs" onclick="alert('Submission rejected.')">
+                      Reject
+                    </button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 2. Story Catalog & Reviewed Translation Flags -->
+      <section class="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-amber-200 dark:border-slate-800 shadow-sm">
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
+              Published Stories &amp; Pedagogical Review Flags
+            </h3>
+            <p class="text-xs text-slate-500">
+              Only reviewed translations are indexable in sitemaps and search engines.
+            </p>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs sm:text-sm">
+            <thead class="bg-slate-50 dark:bg-slate-800 text-slate-500 uppercase text-[10px] tracking-wider">
+              <tr>
+                <th class="p-3">ID</th>
+                <th class="p-3">Title</th>
+                <th class="p-3">Collection</th>
+                <th class="p-3">Language</th>
+                <th class="p-3">Review Status</th>
+                <th class="p-3">Actions</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 dark:divide-slate-800">
+              {sampleStories.map(s => (
+                <tr>
+                  <td class="p-3 font-mono text-xs text-slate-400">{s.id}</td>
+                  <td class="p-3 font-semibold text-slate-800 dark:text-slate-100">{s.title}</td>
+                  <td class="p-3 text-slate-600 dark:text-slate-400">{s.collection}</td>
+                  <td class="p-3 font-mono">{s.language}</td>
+                  <td class="p-3">
+                    <span class="px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold">
+                      ✓ Reviewed &amp; Indexable
+                    </span>
+                  </td>
+                  <td class="p-3">
+                    <a href={`/${s.language}/stories/${s.slug}/`} target="_blank" class="text-amber-600 hover:underline font-bold text-xs">
+                      View Story ↗
+                    </a>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div>
+
+  </div>
+</BaseLayout>

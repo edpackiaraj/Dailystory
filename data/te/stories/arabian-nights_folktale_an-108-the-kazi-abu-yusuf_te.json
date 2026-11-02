@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-108-the-kazi-abu-yusuf",
+  "slug": "an-108-the-kazi-abu-yusuf-te",
+  "language": "te",
+  "title": "The Kazi Abu Yusuf (తెలుగు)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Abu Yusuf, the supreme Chief Justice of Baghdad during the reign of Harun al-Rashid, was celebrated as the greatest jurist of his age, po... [TE]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the kazi abu yusuf",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Abu Yusuf, the supreme Chief Justice of Baghdad during the reign of Harun al-Rashid, was celebrated as the greatest jurist of his age, possessing an incomparable ability to untangle the most knotted disputes through keen intellect, encyclopedic knowledge of the law, and profound common sense.\n\nOne morning, two merchants appeared before his bench. The first merchant claimed that he had left a sealed jar of pure olive oil in the care of his neighbor five years ago before departing on a long journey to India. Upon his return, the neighbor returned the jar, but the merchant discovered that beneath a layer of oil at the top, the jar was filled with copper slugs instead of the thousand gold dinars he had secretly concealed within!\n\nThe neighbor indignantly denied the charge, swearing that he had never opened the jar, pointing to the original wax seal which remained intact.\n\nThe court was perplexed: how could gold turn to copper under an unbroken seal?\n\nAbu Yusuf examined the jar closely. He summoned three expert oil-merchants of Baghdad and asked them to taste the oil floating at the top of the vessel.\n\nThe experts tasted the oil and declared unanimously: 'This oil is fresh, harvested from the olives of this very season; it cannot be more than two months old.'\n\nAbu Yusuf turned his piercing gaze upon the neighbor: 'You swore by your honor that you never opened the jar during the five years of your friend’s absence! How then could oil harvested two months ago find its way beneath a seal five years old?'\n\nTrapped by his own contradiction, the dishonest neighbor fell to his knees and confessed that he had broken the seal, stolen the gold, filled the jar with copper and fresh oil, and resealed it with counterfeit wax.\n\nAbu Yusuf compelled the thief to return the thousand gold dinars, fined him heavily for his perjury, and restored the innocent merchant’s fortune, proving that true justice examines the evidence of nature rather than the empty oaths of liars.",
+  "moral": "True legal wisdom combines strict justice with humane understanding and profound equity. [TE]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Kazi Abu Yusuf illustration from the 1001 Arabian Nights collection.",
+  "word_count": 337,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Kazi Abu Yusuf\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Telugu readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Kazi Abu Yusuf\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 108,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

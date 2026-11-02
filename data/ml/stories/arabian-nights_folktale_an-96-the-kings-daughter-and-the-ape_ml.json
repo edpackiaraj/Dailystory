@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-96-the-kings-daughter-and-the-ape",
+  "slug": "an-96-the-kings-daughter-and-the-ape-ml",
+  "language": "ml",
+  "title": "The King's Daughter and the Ape (മലയാളം)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the islands of the Indian Ocean ruled a wise and powerful monarch who had an only daughter named Princess Niloufar. The princess was c... [ML]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the king's daughter and the ape",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the islands of the Indian Ocean ruled a wise and powerful monarch who had an only daughter named Princess Niloufar. The princess was celebrated not only for her beauty, but for her profound skill in healing, astronomy, and the decoding of ancient manuscripts.\n\nOne day, a foreign ship brought to the palace a rare creature: an ape of remarkable grace and intelligence that played the flute, played chess with the royal counselors, and showed astonishing understanding of human speech. While the court treated the beast as a comical curiosity, Princess Niloufar observed the profound sorrow in the creature’s amber eyes.\n\nOne evening, as the ape sat in the garden pavilion, Niloufar noticed that he was tracing Arabic letters in the damp sand with a reed. Reading the script, she was astonished to find verses of deep philosophy and royal lineage!\n\nSpeaking softly to the creature in the language of ancient Persia, she discovered the truth: the ape was Prince Bahram of Shiraz, who had been transformed by a jealous sorcerer whose unjust demands the prince had refused. The curse decreed that he must remain an ape until a maiden of royal blood recognized his noble mind without knowing his crown.\n\nNiloufar resolved to break the enchantment. Consulting ancient scrolls of counter-sorcery in her father’s library, she discovered that the spell could only be dissolved by the water of the Mountain of Mirrors, guarded by three riddling sphinxes.\n\nWithout hesitation, Princess Niloufar embarked on the perilous journey. With her keen intellect and courageous heart, she solved the three riddles, gathered the crystal water, and returned to the palace.\n\nSprinkling the drops upon the creature's brow, the fur dissolved, and Prince Bahram stood restored in his full human majesty and princely grace! The king and the entire court cheered in wonder, celebrating a union founded on intellect, courage, and the discernment that sees the soul beyond the guise.",
+  "moral": "Look beyond outward appearances, for true nobility and virtue are hidden beneath the humblest guises. [ML]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The King's Daughter and the Ape illustration from the 1001 Arabian Nights collection.",
+  "word_count": 317,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The King's Daughter and the Ape\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The King's Daughter and the Ape\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 96,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

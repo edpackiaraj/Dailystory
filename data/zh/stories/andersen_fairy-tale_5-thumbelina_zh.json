@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-5-thumbelina",
+  "slug": "hans-christian-andersen-5-thumbelina-zh",
+  "language": "zh",
+  "title": "Thumbelina",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "Once upon a time, a lonely woman who longed for a little child sought counsel from a wise old woman. The old woman gave her a magic barleycorn, saying: \"Plant this in a flowerpot,...",
+  "keywords": [
+    "hans christian andersen",
+    "thumbelina",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "Once upon a time, a lonely woman who longed for a little child sought counsel from a wise old woman. The old woman gave her a magic barleycorn, saying: \"Plant this in a flowerpot, and watch what blossoms.\"\n\nThe woman planted the grain, and immediately a splendid red tulip shot up. Inside the closed petals sat a tiny, delicate maiden, no longer than a person's thumb. She was named Thumbelina. Her cradle was a polished walnut shell, her mattress was blue violet petals, and her counterpane was a fragrant rose leaf.\n\nOne night, an ugly, slimy toad hopped through a broken windowpane and carried off Thumbelina's walnut cradle to the marshy riverbank. \"Croak, croak, brek-ek-kex!\" rasped the old toad, planning to marry the tiny maiden to her clumsy son. They placed Thumbelina on a broad water-lily leaf in the middle of the stream so she could not escape. Thumbelina wept bitter tears of sorrow.\n\nHearing her cries, the little fish swimming beneath the water resolved that so sweet a child must never marry an ugly toad. They nibbled through the green stalk of the water-lily pad, and the leaf floated freely down the sparkling river, carrying Thumbelina away through sunshine and dancing butterflies.\n\nSummer passed happily as Thumbelina lived in the great forest, drinking nectar from clover and sleeping under a broad burdock leaf. But when bitter winter arrived, the green leaves withered, snow fell in heavy flakes, and Thumbelina shivered in the freezing blast.\n\nNumb with cold, she stumbled upon the underground burrow of an old field mouse. The kindly field mouse took pity on the shivering girl: \"Come into my warm room, eat a grain of corn, and tell me stories through the long winter.\"\n\nIn the dark subterranean tunnels lived their neighbor, a wealthy mole dressed in black velvet who despised the sun and flowers. In the passage, Thumbelina discovered a swallow lying motionless, frozen by the sudden frost. The mole kicked the bird contemptuously, but Thumbelina's heart ached with tenderness. That night, she wove a blanket of soft hay, covered the cold swallow, and pressed her cheek against its chest. To her astonishment, she felt a faint, slow heartbeat! The swallow was not dead, only numbed by the bitter chill.\n\nAll winter, Thumbelina secretly tended the bird with warm water and soft moss. When spring's golden sun returned, the swallow revived, thanked his little savior with joyful chirps, and flew up into the open sky.\n\nSoon, the field mouse announced that Thumbelina must marry the blind mole and live forever underground in the sunless earth. Thumbelina wept, begging to step into the daylight one last time to bid farewell to the radiant sun.\n\nSuddenly, she heard a sweet twit-twit overhead. It was her beloved swallow! \"The cruel winter is over,\" sang the bird. \"Climb onto my back, dear Thumbelina, and let me carry you over mountain and sea to sunny southern lands!\"\n\nThumbelina gladly mounted the swallow's feather back. They soared high above snow-capped peaks and azure oceans until they arrived in a paradise of blooming myrtle and marble palaces. The swallow placed Thumbelina upon a white blossom. In the center of the flower sat a tiny prince with a golden crown and translucent wings—the King of the Flower Spirits!\n\nThe prince fell instantly in love with Thumbelina's gentleness, placed his golden crown upon her head, and gave her a pair of delicate wings so she could fly from blossom to blossom in eternal sunshine and joy.",
+  "moral": "Gentleness of heart and kindness to the helpless guide us through dark trials toward true belonging and light.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "Thumbelina illustration from the Hans Christian Andersen collection.",
+  "word_count": 581,
+  "reading_time": "4 min",
+  "listen_time": "5 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"Thumbelina\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Hans Christian Andersen. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "kindness",
+    "courage",
+    "freedom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"Thumbelina\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": 5,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Heritage Anthology"
+}

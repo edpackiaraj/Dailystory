@@ -1,0 +1,129 @@
+{
+  "id": "arabian-nights-163-the-seventh-voyage-of-sindbad",
+  "slug": "an-163-the-seventh-voyage-of-sindbad-hi",
+  "language": "hi",
+  "title": "The Seventh Voyage of Sindbad (हिन्दी)",
+  "genre": "Adventure Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Sindbad concluded his adventures with the seventh and final voyage: [HI]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the seventh voyage of sindbad",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Sindbad concluded his adventures with the seventh and final voyage:\n\n'The Caliph Harun al-Rashid summoned me and requested that I undertake a royal embassy to return gifts to the King of Serendib. I fulfilled the mission with honor, but upon the return voyage, our ship was attacked by corsairs. I was sold into slavery to an ivory merchant in a distant coastal kingdom.\n\nMy master gave me a bow and arrows, placed me in a high tree in the jungle, and commanded me to shoot wild elephants for their ivory tusks.\n\nOne morning, an immense herd of hundreds of elephants surrounded my tree! The largest bull, a colossal beast with tusks of gleaming white, wrapped his trunk around the trunk of the tree, uprooted it with a single heave, and threw it to the ground.\n\nThe great bull lifted me gently in his trunk, placed me upon his broad back, and carried me through the jungle to the summit of a forested hill.\n\nThere, to my absolute amazement, the bull deposited me amidst a vast plain covered with thousands of bleached elephant skeletons and mountains of ancient ivory tusks! The wise beast had shown me the natural cemetery of his ancestors, teaching me: 'Take the ivory of the dead, and cease to slay the living!'\n\nI ran back to my master and revealed the secret graveyard. Overjoyed, the merchant granted me my freedom, shared the ivory treasure with me, and loaded a ship for Baghdad.\n\nI returned home, threw myself before the Caliph, and vowed never to tempt the seas again. I have spent my remaining years in peace, using my treasures to build orphanages, feed the hungry, and welcome travelers like you, O Hindbad!'\n\nHindbad embraced the great sailor, thanked him for the lesson in fortitude, and lived beside him in lifelong friendship.",
+  "moral": "True completion of life's journey arrives when adventure yields to wisdom, peace, and boundless charity. [HI]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Seventh Voyage of Sindbad illustration from the 1001 Arabian Nights collection.",
+  "word_count": 304,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Seventh Voyage of Sindbad\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience",
+    "courage"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Seventh Voyage of Sindbad\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 163,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

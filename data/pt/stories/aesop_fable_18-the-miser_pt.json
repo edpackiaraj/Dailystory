@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-18-the-miser",
+  "slug": "aesops-fables-18-the-miser-pt",
+  "language": "pt",
+  "title": "The Miser",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "An ancient miser sold his houses, his vineyards, and his orchards, converting his entire earthly estate into a single, massive lump of solid gold. Fearing that thieves might rob hi...",
+  "keywords": [
+    "aesop's fables",
+    "the miser",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "An ancient miser sold his houses, his vineyards, and his orchards, converting his entire earthly estate into a single, massive lump of solid gold. Fearing that thieves might rob him or servants cheat him, he carried the golden boulder into a secluded forest clearing and buried it secretly in a deep pit beneath an old willow tree.\n\nEvery afternoon, without fail, the miser walked to the lonely spot. He would dig up the soil with trembling fingers, gaze upon the cold yellow metal with ecstatic devotion, stroke its heavy surface, and bury it once more beneath the earth.\n\nA watchful laborer, noticing the miser's daily pilgrimages and suspicious demeanor, trailed him to the woods. The moment the old man departed, the laborer dug into the loose dirt, unearthed the colossal nugget of gold, and carried it off to enjoy its fortune.\n\nWhen the miser returned the next day and found an empty hole filled with scattered pebbles, he tore his garments, beat his chest, and wept with frantic lamentations that echoed through the hills.\n\nA wise neighbor, hearing the wailing, ran to the clearing and asked what calamity had occurred.\n\n\"My gold! My life's treasure!\" shrieked the miser. \"I buried a giant lump of gold in this very spot, and a vile thief has stolen it away!\"\n\n\"Did you ever spend any of it?\" asked the neighbor. \"Did you buy food, help your family, or purchase warm clothes?\"\n\n\"Never!\" cried the miser in horror. \"I never touched a single grain of it; I came only to look upon it every afternoon!\"\n\nThe neighbor picked up a heavy, jagged river stone, threw it into the pit, and said calmly: \"Cover that stone with earth and come look at it every day! It will serve you precisely as well as your gold, for when you possessed the gold, you made no more use of it than you will of that rock.\"",
+  "moral": "Wealth unused is no better than a common stone; possession without purpose is worthless.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Miser illustration from the Aesop's Fables collection.",
+  "word_count": 319,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Miser\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "practicality",
+    "true-wealth"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Miser\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 18",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

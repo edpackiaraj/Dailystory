@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-76-jaafar-the-barmecide-and-the-bean-seller",
+  "slug": "an-76-jaafar-the-barmecide-and-the-bean-seller-pt",
+  "language": "pt",
+  "title": "Ja'afar the Barmecide and the Bean-Seller (Português)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Ja'afar the Barmecide, Grand Vizier to Caliph Harun al-Rashid, was accustomed to walking through the narrow alleys of Baghdad in simple m... [PT]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "ja'afar the barmecide and the bean-seller",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Ja'afar the Barmecide, Grand Vizier to Caliph Harun al-Rashid, was accustomed to walking through the narrow alleys of Baghdad in simple merchant attire to observe the life of the common people. One chilly winter evening, when the icy north wind blew from the mountains, Ja'afar found himself in a desolate lane near the eastern wall, shivering with cold and having missed his evening meal.\n\nSmelling the savory aroma of cooking, he approached a tiny, lantern-lit stall where an old bean-seller named Abu Salih was ladling hot, steaming fava beans into clay bowls, sprinkling them with ground cumin, coarse salt, and fragrant olive oil.\n\nJa'afar stepped up and searched his pockets, only to discover that he had forgotten his purse at the palace. Embarrassed, the great vizier said: 'Peace be upon you, elder. I am a stranger who has lost his purse; I have not a single copper fals to offer you.'\n\nThe old bean-seller smiled warmly, wrapped his coarse woollen shawl tighter, and replied: 'Enter, brother! Food is a gift from the heavens, not a merchandise to withhold from the hungry.' He handed Ja'afar a steaming bowl heaped with hot beans and two fresh barley flatbreads, saying: 'Eat in peace, and warm your bones.'\n\nJa'afar ate with hearty gratitude, finding the humble meal sweeter than any feast served upon royal gold.\n\nThe next morning, royal horsemen rode into the lane, bearing an imperial decree from the Grand Vizier. Abu Salih was brought to the palace, trembling with fear. But Ja'afar descended from his dais, embraced the bean-seller before all the courtiers, and said: 'Yesterday, you fed the hungry without asking for coin; today, the Barmecide repays your bread with gold.'\n\nJa'afar gifted him a thousand dinars, a comfortable house, and made him the chief provider of grain for the city orphanages, proving that an open heart in a mud stall can outshine the splendor of empires.",
+  "moral": "Generosity from the humble poor carries more spiritual weight than the lavish gifts of kings. [PT]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Ja'afar the Barmecide and the Bean-Seller illustration from the 1001 Arabian Nights collection.",
+  "word_count": 316,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Ja'afar the Barmecide and the Bean-Seller\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Ja'afar the Barmecide and the Bean-Seller\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 76,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

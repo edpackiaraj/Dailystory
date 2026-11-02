@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-12-the-golden-bird",
+  "slug": "grimm-fairy-tales-12-the-golden-bird",
+  "language": "en",
+  "title": "The Golden Bird",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A king possessed a pleasure garden containing a tree that bore golden apples. When the apples ripened, one was found missing each morning....",
+  "keywords": [
+    "grimm fairy tales",
+    "the golden bird",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A king possessed a pleasure garden containing a tree that bore golden apples. When the apples ripened, one was found missing each morning.\n\nThe king set his three sons to keep watch. The two elder princes fell asleep, but the youngest prince kept vigil and saw a bird whose feathers were of solid gold steal an apple. He shot an arrow, knocking loose a golden feather that shone brighter than all the lamps in the palace.\n\nThe king dispatched his sons to capture the miraculous bird.\n\nOn the road, the two elder brothers met a talking fox, who warned them: \"Do not choose the luxurious, noisy inn, but stay at the humble roadside tavern!\" The proud brothers mocked the fox, entered the grand inn, and squandered their money in foolish pleasures.\n\nThe youngest prince met the fox, thanked him for his advice, and stayed in the humble cottage.\n\nThe grateful fox said: \"Sit upon my tail, and I will carry you!\"\n\nWith lightning speed, the fox carried him to a castle where the golden bird sat in a wooden cage beside a golden cage. The fox warned: \"Do not put the bird into the golden cage!\" But the prince yielded to vanity, touched the golden cage, alarms rang, and he was captured.\n\nThe rival king demanded the Golden Horse that ran swifter than the wind as ransom. The fox helped him again, warning: \"Do not use the golden saddle; use the leather saddle!\" The prince forgot the warning, touched the gold saddle, and was caught again.\n\nTo redeem himself, he was sent to bring the Princess of the Golden Palace. The fox guided him, and the prince won the princess's heart through gentle courtesy.\n\nWith the fox's clever counsel, the prince outwitted both kings, carrying off the Golden Bird, the Golden Horse, and the beautiful Princess.\n\nOn the return journey, his two jealous brothers ambushed him, threw him into a deep gorge, and brought the treasures to their father, claiming they had won them. But the horse would not eat, the bird would not sing, and the maiden wept constantly.\n\nThe faithful fox descended into the gorge, rescued the youngest prince, and brought him disguised to the palace.\n\nThe moment the true prince entered the court, the bird sang with celestial joy, the golden horse began to feast, and the princess ran to embrace him with tears of happiness!\n\nThe treacherous brothers were exiled, and the youngest prince married the princess. Finally, at the fox's request, the prince touched the animal with his sword, breaking an ancient enchantment and restoring the fox to his true form as the princess's noble brother! And they reigned in peace and prosperity.",
+  "moral": "Heeding the counsel of the wise and humble guides one past temptation to true victory.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Golden Bird illustration from the Grimm Fairy Tales collection.",
+  "word_count": 448,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Golden Bird\"?",
+      "options": [
+        "True wealth lies in contentment and honesty; greed leads to ruin.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology.",
+  "values": [
+    "obedience",
+    "humility",
+    "loyalty"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Golden Bird\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"True wealth lies in contentment and honesty; greed leads to ruin.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 12,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

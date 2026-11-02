@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-50-the-story-of-a-mother",
+  "slug": "hans-christian-andersen-50-the-story-of-a-mother",
+  "language": "en",
+  "title": "The Story of a Mother",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "A mother sat watching by the cradle of her sick child, her heart heavy with dread. A faint knock sounded at the door, and an old man wrapped in a black horse-cloth entered, shiveri...",
+  "keywords": [
+    "hans christian andersen",
+    "the story of a mother",
+    "moral stories for children",
+    "world folktales and fables",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A mother sat watching by the cradle of her sick child, her heart heavy with dread. A faint knock sounded at the door, and an old man wrapped in a black horse-cloth entered, shivering with cold. It was Death.\n\nWhile the exhausted mother closed her eyes for a single heartbeat, Death seized the child and fled into the freezing night.\n\nThe mother rushed out into the snow, weeping in despair. By the crossroads stood a dark Thorn Bush covered with ice: \"I know which way Death went, but I will not tell you unless you warm me against your bosom!\" The mother embraced the frozen thorns with all her strength; the sharp spikes pierced her breast, and warm drops of her blood fell upon the twigs. Fresh green leaves and fragrant roses burst forth in the snow, and the Bush pointed the way.\n\nShe reached a great, deep Lake that had no boat. The Lake said: \"Weep your eyes into my depths; I collect pearls, and I will carry you across!\" The mother wept with such boundless sorrow that her two eyes fell into the water like precious gems, and the Lake lifted her like a wave to the opposite shore.\n\nThere stood the vast Greenhouse of Death, where millions of living flowers and trees represented the lives of mortals on earth. A withered old woman who guarded the portal said: \"Give me your long black hair, and I will let you in!\" The mother gladly sheared her raven locks, took the old woman's white hair in return, and searched the greenhouse.\n\nListening to the heartbeats of the flowers, she recognized the tiny, fluttering pulse of her child in a little blue crocus.\n\nDeath entered: \"How came you here before me?\"\n\"I am a mother!\" she cried.\n\nDeath showed her two future lives in the water: one radiant with blessing, and the other tormented by incurable agony and crime. \"One of these fates belonged to your child,\" whispered Death gently. \"Would you sentence him to torment?\"\n\nThe mother fell upon her knees, clasped her hands, and bowed her head in sacred reverence: \"Thy will be done, O Lord! Take my child into Thy eternal peace!\" And Death bore the innocent soul upward into the everlasting joy of heaven.",
+  "moral": "A mother's love is stronger than the grave, yet highest faith surrenders all to the divine wisdom of eternity.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Story of a Mother illustration from the Hans Christian Andersen collection.",
+  "word_count": 378,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Story of a Mother\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Hans Christian Andersen anthology.",
+  "values": [
+    "maternal-love",
+    "sacrifice",
+    "faith"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Story of a Mother\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Andersen's tales teach compassion, resilience, and Christian hope\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 50,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Global Treasury"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-57-the-two-pots",
+  "slug": "aesops-fables-57-the-two-pots-pt",
+  "language": "pt",
+  "title": "The Two Pots",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "Two cooking pots—one fashioned of sturdy hammered brass, and the other made of delicate earthen clay—were swept from a kitchen shelf by a sudden flood and floated together down the...",
+  "keywords": [
+    "aesop's fables",
+    "the two pots",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "Two cooking pots—one fashioned of sturdy hammered brass, and the other made of delicate earthen clay—were swept from a kitchen shelf by a sudden flood and floated together down the swollen river.\n\nThe Brass Pot called out cheerfully to his clay companion: \"Fear nothing, neighbor! Float close beside me; I will protect you and keep you safe from the crashing waves!\"\n\nThe wise Earthen Pot paddled backward with all his might and replied:\n\n\"I thank you for your generous goodwill, friend, but I beg you to keep as far from me as possible! If a rock strikes me, I am shattered; but if you strike me in friendship, I am equally shattered to pieces. Whether we meet in battle or in friendly collision, the clay pot must always be the loser!\"",
+  "moral": "The weak must keep a safe distance from the strong; collision brings ruin to the fragile.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Two Pots illustration from the Aesop's Fables collection.",
+  "word_count": 131,
+  "reading_time": "1 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Two Pots\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "prudence",
+    "equality",
+    "caution"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Two Pots\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 57",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-241-ibrahim-and-jamilah",
+  "slug": "arabian-nights-241-ibrahim-and-jamilah",
+  "language": "en",
+  "title": "Ibrahim and Jamilah",
+  "genre": "Love Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Ibrahim, a handsome and virtuous young gentleman of Cairo, saw an exquisitely painted portrait of Jamilah, daughter of the Grand Vizier of Basra, and his heart was stirred by he...",
+  "keywords": [
+    "arabian nights",
+    "ibrahim and jamilah",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Ibrahim, a handsome and virtuous young gentleman of Cairo, saw an exquisitely painted portrait of Jamilah, daughter of the Grand Vizier of Basra, and his heart was stirred by her noble countenance.\n\nTraveling across the deserts to Basra, he opened an art and book emporium near the city gardens. Jamilah, who was celebrated for her poetic learning, visited the shop to examine illuminated manuscripts.\n\nInstead of declaring his passion with intrusive haste, Ibrahim presented her with an exquisite leather-bound volume of his own poetry, in which he had inscribed verses celebrating the beauty of virtue, the harmony of minds, and the sanctity of honorable companionship.\n\nJamilah read the poems with enraptured delight, recognizing a soul of equal refinement and moral elevation.\n\nHowever, her father, intending to form a political alliance, had betrothed her to an arrogant general of the army.\n\nWith the assistance of a kind, venerable physician who recognized their pure devotion, Ibrahim and Jamilah presented their petition directly before the Sultan of Basra. Ibrahim recited a defense of sincere affection and family honor with such brilliant eloquence and poetic majesty that the Sultan was moved to tears.\n\nThe Sultan annulled the forced betrothal, compensated the general with an honorable military post, and celebrated the marriage of Ibrahim and Jamilah amidst thirty days of public festivities, proving that true eloquence and chivalry conquer the proudest barriers.",
+  "moral": "Pure love, sustained by artistic eloquence and courteous chivalry, overcomes the widest distances.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Ibrahim and Jamilah illustration from the Arabian Nights collection.",
+  "word_count": 227,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Ibrahim and Jamilah\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "loyalty",
+    "courage",
+    "art",
+    "chivalry"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Ibrahim and Jamilah\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 241,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

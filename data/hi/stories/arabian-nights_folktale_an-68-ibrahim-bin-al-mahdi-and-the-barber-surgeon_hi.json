@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-68-ibrahim-bin-al-mahdi-and-the-barber-surgeon",
+  "slug": "an-68-ibrahim-bin-al-mahdi-and-the-barber-surgeon-hi",
+  "language": "hi",
+  "title": "Ibrahim bin al-Mahdi and the Barber-Surgeon (हिन्दी)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Prince Ibrahim bin al-Mahdi, uncle of the Caliph Al-Ma'mun, was a man of royal blood and celebrated musical genius. Following a bitter po... [HI]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "ibrahim bin al-mahdi and the barber-surgeon",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Prince Ibrahim bin al-Mahdi, uncle of the Caliph Al-Ma'mun, was a man of royal blood and celebrated musical genius. Following a bitter political rebellion in Baghdad, Ibrahim's faction was defeated, and the Caliph put a reward of one hundred thousand gold dinars upon his uncle’s head, dead or alive.\n\nDisguised in a tattered woollen mantle, Prince Ibrahim wandered the alleys of Baghdad, pursued by royal guards. Exhausted and desperate, he slipped into a modest mud-brick house and threw himself before the master, an impoverished barber-surgeon named Abu Ahmad.\n\n'I am a man fleeing for my life,' gasped Ibrahim. 'If the guards find me, I perish. Protect me for the sake of ancient honor!'\n\nAbu Ahmad asked no questions. He hid the prince in his small attic, shared his meager supper of lentils and bread, and tended his blistered feet with soothing oils.\n\nThe next morning, the town crier passed the window, proclaiming the reward of one hundred thousand dinars for Ibrahim’s capture. The barber turned to his guest with tears in his eyes: 'My lord, I recognized your noble voice last night from the days when you sang at the palace. You are worth a king's ransom, but under Abu Ahmad’s roof, a guest is worth all the gold in creation. Stay here until the storm passes.'\n\nFor three weeks, the poor barber shared his crust of bread with the royal prince. When peace was restored and the Caliph Al-Ma'mun proclaimed a universal amnesty, Ibrahim walked boldly into the imperial palace. The Caliph, moved by his uncle's poetic plea, embraced him and granted full pardon.\n\nIbrahim then stepped forward and said: 'Sire, I ask one favor: summon Abu Ahmad the barber.' Before the entire court, Ibrahim recounted the barber's heroic fidelity. The Caliph appointed Abu Ahmad chief physician of the royal hospital, granted him a palace on the Tigris, and decreed that true nobility is found not in crowns, but in the faithful heart of an honest man.",
+  "moral": "Loyalty, hospitality to a fugitive in peril, and honorable gratitude create friendships that outlive empires. [HI]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Ibrahim bin al-Mahdi and the Barber-Surgeon illustration from the 1001 Arabian Nights collection.",
+  "word_count": 328,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Ibrahim bin al-Mahdi and the Barber-Surgeon\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Ibrahim bin al-Mahdi and the Barber-Surgeon\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 68,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

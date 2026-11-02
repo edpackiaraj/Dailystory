@@ -1,0 +1,127 @@
+{
+  "id": "akbar-birbal-79-the-lost-book",
+  "slug": "akbar-birbal-79-the-lost-book-pt",
+  "language": "pt",
+  "title": "The Lost Book (Português)",
+  "genre": "Humorous Tales",
+  "collection": "Akbar–Birbal",
+  "culture_region": "India",
+  "age_group": "Below 13",
+  "summary": "A fire destroys the imperial archive, burning a rare treatise on philosophy. Birbal comforts Akbar by demonstrating the permanence of internalized wisdom. [PT]",
+  "keywords": [
+    "akbar–birbal",
+    "the lost book",
+    "moral stories for children",
+    "world folktales and fables",
+    "akbar-birbal"
+  ],
+  "tags": [
+    "akbar-birbal",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A sudden fire in the library wing of the Agra palace destroyed dozens of precious illuminated manuscripts. Emperor Akbar was inconsolable over the loss of a unique, centuries-old Persian treatise on ethics and statecraft, which had been copied by master calligraphers and bound in gold leather.\n\nWeeping with grief, Akbar said to Birbal: 'The greatest wisdom of the ancients is lost forever to the flames! Those words can never be replaced! The soul of our library has turned to ash!'\n\nBirbal sat quietly beside the grieving monarch and said in a gentle, reassuring voice:\n\n'Sire, fire has consumed only dried sheepskin, ink, and gold leaf. It has not burned a single grain of true wisdom.'\n\nAkbar looked up, bewildered: 'How can you say that? The only copy in Hindustan was destroyed!'\n\nBirbal explained:\n\n'Your Majesty, a book is merely a wooden box that carries the fruit of knowledge. If a man reads a book and merely leaves the words on the shelf, the knowledge perishes when the paper burns.\n\n'But if a ruler reads those words, reflects upon them in his heart, and practices justice, mercy, and compassion in his daily rule, then the book has migrated from the dead page into the living soul of the monarch!\n\n'Can any fire burn the kindness you showed to the starving peasant yesterday? Can any ash erase the fair judgments you delivered from your throne? The words of that ancient author live on in your actions. As long as you practice righteousness, the book is alive in Hindustan!'\n\nAkbar's heart found immediate comfort. Inspired by Birbal's words, the Emperor commissioned new scholars to compose fresh treatises based on living experience, realizing that wisdom's true temple is the human heart.",
+  "moral": "Lição de moral: Wit beats power",
+  "image": "/images/stories/akbar-birbal.webp",
+  "image_alt": "The Lost Book illustration from the Akbar–Birbal collection.",
+  "word_count": 287,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Lost Book\"?",
+      "options": [
+        "Wit beats power",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional Court Folklore of Akbar and Birbal",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Akbar–Birbal anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Lost Book\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wit beats power\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 79,
+  "reviewed": true,
+  "source": "Akbar-Birbal folklore - Mughal India 16th century - public domain oral tradition",
+  "license": "Public Domain",
+  "credit": "Akbar–Birbal Global Treasury"
+}

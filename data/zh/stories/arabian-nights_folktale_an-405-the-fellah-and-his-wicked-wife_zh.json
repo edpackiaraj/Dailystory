@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-405-the-fellah-and-his-wicked-wife",
+  "slug": "an-405-the-fellah-and-his-wicked-wife-zh",
+  "language": "zh",
+  "title": "The Fellah and His Wicked Wife (简体中文)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In a quiet village along the Nile lived an honest, hardworking fellah (farmer) named Mas'ud. While plowing his master's field one morning... [ZH]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the fellah and his wicked wife",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In a quiet village along the Nile lived an honest, hardworking fellah (farmer) named Mas'ud. While plowing his master's field one morning, his plowshare struck a buried earthenware pot filled with ancient Roman gold coins.\n\nBeing a man of absolute integrity, Mas'ud did not steal the gold. He carried it straight to the village headman, saying:\n'This gold was found in the field of our neighbor, Sheikh Omar; it belongs to him according to law.'\n\nHowever, Mas'ud's wife, a greedy and discontented woman named Bahija, was furious with him:\n'Fool! Thou hadst enough gold to buy ten houses, and thou gavest it away to a rich sheikh! I will have my share, or I will ruin thee!'\n\nThat night, Bahija slipped into the headman's granary, stole the pot of gold, hid it in a dry well behind their barn, and substituted a pot filled with dead hornets.\nThe next morning, she went before the village magistrate, falsely accusing her husband of hiding the real treasure:\n'My husband is a liar! He gave you hornets and kept the gold for himself!'\n\nThe magistrate, accompanied by the village elders, went to the granary and opened the pot. To Bahija's horror, when the lid was removed, a swarm of stinging hornets flew out, attacking only Bahija, stinging her face and arms until she shrieked and leaped into the irrigation ditch!\n\nMeanwhile, sheep dogs digging near the dry well unearthed the stolen pot of gold.\nThe magistrate examined the evidence: Mas'ud's honest hands, Bahija's deceit, and the recovered coins.\nSheikh Omar, touched by Mas'ud's steadfast integrity throughout the ordeal, rewarded the honest fellah with half the treasure, a permanent title to five acres of fertile land, and cattle.\n\nBahija, disgraced by her own malicious deceit, was banished from the village councils, while Mas'ud lived in prosperous peace, celebrated by all the peasants as a shining example of unbending honesty.",
+  "moral": "Contentment and honesty preserve a home, while deceitful greed brings ruin upon the treacherous. [ZH]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Fellah and His Wicked Wife illustration from the 1001 Arabian Nights collection.",
+  "word_count": 315,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Fellah and His Wicked Wife\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Fellah and His Wicked Wife\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 405,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

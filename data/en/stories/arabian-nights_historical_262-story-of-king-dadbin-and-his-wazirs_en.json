@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-262-story-of-king-dadbin-and-his-wazirs",
+  "slug": "arabian-nights-262-story-of-king-dadbin-and-his-wazirs",
+  "language": "en",
+  "title": "King Dadbin and His Two Wazirs",
+  "genre": "Historical Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Bakhtiyar related the story of King Dadbin of ancient Persia:",
+  "keywords": [
+    "arabian nights",
+    "story of king dadbin and his wazirs",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Bakhtiyar related the story of King Dadbin of ancient Persia:\n\n'King Dadbin had two ministers: the first was Kardan, an unprincipled courtier who used his office to amass gold, sell justice to the wealthy, and flatter the king’s vanity; the second was Rast-Rushan, an upright statesman whose name meant \"Righteous Light,\" who spent his energy building public granaries, protecting the peasantry, and refusing all bribes.\n\nKardan, envious of Rast-Rushan’s spotless reputation, forged letters to convince the king that Rast-Rushan was secretly plotting with foreign enemies.\n\nKing Dadbin, desiring to discover the truth himself, donned the disguise of a common dervish and spent a month wandering through the provinces of his empire.\n\nWherever he went, the farmers, merchants, and scholars cursed the name of Kardan, recounting his extortions and cruelties; while everywhere, the people blessed Rast-Rushan with tears of gratitude, showing the schools, irrigation canals, and fair markets he had established!\n\nThe king returned to his capital, cast off his disguise, and held a public tribunal.\n\nHe confronted Kardan with the evidence of his extortions, stripped him of his robes, and banished him to the salt mines; while Rast-Rushan was appointed Grand Vizier with supreme authority over the empire.\n\nKing Dadbin proclaimed: \"The flatterer brought me letters of false praise, but the people’s bread testified to the truth! Righteousness is the only foundation that sustains the state.\"'",
+  "moral": "Integrity that serves the public good outlasts the deceitful conspiracies of corrupt ministers.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Story of King Dadbin and His Wazirs illustration from the Arabian Nights collection.",
+  "word_count": 226,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Story of King Dadbin and His Wazirs\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "integrity",
+    "justice",
+    "public-service",
+    "truth"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Story of King Dadbin and His Wazirs\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 262,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

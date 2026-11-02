@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-301-tale-of-the-devotee-wrongly-accused",
+  "slug": "an-301-tale-of-the-devotee-wrongly-accused-es",
+  "language": "es",
+  "title": "Tale of the Devotee Wrongly Accused (Español)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "An elderly hermit who had spent forty years tending a mountain shrine in Syria was framed by a corrupt tax-collector who had stolen a jew... [ES]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of the devotee wrongly accused",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "An elderly hermit who had spent forty years tending a mountain shrine in Syria was framed by a corrupt tax-collector who had stolen a jeweled gold chalice from the municipal sanctuary. The tax-collector hid the chalice in the hermit’s cave, brought the guards, and accused the saintly elder of theft!\n\nThe mob gathered, ready to stone the hermit.\n\nThe old man stood with serene composure, looking at his accuser: 'If I am guilty, let the earth swallow me; but if I am innocent, let the chalice itself speak before this assembly!'\n\nAt that moment, the governor’s young son, who was playing with a hunting falcon nearby, stepped forward. The boy testified: 'Yesterday at sunset, while searching for my falcon, I saw this tax-collector climb the mountain path carrying a heavy sack under his cloak and enter the cave alone!'\n\nThe guards searched the tax-collector’s mule-bags and discovered the melted silver and jewels of other plundered shrines!\n\nThe corrupt official fell to his knees in terror, confessing his conspiracy.\n\nThe governor exonerated the saintly hermit with royal honors, punished the corrupt official, and rebuilt the mountain shrine, proving that an innocent life lived in truth is guarded by providence.",
+  "moral": "Divine truth protects the innocent, and false accusations are dissolved by the light of evidence. [ES]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the Devotee Wrongly Accused illustration from the 1001 Arabian Nights collection.",
+  "word_count": 198,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of the Devotee Wrongly Accused\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Spanish readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of the Devotee Wrongly Accused\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 301,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

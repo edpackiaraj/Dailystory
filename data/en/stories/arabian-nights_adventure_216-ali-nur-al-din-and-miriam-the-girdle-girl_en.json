@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-216-ali-nur-al-din-and-miriam-the-girdle-girl",
+  "slug": "arabian-nights-216-ali-nur-al-din-and-miriam-the-girdle-girl",
+  "language": "en",
+  "title": "Ali Nur al-Din and Miriam the Girdle-Girl",
+  "genre": "Adventure Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Ali Nur al-Din, an affluent young merchant of Cairo, was ruined by dishonest partners and reduced to sailing aboard an Alexandrian merchant vessel. In a foreign port, he met Mir...",
+  "keywords": [
+    "arabian nights",
+    "ali nur al-din and miriam the girdle-girl",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Ali Nur al-Din, an affluent young merchant of Cairo, was ruined by dishonest partners and reduced to sailing aboard an Alexandrian merchant vessel. In a foreign port, he met Miriam, a brilliant maiden who had been captured by pirates, renowned for her extraordinary skill in embroidery, navigation, and mathematics.\n\nRecognizing each other’s noble character, they escaped their oppressors aboard a swift caravel, with Miriam serving as the navigator, reading the stars and charting courses with masterly skill.\n\nWhen foreign corsairs pursued their ship across the Mediterranean, Miriam and Ali worked as a united team: while Ali commanded the defense at the prow, Miriam steered the vessel through dangerous rocky shoals where the heavier pirate ships ran aground!\n\nReaching the friendly port of Alexandria, they established a grand maritime emporium, using Miriam’s nautical charts and Ali’s commercial honesty to build a thriving merchant fleet that connected Egypt, Syria, and Andalusia in peaceful trade.\n\nTheir union became a celebrated legend of maritime partnership, demonstrating that mutual courage, intellect, and teamwork are more powerful than all the fleets of tyrants.",
+  "moral": "Courageous resourcefulness, nautical skill, and mutual fidelity triumph over foreign captivity.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Ali Nur al-Din and Miriam the Girdle-Girl illustration from the Arabian Nights collection.",
+  "word_count": 177,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Ali Nur al-Din and Miriam the Girdle-Girl\"?",
+      "options": [
+        "Loyal friendship and mutual trust overcome the greatest hardships.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "courage",
+    "resourcefulness",
+    "fidelity",
+    "teamwork"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Ali Nur al-Din and Miriam the Girdle-Girl\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Loyal friendship and mutual trust overcome the greatest hardships.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 216,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

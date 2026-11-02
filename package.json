@@ -6,12 +6,13 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "node scripts/neutralize-deities.mjs && node scripts/generate-sitemaps.mjs && astro build",
-    "build:astro": "astro build",
+    "build": "node scripts/build-all.mjs",
+    "build:astro": "node scripts/build-astro.mjs",
     "preview": "astro preview",
     "neutralize": "node scripts/neutralize-deities.mjs",
     "translate": "node scripts/translate-pipeline.mjs",
-    "sitemap": "node scripts/generate-sitemaps.mjs"
+    "sitemap": "node scripts/generate-sitemaps.mjs",
+    "export:stories": "node scripts/export-individual-stories.mjs"
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.1.4",

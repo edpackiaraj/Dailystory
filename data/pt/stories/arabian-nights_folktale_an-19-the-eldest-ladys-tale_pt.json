@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-19-the-eldest-ladys-tale",
+  "slug": "an-19-the-eldest-ladys-tale-pt",
+  "language": "pt",
+  "title": "The Eldest Lady's Tale (Português)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Now it was the turn of the mistress of the mansion, the noble lady Zubaida, to explain the mystery of her home and why she wept over two ... [PT]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the eldest lady's tale",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Now it was the turn of the mistress of the mansion, the noble lady Zubaida, to explain the mystery of her home and why she wept over two black hounds every evening.\n\n\"Know, O noble assembly,\" said Zubaida, \"that these two black bitches are my own half-sisters. When our father died, leaving us an equal inheritance, my sisters married profligate men who squandered their portions and abandoned them. Twice they returned to me in rags, and twice I clothed them, opened my purse, and shared my wealth without a single word of reproach.\n\nDesiring to increase our fortunes, we purchased a merchant vessel and sailed for distant ports. After weeks of fair winds, we anchored off the coast of a magnificent city whose towers gleamed like silver. But when I went ashore, a chilling sight met my eyes: every inhabitant—the guards at the gate, the merchants in the bazaar, the judges upon their benches, and the king upon his throne—had been turned into solid black stone!\n\nAs I explored the silent palaces, I heard a sweet voice reciting verses of devotion. Entering an inner sanctuary, I found the young prince of the city, alive and radiant. He revealed that an ancient curse had petrified his idolatrous people, while he had been preserved because of his adherence to the path of righteousness. We fell deeply in love, and he agreed to sail back with me to Baghdad to become my husband.\n\nWhen we boarded the ship, my sisters beheld his beauty, royalty, and our shared happiness. Green envy seized their hearts. One stormy night, while the prince and I slept on the deck, my sisters hurled us into the raging waves. The noble prince sank into the deep, but I was cast upon an island. A winged serpent appeared, pursued by a monstrous dragon. I seized a rock and crushed the dragon's head. The serpent transformed into a lovely fairy who, in gratitude for saving her life, carried me back to Baghdad and transformed my treacherous sisters into these two black hounds, bidding me whip them lightly each night as a reminder of their crime, yet care for them with food and shelter.\n\nThough they sought my death, I cannot banish them from my heart. I weep over their transformation and pray daily that the fairy may restore them to human form.\"",
+  "moral": "Mercy and compassion toward those who wronged us prove that true nobility cannot be conquered by cruelty. [PT]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Eldest Lady's Tale illustration from the 1001 Arabian Nights collection.",
+  "word_count": 391,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Eldest Lady's Tale\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Eldest Lady's Tale\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 19,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

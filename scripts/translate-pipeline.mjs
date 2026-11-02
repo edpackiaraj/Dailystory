@@ -5,7 +5,9 @@ const rootDir = process.cwd();
 const dataDir = path.resolve(rootDir, 'data');
 const brandConfig = JSON.parse(fs.readFileSync(path.resolve(rootDir, 'config', 'brand.json'), 'utf8'));
 
-const enStoriesPath = path.resolve(dataDir, 'en', 'stories.json');
+const enStoriesLangPath = path.resolve(dataDir, 'en', 'stories-en.json');
+const enStoriesLegacyPath = path.resolve(dataDir, 'en', 'stories.json');
+const enStoriesPath = fs.existsSync(enStoriesLangPath) ? enStoriesLangPath : enStoriesLegacyPath;
 if (!fs.existsSync(enStoriesPath)) {
   console.log('No base English stories found to translate.');
   process.exit(1);
@@ -240,7 +242,9 @@ for (const lang of targetLangs) {
     fs.mkdirSync(langDir, { recursive: true });
   }
 
-  const langStoriesPath = path.resolve(langDir, 'stories.json');
+  const langStoriesFilePath = path.resolve(langDir, `stories-${lang}.json`);
+  const legacyStoriesFilePath = path.resolve(langDir, 'stories.json');
+  const langStoriesPath = fs.existsSync(langStoriesFilePath) ? langStoriesFilePath : (fs.existsSync(legacyStoriesFilePath) ? legacyStoriesFilePath : langStoriesFilePath);
   let existingStories = [];
   if (fs.existsSync(langStoriesPath)) {
     try {
@@ -288,7 +292,7 @@ for (const lang of targetLangs) {
   }
 
   fs.writeFileSync(langStoriesPath, JSON.stringify(translatedStories, null, 2), 'utf8');
-  console.log(`[Translate Pipeline] Successfully saved ${translatedStories.length} stories to data/${lang}/stories.json!`);
+  console.log(`[Translate Pipeline] Successfully saved ${translatedStories.length} stories to data/${lang}/stories-${lang}.json!`);
 }
 
 console.log('\n=== All 10 Language Catalogs Successfully Synchronized! ===');

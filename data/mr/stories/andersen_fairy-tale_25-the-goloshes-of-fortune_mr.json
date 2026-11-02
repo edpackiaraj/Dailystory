@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-25-the-goloshes-of-fortune",
+  "slug": "hans-christian-andersen-25-the-goloshes-of-fortune-mr",
+  "language": "mr",
+  "title": "The Goloshes of Fortune",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "In a grand house in Copenhagen, two fairies attended a lively evening party. One was the fairy of Fortune, and the other was Care's handmaiden. The fairy of Fortune brought a pair...",
+  "keywords": [
+    "hans christian andersen",
+    "the goloshes of fortune",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "In a grand house in Copenhagen, two fairies attended a lively evening party. One was the fairy of Fortune, and the other was Care's handmaiden. The fairy of Fortune brought a pair of magical goloshes (overshoes): \"Whoever puts on these overshoes will instantly find his wish granted, transported to whatever place, station, or era he desires!\"\n\nCare's handmaiden smiled sadly: \"He will find only misery, for mortals know not what they truly need.\"\n\nThe magical goloshes were left in the hallway. A young legal clerk, leaving the party in the rain, mistakenly put on the goloshes. Yearning for the romantic chivalry of the Middle Ages, he stepped out and wished: \"Oh, if only I lived in the glorious age of King Hans!\"\n\nPresto! He plunged knee-deep into deep, foul medieval mud! The gas lamps disappeared; pitch darkness engulfed the unpaved streets; ruffians brandished crude halberds, and when he tried to speak, no one could understand his modern Danish. Terrified, he scrambled back to the present day, kicking off the dreadful shoes in horror.\n\nNext, a night watchman found the goloshes. Gazing at the sparkling stars, he wished he were a lieutenant, only to find himself instantly burdened with mountain-high military debts and dueling quarrels! Then he wished he were soaring among the moonlit craters, and found himself freezing in airless void.\n\nA romantic poet wore them, wishing to be a skylark; but as a bird, he was promptly snared in a net, caged, and pecked by jealous canaries.\n\nFinally, a tired young student put them on. Exhausted by examination anxieties and worldly disappointments, he sighed: \"Oh, how peaceful must be the dead who sleep beneath the turf!\"\n\nInstantly, his heart ceased to beat; he lay cold and still in a church coffin, mourned by his mother. But the fairies returned, pulled the fateful goloshes from the youth's feet, and his breath returned. He sat up, embraced the light of day with tears of gratitude, and resolved never again to curse the precious gift of living life.",
+  "moral": "Unreflective wishes for different times or stations bring only sorrow; true peace lies in accepting one's own life.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Goloshes of Fortune illustration from the Hans Christian Andersen collection.",
+  "word_count": 336,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Goloshes of Fortune\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Hans Christian Andersen. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "contentment",
+    "perspective",
+    "wisdom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Goloshes of Fortune\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": 25,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Heritage Anthology"
+}

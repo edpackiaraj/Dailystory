@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-23-the-queen-bee",
+  "slug": "grimm-fairy-tales-23-the-queen-bee-mr",
+  "language": "mr",
+  "title": "The Queen Bee",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "Two elder princes went seeking adventure and fell into reckless, idle living. Their youngest brother, whom they called Simpleton (Dummling), went to bring them home....",
+  "keywords": [
+    "grimm fairy tales",
+    "the queen bee",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Two elder princes went seeking adventure and fell into reckless, idle living. Their youngest brother, whom they called Simpleton (Dummling), went to bring them home.\n\nAlong the road, the elder brothers wanted to destroy an anthill, kill ducks on a pond, and smoke out a beehive. Dummling stood before them each time: \"Leave them in peace; I will not suffer you to torment them!\"\n\nThey arrived at an enchanted castle where all inhabitants were turned to stone. To break the spell, three tasks had to be solved:\n\nFirst, collect a thousand pearls of the princess scattered under the moss in the forest; the grateful ants gathered every single pearl before sunset!\n\nSecond, fetch the key to the princess's bedchamber from the deep lake; the grateful ducks dove down and brought the key from the mud!\n\nThird, identify the youngest and sweetest of the three sleeping princesses, whose lips looked identical; the grateful Queen Bee flew in and tasted the honey upon the lips of the true maiden!\n\nThe spell broke instantly: the castle awakened, and Dummling married the youngest princess, while his reformed brothers married her sisters, reigning in peace and gratitude.",
+  "moral": "Kindness to the small and defenseless is rewarded with victory when the great tasks arrive.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Queen Bee illustration from the Grimm Fairy Tales collection.",
+  "word_count": 192,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Queen Bee\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "compassion",
+    "reverence-for-nature",
+    "humility"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Queen Bee\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 23,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

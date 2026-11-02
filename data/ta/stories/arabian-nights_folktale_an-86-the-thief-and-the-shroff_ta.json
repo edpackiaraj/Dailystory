@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-86-the-thief-and-the-shroff",
+  "slug": "an-86-the-thief-and-the-shroff-ta",
+  "language": "ta",
+  "title": "The Thief and the Shroff (தமிழ்)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "A wealthy shroff—a currency banker—sat in his counting-house in the bazaar of Baghdad, weighing gold coins upon a brass balance and stori... [TA]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the thief and the shroff",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "A wealthy shroff—a currency banker—sat in his counting-house in the bazaar of Baghdad, weighing gold coins upon a brass balance and storing them in heavy leather bags. A nimble thief, having observed the banker’s movements for days, crept behind the wicker screen, waited until the shroff turned his back to consult a ledger, and swiftly snatched a heavy bag containing five hundred gold dinars.\n\nHowever, as the thief backed away, the metal coins clinked against the screen. The shroff turned his head, saw the bag missing, and noticed the shadow behind the curtain.\n\nInstead of shouting for the city watch or drawing his dagger, the wise banker spoke with gentle courtesy: 'Welcome, honored guest! It is unseemly that a visitor should depart from my counting-house without sharing a cup of sherbet and tasting my almonds.'\n\nThe trapped thief stood frozen in terror, clutching the heavy purse behind his back, expecting the guards to rush in with chains.\n\nThe shroff walked to the curtain, took the thief gently by the hand, led him to a comfortable cushioned seat, and poured him a goblet of iced rosewater.\n\n'Brother,' said the banker softly, 'I noticed that you took my bag of five hundred dinars. Only a man driven by desperate hardship would risk his freedom in broad daylight. Tell me: what bitter sorrow brought you to this deed?'\n\nTears welled in the thief’s eyes, and he fell to his knees: 'My lord, my debts have overwhelmed me; my house is to be seized tomorrow, and my mother is dying without medicine. In my despair, I resolved to become a thief.'\n\nThe shroff placed his hand upon the young man's shoulder: 'Take these five hundred dinars, not as stolen loot, but as an honorable loan from my business. Go, heal your mother, pay your creditors, and when you have prospered in honest trade, return the sum to my balance.'\n\nOverwhelmed by such saintly mercy, the youth wept, kissed the banker's hands, and renounced crime forever. Five years later, he returned to the counting-house, repaid every dinar with interest, and became the banker's most trusted partner.",
+  "moral": "Generosity and gentle tact can turn a criminal toward repentance faster than chains and the whip. [TA]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Thief and the Shroff illustration from the 1001 Arabian Nights collection.",
+  "word_count": 351,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Thief and the Shroff\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Thief and the Shroff\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 86,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

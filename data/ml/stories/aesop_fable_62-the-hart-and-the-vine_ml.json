@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-62-the-hart-and-the-vine",
+  "slug": "aesops-fables-62-the-hart-and-the-vine-ml",
+  "language": "ml",
+  "title": "The Hart and the Vine",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A noble hart, pursued closely by hunters and baying hounds, plunged into a vineyard and concealed himself beneath the dense, broad leaves of an ancient grapevine. The hunters rode...",
+  "keywords": [
+    "aesop's fables",
+    "the hart and the vine",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "A noble hart, pursued closely by hunters and baying hounds, plunged into a vineyard and concealed himself beneath the dense, broad leaves of an ancient grapevine. The hunters rode past the arbor without noticing him, and the danger receded into the distance.\n\nFeeling safe and hungry, the foolish hart began to nibble and strip the very vine leaves that had sheltered him from death.\n\nThe rustling of the stripped foliage and the snapping of branches caught the ears of the returning hunters. Turning around, they saw the tips of his antlers through the ruined canopy. An arrow was notched, and the hart was pierced to the heart.\n\nDying upon the soil, he groaned in bitter regret: \"I suffer justice! I should have cherished the vine that preserved my life, rather than destroying my savior for a mouthful of green food.\"",
+  "moral": "He who destroys the shelter that saved him pays for his ingratitude with his life.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Hart and the Vine illustration from the Aesop's Fables collection.",
+  "word_count": 140,
+  "reading_time": "1 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Hart and the Vine\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "gratitude",
+    "loyalty",
+    "consequences"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Hart and the Vine\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 62",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

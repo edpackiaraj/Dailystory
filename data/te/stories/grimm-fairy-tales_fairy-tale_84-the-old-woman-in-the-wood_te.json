@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-84-the-old-woman-in-the-wood",
+  "slug": "grimm-fairy-tales-84-the-old-woman-in-the-wood-te",
+  "language": "te",
+  "title": "The Old Woman in the Wood",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A poor servant girl lost in the forest was guided by a white dove to a tree with golden keys. She unlocked rooms of food, clothing, and beds....",
+  "keywords": [
+    "grimm fairy tales",
+    "the old woman in the wood",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A poor servant girl lost in the forest was guided by a white dove to a tree with golden keys. She unlocked rooms of food, clothing, and beds.\n\nSent into a witch's cottage, she seized a plain ring among glittering jewels.\n\nThe witch attacked, but the maiden held the ring; the trees turned into knights, the white dove transformed into a royal prince, and they married in joy.",
+  "moral": "A gentle heart guided by a white dove finds freedom through trials.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Old Woman in the Wood illustration from the Grimm Fairy Tales collection.",
+  "word_count": 68,
+  "reading_time": "1 min",
+  "listen_time": "1 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Old Woman in the Wood\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Telugu readers, safe for schools and family bedtime).",
+  "values": [
+    "compassion",
+    "innocence",
+    "deliverance"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Old Woman in the Wood\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 84,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

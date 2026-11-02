@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-8-the-goose-that-laid-the-golden-eggs",
+  "slug": "aesops-fables-8-the-goose-that-laid-the-golden-eggs",
+  "language": "en",
+  "title": "The Goose That Laid the Golden Eggs",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A humble peasant and his wife lived in a modest cottage on the outskirts of town, subsisting on the meager vegetables grown in their garden and the milk of a solitary goat. One mor...",
+  "keywords": [
+    "aesop's fables",
+    "the goose that laid the golden eggs",
+    "moral stories for children",
+    "world folktales and fables",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A humble peasant and his wife lived in a modest cottage on the outskirts of town, subsisting on the meager vegetables grown in their garden and the milk of a solitary goat. One morning, the peasant walked into the poultry shed to gather eggs and noticed an extraordinary gleam beneath an old gray goose.\n\nReaching into the straw, he pulled out an egg that felt astonishingly heavy. When he wiped away the dust, the egg shone with the warm, brilliant luster of solid gold! Trembling with disbelief, he carried it to a goldsmith in the town, who weighed it and handed him a bag of silver coins, confirming it was pure, unalloyed gold.\n\nEvery morning thereafter, the miraculous goose laid another solid golden egg. The peasant and his wife quickly sold the eggs, bought fine velvet garments, built a luxurious manor house, and hired servants to attend their every whim.\n\nYet as their wealth expanded, an insatiable greed took root in their hearts. They grew impatient with receiving only one golden egg each morning. \"Why should we wait day after day for a single egg?\" whispered the greedy wife over dinner. \"Inside that bird there must surely be a vast mountain of pure gold! If we cut her open, we can seize the entire treasury all at once and become richer than the king before nightfall!\"\n\nBlinded by covetousness, the peasant seized a heavy carving knife and slaughtered the miraculous goose. But when he cut the bird open, to his utter horror, her internal organs were identical in every way to those of an ordinary farmyard fowl! There was no hidden store of gold within.\n\nThe foolish couple fell to their knees in weeping despair. In their blind greed to possess everything at once, they had slain the gentle creature that provided their fortune, leaving themselves with only regret and the bitter memory of what they had squandered.",
+  "moral": "Greed that seeks all at once destroys the very source of steady prosperity.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Goose That Laid the Golden Eggs illustration from the Aesop's Fables collection.",
+  "word_count": 318,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Goose That Laid the Golden Eggs\"?",
+      "options": [
+        "Those who have plenty want more and so lose all they have.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Aesop's Fables anthology.",
+  "values": [
+    "contentment",
+    "gratitude",
+    "moderation"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Goose That Laid the Golden Eggs\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Those who have plenty want more and so lose all they have.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": "Perry 87",
+  "reviewed": true,
+  "source": "Aesop - Townsend translation 1867 Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Global Treasury"
+}

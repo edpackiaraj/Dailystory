@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-380-history-of-the-third-larrikin",
+  "slug": "arabian-nights-380-history-of-the-third-larrikin",
+  "language": "en",
+  "title": "History of the Clever Youth and the Miserly Baker",
+  "genre": "Humorous Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "During a dry summer in Damascus when wheat was scarce, a wealthy baker named Kasim locked three large storage bins of flour in his cellar, refusing to bake until bread prices do...",
+  "keywords": [
+    "arabian nights",
+    "history of the third larrikin",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "During a dry summer in Damascus when wheat was scarce, a wealthy baker named Kasim locked three large storage bins of flour in his cellar, refusing to bake until bread prices doubled in the bazaar. Poor mothers stood weeping outside his shuttered shop while he claimed he had no flour left.\n\nA resourceful young apprentice named Bilal resolved to break the artificial famine.\nHe knew that Kasim was pathologically fearful of rats eating his hoarded grain. Bilal bought a large clay pot containing twenty fat, noisy crickets, walked to Kasim's back cellar window at night, and emptied the crickets through the iron grate into the dark flour bins.\n\nThe crickets began chirping loudly, scratching frantically against the wooden partitions and dry wheat husks.\nInside his house, Kasim heard the rhythmic scratching and rustling. He panicked:\n'Heavens! Thousands of giant granary rats have invaded my flour! If they soil the grain, my entire fortune is lost!'\n\nKasim rushed into the street in his nightshirt, shouting:\n'Help! Porters, neighbors! My granary is overrun by ravenous rats! I will sell every sack of flour for half-price right now to anyone who carries it away before morning!'\n\nBilal, waiting in the lane with fifty townspeople and porters, cheered:\n'We are ready, Master Baker!'\nThe townsfolk carried out every single sack of flour, paying Kasim half-price in cash. When the bins were emptied, they found not a single rat, only twenty harmless chirping crickets!\n\nKasim realized he had been completely outwitted, but with his sacks sold and the cash in hand, he could not retract the sale.\nThe bread was baked, the prices returned to normal, and the children of Damascus were fed, proving that compassionate wit can defeat cold-hearted avarice.",
+  "moral": "Hoarding food during famine to artificially inflate prices is a grave sin that invites swift, poetic retribution.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "History of the Third Larrikin illustration from the Arabian Nights collection.",
+  "word_count": 286,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"History of the Third Larrikin\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "compassion",
+    "charity",
+    "justice",
+    "resourcefulness"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"History of the Third Larrikin\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 380,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

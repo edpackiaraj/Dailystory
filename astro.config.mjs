@@ -5,7 +5,10 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   output: 'static',
   site: 'https://dhinamorukathai.pages.dev',
-  trailingSlash: 'always',
+  trailingSlash: 'ignore',
+  build: {
+    format: 'file',
+  },
   integrations: [
     tailwind({
       applyBaseStyles: true,

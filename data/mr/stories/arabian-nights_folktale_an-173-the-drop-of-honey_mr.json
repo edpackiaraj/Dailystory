@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-173-the-drop-of-honey",
+  "slug": "an-173-the-drop-of-honey-mr",
+  "language": "mr",
+  "title": "The Drop of Honey (मराठी)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In a bustling marketplace of Baghdad, a confectioner was filling a clay jar with golden wild honey. Through a moment of careless haste, a... [MR]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the drop of honey",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In a bustling marketplace of Baghdad, a confectioner was filling a clay jar with golden wild honey. Through a moment of careless haste, a single sweet drop of honey dripped from his wooden ladle onto the doorstep.\n\nA green fly smelled the sweetness and landed on the drop to feed.\n\nA lizard darted out from a crack in the brick wall and snatched the fly with its tongue.\n\nThe confectioner’s pet cat leaped from the counter and pounced upon the lizard, crushing it beneath its claws.\n\nAt that moment, the neighbor’s hunting hound saw the cat, surged forward with a furious bark, and seized the cat by the neck.\n\nThe confectioner, seeing his beloved cat attacked, seized a heavy rolling pin and struck the hound.\n\nThe owner of the hound, a fierce butcher from across the alley, saw his dog struck, seized his meat cleaver, and rushed at the confectioner.\n\nThe sweetmakers of the bazaar rushed to defend the confectioner, while the butchers rallied to support their companion! Sticks, knives, and stones were thrown, and within an hour, half the market was in flames, stalls were plundered, and thirty citizens were bruised and wounded before the city watch arrived to restore order!\n\nThe Chief Judge sat in the public square, surveying the smoking ruins of the bazaar, and asked: 'What great feud ignited this terrible catastrophe?'\n\nThe trembling confectioner stepped forward, bowed his head in tears, and confessed: 'It was nothing, my lord... it was only a single drop of honey that fell upon the doorstep!'\n\nThe judge sighed with deep philosophical sorrow: 'Behold how a tiny spark of carelessness, fed by hasty wrath, burns an entire city to ashes! He who cannot control his temper over a drop of honey is not worthy to walk among civilized men.'",
+  "moral": "Small negligences and petty disputes, if not checked with patience, spiral into catastrophic ruin. [MR]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Drop of Honey illustration from the 1001 Arabian Nights collection.",
+  "word_count": 299,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Drop of Honey\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Drop of Honey\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 173,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

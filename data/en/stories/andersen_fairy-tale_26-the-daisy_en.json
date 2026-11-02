@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-26-the-daisy",
+  "slug": "hans-christian-andersen-26-the-daisy",
+  "language": "en",
+  "title": "The Daisy",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "Out in the country, close by the roadside, stood a pleasant country house surrounded by a painted wooden fence. Just outside the fence, in the soft green ditch, grew a little modes...",
+  "keywords": [
+    "hans christian andersen",
+    "the daisy",
+    "moral stories for children",
+    "world folktales and fables",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Out in the country, close by the roadside, stood a pleasant country house surrounded by a painted wooden fence. Just outside the fence, in the soft green ditch, grew a little modest daisy.\n\nThe sun shone upon the humble daisy with the same warm love that it bestowed upon the magnificent, proud peonies and roses inside the garden. The little daisy opened its small white petals like rays around a tiny yellow sun, and looked up into the vast blue sky with boundless gratitude. \"I can see the sun, I can feel the warm breeze, and I can hear the lovely lark singing high above!\" whispered the happy flower.\n\nInside the fenced garden, tall red tulips and pompous peonies puffed themselves out, looking down their noses at the wild weeds in the ditch. The little daisy did not envy them in the least; it rejoiced in its own quiet life.\n\nSuddenly, a skylark flew down from the clouds, passed right over the grand tulips, and landed in the grass beside the daisy! The bird pecked gently at the daisy's petals with its beak and sang: \"How sweet is the soft grass, and what a lovely little flower with a golden heart and silver dress!\" The little daisy trembled with pure, innocent joy.\n\nThe next morning, two boys came into the ditch with a sharp knife. They dug up a square patch of turf to place in the bottom of a birdcage—and right in the center of the sod stood the little daisy.\n\nIn the cage hung the captive skylark, imprisoned behind iron bars. The poor bird beat its wings against the wires, singing a mournful lament for the lost blue sky, the open fields, and its freedom.\n\nThe boys forgot to give the captive bird a single drop of water. By midday, the blazing sun beat down upon the cage. The skylark gasped with parched throat, thrusting its beak into the damp grass turf where the daisy grew. The daisy could not speak, nor could it offer water, but it breathed out its sweetest fragrance to comfort the dying bird.\n\nWhen evening fell, the poor lark bent its head toward the flower and breathed its last. The boys came in the morning, wept bitter tears over the dead bird, and buried the skylark in a handsome little grave lined with leaves. But the patch of turf with the faithful little daisy, they threw out into the dusty road where the wheels rolled over it. Yet the daisy had fulfilled its holy mission: offering its gentle heart in love and comfort to the very end.",
+  "moral": "True sympathy shares the suffering of others; heedless cruelty to the helpless leaves a trail of sorrow.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Daisy illustration from the Hans Christian Andersen collection.",
+  "word_count": 434,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Daisy\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Hans Christian Andersen anthology.",
+  "values": [
+    "humility",
+    "compassion",
+    "empathy"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Daisy\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Andersen's tales teach compassion, resilience, and Christian hope\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 26,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Global Treasury"
+}

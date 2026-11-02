@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-203-the-ditmars-tale-of-lies",
+  "slug": "grimm-fairy-tales-203-the-ditmars-tale-of-lies-pt",
+  "language": "pt",
+  "title": "The Ditmars Tale of Lies",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "I will tell you a tale of absolute truth from the land of Ditmars, where two crows sat upon an oak tree mowing grass with sharp scythes!...",
+  "keywords": [
+    "grimm fairy tales",
+    "the ditmars tale of lies",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "I will tell you a tale of absolute truth from the land of Ditmars, where two crows sat upon an oak tree mowing grass with sharp scythes!\n\nI saw a newborn baby build a stone cathedral before breakfast, two frogs threshing wheat on the ice, and a roasted turkey flying backward through the chimney, laying hard-boiled eggs upon the hearth!\n\nAn old plowman harnessed three hornets to his wooden plow and plowed the ocean waves, harvesting a wagonload of sweet winter turnips from the middle of the sea.\n\nAs I watched this wonder, an anvil swam across the river like a duck, and a church steeple rang its bells upside down in the sand.\n\nOpen your window, gentle listener, and let this grand truth fly straight into your parlor, for he who can invent a grander lie deserves to sit at the high table and eat sweet pudding with a golden shovel!",
+  "moral": "The greatest liar is he who tries to out-tell a tale of sheer, delightful absurdity.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Ditmars Tale of Lies illustration from the Grimm Fairy Tales collection.",
+  "word_count": 152,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Ditmars Tale of Lies\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "humor",
+    "wit",
+    "storytelling"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Ditmars Tale of Lies\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 203,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

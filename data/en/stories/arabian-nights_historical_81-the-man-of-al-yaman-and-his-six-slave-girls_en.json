@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-81-the-man-of-al-yaman-and-his-six-slave-girls",
+  "slug": "arabian-nights-81-the-man-of-al-yaman-and-his-six-slave-girls",
+  "language": "en",
+  "title": "The Man of Al-Yaman and His Six Scholars",
+  "genre": "Historical Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "A wealthy and enlightened nobleman of Yemen had educated his six daughters in six distinct arts of the mind: the first in Astronomy, the second in Medicine, the third in Jurispr...",
+  "keywords": [
+    "arabian nights",
+    "the man of al-yaman and his six slave-girls",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A wealthy and enlightened nobleman of Yemen had educated his six daughters in six distinct arts of the mind: the first in Astronomy, the second in Medicine, the third in Jurisprudence, the fourth in Poetry and Music, the fifth in Mathematics and Architecture, and the sixth in Philosophy and Ethics.\n\nWhen business brought them to Baghdad, the Caliph Harun al-Rashid heard of this extraordinary assembly of intellect and summoned the family to his palace.\n\nThe Caliph challenged them to a friendly contest of wisdom: each scholar was to present an argument proving that her discipline was the foundation of human happiness and good governance.\n\nThe Astronomer spoke of the celestial spheres, the navigation of ships across trackless seas, and the majesty of the starry heavens. The Physician spoke of the preservation of life, the harmony of bodily humors, and the sacred relief of pain. The Jurist demonstrated how justice, fair laws, and the defense of the weak preserve peace in the commonwealth.\n\nThe Poet sang of how music and verse soften the human heart, inspiring empathy and courage. The Mathematician demonstrated how geometry builds bridges, aqueducts, and domes that endure through centuries. Finally, the Philosopher showed that without virtue, truth, and ethical conscience, all sciences become hollow instruments of vanity.\n\nHarun al-Rashid listened with enraptured delight, applauding each discourse. He declared: 'None has surpassed the other, for wisdom is a single magnificent garden, and each of you tends a necessary blossom! No realm can stand on steel alone; it flourishes on science, art, and justice.' The Caliph bestowed royal gifts upon each of the six scholars and established a grand academy in Baghdad to teach their disciplines.",
+  "moral": "Diverse branches of learning—science, art, and virtue—enrich human civilization like jewels in a single crown.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Man of Al-Yaman and His Six Slave-Girls illustration from the Arabian Nights collection.",
+  "word_count": 277,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Man of Al-Yaman and His Six Slave-Girls\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "learning",
+    "wisdom",
+    "intellect",
+    "respect"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Man of Al-Yaman and His Six Slave-Girls\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 81,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

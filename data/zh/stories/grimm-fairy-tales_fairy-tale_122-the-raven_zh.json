@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-122-the-raven",
+  "slug": "grimm-fairy-tales-122-the-raven-zh",
+  "language": "zh",
+  "title": "The Raven",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A queen in a fit of impatient temper wished that her crying baby girl were a raven so she might fly away. No sooner had the rash words been spoken than the infant transformed into...",
+  "keywords": [
+    "grimm fairy tales",
+    "the raven",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A queen in a fit of impatient temper wished that her crying baby girl were a raven so she might fly away. No sooner had the rash words been spoken than the infant transformed into a black raven and flew out of the window into a dark, impenetrable pine forest.\n\nYears later, a wandering huntsman heard the voice of the raven pleading from an ancient oak: \"I am a king's daughter under an evil enchantment. If you wish to save me, journey to the castle of Stromberg on the Glass Mountain. But beware: an old woman will offer you wine and sweetmeats; touch neither, or you will fall into a fatal sleep!\"\n\nThe huntsman swore to rescue her, but at the cottage near the mountain, the witch deceived him into drinking a single drop of drugged wine. For three consecutive days, the huntsman fell into a deep slumber just as the raven flew past in her carriage. On the third day, the raven left him a loaf of inexhaustible bread, a piece of meat that never diminished, a bottle of endless wine, and a golden ring inscribed with her name.\n\nAwakening in agony of soul, the huntsman wept for his weakness and set out on foot to find the Glass Mountain. He walked for years, overcoming fierce giants and traversing wild continents. With the aid of a magical steed and enchanted climbing hooks, he scaled the sheer, slippery wall of glass.\n\nEntering the golden castle, he dropped the ring into the princess's wine goblet. Recognizing the token of his enduring devotion, the restored princess embraced him with tears of joy, and they were wed in radiant splendor before the assembled realm.",
+  "moral": "Unwavering devotion can scale mountains of glass and undo the rash curses of anger.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Raven illustration from the Grimm Fairy Tales collection.",
+  "word_count": 281,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Raven\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "dedication",
+    "endurance",
+    "faithfulness"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Raven\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 122,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

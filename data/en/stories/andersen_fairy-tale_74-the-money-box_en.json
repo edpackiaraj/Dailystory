@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-74-the-money-box",
+  "slug": "hans-christian-andersen-74-the-money-box",
+  "language": "en",
+  "title": "The Money Box",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "On top of the nursery wardrobe sat an enormous earthenware pig with a slit in its back. It was stuffed to the brim with silver and copper coins, so full that it could no longer rat...",
+  "keywords": [
+    "hans christian andersen",
+    "the money box",
+    "moral stories for children",
+    "world folktales and fables",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "On top of the nursery wardrobe sat an enormous earthenware pig with a slit in its back. It was stuffed to the brim with silver and copper coins, so full that it could no longer rattle.\n\nThe clay pig looked down upon the dollhouse, the rocking horse, and the tin soldiers with haughty contempt: \"I am worth more than all of you put together; I could purchase ten nurseries!\"\n\nOne evening, while leaning forward in pride, the clay pig lost its balance, tumbled from the wardrobe, and smashed into a hundred shards upon the floor! The coins rolled under beds and into corners.\n\nThe children gathered up the money to buy new toys, and the broken shards of the proud money box were swept into the dustbin, while a fresh clay pig was placed on the shelf to start the cycle anew.",
+  "moral": "Pride based upon hoarded wealth shatters into useless shards in an instant.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Money Box illustration from the Hans Christian Andersen collection.",
+  "word_count": 142,
+  "reading_time": "1 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Money Box\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Hans Christian Andersen anthology.",
+  "values": [
+    "humility",
+    "wealth",
+    "vanity"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Money Box\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Andersen's tales teach compassion, resilience, and Christian hope\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 74,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Global Treasury"
+}

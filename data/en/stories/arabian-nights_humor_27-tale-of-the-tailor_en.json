@@ -1,0 +1,129 @@
+{
+  "id": "arabian-nights-27-tale-of-the-tailor",
+  "slug": "arabian-nights-27-tale-of-the-tailor",
+  "language": "en",
+  "title": "Tale of the Tailor",
+  "genre": "Humorous Tales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The tailor of China then related the story of a lame young man from Baghdad who had fled his own wedding feast because of an intolerable barber:",
+  "keywords": [
+    "arabian nights",
+    "tale of the tailor",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "The tailor of China then related the story of a lame young man from Baghdad who had fled his own wedding feast because of an intolerable barber:\n\n\"Yesterday, I attended a banquet in our city given by a wealthy youth of Baghdad. When the guests were seated and the roasted meats served, a handsome young merchant entered, limping heavily. The moment his eyes fell upon an elderly, talkative barber who sat among the guests, the youth turned pale, leaped to his feet, and cried: 'I must depart! Either this babbler leaves this room, or I must wander into the desert!'\n\nThe astonished host begged the youth to explain his strange wrath. The lame merchant sighed and recounted his misadventure:\n\n'In Baghdad, I was once courted by the daughter of the chief judge. On the day of our betrothal, I summoned a barber to trim my hair and prepare my attire for the wedding ceremony. Instead of sharpening his razors and performing his task, the barber produced an astrolabe, measured the altitude of the sun, and began reciting astrological charts! He babbled endlessly about planetary alignments, the history of his seven brothers, and his own incomparable wisdom in philosophy, grammar, and divination.\n\nFor three mortal hours I begged him to make haste, for the hour of the ceremony was fast approaching. Yet every time he touched his shears to my head, he paused to deliver a sermon on humility or to recount a lengthy anecdote of his childhood. Driven to distraction, I shouted at him to finish. Offended by my impatience, he insisted on accompanying me to the bride's house to protect me from evil stars!\n\nWhen I reached the judge's courtyard, the barber stood outside shouting comical predictions and causing such an uproar that the neighbors believed a riot had broken out. In trying to escape his ceaseless chatter, I jumped from a first-floor window into the street, shattering my ankle and becoming lame for life. From that hour, I swore never to dwell in the same city as that unbridled tongue!'\n\nHearing this, all the guests turned and glared at the barber, who merely shook his head and claimed that his only flaw was an excess of benevolence!\"",
+  "moral": "A busybody who speaks without restraint can ruin the happiest gatherings and drive away peace.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the Tailor illustration from the Arabian Nights collection.",
+  "word_count": 369,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Tale of the Tailor\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "prudence",
+    "self-control",
+    "courtesy"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Tale of the Tailor\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 27,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

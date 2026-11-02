@@ -71,12 +71,12 @@ const langLinks = brandConfig.supportedLanguages.map(lang => {
       <!-- Desktop Navigation Links -->
       <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-700 dark:text-slate-200" aria-label="Primary Navigation">
         <a href={`/${currentLang}/`} class="hover:text-amber-600 transition-colors">{t.todaysStory}</a>
-        <a href={`/${currentLang}/search/`} class="hover:text-amber-600 transition-colors">Search</a>
-        <a href={`/${currentLang}/favorites/`} class="hover:text-amber-600 transition-colors flex items-center gap-1.5">
+        <a href={`/${currentLang}/${currentLang}-search/`} class="hover:text-amber-600 transition-colors">Search</a>
+        <a href={`/${currentLang}/${currentLang}-favorites/`} class="hover:text-amber-600 transition-colors flex items-center gap-1.5">
           <span>⭐</span> {t.myCorner}
         </a>
-        <a href={`/${currentLang}/submit/`} class="hover:text-amber-600 transition-colors">{t.submitStory}</a>
-        <a href={`/${currentLang}/about/`} class="hover:text-amber-600 transition-colors">About</a>
+        <a href={`/${currentLang}/${currentLang}-submit/`} class="hover:text-amber-600 transition-colors">{t.submitStory}</a>
+        <a href={`/${currentLang}/${currentLang}-about/`} class="hover:text-amber-600 transition-colors">About</a>
       </nav>
 
       <!-- Right Utility Bar: Language Switcher, Bedtime, Accessibility -->
@@ -139,11 +139,11 @@ const langLinks = brandConfig.supportedLanguages.map(lang => {
   <!-- Mobile Dropdown Navigation -->
   <div id="mobile-nav" class="hidden md:hidden border-t border-brand-200 dark:border-slate-800 bg-brand-50 dark:bg-slate-900 px-4 pt-3 pb-6 space-y-3">
     <a href={`/${currentLang}/`} class="block py-2 text-base font-semibold text-slate-800 dark:text-slate-100">{t.todaysStory}</a>
-    <a href={`/${currentLang}/search/`} class="block py-2 text-base font-semibold text-slate-800 dark:text-slate-100">Search Stories</a>
-    <a href={`/${currentLang}/favorites/`} class="block py-2 text-base font-semibold text-slate-800 dark:text-slate-100">⭐ {t.myCorner}</a>
-    <a href={`/${currentLang}/submit/`} class="block py-2 text-base font-semibold text-slate-800 dark:text-slate-100">{t.submitStory}</a>
-    <a href={`/${currentLang}/about/`} class="block py-2 text-base font-semibold text-slate-800 dark:text-slate-100">About & Mission</a>
-    <a href={`/${currentLang}/parent-guide/`} class="block py-2 text-base font-semibold text-slate-800 dark:text-slate-100">Parent & Teacher Guide</a>
+    <a href={`/${currentLang}/${currentLang}-search/`} class="block py-2 text-base font-semibold text-slate-800 dark:text-slate-100">Search Stories</a>
+    <a href={`/${currentLang}/${currentLang}-favorites/`} class="block py-2 text-base font-semibold text-slate-800 dark:text-slate-100">⭐ {t.myCorner}</a>
+    <a href={`/${currentLang}/${currentLang}-submit/`} class="block py-2 text-base font-semibold text-slate-800 dark:text-slate-100">{t.submitStory}</a>
+    <a href={`/${currentLang}/${currentLang}-about/`} class="block py-2 text-base font-semibold text-slate-800 dark:text-slate-100">About & Mission</a>
+    <a href={`/${currentLang}/${currentLang}-parent-guide/`} class="block py-2 text-base font-semibold text-slate-800 dark:text-slate-100">Parent & Teacher Guide</a>
   </div>
 
   <!-- Accessibility Drawer Popup -->

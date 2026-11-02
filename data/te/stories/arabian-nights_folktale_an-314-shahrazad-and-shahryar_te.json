@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-314-shahrazad-and-shahryar",
+  "slug": "an-314-shahrazad-and-shahryar-te",
+  "language": "te",
+  "title": "Shahrazad and Shahryar (తెలుగు)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the golden palace of Baghdad, the thousand and one nights had passed, and the empire lived in peace under the just reign of King Shahr... [TE]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "shahrazad and shahryar",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the golden palace of Baghdad, the thousand and one nights had passed, and the empire lived in peace under the just reign of King Shahryar and Queen Shahrazad.\n\nOne evening, as their children played upon the silk carpets, the King asked: 'Shahrazad, what is the secret power of stories, that they could melt the bitterness of my heart and restore peace to an entire realm?'\n\nShahrazad smiled with radiant wisdom and answered:\n\n'O King! A story is a mirror that allows a man to see his own virtues and flaws reflected without the distortion of pride. When you heard of the ungrateful king who slew his faithful falcon, your own anger recoiled; when you heard of Abu Sabir’s patience, your own soul longed for endurance; and when you heard of the generous merchant who shared his last bread, your heart opened to mercy.\n\nA sword can subdue the body, but only a story can transform the human heart.\n\nAs long as men walk upon this earth, as long as travelers sit around campfires, and as long as mothers cradle their children in the dusk, stories shall be told to remind humankind that truth conquers falsehood, that compassion is stronger than wrath, and that love outlasts the turning of all the spheres.'\n\nKing Shahryar embraced her with tears of deep gratitude, and the scribes recorded the tales in books of gold, preserving the 1001 Nights as an eternal treasure of human wisdom.",
+  "moral": "Stories carry the soul of humanity, teaching justice, empathy, and wisdom across all generations. [TE]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Shahrazad and Shahryar illustration from the 1001 Arabian Nights collection.",
+  "word_count": 242,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Shahrazad and Shahryar\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Telugu readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Shahrazad and Shahryar\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 314,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

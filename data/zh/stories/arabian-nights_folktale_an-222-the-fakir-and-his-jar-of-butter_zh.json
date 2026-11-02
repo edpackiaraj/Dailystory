@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-222-the-fakir-and-his-jar-of-butter",
+  "slug": "an-222-the-fakir-and-his-jar-of-butter-zh",
+  "language": "zh",
+  "title": "The Fakir and His Jar of Butter (简体中文)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "An impoverished holy man in a village in India received as an alms a large earthenware jar filled with pure clarified butter. He carried ... [ZH]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the fakir and his jar of butter",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "An impoverished holy man in a village in India received as an alms a large earthenware jar filled with pure clarified butter. He carried it home, tied it securely with a stout hemp cord, and suspended it from the ceiling beam directly above the head of his sleeping mat.\n\nLying on his back with his wooden staff in his hand, staring up at the jar, he began to build magnificent castles in the air:\n\n'When the price of butter rises this winter, I shall sell this jar for ten silver rupees. With those ten rupees, I shall buy five female goats. The goats will give birth to kids every six months, and within five years I shall possess a herd of three hundred goats!\n\nThen I shall sell the goats and buy a hundred cows and two bullocks. I shall buy fertile fields of rice and sugarcane, build a magnificent white mansion with four verandas, and marry the daughter of the wealthiest merchant in the district!\n\nWe will have a son as radiant as the moon. When he grows into youth, if he disobeys my commands or neglects his studies in grammar, I shall take my wooden staff and beat him thus, to teach him obedience!'\n\nLost in his grandiose delusion, the fakir swung his heavy wooden staff with all his might into the air!\n\nThe staff struck the suspended earthenware jar squarely in the center. The jar shattered into fifty pieces, and the entire gallon of greasy, yellow butter poured down directly onto his face, beard, and chest, soaking his blankets and covering him in greasy slime!\n\nHe sat up spluttering, weeping over his ruined treasure, while the neighbors laughed at how he had destroyed his real butter in pursuit of a phantom son.",
+  "moral": "Daydreaming of haughty triumph without laying the foundation of honest labor shatters reality into dust. [ZH]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Fakir and His Jar of Butter illustration from the 1001 Arabian Nights collection.",
+  "word_count": 295,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Fakir and His Jar of Butter\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Fakir and His Jar of Butter\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 222,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

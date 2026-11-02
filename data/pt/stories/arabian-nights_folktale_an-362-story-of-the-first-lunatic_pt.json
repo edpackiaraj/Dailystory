@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-362-story-of-the-first-lunatic",
+  "slug": "an-362-story-of-the-first-lunatic-pt",
+  "language": "pt",
+  "title": "Story of the First Lunatic (Português)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Sultan Mohammed of Cairo, continuing his inspection of the city, visited the Moristan—the great hospital and sanctuary for the mentally a... [PT]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "story of the first lunatic",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Sultan Mohammed of Cairo, continuing his inspection of the city, visited the Moristan—the great hospital and sanctuary for the mentally afflicted.\n\nIn one tranquil garden courtyard, he observed a dignified man with silver hair and luminous eyes, sitting beneath an orange tree and reading an ancient parchment.\nSurprised by his composed demeanor, the Sultan approached and asked: 'Peace be upon thee, venerable sir. Why art thou confined in this house of the distracted?'\n\nThe man smiled with serene courtesy:\n'O visitor, I am confined here because I suffer from an incurable illness called Truth-Telling.\n\nIn the bazaar and the imperial court, men flatter one another with false praise. They call cowards heroes, greedy thieves noble patrons, and fools sages, all to gain coppers and favor.\nWhen I was a chief accountant in the treasury, I declared publicly that the grand chamberlain was pocketing public wheat. The chamberlain laughed, declared that only a raving lunatic would speak such inconvenient truths against powerful men, and had me placed in this peaceful hospital.\n\nHere, within these quiet walls, no one lies to me. The madmen are honest about their delusions: one claims he is the moon, another that he is an earthenware pot. Neither pretends to love virtue while stealing from orphans.\nTell me, my noble guest: who is truly insane—the man who speaks truth and enjoys contentment under an orange tree, or the men in silk robes who betray their conscience every hour for fleeting dust?'\n\nThe Sultan stood transfixed by the philosopher's penetrating insight. He realized that society often labels those who refuse to participate in deceit as madmen.\nHe ordered the sage released with highest honors and appointed him Royal Censor of Truth, learning that genuine wisdom is often banished where falsehood reigns.",
+  "moral": "Apparent eccentricity often conceals profound philosophical clarity; judge no man by outward appearances. [PT]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Story of the First Lunatic illustration from the 1001 Arabian Nights collection.",
+  "word_count": 293,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Story of the First Lunatic\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Story of the First Lunatic\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 362,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

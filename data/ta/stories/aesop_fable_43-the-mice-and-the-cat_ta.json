@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-43-the-mice-and-the-cat",
+  "slug": "aesops-fables-43-the-mice-and-the-cat-ta",
+  "language": "ta",
+  "title": "The Mice and the Cat",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "The mice of a grand manor house were living in constant terror of a sleek, silent cat whose soft velvet paws made no sound as she stalked the corridors. Night after night, another...",
+  "keywords": [
+    "aesop's fables",
+    "the mice and the cat",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "The mice of a grand manor house were living in constant terror of a sleek, silent cat whose soft velvet paws made no sound as she stalked the corridors. Night after night, another mouse vanished into her claws. Desperate to find a remedy, the mice convened a solemn council in the dark pantry to devise a strategy for their collective survival.\n\nMany plans were proposed and rejected. Finally, a young, dapper mouse of bold eloquence stepped forward, twirled his whiskers, and addressed the assembly:\n\n\"Gentlemen, our peril arises entirely from the stealth of our enemy! She pounces upon us unawares. The solution is remarkably simple: we must purchase a small, brass bell and suspend it from a ribbon around the cat's neck! Whenever she approaches, the bell will jingle: ting-a-ling! We will hear her coming from afar and easily scamper into our holes!\"\n\nThe council erupted into wild applause. Mice stamped their paws, embraced in joy, and voted the young orator a great genius.\n\nIn the midst of the celebration, an ancient, scarred mouse who had sat quietly in the corner rose to his feet. He cleared his throat and looked around the room:\n\n\"The proposal is undoubtedly brilliant, my young friend. But before we adjourn the meeting, permit me to ask one simple question: which one among you is going to put the bell upon the cat?\"\n\nA dead, freezing silence fell over the pantry. The mice looked at one another, slipped their heads down, and one by one crept quietly away into the wainscot, learning that grand ideas are worthless unless there is someone brave enough to execute them.",
+  "moral": "It is easy to propose impossible remedies; practical courage is what matters.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Mice and the Cat illustration from the Aesop's Fables collection.",
+  "word_count": 271,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Mice and the Cat\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "practicality",
+    "realism",
+    "courage"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Mice and the Cat\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 43",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

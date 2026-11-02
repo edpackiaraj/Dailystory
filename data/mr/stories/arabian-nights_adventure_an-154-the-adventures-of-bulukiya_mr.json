@@ -1,0 +1,129 @@
+{
+  "id": "arabian-nights-154-the-adventures-of-bulukiya",
+  "slug": "an-154-the-adventures-of-bulukiya-mr",
+  "language": "mr",
+  "title": "The Adventures of Bulukiya (मराठी)",
+  "genre": "Adventure Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Bulukiya, a young and noble king of the Children of Israel in ancient Cairo, discovered in his father’s secret cedar chest an ancient par... [MR]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the adventures of bulukiya",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Bulukiya, a young and noble king of the Children of Israel in ancient Cairo, discovered in his father’s secret cedar chest an ancient parchment describing the advent of the final prophet, whose message would illuminate all nations with justice and mercy.\n\nConsumed by a passionate desire to behold this dawn of wisdom, Bulukiya renounced his royal crown, donned a pilgrim’s woollen mantle, and set forth alone on a quest across the ends of the earth.\n\nHis journey carried him across the Seven Seas to magical islands of wonder: the Isle of Golden Fruits guarded by winged lions; the Isle of the Giant Serpents where Queen Yamlika imparted sacred knowledge; and the Isle of the Crystal Mountains.\n\nThrough years of travel, Bulukiya climbed the Mountain of Qaf—the colossal emerald range that rings the circumference of the world, whose roots anchor the foundations of the continents. There he met the angelic guardian of the earth, who instructed him in the cosmic harmony that sustains all life.\n\nBulukiya crossed the subterranean oceans of darkness to the tomb of King Solomon, seeking the signet ring that commands spirits and winds, but was guided by the immortal prophet Al-Khidr, who taught him:\n\n'Seek not the ring that commands spirits with pride, O Bulukiya! The greatest ring of power is a humble heart that obeys truth and serves the weak.'\n\nHumbled and enlightened, Bulukiya returned to Cairo. He did not resume the crown of steel, but lived as a venerable sage, teaching the people that the true destination of every quest is the purification of the soul.",
+  "moral": "The quest for ultimate wisdom requires relentless courage, humility, and reverence across uncharted realms. [MR]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Adventures of Bulukiya illustration from the 1001 Arabian Nights collection.",
+  "word_count": 261,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Adventures of Bulukiya\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience",
+    "courage"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Adventures of Bulukiya\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 154,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

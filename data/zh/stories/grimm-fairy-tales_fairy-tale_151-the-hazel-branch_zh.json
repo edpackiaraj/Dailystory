@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-151-the-hazel-branch",
+  "slug": "grimm-fairy-tales-151-the-hazel-branch-zh",
+  "language": "zh",
+  "title": "The Hazel Branch",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "In ancient times, when the mother of a holy wanderer walked through the dark forest seeking shelter from a venomous serpent that pursued her through the grass, she looked in vain a...",
+  "keywords": [
+    "grimm fairy tales",
+    "the hazel branch",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "In ancient times, when the mother of a holy wanderer walked through the dark forest seeking shelter from a venomous serpent that pursued her through the grass, she looked in vain among the tall pines and rigid oaks for a hiding place. The proud trees held their branches high above the ground, offering no refuge from the creeping peril.\n\nAt the forest edge stood a humble hazel bush with dense, green boughs sweeping down to the earth. The bush spread its tender leaves and sheltered the gentle traveler beneath its leafy canopy. The venomous snake coiled near the roots but could not penetrate the protective hazel boughs, slithering away into the dark hollows of the earth.\n\nIn gratitude for its quiet sanctuary, the traveler blessed the hazel bush, decreeing that from that day forth, its branches would serve as a natural safeguard against serpents, adders, and dark enchantments.\n\nTo this day, country folk in the alpine valleys carry a freshly cut hazel wand when traversing rocky moors and serpent-haunted thickets, remembering that the humblest shrub can offer the greatest sanctuary in the hour of peril.",
+  "moral": "Even humble boughs that provide shelter to the weary receive enduring blessing and protection.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Hazel Branch illustration from the Grimm Fairy Tales collection.",
+  "word_count": 185,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Hazel Branch\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "protection",
+    "faith",
+    "mercy"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Hazel Branch\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 151,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

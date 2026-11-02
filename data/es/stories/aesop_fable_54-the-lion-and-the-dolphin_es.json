@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-54-the-lion-and-the-dolphin",
+  "slug": "aesops-fables-54-the-lion-and-the-dolphin-es",
+  "language": "es",
+  "title": "The Lion and the Dolphin",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A lion strolling along the sea beach spotted a dolphin leaping gracefully through the waves. The lion called out to the sea creature:...",
+  "keywords": [
+    "aesop's fables",
+    "the lion and the dolphin",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "A lion strolling along the sea beach spotted a dolphin leaping gracefully through the waves. The lion called out to the sea creature:\n\n\"Noble Dolphin! You are sovereign of the deep waters, and I am King of the beasts of the earth. Let us enter into a royal alliance, swearing to assist each other whenever danger threatens!\"\n\nThe dolphin agreed with joyous goodwill. Sometime later, the lion was engaged in a ferocious battle with a wild mountain bull near the water's edge. Being hard-pressed, the lion roared to his ally: \"Help me, friend Dolphin! Fulfill your oath!\"\n\nThe dolphin swam to the shallows, but could not crawl upon the dry sand to strike the bull. When the lion criticized him as a treacherous friend, the dolphin replied:\n\n\"Do not blame me, King Lion; blame Nature, who made me master of the ocean but gave me no feet to walk upon the shore. Do not demand help that lies outside your friend's natural power to give.\"",
+  "moral": "An ally cannot help you beyond the natural sphere of his power.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Lion and the Dolphin illustration from the Aesop's Fables collection.",
+  "word_count": 165,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Lion and the Dolphin\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Spanish readers, safe for schools and family bedtime).",
+  "values": [
+    "friendship",
+    "limits",
+    "understanding"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Lion and the Dolphin\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 54",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

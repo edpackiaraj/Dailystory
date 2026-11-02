@@ -1,0 +1,127 @@
+{
+  "id": "akbar-birbal-58-the-foolish-servant",
+  "slug": "akbar-birbal-58-the-foolish-servant-zh",
+  "language": "zh",
+  "title": "The Foolish Servant (简体中文)",
+  "genre": "Humorous Tales",
+  "collection": "Akbar–Birbal",
+  "culture_region": "India",
+  "age_group": "Below 13",
+  "summary": "A nobleman boasts of his servant's absolute, unquestioning obedience. Birbal proves that mindless obedience without common sense is dangerous. [ZH]",
+  "keywords": [
+    "akbar–birbal",
+    "the foolish servant",
+    "moral stories for children",
+    "world folktales and fables",
+    "akbar-birbal"
+  ],
+  "tags": [
+    "akbar-birbal",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A proud courtier named Mirza Zahir boasted before Emperor Akbar that he possessed the finest servant in the empire: 'My servant Ghafoor never questions an order! He obeys every word literally, without a moment's hesitation!'\n\nBirbal remarked quietly: 'Mirza Sahib, obedience without common sense is a curse, not a blessing. A servant who cannot think will eventually destroy his master.'\n\nZahir scoffed: 'Nonsense! A servant's only duty is to obey!'\n\nA few days later, while Zahir was hosting a garden party for the Emperor and his courtiers, Zahir noticed his pet falcon perched on a high marble wall. Wanting to show off his servant's blind obedience, Zahir called out: 'Ghafoor! Bring that falcon down immediately! Do whatever it takes, but do not let it fly away!'\n\nGhafoor ran to the wall. The bird was perched twelve feet up. Seeing a heavy wooden pole nearby, Ghafoor swung it with all his might, striking the falcon directly across the head! The bird fell dead at his feet.\n\nGhafoor picked up the dead bird, presented it proudly to his master, and said: 'Here is the falcon, master! As you commanded, I did not let it fly away!'\n\nZahir turned purple with rage and embarrassment, while the entire assembly gasped in horror.\n\nBirbal stepped forward and said gently: 'You see, Mirza Sahib? He obeyed your exact words with complete literalness! You told him to bring the falcon down and not let it fly away, but you did not instruct him to keep it alive!\n\n'A human being must never be an unthinking machine. When choosing servants, soldiers, or counselors, value sound judgment and discernment above blind, mindless obedience.'\n\nZahir bowed his head in deep humility, and Akbar commended Birbal for illustrating the vital difference between mechanical obedience and true wisdom.",
+  "moral": "道德启示：Wit beats power",
+  "image": "/images/stories/akbar-birbal.webp",
+  "image_alt": "The Foolish Servant illustration from the Akbar–Birbal collection.",
+  "word_count": 296,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Foolish Servant\"?",
+      "options": [
+        "Wit beats power",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional Court Folklore of Akbar and Birbal",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Akbar–Birbal anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Foolish Servant\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wit beats power\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 58,
+  "reviewed": true,
+  "source": "Akbar-Birbal folklore - Mughal India 16th century - public domain oral tradition",
+  "license": "Public Domain",
+  "credit": "Akbar–Birbal Global Treasury"
+}

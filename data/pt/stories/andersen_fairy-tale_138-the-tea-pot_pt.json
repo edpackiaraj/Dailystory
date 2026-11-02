@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-138-the-tea-pot",
+  "slug": "hans-christian-andersen-138-the-tea-pot-pt",
+  "language": "pt",
+  "title": "The Tea-Pot",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "The porcelain teapot was proud of her delicate spout, her curved handle, and her noble task of brewing fragrant tea for the grand parlor....",
+  "keywords": [
+    "hans christian andersen",
+    "the tea pot",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "The porcelain teapot was proud of her delicate spout, her curved handle, and her noble task of brewing fragrant tea for the grand parlor.\n\nOne afternoon, the maid dropped her on the stone hearth; the handle broke off, and she was cast into the courtyard dustbin.\n\nA poor woman found the cracked teapot, filled it with black earth, and planted a flowering hyacinth bulb in its center!\n\nThe bulb took root, sprouted fresh green leaves, and bloomed into exquisite, fragrant blossoms! The teapot felt a new, profound joy: \"I no longer serve the vanity of tables; I hold living life in my breast! To nurture a living flower is infinitely greater than pouring tea!\"",
+  "moral": "When pride is broken, a higher purpose of nurturing living life begins.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Tea Pot illustration from the Hans Christian Andersen collection.",
+  "word_count": 114,
+  "reading_time": "1 min",
+  "listen_time": "1 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Tea Pot\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Hans Christian Andersen. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "humility",
+    "resilience",
+    "rebirth"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Tea Pot\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": 138,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Heritage Anthology"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-106-the-miller-and-his-wife",
+  "slug": "an-106-the-miller-and-his-wife-kn",
+  "language": "kn",
+  "title": "The Miller and His Wife (ಕನ್ನಡ)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Beside a swift mountain brook in the province of Fars stood a watermill where an honest miller and his wife ground wheat into flour for t... [KN]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the miller and his wife",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Beside a swift mountain brook in the province of Fars stood a watermill where an honest miller and his wife ground wheat into flour for the surrounding villages. They lived in peace and modest comfort, waking with the song of the lark and sleeping soundly to the soothing rhythm of the turning millstone.\n\nOne evening, a wealthy caravan merchant, whose mule had gone lame, asked to lodge his goods in the mill for the night. In the miller’s presence, the merchant deposited a heavy iron-bound casket upon the grain bench, saying: 'Guard this casket with your life, for it contains ten thousand gold dinars.'\n\nWhen the merchant fell asleep, the miller and his wife sat by their oil lamp, staring at the heavy casket. The simple miller whispered: 'Ten thousand dinars! With such a sum, a man could buy a palace in Shiraz, dress in silk, and never touch a dusty sack of flour again.'\n\nHis wife sighed: 'And we could have ten servants to bake our bread and wash our linen!'\n\nFor the first time in their lives, peace fled from their cottage. Every rustle of the wind sounded like thieves breaking the shutter. The miller paced the floor with a cudgel, terrified that someone would steal the box; his wife tossed on her bed, suspicious that the merchant would accuse them of tampering with the locks. All through the night, they were tormented by fear, greed, and suspicion, unable to close their eyes for a single heartbeat.\n\nAt dawn, the merchant arose, paid the miller two silver dirhams for his hospitality, strapped the casket onto his mule, and rode away into the morning mist.\n\nThe miller looked at his wife, saw her pale, exhausted face, and then looked at the turning millstone splash in the cool stream.\n\nThe miller laughed aloud and embraced her: 'Praise be to heaven! The golden monster has departed! One night under the same roof with ten thousand dinars brought us more misery than forty years of honest labor. Let us grind our wheat in peace, for sweet bread earned with clean hands is worth all the restless gold in the world.'",
+  "moral": "Contentment with honest toil brings sweet sleep, while greed for unearned gold breeds sleepless suspicion. [KN]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Miller and His Wife illustration from the 1001 Arabian Nights collection.",
+  "word_count": 358,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Miller and His Wife\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Kannada readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Miller and His Wife\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 106,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

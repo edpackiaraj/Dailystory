@@ -17,531 +17,563 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/search/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-search/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/search/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/search/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/search/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/search/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/search/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/search/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/search/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/search/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/search/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/search/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/search/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-search/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-search/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-search/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-search/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-search/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-search/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-search/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-search/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-search/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-search/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-search/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/submit/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-submit/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/submit/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/submit/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/submit/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/submit/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/submit/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/submit/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/submit/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/submit/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/submit/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/submit/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/submit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-submit/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-submit/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-submit/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-submit/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-submit/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-submit/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-submit/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-submit/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-submit/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-submit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-submit/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/subscribe/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-subscribe/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/subscribe/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/subscribe/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/subscribe/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/subscribe/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/subscribe/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/subscribe/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/subscribe/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/subscribe/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/subscribe/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/subscribe/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/subscribe/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-subscribe/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-subscribe/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-subscribe/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-subscribe/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-subscribe/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-subscribe/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-subscribe/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-subscribe/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-subscribe/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-subscribe/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-subscribe/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/favorites/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-favorites/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/favorites/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/favorites/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/favorites/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/favorites/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/favorites/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/favorites/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/favorites/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/favorites/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/favorites/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/favorites/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/favorites/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-favorites/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-favorites/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-favorites/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-favorites/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-favorites/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-favorites/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-favorites/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-favorites/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-favorites/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-favorites/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-favorites/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/about/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/about/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/about/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/about/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/about/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/about/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/about/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/about/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/about/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/about/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-about/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-about/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-about/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-about/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-about/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-about/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-about/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-about/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-about/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/contact/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/contact/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/contact/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/contact/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/contact/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/contact/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/contact/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/contact/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/contact/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/contact/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/contact/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-contact/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-contact/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-contact/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-contact/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-contact/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-contact/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-contact/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/disclaimer/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-disclaimer/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/disclaimer/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/disclaimer/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/disclaimer/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/disclaimer/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/disclaimer/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/disclaimer/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/disclaimer/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/disclaimer/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/disclaimer/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/disclaimer/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-disclaimer/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/privacy/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-privacy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-privacy/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/terms/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-terms/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/terms/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/terms/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-terms/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-terms/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-terms/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-terms/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-terms/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-terms/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-terms/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/cookies/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-cookies/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/cookies/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/cookies/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/cookies/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/cookies/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/cookies/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/cookies/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/cookies/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/cookies/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/cookies/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/cookies/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-cookies/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/copyright/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-copyright/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/copyright/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/copyright/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/copyright/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/copyright/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/copyright/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/copyright/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/copyright/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/copyright/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/copyright/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/copyright/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/copyright/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-copyright/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-copyright/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-copyright/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-copyright/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-copyright/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-copyright/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-copyright/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-copyright/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-copyright/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-copyright/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-copyright/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/guidelines/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-guidelines/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/guidelines/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/guidelines/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/guidelines/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/guidelines/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/guidelines/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/guidelines/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/guidelines/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/guidelines/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/guidelines/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/guidelines/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-guidelines/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/editorial-policy/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-editorial-policy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-editorial-policy/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/parent-guide/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-parent-guide/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/parent-guide/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/parent-guide/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/parent-guide/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/parent-guide/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/parent-guide/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/parent-guide/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/parent-guide/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/parent-guide/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/parent-guide/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/parent-guide/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/parent-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-parent-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-parent-guide/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-parent-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-parent-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-parent-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-parent-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-parent-guide/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-parent-guide/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-parent-guide/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-parent-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-parent-guide/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/accessibility/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/hi-accessibility/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/accessibility/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/accessibility/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/accessibility/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/accessibility/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/accessibility/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/accessibility/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/accessibility/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/accessibility/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/accessibility/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/accessibility/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/en-accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/ta-accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/hi-accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/es-accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/zh-accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/pt-accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/ml-accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/te-accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/kn-accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/mr-accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/en-accessibility/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/cinderella-stories/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-arabian-nights/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/cinderella-stories/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/cinderella-stories/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/cinderella-stories/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/cinderella-stories/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/cinderella-stories/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/cinderella-stories/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/cinderella-stories/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/cinderella-stories/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/cinderella-stories/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/cinderella-stories/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-arabian-nights/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/akbar-birbal/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-tenali-rama/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/akbar-birbal/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/akbar-birbal/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/akbar-birbal/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/akbar-birbal/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/akbar-birbal/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/akbar-birbal/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/akbar-birbal/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/akbar-birbal/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/akbar-birbal/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/akbar-birbal/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-tenali-rama/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/panchatantra/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-aesop-s-fables/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/panchatantra/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/panchatantra/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/panchatantra/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/panchatantra/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/panchatantra/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/panchatantra/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/panchatantra/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/panchatantra/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/panchatantra/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/panchatantra/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-aesop-s-fables/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/tenali-rama/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-cinderella-stories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/tenali-rama/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/tenali-rama/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/tenali-rama/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/tenali-rama/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/tenali-rama/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/tenali-rama/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/tenali-rama/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/tenali-rama/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/tenali-rama/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/tenali-rama/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-cinderella-stories/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/aesop-s-fables/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-mulla-nasruddin/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/aesop-s-fables/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/aesop-s-fables/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/aesop-s-fables/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/aesop-s-fables/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/aesop-s-fables/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/aesop-s-fables/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/aesop-s-fables/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/aesop-s-fables/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/aesop-s-fables/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/aesop-s-fables/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-mulla-nasruddin/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/grimm-fairy-tales/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-hans-christian-andersen/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/grimm-fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/grimm-fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/grimm-fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/grimm-fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/grimm-fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/grimm-fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/grimm-fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/grimm-fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/grimm-fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/grimm-fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-hans-christian-andersen/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/hans-christian-andersen/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-jataka-tales/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/hans-christian-andersen/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/hans-christian-andersen/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hans-christian-andersen/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/hans-christian-andersen/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/hans-christian-andersen/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/hans-christian-andersen/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/hans-christian-andersen/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/hans-christian-andersen/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/hans-christian-andersen/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/hans-christian-andersen/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-jataka-tales/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/mulla-nasruddin/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-charles-perrault/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/mulla-nasruddin/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/mulla-nasruddin/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/mulla-nasruddin/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/mulla-nasruddin/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/mulla-nasruddin/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/mulla-nasruddin/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/mulla-nasruddin/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/mulla-nasruddin/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/mulla-nasruddin/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mulla-nasruddin/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-charles-perrault/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/jataka-tales/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-paramartha-guru/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/jataka-tales/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/jataka-tales/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/jataka-tales/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/jataka-tales/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/jataka-tales/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/jataka-tales/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/jataka-tales/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/jataka-tales/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/jataka-tales/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/jataka-tales/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-paramartha-guru/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/charles-perrault/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-grimm-fairy-tales/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/charles-perrault/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/charles-perrault/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/charles-perrault/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/charles-perrault/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/charles-perrault/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/charles-perrault/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/charles-perrault/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/charles-perrault/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/charles-perrault/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/charles-perrault/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-grimm-fairy-tales/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/arabian-nights/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-akbar-birbal/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/arabian-nights/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/arabian-nights/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/arabian-nights/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/arabian-nights/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/arabian-nights/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/arabian-nights/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/arabian-nights/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/arabian-nights/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/arabian-nights/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/arabian-nights/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-akbar-birbal/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/vikram-vetal/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-vikram-vetal/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/vikram-vetal/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/vikram-vetal/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/vikram-vetal/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/vikram-vetal/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/vikram-vetal/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/vikram-vetal/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/vikram-vetal/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/vikram-vetal/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/vikram-vetal/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/vikram-vetal/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-vikram-vetal/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/collections/paramartha-guru/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/collections/hi-collection-panchatantra/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/paramartha-guru/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/paramartha-guru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/paramartha-guru/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/paramartha-guru/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/paramartha-guru/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/paramartha-guru/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/paramartha-guru/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/paramartha-guru/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/paramartha-guru/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/paramartha-guru/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/collections/ta-collection-panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/collections/hi-collection-panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/collections/es-collection-panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/collections/zh-collection-panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/collections/pt-collection-panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/collections/ml-collection-panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/collections/te-collection-panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/collections/kn-collection-panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/collections/mr-collection-panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/collections/en-collection-panchatantra/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/genres/humorous-tales/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/genres/hi-genre-folktales/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/humorous-tales/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/humorous-tales/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/humorous-tales/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/humorous-tales/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/humorous-tales/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/humorous-tales/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/humorous-tales/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/humorous-tales/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/humorous-tales/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/humorous-tales/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/humorous-tales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-folktales/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/ta-genre-folktales/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/hi-genre-folktales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/es-genre-folktales/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/zh-genre-folktales/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/pt-genre-folktales/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/ml-genre-folktales/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/te-genre-folktales/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/kn-genre-folktales/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/mr-genre-folktales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-folktales/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/genres/folktales/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/genres/hi-genre-fables/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/folktales/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/folktales/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/folktales/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/folktales/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/folktales/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/folktales/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/folktales/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/folktales/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/folktales/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/folktales/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/folktales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-fables/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/ta-genre-fables/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/hi-genre-fables/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/es-genre-fables/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/zh-genre-fables/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/pt-genre-fables/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/ml-genre-fables/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/te-genre-fables/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/kn-genre-fables/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/mr-genre-fables/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-fables/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/genres/fairy-tales/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/genres/hi-genre-humorous-tales/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/fairy-tales/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-humorous-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/ta-genre-humorous-tales/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/hi-genre-humorous-tales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/es-genre-humorous-tales/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/zh-genre-humorous-tales/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/pt-genre-humorous-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/ml-genre-humorous-tales/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/te-genre-humorous-tales/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/kn-genre-humorous-tales/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/mr-genre-humorous-tales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-humorous-tales/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/genres/fables/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/genres/hi-genre-adventure-stories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/fables/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/fables/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/fables/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/fables/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/fables/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/fables/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/fables/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/fables/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/fables/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/fables/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/fables/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-adventure-stories/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/ta-genre-adventure-stories/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/hi-genre-adventure-stories/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/es-genre-adventure-stories/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/zh-genre-adventure-stories/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/pt-genre-adventure-stories/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/ml-genre-adventure-stories/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/te-genre-adventure-stories/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/kn-genre-adventure-stories/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/mr-genre-adventure-stories/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-adventure-stories/"/>
   </url>
   <url>
-    <loc>https://dhinamorukathai.pages.dev/hi/genres/adventure-stories/</loc>
+    <loc>https://dhinamorukathai.pages.dev/hi/genres/hi-genre-fairy-tales/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/adventure-stories/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/adventure-stories/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/adventure-stories/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/adventure-stories/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/adventure-stories/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/adventure-stories/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/adventure-stories/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/adventure-stories/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/adventure-stories/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/adventure-stories/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/adventure-stories/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/ta-genre-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/hi-genre-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/es-genre-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/zh-genre-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/pt-genre-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/ml-genre-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/te-genre-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/kn-genre-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/mr-genre-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-fairy-tales/"/>
+  </url>
+  <url>
+    <loc>https://dhinamorukathai.pages.dev/hi/genres/hi-genre-jataka-tales/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/ta-genre-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/hi-genre-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/es-genre-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/zh-genre-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/pt-genre-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/ml-genre-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/te-genre-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/kn-genre-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/mr-genre-jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-jataka-tales/"/>
+  </url>
+  <url>
+    <loc>https://dhinamorukathai.pages.dev/hi/genres/hi-genre-riddle-tale/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-riddle-tale/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dhinamorukathai.pages.dev/ta/genres/ta-genre-riddle-tale/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dhinamorukathai.pages.dev/hi/genres/hi-genre-riddle-tale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dhinamorukathai.pages.dev/es/genres/es-genre-riddle-tale/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dhinamorukathai.pages.dev/zh/genres/zh-genre-riddle-tale/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dhinamorukathai.pages.dev/pt/genres/pt-genre-riddle-tale/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dhinamorukathai.pages.dev/ml/genres/ml-genre-riddle-tale/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dhinamorukathai.pages.dev/te/genres/te-genre-riddle-tale/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dhinamorukathai.pages.dev/kn/genres/kn-genre-riddle-tale/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dhinamorukathai.pages.dev/mr/genres/mr-genre-riddle-tale/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dhinamorukathai.pages.dev/en/genres/en-genre-riddle-tale/"/>
   </url>
 </urlset>

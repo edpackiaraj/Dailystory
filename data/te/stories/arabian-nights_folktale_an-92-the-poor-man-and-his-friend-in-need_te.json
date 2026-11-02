@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-92-the-poor-man-and-his-friend-in-need",
+  "slug": "an-92-the-poor-man-and-his-friend-in-need-te",
+  "language": "te",
+  "title": "The Poor Man and His Friend in Need (తెలుగు)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In Baghdad lived three devoted friends who had sworn a sacred bond of brotherhood in their youth. One was a bookbinder, the second a leat... [TE]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the poor man and his friend in need",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In Baghdad lived three devoted friends who had sworn a sacred bond of brotherhood in their youth. One was a bookbinder, the second a leather-worker, and the third a scribe. Each earned a modest living, and whenever one lacked bread, the others shared their earnings without keeping account.\n\nOne difficult year, the bookbinder was struck by severe misfortune: his workshop caught fire, destroying his tools and leather skins. Deeply indebted and having nothing to feed his children, he went to the leather-worker and confided his plight with tears.\n\nThe leather-worker had only one heavy purse containing a thousand silver dirhams, which he had saved over ten years to purchase new machinery. Without a moment's hesitation, the leather-worker placed the purse in his friend’s hands: 'Take this, brother! My machinery can wait; your children must not hunger.'\n\nThe bookbinder thanked him with tears of gratitude and returned home. But no sooner had he crossed his threshold than the third friend, the scribe, arrived at his door, pale and trembling. The scribe’s house had been seized by an oppressive landlord, and his family sat in the street.\n\nThe bookbinder looked at the purse of a thousand dirhams. Though he needed the money desperately himself, he thought: 'My friend's family is on the cobblestones; my children at least have a roof.' He handed the sealed purse directly to the scribe!\n\nThe scribe took the purse and ran immediately to the leather-worker to pay off his debt—for it was the leather-worker who had leased him his house!\n\nWhen the leather-worker saw his own sealed purse returned to him, he was astonished. He summoned the bookbinder and the scribe, and the three friends stood together, each having placed the other's need before his own, the purse having traveled in a complete circle of selfless love!\n\nThe Caliph Harun al-Rashid, hearing of this sublime contest of selflessness, summoned the three friends, rewarded each with three thousand dinars from the royal treasury, and praised their brotherhood as the highest glory of Baghdad.",
+  "moral": "True friendship puts the need of the companion above one's own comfort, creating an unbroken chain of love. [TE]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Poor Man and His Friend in Need illustration from the 1001 Arabian Nights collection.",
+  "word_count": 335,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Poor Man and His Friend in Need\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Telugu readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience",
+    "empathy",
+    "kindness"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Poor Man and His Friend in Need\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 92,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

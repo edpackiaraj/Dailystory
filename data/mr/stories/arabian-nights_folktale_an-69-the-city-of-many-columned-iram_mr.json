@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-69-the-city-of-many-columned-iram",
+  "slug": "an-69-the-city-of-many-columned-iram-mr",
+  "language": "mr",
+  "title": "The City of Many-Columned Iram (मराठी)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the reign of the Umayyad Caliph Mu'awiyah, an Arab traveler named Abdullah ibn Qilab was searching for a lost camel in the great south... [MR]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the city of many-columned iram",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the reign of the Umayyad Caliph Mu'awiyah, an Arab traveler named Abdullah ibn Qilab was searching for a lost camel in the great southern wilderness of the Rub al-Khali—the Empty Quarter. As a violent sandstorm cleared, Abdullah beheld a sight that made him doubt his own senses: rising from the red dunes stood the towering walls of a magnificent city, built entirely of golden bricks and silver tiles.\n\nEntering through massive gates of carved sandalwood studded with rubies, Abdullah walked through silent, empty streets lined with colossal palaces supported by thousands of translucent pillars carved from alabaster and chrysolite. In the courtyards flowed clear canals over beds of pearls and emeralds, and trees made of burnished gold bore fruits of amber and turquoise. Yet not a single human footstep broke the silence, and not a single bird sang in the branches.\n\nFilled with awe and dread, Abdullah gathered a handful of pearls from the dry riverbed, mounted his camel, and fled back to the civilized cities of Yemen.\n\nWhen news of his discovery reached the Caliph, Abdullah was brought to Damascus. The Caliph summoned the venerable sage Ka'ab al-Ahbar and asked: 'Is there truly such a city in the desert, or was this traveler delirious with thirst?'\n\nThe sage unrolled ancient chronicles and answered: 'It is the truth, O Commander of the Faithful. That is Iram of the Pillars, built by King Shaddad of the ancient tribe of Ad. In his supreme arrogance, Shaddad sought to build a paradise on earth that would rival the celestial heavens. For five hundred years, he gathered all the gold, gems, and pearls of the world to build his city. But when he approached its gates to inaugurate his glory, a celestial cry of wrath struck him and his host, and they perished in an instant. The city was swallowed by the drifting sands, hidden forever from human eyes, save for a lone traveler who would find it to remind the mighty that all earthly pride is nothing but passing dust.'",
+  "moral": "Arrogant pride that builds monuments to rival the heavens vanishes like dust before the desert wind. [MR]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The City of Many-Columned Iram illustration from the 1001 Arabian Nights collection.",
+  "word_count": 338,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The City of Many-Columned Iram\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The City of Many-Columned Iram\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 69,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

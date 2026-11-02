@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-37-the-cat-and-the-mice",
+  "slug": "aesops-fables-37-the-cat-and-the-mice-kn",
+  "language": "kn",
+  "title": "The Cat and the Mice",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A farmhouse was overrun with mice who feasted upon wheat sacks and lard in the pantry. Learning of the problem, the farmer brought home an agile, sharp-clawed cat. The cat hunted w...",
+  "keywords": [
+    "aesop's fables",
+    "the cat and the mice",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "A farmhouse was overrun with mice who feasted upon wheat sacks and lard in the pantry. Learning of the problem, the farmer brought home an agile, sharp-clawed cat. The cat hunted with such stealth and ferocity that within a week, half the mice were devoured.\n\nTerrified for their lives, the surviving mice resolved never to venture out of their deep wall-cracks onto the open floor, subsisting on whatever dry crumbs fell into the wainscot.\n\nFinding his hunting thwarted and his stomach empty, the cunning cat devised a scheme. He climbed up to a wooden peg on the wall, suspended himself by his hind paws, and hung motionless with his head limp and eyes closed, pretending to be dead, hoping the mice would assume the farmer had hanged him for stealing sausages.\n\nA prudent old mouse, whose whiskers were gray and who had lost half an ear to earlier battles, crept to the edge of the hole and looked up at the dangling feline.\n\n\"Aha, friend!\" called the old mouse with a dry chuckle. \"You hang there very gracefully indeed, but even if you were to turn yourself into a bag of flour or a cured ham, not a single mouse in this pantry would venture near your claws! We know your shape too well to trust your tricks!\"",
+  "moral": "The wise are not deceived twice by an enemy who changes his disguise.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Cat and the Mice illustration from the Aesop's Fables collection.",
+  "word_count": 218,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Cat and the Mice\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Kannada readers, safe for schools and family bedtime).",
+  "values": [
+    "vigilance",
+    "memory",
+    "caution"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Cat and the Mice\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 37",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-111-the-sole",
+  "slug": "grimm-fairy-tales-111-the-sole-kn",
+  "language": "kn",
+  "title": "The Sole",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "The fishes of the sea, having lived in wild confusion for centuries, decided they needed a king to maintain order and dispense justice in the deep waters. They agreed that whicheve...",
+  "keywords": [
+    "grimm fairy tales",
+    "the sole",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "The fishes of the sea, having lived in wild confusion for centuries, decided they needed a king to maintain order and dispense justice in the deep waters. They agreed that whichever fish could swim fastest through the waves to the distant sandbar should be proclaimed sovereign.\n\nThe Pike, the Salmon, the Herring, and all the finned creatures lined up in the blue swell. At the signal, they darted forward with tremendous speed. The nimble Herring outpaced them all, shooting like a silver arrow through the foam and touching the sandbar first.\n\nThe Sole, a flat, boastful fish who had lagged far behind, arrived breathless and asked with arrogant disdain, \"Who is it that has won the crown?\"\n\n\"The Herring! The Herring!\" cried the joyous assembly of fishes.\n\n\"The naked Herring?\" sneered the Sole, twisting his mouth in bitter mockery and curling his lip. \"That scrawny little fellow our king? What an absurd joke!\"\n\nBecause of this venomous grimace of envy and disrespect, the Sole's mouth remained twisted to one side forever, his eyes shifted awkwardly to the upper surface, and he was condemned to crawl flat upon the ocean floor, bearing the permanent mark of his jealous spite.",
+  "moral": "Envy and jealous mockery disfigure the soul and leave an indelible mark.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Sole illustration from the Grimm Fairy Tales collection.",
+  "word_count": 198,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Sole\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Kannada readers, safe for schools and family bedtime).",
+  "values": [
+    "humility",
+    "justice",
+    "consequence-of-envy"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Sole\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 111,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

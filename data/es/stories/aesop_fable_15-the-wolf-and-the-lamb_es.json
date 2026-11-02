@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-15-the-wolf-and-the-lamb",
+  "slug": "aesops-fables-15-the-wolf-and-the-lamb-es",
+  "language": "es",
+  "title": "The Wolf and the Lamb",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A sweet, innocent little lamb, having strayed from the flock, wandered down to a clear mountain brook to quench her thirst. While she was delicately lapping the fresh water, a fier...",
+  "keywords": [
+    "aesop's fables",
+    "the wolf and the lamb",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "A sweet, innocent little lamb, having strayed from the flock, wandered down to a clear mountain brook to quench her thirst. While she was delicately lapping the fresh water, a fierce, ravenous wolf stalked out from the dark pine woods in search of prey.\n\nEager to devour the tender lamb, yet wishing to justify his savagery with an appearance of justice, the wolf bared his yellow fangs and snarled furiously: \"How dare you muddy the water that I am trying to drink, you insolent rascal? Do you have no respect for your elders?\"\n\nThe trembling lamb bleated gently in reply: \"Pardon me, noble sir, but I cannot possibly be muddying your water. You are drinking high up the stream near the spring, while I am standing far below you; the current flows from you down to me!\"\n\nFrustrated by her flawless logic, the wolf scowled and barked: \"Be that as it may, you are an insolent rogue! Exactly six months ago, you insulted me behind my back with slanderous words!\"\n\n\"Alas, sir,\" cried the lamb in tears, \"six months ago I was not even born! I am only three months old and still drink my mother's milk.\"\n\n\"If it was not you, then it was your father!\" roared the savage brute. \"Your entire clan hates wolves, and I shall not be cheated of my dinner!\"\n\nWithout another word, the wolf sprang upon the defenseless lamb and dragged her into the dark forest, proving that when cruelty has resolved upon a deed, no plea of innocent truth can alter its wicked design.",
+  "moral": "A tyrant will always invent an excuse for cruelty, and innocence cannot reason with malice.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Wolf and the Lamb illustration from the Aesop's Fables collection.",
+  "word_count": 261,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Wolf and the Lamb\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Spanish readers, safe for schools and family bedtime).",
+  "values": [
+    "justice",
+    "innocence",
+    "tyranny"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Wolf and the Lamb\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 15",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

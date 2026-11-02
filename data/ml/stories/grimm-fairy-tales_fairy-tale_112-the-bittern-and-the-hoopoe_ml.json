@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-112-the-bittern-and-the-hoopoe",
+  "slug": "grimm-fairy-tales-112-the-bittern-and-the-hoopoe-ml",
+  "language": "ml",
+  "title": "The Bittern and the Hoopoe",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "In ancient times, before they took their avian forms, the Bittern and the Hoopoe were mortal herdsmen pasturing cattle in adjacent meadows....",
+  "keywords": [
+    "grimm fairy tales",
+    "the bittern and the hoopoe",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "In ancient times, before they took their avian forms, the Bittern and the Hoopoe were mortal herdsmen pasturing cattle in adjacent meadows.\n\nThe man who became the Bittern had rich, fat cows, but he was indolent and loved his afternoon nap. While he slumbered beneath the alders, his cows strayed into treacherous bogs and sank into the mire. When he awoke and found his herd missing, he rushed wildly among the reeds, crying in desperate mournful tones, \"Come back! Come back!\" transformed into a marsh bird whose hollow, booming cry echoes across the fens to this day.\n\nThe man who became the Hoopoe, on the other hand, was assigned lean, unruly heifers that sprinted in all directions. He had to run up hills and down valleys, waving his staff, shouting and whistling until his breath gave out: \"Up, up, up! Heifers, back!\" In the end, he was changed into the crested Hoopoe, whose distinctive call \"Up-up-up\" still sounds from sunny glades, forever echoing the frantic cries of a herdsman trying to keep his wandering herd in line.",
+  "moral": "Neglect of duty brings lamentation, while diligent care preserves honor.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Bittern and the Hoopoe illustration from the Grimm Fairy Tales collection.",
+  "word_count": 177,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Bittern and the Hoopoe\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "industry",
+    "vigilance",
+    "duty"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Bittern and the Hoopoe\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 112,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

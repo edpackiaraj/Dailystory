@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-368-story-of-the-limping-schoolmaster",
+  "slug": "an-368-story-of-the-limping-schoolmaster-kn",
+  "language": "kn",
+  "title": "Story of the Limping Schoolmaster (ಕನ್ನಡ)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The third teacher of the academy, Master Kamil, walked with a noticeable limp, leaning upon a polished pearwood cane. He smiled at the ga... [KN]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "story of the limping schoolmaster",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "The third teacher of the academy, Master Kamil, walked with a noticeable limp, leaning upon a polished pearwood cane.\nHe smiled at the gathered youths: 'Since my brothers have confessed their follies, let me complete the trio with the tale of my stubborn foot!\n\nIn my youth, I was an impatient copyist who hated copying long manuscripts line by line. I was constantly seeking shortcuts to wealth.\nOne day, an eccentric alchemist told me that on the highest ledge of the Citadel cliffs, there grew a rare wild herb whose juice, when mixed with ink, would write letters of pure gold.\n\nInstead of taking the winding, paved road that climbed safely to the summit, I reasoned: \"Why walk three miles around the mountain when I can climb the sheer rock face in twenty minutes?\"\n\nI began scaling the crumbling limestone precipice. Halfway up, with the city roofs spread far below, I reached for a tuft of green weeds growing out of a rock fissure.\nThe moment my fingers closed around the weed, the rock ledge crumbled beneath my sandals!\n\nI tumbled down twenty cubits, bouncing off thorny brambles, until I landed hard in an olive orchard, snapping my ankle bone into splinters!\n\nWhen the bone-setter finished binding my leg, he looked at the crushed weeds still clutched in my bruised hand. He laughed and said:\n\"Young fool! This is not an alchemical herb; it is ordinary bitter spurge, which even goats refuse to eat!\"\n\nMy ankle healed crookedly, leaving me with this eternal limp. But that stumble was the greatest blessing of my life. It taught me that there are no magic shortcuts in life—neither to knowledge, nor to wealth, nor to virtue.\nSince then, I walk slowly upon the paved road of patient study, teaching you boys that slow, steady steps upon the right path always outstrip the reckless leaps of vanity.'",
+  "moral": "Greed for shortcuts brings a heavy stumble; the straight path of honest patience leads safely home. [KN]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Story of the Limping Schoolmaster illustration from the 1001 Arabian Nights collection.",
+  "word_count": 313,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Story of the Limping Schoolmaster\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Kannada readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Story of the Limping Schoolmaster\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 368,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

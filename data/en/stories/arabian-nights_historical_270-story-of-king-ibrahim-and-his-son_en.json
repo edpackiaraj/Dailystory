@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-270-story-of-king-ibrahim-and-his-son",
+  "slug": "arabian-nights-270-story-of-king-ibrahim-and-his-son",
+  "language": "en",
+  "title": "King Ibrahim and His Royal Son",
+  "genre": "Historical Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Bakhtiyar related the story of King Ibrahim of Balkh:",
+  "keywords": [
+    "arabian nights",
+    "story of king ibrahim and his son",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Bakhtiyar related the story of King Ibrahim of Balkh:\n\n'King Ibrahim had an only son, Prince Ismail, whom he wished to train in the highest virtues of statecraft. When the prince reached eighteen years of age, the king sent him disguised as a common student to live in the provincial cities for two years.\n\nPrince Ismail lived in student hostels, ate barley bread with poor weavers, helped farmers harvest wheat, and sat among the litigating peasants in the courts of justice.\n\nHe saw how corrupt magistrates favored the wealthy, how oppressive tax-collectors seized the milk-goats of widows, and how the honest poor suffered in silence.\n\nWhen he returned to the palace, his father seated him upon the throne and asked: \"What did you learn of your royal destiny, my son?\"\n\nPrince Ismail answered with tears in his eyes: \"Father, I learned that a king is not a master to be served, but the chief servant of the realm! His palace exists to shelter the helpless, his army to defend the peaceful, and his treasury to feed the hungry. If a single orphan cries in the night from injustice, the king’s crown is stained with blood.\"\n\nKing Ibrahim embraced his son, weeping with joyful pride, and crowned him king before the assembled nation, and Prince Ismail governed for fifty years as the most beloved monarch of the East.'",
+  "moral": "A prince’s true destiny is to serve his people with justice, empathy, and humble dedication.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Story of King Ibrahim and His Son illustration from the Arabian Nights collection.",
+  "word_count": 227,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Story of King Ibrahim and His Son\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "justice",
+    "service",
+    "humility",
+    "leadership"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Story of King Ibrahim and His Son\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 270,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

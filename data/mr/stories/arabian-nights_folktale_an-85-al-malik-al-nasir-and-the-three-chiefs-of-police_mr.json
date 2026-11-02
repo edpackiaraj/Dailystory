@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-85-al-malik-al-nasir-and-the-three-chiefs-of-police",
+  "slug": "an-85-al-malik-al-nasir-and-the-three-chiefs-of-police-mr",
+  "language": "mr",
+  "title": "Al-Malik al-Nasir and the Three Chiefs of Police (मराठी)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Sultan Al-Malik al-Nasir of Cairo sat upon his throne in the Citadel, holding council with the three chiefs of police who governed the qu... [MR]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "al-malik al-nasir and the three chiefs of police",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Sultan Al-Malik al-Nasir of Cairo sat upon his throne in the Citadel, holding council with the three chiefs of police who governed the quarters of Cairo, Fustat, and Qus. Desiring to test their wisdom, the Sultan commanded: 'Let each of you recount the most remarkable case of justice you have ever administered, that I may see who among you truly understands the human heart.'\n\nThe Chief of Cairo spoke first: 'Sire, I once captured a man who broke into a bakery at midnight. When I examined him, I found he had stolen neither gold nor silver, but only three loaves of bread. His wife had given birth that night, and his three young children were starving. Instead of cutting off his hand, I paid the baker for the bread, secured the man employment in the public granaries, and saw him become an honest citizen. Justice must not punish hunger where industry can provide work.'\n\nThe Chief of Fustat spoke next: 'A merchant accused his neighbor of stealing a bag of pearls. The neighbor denied the theft, swearing by the sacred oaths. Observing the accuser’s servants, I noticed a young boy who turned pale whenever the pearls were mentioned. Taking the boy aside with gentle kindness, he confessed that he had hidden the pearls in the garden wall to buy toys. I restored the pearls to the merchant, saved the innocent neighbor from execution, and counseled the boy’s father. True justice protects the innocent by seeing through appearances.'\n\nThe Chief of Qus spoke third: 'Two brothers quarreled bitterly over their father’s inheritance of an orchard, ready to slay each other. I ordered the orchard divided equally, but commanded that neither brother could harvest his fruit until he had delivered one basket of his finest figs to his brother's door. Within a month, the daily exchange of gifts dissolved their anger, and they embraced as friends. Justice must heal severed families rather than merely divide property.'\n\nThe Sultan smiled with profound satisfaction, declaring: 'Blessed is the kingdom whose guardians rule with mercy, truth, and reconciliation rather than the naked blade.'",
+  "moral": "Fair justice requires discernment, mercy, and understanding the root cause behind every human action. [MR]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Al-Malik al-Nasir and the Three Chiefs of Police illustration from the 1001 Arabian Nights collection.",
+  "word_count": 348,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Al-Malik al-Nasir and the Three Chiefs of Police\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Al-Malik al-Nasir and the Three Chiefs of Police\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 85,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

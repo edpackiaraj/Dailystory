@@ -1,0 +1,127 @@
+{
+  "id": "akbar-birbal-175-birbal-tale-175",
+  "slug": "akbar-birbal-175-birbal-tale-175-ml",
+  "language": "ml",
+  "title": "The Two Beggars at the Golden Gate (ML)",
+  "genre": "Humorous Tales",
+  "collection": "Akbar–Birbal",
+  "culture_region": "India",
+  "age_group": "Below 13",
+  "summary": "One beggar prays to the Emperor for help, while the other prays to God. Akbar rewards the first beggar, but destiny delivers the gold to the second. [ML]",
+  "keywords": [
+    "akbar–birbal",
+    "birbal tale 175",
+    "moral stories for children",
+    "world folktales and fables",
+    "akbar-birbal"
+  ],
+  "tags": [
+    "akbar-birbal",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Outside the main gate of the Agra Fort, two blind beggars sat begging every morning.\n\nThe first beggar shouted whenever the Emperor's retinue passed: 'May God bless Emperor Akbar! He who receives the favor of the Emperor receives the wealth of the world!'\n\nThe second beggar chanted calmly: 'May God bless all creation! He who relies upon the Almighty Creator is never in need of anything!'\n\nAkbar, hearing both men daily, felt his royal pride stirred by the first beggar's praise: 'That first beggar acknowledges my imperial power! I shall reward his loyalty and show him that the Emperor can make a man rich in an instant!'\n\nAkbar ordered the palace baker to bake a large loaf of sweet bread. Inside the dough, the royal jeweler concealed ten heavy gold mohurs.\n\nAkbar personally handed the loaf to the first beggar, saying: 'Take this bread, my friend; it will satisfy your hunger!'\n\nThe first beggar felt the heavy bread, thanked the Emperor, and sat down. Being already full from a bowl of porridge, he turned to the second beggar and said:\n\n'Brother, the Emperor gave me this heavy loaf of bread, but I am not hungry. If you give me two copper dams, you may have this entire loaf of bread for your dinner.'\n\nThe second beggar agreed, gave his two copper coins, took the loaf of bread, and walked home.\n\nWhen the second beggar broke open the bread at his hut, out rolled ten gleaming gold mohurs! Rejoicing in God's providence, the second beggar bought a house, cattle, and farmland, and was never in want again.\n\nThe next morning, Akbar saw the first beggar sitting in the dust, still begging!\n\nAkbar stopped in shock: 'Did you not eat the bread I gave you yesterday?'\n\nThe beggar replied: 'No, Sire, I sold it to my blind companion for two copper dams!'\n\nBirbal smiled with gentle, profound wisdom:\n\n'You see, Your Majesty? Man proposes, but God disposes!\n\n'You sought to enrich the man who relied upon your royal favor, but destiny delivered the treasure directly into the hands of the man who trusted in the Almighty!\n\n'An emperor can bestow bread, but only providence can grant the fortune within.'\n\nAkbar bowed his head in deep humility, acknowledging that human power is merely an instrument of a higher divine will.",
+  "moral": "ഗുണപാഠം: Wit beats power",
+  "image": "/images/stories/akbar-birbal.webp",
+  "image_alt": "Birbal Tale 175 illustration from the Akbar–Birbal collection.",
+  "word_count": 387,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Birbal Tale 175\"?",
+      "options": [
+        "Wit beats power",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional Court Folklore of Akbar and Birbal",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Akbar–Birbal anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Birbal Tale 175\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wit beats power\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 175,
+  "reviewed": true,
+  "source": "Akbar-Birbal folklore - Mughal India 16th century - public domain oral tradition",
+  "license": "Public Domain",
+  "credit": "Akbar–Birbal Global Treasury"
+}

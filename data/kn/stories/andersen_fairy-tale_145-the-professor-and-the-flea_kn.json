@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-145-the-professor-and-the-flea",
+  "slug": "hans-christian-andersen-145-the-professor-and-the-flea-kn",
+  "language": "kn",
+  "title": "The Professor and the Flea",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "A clever balloonist and conjurer fell on hard times and was left with only a trained flea that could perform fencing drills and fire miniature brass cannons....",
+  "keywords": [
+    "hans christian andersen",
+    "the professor and the flea",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "A clever balloonist and conjurer fell on hard times and was left with only a trained flea that could perform fencing drills and fire miniature brass cannons.\n\nTraveling to the land of the Cannibals, the professor and his flea performed before the savage king and queen, who were so enchanted that they refused to let them leave, keeping them in golden cages.\n\nThe professor used his wits: he built a giant hot-air balloon, told the king it was a royal chariot to view the heavens, climbed aboard with his flea, and sailed away to freedom!",
+  "moral": "Ingenuity and presence of mind can turn even the smallest partner into an instrument of liberation.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Professor and the Flea illustration from the Hans Christian Andersen collection.",
+  "word_count": 95,
+  "reading_time": "1 min",
+  "listen_time": "1 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Professor and the Flea\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Hans Christian Andersen. (Localized for Kannada readers, safe for schools and family bedtime).",
+  "values": [
+    "ingenuity",
+    "freedom",
+    "wit"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Professor and the Flea\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": 145,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Heritage Anthology"
+}

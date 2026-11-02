@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-175-the-fox-and-the-cat",
+  "slug": "grimm-fairy-tales-175-the-fox-and-the-cat-zh",
+  "language": "zh",
+  "title": "The Fox and the Cat",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A proud fox met a humble grey cat in the forest and looked down upon her with haughty disdain. \"Good day, mistress cat,\" sneered the fox. \"How do you manage to survive in these dan...",
+  "keywords": [
+    "grimm fairy tales",
+    "the fox and the cat",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A proud fox met a humble grey cat in the forest and looked down upon her with haughty disdain. \"Good day, mistress cat,\" sneered the fox. \"How do you manage to survive in these dangerous times? How many clever arts and tricks do you possess?\"\n\n\"I know only one single art,\" replied the cat modestly.\n\n\"Only one?\" laughed the fox boastfully. \"How pitiful! I am master of a hundred arts, and besides that, I possess a sack full of cunning tricks that can outwit any hunter or hound in the world!\"\n\nJust then, four ferocious hunting hounds came bounding through the thicket, barking fiercely, followed by hunters on swift horses.\n\nIn an instant, the cat used her one art: she sprang up the trunk of a tall birch tree and sat safely in the high branches, sheltered by the dense leaves. \"Open your sack of tricks, master fox!\" called the cat from above. \"Use your hundred arts!\"\n\nThe boastful fox darted this way and that, doubling back, leaping over ditches, and trying all hundred of his cunning tricks. But the hounds surrounded him, cut off his escape, and captured him in the briars.\n\nWatching from her secure perch, the cat sighed: \"Master Fox, all your hundred arts could not save your skin, while my single modest art has kept me safe and sound!\"",
+  "moral": "One reliable, practical skill is worth more than a hundred boastful tricks that fail in danger.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Fox and the Cat illustration from the Grimm Fairy Tales collection.",
+  "word_count": 223,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Fox and the Cat\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "modesty",
+    "practicality",
+    "humility"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Fox and the Cat\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 175,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

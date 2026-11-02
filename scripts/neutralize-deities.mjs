@@ -32,7 +32,9 @@ let totalReplacements = 0;
 let violationsFound = 0;
 
 for (const lang of languages) {
-  const storiesFilePath = path.join(dataDir, lang, 'stories.json');
+  const langStoriesFilePath = path.join(dataDir, lang, `stories-${lang}.json`);
+  const legacyStoriesFilePath = path.join(dataDir, lang, 'stories.json');
+  const storiesFilePath = fs.existsSync(langStoriesFilePath) ? langStoriesFilePath : legacyStoriesFilePath;
   if (!fs.existsSync(storiesFilePath)) continue;
 
   let stories = JSON.parse(fs.readFileSync(storiesFilePath, 'utf8'));

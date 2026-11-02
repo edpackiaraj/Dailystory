@@ -1,0 +1,129 @@
+{
+  "id": "mulla-nasruddin-76-the-donkeys-tail",
+  "slug": "mulla-nasruddin-76-the-donkeys-tail",
+  "language": "en",
+  "title": "The Donkey's Tail",
+  "genre": "Humorous Tales",
+  "collection": "Mulla Nasruddin",
+  "culture_region": "Middle East & Central Asia",
+  "age_group": "Below 13",
+  "summary": "Nasruddin was leading his donkey to the bazaar. A passerby said: \"Mulla, that donkey's tail is much too long; it looks untidy!\" Nasruddin took his shears and snipped off half the t...",
+  "keywords": [
+    "mulla nasruddin",
+    "the donkey's tail",
+    "moral stories for children",
+    "world folktales and fables",
+    "mulla-nasruddin"
+  ],
+  "tags": [
+    "mulla-nasruddin",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Nasruddin was leading his donkey to the bazaar. A passerby said: \"Mulla, that donkey's tail is much too long; it looks untidy!\" Nasruddin took his shears and snipped off half the tail.\n\nA little further, an old woman scolded: \"Shame on you! You cut the poor beast's tail so short it cannot brush away the flies!\" Nasruddin tried to tie the severed hairs back on.\n\nAnother man laughed: \"Look at that ridiculous patchwork tail!\"\n\nNasruddin threw his hands in the air: \"If a man listens to every fool in the marketplace, he will end up cutting off his own ears to please the crowd!\"",
+  "moral": "Trying to please every critic in the crowd leads only to losing one's head.",
+  "image": "/images/stories/nasruddin.webp",
+  "image_alt": "The Donkey's Tail illustration from the Mulla Nasruddin collection.",
+  "word_count": 104,
+  "reading_time": "1 min",
+  "listen_time": "1 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Donkey's Tail\"?",
+      "options": [
+        "Foolishness hides wisdom; laughter teaches truth",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional Satirical Folklore of Mulla Nasruddin Hodja",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Mulla Nasruddin anthology.",
+  "values": [
+    "independence",
+    "satire",
+    "discernment"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Donkey's Tail\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Foolishness hides wisdom; laughter teaches truth\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 76,
+  "reviewed": true,
+  "source": "Nasreddin Hodja folklore - 13th century, public domain, oral tradition across Turkey, Persia, Central Asia, India",
+  "license": "Public Domain",
+  "credit": "Mulla Nasruddin Global Treasury"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-117-master-pfriem",
+  "slug": "grimm-fairy-tales-117-master-pfriem-hi",
+  "language": "hi",
+  "title": "Master Pfriem",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "Master Pfriem was a cobbler so exceedingly irritable and fault-finding that nothing on earth could ever please him. If a shoe had five stitches, he complained it lacked six; if the...",
+  "keywords": [
+    "grimm fairy tales",
+    "master pfriem",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Master Pfriem was a cobbler so exceedingly irritable and fault-finding that nothing on earth could ever please him. If a shoe had five stitches, he complained it lacked six; if the leather was soft, he insisted it should be stiff; and if the apprentice was diligent, Pfriem cursed him for being slow.\n\nWhen Pfriem died, he climbed up to heaven's gate and knocked loudly. Saint Peter opened the gate and warned him: \"Master Pfriem, you may enter heaven, but remember this: you must keep your mouth shut. Here you must find no faults, critique no angel, and meddle in no divine affairs, or you will be cast out.\"\n\nPfriem promised to behave, but within an hour his fingers twitched with irritation. He saw two angels carrying a great beam; they held it crosswise instead of lengthwise, making it hard to pass through the golden portal. Pfriem bit his lip until blood flowed, trying to restrain himself.\n\nNext, he saw a team of celestial horses pulling an overloaded wagon of hay, and the driver sat backward. This was too much for the compulsive fault-finder. \"Hey, you clumsy blockhead!\" shouted Pfriem at the top of his lungs. \"Who ever saw horses harnessed that way? Turn your cart around, you foolish knave!\"\n\nAt that instant, Saint Peter appeared, took Master Pfriem by the collar, and gently led him outside the gates, saying, \"Go find a kingdom where perfection needs your corrections, for heaven requires only gratitude and peace.\"",
+  "moral": "Those who spend their lives finding fault in others must learn that silence and grace are higher virtues.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "Master Pfriem illustration from the Grimm Fairy Tales collection.",
+  "word_count": 245,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Master Pfriem\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "tolerance",
+    "humility",
+    "anti-fault-finding"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Master Pfriem\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 117,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

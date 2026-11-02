@@ -88,10 +88,10 @@ const totalLanguagesCount = brandConfig.supportedLanguages.length;
         <h3 class="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white mb-3">Explore</h3>
         <ul class="space-y-2 text-xs sm:text-sm">
           <li><a href={`/${currentLang}/`} class="hover:text-amber-600 transition-colors">{t.todaysStory}</a></li>
-          <li><a href={`/${currentLang}/search/`} class="hover:text-amber-600 transition-colors">Search Library</a></li>
-          <li><a href={`/${currentLang}/favorites/`} class="hover:text-amber-600 transition-colors">⭐ {t.myCorner}</a></li>
-          <li><a href={`/${currentLang}/submit/`} class="hover:text-amber-600 transition-colors">{t.submitStory}</a></li>
-          <li><a href={`/${currentLang}/subscribe/`} class="hover:text-amber-600 transition-colors">Morning Story Email</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-search/`} class="hover:text-amber-600 transition-colors">Search Library</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-favorites/`} class="hover:text-amber-600 transition-colors">⭐ {t.myCorner}</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-submit/`} class="hover:text-amber-600 transition-colors">{t.submitStory}</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-subscribe/`} class="hover:text-amber-600 transition-colors">Morning Story Email</a></li>
         </ul>
       </div>
 
@@ -99,11 +99,11 @@ const totalLanguagesCount = brandConfig.supportedLanguages.length;
       <div>
         <h3 class="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white mb-3">Trust &amp; Family</h3>
         <ul class="space-y-2 text-xs sm:text-sm">
-          <li><a href={`/${currentLang}/about/`} class="hover:text-amber-600 transition-colors">About &amp; Mission</a></li>
-          <li><a href={`/${currentLang}/parent-guide/`} class="hover:text-amber-600 transition-colors">Parent &amp; Teacher Guide</a></li>
-          <li><a href={`/${currentLang}/editorial-policy/`} class="hover:text-amber-600 transition-colors">Editorial &amp; AI Policy</a></li>
-          <li><a href={`/${currentLang}/guidelines/`} class="hover:text-amber-600 transition-colors">Submission Guidelines</a></li>
-          <li><a href={`/${currentLang}/accessibility/`} class="hover:text-amber-600 transition-colors">Accessibility (WCAG 2.2 AA)</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-about/`} class="hover:text-amber-600 transition-colors">About &amp; Mission</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-parent-guide/`} class="hover:text-amber-600 transition-colors">Parent &amp; Teacher Guide</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-editorial-policy/`} class="hover:text-amber-600 transition-colors">Editorial &amp; AI Policy</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-guidelines/`} class="hover:text-amber-600 transition-colors">Submission Guidelines</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-accessibility/`} class="hover:text-amber-600 transition-colors">Accessibility (WCAG 2.2 AA)</a></li>
         </ul>
       </div>
 
@@ -111,12 +111,12 @@ const totalLanguagesCount = brandConfig.supportedLanguages.length;
       <div>
         <h3 class="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white mb-3">Legal &amp; Privacy</h3>
         <ul class="space-y-2 text-xs sm:text-sm">
-          <li><a href={`/${currentLang}/privacy/`} class="hover:text-amber-600 transition-colors">Privacy Policy</a></li>
-          <li><a href={`/${currentLang}/terms/`} class="hover:text-amber-600 transition-colors">Terms of Use</a></li>
-          <li><a href={`/${currentLang}/disclaimer/`} class="hover:text-amber-600 transition-colors">Disclaimer</a></li>
-          <li><a href={`/${currentLang}/cookies/`} class="hover:text-amber-600 transition-colors">Cookies &amp; Local Storage</a></li>
-          <li><a href={`/${currentLang}/copyright/`} class="hover:text-amber-600 transition-colors">Copyright &amp; Takedown</a></li>
-          <li><a href={`/${currentLang}/contact/`} class="hover:text-amber-600 transition-colors">Contact &amp; Grievance</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-privacy/`} class="hover:text-amber-600 transition-colors">Privacy Policy</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-terms/`} class="hover:text-amber-600 transition-colors">Terms of Use</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-disclaimer/`} class="hover:text-amber-600 transition-colors">Disclaimer</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-cookies/`} class="hover:text-amber-600 transition-colors">Cookies &amp; Local Storage</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-copyright/`} class="hover:text-amber-600 transition-colors">Copyright &amp; Takedown</a></li>
+          <li><a href={`/${currentLang}/${currentLang}-contact/`} class="hover:text-amber-600 transition-colors">Contact &amp; Grievance</a></li>
           <li><a href="/sitemap.xml" class="hover:text-amber-600 transition-colors">XML Sitemap</a></li>
         </ul>
       </div>

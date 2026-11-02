@@ -20,21 +20,25 @@ console.log('[Sitemap Generator] Generating multilingual XML sitemaps & robots.t
 
 const sitemapFilenames = [];
 
-const allCollections = [
+const manifestPath = path.join(dataDir, 'en', 'manifest-en.json');
+let allCollections = [
   "Cinderella Stories", "Akbar–Birbal", "Panchatantra", "Tenali Rama",
   "Aesop's Fables", "Grimm Fairy Tales", "Hans Christian Andersen", "Mulla Nasruddin",
-  "Jataka Tales", "Charles Perrault", "Chinese Folktales and Fables", "Arabian Nights",
-  "Vikram–Vetal", "Simhasana Battisi", "Sheikh Chilli", "Paramartha Guru",
-  "Mariyadai Raman", "African Folktales", "Latin American Folktales",
-  "Tamil Folk", "Tamil Folk Humor", "La Fontaine"
+  "Jataka Tales", "Charles Perrault", "Arabian Nights", "Vikram–Vetal", "Paramartha Guru"
+];
+let allGenres = [
+  "Humorous Tales", "Folktales", "Fairy Tales", "Fables",
+  "Fantasy Stories", "Mystery Stories", "Love Stories",
+  "Adventure Stories", "Historical Stories", "Jataka Tales"
 ];
 
-const allGenres = [
-  "Moral Stories", "Funny Stories", "Humorous Tales", "Folktales", "Fairy Tales",
-  "Fables", "Bedtime Stories", "Animal Stories", "Adventure Stories", "Fantasy Stories",
-  "Mystery Stories", "Horror Stories", "Love Stories", "Inspirational Stories",
-  "Mythology Stories", "Legends", "Science Fiction Stories", "Historical Stories"
-];
+if (fs.existsSync(manifestPath)) {
+  try {
+    const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+    allCollections = Array.from(new Set(manifest.map(m => m.collection))).filter(Boolean);
+    allGenres = Array.from(new Set(manifest.map(m => m.genre))).filter(Boolean);
+  } catch {}
+}
 
 // Static core routes for each language
 const coreRoutes = [
@@ -57,7 +61,9 @@ const coreRoutes = [
 ];
 
 for (const lang of languages) {
-  const langStoriesPath = path.join(dataDir, lang, 'stories.json');
+  const langStoriesFilePath = path.join(dataDir, lang, `stories-${lang}.json`);
+  const legacyStoriesFilePath = path.join(dataDir, lang, 'stories.json');
+  const langStoriesPath = fs.existsSync(langStoriesFilePath) ? langStoriesFilePath : legacyStoriesFilePath;
   let stories = [];
   if (fs.existsSync(langStoriesPath)) {
     try {
@@ -75,17 +81,17 @@ for (const lang of languages) {
 
   // 1. Core pages
   for (const route of coreRoutes) {
-    const loc = route ? `${siteUrl}/${lang}/${route}/` : `${siteUrl}/${lang}/`;
+    const loc = route ? `${siteUrl}/${lang}/${lang}-${route}/` : `${siteUrl}/${lang}/`;
     xml += '  <url>\n';
     xml += `    <loc>${loc}</loc>\n`;
     xml += `    <changefreq>${route === '' ? 'daily' : 'monthly'}</changefreq>\n`;
     xml += `    <priority>${route === '' ? '1.0' : '0.7'}</priority>\n`;
 
     for (const altLang of languages) {
-      const altLoc = route ? `${siteUrl}/${altLang}/${route}/` : `${siteUrl}/${altLang}/`;
+      const altLoc = route ? `${siteUrl}/${altLang}/${altLang}-${route}/` : `${siteUrl}/${altLang}/`;
       xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${altLoc}"/>\n`;
     }
-    const xDefaultLoc = route ? `${siteUrl}/en/${route}/` : `${siteUrl}/en/`;
+    const xDefaultLoc = route ? `${siteUrl}/en/en-${route}/` : `${siteUrl}/en/`;
     xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${xDefaultLoc}"/>\n`;
 
     xml += '  </url>\n';
@@ -103,18 +109,18 @@ for (const lang of languages) {
       return norm === col.toLowerCase();
     });
 
-    if (colStories.length >= 5 || lang === 'en') {
+    if (colStories.length >= 5) {
       collectionsIndexed++;
-      const loc = `${siteUrl}/${lang}/collections/${colSlug}/`;
+      const loc = `${siteUrl}/${lang}/collections/${lang}-collection-${colSlug}/`;
       xml += '  <url>\n';
       xml += `    <loc>${loc}</loc>\n`;
       xml += `    <changefreq>weekly</changefreq>\n`;
       xml += `    <priority>0.9</priority>\n`;
 
       for (const altLang of languages) {
-        xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/collections/${colSlug}/"/>\n`;
+        xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/collections/${altLang}-collection-${colSlug}/"/>\n`;
       }
-      xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/collections/${colSlug}/"/>\n`;
+      xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/collections/en-collection-${colSlug}/"/>\n`;
       xml += '  </url>\n';
     }
   }
@@ -125,18 +131,18 @@ for (const lang of languages) {
     const genreSlug = genre.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     const genreStories = indexableStories.filter(s => (s.genre || '').toLowerCase() === genre.toLowerCase());
 
-    if (genreStories.length >= 5 || lang === 'en') {
+    if (genreStories.length >= 5) {
       genresIndexed++;
-      const loc = `${siteUrl}/${lang}/genres/${genreSlug}/`;
+      const loc = `${siteUrl}/${lang}/genres/${lang}-genre-${genreSlug}/`;
       xml += '  <url>\n';
       xml += `    <loc>${loc}</loc>\n`;
       xml += `    <changefreq>weekly</changefreq>\n`;
       xml += `    <priority>0.8</priority>\n`;
 
       for (const altLang of languages) {
-        xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/genres/${genreSlug}/"/>\n`;
+        xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/genres/${altLang}-genre-${genreSlug}/"/>\n`;
       }
-      xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/genres/${genreSlug}/"/>\n`;
+      xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/genres/en-genre-${genreSlug}/"/>\n`;
       xml += '  </url>\n';
     }
   }

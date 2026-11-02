@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-9-the-wind-and-the-sun",
+  "slug": "aesops-fables-9-the-wind-and-the-sun-es",
+  "language": "es",
+  "title": "The Wind and the Sun",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A fierce argument arose between the North Wind and the Sun as to which of them possessed greater strength and power over the earth. The North Wind puffed out his icy cheeks and roa...",
+  "keywords": [
+    "aesop's fables",
+    "the wind and the sun",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "A fierce argument arose between the North Wind and the Sun as to which of them possessed greater strength and power over the earth. The North Wind puffed out his icy cheeks and roared with blustering arrogance: \"I am the undisputed master of might! I uproot ancient oaks with my breath, stir the oceans into mountainous waves, and strip mountains bare with icy blasts. You do nothing but shine softly like a sleepy lantern!\"\n\nThe Sun smiled with serene, radiant warmth and replied gently, \"True power does not lie in violent noise or harsh destruction, brother. Let us put our strength to a fair test.\"\n\nLooking down through the drifting clouds, they saw a solitary traveler walking along a winding mountain highway, wrapped in a thick, woolen traveler's cloak against the autumn chill.\n\n\"Whoever can compel that traveler to remove his cloak,\" said the Sun, \"shall be acknowledged as the mightier of the two.\"\n\n\"A simple task!\" boomed the North Wind. \"Watch and marvel!\"\n\nThe North Wind unleashed his fury. He whistled down from the icy polar heights, howling with hurricane force and driving freezing gusts of sleet against the lone traveler. Leaves tore from the branches, and dust swirled in blinding storms. But the harder the fierce wind blew, the tighter the shivering traveler grasped his cloak, wrapping it doubly around his chest and pinning the collar beneath his chin. Furious, the Wind redoubled his tempest, but he only succeeded in wearying himself, leaving the man wrapped more securely than before.\n\nAt last, exhausted and defeated, the North Wind ceased his gale.\n\nThen the Sun stepped out from behind a silver cloud. He sent forth gentle, golden rays that bathed the rugged hills in soft, soothing warmth. The chilly moisture evaporated, flowers lifted their heads, and the traveler felt the pleasant glow spreading across his tired shoulders.\n\nAs the Sun shone brighter with increasing radiance, the traveler unbuttoned his collar, wiped the beads of sweat from his forehead, and finally unclasped the heavy woolen cloak altogether, draping it over his arm and strolling merrily on his way under the pleasant sunshine. The humbled Wind was forced to concede that gentle kindness overcomes what fury fails to move.",
+  "moral": "Gentle warmth and persuasion accomplish what fierce force and bluster never can.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Wind and the Sun illustration from the Aesop's Fables collection.",
+  "word_count": 368,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Wind and the Sun\"?",
+      "options": [
+        "Kindness effects more than severity.",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Spanish readers, safe for schools and family bedtime).",
+  "values": [
+    "gentleness",
+    "persuasion",
+    "kindness"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Wind and the Sun\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Kindness effects more than severity.\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 46",
+  "reviewed": true,
+  "source": "Aesop - Townsend translation 1867 Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "akbar-birbal-128-birbal-tale-128",
+  "slug": "akbar-birbal-128-birbal-tale-128-zh",
+  "language": "zh",
+  "title": "The Two Dervishes at the City Gate (ZH)",
+  "genre": "Humorous Tales",
+  "collection": "Akbar–Birbal",
+  "culture_region": "India",
+  "age_group": "Below 13",
+  "summary": "Two travelers ask about the people of Agra before entering. Birbal gives both opposite answers, revealing a profound psychological truth. [ZH]",
+  "keywords": [
+    "akbar–birbal",
+    "birbal tale 128",
+    "moral stories for children",
+    "world folktales and fables",
+    "akbar-birbal"
+  ],
+  "tags": [
+    "akbar-birbal",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "One afternoon, Birbal was sitting quietly in the shade of the archway at the western gate of Agra when a traveling dervish arrived, dusty and tired from a long journey.\n\nThe traveler stopped and asked Birbal: 'Friend, I am new to this province. Tell me—what kind of people live in this city of Agra? Are they kind and welcoming, or cruel and treacherous?'\n\nBirbal looked at the traveler and asked: 'Tell me, brother—what kind of people lived in the city from which you have just traveled?'\n\nThe traveler scowled: 'Oh, they were horrible! Selfish, greedy, dishonest, and constantly backbiting! I could not wait to leave them behind!'\n\nBirbal sighed: 'Alas, my friend. I fear you will find the people of Agra to be exactly the same—selfish, greedy, and untrustworthy.'\n\nThe traveler sighed in disappointment and entered the city gates.\n\nAn hour later, a second traveling dervish approached the same gate. He stopped, greeted Birbal with a warm smile, and asked: 'Peace be upon you, sir. I am entering Agra for the first time. Can you tell me what kind of people dwell in this city?'\n\nBirbal asked again: 'Brother, what kind of people lived in the town you have just left?'\n\nThe second traveler's face lit up with affection: 'Ah, they were wonderful! Generous, honest, hospitable, and always ready to help a neighbor in need. My heart was broken to part from them!'\n\nBirbal smiled warmly: 'Rejoice, my friend! You will find the people of Agra to be exactly the same—kind, generous, honest, and welcoming!'\n\nAn imperial guard standing nearby had overheard both conversations and was completely bewildered: 'Raja Birbal! Why did you tell the first traveler that Agra is full of wicked scoundrels, and the second traveler that Agra is full of saints?'\n\nBirbal explained with profound simplicity:\n\n'Because, my friend, we do not see the world as it is; we see the world as WE are!\n\n'A suspicious, bitter man carries suspicion in his heart, and will provoke selfishness in everyone he meets. A generous, loving man carries warmth in his heart, and will awaken kindness wherever he walks. The world is merely a mirror reflecting our own inner character.'\n\nThe guard bowed in deep reverence at Birbal's wisdom.",
+  "moral": "道德启示：Wit beats power",
+  "image": "/images/stories/akbar-birbal.webp",
+  "image_alt": "Birbal Tale 128 illustration from the Akbar–Birbal collection.",
+  "word_count": 371,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Birbal Tale 128\"?",
+      "options": [
+        "Wit beats power",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional Court Folklore of Akbar and Birbal",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Akbar–Birbal anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Birbal Tale 128\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wit beats power\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 128,
+  "reviewed": true,
+  "source": "Akbar-Birbal folklore - Mughal India 16th century - public domain oral tradition",
+  "license": "Public Domain",
+  "credit": "Akbar–Birbal Global Treasury"
+}

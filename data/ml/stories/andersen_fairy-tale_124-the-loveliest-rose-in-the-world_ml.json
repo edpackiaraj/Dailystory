@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-124-the-loveliest-rose-in-the-world",
+  "slug": "hans-christian-andersen-124-the-loveliest-rose-in-the-world-ml",
+  "language": "ml",
+  "title": "The Loveliest Rose in the World",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "A noble queen was dying of a mysterious sorrow. The wise men announced: \"She can be saved only if she gazes upon the Loveliest Rose in the World—the rose that expresses the highest...",
+  "keywords": [
+    "hans christian andersen",
+    "the loveliest rose in the world",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "A noble queen was dying of a mysterious sorrow. The wise men announced: \"She can be saved only if she gazes upon the Loveliest Rose in the World—the rose that expresses the highest and purest love!\"\n\nThey brought roses of chivalry, roses of patriotic sacrifice, and roses of bridal devotion; but the queen grew paler still.\n\nThen came a little child holding a holy book, reading the story of Him who gave His life on the cross to save mankind.\n\nA flush of radiant life returned to the queen's cheeks, and she smiled with heavenly joy: \"I see it! The rose that blooms from divine love and sacrifice is the Loveliest Rose in the World, and whoever beholds it shall never die!\"",
+  "moral": "The loveliest rose in the world is the radiant blossom of unselfish love and sacrifice.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Loveliest Rose in the World illustration from the Hans Christian Andersen collection.",
+  "word_count": 122,
+  "reading_time": "1 min",
+  "listen_time": "1 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Loveliest Rose in the World\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Hans Christian Andersen. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "sacrifice",
+    "love",
+    "spiritual-beauty"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Loveliest Rose in the World\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": 124,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Heritage Anthology"
+}

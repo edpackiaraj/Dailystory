@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-272-story-of-king-sulayman-shah-and-his-niece",
+  "slug": "an-272-story-of-king-sulayman-shah-and-his-niece-ta",
+  "language": "ta",
+  "title": "Story of King Sulayman Shah and His Niece (தமிழ்)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Bakhtiyar recounted the story of King Sulayman Shah of ancient Fars: [TA]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "story of king sulayman shah and his niece",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Bakhtiyar recounted the story of King Sulayman Shah of ancient Fars:\n\n'King Sulayman Shah was on the brink of waging a devastating war against the King of Khorasan over a disputed border province. His generals urged immediate invasion, sharpening their swords and mobilizing sixty thousand horsemen.\n\nThe king’s niece, Princess Shahzanan, an educated statesman who had mastered jurisprudence, philosophy, and history, stepped boldly into the royal council.\n\nShe presented an economic and diplomatic audit demonstrating that the war would cost twenty times the value of the disputed province, exhaust the treasury, and invite barbarian invasions from the north.\n\nWith her uncle’s permission, Shahzanan rode as the imperial ambassador to the court of the King of Khorasan.\n\nBefore the foreign monarch, she delivered an oration of sublime diplomatic eloquence, presenting a compromise: the disputed province was established as a shared commercial emporium, with a joint court of arbitration to govern fair trade.\n\nThe King of Khorasan was so impressed by her brilliant intellect, dignity, and statesmanship that he ratified the treaty on the spot, celebrating thirty years of peace.\n\nKing Sulayman Shah proclaimed before his council: \"A wise woman’s word has saved sixty thousand lives and preserved two empires from ruin!\"'",
+  "moral": "Feminine wisdom, diplomatic skill, and moral courage save an entire nation from catastrophic war. [TA]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Story of King Sulayman Shah and His Niece illustration from the 1001 Arabian Nights collection.",
+  "word_count": 200,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Story of King Sulayman Shah and His Niece\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Story of King Sulayman Shah and His Niece\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 272,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-200-al-asmai-and-the-three-girls-of-bassorah",
+  "slug": "arabian-nights-200-al-asmai-and-the-three-girls-of-bassorah",
+  "language": "en",
+  "title": "Al-Asma'i and the Three Scholars of Basra",
+  "genre": "Historical Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Al-Asma'i, the celebrated philologist and literary master of Baghdad, was visiting the garden city of Basra to collect rare words and dialect proverbs. While walking through a q...",
+  "keywords": [
+    "arabian nights",
+    "al-asma'i and the three girls of bassorah",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Al-Asma'i, the celebrated philologist and literary master of Baghdad, was visiting the garden city of Basra to collect rare words and dialect proverbs. While walking through a quiet orchard of pomegranate and fig trees, he heard three youthful voices debating the subtle grammatical meters of classical poetry from behind a flowering jasmine hedge.\n\nThe voices belonged to three intelligent young maidens who were daughters of the city’s chief grammarian. They were composing verses describing the setting sun and the evening star.\n\nAl-Asma'i, unable to resist testing their learning, stepped into the arbor and recited a challenging classical hemistich with an archaic, obscure grammatical construction:\n'The shadows lengthen as the day grows pale...'\n\nThe first maiden immediately answered without a second's hesitation, completing the meter with flawless rhyme:\n'And stars unfold their silver on the veil!'\n\nThe second maiden added with sparkling wit:\n'While scholars wander through the dusty road,'\n\nAnd the third maiden completed the stanza with a teasing bow:\n'To gather verses for their royal code!'\n\nAl-Asma'i laughed aloud with boundless delight, astonished that three young girls in an orchard could match the most intricate meters of classical poetry with such effortless perfection and playful charm.\n\nThe master grammarian bowed low before the three scholars and declared: 'For forty years I have traveled from oasis to oasis collecting the treasures of the Arabic tongue; but today in Basra, I have found that the purest fountain of language flows from the lips of our youth!' He recorded their verses in his grand anthology, which was preserved for centuries in the libraries of Baghdad.",
+  "moral": "Linguistic brilliance and cultivated wit among youth are the truest ornaments of a civilized society.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Al-Asma'i and the Three Girls of Bassorah illustration from the Arabian Nights collection.",
+  "word_count": 263,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Al-Asma'i and the Three Girls of Bassorah\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "learning",
+    "wit",
+    "eloquence",
+    "respect"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Al-Asma'i and the Three Girls of Bassorah\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 200,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

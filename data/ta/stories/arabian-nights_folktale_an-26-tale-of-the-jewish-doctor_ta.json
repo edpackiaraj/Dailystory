@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-26-tale-of-the-jewish-doctor",
+  "slug": "an-26-tale-of-the-jewish-doctor-ta",
+  "language": "ta",
+  "title": "Tale of the Jewish Doctor (தமிழ்)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "To entertain the Sultan of China and clear his own name in the strange affair of the hunchback, the Jewish physician related a mystery fr... [TA]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of the jewish doctor",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "To entertain the Sultan of China and clear his own name in the strange affair of the hunchback, the Jewish physician related a mystery from his youth in Damascus:\n\n\"In my early years of practice, I was summoned in haste to the palace of the city governor to treat a young merchant of Baghdad who had fallen into a deep swoon. When I loosened his garments, I discovered that his right wrist had been severed and wrapped in scented silk bandages. After reviving him with cordials and smelling salts, I sat beside his couch, struck by his noble countenance and sorrowful eyes.\n\nSeeing my genuine concern, the young merchant wept and confided his secret: 'Know, O doctor, that I was once wealthy, inheriting a grand silk emporium. While trading in Damascus, a veiled lady of matchless beauty entered my shop, purchasing costly brocades on credit. For weeks she returned, always paying with purest gold dinars and speaking with refined grace. My heart became deeply attached to her virtues.'\n\nOne evening, she invited him to her family's garden mansion. As they sat dining beneath jasmine arbors, a precious golden necklace belonging to the governor's household went missing from the terrace. The household guards surrounded the garden, and in the confusion, the young merchant, wishing to shield the maiden from disgrace, placed the jewel in his own pocket, intending to return it to the governor at dawn.\n\nThe guards searched him, discovered the necklace, and dragged him before the magistrate as a thief. The harsh magistrate ordered his hand severed according to the strict law of the city. Only later did the governor's wife confess that her pet monkey had snatched the necklace and dropped it upon the garden path.\n\nThe remorseful governor bestowed palaces, wealth, and the maiden's hand upon the noble youth to atone for the error. 'I bear this severed hand,' concluded the merchant, 'as a testament to the peril of hasty judgment.' I attended to his wound with all my skill, marveling at how noble souls bear adversity with silent dignity.\"",
+  "moral": "Honest compassion and professional duty bridge all divides, while hasty suspicion brings regret. [TA]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the Jewish Doctor illustration from the 1001 Arabian Nights collection.",
+  "word_count": 343,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of the Jewish Doctor\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Patience, clear thinking, and humble courage overcome the greatest enchantments.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of the Jewish Doctor\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 26,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

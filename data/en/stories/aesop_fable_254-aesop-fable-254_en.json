@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-254-aesop-fable-254",
+  "slug": "aesops-fables-254-aesop-fable-254",
+  "language": "en",
+  "title": "The Lark and Her Young Ones",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A lark nested in a ripe wheat field. Hearing the farmer say he would ask his neighbors to help reap, the wise mother told her chicks not to worry....",
+  "keywords": [
+    "aesop's fables",
+    "aesop fable 254",
+    "moral stories for children",
+    "world folktales and fables",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A lark nested in a ripe wheat field. Hearing the farmer say he would ask his neighbors to help reap, the wise mother told her chicks not to worry.\n\nWhen the farmer said he would ask his cousins, she still stayed calm.\n\nFinally, the farmer said: \"Tomorrow I will take my sickle and cut the wheat myself!\"\n\n\"Now it is time to fly!\" said the mother lark. \"When a man resolves to do his own work, the harvest will truly begin!\"",
+  "moral": "If you want a thing done, do it yourself; do not depend upon neighbors or kin.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "Aesop Fable 254 illustration from the Aesop's Fables collection.",
+  "word_count": 81,
+  "reading_time": "1 min",
+  "listen_time": "1 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Aesop Fable 254\"?",
+      "options": [
+        "Moral lesson",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Aesop's Fables anthology.",
+  "values": [
+    "self-reliance",
+    "industry",
+    "action"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Aesop Fable 254\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Moral lesson\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": "Perry 254",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Global Treasury"
+}

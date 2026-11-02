@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-6-the-naughty-boy",
+  "slug": "hans-christian-andersen-6-the-naughty-boy",
+  "language": "en",
+  "title": "The Naughty Boy",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "Once upon a time, an old poet sat by his cozy hearth on a stormy evening. Outside, rain beat furiously against the windowpanes, and the wind howled through the chimney like a wound...",
+  "keywords": [
+    "hans christian andersen",
+    "the naughty boy",
+    "moral stories for children",
+    "world folktales and fables",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Once upon a time, an old poet sat by his cozy hearth on a stormy evening. Outside, rain beat furiously against the windowpanes, and the wind howled through the chimney like a wounded beast.\n\n\"How fortunate I am to sit here in the warm shelter of my study,\" said the old poet to himself, stirring the glowing embers.\n\nSuddenly, a faint knock sounded at the door, accompanied by a child's plaintive cry: \"Open the door, kind sir! I am shivering with cold, and the rain has soaked through all my clothes!\"\n\nThe tender-hearted poet hastened to unbolt the door. There stood a little boy, completely naked, shivering from head to foot. Rain dripped from his golden curls, his lips were blue with frost, and behind his shoulders hung a pair of delicate, sodden wings. In his small hands, he held a tiny wooden bow and a quiver of painted arrows.\n\n\"Poor little creature!\" said the poet with fatherly compassion. He carried the child to the fireside, warmed his freezing hands in his own, wrapped him in a warm dry woolen blanket, and fed him sweet wine and roasted apples.\n\nThe boy soon revived. The rosy color returned to his cheeks, his eyes sparkled with mischievous merriment, and he began to jump about the rug in high spirits.\n\n\"What is your name, my cheerful little guest?\" asked the old poet with a warm smile.\n\n\"My name is Cupid!\" laughed the boy. \"Do you not know me? Look, here is my bow! Oh, but alas, the rain has surely ruined my bowstring!\"\n\nThe boy took up his bow, examined the taut hemp, placed a sharp little arrow upon the notch, drew the string back to his ear, and aimed straight at the old poet's chest. Twang! The arrow pierced the poet right through the heart!\n\n\"Ha, ha, ha!\" laughed the naughty boy, clapping his hands and dancing with glee. \"My bowstring was not spoiled after all!\" And with that, he spread his golden wings and flew straight out through the window into the stormy night.\n\nThe old poet lay clutching his wounded chest, for the arrow was tipped with love's burning fire. \"Fie upon that treacherous boy!\" he groaned. He warned all his young friends never to open their doors to the cunning little archer, but Cupid wanders the world in disguise to this very day, shooting his mischievous darts into unsuspecting hearts.",
+  "moral": "Beware the unpredictable arrows of sudden infatuation, for passion often hides behind the guise of helplessness.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Naughty Boy illustration from the Hans Christian Andersen collection.",
+  "word_count": 401,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Naughty Boy\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Hans Christian Andersen anthology.",
+  "values": [
+    "watchfulness",
+    "innocence",
+    "discernment"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Naughty Boy\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Andersen's tales teach compassion, resilience, and Christian hope\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 6,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Global Treasury"
+}

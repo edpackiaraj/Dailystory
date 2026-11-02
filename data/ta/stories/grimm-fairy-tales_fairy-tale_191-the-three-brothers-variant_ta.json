@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-191-the-three-brothers-variant",
+  "slug": "grimm-fairy-tales-191-the-three-brothers-variant-ta",
+  "language": "ta",
+  "title": "The Three Brothers variant",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "An aging father possessed a cottage and could not decide which of his three sons should inherit it, as he loved them all equally. He told them: \"Go out into the world and learn a t...",
+  "keywords": [
+    "grimm fairy tales",
+    "the three brothers variant",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "An aging father possessed a cottage and could not decide which of his three sons should inherit it, as he loved them all equally. He told them: \"Go out into the world and learn a trade. Whoever demonstrates the greatest mastery of his craft shall have the house.\"\n\nThe eldest became a barber, the second a blacksmith, and the youngest a fencing master. They returned home after three years to demonstrate their skills.\n\nAs they sat before the cottage, a swift hare ran across the meadow. The eldest son, the barber, lathered soap while running beside the bounding hare and shaved its whiskers completely clean without cutting its skin or slowing its pace!\n\nNext, a nobleman galloped past in a four-horse carriage at full speed. The second son, the blacksmith, ran alongside, unbolted four worn horseshoes and forged and nailed four brand-new iron shoes onto the galloping hooves without causing the horse to break its stride!\n\nFinally, a sudden cloudburst poured heavy rain from the sky. The youngest son, the swordsman, drew his rapier and twirled it above his head with such breathtaking speed that not a single raindrop touched his clothes; he stood dry as if sheltered beneath a copper roof!\n\nThe amazed father laughed with joy: \"You have all displayed impossible mastery!\" Rather than separate, the three brothers lived together in the cottage in lifelong harmony, sharing their prosperity and craft in mutual love.",
+  "moral": "Supreme mastery of one’s craft and peaceful brotherhood are the truest inheritance.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Three Brothers variant illustration from the Grimm Fairy Tales collection.",
+  "word_count": 236,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Three Brothers variant\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "skill",
+    "brotherhood",
+    "mastery"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Three Brothers variant\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 191,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-29-the-ugly-duckling",
+  "slug": "hans-christian-andersen-29-the-ugly-duckling-ml",
+  "language": "ml",
+  "title": "The Ugly Duckling",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "It was so glorious out in the country! The summer sun shone brightly on the golden wheat and green oats; storks walked on long red legs, chattering in Egyptian, while water-lilies...",
+  "keywords": [
+    "hans christian andersen",
+    "the ugly duckling",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "It was so glorious out in the country! The summer sun shone brightly on the golden wheat and green oats; storks walked on long red legs, chattering in Egyptian, while water-lilies floated on the quiet canals.\n\nUnder the broad leaves of a burdock plant, a mother duck sat upon her nest waiting for her eggs to hatch. Crack! Crack! One after another, the eggshells burst open, and tiny yellow ducklings poked out their heads, crying: \"Cheep, cheep!\"\n\nOnly one enormous egg remained unhatched. An old duck visited: \"That is a turkey's egg! Leave it alone, you will never teach it to swim!\" But the mother duck sat patiently until at last, the giant shell cracked. Out tumbled a large, awkward, grayish fledgling, looking clumsy and strange.\n\n\"What an ugly, overgrown creature!\" cried the ducks in the yard. When they led the brood to the pond, the strange gray bird swam with effortless grace, using his legs better than any other. Yet in the poultry yard, the turkeys pecked him, the hens bit his neck, and the servant girl kicked him away with her shoe. Even his own brothers and sisters hissed: \"If only the cat would catch you, you hideous fright!\"\n\nHeartbroken, the poor duckling flew over the hedge and fled into the wide moor where wild ducks lived. Through the bitter autumn, hunters' guns echoed through the reeds, dogs leaped through the water, and the terrified duckling hid in the rushes. He fled to a peasant's cottage where an arrogant cat and a haughty hen mocked him because he could neither purr nor lay eggs.\n\nWinter arrived with piercing frost. The pond froze thicker and thicker; the duckling was forced to paddle with all his strength to keep a small breathing hole open in the ice, until at last he grew exhausted, froze fast in the ice, and lay stiff as stone. A farmer broke the ice with his wooden clog, carried him home, and revived him by the kitchen stove.\n\nWhen spring returned, golden warmth filled the earth. The larks sang, and the apple trees blossomed. The duckling flapped his wings; they beat the air with tremendous power and lifted him high above the green meadows into a magnificent royal garden.\n\nThere, gliding upon the mirror surface of a clear lake, swam three dazzling, majestic white swans with curved necks and snow-white plumage.\n\n\"I will fly to these royal birds,\" thought the lonely duckling. \"They will surely peck me to death because I am so ugly, but it is better to be killed by them than to be bitten by ducks, pecked by hens, and starved by winter!\"\n\nHe flew down to the water and swam toward the magnificent swans with bowed head, whispering: \"Kill me!\"\n\nHe looked down into the clear crystal water. What did he see reflected in the mirror below?\n\nHe was no longer a clumsy, dark gray, hideous duckling! He was a swan—a glorious, graceful, radiant white swan!\n\nThe other swans swam around him, stroking his feathers with their beaks in joyous welcome. Little children ran into the garden, tossing bread and sweet cake into the water, shouting with clapping hands: \"Look! There is a new swan! And he is the fairest and most magnificent of all!\"\n\nHe rustled his feathers, lifted his slender neck toward the blue sky, and whispered from the depths of his overflowing heart: \"I never dreamed of such happiness when I was the despised ugly duckling!\"",
+  "moral": "It does not matter having been born in a duck-yard, if only one has lain in a swan's egg; patience reveals true beauty.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Ugly Duckling illustration from the Hans Christian Andersen collection.",
+  "word_count": 577,
+  "reading_time": "4 min",
+  "listen_time": "5 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Ugly Duckling\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Hans Christian Andersen. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "patience",
+    "self-worth",
+    "transformation"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Ugly Duckling\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": 29,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Heritage Anthology"
+}

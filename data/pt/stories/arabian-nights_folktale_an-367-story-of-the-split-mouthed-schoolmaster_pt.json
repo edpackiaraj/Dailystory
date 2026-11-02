@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-367-story-of-the-split-mouthed-schoolmaster",
+  "slug": "an-367-story-of-the-split-mouthed-schoolmaster-pt",
+  "language": "pt",
+  "title": "Story of the Split-Mouthed Schoolmaster (Português)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Beside Master Mansur sat another tutor, Master Faraj, who possessed a wide scar across his upper lip that gave him a permanent, crooked g... [PT]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "story of the split-mouthed schoolmaster",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Beside Master Mansur sat another tutor, Master Faraj, who possessed a wide scar across his upper lip that gave him a permanent, crooked grin.\nWhen the students inquired how he gained his mark, Master Faraj smiled wryly:\n\n'Ah, my young scholars, my scar was earned by the incurable disease of poking my nose into another man's kettle!\n\nThirty years ago, I was not a teacher, but an inquisitive apprentice tailor who could never mind his own stitching. Whenever an argument broke out in the street, I would abandon my needle and thrust myself into the fray, giving unsolicited opinions.\n\nOne afternoon, a fiery blacksmith and an equally stubborn coppersmith stood in the lane arguing fiercely over who owned an iron horseshoe found in the dirt.\nInstead of letting them resolve their minor squabble, I pushed between them, puffed up my chest, and cried:\n\"Halt! As an impartial observer of human law, I shall examine the horseshoe and deliver a binding verdict!\"\n\nI seized the horseshoe. But alas! The blacksmith had only moments before pulled it straight from the glowing charcoal forge to cool it, and it was still scorching red beneath its black soot crust!\n\nThe burning iron seared through my fingers! In agonizing pain, I threw the horseshoe backward over my head without looking.\nThe flying horseshoe struck the coppersmith's prized brass samovar, which fell and shattered the blacksmith's clay water jug!\nBoth craftsmen, enraged by my clumsy interference, turned upon me together. The blacksmith swung a leather bellows, and the brass nozzle caught me squarely across the mouth, splitting my lip!\n\nAs the apothecary stitched my lip, he said: \"Let this stitch remind thee that he who enters a fight uninvited always receives the hardest blow.\"\n\nFrom that painful day, I gave up interfering in strangers' affairs. I became a schoolmaster, teaching children to guard their tongues and keep their hands upon their own work, for quiet discretion is the best guard of peace.'",
+  "moral": "Unchecked meddling in matters that do not concern one leads to pain; discretion preserves the tongue and the jaw. [PT]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Story of the Split-Mouthed Schoolmaster illustration from the 1001 Arabian Nights collection.",
+  "word_count": 326,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Story of the Split-Mouthed Schoolmaster\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Story of the Split-Mouthed Schoolmaster\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 367,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

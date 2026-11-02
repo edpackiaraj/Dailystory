@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-28-the-barbers-tale-of-himself",
+  "slug": "an-28-the-barbers-tale-of-himself-pt",
+  "language": "pt",
+  "title": "The Barber's Tale of Himself (Português)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The barber, seeing the company amused yet critical of his reputation, stroked his long white beard and spoke with supreme vanity before t... [PT]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the barber's tale of himself",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "The barber, seeing the company amused yet critical of his reputation, stroked his long white beard and spoke with supreme vanity before the Sultan:\n\n\"Know, O Sovereign of China, that men call me Al-Samit, which means the Silent, because of my famous taciturnity and restraint in speech! I am the fifth son of a venerable sage, and my six brothers were each afflicted with some peculiar defect, whereas I alone was born perfect in mind, body, and eloquence. I am a master of astrology, medicine, alchemy, logic, and the subtle art of the blade.\n\nIn the reign of the Caliph Al-Mustansir in Baghdad, ten notorious river pirates were captured upon the Tigris and condemned to be transported downriver for exile. As they were being marched to the barge in chains, I saw the procession passing through the market. Moved by tender sympathy and believing they were honest scholars being honored with royal gifts, I quietly slipped into their ranks, joined hands with them, and boarded the ship!\n\nWhen the captain examined his prisoners on the far shore, he counted ten felons and myself as an extra passenger. Without inquiring into my name or character, the rough boatmen assumed I was the ringleader of the band! When the executioner raised his staff to chastise us, the ten pirates confessed their crimes, but I, preserving my celebrated vow of silence, merely smiled with philosophical serenity, believing that my noble countenance would speak for itself.\n\nFortunately, the Caliph’s grand vizier arrived at the docks to inspect the prisoners. Recognizing my famous face, he shouted: 'Hold your hand! That is the silent barber of Baghdad, whose tongue is more plentiful than the sands of the desert! How came you among these ruffians, O barber?'\n\nI stepped forward and delivered an eloquent oration of two hours, explaining the astronomical configurations of the moon and the moral virtues of fraternal solidarity. The vizier laughed until he fell backward, pardoned me on the condition that I hold my peace for one whole day, and sent me home with fifty dinars. Thus you see, O king, that my only fault is that my heart is too vast for this narrow world!\"",
+  "moral": "Self-praise and uninvited meddling turn well-intentioned advice into an intolerable nuisance. [PT]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Barber's Tale of Himself illustration from the 1001 Arabian Nights collection.",
+  "word_count": 363,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Barber's Tale of Himself\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Barber's Tale of Himself\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 28,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

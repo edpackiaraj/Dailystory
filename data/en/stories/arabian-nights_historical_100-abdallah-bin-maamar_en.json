@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-100-abdallah-bin-maamar",
+  "slug": "arabian-nights-100-abdallah-bin-maamar",
+  "language": "en",
+  "title": "Abdallah bin Ma'amar",
+  "genre": "Historical Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Abdallah bin Ma'amar was the governor of Basra in the golden days of the Abbasid Caliphate, revered by his people as a ruler who combined firm justice with the tenderest compass...",
+  "keywords": [
+    "arabian nights",
+    "abdallah bin ma'amar",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Abdallah bin Ma'amar was the governor of Basra in the golden days of the Abbasid Caliphate, revered by his people as a ruler who combined firm justice with the tenderest compassion for the poor and the troubled.\n\nOne evening, as Abdallah was returning from inspecting the public granaries, he heard the sounds of bitter lamentation coming from an ancient cemetery. Dismounting from his mule, he entered the quiet tombs and found a handsome young Bedouin weeping beside a freshly dug grave.\n\nAbdallah approached gently, placed a hand upon his shoulder, and asked: 'What great sorrow has brought you to weep among the dead, my son?'\n\nThe young man wiped his tears and answered: 'O noble traveler, I am Utbah, son of a desert shaykh. For five years, my cousin Rayya and I have loved each other with pure affection. But her father, demanding an exorbitant dowry of fifty pedigree camels and a thousand gold dinars which my impoverished father could not provide, has betrothed her against her will to an affluent stranger from Damascus. Tomorrow she departs, and my soul is already dead.'\n\nAbdallah’s heart was touched by the youth’s sincere devotion. He lifted Utbah to his feet and said: 'Do not despair, for hope is never dead while justice lives.'\n\nThe governor immediately dispatched messengers to the bride’s father and the Syrian suitor, inviting them to his palace.\n\nBefore the council, Abdallah spoke with eloquent passion on the sanctity of true love and the cruelty of treating children as merchandise. He then opened his own treasury, paid the full dowry of fifty fine camels and a thousand gold dinars on Utbah’s behalf, and compensated the Syrian suitor with rare silks and jewels from his personal stores.\n\nThe bride’s father, moved to tears and ashamed of his greed, joyfully bestowed his daughter upon Utbah. The happy union was celebrated across Basra with feasts that lasted three days, and Abdallah bin Ma'amar was blessed by all the people as the protector of faithful hearts.",
+  "moral": "Generous intervention that reconciles estranged lovers and heals family rifts is the highest duty of a noble leader.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Abdallah bin Ma'amar illustration from the Arabian Nights collection.",
+  "word_count": 333,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Abdallah bin Ma'amar\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "generosity",
+    "empathy",
+    "reconciliation",
+    "justice"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Abdallah bin Ma'amar\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 100,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

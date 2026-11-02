@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-126-abd-al-rahman-the-maghribis-story-of-the-rukh",
+  "slug": "an-126-abd-al-rahman-the-maghribis-story-of-the-rukh-es",
+  "language": "es",
+  "title": "Abd al-Rahman the Maghribi's Story of the Rukh (Español)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Abd al-Rahman the Maghribi, an intrepid mariner from the shores of North Africa, appeared before the court of Harun al-Rashid carrying an... [ES]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "abd al-rahman the maghribi's story of the rukh",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Abd al-Rahman the Maghribi, an intrepid mariner from the shores of North Africa, appeared before the court of Harun al-Rashid carrying an astonishing curiosity: a translucent pipe or trough carved from a single bird’s quill, large enough to hold two skins of water!\n\nWhen the Caliph marveled at the object, Abd al-Rahman related the perilous voyage on which he had obtained it:\n\n'In my youth, our merchant vessel was blown off course by a furious hurricane into the uncharted southern waters of the Sea of China. After weeks of drift, we sighted a mountainous island rising from the azure waves. In the center of the island stood an enormous white dome, shining like polished alabaster, spanning fifty paces across and rising into the clouds.\n\nThinking it was the tomb of an ancient titan, my companions and I climbed the grassy slope. When we struck the dome with our pickaxes, it cracked, and we discovered with awe and dread that it was not stone at all, but the colossal egg of the legendary Rukh—the monstrous bird of the heavens that preys upon elephants!\n\nPresently, the sky darkened as if a black thunderhead had blotted out the midday sun. Looking up, we beheld wings that spanned the horizon, each feather like a ship's sail, and eyes that burned like twin beacons. It was the parent Rukh returning to its nest!\n\nTerrified, we scrambled back to our ship, hoisted all sail, and pulled with our oars. The giant bird circled the island, let out a cry that shook the sea, and flew toward the mountains. From the abandoned nest, I snatched this single quill fragment that had fallen from the egg’s down.\n\nThe Caliph held the massive quill in his hands, marveling at how frail human knowledge is before the infinite mysteries of the unexplored earth.'",
+  "moral": "The boundless wonders of creation surpass human imagination, inspiring awe and humility. [ES]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Abd al-Rahman the Maghribi's Story of the Rukh illustration from the 1001 Arabian Nights collection.",
+  "word_count": 303,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Abd al-Rahman the Maghribi's Story of the Rukh\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Spanish readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Abd al-Rahman the Maghribi's Story of the Rukh\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 126,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

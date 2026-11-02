@@ -1,0 +1,527 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import brandConfig from '../../../config/brand.json';
+import legalData from '../../../data/legal/en.json';
+import { getT } from '../../lib/i18n';
+import { getAllReviewedStories, getStoryUrl } from '../../lib/stories';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryGarden from '../../components/StoryGarden.astro';
+import StoryPassport from '../../components/StoryPassport.astro';
+
+export function getStaticPaths() {
+  const legalKeys = Object.keys(legalData.pages);
+  const paths: any[] = [];
+
+  for (const lang of brandConfig.supportedLanguages) {
+    // 1. Search view
+    paths.push({
+      params: { lang: lang.code, page: `${lang.code}-search` },
+      props: { view: 'search' }
+    });
+
+    // 2. Favorites view
+    paths.push({
+      params: { lang: lang.code, page: `${lang.code}-favorites` },
+      props: { view: 'favorites' }
+    });
+
+    // 3. Submit view
+    paths.push({
+      params: { lang: lang.code, page: `${lang.code}-submit` },
+      props: { view: 'submit' }
+    });
+
+    // 4. Subscribe view
+    paths.push({
+      params: { lang: lang.code, page: `${lang.code}-subscribe` },
+      props: { view: 'subscribe' }
+    });
+
+    // 5. Legal policy views
+    for (const key of legalKeys) {
+      paths.push({
+        params: { lang: lang.code, page: `${lang.code}-${key}` },
+        props: {
+          view: 'legal',
+          pageKey: key,
+          pageData: (legalData.pages as Record<string, any>)[key],
+          lastUpdated: legalData.lastUpdated,
+          disclaimer: legalData.legalReviewDisclaimer
+        }
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { lang, page } = Astro.params;
+const { view, pageKey, pageData, lastUpdated, disclaimer } = Astro.props;
+const t = getT(lang);
+
+// Data for Search and Favorites
+const allStories = (view === 'search' || view === 'favorites') ? getAllReviewedStories(lang) : [];
+const genres = view === 'search' ? Array.from(new Set(allStories.map(s => s.genre))) : [];
+const collections = view === 'search' ? Array.from(new Set(allStories.map(s => s.collection))) : [];
+const readingLevels = ["Beginner", "Intermediate", "Advanced"];
+
+const compactStories = view === 'search' ? allStories.map(s => ({
+  id: s.id,
+  title: s.title,
+  slug: s.slug,
+  summary: s.summary,
+  moral: s.moral,
+  reading_time: s.reading_time,
+  reading_level: s.reading_level,
+  genre: s.genre,
+  collection: s.collection,
+  culture_region: s.culture_region || '',
+  is_bedtime: !!s.is_bedtime,
+  image: s.image,
+  image_alt: s.image_alt,
+  url: getStoryUrl(s, lang),
+  keywords: (s.keywords || []).join(' ').toLowerCase(),
+  values: (s.values || []).join(' ').toLowerCase(),
+  moods: (s.mood || []).join(' ').toLowerCase()
+})) : [];
+
+// Page Titles and Metadata
+let pageTitle = `${brandConfig.name}`;
+let pageDesc = `${brandConfig.description}`;
+
+if (view === 'search') {
+  pageTitle = `Search Stories in ${brandConfig.supportedLanguages.find(l => l.code === lang)?.native} - ${brandConfig.name}`;
+  pageDesc = t.searchPlaceholder;
+} else if (view === 'favorites') {
+  pageTitle = `My Story Corner - ${brandConfig.name}`;
+  pageDesc = "Your private reading sanctuary: bookmarked stories, reading streak, garden blossoms, and world passport.";
+} else if (view === 'submit') {
+  pageTitle = `Submit Your Story - ${brandConfig.name}`;
+  pageDesc = "Submit your original moral story, folktale or humorous story to Dhinam Oru Kathai. Our editors review every submission for family-safe reading worldwide.";
+} else if (view === 'subscribe') {
+  pageTitle = `Morning Story Email Subscription - ${brandConfig.name}`;
+  pageDesc = "Receive a calm, inspiring moral or bedtime story in your inbox every morning. Adults and parents only. Single-click unsubscribe anytime.";
+} else if (view === 'legal' && pageData) {
+  pageTitle = `${pageData.title} - ${brandConfig.name}`;
+  pageDesc = pageData.summary || `${pageData.title} for ${brandConfig.name}`;
+}
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDesc}
+  lang={lang}
+>
+  {view === 'search' && (
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+      <!-- Search Header -->
+      <div class="max-w-2xl mx-auto text-center mb-8 sm:mb-12">
+        <h1 class="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight mb-3">
+          Discover Global Stories
+        </h1>
+        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+          Search by keyword, life value, collection, bedtime tag or reading level.
+        </p>
+
+        <!-- Instant Search Input -->
+        <div class="mt-6 relative">
+          <input
+            type="search"
+            id="search-input"
+            placeholder={t.searchPlaceholder}
+            aria-label="Search stories"
+            class="w-full pl-12 pr-4 py-4 rounded-2xl bg-white dark:bg-slate-900 border-2 border-amber-300 dark:border-slate-700 shadow-md text-sm sm:text-base font-medium focus:outline-none focus:border-amber-500 transition-all text-slate-900 dark:text-white"
+          />
+          <span class="absolute left-4 top-4 text-xl">🔍</span>
+        </div>
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="mb-8 p-6 rounded-3xl bg-white dark:bg-slate-900 border border-amber-200 dark:border-slate-800 shadow-sm">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">{t.genre}:</label>
+            <select id="filter-genre" class="w-full p-2.5 rounded-xl bg-amber-50 dark:bg-slate-800 border border-amber-200 dark:border-slate-700 text-xs font-semibold text-slate-800 dark:text-white">
+              <option value="">All Genres</option>
+              {genres.map(g => (
+                <option value={g}>{g}</option>
+              ))}
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">{t.collection}:</label>
+            <select id="filter-collection" class="w-full p-2.5 rounded-xl bg-amber-50 dark:bg-slate-800 border border-amber-200 dark:border-slate-700 text-xs font-semibold text-slate-800 dark:text-white">
+              <option value="">All Collections</option>
+              {collections.map(c => (
+                <option value={c}>{c}</option>
+              ))}
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">{t.readingLevel}:</label>
+            <select id="filter-level" class="w-full p-2.5 rounded-xl bg-amber-50 dark:bg-slate-800 border border-amber-200 dark:border-slate-700 text-xs font-semibold text-slate-800 dark:text-white">
+              <option value="">All Levels</option>
+              {readingLevels.map(l => (
+                <option value={l}>{l}</option>
+              ))}
+            </select>
+          </div>
+
+          <div class="flex items-center gap-3 pt-6">
+            <label class="flex items-center gap-2 cursor-pointer text-xs font-bold text-slate-800 dark:text-white">
+              <input type="checkbox" id="filter-bedtime" class="w-4 h-4 rounded text-amber-500 focus:ring-amber-400" />
+              <span>🌙 Bedtime Calm Only</span>
+            </label>
+            <button
+              type="button"
+              id="clear-search-btn"
+              class="ml-auto text-xs font-bold text-amber-600 hover:underline"
+            >
+              Clear Filters
+            </button>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 text-xs text-slate-500 flex items-center justify-between">
+          Showing <span id="results-count" class="font-bold text-slate-800 dark:text-white">{allStories.length}</span> stories
+        </div>
+      </div>
+
+      <!-- Search Results Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="stories-grid">
+        {compactStories.slice(0, 24).map(s => (
+          <article
+            class="story-card bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all overflow-hidden flex flex-col justify-between"
+          >
+            <div>
+              <div class="aspect-16/10 overflow-hidden relative">
+                <img src={s.image} alt={s.image_alt} loading="lazy" class="w-full h-full object-cover" />
+                <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-black/60 backdrop-blur-sm text-white text-[11px] font-bold">
+                  {s.collection}
+                </span>
+                <span class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-amber-500 text-white text-[11px] font-bold">
+                  ⏱️ {s.reading_time}
+                </span>
+              </div>
+
+              <div class="p-6">
+                <div class="flex items-center gap-2 text-xs text-slate-400 mb-2">
+                  <span>{s.culture_region}</span>
+                  <span>•</span>
+                  <span>{s.genre}</span>
+                </div>
+
+                <h2 class="text-lg font-bold text-slate-900 dark:text-white mb-2 line-clamp-2">
+                  <a href={s.url} class="hover:text-amber-600 transition-colors">
+                    {s.title}
+                  </a>
+                </h2>
+
+                <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-3 mb-4 leading-relaxed">
+                  {s.summary}
+                </p>
+
+                <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-800 text-xs text-amber-900 dark:text-amber-200 italic line-clamp-2">
+                  💡 {s.moral}
+                </div>
+              </div>
+            </div>
+
+            <div class="px-6 pb-6 pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+              <span class="text-xs text-slate-400">Level: <strong>{s.reading_level}</strong></span>
+              <a href={s.url} class="px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors">
+                Read Story →
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <!-- Empty Results State -->
+      <div id="no-results-box" class="hidden text-center py-16">
+        <div class="text-5xl mb-3">🔍</div>
+        <h3 class="text-lg font-bold text-slate-800 dark:text-white mb-1">No matching stories found</h3>
+        <p class="text-xs sm:text-sm text-slate-500 max-w-sm mx-auto mb-4">Try relaxing your search terms or clearing your filters to see more stories.</p>
+        <button type="button" id="reset-empty-btn" class="px-4 py-2 rounded-full bg-amber-500 text-white font-bold text-xs">
+          Reset Search
+        </button>
+      </div>
+
+      <script id="all-search-stories" type="application/json" set:html={JSON.stringify(compactStories)} />
+    </div>
+  )}
+
+  {view === 'favorites' && (
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-12">
+      <div class="max-w-3xl">
+        <div class="flex items-center gap-3 mb-2">
+          <span class="text-3xl">⭐</span>
+          <h1 class="text-3xl sm:text-4xl font-black text-slate-900 dark:text-white">
+            {t.myCorner}
+          </h1>
+        </div>
+        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+          Your reading progress, bookmarked tales, and earned stickers. All kept privately inside your device!
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <StoryGarden />
+        <StoryPassport />
+      </div>
+
+      <section>
+        <div class="flex items-center justify-between mb-6">
+          <h2 class="text-xl font-black text-slate-900 dark:text-white flex items-center gap-2">
+            <span>❤️</span> Saved Favorite Stories
+          </h2>
+          <span id="saved-count" class="text-xs font-bold px-3 py-1 bg-amber-100 dark:bg-amber-900/60 text-amber-900 dark:text-amber-200 rounded-full">
+            0 Stories Saved
+          </span>
+        </div>
+
+        <div id="favorites-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div id="no-favorites" class="col-span-full text-center py-12 p-8 bg-white dark:bg-slate-900 border border-amber-200 dark:border-slate-800 rounded-3xl">
+            <span class="text-4xl mb-3 block">📖</span>
+            <h3 class="text-base font-bold text-slate-800 dark:text-white mb-1">No bookmarked stories yet</h3>
+            <p class="text-xs text-slate-500 max-w-sm mx-auto mb-4">Click the bookmark icon on any story to save it for easy offline bedtime reading.</p>
+            <a href={`/${lang}/${lang}-search/`} class="px-5 py-2.5 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs inline-block shadow-sm transition-all">
+              Browse Stories
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  )}
+
+  {view === 'submit' && (
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
+      <div class="text-center mb-10">
+        <div class="w-16 h-16 mx-auto rounded-3xl bg-amber-500 text-white flex items-center justify-center text-3xl shadow-md mb-4">
+          ✍️
+        </div>
+        <h1 class="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight mb-2">
+          {t.submitStory}
+        </h1>
+        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 max-w-xl mx-auto leading-relaxed">
+          Share your original bedtime tale, cultural legend or moral story. Once approved by our educators, your story will be published worldwide with your pen name and city!
+        </p>
+      </div>
+
+      <div class="mb-8 p-5 rounded-2xl bg-amber-50 dark:bg-slate-900 border border-amber-200 dark:border-slate-800 text-xs sm:text-sm space-y-2">
+        <div class="font-bold text-amber-900 dark:text-amber-200 flex items-center gap-1.5">
+          <span>🛡️</span> Family Safe Guidelines:
+        </div>
+        <ul class="list-disc pl-5 space-y-1 text-slate-700 dark:text-slate-300 text-xs">
+          <li>Must be suitable for children and families (Strictly no violence, gore, or 18+ themes).</li>
+          <li>Must be your original work or a cultural folktale retold in your own voice.</li>
+          <li>Submissions pass through automated security filters and a human editorial review.</li>
+        </ul>
+      </div>
+
+      <form id="story-submission-form" class="space-y-6 bg-white dark:bg-slate-900 p-6 sm:p-10 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-md">
+        <div style="display:none;" aria-hidden="true">
+          <input type="text" name="website_hp" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5">Story Title *</label>
+          <input type="text" name="title" required placeholder="e.g. The Wise Owl and the Little Seed" class="w-full p-3.5 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white" />
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5">Author Pen Name *</label>
+            <input type="text" name="author" required placeholder="e.g. Storyteller Maya" class="w-full p-3 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5">Email (Private, for status notifications) *</label>
+            <input type="email" name="email" required placeholder="parent@family.com" class="w-full p-3 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5">Full Story Text (300 to 2,000 words) *</label>
+          <textarea name="full_text" rows="8" required placeholder="Once upon a time, at the edge of a quiet meadow..." class="w-full p-4 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-serif leading-relaxed focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white"></textarea>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5">Moral / Core Lesson *</label>
+          <input type="text" name="moral" required placeholder="e.g. Small acts of kindness can brighten the darkest day." class="w-full p-3.5 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white" />
+        </div>
+
+        <button type="submit" class="w-full py-4 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-extrabold text-sm sm:text-base shadow-lg transition-all flex items-center justify-center gap-2">
+          <span>🚀 Submit Story for Review</span>
+        </button>
+      </form>
+    </div>
+  )}
+
+  {view === 'subscribe' && (
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 text-center">
+      <div class="w-16 h-16 mx-auto rounded-3xl bg-amber-500 text-white flex items-center justify-center text-3xl shadow-lg mb-6">
+        💌
+      </div>
+      <h1 class="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight mb-3">
+        A Gentle Morning Story in Your Inbox
+      </h1>
+      <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 max-w-lg mx-auto leading-relaxed mb-8">
+        Start your day with a 3-minute tale of kindness, wisdom, or laughter. Zero spam, zero ads, and instant single-click unsubscribe anytime.
+      </p>
+
+      <div class="bg-white dark:bg-slate-900 p-6 sm:p-10 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-md text-left">
+        <form id="subscribe-form" class="space-y-4">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5">
+              Your Email Address (Adults &amp; Parents Only) *
+            </label>
+            <input type="email" name="email" required placeholder="parent@family.com" class="w-full p-3.5 rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent text-sm font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none text-slate-900 dark:text-white" />
+          </div>
+          <button type="submit" class="w-full py-3.5 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-black text-sm shadow-md transition-all">
+            Subscribe Free (No Spam Ever)
+          </button>
+        </form>
+      </div>
+    </div>
+  )}
+
+  {view === 'legal' && pageData && (
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
+      <div class="mb-8">
+        <span class="inline-block px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-950/70 border border-amber-300 dark:border-amber-800 text-amber-900 dark:text-amber-200 text-xs font-bold uppercase tracking-wider mb-3">
+          Trust &amp; Transparency Policy
+        </span>
+        <h1 class="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
+          {pageData.title}
+        </h1>
+        <div class="flex flex-wrap items-center gap-4 text-xs text-slate-500 dark:text-slate-400 mt-3 pt-3 border-t border-slate-200 dark:border-slate-800">
+          <span>Last Updated: <strong>{lastUpdated}</strong></span>
+          <span>•</span>
+          <span>Jurisdiction Compliance: <strong>Global (India DPDP Act 2023, EU GDPR, US COPPA)</strong></span>
+        </div>
+      </div>
+
+      <div class="mb-8 p-4 rounded-2xl bg-amber-50 dark:bg-slate-900 border border-amber-200 dark:border-slate-800 text-xs text-slate-700 dark:text-slate-300">
+        <strong class="font-bold text-amber-900 dark:text-amber-200">Legal Review Note:</strong> {disclaimer}
+      </div>
+
+      <div class="prose prose-slate dark:prose-invert max-w-none text-slate-700 dark:text-slate-300 text-sm sm:text-base leading-relaxed space-y-8 font-serif">
+        {pageData.sections && pageData.sections.map((sec: any) => (
+          <section class="space-y-3">
+            <h2 class="text-xl sm:text-2xl font-black font-sans text-slate-900 dark:text-white border-b border-amber-200 dark:border-slate-800 pb-2">
+              {sec.heading}
+            </h2>
+            <div class="whitespace-pre-line text-xs sm:text-sm leading-relaxed text-slate-700 dark:text-slate-300 font-sans">
+              {sec.body}
+            </div>
+          </section>
+        ))}
+      </div>
+    </div>
+  )}
+</BaseLayout>
+
+{view === 'search' && (
+  <script is:inline>
+    (function initSearch() {
+      const rawDataElem = document.getElementById('all-search-stories');
+      if (!rawDataElem) return;
+      let allStories = [];
+      try {
+        allStories = JSON.parse(rawDataElem.textContent || '[]');
+      } catch (e) {
+        return;
+      }
+
+      const searchInput = document.getElementById('search-input');
+      const filterGenre = document.getElementById('filter-genre');
+      const filterCollection = document.getElementById('filter-collection');
+      const filterLevel = document.getElementById('filter-level');
+      const filterBedtime = document.getElementById('filter-bedtime');
+      const storiesGrid = document.getElementById('stories-grid');
+      const resultsCount = document.getElementById('results-count');
+      const noResultsBox = document.getElementById('no-results-box');
+      const clearBtn = document.getElementById('clear-search-btn');
+      const resetEmptyBtn = document.getElementById('reset-empty-btn');
+
+      function filterAndRender() {
+        const query = (searchInput?.value || '').toLowerCase().trim();
+        const genre = filterGenre?.value || '';
+        const col = filterCollection?.value || '';
+        const level = filterLevel?.value || '';
+        const bedtimeOnly = filterBedtime?.checked || false;
+
+        const filtered = allStories.filter(s => {
+          if (genre && s.genre !== genre) return false;
+          if (col && s.collection !== col) return false;
+          if (level && s.reading_level !== level) return false;
+          if (bedtimeOnly && !s.is_bedtime) return false;
+          if (query) {
+            const match = (s.title && s.title.toLowerCase().includes(query)) ||
+                          (s.summary && s.summary.toLowerCase().includes(query)) ||
+                          (s.moral && s.moral.toLowerCase().includes(query)) ||
+                          (s.keywords && s.keywords.includes(query));
+            if (!match) return false;
+          }
+          return true;
+        });
+
+        if (resultsCount) resultsCount.textContent = filtered.length;
+        if (!storiesGrid) return;
+
+        if (filtered.length === 0) {
+          storiesGrid.innerHTML = '';
+          noResultsBox?.classList.remove('hidden');
+        } else {
+          noResultsBox?.classList.add('hidden');
+          storiesGrid.innerHTML = filtered.slice(0, 36).map(s => `
+            <article class="story-card bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all overflow-hidden flex flex-col justify-between">
+              <div>
+                <div class="aspect-16/10 overflow-hidden relative">
+                  <img src="${s.image}" alt="${s.image_alt || ''}" loading="lazy" class="w-full h-full object-cover" />
+                  <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-black/60 backdrop-blur-sm text-white text-[11px] font-bold">
+                    ${s.collection}
+                  </span>
+                  <span class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-amber-500 text-white text-[11px] font-bold">
+                    ⏱️ ${s.reading_time}
+                  </span>
+                </div>
+                <div class="p-6">
+                  <h2 class="text-lg font-bold text-slate-900 dark:text-white mb-2 line-clamp-2">
+                    <a href="${s.url}" class="hover:text-amber-600 transition-colors">${s.title}</a>
+                  </h2>
+                  <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-3 mb-4 leading-relaxed">${s.summary}</p>
+                  <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-800 text-xs text-amber-900 dark:text-amber-200 italic line-clamp-2">💡 ${s.moral}</div>
+                </div>
+              </div>
+              <div class="px-6 pb-6 pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+                <span class="text-xs text-slate-400">Level: <strong>${s.reading_level}</strong></span>
+                <a href="${s.url}" class="px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors">Read Story →</a>
+              </div>
+            </article>
+          `).join('');
+        }
+      }
+
+      searchInput?.addEventListener('input', filterAndRender);
+      filterGenre?.addEventListener('change', filterAndRender);
+      filterCollection?.addEventListener('change', filterAndRender);
+      filterLevel?.addEventListener('change', filterAndRender);
+      filterBedtime?.addEventListener('change', filterAndRender);
+      clearBtn?.addEventListener('click', () => {
+        if (searchInput) searchInput.value = '';
+        if (filterGenre) filterGenre.value = '';
+        if (filterCollection) filterCollection.value = '';
+        if (filterLevel) filterLevel.value = '';
+        if (filterBedtime) filterBedtime.checked = false;
+        filterAndRender();
+      });
+      resetEmptyBtn?.addEventListener('click', () => {
+        clearBtn?.click();
+      });
+    })();
+  </script>
+)}

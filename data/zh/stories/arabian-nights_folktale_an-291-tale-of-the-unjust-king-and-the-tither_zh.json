@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-291-tale-of-the-unjust-king-and-the-tither",
+  "slug": "an-291-tale-of-the-unjust-king-and-the-tither-zh",
+  "language": "zh",
+  "title": "Tale of the Unjust King and the Tither (简体中文)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "An oppressive King of ancient Yemen appointed an unscrupulous tax-collector named Kardan, with orders to collect a tithe of one-tenth of ... [ZH]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of the unjust king and the tither",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "An oppressive King of ancient Yemen appointed an unscrupulous tax-collector named Kardan, with orders to collect a tithe of one-tenth of every harvest, herd, and catch of fish across the realm.\n\nKardan, seeking to enrich himself, increased the tithes to one-third, then one-half, seizing the milk-cows of farmers, the nets of fishermen, and the looms of weavers. Within three years, the farmers ceased to plow, the fishermen abandoned their boats, and the markets of Yemen were deserted.\n\nFamine struck the capital, and the royal treasury ran dry.\n\nOne morning, an honest old farmer entered the royal audience hall carrying an empty wooden basket. He placed the basket before the throne and said:\n\n'O King! Look upon this basket. Three years ago, it was filled with sweet figs, and your tither took two figs, leaving eighteen for my children; we ate, prospered, and planted ten new trees.\n\nLast year, your tither took fifteen figs, leaving five; my children hungered, and we could not buy water.\n\nThis year, your tither came to seize all the figs, but finding my trees dead of drought, he cut down the wood for his hearth! Now my orchard is dead, your basket is empty, and both you and I must starve together!'\n\nThe words struck the King like an iron hammer. He looked at his empty treasury, looked at the ruined countryside, and realized that by destroying the producers, he had destroyed his own crown.\n\nThe King dismissed the greedy tither, abolished the oppressive taxes, and distributed free seeds from the royal granaries, learning that a kingdom flourishes only when its producers are allowed to thrive.",
+  "moral": "Oppressive taxation that bleeds the productive laborer destroys the prosperity of the commonwealth. [ZH]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the Unjust King and the Tither illustration from the 1001 Arabian Nights collection.",
+  "word_count": 270,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of the Unjust King and the Tither\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of the Unjust King and the Tither\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 291,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-163-the-master-thief",
+  "slug": "grimm-fairy-tales-163-the-master-thief-hi",
+  "language": "hi",
+  "title": "The Master Thief",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A poor peasant was visited by a wealthy gentleman in a luxurious carriage who revealed himself as the peasant's long-lost son. The son admitted that he had become a Master Thief, c...",
+  "keywords": [
+    "grimm fairy tales",
+    "the master thief",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A poor peasant was visited by a wealthy gentleman in a luxurious carriage who revealed himself as the peasant's long-lost son. The son admitted that he had become a Master Thief, capable of stealing anything without shedding blood or breaking iron doors.\n\nThe local count, his godfather, tested his skills by setting three impossible challenges: first, to steal the count's favorite horse from the stable guarded by armed sentinels; second, to steal the sheets from the count's bed and the wedding ring from the countess's finger; and third, to steal the priest and sacristan from the village church.\n\nThe master thief disguised himself as an old peddler woman, drugged the guards' wine with sleeping draughts, and rode the horse away while the sentinels snored in their saddles.\n\nNext, on a stormy night, he lowered the dummy of a burglar outside the count's window; the count fired his pistol, ran downstairs believing he had killed an intruder, while the thief climbed inside, comforted the trembling countess, asked for the bedsheets to wrap the corpse, and slipped the ring from her finger.\n\nFinally, he appeared in the churchyard dressed as an angel of light with candles fastened to crabs crawling along the grass, announcing the Day of Judgment. The credulous priest and sacristan climbed eagerly into his sack to be carried straight to heaven, only to find themselves dumped into the count's chicken coop!\n\nThe amazed count marveled at his godfather's brilliant wit, spared his life, and rewarded him handsomely on condition that he leave the country and use his genius in honorable pursuits.",
+  "moral": "Ingenious wit can overcome any lock or guard, but true mastery knows when to retire.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Master Thief illustration from the Grimm Fairy Tales collection.",
+  "word_count": 262,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Master Thief\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "wit",
+    "daring",
+    "cleverness"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Master Thief\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 163,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

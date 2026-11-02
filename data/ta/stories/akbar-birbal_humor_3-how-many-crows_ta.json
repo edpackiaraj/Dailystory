@@ -1,0 +1,127 @@
+{
+  "id": "akbar-birbal-3-how-many-crows",
+  "slug": "akbar-birbal-3-how-many-crows-ta",
+  "language": "ta",
+  "title": "How Many Crows? (தமிழ்)",
+  "genre": "Humorous Tales",
+  "collection": "Akbar–Birbal",
+  "culture_region": "India",
+  "age_group": "Below 13",
+  "summary": "A skeptical visiting nobleman challenges Birbal to verify his famous bird count. Birbal teaches him that truth requires evidence, not mere contradiction. [TA]",
+  "keywords": [
+    "akbar–birbal",
+    "how many crows?",
+    "moral stories for children",
+    "world folktales and fables",
+    "akbar-birbal"
+  ],
+  "tags": [
+    "akbar-birbal",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Following Birbal's famous answer regarding the crows of Agra, an arrogant nobleman from Kashmir arrived at the imperial court. Jealous of Birbal's towering reputation, the nobleman sneered before Emperor Akbar: 'Your Majesty, it is easy to give a fanciful number when one knows nobody can verify it. Birbal merely invented fifty-two thousand crows out of thin air. A true counselor speaks only of what can be proven!'\n\nAkbar looked at Birbal with twinkling eyes. 'Birbal, our esteemed guest disputes your calculation. How do you defend your honor?'\n\nBirbal remained calm and unruffled. He bowed toward the visiting nobleman and said with polite warmth: 'My lord speaks with admirable caution. Truth is indeed sacred. Therefore, I propose a fair trial. The nobleman himself shall lead three hundred imperial scribes into the streets of Agra tomorrow at dawn to count every crow.'\n\n'Gladly!' the nobleman proclaimed. 'I shall prove your claim false before dusk!'\n\n'However,' Birbal added gently, 'as a man of strict proof, my lord must ensure two conditions. First, while counting, he must confirm that no mother crow lays an egg that hatches during the day, for a newly hatched chick would alter the count. Second, he must certify that no crow perishes from old age or flies across the city gate to peck at grain outside the walls during the census.'\n\nThe Kashmiri nobleman stood frozen. 'How can any mortal control when a wild bird hatches, flies, or dies?'\n\n'Precisely,' Birbal answered softly. 'When a man demands absolute certainty regarding matters subject to perpetual change, he chases smoke with a sieve. Wisdom lies in recognizing the difference between meaningful knowledge and pointless wrangling.'\n\nThe Emperor nodded in agreement and the nobleman, thoroughly humbled, offered Birbal his sincere respect. Akbar commended his minister for showing that true intelligence disarms pompous doubt with effortless grace.",
+  "moral": "நீதி மற்றும் வாழ்க்கை பாடம்: Wit beats power",
+  "image": "/images/stories/akbar-birbal.webp",
+  "image_alt": "How Many Crows? illustration from the Akbar–Birbal collection.",
+  "word_count": 304,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"How Many Crows?\"?",
+      "options": [
+        "Wit beats power",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional Court Folklore of Akbar and Birbal",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Akbar–Birbal anthology. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"How Many Crows?\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wit beats power\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 3,
+  "reviewed": true,
+  "source": "Akbar-Birbal folklore - Mughal India 16th century - public domain oral tradition",
+  "license": "Public Domain",
+  "credit": "Akbar–Birbal Global Treasury"
+}

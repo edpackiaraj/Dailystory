@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-108-the-hut-in-the-forest",
+  "slug": "grimm-fairy-tales-108-the-hut-in-the-forest-es",
+  "language": "es",
+  "title": "The Hut in the Forest",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A poor woodcutter lived on the edge of a deep forest with his wife and three daughters. One day, the eldest daughter was sent into the woods carrying dinner to her father, but mist...",
+  "keywords": [
+    "grimm fairy tales",
+    "the hut in the forest",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A poor woodcutter lived on the edge of a deep forest with his wife and three daughters. One day, the eldest daughter was sent into the woods carrying dinner to her father, but mistaking the trail of millet he had scattered, she wandered deep into the thickets until night fell.\n\nShe spotted a solitary light shining from an old thatched hut. Knocking at the door, she was greeted by an elderly grey-haired man sitting at a rustic table, while around him lay an old speckled hen, a red cock, and a spotted cow. The girl asked for food and shelter. The old man asked his animals if they agreed, and they clucked and mooed their consent. The girl ate heartily of the porridge, but offered not a crumb to the faithful creatures, nor did she bid them goodnight. When she went upstairs to sleep, the floor gave way, dropping her into a dark cellar.\n\nThe second daughter suffered the exact same fate on the following day, selfishly feeding only herself and ignoring the beasts.\n\nOn the third day, the youngest daughter ventured out. Arriving at the hut, she greeted the old man with gentle warmth, stroked the hen and the cock, and gave the spotted cow a generous handful of sweet hay. She shared her supper with all three beasts before tasting a single spoonful herself, and made sure their water trough was filled.\n\nWhen she awoke next morning, the tiny hut had transformed into a dazzling royal palace of marble and gold! The old man was revealed to be an enchanted prince, transformed by a sorcerer until a maiden of pure compassion should appear who treated beasts with the same loving honor as kings. The cellar opened to release the older sisters, who were sent to learn humility, while the youngest married the prince and lived in boundless harmony.",
+  "moral": "Kindness shown to the smallest and humblest creatures unlocks the door to genuine blessing.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Hut in the Forest illustration from the Grimm Fairy Tales collection.",
+  "word_count": 310,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Hut in the Forest\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Spanish readers, safe for schools and family bedtime).",
+  "values": [
+    "compassion",
+    "kindness-to-animals",
+    "generosity"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Hut in the Forest\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 108,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

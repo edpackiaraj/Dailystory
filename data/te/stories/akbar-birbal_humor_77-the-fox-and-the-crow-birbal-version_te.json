@@ -1,0 +1,127 @@
+{
+  "id": "akbar-birbal-77-the-fox-and-the-crow-birbal-version",
+  "slug": "akbar-birbal-77-the-fox-and-the-crow-birbal-version-te",
+  "language": "te",
+  "title": "The Fox and the Crow - Birbal version (తెలుగు)",
+  "genre": "Humorous Tales",
+  "collection": "Akbar–Birbal",
+  "culture_region": "India",
+  "age_group": "Below 13",
+  "summary": "Birbal retells the famous fable of the crow and the cheese to warn Akbar against a flattering foreign diplomat. [TE]",
+  "keywords": [
+    "akbar–birbal",
+    "the fox and the crow - birbal version",
+    "moral stories for children",
+    "world folktales and fables",
+    "akbar-birbal"
+  ],
+  "tags": [
+    "akbar-birbal",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A clever and silver-tongued ambassador from a rival principality arrived at the court of Emperor Akbar. Bowing with dramatic flourishes, the diplomat spent two hours reciting lavish praise: 'O Emperor Akbar! Your face is brighter than the full moon! Your voice is sweeter than celestial harps! Your generosity outshines the sun itself!'\n\nAkbar, basking in the intoxicating praise, was on the verge of signing an extraordinarily one-sided trade treaty that would have surrendered the revenues of three border provinces to the foreign kingdom.\n\nBirbal stepped forward, bowed politely to the ambassador, and turned to Akbar: 'Sire, before you seal this treaty with the royal signet, allow me to recount the Birbal version of the Fox and the Crow.'\n\nAkbar smiled: 'Speak, Birbal.'\n\nBirbal narrated: 'A crow was perched upon a high oak branch, holding a delicious piece of spiced mutton in its beak. A hungry fox spotted the prize and sat at the foot of the tree.\n\n'\"O magnificent bird!\" the fox called out with tears of admiration. \"I have heard of your royal pedigree, but I never knew your feathers were as black and lustrous as silk! And they say that when you sing, even the nightingales weep with envy! Will you not bless my humble ears with one sweet song?\"\n\n'The vain crow, intoxicated by the flattery, puffed out its chest, opened its beak wide, and croaked with all its might: *Caw! Caw!*\n\n'The instant its beak opened, the meat fell into the grass below. The fox snapped up the savory morsel, swallowed it down, and laughed: \"Thank you for the feast, foolish bird! You have a voice like a rusty gate, but a mind even weaker than your voice!\"'\n\nAkbar paused. He looked down at the treaty scroll on his desk, and then at the sweet-talking foreign ambassador who was sweating nervously.\n\nThe Emperor laughed aloud at how Birbal had shattered the diplomat's spell: 'Thank you, Birbal! You have snatched the imperial cheese before the fox could carry it away!'\n\nAkbar tore up the unfair treaty, negotiated strict and equitable terms, and rewarded Birbal for his timely vigilance.",
+  "moral": "నీతి: Wit beats power",
+  "image": "/images/stories/akbar-birbal.webp",
+  "image_alt": "The Fox and the Crow - Birbal version illustration from the Akbar–Birbal collection.",
+  "word_count": 351,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Fox and the Crow - Birbal version\"?",
+      "options": [
+        "Wit beats power",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional Court Folklore of Akbar and Birbal",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Akbar–Birbal anthology. (Localized for Telugu readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Fox and the Crow - Birbal version\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wit beats power\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 77,
+  "reviewed": true,
+  "source": "Akbar-Birbal folklore - Mughal India 16th century - public domain oral tradition",
+  "license": "Public Domain",
+  "credit": "Akbar–Birbal Global Treasury"
+}

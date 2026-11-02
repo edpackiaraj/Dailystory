@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-55-the-man-and-the-serpent",
+  "slug": "aesops-fables-55-the-man-and-the-serpent-te",
+  "language": "te",
+  "title": "The Man and the Serpent",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A country farmer had an old serpent living beneath his doorstep, which in a moment of fury bit his beloved son, killing the boy instantly. Overwhelmed by grief and rage, the farmer...",
+  "keywords": [
+    "aesop's fables",
+    "the man and the serpent",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "A country farmer had an old serpent living beneath his doorstep, which in a moment of fury bit his beloved son, killing the boy instantly. Overwhelmed by grief and rage, the farmer seized an axe, chased the serpent, and struck at its head; but the blow missed, merely severing the serpent's tail and leaving a deep gash in the rock.\n\nLater, realizing that perpetual hatred brought no peace, the farmer placed bread and milk before the hole, seeking reconciliation.\n\nThe serpent poked its head out, gazed at the offered meal, and hissed sorrowfully:\n\n\"Farmer, take away your bread. There can never be true peace between us. So long as you look upon your child's grave, and so long as I look upon my severed tail and the deep scar in that rock, the memory of our injuries will poison every handshake.\"",
+  "moral": "True reconciliation is impossible where monuments of mutual injury remain.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Man and the Serpent illustration from the Aesop's Fables collection.",
+  "word_count": 141,
+  "reading_time": "1 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Man and the Serpent\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Telugu readers, safe for schools and family bedtime).",
+  "values": [
+    "forgiveness",
+    "memory",
+    "trust"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Man and the Serpent\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 55",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

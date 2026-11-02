@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-1-the-fox-and-the-grapes",
+  "slug": "aesops-fables-1-the-fox-and-the-grapes-mr",
+  "language": "mr",
+  "title": "The Fox and the Grapes",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "On a sweltering summer afternoon, a sly fox strolled through an orchard bathed in warm sunlight. His throat was parched, and his stomach rumbled with hunger. As he reached a high g...",
+  "keywords": [
+    "aesop's fables",
+    "the fox and the grapes",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "On a sweltering summer afternoon, a sly fox strolled through an orchard bathed in warm sunlight. His throat was parched, and his stomach rumbled with hunger. As he reached a high garden wall, his amber eyes caught sight of a magnificent grapevine that wound its way along a tall wooden trellis. Hanging overhead were rich, luscious clusters of dark purple grapes, glistening with delicate drops of morning dew and bursting with sweet, cool juice.\n\nThe fox licked his whiskers and grinned. \"Here is a feast fit for an emperor,\" he muttered, stepping back a few paces to gain momentum. With a graceful leap, he sprang high into the air with jaws wide open, but his teeth snapped on empty air, missing the lowest bunch by mere inches.\n\nRefusing to admit defeat, the fox backed up further into the dusty furrow, gathered all his strength, and sprang upward once more. Again he fell short, tumbling onto the soft earth. Three, four, five times he leaped, straining every muscle in his russet body until his breath came in ragged wheezes and his legs trembled with exhaustion.\n\nLooking up at the purple prize that hung tantalizingly out of reach, the fox curled his snout into an arrogant sneer. He brushed the dust from his bushy tail and announced loudly to the listening birds: \"Why should I waste my precious energy on such wretched fruit? I can see plainly from here that they are completely green and sour, unfit for a gentleman's palate!\" And with his head held high in pretended disgust, he trotted away through the briers.",
+  "moral": "It is easy to despise and pretend to scorn what you cannot possess.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Fox and the Grapes illustration from the Aesop's Fables collection.",
+  "word_count": 264,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Fox and the Grapes\"?",
+      "options": [
+        "It is easy to despise what you cannot get.",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "honesty",
+    "humility",
+    "self-awareness"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Fox and the Grapes\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"It is easy to despise what you cannot get.\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 15",
+  "reviewed": true,
+  "source": "Aesop - Townsend translation 1867 Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

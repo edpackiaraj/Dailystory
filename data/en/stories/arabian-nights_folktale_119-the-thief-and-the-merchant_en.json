@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-119-the-thief-and-the-merchant",
+  "slug": "arabian-nights-119-the-thief-and-the-merchant",
+  "language": "en",
+  "title": "The Thief and the Merchant",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the city of Isfahan lived an affluent silk merchant named Kamal, celebrated for his tranquil temperament and generous charity. One night, while reading ledgers late in his in...",
+  "keywords": [
+    "arabian nights",
+    "the thief and the merchant",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "In the city of Isfahan lived an affluent silk merchant named Kamal, celebrated for his tranquil temperament and generous charity. One night, while reading ledgers late in his inner counting-house, Kamal heard a soft rustling sound from the ceiling rafters.\n\nLooking up calmly, he saw a young thief descending by a silk cord, clutching an iron pry-bar. The thief slipped into the room, only to find the master sitting at his desk, watching him with gentle curiosity.\n\nThe trapped burglar turned pale, raised his pry-bar, and snarled: 'Do not cry out for the watch, old man, or I shall strike you down!'\n\nKamal did not flinch. He set down his reed pen, gestured toward a cushioned stool, and said in a soothing voice: 'Peace be upon you, young friend. Sit down and catch your breath; climbing down rafters in the dark is weary work. It is cold tonight; let me pour you a cup of hot spiced tea.'\n\nThe thief stood dumbfounded, his weapon lowering in confusion. No victim had ever offered him tea before.\n\nKamal poured the hot beverage, handed the youth a bowl of sweet almonds, and asked gently: 'What bitter distress has forced a strong, intelligent young man like you to risk his life and honor in the dark alleys?'\n\nThe youth hung his head in shame, weeping: 'My father was an honest weaver who died leaving great debts. My mother and little sisters are starving, and no merchant will give employment to a penniless lad.'\n\nKamal opened his iron cash-box, counted out one hundred silver dirhams, and placed them in the youth’s hands: 'Take this sum to pay your father’s debts and buy flour for your mother. Tomorrow morning at sunrise, come to my silk shop in the central bazaar; I need a trustworthy assistant to manage my caravans.'\n\nThe young man fell to the floor, kissing Kamal’s sandals, swearing to renounce crime forever. He served the merchant with heroic fidelity for thirty years, eventually inheriting the business and continuing the tradition of turning compassion into honest opportunity.",
+  "moral": "Repaying theft with kindness and practical opportunity converts a criminal into a lifelong ally.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Thief and the Merchant illustration from the Arabian Nights collection.",
+  "word_count": 342,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Thief and the Merchant\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "mercy",
+    "generosity",
+    "rehabilitation",
+    "integrity"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Thief and the Merchant\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 119,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

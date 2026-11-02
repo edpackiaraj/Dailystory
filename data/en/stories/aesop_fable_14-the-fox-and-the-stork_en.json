@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-14-the-fox-and-the-stork",
+  "slug": "aesops-fables-14-the-fox-and-the-stork",
+  "language": "en",
+  "title": "The Fox and the Stork",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "The fox, always fond of mischievous pranks at the expense of others, invited his neighbor the Stork to dine with him at his den. The polite bird accepted the invitation with gracio...",
+  "keywords": [
+    "aesop's fables",
+    "the fox and the stork",
+    "moral stories for children",
+    "world folktales and fables",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "The fox, always fond of mischievous pranks at the expense of others, invited his neighbor the Stork to dine with him at his den. The polite bird accepted the invitation with gracious courtesy, arriving at the appointed hour with a keen appetite.\n\nThe fox brought out dinner with a mocking grin: a thin, aromatic broth served in shallow earthenware saucers. The fox lapped up his soup in seconds with his broad tongue, but the poor Stork, with her long, slender bill, could only peck uselessly at the flat plate, wetting the very tip of her beak while the broth slipped away.\n\n\"You do not eat, neighbor Stork!\" chuckled the deceitful fox. \"Is the soup not spiced to your liking?\"\n\n\"Do not concern yourself, friend,\" replied the dignified Stork politely. \"I have enjoyed the visit immensely. In return, I invite you to dine with me at my nest tomorrow evening.\"\n\nThe following evening, the hungry fox arrived at the Stork's dwelling, eager for a free feast. The Stork welcomed him and brought out dinner: a savory stew of tender minced meat and rich gravy, served inside tall, narrow-necked glass jars with slender bases.\n\nThe Stork inserted her long bill easily into the jar, feasting delicately and savoring every mouthful. The fox, unable to squeeze his broad snout through the narrow glass neck, could only lick the rim in ravenous misery while his stomach growled in humiliation.\n\nSeeing the fox's furious embarrassment, the Stork smiled calmly and said: \"Do not grumble, friend Fox. He who plays cruel tricks upon his guests must not complain when the same hospitality is returned to him!\"",
+  "moral": "One bad turn deserves another; treat guests as you wish to be treated yourself.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Fox and the Stork illustration from the Aesop's Fables collection.",
+  "word_count": 270,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Fox and the Stork\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Aesop's Fables anthology.",
+  "values": [
+    "hospitality",
+    "fairness",
+    "reciprocity"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Fox and the Stork\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": "Perry 14",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Global Treasury"
+}

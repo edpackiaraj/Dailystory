@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-383-tale-of-the-third-larrikin-concerning-himself",
+  "slug": "an-383-tale-of-the-third-larrikin-concerning-himself-zh",
+  "language": "zh",
+  "title": "Tale of the Third Larrikin Concerning Himself (简体中文)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the city of Rayy lived a greedy village alderman named Mu'in, who took a plump roasted goose prepared by a poor widow for her orphaned... [ZH]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of the third larrikin concerning himself",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the city of Rayy lived a greedy village alderman named Mu'in, who took a plump roasted goose prepared by a poor widow for her orphaned children, claiming it was his 'inspection tribute'.\n\nA quick-witted student named Salim, lodging in the widow's attic, vowed to restore justice with a laugh.\nHe went to the alderman's banquet hall where Mu'in sat with four pompous friends, boasting of his feast.\n\nSalim entered with an air of urgent gravity, carrying an open parchment:\n'Your Honor! A grave grammatical and theological dispute has arisen among the scholars of the academy, and only an alderman of your vast intellect can settle it! The dispute concerns the ancient fable of the Goose that Divided the World.'\n\nMu'in, flattered beyond measure, puffed up his chest: 'Speak, scholar! I shall divide the goose according to cosmic wisdom!'\n\nSalim carved the roast goose and presented the pieces:\n'To you, O Alderman, as the head of the municipality, belongs the head of the goose, that your mind may remain elevated above mundane affairs!\nTo your two senior counselors belong the two wings, that you may fly together into the clouds of administrative glory!\nTo your two junior clerks belong the two drumsticks, that they may run swiftly to execute your decrees!\nAnd to me, a poor, humble student representing the hungry orphan children of this district, belongs the humble torso and breast of the goose!'\n\nBefore the stunned alderman could comprehend the division, Salim wrapped the roasted bird's body in a clean linen cloth, bowed with profound reverence, and slipped out of the garden gate!\n\nHe carried the warm roast goose straight to the widow and her hungry children, who feasted with joyous laughter.\nWhen the alderman realized he was left with only a goose head on his plate, his guests burst into unstoppable laughter at how cleanly his greed had been rebuked by witty justice.",
+  "moral": "Humorous wit that exposes hypocrisy and restores stolen goods brings joy to the community. [ZH]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the Third Larrikin Concerning Himself illustration from the 1001 Arabian Nights collection.",
+  "word_count": 316,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of the Third Larrikin Concerning Himself\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of the Third Larrikin Concerning Himself\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 383,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

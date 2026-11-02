@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-142-the-two-kings-children",
+  "slug": "grimm-fairy-tales-142-the-two-kings-children-ta",
+  "language": "ta",
+  "title": "The Two Kings' Children",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A young prince fell into the clutches of a wicked enchanter-king who demanded three impossible tasks: to cut down a vast forest with an axe of glass, to drain a deep lake with a le...",
+  "keywords": [
+    "grimm fairy tales",
+    "the two kings' children",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A young prince fell into the clutches of a wicked enchanter-king who demanded three impossible tasks: to cut down a vast forest with an axe of glass, to drain a deep lake with a leaky sieve, and to build a mountain castle in a single night.\n\nThe enchanter's daughter, a beautiful princess who loved the prince, used her magical knowledge to complete the tasks for him, shattering the enchanter's power. Realizing her father planned their destruction, she and the prince fled on two swift horses.\n\nWhen the enchanter pursued them, the princess transformed the horses into a rosebush, a church, and a lake, baffling the pursuers until the enchanter gave up in despair.\n\nReaching his homeland, the prince went to the palace to prepare for the bridal entry, but his mother kissed him, breaking the sacred spell and causing him to forget his bride entirely.\n\nThe abandoned princess lived in a humble cottage near the city. When the prince's wedding to another bride was arranged, the faithful princess obtained permission to dance at the feast. She released two golden doves that pecked at each other, murmuring words of their shared trials on the glass mountain.\n\nThe golden words pierced the prince's clouded memory. He recognized his true savior, embraced her with joyful tears, and celebrated his real wedding, casting off oblivion forever in the arms of his devoted bride.",
+  "moral": "True devotion overcomes mountains of glass, forgets nothing, and breaks the spells of oblivion.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Two Kings' Children illustration from the Grimm Fairy Tales collection.",
+  "word_count": 229,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Two Kings' Children\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "perseverance",
+    "true-love",
+    "courage"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Two Kings' Children\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 142,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

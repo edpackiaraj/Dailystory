@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-268-story-of-aylan-shah-and-abu-tammam",
+  "slug": "an-268-story-of-aylan-shah-and-abu-tammam-hi",
+  "language": "hi",
+  "title": "Story of Aylan Shah and Abu Tammam (हिन्दी)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Bakhtiyar recounted the story of King Aylan Shah of Khwarazm: [HI]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "story of aylan shah and abu tammam",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Bakhtiyar recounted the story of King Aylan Shah of Khwarazm:\n\n'King Aylan Shah had a wise and virtuous counselor named Abu Tammam, whose learning, honesty, and charity won the love of the entire nation. A jealous courtier named Qasim, burning with envy at Abu Tammam’s favor, resolved to destroy him.\n\nQasim approached the king and whispered falsely: \"Sire, Abu Tammam boasts in private that your breath is foul and offensive; observe tomorrow when he approaches your throne: he will cover his mouth with his sleeve!\"\n\nQasim then invited Abu Tammam to his home for dinner and served him a dish heavily seasoned with raw garlic.\n\nThe next morning, when Abu Tammam approached the throne to deliver state papers, he discreetly placed his sleeve before his mouth so that the smell of garlic would not offend the monarch.\n\nThe king, believing the slanderer’s accusation, wrote a royal order to the captain of the city fortress: \"Strike off the head of the bearer of this letter immediately!\" The king handed the sealed parchment to Abu Tammam, saying: \"Deliver this to the captain.\"\n\nAs Abu Tammam left the palace, Qasim met him in the courtyard, saw the royal letter, and thinking it was an order for a rich gift of gold, seized it from Abu Tammam’s hand: \"I will deliver it for you, brother!\"\n\nQasim ran to the fortress, handed the letter to the captain, and was immediately seized and executed according to the royal decree!\n\nWhen Abu Tammam appeared before the king the next day, the truth was brought to light. King Aylan Shah marveled at the divine justice that had made the slanderer carry his own death sentence, praising the virtue that shields the innocent.'",
+  "moral": "The slanderer falls into the very trap he dug for the innocent, while truth is vindicated. [HI]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Story of Aylan Shah and Abu Tammam illustration from the 1001 Arabian Nights collection.",
+  "word_count": 284,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Story of Aylan Shah and Abu Tammam\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Story of Aylan Shah and Abu Tammam\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 268,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

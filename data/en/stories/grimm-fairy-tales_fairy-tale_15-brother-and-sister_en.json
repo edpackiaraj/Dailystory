@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-15-brother-and-sister",
+  "slug": "grimm-fairy-tales-15-brother-and-sister",
+  "language": "en",
+  "title": "Brother and Sister",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "Fleeing a cruel stepmother, a little brother and sister walked into the great forest. The wicked woman had bewitched all the forest brooks....",
+  "keywords": [
+    "grimm fairy tales",
+    "brother and sister",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Fleeing a cruel stepmother, a little brother and sister walked into the great forest. The wicked woman had bewitched all the forest brooks.\n\nAt the first brook, the water murmured: \"Whoever drinks of me will become a tiger!\" The sister caught her brother's arm: \"Do not drink, or you will tear me to pieces!\"\n\nAt the second brook, it sang: \"Whoever drinks will become a wolf!\" The sister held him back again.\n\nAt the third brook, parched with unbearable thirst, the boy could not resist and drank. Instantly, he was transformed into a gentle white fawn!\n\nThe sister wept, took off her golden garter, fastened it around the fawn's neck, and wove a rope of rushes to lead him to a deserted woodland hut, where they lived in sweet communion.\n\nDuring a royal hunt, the king chased the beautiful fawn to the cottage. Enamored by the maiden's grace, the king brought them both to his castle and married the sister, while the fawn roamed freely through the royal gardens.\n\nWhen the queen bore a son, the envious stepmother slipped into the palace, smothered the queen in a heated bath, and put her own ugly one-eyed daughter in the bed.\n\nFor three nights, the ghost of the queen appeared at midnight to nurse her baby and stroke the fawn's neck, whispering:\n\"How fares my child? How fares my fawn?\nTwice come I here, then forever gone!\"\n\nOn the third night, the king stayed awake, stepped forward, and embraced her: \"You are my true, living wife!\"\n\nBy God's grace, she returned to life! The wicked stepmother was condemned to justice, and as she perished, the enchantment broke: the white fawn stood up as a handsome youth, restored to his human form, living in lifelong joy with his sister.",
+  "moral": "Patience and gentle affection outlast cruelty; innocence is vindicated by truth.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "Brother and Sister illustration from the Grimm Fairy Tales collection.",
+  "word_count": 296,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Brother and Sister\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology.",
+  "values": [
+    "fidelity",
+    "gentleness",
+    "purity"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Brother and Sister\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 15,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

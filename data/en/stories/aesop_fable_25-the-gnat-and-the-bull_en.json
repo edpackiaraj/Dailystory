@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-25-the-gnat-and-the-bull",
+  "slug": "aesops-fables-25-the-gnat-and-the-bull",
+  "language": "en",
+  "title": "The Gnat and the Bull",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A tiny gnat, having buzzed around the meadow for an entire afternoon, grew weary from his flight and decided to rest. He landed softly upon the tip of one of the massive horns of a...",
+  "keywords": [
+    "aesop's fables",
+    "the gnat and the bull",
+    "moral stories for children",
+    "world folktales and fables",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A tiny gnat, having buzzed around the meadow for an entire afternoon, grew weary from his flight and decided to rest. He landed softly upon the tip of one of the massive horns of a colossal prize bull that was grazing peacefully in the pasture.\n\nThe gnat groomed his wings, cleaned his microscopic antennae, and rested for an hour while the great beast munched sweet clover, totally unaware of the insect's presence.\n\nWhen the gnat was refreshed and prepared to take flight, he felt an overwhelming surge of self-importance. He buzzed loudly in the bull's ear and said with grand, pompous courtesy: \"Noble beast, I have rested upon your horn long enough. I thank you for your hospitality! I must depart now, but if my weight has burdened your brow, I beg your pardon for the inconvenience.\"\n\nThe colossal bull did not even interrupt his chewing. He slowly raised one lazy eye toward his horn, exhaled a warm gust of steam through his nostrils, and replied in a deep, rumbling voice:\n\n\"Little fellow, do not trouble yourself with apologies. To tell you the honest truth, I did not even know you had arrived, and I shall certainly not notice when you are gone!\"\n\nMortified by the giant's indifference, the tiny gnat buzzed away into the weeds, his swollen vanity deflated by the truth of his absolute insignificance.",
+  "moral": "The smaller the mind, the greater the conceit; you are not as important as you imagine.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Gnat and the Bull illustration from the Aesop's Fables collection.",
+  "word_count": 227,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Gnat and the Bull\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Aesop's Fables anthology.",
+  "values": [
+    "humility",
+    "self-awareness",
+    "anti-conceit"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Gnat and the Bull\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": "Perry 25",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Global Treasury"
+}

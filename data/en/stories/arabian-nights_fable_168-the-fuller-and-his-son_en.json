@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-168-the-fuller-and-his-son",
+  "slug": "arabian-nights-168-the-fuller-and-his-son",
+  "language": "en",
+  "title": "The Fuller and His Son",
+  "genre": "Fables",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The Third Vizier recounted a tale to teach the value of calm presence of mind:",
+  "keywords": [
+    "arabian nights",
+    "the fuller and his son",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "The Third Vizier recounted a tale to teach the value of calm presence of mind:\n\n'Beside the swift waters of the Tigris worked an industrious fuller—a cloth-washer—and his twelve-year-old son, washing heavy woollen carpets and rolls of linen in the river.\n\nOne afternoon, while rinsing a heavy Persian carpet, the boy lost his footing upon the slippery riverbank and fell into the deep, turbulent current! The swift water swept him away, and the child cried out in terror as he was carried toward the dangerous weir.\n\nA crowd of washermen and porters gathered upon the bank, wringing their hands, running in circles, and shouting contradictory advice, but none had the presence of mind to act.\n\nThe fuller did not waste a single breath in frantic screams. He kept his eyes locked upon his struggling son, calculated the speed of the current, seized a long, sturdy wooden drying-pole from his shop, and sprinted down the bank to a rocky spit of land fifty paces ahead of the child.\n\nBracing his feet firmly between two boulders, the father extended the long pole across the surface of the rushing water, shouting with calm, commanding authority: \"Grasp the pole with both hands, my son, and hold fast!\"\n\nThe boy reached out, locked his fingers around the sturdy wood, and the father, with steady, deliberate strength, swung the child out of the churning rapids onto the grassy bank.\n\nThe crowd cheered, praising the fuller’s bravery. The fuller embraced his shivering son and said to the spectators: \"Panic is the ally of disaster; in the hour of trial, a single thought of calm reason is worth more than a thousand screams of despair.\"'",
+  "moral": "In the face of unexpected crisis, calm presence of mind rescues what frantic panic would destroy.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Fuller and His Son illustration from the Arabian Nights collection.",
+  "word_count": 277,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Fuller and His Son\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "calmness",
+    "presence-of-mind",
+    "courage",
+    "parental-love"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Fuller and His Son\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 168,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-34-the-horse-and-the-ass",
+  "slug": "aesops-fables-34-the-horse-and-the-ass",
+  "language": "en",
+  "title": "The Horse and the Ass",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A country peddler was traveling to the city market with his two beasts of burden: a proud, sleek warhorse adorned with brass-studded harness, and a patient, humble little donkey. T...",
+  "keywords": [
+    "aesop's fables",
+    "the horse and the ass",
+    "moral stories for children",
+    "world folktales and fables",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A country peddler was traveling to the city market with his two beasts of burden: a proud, sleek warhorse adorned with brass-studded harness, and a patient, humble little donkey. The peddler had loaded all the heavy packs, iron pots, and sacks of grain onto the donkey's back, while the horse pranced alongside carrying nothing but his light leather saddle.\n\nAs the sun rose higher and the road climbed a steep, stony mountain pass, the little donkey's knees began to buckle beneath the crushing weight. Gasping for breath, he turned to the proud horse and pleaded:\n\n\"Good brother, I beg you, take a small portion of my burden! Even a single sack would relieve my distress and allow me to survive this climb. If you do not help me, I shall collapse upon these stones.\"\n\nThe haughty horse tossed his flowing mane and snorted in contempt: \"Do you take me for a common beast of burden? Toil is your station in life, while mine is to look regal. Walk on, and do not whine!\"\n\nA mile further on, the exhausted donkey gave a deep, shuddering groan, collapsed onto the flint stones, and died of sheer exhaustion.\n\nThe peddler wept for his lost donkey, but had no time to lose. He unbuckled all the heavy baggage, pots, and sacks of grain, and hoisted every single ounce onto the back of the proud horse. And to crown the load, he flayed the donkey and threw the heavy skin on top!\n\nStaggering beneath the crushing weight, his back groaning under the double burden, the horse groaned in bitter remorse: \"Alas, what a fool I was! By refusing to help my brother with a small sack, I am now forced to carry his entire load and his skin into the bargain!\"",
+  "moral": "Refusing to share a brother’s small burden often forces you to bear the entire load alone.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Horse and the Ass illustration from the Aesop's Fables collection.",
+  "word_count": 296,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Horse and the Ass\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Aesop's Fables anthology.",
+  "values": [
+    "compassion",
+    "brotherhood",
+    "mutual-aid"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Horse and the Ass\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": "Perry 34",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Global Treasury"
+}

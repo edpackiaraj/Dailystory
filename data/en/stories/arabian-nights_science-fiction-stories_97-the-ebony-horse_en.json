@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-97-the-ebony-horse",
+  "slug": "arabian-nights-97-the-ebony-horse",
+  "language": "en",
+  "title": "The Ebony Horse",
+  "genre": "Science Fiction Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "During the celebration of the spring festival of Nowruz in the ancient city of Shiraz, three brilliant inventors appeared before the King of Persia, each presenting a masterpiec...",
+  "keywords": [
+    "arabian nights",
+    "the ebony horse",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "During the celebration of the spring festival of Nowruz in the ancient city of Shiraz, three brilliant inventors appeared before the King of Persia, each presenting a masterpiece of mechanical craft. The first presented a peacock of gold that crowed the hours; the second, a brass trumpeter that sounded warnings; but the third, an artisan from India, presented a marvelous mechanical horse carved of polished ebony and ivory, decorated with gold harness.\n\n'O King,' said the inventor, 'this horse requires neither barley nor water. By turning the golden peg upon his right shoulder, he leaps into the clouds, flying through the air to any city on earth with the speed of thought!'\n\nPrince Kamar al-Akmar, the king’s daring son, leaped into the saddle to test the marvel. Turning the peg, the ebony horse shot like an arrow into the stratosphere, soaring above mountains and oceans! The prince was thrilled, but when he wished to descend, he searched frantically for the reverse mechanism. At last, he discovered a smaller silver peg behind the ear; turning it, the horse gently spiraled down through the night sky, landing upon the marble roof of an enchanted palace in the city of Sana'a in Yemen.\n\nThere, upon a moonlit terrace, the prince met Princess Shams al-Nahar, the daughter of the King of Yemen. A deep affection sprang between them, founded on mutual admiration of courage and intellect.\n\nWhen the jealous Indian inventor, seeking revenge for his horse, abducted the princess by stealth and flew her to Greece, Prince Kamar al-Akmar pursued them across continents. Disguised as a master physician, the prince gained entrance to the palace of the King of Greece, who had imprisoned the princess, believing her delirious.\n\nPrince Kamar approached the ebony horse in the courtyard under the guise of an exorcism, lifted the princess onto the saddle behind him, turned the golden peg, and soared triumphantly into the sky, returning safely to Shiraz amidst grand celebrations that united Persia and Yemen in lasting friendship.",
+  "moral": "Technological marvels and human ingenuity must be guided by wisdom, honor, and noble purpose.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Ebony Horse illustration from the Arabian Nights collection.",
+  "word_count": 332,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Ebony Horse\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "ingenuity",
+    "courage",
+    "loyalty",
+    "wisdom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Ebony Horse\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 97,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

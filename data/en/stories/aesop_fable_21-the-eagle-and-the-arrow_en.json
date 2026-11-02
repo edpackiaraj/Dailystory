@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-21-the-eagle-and-the-arrow",
+  "slug": "aesops-fables-21-the-eagle-and-the-arrow",
+  "language": "en",
+  "title": "The Eagle and the Arrow",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A majestic eagle soared high above the jagged mountain peaks, his great golden wings riding the thermals with regal ease. Looking down with keen, telescopic vision from the clouds,...",
+  "keywords": [
+    "aesop's fables",
+    "the eagle and the arrow",
+    "moral stories for children",
+    "world folktales and fables",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A majestic eagle soared high above the jagged mountain peaks, his great golden wings riding the thermals with regal ease. Looking down with keen, telescopic vision from the clouds, he surveyed the rocky crags, seeking hare or grouse among the boulders.\n\nDown in the ravine, a solitary archer spotted the great bird circling against the blue sky. The hunter notched a slender wooden arrow onto his bowstring, drew the cord back to his ear, and released the shaft with a musical twang.\n\nThe arrow shot upward through the air like a whistling streak of lightning. It pierced the eagle's breast with mortal precision.\n\nFolding his mighty wings in agony, the great monarch of the heavens tumbled from the sky, crashing down upon a carpet of mountain moss. As the eagle lay gasping his last breath, his dimming eyes looked down at the fatal shaft embedded deep in his chest.\n\nTo his bitter grief, he saw that the arrow's guiding fletching was made from one of his own dropped feathers, which the archer had plucked from the crags weeks before.\n\n\"Alas,\" groaned the dying monarch with a heavy sigh, \"how doubly bitter is my end! It was not enough that man sought my life, but my own wings provided the feather that guided the fatal shaft straight to my heart!\"",
+  "moral": "It sharpens the sting of sorrow when we realize our own gifts furnished the weapon of our downfall.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Eagle and the Arrow illustration from the Aesop's Fables collection.",
+  "word_count": 219,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Eagle and the Arrow\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Aesop's Fables anthology.",
+  "values": [
+    "irony",
+    "self-reflection",
+    "grief"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Eagle and the Arrow\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": "Perry 21",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Global Treasury"
+}

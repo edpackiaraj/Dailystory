@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-11-tale-of-the-husband-and-the-parrot",
+  "slug": "an-11-tale-of-the-husband-and-the-parrot-mr",
+  "language": "mr",
+  "title": "Tale of the Husband and the Parrot (मराठी)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In a bustling quarter of Baghdad lived a wealthy merchant who owned a rare and articulate parrot, gifted with such extraordinary intellig... [MR]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of the husband and the parrot",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In a bustling quarter of Baghdad lived a wealthy merchant who owned a rare and articulate parrot, gifted with such extraordinary intelligence that it could repeat everything spoken in its presence and describe every visitor who crossed the threshold. Because the merchant traveled frequently on business, he placed the bird in a gilded cage in his courtyard to guard his domestic peace.\n\nOne day, returning from a three-day journey, the merchant questioned the bird. The parrot truthfully recounted that while he was away, an unwanted visitor had entered the house and eaten his sweetmeats. Enraged, the merchant confronted his household and demanded an explanation. His wife, realizing that the feathered observer had reported the matter, resolved to silence its credibility through clever deception.\n\nThe following night, when the merchant was again absent, the wife ordered her maidservant to turn an olive mill beneath the parrot's cage, while another servant poured water through a sieve above it, and a third waved a polished mirror reflecting candlelight across the ceiling. All night long, the bird was drenched with spray, deafened by rumbling stones, and blinded by artificial lightning, believing that a ferocious tempest had engulfed the city.\n\nWhen the master returned at dawn, he asked the parrot: \"What news have you of last night?\" The parrot shivered and answered: \"O master, ask me nothing! The heavens opened with thunder, lightning struck the courtyard, and rain poured in such torrents that I feared I should drown in my cage!\"\n\nThe merchant stepped outside into the courtyard and saw the dust dry as powder, the sky cloudless, and the neighbors enjoying the tranquil morning. Believing that the parrot was a compulsive liar that had invented tales of falsehood against his family, the merchant flew into a temper, seized the cage, and dashed the poor bird against the pavement. Only later, when the maid confessed the trick, did the merchant learn that the parrot had spoken nothing but the truth, leaving the merchant to weep inconsolably over his hasty, tragic folly.",
+  "moral": "Hasty judgment based on deceptive appearances destroys trust and leaves a lifetime of sorrow. [MR]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the Husband and the Parrot illustration from the 1001 Arabian Nights collection.",
+  "word_count": 336,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of the Husband and the Parrot\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of the Husband and the Parrot\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 11,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

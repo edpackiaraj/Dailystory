@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-7-rumpelstiltskin-rumpelstilzchen",
+  "slug": "grimm-fairy-tales-7-rumpelstiltskin-rumpelstilzchen-ml",
+  "language": "ml",
+  "title": "Rumpelstiltskin (Rumpelstilzchen)",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A boastful miller told the king: \"I have a daughter who can spin straw into pure gold!\"...",
+  "keywords": [
+    "grimm fairy tales",
+    "rumpelstiltskin (rumpelstilzchen)",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A boastful miller told the king: \"I have a daughter who can spin straw into pure gold!\"\n\nThe greedy king commanded the maiden to court, locked her in a chamber filled with straw, and ordered: \"Spin this straw into gold before dawn, or you shall die!\"\n\nThe poor miller's daughter wept in despair. Suddenly, a tiny little manikin stepped through the door: \"What will you give me if I spin it for you?\"\n\nShe gave him her necklace, and the imp sat at the wheel: whir, whir, whir! By sunrise, the room was filled with golden bobbins.\n\nThe king was thrilled, but his greed was boundless. The next night, he locked her in a larger room; she gave the little man her ring, and again the straw became gold.\n\nOn the third night, in an enormous hall of straw, the maiden had nothing left to give. The little man demanded: \"Promise me your first-born child when you become queen!\" Having no other choice to save her life, she promised.\n\nThe king married the miller's daughter. A year later, the young queen gave birth to a beautiful infant, having forgotten the imp.\n\nSuddenly, the little man stepped into her bedchamber: \"Now give me what you promised!\"\n\nThe queen wept, offering all the treasures of the realm to keep her child. Moved by her tears, the manikin said: \"I will give you three days; if you can discover my true name, you may keep your child!\"\n\nThe queen sent messengers across the world to collect every name under heaven. On the first night, she guessed: \"Caspar, Melchior, Balthazar!\" On the second night: \"Ribs-of-Beef, Sheepshanks, Spindleshanks!\" But to each, the imp laughed: \"That is not my name!\"\n\nOn the third evening, a messenger returned from the deep forest: \"High on a mountain where the fox and hare bid goodnight, I saw a fire burning; and around the fire hopped a comical little man on one leg, singing:\n'Today I brew, tomorrow I bake,\nNext day the queen's fair child I take;\nFor little does anyone know my fame,\nThat Rumpelstiltskin is my name!'\"\n\nWhen the little man arrived at dawn, demanding: \"What is my name, Queen?\", she asked calmly:\n\"Is your name Conrad?\" \"No!\"\n\"Is your name Harry?\" \"No!\"\n\"Can your name perhaps be... Rumpelstiltskin?\"\n\n\"The devil told you that! The devil told you that!\" shrieked the little man in a fury. He stamped his right foot so deep into the earth that his leg sank in up to his waist; then in his rage, he seized his left foot with both hands and tore himself in two!\n\nThe queen embraced her child in peace, freed forever from the shadow of the greedy imp.",
+  "moral": "Boasting traps us in impossible debts; steadfast maternal love unmasks deceit.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "Rumpelstiltskin (Rumpelstilzchen) illustration from the Grimm Fairy Tales collection.",
+  "word_count": 451,
+  "reading_time": "4 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Rumpelstiltskin (Rumpelstilzchen)\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "truthfulness",
+    "maternal-love",
+    "courage"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Rumpelstiltskin (Rumpelstilzchen)\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 7,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

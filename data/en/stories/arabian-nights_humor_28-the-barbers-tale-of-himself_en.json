@@ -1,0 +1,129 @@
+{
+  "id": "arabian-nights-28-the-barbers-tale-of-himself",
+  "slug": "arabian-nights-28-the-barbers-tale-of-himself",
+  "language": "en",
+  "title": "The Barber's Tale of Himself",
+  "genre": "Humorous Tales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The barber, seeing the company amused yet critical of his reputation, stroked his long white beard and spoke with supreme vanity before the Sultan:",
+  "keywords": [
+    "arabian nights",
+    "the barber's tale of himself",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "The barber, seeing the company amused yet critical of his reputation, stroked his long white beard and spoke with supreme vanity before the Sultan:\n\n\"Know, O Sovereign of China, that men call me Al-Samit, which means the Silent, because of my famous taciturnity and restraint in speech! I am the fifth son of a venerable sage, and my six brothers were each afflicted with some peculiar defect, whereas I alone was born perfect in mind, body, and eloquence. I am a master of astrology, medicine, alchemy, logic, and the subtle art of the blade.\n\nIn the reign of the Caliph Al-Mustansir in Baghdad, ten notorious river pirates were captured upon the Tigris and condemned to be transported downriver for exile. As they were being marched to the barge in chains, I saw the procession passing through the market. Moved by tender sympathy and believing they were honest scholars being honored with royal gifts, I quietly slipped into their ranks, joined hands with them, and boarded the ship!\n\nWhen the captain examined his prisoners on the far shore, he counted ten felons and myself as an extra passenger. Without inquiring into my name or character, the rough boatmen assumed I was the ringleader of the band! When the executioner raised his staff to chastise us, the ten pirates confessed their crimes, but I, preserving my celebrated vow of silence, merely smiled with philosophical serenity, believing that my noble countenance would speak for itself.\n\nFortunately, the Caliph’s grand vizier arrived at the docks to inspect the prisoners. Recognizing my famous face, he shouted: 'Hold your hand! That is the silent barber of Baghdad, whose tongue is more plentiful than the sands of the desert! How came you among these ruffians, O barber?'\n\nI stepped forward and delivered an eloquent oration of two hours, explaining the astronomical configurations of the moon and the moral virtues of fraternal solidarity. The vizier laughed until he fell backward, pardoned me on the condition that I hold my peace for one whole day, and sent me home with fifty dinars. Thus you see, O king, that my only fault is that my heart is too vast for this narrow world!\"",
+  "moral": "Self-praise and uninvited meddling turn well-intentioned advice into an intolerable nuisance.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Barber's Tale of Himself illustration from the Arabian Nights collection.",
+  "word_count": 363,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Barber's Tale of Himself\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "humility",
+    "self-restraint",
+    "courtesy"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Barber's Tale of Himself\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 28,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

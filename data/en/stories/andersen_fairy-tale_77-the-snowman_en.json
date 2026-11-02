@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-77-the-snowman",
+  "slug": "hans-christian-andersen-77-the-snowman",
+  "language": "en",
+  "title": "The Snowman",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "\"It crackles so delightfully within me!\" said the Snowman, gazing with coal-black eyes across the snowy yard. \"The biting frost is delicious! But tell me, old watchdog, what is tha...",
+  "keywords": [
+    "hans christian andersen",
+    "the snowman",
+    "moral stories for children",
+    "world folktales and fables",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "\"It crackles so delightfully within me!\" said the Snowman, gazing with coal-black eyes across the snowy yard. \"The biting frost is delicious! But tell me, old watchdog, what is that bright, glowing thing peering through the cellar window?\"\n\n\"That is the stove!\" barked the watchdog. \"It radiates glowing heat and cooks delicious bone broth! Keep your distance, Snowman, or it will melt you to water!\"\n\nThe Snowman could not tear his eyes from the cellar window. Through the glass, he saw the stove glowing with fiery embers, sending warm red light dancing across the floor. An irresistible, agonizing longing filled his snowy chest: \"Oh, to be near that glowing stove! To feel that warmth, even if it melts me!\"\n\nAll night, through freezing starlight, the Snowman stood watching the stove, his heart burning with cold passion.\n\nWhen morning dawned, the south wind blew softly; the thaw set in. As the golden sun climbed the sky, the Snowman began to melt. Down he dripped into a pool of water upon the flagstones.\n\nWhen he was gone, the watchdog saw what had been in the center of the Snowman: a long iron stove scraper around which the boys had molded his snowy body!\n\n\"Ah!\" barked the watchdog. \"Now I understand why he longed so passionately for the stove—he had a stove scraper in his body! It was in his very blood!\"",
+  "moral": "Yearning for what warms the heart can bring dissolution, yet longing is the essence of being alive.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Snowman illustration from the Hans Christian Andersen collection.",
+  "word_count": 229,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Snowman\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Hans Christian Andersen anthology.",
+  "values": [
+    "longing",
+    "passion",
+    "impermanence"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Snowman\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Andersen's tales teach compassion, resilience, and Christian hope\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 77,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Global Treasury"
+}

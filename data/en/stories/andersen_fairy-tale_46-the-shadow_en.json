@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-46-the-shadow",
+  "slug": "hans-christian-andersen-46-the-shadow",
+  "language": "en",
+  "title": "The Shadow",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "In the hot southern lands, a learned scholar sat upon his balcony on a warm evening. Opposite his lodging stood a mysterious house where radiant flowers bloomed and enchanting musi...",
+  "keywords": [
+    "hans christian andersen",
+    "the shadow",
+    "moral stories for children",
+    "world folktales and fables",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "In the hot southern lands, a learned scholar sat upon his balcony on a warm evening. Opposite his lodging stood a mysterious house where radiant flowers bloomed and enchanting music echoed through the night. The scholar humorously told his shadow: \"Go across the street and see what is inside!\"\n\nThe shadow obeyed: it detached itself from the scholar's feet, crossed the street, and disappeared through the opposite doorway!\n\nYears passed. The scholar returned to his northern homeland, writing noble books on truth, beauty, and virtue; but people cared little for his deep philosophy.\n\nOne evening, a wealthy, haughty gentleman knocked at his study door. It was his former shadow! Dressed in fine clothes, adorned with diamonds and gold chains, the shadow had learned all the shameful secrets and private vices of humanity, becoming immensely wealthy through blackmail and flattery.\n\n\"I have become a master of the world,\" boasted the shadow. \"You, my dear scholar, are poor and neglected. Travel with me as my companion; you shall have fine food, but you must pretend that you are my shadow!\"\n\nThe noble scholar refused to live a lie. But the shadow had won the favor of a foreign princess who suffered from the disease of seeing too clearly. The cunning shadow persuaded the princess to marry him, and denounced the honest scholar as a madman who claimed to be his master!\n\nOn the night of the royal wedding, while bells rang and wine flowed in the palace, the honest scholar was quietly executed in the prison dungeon. And the triumphant shadow reigned over the empire—a chilling warning of what happens when superficial illusion conquers substance and truth.",
+  "moral": "When superficial appearances and cynical cunning usurp the place of truth and intellect, humanity falls into servitude.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Shadow illustration from the Hans Christian Andersen collection.",
+  "word_count": 275,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Shadow\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Hans Christian Andersen anthology.",
+  "values": [
+    "integrity",
+    "authenticity",
+    "truth"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Shadow\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Andersen's tales teach compassion, resilience, and Christian hope\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 46,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Global Treasury"
+}

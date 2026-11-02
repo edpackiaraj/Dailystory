@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-18-the-miser",
+  "slug": "aesops-fables-18-the-miser",
+  "language": "en",
+  "title": "The Miser",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "An ancient miser sold his houses, his vineyards, and his orchards, converting his entire earthly estate into a single, massive lump of solid gold. Fearing that thieves might rob hi...",
+  "keywords": [
+    "aesop's fables",
+    "the miser",
+    "moral stories for children",
+    "world folktales and fables",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "An ancient miser sold his houses, his vineyards, and his orchards, converting his entire earthly estate into a single, massive lump of solid gold. Fearing that thieves might rob him or servants cheat him, he carried the golden boulder into a secluded forest clearing and buried it secretly in a deep pit beneath an old willow tree.\n\nEvery afternoon, without fail, the miser walked to the lonely spot. He would dig up the soil with trembling fingers, gaze upon the cold yellow metal with ecstatic devotion, stroke its heavy surface, and bury it once more beneath the earth.\n\nA watchful laborer, noticing the miser's daily pilgrimages and suspicious demeanor, trailed him to the woods. The moment the old man departed, the laborer dug into the loose dirt, unearthed the colossal nugget of gold, and carried it off to enjoy its fortune.\n\nWhen the miser returned the next day and found an empty hole filled with scattered pebbles, he tore his garments, beat his chest, and wept with frantic lamentations that echoed through the hills.\n\nA wise neighbor, hearing the wailing, ran to the clearing and asked what calamity had occurred.\n\n\"My gold! My life's treasure!\" shrieked the miser. \"I buried a giant lump of gold in this very spot, and a vile thief has stolen it away!\"\n\n\"Did you ever spend any of it?\" asked the neighbor. \"Did you buy food, help your family, or purchase warm clothes?\"\n\n\"Never!\" cried the miser in horror. \"I never touched a single grain of it; I came only to look upon it every afternoon!\"\n\nThe neighbor picked up a heavy, jagged river stone, threw it into the pit, and said calmly: \"Cover that stone with earth and come look at it every day! It will serve you precisely as well as your gold, for when you possessed the gold, you made no more use of it than you will of that rock.\"",
+  "moral": "Wealth unused is no better than a common stone; possession without purpose is worthless.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Miser illustration from the Aesop's Fables collection.",
+  "word_count": 319,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Miser\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Aesop's Fables anthology.",
+  "values": [
+    "wisdom",
+    "practicality",
+    "true-wealth"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Miser\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": "Perry 18",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Global Treasury"
+}

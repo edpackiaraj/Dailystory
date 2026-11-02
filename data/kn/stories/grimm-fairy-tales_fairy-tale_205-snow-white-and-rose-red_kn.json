@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-205-snow-white-and-rose-red",
+  "slug": "grimm-fairy-tales-205-snow-white-and-rose-red-kn",
+  "language": "kn",
+  "title": "Snow-White and Rose-Red",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A poor widow lived in a quiet cottage with her two daughters, Snow-White and Rose-Red, named after the two rosebushes of white and red that bloomed in the garden. The sisters loved...",
+  "keywords": [
+    "grimm fairy tales",
+    "snow-white and rose-red",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A poor widow lived in a quiet cottage with her two daughters, Snow-White and Rose-Red, named after the two rosebushes of white and red that bloomed in the garden. The sisters loved each other with tender devotion, wandering the deep forests hand in hand, protected by their innocent goodness.\n\nOne freezing winter night, a massive brown bear knocked at their door, asking for shelter from the frost. The compassionate sisters welcomed the beast inside, swept the snow from his fur, and played merrily with him by the hearth. All winter long, the gentle bear visited every night, resting peacefully in their warm room.\n\nWhen spring arrived, the bear departed to guard his treasures from wicked mountain dwarfs.\n\nIn the forest, the sisters repeatedly rescued an ungrateful, spiteful dwarf: first freeing his long white beard from a split pine log, then from a fishing line caught by a giant trout, and finally from the talons of a swooping eagle. Each time, the dwarf scolded and cursed them for tearing his coat or snipping his beard.\n\nFinally, the sisters came upon the dwarf admiring a glittering hoard of rubies and diamonds. Caught in his greed, the dwarf raged at them. Suddenly, their friend the brown bear emerged from the thicket and slew the wicked dwarf with one blow of his mighty paw.\n\nAs the sisters turned to flee in terror, the bear skin fell away, revealing a magnificent royal prince with golden hair! He had been bewitched by the dwarf and stripped of his kingdom until the dwarf was overthrown.\n\nThe prince married Snow-White, and his brother married Rose-Red. The widow lived with them in the palace in great honor, and the two rosebushes were planted outside their window, bearing white and red roses in endless beauty.",
+  "moral": "Gentle kindness toward the distressed transforms savage beasts into noble protectors.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "Snow-White and Rose-Red illustration from the Grimm Fairy Tales collection.",
+  "word_count": 295,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Snow-White and Rose-Red\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Kannada readers, safe for schools and family bedtime).",
+  "values": [
+    "kindness",
+    "sisterhood",
+    "gratitude"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Snow-White and Rose-Red\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 205,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

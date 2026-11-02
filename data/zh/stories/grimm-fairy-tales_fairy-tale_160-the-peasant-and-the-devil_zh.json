@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-160-the-peasant-and-the-devil",
+  "slug": "grimm-fairy-tales-160-the-peasant-and-the-devil-zh",
+  "language": "zh",
+  "title": "The Peasant and the Devil",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A crafty peasant had plowed his field until twilight when he saw a mound of glowing embers in the middle of the furrow. Approaching cautiously, he found a black, impish devil sitti...",
+  "keywords": [
+    "grimm fairy tales",
+    "the peasant and the devil",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A crafty peasant had plowed his field until twilight when he saw a mound of glowing embers in the middle of the furrow. Approaching cautiously, he found a black, impish devil sitting upon the coals, grinning maliciously.\n\n\"Are you sitting upon hidden treasure?\" asked the peasant.\n\n\"Indeed I am!\" replied the devil. \"More gold and silver than you have ever seen in all your days! And it shall be yours on one condition: for two years, you must share the harvest of this field with me. What grows above the ground shall belong to me, and what grows beneath the earth shall belong to you.\"\n\nThe peasant agreed with a hearty handshake. When planting time arrived, the clever peasant sowed turnips and carrots. When autumn came, the devil arrived to collect his share, finding only withered yellow leaves and dry weeds, while the peasant dug up great wagons of plump, juicy roots and sweet turnips!\n\nFurious at being outwitted, the devil cried: \"Next year the agreement is reversed! What grows beneath the earth belongs to me, and what grows above the ground belongs to you!\"\n\n\"Agreed,\" smiled the peasant. The following spring, the peasant sowed wheat and oats. When harvest season returned, the peasant reaped golden grain and heavy sheaves of wheat, while the furious devil was left to dig up useless hairy roots and stubble from the dirt.\n\nSeeing that he could never outsmart the honest peasant's practical agricultural wisdom, the devil screamed in frustration and plunged deep into the fiery depths, leaving the peasant to unearth the colossal chest of gold and silver in complete peace.",
+  "moral": "A clever and industrious peasant can easily outsmart the greed of sinister schemers.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Peasant and the Devil illustration from the Grimm Fairy Tales collection.",
+  "word_count": 268,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Peasant and the Devil\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wit",
+    "resourcefulness",
+    "justice"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Peasant and the Devil\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 160,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

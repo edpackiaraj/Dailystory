@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-45-the-hermits",
+  "slug": "arabian-nights-45-the-hermits",
+  "language": "en",
+  "title": "The Hermits",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Upon the summit of a high mountain in Syria lived two hermits who had abandoned the cities of men to devote their lives to solitary contemplation. They slept in caves, dressed i...",
+  "keywords": [
+    "arabian nights",
+    "the hermits",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Upon the summit of a high mountain in Syria lived two hermits who had abandoned the cities of men to devote their lives to solitary contemplation. They slept in caves, dressed in coarse goat hair, and subsisted entirely on wild berries, acorns, and mountain spring water.\n\nAfter forty years of asceticism, the elder hermit began to feel a secret pride in his breast. He thought: 'Surely, no mortal on earth is as holy, pure, and beloved of the angels as I, who have never touched coin or spoken with sinners for four decades.'\n\nThat night, a voice came to him in a vision: 'If you wish to see a servant whose devotion is truly accepted, descend into the valley and visit Abu Yusuf the water-carrier in the town of Homs.'\n\nAstonished and humbled, the hermit took his staff and walked down the rocky trails until he reached the bustling bazaar of Homs. He found Abu Yusuf, a humble, sun-darkened laborer who carried two heavy goat-skins of water through the sweltering streets, distributing cool water to thirsty travelers, weary porters, and beggars without demanding payment.\n\nThe hermit approached him at dusk and asked: 'What great austerities do you practice, O water-carrier, that the heavens praise your name?' Abu Yusuf laughed gently and replied: 'I know nothing of austerities, venerable father. I have a family to feed and neighbors who thirst. Each morning, I fill my skins at the river, give water to all who ask in the name of mercy, forgive those who speak harshly to me, and share my crust of bread with the stray dogs at my gate.'\n\nThe hermit bowed his head to the earth, weeping in profound realization. He saw that forty years of proud isolation in the mountains could not equal a single day of selfless, humble service to suffering humanity. Returning to his companion, he opened his mountain cave to lost shepherds and weary wanderers, discovering that true devotion is love in action.",
+  "moral": "True spiritual perfection is found not in haughty seclusion, but in active benevolence toward humankind.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Hermits illustration from the Arabian Nights collection.",
+  "word_count": 328,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Hermits\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "humility",
+    "compassion",
+    "service",
+    "wisdom"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Hermits\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 45,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

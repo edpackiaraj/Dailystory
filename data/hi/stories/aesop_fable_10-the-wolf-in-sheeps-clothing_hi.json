@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-10-the-wolf-in-sheeps-clothing",
+  "slug": "aesops-fables-10-the-wolf-in-sheeps-clothing-hi",
+  "language": "hi",
+  "title": "The Wolf in Sheep's Clothing",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A cunning wolf had long hungered after the fat, tender sheep of a well-guarded pasture, but the alert shepherd and his ferocious mastiffs watched over the flock so vigilantly that...",
+  "keywords": [
+    "aesop's fables",
+    "the wolf in sheep's clothing",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "A cunning wolf had long hungered after the fat, tender sheep of a well-guarded pasture, but the alert shepherd and his ferocious mastiffs watched over the flock so vigilantly that the predator could never draw near without being driven off with stones and sharp spears.\n\nProwling around the edge of the farm one evening, the wolf discovered the complete fleece of a sheep that had been sheared and discarded by the shearers. A wicked scheme flashed in his devious mind.\n\n\"If I cannot approach as a hunter,\" whispered the wolf, \"I shall enter as a brother.\"\n\nHe draped the soft, woolly skin carefully over his back, tucking his sharp snout beneath the fleece and mimicking the gentle bleat of a lamb. Disguised in snowy innocence, he strolled casually into the green pasture among the flock.\n\nThe sheep, suspecting nothing from a creature wearing wool, accepted him in their midst. Even the shepherd failed to spot the predator among his charges. When night fell, the shepherd gathered the flock into the stout wooden fold, bolted the heavy oak gate, and went to his cottage for supper, leaving the wolf locked safely inside with his intended prey.\n\nThe wolf licked his fangs, chuckling softly in the dark at how easily he had outwitted the dogs, planning to slaughter a plump lamb the moment everyone fell asleep.\n\nLater that night, the shepherd's cook was sent out to the sheepfold with a lantern to butcher a sheep for the master's banquet the following morning. Moving through the dark pen, the cook reached blindly for the first large, heavy beast he felt in the shadows. His hand grasped the wolf in sheep's fleece. Before the predator could realize what was happening, the butcher's knife ended his life on the spot, demonstrating that those who disguise themselves in false innocence often perish by the very trap they laid.",
+  "moral": "He who wears a mask of innocence to deceive others falls into the snare of his own disguise.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Wolf in Sheep's Clothing illustration from the Aesop's Fables collection.",
+  "word_count": 312,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"The Wolf in Sheep's Clothing\"?",
+      "options": [
+        "Harm seek, harm find.",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "justice",
+    "truth",
+    "retribution"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"The Wolf in Sheep's Clothing\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Harm seek, harm find.\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": "Perry 451",
+  "reviewed": true,
+  "source": "Aesop - Townsend translation 1867 Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Heritage Anthology"
+}

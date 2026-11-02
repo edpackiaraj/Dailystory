@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-65-tale-of-maan-the-son-of-zaidah",
+  "slug": "an-65-tale-of-maan-the-son-of-zaidah-pt",
+  "language": "pt",
+  "title": "Tale of Ma'an the Son of Zaidah (Português)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Ma'an bin Zaidah was the governor of Iraq and the northern marches, renowned throughout the caliphate for his extraordinary forbearance, ... [PT]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of ma'an the son of zaidah",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Ma'an bin Zaidah was the governor of Iraq and the northern marches, renowned throughout the caliphate for his extraordinary forbearance, mildness of temper, and princely generosity. Three cynical courtiers in Basra wagered one hundred camels that they could provoke the governor into losing his temper.\n\nA daring desert poet accepted the challenge. He dressed in ragged goat-skins, entered Ma'an’s grand hall without greeting him with royal titles, and shouted: 'Do you remember, O Ma'an, when your shoes were made of camel-hide and you tended goats in the hills?'\n\nThe courtiers gasped at the insolence, but Ma'an smiled gently and replied: 'I remember it well, brother; it was a peaceful life, and I thank heaven for the humble beginnings that taught me gratitude.'\n\nThe poet stepped closer and recited an insulting verse: 'Now that you sit on a cushioned divan, you think yourself a prince, yet your lineage is lower than the dust!'\n\nMa'an answered with undisturbed calm: 'A man’s true lineage is his conduct, my friend. If my deeds are worthy, my origin matters little; and if my deeds are evil, no noble ancestry can redeem me.'\n\nThe poet, enraged by his failure to ruffle the governor, shouted: 'Give me five hundred pieces of gold at once, you miserly son of a shepherd, or I shall mock you across every market from Basra to Damascus!'\n\nMa'an turned to his treasurer and said with boundless courtesy: 'Give this man a thousand pieces of gold: five hundred for his bold poetry, and five hundred because his clothing is thin and the winter frost approaches.'\n\nThe poet dropped his staff, fell upon his knees before the governor, and kissed his robe: 'By the Creator of all things, O Ma'an, your forbearance is a fortress that no tongue can breach! I came to provoke your anger for a wager, but your magnanimity has conquered my soul forever.' Ma'an smiled, raised the poet to his feet, and welcomed him as a friend of his court.",
+  "moral": "Patience and forbearance under insult prove true nobility more than swords and royal decrees. [PT]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of Ma'an the Son of Zaidah illustration from the 1001 Arabian Nights collection.",
+  "word_count": 330,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of Ma'an the Son of Zaidah\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of Ma'an the Son of Zaidah\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 65,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

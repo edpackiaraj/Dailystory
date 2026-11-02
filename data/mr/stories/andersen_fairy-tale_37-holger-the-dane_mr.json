@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-37-holger-the-dane",
+  "slug": "hans-christian-andersen-37-holger-the-dane-mr",
+  "language": "mr",
+  "title": "Holger the Dane (Guardian of the Realm)",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "Beneath the granite dungeons of Kronborg Castle, surrounded by the ceaseless thunder of the Sound, sleeps Holger the Dane. His iron armor has turned green with age, and his snowy b...",
+  "keywords": [
+    "hans christian andersen",
+    "holger the dane",
+    "moral stories for children",
+    "timeless folktales worldwide",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "bedtime-story",
+    "wisdom"
+  ],
+  "full_text": "Beneath the granite dungeons of Kronborg Castle, surrounded by the ceaseless thunder of the Sound, sleeps Holger the Dane. His iron armor has turned green with age, and his snowy beard has grown straight through the solid marble table upon which he rests his weary brow.\n\nAbove his vaulted tomb, Danish fishermen cast their nets, merchant ships unfurl their canvas, and children play along the battlements under the blue Scandinavian skies.\n\n\"Does he ever wake, grandfather?\" asked the young apprentice carver.\n\n\"Only when Denmark faces mortal extremity,\" replied the old artisan, carving the mast-head of an oak ship. \"Holger is no phantom of blood and slaughter; he is the spirit of Danish honor, quiet industry, and unyielding fortitude. When tyrants threaten our shores, the marble table will split asunder, and Holger will rise to stand like an iron fortress before our hearths.\"\n\nAnd the boy felt in his own chest the beating heart of his ancestors, knowing that so long as truth, labor, and courage flourish among the living, Holger's broadsword shall never fail.",
+  "moral": "True strength sleeps in times of peace, but awakens with invincible power when justice is attacked.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "Holger the Dane illustration from the Hans Christian Andersen collection.",
+  "word_count": 174,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What fundamental virtue is highlighted in \"Holger the Dane\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in hasty anger without listening",
+        "Trusting deceitful flattery blindly",
+        "Leaving tasks undone"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of the story."
+    },
+    {
+      "question": "How does the central character approach their challenge?",
+      "options": [
+        "Through thoughtful reflection, patience, and presence of mind",
+        "By running away from responsibility",
+        "By shouting loudly and blaming friends",
+        "By ignoring good counsel"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in timeless fables."
+    },
+    {
+      "question": "What memorable conclusion does this story teach readers?",
+      "options": [
+        "Patience, honesty, and humility lead to lasting harmony",
+        "False appearances never get discovered",
+        "Greed brings true happiness",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how justice and truth prevail."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from Hans Christian Andersen. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "courage",
+    "vigilance",
+    "patriotism"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given after thoughtful consideration"
+    },
+    {
+      "word": "integrity",
+      "meaning": "the quality of being honest and having strong moral principles"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What central dilemma begins the tale of \"Holger the Dane\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+    }
+  ],
+  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "series_id": null,
+  "part_number": 37,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Heritage Anthology"
+}

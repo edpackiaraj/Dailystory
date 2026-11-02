@@ -1,0 +1,129 @@
+{
+  "id": "aesops-fables-12-the-town-mouse-and-the-country-mouse",
+  "slug": "aesops-fables-12-the-town-mouse-and-the-country-mouse",
+  "language": "en",
+  "title": "The Town Mouse and the Country Mouse",
+  "genre": "Fables",
+  "collection": "Aesop's Fables",
+  "culture_region": "Ancient Greece / Classical Folklore",
+  "age_group": "Below 13",
+  "summary": "A humble Country Mouse who lived in an underground burrow beneath the roots of a wild hazel bush invited his aristocratic cousin, the Town Mouse, to visit him for dinner. The Count...",
+  "keywords": [
+    "aesop's fables",
+    "the town mouse and the country mouse",
+    "moral stories for children",
+    "world folktales and fables",
+    "aesops-fables"
+  ],
+  "tags": [
+    "aesops-fables",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A humble Country Mouse who lived in an underground burrow beneath the roots of a wild hazel bush invited his aristocratic cousin, the Town Mouse, to visit him for dinner. The Country Mouse, proud of his hospitality, served the best provisions his pantry could afford: dried wheat stalks, wild berry seeds, and a hard crust of barley bread.\n\nThe Town Mouse turned up his whiskers with polite disdain, merely nibbling a seed or two. \"My dear cousin,\" drawled the elegant visitor, \"how can you endure such a dreary, monotonous existence among roots and chaff? Come with me to the grand city mansion where I reside! You shall dine upon rich cheeses, sweet pastries, and roasted meats fit for kings.\"\n\nEnticed by visions of royal luxury, the Country Mouse accompanied his cousin to the city. That night, they crept into the mansion's vast dining hall, where a lavish banquet had just concluded. The Country Mouse gasped in wonder: tables groaned beneath silver platters of roast chicken, rich Brie cheese, jellies, and candied fruits.\n\n\"Eat your fill, cousin!\" urged the Town Mouse grandly.\n\nJust as the Country Mouse was sinking his teeth into a delectable cream tart, the heavy oak doors burst open with a crash. A ferocious mastiff and a sleek, sharp-clawed Persian cat bounded into the room, barking and hissing savagely!\n\nThe two mice fled in terror, scrambling frantically behind heavy draperies and squeezing through a crack in the skirting board, their tiny hearts pounding like drums. For two agonizing hours, they sat shivering in the dark, barely daring to breathe as claws scraped against the wainscot.\n\nWhen quiet returned, the Country Mouse fetched his little walking stick. \"Farewell, dear cousin,\" he whispered, heading for the garden door. \"You may keep your silver platters, your rich tarts, and the terrifying terror that seasons every bite. Give me my simple barley crust and quiet safety in the meadow, where I may dine in uninterrupted peace!\"",
+  "moral": "A humble meal enjoyed in quiet peace is far superior to luxurious banquets seasoned with terror.",
+  "image": "/images/stories/aesop.webp",
+  "image_alt": "The Town Mouse and the Country Mouse illustration from the Aesop's Fables collection.",
+  "word_count": 324,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Town Mouse and the Country Mouse\"?",
+      "options": [
+        "Wisdom of the ancients",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Aesop's Fables anthology.",
+  "values": [
+    "peace",
+    "contentment",
+    "simplicity"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Town Mouse and the Country Mouse\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": "Perry 12",
+  "reviewed": true,
+  "source": "Aesop - Public Domain",
+  "license": "Public Domain",
+  "credit": "Aesop's Fables Global Treasury"
+}

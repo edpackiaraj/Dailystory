@@ -1,0 +1,129 @@
+{
+  "id": "arabian-nights-31-the-barbers-tale-of-his-third-brother",
+  "slug": "an-31-the-barbers-tale-of-his-third-brother-es",
+  "language": "es",
+  "title": "The Barber's Tale of his Third Brother (Español)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The barber then related the history of his third brother, Bakbak, who was blind from birth: [ES]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the barber's tale of his third brother",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "The barber then related the history of his third brother, Bakbak, who was blind from birth:\n\n\"My brother Bakbak was a blind beggar who walked the streets of Baghdad with a wooden staff, knocking on doors and asking for bread in the name of charity. One afternoon, he knocked upon the door of a large mansion. A voice from within cried: 'Enter!' Bakbak tapped his way into the courtyard and climbed the stairs, but when he asked for an alms, the owner said: 'I am as penniless as you, brother; I have nothing to give.' Bakbak replied: 'If you had nothing, why did you bid me climb all those stairs?' The master answered: 'Why did you knock upon my door?'\n\nAs Bakbak descended into the street, two wealthy thieves who had stolen a bag of ten thousand dinars were passing by. They noticed the blind man tapping his way into an abandoned bathhouse to rest. The thieves followed him in, thinking to hide their stolen treasure in the dry cistern. Bakbak, hearing their hushed whispers and the clinking of gold coins, realized that cutpurses were burying loot in the rubble.\n\nWhen the thieves departed, Bakbak felt along the floor, unearthed the heavy bag, and concealed it inside his tattered cloak. But as he stepped into the sunlight, the thieves returned, seized him by the throat, and accused him of robbing their hoard. Though blind and helpless, Bakbak did not surrender to despair.\n\nHe cried out with a loud voice to the crowd in the street: 'Help, good citizens! These two ruffians have broken into the governor’s treasury and are trying to force a poor blind man to carry their stolen gold!' The captain of the city watch and twenty guards happened to be passing. Hearing the commotion, the guards rushed into the bathhouse, seized the two thieves, and recognized them as wanted brigands.\n\nThe magistrate rewarded Bakbak with one hundred dinars for his courage and returned the rest to the rightful merchants. My blind brother returned home with his head held high, proving that a clear mind and a fearless tongue can outmatch the sharpest eyes.\"",
+  "moral": "Quick thinking and presence of mind can save a defenseless person from the cruelest cutpurses. [ES]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Barber's Tale of his Third Brother illustration from the 1001 Arabian Nights collection.",
+  "word_count": 356,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Barber's Tale of his Third Brother\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Spanish readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience",
+    "teamwork"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Barber's Tale of his Third Brother\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 31,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

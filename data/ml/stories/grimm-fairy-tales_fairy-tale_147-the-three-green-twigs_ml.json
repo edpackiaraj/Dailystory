@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-147-the-three-green-twigs",
+  "slug": "grimm-fairy-tales-147-the-three-green-twigs-ml",
+  "language": "ml",
+  "title": "The Three Green Twigs",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A holy hermit lived in a lonely mountain cave, spending his days in fasting and prayer. Over the years, pride crept into his heart, until he believed himself purer and more righteo...",
+  "keywords": [
+    "grimm fairy tales",
+    "the three green twigs",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A holy hermit lived in a lonely mountain cave, spending his days in fasting and prayer. Over the years, pride crept into his heart, until he believed himself purer and more righteous than all other mortals.\n\nOne day, he saw a criminal being led to the gallows and muttered in self-righteous contempt, \"That wicked sinner deserves nothing but eternal destruction!\"\n\nThat very night, an angel appeared to the hermit, handing him a dry, withered branch with three brittle twigs. \"Take this dead wood,\" the angel commanded. \"Carry it through the world, begging bread from door to door, and never sleep in a bed until three green leaves sprout from these dry twigs. By your harsh judgment, you closed your heart to divine mercy.\"\n\nThe hermit wept in bitter repentance. For decades, he wandered barefoot through storms and heat, sleeping on bare stones, asking for nothing but dry crusts, and comforting the sick and forgotten.\n\nIn his extreme old age, he gave his last crust of bread to a starving beggar and knelt beneath an ancient mountain pine to breathe his last prayer of humble remorse. When the morning sun shone upon his peaceful face, three radiant, emerald-green leaves had sprouted from the dry twigs, showing that a truly contrite heart is restored to grace by boundless love.",
+  "moral": "Divine mercy is broader than human judgment; repentance sprouts green leaves from dry wood.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Three Green Twigs illustration from the Grimm Fairy Tales collection.",
+  "word_count": 217,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Three Green Twigs\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "forgiveness",
+    "humility",
+    "redemption"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Three Green Twigs\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 147,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

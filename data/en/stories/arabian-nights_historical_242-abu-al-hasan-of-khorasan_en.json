@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-242-abu-al-hasan-of-khorasan",
+  "slug": "arabian-nights-242-abu-al-hasan-of-khorasan",
+  "language": "en",
+  "title": "Abu al-Hasan of Khorasan",
+  "genre": "Historical Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Abu al-Hasan was an affluent merchant of the province of Khorasan whose palace stood beside the great Silk Road. His doors were never locked, and an illuminated lantern burned u...",
+  "keywords": [
+    "arabian nights",
+    "abu al-hasan of khorasan",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Abu al-Hasan was an affluent merchant of the province of Khorasan whose palace stood beside the great Silk Road. His doors were never locked, and an illuminated lantern burned upon his terrace every night, welcoming travelers, scholars, and pilgrims to enjoy free lodging, savory banquets, and fresh horses without charge.\n\nA political upheaval in Khorasan caused an oppressive governor to confiscate Abu al-Hasan’s estates on false charges, forcing the generous host to flee in disguise to Baghdad.\n\nPenniless and wandering the bustling streets of the capital, Abu al-Hasan stopped before the grand emporium of a wealthy jewel merchant.\n\nThe jewel merchant looked out, recognized Abu al-Hasan, and rushed into the street with open arms! 'Welcome, master of Khorasan! Ten years ago, when I was an impoverished student freezing in the snow, your roof sheltered me for two months, and your purse paid for my journey!'\n\nThe jeweler brought Abu al-Hasan into his home, clothed him in silk robes, and introduced him to twenty other prominent merchants of Baghdad—all of whom had received his legendary hospitality in past years!\n\nThe merchants gathered together, raised thirty thousand gold dinars, and petitioned Caliph Harun al-Rashid.\n\nThe Caliph investigated the case, dismissed the corrupt governor of Khorasan, restored all Abu al-Hasan’s palaces and lands, and appointed him Governor of the province, demonstrating that bread cast upon the waters of hospitality returns as a fortress of protection in the hour of need.",
+  "moral": "Boundless generosity toward travelers creates a network of friendship that shields a man in his hour of trial.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Abu Al-Hasan of Khorasan illustration from the Arabian Nights collection.",
+  "word_count": 237,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"Abu Al-Hasan of Khorasan\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "hospitality",
+    "friendship",
+    "generosity",
+    "gratitude"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"Abu Al-Hasan of Khorasan\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 242,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

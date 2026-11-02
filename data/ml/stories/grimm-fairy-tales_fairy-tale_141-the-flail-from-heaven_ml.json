@@ -1,0 +1,129 @@
+{
+  "id": "grimm-fairy-tales-141-the-flail-from-heaven",
+  "slug": "grimm-fairy-tales-141-the-flail-from-heaven-ml",
+  "language": "ml",
+  "title": "The Flail from Heaven",
+  "genre": "Fairy Tales",
+  "collection": "Grimm Fairy Tales",
+  "culture_region": "German Folklore / European",
+  "age_group": "Below 13",
+  "summary": "A country peasant drove two oxen to plow his field, but the horn of one ox grew so immense that it reached straight toward the sky. When the peasant could not turn the plow, he cli...",
+  "keywords": [
+    "grimm fairy tales",
+    "the flail from heaven",
+    "moral stories for children",
+    "world folktales and fables",
+    "grimm-fairy-tales"
+  ],
+  "tags": [
+    "grimm-fairy-tales",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A country peasant drove two oxen to plow his field, but the horn of one ox grew so immense that it reached straight toward the sky. When the peasant could not turn the plow, he climbed up the horn and found himself walking among the clouds.\n\nUp in the celestial heights, he saw threshers beating grain with silver flails. In the excitement of the sight, he knocked a golden flail from the sky, which plummeted back down to the earth and stuck deep into the rocky ground.\n\nTo climb down, the peasant gathered chaff and spun it into a long rope. But the rope ended far above the ground. He slid down to the very knot, hanging between heaven and earth. In his pocket, he found a small awl, cut the rope above his head, tied the cut piece below, and leaped down into the middle of a muddy pond, sinking up to his neck.\n\nUnable to climb out of the mire, he calmly hurried home, fetched a spade from his tool shed, and dug himself out of the mud, returning home to his cottage to enjoy a pipe by the hearth, thoroughly satisfied with his grand morning excursion among the clouds.",
+  "moral": "Tall tales and boundless imagination celebrate the joyful absurdity of human storytelling.",
+  "image": "/images/stories/cinderella.webp",
+  "image_alt": "The Flail from Heaven illustration from the Grimm Fairy Tales collection.",
+  "word_count": 202,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Flail from Heaven\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Jacob & Wilhelm Grimm (1812–1857)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Grimm Fairy Tales anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "wit",
+    "humor",
+    "imagination"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Flail from Heaven\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 141,
+  "reviewed": true,
+  "source": "Brothers Grimm - Kinder- und Hausmärchen 1857 - Public Domain",
+  "license": "Public Domain",
+  "credit": "Grimm Fairy Tales Global Treasury"
+}

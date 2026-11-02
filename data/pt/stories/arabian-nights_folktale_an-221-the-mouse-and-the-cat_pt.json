@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-221-the-mouse-and-the-cat",
+  "slug": "an-221-the-mouse-and-the-cat-pt",
+  "language": "pt",
+  "title": "The Mouse and the Cat (Português)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In a granary yard, an old tabby cat was trapped in a heavy hempen net set by the miller to catch wild polecats. A field mouse, foraging f... [PT]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the mouse and the cat",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In a granary yard, an old tabby cat was trapped in a heavy hempen net set by the miller to catch wild polecats. A field mouse, foraging for grain, approached cautiously and saw that a sharp-eyed hawk was circling in the sky above, waiting to pounce upon any rodent in the open grass.\n\nThe mouse, perceiving that the hawk above was a swifter death than the trapped cat below, addressed the cat: 'O feline hunter! We are both in mortal peril: if the hawk strikes, I am devoured; and when the miller arrives, you will be drowned. If you swear a sacred covenant not to harm me, my sharp teeth can gnaw through the hempen cords around your paws, freeing you to chase the hawk away!'\n\nThe trapped cat swore a solemn oath of peace.\n\nThe mouse gnawed with furious speed through the thick ropes. The moment the cat broke free, it leaped with claws extended, driving the swooping hawk away into the clouds!\n\nThe cat then returned to the barn, purring sweetly, and sat outside the mouse’s burrow: 'Come forth, heroic friend! Let us embrace and live as brothers forever.'\n\nThe wise mouse remained safely inside its deep hole, peeking through a narrow crack, and answered: 'Brother, I honor our alliance, and I thank you for driving the hawk away. But an alliance born of shared emergency ends when the danger passes. Nature is nature, and I shall keep this stone wall between your claws and my fur!'\n\nThe mouse survived, demonstrating that wisdom cooperates in crisis, but maintains prudent boundaries in peace.",
+  "moral": "Adversaries must cooperate against a shared mortal peril, but prudence must outlive temporary alliances. [PT]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Mouse and the Cat illustration from the 1001 Arabian Nights collection.",
+  "word_count": 264,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Mouse and the Cat\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Mouse and the Cat\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 221,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

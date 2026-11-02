@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-193-judar-and-his-brethren",
+  "slug": "an-193-judar-and-his-brethren-ml",
+  "language": "ml",
+  "title": "Judar and His Brethren (മലയാളം)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In Cairo lived an honest and pious young fisherman named Judar, whose two elder brothers, Salim and Salih, were envious, quarrelsome, and... [ML]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "judar and his brethren",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In Cairo lived an honest and pious young fisherman named Judar, whose two elder brothers, Salim and Salih, were envious, quarrelsome, and squandered their inheritance, repeatedly robbing Judar of his nets and clothes. Yet Judar never retaliated, sharing every fish he caught with his aged mother and forgiving his ungrateful brothers with saintly patience.\n\nOne day, while casting his net into the lake of Karun, Judar was approached by a mysterious Maghribi enchanter named Abd al-Samad. Recognizing Judar’s absolute purity of heart, the enchanter engaged him to retrieve the ancient talismanic treasure of King Shamhurish from an enchanted subterranean palace in the mountains of Fez.\n\nJudar passed through seven terrifying halls of illusions—roaring dragons, enchanted swords, and phantom armies—by following the master’s advice: to keep his heart free from fear and his tongue engaged in prayer.\n\nHe retrieved the talismanic treasures: the magic saddlebag that produced whatever sumptuous food was desired; the golden ring that summoned an Ifrit; and the celestial scimitar that could rout armies.\n\nReturning to Cairo, Judar used the magic saddlebag to feed all the poor and hungry of the city every day.\n\nHis jealous brothers, seeing his prosperity, betrayed him to the king’s corrupt vizier, who imprisoned Judar and seized the treasures.\n\nUsing the magic ring, Judar freed himself, overthrew the corrupt vizier, and was crowned King of Cairo by the joyful populace!\n\nInstead of executing his treacherous brothers, Judar embraced them, appointed them emirs in his royal council, and shared his royal wealth with them, proving that boundless fraternal forgiveness is the truest crown of nobility.",
+  "moral": "Pious patience, filial devotion, and endless fraternal forgiveness triumph over jealousy and treachery. [ML]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Judar and His Brethren illustration from the 1001 Arabian Nights collection.",
+  "word_count": 261,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Judar and His Brethren\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Judar and His Brethren\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 193,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "akbar-birbal-42-the-two-friends",
+  "slug": "akbar-birbal-42-the-two-friends-ml",
+  "language": "ml",
+  "title": "The Two Friends (മലയാളം)",
+  "genre": "Humorous Tales",
+  "collection": "Akbar–Birbal",
+  "culture_region": "India",
+  "age_group": "Below 13",
+  "summary": "Two childhood companions test their bond when one becomes a wealthy minister and the other remains a poor scholar. Birbal illustrates the sacred law of loyalty. [ML]",
+  "keywords": [
+    "akbar–birbal",
+    "the two friends",
+    "moral stories for children",
+    "world folktales and fables",
+    "akbar-birbal"
+  ],
+  "tags": [
+    "akbar-birbal",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Two young men, Madhav and Keshav, grew up in the same village, studying under the same village teacher and sharing every crust of bread. As adults, their fortunes diverged sharply: Madhav's brilliant mind earned him a position as a senior scribe in the imperial administration, amassing wealth and a fine mansion, while Keshav remained in his village, caring for his ailing parents as an impoverished scholar.\n\nYears passed. When drought ruined Keshav's crops and his family faced starvation, he traveled to Agra to seek his old friend's help.\n\nArriving at Madhav's grand mansion, Keshav was dressed in patched clothes and worn sandals. When Madhav saw his childhood friend at the gate, he did not turn away or feel embarrassed. He ran down the marble steps, embraced Keshav with tears of joy, brought him into his home, and washed his dusty feet with his own hands!\n\nFor two weeks, Madhav treated Keshav like royalty, introducing him to scholars and providing him with fine robes.\n\nWhen Keshav prepared to return home, Madhav handed him a sealed wooden casket, saying: 'Brother, accept this small gift of our childhood love. Do not open it until you reach your home.'\n\nWhen Keshav reached his village and opened the casket before his wife, he found it filled to the brim with one thousand gold mohurs and a deed for fertile land!\n\nDeeply moved, Keshav wrote a letter to Emperor Akbar, praising Madhav's loyalty and stating: 'Your Majesty, an empire is blessed when its ministers possess hearts as pure as gold.'\n\nAkbar read the letter in court and turned to Birbal: 'Is it not rare for a wealthy man to honor a poor friend with such selfless love?'\n\nBirbal replied with profound warmth:\n\n'Sire, gold tests character, and adversity tests friendship. Many men have friends when their tables are laden with wine and feasts. But he who remembers the companion of his humble youth, and shares his prosperity with dignity without humiliating his brother, is the true nobleman of humanity.'\n\nAkbar summoned both Madhav and Keshav to court, praised their noble bond, and appointed Keshav head of the imperial library, reminding his courtiers that true loyalty is the rarest jewel in the world.",
+  "moral": "ഗുണപാഠം: Wit beats power",
+  "image": "/images/stories/akbar-birbal.webp",
+  "image_alt": "The Two Friends illustration from the Akbar–Birbal collection.",
+  "word_count": 366,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Two Friends\"?",
+      "options": [
+        "Wit beats power",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional Court Folklore of Akbar and Birbal",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Akbar–Birbal anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "teamwork"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Two Friends\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Wit beats power\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 42,
+  "reviewed": true,
+  "source": "Akbar-Birbal folklore - Mughal India 16th century - public domain oral tradition",
+  "license": "Public Domain",
+  "credit": "Akbar–Birbal Global Treasury"
+}

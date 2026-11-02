@@ -1,12 +1,62 @@
-# Cloudflare Pages Redirects
-# Redirect legacy individual story URLs directly to the collection hubs
-/en/stories/*  /en/collections/  301
-/ta/stories/*  /ta/collections/  301
-/hi/stories/*  /hi/collections/  301
-/es/stories/*  /es/collections/  301
-/zh/stories/*  /zh/collections/  301
-/pt/stories/*  /pt/collections/  301
-/ml/stories/*  /ml/collections/  301
-/te/stories/*  /te/collections/  301
-/kn/stories/*  /kn/collections/  301
-/mr/stories/*  /mr/collections/  301
+# Cloudflare Pages Redirects & Rewrites
+
+# Story collection backwards compatibility
+/en/stories/*  /en/  301
+/ta/stories/*  /ta/  301
+/hi/stories/*  /hi/  301
+/es/stories/*  /es/  301
+/zh/stories/*  /zh/  301
+/pt/stories/*  /pt/  301
+/ml/stories/*  /ml/  301
+/te/stories/*  /te/  301
+/kn/stories/*  /kn/  301
+/mr/stories/*  /mr/  301
+
+# Clean URL Rewrites for Core Language Pages
+/en/search/              /en/en-search.html          200
+/en/favorites/           /en/en-favorites.html       200
+/en/submit/              /en/en-submit.html          200
+/en/subscribe/           /en/en-subscribe.html       200
+/en/about/               /en/en-about.html           200
+/en/contact/             /en/en-contact.html         200
+/en/disclaimer/          /en/en-disclaimer.html      200
+/en/privacy/             /en/en-privacy.html         200
+/en/terms/               /en/en-terms.html           200
+/en/cookies/             /en/en-cookies.html         200
+/en/copyright/           /en/en-copyright.html       200
+/en/guidelines/          /en/en-guidelines.html      200
+/en/editorial-policy/    /en/en-editorial-policy.html 200
+/en/parent-guide/        /en/en-parent-guide.html    200
+/en/accessibility/       /en/en-accessibility.html   200
+
+/ta/search/              /ta/ta-search.html          200
+/ta/favorites/           /ta/ta-favorites.html       200
+/ta/submit/              /ta/ta-submit.html          200
+/ta/subscribe/           /ta/ta-subscribe.html       200
+/ta/about/               /ta/ta-about.html           200
+/ta/contact/             /ta/ta-contact.html         200
+/ta/disclaimer/          /ta/ta-disclaimer.html      200
+/ta/privacy/             /ta/ta-privacy.html         200
+/ta/terms/               /ta/ta-terms.html           200
+/ta/cookies/             /ta/ta-cookies.html         200
+/ta/copyright/           /ta/ta-copyright.html       200
+/ta/guidelines/          /ta/ta-guidelines.html      200
+/ta/editorial-policy/    /ta/ta-editorial-policy.html 200
+/ta/parent-guide/        /ta/ta-parent-guide.html    200
+/ta/accessibility/       /ta/ta-accessibility.html   200
+
+/hi/search/              /hi/hi-search.html          200
+/hi/favorites/           /hi/hi-favorites.html       200
+/hi/submit/              /hi/hi-submit.html          200
+/hi/subscribe/           /hi/hi-subscribe.html       200
+/hi/about/               /hi/hi-about.html           200
+/hi/contact/             /hi/hi-contact.html         200
+/hi/disclaimer/          /hi/hi-disclaimer.html      200
+/hi/privacy/             /hi/hi-privacy.html         200
+/hi/terms/               /hi/hi-terms.html           200
+/hi/cookies/             /hi/hi-cookies.html         200
+/hi/copyright/           /hi/hi-copyright.html       200
+/hi/guidelines/          /hi/hi-guidelines.html      200
+/hi/editorial-policy/    /hi/hi-editorial-policy.html 200
+/hi/parent-guide/        /hi/hi-parent-guide.html    200
+/hi/accessibility/       /hi/hi-accessibility.html   200

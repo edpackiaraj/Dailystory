@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-233-the-man-and-his-wife",
+  "slug": "an-233-the-man-and-his-wife-mr",
+  "language": "mr",
+  "title": "The Man and his Wife (मराठी)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the city of Homs lived an affluent merchant named Tariq and his devoted wife, Maryam. A sudden economic catastrophe struck the region:... [MR]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the man and his wife",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the city of Homs lived an affluent merchant named Tariq and his devoted wife, Maryam. A sudden economic catastrophe struck the region: a caravan bearing their goods was lost in a desert storm, and a fire consumed their city warehouse, leaving them completely ruined.\n\nTheir fine carpets and porcelain were sold to satisfy creditors, leaving them only a tiny mud-brick cottage on the edge of the olive groves.\n\nTariq sat upon the earthen floor with his head between his knees, groaning in despair: 'We are ruined, Maryam! Our youth is gone, our wealth is dust, and our friends avoid us in the street!'\n\nMaryam smiled with serene tenderness, placed a bowl of warm lentil soup and fresh flatbread before him, and took his hands: 'My dear husband, have our hands lost their strength? Has our health failed? Have our minds lost their understanding? Gold is merely a visitor that comes and goes, but the love that binds two faithful hearts cannot be burned by fire or plundered by sandstorms.'\n\nShe brought out her spinning wheel and began to spin fine cotton, while Tariq took heart, rented a modest stall in the vegetable market, and traded with cheerful honesty.\n\nEvery evening, they shared their simple bread with laughter, encouraging each other through difficult months.\n\nWithin five years, their steady industry, spotless reputation, and cheerful resilience restored their fortunes: Tariq rebuilt his business, while Maryam established a weaving school for orphan girls.\n\nTariq placed a gold bracelet upon her wrist, saying: 'The fire burned our gold, but it revealed that your courage is a treasure that the world cannot equal.'",
+  "moral": "Mutual love, patience, and cheerfulness in adversity rebuild what misfortune destroys. [MR]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Man and his Wife illustration from the 1001 Arabian Nights collection.",
+  "word_count": 269,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Man and his Wife\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Man and his Wife\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 233,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

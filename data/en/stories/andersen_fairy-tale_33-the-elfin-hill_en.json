@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-33-the-elfin-hill",
+  "slug": "hans-christian-andersen-33-the-elfin-hill",
+  "language": "en",
+  "title": "The Elfin Hill",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "A commotion stirred through the enchanted forest! Several giant lizards scurried across the hollow oak roots, whispering that the Elfin Hill was to be raised on four glowing pillar...",
+  "keywords": [
+    "hans christian andersen",
+    "the elfin hill",
+    "moral stories for children",
+    "world folktales and fables",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A commotion stirred through the enchanted forest! Several giant lizards scurried across the hollow oak roots, whispering that the Elfin Hill was to be raised on four glowing pillars that very night to host a grand banquet for royal guests from Norway.\n\nThe old Elfin King's house was swept with rush-brooms and polished until the mica stones sparkled like diamonds. The kitchen roasted fat earthworms, spiced frog-legs, and brewed sweet mushroom mead. The King of the Dovre Mountains in Norway had arrived with his two wild, boisterous sons to seek brides among the Elfin King's seven lovely daughters.\n\nThe old Norwegian Troll King sat on the seat of honor, telling grand sagas of roaring waterfalls, pine-clad fjords, and granite crags until his eyes sparkled. His two sons, however, were ill-mannered louts: they threw roasted beetles on the polished floor, put their muddy boots on the table, and fell asleep snoring.\n\nThe seven elfin maidens demonstrated their accomplishments: the first could turn mist into silver silk; the second could play the harp so sweetly that the trees wept sap; the third could brew magical potions; the fourth carried poetry in her fingers. But the Norwegian Troll King dismissed them all until he came to the youngest daughter.\n\nShe could tell enchanting tales of every stone, leaf, and mountain spring in the world.\n\n\"You shall be my queen!\" roared the delighted old Norwegian Troll King, ignoring his lazy sons entirely. \"You shall sit upon my throne of granite and tell me stories through the long winter nights!\"\n\nAnd as the cock crowed at dawn, the pillars sank back into the earth, the hill closed its grassy dome, and the boisterous sons hurried back to their snowy crags, while the wise maiden found an enduring kingdom in the northern mountains.",
+  "moral": "Pretentious vanity and pompous matchmaking often reveal the shallow nature of worldly pride.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Elfin Hill illustration from the Hans Christian Andersen collection.",
+  "word_count": 297,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Elfin Hill\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Hans Christian Andersen anthology.",
+  "values": [
+    "wit",
+    "humor",
+    "authenticity"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Elfin Hill\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Andersen's tales teach compassion, resilience, and Christian hope\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 33,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Global Treasury"
+}

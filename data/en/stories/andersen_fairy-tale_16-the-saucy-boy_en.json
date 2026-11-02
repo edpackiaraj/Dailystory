@@ -1,0 +1,129 @@
+{
+  "id": "hans-christian-andersen-16-the-saucy-boy",
+  "slug": "hans-christian-andersen-16-the-saucy-boy",
+  "language": "en",
+  "title": "The Saucy Boy",
+  "genre": "Fairy Tales",
+  "collection": "Hans Christian Andersen",
+  "culture_region": "Denmark",
+  "age_group": "Below 13",
+  "summary": "Once upon a time, an elderly poet lived peacefully in a thatched cottage at the edge of the woods. He had lived through many years, loved wisdom, and spent his quiet evenings writi...",
+  "keywords": [
+    "hans christian andersen",
+    "the saucy boy",
+    "moral stories for children",
+    "world folktales and fables",
+    "hans-christian-andersen"
+  ],
+  "tags": [
+    "hans-christian-andersen",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "Once upon a time, an elderly poet lived peacefully in a thatched cottage at the edge of the woods. He had lived through many years, loved wisdom, and spent his quiet evenings writing songs of virtue and nature.\n\nDuring a torrential autumn storm, as the wind rattled the shutters and rain fell in sheets, a child's tearful voice cried from the porch: \"Let me in, kind grandfather! The cold wind will freeze me to death!\"\n\nThe poet unlatched the heavy wooden bolt. There stood a charming little boy, golden-curled and rosy-cheeked, with wings like butterfly feathers shivering on his shoulders. He held a small polished bow made of ash-wood.\n\nThe kind old man brought the child inside, wrapped him in a warm wool cloak, and dried his wet curls before the blazing logs. \"Here, child, drink this warm milk and eat this honey cake,\" said the poet warmly.\n\nAs soon as the boy grew warm, his eyes flashed with impudent mischief. \"My bowstring was soaked in the rain,\" said the boy casually. \"I must test whether it has lost its spring!\"\n\nBefore the old man could raise a hand, the saucy boy fitted a sharp golden arrow to the bowstring, drew it to his ear, and shot the poet right through the center of his chest!\n\n\"Ha, ha, ha!\" cried the saucy boy as he leaped onto the table, clapping his little hands. \"My bow is as strong as ever!\" And with a burst of mocking laughter, he spread his wings and flew up the chimney into the dark.\n\nThe arrow pierced the poet's chest with the sudden sweet and bitter agony of unexpected passion. The poet clutched his heart, groaning: \"Oh, what a treacherous guest! That was Cupid, the boy who shoots without mercy!\" The old poet warned every young person in the town never to shelter the saucy archer, for his arrows bring unrest and sleepless nights to the calmest minds.",
+  "moral": "Do not be deceived by the charm of reckless desires; guard your heart with wisdom.",
+  "image": "/images/stories/andersen.webp",
+  "image_alt": "The Saucy Boy illustration from the Hans Christian Andersen collection.",
+  "word_count": 323,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Saucy Boy\"?",
+      "options": [
+        "Andersen's tales teach compassion, resilience, and Christian hope",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Hans Christian Andersen (1805–1875)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Hans Christian Andersen anthology.",
+  "values": [
+    "watchfulness",
+    "self-control",
+    "temperance"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Saucy Boy\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Andersen's tales teach compassion, resilience, and Christian hope\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 16,
+  "reviewed": true,
+  "source": "H.C. Andersen - Public Domain, translation H.P. Paull 1872",
+  "license": "Public Domain",
+  "credit": "Hans Christian Andersen Global Treasury"
+}

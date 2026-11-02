@@ -38,11 +38,26 @@ const moods = [
 <BaseLayout
   title={localizedMeta.title}
   description={localizedMeta.metaDescription}
+  keywords={localizedMeta.keywords}
   lang={lang}
   ogImage={todaysStory?.image || '/images/og-default.svg'}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-12 sm:space-y-16">
     
+    <!-- Portal Header with Primary Semantic H1 -->
+    <header class="text-center sm:text-left max-w-4xl">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-100 dark:bg-amber-950/70 border border-amber-300 dark:border-amber-800 text-amber-900 dark:text-amber-200 text-xs font-bold uppercase tracking-wider mb-3">
+        <span>📖</span>
+        <span>{brandConfig.name} • 10 World Languages • 2,500+ Illustrated Tales</span>
+      </div>
+      <h1 class="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight leading-snug">
+        {localizedMeta.tagline}
+      </h1>
+      <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-2 max-w-2xl font-serif leading-relaxed">
+        {localizedMeta.metaDescription}
+      </p>
+    </header>
+
     <!-- Katha Mascot Welcome Banner -->
     <MascotCompanion tip={`"Welcome to today's reading journey in ${brandConfig.supportedLanguages.find(l => l.code === lang)?.native}! Read with an open heart and gentle curiosity."`} />
 
@@ -69,9 +84,9 @@ const moods = [
               </span>
             </div>
 
-            <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
               {todaysStory.title}
-            </h1>
+            </h2>
 
             <p class="text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed max-w-2xl">
               {todaysStory.summary}
@@ -140,7 +155,7 @@ const moods = [
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
         {moods.map(m => (
           <a
-            href={`/${lang}/search/?mood=${m.id}`}
+            href={`/${lang}/${lang}-search/?mood=${m.id}`}
             class="p-4 rounded-2xl bg-amber-50/60 dark:bg-slate-800/60 border border-amber-100 dark:border-slate-700 hover:border-amber-400 hover:scale-105 text-center transition-all group"
           >
             <div class="text-3xl mb-1 group-hover:scale-110 transition-transform">{m.icon}</div>
@@ -161,13 +176,13 @@ const moods = [
             Timeless fables and moral folktales translated with care
           </p>
         </div>
-        <a href={`/${lang}/search/`} class="text-xs sm:text-sm font-bold text-amber-600 hover:underline">
+        <a href={`/${lang}/${lang}-search/`} class="text-xs sm:text-sm font-bold text-amber-600 hover:underline">
           View all stories →
         </a>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {stories.map(s => (
+        {stories.slice(0, 18).map(s => (
           <article class="bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
             <div>
               <div class="aspect-16/10 overflow-hidden relative">

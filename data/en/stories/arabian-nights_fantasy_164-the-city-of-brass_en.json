@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-164-the-city-of-brass",
+  "slug": "arabian-nights-164-the-city-of-brass",
+  "language": "en",
+  "title": "The City of Brass",
+  "genre": "Fantasy Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The Umayyad Caliph Abd al-Malik in Damascus desired to possess one of the legendary brass vessels sealed by King Solomon, wherein ancient rebellious spirits were imprisoned. He ...",
+  "keywords": [
+    "arabian nights",
+    "the city of brass",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "The Umayyad Caliph Abd al-Malik in Damascus desired to possess one of the legendary brass vessels sealed by King Solomon, wherein ancient rebellious spirits were imprisoned. He dispatched the valiant Emir Musa and the venerable scholar Shaykh Abd al-Samad with an army across the scorching deserts of the Maghrib to find the vessels.\n\nGuided by ancient celestial charts, they traversed trackless sands for months, until they beheld a breathtaking sight: rising from the dunes stood the colossal, shining walls of a city built entirely of burnished brass, without gates or seams, towering into the azure sky!\n\nThe soldiers attempted to scale the walls with iron ladders, but whenever a man reached the parapet, he clapped his hands, laughed in ecstasy at an enchanted vision, and cast himself down into the courtyard, perishing upon the stones.\n\nShaykh Abd al-Samad, fortified by spiritual contemplation and pure intention, climbed the ladder, broke the enchantment with words of sacred truth, and descended to the interior gates, unlocking the massive bronze portals from within.\n\nEmir Musa and his companions entered a city of silent, breathtaking magnificence: palaces of marble, markets stocked with silks, and fountains flowing over pearls. Yet every inhabitant—the guards, the merchants, the artisans, and Queen Tadmur upon her ivory throne—sat petrified in silent death!\n\nUpon the queen’s throne was inscribed an ancient poem:\n'Look upon our palaces, our gold, our armies of renown,\nYet know that death in one short hour struck all our glory down;\nWe built in brass to rival time, we hoarded every gem,\nYet dust has claimed our mighty heads, and stone our diadem!'\n\nEmir Musa wept, touched by the solemn transience of worldly power. He gathered the Solomon’s brass jars from the coastal lake, returned to Damascus, resigned his military command, and spent his remaining years in contemplation and humble service, having learned that earthly glory is a passing shadow.",
+  "moral": "The ruins of ancient empires speak an eternal truth: righteousness alone outlasts stone and brass.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The City of Brass illustration from the Arabian Nights collection.",
+  "word_count": 313,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The City of Brass\"?",
+      "options": [
+        "True wealth lies in contentment and honesty; greed leads to ruin.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "humility",
+    "wisdom",
+    "history",
+    "faith"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The City of Brass\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"True wealth lies in contentment and honesty; greed leads to ruin.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 164,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

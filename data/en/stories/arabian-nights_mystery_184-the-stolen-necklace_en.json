@@ -1,0 +1,130 @@
+{
+  "id": "arabian-nights-184-the-stolen-necklace",
+  "slug": "arabian-nights-184-the-stolen-necklace",
+  "language": "en",
+  "title": "The Stolen Necklace and the Magic Rooster",
+  "genre": "Mystery Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "A wealthy merchant of Cairo hosted a grand banquet for eight of his fellow merchants in his garden pavilion. During the evening, a diamond necklace of immense value, belonging t...",
+  "keywords": [
+    "arabian nights",
+    "the stolen necklace",
+    "moral stories for children",
+    "world folktales and fables",
+    "arabian-nights"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "values",
+    "wisdom",
+    "bedtime-story"
+  ],
+  "full_text": "A wealthy merchant of Cairo hosted a grand banquet for eight of his fellow merchants in his garden pavilion. During the evening, a diamond necklace of immense value, belonging to his daughter, vanished from the dressing table. No stranger had entered the house, and all eight guests vehemently denied taking the jewel.\n\nThe merchant summoned the wise Kazi of the city, Abu Masrur, to discover the culprit without falsely accusing an innocent man.\n\nThe Kazi placed a black rooster inside a darkened tent in the courtyard. He announced with solemn gravity: 'This is a magical rooster endowed with the power of truth. Each of you eight merchants shall enter the dark tent alone, place his hands firmly upon the back of the rooster, and return. When the guilty man touches the bird, the rooster will crow with a voice like thunder!'\n\nOne by one, the eight guests entered the dark tent, stroked the bird, and stepped out into the courtyard. The rooster remained completely silent; not a single crow was heard.\n\nThe host cried in despair: 'The magic has failed!'\n\nThe Kazi smiled with calm authority: 'The test has not failed; it has just begun! Let all eight gentlemen hold out their hands before me with open palms!'\n\nSeven of the merchants held out hands that were heavily blackened with soot—for the Kazi had coated the rooster’s feathers with wet chimney soot!\n\nThe eighth merchant, terrified that the rooster would crow if he touched it, held out hands that were completely clean and white!\n\nSeeing his clean hands, the thief knew he was caught. He fell to his knees in tears, pulled the diamond necklace from his boot, and confessed his crime, proving that guilt creates its own trap through fear, while innocence touches the bird without dread.",
+  "moral": "Guilt betrays itself through fear, while a clear conscience walks fearlessly in the light.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Stolen Necklace illustration from the Arabian Nights collection.",
+  "word_count": 298,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-25",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central moral lesson taught in \"The Stolen Necklace\"?",
+      "options": [
+        "Presence of mind and quiet wisdom triumph over brute strength.",
+        "Acting in haste and anger without thinking",
+        "Believing rumors and flattery without proof",
+        "Leaving work unfinished"
+      ],
+      "answerIndex": 0,
+      "hint": "Remember the moral lesson of this traditional story."
+    },
+    {
+      "question": "How do the characters overcome their challenge?",
+      "options": [
+        "Through patience, calm reflection, and wisdom",
+        "By shouting loudly and blaming others",
+        "By running away from every problem",
+        "By ignoring good advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Consider the virtues praised in world folklore."
+    },
+    {
+      "question": "What memorable conclusion does this story teach young readers?",
+      "options": [
+        "Honesty, kindness, and clear thinking lead to peace",
+        "Deceit is never discovered",
+        "Greed always makes you happy",
+        "Might is always right"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the resolution of the story."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Trans. Richard Francis Burton & Galland)",
+  "status": "published",
+  "content_notes": "Family-safe traditional adaptation from the Arabian Nights anthology.",
+  "values": [
+    "justice",
+    "wit",
+    "discernment",
+    "truth"
+  ],
+  "reading_level": "Beginner",
+  "vocabulary": [
+    {
+      "word": "counsel",
+      "meaning": "wise advice given to guide decisions"
+    },
+    {
+      "word": "discernment",
+      "meaning": "the ability to judge well and understand the truth"
+    },
+    {
+      "word": "presence of mind",
+      "meaning": "the ability to remain calm and think clearly during sudden events"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What is the main situation at the beginning of \"The Stolen Necklace\"?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How could you use this lesson in your own school or family life?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Was the character’s final decision fair and kind to everyone?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+    }
+  ],
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
+  "mood": [
+    "calm",
+    "curious",
+    "brave"
+  ],
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
+  "series_id": null,
+  "part_number": 184,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Arabian Nights Global Treasury"
+}

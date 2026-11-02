@@ -3,25 +3,33 @@ import fs from 'node:fs';
 import path from 'node:path';
 import brandConfig from '../../../../config/brand.json';
 import { getT } from '../../../lib/i18n';
-import { getAllReviewedStories } from '../../../lib/stories';
+import { getAllReviewedStories, getStoriesByCollection } from '../../../lib/stories';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 
 export function getStaticPaths() {
-  const allCollections = [
-    "Cinderella Stories", "Akbar–Birbal", "Panchatantra", "Tenali Rama",
-    "Aesop's Fables", "Grimm Fairy Tales", "Hans Christian Andersen", "Mulla Nasruddin",
-    "Jataka Tales", "Charles Perrault", "Chinese Folktales and Fables", "Arabian Nights",
-    "Vikram–Vetal", "Simhasana Battisi", "Sheikh Chilli", "Paramartha Guru",
-    "Mariyadai Raman", "African Folktales", "Latin American Folktales",
-    "Tamil Folk", "Tamil Folk Humor", "La Fontaine"
-  ];
+  const manifestPath = path.resolve(process.cwd(), 'data', 'en', 'manifest-en.json');
+  let allCollections: string[] = [];
+  if (fs.existsSync(manifestPath)) {
+    try {
+      const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+      allCollections = Array.from(new Set(manifest.map((m: any) => m.collection))).filter(Boolean) as string[];
+    } catch {}
+  }
+  if (!allCollections.length) {
+    allCollections = [
+      "Cinderella Stories", "Akbar–Birbal", "Panchatantra", "Tenali Rama",
+      "Aesop's Fables", "Grimm Fairy Tales", "Hans Christian Andersen", "Mulla Nasruddin",
+      "Jataka Tales", "Charles Perrault", "Arabian Nights", "Vikram–Vetal", "Paramartha Guru"
+    ];
+  }
 
   const paths: any[] = [];
   for (const lang of brandConfig.supportedLanguages) {
     for (const c of allCollections) {
+      const colSlug = c.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
       paths.push({
-        params: { lang: lang.code, collection: c.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') },
-        props: { rawCollection: c }
+        params: { lang: lang.code, collection: `${lang.code}-collection-${colSlug}` },
+        props: { rawCollection: c, colSlug }
       });
     }
   }
@@ -29,20 +37,13 @@ export function getStaticPaths() {
 }
 
 const { lang, collection } = Astro.params;
-const { rawCollection } = Astro.props;
+const { rawCollection, colSlug: propColSlug } = Astro.props;
 const t = getT(lang);
+const colSlug = propColSlug || collection?.replace(new RegExp(`^${lang}-collection-`), '') || 'world-folktales';
 
-const allStories = getAllReviewedStories(lang);
-
-// Match stories belonging to this collection
-const matchingStories = allStories.filter(s => {
-  const normCollection = (s.collection || '').toLowerCase();
-  const targetCol = rawCollection.toLowerCase();
-  if (targetCol.includes('cinderella')) {
-    return normCollection.includes('cinderella') || (s.tags && s.tags.some(t => t.toLowerCase().includes('cinderella'))) || s.slug.includes('cinderella');
-  }
-  return normCollection === targetCol;
-});
+// Load only the specific collection to maximize performance
+const collectionStories = getStoriesByCollection(lang, rawCollection);
+const matchingStories = collectionStories.filter(s => s.reviewed !== false && s.status === 'published');
 
 const hasMinStories = matchingStories.length >= 5;
 const firstStory = matchingStories[0] || null;
@@ -58,7 +59,19 @@ const collectionIntros: Record<string, string> = {
   "hans-christian-andersen": "Hans Christian Andersen of Denmark elevated the fairy tale into high poetic art. His deeply touching stories—such as The Ugly Duckling, The Emperor's New Clothes, and The Little Fir Tree—explore the profound emotional landscape of belonging, courage in speaking truth to power, and the mindfulness of savoring each day. Andersen's tales speak gently to the sensitive hearts of children, reassuring them that feeling different or awkward in youth is often the quiet cocoon before spreading majestic swan wings.",
   "mulla-nasruddin": "Mulla Nasruddin is the beloved satirical folk figure of Middle Eastern, Mediterranean, and Central Asian lore. Playing the dual role of the wise fool and the philosophical teacher, Nasruddin's humorous adventures expose human hypocrisy, pretension, and self-delusion with unforgettable wit. Whether feeding pilaf into his silk coat sleeves to teach a lesson on social superficiality or searching for his lost keys under a bright street lamp simply because the light is better there, Nasruddin invites readers of all ages to laugh at themselves and look deeper into the human heart.",
   "jataka-tales": "The Jataka Tales are an ancient Buddhist collection of animal parables and folk legends that originated in India over two millennia ago. Each story illustrates the cultivation of a fundamental virtue: compassion (karuna), generosity (dana), self-control, and moral leadership. In tales such as The Golden Swan and The Monkey King, readers encounter noble creatures who risk their own comfort and safety to protect the vulnerable, showing that true greatness is found in humble, selfless service.",
-  "chinese-folktales-and-fables": "Chinese folklore and fables draw upon centuries of deep philosophical harmony with nature, respect for family, and the quiet triumph of virtue over pride. Spanning ancient dynastic tales, bamboo grove allegories, and agrarian proverbs like Sai Weng Shi Ma (The Old Man at the Frontier), these stories highlight the value of genuine honesty, equanimity, and steadfast diligence. These tales offer serene, contemplative bedtimes and enriching classroom discussions for children of all backgrounds."
+  "chinese-folktales-and-fables": "Chinese folklore and fables draw upon centuries of deep philosophical harmony with nature, respect for family, and the quiet triumph of virtue over pride. Spanning ancient dynastic tales, bamboo grove allegories, and agrarian proverbs like Sai Weng Shi Ma (The Old Man at the Frontier), these stories highlight the value of genuine honesty, equanimity, and steadfast diligence. These tales offer serene, contemplative bedtimes and enriching classroom discussions for children of all backgrounds.",
+  "arabian-nights": "The Arabian Nights, known across centuries as One Thousand and One Nights (Alf Layla wa-Layla), is one of the grandest narrative tapestries in human civilization. Born from oral storytelling traditions that flowed along the Silk Road between ancient Persia, India, Arabia, Iraq, and North Africa, the collection is unified by the brilliant frame narrative of Scheherazade. Facing the bitter decree of King Shahryar, Scheherazade deploys the healing power of storytelling night after night, spinning interconnected tales of seafaring voyages, flying carpets, and philosophical riddles to restore the king's faith in humanity. In our family-safe edition of 419 tales, readers accompany Sindbad across uncharted seas, discover Aladdin's miraculous lamp of industrious courage, and outwit treacherous thieves with the quick-witted servant Morgiana. These tales teach children that sharp intellect, moral courage, compassion for the distressed, and loyalty outshine all the gold of caliphs.",
+  "vikram-vetal": "The legendary tales of King Vikramaditya and the Vetal (Baital Pachisi or Vetala Panchavimshati) originated in ancient Sanskrit lore as documented in Somadeva's eleventh-century Kathasaritsagara. Tasked by an ascetic with carrying a mysterious celestial spirit (the Vetal) across a dark cremation ground without speaking a single word, the noble King Vikramaditya faces twenty-five profound moral, legal, and ethical riddles. At the conclusion of each gripping tale, the Vetal challenges the king: if he knows the true, just answer and remains silent, his head will shatter; but if he speaks to deliver judgment, the Vetal slips back to the tree. Vikram–Vetal is an intellectual and ethical gymnasium, challenging young minds to weigh justice, filial duty, royal obligation, love, and righteousness under complex circumstances.",
+  "paramartha-guru": "The hilarious and timeless satire of Guru Paramartha and his four simple disciples—Matti (The Simpleton), Madaiyan (The Blockhead), Muttal (The Fool), and Asadan (The Dunce)—was composed in eighteenth-century Tamil Nadu by the Italian Jesuit scholar and Tamil poet Constanzo Beschi (known affectionately as Veeramamunivar). Written to make Tamil folk wisdom accessible through rollicking laughter, the stories chronicle the absurd adventures of an earnest but profoundly gullible village preceptor and his overly literal students. Whether counting themselves and weeping because they forgot to count the counter, trying to carry their wounded horse across a stream, or mistaking a pumpkin for a mare's egg, the tales teach children not to follow authority blindly, to think critically rather than interpreting words with mindless literalism, and to value common sense.",
+  "charles-perrault": "Charles Perrault was the pioneering French author and member of the Académie Française who, in 1697, published Histoires ou contes du temps passé (Stories from Times Past), immortalizing Tales of Mother Goose and establishing the literary fairy tale as a refined European art form. Introducing the world to iconic masterpieces such as Cinderella with her glass slipper, the clever Puss in Boots, Sleeping Beauty in the Woods, and Little Red Riding Hood, Perrault transformed rustic folklore into elegant courtly parables. In our family-safe retellings, every story concludes with an inspiring moral reflection emphasizing prudence, fidelity, the power of wit over brute force, and the enduring beauty of genuine kindness.",
+  "sheikh-chilli": "Sheikh Chilli is the legendary, affectionate folk figure of South Asian and North Indian oral storytelling, celebrated for his innocent daydreams and whimsical logic. Like the famous daydreamer who planned to conquer empires with a basket of eggs only to kick it over, Sheikh Chilli embodies the hilarious consequences of building castles in the air without watching where one steps. From calculating astronomical wealth while carrying a jar of oil on his head to hiring tutors to teach him how to sleep with his eyes open, Chilli's misadventures bring joyful laughter to families and classrooms, teaching children the indispensable value of grounding dreams in practical, honest action.",
+  "mariyadai-raman": "Mariyadai Raman is the celebrated folk magistrate and embodiment of judicial wisdom in South Indian and Tamil folklore, revered as the King Solomon of the Coromandel coast. Appointed to settle the most convoluted and contentious disputes in the kingdom, Mariyadai Raman possessed a profound understanding of human psychology, forensic observation, and natural justice. From resolving disputes between two mothers claiming a single infant to exposing deceitful moneylenders who hid gold inside hollow walking sticks, Raman's verdicts were legendary for their poetic fairness. His tales teach young readers how to analyze evidence with patience, avoid jumping to hasty conclusions, and uphold justice with compassion.",
+  "simhasana-battisi": "The Simhasana Battisi (The Thirty-Two Tales of the Throne) is an ancient Sanskrit narrative cycle that tells of King Bhoja discovering the legendary buried throne of King Vikramaditya. Each time King Bhoja attempts to mount the jewel-encrusted steps of the celestial seat, one of the thirty-two carved statues supporting the throne comes to life, demanding whether Bhoja possesses the peerless courage, humility, generosity, and self-sacrifice of Vikramaditya. The collection teaches children that high office and royal prestige must be earned through moral greatness, selfless service to the weak, and absolute dedication to truth.",
+  "la-fontaine": "Jean de La Fontaine was the master French poet and fabulist of the seventeenth century whose Fables Choisies elevated Aesopian allegories into poetic masterpieces of human psychology and political wit. Featuring unforgettable encounters such as The Grasshopper and the Ant, The Wolf and the Dog, and The Oak and the Reed, La Fontaine painted a vivid, satirical portrait of society through the voices of animals, teaching children to value quiet industry, avoid the traps of vain flattery, appreciate the freedom of a humble life, and meet the changing tides of fortune with resilience and grace.",
+  "african-folktales": "African Folktales draw from the rich, communal oral storytelling traditions of diverse nations and tribes across the African continent, spanning West African Akan tales of Anansi the clever spider to Southern African legends of the baobab tree. Rooted in the profound philosophy of Ubuntu ('I am because we are'), these vibrant stories celebrate the harmony between humanity, wildlife, and nature. They demonstrate how community cooperation, sharing with neighbors, and clever ingenuity triumph over lumbering brute strength, teaching children the joy of unity, the necessity of humility, and the sacred duty to care for the earth.",
+  "latin-american-folktales": "Latin American Folktales are a vibrant fusion of ancient Indigenous traditions (Maya, Aztec, Inca, Guaraní, and Mapuche) with Spanish, Portuguese, and Afro-Caribbean cultural influences. From the Andes mountains to the lush Amazon rainforest and sunny Caribbean shores, these tales celebrate magical realism, brave trickster heroes, respect for Mother Earth (Pachamama), and the indomitable resilience of the humble. Stories of rabbit tricksters outsmarting jaguars and enchanted condors protecting mountain villages teach young readers that love, family solidarity, courage, and environmental stewardship are the greatest treasures in life.",
+  "tamil-folk": "Tamil Folk and Folk Humor stories stem from millennia of vibrant village culture, agricultural proverbs, and marketplace banter across Tamil Nadu. Featuring witty village headmen, clever grandmothers, humorous disputes between farmers, and playful tricksters, these tales capture the earthy wisdom and quick wit of the Tamil countryside. They instruct children in the art of living with humor, resolving disagreements through gentle compromise, respecting elderly wisdom, and finding profound ethical lessons in the simplest everyday moments.",
+  "tamil-folk-humor": "Tamil Folk Humor stories celebrate the warmth, laughter, and sharp verbal repartee of rural Tamil life. Through comical misunderstandings, witty retorts between neighbors, and clever parables of village life, these stories demonstrate that a cheerful laugh can defuse anger, resolve thorny disputes, and bring communities together in mutual understanding."
 };
 
 const introText = collectionIntros[collection] || `Discover timeless classics from the ${rawCollection} anthology. Retold with linguistic elegance and deep respect for cultural traditions.`;
@@ -103,13 +116,123 @@ function findMatchingStorySlug(itemTitle: string, stories: any[]) {
   });
   return found ? found.slug : null;
 }
+
+// SEO: Rich JSON-LD Schemas (CollectionPage, BreadcrumbList, FAQPage)
+const siteUrl = brandConfig.siteUrl.replace(/\/$/, '');
+const collectionPageUrl = `${siteUrl}/${lang}/collections/${collection}/`;
+
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": `${rawCollection} Stories - Complete Interactive Anthology`,
+  "description": introText.slice(0, 200),
+  "url": collectionPageUrl,
+  "inLanguage": lang,
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": matchingStories.length,
+    "itemListElement": matchingStories.slice(0, 50).map((s, idx) => ({
+      "@type": "ListItem",
+      "position": idx + 1,
+      "item": {
+        "@type": "Article",
+        "name": s.title,
+        "headline": s.title,
+        "description": s.summary,
+        "url": `${collectionPageUrl}#${s.slug}`,
+        "inLanguage": lang,
+        "author": {
+          "@type": "Person",
+          "name": s.author || "World Folklore"
+        }
+      }
+    }))
+  }
+};
+
+const collectionKeywords = [
+  rawCollection.toLowerCase(),
+  `${rawCollection.toLowerCase()} stories`,
+  `${rawCollection.toLowerCase()} stories online`,
+  `${rawCollection.toLowerCase()} with moral`,
+  "traditional folktales",
+  "bedtime stories for children",
+  "moral stories in 10 languages",
+  "read folklore with audio"
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": `${siteUrl}/${lang}/`
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Collections",
+      "item": `${siteUrl}/${lang}/#collections`
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": rawCollection,
+      "item": collectionPageUrl
+    }
+  ]
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": `What is the ${rawCollection} collection?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": introText
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `How many stories are in the ${rawCollection} anthology?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Our collection contains ${matchingStories.length} complete, family-safe stories with full literary text, audio narration, vocabulary guides, Bloom's Taxonomy reflection questions, and comprehension quizzes.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `What age group are ${rawCollection} stories designed for?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `These stories are crafted for children of all ages, perfect for independent young readers, cozy bedtime stories, and classroom moral education.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `Can I listen to audio narration for ${rawCollection}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Yes, every story includes interactive browser speech narration with adjustable reading speeds (0.75x, 1.0x, 1.25x) and soothing ambient background soundscapes.`
+      }
+    }
+  ]
+};
 ---
 
 <BaseLayout
-  title={`${rawCollection} Stories - Complete Interactive Anthology Reader | ${brandConfig.name}`}
-  description={`Read all ${rawCollection} stories in full unabridged text with audio narration, discussion questions, moral reflections, and quizzes in 10 languages.`}
+  title={`${rawCollection} Stories - Read ${matchingStories.length} Illustrated Folktales Online | ${brandConfig.name}`}
+  description={`Read all ${matchingStories.length} ${rawCollection} stories in full unabridged text with audio narration, discussion questions, moral reflections, and quizzes in 10 languages.`}
+  keywords={collectionKeywords}
   lang={lang}
   noindex={!hasMinStories}
+  jsonLd={[collectionSchema, breadcrumbSchema, faqSchema]}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
     
@@ -234,6 +357,59 @@ function findMatchingStorySlug(itemTitle: string, stories: any[]) {
               {firstStory.summary}
             </p>
           </header>
+
+          <!-- Reading Toolbar: Font Resizer, Focus Mode, Share Story -->
+          <div class="mb-6 flex flex-wrap items-center justify-between gap-3 p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 text-xs">
+            <div class="flex items-center gap-2">
+              <span class="text-slate-500 font-bold uppercase tracking-wider text-[10px]">Text Size:</span>
+              <div class="inline-flex items-center bg-white dark:bg-slate-700 rounded-xl border border-slate-300 dark:border-slate-600 p-0.5">
+                <button
+                  id="font-size-dec"
+                  type="button"
+                  aria-label="Decrease text size"
+                  class="w-7 h-7 flex items-center justify-center font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-600 rounded-lg transition-colors"
+                >
+                  A-
+                </button>
+                <button
+                  id="font-size-reset"
+                  type="button"
+                  aria-label="Reset text size"
+                  class="w-7 h-7 flex items-center justify-center font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-600 rounded-lg transition-colors border-x border-slate-200 dark:border-slate-600"
+                >
+                  A
+                </button>
+                <button
+                  id="font-size-inc"
+                  type="button"
+                  aria-label="Increase text size"
+                  class="w-7 h-7 flex items-center justify-center font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-600 rounded-lg transition-colors"
+                >
+                  A+
+                </button>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button
+                id="reader-focus-toggle"
+                type="button"
+                class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-700 border border-slate-300 dark:border-slate-600 font-bold text-slate-700 dark:text-slate-200 hover:bg-amber-50 dark:hover:bg-slate-600 transition-colors flex items-center gap-1.5"
+              >
+                <span>🔍</span>
+                <span id="focus-toggle-label">Focus Mode</span>
+              </button>
+
+              <button
+                id="reader-share-btn"
+                type="button"
+                class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-700 border border-slate-300 dark:border-slate-600 font-bold text-slate-700 dark:text-slate-200 hover:bg-amber-50 dark:hover:bg-slate-600 transition-colors flex items-center gap-1.5"
+              >
+                <span>🔗</span>
+                <span id="share-btn-label">Share Story</span>
+              </button>
+            </div>
+          </div>
 
           <!-- Audio Narration Bar (Web Speech API) -->
           <div class="mb-8 p-4 rounded-2xl bg-amber-50 dark:bg-slate-800/80 border border-amber-300 dark:border-slate-700 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
@@ -561,6 +737,54 @@ function findMatchingStorySlug(itemTitle: string, stories: any[]) {
       </div>
     )}
 
+    <!-- Frequently Asked Questions (SEO & Parent Guide) -->
+    <section class="mt-16 pt-10 border-t border-slate-200 dark:border-slate-800">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-8">
+          <span class="text-xs font-black uppercase tracking-wider text-amber-600 dark:text-amber-400">Guide &amp; FAQs</span>
+          <h3 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white mt-1">Frequently Asked Questions</h3>
+        </div>
+        <div class="space-y-4">
+          <details class="group p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xs" open>
+            <summary class="flex items-center justify-between font-bold text-sm sm:text-base text-slate-900 dark:text-white cursor-pointer list-none">
+              <span>What is the historical origin of the {rawCollection} collection?</span>
+              <span class="text-amber-500 transition-transform group-open:rotate-180">▼</span>
+            </summary>
+            <p class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-serif">
+              {introText}
+            </p>
+          </details>
+          <details class="group p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xs">
+            <summary class="flex items-center justify-between font-bold text-sm sm:text-base text-slate-900 dark:text-white cursor-pointer list-none">
+              <span>How many stories are included in this anthology?</span>
+              <span class="text-amber-500 transition-transform group-open:rotate-180">▼</span>
+            </summary>
+            <p class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-serif">
+              This anthology features {matchingStories.length} complete, family-safe stories. Each story has been fully reviewed to provide rich literary prose, moral reflections, discussion prompts, and vocabulary guides.
+            </p>
+          </details>
+          <details class="group p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xs">
+            <summary class="flex items-center justify-between font-bold text-sm sm:text-base text-slate-900 dark:text-white cursor-pointer list-none">
+              <span>What age group is this collection recommended for?</span>
+              <span class="text-amber-500 transition-transform group-open:rotate-180">▼</span>
+            </summary>
+            <p class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-serif">
+              These stories are crafted for children aged 4 to 14, as well as family read-aloud sessions and primary/middle school literature education.
+            </p>
+          </details>
+          <details class="group p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xs">
+            <summary class="flex items-center justify-between font-bold text-sm sm:text-base text-slate-900 dark:text-white cursor-pointer list-none">
+              <span>How does the built-in audio narration work?</span>
+              <span class="text-amber-500 transition-transform group-open:rotate-180">▼</span>
+            </summary>
+            <p class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-serif">
+              Our reader utilizes standard browser Web Speech synthesis, allowing children to listen to the story spoken aloud at 0.75x, 1.0x, or 1.25x speed without requiring large audio downloads.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
   </div>
 
   <!-- Raw Story Data for Client-Side Swapping -->
@@ -603,6 +827,92 @@ function findMatchingStorySlug(itemTitle: string, stories: any[]) {
     const vocabListElem = document.getElementById('active-vocab-list');
     const quizContainer = document.getElementById('active-quiz-container');
 
+    // Toolbar controls
+    const fontDecBtn = document.getElementById('font-size-dec');
+    const fontResetBtn = document.getElementById('font-size-reset');
+    const fontIncBtn = document.getElementById('font-size-inc');
+    const focusToggle = document.getElementById('reader-focus-toggle');
+    const focusLabel = document.getElementById('focus-toggle-label');
+    const shareBtn = document.getElementById('reader-share-btn');
+    const shareLabel = document.getElementById('share-btn-label');
+
+    // Font Sizing Logic
+    const fontSizes = ['0.95rem', '1.125rem', '1.25rem', '1.45rem', '1.65rem'];
+    let fontIdx = parseInt(localStorage.getItem('reader_font_idx') || '1', 10);
+    if (isNaN(fontIdx) || fontIdx < 0 || fontIdx >= fontSizes.length) fontIdx = 1;
+
+    function applyFontSize() {
+      if (bodyElem) {
+        bodyElem.style.fontSize = fontSizes[fontIdx];
+      }
+    }
+    applyFontSize();
+
+    if (fontDecBtn) {
+      fontDecBtn.addEventListener('click', function() {
+        if (fontIdx > 0) {
+          fontIdx--;
+          applyFontSize();
+          localStorage.setItem('reader_font_idx', fontIdx.toString());
+        }
+      });
+    }
+
+    if (fontResetBtn) {
+      fontResetBtn.addEventListener('click', function() {
+        fontIdx = 1;
+        applyFontSize();
+        localStorage.setItem('reader_font_idx', fontIdx.toString());
+      });
+    }
+
+    if (fontIncBtn) {
+      fontIncBtn.addEventListener('click', function() {
+        if (fontIdx < fontSizes.length - 1) {
+          fontIdx++;
+          applyFontSize();
+          localStorage.setItem('reader_font_idx', fontIdx.toString());
+        }
+      });
+    }
+
+    // Focus Mode Toggle
+    let isFocusMode = false;
+    if (focusToggle && readerPane) {
+      focusToggle.addEventListener('click', function() {
+        isFocusMode = !isFocusMode;
+        if (isFocusMode) {
+          readerPane.classList.add('ring-4', 'ring-amber-400', 'shadow-2xl', 'p-8', 'sm:p-12');
+          if (focusLabel) focusLabel.textContent = 'Exit Focus';
+          readerPane.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else {
+          readerPane.classList.remove('ring-4', 'ring-amber-400', 'shadow-2xl', 'p-8', 'sm:p-12');
+          if (focusLabel) focusLabel.textContent = 'Focus Mode';
+        }
+      });
+    }
+
+    // Share Story Button
+    if (shareBtn) {
+      shareBtn.addEventListener('click', async function() {
+        const shareUrl = window.location.href;
+        if (navigator.clipboard) {
+          try {
+            await navigator.clipboard.writeText(shareUrl);
+            if (shareLabel) {
+              const originalText = shareLabel.textContent;
+              shareLabel.textContent = '✓ Link Copied!';
+              setTimeout(() => { shareLabel.textContent = originalText; }, 2500);
+            }
+          } catch (err) {
+            prompt('Copy story link:', shareUrl);
+          }
+        } else {
+          prompt('Copy story link:', shareUrl);
+        }
+      });
+    }
+
     // Audio controls
     const playPauseBtn = document.getElementById('reader-play-pause-btn');
     const stopBtn = document.getElementById('reader-stop-btn');
@@ -640,6 +950,7 @@ function findMatchingStorySlug(itemTitle: string, stories: any[]) {
       if (bodyElem) {
         const paragraphs = (s.full_text || '').split('\n\n');
         bodyElem.innerHTML = paragraphs.map(p => '<p>' + p + '</p>').join('');
+        applyFontSize();
       }
 
       // Update Discussion Questions (Bloom's Taxonomy)

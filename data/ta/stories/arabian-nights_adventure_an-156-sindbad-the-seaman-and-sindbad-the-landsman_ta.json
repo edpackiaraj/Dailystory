@@ -1,0 +1,129 @@
+{
+  "id": "arabian-nights-156-sindbad-the-seaman-and-sindbad-the-landsman",
+  "slug": "an-156-sindbad-the-seaman-and-sindbad-the-landsman-ta",
+  "language": "ta",
+  "title": "Sindbad the Seaman and Sindbad the Landsman (தமிழ்)",
+  "genre": "Adventure Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the glorious city of Baghdad, in the days of Harun al-Rashid, lived an impoverished porter named Hindbad, who carried heavy crates thr... [TA]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "sindbad the seaman and sindbad the landsman",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the glorious city of Baghdad, in the days of Harun al-Rashid, lived an impoverished porter named Hindbad, who carried heavy crates through the sweltering streets to earn a few coppers for his hungry family.\n\nOne suffocating afternoon, exhausted and drenched with sweat, Hindbad set down his load before the bronze gates of a magnificent palace. Cool rosewater breezes drifted from the gardens, accompanied by the melodious plucking of lutes and the savory aroma of roasting meats.\n\nHindbad sat upon his crate and sighed bitterly: 'How unequal is destiny! Here am I, laboring from dawn to dusk in the burning sun, while the master of this palace lives in paradise, never knowing toil or hunger!'\n\nSuddenly, the portal opened, and a servant summoned Hindbad inside.\n\nThe poor porter was ushered into a hall of imperial splendor, paved with marble and lined with silk tapestries. At the head of a banquet table sat a venerable, white-bearded nobleman with eyes full of gentle wisdom. It was Sindbad the Sailor!\n\nSindbad seated the porter beside him, heaped his plate with roasted meats and almond pastries, and said with tender compassion: 'I overheard your lamentation at my gate, brother. You think that this palace and these treasures fell into my lap without labor. Know, O Hindbad, that every dinar in my coffer was purchased through trials so terrible that my hair turned white in youth! Listen to the history of my seven voyages across the stormy seas, that you may understand that true fortune is forged in the furnace of adversity.'\n\nHindbad listened with awe, and thus began the famous chronicle of the seven voyages.",
+  "moral": "Do not envy the wealth of another, for great abundance is often purchased through trials of fire and tears. [TA]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Sindbad the Seaman and Sindbad the Landsman illustration from the 1001 Arabian Nights collection.",
+  "word_count": 271,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Sindbad the Seaman and Sindbad the Landsman\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Wisdom, patience, and kind speech triumph over anger and hasty judgment.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience",
+    "courage"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Sindbad the Seaman and Sindbad the Landsman\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 156,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

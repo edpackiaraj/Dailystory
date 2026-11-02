@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-282-tale-of-the-man-of-khorasan-his-son-and-his-tutor",
+  "slug": "an-282-tale-of-the-man-of-khorasan-his-son-and-his-tutor-ta",
+  "language": "ta",
+  "title": "Tale of the Man of Khorasan His Son and His Tutor (தமிழ்)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "An affluent merchant of Khorasan entrusted his only son, Farhad, to an eminent tutor, saying: 'Instruct my son in all the sciences of the... [TA]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of the man of khorasan his son and his tutor",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "An affluent merchant of Khorasan entrusted his only son, Farhad, to an eminent tutor, saying: 'Instruct my son in all the sciences of the world, and spare no expense.'\n\nFor seven years, the tutor instructed the youth in astronomy, Greek logic, mathematics, and classical rhetoric. At the end of that time, the tutor brought the young man back to his father, boasting: 'Behold, your son is a master of all knowledge! He can debate philosophers and calculate the orbits of the stars.'\n\nThe father smiled, placed a simple brass ring in his closed fist, and said to his son: 'You who understand the stars, tell me what is hidden within my hand.'\n\nThe son closed his eyes, calculated the astrological alignments, and declared: 'Father, it is round, it has a hole in the center, and it is made of metal.'\n\nThe father marveled: 'Flawless! And what is the object?'\n\nThe youth thought for a moment and said: 'It must be a stone water-mill for grinding wheat!'\n\nThe father looked at his small closed fist, and then at the pedantic tutor with a sorrowful smile: 'Your logic can deduce that it is round and made of metal, yet your common sense fails to see that a water-mill cannot fit inside a human hand!\n\nYou have filled my son’s head with abstract formulas, but you have left him devoid of practical sense, observation, and humble reality.'\n\nThe father took his son to the agricultural fields, apprenticing him to honest builders and farmers, having learned that true education begins where abstract vanity ends.",
+  "moral": "True education trains the heart in empathy and honor, not merely the head in theoretical vanity. [TA]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the Man of Khorasan His Son and His Tutor illustration from the 1001 Arabian Nights collection.",
+  "word_count": 260,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of the Man of Khorasan His Son and His Tutor\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of the Man of Khorasan His Son and His Tutor\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 282,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

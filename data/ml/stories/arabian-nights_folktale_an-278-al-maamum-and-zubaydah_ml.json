@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-278-al-maamum-and-zubaydah",
+  "slug": "an-278-al-maamum-and-zubaydah-ml",
+  "language": "ml",
+  "title": "Al-Maamum and Zubaydah (മലയാളം)",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Following the civil war in Baghdad that brought Caliph Al-Ma'mun to the throne, a lingering shadow of sorrow lay between the young monarc... [ML]",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "al-maamum and zubaydah",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Following the civil war in Baghdad that brought Caliph Al-Ma'mun to the throne, a lingering shadow of sorrow lay between the young monarch and his stepmother, Queen Zubaydah. The palace was quiet, and courtiers feared that political grudges would sever the royal family forever.\n\nCaliph Al-Ma'mun, who possessed a profound intellect and revered wisdom above martial triumph, visited Queen Zubaydah in her private garden pavilion.\n\nInstead of approaching with imperial haughtiness, the Caliph knelt before her, kissed her hands, and said: 'Mother, the storms of politics have passed, but the sacred bond of family remains. Forgive whatever sorrow the turns of destiny have brought upon your heart.'\n\nQueen Zubaydah looked upon the young ruler with tears in her eyes. Perceiving the absolute sincerity of his humility, her heart melted.\n\nShe engaged him in an intellectual dialogue on the governance of the Abbasid empire, discussing the translation of Greek and Persian sciences, the construction of universities, and the expansion of the public aqueducts she had established in Mecca.\n\nAl-Ma'mun listened with deep reverence, adopting her counsels and granting her complete authority over the imperial charitable endowments.\n\nTheir reconciliation brought radiant peace to Baghdad, demonstrating that when intellect and family love unite, the deepest political wounds are transformed into fountains of enduring progress.",
+  "moral": "Intellectual discourse, mutual forgiveness, and family harmony heal the bitterest political rifts. [ML]",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Al-Maamum and Zubaydah illustration from the 1001 Arabian Nights collection.",
+  "word_count": 211,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Al-Maamum and Zubaydah\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Al-Maamum and Zubaydah\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 278,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

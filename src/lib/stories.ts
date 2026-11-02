@@ -50,13 +50,33 @@ export interface Story {
 }
 
 const storiesCache: Record<string, Story[]> = {};
+const collectionCache: Record<string, Record<string, Story[]>> = {};
 
 export function getStoriesByLang(lang: string): Story[] {
   if (storiesCache[lang]) {
     return storiesCache[lang];
   }
 
-  const filePath = path.resolve(process.cwd(), 'data', lang, 'stories.json');
+  const collectionsDir = path.resolve(process.cwd(), 'data', lang, 'collections');
+  if (fs.existsSync(collectionsDir)) {
+    try {
+      const files = fs.readdirSync(collectionsDir).filter(f => f.endsWith('.json'));
+      const all: Story[] = [];
+      for (const file of files) {
+        const filePath = path.join(collectionsDir, file);
+        const stories: Story[] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        all.push(...stories);
+      }
+      storiesCache[lang] = all;
+      return all;
+    } catch (e) {
+      console.error(`Error loading collections for language ${lang}:`, e);
+    }
+  }
+
+  const langFilePath = path.resolve(process.cwd(), 'data', lang, `stories-${lang}.json`);
+  const legacyFilePath = path.resolve(process.cwd(), 'data', lang, 'stories.json');
+  const filePath = fs.existsSync(langFilePath) ? langFilePath : legacyFilePath;
   if (!fs.existsSync(filePath)) {
     return [];
   }
@@ -70,6 +90,30 @@ export function getStoriesByLang(lang: string): Story[] {
     console.error(`Error loading stories for language ${lang}:`, e);
     return [];
   }
+}
+
+export function getStoriesByCollection(lang: string, collection: string): Story[] {
+  const colSlug = getCollectionSlug(collection);
+  if (collectionCache[lang]?.[colSlug]) {
+    return collectionCache[lang][colSlug];
+  }
+
+  const newColPath = path.resolve(process.cwd(), 'data', lang, 'collections', `${lang}_${colSlug}.json`);
+  const legacyColPath = path.resolve(process.cwd(), 'data', lang, 'collections', `${colSlug}.json`);
+  const colPath = fs.existsSync(newColPath) ? newColPath : legacyColPath;
+  if (fs.existsSync(colPath)) {
+    try {
+      const stories: Story[] = JSON.parse(fs.readFileSync(colPath, 'utf8'));
+      if (!collectionCache[lang]) collectionCache[lang] = {};
+      collectionCache[lang][colSlug] = stories;
+      return stories;
+    } catch (e) {
+      console.error(`Error loading collection ${colSlug} for language ${lang}:`, e);
+    }
+  }
+
+  // Fallback to filtering all stories
+  return getStoriesByLang(lang).filter(s => getCollectionSlug(s.collection) === colSlug);
 }
 
 export function getAllReviewedStories(lang: string): Story[] {
@@ -139,6 +183,6 @@ export function getCollectionSlug(collection: string): string {
 
 export function getStoryUrl(story: { collection: string; slug: string }, lang: string): string {
   const colSlug = getCollectionSlug(story.collection);
-  return `/${lang}/collections/${colSlug}/#${story.slug}`;
+  return `/${lang}/collections/${lang}-collection-${colSlug}/#${story.slug}`;
 }
 

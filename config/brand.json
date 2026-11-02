@@ -28,52 +28,62 @@
     "en": {
       "title": "Dhinam Oru Kathai: Moral & Bedtime Stories Worldwide",
       "metaDescription": "Discover moral stories, humorous tales, folktales, fairy tales, fables and bedtime stories from around the world, in 10 languages. A new story every day.",
-      "tagline": "A new story every day for curious minds and gentle bedtimes."
+      "tagline": "A new story every day for curious minds and gentle bedtimes.",
+      "keywords": "moral stories, bedtime stories, fairy tales, folktales, fables, panchatantra, aesop fables, akbar birbal, tenali rama, arabian nights, jataka tales, children stories"
     },
     "ta": {
       "title": "தினம் ஒரு கதை: உலகளாவிய நீதிக்கதைகள் & சிறுவர் கதைகள்",
       "metaDescription": "தெனாலிராமன் கதைகள், பஞ்சதந்திரம், நீதிக்கதைகள் மற்றும் உலகம் முழுவதிலுமிருந்து அற்புதமான உறங்குவேளைக் கதைகள். தினமும் ஒரு புதிய கதை.",
-      "tagline": "தினமும் ஒரு நற்கதை, அறிவுத் தேடலுக்கும் இனிய இரவுக்கும்."
+      "tagline": "தினமும் ஒரு நற்கதை, அறிவுத் தேடலுக்கும் இனிய இரவுக்கும்.",
+      "keywords": "தினம் ஒரு கதை, நீதிக்கதைகள், சிறுவர் கதைகள், பஞ்சதந்திரக் கதைகள், தெனாலிராமன் கதைகள், ஈசாப் கதைகள், உறங்குவேளைக் கதைகள்"
     },
     "hi": {
       "title": "दिनम ओरु कथै: नैतिक कहानियां और बच्चों की प्रेरणादायक कथाएं",
       "metaDescription": "पंचतंत्र, अकबर-बीरबल, लोककथाएं और दुनिया भर की मनोरंजक नैतिक व बाल कहानियां। हर दिन एक नई प्रेरणादायक कहानी।",
-      "tagline": "हर दिन एक नई ज्ञानवर्धक और मनोरंजक कहानी।"
+      "tagline": "हर दिन एक नई ज्ञानवर्धक और मनोरंजक कहानी।",
+      "keywords": "दिनम ओरु कथै, नैतिक कहानियां, बच्चों की कहानियां, पंचतंत्र की कहानियां, अकबर बीरबल, हितोपदेश, प्रेरक प्रसंग, जातक कथाएं"
     },
     "es": {
       "title": "Dhinam Oru Kathai: Cuentos para Dormir e Infantiles con Moraleja",
       "metaDescription": "Descubre fábulas, cuentos de hadas, relatos populares y cuentos para dormir de todo el mundo en 10 idiomas. Una historia nueva cada día.",
-      "tagline": "Un nuevo cuento cada día para mentes curiosas y dulces sueños."
+      "tagline": "Un nuevo cuento cada día para mentes curiosas y dulces sueños.",
+      "keywords": "cuentos infantiles, cuentos con moraleja, fabulas para ninos, cuentos para dormir, historias tradicionales, relatos populares"
     },
     "zh": {
       "title": "每日一故事: 世界经典寓言故事、童话故事与睡前故事",
       "metaDescription": "汇集世界各地的寓言故事、民间故事、童话及睡前故事。中英双语、富有教益，陪伴孩子每日快乐成长与安睡。",
-      "tagline": "每天一个好故事，启迪智慧，伴随美梦。"
+      "tagline": "每天一个好故事，启迪智慧，伴随美梦。",
+      "keywords": "儿童故事, 睡前故事, 寓言故事, 民间故事, 道德故事, 伊索寓言, 一千零一夜, 双语故事, 益智故事"
     },
     "pt": {
       "title": "Dhinam Oru Kathai: Histórias para Dormir e Contos com Moral",
       "metaDescription": "Explore fábulas, contos infantis, lendas populares e histórias para dormir do mundo todo. Uma nova história mágica a cada dia.",
-      "tagline": "Uma história por dia com lições de vida e imaginação."
+      "tagline": "Uma história por dia com lições de vida e imaginação.",
+      "keywords": "contos infantis, historias com moral, fabulas para criancas, historias para dormir, contos populares, lendas"
     },
     "ml": {
       "title": "ദിനം ഒരു കഥ: കുട്ടിക്കഥകൾ, ഈസോപ്പ് കഥകൾ & നീതികഥകൾ",
       "metaDescription": "പഞ്ചതന്ത്രം, ഗുണപാഠകഥകൾ, നാടോടിക്കഥകൾ എന്നിവ ലോകമെമ്പാടുമുള്ള ശേഖരത്തിൽ നിന്ന്. എല്ലാ ദിവസവും ഒരു നല്ല കഥ വായിക്കൂ.",
-      "tagline": "കുട്ടികൾക്കായി ഓരോ ദിവസവും പുതിയൊരു നല്ല കഥ."
+      "tagline": "കുട്ടികൾക്കായി ഓരോ ദിവസവും പുതിയൊരു നല്ല കഥ.",
+      "keywords": "ദിനം ഒരു കഥ, കുട്ടിക്കഥകൾ, ഈസോപ്പ് കഥകൾ, നീതികഥകൾ, പഞ്ചതന്ത്രം, ഗുണപാഠകഥകൾ, നാടോടിക്കഥകൾ"
     },
     "te": {
       "title": "దినం ఒరు కథై: నీతి కథలు, పిల్లల కథలు & పంచతంత్ర కథలు",
       "metaDescription": "తెనాలి రామకృష్ణ కథలు, నీతి కథలు మరియు ప్రపంచవ్యాప్త జానపద కథల సమాహారం. రోజూ ఒక సరికొత్త ఉత్తమ కథ.",
-      "tagline": "ప్రతి రోజూ ఒక మంచి కథ, ఆలోచింపజేసే నీతి."
+      "tagline": "ప్రతి రోజూ ఒక మంచి కథ, ఆలోచింపజేసే నీతి.",
+      "keywords": "దినం ఒరు కథై, నీతి కథలు, పిల్లల కథలు, పంచతంత్ర కథలు, తెనాలి రామకృష్ణ కథలు, జానపద కథలు, నిద్రపోయే కథలు"
     },
     "kn": {
       "title": "ದಿನಂ ಒರು ಕಥೈ: ನೀತಿ ಕಥೆಗಳು, ಮಕ್ಕಳ ಕಥೆಗಳು & ಜಾನಪದ ಕಥೆಗಳು",
       "metaDescription": "ಪಂಚತಂತ್ರ, ಅಕ್ಬರ್ ಬೀರ್ಬಲ್ ಹಾಗೂ ಜಗತ್ತಿನ ಸುಂದರ ನೀತಿ ಕಥೆಗಳು ಮತ್ತು ಮಲಗುವ ಸಮಯದ ಕಥೆಗಳು. ಪ್ರತಿದಿನ ಒಂದು ಹೊಸ ಕಥೆ.",
-      "tagline": "ಪ್ರತಿದಿನ ಹೊಸ ಕಥೆ, ಜೀವನಕ್ಕೆ ಬೇಕಾದ ಉತ್ತಮ ಮೌಲ್ಯಗಳು."
+      "tagline": "ಪ್ರತಿದಿನ ಹೊಸ ಕಥೆ, ಜೀವನಕ್ಕೆ ಬೇಕಾದ ಉತ್ತಮ ಮೌಲ್ಯಗಳು.",
+      "keywords": "ದಿನಂ ಒರು ಕಥೈ, ನೀತಿ ಕಥೆಗಳು, ಮಕ್ಕಳ ಕಥೆಗಳು, ಜಾನಪದ ಕಥೆಗಳು, ಪಂಚತಂತ್ರ, ಅಕ್ಬರ್ ಬೀರ್ಬಲ್, ಈಸೋಪನ ನೀತಿ ಕಥೆಗಳು"
     },
     "mr": {
       "title": "दिनम ओरु कथै: बोधकथा, लहान मुलांच्या गोष्टी व इसापनीती",
       "metaDescription": "अकबर-बिरबल, पंचतंत्र आणि जगभरातील सुंदर संस्कारक्षम बोधकथा व झोपताना ऐकायच्या गोष्टी. दररोज एक नवीन गोष्ट.",
-      "tagline": "रोज एक नवीन बोधप्रद कथा, संस्कार आणि कल्पकतेचा खजिना."
+      "tagline": "रोज एक नवीन बोधप्रद कथा, संस्कार आणि कल्पकतेचा खजिना.",
+      "keywords": "दिनम ओरु कथै, बोधकथा, लहान मुलांच्या गोष्टी, इसापनीती, अकबर-बिरबल, पंचतंत्र, संस्कारक्षम गोष्टी"
     }
   },
   "contact": {
