@@ -35,23 +35,65 @@
     },
     "contact": {
       "title": "Contact Us & Grievance Cell",
-      "h1": "Get in Touch with Our Editorial Team",
-      "metaDescription": "Contact Daily Tale for editorial feedback, classroom partnerships, content reports, or our Statutory Grievance Cell.",
-      "responseCommitment": "We respond to all community inquiries within 48 business hours. Content reports are reviewed by a human moderator within 24 hours.",
+      "h1": "Get in Touch with Dr. S. Edward Packiaraj & Daily Tale Team",
+      "metaDescription": "Connect with Dr. S. Edward Packiaraj and the Daily Tale editorial team. Inquiries for educational collaboration, school partnerships, sister projects EnglishPesalaam and NCERT Quiz Hub, and statutory grievance.",
+      "summary": "We welcome inquiries from educators, parents, storytellers, researchers, and language learners worldwide. Daily Tale is an independent educational initiative led by Dr. S. Edward Packiaraj, Consultant in Educational Media Technologies.",
+      "founder": {
+        "name": "Dr. S. Edward Packiaraj",
+        "role": "Founder & Educational Director | Consultant in Educational Media Technologies",
+        "bio": "Over 20 years in educational media technologies, scriptwriting, audio production, instructional design, and ICT teacher training. Former broadcaster with All India Radio (AIR) and IGNOU GyanVani FM. Passionate advocate of Open Educational Resources (OER), bridging digital divides through distraction-free, 100% free learning environments.",
+        "email": "edpackiaraj@gmail.com",
+        "phone": "+91 9786424927",
+        "location": "Tamil Nadu, India"
+      },
+      "sisterProjects": [
+        {
+          "name": "EnglishPesalaam",
+          "url": "https://englishpesalaam.blogspot.com/",
+          "tagline": "Spoken English & Real-World Conversation Lab",
+          "description": "A comprehensive, free spoken English portal designed for second-language learners. Features 180+ real-life conversation scenarios, multi-accent listening comprehension, 2,100+ diagnostic quizzes, and 24/7 AI conversational practice."
+        },
+        {
+          "name": "NCERT Quiz Hub",
+          "url": "https://ncertquizhub.blogspot.com/",
+          "tagline": "NCERT-Mapped MCQ Assessment Engine",
+          "description": "Interactive multiple-choice practice engine for CBSE Classes 11 & 12, CUET, and UPSC foundation learners across Economics, History, Political Science, and Sociology. Offers Learning Mode with instant rationales and timed Test Simulation Mode."
+        }
+      ],
+      "responseCommitment": "We respond to all community inquiries within 24 to 48 hours. Urgent content reports are reviewed by a human moderator within 24 hours.",
       "topics": [
-        "General Question or Feedback",
-        "Teacher / School Partnership",
-        "Report Content or Safety Concern",
-        "Report Translation or Typo Issue",
-        "Press & Educational Research"
+        "Educational & School Collaboration",
+        "Teacher & Classroom Resources",
+        "Story retellings & Submissions",
+        "Translation Refinement & Typo Reports",
+        "Sister Projects (EnglishPesalaam / NCERT Quiz Hub)",
+        "Statutory Grievance & Content Safety"
       ],
       "grievanceDetails": {
         "title": "Statutory Grievance Officer",
-        "content": "In compliance with digital media and data protection guidelines, our designated Grievance Officer handles user content inquiries, copyright notices, and safety escalations.",
-        "officer": "Editorial Grievance Cell (Daily Tale)",
-        "email": "grievance@dailystory.pages.dev",
-        "address": "Daily Tale Digital Publications, Global Operations"
-      }
+        "content": "In compliance with digital media guidelines and student safety standards, our Grievance Officer handles user inquiries, copyright questions, and content safety escalations.",
+        "officer": "Dr. S. Edward Packiaraj (Grievance Officer)",
+        "email": "edpackiaraj@gmail.com",
+        "address": "Daily Tale Digital Publications, Tamil Nadu, India"
+      },
+      "sections": [
+        {
+          "heading": "Our Open-Door Philosophy",
+          "content": "Whether you are a teacher looking for folk stories for your classroom curriculum, a researcher studying oral narrative traditions, or a parent with feedback on our reading tools, we welcome your thoughts. Daily Tale was built to serve families and educators globally."
+        },
+        {
+          "heading": "Direct Channels of Communication",
+          "content": "You can reach founder Dr. S. Edward Packiaraj directly via email at edpackiaraj@gmail.com or via WhatsApp / Phone at +91 9786424927. Inquiries are addressed with care and promptness."
+        },
+        {
+          "heading": "The Educational Media Ecosystem",
+          "content": "Daily Tale is part of a broader educational mission alongside EnglishPesalaam (free spoken English and conversational practice) and NCERT Quiz Hub (CBSE 11 & 12 interactive MCQs for CUET and board prep). All three platforms adhere to the same OER commitment: 100% free, no paywalls, and zero tracking."
+        },
+        {
+          "heading": "Statutory Grievance & Content Review",
+          "content": "Any concerns regarding copyright, attribution, child safety, or cultural representation are reviewed directly by Dr. S. Edward Packiaraj. Inquiries are acknowledged within 24 hours."
+        }
+      ]
     },
     "disclaimer": {
       "title": "Disclaimer",
