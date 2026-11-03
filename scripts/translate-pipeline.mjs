@@ -14,7 +14,7 @@ if (!fs.existsSync(enStoriesPath)) {
 }
 
 const enStories = JSON.parse(fs.readFileSync(enStoriesPath, 'utf8'));
-console.log(`=== Dhinam Oru Kathai: Multilingual Translation Pipeline ===`);
+console.log(`=== Daily Tale: Multilingual Translation Pipeline ===`);
 console.log(`Base English Stories: ${enStories.length}`);
 
 // Multilingual Localization Dictionaries for Metadata & Structural Phrases

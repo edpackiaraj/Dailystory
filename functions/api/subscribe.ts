@@ -38,7 +38,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
 
     // If Resend API Key is configured, send the double opt-in verification link
     if (env.RESEND_API_KEY) {
-      const siteUrl = env.SITE_URL || 'https://dhinamorukathai.pages.dev';
+      const siteUrl = env.SITE_URL || 'https://dailystory.pages.dev';
       const verifyUrl = `${siteUrl}/api/subscribe?token=${token}&email=${encodeURIComponent(email)}`;
 
       await fetch('https://api.resend.com/emails', {
@@ -48,11 +48,11 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          from: 'Dhinam Oru Kathai <stories@dhinamorukathai.com>',
+          from: 'Daily Tale <stories@dailystory.pages.dev>',
           to: [email],
           subject: 'Confirm your Daily Story Subscription 🦉',
           html: `
-            <h2>Welcome to Dhinam Oru Kathai!</h2>
+            <h2>Welcome to Daily Tale!</h2>
             <p>Please confirm your email address to receive your gentle morning story every day:</p>
             <p><a href="${verifyUrl}" style="background:#f59e0b;color:#fff;padding:12px 20px;border-radius:20px;text-decoration:none;font-weight:bold;">Confirm Subscription</a></p>
             <p>If you did not request this, you can safely ignore this email.</p>

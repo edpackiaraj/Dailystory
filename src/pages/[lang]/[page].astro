@@ -39,6 +39,16 @@ export function getStaticPaths() {
             lastUpdated: legalData.lastUpdated
           }
         });
+      } else if (key === 'about') {
+        paths.push({
+          params: { lang: lang.code, page: key },
+          props: {
+            view: 'about',
+            pageKey: key,
+            pageData: (legalData.pages as Record<string, any>)[key],
+            lastUpdated: legalData.lastUpdated
+          }
+        });
       } else {
         paths.push({
           params: { lang: lang.code, page: key },
@@ -67,6 +77,16 @@ export function getStaticPaths() {
           params: { lang: lang.code, page: `${lang.code}-${key}` },
           props: {
             view: 'contact',
+            pageKey: key,
+            pageData: (legalData.pages as Record<string, any>)[key],
+            lastUpdated: legalData.lastUpdated
+          }
+        });
+      } else if (key === 'about') {
+        paths.push({
+          params: { lang: lang.code, page: `${lang.code}-${key}` },
+          props: {
+            view: 'about',
             pageKey: key,
             pageData: (legalData.pages as Record<string, any>)[key],
             lastUpdated: legalData.lastUpdated
@@ -156,6 +176,9 @@ if (view === 'search') {
 } else if (view === 'contact') {
   pageTitle = `Contact Dr. S. Edward Packiaraj — ${brandConfig.name}`;
   pageDesc = "Get in touch with Dr. S. Edward Packiaraj and the Daily Tale team for educational partnerships, classroom materials, sister projects (EnglishPesalaam & NCERT Quiz Hub), or content feedback.";
+} else if (view === 'about') {
+  pageTitle = `About Daily Tale — ${brandConfig.tagline}`;
+  pageDesc = "Learn about Daily Tale, our global multilingual folktale treasury in 10 languages, educational mission, and founder Dr. S. Edward Packiaraj.";
 } else if (view === 'legal' && pageData) {
   pageTitle = `${pageData.title} — ${brandConfig.name}`;
   pageDesc = pageData.summary || `${pageData.title} for ${brandConfig.name}`;
@@ -899,6 +922,227 @@ if (view === 'search') {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    )}
+
+    <!-- VIEW: DEDICATED ABOUT PAGE -->
+    {view === 'about' && (
+      <div class="max-w-5xl mx-auto space-y-12">
+        <!-- Hero Header -->
+        <header class="text-center space-y-4 max-w-3xl mx-auto">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#D97706]/10 text-[#D97706] text-xs font-black tracking-wide uppercase">
+            <span>🦉</span> World Wisdom &amp; Folklore Sanctuary
+          </div>
+          <h1 class="text-3xl sm:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-tight">
+            About Daily Tale
+          </h1>
+          <p class="text-base sm:text-lg font-bold text-[#D97706]">
+            Daily Tale – Moral Stories &amp; Interesting Folktales
+          </p>
+          <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            Daily Tale is a multilingual digital storytelling sanctuary dedicated to nourishing character, imagination, and empathy through timeless folktales, fables, and heritage wisdom from world cultures.
+          </p>
+        </header>
+
+        <!-- Grouped Feature Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Feature 1: Multilingual Story Treasury -->
+          <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
+            <div class="w-12 h-12 rounded-2xl bg-[#D97706]/15 flex items-center justify-center text-2xl text-[#D97706]">
+              📚
+            </div>
+            <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Multilingual Folklore Treasury</h2>
+            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              We bring together over 2,448 curated stories across 10 languages: English, Tamil, Hindi, Spanish, Chinese, Portuguese, Malayalam, Telugu, Kannada, and Marathi. Our collections span Akbar–Birbal, Tenali Rama, Panchatantra, Aesop's Fables, Jataka Tales, Hans Christian Andersen, Brothers Grimm, Arabian Nights, and cultural folklore from across Asia, Africa, Europe, and the Americas.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#0F766E] dark:text-[#2DD4BF]">
+              <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">2,448+ Stories</span>
+              <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">10 World Languages</span>
+              <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">13 Major Traditions</span>
+            </div>
+          </div>
+
+          <!-- Feature 2: Audio & Adaptive Reading Toolbar -->
+          <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
+            <div class="w-12 h-12 rounded-2xl bg-blue-500/15 flex items-center justify-center text-2xl text-blue-600">
+              🎧
+            </div>
+            <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Audio &amp; Adaptive Reading Toolbar</h2>
+            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              Our platform offers browser-native read-aloud audio narration powered by text-to-speech, complete with adjustable playback speed (0.8x to 1.5x) and sentence-by-sentence reading assistance. To ensure maximum accessibility for neurodivergent and young readers, our reading toolbar features specialized typography controls including the OpenDyslexic typeface, custom font sizing, fluid line-height adjustment, and night/sepia reading themes.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-blue-700 dark:text-blue-400">
+              <span class="px-2.5 py-1 rounded-lg bg-blue-500/10">Browser-Native TTS</span>
+              <span class="px-2.5 py-1 rounded-lg bg-blue-500/10">OpenDyslexic Font</span>
+              <span class="px-2.5 py-1 rounded-lg bg-blue-500/10">0.8x–1.5x Speed</span>
+            </div>
+          </div>
+
+          <!-- Feature 3: Structured Pedagogical Depth -->
+          <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
+            <div class="w-12 h-12 rounded-2xl bg-purple-500/15 flex items-center justify-center text-2xl text-purple-600">
+              🎓
+            </div>
+            <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Structured Pedagogical Depth</h2>
+            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              To support parents, educators, and language learners, every story is enriched with structured pedagogical resources: Bloom's Taxonomy discussion questions (spanning Remember, Understand, Apply, Analyze, Evaluate, and Create levels), curated in-text vocabulary glossaries with exact definitions, and interactive comprehension quizzes that cultivate critical thinking and family dialogue.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-purple-700 dark:text-purple-400">
+              <span class="px-2.5 py-1 rounded-lg bg-purple-500/10">Bloom's Taxonomy</span>
+              <span class="px-2.5 py-1 rounded-lg bg-purple-500/10">In-Text Glossaries</span>
+              <span class="px-2.5 py-1 rounded-lg bg-purple-500/10">Comprehension Quizzes</span>
+            </div>
+          </div>
+
+          <!-- Feature 4: Classroom & Community-Ready Resources -->
+          <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
+            <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 flex items-center justify-center text-2xl text-emerald-600">
+              🏫
+            </div>
+            <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Classroom &amp; Community Resources</h2>
+            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              Daily Tale provides ready-to-share educational tools, including exportable 'Moral of the Day' cards, reading milestone certificates, printable story summaries, and seamless one-click sharing via WhatsApp, Telegram, and email for home, community, and classroom reflection.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-emerald-700 dark:text-emerald-400">
+              <span class="px-2.5 py-1 rounded-lg bg-emerald-500/10">Exportable Cards</span>
+              <span class="px-2.5 py-1 rounded-lg bg-emerald-500/10">Printable Summaries</span>
+              <span class="px-2.5 py-1 rounded-lg bg-emerald-500/10">One-Click Sharing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Privacy & PWA Commitment Banner -->
+        <div class="p-6 sm:p-8 rounded-3xl bg-linear-to-r from-[#FFF8EC] to-amber-500/10 dark:from-[#25243E] dark:to-[#1E1D36] border-2 border-[#EEDFC8] dark:border-[#383659] flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="space-y-2 text-center md:text-left">
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
+              <span>🔒</span> 100% Free, Safe &amp; Privacy-First
+            </div>
+            <h2 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+              Lightweight PWA &amp; Zero Tracking Commitment
+            </h2>
+            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] max-w-2xl leading-relaxed">
+              Built with ultra-lightweight Progressive Web App technology and browser-native audio capabilities, Daily Tale is engineered for instant offline reading and minimal server dependency. Our commitment to children, families, and classrooms is absolute: 100% free, 100% ad-free, zero tracking, and zero user registration.
+            </p>
+          </div>
+          <div class="shrink-0 flex items-center gap-3 text-xs font-bold text-[#D97706]">
+            <span class="px-3 py-2 rounded-xl bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Zero Ads</span>
+            <span class="px-3 py-2 rounded-xl bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Zero Logins</span>
+            <span class="px-3 py-2 rounded-xl bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Offline PWA</span>
+          </div>
+        </div>
+
+        <!-- Our Mission Card -->
+        <div class="p-8 sm:p-10 rounded-3xl bg-[#D97706]/10 dark:bg-[#D97706]/15 border-2 border-[#D97706]/40 text-center space-y-3">
+          <span class="text-3xl">⭐</span>
+          <h2 class="text-2xl sm:text-3xl font-black text-[#D97706] dark:text-[#F59E0B]">
+            Our Mission
+          </h2>
+          <p class="text-base sm:text-lg font-medium text-[#3B2A1A] dark:text-[#F3EBDD] max-w-3xl mx-auto leading-relaxed">
+            "To make timeless moral wisdom, character values, and world folklore freely accessible, understandable, and inspiring every day, supporting families, educators, and language learners in growing together in empathy and global literacy."
+          </p>
+        </div>
+
+        <!-- Founder & Educational Leadership Profile (Consolidated with EnglishPesalaam) -->
+        <div class="relative overflow-hidden rounded-3xl bg-linear-to-br from-[#FFF8EC] via-white to-[#FDF4E7] dark:from-[#25243E] dark:via-[#1E1D36] dark:to-[#17162B] border-2 border-[#EEDFC8] dark:border-[#383659] p-6 sm:p-10 shadow-lg space-y-6">
+          <div class="flex flex-col md:flex-row items-center md:items-start gap-6 sm:gap-8">
+            <div class="shrink-0 flex flex-col items-center text-center space-y-3">
+              <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-linear-to-br from-[#D97706] to-[#B45309] text-white flex items-center justify-center text-4xl sm:text-5xl shadow-md border-4 border-white dark:border-[#25243E]">
+                🎓
+              </div>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
+                OER Pioneer
+              </span>
+            </div>
+
+            <div class="space-y-4 text-center md:text-left flex-1">
+              <div>
+                <div class="text-xs font-bold text-[#D97706] tracking-wider uppercase">Founder &amp; Educational Direction</div>
+                <h2 class="text-2xl sm:text-3xl font-black text-[#3B2A1A] dark:text-[#F3EBDD] mt-0.5">
+                  Dr. S. Edward Packiaraj
+                </h2>
+                <p class="text-xs sm:text-sm font-semibold text-[#0F766E] dark:text-[#2DD4BF] mt-1">
+                  Consultant in Educational Media Technologies • ICT Trainer &amp; e-Content Specialist • Former Broadcaster (AIR &amp; IGNOU GyanVani)
+                </p>
+              </div>
+
+              <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+                With more than two decades of dedicated service in educational technology, scriptwriting, instructional audio drama, and digital curriculum design, Dr. Packiaraj has worked to bring quality educational resources to learners across diverse backgrounds. A former broadcaster with <strong>All India Radio (AIR)</strong> and <strong>IGNOU GyanVani FM</strong>, he champions <strong>Open Educational Resources (OER)</strong> — building high-impact, ad-free learning environments completely without paywalls, subscriptions, or data tracking.
+              </p>
+
+              <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 pt-1 text-xs">
+                <span class="px-3 py-1 rounded-xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">
+                  📍 Tamil Nadu, India
+                </span>
+                <span class="px-3 py-1 rounded-xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">
+                  📻 20+ Yrs Educational Media
+                </span>
+                <span class="px-3 py-1 rounded-xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">
+                  🌐 10-Language OER Ecosystem
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sister Projects Grid -->
+          <div class="pt-6 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
+            <h3 class="text-xs font-bold uppercase tracking-wider text-[#D97706] mb-4 text-center md:text-left">
+              Sister Open Educational Initiatives
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a
+                href="https://englishpesalaam.blogspot.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-blue-500 hover:shadow-md transition-all flex flex-col justify-between space-y-2 group"
+              >
+                <div>
+                  <div class="flex items-center justify-between text-xs font-bold text-blue-600 mb-1">
+                    <span>🗣️ EnglishPesalaam</span>
+                    <span class="group-hover:translate-x-1 transition-transform">↗</span>
+                  </div>
+                  <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+                    Free conversational English &amp; pronunciation lab featuring 180+ real-life scenarios, multi-accent listening, 2,100+ quizzes, and 24/7 AI practice.
+                  </p>
+                </div>
+              </a>
+
+              <a
+                href="https://ncertquizhub.blogspot.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-emerald-500 hover:shadow-md transition-all flex flex-col justify-between space-y-2 group"
+              >
+                <div>
+                  <div class="flex items-center justify-between text-xs font-bold text-emerald-600 mb-1">
+                    <span>📝 NCERT Quiz Hub</span>
+                    <span class="group-hover:translate-x-1 transition-transform">↗</span>
+                  </div>
+                  <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+                    Chapter-wise interactive MCQ assessment engine for CBSE Classes 11 &amp; 12, CUET, and UPSC foundation with Learning &amp; Test simulation modes.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick CTA: Explore Stories or Contact -->
+        <div class="text-center pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a
+            href={`/${currentLang}/collections/`}
+            class="px-8 py-4 rounded-full bg-[#D97706] hover:bg-[#B45309] text-white font-black text-sm shadow-md transition-all min-h-[48px] flex items-center gap-2"
+          >
+            <span>Explore 2,448+ Stories</span>
+            <span>→</span>
+          </a>
+          <a
+            href={`/${currentLang}/contact/`}
+            class="px-8 py-4 rounded-full border-2 border-[#D97706] text-[#D97706] hover:bg-[#D97706]/10 font-bold text-sm transition-all min-h-[48px] flex items-center gap-2"
+          >
+            <span>Get in Touch with Dr. Edward</span>
+            <span>💬</span>
+          </a>
         </div>
       </div>
     )}

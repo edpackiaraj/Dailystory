@@ -4,32 +4,36 @@
     "about": {
       "title": "About Daily Tale",
       "h1": "About Daily Tale",
-      "metaDescription": "Learn about Daily Tale, our global multilingual folktale library, educational mission, and founder S. Edward Packiaraj.",
-      "summary": "Daily Tale – Moral Stories & Interesting Folktales Worldwide is a multilingual educational storytelling platform dedicated to enriching character, imagination, and moral wisdom through timeless folktales, fables, and heritage stories from world cultures. Founded by S. Edward Packiaraj (Consultant in Educational Media Technologies and creator of EnglishPesalaam), Daily Tale bridges oral storytelling traditions with modern, distraction-free digital literacy.",
+      "metaDescription": "Learn about Daily Tale, our global multilingual folktale library, educational mission, and founder Dr. S. Edward Packiaraj.",
+      "summary": "Daily Tale – Moral Stories & Interesting Folktales is a multilingual digital storytelling sanctuary dedicated to nourishing character, imagination, and empathy through timeless folktales, fables, and heritage wisdom from world cultures.",
       "sections": [
         {
-          "heading": "Treasury of World Folklore & Fables",
-          "content": "We curate, preserve, and illuminate a vast library of over 2,500 stories across 10 world languages: English, Tamil, Hindi, Spanish, Chinese (Simplified), Portuguese, Malayalam, Telugu, Kannada, and Marathi. Our collections span timeless heritage traditions including Akbar–Birbal, Tenali Rama, Panchatantra, Aesop's Fables, Jataka Tales, Hans Christian Andersen, the Brothers Grimm, Arabian Nights, and cultural folklore from across Asia, Africa, Europe, and the Americas."
+          "heading": "Multilingual Folklore Treasury",
+          "content": "We bring together over 2,448 curated stories across 10 languages: English, Tamil, Hindi, Spanish, Chinese (Simplified), Portuguese, Malayalam, Telugu, Kannada, and Marathi. Our collections span Akbar–Birbal, Tenali Rama, Panchatantra, Aesop's Fables, Jataka Tales, Hans Christian Andersen, the Brothers Grimm, Arabian Nights, and cultural folklore from across Asia, Africa, Europe, and the Americas."
         },
         {
-          "heading": "Browser-Native Audio & Adaptive Reading",
-          "content": "Our platform provides browser-native read-aloud audio narration powered by text-to-speech, complete with adjustable playback speed (0.75x to 1.5x) and sentence-by-sentence reading assistance. To ensure maximum accessibility for neurodivergent and young readers, our reading toolbar features specialized typography controls including the OpenDyslexic typeface, custom font sizing, fluid line-height adjustment, and high-contrast night modes."
+          "heading": "Audio & Adaptive Reading Toolbar",
+          "content": "Our platform offers browser-native audio narration with text-to-speech, sentence-by-sentence reading assistance, and adjustable playback speed (0.8x to 1.5x), along with specialized typography controls including the OpenDyslexic typeface, custom font sizing, fluid line-height adjustment, and night/sepia reading themes."
         },
         {
-          "heading": "Educational Depth & Bloom's Taxonomy",
-          "content": "To support parents, educators, and language learners, every story is enriched with structured pedagogical resources: Bloom's Taxonomy discussion questions (spanning Remember, Understand, Apply, Analyze, Evaluate, and Create levels), curated vocabulary glossaries with pronunciation guides, and interactive comprehension quizzes that cultivate critical thinking and family dialogue."
+          "heading": "Structured Pedagogical Depth",
+          "content": "To support parents, educators, and language learners, every story includes structured Bloom's Taxonomy reflection prompts (spanning Remember, Understand, Apply, Analyze, Evaluate, and Create levels), curated in-text vocabulary glossaries with exact definitions, and interactive comprehension quizzes that cultivate critical thinking and family dialogue."
         },
         {
-          "heading": "Classroom, Family & Parish-Ready Resources",
-          "content": "Daily Tale provides ready-to-share educational tools, including exportable 'Moral of the Day' cards, reading milestone certificates, printable story summaries, and seamless one-click sharing via WhatsApp, Telegram, and email for home, community, and classroom reflection."
+          "heading": "Classroom & Community-Ready Resources",
+          "content": "We provide ready-to-share educational tools, including exportable 'Moral of the Day' cards, reading milestone certificates, printable story summaries, and seamless one-click sharing via WhatsApp, Telegram, and email for home, community, and classroom reflection."
         },
         {
-          "heading": "100% Safe, Ad-Free & Lightweight PWA",
-          "content": "Our commitment to children, families, and classrooms is absolute: Daily Tale is 100% ad-free, tracking-free, and requires zero user registration or personal data profiling. Built with ultra-lightweight Progressive Web App (PWA) technology, the platform is engineered for high performance, instant offline reading, and minimal server dependency."
+          "heading": "Lightweight PWA & 100% Privacy Commitment",
+          "content": "Built with lightweight Progressive Web App (PWA) technology and browser-native audio capabilities, Daily Tale is designed for accessibility, instant offline reading, and minimal server dependency. Our commitment is absolute: 100% free, 100% ad-free, zero tracking, and zero user registration."
         },
         {
-          "heading": "Our Mission & Educational Direction",
-          "content": "Our Mission: To make timeless moral wisdom and world folklore freely accessible, understandable, and inspiring every day, supporting families, educators, and language learners in nurturing character, empathy, and global literacy.\n\nFounder & Educational Direction: S. Edward Packiaraj, Consultant in Educational Media Technologies and founder of EnglishPesalaam."
+          "heading": "Our Mission",
+          "content": "To make timeless moral wisdom, character values, and world folklore freely accessible, understandable, and inspiring every day, supporting families, educators, and language learners in growing together in empathy and global literacy."
+        },
+        {
+          "heading": "Founder & Educational Direction",
+          "content": "Founded and directed by Dr. S. Edward Packiaraj, Consultant in Educational Media Technologies, ICT Trainer, e-Content Specialist, and creator of EnglishPesalaam and NCERT Quiz Hub. With more than two decades of service in educational technology and former broadcasting experience with All India Radio (AIR) and IGNOU GyanVani FM, Dr. Packiaraj champions Open Educational Resources (OER) to bridge digital and linguistic divides for learners worldwide."
         }
       ]
     },

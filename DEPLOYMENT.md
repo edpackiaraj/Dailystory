@@ -1,6 +1,6 @@
-# Dhinam Oru Kathai (தினமொரு கதை) - Production Deployment & Architecture Guide
+# Daily Tale – Production Deployment & Architecture Guide
 
-A global, multilingual moral and bedtime story library for children, families, and classrooms worldwide. Hosted on **Cloudflare Pages** with static pre-rendering, edge functions, zero-tracking privacy, and rich educational pedagogy.
+A global, multilingual moral and bedtime story library for children, families, and classrooms worldwide. Hosted on **Cloudflare Pages** (`dailystory.pages.dev`) with static pre-rendering, edge functions, zero-tracking privacy, and rich educational pedagogy.
 
 ---
 

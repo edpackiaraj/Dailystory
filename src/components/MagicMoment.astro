@@ -205,7 +205,7 @@ const { storyId, storyTitle, moral, teaser, collection, language, nextStorySlug 
       copyMoralBtn.addEventListener('click', () => {
         const moralText = document.querySelector('#moral-card-export blockquote')?.innerText;
         if (moralText) {
-          navigator.clipboard.writeText(`${moralText} - Read more on Dhinam Oru Kathai (${window.location.href})`);
+          navigator.clipboard.writeText(`${moralText} - Read more on Daily Tale (${window.location.href})`);
           copyMoralBtn.textContent = '✅ Copied!';
           setTimeout(() => { copyMoralBtn.textContent = '📋 Copy Moral'; }, 2000);
         }

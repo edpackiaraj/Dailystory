@@ -2,7 +2,7 @@ import { spawnSync } from 'node:child_process';
 
 process.env.ASTRO_TELEMETRY_DISABLED = '1';
 
-console.log('=== DHINAM ORU KATHAI: FULL PRODUCTION BUILD PIPELINE ===\n');
+console.log('=== DAILY TALE: FULL PRODUCTION BUILD PIPELINE ===\n');
 
 console.log('1. Neutralizing deity references...');
 let res = spawnSync('node', ['scripts/neutralize-deities.mjs'], { stdio: 'inherit' });
