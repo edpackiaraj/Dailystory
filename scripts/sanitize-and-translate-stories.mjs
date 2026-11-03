@@ -11,6 +11,20 @@ const tagRegex = /\s*\[[A-Za-z]{2}\]/g;
 const langTagRegex = /\s*\([^\)]*(?:தமிழ்|हिन्दी|Español|简体中文|Português|മലയാളം|తెలుగు|ಕನ್ನಡ|मराठी|Tamil|Hindi|Spanish|Chinese|Portuguese|Malayalam|Telugu|Kannada|Marathi)[^\)]*\)/gi;
 const summaryBracketRegex = /\s*\[(?:தமிழ்|ஆவೃತ್ತಿ|பதிப்பு|संस्करण|versão|edición|version|edition)[^\]]*\]/gi;
 
+function safeWriteFileSync(filePath, content) {
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    try {
+      fs.writeFileSync(filePath, content, 'utf8');
+      return;
+    } catch (err) {
+      if (attempt === 5) throw err;
+      const delay = attempt * 250;
+      const AtomicsWait = new Int32Array(new SharedArrayBuffer(4));
+      Atomics.wait(AtomicsWait, 0, 0, delay);
+    }
+  }
+}
+
 for (const lang of languages) {
   const p = path.resolve(dataDir, lang, `stories-${lang}.json`);
   if (!fs.existsSync(p)) continue;
@@ -41,7 +55,9 @@ for (const lang of languages) {
     if (s.title !== origTitle) cleanedCount++;
   }
 
-  fs.writeFileSync(p, JSON.stringify(stories, null, 2), 'utf8');
+  if (cleanedCount > 0) {
+    safeWriteFileSync(p, JSON.stringify(stories, null, 2));
+  }
   console.log(`[${lang.toUpperCase()}] Cleaned ${cleanedCount} tagged story titles and summaries.`);
 }
 
@@ -328,7 +344,7 @@ if (fs.existsSync(taPath)) {
     }
   }
 
-  fs.writeFileSync(taPath, JSON.stringify(taStories, null, 2), 'utf8');
+  safeWriteFileSync(taPath, JSON.stringify(taStories, null, 2));
   console.log(`[TA] Successfully injected ${injectedCount} authentic literary Tamil stories into stories-ta.json!`);
 }
 
