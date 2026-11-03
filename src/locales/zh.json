@@ -52,5 +52,13 @@
   "light": "护眼白昼",
   "sepia": "复古羊皮纸",
   "night": "静谧夜读",
-  "system": "跟随系统"
+  "system": "跟随系统",
+  "readStory": "阅读故事 →",
+  "wordsCount": "字",
+  "fullTranslationBadge": "完整中文版",
+  "englishEditionBadge": "英文版本",
+  "untranslatedTitle": "本故事目前仅提供英文版本",
+  "untranslatedDesc": "该故事的标准译本正在精心审校中。您可以在英文版中阅读完整故事。",
+  "readInEnglishBtn": "在英文版中阅读完整故事 →",
+  "availableStoriesInLang": "精选故事"
 }

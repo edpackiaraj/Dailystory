@@ -9,7 +9,8 @@ import {
   getStoryUrl,
   getCollectionSlug,
   getAudienceCategory,
-  getLengthCategory
+  getLengthCategory,
+  isStoryTranslated
 } from '../../lib/stories';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
@@ -84,8 +85,16 @@ for (const s of allStories) {
 }
 const collectionList = Object.values(collectionsMap);
 
-// Compact stories for instant client-side search
-const compactStories = (view === 'search' || view === 'favorites') ? allStories.map(s => ({
+// Compact stories for instant client-side search (prioritize translated stories in non-English editions)
+const orderedStories = currentLang === 'en'
+  ? allStories
+  : [...allStories].sort((a, b) => {
+      const aTr = isStoryTranslated(a, currentLang) ? 1 : 0;
+      const bTr = isStoryTranslated(b, currentLang) ? 1 : 0;
+      return bTr - aTr;
+    });
+
+const compactStories = (view === 'search' || view === 'favorites') ? orderedStories.map(s => ({
   id: s.id,
   title: s.title,
   slug: s.slug,
@@ -97,6 +106,7 @@ const compactStories = (view === 'search' || view === 'favorites') ? allStories.
   url: getStoryUrl(s, currentLang),
   audience: getAudienceCategory(s.age_group),
   length: getLengthCategory(s.word_count),
+  is_translated: isStoryTranslated(s, currentLang),
   keywords: (s.keywords || []).join(' ').toLowerCase()
 })) : [];
 
@@ -211,8 +221,14 @@ if (view === 'search') {
                 </div>
 
                 <div class="flex items-center justify-between text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
-                  <span class="font-bold text-[#D97706] truncate max-w-[60%]">{story.collection}</span>
-                  <span>⏱ {story.reading_time || '4m'}</span>
+                  <span class="font-bold text-[#D97706] truncate max-w-[55%]">{story.collection}</span>
+                  {story.is_translated ? (
+                    <span class="px-2 py-0.5 rounded-md bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">
+                      ✓ {t.fullTranslationBadge || "Full"}
+                    </span>
+                  ) : (
+                    <span>⏱ {story.reading_time || '4m'}</span>
+                  )}
                 </div>
 
                 <h2 class="text-xs sm:text-sm font-black text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-2 leading-snug group-hover:text-[#D97706] transition-colors">
@@ -229,7 +245,7 @@ if (view === 'search') {
                   {story.audience === 'kids' ? t.kids : (story.audience === 'teens' ? t.teens : t.everyone)}
                 </span>
                 <a href={story.url} class="font-bold text-[#D97706] group-hover:translate-x-1 transition-transform">
-                  Read →
+                  {t.readStory || "Read →"}
                 </a>
               </div>
             </article>

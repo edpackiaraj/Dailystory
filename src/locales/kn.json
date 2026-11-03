@@ -52,5 +52,13 @@
   "light": "ಬೆಳಕು",
   "sepia": "ಸೆಪಿಯಾ",
   "night": "ರಾತ್ರಿ ಮೋಡ್",
-  "system": "ಸ್ವಯಂಚಾಲಿತ"
+  "system": "ಸ್ವಯಂಚಾಲಿತ",
+  "readStory": "ಕಥೆ ಓದಿ →",
+  "wordsCount": "ಪದಗಳು",
+  "fullTranslationBadge": "ಪೂರ್ಣ ಕನ್ನಡ ಕಥೆ",
+  "englishEditionBadge": "ಇಂಗ್ಲಿಷ್ ಆವೃತ್ತಿ",
+  "untranslatedTitle": "ಈ ಕಥೆ ಪ್ರಸ್ತುತ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಲಭ್ಯವಿದೆ",
+  "untranslatedDesc": "ಈ ಕಥೆಯ ಕನ್ನಡ ಅನುವಾದ ಸಿದ್ಧಗೊಳ್ಳುತ್ತಿದೆ. ನೀವು ಸಂಪೂರ್ಣ ಕಥೆಯನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಓದಬಹುದು.",
+  "readInEnglishBtn": "ಸಂಪೂರ್ಣ ಕಥೆಯನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಓದಿ →",
+  "availableStoriesInLang": "ಕನ್ನಡದಲ್ಲಿ ಲಭ್ಯವಿರುವ ಪ್ರಮುಖ ಕಥೆಗಳು"
 }

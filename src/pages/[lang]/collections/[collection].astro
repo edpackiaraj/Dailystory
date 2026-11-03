@@ -10,6 +10,7 @@ import {
   getAudienceCategory,
   getLengthCategory,
   getStoryUrl,
+  isStoryTranslated,
   type Story
 } from '../../../lib/stories';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
@@ -75,12 +76,60 @@ const collectionIntros: Record<string, string> = {
   "vikram-vetal": "Classic Indian riddles between King Vikramaditya and the celestial riddle-telling Vetal, exploring ethical dilemmas and moral discernment."
 };
 
-const introText = collectionIntros[colSlug] || `Explore authentic, beautifully illustrated stories from the ${rawCollection} collection on Daily Tale.`;
+const localizedCollectionNames: Record<string, Record<string, string>> = {
+  ta: {
+    "cinderella-stories": "சிண்ட்ரெல்லா உலகக் கதைகள்",
+    "akbar-birbal": "அக்பர்–பீர்பால் கதைகள்",
+    "panchatantra": "பஞ்சதந்திரக் கதைகள்",
+    "tenali-rama": "தெனாலிராமன் கதைகள்",
+    "aesops-fables": "ஈசாப் கதைகள்",
+    "grimm-fairy-tales": "கிரிம் சகோதரர்கள் கதைகள்",
+    "hans-christian-andersen": "ஹான்ஸ் கிறிஸ்டியன் ஆண்டர்சன் கதைகள்",
+    "mulla-nasruddin": "முல்லா நஸ்ருதீன் கதைகள்",
+    "jataka-tales": "ஜாதகக் கதைகள்",
+    "arabian-nights": "ஆயிரத்தொரு இரவுகள்",
+    "paramartha-guru": "பரமார்த்த குரு கதைகள்",
+    "vikram-vetal": "விக்கிரமாதித்தன்–வேதாளம் கதைகள்"
+  },
+  hi: {
+    "cinderella-stories": "सिंड्रेला की विश्व प्रसिद्ध कहानियाँ",
+    "akbar-birbal": "अकबर–बीरबल की कहानियाँ",
+    "panchatantra": "पंचतंत्र की कहानियाँ",
+    "tenali-rama": "तेनालीराम की कहानियाँ",
+    "aesops-fables": "ईसप की नीतिकथाएँ",
+    "grimm-fairy-tales": "ग्रिम्स की परिकथाएँ",
+    "hans-christian-andersen": "हंस क्रिश्चियन एंडरसन की कहानियाँ",
+    "mulla-nasruddin": "मुल्ला नसरुद्दीन के किस्से",
+    "jataka-tales": "जातक कथाएँ",
+    "arabian-nights": "अलिफ लैला (1001 रातें)",
+    "paramartha-guru": "परमार्थ गुरु की कहानियाँ",
+    "vikram-vetal": "विक्रम और बेताल"
+  }
+};
+
+const localizedCollectionIntros: Record<string, Record<string, string>> = {
+  ta: {
+    "akbar-birbal": "பேரரசர் அக்பர் மற்றும் தலைமை ஆலோசகர் பீர்பால் இடையேயான விவேகமும் நகைச்சுவையும் நிறைந்த வரலாற்றுச் சிறப்புமிக்க கதைகள். சமயோசித புத்தியும் நேர்மையும் எத்தகைய சிக்கலையும் எளிதில் தீர்க்கும் என்பதை இக்கதைகள் விளக்குகின்றன.",
+    "tenali-rama": "விஜயநகரப் பேரரசர் கிருஷ்ணதேவராயரின் அரசவைக் கவிஞரான தெனாலிராமனின் கூர்மையான நகைச்சுவை, அறிவுக்கூர்மை மற்றும் அநீதியை எதிர்க்கும் விவேகக் கதைகள்.",
+    "paramartha-guru": "வீரமாமுனிவரால் தமிழில் படைக்கப்பட்ட அழியாத நகைச்சுவை இலக்கியம். பரமார்த்த குருவும் அவரது ஐந்து அப்பாவிக் சீடர்களும் செய்யும் வேடிக்கையான சாகசங்கள்.",
+    "panchatantra": "விஷ்ணு சர்மாவால் உருவாக்கப்பட்ட உலகின் ஆகச்சிறந்த விலங்கு நீதிக்கதைகள். நட்பு, சாதுரியம் மற்றும் வாழ்வியல் நெறிகளை எளிய கதைகளின் வழியே கற்பிக்கும் பொக்கிஷம்.",
+    "aesops-fables": "பண்டைய கிரேக்க ஞானி ஈசாப் கூறிய உலகப்புகழ் பெற்ற நீதிக்கதைகள். ஆமையும் முயலும், நரியும் திராட்சையும் போன்ற காலத்தால் அழியாத வாழ்வியல் நற்பண்புகள்."
+  },
+  hi: {
+    "akbar-birbal": "मुग़ल सम्राट अकबर और उनके चतुर व हाज़िरजवाब मंत्री बीरबल के ऐतिहासिक एवं ज्ञानवर्धक किस्से।",
+    "tenali-rama": "विजयनगर साम्राज्य के राजा कृष्णदेवराय के दरबारी कवि तेनालीराम के बुद्धिमत्ता और हास्य से भरे रोचक प्रसंग।",
+    "panchatantra": "पंडित विष्णु शर्मा द्वारा रचित प्राचीन संस्कृत नीतिकथाएँ जो जीवन के नैतिक मूल्य और व्यावहारिक बुद्धि सिखाती हैं।",
+    "aesops-fables": "प्राचीन यूनान के प्रसिद्ध नीतिकार ईसप की अमर कहानियाँ जो सदाचार और सच्चाई का पाठ पढ़ाती हैं।"
+  }
+};
+
+const displayCollectionName = localizedCollectionNames[currentLang]?.[colSlug] || rawCollection;
+const introText = localizedCollectionIntros[currentLang]?.[colSlug] || collectionIntros[colSlug] || `Explore authentic, beautifully illustrated stories from the ${rawCollection} collection on Daily Tale.`;
 const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${currentLang}-collection-${colSlug}/`;
 ---
 
 <BaseLayout
-  title={`${rawCollection} Stories`}
+  title={`${displayCollectionName}`}
   description={introText}
   lang={currentLang}
   canonicalUrl={canonicalUrl}
@@ -96,12 +145,12 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${curren
         <span>/</span>
         <a href={`/${currentLang}/collections/`} class="hover:text-[#D97706] transition-colors">{t.collections}</a>
         <span>/</span>
-        <span class="text-[#3B2A1A] dark:text-[#F3EBDD] font-bold">{rawCollection}</span>
+        <span class="text-[#3B2A1A] dark:text-[#F3EBDD] font-bold">{displayCollectionName}</span>
       </nav>
 
       <div class="flex items-center gap-3">
         <h1 class="text-3xl sm:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight">
-          {rawCollection}
+          {displayCollectionName}
         </h1>
         <span class="px-3.5 py-1 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] text-xs font-black">
           {matchingStories.length} {t.stories}
@@ -204,7 +253,15 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${curren
                 <span class="px-2 py-0.5 rounded-md bg-[#0F766E]/10 text-[#0F766E] dark:text-[#2DD4BF] font-semibold">
                   {aud === 'kids' ? t.kids : (aud === 'teens' ? t.teens : t.everyone)}
                 </span>
-                <span>⏱ {story.reading_time || '4m'}</span>
+                {isStoryTranslated(story, currentLang) ? (
+                  <span class="px-2 py-0.5 rounded-md bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">
+                    ✓ {t.fullTranslationBadge || "Full Translation"}
+                  </span>
+                ) : (
+                  <span class="px-2 py-0.5 rounded-md bg-amber-500/15 text-amber-700 dark:text-amber-400 font-medium text-[10px]">
+                    {t.englishEditionBadge || "English Edition"}
+                  </span>
+                )}
               </div>
 
               <h2 class="text-xs sm:text-sm font-black text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-2 leading-snug group-hover:text-[#D97706] transition-colors">
@@ -220,13 +277,13 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${curren
 
             <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex items-center justify-between text-xs mt-3">
               <span class="text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
-                {story.word_count || 450} words
+                {story.word_count || 450} {t.wordsCount || 'words'}
               </span>
               <a
                 href={getStoryUrl(story, currentLang)}
                 class="font-bold text-[#D97706] group-hover:translate-x-1 transition-transform"
               >
-                Read →
+                {t.readStory || "Read →"}
               </a>
             </div>
           </article>

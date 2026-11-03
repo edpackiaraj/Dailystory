@@ -52,5 +52,13 @@
   "light": "दिन",
   "sepia": "सेपिया",
   "night": "रात्रि",
-  "system": "स्वतः"
+  "system": "स्वतः",
+  "readStory": "कहानी पढ़ें →",
+  "wordsCount": "शब्द",
+  "fullTranslationBadge": "पूर्ण हिन्दी अनुवाद",
+  "englishEditionBadge": "अंग्रेज़ी संस्करण",
+  "untranslatedTitle": "यह कहानी केवल अंग्रेज़ी में उपलब्ध है",
+  "untranslatedDesc": "इस कहानी का प्रामाणिक अनुवाद अभी तैयार किया जा रहा है। आप मूल कहानी अंग्रेज़ी में पढ़ सकते हैं।",
+  "readInEnglishBtn": "पूरी कहानी अंग्रेज़ी में पढ़ें →",
+  "availableStoriesInLang": "हिन्दी में उपलब्ध प्रमुख कहानियाँ"
 }

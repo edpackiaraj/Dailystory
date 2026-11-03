@@ -52,5 +52,13 @@
   "light": "प्रकाश",
   "sepia": "सेपिया",
   "night": "रात्र",
-  "system": "स्वयंचलित"
+  "system": "स्वयंचलित",
+  "readStory": "गोष्ट वाचा →",
+  "wordsCount": "शब्द",
+  "fullTranslationBadge": "पूर्ण मराठी भाषांतर",
+  "englishEditionBadge": "इंग्रजी आवृत्ती",
+  "untranslatedTitle": "ही कथा सध्या इंग्रजीमध्ये उपलब्ध आहे",
+  "untranslatedDesc": "या कथेचे अस्सल मराठी भाषांतर तयार होत आहे. आपण पूर्ण कथा इंग्रजीत वाचू शकता.",
+  "readInEnglishBtn": "संपूर्ण गोष्ट इंग्रजीत वाचा →",
+  "availableStoriesInLang": "मराठीत उपलब्ध प्रमुख गोष्टी"
 }

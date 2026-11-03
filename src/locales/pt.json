@@ -52,5 +52,13 @@
   "light": "Claro",
   "sepia": "Sépia",
   "night": "Noite",
-  "system": "Automático"
+  "system": "Automático",
+  "readStory": "Ler história →",
+  "wordsCount": "palavras",
+  "fullTranslationBadge": "Tradução completa",
+  "englishEditionBadge": "Edição em inglês",
+  "untranslatedTitle": "Esta história está disponível em inglês",
+  "untranslatedDesc": "A tradução autêntica desta história está em preparação. Você pode ler a história completa em inglês.",
+  "readInEnglishBtn": "Ler a história completa em inglês →",
+  "availableStoriesInLang": "Histórias em destaque"
 }

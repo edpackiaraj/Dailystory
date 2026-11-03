@@ -52,5 +52,13 @@
   "light": "వెలుగు",
   "sepia": "సెపియా",
   "night": "రాత్రి మోడ్",
-  "system": "ఆటో"
+  "system": "ఆటో",
+  "readStory": "కథ చదవండి →",
+  "wordsCount": "పదాలు",
+  "fullTranslationBadge": "పూర్తి తెలుగు కథ",
+  "englishEditionBadge": "ఆంగ్ల వెర్షన్",
+  "untranslatedTitle": "ఈ కథ ప్రస్తుతం ఆంగ్లంలో అందుబాటులో ఉంది",
+  "untranslatedDesc": "ఈ కథ యొక్క పూర్తి తెలుగు అనువాదం సిద్ధమవుతోంది. మీరు పూర్తి కథను ఆంగ్లంలో చదవవచ్చు.",
+  "readInEnglishBtn": "పూర్తి కథను ఆంగ్లంలో చదవండి →",
+  "availableStoriesInLang": "తెలుగులో అందుబాటులో ఉన్న కథలు"
 }

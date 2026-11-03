@@ -135,19 +135,41 @@ export function getSiblingStoryInLang(sourceStoryId: string, targetLang: string)
   return targetStories.find(s => s.id === sourceStoryId && s.reviewed !== false);
 }
 
+export const scriptRegexes: Record<string, RegExp> = {
+  ta: /[\u0B80-\u0BFF]/,
+  hi: /[\u0900-\u097F]/,
+  mr: /[\u0900-\u097F]/,
+  te: /[\u0C00-\u0C7F]/,
+  kn: /[\u0C80-\u0CFF]/,
+  ml: /[\u0D00-\u0D7F]/,
+  zh: /[\u4E00-\u9FFF]/
+};
+
+export function isStoryTranslated(story: Story, lang: string): boolean {
+  if (!story) return false;
+  if (lang === 'en') return true;
+  if (scriptRegexes[lang]) {
+    return scriptRegexes[lang].test(story.full_text);
+  }
+  return story.language === lang && !story.title.startsWith('[Draft');
+}
+
 export function getTodaysStory(lang: string): Story {
-  const stories = getAllReviewedStories(lang);
-  if (!stories.length) {
+  const allStories = getAllReviewedStories(lang);
+  if (!allStories.length) {
     // Fallback to English if target language has no reviewed stories yet
     return getAllReviewedStories('en')[0];
   }
+  const translatedPool = lang === 'en' ? allStories : allStories.filter(s => isStoryTranslated(s, lang));
+  const pool = translatedPool.length > 0 ? translatedPool : allStories;
+
   // Deterministic daily story based on calendar day
   const today = new Date();
   const dayOfYear = Math.floor(
     (today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / 1000 / 60 / 60 / 24
   );
-  const index = dayOfYear % stories.length;
-  return stories[index];
+  const index = dayOfYear % pool.length;
+  return pool[index];
 }
 
 export function getSurpriseStory(lang: string, currentId?: string): Story {

@@ -52,5 +52,13 @@
   "light": "Light",
   "sepia": "Sepia",
   "night": "Night",
-  "system": "Auto"
+  "system": "Auto",
+  "readStory": "Read Story →",
+  "wordsCount": "words",
+  "fullTranslationBadge": "Full Translation",
+  "englishEditionBadge": "Original English",
+  "untranslatedTitle": "Story Available in English",
+  "untranslatedDesc": "The authentic translation for this story is currently in progress. You can read the complete original story in English.",
+  "readInEnglishBtn": "Read Complete Story in English →",
+  "availableStoriesInLang": "Featured Stories in This Language"
 }

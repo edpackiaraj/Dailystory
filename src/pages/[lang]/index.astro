@@ -8,6 +8,7 @@ import {
   getAudienceCategory,
   getLengthCategory,
   getStoryUrl,
+  isStoryTranslated,
   type Story
 } from '../../lib/stories';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -43,8 +44,16 @@ for (const s of allStories) {
 }
 const collectionList = Object.values(collectionsMap);
 
-// Latest stories for grid
-const recentStories = allStories.slice(0, 16);
+// Latest stories for grid: prioritize translated stories in non-English editions
+const translatedFirst = currentLang === 'en'
+  ? allStories
+  : [...allStories].sort((a, b) => {
+      const aTr = isStoryTranslated(a, currentLang) ? 1 : 0;
+      const bTr = isStoryTranslated(b, currentLang) ? 1 : 0;
+      return bTr - aTr;
+    });
+
+const recentStories = translatedFirst.slice(0, 16);
 ---
 
 <BaseLayout
@@ -241,11 +250,11 @@ const recentStories = allStories.slice(0, 16);
             {t.collections}
           </h2>
           <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
-            Treasures of world folklore translated with cultural reverence
+            {currentLang === 'ta' ? 'பண்பாட்டுச் சிறப்புமிக்க உலகக் கதைகளின் பொக்கிஷம்' : (currentLang === 'hi' ? 'विश्व प्रसिद्ध सांस्कृतिक लोककथाओं का अनुपम संग्रह' : 'Treasures of world folklore translated with cultural reverence')}
           </p>
         </div>
         <a href={`/${currentLang}/collections/`} class="text-xs sm:text-sm font-bold text-[#D97706] hover:underline">
-          All Collections →
+          {t.collections} →
         </a>
       </div>
 
@@ -286,14 +295,14 @@ const recentStories = allStories.slice(0, 16);
       <div class="flex items-center justify-between">
         <div>
           <h2 class="text-xl sm:text-2xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
-            Timeless Stories to Read
+            {currentLang === 'ta' ? 'படிக்க வேண்டிய அழியா நற்கதைகள்' : (currentLang === 'hi' ? 'सदाबहार प्रेरक कहानियाँ' : 'Timeless Stories to Read')}
           </h2>
           <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
-            Stories of wit, virtue, courage and laughter
+            {currentLang === 'ta' ? 'அறிவு, விவேகம், வீரம் மற்றும் நற்பண்புகள் நிறைந்த கதைகள்' : (currentLang === 'hi' ? 'बुद्धिमत्ता, साहस और सदाचार से भरी कहानियाँ' : 'Stories of wit, virtue, courage and laughter')}
           </p>
         </div>
         <a href={`/${currentLang}/search/`} class="text-xs sm:text-sm font-bold text-[#D97706] hover:underline">
-          View all library →
+          {t.stories} →
         </a>
       </div>
 
@@ -316,8 +325,14 @@ const recentStories = allStories.slice(0, 16);
               </div>
 
               <div class="flex items-center justify-between text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="font-bold text-[#D97706] truncate max-w-[60%]">{story.collection}</span>
-                <span>⏱ {story.reading_time || '4m'}</span>
+                <span class="font-bold text-[#D97706] truncate max-w-[55%]">{story.collection}</span>
+                {isStoryTranslated(story, currentLang) ? (
+                  <span class="px-2 py-0.5 rounded-md bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">
+                    ✓ {t.fullTranslationBadge || "Full"}
+                  </span>
+                ) : (
+                  <span>⏱ {story.reading_time || '4m'}</span>
+                )}
               </div>
 
               <h3 class="text-xs sm:text-sm font-black text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-2 leading-snug group-hover:text-[#D97706] transition-colors">
@@ -334,7 +349,7 @@ const recentStories = allStories.slice(0, 16);
                 {getAudienceCategory(story.age_group) === 'kids' ? t.kids : (getAudienceCategory(story.age_group) === 'teens' ? t.teens : t.everyone)}
               </span>
               <span class="font-bold text-[#D97706] group-hover:translate-x-1 transition-transform">
-                Read →
+                {t.readStory || "Read →"}
               </span>
             </div>
           </a>

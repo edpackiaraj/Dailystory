@@ -52,5 +52,13 @@
   "light": "പകൽ",
   "sepia": "സെപിയ",
   "night": "രാത്രി",
-  "system": "ഓട്ടോമാറ്റിക്"
+  "system": "ഓട്ടോമാറ്റിക്",
+  "readStory": "കഥ വായിക്കുക →",
+  "wordsCount": "വാക്കുകൾ",
+  "fullTranslationBadge": "പൂർണ്ണ മലയാളം",
+  "englishEditionBadge": "ഇംഗ്ലീഷ് പതിപ്പ്",
+  "untranslatedTitle": "ഈ കഥ ഇംഗ്ലീഷിൽ ലഭ്യമാണ്",
+  "untranslatedDesc": "ഈ കഥയുടെ മലയാള പരിഭാഷ ഒരുങ്ങുന്നു. നിങ്ങൾക്ക് പൂർണ്ണ കഥ ഇംഗ്ലീഷിൽ വായിക്കാം.",
+  "readInEnglishBtn": "പൂർണ്ണ കഥ ഇംഗ്ലീഷിൽ വായിക്കുക →",
+  "availableStoriesInLang": "മലയാളത്തിൽ ലഭ്യമായ പ്രധാന കഥകൾ"
 }
