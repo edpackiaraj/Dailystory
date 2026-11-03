@@ -2,33 +2,34 @@
   "lastUpdated": "2026-11-02",
   "pages": {
     "about": {
-      "title": "About Us",
+      "title": "About Daily Tale",
       "h1": "About Daily Tale",
-      "metaDescription": "Learn about our mission to bring safe, inspiring, multilingual moral and folktales to readers, families, and classrooms worldwide.",
+      "metaDescription": "Learn about Daily Tale, our global multilingual folktale library, educational mission, and founder S. Edward Packiaraj.",
+      "summary": "Daily Tale – Moral Stories & Interesting Folktales Worldwide is a multilingual educational storytelling platform dedicated to enriching character, imagination, and moral wisdom through timeless folktales, fables, and heritage stories from world cultures. Founded by S. Edward Packiaraj (Consultant in Educational Media Technologies and creator of EnglishPesalaam), Daily Tale bridges oral storytelling traditions with modern, distraction-free digital literacy.",
       "sections": [
         {
-          "heading": "Our Mission",
-          "content": "Daily Tale was born from a timeless truth: stories shape character, awaken empathy, and build bridges across cultures. In an internet overflowing with noisy feeds, distracting ads, and dopamine loops, we offer a peaceful sanctuary—a place where readers, families, teachers, and language learners everywhere can gather daily for wisdom, wonder, and gentle reading."
+          "heading": "Treasury of World Folklore & Fables",
+          "content": "We curate, preserve, and illuminate a vast library of over 2,500 stories across 10 world languages: English, Tamil, Hindi, Spanish, Chinese (Simplified), Portuguese, Malayalam, Telugu, Kannada, and Marathi. Our collections span timeless heritage traditions including Akbar–Birbal, Tenali Rama, Panchatantra, Aesop's Fables, Jataka Tales, Hans Christian Andersen, the Brothers Grimm, Arabian Nights, and cultural folklore from across Asia, Africa, Europe, and the Americas."
         },
         {
-          "heading": "Ten Equal World Languages",
-          "content": "Daily Tale is a global, multilingual library celebrating ten world languages equally: English, Tamil, Hindi, Spanish, Chinese (Simplified), Portuguese, Malayalam, Telugu, Kannada, and Marathi. Every language is treated with equal care, natural vocabulary, and cultural respect."
+          "heading": "Browser-Native Audio & Adaptive Reading",
+          "content": "Our platform provides browser-native read-aloud audio narration powered by text-to-speech, complete with adjustable playback speed (0.75x to 1.5x) and sentence-by-sentence reading assistance. To ensure maximum accessibility for neurodivergent and young readers, our reading toolbar features specialized typography controls including the OpenDyslexic typeface, custom font sizing, fluid line-height adjustment, and high-contrast night modes."
         },
         {
-          "heading": "Our Sacred Promise: Safe, Calm & Ad-Free",
-          "content": "We make four unwavering commitments to every reader, parent, and teacher:\n1. 100% Safe & Respectful: Every single story is vetted by editors. No graphic violence, no gore, and strictly no mature adult themes.\n2. No Manipulative Engagement: We do not use casino streaks, shaming notifications, autoplay chains, or hidden tracking.\n3. Zero Child Data Profiling: Readers never need an account. Reading progress, favorites, and badges remain strictly on your local device.\n4. Educational Depth: Stories are paired with Bloom's taxonomy discussion cards, vocabulary pronunciation, and creative activities."
+          "heading": "Educational Depth & Bloom's Taxonomy",
+          "content": "To support parents, educators, and language learners, every story is enriched with structured pedagogical resources: Bloom's Taxonomy discussion questions (spanning Remember, Understand, Apply, Analyze, Evaluate, and Create levels), curated vocabulary glossaries with pronunciation guides, and interactive comprehension quizzes that cultivate critical thinking and family dialogue."
         },
         {
-          "heading": "How Stories are Chosen and Retold",
-          "content": "We curate timeless public-domain fables, folklore, and cultural legends from ancient traditions (Panchatantra, Aesop, Jataka, Andersen, Grimm, Arabian Nights, Latin American folklore, and African lore). Traditional narratives are retold with cultural nuance, removing historical cruelty while preserving their core moral truth and wonder."
+          "heading": "Classroom, Family & Parish-Ready Resources",
+          "content": "Daily Tale provides ready-to-share educational tools, including exportable 'Moral of the Day' cards, reading milestone certificates, printable story summaries, and seamless one-click sharing via WhatsApp, Telegram, and email for home, community, and classroom reflection."
         },
         {
-          "heading": "Human-in-the-Loop Linguistic Review",
-          "content": "To bring stories to ten languages, we leverage advanced linguistic AI models to draft meaning-based translations that preserve regional idioms. However, machine output is never final. Every translation is placed behind a strict quarantine and is made public and indexable only after human linguistic and pedagogical review."
+          "heading": "100% Safe, Ad-Free & Lightweight PWA",
+          "content": "Our commitment to children, families, and classrooms is absolute: Daily Tale is 100% ad-free, tracking-free, and requires zero user registration or personal data profiling. Built with ultra-lightweight Progressive Web App (PWA) technology, the platform is engineered for high performance, instant offline reading, and minimal server dependency."
         },
         {
-          "heading": "Cultural Credits & Origin Notes",
-          "content": "We honour the collective human heritage of world folklore. Retellings derive from verified public domain sources, historical folk anthologies, and credited community contributions. We celebrate the oral storytellers of every continent who kept these fires burning across generations."
+          "heading": "Our Mission & Educational Direction",
+          "content": "Our Mission: To make timeless moral wisdom and world folklore freely accessible, understandable, and inspiring every day, supporting families, educators, and language learners in nurturing character, empathy, and global literacy.\n\nFounder & Educational Direction: S. Edward Packiaraj, Consultant in Educational Media Technologies and founder of EnglishPesalaam."
         }
       ]
     },

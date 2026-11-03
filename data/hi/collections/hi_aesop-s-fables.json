@@ -3,12 +3,12 @@
     "id": "aesops-fables-1-the-fox-and-the-grapes",
     "slug": "aesops-fables-1-the-fox-and-the-grapes-hi",
     "language": "hi",
-    "title": "The Fox and the Grapes",
+    "title": "लोमड़ी और खट्टे अंगूर",
     "genre": "Fables",
     "collection": "Aesop's Fables",
     "culture_region": "Ancient Greece / Classical Folklore",
     "age_group": "Below 13",
-    "summary": "On a sweltering summer afternoon, a sly fox strolled through an orchard bathed in warm sunlight. His throat was parched, and his stomach rumbled with hunger. As he reached a high g...",
+    "summary": "ऊँची बेल पर लटके रसीले अंगूरों तक न पहुँच पाने पर उन्हें खट्टा बताकर मुँह फेर लेने वाली लोमड़ी की प्रसिद्ध नीतिकथा।",
     "keywords": [
       "aesop's fables",
       "the fox and the grapes",
@@ -23,13 +23,13 @@
       "bedtime-story",
       "wisdom"
     ],
-    "full_text": "On a sweltering summer afternoon, a sly fox strolled through an orchard bathed in warm sunlight. His throat was parched, and his stomach rumbled with hunger. As he reached a high garden wall, his amber eyes caught sight of a magnificent grapevine that wound its way along a tall wooden trellis. Hanging overhead were rich, luscious clusters of dark purple grapes, glistening with delicate drops of morning dew and bursting with sweet, cool juice.\n\nThe fox licked his whiskers and grinned. \"Here is a feast fit for an emperor,\" he muttered, stepping back a few paces to gain momentum. With a graceful leap, he sprang high into the air with jaws wide open, but his teeth snapped on empty air, missing the lowest bunch by mere inches.\n\nRefusing to admit defeat, the fox backed up further into the dusty furrow, gathered all his strength, and sprang upward once more. Again he fell short, tumbling onto the soft earth. Three, four, five times he leaped, straining every muscle in his russet body until his breath came in ragged wheezes and his legs trembled with exhaustion.\n\nLooking up at the purple prize that hung tantalizingly out of reach, the fox curled his snout into an arrogant sneer. He brushed the dust from his bushy tail and announced loudly to the listening birds: \"Why should I waste my precious energy on such wretched fruit? I can see plainly from here that they are completely green and sour, unfit for a gentleman's palate!\" And with his head held high in pretended disgust, he trotted away through the briers.",
-    "moral": "It is easy to despise and pretend to scorn what you cannot possess.",
+    "full_text": "एक गर्म दोपहर में एक भूखी लोमड़ी जंगल में भोजन की तलाश में भटक रही थी। घूमते-घूमते वह एक किसान के सुंदर अंगूरों के बगीचे में जा पहुँची। वहाँ एक ऊँची लकड़ी की मचान पर अंगूरों की हरी-भरी बेलें फैली हुई थीं।\n\nबेलों पर पके हुए, रसीले और बड़े-बड़े बैंगनी अंगूरों के गुच्छे लटक रहे थे। धूप में चमकते अंगूरों को देखकर लोमड़ी के मुँह में पानी भर आया। उसने सोचा, 'अहा! आज तो भरपेट स्वादिष्ट भोजन मिलेगा!'\n\nलोमड़ी कुछ कदम पीछे हटी, फिर दौड़कर पूरी ताक़त से ऊपर उछली, किंतु अंगूर बहुत ऊँचे थे और उसकी छलाँग अधूरी रह गई। उसने अपनी थकावट भुलाकर दूसरी बार, तीसरी बार और अनगिनत बार छलाँगें लगाईं, पर हर बार वह अंगूरों को छू भी न सकी।\n\nजब वह पूरी तरह हाँफने लगी और उसके पैरों में शक्ति न रही, तो उसने अपनी नाक सिकोड़ी और वहाँ से मुड़ते हुए बोली, 'छी! ये अंगूर तो बिल्कुल खट्टे हैं। यदि मैं इन्हें खाऊँगी तो बीमार पड़ जाऊँगी!' और वह अपनी असफलता को छिपाने का ढोंग करते हुए चुपचाप चली गई।",
+    "moral": "जो वस्तु हमें अपनी असमर्थता के कारण नहीं मिल पाती, उसमें दोष निकालना कमज़ोर मन का लक्षण है।",
     "image": "/images/stories/aesop.webp",
     "image_alt": "The Fox and the Grapes illustration from the Aesop's Fables collection.",
-    "word_count": 264,
+    "word_count": 176,
     "reading_time": "2 min",
-    "listen_time": "3 min",
+    "listen_time": "2 min",
     "audio_url": null,
     "publish_date": "2026-03-25",
     "is_bedtime": true,
@@ -79,38 +79,30 @@
     "reading_level": "Intermediate",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "मचान",
+        "meaning": "खेतों में बनाई जाने वाली ऊँची लकड़ी की चौकी या ढाँचा"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "रसीले",
+        "meaning": "रस से भरे हुए मीठे फल"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "ढोंग",
+        "meaning": "सच्चाई छिपाने के लिए किया गया झूठा दिखावा"
       }
     ],
     "discussion_questions": [
       {
         "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"The Fox and the Grapes\"?"
+        "prompt": "लोमड़ी ने अंगूरों को पाने के लिए क्या प्रयास किए?"
       },
       {
         "tier": "Understand",
-        "prompt": "Why is the moral \"It is easy to despise what you cannot get.\" meaningful in daily life?"
+        "prompt": "लोमड़ी ने अंत में अंगूरों को खट्टा क्यों कहा?"
       },
       {
         "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
-      },
-      {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "prompt": "जब हम किसी खेल या परीक्षा में असफल होते हैं, तो क्या हमें बहाने बनाने चाहिए?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -132,12 +124,12 @@
     "id": "aesops-fables-2-the-tortoise-and-the-hare",
     "slug": "aesops-fables-2-the-tortoise-and-the-hare-hi",
     "language": "hi",
-    "title": "The Tortoise and the Hare",
+    "title": "कछुआ और खरगोश की दौड़",
     "genre": "Fables",
     "collection": "Aesop's Fables",
     "culture_region": "Ancient Greece / Classical Folklore",
     "age_group": "Below 13",
-    "summary": "A boastful hare never tired of mocking the woodland creatures for their slow pace, reserving his sharpest jeers for the quiet tortoise. \"Look at you, my plodding friend!\" the hare...",
+    "summary": "अपनी तेज़ गति पर अहंकार करने वाले खरगोश और निरंतर धीमी चाल से मंज़िल पाने वाले परिश्रमी कछुए की अमर दौड़।",
     "keywords": [
       "aesop's fables",
       "the tortoise and the hare",
@@ -152,11 +144,11 @@
       "bedtime-story",
       "wisdom"
     ],
-    "full_text": "A boastful hare never tired of mocking the woodland creatures for their slow pace, reserving his sharpest jeers for the quiet tortoise. \"Look at you, my plodding friend!\" the hare laughed, bounding in swift circles around the turtle. \"You carry your house upon your back and take an hour to cross a single cabbage patch! I am the swiftest runner in all the realm; no beast has ever outstripped my stride.\"\n\nThe tortoise blinked his ancient, patient eyes and replied with calm dignity, \"Your legs are swift indeed, friend Hare, but boastful pride often stumbles. I challenge you to a footrace across the valley to the ancient boundary oak.\"\n\nThe hare laughed so heartily he fell into the clover. \"A race against you? What a merry jest! Let the fox mark the course!\"\n\nThe woodland animals gathered at dawn. At the fox's sharp bark, the hare shot forward like an arrow released from a bow, vanishing over the green rise in a cloud of dust. The tortoise simply tucked in his chin and placed one heavy foot after the other, moving forward with quiet, unyielding rhythm.\n\nHalfway along the dusty course, seeing the tortoise was not even within sight, the hare felt confident and bored. \"I have hours to spare,\" he thought, settling down beneath the cool shade of a blossoming apple tree. \"A brief nap will refresh me, and I can still overtake that plodder with three bounds before the finish line.\" The hare closed his eyes and sank into deep slumber.\n\nMeanwhile, the sun climbed high and began its slow descent. The tortoise neither stopped to rest nor turned aside for sweet clover. Step by steady step, his scaly claws gripped the earth. As twilight painted the hills with amber gold, the hare awoke with a start and sprinted desperately toward the boundary oak. But to his dismay, the entire forest erupted in cheers: the patient tortoise had already crossed the finish line, smiling serenely as he proved that steady determination conquers careless speed.",
-    "moral": "Slow and steady perseverance wins the race over boastful arrogance.",
+    "full_text": "जंगल में एक खरगोश अपनी तीव्र गति पर बड़ा घमंड करता था। वह जब भी किसी जीव को देखता, उसकी धीमी चाल का उपहास उड़ाता। विशेष रूप से वह एक कछुए को देखकर रोज़ हँसता था, जो अपनी पीठ पर भारी खोल लिए धीरे-धीरे चलता था।\n\nएक दिन कछुए ने तंग आकर कहा, 'खरगोश भाई! तुम भले ही हवा की तरह तेज़ दौड़ते हो, लेकिन यदि हम दोनों के बीच दौड़ हो, तो मैं तुम्हें हरा सकता हूँ!' खरगोश ठहाका मारकर हँसा और उसने चुनौती स्वीकार कर ली। लोमड़ी को दौड़ का निर्णायक बनाया गया और पहाड़ी की चोटी पर स्थित एक विशाल बरगद के पेड़ को मंज़िल तय किया गया।\n\nदौड़ शुरू होते ही खरगोश पलक झपकते ही नज़रों से ओझल हो गया। कछुआ अपनी मंथर गति से एक-एक कदम आगे बढ़ाने लगा। आधी दूरी तय करने के बाद खरगोश ने पीछे मुड़कर देखा, कछुआ कहीं दूर-दूर तक दिखाई नहीं दे रहा था। खरगोश ने सोचा, 'कछुए को यहाँ तक आने में घंटों लगेंगे, तब तक मैं इस घने पेड़ की छाँव में थोड़ी देर सुस्ता लेता हूँ।' ठंडी हवा में उसे गहरी नींद आ गई।\n\nइधर कछुआ बिना रुके, बिना थके लगातार चलता रहा। वह सोते हुए खरगोश के पास से चुपचाप गुज़र गया और मंज़िल तक पहुँच गया। जब खरगोश की आँख खुली, तो उसने देखा कि कछुआ विजय रेखा पार कर चुका था और सभी पशु तालियाँ बजा रहे थे। खरगोश का सिर शर्म से झुक गया।",
+    "moral": "धैर्य, लगन और निरंतर प्रयास से धीमी गति वाला व्यक्ति भी घमंडी और लापरवाह को पराजित कर देता है।",
     "image": "/images/stories/aesop.webp",
     "image_alt": "The Tortoise and the Hare illustration from the Aesop's Fables collection.",
-    "word_count": 336,
+    "word_count": 241,
     "reading_time": "3 min",
     "listen_time": "3 min",
     "audio_url": null,
@@ -208,38 +200,30 @@
     "reading_level": "Intermediate",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "उपहास",
+        "meaning": "किसी का मज़ाक उड़ाना"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "निर्णायक",
+        "meaning": "प्रतियोगिता का परिणाम तय करने वाला पंच"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "मंथर",
+        "meaning": "धीमी और स्थिर गति"
       }
     ],
     "discussion_questions": [
       {
         "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"The Tortoise and the Hare\"?"
+        "prompt": "दौड़ का निर्णायक किसे बनाया गया था?"
       },
       {
         "tier": "Understand",
-        "prompt": "Why is the moral \"Slow and steady wins the race.\" meaningful in daily life?"
+        "prompt": "खरगोश तेज़ दौड़ने के बावजूद क्यों हार गया?"
       },
       {
         "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
-      },
-      {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "prompt": "पढ़ाई और जीवन में निरंतरता (consistency) का क्या महत्व है?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

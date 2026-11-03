@@ -2,12 +2,12 @@
   "id": "aesops-fables-8-the-goose-that-laid-the-golden-eggs",
   "slug": "aesops-fables-8-the-goose-that-laid-the-golden-eggs-ta",
   "language": "ta",
-  "title": "The Goose That Laid the Golden Eggs",
+  "title": "பொன் முட்டையிட்ட வாத்து",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A humble peasant and his wife lived in a modest cottage on the outskirts of town, subsisting on the meager vegetables grown in their garden and the milk of a solitary goat. One mor...",
+  "summary": "தினமும் ஒரு தங்க முட்டையிட்டு வந்த வாத்தின் வயிற்றை பேராசையால் அறுத்து அனைத்தையும் இழந்த ஒரு பேராசைக்கார விவசாயியின் கதை.",
   "keywords": [
     "aesop's fables",
     "the goose that laid the golden eggs",
@@ -22,13 +22,13 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A humble peasant and his wife lived in a modest cottage on the outskirts of town, subsisting on the meager vegetables grown in their garden and the milk of a solitary goat. One morning, the peasant walked into the poultry shed to gather eggs and noticed an extraordinary gleam beneath an old gray goose.\n\nReaching into the straw, he pulled out an egg that felt astonishingly heavy. When he wiped away the dust, the egg shone with the warm, brilliant luster of solid gold! Trembling with disbelief, he carried it to a goldsmith in the town, who weighed it and handed him a bag of silver coins, confirming it was pure, unalloyed gold.\n\nEvery morning thereafter, the miraculous goose laid another solid golden egg. The peasant and his wife quickly sold the eggs, bought fine velvet garments, built a luxurious manor house, and hired servants to attend their every whim.\n\nYet as their wealth expanded, an insatiable greed took root in their hearts. They grew impatient with receiving only one golden egg each morning. \"Why should we wait day after day for a single egg?\" whispered the greedy wife over dinner. \"Inside that bird there must surely be a vast mountain of pure gold! If we cut her open, we can seize the entire treasury all at once and become richer than the king before nightfall!\"\n\nBlinded by covetousness, the peasant seized a heavy carving knife and slaughtered the miraculous goose. But when he cut the bird open, to his utter horror, her internal organs were identical in every way to those of an ordinary farmyard fowl! There was no hidden store of gold within.\n\nThe foolish couple fell to their knees in weeping despair. In their blind greed to possess everything at once, they had slain the gentle creature that provided their fortune, leaving themselves with only regret and the bitter memory of what they had squandered.",
-  "moral": "Greed that seeks all at once destroys the very source of steady prosperity.",
+  "full_text": "ஒரு கிராமத்தில் ஏழை விவசாயி ஒருவன் தன் மனைவியுடன் எளிய குடிசையில் வாழ்ந்து வந்தான். அவர்கள் வளர்த்து வந்த வாத்து ஒன்று, ஒரு நாள் காலையில் மின்னும் ஒரு தங்க முட்டையை இட்டது! விவசாயி தன் கண்களையே நம்ப முடியாமல் அதை எடுத்துச் சென்று பொற்கொல்லனிடம் விற்று ஏராளமான பணம் பெற்றான்.\n\nமறுநாளும் அதே வாத்து மீண்டும் ஒரு தங்க முட்டையை இட்டது. இப்படியே தினமும் காலையில் ஒரு தங்க முட்டை கிடைத்தது. சில மாதங்களிலேயே விவசாயி ஊரிலேயே மிகப்பெரிய பணக்காரனாக மாறினான். பெரிய மாளிகையைக் கட்டினான்.\n\nஆனால் பண வரவு கூடக் கூட அவனது மனதில் பேராசையும் வளர்ந்தது. 'தினமும் ஒரே ஒரு முட்டை மட்டுமே கிடைக்கிறது. வாத்தின் வயிற்றுக்குள் நிச்சயமாக ஒரு பெரிய தங்கச் சுரங்கமே இருக்க வேண்டும்! ஒரே நாளில் வாத்தை அறுத்து அத்தனை தங்கத்தையும் எடுத்துவிட்டால் நான் உலகிலேயே மிகப்பெரிய பணக்காரனாகி விடுவேனே!' என்று நினைத்தான்.\n\nஅவன் மனைவி தடுத்தும் கேளாமல், ஒரு கூரிய கத்தியை எடுத்து வாத்தின் வயிற்றை அறுத்தெறிந்தான். ஆனால் உள்ளே மற்ற சாதாரண வாத்துகளைப் போலத்தான் ரத்தமும் சதையும் இருந்தது, ஒரு துளி தங்கம்கூட இல்லை. இறந்துபோன வாத்தைப் பார்த்து விவசாயி தலையில் அடித்துக்கொண்டு கதறி அழுதான். ஆனால் காலம் கடந்த வருத்தம் அவனது வாத்தை மீண்டும் உயிர்ப்பிக்க முடியவில்லை.",
+  "moral": "இருப்பதை வைத்து மனநிறைவு அடையாத பேராசை, உள்ளதையும் அழித்துவிடும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Goose That Laid the Golden Eggs illustration from the Aesop's Fables collection.",
-  "word_count": 318,
-  "reading_time": "3 min",
-  "listen_time": "3 min",
+  "word_count": 141,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
@@ -78,38 +78,30 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பொற்கொல்லன்",
+      "meaning": "தங்க நகைகளையும் நாணயங்களையும் செய்யும் கைவினைஞர்"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "பேராசை",
+      "meaning": "அளவுக்கு அதிகமாக அடைய நினைக்கும் தீராத ஆசை"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "மனநிறைவு",
+      "meaning": "கிடைத்தவற்றில் மகிழ்ச்சியோடு வாழும் மனப்பக்குவம்"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Goose That Laid the Golden Eggs\"?"
+      "prompt": "வாத்து விவசாயிக்கு தினமும் என்ன தந்தது?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why is the moral \"Those who have plenty want more and so lose all they have.\" meaningful in daily life?"
-    },
-    {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "prompt": "விவசாயி வாத்தை அறுக்கத் துணிந்தது ஏன்?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "prompt": "பொறுமையின்றி குறுகிய வழியில் பெரும் செல்வம் தேட நினைப்பது எத்தகைய இழப்புகளைத் தரும்?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

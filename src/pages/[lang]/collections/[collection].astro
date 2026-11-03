@@ -58,7 +58,14 @@ const t = getT(currentLang);
 const colSlug = propColSlug || collection?.replace(new RegExp(`^${currentLang}-collection-`), '') || 'world-folktales';
 
 const collectionStories = getStoriesByCollection(currentLang, rawCollection);
-const matchingStories = collectionStories.filter(s => s.reviewed !== false && s.status === 'published');
+const matchingStories = collectionStories
+  .filter(s => s.reviewed !== false && s.status === 'published')
+  .sort((a, b) => {
+    if (currentLang === 'en') return 0;
+    const aTr = isStoryTranslated(a, currentLang) ? 1 : 0;
+    const bTr = isStoryTranslated(b, currentLang) ? 1 : 0;
+    return bTr - aTr;
+  });
 const firstStory = matchingStories[0] || null;
 
 const collectionIntros: Record<string, string> = {
@@ -230,8 +237,11 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${curren
         const cleanSummary = (story.summary || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim();
         return (
           <article
+            id={story.slug}
             class={`story-card group p-3.5 sm:p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-lg transition-all flex flex-col justify-between ${idx >= 12 ? 'hidden' : ''}`}
             data-index={idx}
+            data-slug={story.slug}
+            data-id={story.id}
             data-title={cleanTitle.toLowerCase()}
             data-summary={cleanSummary.toLowerCase()}
             data-audience={aud}
@@ -402,5 +412,16 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${curren
       visibleLimit += 12;
       updateCards();
     });
+  }
+
+  // Handle URL hash navigation for direct story anchors (e.g. #akbar-birbal-13-the-boy-who-wanted-to-meet-akbar-ta)
+  if (window.location.hash) {
+    const rawHash = window.location.hash.slice(1);
+    const targetCard = document.getElementById(rawHash) || document.querySelector(`[data-id="${rawHash}"]`) || document.querySelector(`[data-slug="${rawHash}"]`);
+    if (targetCard) {
+      targetCard.classList.remove('hidden');
+      targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      targetCard.classList.add('ring-4', 'ring-[#D97706]');
+    }
   }
 </script>

@@ -132,12 +132,12 @@
     "id": "panchatantra-1.1-the-wedge-pulling-monkey",
     "slug": "panchatantra-1.1-the-wedge-pulling-monkey-hi",
     "language": "hi",
-    "title": "The Wedge-Pulling Monkey",
+    "title": "बंदर और लकड़ी का खूंटा",
     "genre": "Fables",
     "collection": "Panchatantra",
     "culture_region": "India",
     "age_group": "Below 13",
-    "summary": "In the outskirts of a flourishing town, a wealthy merchant began the construction of an expansive temple dedicated to the welfare of trav...",
+    "summary": "बढ़ई के काम में अनावश्यक दखल देने वाले एक चंचल बंदर की कहानी, जो बिना सोचे-समझे किए गए कार्यों के दुष्परिणाम बताती है।",
     "keywords": [
       "panchatantra",
       "the wedge-pulling monkey",
@@ -152,13 +152,13 @@
       "bedtime-story",
       "wisdom"
     ],
-    "full_text": "In the outskirts of a flourishing town, a wealthy merchant began the construction of an expansive temple dedicated to the welfare of travelers. Skilled carpenters, sawyers, and masons worked daily upon the site, hewing giant trunks of sal and teak into pillars, beams, and decorative cornices.\n\nOne sweltering noon, the master woodcutters were sawing halfway through a colossal timber log. To prevent the heavy cleft from snapping shut and binding the iron saw blade while they went to the nearby grove to eat their midday meal of rice and curds, the chief carpenter drove a stout, tapered wedge of khadira wood firmly into the open split.\n\nShortly after the workmen departed, a troop of wild, mischievous monkeys that inhabited the temple groves swung down from the branches to explore the abandoned construction site. They leaped upon the scaffolding, overturned baskets of lime, and rolled the iron chisels across the flagstones.\n\nAmong them was a young, reckless, and intensely curious monkey who could never let anything rest. Seeing the immense split log lying upon the ground, he hopped onto it, straddling the timber right over the open seam. His eyes fastened upon the wooden wedge projecting between the two halves.\n\n'What a strange peg!' chattered the foolish creature. 'Why did those two-legged builders hammer it so tightly between these logs? I must discover what happens when it is loosened!'\n\nIgnoring the uneasy silence of the clearing and his companions' warnings, the meddlesome monkey gripped the stout wedge with both hands, bracing his feet against the timber. He pulled, wrenched, and tugged with all his might. The wedge creaked, loosened slightly, and gave way.\n\nIn that instant, the enormous tension of the split log released with the force of an iron spring. The two massive halves slammed shut with a sickening thud, trapping the wretched monkey by his tail and legs. He shrieked in agony, unable to free himself, and perished miserably before the carpenters returned from their meal.\n\nRelating this tale to his ambitious brother Damanaka, the wise jackal Karataka observed:\n\"He who thrusts his hand into a cleft he did not make,\nAnd meddles in another's work for idle curiosity's sake,\nShall find the trap spring shut upon his folly and his pride,\nLike the reckless forest monkey who pulled the wedge and died.\"",
-    "moral": "He who meddles in affairs that do not concern him invites swift and certain disaster.",
+    "full_text": "एक नगर के बाहर एक विशाल मंदिर का निर्माण चल रहा था। वहाँ बहुत से बढ़ई और शिल्पी लकड़ी के भारी शहतीरों को चीरने का काम कर रहे थे। दोपहर के समय सभी कारीगर अपने औज़ार रखकर भोजन करने के लिए पास के नगर में चले गए।\n\nएक बढ़ई आधे चीरे हुए एक भारी शहतीर के बीच में लकड़ी का एक मज़बूत खूंटा ठोक कर गया था, ताकि लकड़ी वापस आपस में जुड़ न जाए और चीरने की जगह खुली रहे।\n\nउसी समय पेड़ों पर रहने वाले बंदरों का एक झुंड वहाँ आया। वे निर्माण स्थल पर रखी चीज़ों के साथ उछल-कूद करने लगे। उन्हीं में एक अत्यंत चंचल और हठी बंदर था। वह उस आधे चीरे हुए शहतीर पर जाकर बैठ गया। खूंटे को देखकर उसने सोचा, 'यह लकड़ी यहाँ क्यों फँसी है? इसे बाहर निकाल कर देखता हूँ!'\n\nअन्य बंदरों ने उसे मना किया, किंतु उसने किसी की बात नहीं सुनी। वह दोनों हाथों से उस खूंटे को ज़ोर-ज़ोर से हिलाने लगा। जैसे ही उसने पूरा ज़ोर लगाकर खूंटा बाहर खींचा, चीरा हुआ शहतीर बड़े ज़ोर से आपस में भिड़ गया और बंदर का शरीर उसमें बुरी तरह फँस गया। बिना सोचे-समझे दूसरों के काम में दखल देने के कारण उसने अपने प्राण गँवा दिए।",
+    "moral": "जिस काम का हमें ज्ञान न हो, उसमें बिना कारण टाँग अड़ाना केवल विनाश की ओर ले जाता है।",
     "image": "/images/stories/panchatantra.webp",
     "image_alt": "The Wedge-Pulling Monkey illustration from the Panchatantra collection.",
-    "word_count": 384,
-    "reading_time": "3 min",
-    "listen_time": "4 min",
+    "word_count": 207,
+    "reading_time": "2 min",
+    "listen_time": "2 min",
     "audio_url": null,
     "publish_date": "2026-03-25",
     "is_bedtime": true,
@@ -209,38 +209,30 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "शिल्पी",
+        "meaning": "मूर्ति या भवन निर्माण करने वाला कुशल कारीगर"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "शहतीर",
+        "meaning": "मकान की छत या सहारे के लिए इस्तेमाल होने वाली मोटी लकड़ी"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "हठी",
+        "meaning": "अपनी ज़िद पर अड़े रहने वाला"
       }
     ],
     "discussion_questions": [
       {
         "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"The Wedge-Pulling Monkey\"?"
+        "prompt": "बढ़ई ने लकड़ी के बीच में खूंटा क्यों लगाया था?"
       },
       {
         "tier": "Understand",
-        "prompt": "Why is the moral \"Wisdom, patience, and kind conduct lead to peace and happiness.\" meaningful in daily life?"
+        "prompt": "बंदर की किस आदत के कारण उसकी जान गई?"
       },
       {
         "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
-      },
-      {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "prompt": "दूसरों के कार्य में बिना समझे हस्तक्षेप न करने के क्या लाभ हैं?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -1166,12 +1158,12 @@
     "id": "panchatantra-1.9-numskull-and-the-rabbit",
     "slug": "panchatantra-1.9-numskull-and-the-rabbit-hi",
     "language": "hi",
-    "title": "Numskull and the Rabbit",
+    "title": "शेर और चतुर खरगोश",
     "genre": "Fables",
     "collection": "Panchatantra",
     "culture_region": "India",
     "age_group": "Below 13",
-    "summary": "In a vast and verdant jungle dwelt a ferocious, bloodthirsty lion named Bhasuraka, or Numskull. Possessing colossal muscles and razor-sha...",
+    "summary": "भासुरक नाम के अहंकारी और निर्दयी शेर को अपनी बुद्धि से कुएँ में डुबोकर जंगल को मुक्त कराने वाले छोटे खरगोश की अमर कथा।",
     "keywords": [
       "panchatantra",
       "numskull and the rabbit",
@@ -1186,13 +1178,13 @@
       "bedtime-story",
       "wisdom"
     ],
-    "full_text": "In a vast and verdant jungle dwelt a ferocious, bloodthirsty lion named Bhasuraka, or Numskull. Possessing colossal muscles and razor-sharp claws, he slaughtered forest animals indiscriminately, killing deer, boars, and antelopes for mere amusement long after his belly was full. The jungle echoed day and night with the terrified cries of hunted beasts.\n\nSeeing their numbers rapidly decimated, the surviving animals—jackals, deer, boars, and rabbits—assembled under the shade of a sacred banyan to devise a plan for mutual preservation. Selecting their elder representatives, they approached Bhasuraka's cave with humble prostrations.\n\n'O mighty Sovereign of the Forest!' spoke the elder deer. 'Why do you slaughter all your subjects in wasteful fury? If you exterminate us, who will remain to call you King? We come with a humble petition: remain peacefully in your royal cavern, and we pledge that every single day at noon, one animal chosen by lot shall present itself at your threshold for your royal meal. Thus you shall be fed without the toil of hunting, and our species shall not perish from the earth.'\n\nNumskull pondered the offer and roared: 'Very well! But mark this condition: if a plump beast does not arrive at my cave each day before the shadow falls across the rock, I will resume my slaughter and devour every living creature in the woods!'\n\nFor months, the compact was observed. Each day, an animal chosen by lot surrendered its life to preserve the rest.\n\nAt last, the fateful lot fell upon an old, diminutive hare named Manduka. The weeping hares bid him farewell, but Manduka resolved not to die meekly. 'Brute force without wisdom is nothing,' thought the clever rabbit. 'I will use this tyrant's own arrogance and rage to destroy him.'\n\nInstead of hastening to the lion's cave, the rabbit ambled leisurely through the forest, stopping to nibble succulent green clover, drink cool dew from fern leaves, and rest beneath flowering bushes. The sun climbed to its zenith and began to descend toward the western hills.\n\nInside his cavern, Numskull paced the floor, his stomach growling with ravenous hunger. 'The midday hour has passed!' roared the beast, gnashing his fangs. 'The animals have mocked me! Tomorrow morning, I will scour every thicket and slaughter every creature in the forest!'\n\nJust as twilight settled, the little hare hopped casually into the cave, bowing with exaggerated reverence.\n\nNumskull glared down upon him with bloodshot eyes: 'Insolent mite! You are so tiny you will not make half a mouthful for my tooth, and yet you dare to keep me waiting until nightfall? Tell me why I should not tear you to ribbons before I exterminate your entire race?'\n\nManduka replied with trembling humility: 'Sire! The fault is neither mine nor that of the woodland animals. Five fat hares were dispatched this morning for your royal banquet. But on the highway, a colossal lion of terrifying stature leaped from an underground fortress and seized us! He roared: \"Where are you taking these hares? This forest belongs to me, King Bhasuraka is an imposter and a thief, and I will devour anyone who honors him!\"'\n\n'I pleaded with him,' continued the rabbit, 'saying that we belonged to the true monarch. The stranger laughed and released me, commanding: \"Run to that coward Bhasuraka, tell him to meet me at my fortress, and whichever lion proves stronger in battle shall rule the forest alone!\" That, Sire, is why I am late.'\n\nNumskull's vanity exploded into blind fury. His mane bristled and his roar shook the cavern walls: 'An imposter dares to claim my kingdom? Lead me to this insolent scoundrel immediately, and I will tear his heart from his ribs!'\n\n'Follow me, Sire,' said the rabbit, hopping briskly through the woods.\n\nHe led the enraged tyrant to a secluded clearing where an ancient, deep stone well was filled to the brim with crystal-clear water. 'He hides in his water-fortress, Sire,' whispered the rabbit, pointing to the mossy rim. 'He saw you coming and retreated inside.'\n\nNumskull leaped upon the stone coping and peered down into the depths. There, in the mirror-smooth surface of the dark water, he saw the perfect reflection of a colossal lion with bristling mane and blazing eyes, accompanied by a little hare!\n\nMistaking his own reflection for the rival monarch, Numskull unleashed a deafening roar of challenge: 'ROAAAR!'\n\nThe deep, echo-chamber of the stone cylinder magnified the roar and flung it back with terrifying force: 'ROAAAR!'\n\nBelieving the challenger was roaring back with double fury, Numskull lost all reason. Gathering his colossal hind legs, he hurled himself headlong into the deep well to tear his enemy apart. He struck the cold water, his heavy head cracked against the bottom stones, and he drowned in the dark depths.\n\nThe clever little rabbit hopped back to the banyan grove, singing with joy. The forest animals rejoiced, hailing the tiny hare as their savior, and lived forever in freedom and peace.\n\nThus Vishnu Sharma taught:\n\"He who possesses intellect possesses supreme might;\nThe physically strong who lacks all wit falls helpless in the fight;\nBehold the monstrous Numskull who made the mountains shake,\nCast down to drown within a well by one diminutive hare.\"",
-    "moral": "Intelligence is true strength; a diminutive creature with wit can destroy a ferocious tyrant.",
+    "full_text": "एक घने जंगल में भासुरक नाम का एक अत्यंत बलशाली और क्रूर सिंह रहता था। वह अपनी भूख मिटाने के लिए प्रतिदिन अनगिनत निर्दोष पशुओं का संहार करता था। जंगल के सभी जीव उसके भय से त्रस्त थे। एक दिन हिरण, चीतल, रीछ और खरगोशों ने मिलकर सिंह से प्रार्थना की।\n\n'महाराज! आप व्यर्थ में सभी पशुओं को मत मारिए। हम वचन देते हैं कि आपके भोजन के लिए रोज़ एक पशु नियम से आपकी गुफा में स्वयं आ जाया करेगा।' सिंह ने उनकी बात मान ली।\n\nएक दिन एक बुद्धिमान छोटे खरगोश की बारी आई। उसने मन ही मन सोचा, 'मृत्यु तो निश्चित है, किंतु यदि बुद्धि से काम लूँ तो पूरे जंगल को इस अत्याचारी से सदा के लिए मुक्ति मिल सकती है।' वह रास्ते में जान-बूझकर रुकता-ठहरता हुआ शाम के समय सिंह की गुफा में पहुँचा। भूख से बेहाल सिंह क्रोध से लाल-पीला हो रहा था। उसने दहाड़कर पूछा, 'एक तो तू इतना छोटा है, ऊपर से इतनी देर से क्यों आया?'\n\nखरगोश ने कांपते हुए बहाना बनाया, 'महाराज! मेरे साथ चार अन्य खरगोश आ रहे थे, किंतु रास्ते में एक दूसरे भारी सिंह ने हमें रोक लिया। उसने कहा कि वह इस जंगल का नया राजा है। मैं किसी प्रकार जान बचाकर आपको सूचना देने आया हूँ।' भासुरक आगबबूला हो उठा और बोला, 'मुझे तुरंत उसके पास ले चल!' खरगोश उसे एक गहरे प्राचीन कुएँ के पास ले गया। जब शेर ने कुएँ में झाँका, तो उसे पानी में अपनी ही परछाईं दिखाई दी। उसने उसे दूसरा शेर समझकर भीषण दहाड़ मारी और उसे मारने के लिए कुएँ में छलांग लगा दी। शेर गहरे पानी में डूबकर मर गया और पूरे जंगल ने खरगोश की जय-जयकार की।",
+    "moral": "शारीरिक शक्ति की तुलना में बुद्धि बल श्रेष्ठ होता है; धैर्य और युक्ति से बड़े से बड़े संकट को टाला जा सकता है।",
     "image": "/images/stories/panchatantra.webp",
     "image_alt": "Numskull and the Rabbit illustration from the Panchatantra collection.",
-    "word_count": 865,
-    "reading_time": "6 min",
-    "listen_time": "8 min",
+    "word_count": 281,
+    "reading_time": "3 min",
+    "listen_time": "3 min",
     "audio_url": null,
     "publish_date": "2026-03-25",
     "is_bedtime": true,
@@ -1243,38 +1235,30 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "संहार",
+        "meaning": "पूरी तरह से नष्ट या वध करना"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "अत्याचारी",
+        "meaning": "दूसरों पर ज़ुल्म करने वाला कठोर व्यक्ति"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "आगबबूला",
+        "meaning": "अत्यधिक क्रोधित होना"
       }
     ],
     "discussion_questions": [
       {
         "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"Numskull and the Rabbit\"?"
+        "prompt": "खरगोश ने शेर के पास देर से पहुँचने का क्या कारण बताया?"
       },
       {
         "tier": "Understand",
-        "prompt": "Why is the moral \"Wisdom, patience, and kind conduct lead to peace and happiness.\" meaningful in daily life?"
+        "prompt": "शेर ने कुएँ में छलांग क्यों लगाई?"
       },
       {
         "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
-      },
-      {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "prompt": "कठिन परिस्थिति में शारीरिक बल से अधिक मानसिक शांति क्यों ज़रूरी है?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

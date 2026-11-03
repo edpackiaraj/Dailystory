@@ -72940,12 +72940,12 @@
     "id": "aesops-fables-1-the-fox-and-the-grapes",
     "slug": "aesops-fables-1-the-fox-and-the-grapes-es",
     "language": "es",
-    "title": "The Fox and the Grapes",
+    "title": "La zorra y las uvas",
     "genre": "Fables",
     "collection": "Aesop's Fables",
     "culture_region": "Ancient Greece / Classical Folklore",
     "age_group": "Below 13",
-    "summary": "On a sweltering summer afternoon, a sly fox strolled through an orchard bathed in warm sunlight. His throat was parched, and his stomach rumbled with hunger. As he reached a high g...",
+    "summary": "Una zorra hambrienta intenta alcanzar unos racimos de uvas maduras en una parra alta; al no lograrlo, finge desdén diciendo que están verdes.",
     "keywords": [
       "aesop's fables",
       "the fox and the grapes",
@@ -72960,13 +72960,13 @@
       "bedtime-story",
       "wisdom"
     ],
-    "full_text": "On a sweltering summer afternoon, a sly fox strolled through an orchard bathed in warm sunlight. His throat was parched, and his stomach rumbled with hunger. As he reached a high garden wall, his amber eyes caught sight of a magnificent grapevine that wound its way along a tall wooden trellis. Hanging overhead were rich, luscious clusters of dark purple grapes, glistening with delicate drops of morning dew and bursting with sweet, cool juice.\n\nThe fox licked his whiskers and grinned. \"Here is a feast fit for an emperor,\" he muttered, stepping back a few paces to gain momentum. With a graceful leap, he sprang high into the air with jaws wide open, but his teeth snapped on empty air, missing the lowest bunch by mere inches.\n\nRefusing to admit defeat, the fox backed up further into the dusty furrow, gathered all his strength, and sprang upward once more. Again he fell short, tumbling onto the soft earth. Three, four, five times he leaped, straining every muscle in his russet body until his breath came in ragged wheezes and his legs trembled with exhaustion.\n\nLooking up at the purple prize that hung tantalizingly out of reach, the fox curled his snout into an arrogant sneer. He brushed the dust from his bushy tail and announced loudly to the listening birds: \"Why should I waste my precious energy on such wretched fruit? I can see plainly from here that they are completely green and sour, unfit for a gentleman's palate!\" And with his head held high in pretended disgust, he trotted away through the briers.",
-    "moral": "It is easy to despise and pretend to scorn what you cannot possess.",
+    "full_text": "En una calurosa tarde de verano, una zorra hambrienta vagaba por los campos en busca de sustento. Tras cruzar varios senderos polvorientos, llegó a una hermosa viña cultivada junto a un muro de piedra. En lo alto de una pérgola colgaban racimos de uvas grandes, moradas y relucientes por el rocío matinal.\n\nA la zorra se le hizo agua la boca al contemplar aquel manjar tan jugoso. Dio unos pasos hacia atrás, tomó carrerilla y saltó con todas sus fuerzas estirando las patas delanteras. Sin embargo, los racimos estaban demasiado altos y sus garras solo rozaron el aire.\n\nSin desanimarse de inmediato, volvió a intentarlo una y otra vez. Saltó desde diferentes ángulos, trepó sobre unas piedras e intentó impulsarse con desesperación, pero sus esfuerzos resultaron vanos. Exhausta y con la respiración entrecortada, comprendió que jamás alcanzaría las uvas.\n\nPara disimular su derrota y salvar su orgullo ante los pájaros que la observaban desde las ramas, alzó el hocico con desdén y dijo en voz alta: '¡Bah! Después de todo, están completamente verdes y amargas. Si las comiera, me dolería el estómago'. Y dicho esto, se alejó con paso altivo intentando ocultar su fracaso.",
+    "moral": "Es fácil despreciar lo que no se puede conseguir por propia incapacidad.",
     "image": "/images/stories/aesop.webp",
     "image_alt": "The Fox and the Grapes illustration from the Aesop's Fables collection.",
-    "word_count": 264,
+    "word_count": 194,
     "reading_time": "2 min",
-    "listen_time": "3 min",
+    "listen_time": "2 min",
     "audio_url": null,
     "publish_date": "2026-03-25",
     "is_bedtime": true,
@@ -73016,38 +73016,30 @@
     "reading_level": "Intermediate",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "desdén",
+        "meaning": "Actitud de indiferencia o desprecio hacia algo o alguien"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "pérgola",
+        "meaning": "Estructura de postes sobre la que crecen plantas trepadoras como la vid"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "manjar",
+        "meaning": "Comida exquisita y sumamente agradable al paladar"
       }
     ],
     "discussion_questions": [
       {
         "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"The Fox and the Grapes\"?"
+        "prompt": "¿Qué vio la zorra en lo alto de la pérgola?"
       },
       {
         "tier": "Understand",
-        "prompt": "Why is the moral \"It is easy to despise what you cannot get.\" meaningful in daily life?"
+        "prompt": "¿Por qué afirmó la zorra que las uvas estaban verdes?"
       },
       {
         "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
-      },
-      {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "prompt": "¿Cómo debemos reaccionar cuando no logramos algo en lugar de poner pretextos?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -73069,12 +73061,12 @@
     "id": "aesops-fables-2-the-tortoise-and-the-hare",
     "slug": "aesops-fables-2-the-tortoise-and-the-hare-es",
     "language": "es",
-    "title": "The Tortoise and the Hare",
+    "title": "La liebre y la tortuga",
     "genre": "Fables",
     "collection": "Aesop's Fables",
     "culture_region": "Ancient Greece / Classical Folklore",
     "age_group": "Below 13",
-    "summary": "A boastful hare never tired of mocking the woodland creatures for their slow pace, reserving his sharpest jeers for the quiet tortoise. \"Look at you, my plodding friend!\" the hare...",
+    "summary": "La célebre carrera entre la veloz y confiada liebre y la perseverante tortuga, una lección inmortal sobre la constancia.",
     "keywords": [
       "aesop's fables",
       "the tortoise and the hare",
@@ -73089,11 +73081,11 @@
       "bedtime-story",
       "wisdom"
     ],
-    "full_text": "A boastful hare never tired of mocking the woodland creatures for their slow pace, reserving his sharpest jeers for the quiet tortoise. \"Look at you, my plodding friend!\" the hare laughed, bounding in swift circles around the turtle. \"You carry your house upon your back and take an hour to cross a single cabbage patch! I am the swiftest runner in all the realm; no beast has ever outstripped my stride.\"\n\nThe tortoise blinked his ancient, patient eyes and replied with calm dignity, \"Your legs are swift indeed, friend Hare, but boastful pride often stumbles. I challenge you to a footrace across the valley to the ancient boundary oak.\"\n\nThe hare laughed so heartily he fell into the clover. \"A race against you? What a merry jest! Let the fox mark the course!\"\n\nThe woodland animals gathered at dawn. At the fox's sharp bark, the hare shot forward like an arrow released from a bow, vanishing over the green rise in a cloud of dust. The tortoise simply tucked in his chin and placed one heavy foot after the other, moving forward with quiet, unyielding rhythm.\n\nHalfway along the dusty course, seeing the tortoise was not even within sight, the hare felt confident and bored. \"I have hours to spare,\" he thought, settling down beneath the cool shade of a blossoming apple tree. \"A brief nap will refresh me, and I can still overtake that plodder with three bounds before the finish line.\" The hare closed his eyes and sank into deep slumber.\n\nMeanwhile, the sun climbed high and began its slow descent. The tortoise neither stopped to rest nor turned aside for sweet clover. Step by steady step, his scaly claws gripped the earth. As twilight painted the hills with amber gold, the hare awoke with a start and sprinted desperately toward the boundary oak. But to his dismay, the entire forest erupted in cheers: the patient tortoise had already crossed the finish line, smiling serenely as he proved that steady determination conquers careless speed.",
-    "moral": "Slow and steady perseverance wins the race over boastful arrogance.",
+    "full_text": "En un verde bosque habitaba una liebre muy orgullosa de su velocidad. Pasaba los días jactándose de ser el animal más rápido de la comarca y burlándose de la lentitud de los demás, en particular de una tranquila tortuga que caminaba con paso firme pero pausado.\n\nUn día, cansada de tantas burlas, la tortuga la miró serenamente y le dijo: 'Amiga liebre, eres tan veloz como el viento, pero te aseguro que en una carrera larga podría vencerte'. La liebre soltó una carcajada estrepitosa y aceptó el reto al instante para divertirse a costa de su vecina. El zorro fue elegido como juez y trazó la meta junto a un viejo roble en la colina.\n\nAl darse la señal de partida, la liebre salió disparada como una flecha, dejando una nube de polvo tras de sí. Al llegar a la mitad del trayecto y comprobar que la tortuga apenas había avanzado unos metros, pensó con suficiencia: 'Tengo tiempo de sobra; tomaré una pequeña siesta bajo la sombra fresca de este laurel'. Se acomodó en la hierba y se quedó profundamente dormida.\n\nMientras tanto, la tortuga no se detuvo ni un solo instante. Paso a paso, con esfuerzo constante y sin mirar atrás, avanzó sin descanso por el sendero pedregoso. Pasó silenciosamente al lado de la liebre dormida y continuó hacia la cima. Cuando la liebre despertó sobresaltada por los vítores de los animales, corrió a toda prisa, pero ya era tarde: la tortuga acababa de cruzar la línea de meta, coronándose como victoriosa.",
+    "moral": "La constancia, la paciencia y el esfuerzo continuo vencen al exceso de confianza y a la arrogancia.",
     "image": "/images/stories/aesop.webp",
     "image_alt": "The Tortoise and the Hare illustration from the Aesop's Fables collection.",
-    "word_count": 336,
+    "word_count": 253,
     "reading_time": "3 min",
     "listen_time": "3 min",
     "audio_url": null,
@@ -73145,38 +73137,30 @@
     "reading_level": "Intermediate",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "jactarse",
+        "meaning": "Alabarse públicamente y con vanidad de los propios méritos"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "perseverancia",
+        "meaning": "Firmeza y constancia en la realización de un propósito"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "suficiencia",
+        "meaning": "Actitud de quien se cree superior o sobrado de capacidades"
       }
     ],
     "discussion_questions": [
       {
         "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"The Tortoise and the Hare\"?"
+        "prompt": "¿Dónde decidió la liebre tomar una siesta?"
       },
       {
         "tier": "Understand",
-        "prompt": "Why is the moral \"Slow and steady wins the race.\" meaningful in daily life?"
+        "prompt": "¿Por qué ganó la tortuga a pesar de ser mucho más lenta?"
       },
       {
         "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
-      },
-      {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "prompt": "¿De qué manera el estudio constante supera a estudiar a última hora con exceso de confianza?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -73327,12 +73311,12 @@
     "id": "aesops-fables-4-the-lion-and-the-mouse",
     "slug": "aesops-fables-4-the-lion-and-the-mouse-es",
     "language": "es",
-    "title": "The Lion and the Mouse",
+    "title": "El león y el ratón",
     "genre": "Fables",
     "collection": "Aesop's Fables",
     "culture_region": "Ancient Greece / Classical Folklore",
     "age_group": "Below 13",
-    "summary": "A mighty lion, weary from hunting across the sun-drenched savannah, lay sleeping peacefully beneath the sprawling shade of an ancient baobab tree. His massive golden mane rippled i...",
+    "summary": "Un poderoso león perdona la vida a un diminuto ratoncito, quien más tarde lo rescata royendo las cuerdas de una trampa de cazadores.",
     "keywords": [
       "aesop's fables",
       "the lion and the mouse",
@@ -73347,11 +73331,11 @@
       "bedtime-story",
       "wisdom"
     ],
-    "full_text": "A mighty lion, weary from hunting across the sun-drenched savannah, lay sleeping peacefully beneath the sprawling shade of an ancient baobab tree. His massive golden mane rippled in the breeze, and his deep snores stirred the dust around his great paws.\n\nA timid little field mouse, scurrying through the tall grass in search of seeds, did not notice the sleeping predator and inadvertently ran straight across the lion's broad nose.\n\nStartled from his nap, the furious king of beasts struck out with lightning speed. His heavy paw clamped down upon the tiny creature, pinning her helpless against the hard ground. Opening his cavernous jaws, the lion prepared to crush the mouse in a single bite.\n\n\"Spare me, O King!\" squeaked the terrified mouse, trembling in every whisker. \"I meant no disrespect! I was running blindly from a hawk. Forgive my clumsy blunder! If you grant me my life, I promise that one day I will repay your royal mercy!\"\n\nThe lion let out a roar of thunderous laughter that shook the surrounding acacia branches. \"Repay me? A wretched, insignificant speck of fur repay the sovereign of the forest? What an absurd fancy!\" Yet, amused by her sheer boldness, the lion lifted his paw and let the tiny creature scurry safely into the rocks.\n\nA few days later, while patrolling his territory, the lion walked into a hunter's concealed trap. Strong hemp cords snapped tight around his limbs, hoisting him helpless into a heavy rope net. The mighty beast roared in fury and thrashing anguish, but every struggle only tightened the knots.\n\nHearing that familiar, desperate roar echoing through the ravines, the little mouse rushed to the scene. Without hesitation, she set her sharp, needle-like teeth against the thickest cord, gnawing with frantic determination until the fibers frayed and snapped. One by one, she severed the binding ropes until the great king stepped down, completely free.\n\nLooking down at his tiny deliverer with humble reverence, the lion bowed his great head: \"You were right, little friend. Today you have taught the King of the Forest that even the smallest heart can save the mighty.\"",
-    "moral": "No act of kindness, however small, is ever wasted; little friends may prove great allies.",
+    "full_text": "Dormía plácidamente un majestuoso león bajo la sombra de un árbol frondoso cuando un pequeño ratón de campo, correteando sin fijarse, tropezó y subió por su lomo. El león despertó bruscamente y, con un rápido movimiento de su garra, atrapó al asustado roedor entre sus garras afiladas.\n\nEl ratoncito, temblando de pavor, imploró clemencia con voz débil: '¡Oh, gran rey de la selva! Por favor, perdóname la vida. No fue mi intención molestarte. Si me dejas marchar, jamás lo olvidaré y tal vez algún día pueda devolverte el favor'. El león se echó a reír a carcajadas ante la idea de que una criatura tan insignificante pudiera servirle de ayuda, pero conmovido por su súplica, levantó la pata y lo dejó marchar en libertad.\n\nPocos días después, mientras rondaba en busca de presa, el león cayó en una resistente red tendida por cazadores furtivos. Al intentar zafarse, las cuerdas se apretaron con más fuerza y sus rugidos de angustia resonaron por toda la llanura.\n\nAl escuchar el lamento del león, el ratoncito reconoció la voz de su benefactor y corrió de inmediato al lugar. Sin dudarlo un segundo, se puso a roer con sus afilados dientes las gruesas cuerdas de la trampa. Con paciencia y tenacidad, rompió varios nudos clave hasta que la red cedió por completo, permitiendo que el gran monarca quedara libre. Desde aquel día, el rey de la selva y el diminuto ratón fueron los amigos más leales del bosque.",
+    "moral": "Ningún acto de bondad es en vano; incluso los más pequeños y humildes pueden prestar gran auxilio a los poderosos.",
     "image": "/images/stories/aesop.webp",
     "image_alt": "The Lion and the Mouse illustration from the Aesop's Fables collection.",
-    "word_count": 353,
+    "word_count": 243,
     "reading_time": "3 min",
     "listen_time": "3 min",
     "audio_url": null,
@@ -73403,38 +73387,30 @@
     "reading_level": "Intermediate",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "clemencia",
+        "meaning": "Compasión o moderación con que se perdona una falta o castigo"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "furtivo",
+        "meaning": "Que se hace a escondidas y de manera ilegal"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "tenacidad",
+        "meaning": "Fuerza que impulsa a continuar con firmeza hasta lograr un objetivo"
       }
     ],
     "discussion_questions": [
       {
         "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"The Lion and the Mouse\"?"
+        "prompt": "¿Por qué se rio el león cuando el ratón prometió ayudarle?"
       },
       {
         "tier": "Understand",
-        "prompt": "Why is the moral \"Little friends may prove great friends.\" meaningful in daily life?"
+        "prompt": "¿Cómo logró el ratoncito liberar al león de la red?"
       },
       {
         "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
-      },
-      {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "prompt": "¿Por qué nunca debemos juzgar o despreciar a una persona por su tamaño o apariencia?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

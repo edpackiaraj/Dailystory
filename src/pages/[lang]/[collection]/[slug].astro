@@ -8,6 +8,7 @@ import {
   getAudienceCategory,
   getLengthCategory,
   getStoryUrl,
+  isStoryTranslated,
   type Story
 } from '../../../lib/stories';
 
@@ -63,18 +64,7 @@ const cleanTitle = sanitizeTag(story.title);
 const cleanSummary = sanitizeTag(story.summary);
 const cleanMoral = sanitizeTag(story.moral);
 
-const scriptRegexes: Record<string, RegExp> = {
-  ta: /[\u0B80-\u0BFF]/,
-  hi: /[\u0900-\u097F]/,
-  mr: /[\u0900-\u097F]/,
-  te: /[\u0C00-\u0C7F]/,
-  kn: /[\u0C80-\u0CFF]/,
-  ml: /[\u0D00-\u0D7F]/,
-  zh: /[\u4E00-\u9FFF]/
-};
-const hasScript = scriptRegexes[currentLang] ? scriptRegexes[currentLang].test(story.full_text) : true;
-const isTranslated = currentLang === 'en' || hasScript;
-
+const isTranslated = isStoryTranslated(story, currentLang);
 const colSlug = getCollectionSlug(story.collection);
 const audienceKey = getAudienceCategory(story.age_group);
 const audienceLabel = audienceKey === 'kids' ? t.kids : (audienceKey === 'teens' ? t.teens : t.everyone);

@@ -2,12 +2,12 @@
   "id": "aesops-fables-2-the-tortoise-and-the-hare",
   "slug": "aesops-fables-2-the-tortoise-and-the-hare-es",
   "language": "es",
-  "title": "The Tortoise and the Hare",
+  "title": "La liebre y la tortuga",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A boastful hare never tired of mocking the woodland creatures for their slow pace, reserving his sharpest jeers for the quiet tortoise. \"Look at you, my plodding friend!\" the hare...",
+  "summary": "La célebre carrera entre la veloz y confiada liebre y la perseverante tortuga, una lección inmortal sobre la constancia.",
   "keywords": [
     "aesop's fables",
     "the tortoise and the hare",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A boastful hare never tired of mocking the woodland creatures for their slow pace, reserving his sharpest jeers for the quiet tortoise. \"Look at you, my plodding friend!\" the hare laughed, bounding in swift circles around the turtle. \"You carry your house upon your back and take an hour to cross a single cabbage patch! I am the swiftest runner in all the realm; no beast has ever outstripped my stride.\"\n\nThe tortoise blinked his ancient, patient eyes and replied with calm dignity, \"Your legs are swift indeed, friend Hare, but boastful pride often stumbles. I challenge you to a footrace across the valley to the ancient boundary oak.\"\n\nThe hare laughed so heartily he fell into the clover. \"A race against you? What a merry jest! Let the fox mark the course!\"\n\nThe woodland animals gathered at dawn. At the fox's sharp bark, the hare shot forward like an arrow released from a bow, vanishing over the green rise in a cloud of dust. The tortoise simply tucked in his chin and placed one heavy foot after the other, moving forward with quiet, unyielding rhythm.\n\nHalfway along the dusty course, seeing the tortoise was not even within sight, the hare felt confident and bored. \"I have hours to spare,\" he thought, settling down beneath the cool shade of a blossoming apple tree. \"A brief nap will refresh me, and I can still overtake that plodder with three bounds before the finish line.\" The hare closed his eyes and sank into deep slumber.\n\nMeanwhile, the sun climbed high and began its slow descent. The tortoise neither stopped to rest nor turned aside for sweet clover. Step by steady step, his scaly claws gripped the earth. As twilight painted the hills with amber gold, the hare awoke with a start and sprinted desperately toward the boundary oak. But to his dismay, the entire forest erupted in cheers: the patient tortoise had already crossed the finish line, smiling serenely as he proved that steady determination conquers careless speed.",
-  "moral": "Slow and steady perseverance wins the race over boastful arrogance.",
+  "full_text": "En un verde bosque habitaba una liebre muy orgullosa de su velocidad. Pasaba los días jactándose de ser el animal más rápido de la comarca y burlándose de la lentitud de los demás, en particular de una tranquila tortuga que caminaba con paso firme pero pausado.\n\nUn día, cansada de tantas burlas, la tortuga la miró serenamente y le dijo: 'Amiga liebre, eres tan veloz como el viento, pero te aseguro que en una carrera larga podría vencerte'. La liebre soltó una carcajada estrepitosa y aceptó el reto al instante para divertirse a costa de su vecina. El zorro fue elegido como juez y trazó la meta junto a un viejo roble en la colina.\n\nAl darse la señal de partida, la liebre salió disparada como una flecha, dejando una nube de polvo tras de sí. Al llegar a la mitad del trayecto y comprobar que la tortuga apenas había avanzado unos metros, pensó con suficiencia: 'Tengo tiempo de sobra; tomaré una pequeña siesta bajo la sombra fresca de este laurel'. Se acomodó en la hierba y se quedó profundamente dormida.\n\nMientras tanto, la tortuga no se detuvo ni un solo instante. Paso a paso, con esfuerzo constante y sin mirar atrás, avanzó sin descanso por el sendero pedregoso. Pasó silenciosamente al lado de la liebre dormida y continuó hacia la cima. Cuando la liebre despertó sobresaltada por los vítores de los animales, corrió a toda prisa, pero ya era tarde: la tortuga acababa de cruzar la línea de meta, coronándose como victoriosa.",
+  "moral": "La constancia, la paciencia y el esfuerzo continuo vencen al exceso de confianza y a la arrogancia.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Tortoise and the Hare illustration from the Aesop's Fables collection.",
-  "word_count": 336,
+  "word_count": 253,
   "reading_time": "3 min",
   "listen_time": "3 min",
   "audio_url": null,
@@ -78,38 +78,30 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "jactarse",
+      "meaning": "Alabarse públicamente y con vanidad de los propios méritos"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "perseverancia",
+      "meaning": "Firmeza y constancia en la realización de un propósito"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "suficiencia",
+      "meaning": "Actitud de quien se cree superior o sobrado de capacidades"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Tortoise and the Hare\"?"
+      "prompt": "¿Dónde decidió la liebre tomar una siesta?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why is the moral \"Slow and steady wins the race.\" meaningful in daily life?"
+      "prompt": "¿Por qué ganó la tortuga a pesar de ser mucho más lenta?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
-    },
-    {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "prompt": "¿De qué manera el estudio constante supera a estudiar a última hora con exceso de confianza?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

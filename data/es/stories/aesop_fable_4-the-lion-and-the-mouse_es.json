@@ -2,12 +2,12 @@
   "id": "aesops-fables-4-the-lion-and-the-mouse",
   "slug": "aesops-fables-4-the-lion-and-the-mouse-es",
   "language": "es",
-  "title": "The Lion and the Mouse",
+  "title": "El león y el ratón",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A mighty lion, weary from hunting across the sun-drenched savannah, lay sleeping peacefully beneath the sprawling shade of an ancient baobab tree. His massive golden mane rippled i...",
+  "summary": "Un poderoso león perdona la vida a un diminuto ratoncito, quien más tarde lo rescata royendo las cuerdas de una trampa de cazadores.",
   "keywords": [
     "aesop's fables",
     "the lion and the mouse",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A mighty lion, weary from hunting across the sun-drenched savannah, lay sleeping peacefully beneath the sprawling shade of an ancient baobab tree. His massive golden mane rippled in the breeze, and his deep snores stirred the dust around his great paws.\n\nA timid little field mouse, scurrying through the tall grass in search of seeds, did not notice the sleeping predator and inadvertently ran straight across the lion's broad nose.\n\nStartled from his nap, the furious king of beasts struck out with lightning speed. His heavy paw clamped down upon the tiny creature, pinning her helpless against the hard ground. Opening his cavernous jaws, the lion prepared to crush the mouse in a single bite.\n\n\"Spare me, O King!\" squeaked the terrified mouse, trembling in every whisker. \"I meant no disrespect! I was running blindly from a hawk. Forgive my clumsy blunder! If you grant me my life, I promise that one day I will repay your royal mercy!\"\n\nThe lion let out a roar of thunderous laughter that shook the surrounding acacia branches. \"Repay me? A wretched, insignificant speck of fur repay the sovereign of the forest? What an absurd fancy!\" Yet, amused by her sheer boldness, the lion lifted his paw and let the tiny creature scurry safely into the rocks.\n\nA few days later, while patrolling his territory, the lion walked into a hunter's concealed trap. Strong hemp cords snapped tight around his limbs, hoisting him helpless into a heavy rope net. The mighty beast roared in fury and thrashing anguish, but every struggle only tightened the knots.\n\nHearing that familiar, desperate roar echoing through the ravines, the little mouse rushed to the scene. Without hesitation, she set her sharp, needle-like teeth against the thickest cord, gnawing with frantic determination until the fibers frayed and snapped. One by one, she severed the binding ropes until the great king stepped down, completely free.\n\nLooking down at his tiny deliverer with humble reverence, the lion bowed his great head: \"You were right, little friend. Today you have taught the King of the Forest that even the smallest heart can save the mighty.\"",
-  "moral": "No act of kindness, however small, is ever wasted; little friends may prove great allies.",
+  "full_text": "Dormía plácidamente un majestuoso león bajo la sombra de un árbol frondoso cuando un pequeño ratón de campo, correteando sin fijarse, tropezó y subió por su lomo. El león despertó bruscamente y, con un rápido movimiento de su garra, atrapó al asustado roedor entre sus garras afiladas.\n\nEl ratoncito, temblando de pavor, imploró clemencia con voz débil: '¡Oh, gran rey de la selva! Por favor, perdóname la vida. No fue mi intención molestarte. Si me dejas marchar, jamás lo olvidaré y tal vez algún día pueda devolverte el favor'. El león se echó a reír a carcajadas ante la idea de que una criatura tan insignificante pudiera servirle de ayuda, pero conmovido por su súplica, levantó la pata y lo dejó marchar en libertad.\n\nPocos días después, mientras rondaba en busca de presa, el león cayó en una resistente red tendida por cazadores furtivos. Al intentar zafarse, las cuerdas se apretaron con más fuerza y sus rugidos de angustia resonaron por toda la llanura.\n\nAl escuchar el lamento del león, el ratoncito reconoció la voz de su benefactor y corrió de inmediato al lugar. Sin dudarlo un segundo, se puso a roer con sus afilados dientes las gruesas cuerdas de la trampa. Con paciencia y tenacidad, rompió varios nudos clave hasta que la red cedió por completo, permitiendo que el gran monarca quedara libre. Desde aquel día, el rey de la selva y el diminuto ratón fueron los amigos más leales del bosque.",
+  "moral": "Ningún acto de bondad es en vano; incluso los más pequeños y humildes pueden prestar gran auxilio a los poderosos.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Lion and the Mouse illustration from the Aesop's Fables collection.",
-  "word_count": 353,
+  "word_count": 243,
   "reading_time": "3 min",
   "listen_time": "3 min",
   "audio_url": null,
@@ -78,38 +78,30 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "clemencia",
+      "meaning": "Compasión o moderación con que se perdona una falta o castigo"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "furtivo",
+      "meaning": "Que se hace a escondidas y de manera ilegal"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "tenacidad",
+      "meaning": "Fuerza que impulsa a continuar con firmeza hasta lograr un objetivo"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Lion and the Mouse\"?"
+      "prompt": "¿Por qué se rio el león cuando el ratón prometió ayudarle?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why is the moral \"Little friends may prove great friends.\" meaningful in daily life?"
+      "prompt": "¿Cómo logró el ratoncito liberar al león de la red?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
-    },
-    {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "prompt": "¿Por qué nunca debemos juzgar o despreciar a una persona por su tamaño o apariencia?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

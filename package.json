@@ -1,8 +1,8 @@
 {
-  "name": "dhinam-oru-kathai",
+  "name": "daily-tale",
   "version": "1.0.0",
   "type": "module",
-  "description": "A global, multilingual moral and bedtime story library for children, families and classrooms",
+  "description": "Daily Tale — Moral Stories & Interesting Folktales Worldwide",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

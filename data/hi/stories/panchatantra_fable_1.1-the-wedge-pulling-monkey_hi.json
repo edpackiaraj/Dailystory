@@ -2,12 +2,12 @@
   "id": "panchatantra-1.1-the-wedge-pulling-monkey",
   "slug": "panchatantra-1.1-the-wedge-pulling-monkey-hi",
   "language": "hi",
-  "title": "The Wedge-Pulling Monkey",
+  "title": "बंदर और लकड़ी का खूंटा",
   "genre": "Fables",
   "collection": "Panchatantra",
   "culture_region": "India",
   "age_group": "Below 13",
-  "summary": "In the outskirts of a flourishing town, a wealthy merchant began the construction of an expansive temple dedicated to the welfare of trav...",
+  "summary": "बढ़ई के काम में अनावश्यक दखल देने वाले एक चंचल बंदर की कहानी, जो बिना सोचे-समझे किए गए कार्यों के दुष्परिणाम बताती है।",
   "keywords": [
     "panchatantra",
     "the wedge-pulling monkey",
@@ -22,13 +22,13 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the outskirts of a flourishing town, a wealthy merchant began the construction of an expansive temple dedicated to the welfare of travelers. Skilled carpenters, sawyers, and masons worked daily upon the site, hewing giant trunks of sal and teak into pillars, beams, and decorative cornices.\n\nOne sweltering noon, the master woodcutters were sawing halfway through a colossal timber log. To prevent the heavy cleft from snapping shut and binding the iron saw blade while they went to the nearby grove to eat their midday meal of rice and curds, the chief carpenter drove a stout, tapered wedge of khadira wood firmly into the open split.\n\nShortly after the workmen departed, a troop of wild, mischievous monkeys that inhabited the temple groves swung down from the branches to explore the abandoned construction site. They leaped upon the scaffolding, overturned baskets of lime, and rolled the iron chisels across the flagstones.\n\nAmong them was a young, reckless, and intensely curious monkey who could never let anything rest. Seeing the immense split log lying upon the ground, he hopped onto it, straddling the timber right over the open seam. His eyes fastened upon the wooden wedge projecting between the two halves.\n\n'What a strange peg!' chattered the foolish creature. 'Why did those two-legged builders hammer it so tightly between these logs? I must discover what happens when it is loosened!'\n\nIgnoring the uneasy silence of the clearing and his companions' warnings, the meddlesome monkey gripped the stout wedge with both hands, bracing his feet against the timber. He pulled, wrenched, and tugged with all his might. The wedge creaked, loosened slightly, and gave way.\n\nIn that instant, the enormous tension of the split log released with the force of an iron spring. The two massive halves slammed shut with a sickening thud, trapping the wretched monkey by his tail and legs. He shrieked in agony, unable to free himself, and perished miserably before the carpenters returned from their meal.\n\nRelating this tale to his ambitious brother Damanaka, the wise jackal Karataka observed:\n\"He who thrusts his hand into a cleft he did not make,\nAnd meddles in another's work for idle curiosity's sake,\nShall find the trap spring shut upon his folly and his pride,\nLike the reckless forest monkey who pulled the wedge and died.\"",
-  "moral": "He who meddles in affairs that do not concern him invites swift and certain disaster.",
+  "full_text": "एक नगर के बाहर एक विशाल मंदिर का निर्माण चल रहा था। वहाँ बहुत से बढ़ई और शिल्पी लकड़ी के भारी शहतीरों को चीरने का काम कर रहे थे। दोपहर के समय सभी कारीगर अपने औज़ार रखकर भोजन करने के लिए पास के नगर में चले गए।\n\nएक बढ़ई आधे चीरे हुए एक भारी शहतीर के बीच में लकड़ी का एक मज़बूत खूंटा ठोक कर गया था, ताकि लकड़ी वापस आपस में जुड़ न जाए और चीरने की जगह खुली रहे।\n\nउसी समय पेड़ों पर रहने वाले बंदरों का एक झुंड वहाँ आया। वे निर्माण स्थल पर रखी चीज़ों के साथ उछल-कूद करने लगे। उन्हीं में एक अत्यंत चंचल और हठी बंदर था। वह उस आधे चीरे हुए शहतीर पर जाकर बैठ गया। खूंटे को देखकर उसने सोचा, 'यह लकड़ी यहाँ क्यों फँसी है? इसे बाहर निकाल कर देखता हूँ!'\n\nअन्य बंदरों ने उसे मना किया, किंतु उसने किसी की बात नहीं सुनी। वह दोनों हाथों से उस खूंटे को ज़ोर-ज़ोर से हिलाने लगा। जैसे ही उसने पूरा ज़ोर लगाकर खूंटा बाहर खींचा, चीरा हुआ शहतीर बड़े ज़ोर से आपस में भिड़ गया और बंदर का शरीर उसमें बुरी तरह फँस गया। बिना सोचे-समझे दूसरों के काम में दखल देने के कारण उसने अपने प्राण गँवा दिए।",
+  "moral": "जिस काम का हमें ज्ञान न हो, उसमें बिना कारण टाँग अड़ाना केवल विनाश की ओर ले जाता है।",
   "image": "/images/stories/panchatantra.webp",
   "image_alt": "The Wedge-Pulling Monkey illustration from the Panchatantra collection.",
-  "word_count": 384,
-  "reading_time": "3 min",
-  "listen_time": "4 min",
+  "word_count": 207,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
@@ -79,38 +79,30 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "शिल्पी",
+      "meaning": "मूर्ति या भवन निर्माण करने वाला कुशल कारीगर"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "शहतीर",
+      "meaning": "मकान की छत या सहारे के लिए इस्तेमाल होने वाली मोटी लकड़ी"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "हठी",
+      "meaning": "अपनी ज़िद पर अड़े रहने वाला"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Wedge-Pulling Monkey\"?"
+      "prompt": "बढ़ई ने लकड़ी के बीच में खूंटा क्यों लगाया था?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom, patience, and kind conduct lead to peace and happiness.\" meaningful in daily life?"
+      "prompt": "बंदर की किस आदत के कारण उसकी जान गई?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
-    },
-    {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "prompt": "दूसरों के कार्य में बिना समझे हस्तक्षेप न करने के क्या लाभ हैं?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

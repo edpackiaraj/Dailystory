@@ -48,8 +48,11 @@ const siteUrl = brandConfig.siteUrl.replace(/\/$/, '');
 const rawPath = Astro.url.pathname || '/';
 const normalizedPath = rawPath.endsWith('/') ? rawPath : `${rawPath}/`;
 const fullCanonicalUrl = canonicalUrl || `${siteUrl}${normalizedPath}`;
-const finalTitle = title ? `${title} — ${brandConfig.name}` : brandConfig.homeTitle;
-const finalDescription = description || brandConfig.homeMetaDescription;
+const localizedInfo = (brandConfig.localizedBrand as Record<string, any>)[lang] || brandConfig.localizedBrand.en;
+const defaultTitle = localizedInfo?.title || brandConfig.homeTitle;
+const defaultDesc = localizedInfo?.metaDescription || brandConfig.homeMetaDescription;
+const finalTitle = title ? (title.includes(brandConfig.name) ? title : `${title} — ${brandConfig.name}`) : defaultTitle;
+const finalDescription = description || defaultDesc;
 const fullOgImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
 
 const supportedLanguages = brandConfig.supportedLanguages;

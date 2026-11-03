@@ -160,7 +160,9 @@ for (const lang of languages) {
     xml += `    <lastmod>${lastModDate}</lastmod>\n`;
     xml += `    <changefreq>monthly</changefreq>\n`;
     xml += `    <priority>0.8</priority>\n`;
-    xml += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${storyLoc}"/>\n`;
+    for (const altLang of languages) {
+      xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/${colSlug}/${story.slug}/"/>\n`;
+    }
     xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/${colSlug}/${story.slug}/"/>\n`;
     xml += '  </url>\n';
     storiesIndexed++;
@@ -174,13 +176,13 @@ for (const lang of languages) {
   console.log(`[Sitemap Generator] Generated ${sitemapFilename}: ${coreRoutes.length} core, ${collectionsIndexed} collections, ${storiesIndexed} stories.`);
 }
 
-// Master sitemap index
+const todayIsoDate = new Date().toISOString().split('T')[0];
 let indexXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
 indexXml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 for (const fn of sitemapFilenames) {
   indexXml += '  <sitemap>\n';
   indexXml += `    <loc>${siteUrl}/${fn}</loc>\n`;
-  indexXml += `    <lastmod>2026-11-02</lastmod>\n`;
+  indexXml += `    <lastmod>${todayIsoDate}</lastmod>\n`;
   indexXml += '  </sitemap>\n';
 }
 indexXml += '</sitemapindex>\n';

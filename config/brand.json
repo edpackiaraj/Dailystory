@@ -1,10 +1,10 @@
 {
   "name": "Daily Tale",
   "nativeName": "Daily Tale",
-  "tagline": "One story. Every day. Every language.",
+  "tagline": "Moral Stories & Interesting Folktales",
   "positioning": "A timeless multilingual storytelling sanctuary celebrating wisdom, folklore, and moral stories from world cultures for readers of all ages.",
-  "description": "Discover folktales, fables, and wisdom stories from around the world in 10 languages. One story. Every day. Every language.",
-  "homeTitle": "Daily Tale — Moral Stories, Fables & Folktales Worldwide",
+  "description": "Discover folktales, fables, and wisdom stories from around the world in 10 languages. Moral Stories & Interesting Folktales.",
+  "homeTitle": "Daily Tale — Moral Stories & Interesting Folktales Worldwide",
   "homeMetaDescription": "Timeless folktales, fables, and moral stories from world cultures in 10 languages. Curated for readers of all ages with audio narration.",
   "siteUrl": "https://dailystory.pages.dev",
   "mascot": {
@@ -36,54 +36,54 @@
   ],
   "localizedBrand": {
     "en": {
-      "title": "Daily Tale: Moral Stories, Fables & Folktales Worldwide",
-      "metaDescription": "Discover moral stories, humorous tales, folktales, fairy tales, and fables from world cultures in 10 languages. A new story every day.",
-      "tagline": "A new story every day for curious minds and gentle bedtimes."
+      "title": "Daily Tale — Moral Stories & Interesting Folktales Worldwide",
+      "metaDescription": "Discover moral stories, humorous tales, folktales, fairy tales, and fables from world cultures in 10 languages. Moral stories and interesting folktales for readers of all ages.",
+      "tagline": "Moral Stories & Interesting Folktales"
     },
     "ta": {
-      "title": "Daily Tale (தினக்கதை): உலகளாவிய நீதிக்கதைகள் & சிறுகதைகள்",
-      "metaDescription": "தெனாலிராமன், பஞ்சதந்திரம் மற்றும் உலகெங்கிலும் உள்ள பண்பாட்டுக் கதைகள். தினமும் ஒரு புதிய கதை.",
-      "tagline": "தினமும் ஒரு நற்கதை, அறிவுத் தேடலுக்கும் இனிய இரவுக்கும்."
+      "title": "Daily Tale — உலகளாவிய நீதிக்கதைகள் & நாட்டுப்புறக் கதைகள்",
+      "metaDescription": "தெனாலிராமன், பஞ்சதந்திரம் மற்றும் உலகெங்கிலும் உள்ள பண்பாட்டுக் கதைகள். நீதிக்கதைகள் மற்றும் சுவாரசியமான நாட்டுப்புறக் கதைகள்.",
+      "tagline": "நீதிக்கதைகள் மற்றும் சுவாரசியமான நாட்டுப்புறக் கதைகள்"
     },
     "hi": {
-      "title": "Daily Tale: नीति कथाएँ, लोककथाएँ और पंचतंत्र कहानियाँ",
+      "title": "Daily Tale — नैतिक कहानियाँ और रोचक लोककथाएँ",
       "metaDescription": "अकबर-बीरबल, पंचतंत्र और विश्व भर की ज्ञानवर्धक नैतिक कहानियाँ और बाल कथाएँ। हर दिन एक नई कहानी।",
-      "tagline": "हर दिन एक नई कहानी, बच्चों और परिवारों के लिए ज्ञान और संस्कार।"
+      "tagline": "नैतिक कहानियाँ और रोचक लोककथाएँ"
     },
     "es": {
-      "title": "Daily Tale: Fábulas, Cuentos Morales y Tradicionales del Mundo",
+      "title": "Daily Tale — Cuentos Morales y Fascinantes Fábulas del Mundo",
       "metaDescription": "Descubre fábulas de Esopo, cuentos populares y relatos tradicionales de diversas culturas en 10 idiomas.",
-      "tagline": "Una historia cada día para mentes curiosas y dulces noches."
+      "tagline": "Cuentos Morales y Fascinantes Fábulas"
     },
     "zh": {
-      "title": "Daily Tale: 世界各地的寓言、民间故事与道德哲理故事",
-      "metaDescription": "探索伊索寓言、传统神话故事与各国智慧故事。每天一个好故事，陪伴每位读者。",
-      "tagline": "每天一个故事，启迪心灵，温润时光。"
+      "title": "Daily Tale — 经典道德寓言与世界民间故事",
+      "metaDescription": "探索伊索寓言、传统神话故事与各国智慧故事。每天一个好故事，启发智慧与心灵。",
+      "tagline": "道德寓言与生动民间故事"
     },
     "pt": {
-      "title": "Daily Tale: Fábulas, Contos Morais e Tradições do Mundo",
+      "title": "Daily Tale — Contos Morais e Fábulas Fascinantes do Mundo",
       "metaDescription": "Descubra fábulas de Esopo, contos tradicionais e histórias morais de várias culturas em 10 idiomas.",
-      "tagline": "Uma história por dia para sonhar e refletir."
+      "tagline": "Contos Morais e Fábulas Fascinantes"
     },
     "ml": {
-      "title": "Daily Tale: ഗുണപാഠകഥകൾ, പഞ്ചതന്ത്രം & നാടോടിക്കഥകൾ",
+      "title": "Daily Tale — ഗുണപാഠകഥകളും രസകരമായ നാടോടിക്കഥകളും",
       "metaDescription": "പഞ്ചതന്ത്ര കഥകൾ, തെനാലി രാമൻ, ഈസോപ്പ് കഥകൾ എന്നിവ മലയാളത്തിലും മറ്റ് 9 ഭാഷകളിലും വായിക്കാം.",
-      "tagline": "ഓരോ ദിവസവും പുതിയ കഥ, അറിവിനും ചിന്തയ്ക്കും."
+      "tagline": "ഗുണപാഠകഥകളും രസകരമായ നാടോടിക്കഥകളും"
     },
     "te": {
-      "title": "Daily Tale: నీతి కథలు, పంచతంత్రం మరియు జానపద కథలు",
+      "title": "Daily Tale — నీతి కథలు మరియు ఆసక్తికరమైన జానపద కథలు",
       "metaDescription": "తెనాలి రామకృష్ణ, పంచతంత్రం మరియు ప్రపంచ ప్రసిద్ధ నీతి కథలు 10 భాషల్లో.",
-      "tagline": "ప్రతిరోజూ ఒక మంచి కథ, జ్ఞానం మరియు ఆనందం కోసం."
+      "tagline": "నీతి కథలు మరియు ఆసక్తికరమైన జానపద కథలు"
     },
     "kn": {
-      "title": "Daily Tale: ನೀತಿ ಕಥೆಗಳು, ಪಂಚತಂತ್ರ ಮತ್ತು ಜಾನಪದ ಕಥೆಗಳು",
+      "title": "Daily Tale — ನೀತಿ ಕಥೆಗಳು ಮತ್ತು ಆಸಕ್ತಿದಾಯಕ ಜಾನಪದ ಕಥೆಗಳು",
       "metaDescription": "ಪಂಚತಂತ್ರ, ಅಕ್ಬರ್ ಬೀರ್ಬಲ್ ಹಾಗೂ ಜಗತ್ತಿನ ಸುಂದರ ನೀತಿ ಕಥೆಗಳು. ಪ್ರತಿದಿನ ಒಂದು ಹೊಸ ಕಥೆ.",
-      "tagline": "ಪ್ರತಿದಿನ ಹೊಸ ಕಥೆ, ಜೀವನಕ್ಕೆ ಬೇಕಾದ ಉತ್ತಮ ಮೌಲ್ಯಗಳು."
+      "tagline": "ನೀತಿ ಕಥೆಗಳು ಮತ್ತು ಆಸಕ್ತಿದಾಯಕ ಜಾನಪದ ಕಥೆಗಳು"
     },
     "mr": {
-      "title": "Daily Tale: बोधकथा, पंचतंत्र आणि जगभरातील लोककथा",
+      "title": "Daily Tale — संस्कारक्षम बोधकथा आणि रंजक लोककथा",
       "metaDescription": "अकबर-बिरबल, पंचतंत्र आणि जगभरातील सुंदर संस्कारक्षम बोधकथा. दररोज एक नवीन गोष्ट.",
-      "tagline": "रोज एक नवीन बोधप्रद कथा, संस्कार आणि कल्पकतेचा खजिना."
+      "tagline": "संस्कारक्षम बोधकथा आणि रंजक लोककथा"
     }
   },
   "contact": {

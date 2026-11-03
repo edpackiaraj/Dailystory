@@ -501,14 +501,16 @@ if (view === 'search') {
         </header>
 
         <div class="prose dark:prose-invert max-w-none text-sm text-[#3B2A1A] dark:text-[#F3EBDD] leading-relaxed space-y-6">
-          <div class="p-5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm leading-relaxed">
-            {pageData.summary}
-          </div>
+          {pageData.summary && (
+            <div class="p-5 rounded-2xl bg-[#FFF8EC] dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm leading-relaxed font-medium">
+              {pageData.summary}
+            </div>
+          )}
 
           {pageData.sections && pageData.sections.map((sec: any) => (
             <section class="space-y-2">
               <h2 class="text-lg font-bold text-[#D97706]">{sec.heading}</h2>
-              <p class="text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">{sec.content}</p>
+              <p class="text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed whitespace-pre-line">{sec.content}</p>
             </section>
           ))}
         </div>

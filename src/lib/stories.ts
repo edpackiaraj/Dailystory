@@ -142,16 +142,19 @@ export const scriptRegexes: Record<string, RegExp> = {
   te: /[\u0C00-\u0C7F]/,
   kn: /[\u0C80-\u0CFF]/,
   ml: /[\u0D00-\u0D7F]/,
-  zh: /[\u4E00-\u9FFF]/
+  zh: /[\u4E00-\u9FFF]/,
+  es: /([áéíóúüñ¿¡]|\b(el|la|los|las|había|érase|entonces|dijo|cuento)\b)/i,
+  pt: /([ãõáéíóúçê]|\b(havia|então|disse|estava|quando|muito|conto)\b)/i
 };
 
 export function isStoryTranslated(story: Story, lang: string): boolean {
-  if (!story) return false;
+  if (!story || !story.full_text) return false;
   if (lang === 'en') return true;
-  if (scriptRegexes[lang]) {
-    return scriptRegexes[lang].test(story.full_text);
+  const rx = scriptRegexes[lang];
+  if (rx) {
+    return rx.test(story.full_text);
   }
-  return story.language === lang && !story.title.startsWith('[Draft');
+  return false;
 }
 
 export function getTodaysStory(lang: string): Story {
