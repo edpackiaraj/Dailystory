@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-295-the-disciples-story",
+  "slug": "arabian-nights-295-the-disciples-story",
+  "language": "te",
+  "title": "The Disciple's Story",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "A young student who had studied for ten years in the universities of Cairo traveled to the desert hermitage of an ancient master of wisdo...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the disciple's story",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "A young student who had studied for ten years in the universities of Cairo traveled to the desert hermitage of an ancient master of wisdom, boasting: 'Master, I have read all the commentaries, mastered the seventy philosophical systems, and memorized twenty thousand traditions! Teach me now the final secret of wisdom.'\n\nThe master looked upon the proud youth with gentle eyes, and handed him a heavy earthen water jar and a broom: 'The well is half a league away in the rocky gorge. Fetch water for the travelers, sweep the courtyard every morning, and wash the sandals of the pilgrims who enter our gate.'\n\nThe student was indignant: 'I came to debate the mysteries of the cosmos, not to sweep floors like a common servant!'\n\nThe master smiled serenely: 'He whose vessel is already brimming over with the muddy water of pride cannot receive the pure wine of wisdom. Empty your cup, and then it may be filled.'\n\nFor three years, the student carried water and swept the courtyard. As his calloused hands laboured and his pride melted away, he observed the silent patience of nature, the gratitude of weary travelers, and the peace of humble service.\n\nAt the end of three years, the master called him and said: 'Now, my son, you are ready to speak.'\n\nThe student bowed with genuine humility: 'Master, I have learned that true wisdom is not a crown of words to be worn for the praise of men, but a towel of service to wipe away the tears of the world.'",
+  "moral": "True spiritual understanding is found in practicing humility, not in the intellectual pride of books.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Disciple's Story illustration from the 1001 Arabian Nights collection.",
+  "word_count": 257,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Disciple's Story\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Telugu readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Disciple's Story\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 295,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

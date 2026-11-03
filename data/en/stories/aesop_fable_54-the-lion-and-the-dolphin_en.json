@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A lion strolling along the sea beach spotted a dolphin leaping gracefully through the waves. The lion called out to the sea creature:...",
+  "summary": "A lion and a dolphin agree to an alliance as kings of earth and sea, but when danger strikes on dry land, each discovers the natural limits of their friend’s power.",
   "keywords": [
     "aesop's fables",
     "the lion and the dolphin",
@@ -22,11 +22,11 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A lion strolling along the sea beach spotted a dolphin leaping gracefully through the waves. The lion called out to the sea creature:\n\n\"Noble Dolphin! You are sovereign of the deep waters, and I am King of the beasts of the earth. Let us enter into a royal alliance, swearing to assist each other whenever danger threatens!\"\n\nThe dolphin agreed with joyous goodwill. Sometime later, the lion was engaged in a ferocious battle with a wild mountain bull near the water's edge. Being hard-pressed, the lion roared to his ally: \"Help me, friend Dolphin! Fulfill your oath!\"\n\nThe dolphin swam to the shallows, but could not crawl upon the dry sand to strike the bull. When the lion criticized him as a treacherous friend, the dolphin replied:\n\n\"Do not blame me, King Lion; blame Nature, who made me master of the ocean but gave me no feet to walk upon the shore. Do not demand help that lies outside your friend's natural power to give.\"",
+  "full_text": "A majestic lion strolled along the white sands of a secluded Aegean beach, gazing out across the glittering turquoise waves. Suddenly, he spotted a sleek dolphin leaping gracefully through the ocean foam. Pausing at the water's edge, the lion tossed his golden mane and called out across the shallows:\n\n\"Hail, noble Dolphin! You are the acknowledged sovereign of the deep waters, just as I am supreme king over all beasts of the earth. Let us swear an eternal royal alliance, pledging that whenever mortal danger threatens either of our kingdoms, we shall come swiftly to one another's aid!\"\n\nThe dolphin, honored by the proposal, clicked his flippers in joyous assent and swam close to the shore to seal their solemn pact. Sometime later, a ferocious wild mountain bull descended from the cliffs and challenged the lion to a mortal struggle on the sandy shore. Hard-pressed by the bull's razor-sharp horns and bleeding from deep wounds, the lion retreated to the water's brink and roared desperately: \"Help me, friend Dolphin! Fulfill your royal oath!\"\n\nThe loyal dolphin thrashing frantically swam into the foaming shallows, but try as he might, his smooth fins could not propel his heavy body across the dry gravel to strike the bull. When the wounded lion bitterly accused him of cowardice and betrayal, the dolphin replied with gentle sorrow:\n\n\"Do not blame me, King Lion; blame Nature, who made me master of the tides but gave me neither feet nor claws to walk upon the land. A true friend offers all the strength he possesses, but no one can render help outside their natural sphere.\"",
   "moral": "An ally cannot help you beyond the natural sphere of his power.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Lion and the Dolphin illustration from the Aesop's Fables collection.",
-  "word_count": 165,
+  "word_count": 268,
   "reading_time": "2 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Lion and the Dolphin\"?",
+      "question": "In the fable \"The Lion and the Dolphin\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Lion and the Dolphin\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "An ally cannot help you beyond the natural sphere of his power.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -75,41 +75,41 @@
     "limits",
     "understanding"
   ],
-  "reading_level": "Beginner",
+  "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "alliance",
+      "meaning": "a solemn agreement between two parties to support and protect each other"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "sovereign",
+      "meaning": "a supreme ruler, king, or master possessing ultimate authority"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "majestic",
+      "meaning": "having or showing impressive beauty, dignity, or royal splendor"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Lion and the Dolphin\"?"
+      "prompt": "Who are the central characters in \"The Lion and the Dolphin\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"An ally cannot help you beyond the natural sphere of his power\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

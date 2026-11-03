@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "Upon the death of the Lion King, the animals of the forest assembled to elect a new sovereign. A nimble monkey leaped into the clearing, danced upon his hands, turned acrobatic som...",
+  "summary": "Upon the death of the Lion King, the animals of the forest assembled to elect a new sovereign. Through unexpected trial and turning point, each character learns that a crown without wisdom brings swift disaster upon both ruler and kingdom.",
   "keywords": [
     "aesop's fables",
     "the fox and the monkey",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "Upon the death of the Lion King, the animals of the forest assembled to elect a new sovereign. A nimble monkey leaped into the clearing, danced upon his hands, turned acrobatic somersaults, and made such comical, charming grimaces that the delighted beasts broke into wild applause and immediately proclaimed the Monkey their new King!\n\nThe fox alone was deeply displeased that an agile clown had been chosen to govern the realm.\n\nA few days later, the fox discovered a hunter's iron spring-trap set in a thicket, baited with a plump piece of roasted meat. The fox hurried to the royal court, bowed low before the Monkey King, and whispered with great reverence:\n\n\"Sire, while walking in the forest, I discovered a hidden treasure of rich meat. By ancient law, all treasure belongs to the King; I have left it untouched so that your majesty may claim it with his own royal hands!\"\n\nFlattered by the fox's submission, the greedy monkey rushed to the spot and grasped the meat. The iron jaws of the trap snapped shut with a violent CLANG, pinning the monkey's arm fast against the wood!\n\nThe monkey shrieked in agony, struggling helplessly while the fox looked on with cool composure. \"You treacherous knave!\" cried the trapped monarch. \"You led your King into a deadly snare!\"\n\nThe fox smiled and answered: \"A King? With such an empty head and such childish greed, did you truly imagine you had the wisdom to govern a kingdom?\"",
+  "full_text": "Upon the death of the Lion King, the animals of the forest assembled to elect a new sovereign. A nimble monkey leaped into the clearing, danced upon his hands, turned acrobatic somersaults, and made such comical, charming grimaces that the delighted beasts broke into wild applause and immediately proclaimed the Monkey their new King! The fox alone was deeply displeased that an agile clown had been chosen to govern the realm. A few days later, the fox discovered a hunter's iron spring-trap set in a thicket, baited with a plump piece of roasted meat. The fox hurried to the royal court, bowed low before the Monkey King, and whispered with great reverence: \"Sire, while walking in the forest, I discovered a hidden treasure of rich meat. By ancient law, all treasure belongs to the King; I have left it untouched so that your majesty may claim it with his own royal hands!\" Flattered by the fox's submission, the greedy monkey rushed to the spot and grasped the meat. The iron jaws of the trap snapped shut with a violent CLANG, pinning the monkey's arm fast against the wood! The monkey shrieked in agony, struggling helplessly while the fox looked on with cool composure. \"You treacherous knave!\" cried the trapped monarch. \"You led your King into a deadly snare!\" The fox smiled and answered: \"A King? With such an empty head and such childish greed, did you truly imagine you had the wisdom to govern a kingdom?\"",
   "moral": "A crown without wisdom brings swift disaster upon both ruler and kingdom.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Fox and the Monkey illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Fox and the Monkey\"?",
+      "question": "In the fable \"The Fox and the Monkey\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Fox and the Monkey\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "A crown without wisdom brings swift disaster upon both ruler and kingdom.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "sovereign",
+      "meaning": "a supreme ruler, king, or master possessing ultimate authority"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "nimble",
+      "meaning": "quick and light in movement or action; agile"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "thicket",
+      "meaning": "a dense group of bushes, briers, or small trees"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Fox and the Monkey\"?"
+      "prompt": "Who are the central characters in \"The Fox and the Monkey\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"A crown without wisdom brings swift disaster upon both ruler and kingdom\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

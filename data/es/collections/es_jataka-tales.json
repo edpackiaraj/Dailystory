@@ -1,7 +1,7 @@
 [
   {
     "id": "jataka-tales-1-apannaka-jataka-the-unreliable-reliable",
-    "slug": "jataka-tales-1-apannaka-jataka-the-unreliable-reliable-es",
+    "slug": "jataka-tales-1-the-unreliable-reliable",
     "language": "es",
     "title": "Apannaka Jataka - The Unreliable & Reliable",
     "genre": "Jataka Tales",
@@ -130,7 +130,7 @@
   },
   {
     "id": "jataka-tales-2-vannupatha-jataka-the-desert",
-    "slug": "jataka-tales-2-vannupatha-jataka-the-desert-es",
+    "slug": "jataka-tales-2-the-desert",
     "language": "es",
     "title": "Vannupatha Jataka - The Desert",
     "genre": "Jataka Tales",
@@ -259,7 +259,7 @@
   },
   {
     "id": "jataka-tales-3-serivaniija-jataka-traders",
-    "slug": "jataka-tales-3-serivaniija-jataka-traders-es",
+    "slug": "jataka-tales-3-traders",
     "language": "es",
     "title": "Serivaniija Jataka - Traders",
     "genre": "Jataka Tales",
@@ -388,7 +388,7 @@
   },
   {
     "id": "jataka-tales-4-kulavaka-jataka",
-    "slug": "jataka-tales-4-kulavaka-jataka-es",
+    "slug": "jataka-tales-4-kulavaka-jataka",
     "language": "es",
     "title": "Kulavaka Jataka",
     "genre": "Jataka Tales",
@@ -517,7 +517,7 @@
   },
   {
     "id": "jataka-tales-5-tandulanali-jataka-the-measure-of-rice",
-    "slug": "jataka-tales-5-tandulanali-jataka-the-measure-of-rice-es",
+    "slug": "jataka-tales-5-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The Measure of Rice",
     "genre": "Jataka Tales",
@@ -646,7 +646,7 @@
   },
   {
     "id": "jataka-tales-6-devadhamma-jataka",
-    "slug": "jataka-tales-6-devadhamma-jataka-es",
+    "slug": "jataka-tales-6-devadhamma-jataka",
     "language": "es",
     "title": "Devadhamma Jataka",
     "genre": "Jataka Tales",
@@ -775,7 +775,7 @@
   },
   {
     "id": "jataka-tales-7-katthahari-jataka",
-    "slug": "jataka-tales-7-katthahari-jataka-es",
+    "slug": "jataka-tales-7-katthahari-jataka",
     "language": "es",
     "title": "Katthahari Jataka",
     "genre": "Jataka Tales",
@@ -904,7 +904,7 @@
   },
   {
     "id": "jataka-tales-8-gamakani-jataka",
-    "slug": "jataka-tales-8-gamakani-jataka-es",
+    "slug": "jataka-tales-8-gamakani-jataka",
     "language": "es",
     "title": "Gamakani Jataka",
     "genre": "Jataka Tales",
@@ -1033,7 +1033,7 @@
   },
   {
     "id": "jataka-tales-9-gaja-jataka",
-    "slug": "jataka-tales-9-gaja-jataka-es",
+    "slug": "jataka-tales-9-gaja-jataka",
     "language": "es",
     "title": "Gaja Jataka",
     "genre": "Jataka Tales",
@@ -1162,7 +1162,7 @@
   },
   {
     "id": "jataka-tales-10-rajovada-jataka",
-    "slug": "jataka-tales-10-rajovada-jataka-es",
+    "slug": "jataka-tales-10-rajovada-jataka",
     "language": "es",
     "title": "Rajovada Jataka",
     "genre": "Jataka Tales",
@@ -1291,7 +1291,7 @@
   },
   {
     "id": "jataka-tales-11-sila-nisamsa-jataka",
-    "slug": "jataka-tales-11-sila-nisamsa-jataka-es",
+    "slug": "jataka-tales-11-sila-nisamsa-jataka",
     "language": "es",
     "title": "Sila Nisamsa Jataka",
     "genre": "Jataka Tales",
@@ -1420,7 +1420,7 @@
   },
   {
     "id": "jataka-tales-12-baka-jataka-the-crane-and-fish",
-    "slug": "jataka-tales-12-baka-jataka-the-crane-and-fish-es",
+    "slug": "jataka-tales-12-the-crane-and-fish",
     "language": "es",
     "title": "Baka Jataka - The Crane and Fish",
     "genre": "Jataka Tales",
@@ -1549,7 +1549,7 @@
   },
   {
     "id": "jataka-tales-13-sammodamana-jataka-quarrelsome-quails",
-    "slug": "jataka-tales-13-sammodamana-jataka-quarrelsome-quails-es",
+    "slug": "jataka-tales-13-quarrelsome-quails",
     "language": "es",
     "title": "Sammodamana Jataka - Quarrelsome Quails",
     "genre": "Jataka Tales",
@@ -1678,7 +1678,7 @@
   },
   {
     "id": "jataka-tales-14-maccha-jataka-fish-and-crane",
-    "slug": "jataka-tales-14-maccha-jataka-fish-and-crane-es",
+    "slug": "jataka-tales-14-fish-and-crane",
     "language": "es",
     "title": "Maccha Jataka - Fish and Crane",
     "genre": "Jataka Tales",
@@ -1807,7 +1807,7 @@
   },
   {
     "id": "jataka-tales-15-maccha-mamsa-jataka",
-    "slug": "jataka-tales-15-maccha-mamsa-jataka-es",
+    "slug": "jataka-tales-15-maccha-mamsa-jataka",
     "language": "es",
     "title": "Maccha-mamsa Jataka",
     "genre": "Jataka Tales",
@@ -1936,7 +1936,7 @@
   },
   {
     "id": "jataka-tales-16-vaka-jataka-the-greedy-crow",
-    "slug": "jataka-tales-16-vaka-jataka-the-greedy-crow-es",
+    "slug": "jataka-tales-16-the-greedy-crow",
     "language": "es",
     "title": "Vaka Jataka - The Greedy Crow",
     "genre": "Jataka Tales",
@@ -2065,7 +2065,7 @@
   },
   {
     "id": "jataka-tales-17-sigala-jataka-the-jackal-and-the-otters",
-    "slug": "jataka-tales-17-sigala-jataka-the-jackal-and-the-otters-es",
+    "slug": "jataka-tales-17-the-jackal-and-the-otters",
     "language": "es",
     "title": "Sigala Jataka - The Jackal and the Otters",
     "genre": "Jataka Tales",
@@ -2194,7 +2194,7 @@
   },
   {
     "id": "jataka-tales-18-kala-jataka",
-    "slug": "jataka-tales-18-kala-jataka-es",
+    "slug": "jataka-tales-18-kala-jataka",
     "language": "es",
     "title": "Kala Jataka",
     "genre": "Jataka Tales",
@@ -2323,7 +2323,7 @@
   },
   {
     "id": "jataka-tales-19-sammodamana-variant",
-    "slug": "jataka-tales-19-sammodamana-variant-es",
+    "slug": "jataka-tales-19-sammodamana-variant",
     "language": "es",
     "title": "Sammodamana variant",
     "genre": "Jataka Tales",
@@ -2452,7 +2452,7 @@
   },
   {
     "id": "jataka-tales-20-kukkura-jataka-dogs",
-    "slug": "jataka-tales-20-kukkura-jataka-dogs-es",
+    "slug": "jataka-tales-20-dogs",
     "language": "es",
     "title": "Kukkura Jataka - Dogs",
     "genre": "Jataka Tales",
@@ -2581,7 +2581,7 @@
   },
   {
     "id": "jataka-tales-21-bhadra-ghata-jataka-the-pot-of-beer",
-    "slug": "jataka-tales-21-bhadra-ghata-jataka-the-pot-of-beer-es",
+    "slug": "jataka-tales-21-ghata-jataka-the-pot-of-beer",
     "language": "es",
     "title": "Bhadra-Ghata Jataka - The Pot of Beer",
     "genre": "Jataka Tales",
@@ -2710,7 +2710,7 @@
   },
   {
     "id": "jataka-tales-22-asatamanta-jataka",
-    "slug": "jataka-tales-22-asatamanta-jataka-es",
+    "slug": "jataka-tales-22-asatamanta-jataka",
     "language": "es",
     "title": "Asatamanta Jataka",
     "genre": "Jataka Tales",
@@ -2839,7 +2839,7 @@
   },
   {
     "id": "jataka-tales-23-rajovada-variant",
-    "slug": "jataka-tales-23-rajovada-variant-es",
+    "slug": "jataka-tales-23-rajovada-variant",
     "language": "es",
     "title": "Rajovada variant",
     "genre": "Jataka Tales",
@@ -2968,7 +2968,7 @@
   },
   {
     "id": "jataka-tales-24-sundari-jataka",
-    "slug": "jataka-tales-24-sundari-jataka-es",
+    "slug": "jataka-tales-24-sundari-jataka",
     "language": "es",
     "title": "Sundari Jataka",
     "genre": "Jataka Tales",
@@ -3097,7 +3097,7 @@
   },
   {
     "id": "jataka-tales-25-kumarapala-jataka",
-    "slug": "jataka-tales-25-kumarapala-jataka-es",
+    "slug": "jataka-tales-25-kumarapala-jataka",
     "language": "es",
     "title": "Kumarapala Jataka",
     "genre": "Jataka Tales",
@@ -3226,7 +3226,7 @@
   },
   {
     "id": "jataka-tales-26-kukurakondinya-jataka",
-    "slug": "jataka-tales-26-kukurakondinya-jataka-es",
+    "slug": "jataka-tales-26-kukurakondinya-jataka",
     "language": "es",
     "title": "Kukurakondinya Jataka",
     "genre": "Jataka Tales",
@@ -3355,7 +3355,7 @@
   },
   {
     "id": "jataka-tales-27-vaka-jataka-variant",
-    "slug": "jataka-tales-27-vaka-jataka-variant-es",
+    "slug": "jataka-tales-27-vaka-jataka-variant",
     "language": "es",
     "title": "Vaka Jataka variant",
     "genre": "Jataka Tales",
@@ -3484,7 +3484,7 @@
   },
   {
     "id": "jataka-tales-28-maha-sila-jataka",
-    "slug": "jataka-tales-28-maha-sila-jataka-es",
+    "slug": "jataka-tales-28-maha-sila-jataka",
     "language": "es",
     "title": "Maha Sila Jataka",
     "genre": "Jataka Tales",
@@ -3613,7 +3613,7 @@
   },
   {
     "id": "jataka-tales-29-vessantara-jataka-the-prince-who-gave-everything",
-    "slug": "jataka-tales-29-vessantara-jataka-the-prince-who-gave-everything-es",
+    "slug": "jataka-tales-29-the-prince-who-gave-everything",
     "language": "es",
     "title": "Vessantara Jataka - The Prince Who Gave Everything",
     "genre": "Jataka Tales",
@@ -3742,7 +3742,7 @@
   },
   {
     "id": "jataka-tales-30-kusa-jataka-prince-kusa-and-princess-prabhavati",
-    "slug": "jataka-tales-30-kusa-jataka-prince-kusa-and-princess-prabhavati-es",
+    "slug": "jataka-tales-30-prince-kusa-and-princess-prabhavati",
     "language": "es",
     "title": "Kusa Jataka - Prince Kusa and Princess Prabhavati",
     "genre": "Jataka Tales",
@@ -3871,7 +3871,7 @@
   },
   {
     "id": "jataka-tales-31-sama-jataka-prince-sama-the-dutiful-son",
-    "slug": "jataka-tales-31-sama-jataka-prince-sama-the-dutiful-son-es",
+    "slug": "jataka-tales-31-prince-sama-the-dutiful-son",
     "language": "es",
     "title": "Sama Jataka - Prince Sama, the Dutiful Son",
     "genre": "Jataka Tales",
@@ -4000,7 +4000,7 @@
   },
   {
     "id": "jataka-tales-32-sibi-jataka-king-sibi-and-dove",
-    "slug": "jataka-tales-32-sibi-jataka-king-sibi-and-dove-es",
+    "slug": "jataka-tales-32-king-sibi-and-dove",
     "language": "es",
     "title": "Sibi Jataka - King Sibi and Dove",
     "genre": "Jataka Tales",
@@ -4129,7 +4129,7 @@
   },
   {
     "id": "jataka-tales-33-maha-janaka-jataka-king-janaka-and-sea",
-    "slug": "jataka-tales-33-maha-janaka-jataka-king-janaka-and-sea-es",
+    "slug": "jataka-tales-33-king-janaka-and-sea",
     "language": "es",
     "title": "Maha Janaka Jataka - King Janaka and Sea",
     "genre": "Jataka Tales",
@@ -4258,7 +4258,7 @@
   },
   {
     "id": "jataka-tales-34-nimi-jataka-king-nimi-visits-heavens-and-hells",
-    "slug": "jataka-tales-34-nimi-jataka-king-nimi-visits-heavens-and-hells-es",
+    "slug": "jataka-tales-34-king-nimi-visits-heavens-and-hells",
     "language": "es",
     "title": "Nimi Jataka - King Nimi Visits Heavens and Hells",
     "genre": "Jataka Tales",
@@ -4387,7 +4387,7 @@
   },
   {
     "id": "jataka-tales-35-temiya-jataka-the-mute-prince",
-    "slug": "jataka-tales-35-temiya-jataka-the-mute-prince-es",
+    "slug": "jataka-tales-35-the-mute-prince",
     "language": "es",
     "title": "Temiya Jataka - The Mute Prince",
     "genre": "Jataka Tales",
@@ -4516,7 +4516,7 @@
   },
   {
     "id": "jataka-tales-36-suvannasama-jataka-sama",
-    "slug": "jataka-tales-36-suvannasama-jataka-sama-es",
+    "slug": "jataka-tales-36-sama",
     "language": "es",
     "title": "Suvannasama Jataka - Sama",
     "genre": "Jataka Tales",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "jataka-tales-37-ummagga-jataka-the-great-tunnel-mahosadha-the-wise",
-    "slug": "jataka-tales-37-ummagga-jataka-the-great-tunnel-mahosadha-the-wise-es",
+    "slug": "jataka-tales-37-the-great-tunnel-mahosadha-the-wise",
     "language": "es",
     "title": "Ummagga Jataka - The Great Tunnel - Mahosadha the Wise",
     "genre": "Jataka Tales",
@@ -4774,7 +4774,7 @@
   },
   {
     "id": "jataka-tales-38-vidhura-jataka-vidhura-the-wise",
-    "slug": "jataka-tales-38-vidhura-jataka-vidhura-the-wise-es",
+    "slug": "jataka-tales-38-vidhura-the-wise",
     "language": "es",
     "title": "Vidhura Jataka - Vidhura the Wise",
     "genre": "Jataka Tales",
@@ -4903,7 +4903,7 @@
   },
   {
     "id": "jataka-tales-39-bhuri-datta-jataka-naga-king",
-    "slug": "jataka-tales-39-bhuri-datta-jataka-naga-king-es",
+    "slug": "jataka-tales-39-naga-king",
     "language": "es",
     "title": "Bhuri Datta Jataka - Naga King",
     "genre": "Jataka Tales",
@@ -5032,7 +5032,7 @@
   },
   {
     "id": "jataka-tales-40-chaddanta-jataka-six-tusked-elephant",
-    "slug": "jataka-tales-40-chaddanta-jataka-six-tusked-elephant-es",
+    "slug": "jataka-tales-40-six-tusked-elephant",
     "language": "es",
     "title": "Chaddanta Jataka - Six-Tusked Elephant",
     "genre": "Jataka Tales",
@@ -5161,7 +5161,7 @@
   },
   {
     "id": "jataka-tales-41-maha-ummagga-jataka-the-great",
-    "slug": "jataka-tales-41-maha-ummagga-jataka-the-great-es",
+    "slug": "jataka-tales-41-the-great",
     "language": "es",
     "title": "Maha Ummagga Jataka - The Great",
     "genre": "Jataka Tales",
@@ -5290,7 +5290,7 @@
   },
   {
     "id": "jataka-tales-42-sutasoma-jataka-sutasoma-and-cannibal-king-kalmashapada",
-    "slug": "jataka-tales-42-sutasoma-jataka-sutasoma-and-cannibal-king-kalmashapada-es",
+    "slug": "jataka-tales-42-sutasoma-and-cannibal-king-kalmashapada",
     "language": "es",
     "title": "Sutasoma Jataka - Sutasoma and Cannibal King Kalmashapada",
     "genre": "Jataka Tales",
@@ -5419,7 +5419,7 @@
   },
   {
     "id": "jataka-tales-43-khanti-jataka-prince-khanti-and-forbearance",
-    "slug": "jataka-tales-43-khanti-jataka-prince-khanti-and-forbearance-es",
+    "slug": "jataka-tales-43-prince-khanti-and-forbearance",
     "language": "es",
     "title": "Khanti Jataka - Prince Khanti and Forbearance",
     "genre": "Jataka Tales",
@@ -5548,7 +5548,7 @@
   },
   {
     "id": "jataka-tales-44-maha-kapinjara-jataka-monkey-king",
-    "slug": "jataka-tales-44-maha-kapinjara-jataka-monkey-king-es",
+    "slug": "jataka-tales-44-monkey-king",
     "language": "es",
     "title": "Maha Kapinjara Jataka - Monkey King",
     "genre": "Jataka Tales",
@@ -5677,7 +5677,7 @@
   },
   {
     "id": "jataka-tales-45-kaka-jataka-crow",
-    "slug": "jataka-tales-45-kaka-jataka-crow-es",
+    "slug": "jataka-tales-45-crow",
     "language": "es",
     "title": "Kaka Jataka - Crow",
     "genre": "Jataka Tales",
@@ -5806,7 +5806,7 @@
   },
   {
     "id": "jataka-tales-46-nigrodha-jataka-banyan-deer",
-    "slug": "jataka-tales-46-nigrodha-jataka-banyan-deer-es",
+    "slug": "jataka-tales-46-banyan-deer",
     "language": "es",
     "title": "Nigrodha Jataka - Banyan Deer",
     "genre": "Jataka Tales",
@@ -5935,7 +5935,7 @@
   },
   {
     "id": "jataka-tales-47-kurunga-jataka-the-antelope",
-    "slug": "jataka-tales-47-kurunga-jataka-the-antelope-es",
+    "slug": "jataka-tales-47-the-antelope",
     "language": "es",
     "title": "Kurunga Jataka - The Antelope",
     "genre": "Jataka Tales",
@@ -6064,7 +6064,7 @@
   },
   {
     "id": "jataka-tales-48-kukkuta-jataka-cock",
-    "slug": "jataka-tales-48-kukkuta-jataka-cock-es",
+    "slug": "jataka-tales-48-cock",
     "language": "es",
     "title": "Kukkuta Jataka - Cock",
     "genre": "Jataka Tales",
@@ -6193,7 +6193,7 @@
   },
   {
     "id": "jataka-tales-49-baka-jataka-heron",
-    "slug": "jataka-tales-49-baka-jataka-heron-es",
+    "slug": "jataka-tales-49-heron",
     "language": "es",
     "title": "Baka Jataka - Heron",
     "genre": "Jataka Tales",
@@ -6322,7 +6322,7 @@
   },
   {
     "id": "jataka-tales-50-gajabah-jataka",
-    "slug": "jataka-tales-50-gajabah-jataka-es",
+    "slug": "jataka-tales-50-gajabah-jataka",
     "language": "es",
     "title": "Gajabah Jataka",
     "genre": "Jataka Tales",
@@ -6451,7 +6451,7 @@
   },
   {
     "id": "jataka-tales-51-samma-paribbajaniya",
-    "slug": "jataka-tales-51-samma-paribbajaniya-es",
+    "slug": "jataka-tales-51-samma-paribbajaniya",
     "language": "es",
     "title": "Samma Paribbajaniya",
     "genre": "Jataka Tales",
@@ -6580,7 +6580,7 @@
   },
   {
     "id": "jataka-tales-52-mandhata-jataka-emperor-mandhata",
-    "slug": "jataka-tales-52-mandhata-jataka-emperor-mandhata-es",
+    "slug": "jataka-tales-52-emperor-mandhata",
     "language": "es",
     "title": "Mandhata Jataka - Emperor Mandhata",
     "genre": "Jataka Tales",
@@ -6709,7 +6709,7 @@
   },
   {
     "id": "jataka-tales-53-bhojajanniya-jataka-the-thoroughbred-horse",
-    "slug": "jataka-tales-53-bhojajanniya-jataka-the-thoroughbred-horse-es",
+    "slug": "jataka-tales-53-the-thoroughbred-horse",
     "language": "es",
     "title": "Bhojajanniya Jataka - The Thoroughbred Horse",
     "genre": "Jataka Tales",
@@ -6838,7 +6838,7 @@
   },
   {
     "id": "jataka-tales-54-maha-sutasoma",
-    "slug": "jataka-tales-54-maha-sutasoma-es",
+    "slug": "jataka-tales-54-maha-sutasoma",
     "language": "es",
     "title": "Maha Sutasoma",
     "genre": "Jataka Tales",
@@ -6967,7 +6967,7 @@
   },
   {
     "id": "jataka-tales-55-mugapakkha-jataka-the-cripple",
-    "slug": "jataka-tales-55-mugapakkha-jataka-the-cripple-es",
+    "slug": "jataka-tales-55-the-cripple",
     "language": "es",
     "title": "Mugapakkha Jataka - The Cripple",
     "genre": "Jataka Tales",
@@ -7096,7 +7096,7 @@
   },
   {
     "id": "jataka-tales-56-maha-narada-kassapa-jataka",
-    "slug": "jataka-tales-56-maha-narada-kassapa-jataka-es",
+    "slug": "jataka-tales-56-maha-narada-kassapa-jataka",
     "language": "es",
     "title": "Maha Narada Kassapa Jataka",
     "genre": "Jataka Tales",
@@ -7225,7 +7225,7 @@
   },
   {
     "id": "jataka-tales-57-vidhurapandita-jataka",
-    "slug": "jataka-tales-57-vidhurapandita-jataka-es",
+    "slug": "jataka-tales-57-vidhurapandita-jataka",
     "language": "es",
     "title": "Vidhurapandita Jataka",
     "genre": "Jataka Tales",
@@ -7354,7 +7354,7 @@
   },
   {
     "id": "jataka-tales-58-vessantara-last-of-ten-great-jatakas",
-    "slug": "jataka-tales-58-vessantara-last-of-ten-great-jatakas-es",
+    "slug": "jataka-tales-58-vessantara-last-of-ten-great-jatakas",
     "language": "es",
     "title": "Vessantara - Last of Ten Great Jatakas",
     "genre": "Jataka Tales",
@@ -7483,7 +7483,7 @@
   },
   {
     "id": "jataka-tales-59-sivi-jataka-king-sivi-gives-eyes",
-    "slug": "jataka-tales-59-sivi-jataka-king-sivi-gives-eyes-es",
+    "slug": "jataka-tales-59-king-sivi-gives-eyes",
     "language": "es",
     "title": "Sivi Jataka - King Sivi Gives Eyes",
     "genre": "Jataka Tales",
@@ -7612,7 +7612,7 @@
   },
   {
     "id": "jataka-tales-60-sankha-jataka-conch-blower",
-    "slug": "jataka-tales-60-sankha-jataka-conch-blower-es",
+    "slug": "jataka-tales-60-conch-blower",
     "language": "es",
     "title": "Sankha Jataka - Conch Blower",
     "genre": "Jataka Tales",
@@ -7741,7 +7741,7 @@
   },
   {
     "id": "jataka-tales-61-chulla-paduma-jataka",
-    "slug": "jataka-tales-61-chulla-paduma-jataka-es",
+    "slug": "jataka-tales-61-chulla-paduma-jataka",
     "language": "es",
     "title": "Chulla Paduma Jataka",
     "genre": "Jataka Tales",
@@ -7870,7 +7870,7 @@
   },
   {
     "id": "jataka-tales-62-harita-jataka",
-    "slug": "jataka-tales-62-harita-jataka-es",
+    "slug": "jataka-tales-62-harita-jataka",
     "language": "es",
     "title": "Harita Jataka",
     "genre": "Jataka Tales",
@@ -7999,7 +7999,7 @@
   },
   {
     "id": "jataka-tales-63-paduma-jataka-lotus",
-    "slug": "jataka-tales-63-paduma-jataka-lotus-es",
+    "slug": "jataka-tales-63-lotus",
     "language": "es",
     "title": "Paduma Jataka - Lotus",
     "genre": "Jataka Tales",
@@ -8128,7 +8128,7 @@
   },
   {
     "id": "jataka-tales-64-mudulakkhana-jataka",
-    "slug": "jataka-tales-64-mudulakkhana-jataka-es",
+    "slug": "jataka-tales-64-mudulakkhana-jataka",
     "language": "es",
     "title": "Mudulakkhana Jataka",
     "genre": "Jataka Tales",
@@ -8257,7 +8257,7 @@
   },
   {
     "id": "jataka-tales-65-ummada-jataka",
-    "slug": "jataka-tales-65-ummada-jataka-es",
+    "slug": "jataka-tales-65-ummada-jataka",
     "language": "es",
     "title": "Ummada Jataka",
     "genre": "Jataka Tales",
@@ -8386,7 +8386,7 @@
   },
   {
     "id": "jataka-tales-66-ghatapandita-jataka",
-    "slug": "jataka-tales-66-ghatapandita-jataka-es",
+    "slug": "jataka-tales-66-ghatapandita-jataka",
     "language": "es",
     "title": "Ghatapandita Jataka",
     "genre": "Jataka Tales",
@@ -8515,7 +8515,7 @@
   },
   {
     "id": "jataka-tales-67-supparaka-jataka-supparaka-the-mariner",
-    "slug": "jataka-tales-67-supparaka-jataka-supparaka-the-mariner-es",
+    "slug": "jataka-tales-67-supparaka-the-mariner",
     "language": "es",
     "title": "Supparaka Jataka - Supparaka the Mariner",
     "genre": "Jataka Tales",
@@ -8644,7 +8644,7 @@
   },
   {
     "id": "jataka-tales-68-cullaka-setthi-jataka-little-merchant-becomes-rich",
-    "slug": "jataka-tales-68-cullaka-setthi-jataka-little-merchant-becomes-rich-es",
+    "slug": "jataka-tales-68-little-merchant-becomes-rich",
     "language": "es",
     "title": "Cullaka Setthi Jataka - Little Merchant Becomes Rich",
     "genre": "Jataka Tales",
@@ -8773,7 +8773,7 @@
   },
   {
     "id": "jataka-tales-69-mahasilava-jataka",
-    "slug": "jataka-tales-69-mahasilava-jataka-es",
+    "slug": "jataka-tales-69-mahasilava-jataka",
     "language": "es",
     "title": "Mahasilava Jataka",
     "genre": "Jataka Tales",
@@ -8902,7 +8902,7 @@
   },
   {
     "id": "jataka-tales-70-jatakas-of-monkeys",
-    "slug": "jataka-tales-70-jatakas-of-monkeys-es",
+    "slug": "jataka-tales-70-jatakas-of-monkeys",
     "language": "es",
     "title": "Jatakas of Monkeys",
     "genre": "Jataka Tales",
@@ -9031,7 +9031,7 @@
   },
   {
     "id": "jataka-tales-71-sasa-jataka-the-hare-and-moon",
-    "slug": "jataka-tales-71-sasa-jataka-the-hare-and-moon-es",
+    "slug": "jataka-tales-71-the-hare-and-moon",
     "language": "es",
     "title": "Sasa Jataka - The Hare and Moon",
     "genre": "Jataka Tales",
@@ -9160,7 +9160,7 @@
   },
   {
     "id": "jataka-tales-72-sigala-jataka-variant",
-    "slug": "jataka-tales-72-sigala-jataka-variant-es",
+    "slug": "jataka-tales-72-sigala-jataka-variant",
     "language": "es",
     "title": "Sigala Jataka variant",
     "genre": "Jataka Tales",
@@ -9289,7 +9289,7 @@
   },
   {
     "id": "jataka-tales-73-matanga-jataka-the-outcaste-chandala",
-    "slug": "jataka-tales-73-matanga-jataka-the-outcaste-chandala-es",
+    "slug": "jataka-tales-73-the-outcaste-chandala",
     "language": "es",
     "title": "Matanga Jataka - The Outcaste Chandala",
     "genre": "Jataka Tales",
@@ -9418,7 +9418,7 @@
   },
   {
     "id": "jataka-tales-74-andhabhuta-jataka",
-    "slug": "jataka-tales-74-andhabhuta-jataka-es",
+    "slug": "jataka-tales-74-andhabhuta-jataka",
     "language": "es",
     "title": "Andhabhuta Jataka",
     "genre": "Jataka Tales",
@@ -9547,7 +9547,7 @@
   },
   {
     "id": "jataka-tales-75-bhuridatta-jataka-naga",
-    "slug": "jataka-tales-75-bhuridatta-jataka-naga-es",
+    "slug": "jataka-tales-75-naga",
     "language": "es",
     "title": "Bhuridatta Jataka - Naga",
     "genre": "Jataka Tales",
@@ -9676,7 +9676,7 @@
   },
   {
     "id": "jataka-tales-76-champeyya-jataka-naga-king-campeyya",
-    "slug": "jataka-tales-76-champeyya-jataka-naga-king-campeyya-es",
+    "slug": "jataka-tales-76-naga-king-campeyya",
     "language": "es",
     "title": "Champeyya Jataka - Naga King Campeyya",
     "genre": "Jataka Tales",
@@ -9805,7 +9805,7 @@
   },
   {
     "id": "jataka-tales-77-samvara-jataka",
-    "slug": "jataka-tales-77-samvara-jataka-es",
+    "slug": "jataka-tales-77-samvara-jataka",
     "language": "es",
     "title": "Samvara Jataka",
     "genre": "Jataka Tales",
@@ -9934,7 +9934,7 @@
   },
   {
     "id": "jataka-tales-78-khamapana-jataka",
-    "slug": "jataka-tales-78-khamapana-jataka-es",
+    "slug": "jataka-tales-78-khamapana-jataka",
     "language": "es",
     "title": "Khamapana Jataka",
     "genre": "Jataka Tales",
@@ -10063,7 +10063,7 @@
   },
   {
     "id": "jataka-tales-79-kacchapa-jataka-tortoise-and-two-geese",
-    "slug": "jataka-tales-79-kacchapa-jataka-tortoise-and-two-geese-es",
+    "slug": "jataka-tales-79-tortoise-and-two-geese",
     "language": "es",
     "title": "Kacchapa Jataka - Tortoise and Two Geese",
     "genre": "Jataka Tales",
@@ -10192,7 +10192,7 @@
   },
   {
     "id": "jataka-tales-80-avariya-jataka",
-    "slug": "jataka-tales-80-avariya-jataka-es",
+    "slug": "jataka-tales-80-avariya-jataka",
     "language": "es",
     "title": "Avariya Jataka",
     "genre": "Jataka Tales",
@@ -10321,7 +10321,7 @@
   },
   {
     "id": "jataka-tales-81-kukku-jataka",
-    "slug": "jataka-tales-81-kukku-jataka-es",
+    "slug": "jataka-tales-81-kukku-jataka",
     "language": "es",
     "title": "Kukku Jataka",
     "genre": "Jataka Tales",
@@ -10450,7 +10450,7 @@
   },
   {
     "id": "jataka-tales-82-bheri-jataka-the-drum",
-    "slug": "jataka-tales-82-bheri-jataka-the-drum-es",
+    "slug": "jataka-tales-82-the-drum",
     "language": "es",
     "title": "Bheri Jataka - The Drum",
     "genre": "Jataka Tales",
@@ -10579,7 +10579,7 @@
   },
   {
     "id": "jataka-tales-83-sankha-jataka-variant",
-    "slug": "jataka-tales-83-sankha-jataka-variant-es",
+    "slug": "jataka-tales-83-sankha-jataka-variant",
     "language": "es",
     "title": "Sankha Jataka variant",
     "genre": "Jataka Tales",
@@ -10708,7 +10708,7 @@
   },
   {
     "id": "jataka-tales-84-brahma-datta-jataka",
-    "slug": "jataka-tales-84-brahma-datta-jataka-es",
+    "slug": "jataka-tales-84-brahma-datta-jataka",
     "language": "es",
     "title": "the ancient elder Datta Jataka",
     "genre": "Jataka Tales",
@@ -10837,7 +10837,7 @@
   },
   {
     "id": "jataka-tales-85-five-weapons-jataka-prince-five-weapons-vs-demon",
-    "slug": "jataka-tales-85-five-weapons-jataka-prince-five-weapons-vs-demon-es",
+    "slug": "jataka-tales-85-prince-five-weapons-vs-demon",
     "language": "es",
     "title": "Five Weapons Jataka - Prince Five Weapons vs Demon",
     "genre": "Jataka Tales",
@@ -10966,7 +10966,7 @@
   },
   {
     "id": "jataka-tales-86-guttila-jataka-musician-guttila-and-muse",
-    "slug": "jataka-tales-86-guttila-jataka-musician-guttila-and-muse-es",
+    "slug": "jataka-tales-86-musician-guttila-and-muse",
     "language": "es",
     "title": "Guttila Jataka - Musician Guttila and Muse",
     "genre": "Jataka Tales",
@@ -11095,7 +11095,7 @@
   },
   {
     "id": "jataka-tales-87-maha-dhammapala-jataka",
-    "slug": "jataka-tales-87-maha-dhammapala-jataka-es",
+    "slug": "jataka-tales-87-maha-dhammapala-jataka",
     "language": "es",
     "title": "Maha Dhammapala Jataka",
     "genre": "Jataka Tales",
@@ -11224,7 +11224,7 @@
   },
   {
     "id": "jataka-tales-88-udaya-jataka",
-    "slug": "jataka-tales-88-udaya-jataka-es",
+    "slug": "jataka-tales-88-udaya-jataka",
     "language": "es",
     "title": "Udaya Jataka",
     "genre": "Jataka Tales",
@@ -11353,7 +11353,7 @@
   },
   {
     "id": "jataka-tales-89-kama-jataka",
-    "slug": "jataka-tales-89-kama-jataka-es",
+    "slug": "jataka-tales-89-kama-jataka",
     "language": "es",
     "title": "Kama Jataka",
     "genre": "Jataka Tales",
@@ -11482,7 +11482,7 @@
   },
   {
     "id": "jataka-tales-90-sivi-jataka-variant",
-    "slug": "jataka-tales-90-sivi-jataka-variant-es",
+    "slug": "jataka-tales-90-sivi-jataka-variant",
     "language": "es",
     "title": "Sivi Jataka variant",
     "genre": "Jataka Tales",
@@ -11611,7 +11611,7 @@
   },
   {
     "id": "jataka-tales-91-somanassa-jataka",
-    "slug": "jataka-tales-91-somanassa-jataka-es",
+    "slug": "jataka-tales-91-somanassa-jataka",
     "language": "es",
     "title": "Somanassa Jataka",
     "genre": "Jataka Tales",
@@ -11740,7 +11740,7 @@
   },
   {
     "id": "jataka-tales-92-jataka-92-92th-birth-story",
-    "slug": "jataka-tales-92-jataka-92-92th-birth-story-es",
+    "slug": "jataka-tales-92-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 92)",
     "genre": "Jataka Tales",
@@ -11869,7 +11869,7 @@
   },
   {
     "id": "jataka-tales-93-jataka-93-93th-birth-story",
-    "slug": "jataka-tales-93-jataka-93-93th-birth-story-es",
+    "slug": "jataka-tales-93-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 93)",
     "genre": "Jataka Tales",
@@ -11998,7 +11998,7 @@
   },
   {
     "id": "jataka-tales-94-jataka-94-94th-birth-story",
-    "slug": "jataka-tales-94-jataka-94-94th-birth-story-es",
+    "slug": "jataka-tales-94-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 94)",
     "genre": "Jataka Tales",
@@ -12127,7 +12127,7 @@
   },
   {
     "id": "jataka-tales-95-jataka-95-95th-birth-story",
-    "slug": "jataka-tales-95-jataka-95-95th-birth-story-es",
+    "slug": "jataka-tales-95-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 95)",
     "genre": "Jataka Tales",
@@ -12256,7 +12256,7 @@
   },
   {
     "id": "jataka-tales-96-jataka-96-96th-birth-story",
-    "slug": "jataka-tales-96-jataka-96-96th-birth-story-es",
+    "slug": "jataka-tales-96-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 96)",
     "genre": "Jataka Tales",
@@ -12385,7 +12385,7 @@
   },
   {
     "id": "jataka-tales-97-jataka-97-97th-birth-story",
-    "slug": "jataka-tales-97-jataka-97-97th-birth-story-es",
+    "slug": "jataka-tales-97-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 97)",
     "genre": "Jataka Tales",
@@ -12514,7 +12514,7 @@
   },
   {
     "id": "jataka-tales-98-jataka-98-98th-birth-story",
-    "slug": "jataka-tales-98-jataka-98-98th-birth-story-es",
+    "slug": "jataka-tales-98-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 98)",
     "genre": "Jataka Tales",
@@ -12643,7 +12643,7 @@
   },
   {
     "id": "jataka-tales-99-jataka-99-99th-birth-story",
-    "slug": "jataka-tales-99-jataka-99-99th-birth-story-es",
+    "slug": "jataka-tales-99-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 99)",
     "genre": "Jataka Tales",
@@ -12772,7 +12772,7 @@
   },
   {
     "id": "jataka-tales-100-jataka-100-100th-birth-story",
-    "slug": "jataka-tales-100-jataka-100-100th-birth-story-es",
+    "slug": "jataka-tales-100-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 100)",
     "genre": "Jataka Tales",
@@ -12901,7 +12901,7 @@
   },
   {
     "id": "jataka-tales-101-jataka-101-101th-birth-story",
-    "slug": "jataka-tales-101-jataka-101-101th-birth-story-es",
+    "slug": "jataka-tales-101-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 101)",
     "genre": "Jataka Tales",
@@ -13030,7 +13030,7 @@
   },
   {
     "id": "jataka-tales-102-jataka-102-102th-birth-story",
-    "slug": "jataka-tales-102-jataka-102-102th-birth-story-es",
+    "slug": "jataka-tales-102-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 102)",
     "genre": "Jataka Tales",
@@ -13159,7 +13159,7 @@
   },
   {
     "id": "jataka-tales-103-jataka-103-103th-birth-story",
-    "slug": "jataka-tales-103-jataka-103-103th-birth-story-es",
+    "slug": "jataka-tales-103-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 103)",
     "genre": "Jataka Tales",
@@ -13288,7 +13288,7 @@
   },
   {
     "id": "jataka-tales-104-jataka-104-104th-birth-story",
-    "slug": "jataka-tales-104-jataka-104-104th-birth-story-es",
+    "slug": "jataka-tales-104-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 104)",
     "genre": "Jataka Tales",
@@ -13417,7 +13417,7 @@
   },
   {
     "id": "jataka-tales-105-jataka-105-105th-birth-story",
-    "slug": "jataka-tales-105-jataka-105-105th-birth-story-es",
+    "slug": "jataka-tales-105-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 105)",
     "genre": "Jataka Tales",
@@ -13546,7 +13546,7 @@
   },
   {
     "id": "jataka-tales-106-jataka-106-106th-birth-story",
-    "slug": "jataka-tales-106-jataka-106-106th-birth-story-es",
+    "slug": "jataka-tales-106-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 106)",
     "genre": "Jataka Tales",
@@ -13675,7 +13675,7 @@
   },
   {
     "id": "jataka-tales-107-jataka-107-107th-birth-story",
-    "slug": "jataka-tales-107-jataka-107-107th-birth-story-es",
+    "slug": "jataka-tales-107-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 107)",
     "genre": "Jataka Tales",
@@ -13804,7 +13804,7 @@
   },
   {
     "id": "jataka-tales-108-jataka-108-108th-birth-story",
-    "slug": "jataka-tales-108-jataka-108-108th-birth-story-es",
+    "slug": "jataka-tales-108-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 108)",
     "genre": "Jataka Tales",
@@ -13933,7 +13933,7 @@
   },
   {
     "id": "jataka-tales-109-jataka-109-109th-birth-story",
-    "slug": "jataka-tales-109-jataka-109-109th-birth-story-es",
+    "slug": "jataka-tales-109-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 109)",
     "genre": "Jataka Tales",
@@ -14062,7 +14062,7 @@
   },
   {
     "id": "jataka-tales-110-jataka-110-110th-birth-story",
-    "slug": "jataka-tales-110-jataka-110-110th-birth-story-es",
+    "slug": "jataka-tales-110-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 110)",
     "genre": "Jataka Tales",
@@ -14191,7 +14191,7 @@
   },
   {
     "id": "jataka-tales-111-jataka-111-111th-birth-story",
-    "slug": "jataka-tales-111-jataka-111-111th-birth-story-es",
+    "slug": "jataka-tales-111-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 111)",
     "genre": "Jataka Tales",
@@ -14320,7 +14320,7 @@
   },
   {
     "id": "jataka-tales-112-jataka-112-112th-birth-story",
-    "slug": "jataka-tales-112-jataka-112-112th-birth-story-es",
+    "slug": "jataka-tales-112-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 112)",
     "genre": "Jataka Tales",
@@ -14449,7 +14449,7 @@
   },
   {
     "id": "jataka-tales-113-jataka-113-113th-birth-story",
-    "slug": "jataka-tales-113-jataka-113-113th-birth-story-es",
+    "slug": "jataka-tales-113-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 113)",
     "genre": "Jataka Tales",
@@ -14578,7 +14578,7 @@
   },
   {
     "id": "jataka-tales-114-jataka-114-114th-birth-story",
-    "slug": "jataka-tales-114-jataka-114-114th-birth-story-es",
+    "slug": "jataka-tales-114-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 114)",
     "genre": "Jataka Tales",
@@ -14707,7 +14707,7 @@
   },
   {
     "id": "jataka-tales-115-jataka-115-115th-birth-story",
-    "slug": "jataka-tales-115-jataka-115-115th-birth-story-es",
+    "slug": "jataka-tales-115-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 115)",
     "genre": "Jataka Tales",
@@ -14836,7 +14836,7 @@
   },
   {
     "id": "jataka-tales-116-jataka-116-116th-birth-story",
-    "slug": "jataka-tales-116-jataka-116-116th-birth-story-es",
+    "slug": "jataka-tales-116-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 116)",
     "genre": "Jataka Tales",
@@ -14965,7 +14965,7 @@
   },
   {
     "id": "jataka-tales-117-jataka-117-117th-birth-story",
-    "slug": "jataka-tales-117-jataka-117-117th-birth-story-es",
+    "slug": "jataka-tales-117-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 117)",
     "genre": "Jataka Tales",
@@ -15094,7 +15094,7 @@
   },
   {
     "id": "jataka-tales-118-jataka-118-118th-birth-story",
-    "slug": "jataka-tales-118-jataka-118-118th-birth-story-es",
+    "slug": "jataka-tales-118-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 118)",
     "genre": "Jataka Tales",
@@ -15223,7 +15223,7 @@
   },
   {
     "id": "jataka-tales-119-jataka-119-119th-birth-story",
-    "slug": "jataka-tales-119-jataka-119-119th-birth-story-es",
+    "slug": "jataka-tales-119-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 119)",
     "genre": "Jataka Tales",
@@ -15352,7 +15352,7 @@
   },
   {
     "id": "jataka-tales-120-jataka-120-120th-birth-story",
-    "slug": "jataka-tales-120-jataka-120-120th-birth-story-es",
+    "slug": "jataka-tales-120-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 120)",
     "genre": "Jataka Tales",
@@ -15481,7 +15481,7 @@
   },
   {
     "id": "jataka-tales-121-jataka-121-121th-birth-story",
-    "slug": "jataka-tales-121-jataka-121-121th-birth-story-es",
+    "slug": "jataka-tales-121-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 121)",
     "genre": "Jataka Tales",
@@ -15610,7 +15610,7 @@
   },
   {
     "id": "jataka-tales-122-jataka-122-122th-birth-story",
-    "slug": "jataka-tales-122-jataka-122-122th-birth-story-es",
+    "slug": "jataka-tales-122-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 122)",
     "genre": "Jataka Tales",
@@ -15739,7 +15739,7 @@
   },
   {
     "id": "jataka-tales-123-jataka-123-123th-birth-story",
-    "slug": "jataka-tales-123-jataka-123-123th-birth-story-es",
+    "slug": "jataka-tales-123-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 123)",
     "genre": "Jataka Tales",
@@ -15868,7 +15868,7 @@
   },
   {
     "id": "jataka-tales-124-jataka-124-124th-birth-story",
-    "slug": "jataka-tales-124-jataka-124-124th-birth-story-es",
+    "slug": "jataka-tales-124-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 124)",
     "genre": "Jataka Tales",
@@ -15997,7 +15997,7 @@
   },
   {
     "id": "jataka-tales-125-jataka-125-125th-birth-story",
-    "slug": "jataka-tales-125-jataka-125-125th-birth-story-es",
+    "slug": "jataka-tales-125-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 125)",
     "genre": "Jataka Tales",
@@ -16126,7 +16126,7 @@
   },
   {
     "id": "jataka-tales-126-jataka-126-126th-birth-story",
-    "slug": "jataka-tales-126-jataka-126-126th-birth-story-es",
+    "slug": "jataka-tales-126-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 126)",
     "genre": "Jataka Tales",
@@ -16255,7 +16255,7 @@
   },
   {
     "id": "jataka-tales-127-jataka-127-127th-birth-story",
-    "slug": "jataka-tales-127-jataka-127-127th-birth-story-es",
+    "slug": "jataka-tales-127-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 127)",
     "genre": "Jataka Tales",
@@ -16384,7 +16384,7 @@
   },
   {
     "id": "jataka-tales-128-jataka-128-128th-birth-story",
-    "slug": "jataka-tales-128-jataka-128-128th-birth-story-es",
+    "slug": "jataka-tales-128-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 128)",
     "genre": "Jataka Tales",
@@ -16513,7 +16513,7 @@
   },
   {
     "id": "jataka-tales-129-jataka-129-129th-birth-story",
-    "slug": "jataka-tales-129-jataka-129-129th-birth-story-es",
+    "slug": "jataka-tales-129-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 129)",
     "genre": "Jataka Tales",
@@ -16642,7 +16642,7 @@
   },
   {
     "id": "jataka-tales-130-jataka-130-130th-birth-story",
-    "slug": "jataka-tales-130-jataka-130-130th-birth-story-es",
+    "slug": "jataka-tales-130-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 130)",
     "genre": "Jataka Tales",
@@ -16771,7 +16771,7 @@
   },
   {
     "id": "jataka-tales-131-jataka-131-131th-birth-story",
-    "slug": "jataka-tales-131-jataka-131-131th-birth-story-es",
+    "slug": "jataka-tales-131-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 131)",
     "genre": "Jataka Tales",
@@ -16900,7 +16900,7 @@
   },
   {
     "id": "jataka-tales-132-jataka-132-132th-birth-story",
-    "slug": "jataka-tales-132-jataka-132-132th-birth-story-es",
+    "slug": "jataka-tales-132-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 132)",
     "genre": "Jataka Tales",
@@ -17029,7 +17029,7 @@
   },
   {
     "id": "jataka-tales-133-jataka-133-133th-birth-story",
-    "slug": "jataka-tales-133-jataka-133-133th-birth-story-es",
+    "slug": "jataka-tales-133-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 133)",
     "genre": "Jataka Tales",
@@ -17158,7 +17158,7 @@
   },
   {
     "id": "jataka-tales-134-jataka-134-134th-birth-story",
-    "slug": "jataka-tales-134-jataka-134-134th-birth-story-es",
+    "slug": "jataka-tales-134-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 134)",
     "genre": "Jataka Tales",
@@ -17287,7 +17287,7 @@
   },
   {
     "id": "jataka-tales-135-jataka-135-135th-birth-story",
-    "slug": "jataka-tales-135-jataka-135-135th-birth-story-es",
+    "slug": "jataka-tales-135-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 135)",
     "genre": "Jataka Tales",
@@ -17416,7 +17416,7 @@
   },
   {
     "id": "jataka-tales-136-jataka-136-136th-birth-story",
-    "slug": "jataka-tales-136-jataka-136-136th-birth-story-es",
+    "slug": "jataka-tales-136-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 136)",
     "genre": "Jataka Tales",
@@ -17545,7 +17545,7 @@
   },
   {
     "id": "jataka-tales-137-jataka-137-137th-birth-story",
-    "slug": "jataka-tales-137-jataka-137-137th-birth-story-es",
+    "slug": "jataka-tales-137-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 137)",
     "genre": "Jataka Tales",
@@ -17674,7 +17674,7 @@
   },
   {
     "id": "jataka-tales-138-jataka-138-138th-birth-story",
-    "slug": "jataka-tales-138-jataka-138-138th-birth-story-es",
+    "slug": "jataka-tales-138-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 138)",
     "genre": "Jataka Tales",
@@ -17803,7 +17803,7 @@
   },
   {
     "id": "jataka-tales-139-jataka-139-139th-birth-story",
-    "slug": "jataka-tales-139-jataka-139-139th-birth-story-es",
+    "slug": "jataka-tales-139-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 139)",
     "genre": "Jataka Tales",
@@ -17932,7 +17932,7 @@
   },
   {
     "id": "jataka-tales-140-jataka-140-140th-birth-story",
-    "slug": "jataka-tales-140-jataka-140-140th-birth-story-es",
+    "slug": "jataka-tales-140-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 140)",
     "genre": "Jataka Tales",
@@ -18061,7 +18061,7 @@
   },
   {
     "id": "jataka-tales-141-jataka-141-141th-birth-story",
-    "slug": "jataka-tales-141-jataka-141-141th-birth-story-es",
+    "slug": "jataka-tales-141-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 141)",
     "genre": "Jataka Tales",
@@ -18190,7 +18190,7 @@
   },
   {
     "id": "jataka-tales-142-jataka-142-142th-birth-story",
-    "slug": "jataka-tales-142-jataka-142-142th-birth-story-es",
+    "slug": "jataka-tales-142-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 142)",
     "genre": "Jataka Tales",
@@ -18319,7 +18319,7 @@
   },
   {
     "id": "jataka-tales-143-jataka-143-143th-birth-story",
-    "slug": "jataka-tales-143-jataka-143-143th-birth-story-es",
+    "slug": "jataka-tales-143-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 143)",
     "genre": "Jataka Tales",
@@ -18448,7 +18448,7 @@
   },
   {
     "id": "jataka-tales-144-jataka-144-144th-birth-story",
-    "slug": "jataka-tales-144-jataka-144-144th-birth-story-es",
+    "slug": "jataka-tales-144-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 144)",
     "genre": "Jataka Tales",
@@ -18577,7 +18577,7 @@
   },
   {
     "id": "jataka-tales-145-jataka-145-145th-birth-story",
-    "slug": "jataka-tales-145-jataka-145-145th-birth-story-es",
+    "slug": "jataka-tales-145-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 145)",
     "genre": "Jataka Tales",
@@ -18706,7 +18706,7 @@
   },
   {
     "id": "jataka-tales-146-jataka-146-146th-birth-story",
-    "slug": "jataka-tales-146-jataka-146-146th-birth-story-es",
+    "slug": "jataka-tales-146-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 146)",
     "genre": "Jataka Tales",
@@ -18835,7 +18835,7 @@
   },
   {
     "id": "jataka-tales-147-jataka-147-147th-birth-story",
-    "slug": "jataka-tales-147-jataka-147-147th-birth-story-es",
+    "slug": "jataka-tales-147-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 147)",
     "genre": "Jataka Tales",
@@ -18964,7 +18964,7 @@
   },
   {
     "id": "jataka-tales-148-jataka-148-148th-birth-story",
-    "slug": "jataka-tales-148-jataka-148-148th-birth-story-es",
+    "slug": "jataka-tales-148-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 148)",
     "genre": "Jataka Tales",
@@ -19093,7 +19093,7 @@
   },
   {
     "id": "jataka-tales-149-jataka-149-149th-birth-story",
-    "slug": "jataka-tales-149-jataka-149-149th-birth-story-es",
+    "slug": "jataka-tales-149-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 149)",
     "genre": "Jataka Tales",
@@ -19222,7 +19222,7 @@
   },
   {
     "id": "jataka-tales-150-jataka-150-150th-birth-story",
-    "slug": "jataka-tales-150-jataka-150-150th-birth-story-es",
+    "slug": "jataka-tales-150-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 150)",
     "genre": "Jataka Tales",
@@ -19351,7 +19351,7 @@
   },
   {
     "id": "jataka-tales-151-jataka-151-151th-birth-story",
-    "slug": "jataka-tales-151-jataka-151-151th-birth-story-es",
+    "slug": "jataka-tales-151-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 151)",
     "genre": "Jataka Tales",
@@ -19480,7 +19480,7 @@
   },
   {
     "id": "jataka-tales-152-jataka-152-152th-birth-story",
-    "slug": "jataka-tales-152-jataka-152-152th-birth-story-es",
+    "slug": "jataka-tales-152-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 152)",
     "genre": "Jataka Tales",
@@ -19609,7 +19609,7 @@
   },
   {
     "id": "jataka-tales-153-jataka-153-153th-birth-story",
-    "slug": "jataka-tales-153-jataka-153-153th-birth-story-es",
+    "slug": "jataka-tales-153-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 153)",
     "genre": "Jataka Tales",
@@ -19738,7 +19738,7 @@
   },
   {
     "id": "jataka-tales-154-jataka-154-154th-birth-story",
-    "slug": "jataka-tales-154-jataka-154-154th-birth-story-es",
+    "slug": "jataka-tales-154-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 154)",
     "genre": "Jataka Tales",
@@ -19867,7 +19867,7 @@
   },
   {
     "id": "jataka-tales-155-jataka-155-155th-birth-story",
-    "slug": "jataka-tales-155-jataka-155-155th-birth-story-es",
+    "slug": "jataka-tales-155-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 155)",
     "genre": "Jataka Tales",
@@ -19996,7 +19996,7 @@
   },
   {
     "id": "jataka-tales-156-jataka-156-156th-birth-story",
-    "slug": "jataka-tales-156-jataka-156-156th-birth-story-es",
+    "slug": "jataka-tales-156-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 156)",
     "genre": "Jataka Tales",
@@ -20125,7 +20125,7 @@
   },
   {
     "id": "jataka-tales-157-jataka-157-157th-birth-story",
-    "slug": "jataka-tales-157-jataka-157-157th-birth-story-es",
+    "slug": "jataka-tales-157-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 157)",
     "genre": "Jataka Tales",
@@ -20254,7 +20254,7 @@
   },
   {
     "id": "jataka-tales-158-jataka-158-158th-birth-story",
-    "slug": "jataka-tales-158-jataka-158-158th-birth-story-es",
+    "slug": "jataka-tales-158-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 158)",
     "genre": "Jataka Tales",
@@ -20383,7 +20383,7 @@
   },
   {
     "id": "jataka-tales-159-jataka-159-159th-birth-story",
-    "slug": "jataka-tales-159-jataka-159-159th-birth-story-es",
+    "slug": "jataka-tales-159-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 159)",
     "genre": "Jataka Tales",
@@ -20512,7 +20512,7 @@
   },
   {
     "id": "jataka-tales-160-jataka-160-160th-birth-story",
-    "slug": "jataka-tales-160-jataka-160-160th-birth-story-es",
+    "slug": "jataka-tales-160-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 160)",
     "genre": "Jataka Tales",
@@ -20641,7 +20641,7 @@
   },
   {
     "id": "jataka-tales-161-jataka-161-161th-birth-story",
-    "slug": "jataka-tales-161-jataka-161-161th-birth-story-es",
+    "slug": "jataka-tales-161-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 161)",
     "genre": "Jataka Tales",
@@ -20770,7 +20770,7 @@
   },
   {
     "id": "jataka-tales-162-jataka-162-162th-birth-story",
-    "slug": "jataka-tales-162-jataka-162-162th-birth-story-es",
+    "slug": "jataka-tales-162-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 162)",
     "genre": "Jataka Tales",
@@ -20899,7 +20899,7 @@
   },
   {
     "id": "jataka-tales-163-jataka-163-163th-birth-story",
-    "slug": "jataka-tales-163-jataka-163-163th-birth-story-es",
+    "slug": "jataka-tales-163-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 163)",
     "genre": "Jataka Tales",
@@ -21028,7 +21028,7 @@
   },
   {
     "id": "jataka-tales-164-jataka-164-164th-birth-story",
-    "slug": "jataka-tales-164-jataka-164-164th-birth-story-es",
+    "slug": "jataka-tales-164-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 164)",
     "genre": "Jataka Tales",
@@ -21157,7 +21157,7 @@
   },
   {
     "id": "jataka-tales-165-jataka-165-165th-birth-story",
-    "slug": "jataka-tales-165-jataka-165-165th-birth-story-es",
+    "slug": "jataka-tales-165-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 165)",
     "genre": "Jataka Tales",
@@ -21286,7 +21286,7 @@
   },
   {
     "id": "jataka-tales-166-jataka-166-166th-birth-story",
-    "slug": "jataka-tales-166-jataka-166-166th-birth-story-es",
+    "slug": "jataka-tales-166-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 166)",
     "genre": "Jataka Tales",
@@ -21415,7 +21415,7 @@
   },
   {
     "id": "jataka-tales-167-jataka-167-167th-birth-story",
-    "slug": "jataka-tales-167-jataka-167-167th-birth-story-es",
+    "slug": "jataka-tales-167-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 167)",
     "genre": "Jataka Tales",
@@ -21544,7 +21544,7 @@
   },
   {
     "id": "jataka-tales-168-jataka-168-168th-birth-story",
-    "slug": "jataka-tales-168-jataka-168-168th-birth-story-es",
+    "slug": "jataka-tales-168-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 168)",
     "genre": "Jataka Tales",
@@ -21673,7 +21673,7 @@
   },
   {
     "id": "jataka-tales-169-jataka-169-169th-birth-story",
-    "slug": "jataka-tales-169-jataka-169-169th-birth-story-es",
+    "slug": "jataka-tales-169-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 169)",
     "genre": "Jataka Tales",
@@ -21802,7 +21802,7 @@
   },
   {
     "id": "jataka-tales-170-jataka-170-170th-birth-story",
-    "slug": "jataka-tales-170-jataka-170-170th-birth-story-es",
+    "slug": "jataka-tales-170-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 170)",
     "genre": "Jataka Tales",
@@ -21931,7 +21931,7 @@
   },
   {
     "id": "jataka-tales-171-jataka-171-171th-birth-story",
-    "slug": "jataka-tales-171-jataka-171-171th-birth-story-es",
+    "slug": "jataka-tales-171-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 171)",
     "genre": "Jataka Tales",
@@ -22060,7 +22060,7 @@
   },
   {
     "id": "jataka-tales-172-jataka-172-172th-birth-story",
-    "slug": "jataka-tales-172-jataka-172-172th-birth-story-es",
+    "slug": "jataka-tales-172-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 172)",
     "genre": "Jataka Tales",
@@ -22189,7 +22189,7 @@
   },
   {
     "id": "jataka-tales-173-jataka-173-173th-birth-story",
-    "slug": "jataka-tales-173-jataka-173-173th-birth-story-es",
+    "slug": "jataka-tales-173-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 173)",
     "genre": "Jataka Tales",
@@ -22318,7 +22318,7 @@
   },
   {
     "id": "jataka-tales-174-jataka-174-174th-birth-story",
-    "slug": "jataka-tales-174-jataka-174-174th-birth-story-es",
+    "slug": "jataka-tales-174-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 174)",
     "genre": "Jataka Tales",
@@ -22447,7 +22447,7 @@
   },
   {
     "id": "jataka-tales-175-jataka-175-175th-birth-story",
-    "slug": "jataka-tales-175-jataka-175-175th-birth-story-es",
+    "slug": "jataka-tales-175-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 175)",
     "genre": "Jataka Tales",
@@ -22576,7 +22576,7 @@
   },
   {
     "id": "jataka-tales-176-jataka-176-176th-birth-story",
-    "slug": "jataka-tales-176-jataka-176-176th-birth-story-es",
+    "slug": "jataka-tales-176-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 176)",
     "genre": "Jataka Tales",
@@ -22705,7 +22705,7 @@
   },
   {
     "id": "jataka-tales-177-jataka-177-177th-birth-story",
-    "slug": "jataka-tales-177-jataka-177-177th-birth-story-es",
+    "slug": "jataka-tales-177-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 177)",
     "genre": "Jataka Tales",
@@ -22834,7 +22834,7 @@
   },
   {
     "id": "jataka-tales-178-jataka-178-178th-birth-story",
-    "slug": "jataka-tales-178-jataka-178-178th-birth-story-es",
+    "slug": "jataka-tales-178-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 178)",
     "genre": "Jataka Tales",
@@ -22963,7 +22963,7 @@
   },
   {
     "id": "jataka-tales-179-jataka-179-179th-birth-story",
-    "slug": "jataka-tales-179-jataka-179-179th-birth-story-es",
+    "slug": "jataka-tales-179-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 179)",
     "genre": "Jataka Tales",
@@ -23092,7 +23092,7 @@
   },
   {
     "id": "jataka-tales-180-jataka-180-180th-birth-story",
-    "slug": "jataka-tales-180-jataka-180-180th-birth-story-es",
+    "slug": "jataka-tales-180-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 180)",
     "genre": "Jataka Tales",
@@ -23221,7 +23221,7 @@
   },
   {
     "id": "jataka-tales-181-jataka-181-181th-birth-story",
-    "slug": "jataka-tales-181-jataka-181-181th-birth-story-es",
+    "slug": "jataka-tales-181-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 181)",
     "genre": "Jataka Tales",
@@ -23350,7 +23350,7 @@
   },
   {
     "id": "jataka-tales-182-jataka-182-182th-birth-story",
-    "slug": "jataka-tales-182-jataka-182-182th-birth-story-es",
+    "slug": "jataka-tales-182-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 182)",
     "genre": "Jataka Tales",
@@ -23479,7 +23479,7 @@
   },
   {
     "id": "jataka-tales-183-jataka-183-183th-birth-story",
-    "slug": "jataka-tales-183-jataka-183-183th-birth-story-es",
+    "slug": "jataka-tales-183-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 183)",
     "genre": "Jataka Tales",
@@ -23608,7 +23608,7 @@
   },
   {
     "id": "jataka-tales-184-jataka-184-184th-birth-story",
-    "slug": "jataka-tales-184-jataka-184-184th-birth-story-es",
+    "slug": "jataka-tales-184-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 184)",
     "genre": "Jataka Tales",
@@ -23737,7 +23737,7 @@
   },
   {
     "id": "jataka-tales-185-jataka-185-185th-birth-story",
-    "slug": "jataka-tales-185-jataka-185-185th-birth-story-es",
+    "slug": "jataka-tales-185-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 185)",
     "genre": "Jataka Tales",
@@ -23866,7 +23866,7 @@
   },
   {
     "id": "jataka-tales-186-jataka-186-186th-birth-story",
-    "slug": "jataka-tales-186-jataka-186-186th-birth-story-es",
+    "slug": "jataka-tales-186-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 186)",
     "genre": "Jataka Tales",
@@ -23995,7 +23995,7 @@
   },
   {
     "id": "jataka-tales-187-jataka-187-187th-birth-story",
-    "slug": "jataka-tales-187-jataka-187-187th-birth-story-es",
+    "slug": "jataka-tales-187-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 187)",
     "genre": "Jataka Tales",
@@ -24124,7 +24124,7 @@
   },
   {
     "id": "jataka-tales-188-jataka-188-188th-birth-story",
-    "slug": "jataka-tales-188-jataka-188-188th-birth-story-es",
+    "slug": "jataka-tales-188-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 188)",
     "genre": "Jataka Tales",
@@ -24253,7 +24253,7 @@
   },
   {
     "id": "jataka-tales-189-jataka-189-189th-birth-story",
-    "slug": "jataka-tales-189-jataka-189-189th-birth-story-es",
+    "slug": "jataka-tales-189-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 189)",
     "genre": "Jataka Tales",
@@ -24382,7 +24382,7 @@
   },
   {
     "id": "jataka-tales-190-jataka-190-190th-birth-story",
-    "slug": "jataka-tales-190-jataka-190-190th-birth-story-es",
+    "slug": "jataka-tales-190-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 190)",
     "genre": "Jataka Tales",
@@ -24511,7 +24511,7 @@
   },
   {
     "id": "jataka-tales-191-jataka-191-191th-birth-story",
-    "slug": "jataka-tales-191-jataka-191-191th-birth-story-es",
+    "slug": "jataka-tales-191-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 191)",
     "genre": "Jataka Tales",
@@ -24640,7 +24640,7 @@
   },
   {
     "id": "jataka-tales-192-jataka-192-192th-birth-story",
-    "slug": "jataka-tales-192-jataka-192-192th-birth-story-es",
+    "slug": "jataka-tales-192-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 192)",
     "genre": "Jataka Tales",
@@ -24769,7 +24769,7 @@
   },
   {
     "id": "jataka-tales-193-jataka-193-193th-birth-story",
-    "slug": "jataka-tales-193-jataka-193-193th-birth-story-es",
+    "slug": "jataka-tales-193-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 193)",
     "genre": "Jataka Tales",
@@ -24898,7 +24898,7 @@
   },
   {
     "id": "jataka-tales-194-jataka-194-194th-birth-story",
-    "slug": "jataka-tales-194-jataka-194-194th-birth-story-es",
+    "slug": "jataka-tales-194-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 194)",
     "genre": "Jataka Tales",
@@ -25027,7 +25027,7 @@
   },
   {
     "id": "jataka-tales-195-jataka-195-195th-birth-story",
-    "slug": "jataka-tales-195-jataka-195-195th-birth-story-es",
+    "slug": "jataka-tales-195-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 195)",
     "genre": "Jataka Tales",
@@ -25156,7 +25156,7 @@
   },
   {
     "id": "jataka-tales-196-jataka-196-196th-birth-story",
-    "slug": "jataka-tales-196-jataka-196-196th-birth-story-es",
+    "slug": "jataka-tales-196-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 196)",
     "genre": "Jataka Tales",
@@ -25285,7 +25285,7 @@
   },
   {
     "id": "jataka-tales-197-jataka-197-197th-birth-story",
-    "slug": "jataka-tales-197-jataka-197-197th-birth-story-es",
+    "slug": "jataka-tales-197-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 197)",
     "genre": "Jataka Tales",
@@ -25414,7 +25414,7 @@
   },
   {
     "id": "jataka-tales-198-jataka-198-198th-birth-story",
-    "slug": "jataka-tales-198-jataka-198-198th-birth-story-es",
+    "slug": "jataka-tales-198-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 198)",
     "genre": "Jataka Tales",
@@ -25543,7 +25543,7 @@
   },
   {
     "id": "jataka-tales-199-jataka-199-199th-birth-story",
-    "slug": "jataka-tales-199-jataka-199-199th-birth-story-es",
+    "slug": "jataka-tales-199-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 199)",
     "genre": "Jataka Tales",
@@ -25672,7 +25672,7 @@
   },
   {
     "id": "jataka-tales-200-jataka-200-200th-birth-story",
-    "slug": "jataka-tales-200-jataka-200-200th-birth-story-es",
+    "slug": "jataka-tales-200-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 200)",
     "genre": "Jataka Tales",
@@ -25801,7 +25801,7 @@
   },
   {
     "id": "jataka-tales-201-jataka-201-201th-birth-story",
-    "slug": "jataka-tales-201-jataka-201-201th-birth-story-es",
+    "slug": "jataka-tales-201-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 201)",
     "genre": "Jataka Tales",
@@ -25930,7 +25930,7 @@
   },
   {
     "id": "jataka-tales-202-jataka-202-202th-birth-story",
-    "slug": "jataka-tales-202-jataka-202-202th-birth-story-es",
+    "slug": "jataka-tales-202-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 202)",
     "genre": "Jataka Tales",
@@ -26059,7 +26059,7 @@
   },
   {
     "id": "jataka-tales-203-jataka-203-203th-birth-story",
-    "slug": "jataka-tales-203-jataka-203-203th-birth-story-es",
+    "slug": "jataka-tales-203-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 203)",
     "genre": "Jataka Tales",
@@ -26188,7 +26188,7 @@
   },
   {
     "id": "jataka-tales-204-jataka-204-204th-birth-story",
-    "slug": "jataka-tales-204-jataka-204-204th-birth-story-es",
+    "slug": "jataka-tales-204-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 204)",
     "genre": "Jataka Tales",
@@ -26317,7 +26317,7 @@
   },
   {
     "id": "jataka-tales-205-jataka-205-205th-birth-story",
-    "slug": "jataka-tales-205-jataka-205-205th-birth-story-es",
+    "slug": "jataka-tales-205-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 205)",
     "genre": "Jataka Tales",
@@ -26446,7 +26446,7 @@
   },
   {
     "id": "jataka-tales-206-jataka-206-206th-birth-story",
-    "slug": "jataka-tales-206-jataka-206-206th-birth-story-es",
+    "slug": "jataka-tales-206-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 206)",
     "genre": "Jataka Tales",
@@ -26575,7 +26575,7 @@
   },
   {
     "id": "jataka-tales-207-jataka-207-207th-birth-story",
-    "slug": "jataka-tales-207-jataka-207-207th-birth-story-es",
+    "slug": "jataka-tales-207-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 207)",
     "genre": "Jataka Tales",
@@ -26704,7 +26704,7 @@
   },
   {
     "id": "jataka-tales-208-jataka-208-208th-birth-story",
-    "slug": "jataka-tales-208-jataka-208-208th-birth-story-es",
+    "slug": "jataka-tales-208-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 208)",
     "genre": "Jataka Tales",
@@ -26833,7 +26833,7 @@
   },
   {
     "id": "jataka-tales-209-jataka-209-209th-birth-story",
-    "slug": "jataka-tales-209-jataka-209-209th-birth-story-es",
+    "slug": "jataka-tales-209-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 209)",
     "genre": "Jataka Tales",
@@ -26962,7 +26962,7 @@
   },
   {
     "id": "jataka-tales-210-jataka-210-210th-birth-story",
-    "slug": "jataka-tales-210-jataka-210-210th-birth-story-es",
+    "slug": "jataka-tales-210-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 210)",
     "genre": "Jataka Tales",
@@ -27091,7 +27091,7 @@
   },
   {
     "id": "jataka-tales-211-jataka-211-211th-birth-story",
-    "slug": "jataka-tales-211-jataka-211-211th-birth-story-es",
+    "slug": "jataka-tales-211-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 211)",
     "genre": "Jataka Tales",
@@ -27220,7 +27220,7 @@
   },
   {
     "id": "jataka-tales-212-jataka-212-212th-birth-story",
-    "slug": "jataka-tales-212-jataka-212-212th-birth-story-es",
+    "slug": "jataka-tales-212-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 212)",
     "genre": "Jataka Tales",
@@ -27349,7 +27349,7 @@
   },
   {
     "id": "jataka-tales-213-jataka-213-213th-birth-story",
-    "slug": "jataka-tales-213-jataka-213-213th-birth-story-es",
+    "slug": "jataka-tales-213-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 213)",
     "genre": "Jataka Tales",
@@ -27478,7 +27478,7 @@
   },
   {
     "id": "jataka-tales-214-jataka-214-214th-birth-story",
-    "slug": "jataka-tales-214-jataka-214-214th-birth-story-es",
+    "slug": "jataka-tales-214-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 214)",
     "genre": "Jataka Tales",
@@ -27607,7 +27607,7 @@
   },
   {
     "id": "jataka-tales-215-jataka-215-215th-birth-story",
-    "slug": "jataka-tales-215-jataka-215-215th-birth-story-es",
+    "slug": "jataka-tales-215-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 215)",
     "genre": "Jataka Tales",
@@ -27736,7 +27736,7 @@
   },
   {
     "id": "jataka-tales-216-jataka-216-216th-birth-story",
-    "slug": "jataka-tales-216-jataka-216-216th-birth-story-es",
+    "slug": "jataka-tales-216-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 216)",
     "genre": "Jataka Tales",
@@ -27865,7 +27865,7 @@
   },
   {
     "id": "jataka-tales-217-jataka-217-217th-birth-story",
-    "slug": "jataka-tales-217-jataka-217-217th-birth-story-es",
+    "slug": "jataka-tales-217-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 217)",
     "genre": "Jataka Tales",
@@ -27994,7 +27994,7 @@
   },
   {
     "id": "jataka-tales-218-jataka-218-218th-birth-story",
-    "slug": "jataka-tales-218-jataka-218-218th-birth-story-es",
+    "slug": "jataka-tales-218-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 218)",
     "genre": "Jataka Tales",
@@ -28123,7 +28123,7 @@
   },
   {
     "id": "jataka-tales-219-jataka-219-219th-birth-story",
-    "slug": "jataka-tales-219-jataka-219-219th-birth-story-es",
+    "slug": "jataka-tales-219-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 219)",
     "genre": "Jataka Tales",
@@ -28252,7 +28252,7 @@
   },
   {
     "id": "jataka-tales-220-jataka-220-220th-birth-story",
-    "slug": "jataka-tales-220-jataka-220-220th-birth-story-es",
+    "slug": "jataka-tales-220-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 220)",
     "genre": "Jataka Tales",
@@ -28381,7 +28381,7 @@
   },
   {
     "id": "jataka-tales-221-jataka-221-221th-birth-story",
-    "slug": "jataka-tales-221-jataka-221-221th-birth-story-es",
+    "slug": "jataka-tales-221-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 221)",
     "genre": "Jataka Tales",
@@ -28510,7 +28510,7 @@
   },
   {
     "id": "jataka-tales-222-jataka-222-222th-birth-story",
-    "slug": "jataka-tales-222-jataka-222-222th-birth-story-es",
+    "slug": "jataka-tales-222-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 222)",
     "genre": "Jataka Tales",
@@ -28639,7 +28639,7 @@
   },
   {
     "id": "jataka-tales-223-jataka-223-223th-birth-story",
-    "slug": "jataka-tales-223-jataka-223-223th-birth-story-es",
+    "slug": "jataka-tales-223-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 223)",
     "genre": "Jataka Tales",
@@ -28768,7 +28768,7 @@
   },
   {
     "id": "jataka-tales-224-jataka-224-224th-birth-story",
-    "slug": "jataka-tales-224-jataka-224-224th-birth-story-es",
+    "slug": "jataka-tales-224-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 224)",
     "genre": "Jataka Tales",
@@ -28897,7 +28897,7 @@
   },
   {
     "id": "jataka-tales-225-jataka-225-225th-birth-story",
-    "slug": "jataka-tales-225-jataka-225-225th-birth-story-es",
+    "slug": "jataka-tales-225-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 225)",
     "genre": "Jataka Tales",
@@ -29026,7 +29026,7 @@
   },
   {
     "id": "jataka-tales-226-jataka-226-226th-birth-story",
-    "slug": "jataka-tales-226-jataka-226-226th-birth-story-es",
+    "slug": "jataka-tales-226-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 226)",
     "genre": "Jataka Tales",
@@ -29155,7 +29155,7 @@
   },
   {
     "id": "jataka-tales-227-jataka-227-227th-birth-story",
-    "slug": "jataka-tales-227-jataka-227-227th-birth-story-es",
+    "slug": "jataka-tales-227-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 227)",
     "genre": "Jataka Tales",
@@ -29284,7 +29284,7 @@
   },
   {
     "id": "jataka-tales-228-jataka-228-228th-birth-story",
-    "slug": "jataka-tales-228-jataka-228-228th-birth-story-es",
+    "slug": "jataka-tales-228-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 228)",
     "genre": "Jataka Tales",
@@ -29413,7 +29413,7 @@
   },
   {
     "id": "jataka-tales-229-jataka-229-229th-birth-story",
-    "slug": "jataka-tales-229-jataka-229-229th-birth-story-es",
+    "slug": "jataka-tales-229-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 229)",
     "genre": "Jataka Tales",
@@ -29542,7 +29542,7 @@
   },
   {
     "id": "jataka-tales-230-jataka-230-230th-birth-story",
-    "slug": "jataka-tales-230-jataka-230-230th-birth-story-es",
+    "slug": "jataka-tales-230-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 230)",
     "genre": "Jataka Tales",
@@ -29671,7 +29671,7 @@
   },
   {
     "id": "jataka-tales-231-jataka-231-231th-birth-story",
-    "slug": "jataka-tales-231-jataka-231-231th-birth-story-es",
+    "slug": "jataka-tales-231-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 231)",
     "genre": "Jataka Tales",
@@ -29800,7 +29800,7 @@
   },
   {
     "id": "jataka-tales-232-jataka-232-232th-birth-story",
-    "slug": "jataka-tales-232-jataka-232-232th-birth-story-es",
+    "slug": "jataka-tales-232-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 232)",
     "genre": "Jataka Tales",
@@ -29929,7 +29929,7 @@
   },
   {
     "id": "jataka-tales-233-jataka-233-233th-birth-story",
-    "slug": "jataka-tales-233-jataka-233-233th-birth-story-es",
+    "slug": "jataka-tales-233-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 233)",
     "genre": "Jataka Tales",
@@ -30058,7 +30058,7 @@
   },
   {
     "id": "jataka-tales-234-jataka-234-234th-birth-story",
-    "slug": "jataka-tales-234-jataka-234-234th-birth-story-es",
+    "slug": "jataka-tales-234-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 234)",
     "genre": "Jataka Tales",
@@ -30187,7 +30187,7 @@
   },
   {
     "id": "jataka-tales-235-jataka-235-235th-birth-story",
-    "slug": "jataka-tales-235-jataka-235-235th-birth-story-es",
+    "slug": "jataka-tales-235-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 235)",
     "genre": "Jataka Tales",
@@ -30316,7 +30316,7 @@
   },
   {
     "id": "jataka-tales-236-jataka-236-236th-birth-story",
-    "slug": "jataka-tales-236-jataka-236-236th-birth-story-es",
+    "slug": "jataka-tales-236-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 236)",
     "genre": "Jataka Tales",
@@ -30445,7 +30445,7 @@
   },
   {
     "id": "jataka-tales-237-jataka-237-237th-birth-story",
-    "slug": "jataka-tales-237-jataka-237-237th-birth-story-es",
+    "slug": "jataka-tales-237-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 237)",
     "genre": "Jataka Tales",
@@ -30574,7 +30574,7 @@
   },
   {
     "id": "jataka-tales-238-jataka-238-238th-birth-story",
-    "slug": "jataka-tales-238-jataka-238-238th-birth-story-es",
+    "slug": "jataka-tales-238-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 238)",
     "genre": "Jataka Tales",
@@ -30703,7 +30703,7 @@
   },
   {
     "id": "jataka-tales-239-jataka-239-239th-birth-story",
-    "slug": "jataka-tales-239-jataka-239-239th-birth-story-es",
+    "slug": "jataka-tales-239-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 239)",
     "genre": "Jataka Tales",
@@ -30832,7 +30832,7 @@
   },
   {
     "id": "jataka-tales-240-jataka-240-240th-birth-story",
-    "slug": "jataka-tales-240-jataka-240-240th-birth-story-es",
+    "slug": "jataka-tales-240-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 240)",
     "genre": "Jataka Tales",
@@ -30961,7 +30961,7 @@
   },
   {
     "id": "jataka-tales-241-jataka-241-241th-birth-story",
-    "slug": "jataka-tales-241-jataka-241-241th-birth-story-es",
+    "slug": "jataka-tales-241-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 241)",
     "genre": "Jataka Tales",
@@ -31090,7 +31090,7 @@
   },
   {
     "id": "jataka-tales-242-jataka-242-242th-birth-story",
-    "slug": "jataka-tales-242-jataka-242-242th-birth-story-es",
+    "slug": "jataka-tales-242-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 242)",
     "genre": "Jataka Tales",
@@ -31219,7 +31219,7 @@
   },
   {
     "id": "jataka-tales-243-jataka-243-243th-birth-story",
-    "slug": "jataka-tales-243-jataka-243-243th-birth-story-es",
+    "slug": "jataka-tales-243-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 243)",
     "genre": "Jataka Tales",
@@ -31348,7 +31348,7 @@
   },
   {
     "id": "jataka-tales-244-jataka-244-244th-birth-story",
-    "slug": "jataka-tales-244-jataka-244-244th-birth-story-es",
+    "slug": "jataka-tales-244-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 244)",
     "genre": "Jataka Tales",
@@ -31477,7 +31477,7 @@
   },
   {
     "id": "jataka-tales-245-jataka-245-245th-birth-story",
-    "slug": "jataka-tales-245-jataka-245-245th-birth-story-es",
+    "slug": "jataka-tales-245-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 245)",
     "genre": "Jataka Tales",
@@ -31606,7 +31606,7 @@
   },
   {
     "id": "jataka-tales-246-jataka-246-246th-birth-story",
-    "slug": "jataka-tales-246-jataka-246-246th-birth-story-es",
+    "slug": "jataka-tales-246-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 246)",
     "genre": "Jataka Tales",
@@ -31735,7 +31735,7 @@
   },
   {
     "id": "jataka-tales-247-jataka-247-247th-birth-story",
-    "slug": "jataka-tales-247-jataka-247-247th-birth-story-es",
+    "slug": "jataka-tales-247-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 247)",
     "genre": "Jataka Tales",
@@ -31864,7 +31864,7 @@
   },
   {
     "id": "jataka-tales-248-jataka-248-248th-birth-story",
-    "slug": "jataka-tales-248-jataka-248-248th-birth-story-es",
+    "slug": "jataka-tales-248-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 248)",
     "genre": "Jataka Tales",
@@ -31993,7 +31993,7 @@
   },
   {
     "id": "jataka-tales-249-jataka-249-249th-birth-story",
-    "slug": "jataka-tales-249-jataka-249-249th-birth-story-es",
+    "slug": "jataka-tales-249-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 249)",
     "genre": "Jataka Tales",
@@ -32122,7 +32122,7 @@
   },
   {
     "id": "jataka-tales-250-jataka-250-250th-birth-story",
-    "slug": "jataka-tales-250-jataka-250-250th-birth-story-es",
+    "slug": "jataka-tales-250-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 250)",
     "genre": "Jataka Tales",
@@ -32251,7 +32251,7 @@
   },
   {
     "id": "jataka-tales-251-jataka-251-251th-birth-story",
-    "slug": "jataka-tales-251-jataka-251-251th-birth-story-es",
+    "slug": "jataka-tales-251-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 251)",
     "genre": "Jataka Tales",
@@ -32380,7 +32380,7 @@
   },
   {
     "id": "jataka-tales-252-jataka-252-252th-birth-story",
-    "slug": "jataka-tales-252-jataka-252-252th-birth-story-es",
+    "slug": "jataka-tales-252-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 252)",
     "genre": "Jataka Tales",
@@ -32509,7 +32509,7 @@
   },
   {
     "id": "jataka-tales-253-jataka-253-253th-birth-story",
-    "slug": "jataka-tales-253-jataka-253-253th-birth-story-es",
+    "slug": "jataka-tales-253-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 253)",
     "genre": "Jataka Tales",
@@ -32638,7 +32638,7 @@
   },
   {
     "id": "jataka-tales-254-jataka-254-254th-birth-story",
-    "slug": "jataka-tales-254-jataka-254-254th-birth-story-es",
+    "slug": "jataka-tales-254-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 254)",
     "genre": "Jataka Tales",
@@ -32767,7 +32767,7 @@
   },
   {
     "id": "jataka-tales-255-jataka-255-255th-birth-story",
-    "slug": "jataka-tales-255-jataka-255-255th-birth-story-es",
+    "slug": "jataka-tales-255-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 255)",
     "genre": "Jataka Tales",
@@ -32896,7 +32896,7 @@
   },
   {
     "id": "jataka-tales-256-jataka-256-256th-birth-story",
-    "slug": "jataka-tales-256-jataka-256-256th-birth-story-es",
+    "slug": "jataka-tales-256-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 256)",
     "genre": "Jataka Tales",
@@ -33025,7 +33025,7 @@
   },
   {
     "id": "jataka-tales-257-jataka-257-257th-birth-story",
-    "slug": "jataka-tales-257-jataka-257-257th-birth-story-es",
+    "slug": "jataka-tales-257-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 257)",
     "genre": "Jataka Tales",
@@ -33154,7 +33154,7 @@
   },
   {
     "id": "jataka-tales-258-jataka-258-258th-birth-story",
-    "slug": "jataka-tales-258-jataka-258-258th-birth-story-es",
+    "slug": "jataka-tales-258-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 258)",
     "genre": "Jataka Tales",
@@ -33283,7 +33283,7 @@
   },
   {
     "id": "jataka-tales-259-jataka-259-259th-birth-story",
-    "slug": "jataka-tales-259-jataka-259-259th-birth-story-es",
+    "slug": "jataka-tales-259-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 259)",
     "genre": "Jataka Tales",
@@ -33412,7 +33412,7 @@
   },
   {
     "id": "jataka-tales-260-jataka-260-260th-birth-story",
-    "slug": "jataka-tales-260-jataka-260-260th-birth-story-es",
+    "slug": "jataka-tales-260-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 260)",
     "genre": "Jataka Tales",
@@ -33541,7 +33541,7 @@
   },
   {
     "id": "jataka-tales-261-jataka-261-261th-birth-story",
-    "slug": "jataka-tales-261-jataka-261-261th-birth-story-es",
+    "slug": "jataka-tales-261-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 261)",
     "genre": "Jataka Tales",
@@ -33670,7 +33670,7 @@
   },
   {
     "id": "jataka-tales-262-jataka-262-262th-birth-story",
-    "slug": "jataka-tales-262-jataka-262-262th-birth-story-es",
+    "slug": "jataka-tales-262-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 262)",
     "genre": "Jataka Tales",
@@ -33799,7 +33799,7 @@
   },
   {
     "id": "jataka-tales-263-jataka-263-263th-birth-story",
-    "slug": "jataka-tales-263-jataka-263-263th-birth-story-es",
+    "slug": "jataka-tales-263-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 263)",
     "genre": "Jataka Tales",
@@ -33928,7 +33928,7 @@
   },
   {
     "id": "jataka-tales-264-jataka-264-264th-birth-story",
-    "slug": "jataka-tales-264-jataka-264-264th-birth-story-es",
+    "slug": "jataka-tales-264-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 264)",
     "genre": "Jataka Tales",
@@ -34057,7 +34057,7 @@
   },
   {
     "id": "jataka-tales-265-jataka-265-265th-birth-story",
-    "slug": "jataka-tales-265-jataka-265-265th-birth-story-es",
+    "slug": "jataka-tales-265-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 265)",
     "genre": "Jataka Tales",
@@ -34186,7 +34186,7 @@
   },
   {
     "id": "jataka-tales-266-jataka-266-266th-birth-story",
-    "slug": "jataka-tales-266-jataka-266-266th-birth-story-es",
+    "slug": "jataka-tales-266-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 266)",
     "genre": "Jataka Tales",
@@ -34315,7 +34315,7 @@
   },
   {
     "id": "jataka-tales-267-jataka-267-267th-birth-story",
-    "slug": "jataka-tales-267-jataka-267-267th-birth-story-es",
+    "slug": "jataka-tales-267-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 267)",
     "genre": "Jataka Tales",
@@ -34444,7 +34444,7 @@
   },
   {
     "id": "jataka-tales-268-jataka-268-268th-birth-story",
-    "slug": "jataka-tales-268-jataka-268-268th-birth-story-es",
+    "slug": "jataka-tales-268-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 268)",
     "genre": "Jataka Tales",
@@ -34573,7 +34573,7 @@
   },
   {
     "id": "jataka-tales-269-jataka-269-269th-birth-story",
-    "slug": "jataka-tales-269-jataka-269-269th-birth-story-es",
+    "slug": "jataka-tales-269-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 269)",
     "genre": "Jataka Tales",
@@ -34702,7 +34702,7 @@
   },
   {
     "id": "jataka-tales-270-jataka-270-270th-birth-story",
-    "slug": "jataka-tales-270-jataka-270-270th-birth-story-es",
+    "slug": "jataka-tales-270-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 270)",
     "genre": "Jataka Tales",
@@ -34831,7 +34831,7 @@
   },
   {
     "id": "jataka-tales-271-jataka-271-271th-birth-story",
-    "slug": "jataka-tales-271-jataka-271-271th-birth-story-es",
+    "slug": "jataka-tales-271-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 271)",
     "genre": "Jataka Tales",
@@ -34960,7 +34960,7 @@
   },
   {
     "id": "jataka-tales-272-jataka-272-272th-birth-story",
-    "slug": "jataka-tales-272-jataka-272-272th-birth-story-es",
+    "slug": "jataka-tales-272-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 272)",
     "genre": "Jataka Tales",
@@ -35089,7 +35089,7 @@
   },
   {
     "id": "jataka-tales-273-jataka-273-273th-birth-story",
-    "slug": "jataka-tales-273-jataka-273-273th-birth-story-es",
+    "slug": "jataka-tales-273-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 273)",
     "genre": "Jataka Tales",
@@ -35218,7 +35218,7 @@
   },
   {
     "id": "jataka-tales-274-jataka-274-274th-birth-story",
-    "slug": "jataka-tales-274-jataka-274-274th-birth-story-es",
+    "slug": "jataka-tales-274-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 274)",
     "genre": "Jataka Tales",
@@ -35347,7 +35347,7 @@
   },
   {
     "id": "jataka-tales-275-jataka-275-275th-birth-story",
-    "slug": "jataka-tales-275-jataka-275-275th-birth-story-es",
+    "slug": "jataka-tales-275-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 275)",
     "genre": "Jataka Tales",
@@ -35476,7 +35476,7 @@
   },
   {
     "id": "jataka-tales-276-jataka-276-276th-birth-story",
-    "slug": "jataka-tales-276-jataka-276-276th-birth-story-es",
+    "slug": "jataka-tales-276-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 276)",
     "genre": "Jataka Tales",
@@ -35605,7 +35605,7 @@
   },
   {
     "id": "jataka-tales-277-jataka-277-277th-birth-story",
-    "slug": "jataka-tales-277-jataka-277-277th-birth-story-es",
+    "slug": "jataka-tales-277-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 277)",
     "genre": "Jataka Tales",
@@ -35734,7 +35734,7 @@
   },
   {
     "id": "jataka-tales-278-jataka-278-278th-birth-story",
-    "slug": "jataka-tales-278-jataka-278-278th-birth-story-es",
+    "slug": "jataka-tales-278-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 278)",
     "genre": "Jataka Tales",
@@ -35863,7 +35863,7 @@
   },
   {
     "id": "jataka-tales-279-jataka-279-279th-birth-story",
-    "slug": "jataka-tales-279-jataka-279-279th-birth-story-es",
+    "slug": "jataka-tales-279-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 279)",
     "genre": "Jataka Tales",
@@ -35992,7 +35992,7 @@
   },
   {
     "id": "jataka-tales-280-jataka-280-280th-birth-story",
-    "slug": "jataka-tales-280-jataka-280-280th-birth-story-es",
+    "slug": "jataka-tales-280-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 280)",
     "genre": "Jataka Tales",
@@ -36121,7 +36121,7 @@
   },
   {
     "id": "jataka-tales-281-jataka-281-281th-birth-story",
-    "slug": "jataka-tales-281-jataka-281-281th-birth-story-es",
+    "slug": "jataka-tales-281-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 281)",
     "genre": "Jataka Tales",
@@ -36250,7 +36250,7 @@
   },
   {
     "id": "jataka-tales-282-jataka-282-282th-birth-story",
-    "slug": "jataka-tales-282-jataka-282-282th-birth-story-es",
+    "slug": "jataka-tales-282-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 282)",
     "genre": "Jataka Tales",
@@ -36379,7 +36379,7 @@
   },
   {
     "id": "jataka-tales-283-jataka-283-283th-birth-story",
-    "slug": "jataka-tales-283-jataka-283-283th-birth-story-es",
+    "slug": "jataka-tales-283-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 283)",
     "genre": "Jataka Tales",
@@ -36508,7 +36508,7 @@
   },
   {
     "id": "jataka-tales-284-jataka-284-284th-birth-story",
-    "slug": "jataka-tales-284-jataka-284-284th-birth-story-es",
+    "slug": "jataka-tales-284-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 284)",
     "genre": "Jataka Tales",
@@ -36637,7 +36637,7 @@
   },
   {
     "id": "jataka-tales-285-jataka-285-285th-birth-story",
-    "slug": "jataka-tales-285-jataka-285-285th-birth-story-es",
+    "slug": "jataka-tales-285-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 285)",
     "genre": "Jataka Tales",
@@ -36766,7 +36766,7 @@
   },
   {
     "id": "jataka-tales-286-jataka-286-286th-birth-story",
-    "slug": "jataka-tales-286-jataka-286-286th-birth-story-es",
+    "slug": "jataka-tales-286-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 286)",
     "genre": "Jataka Tales",
@@ -36895,7 +36895,7 @@
   },
   {
     "id": "jataka-tales-287-jataka-287-287th-birth-story",
-    "slug": "jataka-tales-287-jataka-287-287th-birth-story-es",
+    "slug": "jataka-tales-287-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 287)",
     "genre": "Jataka Tales",
@@ -37024,7 +37024,7 @@
   },
   {
     "id": "jataka-tales-288-jataka-288-288th-birth-story",
-    "slug": "jataka-tales-288-jataka-288-288th-birth-story-es",
+    "slug": "jataka-tales-288-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 288)",
     "genre": "Jataka Tales",
@@ -37153,7 +37153,7 @@
   },
   {
     "id": "jataka-tales-289-jataka-289-289th-birth-story",
-    "slug": "jataka-tales-289-jataka-289-289th-birth-story-es",
+    "slug": "jataka-tales-289-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 289)",
     "genre": "Jataka Tales",
@@ -37282,7 +37282,7 @@
   },
   {
     "id": "jataka-tales-290-jataka-290-290th-birth-story",
-    "slug": "jataka-tales-290-jataka-290-290th-birth-story-es",
+    "slug": "jataka-tales-290-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 290)",
     "genre": "Jataka Tales",
@@ -37411,7 +37411,7 @@
   },
   {
     "id": "jataka-tales-291-jataka-291-291th-birth-story",
-    "slug": "jataka-tales-291-jataka-291-291th-birth-story-es",
+    "slug": "jataka-tales-291-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 291)",
     "genre": "Jataka Tales",
@@ -37540,7 +37540,7 @@
   },
   {
     "id": "jataka-tales-292-jataka-292-292th-birth-story",
-    "slug": "jataka-tales-292-jataka-292-292th-birth-story-es",
+    "slug": "jataka-tales-292-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 292)",
     "genre": "Jataka Tales",
@@ -37669,7 +37669,7 @@
   },
   {
     "id": "jataka-tales-293-jataka-293-293th-birth-story",
-    "slug": "jataka-tales-293-jataka-293-293th-birth-story-es",
+    "slug": "jataka-tales-293-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 293)",
     "genre": "Jataka Tales",
@@ -37798,7 +37798,7 @@
   },
   {
     "id": "jataka-tales-294-jataka-294-294th-birth-story",
-    "slug": "jataka-tales-294-jataka-294-294th-birth-story-es",
+    "slug": "jataka-tales-294-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 294)",
     "genre": "Jataka Tales",
@@ -37927,7 +37927,7 @@
   },
   {
     "id": "jataka-tales-295-jataka-295-295th-birth-story",
-    "slug": "jataka-tales-295-jataka-295-295th-birth-story-es",
+    "slug": "jataka-tales-295-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 295)",
     "genre": "Jataka Tales",
@@ -38056,7 +38056,7 @@
   },
   {
     "id": "jataka-tales-296-jataka-296-296th-birth-story",
-    "slug": "jataka-tales-296-jataka-296-296th-birth-story-es",
+    "slug": "jataka-tales-296-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 296)",
     "genre": "Jataka Tales",
@@ -38185,7 +38185,7 @@
   },
   {
     "id": "jataka-tales-297-jataka-297-297th-birth-story",
-    "slug": "jataka-tales-297-jataka-297-297th-birth-story-es",
+    "slug": "jataka-tales-297-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 297)",
     "genre": "Jataka Tales",
@@ -38314,7 +38314,7 @@
   },
   {
     "id": "jataka-tales-298-jataka-298-298th-birth-story",
-    "slug": "jataka-tales-298-jataka-298-298th-birth-story-es",
+    "slug": "jataka-tales-298-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 298)",
     "genre": "Jataka Tales",
@@ -38443,7 +38443,7 @@
   },
   {
     "id": "jataka-tales-299-jataka-299-299th-birth-story",
-    "slug": "jataka-tales-299-jataka-299-299th-birth-story-es",
+    "slug": "jataka-tales-299-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 299)",
     "genre": "Jataka Tales",
@@ -38572,7 +38572,7 @@
   },
   {
     "id": "jataka-tales-300-jataka-300-300th-birth-story",
-    "slug": "jataka-tales-300-jataka-300-300th-birth-story-es",
+    "slug": "jataka-tales-300-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 300)",
     "genre": "Jataka Tales",
@@ -38701,7 +38701,7 @@
   },
   {
     "id": "jataka-tales-301-jataka-301-301th-birth-story",
-    "slug": "jataka-tales-301-jataka-301-301th-birth-story-es",
+    "slug": "jataka-tales-301-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 301)",
     "genre": "Jataka Tales",
@@ -38830,7 +38830,7 @@
   },
   {
     "id": "jataka-tales-302-jataka-302-302th-birth-story",
-    "slug": "jataka-tales-302-jataka-302-302th-birth-story-es",
+    "slug": "jataka-tales-302-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 302)",
     "genre": "Jataka Tales",
@@ -38959,7 +38959,7 @@
   },
   {
     "id": "jataka-tales-303-jataka-303-303th-birth-story",
-    "slug": "jataka-tales-303-jataka-303-303th-birth-story-es",
+    "slug": "jataka-tales-303-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 303)",
     "genre": "Jataka Tales",
@@ -39088,7 +39088,7 @@
   },
   {
     "id": "jataka-tales-304-jataka-304-304th-birth-story",
-    "slug": "jataka-tales-304-jataka-304-304th-birth-story-es",
+    "slug": "jataka-tales-304-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 304)",
     "genre": "Jataka Tales",
@@ -39217,7 +39217,7 @@
   },
   {
     "id": "jataka-tales-305-jataka-305-305th-birth-story",
-    "slug": "jataka-tales-305-jataka-305-305th-birth-story-es",
+    "slug": "jataka-tales-305-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 305)",
     "genre": "Jataka Tales",
@@ -39346,7 +39346,7 @@
   },
   {
     "id": "jataka-tales-306-jataka-306-306th-birth-story",
-    "slug": "jataka-tales-306-jataka-306-306th-birth-story-es",
+    "slug": "jataka-tales-306-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 306)",
     "genre": "Jataka Tales",
@@ -39475,7 +39475,7 @@
   },
   {
     "id": "jataka-tales-307-jataka-307-307th-birth-story",
-    "slug": "jataka-tales-307-jataka-307-307th-birth-story-es",
+    "slug": "jataka-tales-307-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 307)",
     "genre": "Jataka Tales",
@@ -39604,7 +39604,7 @@
   },
   {
     "id": "jataka-tales-308-jataka-308-308th-birth-story",
-    "slug": "jataka-tales-308-jataka-308-308th-birth-story-es",
+    "slug": "jataka-tales-308-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 308)",
     "genre": "Jataka Tales",
@@ -39733,7 +39733,7 @@
   },
   {
     "id": "jataka-tales-309-jataka-309-309th-birth-story",
-    "slug": "jataka-tales-309-jataka-309-309th-birth-story-es",
+    "slug": "jataka-tales-309-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 309)",
     "genre": "Jataka Tales",
@@ -39862,7 +39862,7 @@
   },
   {
     "id": "jataka-tales-310-jataka-310-310th-birth-story",
-    "slug": "jataka-tales-310-jataka-310-310th-birth-story-es",
+    "slug": "jataka-tales-310-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 310)",
     "genre": "Jataka Tales",
@@ -39991,7 +39991,7 @@
   },
   {
     "id": "jataka-tales-311-jataka-311-311th-birth-story",
-    "slug": "jataka-tales-311-jataka-311-311th-birth-story-es",
+    "slug": "jataka-tales-311-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 311)",
     "genre": "Jataka Tales",
@@ -40120,7 +40120,7 @@
   },
   {
     "id": "jataka-tales-312-jataka-312-312th-birth-story",
-    "slug": "jataka-tales-312-jataka-312-312th-birth-story-es",
+    "slug": "jataka-tales-312-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 312)",
     "genre": "Jataka Tales",
@@ -40249,7 +40249,7 @@
   },
   {
     "id": "jataka-tales-313-jataka-313-313th-birth-story",
-    "slug": "jataka-tales-313-jataka-313-313th-birth-story-es",
+    "slug": "jataka-tales-313-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 313)",
     "genre": "Jataka Tales",
@@ -40378,7 +40378,7 @@
   },
   {
     "id": "jataka-tales-314-jataka-314-314th-birth-story",
-    "slug": "jataka-tales-314-jataka-314-314th-birth-story-es",
+    "slug": "jataka-tales-314-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 314)",
     "genre": "Jataka Tales",
@@ -40507,7 +40507,7 @@
   },
   {
     "id": "jataka-tales-315-jataka-315-315th-birth-story",
-    "slug": "jataka-tales-315-jataka-315-315th-birth-story-es",
+    "slug": "jataka-tales-315-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 315)",
     "genre": "Jataka Tales",
@@ -40636,7 +40636,7 @@
   },
   {
     "id": "jataka-tales-316-jataka-316-316th-birth-story",
-    "slug": "jataka-tales-316-jataka-316-316th-birth-story-es",
+    "slug": "jataka-tales-316-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 316)",
     "genre": "Jataka Tales",
@@ -40765,7 +40765,7 @@
   },
   {
     "id": "jataka-tales-317-jataka-317-317th-birth-story",
-    "slug": "jataka-tales-317-jataka-317-317th-birth-story-es",
+    "slug": "jataka-tales-317-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 317)",
     "genre": "Jataka Tales",
@@ -40894,7 +40894,7 @@
   },
   {
     "id": "jataka-tales-318-jataka-318-318th-birth-story",
-    "slug": "jataka-tales-318-jataka-318-318th-birth-story-es",
+    "slug": "jataka-tales-318-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 318)",
     "genre": "Jataka Tales",
@@ -41023,7 +41023,7 @@
   },
   {
     "id": "jataka-tales-319-jataka-319-319th-birth-story",
-    "slug": "jataka-tales-319-jataka-319-319th-birth-story-es",
+    "slug": "jataka-tales-319-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 319)",
     "genre": "Jataka Tales",
@@ -41152,7 +41152,7 @@
   },
   {
     "id": "jataka-tales-320-jataka-320-320th-birth-story",
-    "slug": "jataka-tales-320-jataka-320-320th-birth-story-es",
+    "slug": "jataka-tales-320-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 320)",
     "genre": "Jataka Tales",
@@ -41281,7 +41281,7 @@
   },
   {
     "id": "jataka-tales-321-jataka-321-321th-birth-story",
-    "slug": "jataka-tales-321-jataka-321-321th-birth-story-es",
+    "slug": "jataka-tales-321-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 321)",
     "genre": "Jataka Tales",
@@ -41410,7 +41410,7 @@
   },
   {
     "id": "jataka-tales-322-jataka-322-322th-birth-story",
-    "slug": "jataka-tales-322-jataka-322-322th-birth-story-es",
+    "slug": "jataka-tales-322-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 322)",
     "genre": "Jataka Tales",
@@ -41539,7 +41539,7 @@
   },
   {
     "id": "jataka-tales-323-jataka-323-323th-birth-story",
-    "slug": "jataka-tales-323-jataka-323-323th-birth-story-es",
+    "slug": "jataka-tales-323-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 323)",
     "genre": "Jataka Tales",
@@ -41668,7 +41668,7 @@
   },
   {
     "id": "jataka-tales-324-jataka-324-324th-birth-story",
-    "slug": "jataka-tales-324-jataka-324-324th-birth-story-es",
+    "slug": "jataka-tales-324-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 324)",
     "genre": "Jataka Tales",
@@ -41797,7 +41797,7 @@
   },
   {
     "id": "jataka-tales-325-jataka-325-325th-birth-story",
-    "slug": "jataka-tales-325-jataka-325-325th-birth-story-es",
+    "slug": "jataka-tales-325-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 325)",
     "genre": "Jataka Tales",
@@ -41926,7 +41926,7 @@
   },
   {
     "id": "jataka-tales-326-jataka-326-326th-birth-story",
-    "slug": "jataka-tales-326-jataka-326-326th-birth-story-es",
+    "slug": "jataka-tales-326-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 326)",
     "genre": "Jataka Tales",
@@ -42055,7 +42055,7 @@
   },
   {
     "id": "jataka-tales-327-jataka-327-327th-birth-story",
-    "slug": "jataka-tales-327-jataka-327-327th-birth-story-es",
+    "slug": "jataka-tales-327-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 327)",
     "genre": "Jataka Tales",
@@ -42184,7 +42184,7 @@
   },
   {
     "id": "jataka-tales-328-jataka-328-328th-birth-story",
-    "slug": "jataka-tales-328-jataka-328-328th-birth-story-es",
+    "slug": "jataka-tales-328-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 328)",
     "genre": "Jataka Tales",
@@ -42313,7 +42313,7 @@
   },
   {
     "id": "jataka-tales-329-jataka-329-329th-birth-story",
-    "slug": "jataka-tales-329-jataka-329-329th-birth-story-es",
+    "slug": "jataka-tales-329-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 329)",
     "genre": "Jataka Tales",
@@ -42442,7 +42442,7 @@
   },
   {
     "id": "jataka-tales-330-jataka-330-330th-birth-story",
-    "slug": "jataka-tales-330-jataka-330-330th-birth-story-es",
+    "slug": "jataka-tales-330-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 330)",
     "genre": "Jataka Tales",
@@ -42571,7 +42571,7 @@
   },
   {
     "id": "jataka-tales-331-jataka-331-331th-birth-story",
-    "slug": "jataka-tales-331-jataka-331-331th-birth-story-es",
+    "slug": "jataka-tales-331-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 331)",
     "genre": "Jataka Tales",
@@ -42700,7 +42700,7 @@
   },
   {
     "id": "jataka-tales-332-jataka-332-332th-birth-story",
-    "slug": "jataka-tales-332-jataka-332-332th-birth-story-es",
+    "slug": "jataka-tales-332-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 332)",
     "genre": "Jataka Tales",
@@ -42829,7 +42829,7 @@
   },
   {
     "id": "jataka-tales-333-jataka-333-333th-birth-story",
-    "slug": "jataka-tales-333-jataka-333-333th-birth-story-es",
+    "slug": "jataka-tales-333-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 333)",
     "genre": "Jataka Tales",
@@ -42958,7 +42958,7 @@
   },
   {
     "id": "jataka-tales-334-jataka-334-334th-birth-story",
-    "slug": "jataka-tales-334-jataka-334-334th-birth-story-es",
+    "slug": "jataka-tales-334-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 334)",
     "genre": "Jataka Tales",
@@ -43087,7 +43087,7 @@
   },
   {
     "id": "jataka-tales-335-jataka-335-335th-birth-story",
-    "slug": "jataka-tales-335-jataka-335-335th-birth-story-es",
+    "slug": "jataka-tales-335-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 335)",
     "genre": "Jataka Tales",
@@ -43216,7 +43216,7 @@
   },
   {
     "id": "jataka-tales-336-jataka-336-336th-birth-story",
-    "slug": "jataka-tales-336-jataka-336-336th-birth-story-es",
+    "slug": "jataka-tales-336-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 336)",
     "genre": "Jataka Tales",
@@ -43345,7 +43345,7 @@
   },
   {
     "id": "jataka-tales-337-jataka-337-337th-birth-story",
-    "slug": "jataka-tales-337-jataka-337-337th-birth-story-es",
+    "slug": "jataka-tales-337-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 337)",
     "genre": "Jataka Tales",
@@ -43474,7 +43474,7 @@
   },
   {
     "id": "jataka-tales-338-jataka-338-338th-birth-story",
-    "slug": "jataka-tales-338-jataka-338-338th-birth-story-es",
+    "slug": "jataka-tales-338-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 338)",
     "genre": "Jataka Tales",
@@ -43603,7 +43603,7 @@
   },
   {
     "id": "jataka-tales-339-jataka-339-339th-birth-story",
-    "slug": "jataka-tales-339-jataka-339-339th-birth-story-es",
+    "slug": "jataka-tales-339-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 339)",
     "genre": "Jataka Tales",
@@ -43732,7 +43732,7 @@
   },
   {
     "id": "jataka-tales-340-jataka-340-340th-birth-story",
-    "slug": "jataka-tales-340-jataka-340-340th-birth-story-es",
+    "slug": "jataka-tales-340-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 340)",
     "genre": "Jataka Tales",
@@ -43861,7 +43861,7 @@
   },
   {
     "id": "jataka-tales-341-jataka-341-341th-birth-story",
-    "slug": "jataka-tales-341-jataka-341-341th-birth-story-es",
+    "slug": "jataka-tales-341-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 341)",
     "genre": "Jataka Tales",
@@ -43990,7 +43990,7 @@
   },
   {
     "id": "jataka-tales-342-jataka-342-342th-birth-story",
-    "slug": "jataka-tales-342-jataka-342-342th-birth-story-es",
+    "slug": "jataka-tales-342-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 342)",
     "genre": "Jataka Tales",
@@ -44119,7 +44119,7 @@
   },
   {
     "id": "jataka-tales-343-jataka-343-343th-birth-story",
-    "slug": "jataka-tales-343-jataka-343-343th-birth-story-es",
+    "slug": "jataka-tales-343-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 343)",
     "genre": "Jataka Tales",
@@ -44248,7 +44248,7 @@
   },
   {
     "id": "jataka-tales-344-jataka-344-344th-birth-story",
-    "slug": "jataka-tales-344-jataka-344-344th-birth-story-es",
+    "slug": "jataka-tales-344-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 344)",
     "genre": "Jataka Tales",
@@ -44377,7 +44377,7 @@
   },
   {
     "id": "jataka-tales-345-jataka-345-345th-birth-story",
-    "slug": "jataka-tales-345-jataka-345-345th-birth-story-es",
+    "slug": "jataka-tales-345-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 345)",
     "genre": "Jataka Tales",
@@ -44506,7 +44506,7 @@
   },
   {
     "id": "jataka-tales-346-jataka-346-346th-birth-story",
-    "slug": "jataka-tales-346-jataka-346-346th-birth-story-es",
+    "slug": "jataka-tales-346-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 346)",
     "genre": "Jataka Tales",
@@ -44635,7 +44635,7 @@
   },
   {
     "id": "jataka-tales-347-jataka-347-347th-birth-story",
-    "slug": "jataka-tales-347-jataka-347-347th-birth-story-es",
+    "slug": "jataka-tales-347-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 347)",
     "genre": "Jataka Tales",
@@ -44764,7 +44764,7 @@
   },
   {
     "id": "jataka-tales-348-jataka-348-348th-birth-story",
-    "slug": "jataka-tales-348-jataka-348-348th-birth-story-es",
+    "slug": "jataka-tales-348-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 348)",
     "genre": "Jataka Tales",
@@ -44893,7 +44893,7 @@
   },
   {
     "id": "jataka-tales-349-jataka-349-349th-birth-story",
-    "slug": "jataka-tales-349-jataka-349-349th-birth-story-es",
+    "slug": "jataka-tales-349-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 349)",
     "genre": "Jataka Tales",
@@ -45022,7 +45022,7 @@
   },
   {
     "id": "jataka-tales-350-jataka-350-350th-birth-story",
-    "slug": "jataka-tales-350-jataka-350-350th-birth-story-es",
+    "slug": "jataka-tales-350-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 350)",
     "genre": "Jataka Tales",
@@ -45151,7 +45151,7 @@
   },
   {
     "id": "jataka-tales-351-jataka-351-351th-birth-story",
-    "slug": "jataka-tales-351-jataka-351-351th-birth-story-es",
+    "slug": "jataka-tales-351-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 351)",
     "genre": "Jataka Tales",
@@ -45280,7 +45280,7 @@
   },
   {
     "id": "jataka-tales-352-jataka-352-352th-birth-story",
-    "slug": "jataka-tales-352-jataka-352-352th-birth-story-es",
+    "slug": "jataka-tales-352-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 352)",
     "genre": "Jataka Tales",
@@ -45409,7 +45409,7 @@
   },
   {
     "id": "jataka-tales-353-jataka-353-353th-birth-story",
-    "slug": "jataka-tales-353-jataka-353-353th-birth-story-es",
+    "slug": "jataka-tales-353-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 353)",
     "genre": "Jataka Tales",
@@ -45538,7 +45538,7 @@
   },
   {
     "id": "jataka-tales-354-jataka-354-354th-birth-story",
-    "slug": "jataka-tales-354-jataka-354-354th-birth-story-es",
+    "slug": "jataka-tales-354-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 354)",
     "genre": "Jataka Tales",
@@ -45667,7 +45667,7 @@
   },
   {
     "id": "jataka-tales-355-jataka-355-355th-birth-story",
-    "slug": "jataka-tales-355-jataka-355-355th-birth-story-es",
+    "slug": "jataka-tales-355-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 355)",
     "genre": "Jataka Tales",
@@ -45796,7 +45796,7 @@
   },
   {
     "id": "jataka-tales-356-jataka-356-356th-birth-story",
-    "slug": "jataka-tales-356-jataka-356-356th-birth-story-es",
+    "slug": "jataka-tales-356-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 356)",
     "genre": "Jataka Tales",
@@ -45925,7 +45925,7 @@
   },
   {
     "id": "jataka-tales-357-jataka-357-357th-birth-story",
-    "slug": "jataka-tales-357-jataka-357-357th-birth-story-es",
+    "slug": "jataka-tales-357-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 357)",
     "genre": "Jataka Tales",
@@ -46054,7 +46054,7 @@
   },
   {
     "id": "jataka-tales-358-jataka-358-358th-birth-story",
-    "slug": "jataka-tales-358-jataka-358-358th-birth-story-es",
+    "slug": "jataka-tales-358-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 358)",
     "genre": "Jataka Tales",
@@ -46183,7 +46183,7 @@
   },
   {
     "id": "jataka-tales-359-jataka-359-359th-birth-story",
-    "slug": "jataka-tales-359-jataka-359-359th-birth-story-es",
+    "slug": "jataka-tales-359-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 359)",
     "genre": "Jataka Tales",
@@ -46312,7 +46312,7 @@
   },
   {
     "id": "jataka-tales-360-jataka-360-360th-birth-story",
-    "slug": "jataka-tales-360-jataka-360-360th-birth-story-es",
+    "slug": "jataka-tales-360-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 360)",
     "genre": "Jataka Tales",
@@ -46441,7 +46441,7 @@
   },
   {
     "id": "jataka-tales-361-jataka-361-361th-birth-story",
-    "slug": "jataka-tales-361-jataka-361-361th-birth-story-es",
+    "slug": "jataka-tales-361-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 361)",
     "genre": "Jataka Tales",
@@ -46570,7 +46570,7 @@
   },
   {
     "id": "jataka-tales-362-jataka-362-362th-birth-story",
-    "slug": "jataka-tales-362-jataka-362-362th-birth-story-es",
+    "slug": "jataka-tales-362-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 362)",
     "genre": "Jataka Tales",
@@ -46699,7 +46699,7 @@
   },
   {
     "id": "jataka-tales-363-jataka-363-363th-birth-story",
-    "slug": "jataka-tales-363-jataka-363-363th-birth-story-es",
+    "slug": "jataka-tales-363-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 363)",
     "genre": "Jataka Tales",
@@ -46828,7 +46828,7 @@
   },
   {
     "id": "jataka-tales-364-jataka-364-364th-birth-story",
-    "slug": "jataka-tales-364-jataka-364-364th-birth-story-es",
+    "slug": "jataka-tales-364-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 364)",
     "genre": "Jataka Tales",
@@ -46957,7 +46957,7 @@
   },
   {
     "id": "jataka-tales-365-jataka-365-365th-birth-story",
-    "slug": "jataka-tales-365-jataka-365-365th-birth-story-es",
+    "slug": "jataka-tales-365-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 365)",
     "genre": "Jataka Tales",
@@ -47086,7 +47086,7 @@
   },
   {
     "id": "jataka-tales-366-jataka-366-366th-birth-story",
-    "slug": "jataka-tales-366-jataka-366-366th-birth-story-es",
+    "slug": "jataka-tales-366-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 366)",
     "genre": "Jataka Tales",
@@ -47215,7 +47215,7 @@
   },
   {
     "id": "jataka-tales-367-jataka-367-367th-birth-story",
-    "slug": "jataka-tales-367-jataka-367-367th-birth-story-es",
+    "slug": "jataka-tales-367-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 367)",
     "genre": "Jataka Tales",
@@ -47344,7 +47344,7 @@
   },
   {
     "id": "jataka-tales-368-jataka-368-368th-birth-story",
-    "slug": "jataka-tales-368-jataka-368-368th-birth-story-es",
+    "slug": "jataka-tales-368-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 368)",
     "genre": "Jataka Tales",
@@ -47473,7 +47473,7 @@
   },
   {
     "id": "jataka-tales-369-jataka-369-369th-birth-story",
-    "slug": "jataka-tales-369-jataka-369-369th-birth-story-es",
+    "slug": "jataka-tales-369-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 369)",
     "genre": "Jataka Tales",
@@ -47602,7 +47602,7 @@
   },
   {
     "id": "jataka-tales-370-jataka-370-370th-birth-story",
-    "slug": "jataka-tales-370-jataka-370-370th-birth-story-es",
+    "slug": "jataka-tales-370-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 370)",
     "genre": "Jataka Tales",
@@ -47731,7 +47731,7 @@
   },
   {
     "id": "jataka-tales-371-jataka-371-371th-birth-story",
-    "slug": "jataka-tales-371-jataka-371-371th-birth-story-es",
+    "slug": "jataka-tales-371-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 371)",
     "genre": "Jataka Tales",
@@ -47860,7 +47860,7 @@
   },
   {
     "id": "jataka-tales-372-jataka-372-372th-birth-story",
-    "slug": "jataka-tales-372-jataka-372-372th-birth-story-es",
+    "slug": "jataka-tales-372-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 372)",
     "genre": "Jataka Tales",
@@ -47989,7 +47989,7 @@
   },
   {
     "id": "jataka-tales-373-jataka-373-373th-birth-story",
-    "slug": "jataka-tales-373-jataka-373-373th-birth-story-es",
+    "slug": "jataka-tales-373-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 373)",
     "genre": "Jataka Tales",
@@ -48118,7 +48118,7 @@
   },
   {
     "id": "jataka-tales-374-jataka-374-374th-birth-story",
-    "slug": "jataka-tales-374-jataka-374-374th-birth-story-es",
+    "slug": "jataka-tales-374-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 374)",
     "genre": "Jataka Tales",
@@ -48247,7 +48247,7 @@
   },
   {
     "id": "jataka-tales-375-jataka-375-375th-birth-story",
-    "slug": "jataka-tales-375-jataka-375-375th-birth-story-es",
+    "slug": "jataka-tales-375-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 375)",
     "genre": "Jataka Tales",
@@ -48376,7 +48376,7 @@
   },
   {
     "id": "jataka-tales-376-jataka-376-376th-birth-story",
-    "slug": "jataka-tales-376-jataka-376-376th-birth-story-es",
+    "slug": "jataka-tales-376-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 376)",
     "genre": "Jataka Tales",
@@ -48505,7 +48505,7 @@
   },
   {
     "id": "jataka-tales-377-jataka-377-377th-birth-story",
-    "slug": "jataka-tales-377-jataka-377-377th-birth-story-es",
+    "slug": "jataka-tales-377-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 377)",
     "genre": "Jataka Tales",
@@ -48634,7 +48634,7 @@
   },
   {
     "id": "jataka-tales-378-jataka-378-378th-birth-story",
-    "slug": "jataka-tales-378-jataka-378-378th-birth-story-es",
+    "slug": "jataka-tales-378-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 378)",
     "genre": "Jataka Tales",
@@ -48763,7 +48763,7 @@
   },
   {
     "id": "jataka-tales-379-jataka-379-379th-birth-story",
-    "slug": "jataka-tales-379-jataka-379-379th-birth-story-es",
+    "slug": "jataka-tales-379-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 379)",
     "genre": "Jataka Tales",
@@ -48892,7 +48892,7 @@
   },
   {
     "id": "jataka-tales-380-jataka-380-380th-birth-story",
-    "slug": "jataka-tales-380-jataka-380-380th-birth-story-es",
+    "slug": "jataka-tales-380-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 380)",
     "genre": "Jataka Tales",
@@ -49021,7 +49021,7 @@
   },
   {
     "id": "jataka-tales-381-jataka-381-381th-birth-story",
-    "slug": "jataka-tales-381-jataka-381-381th-birth-story-es",
+    "slug": "jataka-tales-381-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 381)",
     "genre": "Jataka Tales",
@@ -49150,7 +49150,7 @@
   },
   {
     "id": "jataka-tales-382-jataka-382-382th-birth-story",
-    "slug": "jataka-tales-382-jataka-382-382th-birth-story-es",
+    "slug": "jataka-tales-382-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 382)",
     "genre": "Jataka Tales",
@@ -49279,7 +49279,7 @@
   },
   {
     "id": "jataka-tales-383-jataka-383-383th-birth-story",
-    "slug": "jataka-tales-383-jataka-383-383th-birth-story-es",
+    "slug": "jataka-tales-383-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 383)",
     "genre": "Jataka Tales",
@@ -49408,7 +49408,7 @@
   },
   {
     "id": "jataka-tales-384-jataka-384-384th-birth-story",
-    "slug": "jataka-tales-384-jataka-384-384th-birth-story-es",
+    "slug": "jataka-tales-384-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 384)",
     "genre": "Jataka Tales",
@@ -49537,7 +49537,7 @@
   },
   {
     "id": "jataka-tales-385-jataka-385-385th-birth-story",
-    "slug": "jataka-tales-385-jataka-385-385th-birth-story-es",
+    "slug": "jataka-tales-385-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 385)",
     "genre": "Jataka Tales",
@@ -49666,7 +49666,7 @@
   },
   {
     "id": "jataka-tales-386-jataka-386-386th-birth-story",
-    "slug": "jataka-tales-386-jataka-386-386th-birth-story-es",
+    "slug": "jataka-tales-386-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 386)",
     "genre": "Jataka Tales",
@@ -49795,7 +49795,7 @@
   },
   {
     "id": "jataka-tales-387-jataka-387-387th-birth-story",
-    "slug": "jataka-tales-387-jataka-387-387th-birth-story-es",
+    "slug": "jataka-tales-387-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 387)",
     "genre": "Jataka Tales",
@@ -49924,7 +49924,7 @@
   },
   {
     "id": "jataka-tales-388-jataka-388-388th-birth-story",
-    "slug": "jataka-tales-388-jataka-388-388th-birth-story-es",
+    "slug": "jataka-tales-388-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 388)",
     "genre": "Jataka Tales",
@@ -50053,7 +50053,7 @@
   },
   {
     "id": "jataka-tales-389-jataka-389-389th-birth-story",
-    "slug": "jataka-tales-389-jataka-389-389th-birth-story-es",
+    "slug": "jataka-tales-389-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 389)",
     "genre": "Jataka Tales",
@@ -50182,7 +50182,7 @@
   },
   {
     "id": "jataka-tales-390-jataka-390-390th-birth-story",
-    "slug": "jataka-tales-390-jataka-390-390th-birth-story-es",
+    "slug": "jataka-tales-390-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 390)",
     "genre": "Jataka Tales",
@@ -50311,7 +50311,7 @@
   },
   {
     "id": "jataka-tales-391-jataka-391-391th-birth-story",
-    "slug": "jataka-tales-391-jataka-391-391th-birth-story-es",
+    "slug": "jataka-tales-391-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 391)",
     "genre": "Jataka Tales",
@@ -50440,7 +50440,7 @@
   },
   {
     "id": "jataka-tales-392-jataka-392-392th-birth-story",
-    "slug": "jataka-tales-392-jataka-392-392th-birth-story-es",
+    "slug": "jataka-tales-392-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 392)",
     "genre": "Jataka Tales",
@@ -50569,7 +50569,7 @@
   },
   {
     "id": "jataka-tales-393-jataka-393-393th-birth-story",
-    "slug": "jataka-tales-393-jataka-393-393th-birth-story-es",
+    "slug": "jataka-tales-393-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 393)",
     "genre": "Jataka Tales",
@@ -50698,7 +50698,7 @@
   },
   {
     "id": "jataka-tales-394-jataka-394-394th-birth-story",
-    "slug": "jataka-tales-394-jataka-394-394th-birth-story-es",
+    "slug": "jataka-tales-394-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 394)",
     "genre": "Jataka Tales",
@@ -50827,7 +50827,7 @@
   },
   {
     "id": "jataka-tales-395-jataka-395-395th-birth-story",
-    "slug": "jataka-tales-395-jataka-395-395th-birth-story-es",
+    "slug": "jataka-tales-395-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 395)",
     "genre": "Jataka Tales",
@@ -50956,7 +50956,7 @@
   },
   {
     "id": "jataka-tales-396-jataka-396-396th-birth-story",
-    "slug": "jataka-tales-396-jataka-396-396th-birth-story-es",
+    "slug": "jataka-tales-396-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 396)",
     "genre": "Jataka Tales",
@@ -51085,7 +51085,7 @@
   },
   {
     "id": "jataka-tales-397-jataka-397-397th-birth-story",
-    "slug": "jataka-tales-397-jataka-397-397th-birth-story-es",
+    "slug": "jataka-tales-397-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 397)",
     "genre": "Jataka Tales",
@@ -51214,7 +51214,7 @@
   },
   {
     "id": "jataka-tales-398-jataka-398-398th-birth-story",
-    "slug": "jataka-tales-398-jataka-398-398th-birth-story-es",
+    "slug": "jataka-tales-398-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 398)",
     "genre": "Jataka Tales",
@@ -51343,7 +51343,7 @@
   },
   {
     "id": "jataka-tales-399-jataka-399-399th-birth-story",
-    "slug": "jataka-tales-399-jataka-399-399th-birth-story-es",
+    "slug": "jataka-tales-399-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 399)",
     "genre": "Jataka Tales",
@@ -51472,7 +51472,7 @@
   },
   {
     "id": "jataka-tales-400-jataka-400-400th-birth-story",
-    "slug": "jataka-tales-400-jataka-400-400th-birth-story-es",
+    "slug": "jataka-tales-400-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 400)",
     "genre": "Jataka Tales",
@@ -51601,7 +51601,7 @@
   },
   {
     "id": "jataka-tales-401-jataka-401-401th-birth-story",
-    "slug": "jataka-tales-401-jataka-401-401th-birth-story-es",
+    "slug": "jataka-tales-401-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 401)",
     "genre": "Jataka Tales",
@@ -51730,7 +51730,7 @@
   },
   {
     "id": "jataka-tales-402-jataka-402-402th-birth-story",
-    "slug": "jataka-tales-402-jataka-402-402th-birth-story-es",
+    "slug": "jataka-tales-402-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 402)",
     "genre": "Jataka Tales",
@@ -51859,7 +51859,7 @@
   },
   {
     "id": "jataka-tales-403-jataka-403-403th-birth-story",
-    "slug": "jataka-tales-403-jataka-403-403th-birth-story-es",
+    "slug": "jataka-tales-403-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 403)",
     "genre": "Jataka Tales",
@@ -51988,7 +51988,7 @@
   },
   {
     "id": "jataka-tales-404-jataka-404-404th-birth-story",
-    "slug": "jataka-tales-404-jataka-404-404th-birth-story-es",
+    "slug": "jataka-tales-404-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 404)",
     "genre": "Jataka Tales",
@@ -52117,7 +52117,7 @@
   },
   {
     "id": "jataka-tales-405-jataka-405-405th-birth-story",
-    "slug": "jataka-tales-405-jataka-405-405th-birth-story-es",
+    "slug": "jataka-tales-405-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 405)",
     "genre": "Jataka Tales",
@@ -52246,7 +52246,7 @@
   },
   {
     "id": "jataka-tales-406-jataka-406-406th-birth-story",
-    "slug": "jataka-tales-406-jataka-406-406th-birth-story-es",
+    "slug": "jataka-tales-406-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 406)",
     "genre": "Jataka Tales",
@@ -52375,7 +52375,7 @@
   },
   {
     "id": "jataka-tales-407-jataka-407-407th-birth-story",
-    "slug": "jataka-tales-407-jataka-407-407th-birth-story-es",
+    "slug": "jataka-tales-407-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 407)",
     "genre": "Jataka Tales",
@@ -52504,7 +52504,7 @@
   },
   {
     "id": "jataka-tales-408-jataka-408-408th-birth-story",
-    "slug": "jataka-tales-408-jataka-408-408th-birth-story-es",
+    "slug": "jataka-tales-408-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 408)",
     "genre": "Jataka Tales",
@@ -52633,7 +52633,7 @@
   },
   {
     "id": "jataka-tales-409-jataka-409-409th-birth-story",
-    "slug": "jataka-tales-409-jataka-409-409th-birth-story-es",
+    "slug": "jataka-tales-409-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 409)",
     "genre": "Jataka Tales",
@@ -52762,7 +52762,7 @@
   },
   {
     "id": "jataka-tales-410-jataka-410-410th-birth-story",
-    "slug": "jataka-tales-410-jataka-410-410th-birth-story-es",
+    "slug": "jataka-tales-410-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 410)",
     "genre": "Jataka Tales",
@@ -52891,7 +52891,7 @@
   },
   {
     "id": "jataka-tales-411-jataka-411-411th-birth-story",
-    "slug": "jataka-tales-411-jataka-411-411th-birth-story-es",
+    "slug": "jataka-tales-411-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 411)",
     "genre": "Jataka Tales",
@@ -53020,7 +53020,7 @@
   },
   {
     "id": "jataka-tales-412-jataka-412-412th-birth-story",
-    "slug": "jataka-tales-412-jataka-412-412th-birth-story-es",
+    "slug": "jataka-tales-412-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 412)",
     "genre": "Jataka Tales",
@@ -53149,7 +53149,7 @@
   },
   {
     "id": "jataka-tales-413-jataka-413-413th-birth-story",
-    "slug": "jataka-tales-413-jataka-413-413th-birth-story-es",
+    "slug": "jataka-tales-413-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 413)",
     "genre": "Jataka Tales",
@@ -53278,7 +53278,7 @@
   },
   {
     "id": "jataka-tales-414-jataka-414-414th-birth-story",
-    "slug": "jataka-tales-414-jataka-414-414th-birth-story-es",
+    "slug": "jataka-tales-414-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 414)",
     "genre": "Jataka Tales",
@@ -53407,7 +53407,7 @@
   },
   {
     "id": "jataka-tales-415-jataka-415-415th-birth-story",
-    "slug": "jataka-tales-415-jataka-415-415th-birth-story-es",
+    "slug": "jataka-tales-415-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 415)",
     "genre": "Jataka Tales",
@@ -53536,7 +53536,7 @@
   },
   {
     "id": "jataka-tales-416-jataka-416-416th-birth-story",
-    "slug": "jataka-tales-416-jataka-416-416th-birth-story-es",
+    "slug": "jataka-tales-416-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 416)",
     "genre": "Jataka Tales",
@@ -53665,7 +53665,7 @@
   },
   {
     "id": "jataka-tales-417-jataka-417-417th-birth-story",
-    "slug": "jataka-tales-417-jataka-417-417th-birth-story-es",
+    "slug": "jataka-tales-417-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 417)",
     "genre": "Jataka Tales",
@@ -53794,7 +53794,7 @@
   },
   {
     "id": "jataka-tales-418-jataka-418-418th-birth-story",
-    "slug": "jataka-tales-418-jataka-418-418th-birth-story-es",
+    "slug": "jataka-tales-418-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 418)",
     "genre": "Jataka Tales",
@@ -53923,7 +53923,7 @@
   },
   {
     "id": "jataka-tales-419-jataka-419-419th-birth-story",
-    "slug": "jataka-tales-419-jataka-419-419th-birth-story-es",
+    "slug": "jataka-tales-419-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 419)",
     "genre": "Jataka Tales",
@@ -54052,7 +54052,7 @@
   },
   {
     "id": "jataka-tales-420-jataka-420-420th-birth-story",
-    "slug": "jataka-tales-420-jataka-420-420th-birth-story-es",
+    "slug": "jataka-tales-420-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 420)",
     "genre": "Jataka Tales",
@@ -54181,7 +54181,7 @@
   },
   {
     "id": "jataka-tales-421-jataka-421-421th-birth-story",
-    "slug": "jataka-tales-421-jataka-421-421th-birth-story-es",
+    "slug": "jataka-tales-421-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 421)",
     "genre": "Jataka Tales",
@@ -54310,7 +54310,7 @@
   },
   {
     "id": "jataka-tales-422-jataka-422-422th-birth-story",
-    "slug": "jataka-tales-422-jataka-422-422th-birth-story-es",
+    "slug": "jataka-tales-422-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 422)",
     "genre": "Jataka Tales",
@@ -54439,7 +54439,7 @@
   },
   {
     "id": "jataka-tales-423-jataka-423-423th-birth-story",
-    "slug": "jataka-tales-423-jataka-423-423th-birth-story-es",
+    "slug": "jataka-tales-423-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 423)",
     "genre": "Jataka Tales",
@@ -54568,7 +54568,7 @@
   },
   {
     "id": "jataka-tales-424-jataka-424-424th-birth-story",
-    "slug": "jataka-tales-424-jataka-424-424th-birth-story-es",
+    "slug": "jataka-tales-424-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 424)",
     "genre": "Jataka Tales",
@@ -54697,7 +54697,7 @@
   },
   {
     "id": "jataka-tales-425-jataka-425-425th-birth-story",
-    "slug": "jataka-tales-425-jataka-425-425th-birth-story-es",
+    "slug": "jataka-tales-425-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 425)",
     "genre": "Jataka Tales",
@@ -54826,7 +54826,7 @@
   },
   {
     "id": "jataka-tales-426-jataka-426-426th-birth-story",
-    "slug": "jataka-tales-426-jataka-426-426th-birth-story-es",
+    "slug": "jataka-tales-426-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 426)",
     "genre": "Jataka Tales",
@@ -54955,7 +54955,7 @@
   },
   {
     "id": "jataka-tales-427-jataka-427-427th-birth-story",
-    "slug": "jataka-tales-427-jataka-427-427th-birth-story-es",
+    "slug": "jataka-tales-427-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 427)",
     "genre": "Jataka Tales",
@@ -55084,7 +55084,7 @@
   },
   {
     "id": "jataka-tales-428-jataka-428-428th-birth-story",
-    "slug": "jataka-tales-428-jataka-428-428th-birth-story-es",
+    "slug": "jataka-tales-428-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 428)",
     "genre": "Jataka Tales",
@@ -55213,7 +55213,7 @@
   },
   {
     "id": "jataka-tales-429-jataka-429-429th-birth-story",
-    "slug": "jataka-tales-429-jataka-429-429th-birth-story-es",
+    "slug": "jataka-tales-429-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 429)",
     "genre": "Jataka Tales",
@@ -55342,7 +55342,7 @@
   },
   {
     "id": "jataka-tales-430-jataka-430-430th-birth-story",
-    "slug": "jataka-tales-430-jataka-430-430th-birth-story-es",
+    "slug": "jataka-tales-430-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 430)",
     "genre": "Jataka Tales",
@@ -55471,7 +55471,7 @@
   },
   {
     "id": "jataka-tales-431-jataka-431-431th-birth-story",
-    "slug": "jataka-tales-431-jataka-431-431th-birth-story-es",
+    "slug": "jataka-tales-431-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 431)",
     "genre": "Jataka Tales",
@@ -55600,7 +55600,7 @@
   },
   {
     "id": "jataka-tales-432-jataka-432-432th-birth-story",
-    "slug": "jataka-tales-432-jataka-432-432th-birth-story-es",
+    "slug": "jataka-tales-432-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 432)",
     "genre": "Jataka Tales",
@@ -55729,7 +55729,7 @@
   },
   {
     "id": "jataka-tales-433-jataka-433-433th-birth-story",
-    "slug": "jataka-tales-433-jataka-433-433th-birth-story-es",
+    "slug": "jataka-tales-433-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 433)",
     "genre": "Jataka Tales",
@@ -55858,7 +55858,7 @@
   },
   {
     "id": "jataka-tales-434-jataka-434-434th-birth-story",
-    "slug": "jataka-tales-434-jataka-434-434th-birth-story-es",
+    "slug": "jataka-tales-434-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 434)",
     "genre": "Jataka Tales",
@@ -55987,7 +55987,7 @@
   },
   {
     "id": "jataka-tales-435-jataka-435-435th-birth-story",
-    "slug": "jataka-tales-435-jataka-435-435th-birth-story-es",
+    "slug": "jataka-tales-435-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 435)",
     "genre": "Jataka Tales",
@@ -56116,7 +56116,7 @@
   },
   {
     "id": "jataka-tales-436-jataka-436-436th-birth-story",
-    "slug": "jataka-tales-436-jataka-436-436th-birth-story-es",
+    "slug": "jataka-tales-436-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 436)",
     "genre": "Jataka Tales",
@@ -56245,7 +56245,7 @@
   },
   {
     "id": "jataka-tales-437-jataka-437-437th-birth-story",
-    "slug": "jataka-tales-437-jataka-437-437th-birth-story-es",
+    "slug": "jataka-tales-437-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 437)",
     "genre": "Jataka Tales",
@@ -56374,7 +56374,7 @@
   },
   {
     "id": "jataka-tales-438-jataka-438-438th-birth-story",
-    "slug": "jataka-tales-438-jataka-438-438th-birth-story-es",
+    "slug": "jataka-tales-438-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 438)",
     "genre": "Jataka Tales",
@@ -56503,7 +56503,7 @@
   },
   {
     "id": "jataka-tales-439-jataka-439-439th-birth-story",
-    "slug": "jataka-tales-439-jataka-439-439th-birth-story-es",
+    "slug": "jataka-tales-439-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 439)",
     "genre": "Jataka Tales",
@@ -56632,7 +56632,7 @@
   },
   {
     "id": "jataka-tales-440-jataka-440-440th-birth-story",
-    "slug": "jataka-tales-440-jataka-440-440th-birth-story-es",
+    "slug": "jataka-tales-440-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 440)",
     "genre": "Jataka Tales",
@@ -56761,7 +56761,7 @@
   },
   {
     "id": "jataka-tales-441-jataka-441-441th-birth-story",
-    "slug": "jataka-tales-441-jataka-441-441th-birth-story-es",
+    "slug": "jataka-tales-441-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 441)",
     "genre": "Jataka Tales",
@@ -56890,7 +56890,7 @@
   },
   {
     "id": "jataka-tales-442-jataka-442-442th-birth-story",
-    "slug": "jataka-tales-442-jataka-442-442th-birth-story-es",
+    "slug": "jataka-tales-442-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 442)",
     "genre": "Jataka Tales",
@@ -57019,7 +57019,7 @@
   },
   {
     "id": "jataka-tales-443-jataka-443-443th-birth-story",
-    "slug": "jataka-tales-443-jataka-443-443th-birth-story-es",
+    "slug": "jataka-tales-443-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 443)",
     "genre": "Jataka Tales",
@@ -57148,7 +57148,7 @@
   },
   {
     "id": "jataka-tales-444-jataka-444-444th-birth-story",
-    "slug": "jataka-tales-444-jataka-444-444th-birth-story-es",
+    "slug": "jataka-tales-444-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 444)",
     "genre": "Jataka Tales",
@@ -57277,7 +57277,7 @@
   },
   {
     "id": "jataka-tales-445-jataka-445-445th-birth-story",
-    "slug": "jataka-tales-445-jataka-445-445th-birth-story-es",
+    "slug": "jataka-tales-445-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 445)",
     "genre": "Jataka Tales",
@@ -57406,7 +57406,7 @@
   },
   {
     "id": "jataka-tales-446-jataka-446-446th-birth-story",
-    "slug": "jataka-tales-446-jataka-446-446th-birth-story-es",
+    "slug": "jataka-tales-446-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 446)",
     "genre": "Jataka Tales",
@@ -57535,7 +57535,7 @@
   },
   {
     "id": "jataka-tales-447-jataka-447-447th-birth-story",
-    "slug": "jataka-tales-447-jataka-447-447th-birth-story-es",
+    "slug": "jataka-tales-447-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 447)",
     "genre": "Jataka Tales",
@@ -57664,7 +57664,7 @@
   },
   {
     "id": "jataka-tales-448-jataka-448-448th-birth-story",
-    "slug": "jataka-tales-448-jataka-448-448th-birth-story-es",
+    "slug": "jataka-tales-448-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 448)",
     "genre": "Jataka Tales",
@@ -57793,7 +57793,7 @@
   },
   {
     "id": "jataka-tales-449-jataka-449-449th-birth-story",
-    "slug": "jataka-tales-449-jataka-449-449th-birth-story-es",
+    "slug": "jataka-tales-449-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 449)",
     "genre": "Jataka Tales",
@@ -57922,7 +57922,7 @@
   },
   {
     "id": "jataka-tales-450-jataka-450-450th-birth-story",
-    "slug": "jataka-tales-450-jataka-450-450th-birth-story-es",
+    "slug": "jataka-tales-450-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 450)",
     "genre": "Jataka Tales",
@@ -58051,7 +58051,7 @@
   },
   {
     "id": "jataka-tales-451-jataka-451-451th-birth-story",
-    "slug": "jataka-tales-451-jataka-451-451th-birth-story-es",
+    "slug": "jataka-tales-451-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 451)",
     "genre": "Jataka Tales",
@@ -58180,7 +58180,7 @@
   },
   {
     "id": "jataka-tales-452-jataka-452-452th-birth-story",
-    "slug": "jataka-tales-452-jataka-452-452th-birth-story-es",
+    "slug": "jataka-tales-452-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 452)",
     "genre": "Jataka Tales",
@@ -58309,7 +58309,7 @@
   },
   {
     "id": "jataka-tales-453-jataka-453-453th-birth-story",
-    "slug": "jataka-tales-453-jataka-453-453th-birth-story-es",
+    "slug": "jataka-tales-453-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 453)",
     "genre": "Jataka Tales",
@@ -58438,7 +58438,7 @@
   },
   {
     "id": "jataka-tales-454-jataka-454-454th-birth-story",
-    "slug": "jataka-tales-454-jataka-454-454th-birth-story-es",
+    "slug": "jataka-tales-454-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 454)",
     "genre": "Jataka Tales",
@@ -58567,7 +58567,7 @@
   },
   {
     "id": "jataka-tales-455-jataka-455-455th-birth-story",
-    "slug": "jataka-tales-455-jataka-455-455th-birth-story-es",
+    "slug": "jataka-tales-455-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 455)",
     "genre": "Jataka Tales",
@@ -58696,7 +58696,7 @@
   },
   {
     "id": "jataka-tales-456-jataka-456-456th-birth-story",
-    "slug": "jataka-tales-456-jataka-456-456th-birth-story-es",
+    "slug": "jataka-tales-456-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 456)",
     "genre": "Jataka Tales",
@@ -58825,7 +58825,7 @@
   },
   {
     "id": "jataka-tales-457-jataka-457-457th-birth-story",
-    "slug": "jataka-tales-457-jataka-457-457th-birth-story-es",
+    "slug": "jataka-tales-457-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 457)",
     "genre": "Jataka Tales",
@@ -58954,7 +58954,7 @@
   },
   {
     "id": "jataka-tales-458-jataka-458-458th-birth-story",
-    "slug": "jataka-tales-458-jataka-458-458th-birth-story-es",
+    "slug": "jataka-tales-458-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 458)",
     "genre": "Jataka Tales",
@@ -59083,7 +59083,7 @@
   },
   {
     "id": "jataka-tales-459-jataka-459-459th-birth-story",
-    "slug": "jataka-tales-459-jataka-459-459th-birth-story-es",
+    "slug": "jataka-tales-459-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 459)",
     "genre": "Jataka Tales",
@@ -59212,7 +59212,7 @@
   },
   {
     "id": "jataka-tales-460-jataka-460-460th-birth-story",
-    "slug": "jataka-tales-460-jataka-460-460th-birth-story-es",
+    "slug": "jataka-tales-460-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 460)",
     "genre": "Jataka Tales",
@@ -59341,7 +59341,7 @@
   },
   {
     "id": "jataka-tales-461-jataka-461-461th-birth-story",
-    "slug": "jataka-tales-461-jataka-461-461th-birth-story-es",
+    "slug": "jataka-tales-461-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 461)",
     "genre": "Jataka Tales",
@@ -59470,7 +59470,7 @@
   },
   {
     "id": "jataka-tales-462-jataka-462-462th-birth-story",
-    "slug": "jataka-tales-462-jataka-462-462th-birth-story-es",
+    "slug": "jataka-tales-462-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 462)",
     "genre": "Jataka Tales",
@@ -59599,7 +59599,7 @@
   },
   {
     "id": "jataka-tales-463-jataka-463-463th-birth-story",
-    "slug": "jataka-tales-463-jataka-463-463th-birth-story-es",
+    "slug": "jataka-tales-463-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 463)",
     "genre": "Jataka Tales",
@@ -59728,7 +59728,7 @@
   },
   {
     "id": "jataka-tales-464-jataka-464-464th-birth-story",
-    "slug": "jataka-tales-464-jataka-464-464th-birth-story-es",
+    "slug": "jataka-tales-464-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 464)",
     "genre": "Jataka Tales",
@@ -59857,7 +59857,7 @@
   },
   {
     "id": "jataka-tales-465-jataka-465-465th-birth-story",
-    "slug": "jataka-tales-465-jataka-465-465th-birth-story-es",
+    "slug": "jataka-tales-465-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 465)",
     "genre": "Jataka Tales",
@@ -59986,7 +59986,7 @@
   },
   {
     "id": "jataka-tales-466-jataka-466-466th-birth-story",
-    "slug": "jataka-tales-466-jataka-466-466th-birth-story-es",
+    "slug": "jataka-tales-466-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 466)",
     "genre": "Jataka Tales",
@@ -60115,7 +60115,7 @@
   },
   {
     "id": "jataka-tales-467-jataka-467-467th-birth-story",
-    "slug": "jataka-tales-467-jataka-467-467th-birth-story-es",
+    "slug": "jataka-tales-467-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 467)",
     "genre": "Jataka Tales",
@@ -60244,7 +60244,7 @@
   },
   {
     "id": "jataka-tales-468-jataka-468-468th-birth-story",
-    "slug": "jataka-tales-468-jataka-468-468th-birth-story-es",
+    "slug": "jataka-tales-468-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 468)",
     "genre": "Jataka Tales",
@@ -60373,7 +60373,7 @@
   },
   {
     "id": "jataka-tales-469-jataka-469-469th-birth-story",
-    "slug": "jataka-tales-469-jataka-469-469th-birth-story-es",
+    "slug": "jataka-tales-469-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 469)",
     "genre": "Jataka Tales",
@@ -60502,7 +60502,7 @@
   },
   {
     "id": "jataka-tales-470-jataka-470-470th-birth-story",
-    "slug": "jataka-tales-470-jataka-470-470th-birth-story-es",
+    "slug": "jataka-tales-470-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 470)",
     "genre": "Jataka Tales",
@@ -60631,7 +60631,7 @@
   },
   {
     "id": "jataka-tales-471-jataka-471-471th-birth-story",
-    "slug": "jataka-tales-471-jataka-471-471th-birth-story-es",
+    "slug": "jataka-tales-471-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 471)",
     "genre": "Jataka Tales",
@@ -60760,7 +60760,7 @@
   },
   {
     "id": "jataka-tales-472-jataka-472-472th-birth-story",
-    "slug": "jataka-tales-472-jataka-472-472th-birth-story-es",
+    "slug": "jataka-tales-472-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 472)",
     "genre": "Jataka Tales",
@@ -60889,7 +60889,7 @@
   },
   {
     "id": "jataka-tales-473-jataka-473-473th-birth-story",
-    "slug": "jataka-tales-473-jataka-473-473th-birth-story-es",
+    "slug": "jataka-tales-473-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 473)",
     "genre": "Jataka Tales",
@@ -61018,7 +61018,7 @@
   },
   {
     "id": "jataka-tales-474-jataka-474-474th-birth-story",
-    "slug": "jataka-tales-474-jataka-474-474th-birth-story-es",
+    "slug": "jataka-tales-474-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 474)",
     "genre": "Jataka Tales",
@@ -61147,7 +61147,7 @@
   },
   {
     "id": "jataka-tales-475-jataka-475-475th-birth-story",
-    "slug": "jataka-tales-475-jataka-475-475th-birth-story-es",
+    "slug": "jataka-tales-475-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 475)",
     "genre": "Jataka Tales",
@@ -61276,7 +61276,7 @@
   },
   {
     "id": "jataka-tales-476-jataka-476-476th-birth-story",
-    "slug": "jataka-tales-476-jataka-476-476th-birth-story-es",
+    "slug": "jataka-tales-476-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 476)",
     "genre": "Jataka Tales",
@@ -61405,7 +61405,7 @@
   },
   {
     "id": "jataka-tales-477-jataka-477-477th-birth-story",
-    "slug": "jataka-tales-477-jataka-477-477th-birth-story-es",
+    "slug": "jataka-tales-477-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 477)",
     "genre": "Jataka Tales",
@@ -61534,7 +61534,7 @@
   },
   {
     "id": "jataka-tales-478-jataka-478-478th-birth-story",
-    "slug": "jataka-tales-478-jataka-478-478th-birth-story-es",
+    "slug": "jataka-tales-478-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 478)",
     "genre": "Jataka Tales",
@@ -61663,7 +61663,7 @@
   },
   {
     "id": "jataka-tales-479-jataka-479-479th-birth-story",
-    "slug": "jataka-tales-479-jataka-479-479th-birth-story-es",
+    "slug": "jataka-tales-479-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 479)",
     "genre": "Jataka Tales",
@@ -61792,7 +61792,7 @@
   },
   {
     "id": "jataka-tales-480-jataka-480-480th-birth-story",
-    "slug": "jataka-tales-480-jataka-480-480th-birth-story-es",
+    "slug": "jataka-tales-480-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 480)",
     "genre": "Jataka Tales",
@@ -61921,7 +61921,7 @@
   },
   {
     "id": "jataka-tales-481-jataka-481-481th-birth-story",
-    "slug": "jataka-tales-481-jataka-481-481th-birth-story-es",
+    "slug": "jataka-tales-481-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 481)",
     "genre": "Jataka Tales",
@@ -62050,7 +62050,7 @@
   },
   {
     "id": "jataka-tales-482-jataka-482-482th-birth-story",
-    "slug": "jataka-tales-482-jataka-482-482th-birth-story-es",
+    "slug": "jataka-tales-482-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 482)",
     "genre": "Jataka Tales",
@@ -62179,7 +62179,7 @@
   },
   {
     "id": "jataka-tales-483-jataka-483-483th-birth-story",
-    "slug": "jataka-tales-483-jataka-483-483th-birth-story-es",
+    "slug": "jataka-tales-483-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 483)",
     "genre": "Jataka Tales",
@@ -62308,7 +62308,7 @@
   },
   {
     "id": "jataka-tales-484-jataka-484-484th-birth-story",
-    "slug": "jataka-tales-484-jataka-484-484th-birth-story-es",
+    "slug": "jataka-tales-484-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 484)",
     "genre": "Jataka Tales",
@@ -62437,7 +62437,7 @@
   },
   {
     "id": "jataka-tales-485-jataka-485-485th-birth-story",
-    "slug": "jataka-tales-485-jataka-485-485th-birth-story-es",
+    "slug": "jataka-tales-485-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 485)",
     "genre": "Jataka Tales",
@@ -62566,7 +62566,7 @@
   },
   {
     "id": "jataka-tales-486-jataka-486-486th-birth-story",
-    "slug": "jataka-tales-486-jataka-486-486th-birth-story-es",
+    "slug": "jataka-tales-486-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 486)",
     "genre": "Jataka Tales",
@@ -62695,7 +62695,7 @@
   },
   {
     "id": "jataka-tales-487-jataka-487-487th-birth-story",
-    "slug": "jataka-tales-487-jataka-487-487th-birth-story-es",
+    "slug": "jataka-tales-487-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 487)",
     "genre": "Jataka Tales",
@@ -62824,7 +62824,7 @@
   },
   {
     "id": "jataka-tales-488-jataka-488-488th-birth-story",
-    "slug": "jataka-tales-488-jataka-488-488th-birth-story-es",
+    "slug": "jataka-tales-488-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 488)",
     "genre": "Jataka Tales",
@@ -62953,7 +62953,7 @@
   },
   {
     "id": "jataka-tales-489-jataka-489-489th-birth-story",
-    "slug": "jataka-tales-489-jataka-489-489th-birth-story-es",
+    "slug": "jataka-tales-489-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 489)",
     "genre": "Jataka Tales",
@@ -63082,7 +63082,7 @@
   },
   {
     "id": "jataka-tales-490-jataka-490-490th-birth-story",
-    "slug": "jataka-tales-490-jataka-490-490th-birth-story-es",
+    "slug": "jataka-tales-490-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 490)",
     "genre": "Jataka Tales",
@@ -63211,7 +63211,7 @@
   },
   {
     "id": "jataka-tales-491-jataka-491-491th-birth-story",
-    "slug": "jataka-tales-491-jataka-491-491th-birth-story-es",
+    "slug": "jataka-tales-491-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 491)",
     "genre": "Jataka Tales",
@@ -63340,7 +63340,7 @@
   },
   {
     "id": "jataka-tales-492-jataka-492-492th-birth-story",
-    "slug": "jataka-tales-492-jataka-492-492th-birth-story-es",
+    "slug": "jataka-tales-492-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 492)",
     "genre": "Jataka Tales",
@@ -63469,7 +63469,7 @@
   },
   {
     "id": "jataka-tales-493-jataka-493-493th-birth-story",
-    "slug": "jataka-tales-493-jataka-493-493th-birth-story-es",
+    "slug": "jataka-tales-493-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 493)",
     "genre": "Jataka Tales",
@@ -63598,7 +63598,7 @@
   },
   {
     "id": "jataka-tales-494-jataka-494-494th-birth-story",
-    "slug": "jataka-tales-494-jataka-494-494th-birth-story-es",
+    "slug": "jataka-tales-494-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 494)",
     "genre": "Jataka Tales",
@@ -63727,7 +63727,7 @@
   },
   {
     "id": "jataka-tales-495-jataka-495-495th-birth-story",
-    "slug": "jataka-tales-495-jataka-495-495th-birth-story-es",
+    "slug": "jataka-tales-495-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 495)",
     "genre": "Jataka Tales",
@@ -63856,7 +63856,7 @@
   },
   {
     "id": "jataka-tales-496-jataka-496-496th-birth-story",
-    "slug": "jataka-tales-496-jataka-496-496th-birth-story-es",
+    "slug": "jataka-tales-496-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 496)",
     "genre": "Jataka Tales",
@@ -63985,7 +63985,7 @@
   },
   {
     "id": "jataka-tales-497-jataka-497-497th-birth-story",
-    "slug": "jataka-tales-497-jataka-497-497th-birth-story-es",
+    "slug": "jataka-tales-497-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 497)",
     "genre": "Jataka Tales",
@@ -64114,7 +64114,7 @@
   },
   {
     "id": "jataka-tales-498-jataka-498-498th-birth-story",
-    "slug": "jataka-tales-498-jataka-498-498th-birth-story-es",
+    "slug": "jataka-tales-498-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 498)",
     "genre": "Jataka Tales",
@@ -64243,7 +64243,7 @@
   },
   {
     "id": "jataka-tales-499-jataka-499-499th-birth-story",
-    "slug": "jataka-tales-499-jataka-499-499th-birth-story-es",
+    "slug": "jataka-tales-499-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 499)",
     "genre": "Jataka Tales",
@@ -64372,7 +64372,7 @@
   },
   {
     "id": "jataka-tales-500-jataka-500-500th-birth-story",
-    "slug": "jataka-tales-500-jataka-500-500th-birth-story-es",
+    "slug": "jataka-tales-500-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 500)",
     "genre": "Jataka Tales",
@@ -64501,7 +64501,7 @@
   },
   {
     "id": "jataka-tales-501-jataka-501-501th-birth-story",
-    "slug": "jataka-tales-501-jataka-501-501th-birth-story-es",
+    "slug": "jataka-tales-501-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 501)",
     "genre": "Jataka Tales",
@@ -64630,7 +64630,7 @@
   },
   {
     "id": "jataka-tales-502-jataka-502-502th-birth-story",
-    "slug": "jataka-tales-502-jataka-502-502th-birth-story-es",
+    "slug": "jataka-tales-502-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 502)",
     "genre": "Jataka Tales",
@@ -64759,7 +64759,7 @@
   },
   {
     "id": "jataka-tales-503-jataka-503-503th-birth-story",
-    "slug": "jataka-tales-503-jataka-503-503th-birth-story-es",
+    "slug": "jataka-tales-503-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 503)",
     "genre": "Jataka Tales",
@@ -64888,7 +64888,7 @@
   },
   {
     "id": "jataka-tales-504-jataka-504-504th-birth-story",
-    "slug": "jataka-tales-504-jataka-504-504th-birth-story-es",
+    "slug": "jataka-tales-504-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 504)",
     "genre": "Jataka Tales",
@@ -65017,7 +65017,7 @@
   },
   {
     "id": "jataka-tales-505-jataka-505-505th-birth-story",
-    "slug": "jataka-tales-505-jataka-505-505th-birth-story-es",
+    "slug": "jataka-tales-505-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 505)",
     "genre": "Jataka Tales",
@@ -65146,7 +65146,7 @@
   },
   {
     "id": "jataka-tales-506-jataka-506-506th-birth-story",
-    "slug": "jataka-tales-506-jataka-506-506th-birth-story-es",
+    "slug": "jataka-tales-506-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 506)",
     "genre": "Jataka Tales",
@@ -65275,7 +65275,7 @@
   },
   {
     "id": "jataka-tales-507-jataka-507-507th-birth-story",
-    "slug": "jataka-tales-507-jataka-507-507th-birth-story-es",
+    "slug": "jataka-tales-507-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 507)",
     "genre": "Jataka Tales",
@@ -65404,7 +65404,7 @@
   },
   {
     "id": "jataka-tales-508-jataka-508-508th-birth-story",
-    "slug": "jataka-tales-508-jataka-508-508th-birth-story-es",
+    "slug": "jataka-tales-508-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 508)",
     "genre": "Jataka Tales",
@@ -65533,7 +65533,7 @@
   },
   {
     "id": "jataka-tales-509-jataka-509-509th-birth-story",
-    "slug": "jataka-tales-509-jataka-509-509th-birth-story-es",
+    "slug": "jataka-tales-509-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 509)",
     "genre": "Jataka Tales",
@@ -65662,7 +65662,7 @@
   },
   {
     "id": "jataka-tales-510-jataka-510-510th-birth-story",
-    "slug": "jataka-tales-510-jataka-510-510th-birth-story-es",
+    "slug": "jataka-tales-510-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 510)",
     "genre": "Jataka Tales",
@@ -65791,7 +65791,7 @@
   },
   {
     "id": "jataka-tales-511-jataka-511-511th-birth-story",
-    "slug": "jataka-tales-511-jataka-511-511th-birth-story-es",
+    "slug": "jataka-tales-511-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 511)",
     "genre": "Jataka Tales",
@@ -65920,7 +65920,7 @@
   },
   {
     "id": "jataka-tales-512-jataka-512-512th-birth-story",
-    "slug": "jataka-tales-512-jataka-512-512th-birth-story-es",
+    "slug": "jataka-tales-512-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 512)",
     "genre": "Jataka Tales",
@@ -66049,7 +66049,7 @@
   },
   {
     "id": "jataka-tales-513-jataka-513-513th-birth-story",
-    "slug": "jataka-tales-513-jataka-513-513th-birth-story-es",
+    "slug": "jataka-tales-513-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 513)",
     "genre": "Jataka Tales",
@@ -66178,7 +66178,7 @@
   },
   {
     "id": "jataka-tales-514-jataka-514-514th-birth-story",
-    "slug": "jataka-tales-514-jataka-514-514th-birth-story-es",
+    "slug": "jataka-tales-514-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 514)",
     "genre": "Jataka Tales",
@@ -66307,7 +66307,7 @@
   },
   {
     "id": "jataka-tales-515-jataka-515-515th-birth-story",
-    "slug": "jataka-tales-515-jataka-515-515th-birth-story-es",
+    "slug": "jataka-tales-515-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 515)",
     "genre": "Jataka Tales",
@@ -66436,7 +66436,7 @@
   },
   {
     "id": "jataka-tales-516-jataka-516-516th-birth-story",
-    "slug": "jataka-tales-516-jataka-516-516th-birth-story-es",
+    "slug": "jataka-tales-516-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 516)",
     "genre": "Jataka Tales",
@@ -66565,7 +66565,7 @@
   },
   {
     "id": "jataka-tales-517-jataka-517-517th-birth-story",
-    "slug": "jataka-tales-517-jataka-517-517th-birth-story-es",
+    "slug": "jataka-tales-517-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 517)",
     "genre": "Jataka Tales",
@@ -66694,7 +66694,7 @@
   },
   {
     "id": "jataka-tales-518-jataka-518-518th-birth-story",
-    "slug": "jataka-tales-518-jataka-518-518th-birth-story-es",
+    "slug": "jataka-tales-518-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 518)",
     "genre": "Jataka Tales",
@@ -66823,7 +66823,7 @@
   },
   {
     "id": "jataka-tales-519-jataka-519-519th-birth-story",
-    "slug": "jataka-tales-519-jataka-519-519th-birth-story-es",
+    "slug": "jataka-tales-519-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 519)",
     "genre": "Jataka Tales",
@@ -66952,7 +66952,7 @@
   },
   {
     "id": "jataka-tales-520-jataka-520-520th-birth-story",
-    "slug": "jataka-tales-520-jataka-520-520th-birth-story-es",
+    "slug": "jataka-tales-520-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 520)",
     "genre": "Jataka Tales",
@@ -67081,7 +67081,7 @@
   },
   {
     "id": "jataka-tales-521-jataka-521-521th-birth-story",
-    "slug": "jataka-tales-521-jataka-521-521th-birth-story-es",
+    "slug": "jataka-tales-521-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 521)",
     "genre": "Jataka Tales",
@@ -67210,7 +67210,7 @@
   },
   {
     "id": "jataka-tales-522-jataka-522-522th-birth-story",
-    "slug": "jataka-tales-522-jataka-522-522th-birth-story-es",
+    "slug": "jataka-tales-522-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 522)",
     "genre": "Jataka Tales",
@@ -67339,7 +67339,7 @@
   },
   {
     "id": "jataka-tales-523-jataka-523-523th-birth-story",
-    "slug": "jataka-tales-523-jataka-523-523th-birth-story-es",
+    "slug": "jataka-tales-523-the-warhorse-and-the-muddy-ford",
     "language": "es",
     "title": "Tittha Jataka - The Warhorse and the Muddy Ford (Birth Story 523)",
     "genre": "Jataka Tales",
@@ -67468,7 +67468,7 @@
   },
   {
     "id": "jataka-tales-524-jataka-524-524th-birth-story",
-    "slug": "jataka-tales-524-jataka-524-524th-birth-story-es",
+    "slug": "jataka-tales-524-the-sixteen-dreams-of-king-pasenadi",
     "language": "es",
     "title": "Mahasupina Jataka - The Sixteen Dreams of King Pasenadi (Birth Story 524)",
     "genre": "Jataka Tales",
@@ -67597,7 +67597,7 @@
   },
   {
     "id": "jataka-tales-525-jataka-525-525th-birth-story",
-    "slug": "jataka-tales-525-jataka-525-525th-birth-story-es",
+    "slug": "jataka-tales-525-the-young-quail-and-the-forest-fire",
     "language": "es",
     "title": "Vattaka Jataka - The Young Quail and the Forest Fire (Birth Story 525)",
     "genre": "Jataka Tales",
@@ -67726,7 +67726,7 @@
   },
   {
     "id": "jataka-tales-526-jataka-526-526th-birth-story",
-    "slug": "jataka-tales-526-jataka-526-526th-birth-story-es",
+    "slug": "jataka-tales-526-the-wise-caravan-leader-in-the-desert",
     "language": "es",
     "title": "Apannaka Jataka - The Wise Caravan Leader in the Desert (Birth Story 526)",
     "genre": "Jataka Tales",
@@ -67855,7 +67855,7 @@
   },
   {
     "id": "jataka-tales-527-jataka-527-527th-birth-story",
-    "slug": "jataka-tales-527-jataka-527-527th-birth-story-es",
+    "slug": "jataka-tales-527-the-water-well-in-the-sandy-wastes",
     "language": "es",
     "title": "Vannupatha Jataka - The Water Well in the Sandy Wastes (Birth Story 527)",
     "genre": "Jataka Tales",
@@ -67984,7 +67984,7 @@
   },
   {
     "id": "jataka-tales-528-jataka-528-528th-birth-story",
-    "slug": "jataka-tales-528-jataka-528-528th-birth-story-es",
+    "slug": "jataka-tales-528-the-honest-trader-and-the-golden-bowl",
     "language": "es",
     "title": "Serivanija Jataka - The Honest Trader and the Golden Bowl (Birth Story 528)",
     "genre": "Jataka Tales",
@@ -68113,7 +68113,7 @@
   },
   {
     "id": "jataka-tales-529-jataka-529-529th-birth-story",
-    "slug": "jataka-tales-529-jataka-529-529th-birth-story-es",
+    "slug": "jataka-tales-529-the-young-merchant-and-the-dead-mouse",
     "language": "es",
     "title": "Cullakasetthi Jataka - The Young Merchant and the Dead Mouse (Birth Story 529)",
     "genre": "Jataka Tales",
@@ -68242,7 +68242,7 @@
   },
   {
     "id": "jataka-tales-530-jataka-530-530th-birth-story",
-    "slug": "jataka-tales-530-jataka-530-530th-birth-story-es",
+    "slug": "jataka-tales-530-the-king-s-valuer-and-the-measure-of-rice",
     "language": "es",
     "title": "Tandulanali Jataka - The King’s Valuer and the Measure of Rice (Birth Story 530)",
     "genre": "Jataka Tales",
@@ -68371,7 +68371,7 @@
   },
   {
     "id": "jataka-tales-531-jataka-531-531th-birth-story",
-    "slug": "jataka-tales-531-jataka-531-531th-birth-story-es",
+    "slug": "jataka-tales-531-the-water-ogre-and-the-celestial-virtues",
     "language": "es",
     "title": "Devadhamma Jataka - The Water Ogre and the Celestial Virtues (Birth Story 531)",
     "genre": "Jataka Tales",
@@ -68500,7 +68500,7 @@
   },
   {
     "id": "jataka-tales-532-jataka-532-532th-birth-story",
-    "slug": "jataka-tales-532-jataka-532-532th-birth-story-es",
+    "slug": "jataka-tales-532-the-forest-maiden-and-the-royal-ring",
     "language": "es",
     "title": "Katthahari Jataka - The Forest Maiden and the Royal Ring (Birth Story 532)",
     "genre": "Jataka Tales",
@@ -68629,7 +68629,7 @@
   },
   {
     "id": "jataka-tales-533-jataka-533-533th-birth-story",
-    "slug": "jataka-tales-533-jataka-533-533th-birth-story-es",
+    "slug": "jataka-tales-533-the-young-prince-and-the-wise-counselors",
     "language": "es",
     "title": "Gamani Jataka - The Young Prince and the Wise Counselors (Birth Story 533)",
     "genre": "Jataka Tales",
@@ -68758,7 +68758,7 @@
   },
   {
     "id": "jataka-tales-534-jataka-534-534th-birth-story",
-    "slug": "jataka-tales-534-jataka-534-534th-birth-story-es",
+    "slug": "jataka-tales-534-the-king-s-first-grey-hair",
     "language": "es",
     "title": "Makhadeva Jataka - The King’s First Grey Hair (Birth Story 534)",
     "genre": "Jataka Tales",
@@ -68887,7 +68887,7 @@
   },
   {
     "id": "jataka-tales-535-jataka-535-535th-birth-story",
-    "slug": "jataka-tales-535-jataka-535-535th-birth-story-es",
+    "slug": "jataka-tales-535-the-blissful-forest-hermit",
     "language": "es",
     "title": "Sukhavihari Jataka - The Blissful Forest Hermit (Birth Story 535)",
     "genre": "Jataka Tales",
@@ -69016,7 +69016,7 @@
   },
   {
     "id": "jataka-tales-536-jataka-536-536th-birth-story",
-    "slug": "jataka-tales-536-jataka-536-536th-birth-story-es",
+    "slug": "jataka-tales-536-the-two-deer-clans-and-the-autumn-trap",
     "language": "es",
     "title": "Lakkhana Jataka - The Two Deer Clans and the Autumn Trap (Birth Story 536)",
     "genre": "Jataka Tales",
@@ -69145,7 +69145,7 @@
   },
   {
     "id": "jataka-tales-537-jataka-537-537th-birth-story",
-    "slug": "jataka-tales-537-jataka-537-537th-birth-story-es",
+    "slug": "jataka-tales-537-the-compassionate-banyan-deer-king",
     "language": "es",
     "title": "Nigrodhamiga Jataka - The Compassionate Banyan Deer King (Birth Story 537)",
     "genre": "Jataka Tales",
@@ -69274,7 +69274,7 @@
   },
   {
     "id": "jataka-tales-538-jataka-538-538th-birth-story",
-    "slug": "jataka-tales-538-jataka-538-538th-birth-story-es",
+    "slug": "jataka-tales-538-the-cunning-crane-and-the-clever-crab",
     "language": "es",
     "title": "Baka Jataka - The Cunning Crane and the Clever Crab (Birth Story 538)",
     "genre": "Jataka Tales",
@@ -69403,7 +69403,7 @@
   },
   {
     "id": "jataka-tales-539-jataka-539-539th-birth-story",
-    "slug": "jataka-tales-539-jataka-539-539th-birth-story-es",
+    "slug": "jataka-tales-539-the-united-quails-and-the-fowler-s-net",
     "language": "es",
     "title": "Sammodamana Jataka - The United Quails and the Fowler’s Net (Birth Story 539)",
     "genre": "Jataka Tales",
@@ -69532,7 +69532,7 @@
   },
   {
     "id": "jataka-tales-540-jataka-540-540th-birth-story",
-    "slug": "jataka-tales-540-jataka-540-540th-birth-story-es",
+    "slug": "jataka-tales-540-the-fish-king-who-commanded-rain",
     "language": "es",
     "title": "Maccha Jataka - The Fish King Who Commanded Rain (Birth Story 540)",
     "genre": "Jataka Tales",
@@ -69661,7 +69661,7 @@
   },
   {
     "id": "jataka-tales-541-jataka-541-541th-birth-story",
-    "slug": "jataka-tales-541-jataka-541-541th-birth-story-es",
+    "slug": "jataka-tales-541-the-jackal-trapped-inside-the-dead-elephant",
     "language": "es",
     "title": "Sigala Jataka - The Jackal Trapped Inside the Dead Elephant (Birth Story 541)",
     "genre": "Jataka Tales",
@@ -69790,7 +69790,7 @@
   },
   {
     "id": "jataka-tales-542-jataka-542-542th-birth-story",
-    "slug": "jataka-tales-542-jataka-542-542th-birth-story-es",
+    "slug": "jataka-tales-542-the-sacrificial-goat-that-laughed-and-wept",
     "language": "es",
     "title": "Matakabhatta Jataka - The Sacrificial Goat That Laughed and Wept (Birth Story 542)",
     "genre": "Jataka Tales",
@@ -69919,7 +69919,7 @@
   },
   {
     "id": "jataka-tales-543-jataka-543-543th-birth-story",
-    "slug": "jataka-tales-543-jataka-543-543th-birth-story-es",
+    "slug": "jataka-tales-543-the-offering-to-the-forest-spirit",
     "language": "es",
     "title": "Ayacitabhatta Jataka - The Offering to the Forest Spirit (Birth Story 543)",
     "genre": "Jataka Tales",
@@ -70048,7 +70048,7 @@
   },
   {
     "id": "jataka-tales-544-jataka-544-544th-birth-story",
-    "slug": "jataka-tales-544-jataka-544-544th-birth-story-es",
+    "slug": "jataka-tales-544-the-monkeys-drinking-through-reeds",
     "language": "es",
     "title": "Nalapana Jataka - The Monkeys Drinking Through Reeds (Birth Story 544)",
     "genre": "Jataka Tales",
@@ -70177,7 +70177,7 @@
   },
   {
     "id": "jataka-tales-545-jataka-545-545th-birth-story",
-    "slug": "jataka-tales-545-jataka-545-545th-birth-story-es",
+    "slug": "jataka-tales-545-the-woodpecker-the-tortoise-and-the-deer",
     "language": "es",
     "title": "Kurungamiga Jataka - The Woodpecker, the Tortoise, and the Deer (Birth Story 545)",
     "genre": "Jataka Tales",
@@ -70306,7 +70306,7 @@
   },
   {
     "id": "jataka-tales-546-jataka-546-546th-birth-story",
-    "slug": "jataka-tales-546-jataka-546-546th-birth-story-es",
+    "slug": "jataka-tales-546-the-righteous-dog-king-and-the-chariot-straps",
     "language": "es",
     "title": "Kukkura Jataka - The Righteous Dog King and the Chariot Straps (Birth Story 546)",
     "genre": "Jataka Tales",
@@ -70435,7 +70435,7 @@
   },
   {
     "id": "jataka-tales-547-jataka-547-547th-birth-story",
-    "slug": "jataka-tales-547-jataka-547-547th-birth-story-es",
+    "slug": "jataka-tales-547-the-noble-warhorse-and-the-seven-kings",
     "language": "es",
     "title": "Bhojajaniya Jataka - The Noble Warhorse and the Seven Kings (Birth Story 547)",
     "genre": "Jataka Tales",

@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-119-the-thief-and-the-merchant",
+  "slug": "arabian-nights-119-the-thief-and-the-merchant",
+  "language": "mr",
+  "title": "The Thief and the Merchant",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the city of Isfahan lived an affluent silk merchant named Kamal, celebrated for his tranquil temperament and generous charity. One nig...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the thief and the merchant",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the city of Isfahan lived an affluent silk merchant named Kamal, celebrated for his tranquil temperament and generous charity. One night, while reading ledgers late in his inner counting-house, Kamal heard a soft rustling sound from the ceiling rafters.\n\nLooking up calmly, he saw a young thief descending by a silk cord, clutching an iron pry-bar. The thief slipped into the room, only to find the master sitting at his desk, watching him with gentle curiosity.\n\nThe trapped burglar turned pale, raised his pry-bar, and snarled: 'Do not cry out for the watch, old man, or I shall strike you down!'\n\nKamal did not flinch. He set down his reed pen, gestured toward a cushioned stool, and said in a soothing voice: 'Peace be upon you, young friend. Sit down and catch your breath; climbing down rafters in the dark is weary work. It is cold tonight; let me pour you a cup of hot spiced tea.'\n\nThe thief stood dumbfounded, his weapon lowering in confusion. No victim had ever offered him tea before.\n\nKamal poured the hot beverage, handed the youth a bowl of sweet almonds, and asked gently: 'What bitter distress has forced a strong, intelligent young man like you to risk his life and honor in the dark alleys?'\n\nThe youth hung his head in shame, weeping: 'My father was an honest weaver who died leaving great debts. My mother and little sisters are starving, and no merchant will give employment to a penniless lad.'\n\nKamal opened his iron cash-box, counted out one hundred silver dirhams, and placed them in the youth’s hands: 'Take this sum to pay your father’s debts and buy flour for your mother. Tomorrow morning at sunrise, come to my silk shop in the central bazaar; I need a trustworthy assistant to manage my caravans.'\n\nThe young man fell to the floor, kissing Kamal’s sandals, swearing to renounce crime forever. He served the merchant with heroic fidelity for thirty years, eventually inheriting the business and continuing the tradition of turning compassion into honest opportunity.",
+  "moral": "Repaying theft with kindness and practical opportunity converts a criminal into a lifelong ally.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Thief and the Merchant illustration from the 1001 Arabian Nights collection.",
+  "word_count": 342,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Thief and the Merchant\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Thief and the Merchant\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 119,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

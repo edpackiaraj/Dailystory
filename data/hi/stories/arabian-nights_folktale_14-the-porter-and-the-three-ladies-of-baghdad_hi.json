@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-14-the-porter-and-the-three-ladies-of-baghdad",
+  "slug": "arabian-nights-14-the-porter-and-the-three-ladies-of-baghdad",
+  "language": "hi",
+  "title": "The Porter and the Three Ladies of Baghdad",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the glorious days of the Caliph Harun al-Rashid, there lived in Baghdad a bachelor porter of merry disposition and great physical stre...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the porter and the three ladies of baghdad",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the glorious days of the Caliph Harun al-Rashid, there lived in Baghdad a bachelor porter of merry disposition and great physical strength. One morning, as he stood waiting in the public square with his woven basket, a tall lady wrapped in an embroidered silk veil approached him and said with a musical voice: \"Take up your crate, O porter, and follow me.\"\n\nThe porter followed her eagerly through the fragrant souks. At the fruiterer's, she purchased Syrian apples, Ottoman quinces, Muscatel melons, and clusters of Egyptian limes. At the perfumer's, she bought rosewater, musk, ambergris, and aloes-wood. At the confectioner's, she loaded his basket with almond cakes, honey pastries, and pistachio pies. At last she halted before a grand mansion with a double door of bronze.\n\nWhen the doors swung open, the porter was ushered into a courtyard of breathtaking splendor, with marble fountains, singing nightingales, and mosaic colonnades. There sat two other maidens of peerless beauty: the mistress of the mansion, Amine, and the gentle portress, Safie. The ladies paid the porter generously, but seeing his reluctance to depart from such enchanting company, they laughed at his merry wit and invited him to share their evening banquet.\n\n\"Stay with us, merry porter,\" said the eldest lady, \"but under one strict condition: whatever you see, ask no questions concerning that which does not concern you, lest you hear what will not please you.\" The porter clapped his hands and bowed: \"I swear by the hospitality of this roof to keep a silent tongue and an open heart!\"\n\nAs the wine flowed and lutes were plucked, three wandering dervishes, each blind in the left eye and with shaven crowns, knocked at the portal seeking shelter. Soon after, the Caliph Harun al-Rashid himself, disguised as an ordinary merchant alongside his vizier Ja'afar and his executioner Masrur, entered seeking lodging from the night patrol. Within that single hall sat the greatest ruler on earth, three mysterious princes, three enchanting ladies, and a merry porter, all bound by the golden law of hospitality—until curiosity tested their vows.",
+  "moral": "Courtesy, discretion, and respecting boundaries are the keys to true fellowship and good fortune.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Porter and the Three Ladies of Baghdad illustration from the 1001 Arabian Nights collection.",
+  "word_count": 344,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Porter and the Three Ladies of Baghdad\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "A wise leader listens to truthful counsel and governs with mercy rather than anger.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Porter and the Three Ladies of Baghdad\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 14,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "arabian-nights-157-the-first-voyage-of-sindbad",
+  "slug": "arabian-nights-157-the-first-voyage-of-sindbad",
+  "language": "mr",
+  "title": "The First Voyage of Sindbad",
+  "genre": "Adventure Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Sindbad the Sailor began the tale of his first voyage:",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the first voyage of sindbad",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Sindbad the Sailor began the tale of his first voyage:\n\n'Having squandered much of my father’s inheritance in youthful folly, I resolved to embark on commerce. I purchased merchandise, boarded a merchant ship at Basra, and sailed down the Persian Gulf.\n\nOne sunny afternoon, the sea being calm, we sighted a green, pleasant island covered with flowering shrubs. The captain cast anchor, and the merchants went ashore to stroll, cook, and wash their garments.\n\nWe built a fire on the grass to prepare our meal. But suddenly, the ground trembled with a violent convulsion! The green island was not land at all, but the back of a colossal sleeping whale that had floated upon the waves until sand and trees had grown upon its hide! Warmed by our fire, the monstrous beast plunged into the ocean depths, dragging men and merchandise down into the abyss!\n\nThe ship hoisted sail and fled. I was cast into the sea, clinging to a floating wooden wash-tub. For a day and a night, the waves tossed me until I washed ashore on a mountainous island. Exhausted and bruised, I crawled into the shade of high trees and ate wild fruit.\n\nExploring the interior, I met the royal grooms of King Mihrjan, who were caring for the king’s pedigree mares. They conducted me to their capital, where King Mihrjan was so impressed by my manners and business acumen that he appointed me Chief Harbor Master of his port.\n\nOne day, a foreign ship arrived to unload its cargo. To my astonishment, the bales bore my own name and seal: it was the very ship from which I had been washed overboard!\n\nI identified my goods, proved my identity before King Mihrjan, sold my cargo at enormous profit, and returned to Baghdad laden with pearls, aloes-wood, and gold, establishing my fortune through steadfast courage in disaster.'",
+  "moral": "Courage, presence of mind, and honest enterprise rebuild life from the wreckage of disaster.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The First Voyage of Sindbad illustration from the 1001 Arabian Nights collection.",
+  "word_count": 310,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The First Voyage of Sindbad\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience",
+    "courage"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The First Voyage of Sindbad\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 157,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

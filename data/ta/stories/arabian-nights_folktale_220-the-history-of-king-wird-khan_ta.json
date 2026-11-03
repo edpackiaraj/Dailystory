@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-220-the-history-of-king-wird-khan",
+  "slug": "arabian-nights-220-the-history-of-king-wird-khan",
+  "language": "ta",
+  "title": "The History of King Wird Khan",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Upon ascending the throne of Hind, young King Wird Khan at first governed with wisdom under the guidance of the venerable vizier Shimas. ...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the history of king wird khan",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Upon ascending the throne of Hind, young King Wird Khan at first governed with wisdom under the guidance of the venerable vizier Shimas. However, flattering young courtiers soon whispered poison into the young monarch’s ear: 'Why do you submit your royal will to that ancient graybeard? You are the sovereign! Command whatever your whims desire!'\n\nIntoxicated by pride, Wird Khan dismissed Shimas and the elder counselors, replaced them with reckless favorites, and increased taxes to build extravagant pleasure pavilions.\n\nWithin two years, the kingdom was plunged into economic distress: the farmers abandoned their fields, trade ceased, and an army of neighboring invaders massed upon the northern frontier.\n\nFacing sudden ruin, Wird Khan sat alone upon his throne in despair.\n\nRemembering the ancient teachings of Shimas, the young king tore his royal robes, put ashes upon his head, and walked on foot to the humble hermitage where Shimas lived in contemplation.\n\nWird Khan fell at the sage’s feet, weeping: 'O father of wisdom! I yielded to vanity and brought my kingdom to the brink of the abyss! Forgive my youthful folly and save our people!'\n\nShimas lifted the weeping king, embraced him with tears of forgiveness, and returned to court. With masterly strategy, Shimas negotiated an honorable peace with the invaders, reorganized the administration, and restored the granaries.\n\nWird Khan never again yielded to flattering courtiers, ruling for fifty years in humble adherence to wise counsel.",
+  "moral": "Youthful impatience that casts aside wise counsel brings sudden peril, cured only by humble repentance.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The History of King Wird Khan illustration from the 1001 Arabian Nights collection.",
+  "word_count": 235,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The History of King Wird Khan\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The History of King Wird Khan\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 220,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

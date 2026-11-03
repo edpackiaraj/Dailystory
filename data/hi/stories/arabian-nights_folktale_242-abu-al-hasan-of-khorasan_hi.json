@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-242-abu-al-hasan-of-khorasan",
+  "slug": "arabian-nights-242-abu-al-hasan-of-khorasan",
+  "language": "hi",
+  "title": "Abu Al-Hasan of Khorasan",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Abu al-Hasan was an affluent merchant of the province of Khorasan whose palace stood beside the great Silk Road. His doors were never loc...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "abu al-hasan of khorasan",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Abu al-Hasan was an affluent merchant of the province of Khorasan whose palace stood beside the great Silk Road. His doors were never locked, and an illuminated lantern burned upon his terrace every night, welcoming travelers, scholars, and pilgrims to enjoy free lodging, savory banquets, and fresh horses without charge.\n\nA political upheaval in Khorasan caused an oppressive governor to confiscate Abu al-Hasan’s estates on false charges, forcing the generous host to flee in disguise to Baghdad.\n\nPenniless and wandering the bustling streets of the capital, Abu al-Hasan stopped before the grand emporium of a wealthy jewel merchant.\n\nThe jewel merchant looked out, recognized Abu al-Hasan, and rushed into the street with open arms! 'Welcome, master of Khorasan! Ten years ago, when I was an impoverished student freezing in the snow, your roof sheltered me for two months, and your purse paid for my journey!'\n\nThe jeweler brought Abu al-Hasan into his home, clothed him in silk robes, and introduced him to twenty other prominent merchants of Baghdad—all of whom had received his legendary hospitality in past years!\n\nThe merchants gathered together, raised thirty thousand gold dinars, and petitioned Caliph Harun al-Rashid.\n\nThe Caliph investigated the case, dismissed the corrupt governor of Khorasan, restored all Abu al-Hasan’s palaces and lands, and appointed him Governor of the province, demonstrating that bread cast upon the waters of hospitality returns as a fortress of protection in the hour of need.",
+  "moral": "Boundless generosity toward travelers creates a network of friendship that shields a man in his hour of trial.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Abu Al-Hasan of Khorasan illustration from the 1001 Arabian Nights collection.",
+  "word_count": 237,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Abu Al-Hasan of Khorasan\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Abu Al-Hasan of Khorasan\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 242,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

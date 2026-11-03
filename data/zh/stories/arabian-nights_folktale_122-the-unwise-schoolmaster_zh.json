@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-122-the-unwise-schoolmaster",
+  "slug": "arabian-nights-122-the-unwise-schoolmaster",
+  "language": "zh",
+  "title": "The Unwise Schoolmaster",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In a village near Damascus lived a schoolmaster who was deeply versed in ancient grammatical rules, archaic vocabulary, and obsolete lega...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the unwise schoolmaster",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In a village near Damascus lived a schoolmaster who was deeply versed in ancient grammatical rules, archaic vocabulary, and obsolete legal commentaries, but who possessed not a single grain of ordinary common sense. He insisted on speaking in ancient rhetorical verses even when ordering onions in the marketplace, causing confusion wherever he went.\n\nOne afternoon, the schoolmaster was riding his donkey along a narrow canal path, engrossed in reading a massive leather-bound dictionary held before his nose. The donkey, left to its own judgment, wandered off the path, and both beast and master tumbled into a deep ditch filled with black mud.\n\nA passing farmer saw the mishap, ran up with a long willow pole, and shouted: 'Catch hold of the pole, master, and I will pull you out of the ditch!'\n\nThe schoolmaster, covered in black slime up to his chin, looked up haughtily and replied in high classical rhetoric: 'O rustic agriculturalist! Thou hast addressed me with a grammatical solecism! Thou shouldst have exclaimed: \"Grasp thou the extremity of the arboreal branch, that I may extract thy physical vessel from the alluvial mire!\" Correct thy syntax immediately, before I deign to accept thy assistance!'\n\nThe farmer blinked in astonishment, shrugged his shoulders, and said: 'If you prefer grammar to dry clothes, master, stay in the mud and conjugate your verbs!' The farmer picked up his pole and walked away.\n\nThe schoolmaster spent three hours struggling in the slimy ditch, ruining his precious dictionary and catching a severe chill, before a passing cart driver hauled him out without asking for his grammatical approval.\n\nThe drenched pedagogue returned home shivering, having learned that in the hour of difficulty, a plain word spoken with practical sense is worth more than ten thousand archaic dictionaries.",
+  "moral": "Pedantic knowledge that lacks practical common sense makes a man a laughingstock to his neighbors.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Unwise Schoolmaster illustration from the 1001 Arabian Nights collection.",
+  "word_count": 293,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Unwise Schoolmaster\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Unwise Schoolmaster\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 122,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

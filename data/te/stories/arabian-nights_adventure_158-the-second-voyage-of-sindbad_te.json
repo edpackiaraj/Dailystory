@@ -1,0 +1,129 @@
+{
+  "id": "arabian-nights-158-the-second-voyage-of-sindbad",
+  "slug": "arabian-nights-158-the-second-voyage-of-sindbad",
+  "language": "te",
+  "title": "The Second Voyage of Sindbad",
+  "genre": "Adventure Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Sindbad continued his chronicle on the second day:",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the second voyage of sindbad",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Sindbad continued his chronicle on the second day:\n\n'Growing restless in Baghdad, I set forth on a second voyage. One afternoon, while strolling on an uninhabited island surrounded by singing birds, sleep overcame me beneath a shady bough. When I awoke, the ship had sailed away, leaving me stranded and alone.\n\nI climbed a tall tree and beheld a gigantic white dome rising above the forest. Approaching it, I found it had no doors, and its surface was as smooth as polished ivory. Suddenly, the sky darkened; looking up, I saw an immense bird of monstrous size—the legendary Rukh! The white dome was its egg, and the bird settled upon it to brood.\n\nWith daring resolve, I unbound my heavy linen turban, tied myself securely to the giant leg of the bird, and waited through the night. At dawn, the Rukh leaped into the sky with a roar of wind, carrying me high above the clouds, landing at last in a deep, sheer ravine surrounded by inaccessible cliffs.\n\nI untied myself and looked around: the floor of the valley was paved with diamonds of immense size, but the ravine was infested with monstrous vipers that hid in caves by day to escape the Rukh!\n\nPresently, huge carcasses of slaughtered sheep came tumbling down from the cliffs above, thrown by diamond hunters who used the meat to gather gems: the diamonds stuck to the raw flesh, and when the giant eagles carried the meat to their aeries, the hunters frightened the birds away to collect the jewels!\n\nI filled my pockets and turban with the largest diamonds I could find, tied myself to the back of a fat carcass with my turban cord, and waited. A giant eagle swooped down, seized the meat in its talons, and bore me up to its nest on the cliff summit!\n\nWhen the diamond hunter arrived to frighten the eagle away, he was astonished to find a living man tied to the meat. I shared my diamonds with him, boarded his ship, and returned to Baghdad wealthier than before.'",
+  "moral": "Resourceful ingenuity and fearless resolve find a way out of the most hopeless abysses.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Second Voyage of Sindbad illustration from the 1001 Arabian Nights collection.",
+  "word_count": 344,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Second Voyage of Sindbad\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Telugu readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience",
+    "courage"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Second Voyage of Sindbad\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 158,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

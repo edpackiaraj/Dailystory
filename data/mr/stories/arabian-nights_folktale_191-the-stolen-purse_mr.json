@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-191-the-stolen-purse",
+  "slug": "arabian-nights-191-the-stolen-purse",
+  "language": "mr",
+  "title": "The Stolen Purse",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "An affluent merchant from Basra arrived at a crowded public bathhouse in Cairo, carrying a velvet purse containing five hundred gold dina...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the stolen purse",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "An affluent merchant from Basra arrived at a crowded public bathhouse in Cairo, carrying a velvet purse containing five hundred gold dinars, heavily perfumed with rare, genuine ambergris which he had purchased in the spice market.\n\nAfter completing his bath, he went to his dressing alcove, only to find that his velvet purse had been stolen. He raised an outcry, but thirty citizens were present in the hall, and each protested his innocence.\n\nThe merchant summoned the famous magistrate of Cairo, Abu Bakr.\n\nThe magistrate did not threaten the bathers with torture or chains. He ordered the outer portals locked, gathered all thirty bathers in the central steam hall, and commanded: 'Let every man step forward and wash his hands in this basin of boiling rosewater, and then dry them upon this clean white linen towel!'\n\nOne by one, the bathers washed their hands and dried them.\n\nThe magistrate smelled the towel after each bather. When the twenty-third man dried his hands, the magistrate caught the unmistakable, rich fragrance of ambergris clinging to the linen! The thief, in seizing the purse, had absorbed the persistent aromatic oil into the pores of his fingers, which even hot water could not erase.\n\nThe magistrate looked sternly at the man: 'Produce the velvet purse from your boot!'\n\nThe trembling thief, astonished that his own scent had betrayed him, pulled the purse from his boot and confessed his crime.\n\nThe magistrate restored the gold to the merchant and punished the thief, demonstrating that justice investigates the subtle evidence of nature rather than relying upon noisy accusations.",
+  "moral": "The subtle traces of truth cannot be washed away; keen observation unmasks the most elusive thief.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Stolen Purse illustration from the 1001 Arabian Nights collection.",
+  "word_count": 262,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Stolen Purse\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Stolen Purse\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 191,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A massive, ancient oak tree stood upon the high bank of a winding river, towering proudly over the landscape with colossal limbs that had withstood centuries of sun and rain. At th...",
+  "summary": "A massive, ancient oak tree stood upon the high bank of a winding river, towering proudly over the landscape with colossal limbs that had withstood centuries of sun and rain. Through unexpected trial and turning point, each character learns that it is better to bend and adapt with the storm than to break through stubborn pride.",
   "keywords": [
     "aesop's fables",
     "the oak and the reed",
@@ -22,49 +22,49 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A massive, ancient oak tree stood upon the high bank of a winding river, towering proudly over the landscape with colossal limbs that had withstood centuries of sun and rain. At the water's edge below grew a slender, delicate green reed that swayed with every passing breeze.\n\nThe oak looked down with pitying contempt upon the fragile plant: \"How unfortunate is your lot, little reed! A tiny sparrow alighting upon your stem bends you double, and the gentlest zephyr makes you bow your head in helpless submission. Look at me! My mighty trunk defies the thunderbolts, my roots grip the deep foundations of the earth, and I laugh at the fury of the storm!\"\n\nThe slender reed bowed gently to a passing gust and replied softly: \"Your sympathy is generous, mighty oak, but do not grieve for me. The winds do not harm me; I bend before their breath, and so I never break. It is you who should beware your rigid pride.\"\n\nThat night, a violent hurricane roared out of the northern sea. The tempest howled with demonic fury, lashing the valley with torrents of rain and furious gales that tore branches from the woods.\n\nThe slender reed bent flat against the water, yielding to the overwhelming blast without resisting its power.\n\nThe mighty oak stood rigid and defiant, battling the storm with all the stubborn strength of his ancient timber. But the gale blew with relentless, crushing fury. With a deafening CRACK that echoed across the valley like thunder, the colossal trunk snapped at its base, and the great giant was uprooted and cast lifeless into the surging river waters.\n\nWhen the morning sun rose over the calm valley, the slender reed straightened itself in the warm light, while the shattered giant lay ruined in the mud.",
+  "full_text": "A massive, ancient oak tree stood upon the high bank of a winding river, towering proudly over the landscape with colossal limbs that had withstood centuries of sun and rain. At the water's edge below grew a slender, delicate green reed that swayed with every passing breeze. The oak looked down with pitying contempt upon the fragile plant: \"How unfortunate is your lot, little reed! A tiny sparrow alighting upon your stem bends you double, and the gentlest zephyr makes you bow your head in helpless submission. Look at me! My mighty trunk defies the thunderbolts, my roots grip the deep foundations of the earth, and I laugh at the fury of the storm!\" The slender reed bowed gently to a passing gust and replied softly: \"Your sympathy is generous, mighty oak, but do not grieve for me. The winds do not harm me; I bend before their breath, and so I never break. It is you who should beware your rigid pride.\" That night, a violent hurricane roared out of the northern sea. The tempest howled with demonic fury, lashing the valley with torrents of rain and furious gales that tore branches from the woods. The slender reed bent flat against the water, yielding to the overwhelming blast without resisting its power. The mighty oak stood rigid and defiant, battling the storm with all the stubborn strength of his ancient timber. But the gale blew with relentless, crushing fury. With a deafening CRACK that echoed across the valley like thunder, the colossal trunk snapped at its base, and the great giant was uprooted and cast lifeless into the surging river waters. When the morning sun rose over the calm valley, the slender reed straightened itself in the warm light, while the shattered giant lay ruined in the mud.",
   "moral": "It is better to bend and adapt with the storm than to break through stubborn pride.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Oak and the Reed illustration from the Aesop's Fables collection.",
   "word_count": 299,
   "reading_time": "2 min",
-  "listen_time": "3 min",
+  "listen_time": "2 min",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Oak and the Reed\"?",
+      "question": "In the fable \"The Oak and the Reed\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Oak and the Reed\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "It is better to bend and adapt with the storm than to break through stubborn pride.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -75,41 +75,41 @@
     "adaptability",
     "resilience"
   ],
-  "reading_level": "Beginner",
+  "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "delicate",
+      "meaning": "fine in texture, structure, or quality; easily damaged"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "furious",
+      "meaning": "extremely angry; full of fierce, raging energy"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "massive",
+      "meaning": "an essential word used in the narrative of this fable"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Oak and the Reed\"?"
+      "prompt": "Who are the central characters in \"The Oak and the Reed\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"It is better to bend and adapt with the storm than to break through stubborn pride\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

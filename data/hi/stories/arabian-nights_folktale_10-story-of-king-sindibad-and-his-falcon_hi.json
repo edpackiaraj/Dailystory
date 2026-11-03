@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-10-story-of-king-sindibad-and-his-falcon",
+  "slug": "arabian-nights-10-story-of-king-sindibad-and-his-falcon",
+  "language": "hi",
+  "title": "Story of King Sindibad and His Falcon",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "To illustrate the folly of hasty anger, the vizier of King Yunan had related an even older tale concerning King Sindibad of Persia, a mon...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "story of king sindibad and his falcon",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "To illustrate the folly of hasty anger, the vizier of King Yunan had related an even older tale concerning King Sindibad of Persia, a monarch renowned for his passion for the hunt. Among all his hounds and hawks, his favorite was a noble falcon that wore a golden bell and never left his wrist, trained with such perfection that it never failed to strike its prey.\n\nOne scorching summer day, the king pursued an antelope far into the wilderness, outstripping all his courtiers. The heat was fierce, and his throat burned with unbearable thirst. Riding along the foot of a barren rocky ridge, he noticed thick drops of moisture dripping slowly from the crevice of an overhanging rock. Believing it to be a trickle of clear mountain spring water, the king took a crystal cup from his saddlebag and held it beneath the rock until it filled to the brim.\n\nJust as he raised the cup to his parched lips, the falcon leaped from his wrist, beat its wings furiously, and overturned the vessel, spilling the liquid upon the burning sands. The king frowned, thinking the bird was merely impatient. He reprimanded the hawk, placed the cup beneath the cliff once more, and waited patiently as it filled drop by drop. When he raised it a second time, the falcon again struck the cup with its talons, sending it crashing to the earth.\n\nConsumed by blinding rage and maddened by thirst, King Sindibad drew his hunting dagger and struck the falcon, severing its wings. The dying bird fluttered weakly, lifted its head toward the summit of the rock, and pointed with its beak. The king climbed the rocky ledge to find the source of the water. To his absolute horror, he discovered a monstrous viper sleeping within the crevice, and the liquid dripping down the stone was not water, but deadly venom oozing from the serpent's fangs.\n\nThe king stood frozen, his heart pierced with agonizing remorse. His faithful falcon had perceived the poison and risked its life to save its master. Weeping bitter tears of shame, Sindibad carried the lifeless bird back to his palace and gave it a royal burial, forever mourning the hasty temper that had slain his truest protector.",
+  "moral": "Never act in blind wrath, lest you destroy the very friend who sacrificed everything to save your life.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Story of King Sindibad and His Falcon illustration from the 1001 Arabian Nights collection.",
+  "word_count": 373,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Story of King Sindibad and His Falcon\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Story of King Sindibad and His Falcon\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 10,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

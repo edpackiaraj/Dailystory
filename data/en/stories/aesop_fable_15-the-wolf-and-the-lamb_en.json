@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A sweet, innocent little lamb, having strayed from the flock, wandered down to a clear mountain brook to quench her thirst. While she was delicately lapping the fresh water, a fier...",
+  "summary": "A sweet, innocent little lamb, having strayed from the flock, wandered down to a clear mountain brook to quench her thirst. Through unexpected trial and turning point, each character learns that a tyrant will always invent an excuse for cruelty, and innocence cannot reason with malice.",
   "keywords": [
     "aesop's fables",
     "the wolf and the lamb",
@@ -22,49 +22,49 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A sweet, innocent little lamb, having strayed from the flock, wandered down to a clear mountain brook to quench her thirst. While she was delicately lapping the fresh water, a fierce, ravenous wolf stalked out from the dark pine woods in search of prey.\n\nEager to devour the tender lamb, yet wishing to justify his savagery with an appearance of justice, the wolf bared his yellow fangs and snarled furiously: \"How dare you muddy the water that I am trying to drink, you insolent rascal? Do you have no respect for your elders?\"\n\nThe trembling lamb bleated gently in reply: \"Pardon me, noble sir, but I cannot possibly be muddying your water. You are drinking high up the stream near the spring, while I am standing far below you; the current flows from you down to me!\"\n\nFrustrated by her flawless logic, the wolf scowled and barked: \"Be that as it may, you are an insolent rogue! Exactly six months ago, you insulted me behind my back with slanderous words!\"\n\n\"Alas, sir,\" cried the lamb in tears, \"six months ago I was not even born! I am only three months old and still drink my mother's milk.\"\n\n\"If it was not you, then it was your father!\" roared the savage brute. \"Your entire clan hates wolves, and I shall not be cheated of my dinner!\"\n\nWithout another word, the wolf sprang upon the defenseless lamb and dragged her into the dark forest, proving that when cruelty has resolved upon a deed, no plea of innocent truth can alter its wicked design.",
+  "full_text": "A sweet, innocent little lamb, having strayed from the flock, wandered down to a clear mountain brook to quench her thirst. While she was delicately lapping the fresh water, a fierce, ravenous wolf stalked out from the dark pine woods in search of prey. Eager to devour the tender lamb, yet wishing to justify his savagery with an appearance of justice, the wolf bared his yellow fangs and snarled furiously: \"How dare you muddy the water that I am trying to drink, you insolent rascal? Do you have no respect for your elders?\" The trembling lamb bleated gently in reply: \"Pardon me, noble sir, but I cannot possibly be muddying your water. You are drinking high up the stream near the spring, while I am standing far below you; the current flows from you down to me!\" Frustrated by her flawless logic, the wolf scowled and barked: \"Be that as it may, you are an insolent rogue! Exactly six months ago, you insulted me behind my back with slanderous words!\" \"Alas, sir,\" cried the lamb in tears, \"six months ago I was not even born! I am only three months old and still drink my mother's milk.\" \"If it was not you, then it was your father!\" roared the savage brute. \"Your entire clan hates wolves, and I shall not be cheated of my dinner!\" Without another word, the wolf sprang upon the defenseless lamb and dragged her into the dark forest, proving that when cruelty has resolved upon a deed, no plea of innocent truth can alter its wicked design.",
   "moral": "A tyrant will always invent an excuse for cruelty, and innocence cannot reason with malice.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Wolf and the Lamb illustration from the Aesop's Fables collection.",
   "word_count": 261,
   "reading_time": "2 min",
-  "listen_time": "3 min",
+  "listen_time": "2 min",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Wolf and the Lamb\"?",
+      "question": "In the fable \"The Wolf and the Lamb\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Wolf and the Lamb\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "A tyrant will always invent an excuse for cruelty, and innocence cannot reason with malice.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -75,41 +75,41 @@
     "innocence",
     "tyranny"
   ],
-  "reading_level": "Beginner",
+  "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "quench",
+      "meaning": "to satisfy a thirst by drinking liquid or extinguish a flame"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "brook",
+      "meaning": "a small, gentle natural stream of fresh water"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "flock",
+      "meaning": "a group of birds or sheep kept or feeding together"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Wolf and the Lamb\"?"
+      "prompt": "Who are the central characters in \"The Wolf and the Lamb\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"A tyrant will always invent an excuse for cruelty, and innocence cannot reason with malice\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

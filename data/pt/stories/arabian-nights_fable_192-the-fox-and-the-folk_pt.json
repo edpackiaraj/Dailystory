@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-192-the-fox-and-the-folk",
+  "slug": "arabian-nights-192-the-fox-and-the-folk",
+  "language": "pt",
+  "title": "The Fox and the Folk",
+  "genre": "Fables",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "A cunning old fox lived in a rocky den overlooking a prosperous agricultural village. For years, the fox raided the village hen-roosts by...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the fox and the folk",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "A cunning old fox lived in a rocky den overlooking a prosperous agricultural village. For years, the fox raided the village hen-roosts by night, snatching fat pullets and ducks, while the angry farmers set iron traps, laid poisoned meat, and sent fierce hounds into the woods to hunt him down. The fox lived in constant anxiety, with bruised paws and frayed fur.\n\nOne freezing winter, when deep snow covered the valley, the village orchards were threatened by an army of field mice and voles that were gnawing the bark of the apple trees, threatening to destroy the entire harvest.\n\nThe old fox observed the disaster and devised a treaty of peace. He sat upon a stone wall near the village gate, outside the reach of the dogs, and called out to the village elder:\n\n'O farmers! Why do we live in endless war? You hunt me with hounds, and I snatch your chickens in hunger. Let us establish a treaty of friendship: appoint me the guardian of your orchards! I will hunt down every mouse and vole in your fields, protecting your apple trees; and in return, you shall place a bowl of fresh milk and scraps of bread for me beside the mill every evening!'\n\nThe farmers, desperate to save their trees, accepted the bargain.\n\nThe fox kept his word faithfully: within two weeks, his sharp teeth had cleared the orchards of every rodent. The farmers, in gratitude, kept the wooden bowl filled with sweet milk and bread every night.\n\nThe hounds slept peacefully, the chickens roosted without fear, and the old fox grew sleek and content, having learned that peaceful cooperation is a thousand times more rewarding than the perilous life of a thief.",
+  "moral": "Peaceful cooperation and respecting boundaries are far safer than endless predatory raids.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Fox and the Folk illustration from the 1001 Arabian Nights collection.",
+  "word_count": 286,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Fox and the Folk\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Fox and the Folk\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 192,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

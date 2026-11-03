@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-121-the-devotee-prince",
+  "slug": "arabian-nights-121-the-devotee-prince",
+  "language": "pt",
+  "title": "The Devotee Prince",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Prince Harun, a royal prince of the Abbasid dynasty, grew weary of the luxury, flattering courtiers, and political intrigues of the Baghd...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the devotee prince",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Prince Harun, a royal prince of the Abbasid dynasty, grew weary of the luxury, flattering courtiers, and political intrigues of the Baghdad court. Realizing that worldly crowns cannot satisfy the longing of the soul, he abandoned his palace by night, donned a coarse woollen tunic, and traveled down the river to the bustling port city of Basra.\n\nThere, among the docks and brickyards, he hired himself out as a simple day-laborer, working every Saturday as a mason’s assistant, carrying heavy mortar and bricks up high scaffolds.\n\nHe had one peculiar rule: he worked only on Saturdays, earned exactly one dirham and a single copper fals, and refused to labor for the rest of the week, spending his days in contemplation, study, and prayer in the great mosque. The one dirham he spent on barley bread and water, and the copper coin he gave to the poor.\n\nThe master builder of Basra marveled at his worker: 'This young laborer works with such quiet diligence and flawless honesty that he accomplishes in one day what three ordinary men cannot finish in a week, yet he refuses to take a single coin more than his simple need.'\n\nAfter several years, the young prince fell ill of a fever. Lying upon a simple palm mat in a modest hut, he sent for the master builder and handed him a sealed ring bearing the royal crest of the Caliph of Baghdad.\n\n'When I depart,' whispered the youth, 'take this ring to the Commander of the Faithful, and tell him: \"Your brother has returned to his Creator, possessing nothing of this world save a clear conscience and the joy of honest labor.\"'\n\nWhen the Caliph received the ring, he wept bitterly, acknowledging that his humble brother had conquered a greater kingdom with his mason’s trowel than all the armies of Baghdad could ever subdue with the sword.",
+  "moral": "Inner peace earned by honest manual labor is more noble than all the gilded trappings of royal palaces.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Devotee Prince illustration from the 1001 Arabian Nights collection.",
+  "word_count": 311,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Devotee Prince\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Devotee Prince\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 121,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

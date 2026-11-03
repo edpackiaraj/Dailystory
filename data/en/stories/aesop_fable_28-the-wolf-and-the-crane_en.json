@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A greedy wolf was devouring a slaughtered sheep with such ravenous haste that a sharp bone lodged deep in his throat. In terrible agony, unable to swallow or breathe, the beast wan...",
+  "summary": "A greedy wolf was devouring a slaughtered sheep with such ravenous haste that a sharp bone lodged deep in his throat. Through unexpected trial and turning point, each character learns that serving the wicked brings no gratitude; escaping unharmed is the only reward you will ever receive.",
   "keywords": [
     "aesop's fables",
     "the wolf and the crane",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A greedy wolf was devouring a slaughtered sheep with such ravenous haste that a sharp bone lodged deep in his throat. In terrible agony, unable to swallow or breathe, the beast wandered the forest gasping for air, rolling in the leaves, and howling hoarsely for help. He promised a handsome reward of silver and meat to anyone who could extract the bone and save his life.\n\nThe woodland beasts recoiled, knowing his treacherous nature. But a compassionate Crane, moved by pity and enticed by the promised reward, offered her assistance.\n\nThe Crane instructed the wolf to lie flat upon the moss and open his cavernous jaws as wide as possible. Boldly thrusting her long, slender neck deep into the predator's throat, she clamped her sharp beak around the jagged bone and pulled it free with a swift tug.\n\n\"The danger is past, friend Wolf!\" announced the Crane, wiping her bill in the grass. \"I have saved your life; now, where is the handsome reward you solemnly promised?\"\n\nThe wolf bared his dripping fangs, snapped his jaws shut with a terrifying click, and snarled with cruel mockery: \"Reward? You ungrateful wretch! Is it not reward enough that you put your foolish head straight into a wolf's mouth, and I permitted you to pull it back out alive without snapping your neck? Begone before I reconsider my mercy!\"",
+  "full_text": "A greedy wolf was devouring a slaughtered sheep with such ravenous haste that a sharp bone lodged deep in his throat. In terrible agony, unable to swallow or breathe, the beast wandered the forest gasping for air, rolling in the leaves, and howling hoarsely for help. He promised a handsome reward of silver and meat to anyone who could extract the bone and save his life. The woodland beasts recoiled, knowing his treacherous nature. But a compassionate Crane, moved by pity and enticed by the promised reward, offered her assistance. The Crane instructed the wolf to lie flat upon the moss and open his cavernous jaws as wide as possible. Boldly thrusting her long, slender neck deep into the predator's throat, she clamped her sharp beak around the jagged bone and pulled it free with a swift tug. \"The danger is past, friend Wolf!\" announced the Crane, wiping her bill in the grass. \"I have saved your life; now, where is the handsome reward you solemnly promised?\" The wolf bared his dripping fangs, snapped his jaws shut with a terrifying click, and snarled with cruel mockery: \"Reward? You ungrateful wretch! Is it not reward enough that you put your foolish head straight into a wolf's mouth, and I permitted you to pull it back out alive without snapping your neck? Begone before I reconsider my mercy!\"",
   "moral": "Serving the wicked brings no gratitude; escaping unharmed is the only reward you will ever receive.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Wolf and the Crane illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Wolf and the Crane\"?",
+      "question": "In the fable \"The Wolf and the Crane\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Wolf and the Crane\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "Serving the wicked brings no gratitude; escaping unharmed is the only reward you will ever receive.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "predator",
+      "meaning": "an animal that naturally preys upon and hunts other creatures"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "greedy",
+      "meaning": "an essential word used in the narrative of this fable"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "devouring",
+      "meaning": "an essential word used in the narrative of this fable"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Wolf and the Crane\"?"
+      "prompt": "Who are the central characters in \"The Wolf and the Crane\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"Serving the wicked brings no gratitude; escaping unharmed is the only reward you will ever receive\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

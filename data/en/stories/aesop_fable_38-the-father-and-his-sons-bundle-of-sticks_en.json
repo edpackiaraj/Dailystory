@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "An aging father had three sons who were constantly quarreling with one another. No day passed without bitter arguments, insults, and petty jealousy tearing the peace of their house...",
+  "summary": "An aging father had three sons who were constantly quarreling with one another. Through unexpected trial and turning point, each character learns that united we stand, divided we fall; strength lies in unbreakable harmony.",
   "keywords": [
     "aesop's fables",
     "the father and his sons (bundle of sticks)",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "An aging father had three sons who were constantly quarreling with one another. No day passed without bitter arguments, insults, and petty jealousy tearing the peace of their household apart. The father's gentle counsel and stern warnings were ignored, and he grieved deeply knowing that after his death, their discord would bring about their financial and social ruin.\n\nFeeling his end draw near, the wise father called his three sons to his bedside and ordered a servant to bring in a tightly bound bundle of hazel sticks.\n\nHanding the bundle to his eldest son, the father said: \"My son, take this bundle and break it in two.\"\n\nThe eldest son strained with all his might, bracing his knee against the sticks, but the bundle remained intact. The second and third sons tried in turn, sweating and straining every sinew, but neither could break the tightly bound sticks.\n\n\"Now,\" said the father, \"untie the cord and hand one stick to each brother.\"\n\nThe sons did so. \"Now break your stick,\" commanded the father. With a simple snap of their wrists, each son shattered his single hazel twig with effortless ease.\n\nThe father smiled tenderly and said: \"Behold, my sons! You are like these sticks. If you remain bound together in brotherly love, mutual loyalty, and unity, no enemy on earth will ever be strong enough to break you. But if you divide your strength through petty strife, you will be broken as easily as those solitary twigs!\"",
+  "full_text": "An aging father had three sons who were constantly quarreling with one another. No day passed without bitter arguments, insults, and petty jealousy tearing the peace of their household apart. The father's gentle counsel and stern warnings were ignored, and he grieved deeply knowing that after his death, their discord would bring about their financial and social ruin. Feeling his end draw near, the wise father called his three sons to his bedside and ordered a servant to bring in a tightly bound bundle of hazel sticks. Handing the bundle to his eldest son, the father said: \"My son, take this bundle and break it in two.\" The eldest son strained with all his might, bracing his knee against the sticks, but the bundle remained intact. The second and third sons tried in turn, sweating and straining every sinew, but neither could break the tightly bound sticks. \"Now,\" said the father, \"untie the cord and hand one stick to each brother.\" The sons did so. \"Now break your stick,\" commanded the father. With a simple snap of their wrists, each son shattered his single hazel twig with effortless ease. The father smiled tenderly and said: \"Behold, my sons! You are like these sticks. If you remain bound together in brotherly love, mutual loyalty, and unity, no enemy on earth will ever be strong enough to break you. But if you divide your strength through petty strife, you will be broken as easily as those solitary twigs!\"",
   "moral": "United we stand, divided we fall; strength lies in unbreakable harmony.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Father and His Sons (Bundle of Sticks) illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Father and His Sons (Bundle of Sticks)\"?",
+      "question": "In the fable \"The Father and His Sons (Bundle of Sticks)\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Father and His Sons (Bundle of Sticks)\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "United we stand, divided we fall; strength lies in unbreakable harmony.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "aging",
+      "meaning": "an essential word used in the narrative of this fable"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "father",
+      "meaning": "an essential word used in the narrative of this fable"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "three",
+      "meaning": "an essential word used in the narrative of this fable"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Father and His Sons (Bundle of Sticks)\"?"
+      "prompt": "Who are the central characters in \"The Father and His Sons (Bundle of Sticks)\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"United we stand, divided we fall; strength lies in unbreakable harmony\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

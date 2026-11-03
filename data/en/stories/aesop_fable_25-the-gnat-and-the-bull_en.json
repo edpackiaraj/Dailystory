@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A tiny gnat, having buzzed around the meadow for an entire afternoon, grew weary from his flight and decided to rest. He landed softly upon the tip of one of the massive horns of a...",
+  "summary": "A tiny gnat, having buzzed around the meadow for an entire afternoon, grew weary from his flight and decided to rest. Through unexpected trial and turning point, each character learns that the smaller the mind, the greater the conceit; you are not as important as you imagine.",
   "keywords": [
     "aesop's fables",
     "the gnat and the bull",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A tiny gnat, having buzzed around the meadow for an entire afternoon, grew weary from his flight and decided to rest. He landed softly upon the tip of one of the massive horns of a colossal prize bull that was grazing peacefully in the pasture.\n\nThe gnat groomed his wings, cleaned his microscopic antennae, and rested for an hour while the great beast munched sweet clover, totally unaware of the insect's presence.\n\nWhen the gnat was refreshed and prepared to take flight, he felt an overwhelming surge of self-importance. He buzzed loudly in the bull's ear and said with grand, pompous courtesy: \"Noble beast, I have rested upon your horn long enough. I thank you for your hospitality! I must depart now, but if my weight has burdened your brow, I beg your pardon for the inconvenience.\"\n\nThe colossal bull did not even interrupt his chewing. He slowly raised one lazy eye toward his horn, exhaled a warm gust of steam through his nostrils, and replied in a deep, rumbling voice:\n\n\"Little fellow, do not trouble yourself with apologies. To tell you the honest truth, I did not even know you had arrived, and I shall certainly not notice when you are gone!\"\n\nMortified by the giant's indifference, the tiny gnat buzzed away into the weeds, his swollen vanity deflated by the truth of his absolute insignificance.",
+  "full_text": "A tiny gnat, having buzzed around the meadow for an entire afternoon, grew weary from his flight and decided to rest. He landed softly upon the tip of one of the massive horns of a colossal prize bull that was grazing peacefully in the pasture. The gnat groomed his wings, cleaned his microscopic antennae, and rested for an hour while the great beast munched sweet clover, totally unaware of the insect's presence. When the gnat was refreshed and prepared to take flight, he felt an overwhelming surge of self-importance. He buzzed loudly in the bull's ear and said with grand, pompous courtesy: \"Noble beast, I have rested upon your horn long enough. I thank you for your hospitality! I must depart now, but if my weight has burdened your brow, I beg your pardon for the inconvenience.\" The colossal bull did not even interrupt his chewing. He slowly raised one lazy eye toward his horn, exhaled a warm gust of steam through his nostrils, and replied in a deep, rumbling voice: \"Little fellow, do not trouble yourself with apologies. To tell you the honest truth, I did not even know you had arrived, and I shall certainly not notice when you are gone!\" Mortified by the giant's indifference, the tiny gnat buzzed away into the weeds, his swollen vanity deflated by the truth of his absolute insignificance.",
   "moral": "The smaller the mind, the greater the conceit; you are not as important as you imagine.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Gnat and the Bull illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Gnat and the Bull\"?",
+      "question": "In the fable \"The Gnat and the Bull\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Gnat and the Bull\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "The smaller the mind, the greater the conceit; you are not as important as you imagine.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "vanity",
+      "meaning": "excessive pride in or admiration of one’s own appearance or abilities"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "pasture",
+      "meaning": "land covered with lush grass suitable for grazing livestock"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "meadow",
+      "meaning": "a tract of low grassland near a river or stream"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Gnat and the Bull\"?"
+      "prompt": "Who are the central characters in \"The Gnat and the Bull\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"The smaller the mind, the greater the conceit; you are not as important as you imagine\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

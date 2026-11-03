@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-258-story-of-abu-sabir",
+  "slug": "arabian-nights-258-story-of-abu-sabir",
+  "language": "mr",
+  "title": "Story of Abu Sabir",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Bakhtiyar related the celebrated saga of Abu Sabir:",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "story of abu sabir",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Bakhtiyar related the celebrated saga of Abu Sabir:\n\n'In a border village of Persia lived an honest farmer named Abu Sabir—whose name meant \"Father of Patience.\" A tyrannical local governor plundered his cattle, burned his farmhouse, and drove him with his wife and children into exile. While his companions urged him to rebel or curse his fate, Abu Sabir replied calmly: \"Patience is the key to deliverance; the wheel of time turns, and truth shall prevail.\"\n\nIn a foreign city, he took service as a laborer in a royal quarry. When an unjust overseer struck him falsely, Abu Sabir did not retaliate, but worked with quiet diligence, winning the love of all the workers.\n\nA sudden revolution broke out in the capital: the old tyrannical dynasty collapsed, and the citizens, seeking a ruler whose character was untainted by cruelty, greed, or factional hatred, looked for the most just man in the realm.\n\nThe quarrymen, the merchants, and the elders came forward unanimously, pointing to Abu Sabir: \"Here is a man who suffered every injustice without losing his gentleness, and who possesses the patience to govern an empire!\"\n\nAbu Sabir was crowned King amidst the cheers of the nation.\n\nWhen the former oppressive governor was captured and brought before his throne in chains, expecting execution, King Abu Sabir descended from his dais, struck off his chains, and said:\n\n\"I conquered your oppression through thirty years of patient virtue; shall I now imitate your cruelty? Go in peace, and learn that patience is a stronger fortress than all your iron spears.\"'",
+  "moral": "Unshakeable patience and refusal to seek vengeance transform a persecuted exile into a beloved king.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Story of Abu Sabir illustration from the 1001 Arabian Nights collection.",
+  "word_count": 259,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Story of Abu Sabir\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Story of Abu Sabir\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 258,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

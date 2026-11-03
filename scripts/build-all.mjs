@@ -12,6 +12,10 @@ console.log('\n1b. Sanitizing tags and applying translations...');
 res = spawnSync('node', ['scripts/sanitize-and-translate-stories.mjs'], { stdio: 'inherit' });
 if (res.status !== 0) process.exit(res.status || 1);
 
+console.log('\n1c. Overhauling Aesop fables, deduplicating & cleaning slugs...');
+res = spawnSync('node', ['scripts/overhaul-aesop.mjs'], { stdio: 'inherit' });
+if (res.status !== 0) process.exit(res.status || 1);
+
 console.log('\n2. Partitioning collections...');
 res = spawnSync('node', ['scripts/partition-stories.mjs'], { stdio: 'inherit' });
 if (res.status !== 0) process.exit(res.status || 1);

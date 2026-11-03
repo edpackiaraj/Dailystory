@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-379-history-of-the-second-larrikin",
+  "slug": "arabian-nights-379-history-of-the-second-larrikin",
+  "language": "kn",
+  "title": "History of the Second Larrikin",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the gold souk of Aleppo operated a sly moneychanger named Bahram, who used two sets of brass weights: a slightly heavier set when he b...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "history of the second larrikin",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the gold souk of Aleppo operated a sly moneychanger named Bahram, who used two sets of brass weights: a slightly heavier set when he bought silver and gold coins from travelers, and a lighter set when he sold them back, cheating both ways.\n\nA clever student named Tariq observed this fraud. He took a hollowed-out brass inkpot, filled it with molten lead until it weighed precisely twelve ounces, and polished it until it gleamed like pure gold bullion.\n\nTariq walked into Bahram's booth:\n'Peace, master of the scale. I have an ingotted ornament of heavy mountain gold. Weigh it for me, and give me silver dirhams in exchange, for I must pay my tuition at the college.'\n\nBahram's eyes gleamed with greed. He placed Tariq's brass inkpot upon the scale, secretly using his heavy buying weights.\n'Aha!' said Bahram, intending to cheat the student. 'My scale shows it weighs only ten ounces. I can pay thee only ten ounces of silver.'\n\nTariq feigned sorrow: 'Ah, my scale must be mistaken. Very well, give me ten ounces of silver.'\nBahram counted out ten ounces of silver coins using his light selling weights—which in reality weighed only eight ounces!\n\nTariq took the silver, then turned and shouted to the Market Overseer passing by:\n'O Inspector of Weights! Come witness the miracle of Aleppo!'\nThe Overseer entered the booth with his certified imperial balances.\nTariq declared: 'I offered this merchant a piece of metal which he certified upon his scales as weighing ten ounces of pure gold. Here is the silver he gave me. Let us test his scales and certified weights before your eyes!'\n\nThe Overseer weighed both: Bahram's weights were tested against the imperial standards and found blatantly falsified! The Overseer confiscated Bahram's scales, smashed his falsified weights in the public square, and fined him five hundred dinars to be distributed to cheated customers!\n\nBahram was banned from the moneychanger's guild, while Tariq demonstrated that those who construct traps of false measures inevitably step into their own snares.",
+  "moral": "Deceitful weights and dishonest balances bring public exposure and ruin to the covetous.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "History of the Second Larrikin illustration from the 1001 Arabian Nights collection.",
+  "word_count": 338,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"History of the Second Larrikin\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Kannada readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"History of the Second Larrikin\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 379,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

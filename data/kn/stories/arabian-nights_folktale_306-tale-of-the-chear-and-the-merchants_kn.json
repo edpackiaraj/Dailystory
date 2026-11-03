@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-306-tale-of-the-chear-and-the-merchants",
+  "slug": "arabian-nights-306-tale-of-the-chear-and-the-merchants",
+  "language": "kn",
+  "title": "Tale of the Chear and the Merchants",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "A smooth-tongued swindler arrived in the spice bazaar of Cairo, dressed in the luxurious brocades of an imperial merchant of Samarkand. H...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of the chear and the merchants",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "A smooth-tongued swindler arrived in the spice bazaar of Cairo, dressed in the luxurious brocades of an imperial merchant of Samarkand. He approached three prominent spice dealers, offering to purchase their entire inventory of cinnamon, cloves, and nutmeg on credit, promising to pay thirty thousand dinars upon the arrival of his caravan next morning.\n\nTwo of the younger merchants were dazzled by the prospect of enormous profit, but the third, an experienced elder named Abu Bakr, noticed that the stranger’s hands were soft as a child’s, without the calluses of a merchant who managed camel caravans, and that his servants looked like hired street loafers.\n\nAbu Bakr gathered his two colleagues in secret: 'Do not release a single ounce of spice on promises! Let us demand that he deposit a commercial bond in the guild treasury, as the law of Cairo requires.'\n\nWhen the three merchants stood together and insisted on the lawful bond, the impostor began to bluster and threaten to take his business elsewhere.\n\nAbu Bakr summoned the guild inspector, who checked the imperial merchant registry: the stranger’s name was completely unknown, and his 'caravan' was a phantom of air!\n\nThe exposed swindler was expelled from Cairo.\n\nThe three merchants embraced in mutual gratitude, having learned that collective guild solidarity and adherence to verified rules protect the community from the most glittering deceptions.",
+  "moral": "Commercial solidarity and shared vigilance protect honest traders from fraudulent impostors.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the Chear and the Merchants illustration from the 1001 Arabian Nights collection.",
+  "word_count": 225,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of the Chear and the Merchants\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Kannada readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of the Chear and the Merchants\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 306,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

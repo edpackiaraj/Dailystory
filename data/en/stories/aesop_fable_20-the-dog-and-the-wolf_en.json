@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A gaunt, starving wolf, whose ribs showed through his matted gray fur after weeks of harsh winter blizzards, happened to meet a plump, sleek house dog strolling along the edge of a...",
+  "summary": "A gaunt, starving wolf, whose ribs showed through his matted gray fur after weeks of harsh winter blizzards, happened to meet a plump, sleek house dog strolling along the edge of a village lane. Through unexpected trial and turning point, each character learns that lean freedom is far sweeter than fat luxury purchased at the price of a chain.",
   "keywords": [
     "aesop's fables",
     "the dog and the wolf",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A gaunt, starving wolf, whose ribs showed through his matted gray fur after weeks of harsh winter blizzards, happened to meet a plump, sleek house dog strolling along the edge of a village lane. The mastiff was glossy, round-bellied, and radiated robust health.\n\nThe wolf paused, admiring the dog's well-fed stature: \"Greetings, cousin! You look magnificent! How is it that you are so delightfully fat while I, who am stronger and bolder than you, must hunt day and night only to starve in the cold?\"\n\n\"It is quite simple, cousin,\" replied the dog cheerfully. \"My master provides me with rich roasts, sweet bread, and marrow bones from his own table. All I must do in return is guard his courtyard at night, bark at passing strangers, and wag my tail when the master enters the hall. Come with me! My master will gladly give you the same easy life.\"\n\nThe wolf was overjoyed at the prospect of boundless meals and warm straw. \"Lead on, cousin!\" he exclaimed. \"I am weary of sleeping in freezing bogs.\"\n\nAs they trotted side by side toward the manor, the wolf noticed a bare, hairless ring around the dog's thick neck, where the fur was worn down to the raw pink skin.\n\n\"What is that mark upon your neck, friend?\" asked the wolf curiously.\n\n\"Oh, that is nothing,\" answered the dog casually. \"It is merely the mark of the iron collar and chain with which they tie me up during the daytime, so that I do not wander off or bite the visitors. But at night they set me free!\"\n\nThe wolf stopped dead in his tracks. His amber eyes widened. \"Tie you up?\" he echoed. \"Do you mean you cannot roam the forests whenever you please?\"\n\n\"Not by day,\" admitted the dog. \"But what does that matter when food is abundant?\"\n\n\"It matters everything,\" declared the wolf, backing into the shadows of the woods. \"Enjoy your fat bones, cousin, and your comfortable kennel. I would rather starve as a free wanderer than grow fat as a pampered slave in chains!\" And he sprinted back into the wild freedom of the wilderness.",
+  "full_text": "A gaunt, starving wolf, whose ribs showed through his matted gray fur after weeks of harsh winter blizzards, happened to meet a plump, sleek house dog strolling along the edge of a village lane. The mastiff was glossy, round-bellied, and radiated robust health. The wolf paused, admiring the dog's well-fed stature: \"Greetings, cousin! You look magnificent! How is it that you are so delightfully fat while I, who am stronger and bolder than you, must hunt day and night only to starve in the cold?\" \"It is quite simple, cousin,\" replied the dog cheerfully. \"My master provides me with rich roasts, sweet bread, and marrow bones from his own table. All I must do in return is guard his courtyard at night, bark at passing strangers, and wag my tail when the master enters the hall. Come with me! My master will gladly give you the same easy life.\" The wolf was overjoyed at the prospect of boundless meals and warm straw. \"Lead on, cousin!\" he exclaimed. \"I am weary of sleeping in freezing bogs.\" As they trotted side by side toward the manor, the wolf noticed a bare, hairless ring around the dog's thick neck, where the fur was worn down to the raw pink skin. \"What is that mark upon your neck, friend?\" asked the wolf curiously. \"Oh, that is nothing,\" answered the dog casually. \"It is merely the mark of the iron collar and chain with which they tie me up during the daytime, so that I do not wander off or bite the visitors. But at night they set me free!\" The wolf stopped dead in his tracks. His amber eyes widened. \"Tie you up?\" he echoed. \"Do you mean you cannot roam the forests whenever you please?\" \"Not by day,\" admitted the dog. \"But what does that matter when food is abundant?\" \"It matters everything,\" declared the wolf, backing into the shadows of the woods. \"Enjoy your fat bones, cousin, and your comfortable kennel. I would rather starve as a free wanderer than grow fat as a pampered slave in chains!\" And he sprinted back into the wild freedom of the wilderness.",
   "moral": "Lean freedom is far sweeter than fat luxury purchased at the price of a chain.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Dog and the Wolf illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Dog and the Wolf\"?",
+      "question": "In the fable \"The Dog and the Wolf\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Dog and the Wolf\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "Lean freedom is far sweeter than fat luxury purchased at the price of a chain.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -75,41 +75,41 @@
     "independence",
     "dignity"
   ],
-  "reading_level": "Beginner",
+  "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "pampered",
+      "meaning": "treated with excessive care, comfort, luxury, and indulgence"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "gaunt",
+      "meaning": "an essential word used in the narrative of this fable"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "starving",
+      "meaning": "an essential word used in the narrative of this fable"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Dog and the Wolf\"?"
+      "prompt": "Who are the central characters in \"The Dog and the Wolf\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"Lean freedom is far sweeter than fat luxury purchased at the price of a chain\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

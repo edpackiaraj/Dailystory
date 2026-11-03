@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A crafty lion longed to feast upon the meat of a colossal prize bull, but the bull's massive horns, thick shoulders, and alert demeanor were so formidable that the predator dared n...",
+  "summary": "A crafty lion longed to feast upon the meat of a colossal prize bull, but the bull's massive horns, thick shoulders, and alert demeanor were so formidable that the predator dared not attack him in open combat. Through unexpected trial and turning point, each character learns that false hospitality from a known predator conceals a deadly snare; look before you feast.",
   "keywords": [
     "aesop's fables",
     "the lion and the bull",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A crafty lion longed to feast upon the meat of a colossal prize bull, but the bull's massive horns, thick shoulders, and alert demeanor were so formidable that the predator dared not attack him in open combat.\n\nResolving to achieve by deceit what force could not accomplish, the lion approached the bull with a smooth smile and a bow of deep respect. \"My esteemed friend,\" purred the lion, \"I have slaughtered a fat, tender sheep in my den and have prepared a magnificent feast to celebrate our friendship. I invite you to dine with me as my guest of honor!\"\n\nThe bull, flattered by the royal invitation, accompanied the lion to his rocky cavern. But as he crossed the threshold and peered into the kitchen, the bull noticed an enormous bronze cauldron bubbling over a roaring fire, surrounded by colossal butcher's spits and heavy cleavers large enough to carve an ox, but not a single trace of a sheep!\n\nWithout uttering a word, the bull turned abruptly and strode away down the mountain path at a rapid pace.\n\nThe lion ran after him, crying: \"Why do you leave so rudely, friend Bull? Have I offended you? The feast is about to begin!\"\n\nThe bull turned his mighty horns toward the predator and answered: \"I have good reason to depart! A host who prepares a colossal cauldron and ox-sized spits has not slaughtered a little sheep for dinner; he has prepared the pot for the guest he invited!\"",
+  "full_text": "A crafty lion longed to feast upon the meat of a colossal prize bull, but the bull's massive horns, thick shoulders, and alert demeanor were so formidable that the predator dared not attack him in open combat. Resolving to achieve by deceit what force could not accomplish, the lion approached the bull with a smooth smile and a bow of deep respect. \"My esteemed friend,\" purred the lion, \"I have slaughtered a fat, tender sheep in my den and have prepared a magnificent feast to celebrate our friendship. I invite you to dine with me as my guest of honor!\" The bull, flattered by the royal invitation, accompanied the lion to his rocky cavern. But as he crossed the threshold and peered into the kitchen, the bull noticed an enormous bronze cauldron bubbling over a roaring fire, surrounded by colossal butcher's spits and heavy cleavers large enough to carve an ox, but not a single trace of a sheep! Without uttering a word, the bull turned abruptly and strode away down the mountain path at a rapid pace. The lion ran after him, crying: \"Why do you leave so rudely, friend Bull? Have I offended you? The feast is about to begin!\" The bull turned his mighty horns toward the predator and answered: \"I have good reason to depart! A host who prepares a colossal cauldron and ox-sized spits has not slaughtered a little sheep for dinner; he has prepared the pot for the guest he invited!\"",
   "moral": "False hospitality from a known predator conceals a deadly snare; look before you feast.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Lion and the Bull illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Lion and the Bull\"?",
+      "question": "In the fable \"The Lion and the Bull\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Lion and the Bull\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "False hospitality from a known predator conceals a deadly snare; look before you feast.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "den",
+      "meaning": "a wild animal’s hidden lair, shelter, or burrow"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "predator",
+      "meaning": "an animal that naturally preys upon and hunts other creatures"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "butcher",
+      "meaning": "a person who prepares, cuts, and sells meat in a market"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Lion and the Bull\"?"
+      "prompt": "Who are the central characters in \"The Lion and the Bull\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"False hospitality from a known predator conceals a deadly snare; look before you feast\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

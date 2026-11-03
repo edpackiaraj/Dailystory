@@ -1,7 +1,7 @@
 [
   {
     "id": "grimm-fairy-tales-1-cinderella-aschenputtel",
-    "slug": "grimm-fairy-tales-1-cinderella-aschenputtel-pt",
+    "slug": "grimm-fairy-tales-1-cinderella-aschenputtel",
     "language": "pt",
     "title": "Cinderella (Aschenputtel)",
     "genre": "Fairy Tales",
@@ -130,7 +130,7 @@
   },
   {
     "id": "grimm-fairy-tales-2-snow-white-schneewittchen",
-    "slug": "grimm-fairy-tales-2-snow-white-schneewittchen-pt",
+    "slug": "grimm-fairy-tales-2-snow-white-schneewittchen",
     "language": "pt",
     "title": "Snow White (Schneewittchen)",
     "genre": "Fairy Tales",
@@ -259,7 +259,7 @@
   },
   {
     "id": "grimm-fairy-tales-3-sleeping-beauty-dornr-schen",
-    "slug": "grimm-fairy-tales-3-sleeping-beauty-dornr-schen-pt",
+    "slug": "grimm-fairy-tales-3-sleeping-beauty-dornr-schen",
     "language": "pt",
     "title": "Sleeping Beauty (Dornröschen)",
     "genre": "Fairy Tales",
@@ -388,7 +388,7 @@
   },
   {
     "id": "grimm-fairy-tales-4-little-red-riding-hood-rotk-ppchen",
-    "slug": "grimm-fairy-tales-4-little-red-riding-hood-rotk-ppchen-pt",
+    "slug": "grimm-fairy-tales-4-little-red-riding-hood-rotk-ppchen",
     "language": "pt",
     "title": "Little Red Riding Hood (Rotkäppchen)",
     "genre": "Fairy Tales",
@@ -517,7 +517,7 @@
   },
   {
     "id": "grimm-fairy-tales-5-hansel-and-gretel-h-nsel-und-gretel",
-    "slug": "grimm-fairy-tales-5-hansel-and-gretel-h-nsel-und-gretel-pt",
+    "slug": "grimm-fairy-tales-5-hansel-and-gretel-h-nsel-und-gretel",
     "language": "pt",
     "title": "Hansel and Gretel (Hänsel und Gretel)",
     "genre": "Fairy Tales",
@@ -646,7 +646,7 @@
   },
   {
     "id": "grimm-fairy-tales-6-rapunzel",
-    "slug": "grimm-fairy-tales-6-rapunzel-pt",
+    "slug": "grimm-fairy-tales-6-rapunzel",
     "language": "pt",
     "title": "Rapunzel",
     "genre": "Fairy Tales",
@@ -775,7 +775,7 @@
   },
   {
     "id": "grimm-fairy-tales-7-rumpelstiltskin-rumpelstilzchen",
-    "slug": "grimm-fairy-tales-7-rumpelstiltskin-rumpelstilzchen-pt",
+    "slug": "grimm-fairy-tales-7-rumpelstiltskin-rumpelstilzchen",
     "language": "pt",
     "title": "Rumpelstiltskin (Rumpelstilzchen)",
     "genre": "Fairy Tales",
@@ -904,7 +904,7 @@
   },
   {
     "id": "grimm-fairy-tales-8-the-frog-prince-froschk-nig",
-    "slug": "grimm-fairy-tales-8-the-frog-prince-froschk-nig-pt",
+    "slug": "grimm-fairy-tales-8-the-frog-prince-froschk-nig",
     "language": "pt",
     "title": "The Frog Prince (Froschkönig)",
     "genre": "Fairy Tales",
@@ -1033,7 +1033,7 @@
   },
   {
     "id": "grimm-fairy-tales-9-the-wolf-and-the-seven-young-kids",
-    "slug": "grimm-fairy-tales-9-the-wolf-and-the-seven-young-kids-pt",
+    "slug": "grimm-fairy-tales-9-the-wolf-and-the-seven-young-kids",
     "language": "pt",
     "title": "The Wolf and the Seven Young Kids",
     "genre": "Fairy Tales",
@@ -1162,7 +1162,7 @@
   },
   {
     "id": "grimm-fairy-tales-10-the-bremen-town-musicians",
-    "slug": "grimm-fairy-tales-10-the-bremen-town-musicians-pt",
+    "slug": "grimm-fairy-tales-10-the-bremen-town-musicians",
     "language": "pt",
     "title": "The Bremen Town Musicians",
     "genre": "Fairy Tales",
@@ -1291,7 +1291,7 @@
   },
   {
     "id": "grimm-fairy-tales-11-the-fisherman-and-his-wife",
-    "slug": "grimm-fairy-tales-11-the-fisherman-and-his-wife-pt",
+    "slug": "grimm-fairy-tales-11-the-fisherman-and-his-wife",
     "language": "pt",
     "title": "The Fisherman and His Wife",
     "genre": "Fairy Tales",
@@ -1420,7 +1420,7 @@
   },
   {
     "id": "grimm-fairy-tales-12-the-golden-bird",
-    "slug": "grimm-fairy-tales-12-the-golden-bird-pt",
+    "slug": "grimm-fairy-tales-12-the-golden-bird",
     "language": "pt",
     "title": "The Golden Bird",
     "genre": "Fairy Tales",
@@ -1549,7 +1549,7 @@
   },
   {
     "id": "grimm-fairy-tales-13-the-twelve-brothers",
-    "slug": "grimm-fairy-tales-13-the-twelve-brothers-pt",
+    "slug": "grimm-fairy-tales-13-the-twelve-brothers",
     "language": "pt",
     "title": "The Twelve Brothers",
     "genre": "Fairy Tales",
@@ -1678,7 +1678,7 @@
   },
   {
     "id": "grimm-fairy-tales-14-the-pack-of-ragamuffins",
-    "slug": "grimm-fairy-tales-14-the-pack-of-ragamuffins-pt",
+    "slug": "grimm-fairy-tales-14-the-pack-of-ragamuffins",
     "language": "pt",
     "title": "The Pack of Ragamuffins",
     "genre": "Fairy Tales",
@@ -1807,7 +1807,7 @@
   },
   {
     "id": "grimm-fairy-tales-15-brother-and-sister",
-    "slug": "grimm-fairy-tales-15-brother-and-sister-pt",
+    "slug": "grimm-fairy-tales-15-brother-and-sister",
     "language": "pt",
     "title": "Brother and Sister",
     "genre": "Fairy Tales",
@@ -1936,7 +1936,7 @@
   },
   {
     "id": "grimm-fairy-tales-16-the-three-little-men-in-the-wood",
-    "slug": "grimm-fairy-tales-16-the-three-little-men-in-the-wood-pt",
+    "slug": "grimm-fairy-tales-16-the-three-little-men-in-the-wood",
     "language": "pt",
     "title": "The Three Little Men in the Wood",
     "genre": "Fairy Tales",
@@ -2065,7 +2065,7 @@
   },
   {
     "id": "grimm-fairy-tales-17-the-wishing-table-the-gold-ass-and-the-cudgel-in-the-sack",
-    "slug": "grimm-fairy-tales-17-the-wishing-table-the-gold-ass-and-the-cudgel-in-the-sack-pt",
+    "slug": "grimm-fairy-tales-17-the-wishing-table-the-gold-ass-and-the-cudgel-in-the-sack",
     "language": "pt",
     "title": "The Wishing-Table, the Gold-Ass, and the Cudgel in the Sack",
     "genre": "Fairy Tales",
@@ -2194,7 +2194,7 @@
   },
   {
     "id": "grimm-fairy-tales-18-the-white-snake",
-    "slug": "grimm-fairy-tales-18-the-white-snake-pt",
+    "slug": "grimm-fairy-tales-18-the-white-snake",
     "language": "pt",
     "title": "The White Snake",
     "genre": "Fairy Tales",
@@ -2323,7 +2323,7 @@
   },
   {
     "id": "grimm-fairy-tales-19-the-straw-the-coal-and-the-bean",
-    "slug": "grimm-fairy-tales-19-the-straw-the-coal-and-the-bean-pt",
+    "slug": "grimm-fairy-tales-19-the-straw-the-coal-and-the-bean",
     "language": "pt",
     "title": "The Straw, the Coal, and the Bean",
     "genre": "Fairy Tales",
@@ -2452,7 +2452,7 @@
   },
   {
     "id": "grimm-fairy-tales-20-the-fisherman-and-his-wife-variant",
-    "slug": "grimm-fairy-tales-20-the-fisherman-and-his-wife-variant-pt",
+    "slug": "grimm-fairy-tales-20-the-fisherman-and-his-wife-variant",
     "language": "pt",
     "title": "The Fisherman and His Wife (The Lesson of the Sea)",
     "genre": "Fairy Tales",
@@ -2581,7 +2581,7 @@
   },
   {
     "id": "grimm-fairy-tales-21-the-brave-little-tailor-das-tapfere-schneiderlein",
-    "slug": "grimm-fairy-tales-21-the-brave-little-tailor-das-tapfere-schneiderlein-pt",
+    "slug": "grimm-fairy-tales-21-the-brave-little-tailor-das-tapfere-schneiderlein",
     "language": "pt",
     "title": "The Brave Little Tailor",
     "genre": "Fairy Tales",
@@ -2710,7 +2710,7 @@
   },
   {
     "id": "grimm-fairy-tales-22-the-little-peasant",
-    "slug": "grimm-fairy-tales-22-the-little-peasant-pt",
+    "slug": "grimm-fairy-tales-22-the-little-peasant",
     "language": "pt",
     "title": "The Little Peasant",
     "genre": "Fairy Tales",
@@ -2839,7 +2839,7 @@
   },
   {
     "id": "grimm-fairy-tales-23-the-queen-bee",
-    "slug": "grimm-fairy-tales-23-the-queen-bee-pt",
+    "slug": "grimm-fairy-tales-23-the-queen-bee",
     "language": "pt",
     "title": "The Queen Bee",
     "genre": "Fairy Tales",
@@ -2968,7 +2968,7 @@
   },
   {
     "id": "grimm-fairy-tales-24-the-three-feathers",
-    "slug": "grimm-fairy-tales-24-the-three-feathers-pt",
+    "slug": "grimm-fairy-tales-24-the-three-feathers",
     "language": "pt",
     "title": "The Three Feathers",
     "genre": "Fairy Tales",
@@ -3097,7 +3097,7 @@
   },
   {
     "id": "grimm-fairy-tales-25-the-golden-goose",
-    "slug": "grimm-fairy-tales-25-the-golden-goose-pt",
+    "slug": "grimm-fairy-tales-25-the-golden-goose",
     "language": "pt",
     "title": "The Golden Goose",
     "genre": "Fairy Tales",
@@ -3226,7 +3226,7 @@
   },
   {
     "id": "grimm-fairy-tales-26-all-kinds-of-fur-allerleirauh",
-    "slug": "grimm-fairy-tales-26-all-kinds-of-fur-allerleirauh-pt",
+    "slug": "grimm-fairy-tales-26-all-kinds-of-fur-allerleirauh",
     "language": "pt",
     "title": "All-Kinds-of-Fur (Allerleirauh)",
     "genre": "Fairy Tales",
@@ -3355,7 +3355,7 @@
   },
   {
     "id": "grimm-fairy-tales-27-bearskin-b-renh-uter",
-    "slug": "grimm-fairy-tales-27-bearskin-b-renh-uter-pt",
+    "slug": "grimm-fairy-tales-27-bearskin-b-renh-uter",
     "language": "pt",
     "title": "Bearskin (Bärenhäuter)",
     "genre": "Fairy Tales",
@@ -3484,7 +3484,7 @@
   },
   {
     "id": "grimm-fairy-tales-28-the-juniper-tree-von-dem-machandelboom",
-    "slug": "grimm-fairy-tales-28-the-juniper-tree-von-dem-machandelboom-pt",
+    "slug": "grimm-fairy-tales-28-the-juniper-tree-von-dem-machandelboom",
     "language": "pt",
     "title": "The Juniper Tree (Von dem Machandelboom)",
     "genre": "Fairy Tales",
@@ -3613,7 +3613,7 @@
   },
   {
     "id": "grimm-fairy-tales-29-the-six-swans",
-    "slug": "grimm-fairy-tales-29-the-six-swans-pt",
+    "slug": "grimm-fairy-tales-29-the-six-swans",
     "language": "pt",
     "title": "The Six Swans",
     "genre": "Fairy Tales",
@@ -3742,7 +3742,7 @@
   },
   {
     "id": "grimm-fairy-tales-30-little-briar-rose",
-    "slug": "grimm-fairy-tales-30-little-briar-rose-pt",
+    "slug": "grimm-fairy-tales-30-little-briar-rose",
     "language": "pt",
     "title": "Little Briar Rose (The Thorn Castle)",
     "genre": "Fairy Tales",
@@ -3871,7 +3871,7 @@
   },
   {
     "id": "grimm-fairy-tales-31-the-four-clever-brothers",
-    "slug": "grimm-fairy-tales-31-the-four-clever-brothers-pt",
+    "slug": "grimm-fairy-tales-31-the-four-clever-brothers",
     "language": "pt",
     "title": "The Four Clever Brothers",
     "genre": "Fairy Tales",
@@ -4000,7 +4000,7 @@
   },
   {
     "id": "grimm-fairy-tales-32-the-two-brothers",
-    "slug": "grimm-fairy-tales-32-the-two-brothers-pt",
+    "slug": "grimm-fairy-tales-32-the-two-brothers",
     "language": "pt",
     "title": "The Two Brothers",
     "genre": "Fairy Tales",
@@ -4129,7 +4129,7 @@
   },
   {
     "id": "grimm-fairy-tales-33-the-three-spinners",
-    "slug": "grimm-fairy-tales-33-the-three-spinners-pt",
+    "slug": "grimm-fairy-tales-33-the-three-spinners",
     "language": "pt",
     "title": "The Three Spinners",
     "genre": "Fairy Tales",
@@ -4258,7 +4258,7 @@
   },
   {
     "id": "grimm-fairy-tales-34-the-seven-ravens",
-    "slug": "grimm-fairy-tales-34-the-seven-ravens-pt",
+    "slug": "grimm-fairy-tales-34-the-seven-ravens",
     "language": "pt",
     "title": "The Seven Ravens",
     "genre": "Fairy Tales",
@@ -4387,7 +4387,7 @@
   },
   {
     "id": "grimm-fairy-tales-35-the-wedding-of-mrs-fox",
-    "slug": "grimm-fairy-tales-35-the-wedding-of-mrs-fox-pt",
+    "slug": "grimm-fairy-tales-35-the-wedding-of-mrs-fox",
     "language": "pt",
     "title": "The Wedding of Mrs. Fox",
     "genre": "Fairy Tales",
@@ -4516,7 +4516,7 @@
   },
   {
     "id": "grimm-fairy-tales-36-the-elves-die-wichtelm-nner",
-    "slug": "grimm-fairy-tales-36-the-elves-die-wichtelm-nner-pt",
+    "slug": "grimm-fairy-tales-36-the-elves-die-wichtelm-nner",
     "language": "pt",
     "title": "The Elves (Die Wichtelmänner)",
     "genre": "Fairy Tales",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "grimm-fairy-tales-37-the-robber-bridegroom",
-    "slug": "grimm-fairy-tales-37-the-robber-bridegroom-pt",
+    "slug": "grimm-fairy-tales-37-the-robber-bridegroom",
     "language": "pt",
     "title": "The Robber Bridegroom",
     "genre": "Fairy Tales",
@@ -4774,7 +4774,7 @@
   },
   {
     "id": "grimm-fairy-tales-38-herr-korbes",
-    "slug": "grimm-fairy-tales-38-herr-korbes-pt",
+    "slug": "grimm-fairy-tales-38-herr-korbes",
     "language": "pt",
     "title": "Herr Korbes",
     "genre": "Fairy Tales",
@@ -4903,7 +4903,7 @@
   },
   {
     "id": "grimm-fairy-tales-39-the-godfather",
-    "slug": "grimm-fairy-tales-39-the-godfather-pt",
+    "slug": "grimm-fairy-tales-39-the-godfather",
     "language": "pt",
     "title": "The Godfather",
     "genre": "Fairy Tales",
@@ -5032,7 +5032,7 @@
   },
   {
     "id": "grimm-fairy-tales-40-frau-trude",
-    "slug": "grimm-fairy-tales-40-frau-trude-pt",
+    "slug": "grimm-fairy-tales-40-frau-trude",
     "language": "pt",
     "title": "Frau Trude",
     "genre": "Fairy Tales",
@@ -5161,7 +5161,7 @@
   },
   {
     "id": "grimm-fairy-tales-41-godfather-death",
-    "slug": "grimm-fairy-tales-41-godfather-death-pt",
+    "slug": "grimm-fairy-tales-41-godfather-death",
     "language": "pt",
     "title": "Godfather Death",
     "genre": "Fairy Tales",
@@ -5290,7 +5290,7 @@
   },
   {
     "id": "grimm-fairy-tales-42-thumbling-daumesdick",
-    "slug": "grimm-fairy-tales-42-thumbling-daumesdick-pt",
+    "slug": "grimm-fairy-tales-42-thumbling-daumesdick",
     "language": "pt",
     "title": "Thumbling (Daumesdick)",
     "genre": "Fairy Tales",
@@ -5419,7 +5419,7 @@
   },
   {
     "id": "grimm-fairy-tales-43-fitchers-bird",
-    "slug": "grimm-fairy-tales-43-fitchers-bird-pt",
+    "slug": "grimm-fairy-tales-43-fitchers-bird",
     "language": "pt",
     "title": "Fitcher's Bird",
     "genre": "Fairy Tales",
@@ -5548,7 +5548,7 @@
   },
   {
     "id": "grimm-fairy-tales-44-the-juniper-tree-variant",
-    "slug": "grimm-fairy-tales-44-the-juniper-tree-variant-pt",
+    "slug": "grimm-fairy-tales-44-the-juniper-tree-variant",
     "language": "pt",
     "title": "The Juniper Tree (The Song of the Bird)",
     "genre": "Fairy Tales",
@@ -5677,7 +5677,7 @@
   },
   {
     "id": "grimm-fairy-tales-45-old-sultan",
-    "slug": "grimm-fairy-tales-45-old-sultan-pt",
+    "slug": "grimm-fairy-tales-45-old-sultan",
     "language": "pt",
     "title": "Old Sultan",
     "genre": "Fairy Tales",
@@ -5806,7 +5806,7 @@
   },
   {
     "id": "grimm-fairy-tales-46-the-six-swans-variant",
-    "slug": "grimm-fairy-tales-46-the-six-swans-variant-pt",
+    "slug": "grimm-fairy-tales-46-the-six-swans-variant",
     "language": "pt",
     "title": "The Six Swans (The Star-Flower Shirts)",
     "genre": "Fairy Tales",
@@ -5935,7 +5935,7 @@
   },
   {
     "id": "grimm-fairy-tales-47-little-red-cap",
-    "slug": "grimm-fairy-tales-47-little-red-cap-pt",
+    "slug": "grimm-fairy-tales-47-little-red-cap",
     "language": "pt",
     "title": "Little Red-Cap (The Lesson of the Woods)",
     "genre": "Fairy Tales",
@@ -6064,7 +6064,7 @@
   },
   {
     "id": "grimm-fairy-tales-48-the-four-skillful-brothers",
-    "slug": "grimm-fairy-tales-48-the-four-skillful-brothers-pt",
+    "slug": "grimm-fairy-tales-48-the-four-skillful-brothers",
     "language": "pt",
     "title": "The Four Skillful Brothers (The Royal Quest)",
     "genre": "Fairy Tales",
@@ -6193,7 +6193,7 @@
   },
   {
     "id": "grimm-fairy-tales-49-the-three-snake-leaves",
-    "slug": "grimm-fairy-tales-49-the-three-snake-leaves-pt",
+    "slug": "grimm-fairy-tales-49-the-three-snake-leaves",
     "language": "pt",
     "title": "The Three Snake-Leaves",
     "genre": "Fairy Tales",
@@ -6322,7 +6322,7 @@
   },
   {
     "id": "grimm-fairy-tales-50-the-white-bride-and-black-bride",
-    "slug": "grimm-fairy-tales-50-the-white-bride-and-black-bride-pt",
+    "slug": "grimm-fairy-tales-50-the-white-bride-and-black-bride",
     "language": "pt",
     "title": "The White Bride and Black Bride",
     "genre": "Fairy Tales",
@@ -6451,7 +6451,7 @@
   },
   {
     "id": "grimm-fairy-tales-51-the-iron-stove",
-    "slug": "grimm-fairy-tales-51-the-iron-stove-pt",
+    "slug": "grimm-fairy-tales-51-the-iron-stove",
     "language": "pt",
     "title": "The Iron Stove",
     "genre": "Fairy Tales",
@@ -6580,7 +6580,7 @@
   },
   {
     "id": "grimm-fairy-tales-52-the-lazy-spinner",
-    "slug": "grimm-fairy-tales-52-the-lazy-spinner-pt",
+    "slug": "grimm-fairy-tales-52-the-lazy-spinner",
     "language": "pt",
     "title": "The Lazy Spinner",
     "genre": "Fairy Tales",
@@ -6709,7 +6709,7 @@
   },
   {
     "id": "grimm-fairy-tales-53-the-four-clever-brothers-variant",
-    "slug": "grimm-fairy-tales-53-the-four-clever-brothers-variant-pt",
+    "slug": "grimm-fairy-tales-53-the-four-clever-brothers-variant",
     "language": "pt",
     "title": "The Four Clever Brothers (The Dragon of the Rock)",
     "genre": "Fairy Tales",
@@ -6838,7 +6838,7 @@
   },
   {
     "id": "grimm-fairy-tales-54-the-singing-bone",
-    "slug": "grimm-fairy-tales-54-the-singing-bone-pt",
+    "slug": "grimm-fairy-tales-54-the-singing-bone",
     "language": "pt",
     "title": "The Singing Bone",
     "genre": "Fairy Tales",
@@ -6967,7 +6967,7 @@
   },
   {
     "id": "grimm-fairy-tales-55-the-devil-with-three-golden-hairs",
-    "slug": "grimm-fairy-tales-55-the-devil-with-three-golden-hairs-pt",
+    "slug": "grimm-fairy-tales-55-the-devil-with-three-golden-hairs",
     "language": "pt",
     "title": "The Devil with the Three Golden Hairs",
     "genre": "Fairy Tales",
@@ -7096,7 +7096,7 @@
   },
   {
     "id": "grimm-fairy-tales-56-the-louse-and-the-flea",
-    "slug": "grimm-fairy-tales-56-the-louse-and-the-flea-pt",
+    "slug": "grimm-fairy-tales-56-the-louse-and-the-flea",
     "language": "pt",
     "title": "The Louse and the Flea",
     "genre": "Fairy Tales",
@@ -7225,7 +7225,7 @@
   },
   {
     "id": "grimm-fairy-tales-57-the-girl-without-hands-m-dchen-ohne-h-nde",
-    "slug": "grimm-fairy-tales-57-the-girl-without-hands-m-dchen-ohne-h-nde-pt",
+    "slug": "grimm-fairy-tales-57-the-girl-without-hands-m-dchen-ohne-h-nde",
     "language": "pt",
     "title": "The Girl Without Hands (Mädchen ohne Hände)",
     "genre": "Fairy Tales",
@@ -7354,7 +7354,7 @@
   },
   {
     "id": "grimm-fairy-tales-58-clever-hans",
-    "slug": "grimm-fairy-tales-58-clever-hans-pt",
+    "slug": "grimm-fairy-tales-58-clever-hans",
     "language": "pt",
     "title": "Clever Hans",
     "genre": "Fairy Tales",
@@ -7483,7 +7483,7 @@
   },
   {
     "id": "grimm-fairy-tales-59-the-three-languages",
-    "slug": "grimm-fairy-tales-59-the-three-languages-pt",
+    "slug": "grimm-fairy-tales-59-the-three-languages",
     "language": "pt",
     "title": "The Three Languages",
     "genre": "Fairy Tales",
@@ -7612,7 +7612,7 @@
   },
   {
     "id": "grimm-fairy-tales-60-clever-elsie",
-    "slug": "grimm-fairy-tales-60-clever-elsie-pt",
+    "slug": "grimm-fairy-tales-60-clever-elsie",
     "language": "pt",
     "title": "Clever Elsie",
     "genre": "Fairy Tales",
@@ -7741,7 +7741,7 @@
   },
   {
     "id": "grimm-fairy-tales-61-the-miser-in-the-bush",
-    "slug": "grimm-fairy-tales-61-the-miser-in-the-bush-pt",
+    "slug": "grimm-fairy-tales-61-the-miser-in-the-bush",
     "language": "pt",
     "title": "The Miser in the Bush",
     "genre": "Fairy Tales",
@@ -7870,7 +7870,7 @@
   },
   {
     "id": "grimm-fairy-tales-62-the-twelve-dancing-princesses-die-zertanzten-schuhe",
-    "slug": "grimm-fairy-tales-62-the-twelve-dancing-princesses-die-zertanzten-schuhe-pt",
+    "slug": "grimm-fairy-tales-62-the-twelve-dancing-princesses-die-zertanzten-schuhe",
     "language": "pt",
     "title": "The Twelve Dancing Princesses",
     "genre": "Fairy Tales",
@@ -7999,7 +7999,7 @@
   },
   {
     "id": "grimm-fairy-tales-63-the-apprenticeship",
-    "slug": "grimm-fairy-tales-63-the-apprenticeship-pt",
+    "slug": "grimm-fairy-tales-63-the-apprenticeship",
     "language": "pt",
     "title": "The Apprenticeship",
     "genre": "Fairy Tales",
@@ -8128,7 +8128,7 @@
   },
   {
     "id": "grimm-fairy-tales-64-the-twins",
-    "slug": "grimm-fairy-tales-64-the-twins-pt",
+    "slug": "grimm-fairy-tales-64-the-twins",
     "language": "pt",
     "title": "The Twins (The Golden Cord)",
     "genre": "Fairy Tales",
@@ -8257,7 +8257,7 @@
   },
   {
     "id": "grimm-fairy-tales-65-the-dog-and-the-sparrow",
-    "slug": "grimm-fairy-tales-65-the-dog-and-the-sparrow-pt",
+    "slug": "grimm-fairy-tales-65-the-dog-and-the-sparrow",
     "language": "pt",
     "title": "The Dog and the Sparrow",
     "genre": "Fairy Tales",
@@ -8386,7 +8386,7 @@
   },
   {
     "id": "grimm-fairy-tales-66-frederick-and-catherine",
-    "slug": "grimm-fairy-tales-66-frederick-and-catherine-pt",
+    "slug": "grimm-fairy-tales-66-frederick-and-catherine",
     "language": "pt",
     "title": "Frederick and Catherine",
     "genre": "Fairy Tales",
@@ -8515,7 +8515,7 @@
   },
   {
     "id": "grimm-fairy-tales-67-sweethearts",
-    "slug": "grimm-fairy-tales-67-sweethearts-pt",
+    "slug": "grimm-fairy-tales-67-sweethearts",
     "language": "pt",
     "title": "Sweethearts (The Top and Ball in the Woods)",
     "genre": "Fairy Tales",
@@ -8644,7 +8644,7 @@
   },
   {
     "id": "grimm-fairy-tales-68-the-crystal-ball",
-    "slug": "grimm-fairy-tales-68-the-crystal-ball-pt",
+    "slug": "grimm-fairy-tales-68-the-crystal-ball",
     "language": "pt",
     "title": "The Crystal Ball",
     "genre": "Fairy Tales",
@@ -8773,7 +8773,7 @@
   },
   {
     "id": "grimm-fairy-tales-69-the-three-little-birds",
-    "slug": "grimm-fairy-tales-69-the-three-little-birds-pt",
+    "slug": "grimm-fairy-tales-69-the-three-little-birds",
     "language": "pt",
     "title": "The Three Little Birds",
     "genre": "Fairy Tales",
@@ -8902,7 +8902,7 @@
   },
   {
     "id": "grimm-fairy-tales-70-the-riddle",
-    "slug": "grimm-fairy-tales-70-the-riddle-pt",
+    "slug": "grimm-fairy-tales-70-the-riddle",
     "language": "pt",
     "title": "The Riddle",
     "genre": "Fairy Tales",
@@ -9031,7 +9031,7 @@
   },
   {
     "id": "grimm-fairy-tales-71-the-old-man-and-his-grandson",
-    "slug": "grimm-fairy-tales-71-the-old-man-and-his-grandson-pt",
+    "slug": "grimm-fairy-tales-71-the-old-man-and-his-grandson",
     "language": "pt",
     "title": "The Old Man and His Grandson",
     "genre": "Fairy Tales",
@@ -9160,7 +9160,7 @@
   },
   {
     "id": "grimm-fairy-tales-72-the-water-nixie",
-    "slug": "grimm-fairy-tales-72-the-water-nixie-pt",
+    "slug": "grimm-fairy-tales-72-the-water-nixie",
     "language": "pt",
     "title": "The Water Nixie",
     "genre": "Fairy Tales",
@@ -9289,7 +9289,7 @@
   },
   {
     "id": "grimm-fairy-tales-73-the-death-of-the-little-hen",
-    "slug": "grimm-fairy-tales-73-the-death-of-the-little-hen-pt",
+    "slug": "grimm-fairy-tales-73-the-death-of-the-little-hen",
     "language": "pt",
     "title": "The Death of the Little Hen",
     "genre": "Fairy Tales",
@@ -9418,7 +9418,7 @@
   },
   {
     "id": "grimm-fairy-tales-74-brother-lustig",
-    "slug": "grimm-fairy-tales-74-brother-lustig-pt",
+    "slug": "grimm-fairy-tales-74-brother-lustig",
     "language": "pt",
     "title": "Brother Lustig",
     "genre": "Fairy Tales",
@@ -9547,7 +9547,7 @@
   },
   {
     "id": "grimm-fairy-tales-75-gambling-hansel",
-    "slug": "grimm-fairy-tales-75-gambling-hansel-pt",
+    "slug": "grimm-fairy-tales-75-gambling-hansel",
     "language": "pt",
     "title": "Gambling Hansel",
     "genre": "Fairy Tales",
@@ -9676,7 +9676,7 @@
   },
   {
     "id": "grimm-fairy-tales-76-hans-dumb",
-    "slug": "grimm-fairy-tales-76-hans-dumb-pt",
+    "slug": "grimm-fairy-tales-76-hans-dumb",
     "language": "pt",
     "title": "Hans Dumb",
     "genre": "Fairy Tales",
@@ -9805,7 +9805,7 @@
   },
   {
     "id": "grimm-fairy-tales-77-the-blue-light-das-blaue-licht",
-    "slug": "grimm-fairy-tales-77-the-blue-light-das-blaue-licht-pt",
+    "slug": "grimm-fairy-tales-77-the-blue-light-das-blaue-licht",
     "language": "pt",
     "title": "The Blue Light (Das blaue Licht)",
     "genre": "Fairy Tales",
@@ -9934,7 +9934,7 @@
   },
   {
     "id": "grimm-fairy-tales-78-the-wilful-child",
-    "slug": "grimm-fairy-tales-78-the-wilful-child-pt",
+    "slug": "grimm-fairy-tales-78-the-wilful-child",
     "language": "pt",
     "title": "The Wilful Child",
     "genre": "Fairy Tales",
@@ -10063,7 +10063,7 @@
   },
   {
     "id": "grimm-fairy-tales-79-the-three-army-surgeons",
-    "slug": "grimm-fairy-tales-79-the-three-army-surgeons-pt",
+    "slug": "grimm-fairy-tales-79-the-three-army-surgeons",
     "language": "pt",
     "title": "The Three Army Surgeons",
     "genre": "Fairy Tales",
@@ -10192,7 +10192,7 @@
   },
   {
     "id": "grimm-fairy-tales-80-the-seven-swabians",
-    "slug": "grimm-fairy-tales-80-the-seven-swabians-pt",
+    "slug": "grimm-fairy-tales-80-the-seven-swabians",
     "language": "pt",
     "title": "The Seven Swabians",
     "genre": "Fairy Tales",
@@ -10321,7 +10321,7 @@
   },
   {
     "id": "grimm-fairy-tales-81-the-three-apprentices",
-    "slug": "grimm-fairy-tales-81-the-three-apprentices-pt",
+    "slug": "grimm-fairy-tales-81-the-three-apprentices",
     "language": "pt",
     "title": "The Three Apprentices",
     "genre": "Fairy Tales",
@@ -10450,7 +10450,7 @@
   },
   {
     "id": "grimm-fairy-tales-82-the-kings-son-who-feared-nothing",
-    "slug": "grimm-fairy-tales-82-the-kings-son-who-feared-nothing-pt",
+    "slug": "grimm-fairy-tales-82-the-kings-son-who-feared-nothing",
     "language": "pt",
     "title": "The King's Son Who Feared Nothing",
     "genre": "Fairy Tales",
@@ -10579,7 +10579,7 @@
   },
   {
     "id": "grimm-fairy-tales-83-donkey-cabbages-donkey-lettuce",
-    "slug": "grimm-fairy-tales-83-donkey-cabbages-donkey-lettuce-pt",
+    "slug": "grimm-fairy-tales-83-donkey-cabbages-donkey-lettuce",
     "language": "pt",
     "title": "Donkey Cabbages (Donkey Lettuce)",
     "genre": "Fairy Tales",
@@ -10708,7 +10708,7 @@
   },
   {
     "id": "grimm-fairy-tales-84-the-old-woman-in-the-wood",
-    "slug": "grimm-fairy-tales-84-the-old-woman-in-the-wood-pt",
+    "slug": "grimm-fairy-tales-84-the-old-woman-in-the-wood",
     "language": "pt",
     "title": "The Old Woman in the Wood",
     "genre": "Fairy Tales",
@@ -10837,7 +10837,7 @@
   },
   {
     "id": "grimm-fairy-tales-85-the-three-brothers",
-    "slug": "grimm-fairy-tales-85-the-three-brothers-pt",
+    "slug": "grimm-fairy-tales-85-the-three-brothers",
     "language": "pt",
     "title": "The Three Brothers",
     "genre": "Fairy Tales",
@@ -10966,7 +10966,7 @@
   },
   {
     "id": "grimm-fairy-tales-86-the-devil-and-his-grandmother",
-    "slug": "grimm-fairy-tales-86-the-devil-and-his-grandmother-pt",
+    "slug": "grimm-fairy-tales-86-the-devil-and-his-grandmother",
     "language": "pt",
     "title": "The Devil and His Grandmother",
     "genre": "Fairy Tales",
@@ -11095,7 +11095,7 @@
   },
   {
     "id": "grimm-fairy-tales-87-ferdinand-the-faithful",
-    "slug": "grimm-fairy-tales-87-ferdinand-the-faithful-pt",
+    "slug": "grimm-fairy-tales-87-ferdinand-the-faithful",
     "language": "pt",
     "title": "Ferdinand the Faithful",
     "genre": "Fairy Tales",
@@ -11224,7 +11224,7 @@
   },
   {
     "id": "grimm-fairy-tales-88-the-iron-oven",
-    "slug": "grimm-fairy-tales-88-the-iron-oven-pt",
+    "slug": "grimm-fairy-tales-88-the-iron-oven",
     "language": "pt",
     "title": "The Iron Oven (The Glass Mountain Path)",
     "genre": "Fairy Tales",
@@ -11353,7 +11353,7 @@
   },
   {
     "id": "grimm-fairy-tales-89-the-lazy-spinner-variant",
-    "slug": "grimm-fairy-tales-89-the-lazy-spinner-variant-pt",
+    "slug": "grimm-fairy-tales-89-the-lazy-spinner-variant",
     "language": "pt",
     "title": "The Lazy Spinner (The Voice in the Wood)",
     "genre": "Fairy Tales",
@@ -11482,7 +11482,7 @@
   },
   {
     "id": "grimm-fairy-tales-90-the-four-skillful-brothers-2",
-    "slug": "grimm-fairy-tales-90-the-four-skillful-brothers-2-pt",
+    "slug": "grimm-fairy-tales-90-the-four-skillful-brothers-2",
     "language": "pt",
     "title": "The Four Skillful Brothers (The Fraternal Union)",
     "genre": "Fairy Tales",
@@ -11611,7 +11611,7 @@
   },
   {
     "id": "grimm-fairy-tales-91-one-eye-two-eyes-three-eyes-ein-uglein-zwei-uglein-drei-uglein",
-    "slug": "grimm-fairy-tales-91-one-eye-two-eyes-three-eyes-ein-uglein-zwei-uglein-drei-uglein-pt",
+    "slug": "grimm-fairy-tales-91-one-eye-two-eyes-three-eyes-ein-uglein-zwei-uglein-drei-uglein",
     "language": "pt",
     "title": "One-Eye, Two-Eyes, Three-Eyes",
     "genre": "Fairy Tales",
@@ -11740,7 +11740,7 @@
   },
   {
     "id": "grimm-fairy-tales-92-fair-katrinelje-and-pif-paf-poltrie",
-    "slug": "grimm-fairy-tales-92-fair-katrinelje-and-pif-paf-poltrie-pt",
+    "slug": "grimm-fairy-tales-92-fair-katrinelje-and-pif-paf-poltrie",
     "language": "pt",
     "title": "Fair Katrinelje and Pif-Paf-Poltrie",
     "genre": "Fairy Tales",
@@ -11869,7 +11869,7 @@
   },
   {
     "id": "grimm-fairy-tales-93-the-pink",
-    "slug": "grimm-fairy-tales-93-the-pink-pt",
+    "slug": "grimm-fairy-tales-93-the-pink",
     "language": "pt",
     "title": "The Pink",
     "genre": "Fairy Tales",
@@ -11998,7 +11998,7 @@
   },
   {
     "id": "grimm-fairy-tales-94-clever-grethel",
-    "slug": "grimm-fairy-tales-94-clever-grethel-pt",
+    "slug": "grimm-fairy-tales-94-clever-grethel",
     "language": "pt",
     "title": "Clever Grethel",
     "genre": "Fairy Tales",
@@ -12127,7 +12127,7 @@
   },
   {
     "id": "grimm-fairy-tales-95-the-old-man-made-young-again",
-    "slug": "grimm-fairy-tales-95-the-old-man-made-young-again-pt",
+    "slug": "grimm-fairy-tales-95-the-old-man-made-young-again",
     "language": "pt",
     "title": "The Old Man Made Young Again",
     "genre": "Fairy Tales",
@@ -12256,7 +12256,7 @@
   },
   {
     "id": "grimm-fairy-tales-96-the-lords-animals-and-the-devils",
-    "slug": "grimm-fairy-tales-96-the-lords-animals-and-the-devils-pt",
+    "slug": "grimm-fairy-tales-96-the-lords-animals-and-the-devils",
     "language": "pt",
     "title": "The Lord's Animals and the Devil's",
     "genre": "Fairy Tales",
@@ -12385,7 +12385,7 @@
   },
   {
     "id": "grimm-fairy-tales-97-the-beam",
-    "slug": "grimm-fairy-tales-97-the-beam-pt",
+    "slug": "grimm-fairy-tales-97-the-beam",
     "language": "pt",
     "title": "The Beam",
     "genre": "Fairy Tales",
@@ -12514,7 +12514,7 @@
   },
   {
     "id": "grimm-fairy-tales-98-the-old-beggar-woman",
-    "slug": "grimm-fairy-tales-98-the-old-beggar-woman-pt",
+    "slug": "grimm-fairy-tales-98-the-old-beggar-woman",
     "language": "pt",
     "title": "The Old Beggar Woman",
     "genre": "Fairy Tales",
@@ -12643,7 +12643,7 @@
   },
   {
     "id": "grimm-fairy-tales-99-the-twelve-apostles",
-    "slug": "grimm-fairy-tales-99-the-twelve-apostles-pt",
+    "slug": "grimm-fairy-tales-99-the-twelve-apostles",
     "language": "pt",
     "title": "The Twelve Apostles",
     "genre": "Fairy Tales",
@@ -12772,7 +12772,7 @@
   },
   {
     "id": "grimm-fairy-tales-100-the-rose",
-    "slug": "grimm-fairy-tales-100-the-rose-pt",
+    "slug": "grimm-fairy-tales-100-the-rose",
     "language": "pt",
     "title": "The Rose",
     "genre": "Fairy Tales",
@@ -12901,7 +12901,7 @@
   },
   {
     "id": "grimm-fairy-tales-101-poverty-and-humility-lead-to-heaven",
-    "slug": "grimm-fairy-tales-101-poverty-and-humility-lead-to-heaven-pt",
+    "slug": "grimm-fairy-tales-101-poverty-and-humility-lead-to-heaven",
     "language": "pt",
     "title": "Poverty and Humility Lead to Heaven",
     "genre": "Fairy Tales",
@@ -13030,7 +13030,7 @@
   },
   {
     "id": "grimm-fairy-tales-102-the-glass-coffin",
-    "slug": "grimm-fairy-tales-102-the-glass-coffin-pt",
+    "slug": "grimm-fairy-tales-102-the-glass-coffin",
     "language": "pt",
     "title": "The Glass Coffin",
     "genre": "Fairy Tales",
@@ -13159,7 +13159,7 @@
   },
   {
     "id": "grimm-fairy-tales-103-lazy-harry",
-    "slug": "grimm-fairy-tales-103-lazy-harry-pt",
+    "slug": "grimm-fairy-tales-103-lazy-harry",
     "language": "pt",
     "title": "Lazy Harry",
     "genre": "Fairy Tales",
@@ -13288,7 +13288,7 @@
   },
   {
     "id": "grimm-fairy-tales-104-the-griffin",
-    "slug": "grimm-fairy-tales-104-the-griffin-pt",
+    "slug": "grimm-fairy-tales-104-the-griffin",
     "language": "pt",
     "title": "The Griffin",
     "genre": "Fairy Tales",
@@ -13417,7 +13417,7 @@
   },
   {
     "id": "grimm-fairy-tales-105-strong-hans",
-    "slug": "grimm-fairy-tales-105-strong-hans-pt",
+    "slug": "grimm-fairy-tales-105-strong-hans",
     "language": "pt",
     "title": "Strong Hans",
     "genre": "Fairy Tales",
@@ -13546,7 +13546,7 @@
   },
   {
     "id": "grimm-fairy-tales-106-the-peasant-in-heaven",
-    "slug": "grimm-fairy-tales-106-the-peasant-in-heaven-pt",
+    "slug": "grimm-fairy-tales-106-the-peasant-in-heaven",
     "language": "pt",
     "title": "The Peasant in Heaven",
     "genre": "Fairy Tales",
@@ -13675,7 +13675,7 @@
   },
   {
     "id": "grimm-fairy-tales-107-lean-lisa",
-    "slug": "grimm-fairy-tales-107-lean-lisa-pt",
+    "slug": "grimm-fairy-tales-107-lean-lisa",
     "language": "pt",
     "title": "Lean Lisa",
     "genre": "Fairy Tales",
@@ -13804,7 +13804,7 @@
   },
   {
     "id": "grimm-fairy-tales-108-the-hut-in-the-forest",
-    "slug": "grimm-fairy-tales-108-the-hut-in-the-forest-pt",
+    "slug": "grimm-fairy-tales-108-the-hut-in-the-forest",
     "language": "pt",
     "title": "The Hut in the Forest",
     "genre": "Fairy Tales",
@@ -13933,7 +13933,7 @@
   },
   {
     "id": "grimm-fairy-tales-109-sharing-joy-and-sorrow",
-    "slug": "grimm-fairy-tales-109-sharing-joy-and-sorrow-pt",
+    "slug": "grimm-fairy-tales-109-sharing-joy-and-sorrow",
     "language": "pt",
     "title": "Sharing Joy and Sorrow",
     "genre": "Fairy Tales",
@@ -14062,7 +14062,7 @@
   },
   {
     "id": "grimm-fairy-tales-110-the-willow-wren",
-    "slug": "grimm-fairy-tales-110-the-willow-wren-pt",
+    "slug": "grimm-fairy-tales-110-the-willow-wren",
     "language": "pt",
     "title": "The Willow-Wren",
     "genre": "Fairy Tales",
@@ -14191,7 +14191,7 @@
   },
   {
     "id": "grimm-fairy-tales-111-the-sole",
-    "slug": "grimm-fairy-tales-111-the-sole-pt",
+    "slug": "grimm-fairy-tales-111-the-sole",
     "language": "pt",
     "title": "The Sole",
     "genre": "Fairy Tales",
@@ -14320,7 +14320,7 @@
   },
   {
     "id": "grimm-fairy-tales-112-the-bittern-and-the-hoopoe",
-    "slug": "grimm-fairy-tales-112-the-bittern-and-the-hoopoe-pt",
+    "slug": "grimm-fairy-tales-112-the-bittern-and-the-hoopoe",
     "language": "pt",
     "title": "The Bittern and the Hoopoe",
     "genre": "Fairy Tales",
@@ -14449,7 +14449,7 @@
   },
   {
     "id": "grimm-fairy-tales-113-the-owl",
-    "slug": "grimm-fairy-tales-113-the-owl-pt",
+    "slug": "grimm-fairy-tales-113-the-owl",
     "language": "pt",
     "title": "The Owl",
     "genre": "Fairy Tales",
@@ -14578,7 +14578,7 @@
   },
   {
     "id": "grimm-fairy-tales-114-the-moon",
-    "slug": "grimm-fairy-tales-114-the-moon-pt",
+    "slug": "grimm-fairy-tales-114-the-moon",
     "language": "pt",
     "title": "The Moon",
     "genre": "Fairy Tales",
@@ -14707,7 +14707,7 @@
   },
   {
     "id": "grimm-fairy-tales-115-the-duration-of-life",
-    "slug": "grimm-fairy-tales-115-the-duration-of-life-pt",
+    "slug": "grimm-fairy-tales-115-the-duration-of-life",
     "language": "pt",
     "title": "The Duration of Life",
     "genre": "Fairy Tales",
@@ -14836,7 +14836,7 @@
   },
   {
     "id": "grimm-fairy-tales-116-deaths-messengers",
-    "slug": "grimm-fairy-tales-116-deaths-messengers-pt",
+    "slug": "grimm-fairy-tales-116-deaths-messengers",
     "language": "pt",
     "title": "Death's Messengers",
     "genre": "Fairy Tales",
@@ -14965,7 +14965,7 @@
   },
   {
     "id": "grimm-fairy-tales-117-master-pfriem",
-    "slug": "grimm-fairy-tales-117-master-pfriem-pt",
+    "slug": "grimm-fairy-tales-117-master-pfriem",
     "language": "pt",
     "title": "Master Pfriem",
     "genre": "Fairy Tales",
@@ -15094,7 +15094,7 @@
   },
   {
     "id": "grimm-fairy-tales-118-the-goose-girl-die-g-nsemagd",
-    "slug": "grimm-fairy-tales-118-the-goose-girl-die-g-nsemagd-pt",
+    "slug": "grimm-fairy-tales-118-the-goose-girl-die-g-nsemagd",
     "language": "pt",
     "title": "The Goose-Girl (Die Gänsemagd)",
     "genre": "Fairy Tales",
@@ -15223,7 +15223,7 @@
   },
   {
     "id": "grimm-fairy-tales-119-the-young-giant",
-    "slug": "grimm-fairy-tales-119-the-young-giant-pt",
+    "slug": "grimm-fairy-tales-119-the-young-giant",
     "language": "pt",
     "title": "The Young Giant",
     "genre": "Fairy Tales",
@@ -15352,7 +15352,7 @@
   },
   {
     "id": "grimm-fairy-tales-120-the-gnome-dat-erdm-nneken",
-    "slug": "grimm-fairy-tales-120-the-gnome-dat-erdm-nneken-pt",
+    "slug": "grimm-fairy-tales-120-the-gnome-dat-erdm-nneken",
     "language": "pt",
     "title": "The Gnome (Dat Erdmänneken)",
     "genre": "Fairy Tales",
@@ -15481,7 +15481,7 @@
   },
   {
     "id": "grimm-fairy-tales-121-the-king-of-the-golden-mountain",
-    "slug": "grimm-fairy-tales-121-the-king-of-the-golden-mountain-pt",
+    "slug": "grimm-fairy-tales-121-the-king-of-the-golden-mountain",
     "language": "pt",
     "title": "The King of the Golden Mountain",
     "genre": "Fairy Tales",
@@ -15610,7 +15610,7 @@
   },
   {
     "id": "grimm-fairy-tales-122-the-raven",
-    "slug": "grimm-fairy-tales-122-the-raven-pt",
+    "slug": "grimm-fairy-tales-122-the-raven",
     "language": "pt",
     "title": "The Raven",
     "genre": "Fairy Tales",
@@ -15739,7 +15739,7 @@
   },
   {
     "id": "grimm-fairy-tales-123-the-peasants-wise-daughter",
-    "slug": "grimm-fairy-tales-123-the-peasants-wise-daughter-pt",
+    "slug": "grimm-fairy-tales-123-the-peasants-wise-daughter",
     "language": "pt",
     "title": "The Peasant's Wise Daughter",
     "genre": "Fairy Tales",
@@ -15868,7 +15868,7 @@
   },
   {
     "id": "grimm-fairy-tales-124-old-hildebrand",
-    "slug": "grimm-fairy-tales-124-old-hildebrand-pt",
+    "slug": "grimm-fairy-tales-124-old-hildebrand",
     "language": "pt",
     "title": "Old Hildebrand",
     "genre": "Fairy Tales",
@@ -15997,7 +15997,7 @@
   },
   {
     "id": "grimm-fairy-tales-125-the-three-little-birds-variant",
-    "slug": "grimm-fairy-tales-125-the-three-little-birds-variant-pt",
+    "slug": "grimm-fairy-tales-125-the-three-little-birds-variant",
     "language": "pt",
     "title": "The Three Little Birds variant",
     "genre": "Fairy Tales",
@@ -16126,7 +16126,7 @@
   },
   {
     "id": "grimm-fairy-tales-126-the-water-of-life-das-wasser-des-lebens",
-    "slug": "grimm-fairy-tales-126-the-water-of-life-das-wasser-des-lebens-pt",
+    "slug": "grimm-fairy-tales-126-the-water-of-life-das-wasser-des-lebens",
     "language": "pt",
     "title": "The Water of Life (Das Wasser des Lebens)",
     "genre": "Fairy Tales",
@@ -16255,7 +16255,7 @@
   },
   {
     "id": "grimm-fairy-tales-127-doctor-knowall-doktor-allwissend",
-    "slug": "grimm-fairy-tales-127-doctor-knowall-doktor-allwissend-pt",
+    "slug": "grimm-fairy-tales-127-doctor-knowall-doktor-allwissend",
     "language": "pt",
     "title": "Doctor Knowall (Doktor Allwissend)",
     "genre": "Fairy Tales",
@@ -16384,7 +16384,7 @@
   },
   {
     "id": "grimm-fairy-tales-128-the-spirit-in-the-glass-bottle-der-geist-im-glas",
-    "slug": "grimm-fairy-tales-128-the-spirit-in-the-glass-bottle-der-geist-im-glas-pt",
+    "slug": "grimm-fairy-tales-128-the-spirit-in-the-glass-bottle-der-geist-im-glas",
     "language": "pt",
     "title": "The Spirit in the Glass Bottle (Der Geist im Glas)",
     "genre": "Fairy Tales",
@@ -16513,7 +16513,7 @@
   },
   {
     "id": "grimm-fairy-tales-129-the-devils-sooty-brother",
-    "slug": "grimm-fairy-tales-129-the-devils-sooty-brother-pt",
+    "slug": "grimm-fairy-tales-129-the-devils-sooty-brother",
     "language": "pt",
     "title": "The Devil's Sooty Brother",
     "genre": "Fairy Tales",
@@ -16642,7 +16642,7 @@
   },
   {
     "id": "grimm-fairy-tales-130-the-bearskin-variant",
-    "slug": "grimm-fairy-tales-130-the-bearskin-variant-pt",
+    "slug": "grimm-fairy-tales-130-the-bearskin-variant",
     "language": "pt",
     "title": "The Bearskin variant",
     "genre": "Fairy Tales",
@@ -16771,7 +16771,7 @@
   },
   {
     "id": "grimm-fairy-tales-131-the-willow-wren-and-the-bear",
-    "slug": "grimm-fairy-tales-131-the-willow-wren-and-the-bear-pt",
+    "slug": "grimm-fairy-tales-131-the-willow-wren-and-the-bear",
     "language": "pt",
     "title": "The Willow Wren and the Bear",
     "genre": "Fairy Tales",
@@ -16900,7 +16900,7 @@
   },
   {
     "id": "grimm-fairy-tales-132-the-sweet-porridge-sweet-soup",
-    "slug": "grimm-fairy-tales-132-the-sweet-porridge-sweet-soup-pt",
+    "slug": "grimm-fairy-tales-132-the-sweet-porridge-sweet-soup",
     "language": "pt",
     "title": "The Sweet Porridge (Sweet Soup)",
     "genre": "Fairy Tales",
@@ -17029,7 +17029,7 @@
   },
   {
     "id": "grimm-fairy-tales-133-wise-folks",
-    "slug": "grimm-fairy-tales-133-wise-folks-pt",
+    "slug": "grimm-fairy-tales-133-wise-folks",
     "language": "pt",
     "title": "Wise Folks",
     "genre": "Fairy Tales",
@@ -17158,7 +17158,7 @@
   },
   {
     "id": "grimm-fairy-tales-134-tales-of-the-paddock",
-    "slug": "grimm-fairy-tales-134-tales-of-the-paddock-pt",
+    "slug": "grimm-fairy-tales-134-tales-of-the-paddock",
     "language": "pt",
     "title": "Tales of the Paddock",
     "genre": "Fairy Tales",
@@ -17287,7 +17287,7 @@
   },
   {
     "id": "grimm-fairy-tales-135-the-poor-millers-boy-and-the-cat",
-    "slug": "grimm-fairy-tales-135-the-poor-millers-boy-and-the-cat-pt",
+    "slug": "grimm-fairy-tales-135-the-poor-millers-boy-and-the-cat",
     "language": "pt",
     "title": "The Poor Miller's Boy and the Cat",
     "genre": "Fairy Tales",
@@ -17416,7 +17416,7 @@
   },
   {
     "id": "grimm-fairy-tales-136-the-two-travelers",
-    "slug": "grimm-fairy-tales-136-the-two-travelers-pt",
+    "slug": "grimm-fairy-tales-136-the-two-travelers",
     "language": "pt",
     "title": "The Two Travelers",
     "genre": "Fairy Tales",
@@ -17545,7 +17545,7 @@
   },
   {
     "id": "grimm-fairy-tales-137-hans-my-hedgehog-hans-mein-igel",
-    "slug": "grimm-fairy-tales-137-hans-my-hedgehog-hans-mein-igel-pt",
+    "slug": "grimm-fairy-tales-137-hans-my-hedgehog-hans-mein-igel",
     "language": "pt",
     "title": "Hans My Hedgehog (Hans mein Igel)",
     "genre": "Fairy Tales",
@@ -17674,7 +17674,7 @@
   },
   {
     "id": "grimm-fairy-tales-138-the-shroud",
-    "slug": "grimm-fairy-tales-138-the-shroud-pt",
+    "slug": "grimm-fairy-tales-138-the-shroud",
     "language": "pt",
     "title": "The Shroud",
     "genre": "Fairy Tales",
@@ -17803,7 +17803,7 @@
   },
   {
     "id": "grimm-fairy-tales-139-the-jew-among-thorns",
-    "slug": "grimm-fairy-tales-139-the-jew-among-thorns-pt",
+    "slug": "grimm-fairy-tales-139-the-jew-among-thorns",
     "language": "pt",
     "title": "The Jew Among Thorns",
     "genre": "Fairy Tales",
@@ -17932,7 +17932,7 @@
   },
   {
     "id": "grimm-fairy-tales-140-the-skillful-huntsman",
-    "slug": "grimm-fairy-tales-140-the-skillful-huntsman-pt",
+    "slug": "grimm-fairy-tales-140-the-skillful-huntsman",
     "language": "pt",
     "title": "The Skillful Huntsman",
     "genre": "Fairy Tales",
@@ -18061,7 +18061,7 @@
   },
   {
     "id": "grimm-fairy-tales-141-the-flail-from-heaven",
-    "slug": "grimm-fairy-tales-141-the-flail-from-heaven-pt",
+    "slug": "grimm-fairy-tales-141-the-flail-from-heaven",
     "language": "pt",
     "title": "The Flail from Heaven",
     "genre": "Fairy Tales",
@@ -18190,7 +18190,7 @@
   },
   {
     "id": "grimm-fairy-tales-142-the-two-kings-children",
-    "slug": "grimm-fairy-tales-142-the-two-kings-children-pt",
+    "slug": "grimm-fairy-tales-142-the-two-kings-children",
     "language": "pt",
     "title": "The Two Kings' Children",
     "genre": "Fairy Tales",
@@ -18319,7 +18319,7 @@
   },
   {
     "id": "grimm-fairy-tales-143-the-clever-little-tailor",
-    "slug": "grimm-fairy-tales-143-the-clever-little-tailor-pt",
+    "slug": "grimm-fairy-tales-143-the-clever-little-tailor",
     "language": "pt",
     "title": "The Clever Little Tailor",
     "genre": "Fairy Tales",
@@ -18448,7 +18448,7 @@
   },
   {
     "id": "grimm-fairy-tales-144-the-bright-sun-brings-it-to-light",
-    "slug": "grimm-fairy-tales-144-the-bright-sun-brings-it-to-light-pt",
+    "slug": "grimm-fairy-tales-144-the-bright-sun-brings-it-to-light",
     "language": "pt",
     "title": "The Bright Sun Brings it to Light",
     "genre": "Fairy Tales",
@@ -18577,7 +18577,7 @@
   },
   {
     "id": "grimm-fairy-tales-145-the-blue-light-variant",
-    "slug": "grimm-fairy-tales-145-the-blue-light-variant-pt",
+    "slug": "grimm-fairy-tales-145-the-blue-light-variant",
     "language": "pt",
     "title": "The Blue Light variant",
     "genre": "Fairy Tales",
@@ -18706,7 +18706,7 @@
   },
   {
     "id": "grimm-fairy-tales-146-the-wilful-child-variant",
-    "slug": "grimm-fairy-tales-146-the-wilful-child-variant-pt",
+    "slug": "grimm-fairy-tales-146-the-wilful-child-variant",
     "language": "pt",
     "title": "The Wilful Child variant",
     "genre": "Fairy Tales",
@@ -18835,7 +18835,7 @@
   },
   {
     "id": "grimm-fairy-tales-147-the-three-green-twigs",
-    "slug": "grimm-fairy-tales-147-the-three-green-twigs-pt",
+    "slug": "grimm-fairy-tales-147-the-three-green-twigs",
     "language": "pt",
     "title": "The Three Green Twigs",
     "genre": "Fairy Tales",
@@ -18964,7 +18964,7 @@
   },
   {
     "id": "grimm-fairy-tales-148-our-ladys-little-glass",
-    "slug": "grimm-fairy-tales-148-our-ladys-little-glass-pt",
+    "slug": "grimm-fairy-tales-148-our-ladys-little-glass",
     "language": "pt",
     "title": "Our Lady's Little Glass",
     "genre": "Fairy Tales",
@@ -19093,7 +19093,7 @@
   },
   {
     "id": "grimm-fairy-tales-149-the-aged-mother",
-    "slug": "grimm-fairy-tales-149-the-aged-mother-pt",
+    "slug": "grimm-fairy-tales-149-the-aged-mother",
     "language": "pt",
     "title": "The Aged Mother",
     "genre": "Fairy Tales",
@@ -19222,7 +19222,7 @@
   },
   {
     "id": "grimm-fairy-tales-150-the-heavenly-wedding",
-    "slug": "grimm-fairy-tales-150-the-heavenly-wedding-pt",
+    "slug": "grimm-fairy-tales-150-the-heavenly-wedding",
     "language": "pt",
     "title": "The Heavenly Wedding",
     "genre": "Fairy Tales",
@@ -19351,7 +19351,7 @@
   },
   {
     "id": "grimm-fairy-tales-151-the-hazel-branch",
-    "slug": "grimm-fairy-tales-151-the-hazel-branch-pt",
+    "slug": "grimm-fairy-tales-151-the-hazel-branch",
     "language": "pt",
     "title": "The Hazel Branch",
     "genre": "Fairy Tales",
@@ -19480,7 +19480,7 @@
   },
   {
     "id": "grimm-fairy-tales-152-the-dog-and-the-sparrow-variant",
-    "slug": "grimm-fairy-tales-152-the-dog-and-the-sparrow-variant-pt",
+    "slug": "grimm-fairy-tales-152-the-dog-and-the-sparrow-variant",
     "language": "pt",
     "title": "The Dog and the Sparrow variant",
     "genre": "Fairy Tales",
@@ -19609,7 +19609,7 @@
   },
   {
     "id": "grimm-fairy-tales-153-the-little-folks-presents",
-    "slug": "grimm-fairy-tales-153-the-little-folks-presents-pt",
+    "slug": "grimm-fairy-tales-153-the-little-folks-presents",
     "language": "pt",
     "title": "The Little Folk's Presents",
     "genre": "Fairy Tales",
@@ -19738,7 +19738,7 @@
   },
   {
     "id": "grimm-fairy-tales-154-the-giant-and-the-tailor",
-    "slug": "grimm-fairy-tales-154-the-giant-and-the-tailor-pt",
+    "slug": "grimm-fairy-tales-154-the-giant-and-the-tailor",
     "language": "pt",
     "title": "The Giant and the Tailor",
     "genre": "Fairy Tales",
@@ -19867,7 +19867,7 @@
   },
   {
     "id": "grimm-fairy-tales-155-the-nail",
-    "slug": "grimm-fairy-tales-155-the-nail-pt",
+    "slug": "grimm-fairy-tales-155-the-nail",
     "language": "pt",
     "title": "The Nail",
     "genre": "Fairy Tales",
@@ -19996,7 +19996,7 @@
   },
   {
     "id": "grimm-fairy-tales-156-the-poor-boy-in-the-grave",
-    "slug": "grimm-fairy-tales-156-the-poor-boy-in-the-grave-pt",
+    "slug": "grimm-fairy-tales-156-the-poor-boy-in-the-grave",
     "language": "pt",
     "title": "The Poor Boy in the Grave",
     "genre": "Fairy Tales",
@@ -20125,7 +20125,7 @@
   },
   {
     "id": "grimm-fairy-tales-157-the-true-bride",
-    "slug": "grimm-fairy-tales-157-the-true-bride-pt",
+    "slug": "grimm-fairy-tales-157-the-true-bride",
     "language": "pt",
     "title": "The True Bride",
     "genre": "Fairy Tales",
@@ -20254,7 +20254,7 @@
   },
   {
     "id": "grimm-fairy-tales-158-the-hare-and-the-hedgehog",
-    "slug": "grimm-fairy-tales-158-the-hare-and-the-hedgehog-pt",
+    "slug": "grimm-fairy-tales-158-the-hare-and-the-hedgehog",
     "language": "pt",
     "title": "The Hare and the Hedgehog",
     "genre": "Fairy Tales",
@@ -20383,7 +20383,7 @@
   },
   {
     "id": "grimm-fairy-tales-159-the-spindle-the-shuttle-and-the-needle",
-    "slug": "grimm-fairy-tales-159-the-spindle-the-shuttle-and-the-needle-pt",
+    "slug": "grimm-fairy-tales-159-the-spindle-the-shuttle-and-the-needle",
     "language": "pt",
     "title": "The Spindle, the Shuttle, and the Needle",
     "genre": "Fairy Tales",
@@ -20512,7 +20512,7 @@
   },
   {
     "id": "grimm-fairy-tales-160-the-peasant-and-the-devil",
-    "slug": "grimm-fairy-tales-160-the-peasant-and-the-devil-pt",
+    "slug": "grimm-fairy-tales-160-the-peasant-and-the-devil",
     "language": "pt",
     "title": "The Peasant and the Devil",
     "genre": "Fairy Tales",
@@ -20641,7 +20641,7 @@
   },
   {
     "id": "grimm-fairy-tales-161-the-crumbs-on-the-table",
-    "slug": "grimm-fairy-tales-161-the-crumbs-on-the-table-pt",
+    "slug": "grimm-fairy-tales-161-the-crumbs-on-the-table",
     "language": "pt",
     "title": "The Crumbs on the Table",
     "genre": "Fairy Tales",
@@ -20770,7 +20770,7 @@
   },
   {
     "id": "grimm-fairy-tales-162-the-sea-hare",
-    "slug": "grimm-fairy-tales-162-the-sea-hare-pt",
+    "slug": "grimm-fairy-tales-162-the-sea-hare",
     "language": "pt",
     "title": "The Sea-Hare",
     "genre": "Fairy Tales",
@@ -20899,7 +20899,7 @@
   },
   {
     "id": "grimm-fairy-tales-163-the-master-thief",
-    "slug": "grimm-fairy-tales-163-the-master-thief-pt",
+    "slug": "grimm-fairy-tales-163-the-master-thief",
     "language": "pt",
     "title": "The Master Thief",
     "genre": "Fairy Tales",
@@ -21028,7 +21028,7 @@
   },
   {
     "id": "grimm-fairy-tales-164-the-drummer-der-trommler",
-    "slug": "grimm-fairy-tales-164-the-drummer-der-trommler-pt",
+    "slug": "grimm-fairy-tales-164-the-drummer-der-trommler",
     "language": "pt",
     "title": "The Drummer (Der Trommler)",
     "genre": "Fairy Tales",
@@ -21157,7 +21157,7 @@
   },
   {
     "id": "grimm-fairy-tales-165-the-ear-of-corn",
-    "slug": "grimm-fairy-tales-165-the-ear-of-corn-pt",
+    "slug": "grimm-fairy-tales-165-the-ear-of-corn",
     "language": "pt",
     "title": "The Ear of Corn",
     "genre": "Fairy Tales",
@@ -21286,7 +21286,7 @@
   },
   {
     "id": "grimm-fairy-tales-166-the-grave-mound",
-    "slug": "grimm-fairy-tales-166-the-grave-mound-pt",
+    "slug": "grimm-fairy-tales-166-the-grave-mound",
     "language": "pt",
     "title": "The Grave Mound",
     "genre": "Fairy Tales",
@@ -21415,7 +21415,7 @@
   },
   {
     "id": "grimm-fairy-tales-167-old-rinkrank",
-    "slug": "grimm-fairy-tales-167-old-rinkrank-pt",
+    "slug": "grimm-fairy-tales-167-old-rinkrank",
     "language": "pt",
     "title": "Old Rinkrank",
     "genre": "Fairy Tales",
@@ -21544,7 +21544,7 @@
   },
   {
     "id": "grimm-fairy-tales-168-the-crystal-ball-variant",
-    "slug": "grimm-fairy-tales-168-the-crystal-ball-variant-pt",
+    "slug": "grimm-fairy-tales-168-the-crystal-ball-variant",
     "language": "pt",
     "title": "The Crystal Ball variant",
     "genre": "Fairy Tales",
@@ -21673,7 +21673,7 @@
   },
   {
     "id": "grimm-fairy-tales-169-maid-maleen",
-    "slug": "grimm-fairy-tales-169-maid-maleen-pt",
+    "slug": "grimm-fairy-tales-169-maid-maleen",
     "language": "pt",
     "title": "Maid Maleen",
     "genre": "Fairy Tales",
@@ -21802,7 +21802,7 @@
   },
   {
     "id": "grimm-fairy-tales-170-the-boots-of-buffalo-leather",
-    "slug": "grimm-fairy-tales-170-the-boots-of-buffalo-leather-pt",
+    "slug": "grimm-fairy-tales-170-the-boots-of-buffalo-leather",
     "language": "pt",
     "title": "The Boots of Buffalo Leather",
     "genre": "Fairy Tales",
@@ -21931,7 +21931,7 @@
   },
   {
     "id": "grimm-fairy-tales-171-the-golden-key",
-    "slug": "grimm-fairy-tales-171-the-golden-key-pt",
+    "slug": "grimm-fairy-tales-171-the-golden-key",
     "language": "pt",
     "title": "The Golden Key",
     "genre": "Fairy Tales",
@@ -22060,7 +22060,7 @@
   },
   {
     "id": "grimm-fairy-tales-172-the-white-snake-variant",
-    "slug": "grimm-fairy-tales-172-the-white-snake-variant-pt",
+    "slug": "grimm-fairy-tales-172-the-white-snake-variant",
     "language": "pt",
     "title": "The White Snake variant",
     "genre": "Fairy Tales",
@@ -22189,7 +22189,7 @@
   },
   {
     "id": "grimm-fairy-tales-173-the-golden-children",
-    "slug": "grimm-fairy-tales-173-the-golden-children-pt",
+    "slug": "grimm-fairy-tales-173-the-golden-children",
     "language": "pt",
     "title": "The Golden Children",
     "genre": "Fairy Tales",
@@ -22318,7 +22318,7 @@
   },
   {
     "id": "grimm-fairy-tales-174-the-fox-and-the-geese",
-    "slug": "grimm-fairy-tales-174-the-fox-and-the-geese-pt",
+    "slug": "grimm-fairy-tales-174-the-fox-and-the-geese",
     "language": "pt",
     "title": "The Fox and the Geese",
     "genre": "Fairy Tales",
@@ -22447,7 +22447,7 @@
   },
   {
     "id": "grimm-fairy-tales-175-the-fox-and-the-cat",
-    "slug": "grimm-fairy-tales-175-the-fox-and-the-cat-pt",
+    "slug": "grimm-fairy-tales-175-the-fox-and-the-cat",
     "language": "pt",
     "title": "The Fox and the Cat",
     "genre": "Fairy Tales",
@@ -22576,7 +22576,7 @@
   },
   {
     "id": "grimm-fairy-tales-176-the-pink-flower-variant",
-    "slug": "grimm-fairy-tales-176-the-pink-flower-variant-pt",
+    "slug": "grimm-fairy-tales-176-the-pink-flower-variant",
     "language": "pt",
     "title": "The Pink Flower variant",
     "genre": "Fairy Tales",
@@ -22705,7 +22705,7 @@
   },
   {
     "id": "grimm-fairy-tales-177-clever-grethel-variant",
-    "slug": "grimm-fairy-tales-177-clever-grethel-variant-pt",
+    "slug": "grimm-fairy-tales-177-clever-grethel-variant",
     "language": "pt",
     "title": "Clever Grethel variant",
     "genre": "Fairy Tales",
@@ -22834,7 +22834,7 @@
   },
   {
     "id": "grimm-fairy-tales-178-the-old-man-made-young-variant",
-    "slug": "grimm-fairy-tales-178-the-old-man-made-young-variant-pt",
+    "slug": "grimm-fairy-tales-178-the-old-man-made-young-variant",
     "language": "pt",
     "title": "The Old Man Made Young variant",
     "genre": "Fairy Tales",
@@ -22963,7 +22963,7 @@
   },
   {
     "id": "grimm-fairy-tales-179-the-lords-animals",
-    "slug": "grimm-fairy-tales-179-the-lords-animals-pt",
+    "slug": "grimm-fairy-tales-179-the-lords-animals",
     "language": "pt",
     "title": "The Lord's Animals",
     "genre": "Fairy Tales",
@@ -23092,7 +23092,7 @@
   },
   {
     "id": "grimm-fairy-tales-180-the-beam-variant",
-    "slug": "grimm-fairy-tales-180-the-beam-variant-pt",
+    "slug": "grimm-fairy-tales-180-the-beam-variant",
     "language": "pt",
     "title": "The Beam variant",
     "genre": "Fairy Tales",
@@ -23221,7 +23221,7 @@
   },
   {
     "id": "grimm-fairy-tales-181-the-old-beggar-woman-variant",
-    "slug": "grimm-fairy-tales-181-the-old-beggar-woman-variant-pt",
+    "slug": "grimm-fairy-tales-181-the-old-beggar-woman-variant",
     "language": "pt",
     "title": "The Old Beggar Woman variant",
     "genre": "Fairy Tales",
@@ -23350,7 +23350,7 @@
   },
   {
     "id": "grimm-fairy-tales-182-the-twelve-apostles-variant",
-    "slug": "grimm-fairy-tales-182-the-twelve-apostles-variant-pt",
+    "slug": "grimm-fairy-tales-182-the-twelve-apostles-variant",
     "language": "pt",
     "title": "The Twelve Apostles variant",
     "genre": "Fairy Tales",
@@ -23479,7 +23479,7 @@
   },
   {
     "id": "grimm-fairy-tales-183-the-rose-variant",
-    "slug": "grimm-fairy-tales-183-the-rose-variant-pt",
+    "slug": "grimm-fairy-tales-183-the-rose-variant",
     "language": "pt",
     "title": "The Rose variant",
     "genre": "Fairy Tales",
@@ -23608,7 +23608,7 @@
   },
   {
     "id": "grimm-fairy-tales-184-the-hut-in-the-forest-variant",
-    "slug": "grimm-fairy-tales-184-the-hut-in-the-forest-variant-pt",
+    "slug": "grimm-fairy-tales-184-the-hut-in-the-forest-variant",
     "language": "pt",
     "title": "The Hut in the Forest variant",
     "genre": "Fairy Tales",
@@ -23737,7 +23737,7 @@
   },
   {
     "id": "grimm-fairy-tales-185-the-old-man-and-grandson-variant",
-    "slug": "grimm-fairy-tales-185-the-old-man-and-grandson-variant-pt",
+    "slug": "grimm-fairy-tales-185-the-old-man-and-grandson-variant",
     "language": "pt",
     "title": "The Old Man and Grandson variant",
     "genre": "Fairy Tales",
@@ -23866,7 +23866,7 @@
   },
   {
     "id": "grimm-fairy-tales-186-the-water-nixie-variant",
-    "slug": "grimm-fairy-tales-186-the-water-nixie-variant-pt",
+    "slug": "grimm-fairy-tales-186-the-water-nixie-variant",
     "language": "pt",
     "title": "The Water Nixie variant",
     "genre": "Fairy Tales",
@@ -23995,7 +23995,7 @@
   },
   {
     "id": "grimm-fairy-tales-187-the-death-of-hen-variant",
-    "slug": "grimm-fairy-tales-187-the-death-of-hen-variant-pt",
+    "slug": "grimm-fairy-tales-187-the-death-of-hen-variant",
     "language": "pt",
     "title": "The Death of Hen variant",
     "genre": "Fairy Tales",
@@ -24124,7 +24124,7 @@
   },
   {
     "id": "grimm-fairy-tales-188-brother-lustig-variant",
-    "slug": "grimm-fairy-tales-188-brother-lustig-variant-pt",
+    "slug": "grimm-fairy-tales-188-brother-lustig-variant",
     "language": "pt",
     "title": "Brother Lustig variant",
     "genre": "Fairy Tales",
@@ -24253,7 +24253,7 @@
   },
   {
     "id": "grimm-fairy-tales-189-gambling-hansel-variant",
-    "slug": "grimm-fairy-tales-189-gambling-hansel-variant-pt",
+    "slug": "grimm-fairy-tales-189-gambling-hansel-variant",
     "language": "pt",
     "title": "Gambling Hansel variant",
     "genre": "Fairy Tales",
@@ -24382,7 +24382,7 @@
   },
   {
     "id": "grimm-fairy-tales-190-hans-dumb-variant",
-    "slug": "grimm-fairy-tales-190-hans-dumb-variant-pt",
+    "slug": "grimm-fairy-tales-190-hans-dumb-variant",
     "language": "pt",
     "title": "Hans Dumb variant",
     "genre": "Fairy Tales",
@@ -24511,7 +24511,7 @@
   },
   {
     "id": "grimm-fairy-tales-191-the-three-brothers-variant",
-    "slug": "grimm-fairy-tales-191-the-three-brothers-variant-pt",
+    "slug": "grimm-fairy-tales-191-the-three-brothers-variant",
     "language": "pt",
     "title": "The Three Brothers variant",
     "genre": "Fairy Tales",
@@ -24640,7 +24640,7 @@
   },
   {
     "id": "grimm-fairy-tales-192-the-devil-and-grandmother-variant",
-    "slug": "grimm-fairy-tales-192-the-devil-and-grandmother-variant-pt",
+    "slug": "grimm-fairy-tales-192-the-devil-and-grandmother-variant",
     "language": "pt",
     "title": "The Devil and Grandmother variant",
     "genre": "Fairy Tales",
@@ -24769,7 +24769,7 @@
   },
   {
     "id": "grimm-fairy-tales-193-ferdinand-variant",
-    "slug": "grimm-fairy-tales-193-ferdinand-variant-pt",
+    "slug": "grimm-fairy-tales-193-ferdinand-variant",
     "language": "pt",
     "title": "Ferdinand variant",
     "genre": "Fairy Tales",
@@ -24898,7 +24898,7 @@
   },
   {
     "id": "grimm-fairy-tales-194-the-iron-stove-variant",
-    "slug": "grimm-fairy-tales-194-the-iron-stove-variant-pt",
+    "slug": "grimm-fairy-tales-194-the-iron-stove-variant",
     "language": "pt",
     "title": "The Iron Stove variant",
     "genre": "Fairy Tales",
@@ -25027,7 +25027,7 @@
   },
   {
     "id": "grimm-fairy-tales-195-the-lazy-spinner-final",
-    "slug": "grimm-fairy-tales-195-the-lazy-spinner-final-pt",
+    "slug": "grimm-fairy-tales-195-the-lazy-spinner-final",
     "language": "pt",
     "title": "The Lazy Spinner final",
     "genre": "Fairy Tales",
@@ -25156,7 +25156,7 @@
   },
   {
     "id": "grimm-fairy-tales-196-one-eye-two-eyes-three-eyes-final",
-    "slug": "grimm-fairy-tales-196-one-eye-two-eyes-three-eyes-final-pt",
+    "slug": "grimm-fairy-tales-196-one-eye-two-eyes-three-eyes-final",
     "language": "pt",
     "title": "One-Eye Two-Eyes Three-Eyes final",
     "genre": "Fairy Tales",
@@ -25285,7 +25285,7 @@
   },
   {
     "id": "grimm-fairy-tales-197-the-star-money-die-sterntaler",
-    "slug": "grimm-fairy-tales-197-the-star-money-die-sterntaler-pt",
+    "slug": "grimm-fairy-tales-197-the-star-money-die-sterntaler",
     "language": "pt",
     "title": "The Star Money (Die Sterntaler)",
     "genre": "Fairy Tales",
@@ -25414,7 +25414,7 @@
   },
   {
     "id": "grimm-fairy-tales-198-the-stolen-farthings",
-    "slug": "grimm-fairy-tales-198-the-stolen-farthings-pt",
+    "slug": "grimm-fairy-tales-198-the-stolen-farthings",
     "language": "pt",
     "title": "The Stolen Farthings",
     "genre": "Fairy Tales",
@@ -25543,7 +25543,7 @@
   },
   {
     "id": "grimm-fairy-tales-199-looking-for-a-bride",
-    "slug": "grimm-fairy-tales-199-looking-for-a-bride-pt",
+    "slug": "grimm-fairy-tales-199-looking-for-a-bride",
     "language": "pt",
     "title": "Looking for a Bride",
     "genre": "Fairy Tales",
@@ -25672,7 +25672,7 @@
   },
   {
     "id": "grimm-fairy-tales-200-the-hurds",
-    "slug": "grimm-fairy-tales-200-the-hurds-pt",
+    "slug": "grimm-fairy-tales-200-the-hurds",
     "language": "pt",
     "title": "The Hurds",
     "genre": "Fairy Tales",
@@ -25801,7 +25801,7 @@
   },
   {
     "id": "grimm-fairy-tales-201-the-sparrow-and-his-four-children",
-    "slug": "grimm-fairy-tales-201-the-sparrow-and-his-four-children-pt",
+    "slug": "grimm-fairy-tales-201-the-sparrow-and-his-four-children",
     "language": "pt",
     "title": "The Sparrow and His Four Children",
     "genre": "Fairy Tales",
@@ -25930,7 +25930,7 @@
   },
   {
     "id": "grimm-fairy-tales-202-the-tale-of-schlauraffen-land",
-    "slug": "grimm-fairy-tales-202-the-tale-of-schlauraffen-land-pt",
+    "slug": "grimm-fairy-tales-202-the-tale-of-schlauraffen-land",
     "language": "pt",
     "title": "The Tale of Schlauraffen Land",
     "genre": "Fairy Tales",
@@ -26059,7 +26059,7 @@
   },
   {
     "id": "grimm-fairy-tales-203-the-ditmars-tale-of-lies",
-    "slug": "grimm-fairy-tales-203-the-ditmars-tale-of-lies-pt",
+    "slug": "grimm-fairy-tales-203-the-ditmars-tale-of-lies",
     "language": "pt",
     "title": "The Ditmars Tale of Lies",
     "genre": "Fairy Tales",
@@ -26188,7 +26188,7 @@
   },
   {
     "id": "grimm-fairy-tales-204-the-riddle-tale",
-    "slug": "grimm-fairy-tales-204-the-riddle-tale-pt",
+    "slug": "grimm-fairy-tales-204-the-riddle-tale",
     "language": "pt",
     "title": "The Riddle Tale",
     "genre": "Fairy Tales",
@@ -26317,7 +26317,7 @@
   },
   {
     "id": "grimm-fairy-tales-205-snow-white-and-rose-red",
-    "slug": "grimm-fairy-tales-205-snow-white-and-rose-red-pt",
+    "slug": "grimm-fairy-tales-205-snow-white-and-rose-red",
     "language": "pt",
     "title": "Snow-White and Rose-Red",
     "genre": "Fairy Tales",
@@ -26446,7 +26446,7 @@
   },
   {
     "id": "grimm-fairy-tales-206-the-wise-servant",
-    "slug": "grimm-fairy-tales-206-the-wise-servant-pt",
+    "slug": "grimm-fairy-tales-206-the-wise-servant",
     "language": "pt",
     "title": "The Wise Servant",
     "genre": "Fairy Tales",
@@ -26575,7 +26575,7 @@
   },
   {
     "id": "grimm-fairy-tales-207-the-glass-coffin-final",
-    "slug": "grimm-fairy-tales-207-the-glass-coffin-final-pt",
+    "slug": "grimm-fairy-tales-207-the-glass-coffin-final",
     "language": "pt",
     "title": "The Glass Coffin final",
     "genre": "Fairy Tales",
@@ -26704,7 +26704,7 @@
   },
   {
     "id": "grimm-fairy-tales-208-lazy-harry-final",
-    "slug": "grimm-fairy-tales-208-lazy-harry-final-pt",
+    "slug": "grimm-fairy-tales-208-lazy-harry-final",
     "language": "pt",
     "title": "Lazy Harry final",
     "genre": "Fairy Tales",
@@ -26833,7 +26833,7 @@
   },
   {
     "id": "grimm-fairy-tales-209-the-griffin-final",
-    "slug": "grimm-fairy-tales-209-the-griffin-final-pt",
+    "slug": "grimm-fairy-tales-209-the-griffin-final",
     "language": "pt",
     "title": "The Griffin final",
     "genre": "Fairy Tales",
@@ -26962,7 +26962,7 @@
   },
   {
     "id": "grimm-fairy-tales-210-strong-hans-final",
-    "slug": "grimm-fairy-tales-210-strong-hans-final-pt",
+    "slug": "grimm-fairy-tales-210-strong-hans-final",
     "language": "pt",
     "title": "Strong Hans final",
     "genre": "Fairy Tales",
@@ -27091,7 +27091,7 @@
   },
   {
     "id": "grimm-fairy-tales-211-the-peasant-in-heaven-final",
-    "slug": "grimm-fairy-tales-211-the-peasant-in-heaven-final-pt",
+    "slug": "grimm-fairy-tales-211-the-peasant-in-heaven-final",
     "language": "pt",
     "title": "The Peasant in Heaven final",
     "genre": "Fairy Tales",

@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-183-the-three-wishes",
+  "slug": "arabian-nights-183-the-three-wishes",
+  "language": "ml",
+  "title": "The Three Wishes",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "An impoverished woodcutter named Abu Salih was chopping firewood in an ancient forest when he spared an old hollow oak tree that served a...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the three wishes",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "An impoverished woodcutter named Abu Salih was chopping firewood in an ancient forest when he spared an old hollow oak tree that served as the sanctuary for a benevolent woodland fairy. In gratitude, the fairy appeared before him in a shower of golden sparks and said: 'In return for your kindness, three wishes shall be granted unto you; whatever you ask shall instantly become reality.'\n\nAbu Salih ran home with breathless excitement, shouting to his wife: 'Rejoice, wife! We have three wishes from the fairy! We shall be richer than the Sultan!'\n\nThey sat by their hearth, debating what to ask. The wife said: 'Let us wish for mountains of gold, a palace of marble, and fifty servants!'\n\nAbu Salih, whose stomach was rumbling with hunger after his long day in the forest, looked at their empty clay soup-pot and sighed thoughtlessly: 'I am starving! I wish we had a yard of delicious, sizzling spiced sausage on our hearth!'\n\nInstantly, with a puff of smoke, a splendid coil of savory spiced sausage materialized upon the coals, sizzling and fragrant!\n\nHis wife flew into a furious temper: 'You foolish, brainless idiot! You wasted a wish from heaven on a sausage! I wish that sausage were stuck fast to the tip of your clumsy nose!'\n\nBefore Abu Salih could speak, the sausage leaped from the hearth and attached itself firmly to his nose, dangling down to his chin like a red trunk!\n\nAbu Salih pulled with both hands, but it was grafted to his flesh. His wife wept, terrified that her husband would spend his life with a sausage on his face.\n\nLooking at his weeping wife and feeling the sausage upon his nose, Abu Salih sighed with profound common sense: 'I wish that sausage were safely off my nose and resting upon the wooden platter!'\n\nThe sausage dropped cleanly onto the plate.\n\nAbu Salih and his wife sat down, divided the sausage, and ate their supper with hearty laughter, having learned that contentment with our daily bread is worth more than three foolish wishes.",
+  "moral": "Greedy impulsiveness squanders the greatest opportunities; contentment and common sense are the truest wishes.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Three Wishes illustration from the 1001 Arabian Nights collection.",
+  "word_count": 343,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Three Wishes\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Patience, clear thinking, and humble courage overcome the greatest enchantments.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Three Wishes\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 183,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

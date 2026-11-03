@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-37-tale-of-the-first-eunuch-bukhayt",
+  "slug": "arabian-nights-37-tale-of-the-first-eunuch-bukhayt",
+  "language": "ta",
+  "title": "Tale of the First Eunuch Bukhayt",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "While the three slaves were carrying the chest containing Kutan-al-Qulub to the cemetery, they sat upon a tombstone to rest, and the firs...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of the first eunuch bukhayt",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "While the three slaves were carrying the chest containing Kutan-al-Qulub to the cemetery, they sat upon a tombstone to rest, and the first attendant, Bukhayt, explained how he had entered royal service:\n\n\"In my youth, I was a farm hand in Upper Egypt, but I possessed a mischievous disposition that took delight in sowing mischief between peaceful neighbors. If I saw two farmers working harmoniously, I would whisper to the first that his companion was stealing his irrigation water, and whisper to the second that his neighbor had cursed his oxen.\n\nOne day, my master, an honest cattle breeder, purchased a spirited bull. Desiring to test my cunning, I whispered to the master’s wife that her husband intended to sell her bridal jewelry, and told the master that his wife had consulted an astrologer to leave him. Both flew into a furious temper, shouting accusations across the courtyard.\n\nIn the confusion of their quarrel, the farm gate was left unlatched. The spirited bull charged out into the vegetable gardens, knocked over the beehives, and trampled the master’s prize melons. The furious bees swarmed upon the household, stinging the master, his wife, and myself until we looked like spotted leopards!\n\nWhen the uproar subsided and the master discovered that my deceitful whispers had orchestrated the entire catastrophe, he seized an ox-whip and gave me a hundred lashes. He shaved my head, branded my forehead with the mark of a slanderer, and sold me to a foreign caravan driver for three silver coins. That painful day taught me that he who lights the fire of malice in another’s home will find his own beard singed by the flames.\"",
+  "moral": "Sowing discord between others creates a fire that eventually consumes the troublemaker himself.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the First Eunuch Bukhayt illustration from the 1001 Arabian Nights collection.",
+  "word_count": 276,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of the First Eunuch Bukhayt\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of the First Eunuch Bukhayt\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 37,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

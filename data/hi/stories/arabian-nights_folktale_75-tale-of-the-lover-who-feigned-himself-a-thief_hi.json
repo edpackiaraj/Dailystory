@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-75-tale-of-the-lover-who-feigned-himself-a-thief",
+  "slug": "arabian-nights-75-tale-of-the-lover-who-feigned-himself-a-thief",
+  "language": "hi",
+  "title": "Tale of the Lover Who Feigned Himself a Thief",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the city of Basra lived a noble young man named Wafiq who was deeply in love with the daughter of an affluent neighbor. Their affectio...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of the lover who feigned himself a thief",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the city of Basra lived a noble young man named Wafiq who was deeply in love with the daughter of an affluent neighbor. Their affection was pure and mutually shared, but her strict father had forbidden any communication between them.\n\nOne starlit evening, driven by longing, Wafiq climbed the outer garden wall merely to catch a glimpse of her walking among the rosebushes. As he peered down from the parapet, the watchmen of the city happened to patrol the alley. Seeing a young man climbing the wall of a wealthy merchant's home, the guards shouted: 'A thief! Catch the burglar!' and seized him.\n\nWafiq realized his dilemma: if he spoke the truth and explained his presence, he would save himself from punishment, but the innocent maiden's reputation would be tarnished forever across the gossip of the bazaars. If he remained silent or claimed to be a thief, he faced the executioner's scimitar.\n\nChoosing chivalric honor over self-preservation, Wafiq held his tongue and confessed before the magistrate: 'I climbed the wall to steal the merchant’s gold. Punish me as the law decrees.'\n\nThe magistrate sentenced him to have his right hand severed in the public square. On the appointed morning, as the executioner raised the blade, a veiled lady rushed through the crowd, crying: 'Hold your hand, O judge! This man is no thief!'\n\nThe maiden threw herself before the magistrate and revealed the noble truth: 'He climbed the wall out of pure love for me, and confessed to a crime he never committed to shield my name from scandal! If anyone must be punished, punish me, but do not harm the noblest soul in Basra!'\n\nThe magistrate, the merchant, and all the citizens were moved to tears by such heroic chivalry and mutual fidelity. The merchant embraced the young man, granted him his daughter’s hand in marriage with a handsome dowry, and praised the courage that had chosen honor over life itself.",
+  "moral": "Selfless chivalry that risks one's own life to protect another's honor is ultimately vindicated by truth.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the Lover Who Feigned Himself a Thief illustration from the 1001 Arabian Nights collection.",
+  "word_count": 323,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of the Lover Who Feigned Himself a Thief\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of the Lover Who Feigned Himself a Thief\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 75,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

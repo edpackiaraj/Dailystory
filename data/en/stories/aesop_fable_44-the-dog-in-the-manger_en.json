@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A grumpy, ill-tempered farm dog, seeking a comfortable place to sleep during the heat of the afternoon, climbed into the manger of the barn. He curled himself up upon a soft, fragr...",
+  "summary": "A grumpy, ill-tempered farm dog, seeking a comfortable place to sleep during the heat of the afternoon, climbed into the manger of the barn. Through unexpected trial and turning point, each character learns that do not begrudge to others what you cannot enjoy yourself.",
   "keywords": [
     "aesop's fables",
     "the dog in the manger",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A grumpy, ill-tempered farm dog, seeking a comfortable place to sleep during the heat of the afternoon, climbed into the manger of the barn. He curled himself up upon a soft, fragrant bed of sweet clover and golden oat hay, falling into a comfortable doze.\n\nPresently, the tired oxen returned from the fields, weary and hungry after a long day of plowing the heavy furrow. They stepped into the stall and reached their broad muzzles toward the manger to eat the fresh hay that their master had provided.\n\nInstantly, the dog woke up in a savage fury. He sprang to his feet, bared his teeth, and barked viciously at the oxen, snapping at their noses whenever they tried to take a mouthful of the hay!\n\n\"Stand back, you clumsy brutes!\" snarled the dog, bristling with spite.\n\nOne patient ox looked down at the snarling hound and sighed with sorrowful indignation:\n\n\"What a miserable, selfish creature you are! You cannot eat the hay yourself, for grass is no food for a dog; yet you refuse to let those who can eat it satisfy their honest hunger. You enjoy nothing, except preventing others from enjoying what is theirs!\"",
+  "full_text": "A grumpy, ill-tempered farm dog, seeking a comfortable place to sleep during the heat of the afternoon, climbed into the manger of the barn. He curled himself up upon a soft, fragrant bed of sweet clover and golden oat hay, falling into a comfortable doze. Presently, the tired oxen returned from the fields, weary and hungry after a long day of plowing the heavy furrow. They stepped into the stall and reached their broad muzzles toward the manger to eat the fresh hay that their master had provided. Instantly, the dog woke up in a savage fury. He sprang to his feet, bared his teeth, and barked viciously at the oxen, snapping at their noses whenever they tried to take a mouthful of the hay! \"Stand back, you clumsy brutes!\" snarled the dog, bristling with spite. One patient ox looked down at the snarling hound and sighed with sorrowful indignation: \"What a miserable, selfish creature you are! You cannot eat the hay yourself, for grass is no food for a dog; yet you refuse to let those who can eat it satisfy their honest hunger. You enjoy nothing, except preventing others from enjoying what is theirs!\"",
   "moral": "Do not begrudge to others what you cannot enjoy yourself.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Dog in the Manger illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Dog in the Manger\"?",
+      "question": "In the fable \"The Dog in the Manger\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Dog in the Manger\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "Do not begrudge to others what you cannot enjoy yourself.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "fragrant",
+      "meaning": "having a pleasant, sweet, or agreeable smell"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "grumpy",
+      "meaning": "an essential word used in the narrative of this fable"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "tempered",
+      "meaning": "an essential word used in the narrative of this fable"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Dog in the Manger\"?"
+      "prompt": "Who are the central characters in \"The Dog in the Manger\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"Do not begrudge to others what you cannot enjoy yourself\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

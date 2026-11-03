@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-153-the-queen-of-serpents",
+  "slug": "arabian-nights-153-the-queen-of-serpents",
+  "language": "es",
+  "title": "The Queen of Serpents",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In ancient Cairo lived a gentle young woodcutter named Hasib Karim al-Din, who was abandoned by deceitful companions at the bottom of a d...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the queen of serpents",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In ancient Cairo lived a gentle young woodcutter named Hasib Karim al-Din, who was abandoned by deceitful companions at the bottom of a deep subterranean cistern. Exploring the dark caverns in search of an exit, Hasib opened a crevice in the rock wall and emerged into an underground paradise of breathtaking wonder.\n\nBefore him lay emerald meadows illuminated by glowing crystals, with rivers of clear water and trees bearing fruits of jade and amber. In the center, upon a throne of solid gold, rested Yamlika, the wise Queen of the Serpents, a creature of supernatural grace and ancient learning whose voice was melodious as running water.\n\nThousands of serpents of every color bowed before her in peaceful order. Queen Yamlika welcomed Hasib with gentle courtesy, fed him delicious sweetmeats, and sheltered him in her subterranean realm for two years, instructing him in the medicinal properties of every plant and the secrets of the ancient kings.\n\nWhen Hasib longed to return to his aged mother in Cairo, Queen Yamlika granted him leave, but exacted one sacred promise: 'Go in peace, Hasib; but swear an oath that you will never enter a public bathhouse, for if water touches your skin in public, the royal doctors of the Sultan will recognize the serpentine luminescence upon your flesh, and will force you to reveal the entrance to my sanctuary!'\n\nHasib swore the sacred covenant and returned to his mother, living in modest comfort.\n\nYears later, when the King of Persia fell afflicted with an incurable malady, the court astrologers declared that his only cure was a potion prepared from the Queen of Serpents. The vizier arrested all citizens whose skin shone with subterranean light.\n\nThough captured and threatened with death, Hasib remembered Yamlika's wisdom, using her teachings to cure the king without harming the gentle Queen of Serpents, preserving his honor and becoming the Chief Physician of the empire.",
+  "moral": "Honoring solemn oaths, respecting nature, and preserving ancient secrets bring protection and wisdom.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Queen of Serpents illustration from the 1001 Arabian Nights collection.",
+  "word_count": 315,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Queen of Serpents\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Spanish readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Queen of Serpents\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 153,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

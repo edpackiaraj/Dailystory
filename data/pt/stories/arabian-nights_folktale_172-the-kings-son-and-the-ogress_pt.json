@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-172-the-kings-son-and-the-ogress",
+  "slug": "arabian-nights-172-the-kings-son-and-the-ogress",
+  "language": "pt",
+  "title": "The King's Son and the Ogress",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The Seventh Vizier concluded the defense of the prince with a tale of vigilance:",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the king's son and the ogress",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "The Seventh Vizier concluded the defense of the prince with a tale of vigilance:\n\n'A young prince, lost in the trackless sands of the desert, came upon an enchanting oasis with crystal fountains, date palms heavy with fruit, and a golden pavilion where a veiled lady invited him to rest.\n\nExhausted by the desert heat, the prince was about to enter the pavilion when he noticed that neither the palm trees nor the lady cast a shadow upon the burning sand!\n\nRemembering his father’s teachings that evil spirits cannot produce a natural shadow in the sunlight, the prince halted upon the threshold. He drew his hunting dagger, inscribed words of divine protection in the sand, and refused to enter.\n\nThe moment the sacred words were spoken, the golden pavilion, the crystal fountains, and the lovely lady vanished like mist, leaving only a barren salt flat and a venomous desert viper slithering into the rocks!\n\nThe prince bowed his head in humble thanksgiving, learning that a watchful mind and adherence to ancestral wisdom pierce the most glittering mirages of the world.'\n\nHearing these seven days of wisdom, the King embraced his innocent son, dismissed the false accusers, and ruled his realm in equity, proving that patience and wise counsel are the true pillars of justice.",
+  "moral": "Patience and steadfast adherence to moral duty dispel the most seductive illusions of danger.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The King's Son and the Ogress illustration from the 1001 Arabian Nights collection.",
+  "word_count": 214,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The King's Son and the Ogress\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The King's Son and the Ogress\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 172,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

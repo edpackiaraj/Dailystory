@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-18-the-third-kalandars-tale",
+  "slug": "arabian-nights-18-the-third-kalandars-tale",
+  "language": "hi",
+  "title": "The Third Kalandar's Tale",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The third one-eyed Kalandar stepped forward and said: \"My name is Ajib, son of King Hammad. My downfall began when my ship was driven by ...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the third kalandar's tale",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "The third one-eyed Kalandar stepped forward and said: \"My name is Ajib, son of King Hammad. My downfall began when my ship was driven by a violent storm toward the dreaded Loadstone Mountain. The mountain’s magnetic power was so immense that it drew all the iron nails from our vessel, causing the ship to fall to pieces in the roaring waves.\n\nI alone reached the rocky shore. Guided by a dream, I climbed to the summit of the mountain, where stood a bronze dome surmounted by a horseman of brass. Using a magical bow, I shot the talismanic horseman, who fell into the sea, breaking the mountain's enchantment. Immediately, a boat steered by an angel of brass appeared and carried me safely to a paradisiacal island.\n\nThere I discovered a subterranean palace where a gentle youth had been hidden by his father to escape an astrological prophecy predicting he would be slain by King Ajib. I befriended the boy, swearing to protect him with my life. But alas! On the very day the prophecy was to expire, as I climbed onto a table to slice a melon for him, my foot slipped, the knife flew from my hand, and it pierced the youth’s breast. Stricken with horror at fulfilling the prophecy by accident, I fled into the forest.\n\nEventually, I reached a magnificent palace inhabited by forty peerless maidens. They welcomed me as their sovereign, showering me with delights. When they had to depart for forty days on an annual journey, they handed me the keys to a hundred golden doors, saying: 'Enter where you will and feast your eyes on every wonder, but on your life, do not open the golden door of ebony.'\n\nFor thirty-nine days I explored thirty-nine rooms filled with gardens, fountains, and jewels. But on the fortieth day, consumed by reckless curiosity, I unlocked the forbidden ebony door. Inside stood a black winged stallion. When I mounted him, the steed leaped into the clouds, flew across continents, and threw me onto a rocky terrace in Baghdad, blinding my left eye with a lash of its tail before vanishing forever. Thus did my unbridled curiosity leave me a blind wanderer in mourning.\"",
+  "moral": "Forbidden curiosity and breaking solemn trusts lead to irrevocable loss and long regret.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Third Kalandar's Tale illustration from the 1001 Arabian Nights collection.",
+  "word_count": 366,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Third Kalandar's Tale\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Third Kalandar's Tale\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 18,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

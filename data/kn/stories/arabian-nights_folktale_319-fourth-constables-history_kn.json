@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-319-fourth-constables-history",
+  "slug": "arabian-nights-319-fourth-constables-history",
+  "language": "kn",
+  "title": "Fourth Constable's History",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The Fourth Constable related:",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "fourth constable's history",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "The Fourth Constable bowed low and began: \"Sire, an orphan youth of noble lineage came to me weeping, stripped of his clothes and begging for crusts of bread. His wealthy uncle and legal guardian claimed that the youth’s entire patrimony—thirty thousand gold dinars—had been lost when a merchant vessel named the Crescent of Alexandria foundered in a storm off the Libyan coast.\"\n\n\"The uncle produced a sworn letter from a coastal notary confirming the shipwreck, and the judges were about to dismiss the orphan's claim as an unfortunate misfortune of the sea. But looking into the uncle’s shifting eyes, I felt the chill of deceit. I mounted a fast dromedary and rode directly to the imperial custom-house archives in Alexandria.\"\n\n\"For three days and nights, I examined the harbor ledgers and bills of lading for that entire year. There, inscribed in black ink, was the truth: the Crescent of Alexandria had never sunk at all! It had arrived safely in port, and the uncle had secretly sold its entire cargo of silks and spices under a false Frankish name, pocketing twenty thousand dinars in addition to the boy's inheritance! I seized the uncle’s palaces, restored thirty thousand gold dinars with accrued profits to the orphan, and sentenced the treacherous guardian to the stocks, proving that verified records protect the innocent against the most elaborate lies.\"",
+  "moral": "Documented truth and scrupulous records dismantle the most arrogant lies.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Fourth Constable's History illustration from the 1001 Arabian Nights collection.",
+  "word_count": 225,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Fourth Constable's History\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Kannada readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Fourth Constable's History\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 319,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

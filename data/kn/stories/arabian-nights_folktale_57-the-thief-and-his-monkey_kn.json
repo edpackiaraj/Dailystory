@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-57-the-thief-and-his-monkey",
+  "slug": "arabian-nights-57-the-thief-and-his-monkey",
+  "language": "kn",
+  "title": "The Thief and His Monkey",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the bustling port of Alexandria lived a cunning pickpocket who owned a trained monkey of remarkable agility. The monkey had been taugh...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the thief and his monkey",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the bustling port of Alexandria lived a cunning pickpocket who owned a trained monkey of remarkable agility. The monkey had been taught to slip through open high windows, climb up silk curtains, and snatch gold coins, rings, and brooches from dressing tables while the owners were downstairs at dinner. Through this deceitful practice, the thief amassed a fortune in gold without performing a single day of honest labor.\n\nDesiring to enjoy his wealth in safety, the thief boarded a merchant vessel sailing for Constantinople. In his heavy leather belt were sewn a thousand stolen gold dinars, and the monkey sat beside him upon the deck.\n\nAs the ship sailed across the sunny waters of the Mediterranean, the thief took out his gold coins to count his treasure, gloating over his cleverness. The monkey, watching his master closely, remembered how he had been trained to snatch glittering objects.\n\nWhen the thief fell asleep beneath the awning, the monkey seized the heavy purse of a thousand dinars, leaped up the ropes of the mainmast, and perched upon the highest yardarm!\n\nThe thief awakened, saw his monkey with the treasure, and turned pale with terror. He whistled, waved nuts and sweetmeats, and pleaded: 'Come down, dear friend! That is our livelihood!'\n\nThe monkey chattered merrily, opened the purse, and took out two gold coins. He threw one coin down onto the wooden deck into his master’s lap, and hurled the second coin far out into the azure sea! Again he reached into the purse: one coin dropped to the ship, and the next splashed into the waves.\n\nThe passengers and sailors gathered on deck, laughing and cheering as the monkey systematically divided the fortune: one coin for the thief on earth, and one coin returned to the deep waters of the ocean!\n\nWhen the last coin was thrown, the monkey tossed the empty leather purse into the sea and climbed down to his master. The thief sat among five hundred coins, weeping over his lost half. An aged captain placed a hand upon his shoulder and said: 'Do not weep, brother. The monkey was a wiser judge than the magistrate: five hundred coins were earned by your labor in feeding him, and five hundred were stolen from the innocent. The sea has reclaimed what belonged to greed.'",
+  "moral": "Ill-gotten gains cannot be concealed forever; justice finds its way through the most unexpected instruments.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Thief and His Monkey illustration from the 1001 Arabian Nights collection.",
+  "word_count": 385,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Thief and His Monkey\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Kannada readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Thief and His Monkey\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 57,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A terrible drought had settled over the countryside. The streams had dried into cracked riverbeds of baked mud, the ponds had vanished, and the leaves of the olive trees drooped be...",
+  "summary": "A terrible drought had settled over the countryside. Through unexpected trial and turning point, each character learns that little by little does the trick; intelligence and patience solve problems that force cannot.",
   "keywords": [
     "aesop's fables",
     "the crow and the pitcher",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A terrible drought had settled over the countryside. The streams had dried into cracked riverbeds of baked mud, the ponds had vanished, and the leaves of the olive trees drooped beneath the relentless blaze of the sun. A thirsty crow, flying for leagues in search of water, felt her throat parched like hot sand and her wings growing too heavy to beat the dry air.\n\nAs she drifted down into an abandoned courtyard, she spotted an earthenware pitcher standing upon a stone bench. With a joyous caw, the crow fluttered to the rim and peered inside. To her delight, there was clear, sparkling water at the bottom!\n\nEagerly, she thrust her beak into the narrow neck of the pitcher, but her bill could not reach the water. She tried to insert her head, but the vessel's neck was too tight. In desperation, she attempted to push the pitcher over with her breast, hoping to spill the water onto the stone slab and drink from the puddle, but the heavy clay container was far too sturdy for her slender strength.\n\nWeeping with frustration, the crow rested upon the bench, refusing to give up. Her keen black eyes noticed a pile of smooth river pebbles scattered near the courtyard fountain. A brilliant spark of ingenuity flashed in her mind.\n\nTaking a smooth pebble in her beak, she flew up and dropped it into the pitcher: plunk! The water level rose an imperceptible fraction. She flew down, took a second pebble, and dropped it in: plunk! Then a third, a fourth, a fifth, and a sixth.\n\nDozens of times the patient bird flew back and forth in the blazing heat, never flagging in her resolve. With every stone dropped into the dark vessel, the cool water steadily mounted toward the rim. At last, the liquid reached the very top of the neck. The triumphant crow dipped her bill and drank long, refreshing draughts of cool water, saving her life through patient intellect and steady perseverance.",
+  "full_text": "A terrible drought had settled over the countryside. The streams had dried into cracked riverbeds of baked mud, the ponds had vanished, and the leaves of the olive trees drooped beneath the relentless blaze of the sun. A thirsty crow, flying for leagues in search of water, felt her throat parched like hot sand and her wings growing too heavy to beat the dry air. As she drifted down into an abandoned courtyard, she spotted an earthenware pitcher standing upon a stone bench. With a joyous caw, the crow fluttered to the rim and peered inside. To her delight, there was clear, sparkling water at the bottom! Eagerly, she thrust her beak into the narrow neck of the pitcher, but her bill could not reach the water. She tried to insert her head, but the vessel's neck was too tight. In desperation, she attempted to push the pitcher over with her breast, hoping to spill the water onto the stone slab and drink from the puddle, but the heavy clay container was far too sturdy for her slender strength. Weeping with frustration, the crow rested upon the bench, refusing to give up. Her keen black eyes noticed a pile of smooth river pebbles scattered near the courtyard fountain. A brilliant spark of ingenuity flashed in her mind. Taking a smooth pebble in her beak, she flew up and dropped it into the pitcher: plunk! The water level rose an imperceptible fraction. She flew down, took a second pebble, and dropped it in: plunk! Then a third, a fourth, a fifth, and a sixth. Dozens of times the patient bird flew back and forth in the blazing heat, never flagging in her resolve. With every stone dropped into the dark vessel, the cool water steadily mounted toward the rim. At last, the liquid reached the very top of the neck. The triumphant crow dipped her bill and drank long, refreshing draughts of cool water, saving her life through patient intellect and steady perseverance.",
   "moral": "Little by little does the trick; intelligence and patience solve problems that force cannot.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Crow and the Pitcher illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Crow and the Pitcher\"?",
+      "question": "In the fable \"The Crow and the Pitcher\", what situation triggers the main conflict?",
       "options": [
-        "Little by little does the trick.",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Crow and the Pitcher\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "Little by little does the trick; intelligence and patience solve problems that force cannot.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "parched",
+      "meaning": "extremely dry or thirsty from heat and sun"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "perseverance",
+      "meaning": "steady persistence in doing something despite difficulty or delay"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "vanished",
+      "meaning": "disappeared suddenly and completely from sight"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Crow and the Pitcher\"?"
+      "prompt": "Who are the central characters in \"The Crow and the Pitcher\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Little by little does the trick.\"?"
+      "prompt": "Why does this fable conclude with the moral that \"Little by little does the trick; intelligence and patience solve problems that force cannot\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

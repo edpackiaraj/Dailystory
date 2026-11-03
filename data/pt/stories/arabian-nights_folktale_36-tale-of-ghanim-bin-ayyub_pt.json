@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-36-tale-of-ghanim-bin-ayyub",
+  "slug": "arabian-nights-36-tale-of-ghanim-bin-ayyub",
+  "language": "pt",
+  "title": "Tale of Ghanim bin Ayyub",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Ghanim bin Ayyub was a handsome and virtuous young merchant of Damascus who traveled to Baghdad with a rich caravan of silk and spices. H...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of ghanim bin ayyub",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Ghanim bin Ayyub was a handsome and virtuous young merchant of Damascus who traveled to Baghdad with a rich caravan of silk and spices. Having sold his goods for a handsome sum, he spent his evenings walking peacefully along the outskirts of the city.\n\nOne night, finding himself outside the gates after curfew, he took shelter in an ancient tomb in the cemetery. Near midnight, three slaves entered bearing a heavy iron chest. They dug a deep trench, buried the chest, and departed. Suspecting foul play, Ghanim waited until they were gone, dug up the chest with his dagger, and pried open the lid.\n\nTo his astonishment, he found lying within an exquisite maiden who had been drugged with sleeping vapors. Ghanim lifted her out, warmed her with his cloak, and brought her secretly to his rented house. When she revived, she revealed that her name was Kutan-al-Qulub, the favorite court singer of Queen Zubaydah, and that jealous rivals in the harem had drugged and buried her alive out of malicious envy.\n\nFor months, the noble Ghanim gave her sanctuary in his house, treating her with the utmost reverence and modesty, never violating her trust or asking for any return save her safety. When the Caliph Harun al-Rashid discovered that his favorite singer was alive, slanderous tongues accused Ghanim of abducting her. The Caliph ordered Ghanim's house seized, his mother and sister arrested, and a price put upon his head.\n\nGhanim escaped in the disguise of a water-carrier, enduring months of hunger and disease. Meanwhile, Kutan-al-Qulub was brought before Harun al-Rashid. Weeping, she swore on the sacred books that Ghanim was the purest, most honorable of men, who had preserved her life and dignity with saintly virtue. The remorseful Caliph summoned Ghanim, embraced him as a brother, gave him Kutan-al-Qulub in marriage, and appointed him to the highest council of state.",
+  "moral": "Chaste honor, unshakeable integrity, and loyalty under trial are rewarded with the highest honors.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of Ghanim bin Ayyub illustration from the 1001 Arabian Nights collection.",
+  "word_count": 311,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of Ghanim bin Ayyub\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of Ghanim bin Ayyub\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 36,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

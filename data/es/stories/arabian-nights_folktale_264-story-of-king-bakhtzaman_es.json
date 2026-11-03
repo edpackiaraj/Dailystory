@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-264-story-of-king-bakhtzaman",
+  "slug": "arabian-nights-264-story-of-king-bakhtzaman",
+  "language": "es",
+  "title": "Story of King Bakhtzaman",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Bakhtiyar recounted the history of King Bakhtzaman of Yemen:",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "story of king bakhtzaman",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Bakhtiyar recounted the history of King Bakhtzaman of Yemen:\n\n'A military rebellion led by an ambitious general overthrew King Bakhtzaman, driving the righteous monarch into the desert with his queen and young infant. Wandering across trackless dunes, the king lost his camel, his water, and was captured by desert brigands who separated him from his family.\n\nIn his darkest hour, chained in a foreign port, Bakhtzaman did not curse heaven or surrender to despair. He said: \"The heavens that gave me a crown can take it away, and the providence that sustains the sparrow in the storm can restore the wanderer. I place my soul in the hands of the Merciful.\"\n\nHe worked as an honest porter in the docks for seven years, conducting himself with such integrity that the city merchants appointed him guardian of the harbor storehouses.\n\nWhen the tyrannical usurper in Yemen died, leaving the kingdom in civil strife, the people rose in revolt, demanding the return of their beloved King Bakhtzaman.\n\nEnvoys were dispatched to search the ports of the East. They discovered their former monarch working in the harbor, his hands calloused by labor and his spirit purified by faith!\n\nBakhtzaman was escorted back to Yemen, joyfully reunited with his queen and son who had been preserved in safety, and restored to his throne amidst national celebrations, proving that trust in providence outlasts the darkest exile.'",
+  "moral": "Unwavering faith and adherence to justice restore the rightful ruler to his throne.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Story of King Bakhtzaman illustration from the 1001 Arabian Nights collection.",
+  "word_count": 231,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Story of King Bakhtzaman\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Spanish readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Story of King Bakhtzaman\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 264,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

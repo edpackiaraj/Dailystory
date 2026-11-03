@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A dog crossing a brook with a juicy piece of meat in his mouth saw his reflection in the tranquil stream. Mistaking it for another dog carrying a larger prize, he snapped at the ph...",
+  "summary": "On a bright morning in an ancient village, a butcher tossed a succulent, juicy bone with a tender cut of meat to a stray dog that had been waiting patiently outside his shop. Through unexpected trial and turning point, each character learns that grasping at a shadowy illusion sacrifices the real blessing in hand.",
   "keywords": [
     "aesop's fables",
     "the dog and the shadow",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "On a bright morning in an ancient village, a butcher tossed a succulent, juicy bone with a tender cut of meat to a stray dog that had been waiting patiently outside his shop. Overjoyed with his good fortune, the dog clasped the prize tightly between his jaws. Rather than enjoying his meal in front of the barking neighborhood dogs who might demand a share, he decided to carry his treasure deep into the quiet woodland where he could feast in undisturbed peace.\n\nTrotting proudly across the green meadows, he soon arrived at a clear mountain brook spanned by a narrow wooden footbridge. As he stepped onto the planks, he glanced down into the crystalline water below. To his utter astonishment, staring back at him from the tranquil depths was another dog—carrying what appeared to be an even larger, juicier, and more magnificent cut of meat!\n\nBlinded by sudden envy and uncontrollable greed, the dog could not bear the thought of another creature having a finer feast than his own. Without pausing for a single moment of reflection, he snarled ferociously and snapped his jaws open to snatch the phantom prize from the water. In that very instant, his own meat slipped from his mouth, splashed into the rushing stream, and sank quickly to the gravelly bottom. As the rippling water dissolved the reflection, the foolish dog was left dripping wet, empty-mouthed, and thoroughly ashamed, realizing that in grasping at an illusion, he had surrendered his true feast.",
+  "full_text": "On a bright morning in an ancient village, a butcher tossed a succulent, juicy bone with a tender cut of meat to a stray dog that had been waiting patiently outside his shop. Overjoyed with his good fortune, the dog clasped the prize tightly between his jaws. Rather than enjoying his meal in front of the barking neighborhood dogs who might demand a share, he decided to carry his treasure deep into the quiet woodland where he could feast in undisturbed peace. Trotting proudly across the green meadows, he soon arrived at a clear mountain brook spanned by a narrow wooden footbridge. As he stepped onto the planks, he glanced down into the crystalline water below. To his utter astonishment, staring back at him from the tranquil depths was another dog—carrying what appeared to be an even larger, juicier, and more magnificent cut of meat! Blinded by sudden envy and uncontrollable greed, the dog could not bear the thought of another creature having a finer feast than his own. Without pausing for a single moment of reflection, he snarled ferociously and snapped his jaws open to snatch the phantom prize from the water. In that very instant, his own meat slipped from his mouth, splashed into the rushing stream, and sank quickly to the gravelly bottom. As the rippling water dissolved the reflection, the foolish dog was left dripping wet, empty-mouthed, and thoroughly ashamed, realizing that in grasping at an illusion, he had surrendered his true feast.",
   "moral": "Grasping at a shadowy illusion sacrifices the real blessing in hand.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Dog and the Shadow illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Dog and the Shadow\"?",
+      "question": "In the fable \"The Dog and the Shadow\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Dog and the Shadow\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "Grasping at a shadowy illusion sacrifices the real blessing in hand.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "brook",
+      "meaning": "a small, gentle natural stream of fresh water"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "butcher",
+      "meaning": "a person who prepares, cuts, and sells meat in a market"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "surrendered",
+      "meaning": "gave up possession or control of something to another"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Dog and the Shadow\"?"
+      "prompt": "Who are the central characters in \"The Dog and the Shadow\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"Grasping at a shadowy illusion sacrifices the real blessing in hand\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

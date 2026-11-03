@@ -1,0 +1,129 @@
+{
+  "id": "arabian-nights-30-the-barbers-tale-of-his-second-brother",
+  "slug": "arabian-nights-30-the-barbers-tale-of-his-second-brother",
+  "language": "pt",
+  "title": "The Barber's Tale of his Second Brother",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The barber continued his chronicle, recounting the misadventure of his second brother, Al-Haddar:",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the barber's tale of his second brother",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "The barber continued his chronicle, recounting the misadventure of his second brother, Al-Haddar:\n\n\"My brother Al-Haddar was a man endowed with great physical stature, but his mind was so clouded by vanity that he believed every maiden in Baghdad was secretly enamored of his beauty. One sunny morning, as he sat before his house perfuming his beard, an elderly woman stopped before him and sighed: 'Alas, what a peerless youth! A noble lady of royal blood has seen you from her balcony and is dying of love. If you possess the courage to visit her palace, untold riches and bliss await you.'\n\nAl-Haddar’s chest swelled with pride. He donned his finest embroidered vest and followed the old woman through winding alleys to a magnificent palace. Ushered into an inner salon filled with marble basins and silk cushions, he was greeted by four mischievous maidens who claimed to be the attendants of the princess.\n\n'Before you may sit upon the sofa of honor,' said the elder maid with suppressed laughter, 'it is the custom of our palace that every suitor must prove his playfulness. You must allow us to shave your eyebrows, dye your cheeks with yellow saffron, and dance with a tambourine!'\n\nBlind to the ridicule, Al-Haddar submitted meekly. The maidens shaved his thick eyebrows, painted his face like a carnival clown, placed a dunce's cap upon his crown, and made him dance in circles while they clapped their hands. Then, promising that the princess was waiting behind the garden gate, they pushed him through a curtained doorway.\n\nThe door snapped shut behind him, and Al-Haddar found himself tumbling through a dark laundry chute, landing directly in the middle of the crowded leather-tanners’ bazaar! When the tanners saw a monstrous figure with a yellow face, shaved brows, and a conical cap leaping out of the wall, they took him for an evil goblin and beat him with wet hides until he fled the quarter. Thus did my brother learn that vanity turns a man into a laughingstock for the amusement of others.\"",
+  "moral": "Vanity makes a fool blind to the most obvious traps laid by deceitful flatterers.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Barber's Tale of his Second Brother illustration from the 1001 Arabian Nights collection.",
+  "word_count": 342,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Barber's Tale of his Second Brother\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience",
+    "teamwork"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Barber's Tale of his Second Brother\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 30,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

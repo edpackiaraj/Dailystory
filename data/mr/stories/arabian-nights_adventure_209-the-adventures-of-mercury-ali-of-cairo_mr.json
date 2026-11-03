@@ -1,0 +1,129 @@
+{
+  "id": "arabian-nights-209-the-adventures-of-mercury-ali-of-cairo",
+  "slug": "arabian-nights-209-the-adventures-of-mercury-ali-of-cairo",
+  "language": "mr",
+  "title": "The Adventures of Mercury Ali of Cairo",
+  "genre": "Adventure Stories",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Ali Zaybaq—known across the East as 'Mercury Ali' because of his lightning agility and slippery cunning—was a noble-hearted rogue of Cair...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the adventures of mercury ali of cairo",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Ali Zaybaq—known across the East as 'Mercury Ali' because of his lightning agility and slippery cunning—was a noble-hearted rogue of Cairo who used his wits exclusively to protect poor artisans and defend the helpless against tyrannical officials.\n\nHearing of Dalilah’s fame in Baghdad, Ali traveled to the Abbasid capital to test his skills against the masters of Iraq.\n\nAli entered the fortified palace of the corrupt Chief of the Watch, who had extorted gold from the market weavers. Scaling the eighty-foot stone tower with silk ropes and suction cups, Ali entered the treasury, gathered the extorted gold, lowered it to the street, and distributed every single coin back to the poor weavers before dawn, leaving his silver signature mark—a running quail—carved upon the chief’s desk!\n\nThe Caliph Harun al-Rashid, amused and impressed by Ali’s daring chivalry, summoned him to court.\n\nThe Caliph challenged Ali to a contest of skill against Dalilah and her daughter: each was to perform a test of agility and intelligence to capture the Caliph’s golden signet ring.\n\nAli, using his astonishing acrobatic skill, disguised himself as a water-carrier, navigated the guarded palace labyrinth, and secured the ring before the eyes of forty imperial guards!\n\nHarun al-Rashid embraced Mercury Ali, appointed him Chief Captain of the Watch of Baghdad, and married him to Dalilah’s brilliant daughter Zaynab, uniting the two greatest wits of Cairo and Baghdad in service of civic justice and the defense of the poor.",
+  "moral": "Chivalric cunning used to defend the weak and uphold justice wins lasting renown and royal honor.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Adventures of Mercury Ali of Cairo illustration from the 1001 Arabian Nights collection.",
+  "word_count": 240,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Adventures of Mercury Ali of Cairo\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience",
+    "courage"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Adventures of Mercury Ali of Cairo\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 209,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

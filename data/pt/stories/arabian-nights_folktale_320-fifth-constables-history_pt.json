@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-320-fifth-constables-history",
+  "slug": "arabian-nights-320-fifth-constables-history",
+  "language": "pt",
+  "title": "Fifth Constable's History",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The Fifth Constable stepped forward:",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "fifth constable's history",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "The Fifth Constable approached the throne and related: \"Sire, a nimble burglar had repeatedly broken through the high, barred windows of the great silk warehouses in the heart of the city. The windows were situated forty feet above the street, accessible only by a slender lead drainpipe that seemed impossible for any human being to climb without falling.\"\n\n\"Rather than setting guards whose lanterns would warn the burglar, I procured a pot of boiled mountain honey mixed with sticky gum arabic from the spice bazaar. In the dark hours of dusk, my men climbed ladders and coated the upper lead pipes, stone sills, and window gratings with a thick, invisible layer of the sweet, adhesive substance.\"\n\n\"At midnight, the thief made his ascent. His hands and tunic were immediately coated in the sticky resin. As he slipped down the pipe to make his escape, a swarm of night hornets and biting gnats, attracted by the sweet honey, swarmed over his face and hands! Howling in agony and swatting wildly at the air with sticky fingers, the burglar ran straight down the alley into the arms of our waiting patrol! We secured him and recovered the stolen silks, demonstrating that a drop of honey can accomplish what a score of guards cannot achieve.\"",
+  "moral": "A simple psychological trap catches the nocturnal prowler with his own hands.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Fifth Constable's History illustration from the 1001 Arabian Nights collection.",
+  "word_count": 212,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Fifth Constable's History\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Portuguese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Fifth Constable's History\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 320,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

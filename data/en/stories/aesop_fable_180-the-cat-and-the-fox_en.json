@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A fox bragged of a hundred cunning escapes from hounds, while the cat confessed she had only one....",
+  "summary": "A fox bragged of a hundred cunning escapes from hounds, while the cat confessed she had only one...... Facing a decisive turning point, the characters discover that one safe plan that works is better than a hundred tricks that fail in danger.",
   "keywords": [
     "aesop's fables",
     "the cat and the fox",
@@ -22,11 +22,11 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "Along a dusty rural road that wound between stone walls and sun-drenched vineyards, A fox bragged of a hundred cunning escapes from hounds, while the cat confessed she had only one..... The creatures of the field went about their daily lives according to their nature, each seeking their own advantage while keeping a vigilant watch over friends and foes alike.\n\nAs the hours passed, an unexpected turning point arose that tested their wits and character. A tense confrontation soon arose as rival desires crossed paths under the midday sun. Words were exchanged with cautious cunning, glances were measured, and each party sought to disguise their true intentions behind a veil of outward innocence.\n\nYet the timeless laws of nature cannot be deceived by clever words or false appearances. Natural instincts and sharp wits collided, bringing the trial to an immediate, decisive climax.  The outcome was swift and irreversible, leaving behind a lasting lesson for all who witnessed the event, proving that one safe plan that works is better than a hundred tricks that fail in danger.",
+  "full_text": "Across the rocky pastures and olive orchards of ancient Greece, a memorable encounter unfolded. A fox bragged of a hundred cunning escapes from hounds, while the cat confessed she had only one..... The surrounding valley lay quiet in the midday heat, yet within the peaceful scene, natural instincts and rival interests were quietly at work.\n\nBefore long, the initial quiet gave way to a sharp challenge as unexpected circumstances forced both sides to act. Natural instincts and sharp wits collided, bringing the trial to an immediate, decisive climax. Words of sharp wit and warning were spoken before the final consequence struck. Each party sought to press their advantage, weighing spoken words against unspoken motives.\n\nWhen the decisive moment arrived, neither boastful pretense nor hasty excuses could alter the outcome. The outcome revealed the enduring truth of human character. The experience left behind a timeless truth for all who heard the tale, demonstrating that one safe plan that works is better than a hundred tricks that fail in danger.",
   "moral": "One safe plan that works is better than a hundred tricks that fail in danger.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Cat and the Fox illustration from the Aesop's Fables collection.",
-  "word_count": 176,
+  "word_count": 168,
   "reading_time": "1 min",
   "listen_time": "1 min",
   "audio_url": null,
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Cat and the Fox\"?",
+      "question": "In the fable \"The Cat and the Fox\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Cat and the Fox\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "One safe plan that works is better than a hundred tricks that fail in danger.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "boastful",
+      "meaning": "showing excessive pride and self-satisfaction in one’s achievements"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "cunning",
+      "meaning": "having or showing skill in achieving one’s ends by deceit or wit"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "across",
+      "meaning": "an essential word used in the narrative of this fable"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Cat and the Fox\"?"
+      "prompt": "Who are the central characters in \"The Cat and the Fox\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"One safe plan that works is better than a hundred tricks that fail in danger\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

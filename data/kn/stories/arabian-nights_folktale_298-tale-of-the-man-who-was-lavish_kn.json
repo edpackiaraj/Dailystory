@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-298-tale-of-the-man-who-was-lavish",
+  "slug": "arabian-nights-298-tale-of-the-man-who-was-lavish",
+  "language": "kn",
+  "title": "Tale of the Man Who Was Lavish",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the city of Basra lived an affluent merchant named Mansur who was celebrated for his open-handed hospitality. For thirty years, his do...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of the man who was lavish",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the city of Basra lived an affluent merchant named Mansur who was celebrated for his open-handed hospitality. For thirty years, his doors stood open to travelers, he paid the debts of bankrupt craftsmen, and provided dowries for the daughters of impoverished widows, never asking for repayment.\n\nA disastrous fire swept through the harbor, destroying Mansur’s warehouses, his ships, and his home, leaving the noble elder without a single silver dirham.\n\nMansur sat upon the steps of the Great Mosque, his head bowed, preparing to endure his poverty with silent dignity.\n\nWord of his misfortune spread through the bazaars of Basra.\n\nWithin three hours, an extraordinary sight was seen: hundreds of citizens—bakers, carpenters, weavers, fishermen, and wealthy merchants—gathered in the square!\n\nEach brought what he could: the wealthy merchants brought bags of gold; the weavers brought bolts of cloth; the carpenters brought timber and tools; and the poor laborers brought their copper coins, saying: 'When we were in despair, Mansur’s hand lifted us up; today, the city shall rebuild Mansur’s house!'\n\nBefore sunset, Mansur stood surrounded by thirty thousand dinars, his warehouses were rebuilt by volunteer labor, and his ships were restored by the shipbuilders guild!\n\nMansur wept with joyful gratitude, learning that the gold you hoard in iron vaults is lost in an hour, but the generosity you invest in the hearts of your community is an eternal fortress that no fire can ever destroy.",
+  "moral": "Bread cast upon the waters of hospitality returns as an unbreakable fortress of community support.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of the Man Who Was Lavish illustration from the 1001 Arabian Nights collection.",
+  "word_count": 236,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of the Man Who Was Lavish\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Kannada readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of the Man Who Was Lavish\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 298,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

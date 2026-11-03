@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-252-the-ten-wazirs",
+  "slug": "arabian-nights-252-the-ten-wazirs",
+  "language": "zh",
+  "title": "The Ten Wazirs",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the ancient kingdom of Sistan reigned King Azadbakht, a monarch of great renown who was blessed with ten ministers of state, each pres...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the ten wazirs",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the ancient kingdom of Sistan reigned King Azadbakht, a monarch of great renown who was blessed with ten ministers of state, each presiding over a department of government. When a mysterious, brilliant young traveler named Bakhtiyar arrived at court, displaying peerless wisdom in statecraft, the king appointed him Chief Counselor.\n\nThe Ten Wazirs, consumed by jealousy at being eclipsed by a newcomer, conspired to bring about Bakhtiyar’s downfall.\n\nThey whispered false accusations of treason into the king’s ear, demanding that Bakhtiyar be led to the scaffold.\n\nKing Azadbakht, remembering that hasty anger is the ruin of monarchs, resolved to test both the accusers and the accused through ten days of public philosophical inquiry.\n\nEach day, one of the Ten Wazirs stepped forward to argue for immediate execution, presenting a parable on the necessity of stern punishment. In reply, Bakhtiyar took the floor, presenting an answer of sublime moral elevation, illustrating his defense with histories of patience, providence, clemency, and justice.\n\nFor ten days, the court was transformed into a grand academy of statecraft, where the principles of governance, the nature of human character, and the duties of kings were analyzed with classical brilliance.\n\nOn the tenth day, Bakhtiyar produced documented proof that unmasked the conspiracy of the Ten Wazirs!\n\nKing Azadbakht embraced Bakhtiyar as his worthy son, dismissed the envious ministers, and appointed Bakhtiyar sovereign of his realm, proving that wisdom and patience triumph over the darkest intrigues.",
+  "moral": "A wise monarch tests the counsel of his advisers with philosophical inquiry, refusing to act on hasty impulse.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Ten Wazirs illustration from the 1001 Arabian Nights collection.",
+  "word_count": 239,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Ten Wazirs\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Ten Wazirs\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 252,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

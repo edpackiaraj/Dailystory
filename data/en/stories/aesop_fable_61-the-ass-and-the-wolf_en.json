@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "An ass grazing in a meadow saw a ravenous wolf approaching with bared fangs. Knowing he had no speed to outrun the beast, the ass immediately began limping with dramatic groans, dr...",
+  "summary": "An ass grazing in a meadow saw a ravenous wolf approaching with bared fangs. Through unexpected trial and turning point, each character learns that sharp presence of mind in danger turns an enemy’s weapons into his own downfall.",
   "keywords": [
     "aesop's fables",
     "the ass and the wolf",
@@ -22,49 +22,49 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "An ass grazing in a meadow saw a ravenous wolf approaching with bared fangs. Knowing he had no speed to outrun the beast, the ass immediately began limping with dramatic groans, dragging his hind leg through the clover.\n\nThe curious wolf paused and asked: \"Why do you limp so pitifully, beast?\"\n\n\"Alas, sir,\" wept the ass, \"while leaping a hedge, a giant, jagged thorn pierced the sole of my hoof! I know you are going to eat me, but I beg you: pull out the thorn first, lest it pierce your throat and choke you while you feast upon my flank!\"\n\nThe wolf thought this prudent advice. He stepped behind the ass, lifted the hoof, and bent his eyes close to search for the thorn.\n\nIn that instant, the ass kicked out with both hind hooves with thunderous force! The iron-hard hooves struck the wolf squarely in the mouth, shattering his teeth and splitting his jaw, while the ass galloped off to safety, laughing at the fallen predator.",
+  "full_text": "An ass grazing in a meadow saw a ravenous wolf approaching with bared fangs. Knowing he had no speed to outrun the beast, the ass immediately began limping with dramatic groans, dragging his hind leg through the clover. The curious wolf paused and asked: \"Why do you limp so pitifully, beast?\" \"Alas, sir,\" wept the ass, \"while leaping a hedge, a giant, jagged thorn pierced the sole of my hoof! I know you are going to eat me, but I beg you: pull out the thorn first, lest it pierce your throat and choke you while you feast upon my flank!\" The wolf thought this prudent advice. He stepped behind the ass, lifted the hoof, and bent his eyes close to search for the thorn. In that instant, the ass kicked out with both hind hooves with thunderous force! The iron-hard hooves struck the wolf squarely in the mouth, shattering his teeth and splitting his jaw, while the ass galloped off to safety, laughing at the fallen predator.",
   "moral": "Sharp presence of mind in danger turns an enemy’s weapons into his own downfall.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Ass and the Wolf illustration from the Aesop's Fables collection.",
   "word_count": 168,
-  "reading_time": "2 min",
-  "listen_time": "2 min",
+  "reading_time": "1 min",
+  "listen_time": "1 min",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Ass and the Wolf\"?",
+      "question": "In the fable \"The Ass and the Wolf\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Ass and the Wolf\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "Sharp presence of mind in danger turns an enemy’s weapons into his own downfall.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "meadow",
+      "meaning": "a tract of low grassland near a river or stream"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "predator",
+      "meaning": "an animal that naturally preys upon and hunts other creatures"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "grazing",
+      "meaning": "an essential word used in the narrative of this fable"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Ass and the Wolf\"?"
+      "prompt": "Who are the central characters in \"The Ass and the Wolf\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"Sharp presence of mind in danger turns an enemy’s weapons into his own downfall\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

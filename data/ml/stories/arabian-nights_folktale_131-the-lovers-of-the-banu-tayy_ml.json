@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-131-the-lovers-of-the-banu-tayy",
+  "slug": "arabian-nights-131-the-lovers-of-the-banu-tayy",
+  "language": "ml",
+  "title": "The Lovers of the Banu Tayy",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the rugged mountains of the Shammar desert dwelt the noble nomadic tribe of Tayy, famed for their chivalry and proud traditions. A val...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the lovers of the banu tayy",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the rugged mountains of the Shammar desert dwelt the noble nomadic tribe of Tayy, famed for their chivalry and proud traditions. A valiant young warrior named Wasim loved his cousin Rayhana, a maiden whose beauty was matched only by her wisdom and skill with the bow.\n\nA feud broke out between their respective clans over the grazing rights to a mountain spring. Rayhana’s father, seeking to sever the lovers, moved his tents forty leagues to the south, declaring that no warrior of Wasim’s branch should ever approach his campfire.\n\nWasim did not succumb to despair. Rather than seeking violent confrontation, he rode alone to the neutral assembly of the tribal elders during the sacred truce month. Standing before the council of the Banu Tayy, Wasim challenged the rival clan to a contest of chivalry:\n\n'Let the feud be judged not by shedding the blood of kin, but by three trials of desert virtue: a trial of horsemanship, a trial of archery, and a trial of poetic generosity!'\n\nRayhana’s brothers accepted the challenge. In horsemanship, Wasim rode bareback across the rocky ridges with peerless balance; in archery, he split a willow wand at eighty paces; and in poetry, he recited an ode celebrating the ancient unity and valor of the entire tribe of Tayy, bringing tears to the eyes of the fiercest warriors.\n\nRayhana stepped forward before the elders, testifying with modest courage that her heart belonged to Wasim and that his valor had healed the tribal rift.\n\nThe chief of the council embraced both families, wiped away the boundary lines of the spring, and blessed their wedding amidst the singing of the entire tribe, proving that chivalric honor and patience can dissolve decades of tribal strife.",
+  "moral": "Steadfast courage and chaste fidelity overcome the harshest desert trials, uniting noble hearts.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Lovers of the Banu Tayy illustration from the 1001 Arabian Nights collection.",
+  "word_count": 287,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Lovers of the Banu Tayy\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Malayalam readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Lovers of the Banu Tayy\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 131,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

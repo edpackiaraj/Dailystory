@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A young fawn was browsing in a peaceful forest clearing with his mother. Looking admiringly at his mother's graceful, slender limbs, sharp hooves, and keen ears, the young buck ask...",
+  "summary": "A young fawn was browsing in a peaceful forest clearing with his mother. Through unexpected trial and turning point, each character learns that no amount of logical reasoning can cure a heart ruled by inherited fear.",
   "keywords": [
     "aesop's fables",
     "the fawn and his mother",
@@ -22,49 +22,49 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A young fawn was browsing in a peaceful forest clearing with his mother. Looking admiringly at his mother's graceful, slender limbs, sharp hooves, and keen ears, the young buck asked:\n\n\"Mother, why are you always so terrified of the dogs? You are much larger and swifter than they are; your hooves can deliver a crushing blow; you have sharp senses that detect danger miles away, and when I grow my antlers, we could easily pierce any hound. Why do you always flee at the first sound of their bark?\"\n\nThe mother hind smiled tenderly and stroked her son's head:\n\n\"Every word you speak is the absolute truth, my child. I tell myself the very same things every single day: that I am swift, that I am large, and that I should stand my ground. But alas! The moment I hear the distant baying of a single hound echoing across the hills, all my courage evaporates in an instant, and my legs carry me away before I even know I am running!\"",
+  "full_text": "A young fawn was browsing in a peaceful forest clearing with his mother. Looking admiringly at his mother's graceful, slender limbs, sharp hooves, and keen ears, the young buck asked: \"Mother, why are you always so terrified of the dogs? You are much larger and swifter than they are; your hooves can deliver a crushing blow; you have sharp senses that detect danger miles away, and when I grow my antlers, we could easily pierce any hound. Why do you always flee at the first sound of their bark?\" The mother hind smiled tenderly and stroked her son's head: \"Every word you speak is the absolute truth, my child. I tell myself the very same things every single day: that I am swift, that I am large, and that I should stand my ground. But alas! The moment I hear the distant baying of a single hound echoing across the hills, all my courage evaporates in an instant, and my legs carry me away before I even know I am running!\"",
   "moral": "No amount of logical reasoning can cure a heart ruled by inherited fear.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Fawn and His Mother illustration from the Aesop's Fables collection.",
   "word_count": 171,
-  "reading_time": "2 min",
-  "listen_time": "2 min",
+  "reading_time": "1 min",
+  "listen_time": "1 min",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Fawn and His Mother\"?",
+      "question": "In the fable \"The Fawn and His Mother\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Fawn and His Mother\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "No amount of logical reasoning can cure a heart ruled by inherited fear.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "graceful",
+      "meaning": "having or showing elegance and beauty of movement or form"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "young",
+      "meaning": "an essential word used in the narrative of this fable"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "browsing",
+      "meaning": "an essential word used in the narrative of this fable"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Fawn and His Mother\"?"
+      "prompt": "Who are the central characters in \"The Fawn and His Mother\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"No amount of logical reasoning can cure a heart ruled by inherited fear\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

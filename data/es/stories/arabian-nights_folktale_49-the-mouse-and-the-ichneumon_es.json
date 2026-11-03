@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-49-the-mouse-and-the-ichneumon",
+  "slug": "arabian-nights-49-the-mouse-and-the-ichneumon",
+  "language": "es",
+  "title": "The Mouse and the Ichneumon",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the hollow of an ancient banyan tree lived a field mouse, while in the roots below burrowed an ichneumon—the fierce mongoose that hunt...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the mouse and the ichneumon",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the hollow of an ancient banyan tree lived a field mouse, while in the roots below burrowed an ichneumon—the fierce mongoose that hunts snakes and rodents. For years, the mouse lived in perpetual dread of the mongoose, never daring to leave its hole without sniffing the wind.\n\nOne afternoon, a fowler set a broad net of fine hemp around the base of the banyan tree, baiting it with roasted sesame cakes. The mouse, lured by the fragrant scent, crept into the net, only to feel the cords snap tight around it. At that same moment, a wild cat leaped from the branches, intending to devour the trapped mouse, but the cat too became entangled in the outer mesh!\n\nMeanwhile, up on a high bough perched an owl, watching with hungry eyes, ready to pounce upon whichever victim struggled free. The mongoose poked its nose out from the roots, seeing the cat trapped, but spotted the owl poised to strike from above.\n\nThe mouse, perceiving the intricate web of danger, called out to the cat: 'O hunter! We are both trapped in the fowler's net. If the owl strikes, we are both dead. But if you swear by your honor not to harm me, my sharp teeth can gnaw through the hempen cords, freeing us both before the fowler returns!'\n\nThe cat, seeing no other hope of survival, swore a solemn oath of peace. The mouse gnawed the thick ropes around the cat’s neck and paws with furious speed. The moment the cat leaped free, it chased the mongoose into the roots and scared the owl away into the sky.\n\nThe cat then turned to the mouse and purred: 'Come out of your hole, brave companion, and let me embrace you as my savior!'\n\nThe wise mouse remained safely inside its burrow, peeking through a narrow crack, and answered: 'Friendship born of shared peril is noble, but when the peril has passed, nature returns to its old paths. I honor our treaty, but I shall keep my burrow between your claws and my fur!' The mouse survived, demonstrating that prudence must outlive temporary alliances.",
+  "moral": "Mortal adversaries must unite when a shared danger threatens, but caution must remain when the peril passes.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Mouse and the Ichneumon illustration from the 1001 Arabian Nights collection.",
+  "word_count": 354,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Mouse and the Ichneumon\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Spanish readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Mouse and the Ichneumon\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 49,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

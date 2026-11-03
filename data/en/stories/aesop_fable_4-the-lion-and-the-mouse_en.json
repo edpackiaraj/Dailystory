@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A mighty lion, weary from hunting across the sun-drenched savannah, lay sleeping peacefully beneath the sprawling shade of an ancient baobab tree. His massive golden mane rippled i...",
+  "summary": "A mighty lion, weary from hunting across the sun-drenched savannah, lay sleeping peacefully beneath the sprawling shade of an ancient baobab tree. Through unexpected trial and turning point, each character learns that no act of kindness, however small, is ever wasted; little friends may prove great allies.",
   "keywords": [
     "aesop's fables",
     "the lion and the mouse",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A mighty lion, weary from hunting across the sun-drenched savannah, lay sleeping peacefully beneath the sprawling shade of an ancient baobab tree. His massive golden mane rippled in the breeze, and his deep snores stirred the dust around his great paws.\n\nA timid little field mouse, scurrying through the tall grass in search of seeds, did not notice the sleeping predator and inadvertently ran straight across the lion's broad nose.\n\nStartled from his nap, the furious king of beasts struck out with lightning speed. His heavy paw clamped down upon the tiny creature, pinning her helpless against the hard ground. Opening his cavernous jaws, the lion prepared to crush the mouse in a single bite.\n\n\"Spare me, O King!\" squeaked the terrified mouse, trembling in every whisker. \"I meant no disrespect! I was running blindly from a hawk. Forgive my clumsy blunder! If you grant me my life, I promise that one day I will repay your royal mercy!\"\n\nThe lion let out a roar of thunderous laughter that shook the surrounding acacia branches. \"Repay me? A wretched, insignificant speck of fur repay the sovereign of the forest? What an absurd fancy!\" Yet, amused by her sheer boldness, the lion lifted his paw and let the tiny creature scurry safely into the rocks.\n\nA few days later, while patrolling his territory, the lion walked into a hunter's concealed trap. Strong hemp cords snapped tight around his limbs, hoisting him helpless into a heavy rope net. The mighty beast roared in fury and thrashing anguish, but every struggle only tightened the knots.\n\nHearing that familiar, desperate roar echoing through the ravines, the little mouse rushed to the scene. Without hesitation, she set her sharp, needle-like teeth against the thickest cord, gnawing with frantic determination until the fibers frayed and snapped. One by one, she severed the binding ropes until the great king stepped down, completely free.\n\nLooking down at his tiny deliverer with humble reverence, the lion bowed his great head: \"You were right, little friend. Today you have taught the King of the Forest that even the smallest heart can save the mighty.\"",
+  "full_text": "A mighty lion, weary from hunting across the sun-drenched savannah, lay sleeping peacefully beneath the sprawling shade of an ancient baobab tree. His massive golden mane rippled in the breeze, and his deep snores stirred the dust around his great paws. A timid little field mouse, scurrying through the tall grass in search of seeds, did not notice the sleeping predator and inadvertently ran straight across the lion's broad nose. Startled from his nap, the furious king of beasts struck out with lightning speed. His heavy paw clamped down upon the tiny creature, pinning her helpless against the hard ground. Opening his cavernous jaws, the lion prepared to crush the mouse in a single bite. \"Spare me, O King!\" squeaked the terrified mouse, trembling in every whisker. \"I meant no disrespect! I was running blindly from a hawk. Forgive my clumsy blunder! If you grant me my life, I promise that one day I will repay your royal mercy!\" The lion let out a roar of thunderous laughter that shook the surrounding acacia branches. \"Repay me? A wretched, insignificant speck of fur repay the sovereign of the forest? What an absurd fancy!\" Yet, amused by her sheer boldness, the lion lifted his paw and let the tiny creature scurry safely into the rocks. A few days later, while patrolling his territory, the lion walked into a hunter's concealed trap. Strong hemp cords snapped tight around his limbs, hoisting him helpless into a heavy rope net. The mighty beast roared in fury and thrashing anguish, but every struggle only tightened the knots. Hearing that familiar, desperate roar echoing through the ravines, the little mouse rushed to the scene. Without hesitation, she set her sharp, needle-like teeth against the thickest cord, gnawing with frantic determination until the fibers frayed and snapped. One by one, she severed the binding ropes until the great king stepped down, completely free. Looking down at his tiny deliverer with humble reverence, the lion bowed his great head: \"You were right, little friend. Today you have taught the King of the Forest that even the smallest heart can save the mighty.\"",
   "moral": "No act of kindness, however small, is ever wasted; little friends may prove great allies.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Lion and the Mouse illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Lion and the Mouse\"?",
+      "question": "In the fable \"The Lion and the Mouse\", what situation triggers the main conflict?",
       "options": [
-        "Little friends may prove great friends.",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Lion and the Mouse\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "No act of kindness, however small, is ever wasted; little friends may prove great allies.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "sovereign",
+      "meaning": "a supreme ruler, king, or master possessing ultimate authority"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "net",
+      "meaning": "a meshed fabric used for catching fish, birds, or wild animals"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "predator",
+      "meaning": "an animal that naturally preys upon and hunts other creatures"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Lion and the Mouse\"?"
+      "prompt": "Who are the central characters in \"The Lion and the Mouse\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Little friends may prove great friends.\"?"
+      "prompt": "Why does this fable conclude with the moral that \"No act of kindness, however small, is ever wasted; little friends may prove great allies\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

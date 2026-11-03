@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-240-harun-al-rashid-and-abu-hasan-the-merchant-of-oman",
+  "slug": "arabian-nights-240-harun-al-rashid-and-abu-hasan-the-merchant-of-oman",
+  "language": "zh",
+  "title": "Harun Al-Rashid and Abu Hasan The Merchant of Oman",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Abu Hasan, a noble merchant of Oman, possessed a great fleet of trading ships that sailed the Indian Ocean. A catastrophic series of typh...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "harun al-rashid and abu hasan the merchant of oman",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Abu Hasan, a noble merchant of Oman, possessed a great fleet of trading ships that sailed the Indian Ocean. A catastrophic series of typhoons sank his vessels, and dishonest agents plundered his warehouses, reducing him from prince-like wealth to absolute poverty.\n\nRefusing to default on his commercial obligations, Abu Hasan sold his palaces, his gardens, and his family heirlooms to pay every single dirham owed to his creditors, departing his native city with clean hands and a clear conscience.\n\nArriving in Baghdad, he took service as an assistant clerk in the imperial docks.\n\nOne evening, Caliph Harun al-Rashid, walking disguised through the harbor, observed Abu Hasan settling an intricate dispute between foreign sea captains with remarkable legal acumen, multilingual fluency, and unshakeable fairness.\n\nThe Caliph summoned the clerk to the imperial palace the next morning: 'Who are you, stranger, whose manners belong to a prince though your coat is frayed?'\n\nAbu Hasan recounted the loss of his merchant fleet and his sacrifice to preserve his commercial honor without cheating a single creditor.\n\nHarun al-Rashid stood from his throne, embraced the merchant, and declared before his ministers: 'A man who preserves his integrity when his empire collapses is richer than a king!'\n\nThe Caliph restored Abu Hasan’s fleet with twelve newly built merchant vessels from the royal shipyards of Basra, appointed him Admiral of the Commercial Fleets of the Caliphate, and granted him an estate in Baghdad, proving that honor tested by adversity receives the highest crown of restoration.",
+  "moral": "Patient endurance under misfortune and fidelity to commercial honor receive imperial restoration.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Harun Al-Rashid and Abu Hasan The Merchant of Oman illustration from the 1001 Arabian Nights collection.",
+  "word_count": 248,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Harun Al-Rashid and Abu Hasan The Merchant of Oman\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Harun Al-Rashid and Abu Hasan The Merchant of Oman\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 240,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

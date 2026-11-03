@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-16-the-second-kalandars-tale",
+  "slug": "arabian-nights-16-the-second-kalandars-tale",
+  "language": "mr",
+  "title": "The Second Kalandar's Tale",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "The second one-eyed Kalandar bowed before the company and said: \"I too was born a prince, reared in science, philosophy, and the arts of ...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the second kalandar's tale",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "The second one-eyed Kalandar bowed before the company and said: \"I too was born a prince, reared in science, philosophy, and the arts of poetry. When my father sent me with royal gifts to the Emperor of Hind, our caravan was attacked by fierce desert nomads. Alone and penniless, I escaped into an unknown kingdom, where I earned my bread as a woodcutter in a great forest.\n\nOne day, my axe struck an iron ring embedded in the earth. Lifting the ring, I discovered stairs leading down into a subterranean palace where an enchanted princess had been imprisoned by an evil Ifrit. For a time we shared delightful discourse, but the jealous demon returned, discovered my presence, and tore the palace asunder. To punish me, the Ifrit did not take my life, but transformed me by dark incantations into an ugly ape and cast me onto a desert island.\n\nI wandered the shores until a trading vessel took pity on me. The sailors marveled that an ape ate with manners and observed human modesty. When we reached the capital of a great Sultan, the king's scribes had died, and the monarch had offered the office of grand vizier to whoever could write the most exquisite verses in six classic scripts. The sailors brought me to the palace as a curiosity. I seized the reed pen, dipped it in ink, and wrote poems of sublime wisdom in flawless calligraphy, alternating six styles of script.\n\nThe Sultan was astounded. He dressed me in silk robes, challenged me to chess—which I won three times with brilliant strategy—and treated me as his closest companion. Yet his royal daughter, a maiden instructed in divine sciences, recognized that the ape was a cursed prince. In a titanic battle of sorcery, the princess transformed into a falcon, a wolf, and a flame, destroying the Ifrit in the sky, though a stray spark struck my eye, leaving me blind on the left side. Restored to human form, I took the Kalandar's staff and journeyed to Baghdad to ponder the mysteries of fate.\"",
+  "moral": "Intellect, learning, and eloquence can elevate a man even when cruel fate strips him of his human form.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Second Kalandar's Tale illustration from the 1001 Arabian Nights collection.",
+  "word_count": 344,
+  "reading_time": "3 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Second Kalandar's Tale\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Second Kalandar's Tale\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 16,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

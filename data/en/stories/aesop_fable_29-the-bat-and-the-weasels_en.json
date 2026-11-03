@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A little bat, swooping carelessly through the twilight after moths, collided with an oak branch and tumbled into the burrow of a fierce weasel. The weasel seized the bat in her sha...",
+  "summary": "A little bat, swooping carelessly through the twilight after moths, collided with an oak branch and tumbled into the burrow of a fierce weasel. Through unexpected trial and turning point, each character learns that it is wise to adapt your position to circumstance when survival is at stake.",
   "keywords": [
     "aesop's fables",
     "the bat and the weasels",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A little bat, swooping carelessly through the twilight after moths, collided with an oak branch and tumbled into the burrow of a fierce weasel. The weasel seized the bat in her sharp claws, hissing with triumph: \"Aha! A bird! I despise all winged creatures that fly in the air and steal eggs from nests; I intend to devour you on the spot!\"\n\nThe nimble-witted bat squeaked in earnest protest: \"A bird? Look closely at me, good madam! What feathers do I possess? I have soft fur, sharp ears, and warm mammalian blood; I am a mouse, a fellow creature of the ground!\"\n\nSeeing no feathers, the weasel was convinced and released the bat into the evening air.\n\nA few nights later, the bat tumbled into the den of another weasel who harbored a deadly hatred for all mice and rodents. \"At last, a plump mouse for dinner!\" snarled the second predator.\n\n\"A mouse?\" gasped the bat with theatrical horror. \"Heaven forbid! Have you ever seen a mouse with leathery wings who can soar among the stars? I am a bird of the night, a winged aeronaut!\"\n\nThe second weasel marveled at the wings and let him fly away unharmed. Thus, by knowing how to present different aspects of his nature according to the danger at hand, the clever bat saved his life twice in succession.",
+  "full_text": "A little bat, swooping carelessly through the twilight after moths, collided with an oak branch and tumbled into the burrow of a fierce weasel. The weasel seized the bat in her sharp claws, hissing with triumph: \"Aha! A bird! I despise all winged creatures that fly in the air and steal eggs from nests; I intend to devour you on the spot!\" The nimble-witted bat squeaked in earnest protest: \"A bird? Look closely at me, good madam! What feathers do I possess? I have soft fur, sharp ears, and warm mammalian blood; I am a mouse, a fellow creature of the ground!\" Seeing no feathers, the weasel was convinced and released the bat into the evening air. A few nights later, the bat tumbled into the den of another weasel who harbored a deadly hatred for all mice and rodents. \"At last, a plump mouse for dinner!\" snarled the second predator. \"A mouse?\" gasped the bat with theatrical horror. \"Heaven forbid! Have you ever seen a mouse with leathery wings who can soar among the stars? I am a bird of the night, a winged aeronaut!\" The second weasel marveled at the wings and let him fly away unharmed. Thus, by knowing how to present different aspects of his nature according to the danger at hand, the clever bat saved his life twice in succession.",
   "moral": "It is wise to adapt your position to circumstance when survival is at stake.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Bat and the Weasels illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Bat and the Weasels\"?",
+      "question": "In the fable \"The Bat and the Weasels\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Bat and the Weasels\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "It is wise to adapt your position to circumstance when survival is at stake.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "nimble",
+      "meaning": "quick and light in movement or action; agile"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "den",
+      "meaning": "a wild animal’s hidden lair, shelter, or burrow"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "burrow",
+      "meaning": "a hole or tunnel dug into the ground by a small animal for habitation"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Bat and the Weasels\"?"
+      "prompt": "Who are the central characters in \"The Bat and the Weasels\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"It is wise to adapt your position to circumstance when survival is at stake\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-40-tale-of-taj-al-muluk-and-princess-dunya",
+  "slug": "arabian-nights-40-tale-of-taj-al-muluk-and-princess-dunya",
+  "language": "hi",
+  "title": "Tale of Taj al-Muluk and Princess Dunya",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Taj al-Muluk, the Crown Prince of the Green City in Persia, was a youth of peerless charm, yet he refused to look upon any maiden, until ...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of taj al-muluk and princess dunya",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Taj al-Muluk, the Crown Prince of the Green City in Persia, was a youth of peerless charm, yet he refused to look upon any maiden, until an old merchant showed him a painted portrait of Princess Dunya of the Isle of Camphor. Dunya had secluded herself in a remote fortress, vowing never to wed, having dreamed that a hunter had trapped a gentle dove in a net.\n\nDetermined to win her heart through subtlety and grace, Taj al-Muluk traveled to the Isle of Camphor disguised as a silk merchant, accompanied by his faithful friend Aziz. Instead of demanding her hand with an army, the prince opened a magnificent shop in the bazaar, displaying rare tapestries, pearls, and paintings.\n\nKnowing that Princess Dunya loved beautiful gardens, Taj al-Muluk engaged the royal master painter to decorate the interior of the princess's private garden pavilion. Upon the central wall, the prince commissioned a breathtaking fresco depicting a lush forest: a hunter’s net lay open, but in this painting, a noble falcon was depicted cutting the cords with its talons, freeing the dove, while a stag protected the flock.\n\nWhen Princess Dunya entered the pavilion, she gazed upon the painting with wonder. The master painter explained: 'Princess, this artist wishes you to see that not all who approach are hunters; some come as guardians to free the captive soul from fear.'\n\nMoved to tears by the beauty of the art and the delicacy of the sentiment, Princess Dunya asked to meet the painter-merchant. When Taj al-Muluk appeared before her, his modesty, eloquence, and noble spirit confirmed the truth of his art. Her guarded heart melted like spring snow, and their joyous union united the two realms in enduring peace.",
+  "moral": "Art, patience, and gentle perseverance can open the most guarded heart and heal past sorrows.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of Taj al-Muluk and Princess Dunya illustration from the 1001 Arabian Nights collection.",
+  "word_count": 285,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of Taj al-Muluk and Princess Dunya\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of Taj al-Muluk and Princess Dunya\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 40,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

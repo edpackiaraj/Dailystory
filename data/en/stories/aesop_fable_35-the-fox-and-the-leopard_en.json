@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A proud leopard and a clever fox were disputing with each other as to who possessed the greater beauty and nobility. The leopard stood upon a mossy rock, stretching his supple limb...",
+  "summary": "A proud leopard and a clever fox were disputing with each other as to who possessed the greater beauty and nobility. Through unexpected trial and turning point, each character learns that a brilliant mind is far more beautiful and valuable than a painted skin.",
   "keywords": [
     "aesop's fables",
     "the fox and the leopard",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A proud leopard and a clever fox were disputing with each other as to who possessed the greater beauty and nobility. The leopard stood upon a mossy rock, stretching his supple limbs and displaying his golden pelt covered with exquisite dark rosettes.\n\n\"Look upon my magnificent coat!\" purred the leopard boastfully. \"There is not a creature in all the wilderness whose skin can match the elegance, symmetry, and splendor of my spots. I am a living masterpiece of velvet and gold, while your coat is nothing but plain, dusty orange fur!\"\n\nThe fox listened patiently, cleaning his whiskers with a nimble paw. When the leopard had exhausted his conceited praise, the fox looked up and replied with calm, smiling dignity:\n\n\"You have a very handsome skin, friend Leopard, and no one denies the beauty of your spots. But I am far more beautifully endowed than you: for while your beauty is painted merely upon your outside hide, my spots are within—woven into the keenness of my mind, the sharpness of my wit, and the resourcefulness of my spirit. When your skin is worn out, you will have nothing left, but my inner wisdom serves me for all my days!\"",
+  "full_text": "A proud leopard and a clever fox were disputing with each other as to who possessed the greater beauty and nobility. The leopard stood upon a mossy rock, stretching his supple limbs and displaying his golden pelt covered with exquisite dark rosettes. \"Look upon my magnificent coat!\" purred the leopard boastfully. \"There is not a creature in all the wilderness whose skin can match the elegance, symmetry, and splendor of my spots. I am a living masterpiece of velvet and gold, while your coat is nothing but plain, dusty orange fur!\" The fox listened patiently, cleaning his whiskers with a nimble paw. When the leopard had exhausted his conceited praise, the fox looked up and replied with calm, smiling dignity: \"You have a very handsome skin, friend Leopard, and no one denies the beauty of your spots. But I am far more beautifully endowed than you: for while your beauty is painted merely upon your outside hide, my spots are within—woven into the keenness of my mind, the sharpness of my wit, and the resourcefulness of my spirit. When your skin is worn out, you will have nothing left, but my inner wisdom serves me for all my days!\"",
   "moral": "A brilliant mind is far more beautiful and valuable than a painted skin.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Fox and the Leopard illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Fox and the Leopard\"?",
+      "question": "In the fable \"The Fox and the Leopard\", what situation triggers the main conflict?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Fox and the Leopard\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "A brilliant mind is far more beautiful and valuable than a painted skin.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "nimble",
+      "meaning": "quick and light in movement or action; agile"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "exhausted",
+      "meaning": "drained of all physical strength or energy; completely tired"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "proud",
+      "meaning": "an essential word used in the narrative of this fable"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Fox and the Leopard\"?"
+      "prompt": "Who are the central characters in \"The Fox and the Leopard\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wisdom of the ancients\"?"
+      "prompt": "Why does this fable conclude with the moral that \"A brilliant mind is far more beautiful and valuable than a painted skin\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

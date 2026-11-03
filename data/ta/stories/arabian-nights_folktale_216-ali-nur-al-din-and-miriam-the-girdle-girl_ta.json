@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-216-ali-nur-al-din-and-miriam-the-girdle-girl",
+  "slug": "arabian-nights-216-ali-nur-al-din-and-miriam-the-girdle-girl",
+  "language": "ta",
+  "title": "Ali Nur al-Din and Miriam the Girdle-Girl",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Ali Nur al-Din, an affluent young merchant of Cairo, was ruined by dishonest partners and reduced to sailing aboard an Alexandrian mercha...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "ali nur al-din and miriam the girdle-girl",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Ali Nur al-Din, an affluent young merchant of Cairo, was ruined by dishonest partners and reduced to sailing aboard an Alexandrian merchant vessel. In a foreign port, he met Miriam, a brilliant maiden who had been captured by pirates, renowned for her extraordinary skill in embroidery, navigation, and mathematics.\n\nRecognizing each other’s noble character, they escaped their oppressors aboard a swift caravel, with Miriam serving as the navigator, reading the stars and charting courses with masterly skill.\n\nWhen foreign corsairs pursued their ship across the Mediterranean, Miriam and Ali worked as a united team: while Ali commanded the defense at the prow, Miriam steered the vessel through dangerous rocky shoals where the heavier pirate ships ran aground!\n\nReaching the friendly port of Alexandria, they established a grand maritime emporium, using Miriam’s nautical charts and Ali’s commercial honesty to build a thriving merchant fleet that connected Egypt, Syria, and Andalusia in peaceful trade.\n\nTheir union became a celebrated legend of maritime partnership, demonstrating that mutual courage, intellect, and teamwork are more powerful than all the fleets of tyrants.",
+  "moral": "Courageous resourcefulness, nautical skill, and mutual fidelity triumph over foreign captivity.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Ali Nur al-Din and Miriam the Girdle-Girl illustration from the 1001 Arabian Nights collection.",
+  "word_count": 177,
+  "reading_time": "2 min",
+  "listen_time": "2 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Ali Nur al-Din and Miriam the Girdle-Girl\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Ali Nur al-Din and Miriam the Girdle-Girl\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 216,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

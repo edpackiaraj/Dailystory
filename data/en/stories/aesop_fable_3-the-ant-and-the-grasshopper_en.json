@@ -7,7 +7,7 @@
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "Throughout the long, golden days of summer, the meadow blossomed with vibrant wildflowers, sweet clover, and rich grasses. While butterflies fluttered lazily in the warm breeze, an...",
+  "summary": "Throughout the long, golden days of summer, the meadow blossomed with vibrant wildflowers, sweet clover, and rich grasses. Through unexpected trial and turning point, each character learns that it is best to prepare today for the inevitable needs of tomorrow.",
   "keywords": [
     "aesop's fables",
     "the ant and the grasshopper",
@@ -22,7 +22,7 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "Throughout the long, golden days of summer, the meadow blossomed with vibrant wildflowers, sweet clover, and rich grasses. While butterflies fluttered lazily in the warm breeze, an industrious ant worked from dawn to twilight, hauling heavy grains of wheat, seeds, and dried corn kernels back to her underground granary. She bowed her tiny shoulders beneath burdens twice her size, sweating in the heat to store food for the cold days ahead.\n\nPerched upon a tall thistle, a merry grasshopper sang joyful melodies on his fiddle, chirping without a care in the world. Seeing the ant struggle past with a plump barley grain, he laughed dismissively: \"Why do you toil so wearily under the blazing sun, little neighbor? Put down that heavy load! Summer is made for dancing, singing, and feasting on the abundance of the earth. Winter is far away; enjoy the golden hour!\"\n\nThe ant wiped her brow and replied quietly, \"Summer will not last forever, friend. When the frosty winds blow and snow buries the meadow, the fields will provide nothing. I advise you to gather while the sun shines.\" But the grasshopper laughed, shook his green antennae, and continued fiddling his carefree tunes.\n\nSoon autumn stripped the boughs bare, and winter arrived with howling gales and deep, freezing snow. The meadow turned into a frozen, barren desert. Shivering in the icy blast, weak with hunger and without a single crumb to eat, the grasshopper crawled to the ant's snug mound. Through the doorway, he saw the ants enjoying rich stores of grain by their warm hearth.\n\n\"Have pity on me, kind neighbor!\" begged the starving grasshopper. \"Grant me a few morsels of your wheat, or I shall perish in the frost!\"\n\nThe ant looked at him with sorrowful sternness and asked, \"What did you do all through the summer when food was plentiful and the days were long?\"\n\n\"Alas,\" wept the grasshopper, \"I made sweet music and sang for all the creatures.\"\n\n\"If you were foolish enough to sing away the summer,\" answered the ant, \"then you must dance away the winter,\" and she closed her door, leaving the idler to face the bitter fruit of his improvidence.",
+  "full_text": "Throughout the long, golden days of summer, the meadow blossomed with vibrant wildflowers, sweet clover, and rich grasses. While butterflies fluttered lazily in the warm breeze, an industrious ant worked from dawn to twilight, hauling heavy grains of wheat, seeds, and dried corn kernels back to her underground granary. She bowed her tiny shoulders beneath burdens twice her size, sweating in the heat to store food for the cold days ahead. Perched upon a tall thistle, a merry grasshopper sang joyful melodies on his fiddle, chirping without a care in the world. Seeing the ant struggle past with a plump barley grain, he laughed dismissively: \"Why do you toil so wearily under the blazing sun, little neighbor? Put down that heavy load! Summer is made for dancing, singing, and feasting on the abundance of the earth. Winter is far away; enjoy the golden hour!\" The ant wiped her brow and replied quietly, \"Summer will not last forever, friend. When the frosty winds blow and snow buries the meadow, the fields will provide nothing. I advise you to gather while the sun shines.\" But the grasshopper laughed, shook his green antennae, and continued fiddling his carefree tunes. Soon autumn stripped the boughs bare, and winter arrived with howling gales and deep, freezing snow. The meadow turned into a frozen, barren desert. Shivering in the icy blast, weak with hunger and without a single crumb to eat, the grasshopper crawled to the ant's snug mound. Through the doorway, he saw the ants enjoying rich stores of grain by their warm hearth. \"Have pity on me, kind neighbor!\" begged the starving grasshopper. \"Grant me a few morsels of your wheat, or I shall perish in the frost!\" The ant looked at him with sorrowful sternness and asked, \"What did you do all through the summer when food was plentiful and the days were long?\" \"Alas,\" wept the grasshopper, \"I made sweet music and sang for all the creatures.\" \"If you were foolish enough to sing away the summer,\" answered the ant, \"then you must dance away the winter,\" and she closed her door, leaving the idler to face the bitter fruit of his improvidence.",
   "moral": "It is best to prepare today for the inevitable needs of tomorrow.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Ant and the Grasshopper illustration from the Aesop's Fables collection.",
@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Ant and the Grasshopper\"?",
+      "question": "In the fable \"The Ant and the Grasshopper\", what situation triggers the main conflict?",
       "options": [
-        "Work today for tomorrow.",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A confrontation arising from conflicting desires, needs, or natural traits",
+        "A sudden storm that drove all animals far across the open plains",
+        "A royal decree ordering all beasts to leave the countryside",
+        "A festival where the creatures exchanged gifts in harmony"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Recall the events that begin the story."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "What critical action or realization changes the course of the story?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "One character's true nature or limits are revealed through their actions",
+        "An outside judge arrives to solve the problem for both parties",
+        "Both characters agree to forget what happened and walk away",
+        "The smaller character suddenly transforms into a giant beast"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "Think about how the conflict reaches its resolution."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What essential truth does \"The Ant and the Grasshopper\" teach young readers?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "It is best to prepare today for the inevitable needs of tomorrow.",
+        "Might and physical strength always triumph over truth and wisdom",
+        "Flattery is the safest and most honest way to make lifelong friends",
+        "It is wise to pretend to be someone you are not in times of trouble"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "Reflect upon the final moral lesson of the fable."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +78,38 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "meadow",
+      "meaning": "a tract of low grassland near a river or stream"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "fluttered",
+      "meaning": "flapped wings quickly and lightly in the air"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "perched",
+      "meaning": "alighted or rested on a branch, ledge, or elevated position"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Ant and the Grasshopper\"?"
+      "prompt": "Who are the central characters in \"The Ant and the Grasshopper\", and what was each trying to accomplish at the beginning?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Work today for tomorrow.\"?"
+      "prompt": "Why does this fable conclude with the moral that \"It is best to prepare today for the inevitable needs of tomorrow\"? How do the characters' choices illustrate this?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Think of a situation at school, sports, or home where someone might face a similar dilemma. How can you apply this lesson?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Were the consequences faced by the characters fair? What alternative choice could have produced a wiser outcome?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "Imagine if the characters met again one year later. How would their behavior change based on what they learned today?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-43-tale-of-hammad-the-badawi",
+  "slug": "arabian-nights-43-tale-of-hammad-the-badawi",
+  "language": "mr",
+  "title": "Tale of Hammad the Badawi",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In the vast red sands of the Najd lived Hammad, a Bedouin chief renowned across the desert for his skill with the lance, his generous hea...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "tale of hammad the badawi",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In the vast red sands of the Najd lived Hammad, a Bedouin chief renowned across the desert for his skill with the lance, his generous hearth, and his unyielding adherence to the laws of nomadic honor. His tent was pitched beside an isolated desert crossroads, where a lantern burned all night on a tall pole to guide lost wayfarers.\n\nOne stormy night, when a violent sandstorm raged across the dunes, a lone horseman galloped up to Hammad’s tent, leaped from his exhausted mare, and begged for sanctuary according to the ancient laws of the desert. Hammad took the stranger's reins, ushered him into the tent, wrapped him in dry camel-hair cloaks, and slaughtered his prize young camel to prepare a hot feast.\n\nAs the guest sat before the hearth fire, the light illuminated his face. Hammad recognized him immediately: he was the chief of a rival clan who, in a border skirmish months before, had slain Hammad’s only brother! Hammad’s heart seized with grief and wrath, but he did not lay a finger upon his weapon or alter the warmth of his countenance.\n\nFor three days, Hammad served the guest with princely courtesy, pouring bitter coffee and serving roasted meat, according to the inviolable law that grants three days of unconditional protection to whoever breaks bread under one's tent. On the fourth morning, when the guest prepared to depart, Hammad led out the guest’s horse, fed and rested, and handed him a bag of dates and a full waterskin.\n\nHammad looked the rival chief in the eye and said quietly: 'Know, O guest, that you slew my brother in battle, and my heart bled every hour you sat at my hearth. But you sought my hospitality, and under Hammad’s roof, a guest is sacred. Today you leave my territory in peace. But if we meet tomorrow in the open desert, our blades must settle the score of our clans.'\n\nThe rival chief was so moved by such peerless chivalry and moral greatness that he threw down his sword, fell upon Hammad’s neck, and pledged eternal brotherhood between their tribes, ending forty years of desert warfare with a single act of sacred hospitality.",
+  "moral": "Desert chivalry, hospitality to the stranger, and honoring the guest are sacred codes that triumph over enmity.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Tale of Hammad the Badawi illustration from the 1001 Arabian Nights collection.",
+  "word_count": 362,
+  "reading_time": "3 min",
+  "listen_time": "4 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Tale of Hammad the Badawi\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Tale of Hammad the Badawi\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 43,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

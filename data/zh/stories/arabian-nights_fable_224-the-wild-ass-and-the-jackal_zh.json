@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-224-the-wild-ass-and-the-jackal",
+  "slug": "arabian-nights-224-the-wild-ass-and-the-jackal",
+  "language": "zh",
+  "title": "The Wild Ass and the Jackal",
+  "genre": "Fables",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "In a secluded desert valley, a wild ass grazed peacefully upon wild thyme and mountain grass, fleet of foot and independent of any master...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "the wild ass and the jackal",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "In a secluded desert valley, a wild ass grazed peacefully upon wild thyme and mountain grass, fleet of foot and independent of any master. In the rocky hills nearby dwelt an aging, wounded lion who could no longer run down game, accompanied by a sycophantic jackal who scavenged his scraps.\n\nThe hungry lion growled: 'Jackal! Go into the valley and lure the fat wild ass into my gorge, or I shall devour you!'\n\nThe jackal trotted down into the valley, put on an expression of fawning reverence, and called out: 'Greetings, noble monarch of the steppes! Our sovereign the lion has grown old and weary of hunting. He has observed your magnificent speed and stately bearing, and desires to proclaim you the King of all the Grazing Beasts! Come with me to his cave to receive the royal diadem.'\n\nThe wild ass, though simple, was not devoid of common sense. He stopped grazing, tilted his long ears, and looked at the jackal with sharp, skeptical eyes.\n\n'O jackal,' said the wild ass, 'your tongue is sweet as wild honey, but your tracks smell of the slaughterhouse! Since when does the lion crown kings among the creatures he was born to devour? If he wishes to honor me, let him send his crown down with the mountain breeze; my throat prefers the wild grass of the valley to the coronation feasts of a predator’s cave.'\n\nThe wild ass kicked up his heels, snorted at the scheming scavenger, and galloped across the open desert, outstripping all pursuit.\n\nThe frustrated jackal returned empty-handed to the roaring lion, while the wild ass lived in freedom, proving that healthy skepticism preserves life against the sweetest flatteries.",
+  "moral": "Do not listen to the flattering counsel of a predator who seeks to lure you into his master's claws.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "The Wild Ass and the Jackal illustration from the 1001 Arabian Nights collection.",
+  "word_count": 281,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"The Wild Ass and the Jackal\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"The Wild Ass and the Jackal\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 224,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}

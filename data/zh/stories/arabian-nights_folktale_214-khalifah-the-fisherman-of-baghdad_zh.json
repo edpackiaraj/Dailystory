@@ -1,0 +1,128 @@
+{
+  "id": "arabian-nights-214-khalifah-the-fisherman-of-baghdad",
+  "slug": "arabian-nights-214-khalifah-the-fisherman-of-baghdad",
+  "language": "zh",
+  "title": "Khalifah The Fisherman Of Baghdad",
+  "genre": "Folktales",
+  "collection": "Arabian Nights",
+  "culture_region": "Middle East",
+  "age_group": "Below 13",
+  "summary": "Khalifah was an impoverished, merry fisherman of Baghdad who lived in a ruined hut and owned only a patched net and a single linen tunic ...",
+  "keywords": [
+    "arabian nights",
+    "1001 nights",
+    "khalifah the fisherman of baghdad",
+    "classic middle eastern folktales",
+    "bedtime tales of arabia"
+  ],
+  "tags": [
+    "arabian-nights",
+    "folktale",
+    "bedtime-stories",
+    "classic",
+    "wisdom"
+  ],
+  "full_text": "Khalifah was an impoverished, merry fisherman of Baghdad who lived in a ruined hut and owned only a patched net and a single linen tunic with ragged sleeves. Despite his poverty, he was celebrated across the riverfront for his comical songs and cheerful disposition.\n\nOne morning, having cast his net four times without catching a single fish, Khalifah cast for the fifth time, and dragged up an intelligent ape wearing a silver collar!\n\nThe ape signaled that he wished to be the fisherman’s partner. Guided by the ape’s gestures, Khalifah cast his net in a secret eddy and caught two magnificent royal carps of shimmering gold. The ape directed him to take the fish to the grand palace of the Caliph.\n\nThat afternoon, the Caliph Harun al-Rashid, walking disguised as an ordinary boatman on the Tigris, met Khalifah. Amused by the fisherman’s comical banter, the Caliph proposed a partnership: 'Let us fish together, brother, and divide the catch!'\n\nThey cast the net, and caught a silver chest containing precious gems!\n\nThe Caliph, delighted by Khalifah’s complete lack of greed—for the fisherman insisted on dividing every coin equally and giving the larger half to his partner—invited Khalifah to the palace.\n\nWhen Khalifah saw his humble partner seated upon the golden throne of the Caliphate, he fell to his knees in comical terror!\n\nHarun al-Rashid laughed with imperial joy, raised the fisherman to his feet, appointed him Chief Master of the River Fleet of Baghdad, and made him wealthy for life, proving that pure simplicity and good humor earn the highest rewards.",
+  "moral": "Good humor, generosity in poverty, and pure simplicity of heart win royal friendship and fortune.",
+  "image": "/images/stories/arabian-nights.webp",
+  "image_alt": "Khalifah The Fisherman Of Baghdad illustration from the 1001 Arabian Nights collection.",
+  "word_count": 260,
+  "reading_time": "2 min",
+  "listen_time": "3 min",
+  "audio_url": null,
+  "publish_date": "2026-03-15",
+  "is_bedtime": true,
+  "quiz": [
+    {
+      "question": "What is the central focus of \"Khalifah The Fisherman Of Baghdad\"?",
+      "options": [
+        "Seeking wisdom, patience, and solving a unique problem",
+        "Finding gold and keeping it hidden away",
+        "Leaving home forever without greeting friends",
+        "Building tall towers in the sand"
+      ],
+      "answerIndex": 0,
+      "hint": "Reflect upon the moral outcome of the characters’ choices."
+    },
+    {
+      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "options": [
+        "Thoughtfulness, patience, and integrity",
+        "Loud shouting and boastful anger",
+        "Running away from every challenge",
+        "Ignoring all wise advice"
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how calm reflection solves dilemmas in folktales."
+    },
+    {
+      "question": "What memorable lesson does this story impart to listeners?",
+      "options": [
+        "Integrity and keeping one’s word build enduring trust across all borders.",
+        "Never listen to advice from elders",
+        "Always act hastily without planning",
+        "Words spoken in anger cause no harm"
+      ],
+      "answerIndex": 0,
+      "hint": "Look closely at the story’s moral."
+    }
+  ],
+  "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
+  "status": "published",
+  "content_notes": "Family-safe classic retelling from the 1001 Arabian Nights anthology. (Localized for Chinese readers, safe for schools and family bedtime).",
+  "values": [
+    "wisdom",
+    "patience"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "caliph",
+      "meaning": "a sovereign leader or ruler in historical Islamic states"
+    },
+    {
+      "word": "vizier",
+      "meaning": "a high-ranking minister or trusted counselor"
+    },
+    {
+      "word": "hospitality",
+      "meaning": "the friendly and generous reception and entertainment of guests"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What initial challenge or mystery sets the story of \"Khalifah The Fisherman Of Baghdad\" into motion?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+    },
+    {
+      "tier": "Evaluate",
+      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+    },
+    {
+      "tier": "Create",
+      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+    }
+  ],
+  "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
+  "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",
+  "mood": [
+    "curious",
+    "calm",
+    "brave"
+  ],
+  "teaser": "Discover another wondrous journey from the legendary 1001 Nights in tomorrow’s tale.",
+  "series_id": "1001-arabian-nights",
+  "part_number": 214,
+  "reviewed": true,
+  "source": "Burton translation - Calcutta II / Public Domain",
+  "license": "Public Domain",
+  "credit": "Classic 1001 Nights folklore collection"
+}
