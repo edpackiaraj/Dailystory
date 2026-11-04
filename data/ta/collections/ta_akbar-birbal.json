@@ -35,37 +35,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"Birbal's Entry to Akbar's Court\"?",
+        "question": "அரண்மனை வாயில் காவலாளி இளம் பீர்பாலை உள்ளே அனுமதிக்க என்ன நிபந்தனை விதித்தான்?",
         "options": [
-          "Wit beats power",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "மன்னரிடம் பீர்பால் பெறும் பரிசில் சரிபாதியைத் தனக்கு லஞ்சமாகத் தர வேண்டும் என்றான்",
+          "பீர்பால் அவனுக்குப் பத்து பொற்காசுகளை உடனே தர வேண்டும் என்றான்",
+          "பீர்பால் வாயிலில் மூன்று மணி நேரம் காத்திருக்க வேண்டும் என்றான்",
+          "பீர்பால் மன்னருக்குப் பாட்டுக் கற்றுத்தர வேண்டும் என்றான்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "காவலாளியின் பேராசையான நிபந்தனையை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "அக்பர் சக்கரவர்த்தி பீர்பாலின் கவிதையைக் கேட்டு மகிழ்ந்து பரிசைக் கேட்டபோது பீர்பால் என்ன கேட்டார்?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "தனக்கு நூறு கசையடிகள் பரிசாக வழங்கப்பட வேண்டும் என்று விநோதமாகக் கேட்டார்",
+          "ஆயிரம் பொற்காசுகளும் நவரத்தினங்களும் கேட்டார்",
+          "அரண்மனையில் உயர்ந்த மந்திரி பதவி கேட்டார்",
+          "ஒரு பெரிய கிராமத்தையே தனக்குப் பரிசாகக் கேட்டார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "காவலாளிக்குத் தகுந்த பாடம் புகட்ட பீர்பால் கேட்ட பரிசு எதுவென்று யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "பீர்பால் கேட்ட கசையடிப் பரிசின் முடிவில் என்ன நடந்தது?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "லஞ்சம் கேட்ட காவலாளிக்கு ஐம்பது கசையடிகள் தண்டனையாக வழங்கப்பட்டு சிறையிலடைக்கப்பட்டான்; பீர்பால் மந்திரியானார்",
+          "பீர்பால் கசையடிகளை முழுமையாகத் தன் முதுகில் வாங்கிக்கொண்டார்",
+          "அக்பர் கோபமுற்று பீர்பாலை நாட்டை விட்டு விரட்டினார்",
+          "காவலாளிக்கு மன்னர் தங்கப் பதக்கம் வழங்கினார்"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "லஞ்சப் பேர்வழிக்குக் கிடைத்த நீதியான தண்டனையை எண்ணிப்பாருங்கள்."
       }
     ],
     "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -77,38 +77,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given to guide decisions"
+        "word": "சாதுரியம்",
+        "meaning": "சூழ்நிலையை உடனே உணர்ந்து சமயோசிதமாகச் சிந்திக்கும் அறிவு நுட்பம்"
       },
       {
-        "word": "discernment",
-        "meaning": "the ability to judge well and understand the truth"
+        "word": "காவலாளி",
+        "meaning": "அரண்மனை வாயிலில் நின்று பாதுகாக்கும் சேவகன்"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and think clearly during sudden events"
+        "word": "கசையடி",
+        "meaning": "தோல் சாட்டையினால் முதுகில் அடித்து வழங்கப்படும் கடுமையான தண்டனை"
+      },
+      {
+        "word": "பேராசைக்காரன்",
+        "meaning": "பிறர் உழைப்பில் வரும் பலனை அநியாயமாகப் பறிக்க நினைக்கும் தீயவன்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What is the main situation at the beginning of \"Birbal's Entry to Akbar's Court\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "பீர்பால் மன்னரைச் சந்திக்க வந்த போது கொண்டு வந்த கலை எது?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why does this story teach that \"Wit beats power\"?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "லஞ்சம் கேட்கும் அதிகாரிகளை அவர்களின் பேராசையைக் கொண்டே வீழ்த்துவது எப்படி?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use this lesson in your own school or family life?"
+        "tier": "பயன்பாடு",
+        "prompt": "அரசு அலுவலகங்களில் லஞ்சம் கேட்கும் சூழலை நாம் நேர்மையோடு எவ்வாறு கையாள வேண்டும்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s final decision fair and kind to everyone?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+        "tier": "சிந்தனை",
+        "prompt": "அக்பர் பீர்பாலைத் தன் அரசவையின் நவரத்தினங்களில் ஒருவராக இணைக்கக் காரணம் என்ன?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
@@ -162,37 +162,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"The Crows in the Kingdom\"?",
+        "question": "மாளிகை உப்பரிகையில் நின்ற அக்பர் அவையினரிடம் என்ன திகைப்பூட்டும் கேள்வியைக் கேட்டார்?",
         "options": [
-          "Wit beats power",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "நமது தலைநகரில் மொத்தம் எத்தனை காகங்கள் வாழ்கின்றன என்று கேட்டார்",
+          "வானத்தில் எத்தனை விண்மீன்கள் உள்ளன என்று கேட்டார்",
+          "அரண்மனைத் தோட்டத்தில் எத்தனை மரங்கள் உள்ளன என்று கேட்டார்",
+          "நாட்டின் மக்கள் தொகை எவ்வளவு என்று கேட்டார்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "அக்பர் கேட்ட விநோதமான பறவைக் கணக்கை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "பீர்பால் சற்றும் தயங்காமல் காகங்களின் எண்ணிக்கை குறித்து என்ன விடையளித்தார்?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "\"அரசே, நமது நகரில் சரியாக ஐம்பத்து ஐந்தாயிரத்து நானூற்று அறுபத்து மூன்று காகங்கள் உள்ளன\" என்றார்",
+          "\"அரசே, காகங்களை எண்ணுவது இயலாத காரியம்\" என்றார்",
+          "\"அரசே, நகரில் ஒரேயொரு காகம் மட்டுமே உள்ளது\" என்றார்",
+          "\"அரசே, ஒரு கோடி காகங்கள் உள்ளன\" என்றார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "பீர்பால் துணிச்சலாகக் குறிப்பிட்ட துல்லியமான எண்ணிக்கையை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "எண்ணிக்கை குறைவாகவோ அதிகமாகவோ இருந்தால் என்ன செய்வாய் என்று அக்பர் கேட்டதற்கு பீர்பால் என்ன கூறினார்?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "கூடுதலாக இருந்தால் உறவினர்களைப் பார்க்க வெளிநாட்டுக் காகங்கள் வந்திருக்கின்றன; குறைவாக இருந்தால் வெளியூர் சென்றிருக்கின்றன என்றார்",
+          "தான் சொன்னது தவறு என்று மன்னிப்புக் கேட்டார்",
+          "காவலாளிகளைக் கொண்டு மீண்டும் எண்ணச் சொன்னார்",
+          "மன்னரிடம் புதிய பொற்காசுகளைக் கேட்டார்"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "எவராலும் மறுக்க முடியாத பீர்பாலின் சமயோசித விளக்கத்தை நினைவுகூருங்கள்."
       }
     ],
     "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -204,38 +204,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given to guide decisions"
+        "word": "எண்ணிக்கை",
+        "meaning": "பொருட்கள் அல்லது உயிரினங்களை எண்ணி அறியும் தொகை"
       },
       {
-        "word": "discernment",
-        "meaning": "the ability to judge well and understand the truth"
+        "word": "அக்பர் சக்கரவர்த்தி",
+        "meaning": "முகலாயப் பேரரசின் மாமன்னர்"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and think clearly during sudden events"
+        "word": "மறுக்க முடியாத பதில்",
+        "meaning": "எவராலும் தவறு என்று வாதிட முடியாதபடி ஆணித்தரமாகச் சொல்லப்படும் விடை"
+      },
+      {
+        "word": "சுற்றத்தார்",
+        "meaning": "ஒருவருடன் இரத்த பந்தம் அல்லது நட்பில் இணைந்த சொந்தக்காரர்கள்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What is the main situation at the beginning of \"The Crows in the Kingdom\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "அக்பரின் கேள்விக்கு மற்ற அமைச்சர்கள் ஏன் மௌனமாக நின்றனர்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why does this story teach that \"Wit beats power\"?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "எந்தவித ஆதாரமும் இல்லாத தர்க்கக் கேள்விகளுக்கு சமயோசித அறிவு எவ்வாறு கைகொடுக்கிறது?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use this lesson in your own school or family life?"
+        "tier": "பயன்பாடு",
+        "prompt": "நடைமுறைக்கு ஒவ்வாத கேள்விகளைக் கேலி செய்யாமல் நளினமாக எதிர்கொள்வது எவ்வாறு?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s final decision fair and kind to everyone?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+        "tier": "சிந்தனை",
+        "prompt": "பீர்பாலின் அறிவாற்றல் மன்னரின் மன அழுத்தத்தை எவ்வாறு மகிழ்ச்சியாக மாற்றியது?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
@@ -416,37 +416,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"The Cook's Pot\"?",
+        "question": "யமுனை நதியின் உறைபனிக் கடும் குளிரில் இரவு முழுவதும் நின்ற ஏழைத் தொழிலாளிக்கு அக்பர் ஏன் பரிசு தர மறுத்தார்?",
         "options": [
-          "Wit beats power",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "அரண்மனை மாளிகையில் எரிந்த தொலைதூர விளக்கின் வெப்பத்தைப் பெற்றுக்கொண்டு நின்றதாகக் கூறி அற்பக் குற்றம் சாட்டினார்",
+          "அந்த ஏழை பாதியிலேயே கரையேறி ஓடிவிட்டான் என்று அமைச்சர் கூறினார்",
+          "மன்னருக்குப் பணம் தர விருப்பமில்லை",
+          "ஏழைத் தொழிலாளி அக்பரை அவமதித்துவிட்டான்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "அக்பர் சொன்ன நியாயமற்ற சாக்குபோக்கை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "ஏழைக்கு நீதி கிடைக்க பீர்பால் தன் வீட்டுத் தோட்டத்தில் என்ன விநோதமான சமையலைச் செய்தார்?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "மிக உயரமான மூங்கில் கம்பத்தில் பானையைக் கட்டி, தரையில் வெகு அடியில் சிறு தீயை மூட்டி கிச்சடி சமைத்தார்",
+          "தண்ணீரே இல்லாமல் உலர்ந்த பாத்திரத்தில் சமைத்தார்",
+          "பானையைத் தலைகீழாகப் போட்டு சமைத்தார்",
+          "மண்ணைத் தோண்டி உள்ளே பானையைப் புதைத்து வைத்தார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "தூரத்து நெருப்பினால் சமைக்க முயன்ற பீர்பாலின் கிச்சடி நாடகத்தை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "இவ்வளவு தூரத்தில் எரியும் நெருப்பால் பானை எப்படிச் சூடாகும் என்று கேட்ட அக்பருக்கு பீர்பால் என்ன உணர்த்தினார்?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "மைல் தூரத்து விளக்கு மனிதனுக்கு வெப்பம் தர முடியும் என்றால், சில அடி தூரத்து நெருப்பு என் கிச்சடியைச் சமைக்கும் என்றார்",
+          "மன்னருக்குச் சமையல் கலை தெரியாது என்றார்",
+          "தான் ஒரு புதிய சமையல் முறையைக் கண்டுபிடித்ததாகக் கூறினார்",
+          "அரண்மனை உணவை விடத் தன் கிச்சடி சிறந்தது என்றார்"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "மன்னரின் தர்க்கத்தையே அவரிடம் திருப்பியடித்து ஏழைக்கு நீதி பெற்றுத் தந்ததை எண்ணுங்கள்."
       }
     ],
     "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -458,38 +458,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given to guide decisions"
+        "word": "கிச்சடி",
+        "meaning": "அரிசியும் பருப்பும் கலந்து சமைக்கப்படும் ஒரு சுவையான பாரம்பரிய உணவு"
       },
       {
-        "word": "discernment",
-        "meaning": "the ability to judge well and understand the truth"
+        "word": "கடுங்குளிர்",
+        "meaning": "உடலை நடுங்க வைக்கும் அளவுக்குத் தாங்க முடியாத பனிக்குளிர்"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and think clearly during sudden events"
+        "word": "வாக்குறுதி",
+        "meaning": "ஒருவருக்கு நிச்சயமாகச் செய்து தருவதாகக் கொடுக்கப்படும் சத்திய உறுதிமொழி"
+      },
+      {
+        "word": "சாக்குபோக்கு",
+        "meaning": "கொடுத்த வாக்கைக் காப்பாற்றாமல் இருக்கச் சொல்லப்படும் அற்பக் காரணம்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What is the main situation at the beginning of \"The Cook's Pot\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "ஏழைத் தொழிலாளி எந்த நதியின் குளிர்ந்த நீரில் இரவு முழுவதும் நின்றான்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why does this story teach that \"Wit beats power\"?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "அதிகாரத்தில் இருப்பவர்கள் தங்கள் வாக்குறுதியை மீறும் போது பீர்பால் போன்றவர்கள் எவ்வாறு வழிகாட்ட வேண்டும்?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use this lesson in your own school or family life?"
+        "tier": "பயன்பாடு",
+        "prompt": "நாம் ஒருவருக்கு வாக்களித்தால் எவ்வித சாக்குப் போக்கும் கூறாமல் அதைக் காப்பாற்றுவது ஏன் முக்கியம்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s final decision fair and kind to everyone?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+        "tier": "சிந்தனை",
+        "prompt": "மன்னரின் தவறை நேரடியாகச் சுட்டிக்காட்டாமல் செயல் விளக்கம் மூலம் உணர வைத்த பீர்பாலின் பண்பு யாது?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
@@ -797,37 +797,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"Birbal Identifies the Thief\"?",
+        "question": "வணிகரின் வீட்டில் வைரம் திருடுபோன வழக்கில் பீர்பால் வேலைக்காரர்கள் அனைவருக்கும் என்ன கொடுத்தார்?",
         "options": [
-          "Wit beats power",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "சரியாக ஒரே அளவிலான குச்சிகளைக் கொடுத்து, மந்திரக் குச்சி இரவு ஒரு அங்குலம் வளரும் என்றார்",
+          "அனைவருக்கும் தலா நூறு பொற்காசுகள் கொடுத்தார்",
+          "எல்லோரையும் சிறைக் காவலில் அடைத்தார்",
+          "அவர்களை யமுனை நதியில் மூழ்கச் சொன்னார்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "பீர்பால் உளவியல் ரீதியாகக் கையாண்ட மந்திரக் குச்சி சோதனையை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "உண்மையான திருடன் இரவு பயந்துபோய் என்ன காரியத்தைச் செய்தான்?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "தன் குச்சி ஒரு அங்குலம் வளர்ந்துவிட்டால் மாட்டிக்கொள்வோம் என்று பயந்து, குச்சியை ஒரு அங்குலம் வெட்டிச் சிறிதாக்கினான்",
+          "குச்சியைத் தீயிலிட்டுக் கொளுத்தினான்",
+          "இரவோடு இரவாக நாட்டை விட்டு ஓடினான்",
+          "வணிகரின் காலில் விழுந்து வைரத்தைக் கொடுத்தான்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "குற்றவாளியின் பயத்தால் செய்த திருட்டுத்தனமான முட்டாள்தனத்தை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "மறுநாள் காலையில் பீர்பால் திருடனை எவ்வாறு உடனடியாக அடையாளம் கண்டார்?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "மற்றவர்களின் குச்சிகள் அப்படியே இருக்க, திருடனின் குச்சி மட்டும் ஒரு அங்குலம் குறைவாக இருந்ததைக் கண்டு பிடித்தார்",
+          "காவலாளிகளின் சாட்சியத்தை வைத்துப் பிடித்தார்",
+          "வணிகரின் வாக்குமூலத்தைக் கேட்டு முடிவெடுத்தார்",
+          "குச்சியின் வாசனையை நுகர்ந்து பார்த்தார்"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "குறைந்த நீளமுடைய குச்சியை வைத்திருந்த திருடனை நினைவுகூருங்கள்."
       }
     ],
     "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -839,38 +839,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given to guide decisions"
+        "word": "மந்திரக் குச்சி",
+        "meaning": "மாய சக்தி கொண்டதாகக் கூறித் திருடனின் மனசாட்சியைச் சோதிக்கப் பயன்படுத்திய மரக்குச்சி"
       },
       {
-        "word": "discernment",
-        "meaning": "the ability to judge well and understand the truth"
+        "word": "மனசாட்சி",
+        "meaning": "தன் தவறைத் தனக்குள்ளே உணர்த்தி உறுத்தும் உள்ளுணர்வு"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and think clearly during sudden events"
+        "word": "அங்குலம்",
+        "meaning": "நீளத்தை அளக்கப் பயன்படும் ஒரு சிறிய பாரம்பரிய அளவு"
+      },
+      {
+        "word": "குற்ற உணர்ச்சி",
+        "meaning": "தவறு செய்துவிட்டோமே என்ற அச்சத்தால் உள்ளுக்குள் நடுங்கும் பயம்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What is the main situation at the beginning of \"Birbal Identifies the Thief\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "வணிகரின் வீட்டில் திருடுபோன விலைமதிப்பற்ற பொருள் எது?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why does this story teach that \"Wit beats power\"?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "பீர்பால் பயன்படுத்திய குச்சிகளில் உண்மையில் ஏதேனும் மாய சக்தி இருந்ததா? அதன் உளவியல் தந்திரம் என்ன?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use this lesson in your own school or family life?"
+        "tier": "பயன்பாடு",
+        "prompt": "\"குற்றமுள்ள நெஞ்சு குறுகுறுக்கும்\" என்ற தமிழ் முதுமொழிக்கு இக்கதை எவ்வாறு சான்றாகிறது?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s final decision fair and kind to everyone?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+        "tier": "சிந்தனை",
+        "prompt": "விசாரணைகளில் வன்முறையைக் கையாளாமல் உளவியல் நுண்ணறிவால் உண்மையை வெளிக்கொணர்வது ஏன் மேலானது?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
@@ -924,37 +924,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"The Lost Ring\"?",
+        "question": "மன்னர் அக்பர் தன் விலைமதிப்பற்ற நவரத்தின மோதிரத்தை எங்கே தவறவிட்டார்?",
         "options": [
-          "Wit beats power",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "நீராடும் போது தன் அந்தரங்க அறையில் கழற்றி வைத்த இடத்தில் காணாமல் போனது",
+          "போர்க்களத்தில் வாள் சண்டை இடும் போது விழுந்தது",
+          "வேட்டையாடக் காட்டுக்குச் சென்ற போது நழுவியது",
+          "யமுனை நதியில் படகு சவாரி செய்த போது ஆற்றில் விழுந்தது"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "அக்பரின் தனிப்பட்ட சேவகர்கள் மட்டுமே நுழையக்கூடிய அறையை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "அறையில் இருந்த எட்டு சேவகர்களைப் பார்த்துப் பீர்பால் என்ன முழக்கமிட்டார்?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "\"மோதிரத்தைத் திருடிய திருடனின் தாடியில் ஒரு சிறிய துரும்பு ஒட்டிக்கொண்டிருக்கிறது!\" என்றார்",
+          "\"திருடனை இப்போது தலையை வெட்டப் போகிறேன்!\" என்றார்",
+          "\"மோதிரம் தானாகப் பேசும் ஆற்றல் கொண்டது!\" என்றார்",
+          "\"எல்லோரும் தங்கள் ஆடைகளைக் களைய வேண்டும்!\" என்றார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "திருடனின் தாடியைப் பற்றிக் கூறி பீர்பால் வீசிய உளவியல் வலையை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "பீர்பாலின் சொல்லைக் கேட்டதும் உண்மையான திருடன் என்ன செய்து மாட்டிக்கொண்டான்?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "பதற்றத்தில் தன் தாடியில் உண்மையிலேயே துரும்பு உள்ளதா என்று கைகளால் அவசரமாகத் தடவிப் பார்த்தான்",
+          "மன்னரின் காலில் விழுந்து கதறினான்",
+          "அங்கிருந்து வெளியே ஓட முயன்றான்",
+          "மோதிரத்தை வாயில் போட்டு விழுங்கினான்"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "தவறு செய்தவன் அனிச்சையாகத் தன் தாடியைத் தொட்டுக் காட்டியதைக் கவனியுங்கள்."
       }
     ],
     "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -966,38 +966,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given to guide decisions"
+        "word": "நவரத்தின மோதிரம்",
+        "meaning": "ஒன்பது வகையான விலைமதிப்பற்ற நவரத்தினக் கற்கள் பதிக்கப்பட்ட ராஜ மோதிரம்"
       },
       {
-        "word": "discernment",
-        "meaning": "the ability to judge well and understand the truth"
+        "word": "துரும்பு",
+        "meaning": "வைக்கோல் அல்லது புல்லின் மிகச் சிறிய துகள்"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and think clearly during sudden events"
+        "word": "தடவிப் பார்த்தல்",
+        "meaning": "பயத்தில் தன் கைகளால் தாடியையோ உடம்பையோ தொட்டுச் சரிபார்த்தல்"
+      },
+      {
+        "word": "உளவியல் தந்திரம்",
+        "meaning": "மனிதனின் மனநிலையைப் புரிந்து கொண்டு குற்றவாளியைத் தானே சிக்க வைக்கும் அறிவு நுட்பம்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What is the main situation at the beginning of \"The Lost Ring\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "அறையில் மொத்தம் எத்தனை மெய்க்காவலர்கள் பணியில் இருந்தனர்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why does this story teach that \"Wit beats power\"?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "திருடாத மற்ற ஏழு சேவகர்கள் ஏன் தங்கள் தாடியைத் தொட்டுப் பார்க்கவில்லை?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use this lesson in your own school or family life?"
+        "tier": "பயன்பாடு",
+        "prompt": "நம்மிடம் உண்மை இருக்கும் போது வீண் வதந்திகளுக்கும் அச்சங்களுக்கும் நாம் ஏன் ஆட்படக்கூடாது?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s final decision fair and kind to everyone?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+        "tier": "சிந்தனை",
+        "prompt": "குற்றவாளிகள் தங்கள் சொந்த அச்சத்தினாலேயே தங்களை வெளிப்படுத்திக்கொள்வது எவ்வாறு நிகழ்கிறது?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
@@ -1051,37 +1051,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"The Farmer's Dispute\"?",
+        "question": "விவசாயியிடம் கிணற்றை விற்ற பேராசைக்கார வணிகன் அடுத்த நாள் என்ன அநியாய வாதத்தை முன்வைத்தான்?",
         "options": [
-          "Wit beats power",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "\"நான் உனக்குக் கிணற்றை மட்டுமே விற்றேன், அதிலுள்ள தண்ணீரை விற்கவில்லை; ஆகவே தண்ணீரை எடுக்கக் கூடாது\" என்றான்",
+          "கிணற்றை உடனே இடித்துத் தள்ள வேண்டும் என்றான்",
+          "இரட்டிப்புப் பணம் தந்தால் மட்டுமே கிணற்றைத் தருவேன் என்றான்",
+          "கிணற்றில் விஷம் கலந்துவிட்டதாகக் கூறினான்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "வணிகன் சொன்ன விபரீதமான தர்க்கவாதத்தை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "வழக்கை விசாரித்த பீர்பால் அந்த வஞ்சக வணிகனுக்கு என்ன தக்க பதிலடித் தீர்ப்பை வழங்கினார்?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "\"தண்ணீர் உன்னுடையது என்றால், விவசாயியின் கிணற்றில் உன் தண்ணீரை வைத்திருக்க நாள்தோறும் அவனுக்கு வாடகை கொடு!\" என்றார்",
+          "விவசாயியிடம் கிணற்றைத் திருப்பிக் கொடுத்துவிடுமாறு கூறினார்",
+          "வணிகனுக்கு ஆயிரம் பொற்காசுகள் அபராதம் விதித்தார்",
+          "கிணற்றை மூடிவிடுமாறு உத்தரவிட்டார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "வணிகனின் அதே தர்க்கத்தால் அவனை மடக்கிய பீர்பாலின் வாடகைத் தீர்ப்பை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "இக்கதை சமுதாயத்திற்கு உணர்த்தும் நீதியான கருத்து எது?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "சூழ்ச்சியால் பிறரை ஏமாற்ற நினைப்பவன், தன் சொந்த சூழ்ச்சியாலேயே அழிந்து தலைகுனிவான்",
+          "விவசாயிகள் யாரிடமும் கிணறு வாங்கக்கூடாது",
+          "கிணற்றுத் தண்ணீருக்கு வரி விதிக்க வேண்டும்",
+          "நீதிமன்றத்திற்குப் போகாமல் சண்டை போட வேண்டும்"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "நேர்மையற்ற வஞ்சகர்களுக்குக் கிடைக்கும் நீதியான அடியை எண்ணுங்கள்."
       }
     ],
     "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -1093,30 +1093,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
+        "word": "கிணறு",
+        "meaning": "நிலத்தடி நீரைப் பெறுவதற்காகப் பூமிக்குள் ஆழமாகத் தோண்டப்பட்ட நீர்நிலை"
+      },
+      {
         "word": "வஞ்சகம்",
-        "meaning": "பிறரை ஏமாற்றும் சூழ்ச்சி அல்லது பொய்மை"
+        "meaning": "பிறரை ஏமாற்றி நியாயமற்ற முறையில் லாபம் அடைய நினைக்கும் சூழ்ச்சி"
+      },
+      {
+        "word": "வாடகை",
+        "meaning": "ஒருவரின் இடத்தையோ பொருளையோ பயன்படுத்தியதற்காகத் தரப்படும் கட்டணம்"
       },
       {
         "word": "தீர்ப்பு",
-        "meaning": "நீதிமன்றத்தில் நேர்மையாக வழங்கப்படும் இறுதி முடிவு"
-      },
-      {
-        "word": "நியாயம்",
-        "meaning": "நேர்மை மற்றும் உண்மைக்கு ஏற்ப நடக்கும் முறை"
+        "meaning": "நீதிமன்றத்தில் வழக்குக்கு வழங்கப்படும் நீதியான இறுதி முடிவு"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "கோபால் விவசாயி ராமுவிடம் என்ன தந்திரமான வாதத்தைக் கூறினான்?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "விவசாயி கிணற்றை எதற்காக முழுப் பணம் கொடுத்து வாங்கினான்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "கோபாலின் வாதத்தை பீர்பால் எவ்வாறு அவனுக்கே எதிராகத் திருப்பினார்?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "சட்டத்தின் ஓட்டைகளைப் பயன்படுத்தி ஏழைகளை ஏமாற்றும் வணிகர்களுக்கு பீர்பாலின் தீர்ப்பு எவ்வாறு பாடம் புகட்டியது?"
       },
       {
-        "tier": "Apply",
-        "prompt": "வாழ்க்கையில் ஒப்பந்தங்கள் செய்யும்போது நாம் ஏன் நேர்மையாகவும் தெளிவாகவும் இருக்க வேண்டும்?"
+        "tier": "பயன்பாடு",
+        "prompt": "நாம் செய்யும் வியாபார ஒப்பந்தங்களில் நேர்மையும் தெளிவும் எவ்வளவு அவசியம்?"
+      },
+      {
+        "tier": "சிந்தனை",
+        "prompt": "உண்மையான நீதி என்பது வெறும் சொற்களில் உள்ளதா அல்லது அதன் ஆழமான நியாயத்தில் உள்ளதா?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
@@ -1170,37 +1178,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"Akbar and the Line Drawing\"?",
+        "question": "அரசவைத் தரையில் ஒரு வெள்ளைக் கோட்டை வரைந்த அக்பர் அமைச்சர்களுக்கு என்ன சவால் விடுத்தார்?",
         "options": [
-          "Wit beats power",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "இந்தக் கோட்டைத் தொடாமலும் அழிக்காமலும் இதைவிடச் சிறிய கோடாக மாற்றிக் காட்ட வேண்டும் என்றார்",
+          "இந்தக் கோட்டின் மீது யாரும் நடக்கக் கூடாது என்றார்",
+          "இந்தக் கோட்டைத் தங்கக் கோடாக மாற்ற வேண்டும் என்றார்",
+          "இந்தக் கோட்டை ஒரே நொடியில் முழுமையாகத் துடைக்க வேண்டும் என்றார்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "அக்பர் வரைந்த மாயக் கோட்டுச் சவாலை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "பீர்பால் அக்பரின் சவாலை எவ்வாறு மிக எளிதாக வென்று காட்டினார்?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "அக்பர் வரைந்த கோட்டிற்குப் பக்கத்தில் அதைவிட மிக நீண்ட பெரிய கோடு ஒன்றை வரைந்தார்",
+          "கோட்டின் மீது கருப்பு மையைக் கொட்டினார்",
+          "கோட்டைத் தன் கால்களால் மறைத்து நின்றார்",
+          "மன்னரிடம் புதிய சுண்ணக்கட்டியைக் கொடுத்தார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "பெரிய கோட்டை வரைந்ததன் மூலம் மன்னரின் கோட்டைச் சிறியதாக்கிய வித்தையை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "இக்கதை மனிதர்களின் வாழ்க்கைப் போட்டிக்கு உணர்த்தும் உன்னத தத்துவம் எது?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "மற்றவர்களைத் தாழ்த்தி அழிக்க முயல்வதை விட, நமது உழைப்பால் நம்மை உயர்த்திக்கொள்வதே உண்மையான வெற்றி",
+          "எப்போதுமே பிறரின் வழியில் குறுக்கிட வேண்டும்",
+          "தரையில் கோடுகள் வரைவது அரசவைக்குப் பெருமை சேர்க்கும்",
+          "சவால்களில் கலந்துகொள்ளாமல் விலகியிருக்க வேண்டும்"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "மற்றவரை அழிக்காமல் நாம் உயர்ந்து நிற்கும் நேர்மறைச் சிந்தனையை எண்ணிப்பாருங்கள்."
       }
     ],
     "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -1212,30 +1220,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "நுண்ணறிவு",
-        "meaning": "ஆழமாகவும் விரைவாகவும் சிந்திக்கும் கூர்மையான அறிவு"
+        "word": "கோடு",
+        "meaning": "தரையில் அல்லது பலகையில் வரையப்பட்ட நேர்கோடு"
+      },
+      {
+        "word": "அழிக்காமல்",
+        "meaning": "கை விரலாலோ துணியாலோ துடைக்காமல் அல்லது தொடாமல்"
       },
       {
         "word": "சவால்",
-        "meaning": "திறமையைச் சோதிக்க விடுக்கப்படும் அழைப்பு"
+        "meaning": "தன் திறமையை நிரூபிக்க விடுக்கப்படும் கடினமான போட்டி"
       },
       {
-        "word": "பளிங்கு",
-        "meaning": "அழகான மென்மையான வெண்ணிறக் கல்"
+        "word": "ஒப்பீடு",
+        "meaning": "இரண்டு பொருட்களின் தன்மையை ஒன்றோடொன்று ஒப்பிட்டுப் பார்க்கும் ஆய்வு"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "கோட்டைச் சிறியதாக்க அக்பர் விதித்த நிபந்தனைகள் என்ன?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "அமைச்சர்கள் அக்பரின் கோட்டைப் பார்த்து ஏன் திகைத்து நின்றனர்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "பீர்பால் அக்பரின் கோட்டைத் தொடாமலேயே எப்படிச் சிறியதாக்கினார்?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "மற்றொருவரின் புகழைக் குறைக்காமல் நமது உழைப்பால் நாம் எவ்வாறு மிளிர முடியும்?"
       },
       {
-        "tier": "Apply",
-        "prompt": "நண்பர்களோடு போட்டியிடும்போது அவர்களைக் குறை சொல்லாமல் நாம் எப்படி வெற்றி பெறலாம்?"
+        "tier": "பயன்பாடு",
+        "prompt": "பள்ளியிலோ பணியிடத்திலோ பொறாமையைத் தவிர்த்து ஆரோக்கியமான போட்டியை எவ்வாறு வளர்க்கலாம்?"
+      },
+      {
+        "tier": "சிந்தனை",
+        "prompt": "\"அழித்தல் அல்ல, ஆக்கமே வெற்றி\" என்பதற்கு பீர்பாலின் செயல் எவ்வாறு எடுத்துக்காட்டாகிறது?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
@@ -1289,37 +1305,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"Birbal and the Jealous Courtiers\"?",
+        "question": "பீர்பால் மீது பொறாமை கொண்ட அமைச்சர்களும் அரச நாவிதனும் அக்பரிடம் என்ன சதித் திட்டம் தீட்டினர்?",
         "options": [
-          "Wit beats power",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "மறைந்த அக்பரின் தந்தையின் நலனை விசாரிக்க பீர்பாலைச் சொர்க்கத்திற்கு அனுப்ப வேண்டும் என்றனர்",
+          "பீர்பால் அரசு கஜானாவைக் கொள்ளையடித்துவிட்டதாகப் பொய் கூறினர்",
+          "பீர்பாலுக்கு வெளிநாட்டு மன்னர்களோடு தொடர்பு உண்டு என்றனர்",
+          "பீர்பாலை ஒரு காட்டுத் தீவுக்கு நாடு கடத்தச் சொன்னார்கள்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "சொர்க்கத்திற்குத் தூது அனுப்பும் அமைச்சர்களின் சதியை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "உயிரோடு எரிக்கப்படும் சிதையில் இறங்குவதற்கு முன் பீர்பால் என்ன தற்காப்பு ஏற்பாட்டைச் செய்திருந்தார்?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "சிதை எரிக்கப்படும் இடத்திலிருந்து தன் வீட்டிற்கு இரகசிய பூமிக்கடிச் சுரங்கப் பாதை அமைத்திருந்தார்",
+          "மந்திர சக்தியால் நெருப்பை அணைத்தார்",
+          "சிதைக்குள் ஒரு இரும்புப் பெட்டியை வைத்திருந்தார்",
+          "காவலாளிகளுக்கு லஞ்சம் கொடுத்துத் தப்பினார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "தன் உயிரைக் காப்பாற்றிக்கொள்ள பீர்பால் முன்கூட்டியே வெட்டிய சுரங்கப் பாதையை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "சில மாதங்கள் கழித்து நீண்ட தாடி மீசையுடன் அரசவைக்குத் திரும்பிய பீர்பால் அக்பரிடம் என்ன கூறினார்?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "\"அரசே, உங்கள் தந்தை நலமாக இருக்கிறார்; ஆனால் சொர்க்கத்தில் முடிதிருத்துபவர் இல்லாததால் நம் அரண்மனை நாவிதனை அனுப்பச் சொன்னார்\" என்றார்",
+          "\"சொர்க்கத்தில் உங்கள் தந்தை மிகவும் கோபமாக இருக்கிறார்\" என்றார்",
+          "\"தான் சொர்க்கத்திற்குப் போகவே இல்லை\" என்று ஒப்புக்கொண்டார்",
+          "\"இனிமேல் தான் மந்திரியாக இருக்க மாட்டேன்\" என்றார்"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "சூழ்ச்சி செய்த நாவிதனுக்கே மரணப் பொறியை அமைத்த பீர்பாலின் விடையை நினைவுகூருங்கள்."
       }
     ],
     "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -1332,29 +1348,37 @@
     "vocabulary": [
       {
         "word": "பொறாமை",
-        "meaning": "பிறரின் வளர்ச்சியையோ நற்பெயரையோ கண்டு உள்ளம் வெதும்புதல்"
+        "meaning": "பிறர் அடையும் புகழையும் வெற்றியையும் கண்டு உள்ளுக்குள் எரியும் தீய குணம்"
       },
       {
-        "word": "சுரங்கப்பாதை",
-        "meaning": "பூமிக்கு அடியில் ரகசியமாகத் தோண்டப்பட்ட வழி"
+        "word": "சுரங்கப் பாதை",
+        "meaning": "பூமிக்கடியில் இரகசியமாகத் தப்பிச் செல்ல வெட்டப்பட்ட மறைவு வழி"
       },
       {
-        "word": "மதிநுட்பம்",
-        "meaning": "சிக்கலான தருணங்களை முன்கூட்டியே கணித்துச் செயல்படும் அறிவு"
+        "word": "சொர்க்கம்",
+        "meaning": "மறைந்த முன்னோர்கள் வாழும் புண்ணிய உலகம்"
+      },
+      {
+        "word": "சதித்திட்டம்",
+        "meaning": "ஒருவரை அழிக்கப் பலரும் கூடி இரகசியமாகத் தீட்டும் சூழ்ச்சி"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "அமைச்சர்கள் பீர்பாலை அழிக்க எந்த நாவிதனைப் பயன்படுத்தினர்?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "பீர்பால் வீட்டில் சுரங்கப் பாதையை அமைத்து எத்தனை மாதங்கள் மறைந்திருந்தார்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "பீர்பால் சடங்கின் போது தன்னை எவ்வாறு காப்பாற்றிக்கொண்டார்?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "மன்னரின் மூடநம்பிக்கையைப் பயன்படுத்தி எதிரிகள் எவ்வாறு ஒரு கொலைக்குத் திட்டமிட்டனர்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "மற்றவர்களின் திறமையைக் கண்டு பொறாமைப்படுவது ஒருவருக்கு என்ன விளைவுகளை ஏற்படுத்தும்?"
+        "tier": "பயன்பாடு",
+        "prompt": "நமக்கு எதிராக வஞ்சகமான சூழ்ச்சிகள் நடக்கும் போது நாம் உணர்ச்சிவசப்படாமல் அறிவால் எவ்வாறு தப்பிக்க வேண்டும்?"
+      },
+      {
+        "tier": "சிந்தனை",
+        "prompt": "\"தோண்டிய படுகுழியில் தோண்டியவனே விழுவான்\" என்ற நீதிமொழி இக்கதையில் எவ்வாறு மெய்ப்பிக்கப்பட்டது?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
@@ -1644,37 +1668,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"Birbal and the Painter\"?",
+        "question": "ஒரு பணக்காரன் ஏழை ஓவியன் வரைந்து கொண்டு வந்த அழகிய உருவப் படத்திற்கு ஏன் பணம் தர மறுத்தான்?",
         "options": [
-          "Wit beats power",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "தினம் ஒரு முகம் காட்டி, \"இது என் முகமே இல்லை, முகம் மாறிவிட்டது\" எனப் பொய் சொல்லி ஏமாற்றினான்",
+          "ஓவியத்தில் வண்ணங்கள் சரியில்லை என்றான்",
+          "ஓவியன் காலதாமதமாக வந்தான் என்று குற்றம் சாட்டினான்",
+          "பணப்பை தொலைந்துவிட்டதாகக் கூறினான்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "பணக்காரனின் வஞ்சகமான தந்திரத்தை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "ஓவியனுக்கு உதவ முன்வந்த பீர்பால் மறுநாள் பணக்காரனின் முன்னால் எதைக் கொண்டுவந்து வைத்தார்?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "ஒரு பெரிய நிலைக்கண்ணாடியைக் கொண்டுவந்து வைத்துப் படம் தயார் என்றார்",
+          "ஒரு வெற்று வெள்ளைத் துணியைக் காட்டினார்",
+          "மன்னரின் புகைப்படத்தைக் கொண்டுவந்தார்",
+          "பணக்காரனின் பழைய சிறுவயதுப் படத்தைக் காட்டினார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "மாறும் முகத்திற்கு ஏற்ப உடனுக்குடன் மாறும் கண்ணாடியை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "\"இது வெறும் கண்ணாடி அல்லவா?\" என்று கேட்ட பணக்காரனுக்கு பீர்பால் என்ன பதிலளித்தார்?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "\"தினமும் மாறும் உங்கள் முகத்திற்கு இந்த நிலைக்கண்ணாடியை விடச் சரியான ஓவியம் உலகிலேயே இருக்க முடியாது, பணத்தைக் கொடுங்கள்!\" என்றார்",
+          "\"கண்ணாடி உங்களை அழகாகக் காட்டுகிறது\" என்றார்",
+          "\"ஓவியனுக்கு மன்னிப்புக் கடிதம் கொடுங்கள்\" என்றார்",
+          "\"மன்னர் உங்களைச் சிறையில் அடைப்பார்\" என்றார்"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "ஏமாற்றுக்காரனின் பொய்க்கு முற்றுப்புள்ளி வைத்த பீர்பாலின் தீர்ப்பை நினைவுகூருங்கள்."
       }
     ],
     "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -1686,30 +1710,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "துல்லியமாக",
-        "meaning": "சற்றும் பிழையின்றி மிகச் சரியாக"
+        "word": "ஓவியன்",
+        "meaning": "வண்ணங்களைக் கொண்டு மனிதர்களின் உருவங்களை உயிரோட்டமாகத் தீட்டும் கலைஞன்"
       },
       {
-        "word": "தத்ரூபமாக",
-        "meaning": "நேரில் பார்ப்பது போன்ற அச்சு அசலான வடிவம்"
+        "word": "ஏமாற்றுக்காரன்",
+        "meaning": "மற்றவர்களின் உழைப்பைச் சுரண்டிப் பணம் தராமல் வஞ்சிக்கும் கொடியவன்"
       },
       {
-        "word": "நிலைக்கண்ணாடி",
-        "meaning": "முழு உருவத்தையும் தெளிவாகக் காட்டும் பெரிய கண்ணாடி"
+        "word": "கண்ணாடி",
+        "meaning": "எதிரில் நிற்கும் உருவத்தை அச்சு அசலாகப் பிரதிபலித்துக் காட்டும் வழவழப்பான ஆடி"
+      },
+      {
+        "word": "பிரதிபலிப்பு",
+        "meaning": "ஒளி பட்டு ஒரு பொருளின் உருவம் கண்ணாடியில் அப்படியே தோன்றும் தன்மை"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "செல்வந்தன் ஓவியர்களை ஏமாற்ற என்ன தந்திரத்தைப் பயன்படுத்தினான்?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "ஓவியன் எத்தனை முறை புதிய படங்களை வரைந்து கொண்டு வந்து ஏமாந்தான்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "கண்ணாடியைக் கொண்டு வந்ததன் மூலம் பீர்பால் என்ன நிரூபித்தார்?"
+        "tier": "புரிந்து கொள்ளuதல்",
+        "prompt": "கலைஞர்களின் உழைப்பை மதிக்காமல் ஏமாற்றுபவர்களுக்கு இக்கதை எத்தகைய சாட்டையடியாக அமைகிறது?"
       },
       {
-        "tier": "Apply",
-        "prompt": "கலைஞர்களின் மற்றும் உழைப்பாளர்களின் உழைப்பை நாம் ஏன் போற்ற வேண்டும்?"
+        "tier": "பயன்பாடு",
+        "prompt": "நாம் ஒருவரிடம் வேலையை ஒப்படைத்தால் அவர்களின் நியாயமான கூலியை உடனே வழங்குவது ஏன் தர்மம்?"
+      },
+      {
+        "tier": "சிந்தனை",
+        "prompt": "கலைஞர்களின் கண்ணீரைத் துடைக்க பீர்பால் கையாண்ட கலைநயமிக்க அறிவு எத்தகையது?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

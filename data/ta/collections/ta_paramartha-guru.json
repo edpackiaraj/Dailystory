@@ -35,37 +35,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"Guru Paramartha and His Five Disciples - Introduction\"?",
+        "question": "வீரமாமுனிவர் இயற்றிய பரமார்த்த குருவின் கதைகளில் வரும் ஐந்து சீடர்களின் பொதுவான குணம் என்ன?",
         "options": [
-          "Foolishness of book knowledge without worldly wisdom",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "எந்தவொரு எளிய செயலையும் விபரீதமான முட்டாள்தனத்தோடு செய்து முடிக்கும் பேரறியாமை",
+          "மிகவும் புத்திசாலித்தனமாகப் பிரச்சனைகளைத் தீர்ப்பது",
+          "காட்டில் கொடிய விலங்குகளை வேட்டையாடுவது",
+          "மன்னருக்குத் தலைமை மந்திரியாகப் பணியாற்றுவது"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "சீடர்களின் அப்பாவியான மூடத்தனத்தை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "பரமார்த்த குருவும் சீடர்களும் எதற்காக உலகப் புகழ்பெற்றார்கள்?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "அவர்களின் அறியாமைச் செயல்கள் மூலம் மக்களுக்கு நகைச்சுவையோடு ஆழ்ந்த விழிப்புணர்வை ஊட்டியதற்காக",
+          "பெரும் போர்களில் வெற்றி பெற்றதற்காக",
+          "வானியலில் புதிய கோள்களைக் கண்டுபிடித்ததற்காக",
+          "அரசாங்கத்தை ஆட்சி செய்ததற்காக"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "கதையின் முக்கிய நோக்கமான நகைச்சுவை மற்றும் விழிப்புணர்வை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "இக்கதையின் மூலம் தமிழ் இலக்கியம் நமக்குக் கற்பிக்கும் முக்கியமான கருத்து எது?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "குருவாக இருந்தாலும் சீடர்களாக இருந்தாலும் கண்மூடித்தனமான அறியாமையை விட்டுப் பகுத்தறிவோடு சிந்திக்க வேண்டும்",
+          "சீடர்கள் எப்போதுமே குருவின் சொல்லைக் கேட்கக்கூடாது",
+          "கல்வி கற்காமல் இருப்பது நல்லது",
+          "யாருக்கும் வழிகாட்டக் கூடாது"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "பகுத்தறிவின் அவசியத்தை எண்ணிப்பாருங்கள்."
       }
     ],
     "author": "Veeramamunivar (Costanzo Beschi, 1728 / Tamil Folk Humor)",
@@ -77,38 +77,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given to guide decisions"
+        "word": "மடமை",
+        "meaning": "எதையும் பகுத்தறிந்து சிந்திக்காமல் மூடத்தனமாகச் செயல்படும் அறியாமை"
       },
       {
-        "word": "discernment",
-        "meaning": "the ability to judge well and understand the truth"
+        "word": "சீடர்கள்",
+        "meaning": "குருவின் வழிகாட்டுதலைப் பின்பற்றிப் பாடம் கற்கும் மாணவர்கள்"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and think clearly during sudden events"
+        "word": "பகுத்தறிவு",
+        "meaning": "நன்மை எது தீமை எது என்பதைச் சுயமாக ஆராய்ந்து அறியும் அறிவு"
+      },
+      {
+        "word": "வேடிக்கை",
+        "meaning": "பார்ப்பவர்களுக்குச் சிரிப்பையும் ஆச்சரியத்தையும் தரும் விசித்திரமான செயல்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What is the main situation at the beginning of \"Guru Paramartha and His Five Disciples - Introduction\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "பரமார்த்த குருவின் கதைகளைத் தமிழில் இயற்றிய புகழ்பெற்ற இத்தாலியத் துறவி யார்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why does this story teach that \"Foolishness of book knowledge without worldly wisdom\"?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "மூடத்தனமான செயல்கள் எவ்வாறு சிரிப்பையும் அதே நேரத்தில் விழிப்புணர்வையும் தருகின்றன?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use this lesson in your own school or family life?"
+        "tier": "பயன்பாடு",
+        "prompt": "எந்த ஒரு செய்தியையும் கண்மூடித்தனமாக நம்பாமல் ஆராய்ந்து செயல்படுவது ஏன் அவசியம்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s final decision fair and kind to everyone?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+        "tier": "சிந்தனை",
+        "prompt": "வாழ்க்கையில் உண்மையான குருவுக்கு இருக்க வேண்டிய நற்குணங்கள் யாவை?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
@@ -162,37 +162,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"The Guru's Beard and Belly\"?",
+        "question": "குருவின் நீண்ட தாடியும் பெருத்த தொப்பையும் சீடர்களுக்கு என்ன பெரிய பிரச்சனையாகத் தோன்றியது?",
         "options": [
-          "Foolishness of book knowledge without worldly wisdom",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "குரு குனிந்து அமரும் போதும் நடக்கும் போதும் தாடி தரையில் பட்டு அழுக்காவதாக எண்ணினர்",
+          "குருவின் தாடிக்குள் கிளிகள் கூடு கட்டின",
+          "குருவுக்குத் தாடி வளர்க்கப் பிடிக்கவில்லை",
+          "அரசன் குருவின் தாடியை வெட்ட உத்தரவிட்டான்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "சீடர்களின் விநோதமான கவலையை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "குருவின் தாடியைச் சுத்தமாக வைத்திருக்க சீடர்கள் செய்த முட்டாள்தனமான யோசனை என்ன?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "கத்தரிக்கோலைத் தொடாமல் நெருப்பைக் கொண்டு தாடியைச் சுருக்க முயன்றனர்",
+          "தாடியைத் தங்க இழைகளால் கட்டினர்",
+          "குருவைத் தலைகீழாகத் தொங்கவிட்டனர்",
+          "தாடியை ஆற்று நீரில் தினமும் கழுவினர்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "சீடர்களின் விபரீதமான நெருப்பு யோசனையை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "இக்கதை மனிதர்களுக்கு உணர்த்தும் வாழ்வியல் நகைச்சுவை நீதி எது?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "அறிவுக்கூர்மை இல்லாதவர்களின் உதவி நன்மையை விடப் பெரும் விபரீதத்தையே உண்டாக்கும்",
+          "தாடி வளர்ப்பது எப்போதுமே ஆபத்தானது",
+          "சீடர்கள் இல்லாத குருவே மேலானவர்",
+          "மருத்துவரிடம் மட்டுமே ஆலோசனை கேட்க வேண்டும்"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "\"அறிவில்லாத நண்பனை விட அறிவார்ந்த எதிரி மேல்\" என்ற தத்துவத்தை நினைவுகூருங்கள்."
       }
     ],
     "author": "Veeramamunivar (Costanzo Beschi, 1728 / Tamil Folk Humor)",
@@ -204,38 +204,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given to guide decisions"
+        "word": "பெருத்த வயிறு",
+        "meaning": "அளவுக்கு அதிகமாக உண்டு பருத்துப் போன பெரிய தொப்பை"
       },
       {
-        "word": "discernment",
-        "meaning": "the ability to judge well and understand the truth"
+        "word": "தாடி",
+        "meaning": "முகத்தில் அடர்த்தியாக வளர்ந்த மயிர்க்கற்றை"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and think clearly during sudden events"
+        "word": "முட்டாள்தனம்",
+        "meaning": "எளிய வழிகளை விடுத்து ஆபத்தான செயலில் ஈடுபடும் மூடத்தனம்"
+      },
+      {
+        "word": "சாந்து",
+        "meaning": "சுவருக்குப் பூசப் பயன்படும் சுண்ணாம்பு அல்லது களிமண் கலவை"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What is the main situation at the beginning of \"The Guru's Beard and Belly\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "சீடர்களின் செயலால் குருவின் முகத்திற்கு என்ன நேர்ந்தது?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why does this story teach that \"Foolishness of book knowledge without worldly wisdom\"?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "நல்ல எண்ணத்தோடு செய்யப்படும் ஒரு செயல் அறிவின்மையால் எவ்வாறு தீங்காக மாறுகிறது?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use this lesson in your own school or family life?"
+        "tier": "பயன்பாடு",
+        "prompt": "பிறருக்கு உதவி செய்யும்போது சரியான முறையைத் தேர்ந்தெடுக்க வேண்டியதன் முக்கியத்துவம் என்ன?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s final decision fair and kind to everyone?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+        "tier": "சிந்தனை",
+        "prompt": "முட்டாள்களின் துணையை விட தனிமையே சிறந்தது என்பது எதனால்?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
@@ -289,37 +289,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"Counting the Disciples\"?",
+        "question": "ஆற்றைக் கடந்த பிறகு சீடர்கள் ஏன் நடுநடுங்கி கதறி அழத் தொடங்கினர்?",
         "options": [
-          "Foolishness of book knowledge without worldly wisdom",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "ஒவ்வொருவரும் மற்றவர்களை எண்ணிவிட்டுத் தன்னை எண்ண மறந்ததால் ஒருவர் ஆற்றில் மூழ்கிவிட்டதாகத் தவறாக நினைத்தனர்",
+          "அவர்களின் பணப் பை ஆற்றில் அடித்துச் செல்லப்பட்டது",
+          "ஆற்றில் முதலை வந்து அவர்களை அச்சுறுத்தியது",
+          "குரு ஆற்றில் நீந்தத் தெரியாமல் மயங்கி விழுந்தார்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "சீடர்கள் செய்த புகழ்பெற்ற கணக்குப் பிழையை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "அவ்வழியே வந்த புத்திசாலி வழிப்போக்கன் அவர்களின் பிழையை எவ்வாறு புரியவைத்தார்?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "ஒவ்வொருவர் முதுகிலும் ஒரு தடியால் தட்டி எண்ணிக்கையை உரக்கச் சொல்லித் தலைகளைக் கூட்டிக் காட்டினார்",
+          "அவர்களை மீண்டும் ஆற்றில் குதிக்கச் சொன்னார்",
+          "அவர்களோடு சேர்ந்து தானும் அழுதார்",
+          "ஊர் பஞ்சாயத்துக்கு அழைத்துச் சென்றார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "வழிப்போக்கன் தடியால் தட்டி எண்ணிய உத்தியைக் கவனியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "இக்கதையின் தத்துவார்த்த உட்கருத்து என்ன?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "மற்றவர்களை ஆராய்ந்து கணக்கிடும் மனிதன், பெரும்பாலும் தன்னைப் பற்றி சுய ஆய்வு செய்ய மறந்துவிடுகிறான்",
+          "ஆற்றில் எப்போதுமே நீந்தக்கூடாது",
+          "கணக்குப் பாடம் மிகவும் கடினமானது",
+          "வழிப்போக்கர்களை நம்பக்கூடாது"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "தன்னை அறிதலின் முக்கியத்துவத்தை எண்ணிப்பாருங்கள்."
       }
     ],
     "author": "Veeramamunivar (Costanzo Beschi, 1728 / Tamil Folk Humor)",
@@ -331,38 +331,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given to guide decisions"
+        "word": "ஆற்றங்கரை",
+        "meaning": "ஓடும் ஆற்றின் மணல் பரந்த ஓரப் பகுதி"
       },
       {
-        "word": "discernment",
-        "meaning": "the ability to judge well and understand the truth"
+        "word": "தன்னை மறத்தல்",
+        "meaning": "எல்லோரையும் எண்ணும்போது தன்னை மட்டும் கணக்கில் சேர்க்காமல் விட்டுவிடும் மறதி"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and think clearly during sudden events"
+        "word": "அலறி அழுதல்",
+        "meaning": "ஆபத்து நேர்ந்துவிட்டதாகக் கருதி கூச்சலிட்டுக் கண்ணீர் வடித்தல்"
+      },
+      {
+        "word": "வழிப்போக்கன்",
+        "meaning": "அந்தப் பாதையைக் கடந்து செல்லும் அறிவார்ந்த புதிய மனிதர்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What is the main situation at the beginning of \"Counting the Disciples\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "சீடர்கள் மொத்தம் எத்தனை பேர் ஆற்றில் நீந்திக் கடந்தனர்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why does this story teach that \"Foolishness of book knowledge without worldly wisdom\"?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "எல்லோரும் எண்ணியும் ஒரே தவறு மீண்டும் மீண்டும் ஏன் நிகழ்ந்தது?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use this lesson in your own school or family life?"
+        "tier": "பயன்பாடு",
+        "prompt": "நமது வாழ்க்கையில் பிறரின் குறைகளைத் தேடும் முன் நம்மை நாம் சுயபரிசோதனை செய்வது ஏன் அவசியம்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s final decision fair and kind to everyone?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+        "tier": "சிந்தனை",
+        "prompt": "கூட்டு அறியாமை (Group Mentality) எவ்வாறு மனிதர்களைப் பகுத்தறிவற்ற முடிவுகளுக்கு இட்டுச் செல்கிறது?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
@@ -416,37 +416,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What is the central moral lesson taught in \"The Horse and the Donkey\"?",
+        "question": "சந்தைக்குச் சென்ற சீடர்களிடம் ஒரு தந்திர வியாபாரி பெரிய பூசணிக்காயை என்னவென்று கூறி விற்றான்?",
         "options": [
-          "Foolishness of book knowledge without worldly wisdom",
-          "Acting in haste and anger without thinking",
-          "Believing rumors and flattery without proof",
-          "Leaving work unfinished"
+          "இது மிக உயர்ந்த அரேபியக் குதிரையின் அரிய முட்டை என்று கூறி ஏமாற்றி விற்றான்",
+          "இது விண்ணிலிருந்து விழுந்த விண்கல் என்றான்",
+          "இது தங்கமாக மாறும் அதிசயக் காய் என்றான்",
+          "இது நோய்களைத் தீர்க்கும் மூலிகை என்றான்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of this traditional story."
+        "hint": "வியாபாரி பூசணிக்காய்க்குச் சூட்டிய பொய்யான பெயரை நினைவுகூருங்கள்."
       },
       {
-        "question": "How do the characters overcome their challenge?",
+        "question": "வழியில் பூசணிக்காய் தவறி உருண்டு புதருக்குள் விழுந்ததும் அங்கிருந்து என்ன விலங்கு பாய்ந்து ஓடியது?",
         "options": [
-          "Through patience, calm reflection, and wisdom",
-          "By shouting loudly and blaming others",
-          "By running away from every problem",
-          "By ignoring good advice"
+          "புதருக்குள் பதுங்கியிருந்த ஒரு காட்டு முயல் பயந்து துள்ளியோடியது",
+          "ஒரு பெரிய புலி பாய்ந்து வந்தது",
+          "நிஜமான குதிரைக் குட்டி வெளியே வந்தது",
+          "ஒரு கருநாகப் பாம்பு சீறி வந்தது"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in world folklore."
+        "hint": "புதரில் மறைந்திருந்து ஓடிய வெள்ளையான சிறு விலங்கை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach young readers?",
+        "question": "முயல் ஓடுவதைக் கண்ட சீடர்கள் என்ன எண்ணி ஆனந்தக் கூத்தாடினர்?",
         "options": [
-          "Honesty, kindness, and clear thinking lead to peace",
-          "Deceit is never discovered",
-          "Greed always makes you happy",
-          "Might is always right"
+          "\"முட்டை உடைந்து நம் குதிரைக் குட்டி அதிவேகமாகப் பாய்ந்து ஓடுகிறது!\" என்று அறியாமையால் மகிழ்ந்தனர்",
+          "முயலைத் துரத்திப் பிடிக்க முயன்றனர்",
+          "வியாபாரி ஏமாற்றிவிட்டான் என்று உணர்ந்தனர்",
+          "குருவிடம் சென்று அழுதனர்"
         ],
         "answerIndex": 0,
-        "hint": "Reflect upon the resolution of the story."
+        "hint": "சீடர்களின் அடக்க முடியாத அறியாமை மகிழ்ச்சியை எண்ணுங்கள்."
       }
     ],
     "author": "Veeramamunivar (Costanzo Beschi, 1728 / Tamil Folk Humor)",
@@ -459,38 +459,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given to guide decisions"
+        "word": "பூசணிக்காய்",
+        "meaning": "தரையில் கொடியாகப் படர்ந்து காய்க்கும் பெரிய உருண்டையான நாட்டுக்காய்"
       },
       {
-        "word": "discernment",
-        "meaning": "the ability to judge well and understand the truth"
+        "word": "குதிரை முட்டை",
+        "meaning": "உலகில் இல்லாத, முட்டாள்களை ஏமாற்றப் புனையப்பட்ட பொய்ப் பொருள்"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and think clearly during sudden events"
+        "word": "அடைகாத்தல்",
+        "meaning": "முட்டையின் மீது அமர்ந்து உடல் வெப்பத்தால் குஞ்சு பொரிக்கச் செய்யும் செயல்"
+      },
+      {
+        "word": "பாய்ச்சல்",
+        "meaning": "முயல் அல்லது குதிரை ஒரே நொடியில் துள்ளிக் குதித்து ஓடும் வேகம்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What is the main situation at the beginning of \"The Horse and the Donkey\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "குதிரை முட்டையை அடைகாக்க சீடர்கள் என்ன திட்டம் போட்டனர்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why does this story teach that \"Foolishness of book knowledge without worldly wisdom\"?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "இயற்கை விதிகளை அறியாத மனிதர்கள் போலி வாக்குறுதிகளால் எவ்வாறு எளிதில் ஏமாற்றப்படுகிறார்கள்?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use this lesson in your own school or family life?"
+        "tier": "பயன்பாடு",
+        "prompt": "சந்தையிலும் இணையத்திலும் கவர்ச்சிகரமான போலி விளம்பரங்களை நாம் எவ்வாறு பகுத்தறிவோடு அணுக வேண்டும்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s final decision fair and kind to everyone?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+        "tier": "சிந்தனை",
+        "prompt": "அறிவியல் விழிப்புணர்வும் கல்வியும் மூடநம்பிக்கைகளை ஒழிப்பதில் எத்தகைய பங்கு வகிக்கின்றன?"
       }
     ],
     "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

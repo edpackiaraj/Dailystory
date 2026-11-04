@@ -164,37 +164,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What fundamental virtue is highlighted in \"The Wedge-Pulling Monkey\"?",
+        "question": "கோவில் மண்டபம் கட்டும் தச்சர்கள் மதிய உணவிற்காகச் சென்றபோது மரக்கட்டையில் என்ன செய்திருந்தனர்?",
         "options": [
-          "Wisdom, patience, and kind conduct lead to peace and happiness.",
-          "Acting in hasty anger without listening",
-          "Trusting deceitful flattery blindly",
-          "Leaving tasks undone"
+          "பாதி அறுக்கப்பட்ட மரக்கட்டை பிளவுபடாமல் இருக்க இடையில் ஓர் ஆப்பைச் செருகி வைத்திருந்தனர்",
+          "மரக்கட்டையைத் தங்கச் சங்கிலியால் பூட்டி வைத்திருந்தனர்",
+          "மரத்தின் மீது துணியைப் போர்த்தி மறைத்து வைத்திருந்தனர்",
+          "மரத்தைச் சுற்றிலும் பொறி அமைத்திருந்தனர்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of the story."
+        "hint": "தச்சர்கள் மரக்கட்டையின் பிளவில் செருகிய பொருளை நினைவுகூருங்கள்."
       },
       {
-        "question": "How does the central character approach their challenge?",
+        "question": "மரக்கூட்டத்தில் இருந்த குறும்புக்காரக் குரங்கு என்ன முட்டாள்தனமான செயலைச் செய்தது?",
         "options": [
-          "Through thoughtful reflection, patience, and presence of mind",
-          "By running away from responsibility",
-          "By shouting loudly and blaming friends",
-          "By ignoring good counsel"
+          "மரப்பிளவின் மீது அமர்ந்து கொண்டு, பலவந்தமாக அந்த மர ஆப்பைப் பிடுங்கி எறிந்தது",
+          "மரக்கட்டையைத் தூக்கிக்கொண்டு காட்டுக்குள் ஓடியது",
+          "தச்சர்களின் உணவைத் திருடித் தின்றது",
+          "மரத்தின் மீது ஏறி ஆனந்தமாகக் கூத்தாடியது"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in timeless fables."
+        "hint": "குரங்கு தேவையின்றி ஆப்பை அசைத்த விபரீதத்தை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach readers?",
+        "question": "பஞ்சதந்திரக் கதையான இக்கதை மனிதர்களுக்கு விடுக்கும் மிக முக்கியமான எச்சரிக்கை எது?",
         "options": [
-          "Patience, honesty, and humility lead to lasting harmony",
-          "False appearances never get discovered",
-          "Greed brings true happiness",
-          "Might is always right"
+          "தனக்குத் தொடர்பும் அறிவும் இல்லாத பிறர் விஷயங்களில் வீணாகத் தலையிடுபவன் பேராபத்தில் முடிவான்",
+          "குரங்குகளுக்கு மர வேலைகளைக் கற்றுத்தர வேண்டும்",
+          "தச்சர்கள் எப்போதும் மர ஆப்புகளைப் பயன்படுத்தக் கூடாது",
+          "காட்டில் கோவில் கட்டக் கூடாது"
         ],
         "answerIndex": 0,
-        "hint": "Think about how justice and truth prevail."
+        "hint": "\"தன் வேலையைப் பார்க்காமல் அடுத்தவர் வேலையில் மூக்கை நுழைப்பவனுக்கு நேரும் கதியை\" எண்ணுங்கள்."
       }
     ],
     "author": "Pandit Vishnu Sharma (~200 BCE – 300 CE)",
@@ -209,38 +209,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "ஆப்பு",
+        "meaning": "பிளந்த மரக்கட்டை மீண்டும் மூடிக்கொள்ளாமல் இருக்க இடையில் செருகப்படும் ஆப்பு வடிவ மரக்கட்டை"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "தச்சர்",
+        "meaning": "மர வேலைகளைச் செய்து பொருட்கள் உருவாக்கும் கைவினைஞர்"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "தேவையற்ற தலையீடு",
+        "meaning": "தனக்குத் தொடர்பும் அறிவும் இல்லாத காரியத்தில் முட்டாள்தனமாக மூக்கை நுழைத்தல்"
+      },
+      {
+        "word": "விபரீதம்",
+        "meaning": "எதிர்பாராமல் நடக்கும் கடுமையான பேராபத்து"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"The Wedge-Pulling Monkey\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "குரங்கின் எந்த உடல் உறுப்பு மரப்பிளவுக்குள் சிக்கிக்கொண்டது?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why is the moral \"Wisdom, patience, and kind conduct lead to peace and happiness.\" meaningful in daily life?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "அனுபவமும் அறிவும் இல்லாத பணிகளில் நாம் ஏன் கண்மூடித்தனமாகத் தலையிடக்கூடாது?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+        "tier": "பயன்பாடு",
+        "prompt": "மற்றவர்களின் சொந்த விவகாரங்களில் தேவையின்றித் தலையிடுவதைத் தவிர்ப்பது நம்மை எவ்வாறு பாதுகாக்கும்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "tier": "சிந்தனை",
+        "prompt": "விழிப்புணர்வும் தன்னுணர்வும் ஒரு மனிதனின் பாதுகாப்பிற்கு எவ்வாறு கவசமாக அமைகிறது?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -294,37 +294,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What fundamental virtue is highlighted in \"The Jackal and the War-Drum\"?",
+        "question": "பசியோடு காட்டில் அலைந்த கோமாயு என்ற நரிக்கு மரத்தடியிலிருந்து என்ன விநோதமான ஒலி கேட்டது?",
         "options": [
-          "Wisdom, patience, and kind conduct lead to peace and happiness.",
-          "Acting in hasty anger without listening",
-          "Trusting deceitful flattery blindly",
-          "Leaving tasks undone"
+          "காற்றில் அசைந்த மரக்கிளை மோதியதால் போர்க்களத்து முரசு எழுப்பிய பெரும் சத்தம் கேட்டது",
+          "காட்டுப் புலியின் பயங்கரமான உறுமல் ஒலி கேட்டது",
+          "மழையின் இடி முழக்கம் கேட்டது",
+          "வேடர்களின் துப்பாக்கி வெடிக்கும் சத்தம் கேட்டது"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of the story."
+        "hint": "கைவிடப்பட்ட முரசின் மீது மரக்கிளை மோதியதை நினைவுகூருங்கள்."
       },
       {
-        "question": "How does the central character approach their challenge?",
+        "question": "முரசைத் தொட்டுப் பார்த்த நரி உள்ளே பெரும் கொழுப்பும் மாமிசமும் இருக்கும் என எண்ணி என்ன செய்தது?",
         "options": [
-          "Through thoughtful reflection, patience, and presence of mind",
-          "By running away from responsibility",
-          "By shouting loudly and blaming friends",
-          "By ignoring good counsel"
+          "தன் கூரிய பற்களால் முரசின் தடித்த தோலைக் கிழித்து உள்ளே பார்த்தது",
+          "முரசைத் தூக்கிக்கொண்டு தன் குகைக்கு ஓடியது",
+          "மற்ற நரிகளை உதவிக்கு அழைத்தது",
+          "முரசுக்குப் பயந்து காட்டை விட்டே ஓடியது"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in timeless fables."
+        "hint": "நரி முரசின் தோலைக் கடித்ததைக் கவனியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach readers?",
+        "question": "முரசின் உள்ளே வெற்று மரத்தைத் தவிர ஒன்றுமில்லை என்பதைக் கண்ட நரி என்ன உணர்ந்தது?",
         "options": [
-          "Patience, honesty, and humility lead to lasting harmony",
-          "False appearances never get discovered",
-          "Greed brings true happiness",
-          "Might is always right"
+          "ஆழமற்ற வெறும் இரைச்சலையும் சத்தத்தையும் கண்டு ஒருபோதும் அஞ்சக்கூடாது என்பதை உணர்ந்தது",
+          "போர்க்களத்திற்குச் செல்லக்கூடாது என்று முடிவெடுத்தது",
+          "முரசுகளை உடைப்பது தவறு என்றது",
+          "இனிமேல் மாமிசம் சாப்பிடக்கூடாது என்றது"
         ],
         "answerIndex": 0,
-        "hint": "Think about how justice and truth prevail."
+        "hint": "வெற்றுப் பெருமை மற்றும் இரைச்சலின் நிஜத்தை எண்ணுங்கள்."
       }
     ],
     "author": "Pandit Vishnu Sharma (~200 BCE – 300 CE)",
@@ -339,38 +339,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "போர்ப் பறை",
+        "meaning": "போர்க்களத்தில் வீரர்களை உற்சாகப்படுத்த முழக்கப்படும் பெரிய தோல் முரசு"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "மரக்கிளை",
+        "meaning": "காற்றில் அசைந்து முரசின் மீது மோதிய மரத்தின் பகுதி"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "வெற்று ஒலி",
+        "meaning": "உள்ளே சத்து அல்லது உணவு எதுவும் இல்லாத வெற்றுப் பொருளின் பேரொலி"
+      },
+      {
+        "word": "அச்சம் தவிர்த்தல்",
+        "meaning": "காரணத்தை அறியாமல் வெறும் பெரும் சத்தத்தைக் கண்டு பயந்து ஓடாமல் ஆராய்தல்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"The Jackal and the War-Drum\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "முரசு எந்த இடத்தில் விழுந்து கிடந்தது?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why is the moral \"Wisdom, patience, and kind conduct lead to peace and happiness.\" meaningful in daily life?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "மனிதர்களில் யார் வெற்று முரசு போலப் பெரும் சத்தம் போடுகிறார்கள்?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+        "tier": "பயன்பாடு",
+        "prompt": "தோற்றப் பொலிவையும் வெற்றுப் பேச்சையும் கண்டு நாம் அஞ்சாமல் உண்மையை எவ்வாறு ஆராய வேண்டும்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "tier": "சிந்தனை",
+        "prompt": "\"குறைகுடம் கூத்தாடும், நிறைகுடம் ததும்பாது\" என்ற பழமொழிக்கு இக்கதை எவ்வாறு சான்றாகிறது?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -1198,37 +1198,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What fundamental virtue is highlighted in \"Numskull and the Rabbit\"?",
+        "question": "பாசிடோசகன் என்ற மகா கொடிய சிங்கம் நாள்தோறும் என்ன அட்டகாசம் செய்தது?",
         "options": [
-          "Wisdom, patience, and kind conduct lead to peace and happiness.",
-          "Acting in hasty anger without listening",
-          "Trusting deceitful flattery blindly",
-          "Leaving tasks undone"
+          "காட்டின் அனைத்து மிருகங்களையும் இரக்கமின்றி வேட்டையாடிக் கொன்று குவித்தது",
+          "காட்டைத் தீயிட்டுக் கொளுத்தியது",
+          "ஆற்று நீரை யாரையும் குடிக்க விடாமல் தடுத்தது",
+          "மற்ற விலங்குகளைக் கூண்டில் அடைத்து வைத்தது"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of the story."
+        "hint": "சிங்கத்தின் வரம்பற்ற படுகொலைகளை நினைவுகூருங்கள்."
       },
       {
-        "question": "How does the central character approach their challenge?",
+        "question": "தனது முறை வந்தபோது சிறிய முயல் சிங்கத்திடம் என்ன பொய்க் காரணத்தைக் கூறித் தாமதமாக வந்தது?",
         "options": [
-          "Through thoughtful reflection, patience, and presence of mind",
-          "By running away from responsibility",
-          "By shouting loudly and blaming friends",
-          "By ignoring good counsel"
+          "வழியில் மற்றொரு பெரும் சிங்கம் தன்னை வழிமறித்துத் தானே காட்டின் அரசன் என்று கர்ஜித்ததாகக் கூறியது",
+          "தான் தூங்கிவிட்டதாக உண்மையைச் சொன்னது",
+          "காட்டில் வழி தவறிப் போய்விட்டதாகக் கூறியது",
+          "தன் குடும்பத்தாரைப் பார்த்துவிட்டு வந்ததாகக் கூறியது"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in timeless fables."
+        "hint": "சிங்கத்தின் கர்வத்தைத் தூண்ட முயல் புனைந்த கதையை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach readers?",
+        "question": "முயல் காட்டிய பாழுங்கிணற்றுக்குள் எட்டிப் பார்த்த சிங்கம் ஏன் கிணற்றுக்குள் குதித்தது?",
         "options": [
-          "Patience, honesty, and humility lead to lasting harmony",
-          "False appearances never get discovered",
-          "Greed brings true happiness",
-          "Might is always right"
+          "நீரில் தெரிந்த தன் சொந்த நிழலையும் எதிரொலியையும் மற்றொரு எதிரி சிங்கம் என நினைத்து ஆக்ரோஷத்தில் குதித்து மடிந்தது",
+          "கிணற்றுக்குள் தாகத்திற்கு நீர் குடிக்கக் குதித்தது",
+          "முயலைத் தள்ள முயன்ற போது தவறி விழுந்தது",
+          "கிணற்றுக்குள் ஒளிந்திருந்த வேடனைத் தாக்கக் குதித்தது"
         ],
         "answerIndex": 0,
-        "hint": "Think about how justice and truth prevail."
+        "hint": "சிங்கத்தின் சொந்தக் கோபமும் அறியாமையுமே அதைக் கொன்றதை நினைவுகூருங்கள்."
       }
     ],
     "author": "Pandit Vishnu Sharma (~200 BCE – 300 CE)",
@@ -1243,30 +1243,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "கொடுங்கோலன்",
-        "meaning": "இரக்கமின்றி கொடுமையான ஆட்சி செய்யும் அரசன்"
+        "word": "மதம்கொண்ட சிங்கம்",
+        "meaning": "தன் பலத்தால் கர்வம் கொண்டு அடங்காமல் திரியும் கொடிய சிங்கம்"
       },
       {
-        "word": "பிரதிபலிப்பு",
-        "meaning": "தண்ணீர் அல்லது கண்ணாடியில் தோன்றும் நிழல் உருவம்"
+        "word": "நிழல்",
+        "meaning": "நீரிலோ கண்ணாடியிலோ தெரியும் பிம்பம்"
       },
       {
-        "word": "மனோபலம்",
-        "meaning": "அச்சமில்லாத மன உறுதி மற்றும் துணிச்சல்"
+        "word": "எதிரொலி",
+        "meaning": "பாழுங்கிணற்றிலோ குகையிலோ எழுப்பிய சத்தம் மோதித் திரும்பி வரும் ஒலி"
+      },
+      {
+        "word": "சாதுரியம்",
+        "meaning": "எதிரியின் முட்டாள்தனத்தையும் கர்வத்தையும் அவனுக்கே எதிராக்கும் புத்தி கூர்மை"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "முயல் சிங்கத்தின் குகைக்கு ஏன் தாமதமாகச் சென்றது?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "காட்டு விலங்குகள் சிங்கத்திற்கு நாள்தோறும் என்ன ஒப்பந்தம் செய்திருந்தன?"
       },
       {
-        "tier": "Understand",
-        "prompt": "சிங்கம் கிணற்றுக்குள் பாயக் காரணம் என்ன?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "அசாத்திய உடல் பலம் கொண்ட கொடிய சிங்கத்தை மிகச் சிறிய முயல் எவ்வாறு வீழ்த்தியது?"
       },
       {
-        "tier": "Apply",
-        "prompt": "நம்மை விட வலிமையான எதிரி எதிரில் வரும்போது நாம் கோபப்படாமல் எப்படி விவேகமாகச் செயல்பட வேண்டும்?"
+        "tier": "பயன்பாடு",
+        "prompt": "\"உடல்பலத்தை விட அறிவுபலமே சிறந்தது\" என்பதற்கு இக்கதை எவ்வாறு தலைசிறந்த சான்றாகிறது?"
+      },
+      {
+        "tier": "சிந்தனை",
+        "prompt": "கட்டுக்கடங்காத கோபமும் கர்வமும் மனிதனின் சிந்திக்கும் ஆற்றலை எவ்வாறு முற்றிலும் குருடாக்குகிறது?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -1708,37 +1716,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What fundamental virtue is highlighted in \"The Blue Jackal\"?",
+        "question": "நாய்களுக்குப் பயந்து ஊருக்குள் ஓடிய நரி எதில் விழுந்து தன் நிறத்தை மாற்றிக்கொண்டது?",
         "options": [
-          "Wisdom, patience, and kind conduct lead to peace and happiness.",
-          "Acting in hasty anger without listening",
-          "Trusting deceitful flattery blindly",
-          "Leaving tasks undone"
+          "சாயப் பட்டறையில் இருந்த நீலச் சாயத் தொட்டிக்குள் தலைகீழாக விழுந்தது",
+          "சேற்று வயலில் விழுந்தது",
+          "சாம்பல் குவியலில் விழுந்தது",
+          "பச்சை வண்ண ஆற்றுக்குள் குதித்தது"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of the story."
+        "hint": "நரியை நீல நிறமாக மாற்றிய சாயத் தொட்டியை நினைவுகூருங்கள்."
       },
       {
-        "question": "How does the central character approach their challenge?",
+        "question": "நீல நிறத்தோடு காட்டுக்குத் திரும்பிய நரி மற்ற விலங்குகளை ஏமாற்றி என்ன கூறியது?",
         "options": [
-          "Through thoughtful reflection, patience, and presence of mind",
-          "By running away from responsibility",
-          "By shouting loudly and blaming friends",
-          "By ignoring good counsel"
+          "\"கடவுள் என்னை உங்கள் அனைவருக்கும் ராஜாவாகப் படைத்து அனுப்பியுள்ளார்\" என்று பொய் கூறியது",
+          "\"நான் வேடர்களைக் கொன்றுவிட்டேன்\" என்றது",
+          "\"நான் காட்டை விட்டு வெளியேறப் போகிறேன்\" என்றது",
+          "\"எனக்கு நாள்தோறும் பழங்கள் மட்டுமே கொடுங்கள்\" என்றது"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in timeless fables."
+        "hint": "கடவுளின் தூதன் எனப் பொய் சொல்லி ஏமாற்றிய நரியை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach readers?",
+        "question": "நீல நரியின் போலி நாடகம் காட்டில் எவ்வாறு அம்பலமானது?",
         "options": [
-          "Patience, honesty, and humility lead to lasting harmony",
-          "False appearances never get discovered",
-          "Greed brings true happiness",
-          "Might is always right"
+          "பௌர்ணமி இரவில் தூரத்து நரிகள் ஊளையிட்ட சத்தத்தைக் கேட்டு, தன் இயல்பான குணத்தை அடக்க முடியாமல் தானும் ஊளையிட்டுக் காட்டிக்கொடுத்தது",
+          "மழையில் நனைந்து சாயம் வெளுத்துப் போனது",
+          "சிங்கம் அதன் வாலைப் பிடித்து இழுத்தது",
+          "ஒரு நாய் காட்டுக்குள் வந்து அடையாளம் காட்டியது"
         ],
         "answerIndex": 0,
-        "hint": "Think about how justice and truth prevail."
+        "hint": "தன் இயற்கை சுபாவமான ஊளையை அடக்க முடியாமல் நரி செய்த தவறை எண்ணிப்பாருங்கள்."
       }
     ],
     "author": "Pandit Vishnu Sharma (~200 BCE – 300 CE)",
@@ -1753,30 +1761,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "சாயத்தொட்டி",
-        "meaning": "துணிகளுக்கு வண்ணம் தீட்ட பயன்படும் திரவத் தொட்டி"
+        "word": "நீலச் சாயம்",
+        "meaning": "துணிகளுக்கு வண்ணமேற்றத் தொட்டியில் வைக்கப்பட்டிருந்த நீல நிறச் சாயக் கரைசல்"
       },
       {
-        "word": "சுபாவம்",
-        "meaning": "பிறப்பிலேயே அமைந்த இயற்கையான குணம்"
+        "word": "மாய விலங்கு",
+        "meaning": "தெய்வத்தால் படைக்கப்பட்டுப் பூமிக்கு அனுப்பப்பட்டதாகப் பொய் கூறப்பட்ட விநோத விலங்கு"
       },
       {
-        "word": "போலி வேடம்",
-        "meaning": "உண்மையை மறைத்து போலியாக அணியும் தோற்றம்"
+        "word": "இயற்கை சுபாவம்",
+        "meaning": "எத்தனை வேடம் போட்டாலும் மறைக்க முடியாத உயிரினத்தின் பிறவிக் குணம்"
+      },
+      {
+        "word": "ஊளையிடுதல்",
+        "meaning": "இரவு நேரத்தில் நரிகள் வானத்தைப் பார்த்துக் கூட்டமாக எழுப்பும் நீண்ட அலறல் ஒலி"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "நரி எப்படி நீல நிறமாக மாறியது?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "நீல நரி ராஜாவானதும் உண்மையான நரிக் கூட்டத்தை என்ன செய்தது?"
       },
       {
-        "tier": "Understand",
-        "prompt": "நீல நரியின் ரகசியம் மற்ற விலங்குகளுக்கு எப்படித் தெரிந்தது?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "போலி வேடமும் தற்காலிகப் பகட்டும் ஏன் ஒருபோதும் நிரந்தர வெற்றியைத் தராது?"
       },
       {
-        "tier": "Apply",
-        "prompt": "நமது சுய அடையாளத்தை மறைக்காமல் உண்மையோடு வாழ்வது ஏன் முக்கியம்?"
+        "tier": "பயன்பாடு",
+        "prompt": "மற்றவர்களை ஏமாற்றப் போலி அடையாளங்களை அணிபவர்கள் இறுதியில் எவ்வாறு வெளிப்படுகிறார்கள்?"
+      },
+      {
+        "tier": "சிந்தனை",
+        "prompt": "\"சுபாவத்தை மாற்ற முடியாது\" என்பதற்கு நீல நரியின் செயல் எவ்வாறு உலகப் புகழ்பெற்ற பாடமாக அமைந்தது?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

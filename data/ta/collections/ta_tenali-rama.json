@@ -35,37 +35,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What fundamental virtue is highlighted in \"Tenali Raman and the Theft of Wells\"?",
+        "question": "அரசவைக்குள் பதற்றத்தோடு ஓடிவந்த தெனாலிராமன் மன்னரிடம் என்ன விநோதமான புகார் கூறினார்?",
         "options": [
-          "Wit and humor triumph over arrogance and power",
-          "Acting in hasty anger without listening",
-          "Trusting deceitful flattery blindly",
-          "Leaving tasks undone"
+          "நேற்று இரவு தன் வீட்டுக் கொல்லைப்புறக் கிணற்றைத் திருடர்கள் பெயர்த்து எடுத்துச் சென்றுவிட்டனர்",
+          "தனது வீட்டிலிருந்த விலைமதிப்பற்ற வைரங்களைத் திருடர்கள் கவர்ந்து சென்றனர்",
+          "அரண்மனைத் தோட்டத்தில் புகுந்து திருடர்கள் காய்கறிகளைப் பறித்துவிட்டனர்",
+          "ஊர் மக்கள் யாரும் தனக்குக் குடிநீர் தர மறுக்கிறார்கள்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of the story."
+        "hint": "மன்னரையும் அவையோரையும் வியக்க வைத்த கிணற்றுப் புகாரை நினைவுகூருங்கள்."
       },
       {
-        "question": "How does the central character approach their challenge?",
+        "question": "கிணற்றைத் திருடர்கள் எப்படித் தூக்கிச் செல்ல முடியும் என்று மன்னர் கேட்டபோது ராமன் என்ன பதிலளித்தார்?",
         "options": [
-          "Through thoughtful reflection, patience, and presence of mind",
-          "By running away from responsibility",
-          "By shouting loudly and blaming friends",
-          "By ignoring good counsel"
+          "அமைச்சர்களின் கணக்கு ஏடுகளில் இருந்த 30 கிணறுகளையே மாயமாகத் தூக்க முடியும் போது என் கிணற்றைத் தூக்க முடியாதா என்றார்",
+          "திருடர்களிடம் மாய மந்திரச் சக்தி இருந்தது என்று கூறினார்",
+          "பூமிக்கடியில் பெரும் சுரங்கம் அமைத்துத் திருடிவிட்டனர் என்றார்",
+          "தான் தூக்கத்தில் கண்ட கனவு என்று கூறினார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in timeless fables."
+        "hint": "காகிதக் கிணறுகள் மூலம் அமைச்சர்களின் ஊழலை ராமன் சுட்டிக்காட்டியதைக் கவனியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach readers?",
+        "question": "இக்கதை அதிகாரிகளுக்கும் ஆட்சியாளர்களுக்கும் புகட்டும் வாழ்வியல் பாடம் எது?",
         "options": [
-          "Patience, honesty, and humility lead to lasting harmony",
-          "False appearances never get discovered",
-          "Greed brings true happiness",
-          "Might is always right"
+          "அரசுப் பணத்தில் செய்யப்படும் ஊழல் என்றாவது ஒருநாள் புத்திசாலித்தனத்தால் அம்பலமாகும்",
+          "கிணறுகளுக்கு இரும்பு மூடி போட்டுப் பூட்ட வேண்டும்",
+          "அரசவையில் எப்போதுமே நகைச்சுவை செய்ய வேண்டும்",
+          "கணக்கு ஏடுகளை யாருக்கும் காட்டக்கூடாது"
         ],
         "answerIndex": 0,
-        "hint": "Think about how justice and truth prevail."
+        "hint": "நேர்மையும் மக்கள் நலனுமே உண்மையான ஆட்சி என்பதைக் கருத்தில் கொள்ளுங்கள்."
       }
     ],
     "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -77,38 +77,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "ஊழல்",
+        "meaning": "தனது சுயலாபத்திற்காக மக்கள் மற்றும் அரசுப் பணத்தைத் தவறாகப் பயன்படுத்தும் அநீதி"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "பொறி தட்டுதல்",
+        "meaning": "திடீரென்று ஒரு மறைந்திருந்த உண்மை தெளிவாகப் புரிந்து விளங்குதல்"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "தணிக்கை",
+        "meaning": "கணக்கு ஏடுகளில் எழுதப்பட்ட வரவு செலவுகளை நேரில் சரிபார்த்து ஆய்வு செய்தல்"
+      },
+      {
+        "word": "பொற்கிழி",
+        "meaning": "மன்னர்களால் அறிஞர்களுக்குப் பரிசாக வழங்கப்படும் தங்க நாணயங்கள் நிறைந்த பை"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"Tenali Raman and the Theft of Wells\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "ஊழல் அதிகாரிகள் அரசுப் பணத்தைக் கொள்ளையடித்துவிட்டு என்ன பொய்க் கணக்குக் காட்டினர்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why is the moral \"Wit and humor triumph over arrogance and power\" meaningful in daily life?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "நேரடியாகப் புகார் செய்யாமல் தெனாலிராமன் ஏன் இந்த விநோதமான நாடகத்தை அரங்கேற்றினார்?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+        "tier": "பயன்பாடு",
+        "prompt": "சமூகத்தில் நடக்கும் அநீதிகளை நகைச்சுவையோடும் சாதுரியத்தோடும் அம்பலப்படுத்துவது ஏன் வலிமையானது?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "tier": "சிந்தனை",
+        "prompt": "ஒரு நாட்டின் வளர்ச்சிக்கு அதிகாரிகளின் நேர்மையும் வெளிப்படைத்தன்மையும் எவ்வளவு இன்றியமையாதது?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -162,37 +162,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What fundamental virtue is highlighted in \"The Two Thieves and the Royal Treasure\"?",
+        "question": "தன் வீட்டைச் சுற்றித் திருடர்கள் பதுங்கியிருப்பதை உணர்ந்த தெனாலிராமன் என்ன செய்தார்?",
         "options": [
-          "Wit and humor triumph over arrogance and power",
-          "Acting in hasty anger without listening",
-          "Trusting deceitful flattery blindly",
-          "Leaving tasks undone"
+          "மனைவியிடம் சத்தமாகப் பேசி, நகைப் பெட்டி எனப் பழைய இரும்புப் பாத்திரங்களை மூட்டையாகக் கட்டிப் பாழுங்கிணற்றில் போட்டார்",
+          "உடனே காவலாளிகளை அழைத்துத் திருடர்களைப் பிடிக்க வைத்தார்",
+          "பயந்துபோய் கதவை உள்பக்கமாகப் பூட்டிக்கொண்டு நடுங்கினார்",
+          "வீட்டிலிருந்த நகைகளை எடுத்துக்கொண்டு இரவோடு இரவாக ஓடினார்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of the story."
+        "hint": "திருடர்களைக் கொண்டே தன் தோட்டத்திற்கு நீர் பாய்ச்ச ராமன் செய்த தந்திரத்தை யோசியுங்கள்."
       },
       {
-        "question": "How does the central character approach their challenge?",
+        "question": "கிணற்றில் போட்ட பெட்டியை எடுக்கத் திருடர்கள் இரவு முழுவதும் என்ன செய்தனர்?",
         "options": [
-          "Through thoughtful reflection, patience, and presence of mind",
-          "By running away from responsibility",
-          "By shouting loudly and blaming friends",
-          "By ignoring good counsel"
+          "கிணற்றிலிருந்து பல நூறு வாளித் தண்ணீரைத் தொடர்ந்து இறைத்துத் தோட்டத்துப் பயிர்களுக்குப் பாய்ச்சினர்",
+          "கிணற்றுக்குள் கயிறு கட்டி இறங்கி உடனே தப்பித்தனர்",
+          "பெட்டி கனமாக இருந்ததால் அதை எடுக்காமல் ஓடிவிட்டனர்",
+          "ராமனின் வீட்டைத் தீயிட்டுக் கொளுத்தினர்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in timeless fables."
+        "hint": "திருடர்கள் செய்த கடுமையான உடலுழைப்பைக் கவனியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach readers?",
+        "question": "விடிந்ததும் களைத்து நின்ற திருடர்களிடம் தெனாலிராமன் என்ன கூறி நன்றி தெரிவித்தார்?",
         "options": [
-          "Patience, honesty, and humility lead to lasting harmony",
-          "False appearances never get discovered",
-          "Greed brings true happiness",
-          "Might is always right"
+          "\"என் தோட்டம் முழுவதும் நீர் பாய்ச்சிய உங்கள் அன்பான உழைப்புக்கு மிக்க நன்றி!\" என்றார்",
+          "\"உங்களைச் சிறையில் அடைக்கப் போகிறேன்!\" என்றார்",
+          "\"இந்தப் பெட்டியில் தங்கம் இருக்கிறது எடுத்துச் செல்லுங்கள்!\" என்றார்",
+          "\"இனிமேல் என் வீட்டிற்கு வரக்கூடாது!\" என்று எச்சரித்தார்"
         ],
         "answerIndex": 0,
-        "hint": "Think about how justice and truth prevail."
+        "hint": "தெனாலிராமனின் நையாண்டியான நகைச்சுவை உணர்வை நினைவுகூருங்கள்."
       }
     ],
     "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -204,38 +204,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "அயர்ந்து",
+        "meaning": "எச்சரிக்கை உணர்வின்றி மிகவும் ஆழ்ந்து தூங்குதல்"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "சாதுரியம்",
+        "meaning": "சூழ்நிலையை உணர்ந்து சமயோசிதமாகத் தந்திரத்தைக் கையாளும் சாமர்த்தியம்"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "மடை மாற்றுதல்",
+        "meaning": "வாய்க்கால் வழியாக நீர் பாயும் வழியைப் பாத்திகளுக்குத் திருப்பி விடுதல்"
+      },
+      {
+        "word": "பொட்டலம்",
+        "meaning": "பொருட்களைத் துணியிலோ ஓலையிலோ சுற்றி வைக்கப்பட்ட சிறிய மூட்டை"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"The Two Thieves and the Royal Treasure\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "ராமன் கிணற்றில் போட்ட கனமான பெட்டிக்குள் உண்மையில் என்ன இருந்தது?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why is the moral \"Wit and humor triumph over arrogance and power\" meaningful in daily life?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "ஆபத்தான திருடர்களை வன்முறையின்றி ராமன் எவ்வாறு தோற்கடித்தார்?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+        "tier": "பயன்பாடு",
+        "prompt": "அச்சமூட்டும் இக்கட்டான சூழ்நிலைகளில் பதற்றப்படாமல் அமைதியாகச் சிந்திப்பது எவ்வாறு உதவும்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "tier": "சிந்தனை",
+        "prompt": "\"சமய புத்தியே சிறந்த ஆயுதம்\" என்பதற்கு இக்கதை எவ்வாறு சான்றாகிறது?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -289,37 +289,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What fundamental virtue is highlighted in \"Tenali and the Three Dolls\"?",
+        "question": "அண்டை நாட்டுத் தூதர் அரசவைக்குக் கொண்டுவந்த மூன்று பொம்மைகளின் சிறப்பு என்ன?",
         "options": [
-          "Wit and humor triumph over arrogance and power",
-          "Acting in hasty anger without listening",
-          "Trusting deceitful flattery blindly",
-          "Leaving tasks undone"
+          "மூன்றும் ஒரே எடையும் உருவமும் கொண்டு அச்சு அசல் ஒரே மாதிரி இருந்தன",
+          "அவை தங்கம், வெள்ளி மற்றும் செம்பினால் செய்யப்பட்டிருந்தன",
+          "அவை தானாகப் பேசும் மற்றும் நடக்கும் ஆற்றல் பெற்றிருந்தன",
+          "அவை விலங்குகளின் குரலில் ஒலி எழுப்பின"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of the story."
+        "hint": "பொம்மைகளின் வெளிப்புறத் தோற்றத்தை நினைவுகூருங்கள்."
       },
       {
-        "question": "How does the central character approach their challenge?",
+        "question": "தெனாலிராமன் மெல்லிய வைக்கோல் துரும்பை முதல் பொம்மையின் காதில் விட்டபோது என்ன நடந்தது?",
         "options": [
-          "Through thoughtful reflection, patience, and presence of mind",
-          "By running away from responsibility",
-          "By shouting loudly and blaming friends",
-          "By ignoring good counsel"
+          "அது மறு காது வழியே வெளியே வந்தது; ஒரு காதில் வாங்கி மறுகாதில் விடும் அற்ப மனிதர்களைக் குறித்தது",
+          "அது வாய் வழியே வந்து பிறரிடம் இரகசியத்தைப் பரப்பும் மனிதர்களைக் குறித்தது",
+          "அது வயிற்றுக்குள் சென்று இரகசியத்தைக் காக்கும் நல்ல மனிதரைக் குறித்தது",
+          "பொம்மை இரண்டாக உடைந்துபோனது"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in timeless fables."
+        "hint": "ராமன் காட்டிய முதல் வகை மனிதர்களின் குணத்தை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach readers?",
+        "question": "மூன்று பொம்மைகளில் மிகச் சிறந்த பொம்மையாக ராமன் எதைத் தேர்ந்தெடுத்தார்? ஏன்?",
         "options": [
-          "Patience, honesty, and humility lead to lasting harmony",
-          "False appearances never get discovered",
-          "Greed brings true happiness",
-          "Might is always right"
+          "மூன்றாவது பொம்மை; ஏனெனில் அது கேட்ட நல்ல விஷயங்களைத் தன் நெஞ்சில் அடக்கி இரகசியம் காக்கும் உத்தம நண்பனைக் குறித்தது",
+          "முதல் பொம்மை; அது பார்ப்பதற்கு மிக அழகாக இருந்தது",
+          "இரண்டாவது பொம்மை; அது உரக்கப் பேசியது",
+          "எந்தப் பொம்மையும் சிறந்ததல்ல என்று கூறினார்"
         ],
         "answerIndex": 0,
-        "hint": "Think about how justice and truth prevail."
+        "hint": "இரகசியத்தைக் காக்கும் சிறந்த மனிதரின் உயர்வை எண்ணுங்கள்."
       }
     ],
     "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -331,30 +331,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "உத்தமன்",
-        "meaning": "உயர்ந்த நற்பண்புகளும் நல்லொழுக்கமும் கொண்ட மேலான மனிதன்"
+        "word": "ஒத்த தோற்றம்",
+        "meaning": "அளவில், நிறத்தில், வடிவத்தில் சிறிதும் வேறுபாடின்றி ஒரே மாதிரியாக இருக்கும் தன்மை"
       },
       {
-        "word": "வதந்தி",
-        "meaning": "உண்மைக்குப் புறம்பாகப் பரப்பப்படும் தவறான பேச்சு"
+        "word": "காது குடைதல்",
+        "meaning": "செவியின் வழியே எதையும் நுட்பமாக ஆராய்தல்"
       },
       {
-        "word": "ரகசியம்",
-        "meaning": "பிறருக்குத் தேவையின்றி வெளிப்படுத்தாமல் காக்கப்பட வேண்டிய செய்தி"
+        "word": "இரகசியம்",
+        "meaning": "பிறர் அறியாதபடி மறைத்து வைக்கப்படும் அந்தரங்கமான உண்மை"
+      },
+      {
+        "word": "நம்பகத்தன்மை",
+        "meaning": "ஒருவரின் சொல்லை முழுமையாக நம்பிப் பொறுப்புகளை ஒப்படைக்கத்தக்க உத்தம குணம்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "தெனாலிராமன் பொம்மைகளைச் சோதிக்க எதைப் பயன்படுத்தினார்?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "பொம்மைகளின் வேறுபாட்டைக் கண்டுபிடிக்க ராமன் பயன்படுத்திய பொருள் எது?"
       },
       {
-        "tier": "Understand",
-        "prompt": "மூன்று பொம்மைகளும் எந்த மூன்று வகை மனிதர்களைக் குறிக்கின்றன?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "கேட்டதை உடனே ஊரெல்லாம் பரப்பும் மனிதர்களிடம் நாம் ஏன் எச்சரிக்கையாக இருக்க வேண்டும்?"
       },
       {
-        "tier": "Apply",
-        "prompt": "நமது நண்பர்கள் நம்மிடம் ஒரு விஷயத்தை நம்பிச் சொல்லும்போது நாம் எப்படி நடந்துகொள்ள வேண்டும்?"
+        "tier": "பயன்பாடு",
+        "prompt": "நல்ல நண்பர்களைத் தேர்ந்தெடுக்கும் போது இந்த மூன்று பொம்மைகளின் தத்துவம் எவ்வாறு வழிகாட்டுகிறது?"
+      },
+      {
+        "tier": "சிந்தனை",
+        "prompt": "ஒருவரின் உள்ளடக்கமான குணத்தை அறியாமல் வெளிப்புற அழகை மட்டுமே நம்புவது ஏன் தவறு?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -408,37 +416,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What fundamental virtue is highlighted in \"Tenali and the Horse Trader\"?",
+        "question": "மன்னர் கிருஷ்ணதேவராயர் அரசவை அமைச்சர்களுக்கும் ராமனுக்கும் குதிரைக் குட்டிகளைக் கொடுத்து என்ன உத்தரவிட்டார்?",
         "options": [
-          "Wit and humor triumph over arrogance and power",
-          "Acting in hasty anger without listening",
-          "Trusting deceitful flattery blindly",
-          "Leaving tasks undone"
+          "தினமும் சத்தான தீவனம் தந்து வளர்த்து ஒரு மாதம் கழித்து அரசவைக்குக் கொண்டுவர வேண்டும் என்றார்",
+          "குதிரைகளை விற்றுப் பணம் கொண்டுவர வேண்டும் என்றார்",
+          "போர்க்களத்திற்கு உடனே குதிரைகளை ஓட்டிச் செல்ல வேண்டும் என்றார்",
+          "குதிரைகளுக்கு நடனம் கற்றுக் கொடுக்க வேண்டும் என்றார்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of the story."
+        "hint": "மன்னரின் குதிரை வளர்ப்புச் சோதனையை நினைவுகூருங்கள்."
       },
       {
-        "question": "How does the central character approach their challenge?",
+        "question": "மற்றவர்கள் குதிரையை நன்கு மேய்த்தபோது, தெனாலிராமன் தன் குதிரையை எவ்வாறு வளர்த்தார்?",
         "options": [
-          "Through thoughtful reflection, patience, and presence of mind",
-          "By running away from responsibility",
-          "By shouting loudly and blaming friends",
-          "By ignoring good counsel"
+          "ஒரு சிறிய கொட்டிலில் கட்டிப்போட்டுச் சுவரின் சாளர இடைவெளி வழியே சிறிதளவு புல்லை மட்டுமே தினமும் காட்டினார்",
+          "குதிரைக்கு அறுசுவை உணவும் இனிப்புகளும் மட்டுமே தந்தார்",
+          "குதிரையைக் காட்டில் சுதந்திரமாகத் திரிய விட்டார்",
+          "குதிரையைத் தன் படுக்கையறையிலேயே வளர்த்தார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in timeless fables."
+        "hint": "ராமன் குதிரையைப் புல்லுக்காக ஏங்க வைத்த உத்தியைக் கவனியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach readers?",
+        "question": "மன்னரின் குதிரைப் பயிற்சியாளர் குதிரையைச் சோதிக்க வந்தபோது என்ன நடந்தது?",
         "options": [
-          "Patience, honesty, and humility lead to lasting harmony",
-          "False appearances never get discovered",
-          "Greed brings true happiness",
-          "Might is always right"
+          "பயிற்சியாளரின் நீண்ட தாடியைப் புல் என்று நினைத்துக் குதிரை கவ்விப் பிடித்துக்கொண்டது",
+          "குதிரை ஓடிவந்து பயிற்சியாளரை மிதித்தது",
+          "குதிரை பயந்துபோய்ப் படுத்துக்கொண்டது",
+          "பயிற்சியாளர் குதிரையின் வேகத்தைப் பாராட்டிப் பரிசு தந்தார்"
         ],
         "answerIndex": 0,
-        "hint": "Think about how justice and truth prevail."
+        "hint": "குதிரையின் பசிக்கு ஆளான பயிற்சியாளரின் தாடியை நினைவுகூருங்கள்."
       }
     ],
     "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -450,38 +458,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "பராமரிப்பு",
+        "meaning": "விலங்குகளையோ மனிதர்களையோ முறையாகப் பேணிப் பாதுகாக்கும் செயல்"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "தாடி",
+        "meaning": "முகத்தில் வளரும் ரோமம்"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "தீவனம்",
+        "meaning": "குதிரை போன்ற விலங்குகளுக்கு வழங்கப்படும் சத்தான புல் தானிய உணவு"
+      },
+      {
+        "word": "முரட்டுத்தனம்",
+        "meaning": "கட்டுக்கடங்காமல் அடங்காத குணம் கொண்ட நிலை"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"Tenali and the Horse Trader\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "குதிரைகளை வளர்க்க மன்னர் அரசு கஜானாவிலிருந்து என்ன வழங்கினார்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why is the moral \"Wit and humor triumph over arrogance and power\" meaningful in daily life?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "அரசுப் பணத்தைப் பெற்றுக்கொண்டு போலி உழைப்பு காட்டும் அமைச்சர்களுக்கு ராமன் எவ்வாறு பாடம் புகட்டினார்?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+        "tier": "பயன்பாடு",
+        "prompt": "பொறுப்புகளை நிறைவேற்றாமல் பணத்தை மட்டும் வீணடிப்பவர்களை சமூகம் எவ்வாறு அடையாளம் காண வேண்டும்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "tier": "சிந்தனை",
+        "prompt": "தெனாலிராமனின் அணுகுமுறையில் நகைச்சுவைக்கு அப்பால் உள்ள அரசியல் விழிப்புணர்வு யாது?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -535,37 +543,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What fundamental virtue is highlighted in \"The Cat and the Milk\"?",
+        "question": "மன்னர் ஊரில் எலித் தொல்லையைப் போக்க ஒவ்வொரு வீட்டுக்கும் பூனைகளைக் கொடுத்து என்ன செய்தார்?",
         "options": [
-          "Wit and humor triumph over arrogance and power",
-          "Acting in hasty anger without listening",
-          "Trusting deceitful flattery blindly",
-          "Leaving tasks undone"
+          "பூனைகளுக்கு நாள்தோறும் பால் கொடுக்க அரசு கஜானாவிலிருந்து பசு மாடுகளை வழங்கினார்",
+          "பூனைகளுக்கு மீன் மட்டுமே கொடுக்க உத்தரவிட்டார்",
+          "பூனைகளை எலிகளைப் பிடிக்கப் பயிற்சிப் பள்ளியில் சேர்க்கச் சொன்னார்",
+          "பூனைகளைத் தங்கக் கூண்டில் அடைக்கச் சொன்னார்"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of the story."
+        "hint": "மன்னரின் விசித்திரமான பூனை வளர்ப்புத் திட்டத்தை நினைவுகூருங்கள்."
       },
       {
-        "question": "How does the central character approach their challenge?",
+        "question": "தெனாலிராமன் தன் வீட்டுப் பூனைக்குப் பால் கொடுத்த முதல் நாளே என்ன செய்தார்?",
         "options": [
-          "Through thoughtful reflection, patience, and presence of mind",
-          "By running away from responsibility",
-          "By shouting loudly and blaming friends",
-          "By ignoring good counsel"
+          "கொதிக்கும் சுடச்சுடப் பாலைக் கிண்ணத்தில் ஊற்றிப் பூனையின் முன் வைத்தார்",
+          "பாலில் சர்க்கரை கலந்து அன்பாக ஊட்டினார்",
+          "பாலை ஒரு கிணற்றில் ஊற்றிவிட்டார்",
+          "பூனைக்குப் பாலே கொடுக்காமல் பட்டினி போட்டார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in timeless fables."
+        "hint": "பூனையின் நாக்கு வெந்துபோக ராமன் செய்த செயலை யோசியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach readers?",
+        "question": "மன்னரின் முன்னிலையில் பாலை வைத்தபோது ராமனின் பூனை ஏன் ஓடிப்போனது?",
         "options": [
-          "Patience, honesty, and humility lead to lasting harmony",
-          "False appearances never get discovered",
-          "Greed brings true happiness",
-          "Might is always right"
+          "முதல் நாள் வாய் சுட்ட பயத்தால் குளிர்ந்த பாலைக் கண்டாலும் கொதிக்கும் பால் என அஞ்சி ஓடியது",
+          "பூனைக்கு ஏற்கனவே வயிறு நிறைந்திருந்தது",
+          "மன்னரைக் கண்டு பூனை பயந்தது",
+          "பால் புளித்துப் போயிருந்தது"
         ],
         "answerIndex": 0,
-        "hint": "Think about how justice and truth prevail."
+        "hint": "\"சூடுபட்ட பூனை அடுப்பங்கரையை நாடாது\" என்ற பழமொழியை நினைவில் கொள்ளுங்கள்."
       }
     ],
     "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -577,38 +585,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "counsel",
-        "meaning": "wise advice given after thoughtful consideration"
+        "word": "கொதிக்கும் பால்",
+        "meaning": "அடுப்பில் காய்ச்சி மிக அதிக வெப்பத்தில் இருக்கும் பால்"
       },
       {
-        "word": "integrity",
-        "meaning": "the quality of being honest and having strong moral principles"
+        "word": "சுட்டெரித்தல்",
+        "meaning": "அதிக வெப்பத்தால் நாக்கு அல்லது தோல் புண்ணாகும் நிலை"
       },
       {
-        "word": "presence of mind",
-        "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+        "word": "அலறியடித்து",
+        "meaning": "தாங்க முடியாத வலியால் அலறிக்கொண்டு பயந்து ஓடுதல்"
+      },
+      {
+        "word": "இயற்கை குணம்",
+        "meaning": "ஒரு உயிருக்கு இயல்பாகவே அமைந்த சுபாவம் அல்லது விருப்பம்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "What central dilemma begins the tale of \"The Cat and the Milk\"?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "மன்னர் கொடுத்த பாலை ராமன் தன் குடும்பத்திற்கு என்ன செய்தார்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "Why is the moral \"Wit and humor triumph over arrogance and power\" meaningful in daily life?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "ஒரு முறை ஏற்பட்ட கடுமையான கசப்பான அனுபவம் மனதில் எத்தகைய நிரந்தர அச்சத்தை உருவாக்குகிறது?"
       },
       {
-        "tier": "Apply",
-        "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+        "tier": "பயன்பாடு",
+        "prompt": "வாழ்க்கையில் தவறான வழிகளில் அடிபட்ட மனிதர்கள் மீண்டும் அந்த தவறைச் செய்ய அஞ்சுவது ஏன்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-      },
-      {
-        "tier": "Create",
-        "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+        "tier": "சிந்தனை",
+        "prompt": "விலங்குகளைத் தவறாகப் பழக்கப்படுத்தாமல் இயற்கையான முறையில் காப்பது ஏன் சிறந்தது?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -789,37 +797,37 @@
     "is_bedtime": true,
     "quiz": [
       {
-        "question": "What fundamental virtue is highlighted in \"The Brinjal Curry\"?",
+        "question": "அரச தோட்டத்துக் கத்திரிக்காயின் விசேஷத் தன்மை என்ன?",
         "options": [
-          "Wit and humor triumph over arrogance and power",
-          "Acting in hasty anger without listening",
-          "Trusting deceitful flattery blindly",
-          "Leaving tasks undone"
+          "அது மிகுந்த நறுமணமும் சுவையும் கொண்ட அபூர்வமான ராஜ கத்திரிக்காய் ஆகும்",
+          "அது தங்க நிறத்தில் மின்னியது",
+          "அதைத் தின்றால் மனிதர்கள் பறக்க முடியும்",
+          "அது நோய்களை உடனடியாகக் குணப்படுத்தும் மருந்து"
         ],
         "answerIndex": 0,
-        "hint": "Remember the moral lesson of the story."
+        "hint": "மன்னரின் விசேஷ காய்கறித் தோட்டத்தை நினைவுகூருங்கள்."
       },
       {
-        "question": "How does the central character approach their challenge?",
+        "question": "இரவில் கத்திரிக்காய் கறியை உண்ட தன் மகன் உண்மையைச் சொல்லிவிடுவான் என்று அஞ்சிய ராமன் என்ன தந்திரம் செய்தார்?",
         "options": [
-          "Through thoughtful reflection, patience, and presence of mind",
-          "By running away from responsibility",
-          "By shouting loudly and blaming friends",
-          "By ignoring good counsel"
+          "நள்ளிரவில் மகனை எழுப்பிக் கூரை மீது நீர் தெளித்துத் தூறல் போட்டு நனைய வைத்துப் பின் படுக்க வைத்தார்",
+          "மகனை வெளியூருக்கு அனுப்பி வைத்தார்",
+          "மகனின் வாயில் துணியைக் கட்டி வைத்தார்",
+          "கத்திரிக்காயை மண்ணுக்குள் புதைத்துவிட்டார்"
         ],
         "answerIndex": 0,
-        "hint": "Consider the virtues praised in timeless fables."
+        "hint": "ராமன் செயற்கையாக உருவாக்கிய நள்ளிரவு மழை நாடகத்தைக் கவனியுங்கள்."
       },
       {
-        "question": "What memorable conclusion does this story teach readers?",
+        "question": "மன்னர் சிறுவனிடம் விசாரித்த போது வழக்கு ஏன் தள்ளுபடியானது?",
         "options": [
-          "Patience, honesty, and humility lead to lasting harmony",
-          "False appearances never get discovered",
-          "Greed brings true happiness",
-          "Might is always right"
+          "\"நேற்று இரவு பெரும் புயல் மழையில் நனைந்துகொண்டே கத்தரிக்காய் தின்றேன்\" எனச் சிறுவன் கூறியதால் அவனது வாக்குமூலம் கனவு என நிராகரிக்கப்பட்டது",
+          "ராமன் மன்னரிடம் மன்னிப்புக் கேட்டுப் பொற்காசு தந்தார்",
+          "தோட்டத்துக் கத்திரிக்காய்கள் மாயமாக மீண்டும் முளைத்துவிட்டன",
+          "காவலாளிகள் திருடனைப் பிடித்துவிட்டனர்"
         ],
         "answerIndex": 0,
-        "hint": "Think about how justice and truth prevail."
+        "hint": "மழை பெய்யாத இரவில் சிறுவன் கூறிய முரண்பட்ட சாட்சியத்தை யோசியுங்கள்."
       }
     ],
     "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -831,30 +839,38 @@
     "reading_level": "Beginner",
     "vocabulary": [
       {
-        "word": "தேவாமிர்தம்",
-        "meaning": "மகிழ்ச்சியூட்டும் இணையற்ற சுவை கொண்ட உணவு"
+        "word": "அரச தோட்டம்",
+        "meaning": "அரண்மனைக்குச் சொந்தமான காவல் நிறைந்த விசேஷ நந்தவனம்"
       },
       {
-        "word": "பௌர்ணமி",
-        "meaning": "முழு நிலவு ஒளிரும் இரவுக் காலம்"
+        "word": "அபூர்வம்",
+        "meaning": "எளிதில் எங்கும் கிடைக்காத மிக அரிய பொருள்"
       },
       {
-        "word": "சந்தேகம்",
-        "meaning": "உண்மையை உறுதியாக அறியாமல் ஏற்படும் ஐயம்"
+        "word": "சாட்சியம்",
+        "meaning": "நீதிமன்றத்திலோ அரசவையிலோ ஒருவர் நேரில் கண்டதாகக் கூறும் வாக்குமூலம்"
+      },
+      {
+        "word": "மழை வேஷம்",
+        "meaning": "தூக்கத்தில் இருந்த குழந்தையை ஏமாற்றத் தண்ணீரைத் தெளித்து இடி போல ஒலி எழுப்புதல்"
       }
     ],
     "discussion_questions": [
       {
-        "tier": "Remember",
-        "prompt": "அரச தோட்டத்தில் பயிரிடப்பட்ட சிறப்புப் பயிர் எது?"
+        "tier": "நினைவுகூருதல்",
+        "prompt": "கத்திரிக்காயைத் திருடி வரச் சொல்லி ராமனிடம் வற்புறுத்தியவர் யார்?"
       },
       {
-        "tier": "Understand",
-        "prompt": "தெனாலிராமன் தன் மகனிடம் எதற்காக மழை நாடகத்தை நடத்தினார்?"
+        "tier": "புரிந்து கொள்ளுதல்",
+        "prompt": "சிறுவர்களின் மனநிலை மற்றும் கனவு கலந்த நினைவுகளை ராமன் எவ்வாறு தனக்குச் சாதகமாகப் பயன்படுத்தினார்?"
       },
       {
-        "tier": "Evaluate",
-        "prompt": "சட்டம் அனைவருக்கும் பொதுவானது என்பதில் தெனாலிராமன் என்ன விவேகத்தைக் காட்டினார்?"
+        "tier": "பயன்பாடு",
+        "prompt": "ஆபத்திலிருந்து தப்பிக்க பொய் சாட்சியங்களை உருவாக்குவதை விட திருடாமல் இருப்பதே ஏன் மேலானது?"
+      },
+      {
+        "tier": "சிந்தனை",
+        "prompt": "மன்னரின் கடும் தண்டனையிலிருந்து குடும்பத்தைக் காக்க ராமனின் அறிவு எவ்வாறு கைகொடுத்தது?"
       }
     ],
     "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
