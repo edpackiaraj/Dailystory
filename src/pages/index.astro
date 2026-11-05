@@ -50,6 +50,28 @@ const recentStories = allStories.slice(0, 16);
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-12 sm:space-y-16">
     
+    <!-- Multilingual Quick Switcher Banner -->
+    <div class="p-3 sm:p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+      <div class="flex items-center gap-2 font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+        <span class="text-base">🌐</span>
+        <span>Select your language / மொழியைத் தேர்ந்தெடுக்கவும்:</span>
+      </div>
+      <div class="flex items-center gap-1.5 flex-wrap justify-center font-bold">
+        {brandConfig.supportedLanguages.map(l => (
+          <a
+            href={`/${l.code}/`}
+            class={`px-3 py-1.5 rounded-xl border transition-all text-xs ${
+              l.code === currentLang
+                ? 'bg-[#D97706] text-white border-[#D97706] shadow-2xs'
+                : 'bg-[#FFF8EC] dark:bg-[#151426] border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706]'
+            }`}
+          >
+            {l.native}
+          </a>
+        ))}
+      </div>
+    </div>
+
     <!-- Hero: "Story of the Day" -->
     {todaysStory && (
       <section class="relative overflow-hidden rounded-3xl bg-linear-to-br from-amber-500/10 via-amber-500/5 to-transparent border border-[#EEDFC8] dark:border-[#383659] p-6 sm:p-10 shadow-sm">
@@ -346,6 +368,14 @@ const recentStories = allStories.slice(0, 16);
     if (saved && saved !== 'en') {
       window.location.replace(`/${saved}/`);
       return;
+    }
+    if (!saved) {
+      const browserLang = (navigator.language || navigator.userLanguage || '').slice(0, 2).toLowerCase();
+      if (['ta', 'hi', 'te', 'ml', 'kn', 'mr', 'zh'].includes(browserLang)) {
+        localStorage.setItem('dailytale_lang', browserLang);
+        window.location.replace(`/${browserLang}/`);
+        return;
+      }
     }
     // Check continue reading
     const recentStory = localStorage.getItem('dailytale_recent');

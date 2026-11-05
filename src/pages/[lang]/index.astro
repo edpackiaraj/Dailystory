@@ -64,6 +64,28 @@ const recentStories = translatedFirst.slice(0, 16);
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-12 sm:space-y-16">
     
+    <!-- Multilingual Quick Switcher Banner -->
+    <div class="p-3 sm:p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+      <div class="flex items-center gap-2 font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+        <span class="text-base">🌐</span>
+        <span>{t.language || "Language"}:</span>
+      </div>
+      <div class="flex items-center gap-1.5 flex-wrap justify-center font-bold">
+        {brandConfig.supportedLanguages.map(l => (
+          <a
+            href={`/${l.code}/`}
+            class={`px-3 py-1.5 rounded-xl border transition-all text-xs ${
+              l.code === currentLang
+                ? 'bg-[#D97706] text-white border-[#D97706] shadow-2xs'
+                : 'bg-[#FFF8EC] dark:bg-[#151426] border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706]'
+            }`}
+          >
+            {l.native}
+          </a>
+        ))}
+      </div>
+    </div>
+
     <!-- Hero: "Story of the Day" -->
     {todaysStory && (
       <section class="relative rounded-3xl bg-linear-to-br from-amber-100/80 via-[#FFFDF9] to-amber-50 dark:from-[#25243E] dark:via-[#1B1A2E] dark:to-[#25243E] p-6 sm:p-10 border border-[#EEDFC8] dark:border-[#383659] shadow-md overflow-hidden">
