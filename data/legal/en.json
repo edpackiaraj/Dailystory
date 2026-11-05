@@ -177,25 +177,6 @@
         }
       ]
     },
-    "cookies": {
-      "title": "Cookie & Local Storage Notice",
-      "h1": "Cookie & Local Storage Transparency Notice",
-      "metaDescription": "Detailed disclosure of the zero-cookie policy and device local storage keys used to save reading progress and themes.",
-      "sections": [
-        {
-          "heading": "Our Zero-Tracking Cookie Policy",
-          "content": "Daily Tale does not use third-party tracking cookies, advertising beacons, or cross-site fingerprinting scripts."
-        },
-        {
-          "heading": "What We Store in Your Device's LocalStorage",
-          "content": "To provide a delightful reading experience without requiring user accounts, the following lightweight keys are stored exclusively on your device:\n• `dailytale_lang`: Your preferred reading language (e.g. 'en', 'ta', 'es').\n• `dailytale_favorites`: The IDs of stories you have bookmarked.\n• `dailytale_recent`: The stories you recently read, allowing quick resumption.\n• `dailytale_theme`: Your dark/bedtime/sepia visual theme preference.\n• `dailytale_fontSize` & `dailytale_fontFamily`: Reading typography preferences."
-        },
-        {
-          "heading": "How to Clear Your Storage",
-          "content": "Because these keys reside on your own computer, tablet, or phone, you can clear them at any time using your browser's 'Clear Site Data' or 'Clear Cookies and Site Storage' settings."
-        }
-      ]
-    },
     "copyright": {
       "title": "Copyright & Takedown Policy",
       "h1": "Copyright Notice & DMCA Takedown Procedure",
@@ -212,86 +193,6 @@
         {
           "heading": "Resolution Timeline",
           "content": "Upon receipt of a valid notice, our team will review the claim, temporarily restrict access if warranted, and respond within 24 to 48 hours."
-        }
-      ]
-    },
-    "guidelines": {
-      "title": "Community & Submission Guidelines",
-      "h1": "Community Guidelines for Readers and Storytellers",
-      "metaDescription": "Submission guidelines for community stories: family-safe standards, original storytelling, wholesome humor, and moderation rules.",
-      "sections": [
-        {
-          "heading": "What We Welcome with Open Arms",
-          "content": "• Original folktales, humorous tales, moral parables, and gentle bedtime stories.\n• Stories celebrating kindness, honesty, perseverance, courage, and empathy.\n• Tales rooted in authentic regional cultures, legends, and everyday life.\n• Wholesome humor that brings families together in shared laughter."
-        },
-        {
-          "heading": "What is Strictly Prohibited",
-          "content": "• Any 18+, adult, or suggestive themes.\n• Graphic violence, gore, terror, or intense nightmares.\n• Hate speech, prejudice, or mockery of any ethnicity, nationality, or community.\n• Religious proselytization, sectarian disputes, or theological debates.\n• Commercial promotions, spam, or plagiarism."
-        },
-        {
-          "heading": "Moderation Process",
-          "content": "All community submissions are automatically scanned and reviewed manually by our editorial team before publication. Approved stories appear with the author's pen name and country."
-        }
-      ]
-    },
-    "editorial-policy": {
-      "title": "Editorial & AI-Use Policy",
-      "h1": "Editorial Standards & Responsible AI Policy",
-      "metaDescription": "Our pedagogical principles, folklore adaptation standards, human-reviewed translations, and transparent corrections policy.",
-      "sections": [
-        {
-          "heading": "1. Pedagogical Framing with Bloom's Taxonomy",
-          "content": "Stories are doorways to thoughtful reflection. Stories are paired with discussion questions tiered by Bloom's Revised Taxonomy (Remember, Understand, Apply, Evaluate, Create). This empowers teachers, parents, and curious readers to nurture higher-order critical thinking."
-        },
-        {
-          "heading": "2. Cultural Respect & Universal Values",
-          "content": "To ensure our global library remains universally welcoming to readers of all backgrounds, mythic and folkloric tales emphasize shared human wisdom, empathy, and justice."
-        },
-        {
-          "heading": "3. Ethical Translation with Human Review",
-          "content": "We use linguistic models to assist translation across ten languages, but we never publish unverified output. Every translation undergoes bilingual review before public release."
-        },
-        {
-          "heading": "4. Corrections and Feedback",
-          "content": "We maintain an active corrections policy for factual, grammatical, or translation adjustments. If you notice a typo or translation nuance that can be improved, please reach out via our contact page."
-        }
-      ]
-    },
-    "parent-guide": {
-      "title": "Teacher & Parent Guide",
-      "h1": "Teacher & Parent Guide: Fostering a Love for Stories",
-      "metaDescription": "Tips for mindful bedtime routines, reading comprehension, bilingual learning, and family story rituals.",
-      "sections": [
-        {
-          "heading": "The Bedtime Ritual: Calming the Senses",
-          "content": "Bedtime should be a transition from the bustle of the day to peaceful rest. We recommend activating our 'Night' theme which dims the screen palette, slows the read-along audio speed, and helps rest tired eyes."
-        },
-        {
-          "heading": "Multilingual Reading for Growing Minds",
-          "content": "Compare stories across languages using our instant language switcher. This is especially loved by diaspora families, heritage language learners, and students discovering new languages."
-        },
-        {
-          "heading": "Screen-Time Balance Tips",
-          "content": "Stories can be enjoyed screen-free! Use our audio narration with your screen dimmed or flipped over, allowing listeners to visualize the story in their minds."
-        }
-      ]
-    },
-    "accessibility": {
-      "title": "Accessibility Statement",
-      "h1": "Accessibility Commitment (WCAG 2.2 AA)",
-      "metaDescription": "Our pledge to digital accessibility for all readers, including OpenDyslexic font, screen reader support, keyboard navigation, and high contrast.",
-      "sections": [
-        {
-          "heading": "Our Commitment",
-          "content": "Daily Tale is designed to be accessible to readers of all abilities, in adherence with Web Content Accessibility Guidelines (WCAG) 2.2 Level AA standards."
-        },
-        {
-          "heading": "Accessibility Features Included",
-          "content": "• OpenDyslexic Font Option: Instant toggle in the Aa reading panel to aid readers with dyslexia.\n• Adjustable Font Size & Line Spacing: Customize text from 16px to 25px with generous line height.\n• High Contrast & Bedtime Dark Themes: Color contrast ratios exceeding 4.5:1.\n• Reduced Motion Respect: Full compatibility with `prefers-reduced-motion` settings.\n• Full Keyboard Navigation: Skip-to-content links and accessible focus rings.\n• Screen Reader Compatibility: Semantic HTML5 elements and ARIA attributes for all interactive audio players and quizzes."
-        },
-        {
-          "heading": "Reporting Barriers",
-          "content": "If you encounter any accessibility barrier on our website, please email support@dailystory.pages.dev. We prioritize accessibility bug fixes promptly."
         }
       ]
     }

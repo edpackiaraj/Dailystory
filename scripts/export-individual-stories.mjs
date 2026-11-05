@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const rootDir = process.cwd();
-const languages = ['en', 'es', 'hi', 'kn', 'ml', 'mr', 'pt', 'ta', 'te', 'zh'];
+const languages = ['en', 'hi', 'kn', 'ml', 'mr', 'ta', 'te', 'zh'];
 
 export function getGroupSlug(collection) {
   if (!collection) return 'folktale';

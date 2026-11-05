@@ -41,11 +41,6 @@ export function getStaticPaths() {
         params: { lang: lang.code, collection: colSlug },
         props: { rawCollection: c, colSlug }
       });
-      // Legacy path: /en/collections/en-collection-aesop-s-fables/
-      paths.push({
-        params: { lang: lang.code, collection: `${lang.code}-collection-${colSlug}` },
-        props: { rawCollection: c, colSlug }
-      });
     }
   }
   return paths;

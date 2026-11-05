@@ -3,7 +3,7 @@ import path from 'node:path';
 
 const rootDir = process.cwd();
 const dataDir = path.resolve(rootDir, 'data');
-const languages = ['ta', 'hi', 'es', 'zh', 'pt', 'ml', 'te', 'kn', 'mr'];
+const languages = ['ta', 'hi', 'zh', 'ml', 'te', 'kn', 'mr'];
 
 console.log('=== Step 1: Sanitizing titles, summaries, and morals across all 9 languages ===');
 

@@ -3,9 +3,9 @@
   "nativeName": "Daily Tale",
   "tagline": "Moral Stories & Interesting Folktales",
   "positioning": "A timeless multilingual storytelling sanctuary celebrating wisdom, folklore, and moral stories from world cultures for readers of all ages.",
-  "description": "Discover folktales, fables, and wisdom stories from around the world in 10 languages. Moral Stories & Interesting Folktales.",
+  "description": "Discover folktales, fables, and wisdom stories from around the world in 8 languages. Moral Stories & Interesting Folktales.",
   "homeTitle": "Daily Tale — Moral Stories & Interesting Folktales Worldwide",
-  "homeMetaDescription": "Timeless folktales, fables, and moral stories from world cultures in 10 languages. Curated for readers of all ages with audio narration.",
+  "homeMetaDescription": "Timeless folktales, fables, and moral stories from world cultures in 8 languages. Curated for readers of all ages with audio narration.",
   "siteUrl": "https://dailystory.pages.dev",
   "mascot": {
     "name": "Katha",
@@ -26,9 +26,7 @@
     { "code": "en", "name": "English", "native": "English", "direction": "ltr", "flag": "", "fontClass": "font-sans" },
     { "code": "ta", "name": "Tamil", "native": "தமிழ்", "direction": "ltr", "flag": "", "fontClass": "font-tamil" },
     { "code": "hi", "name": "Hindi", "native": "हिन्दी", "direction": "ltr", "flag": "", "fontClass": "font-hindi" },
-    { "code": "es", "name": "Spanish", "native": "Español", "direction": "ltr", "flag": "", "fontClass": "font-sans" },
     { "code": "zh", "name": "Chinese (Simplified)", "native": "简体中文", "direction": "ltr", "flag": "", "fontClass": "font-chinese" },
-    { "code": "pt", "name": "Portuguese", "native": "Português", "direction": "ltr", "flag": "", "fontClass": "font-sans" },
     { "code": "ml", "name": "Malayalam", "native": "മലയാളം", "direction": "ltr", "flag": "", "fontClass": "font-malayalam" },
     { "code": "te", "name": "Telugu", "native": "తెలుగు", "direction": "ltr", "flag": "", "fontClass": "font-telugu" },
     { "code": "kn", "name": "Kannada", "native": "ಕನ್ನಡ", "direction": "ltr", "flag": "", "fontClass": "font-kannada" },
@@ -50,20 +48,10 @@
       "metaDescription": "अकबर-बीरबल, पंचतंत्र और विश्व भर की ज्ञानवर्धक नैतिक कहानियाँ और बाल कथाएँ। हर दिन एक नई कहानी।",
       "tagline": "नैतिक कहानियाँ और रोचक लोककथाएँ"
     },
-    "es": {
-      "title": "Daily Tale — Cuentos Morales y Fascinantes Fábulas del Mundo",
-      "metaDescription": "Descubre fábulas de Esopo, cuentos populares y relatos tradicionales de diversas culturas en 10 idiomas.",
-      "tagline": "Cuentos Morales y Fascinantes Fábulas"
-    },
     "zh": {
       "title": "Daily Tale — 经典道德寓言与世界民间故事",
       "metaDescription": "探索伊索寓言、传统神话故事与各国智慧故事。每天一个好故事，启发智慧与心灵。",
       "tagline": "道德寓言与生动民间故事"
-    },
-    "pt": {
-      "title": "Daily Tale — Contos Morais e Fábulas Fascinantes do Mundo",
-      "metaDescription": "Descubra fábulas de Esopo, contos tradicionais e histórias morais de várias culturas em 10 idiomas.",
-      "tagline": "Contos Morais e Fábulas Fascinantes"
     },
     "ml": {
       "title": "Daily Tale — ഗുണപാഠകഥകളും രസകരമായ നാടോടിക്കഥകളും",

@@ -21,12 +21,10 @@ export function getStaticPaths() {
   for (const lang of brandConfig.supportedLanguages) {
     // Clean canonical paths (e.g., /en/search/, /en/about/)
     paths.push({ params: { lang: lang.code, page: 'search' }, props: { view: 'search' } });
-    paths.push({ params: { lang: lang.code, page: 'favourites' }, props: { view: 'favorites' } });
     paths.push({ params: { lang: lang.code, page: 'favorites' }, props: { view: 'favorites' } });
     paths.push({ params: { lang: lang.code, page: 'collections' }, props: { view: 'collections' } });
     paths.push({ params: { lang: lang.code, page: 'submit' }, props: { view: 'submit' } });
     paths.push({ params: { lang: lang.code, page: 'guide' }, props: { view: 'guide' } });
-    paths.push({ params: { lang: lang.code, page: 'subscribe' }, props: { view: 'subscribe' } });
 
     for (const key of legalKeys) {
       if (key === 'contact') {
@@ -52,49 +50,6 @@ export function getStaticPaths() {
       } else {
         paths.push({
           params: { lang: lang.code, page: key },
-          props: {
-            view: 'legal',
-            pageKey: key,
-            pageData: (legalData.pages as Record<string, any>)[key],
-            lastUpdated: legalData.lastUpdated
-          }
-        });
-      }
-    }
-
-    // Legacy paths for backwards compatibility (e.g., /en/en-search/)
-    paths.push({ params: { lang: lang.code, page: `${lang.code}-search` }, props: { view: 'search' } });
-    paths.push({ params: { lang: lang.code, page: `${lang.code}-favourites` }, props: { view: 'favorites' } });
-    paths.push({ params: { lang: lang.code, page: `${lang.code}-favorites` }, props: { view: 'favorites' } });
-    paths.push({ params: { lang: lang.code, page: `${lang.code}-collections` }, props: { view: 'collections' } });
-    paths.push({ params: { lang: lang.code, page: `${lang.code}-submit` }, props: { view: 'submit' } });
-    paths.push({ params: { lang: lang.code, page: `${lang.code}-guide` }, props: { view: 'guide' } });
-    paths.push({ params: { lang: lang.code, page: `${lang.code}-subscribe` }, props: { view: 'subscribe' } });
-
-    for (const key of legalKeys) {
-      if (key === 'contact') {
-        paths.push({
-          params: { lang: lang.code, page: `${lang.code}-${key}` },
-          props: {
-            view: 'contact',
-            pageKey: key,
-            pageData: (legalData.pages as Record<string, any>)[key],
-            lastUpdated: legalData.lastUpdated
-          }
-        });
-      } else if (key === 'about') {
-        paths.push({
-          params: { lang: lang.code, page: `${lang.code}-${key}` },
-          props: {
-            view: 'about',
-            pageKey: key,
-            pageData: (legalData.pages as Record<string, any>)[key],
-            lastUpdated: legalData.lastUpdated
-          }
-        });
-      } else {
-        paths.push({
-          params: { lang: lang.code, page: `${lang.code}-${key}` },
           props: {
             view: 'legal',
             pageKey: key,

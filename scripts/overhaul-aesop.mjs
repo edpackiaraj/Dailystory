@@ -640,7 +640,7 @@ fs.writeFileSync(path.resolve(dataDir, 'en', 'stories-en.json'), JSON.stringify(
 console.log('Saved data/en/stories-en.json!');
 
 // 10. Synchronize duplicate removal and slug updates across all 9 other languages
-const otherLangs = ['ta', 'hi', 'es', 'zh', 'pt', 'ml', 'te', 'kn', 'mr'];
+const otherLangs = ['ta', 'hi', 'zh', 'ml', 'te', 'kn', 'mr'];
 const enSlugMap = new Map();
 for (const s of newEnStories) {
   enSlugMap.set(s.id, s.slug);

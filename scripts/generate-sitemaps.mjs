@@ -52,22 +52,16 @@ if (fs.existsSync(manifestPath)) {
 const coreRoutes = [
   '',
   'search',
-  'favourites',
+  'favorites',
   'collections',
   'submit',
-  'subscribe',
   'guide',
   'about',
   'contact',
   'disclaimer',
   'privacy',
   'terms',
-  'cookies',
-  'copyright',
-  'guidelines',
-  'editorial-policy',
-  'parent-guide',
-  'accessibility'
+  'copyright'
 ];
 
 for (const lang of languages) {

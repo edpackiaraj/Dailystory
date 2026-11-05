@@ -7,21 +7,11 @@ import { getAllReviewedStories, getStoryUrl } from '../../../lib/stories';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 
 export function getStaticPaths() {
-  const manifestPath = path.resolve(process.cwd(), 'data', 'en', 'manifest-en.json');
-  let allGenres: string[] = [];
-  if (fs.existsSync(manifestPath)) {
-    try {
-      const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
-      allGenres = Array.from(new Set(manifest.map((m: any) => m.genre))).filter(Boolean) as string[];
-    } catch {}
-  }
-  if (!allGenres.length) {
-    allGenres = [
-      "Humorous Tales", "Folktales", "Fairy Tales", "Fables",
-      "Fantasy Stories", "Mystery Stories", "Love Stories",
-      "Adventure Stories", "Historical Stories", "Jataka Tales"
-    ];
-  }
+  const allGenres = [
+    "Fables", "Fairy Tales", "Folktales", "Humorous Tales",
+    "Fantasy Stories", "Mystery Stories", "Love Stories",
+    "Adventure Stories", "Historical Stories", "Jataka Tales"
+  ];
 
   const paths: any[] = [];
   for (const lang of brandConfig.supportedLanguages) {

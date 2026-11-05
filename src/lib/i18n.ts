@@ -5,9 +5,7 @@ import brandConfig from '../../config/brand.json';
 import en from '../locales/en.json';
 import ta from '../locales/ta.json';
 import hi from '../locales/hi.json';
-import es from '../locales/es.json';
 import zh from '../locales/zh.json';
-import pt from '../locales/pt.json';
 import ml from '../locales/ml.json';
 import te from '../locales/te.json';
 import kn from '../locales/kn.json';
@@ -19,9 +17,7 @@ const locales: Record<string, TranslationDict> = {
   en,
   ta,
   hi,
-  es,
   zh,
-  pt,
   ml,
   te,
   kn,
