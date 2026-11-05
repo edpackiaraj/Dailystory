@@ -194,6 +194,20 @@ if (view === 'search') {
             <button type="button" class="search-len-chip px-3 py-1.5 rounded-full border border-[#EEDFC8] dark:border-[#383659] font-medium" data-length="long">{t.long}</button>
           </div>
 
+          <!-- Theme Quick Chips -->
+          <div class="w-full pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex items-center gap-1.5 flex-wrap">
+            <span class="font-bold text-[#6B5644] dark:text-[#C8BFAF] uppercase tracking-wider text-[11px]">Themes:</span>
+            {['Honesty', 'Kindness', 'Courage', 'Wisdom', 'Hard Work', 'Friendship', 'Greed', 'Humility'].map(theme => (
+              <button
+                type="button"
+                class="search-theme-chip px-2.5 py-1 rounded-full border border-[#EEDFC8] dark:border-[#383659] text-[11px] font-medium text-[#6B5644] dark:text-[#C8BFAF] hover:border-[#D97706] hover:bg-[#FFF4E0] dark:hover:bg-[#1E1D36] transition-all"
+                data-theme={theme.toLowerCase()}
+              >
+                {theme}
+              </button>
+            ))}
+          </div>
+
         </div>
 
         <!-- Search Results Count -->
@@ -909,11 +923,11 @@ if (view === 'search') {
             </div>
             <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Multilingual Folklore Treasury</h2>
             <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-              We bring together over 2,448 curated stories across 10 languages: English, Tamil, Hindi, Spanish, Chinese, Portuguese, Malayalam, Telugu, Kannada, and Marathi. Our collections span Akbar–Birbal, Tenali Rama, Panchatantra, Aesop's Fables, Jataka Tales, Hans Christian Andersen, Brothers Grimm, Arabian Nights, and cultural folklore from across Asia, Africa, Europe, and the Americas.
+              We bring together over 2,448 curated stories across 8 languages: English, Tamil, Hindi, Telugu, Malayalam, Kannada, Marathi, and Chinese. Our collections span Akbar–Birbal, Tenali Rama, Panchatantra, Aesop's Fables, Jataka Tales, Hans Christian Andersen, Brothers Grimm, Arabian Nights, and cultural folklore from across Asia, Africa, Europe, and the Americas.
             </p>
             <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#0F766E] dark:text-[#2DD4BF]">
               <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">2,448+ Stories</span>
-              <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">10 World Languages</span>
+              <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">8 World Languages</span>
               <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">13 Major Traditions</span>
             </div>
           </div>
@@ -1207,6 +1221,18 @@ if (view === 'search') {
       });
       chip.className = 'search-len-chip px-3 py-1.5 rounded-full border border-[#D97706] bg-[#D97706] text-white font-bold';
       filterSearch();
+    });
+  });
+
+  // Theme Chips
+  document.querySelectorAll('.search-theme-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const themeVal = chip.getAttribute('data-theme') || '';
+      if (searchInput) {
+        searchInput.value = themeVal;
+        q = themeVal;
+        filterSearch();
+      }
     });
   });
 

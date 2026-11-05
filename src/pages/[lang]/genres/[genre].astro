@@ -130,19 +130,57 @@ const faqSchema = {
   ]
 };
 
-const genreKeywords = [
-  rawGenre.toLowerCase(),
-  `${rawGenre.toLowerCase()} for kids`,
-  `${rawGenre.toLowerCase()} with moral`,
-  "bedtime stories",
-  "children stories online",
-  "illustrated stories"
-];
+const genreSeoMeta: Record<string, { title: string; description: string }> = {
+  "fables": {
+    title: "Animal Stories with Morals: Fables for Students",
+    description: "Clever foxes, proud lions and wise crows teach life lessons in these short animal fables."
+  },
+  "fairy-tales": {
+    title: "Fairy Tales: Timeless Classic Folktales & Morals",
+    description: "Discover enchanting fairy tales of courage, kindness, and wonder with morals for all ages."
+  },
+  "folktales": {
+    title: "Folktales: Cultural Wisdom Stories from Around the World",
+    description: "Explore authentic regional folktales and cultural fables with morals and audio narration."
+  },
+  "humorous-tales": {
+    title: "Funny Folktales & Humorous Stories with Morals",
+    description: "Witty tales that make you laugh and think, from Akbar–Birbal, Tenali Rama and Mulla Nasruddin."
+  },
+  "fantasy-stories": {
+    title: "Fantasy Stories: Magical Tales of Wonder & Wisdom",
+    description: "Step into worlds of wonder where brave heroes and magical creatures teach timeless life lessons."
+  },
+  "mystery-stories": {
+    title: "Mystery Tales & Riddles: Clever Stories with Lessons",
+    description: "Enjoy mystery and riddle tales that challenge your thinking and end with insightful wisdom."
+  },
+  "love-stories": {
+    title: "Stories About Friendship: Moral Tales for All Ages",
+    description: "Read fables and folktales about true friends, trust and loyalty, with a clear moral at the end of each story."
+  },
+  "adventure-stories": {
+    title: "Stories About Courage: Brave Tales with Morals",
+    description: "Read stories of brave hearts and quick thinking from fables and folktales, with a life lesson in every tale."
+  },
+  "historical-stories": {
+    title: "Stories of Wisdom: Clever Tales with Life Lessons",
+    description: "Discover stories where good thinking beats strength. Wise tales from around the world, with morals in many languages."
+  },
+  "jataka-tales": {
+    title: "Jataka Tales: Buddha's Moral Stories for Students",
+    description: "Read Jataka tales, ancient stories of kindness, courage and wisdom from the Buddha's past lives, with morals and quizzes in many languages."
+  }
+};
+
+const pageGenreTitle = genreSeoMeta[genreSlug]?.title || `${rawGenre}: Moral Stories for Students`;
+const pageGenreDesc = genreSeoMeta[genreSlug]?.description || `Read inspiring ${rawGenre.toLowerCase()} with life lessons, audio narration, and quizzes on Daily Tale.`;
+const genreKeywords = [rawGenre.toLowerCase(), `${rawGenre.toLowerCase()} for kids`, `${rawGenre.toLowerCase()} with moral`, "bedtime stories", "children stories online", "illustrated stories"];
 ---
 
 <BaseLayout
-  title={`${rawGenre} for Kids & Bedtime Reading - Read ${matchingStories.length} Illustrated Tales | ${brandConfig.name}`}
-  description={`Read all ${matchingStories.length} ${rawGenre.toLowerCase()} with life lessons, audio narration, vocabulary guides, and comprehension quizzes in 10 languages.`}
+  title={pageGenreTitle}
+  description={pageGenreDesc}
   keywords={genreKeywords}
   lang={lang}
   noindex={!hasMinStories}
@@ -183,21 +221,28 @@ const genreKeywords = [
       {matchingStories.map(s => (
         <article class="bg-white dark:bg-slate-900 rounded-3xl border border-amber-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
           <div>
-            <div class="aspect-16/10 overflow-hidden relative">
-              <img src={s.image} alt={s.image_alt} loading="lazy" class="w-full h-full object-cover" />
-              <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-black/60 text-white text-[11px] font-bold">{s.collection}</span>
-              <span class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-amber-500 text-white text-[11px] font-bold">⏱️ {s.reading_time}</span>
+            <div class="aspect-16/10 overflow-hidden relative bg-[#FFF8EC] dark:bg-[#1B1A2E]">
+              <img
+                src={s.image || '/images/og-default.png'}
+                alt=""
+                aria-hidden="true"
+                loading="lazy"
+                class="w-full h-full object-cover"
+                onerror="this.onerror=null; this.src='/images/og-default.png';"
+              />
+              <span class="absolute top-3 left-3 z-10 px-3 py-1 rounded-full bg-black/70 backdrop-blur-xs text-white text-[11px] font-bold shadow-xs">{s.collection}</span>
+              <span class="absolute top-3 right-3 z-10 px-2.5 py-1 rounded-full bg-[#D97706] text-white text-[11px] font-bold shadow-xs">⏱️ {s.reading_time || '3 min'}</span>
             </div>
             <div class="p-6">
               <h2 class="text-lg font-bold text-slate-900 dark:text-white mb-2">
                 <a href={getStoryUrl(s, lang)} class="hover:text-amber-600 transition-colors">{s.title}</a>
               </h2>
               <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-3 mb-4 leading-relaxed">{s.summary}</p>
-              <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-800 text-xs text-amber-900 dark:text-amber-200 italic">💡 {s.moral}</div>
+              <div class="p-3 rounded-xl bg-amber-50 dark:bg-slate-800 text-xs text-amber-900 dark:text-amber-200 italic pedagogy-learning-suite">💡 {s.moral}</div>
             </div>
           </div>
           <div class="px-6 pb-6 pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
-            <span class="text-xs text-slate-400">Level: <strong>{s.reading_level}</strong></span>
+            <span class="text-xs text-slate-400">Level: <strong>{s.reading_level || 'All Ages'}</strong></span>
             <a href={getStoryUrl(s, lang)} class="px-4 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-xs transition-colors">
               {t.readStory}
             </a>

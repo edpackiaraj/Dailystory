@@ -125,14 +125,71 @@ const localizedCollectionIntros: Record<string, Record<string, string>> = {
   }
 };
 
+const collectionSeoMeta: Record<string, { title: string; description: string }> = {
+  "aesops-fables": {
+    title: "Aesop's Fables: Short Moral Stories for Students",
+    description: "Read Aesop's fables with clear morals, vocabulary and quizzes. Classic animal stories like the Fox and the Grapes, in Tamil, Hindi, English and more."
+  },
+  "akbar-birbal": {
+    title: "Akbar–Birbal Stories: Clever Tales of Wit & Wisdom",
+    description: "Enjoy Akbar–Birbal stories full of wit and clever answers. Read with morals, audio and quizzes in Tamil, Hindi, English and more."
+  },
+  "jataka-tales": {
+    title: "Jataka Tales: Buddha's Moral Stories for Students",
+    description: "Read Jataka tales, ancient stories of kindness, courage and wisdom from the Buddha's past lives, with morals and quizzes in many languages."
+  },
+  "panchatantra": {
+    title: "Panchatantra Stories: Animal Tales with Life Lessons",
+    description: "Read Panchatantra stories where clever animals teach friendship, wisdom and smart choices. Short tales with morals in many languages."
+  },
+  "tenali-rama": {
+    title: "Tenali Rama Stories: Funny Tales of a Clever Poet",
+    description: "Laugh and learn with Tenali Rama stories, witty tales of the court jester of Krishnadevaraya, with morals and audio in many languages."
+  },
+  "mulla-nasruddin": {
+    title: "Mulla Nasruddin Stories: Funny Tales & Wisdom",
+    description: "Read short, funny Mulla Nasruddin tales that make you smile and think. Humorous stories with morals in Tamil, Hindi, English and more."
+  },
+  "vikram-vetal": {
+    title: "Vikram and Vetal Stories: Mystery Tales & Riddles",
+    description: "Follow King Vikram and the ghost Vetal in classic tales that end with a clever riddle. Mystery and wisdom stories in many languages."
+  },
+  "grimm-fairy-tales": {
+    title: "Grimm Fairy Tales: Classic Folk & Moral Stories",
+    description: "Discover Brothers Grimm fairy tales with morals, vocabulary and audio in many languages."
+  },
+  "hans-christian-andersen": {
+    title: "Hans Christian Andersen: Heartwarming Fairy Tales",
+    description: "Read classic Hans Christian Andersen fairy tales with life lessons and quizzes for all ages."
+  },
+  "arabian-nights": {
+    title: "Arabian Nights: Magical Folktales of 1001 Nights",
+    description: "Explore Arabian Nights folktales of courage, loyalty and wisdom with morals and audio."
+  },
+  "paramartha-guru": {
+    title: "Paramartha Guru Stories: Humorous Satirical Tales",
+    description: "Laugh and learn with Paramartha Guru and his disciples. Classic humorous moral folktales."
+  },
+  "cinderella-stories": {
+    title: "Cinderella Stories: Global Folktales of Kindness",
+    description: "Explore traditional Cinderella folktales from around the world celebrating kindness and virtue."
+  },
+  "charles-perrault": {
+    title: "Charles Perrault Stories: Timeless Fairy Tales",
+    description: "Enjoy classic fairy tales by Charles Perrault with clear morals and quizzes for students."
+  }
+};
+
 const displayCollectionName = localizedCollectionNames[currentLang]?.[colSlug] || rawCollection;
 const introText = localizedCollectionIntros[currentLang]?.[colSlug] || collectionIntros[colSlug] || `Explore authentic, beautifully illustrated stories from the ${rawCollection} collection on Daily Tale.`;
-const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${currentLang}-collection-${colSlug}/`;
+const pageSeoTitle = (currentLang === 'en' && collectionSeoMeta[colSlug]?.title) ? collectionSeoMeta[colSlug].title : displayCollectionName;
+const pageSeoDesc = (currentLang === 'en' && collectionSeoMeta[colSlug]?.description) ? collectionSeoMeta[colSlug].description : introText;
+const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${colSlug}/`;
 ---
 
 <BaseLayout
-  title={`${displayCollectionName}`}
-  description={introText}
+  title={pageSeoTitle}
+  description={pageSeoDesc}
   lang={currentLang}
   canonicalUrl={canonicalUrl}
   ogImage={firstStory?.image}
