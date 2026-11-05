@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-131-the-gardener-and-the-squire",
   "slug": "hans-christian-andersen-131-the-gardener-and-the-squire",
   "language": "ta",
-  "title": "The Gardener and the Squire",
+  "title": "தோட்டக்காரன் லார்சனும் பிரபுவின் போலி ஏளனமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Larsen was the master gardener of a noble Danish estate. With boundless love and science, he grew exquisite melons, rare artichokes, and magnificent flowers that won international...",
+  "summary": "பண்ணை மாளிகையின் தலைசிறந்த தோட்டக்காரனான லார்சன் தன் அறிவியல் அறிவாலும் ஆழ்ந்த காதலாலும் விளைவித்த அரிய பழங்களும் மலர்களும் அரண்மனை விருந்துகளில் உலகப் புகழ் பெற்ற போதும், அவனைப் பாராட்ட மனமின்றி எகத்தாளம் பேசிய செருக்குமிக்க நிலப்பிரபுவின் நையாண்டிக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the gardener and the squire",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived Larsen was the master gardener of a noble Danish estate. With boundless love and science, he grew exquisite melons, rare artichokes, and magnificent flowers that won international.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that true genius in cultivation and art receives the acclaim of the world despite the snobbery of masters.",
-  "moral": "True genius in cultivation and art receives the acclaim of the world despite the snobbery of masters.",
+  "full_text": "ஒரு பெரிய பண்ணை மாளிகையின் விசாலமான தோட்டத்தில், லார்சன் என்ற தலைமைத் தோட்டக்காரன் தன் வாழ்நாளையே தாவரங்களை வளர்ப்பதில் அர்ப்பணித்து வாழ்ந்து வந்தான்.\n    \nஅவன் தோட்டக்கலையை ஆழ்ந்து கற்றிருந்தான்; அவன் தன் சொந்தக் கரங்களால் விளைவித்த சுவையான முலாம்பழங்களும், அரிய வகை ஆப்பிள்களும், பேரழகு வாய்ந்த நீல மலர்களும் நாடெங்கும் பேசப்பட்டன.\n    \nஅரண்மனையில் மன்னரின் அரச விருந்து நடைபெற்ற போது, லார்சன் அனுப்பிய பழங்களும் மலர்களுமே மேசையை அலங்கரித்தன. அரசர் வியந்து, \"இந்த அற்புதப் பழங்களை விளைவித்த மாபெரும் தோட்டக்கலை மேதை யார்?\" என்று கேட்டுப் பாராட்டிப் பொற்பதக்கம் அனுப்பினார்.\n    \nஆனால் மாளிகையின் அகந்தை பிடித்த நிலப்பிரபுக்கோ தன் தோட்டக்காரனைப் பாராட்ட மனமில்லை!\n    \nஅவர் பிற பிரபுக்களிடம் தற்பெருமையாகப் பேசினார்: \"அந்தப் பழங்கள் லார்சனால் விளையவில்லை; எங்கள் மாளிகையின் மண்ணும் காலநிலையும் தான் அதற்குக் காரணம்!\" என்று ஏளனம் செய்தார்.\n    \nஅரசனின் தோட்டக்கலை நிபுணர்கள் லார்சனை நேரில் சந்தித்து வணங்கினர்; வெளிநாட்டுத் தூதுவர்கள் அவனது அறிவியல் ஞானத்தைப் போற்றினர்.\n    \nபிரபுவின் பொறாமை எவ்வளவோ முயன்றும் லார்சனின் உண்மை மேதைமையை மறைக்க முடியவில்லை; உழைப்பினால் உருவான தூய சாதனை உலக அரங்கில் என்றும் ஒளிவீசியது.",
+  "moral": "உண்மையான உழைப்பும் கைவண்ணமும் உலகம் போற்றும் புகழைப் பெறும்; எஜமானர்களின் போலி தற்பெருமையும் பொறாமையும் உண்மை மேதைமையை ஒருபோதும் மங்கச் செய்ய முடியாது.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Gardener and the Squire illustration from the Hans Christian Andersen collection.",
   "word_count": 224,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Gardener and the Squire\"?",
+      "question": "லார்சன் விளைவித்த பழங்களையும் மலர்களையும் கண்டு வியந்து பொற்பதக்கம் வழங்கியவர் யார்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "அரச விருந்தில் சுவைத்த நாட்டின் அரசர்",
+        "மாளிகையின் பிரபு",
+        "ஒரு வணிகர்",
+        "ஒரு காவலாளி"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "அரச விருந்தில் சுவைத்த நாட்டின் அரசர்",
+      "hint": "அரண்மனை விருந்தில் சுவைத்த மன்னரை நினையுங்கள்.",
+      "explanation": "மன்னர் லார்சனின் தோட்டக்கலைத் திறமையைப் பாராட்டி அவனுக்குப் பொற்பதக்கம் அனுப்பினார்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "மாளிகைப் பிரபு லார்சனின் புகழைக் கண்டு என்னவென்று பொறாமையோடு பேசினார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "பழங்கள் லார்சனால் விளையவில்லை, எங்கள் தோட்டத்து மண்ணே காரணம் என்று ஏளனம் செய்தார்",
+        "லார்சனுக்குப் பரிசு தந்தார்",
+        "அவனைப் பாராட்டினார்",
+        "அவனுக்கு நிலம் தந்தார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "பழங்கள் லார்சனால் விளையவில்லை, எங்கள் தோட்டத்து மண்ணே காரணம் என்று ஏளனம் செய்தார்",
+      "hint": "பிரபுவின் பொறாமைப் பேச்சை நினையுங்கள்.",
+      "explanation": "நிலப்பிரபு தன் தோட்டக்காரன் தன்னை விடப் புகழ்பெறுவதைத் தாங்க முடியாமல் ஏளனம் பேசினார்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் கூர்மையான சமூக நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "உண்மைத் திறமையும் உழைப்பும் உலக அங்கீகாரத்தைப் பெறும்; எஜமானர்களின் பொறாமை மேதைமையை மறைக்க முடியாது",
+        "பழங்களை விளைவிக்கக் கூடாது",
+        "அரச விருந்துகளுக்குப் போகக் கூடாது",
+        "மண்ணைத் தோண்டக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "உண்மைத் திறமையும் உழைப்பும் உலக அங்கீகாரத்தைப் பெறும்; எஜமானர்களின் பொறாமை மேதைமையை மறைக்க முடியாது",
+      "hint": "உழைப்பின் வெற்றியை நினையுங்கள்.",
+      "explanation": "எளிய தொழிலாளியின் மேதைமை அதிகார வர்க்கத்தின் கர்வத்தை உடைத்து வெல்லும் என ஆன்டர்சன் காட்டினார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "முலாம்பழங்களும்",
+      "meaning": "இனிய நறுமணமும் அதிக சுவையும் கொண்ட கோடைக்கால முலாம்பழ வகைகளும்",
+      "gloss": "melons, cantaloupes"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "பொற்பதக்கம்",
+      "meaning": "சிறந்த சாதனைக்காகவும் மேதைமைக்காகவும் அரசரால் பரிசாக வழங்கப்படும் தங்கப் பதக்கம்",
+      "gloss": "gold medal"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "தோட்டக்கலை",
+      "meaning": "செடி, கொடி, மரங்களையும் மலர்த் தோட்டங்களையும் அறிவியல் முறையில் பராமரிக்கும் உன்னதக் கலை",
+      "gloss": "horticulture, gardening art"
+    },
+    {
+      "word": "தூதுவர்கள்",
+      "meaning": "வெளிநாடுகளிலிருந்து தேசத்தின் பிரதிநிதிகளாக வந்து உறவு பேணும் அரசுத் தூதர்கள்",
+      "gloss": "ambassadors, envoys"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Gardener and the Squire\"?"
+      "tier": "remembering",
+      "prompt": "லார்சன் தன் முழு வாழ்நாளையும் எக்கலையில் அர்ப்பணித்து வாழ்ந்து வந்தான்?",
+      "type": "remembering",
+      "question": "லார்சன் தன் முழு வாழ்நாளையும் எக்கலையில் அர்ப்பணித்து வாழ்ந்து வந்தான்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "அரசரின் பாராட்டைப் பெற்ற போதும் நிலப்பிரபு லார்சனைப் பாராட்ட மறுத்ததன் உளவியல் காரணத்தை விளக்குக.",
+      "type": "understanding",
+      "question": "அரசரின் பாராட்டைப் பெற்ற போதும் நிலப்பிரபு லார்சனைப் பாராட்ட மறுத்ததன் உளவியல் காரணத்தை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது நிறுவனங்களிலும் பணியிடங்களிலும் தொழிலாளர்களின் தனித்துவமான திறமைகளை நாம் எவ்வாறு போற்றி அங்கீகரிக்க வேண்டும்?",
+      "type": "applying",
+      "question": "நமது நிறுவனங்களிலும் பணியிடங்களிலும் தொழிலாளர்களின் தனித்துவமான திறமைகளை நாம் எவ்வாறு போற்றி அங்கீகரிக்க வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "நிலப்பிரபுவின் அதிகாரப் பகட்டிற்கும், லார்சனின் நேர்மையான மண் சார்ந்த உழைப்பிற்கும் உள்ள முரண்பாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "நிலப்பிரபுவின் அதிகாரப் பகட்டிற்கும், லார்சனின் நேர்மையான மண் சார்ந்த உழைப்பிற்கும் உள்ள முரண்பாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'உண்மையான மேதைமை அதிகாரிகளின் தயவை எதிர்பார்ப்பதில்லை, அது தன் சொந்த உழைப்பால் ஒளிர்கிறது' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'உண்மையான மேதைமை அதிகாரிகளின் தயவை எதிர்பார்ப்பதில்லை, அது தன் சொந்த உழைப்பால் ஒளிர்கிறது' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "லார்சனைப் பாராட்டி அரசவை நிபுணர்கள் மாளிகைத் தோட்டத்தில் கல்வெட்டு நட்ட ஒரு கற்பனைக் காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "லார்சனைப் பாராட்டி அரசவை நிபுணர்கள் மாளிகைத் தோட்டத்தில் கல்வெட்டு நட்ட ஒரு கற்பனைக் காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

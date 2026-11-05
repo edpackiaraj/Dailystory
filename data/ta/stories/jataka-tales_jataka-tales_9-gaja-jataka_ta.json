@@ -2,12 +2,12 @@
   "id": "jataka-tales-9-gaja-jataka",
   "slug": "jataka-tales-9-gaja-jataka",
   "language": "ta",
-  "title": "Gaja Jataka",
+  "title": "கஜ ஜாதகம் – நரைத்த தலைமுடியும் துறவின் அழைப்பும்",
   "genre": "Jataka Tales",
   "collection": "Jataka Tales",
   "culture_region": "Ancient India / Buddhist Folklore",
   "age_group": "Below 13",
-  "summary": "In ancient times, in the ancient city of Benares, when King Brahmadatta ruled with righteousness, the Great Being (Bodhisattva) was born according to the ripening of his past merit...",
+  "summary": "தலைசீவும் வேளையில் நாவிதன் காட்டிய முதல் நரை முடியைக் கண்டு, 'இதுவே முதுமையும் மரணமும் என்னை அழைக்கும் முதல் தூதுவன்' என்று உணர்ந்து, அரியணையைத் தன் மகனிடம் ஒப்படைத்துக் காட்டுக்குத் தவம் செய்யச் சென்ற மகாராஜாவின் துறவறம்.",
   "keywords": [
     "jataka tales",
     "gaja jataka",
@@ -22,49 +22,55 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In ancient times, in the ancient city of Benares, when King Brahmadatta ruled with righteousness, the Great Being (Bodhisattva) was born according to the ripening of his past meritorious deeds. In that life, he appeared as a noble exemplar of Nekkhamma, demonstrating boundless wisdom and spotless compassion for all living beings.\n\nAt that time, a great trial arose in the realm. The king and his ministers, blinded by greed, transient pride, and false counsel, had strayed from the path of righteousness, imposing harsh taxes and causing distress among the people and the forest creatures. Seeing the distress of the realm, the Great Being stepped forward without fear for his own comfort or life.\n\nGathering the people and confronting the monarch in the royal courtyard, the Great Being spoke words of gentle yet unshakeable truth: \"O King! A throne upheld by tyranny crumbles to dust, but a realm governed by virtue, justice, and loving-kindness flourishes like a banyan tree whose shade shelters travelers from every land. He who sows harm reaps sorrow, while he who guards the weak attains enduring peace.\"\n\nMoved by the Great Being’s spotless purity and profound reasoning, the king renounced his unjust decrees, ordered granaries opened to feed the hungry, and declared total protection for all beasts and birds in the forest. The Great Being guided the realm in peace and virtue, teaching that moral integrity, selfless sacrifice, and steady wisdom are the highest ornaments of life, leading mortals safely across the ocean of worldly trials.",
-  "moral": "The first messenger of old age calls the wise soul to peaceful renunciation.",
+  "full_text": "வாரணாசி நகரை மகா பிரம்மதத்த மன்னன் ஆட்சி செய்து வந்தான். அவனிடம் ஆயிரக்கணக்கான யானைகளும், தேர்களும், மாளிகைகளும் இருந்தன. அவன் ஒரு நாள் காலை வேளையில் தன் தங்கக் கண்ணாடியின் முன் அமர்ந்து சிகை அலங்காரம் செய்துகொண்டிருந்தான். அப்போது மன்னனின் தலைமுடியைத் திருத்திக் கொண்டிருந்த நாவிதன், \"மன்னர்பிரானே! தங்கள் கரிய கூந்தலின் நடுவே ஒரு வெள்ளை முடி முளைத்திருக்கிறது\" என்று பயபக்தியோடு கூறினான்.\n\nமன்னன், \"அந்த நரைத்த முடியைப் பொன் குறடால் பிடுங்கி என் உள்ளங்கையில் வை\" என்று ஆணையிட்டான். நாவிதன் அந்த ஒற்றை வெள்ளை முடியைப் பிடுங்கி மன்னனின் கையில் வைத்தான். அந்த ஒற்றை முடியைக் கூர்ந்து நோக்கிய மன்னனின் உள்ளத்தில் ஒரு மாபெரும் ஞானப் பொறி தட்டியது. அவனது கண்கள் பனித்தன; உடல் சிலிர்த்தது.\n\n\"அடடா! காலதேவனின் முதல் எச்சரிக்கைத் தூதுவன் என் தலையில் தோன்றிவிட்டான்! இளமை நழுவிவிட்டது; முதுமையும் பிணியும் என்னை நோக்கி வந்துகொண்டிருக்கின்றன; மரணம் கதவைத் தட்டும் முன் நான் என் ஆன்மாவைத் தூய்மை செய்ய வேண்டாமா?\" என்று தனக்குள்ளேயே பேசிக்கொண்டான். அன்றே தன் அமைச்சர்களைக் கூட்டி, தன் மூத்த மகனுக்கு முடிசூட்டினான். அரண்மனையின் சுகபோகங்களைத் துறந்து, காஷாய ஆடையை உடுத்திக்கொண்டு காட்டில் தவமிருந்தான்; ஆழ்ந்த தியானத்தின் மூலம் பிறவித் துன்பங்களிலிருந்து விடுபட்டு அமைதி பெற்றான்.",
+  "moral": "நிலையற்ற உலக இன்பங்களில் மூழ்கிக் கிடக்காமல், வாழ்வின் நிலையாமையை உணர்ந்து தர்ம சிந்தனையோடும் பற்றற்ற மனதோடும் வாழ்வதே மேலான ஞானமாகும்.",
   "image": "/images/stories/jataka.webp",
   "image_alt": "Gaja Jataka illustration from the Jataka Tales collection.",
-  "word_count": 249,
-  "reading_time": "2 min",
-  "listen_time": "2 min",
+  "word_count": 135,
+  "reading_time": "2 mins",
+  "listen_time": "2 mins",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"Gaja Jataka\"?",
+      "question": "நாவிதன் மன்னனின் தலையில் எதனைக் கண்டான்?",
       "options": [
-        "Paramita perfection - Dana, Sila, Kshanti etc.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "வைரக் கிரீடத்தை",
+        "ஒரு வெள்ளை நரை முடியை",
+        "காயத்தை",
+        "பூவை"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "ஒரு வெள்ளை நரை முடியை",
+      "explanation": "கரிய தலைமுடிக்கு நடுவே ஒரு ஒற்றை நரை முடி முளைத்திருந்ததைக் கண்டான்.",
+      "answerIndex": 1,
+      "hint": "கரிய தலைமுடிக்கு நடுவே ஒரு ஒற்றை நரை முடி முளைத்திருந்ததைக் கண்டான்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "நரைத்த முடியைக் கண்டதும் மன்னன் அதனை என்னவென்று கருதினான்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "முடி நரைத்தது சாதாரண விஷயம் என்று",
+        "காலதேவன் அனுப்பிய முதல் எச்சரிக்கைத் தூதுவன் என்று",
+        "நாவிதனின் தவறு என்று",
+        "மருந்து போட வேண்டும் என்று"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "காலதேவன் அனுப்பிய முதல் எச்சரிக்கைத் தூதுவன் என்று",
+      "explanation": "முதுமையும் மரணமும் நெருங்குவதை உணர்த்தும் காலத்தின் தூதுவன் என்று எண்ணினான்.",
+      "answerIndex": 1,
+      "hint": "முதுமையும் மரணமும் நெருங்குவதை உணர்த்தும் காலத்தின் தூதுவன் என்று எண்ணினான்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "மன்னன் என்ன முடிவெடுத்தான்?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "புதிய கிரீடம் வாங்கினான்",
+        "மகனுக்கு முடிசூட்டிவிட்டு அரண்மனையைத் துறந்து காட்டில் தவமிருந்தான்",
+        "போருக்குச் சென்றான்",
+        "தலையை மொட்டையடித்தான்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "மகனுக்கு முடிசூட்டிவிட்டு அரண்மனையைத் துறந்து காட்டில் தவமிருந்தான்",
+      "explanation": "உலக இன்பங்களைத் துறந்து தவமேற்கொண்டு ஆன்ம விடுதலை பெற்றான்.",
+      "answerIndex": 1,
+      "hint": "உலக இன்பங்களைத் துறந்து தவமேற்கொண்டு ஆன்ம விடுதலை பெற்றான்."
     }
   ],
   "author": "Traditional Buddhist Fables (Pali Canon / Public Domain)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "அலங்காரம்",
+      "meaning": "அழகை மெருகூட்டும் ஒப்பனை வேலை (Decoration / adornment)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "பயபக்தியோடு",
+      "meaning": "மிகுந்த பணிவோடும் மரியாதையோடும் (With reverent devotion)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "குறடால்",
+      "meaning": "சிறு பொருட்களைப் பிடுங்க உதவும் இடுக்கி அல்லது குறடு போன்ற கருவியால் (With tweezers / pliers)"
+    },
+    {
+      "word": "காஷாய",
+      "meaning": "துறவிகள் அணியும் காவி நிறத் தவ ஆடை (Saffron / ascetic's robe)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"Gaja Jataka\"?"
+      "type": "ஞாபகப்படுத்துதல் (Remembering)",
+      "question": "நாவிதன் வெள்ளை முடியைப் பிடுங்கி மன்னனின் எங்கே வைத்தான்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Paramita perfection - Dana, Sila, Kshanti etc.\" meaningful in daily life?"
+      "type": "புரிதல் (Understanding)",
+      "question": "மிகச் சிறிய ஒரு நரை முடி மன்னனின் ஒட்டுமொத்த வாழ்வையே புரட்டிப்போட்டதன் தத்துவார்த்தப் பின்னணி என்ன?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "type": "பயன்பாடு (Applying)",
+      "question": "வாழ்வின் நிலையாமையை (Impermanence) உணர்வது நம்முடைய அகந்தையையும் பேராசையையும் குறைக்க எவ்வாறு உதவும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "type": "மதிப்பீடு (Evaluating)",
+      "question": "போதிசத்துவரின் துறவு நெறியையும் பொறுப்புள்ள ஆட்சி மாற்றத்தையும் சமகாலப் பார்வையில் மதிப்பிடுக."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

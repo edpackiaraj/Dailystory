@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Cat and the Milk\"?",
+      "question": "மன்னர் ஊரில் எலித் தொல்லையைப் போக்க ஒவ்வொரு வீட்டுக்கும் பூனைகளைக் கொடுத்து என்ன செய்தார்?",
       "options": [
-        "Wit and humor triumph over arrogance and power",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "பூனைகளுக்கு நாள்தோறும் பால் கொடுக்க அரசு கஜானாவிலிருந்து பசு மாடுகளை வழங்கினார்",
+        "பூனைகளுக்கு மீன் மட்டுமே கொடுக்க உத்தரவிட்டார்",
+        "பூனைகளை எலிகளைப் பிடிக்கப் பயிற்சிப் பள்ளியில் சேர்க்கச் சொன்னார்",
+        "பூனைகளைத் தங்கக் கூண்டில் அடைக்கச் சொன்னார்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "மன்னரின் விசித்திரமான பூனை வளர்ப்புத் திட்டத்தை நினைவுகூருங்கள்.",
+      "answer": "பூனைகளுக்கு நாள்தோறும் பால் கொடுக்க அரசு கஜானாவிலிருந்து பசு மாடுகளை வழங்கினார்",
+      "explanation": "மன்னரின் விசித்திரமான பூனை வளர்ப்புத் திட்டத்தை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "தெனாலிராமன் தன் வீட்டுப் பூனைக்குப் பால் கொடுத்த முதல் நாளே என்ன செய்தார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "கொதிக்கும் சுடச்சுடப் பாலைக் கிண்ணத்தில் ஊற்றிப் பூனையின் முன் வைத்தார்",
+        "பாலில் சர்க்கரை கலந்து அன்பாக ஊட்டினார்",
+        "பாலை ஒரு கிணற்றில் ஊற்றிவிட்டார்",
+        "பூனைக்குப் பாலே கொடுக்காமல் பட்டினி போட்டார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "பூனையின் நாக்கு வெந்துபோக ராமன் செய்த செயலை யோசியுங்கள்.",
+      "answer": "கொதிக்கும் சுடச்சுடப் பாலைக் கிண்ணத்தில் ஊற்றிப் பூனையின் முன் வைத்தார்",
+      "explanation": "பூனையின் நாக்கு வெந்துபோக ராமன் செய்த செயலை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "மன்னரின் முன்னிலையில் பாலை வைத்தபோது ராமனின் பூனை ஏன் ஓடிப்போனது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "முதல் நாள் வாய் சுட்ட பயத்தால் குளிர்ந்த பாலைக் கண்டாலும் கொதிக்கும் பால் என அஞ்சி ஓடியது",
+        "பூனைக்கு ஏற்கனவே வயிறு நிறைந்திருந்தது",
+        "மன்னரைக் கண்டு பூனை பயந்தது",
+        "பால் புளித்துப் போயிருந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "\"சூடுபட்ட பூனை அடுப்பங்கரையை நாடாது\" என்ற பழமொழியை நினைவில் கொள்ளுங்கள்.",
+      "answer": "முதல் நாள் வாய் சுட்ட பயத்தால் குளிர்ந்த பாலைக் கண்டாலும் கொதிக்கும் பால் என அஞ்சி ஓடியது",
+      "explanation": "\"சூடுபட்ட பூனை அடுப்பங்கரையை நாடாது\" என்ற பழமொழியை நினைவில் கொள்ளுங்கள்."
     }
   ],
   "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கொதிக்கும்",
+      "meaning": "அடுப்பில் காய்ச்சி மிக அதிக வெப்பத்தில் இருக்கும் பால்"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "சுட்டுக்கொண்டு",
+      "meaning": "அதிக வெப்பத்தால் நாக்கு அல்லது தோல் புண்ணாகும் நிலை"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "விஜயநகர",
+      "meaning": "விஜயநகர என்ற சொல்லின் சூழல் பொருள் (Signifies விஜயநகர in the context of the story)"
+    },
+    {
+      "word": "அரண்மனையில்",
+      "meaning": "அரண்மனையில் என்ற சொல்லின் சூழல் பொருள் (Signifies அரண்மனையில் in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Cat and the Milk\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "மன்னர் கொடுத்த பாலை ராமன் தன் குடும்பத்திற்கு என்ன செய்தார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wit and humor triumph over arrogance and power\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "ஒரு முறை ஏற்பட்ட கடுமையான கசப்பான அனுபவம் மனதில் எத்தகைய நிரந்தர அச்சத்தை உருவாக்குகிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "வாழ்க்கையில் தவறான வழிகளில் அடிபட்ட மனிதர்கள் மீண்டும் அந்த தவறைச் செய்ய அஞ்சுவது ஏன்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "விலங்குகளைத் தவறாகப் பழக்கப்படுத்தாமல் இயற்கையான முறையில் காப்பது ஏன் சிறந்தது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

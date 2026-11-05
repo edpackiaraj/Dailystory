@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-93-the-comet",
   "slug": "hans-christian-andersen-93-the-comet",
   "language": "ta",
-  "title": "The Comet",
+  "title": "வால்நட்சத்திரமும் தலைமுறைகளைக் கடந்த பிரபஞ்சப் பேரழகும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "The great comet blazed across the midnight sky, its long luminous tail sparkling with celestial fire. An old grandmother held her little grandson by the hand, pointing to the heave...",
+  "summary": "நள்ளிரவு வானில் நீண்ட ஒளிக்கற்றையோடு வால்நட்சத்திரம் தோன்றிய போது, தன் பேரனின் கையைப் பிடித்து வானைக் காட்டிய பாட்டியும், பல தசாப்தங்களுக்குப் பின் முதியவனாக மாறித் தன் பேரனுக்கு அதே வால்நட்சத்திரத்தைக் காட்டிய சிறுவனின் காலப் பெருங்கதை.",
   "keywords": [
     "hans christian andersen",
     "the comet",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived The great comet blazed across the midnight sky, its long luminous tail sparkling with celestial fire. An old grandmother held her little grandson by the hand, pointing to the heave.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that celestial wonders return across centuries, while human generations pass like brief waves in the ocean of time.",
-  "moral": "Celestial wonders return across centuries, while human generations pass like brief waves in the ocean of time.",
+  "full_text": "நள்ளிரவு வானில், ஒரு பிரம்மாண்டமான வால்நட்சத்திரம் தோன்றியது! அதன் நீண்ட பிரகாசமான வால், விண்மீன்களின் நடுவே தங்கத் தாரையாக ஒளிவீசியது.\n    \nஊர் மக்கள் பயந்து நடுங்கினர்; ஆனால் ஒரு அன்பான முதிய பாட்டி, தன் ஆறு வயதுப் பேரனின் கையைப் பிடித்துக் கொண்டு வீட்டின் மாடிக்கு அழைத்துச் சென்றாள்.\n    \nஅவள் வானத்தை நோக்கி விரல் காட்டினாள்: \"கண்மணியே! பயப்படாதே! இது இறைவனின் அற்புதப் படைப்பு! என் சிறுவயதில் என் தாத்தா எனக்கு இதே வால்நட்சத்திரத்தைக் காட்டினார்; இப்போது நான் உனக்குக் காட்டுகிறேன்! பல ஆண்டுகளுக்குப் பின் இது மீண்டும் வரும் போது நீ இதை உன் பேரனுக்குக் காட்டுவாய்!\" என்று கூறினாள்.\n    \nகாலம் தன் வேகமான சிறகுகளை அடித்துப் பறந்தது. அறுபது ஆண்டுகள் உருண்டோடின.\n    \nஅந்தப் பாட்டி அமைதியாக இயற்கை எய்தினாள். அந்தச் சின்னஞ்சிறு பேரன் இப்போது நரைத்த தாடியும் தளர்ந்த உடலும் கொண்ட முதியவனாக மாறியிருந்தான்.\n    \nமீண்டும் அதே நாளில், அதே வானில் அந்த பிரம்மாண்டமான வால்நட்சத்திரம் பேரொளியோடு தோன்றியது!\n    \nஅந்த முதியவன் தன் பிஞ்சுப் பேரனின் விரல்களைப் பிடித்துக் கொண்டு மாடிக்குச் சென்றான்: \"குழந்தாய்! மேலே பார்! இதோ என் பாட்டி எனக்குக் காட்டிய வால்நட்சத்திரம்!\" என்று கண்களில் நீர் வழியக் காட்டினான்.\n    \nமனித உடல்கள் மறையலாம்; ஆனால் தலைமுறைகளை இணைக்கும் பாசமும், பிரபஞ்சத்தின் எல்லையற்ற பேரழகும் என்றென்றும் மாறாமல் தொடர்ந்து கொண்டே இருக்கும்.",
+  "moral": "பிரபஞ்சத்தின் விண்மீன்களும் வால்நட்சத்திரங்களும் நூற்றாண்டுகள் கடந்து மாறாமல் சுழல்கின்றன; மனிதர்களின் தலைமுறைகளோ காலப் பெருங்கடலில் தோன்றி மறையும் சிறிய அலைகளே.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Comet illustration from the Hans Christian Andersen collection.",
   "word_count": 229,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Comet\"?",
+      "question": "வானில் வால்நட்சத்திரம் தோன்றிய போது பாட்டி தன் பேரனுக்கு என்ன ஆறுதல் கூறினாள்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "பயப்படாதே, இது இறைவனின் அற்புதப் படைப்பு; எதிர்காலத்தில் நீ உன் பேரனுக்கு இதைக் காட்டுவாய் என்றாள்",
+        "வீட்டை விட்டு ஓடு என்றாள்",
+        "போர் வரப்போகிறது என்றாள்",
+        "விளக்குகளை அணைக்கச் சொன்னாள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "பயப்படாதே, இது இறைவனின் அற்புதப் படைப்பு; எதிர்காலத்தில் நீ உன் பேரனுக்கு இதைக் காட்டுவாய் என்றாள்",
+      "hint": "தலைமுறைகளைக் கடந்த நம்பிக்கையை நினையுங்கள்.",
+      "explanation": "பாட்டி வால்நட்சத்திரத்தைக் கண்டு அஞ்சாமல், அது தலைமுறைகளை இணைக்கும் இயற்கை அற்புதம் என்று அன்போடு கூறினாள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "அறுபது ஆண்டுகளுக்குப் பின் வால்நட்சத்திரம் மீண்டும் தோன்றிய போது என்ன நடந்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "முதியவனாக மாறிய அந்தப் பேரன் தன் சொந்தப் பேரனுக்கு அதே வால்நட்சத்திரத்தைக் காட்டினான்",
+        "ஊரே அழிந்தது",
+        "சூரியன் மறையவில்லை",
+        "எவரும் அதைப் பார்க்கவில்லை"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "முதியவனாக மாறிய அந்தப் பேரன் தன் சொந்தப் பேரனுக்கு அதே வால்நட்சத்திரத்தைக் காட்டினான்",
+      "hint": "பாட்டி சொன்ன தீர்க்கதரிசனம் நிறைவேறியதை நினையுங்கள்.",
+      "explanation": "வளர்த்து முதியவனான பேரன் தன் பேரனுக்கு அதே வால்நட்சத்திரத்தைக் காட்டிப் பாட்டியின் நினைவை மீட்டான்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் உன்னத தத்துவச் செய்தி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "மனித தலைமுறைகள் மறைந்தாலும் குடும்பப் பாசமும் பிரபஞ்சத்தின் மகத்துவமும் என்றும் நிலைத்திருக்கும்",
+        "இரவில் வானத்தைப் பார்க்கக் கூடாது",
+        "வால்நட்சத்திரங்கள் தீமையைத் தரும்",
+        "முதியவர்களை மதிக்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "மனித தலைமுறைகள் மறைந்தாலும் குடும்பப் பாசமும் பிரபஞ்சத்தின் மகத்துவமும் என்றும் நிலைத்திருக்கும்",
+      "hint": "காலத்தைக் கடந்த அன்பையும் பிரபஞ்சத்தையும் நினையுங்கள்.",
+      "explanation": "கால வெள்ளத்தில் தலைமுறைகள் கடந்தாலும் அன்பும் பிரபஞ்சப் பேரழகும் அழியாமல் நீடிக்கும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "வால்நட்சத்திரம்",
+      "meaning": "நீண்ட ஒளிரும் வாலுடன் சூரியனை நீள்வட்டப் பாதையில் சுற்றி வரும் விண்பொருள்",
+      "gloss": "comet"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "தங்கத் தாரையாக",
+      "meaning": "வானில் உருகிய தங்கம் கொட்டுவது போன்ற பிரகாசமான ஒளி வெள்ளமாக",
+      "gloss": "as a golden stream"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "தளர்ந்த",
+      "meaning": "முதுமையின் காரணமாக வலிமை குன்றித் தளர்ந்துபோன உடலமைப்பு கொண்ட",
+      "gloss": "infirm, feeble, aged"
+    },
+    {
+      "word": "தலைமுறைகளை",
+      "meaning": "தாத்தா, தந்தை, மகன் எனத் தொடர்ந்து வரும் வழித்தோன்றல்களை",
+      "gloss": "generations"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Comet\"?"
+      "tier": "remembering",
+      "prompt": "வால்நட்சத்திரம் மீண்டும் வானில் தோன்ற எத்தனை ஆண்டுகள் ஆயின?",
+      "type": "remembering",
+      "question": "வால்நட்சத்திரம் மீண்டும் வானில் தோன்ற எத்தனை ஆண்டுகள் ஆயின?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "வால்நட்சத்திரம் எவ்வாறு ஒரு குடும்பத்தின் தலைமுறைப் பாசத்தின் தொடர்ச்சியாக மாறியது என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "வால்நட்சத்திரம் எவ்வாறு ஒரு குடும்பத்தின் தலைமுறைப் பாசத்தின் தொடர்ச்சியாக மாறியது என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது முன்னோர்கள் நமக்குக் கற்றுத்தந்த பண்பாட்டு நற்பண்புகளையும் அன்பையும் நாம் எவ்வாறு அடுத்த தலைமுறைக்குக் கடத்த வேண்டும்?",
+      "type": "applying",
+      "question": "நமது முன்னோர்கள் நமக்குக் கற்றுத்தந்த பண்பாட்டு நற்பண்புகளையும் அன்பையும் நாம் எவ்வாறு அடுத்த தலைமுறைக்குக் கடத்த வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "மனித வாழ்வின் குறுகிய கால எல்லைக்கும், பிரபஞ்ச விண்பொருட்களின் நீடித்த கால எல்லைக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "மனித வாழ்வின் குறுகிய கால எல்லைக்கும், பிரபஞ்ச விண்பொருட்களின் நீடித்த கால எல்லைக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'அறிவியல் வியப்புகளும் குடும்ப அன்பும் இணையும் இடமே வாழ்க்கையின் ஆகச்சிறந்த ஆன்மீக அனுபவம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'அறிவியல் வியப்புகளும் குடும்ப அன்பும் இணையும் இடமே வாழ்க்கையின் ஆகச்சிறந்த ஆன்மீக அனுபவம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "முதியவன் தன் பேரனைத் தழுவிக் கொண்டு தன் பாட்டியின் நினைவுகளைக் கூறிய ஒரு உணர்ச்சிமயமான உரையாடலை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "முதியவன் தன் பேரனைத் தழுவிக் கொண்டு தன் பாட்டியின் நினைவுகளைக் கூறிய ஒரு உணர்ச்சிமயமான உரையாடலை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

@@ -2,12 +2,12 @@
   "id": "aesops-fables-48-the-horse-and-the-donkey",
   "slug": "aesops-fables-48-the-horse-and-the-donkey",
   "language": "ta",
-  "title": "The Horse and the Donkey",
+  "title": "குதிரையும் கழுதையும் – பகிராத பாரத்தின் விபரீதம்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A merchant set out for the city with his horse and donkey. The donkey was loaded to the brim with heavy merchandise, while the horse walked free, adorned with jingling bells....",
+  "summary": "அதிகப் பாரத்தால் தவித்த கழுதைக்குச் சிறிது பாரத்தைத் தாங்கி உதவ மறுத்த கர்வம் பிடித்த குதிரை, கழுதை செத்து விழுந்ததும் முழுச் சுமையையும் அதன் தோலையும் தன் முதுகில் சுமக்க நேர்ந்த கதை.",
   "keywords": [
     "aesop's fables",
     "the horse and the donkey",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Along a dusty rural road that wound between stone walls and sun-drenched vineyards, A merchant set out for the city with his horse and donkey. The donkey was loaded to the brim with heavy merchandise, while the horse walked free, adorned with jingling bells..... The creatures of the field went about their daily lives according to their nature, each seeking their own advantage while keeping a vigilant watch over friends and foes alike.\n\nAs the hours passed, an unexpected turning point arose that tested their wits and character. A tense confrontation soon arose as rival desires crossed paths under the midday sun. Words were exchanged with cautious cunning, glances were measured, and each party sought to disguise their true intentions behind a veil of outward innocence.\n\nYet the timeless laws of nature cannot be deceived by clever words or false appearances. Natural instincts and sharp wits collided, bringing the trial to an immediate, decisive climax.  The outcome was swift and irreversible, leaving behind a lasting lesson for all who witnessed the event, proving that help your fellow laborer in his time of trial, lest his burden fall upon your own shoulders.",
-  "moral": "Help your fellow laborer in his time of trial, lest his burden fall upon your own shoulders.",
+  "full_text": "ஒரு வணிகன் தன் குதிரையையும் கழுதையையும் ஓட்டிக்கொண்டு பக்கத்து நகரத்துச் சந்தைக்குப் புறப்பட்டான். அவனது கழுதையின் முதுகில் தாங்க முடியாத அளவுக்குப் பருத்தி மூட்டைகளும் கனமான சரக்குகளும் ஏற்றப்பட்டிருந்தன. ஆனால் குதிரையோ பளபளக்கும் சேணம் மற்றும் மணிகள் பூட்டிய அழகிய கடிவாளத்துடன், எந்தச் சுமையும் இன்றி மிடுக்காக நடந்து வந்தது.\n\nவெயில் உச்சிக்கு ஏறியது. கடுமையான பாரத்தைத் தூக்கிச் சுமக்க முடியாமல் கழுதையின் கால்கள் தளர்ந்தன; மூச்சுத் திணறியது. அது குதிரையை நோக்கிக் கெஞ்சியது: \"குதிரைத் தோழா! தயவுசெய்து என் சுமையில் ஒரு சிறிய பங்கை மட்டும் உன் முதுகில் ஏற்றிக்கொள்! இல்லாவிட்டால் நான் வழியிலேயே மயங்கிச் செத்துவிடுவேன்!\" என்றது.\n\nஆனால் அகந்தை பிடித்த குதிரையோ அலட்சியமாகத் தலையை ஆட்டியது: \"போடா மூடனே! நான் அரச கம்பீரம் கொண்ட பந்தயக் குதிரை! மூட்டை சுமப்பது என் வேலை அல்ல, உன் தலையெழுத்து!\" என்று எள்ளி நகையாடியது.\n\nசிறிது தூரம் நடந்ததும் பாரம் தாங்காமல் கழுதை வழியிலேயே மயங்கி விழுந்து பரிதாபமாக உயிரை விட்டது. வணிகன் செய்வதறியாது திகைத்தான். உடனடியாகக் கழுதையின் முதுகில் இருந்த அனைத்து மூட்டைகளையும் தூக்கிக் குதிரையின் முதுகில் ஏற்றினான். அதுமட்டுமின்றி, செத்துப்போன கழுதையின் தோலையும் உரித்துக் குதிரையின் மேல் பாரமாகப் போட்டான்!\n\nகுதிரையின் முதுகு முறியும் அளவுக்குப் பாரம் அழுத்தியது. \"ஐயோ! அற்பக் கர்வத்தால் என் தோழனுக்குச் சிறிதளவு உதவ மறுத்தேனே! இப்போது அவனது சுமை முழுவதோடு சேர்த்து அவனது உடலையும் நானே சுமக்க வேண்டியதாயிற்றே!\" என்று குதிரை அழுது புலம்பியது.",
+  "moral": "துன்பப்படும் தோழனின் சுமையைப் பகிர்ந்து கொள்ள மறுத்தால், இறுதியில் அவனது ஒட்டுமொத்தப் பாரமும் நமது தோள்களின் மீதே சுமத்தப்படும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Horse and the Donkey illustration from the Aesop's Fables collection.",
   "word_count": 191,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Horse and the Donkey\"?",
+      "question": "கழுதை வழியில் மூச்சுத் திணறிய போது குதிரையிடம் என்ன உதவி கேட்டது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "தனக்குக் குடிநீர் தருமாறு கேட்டது",
+        "சுமையில் ஒரு சிறிய பங்கைத் தன் முதுகில் ஏற்றிக்கொள்ளுமாறு கெஞ்சியது",
+        "வணிகனை உதைக்குமாறு கூறியது",
+        "ஓய்வெடுக்கக் கேட்டது"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "சுமையில் ஒரு சிறிய பங்கைத் தன் முதுகில் ஏற்றிக்கொள்ளுமாறு கெஞ்சியது",
+      "explanation": "தன் பாரத்தில் ஒரு சிறிய பங்கையாவது சுமந்து உதவுமாறு கழுதை குதிரையிடம் கெஞ்சியது.",
+      "answerIndex": 1,
+      "hint": "தன் பாரத்தில் ஒரு சிறிய பங்கையாவது சுமந்து உதவுமாறு கழுதை குதிரையிடம் கெஞ்சியது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கழுதைக்கு உதவ மறுத்த குதிரை என்ன ஆணவப் பேச்சு பேசியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "எனக்கு முதுகு வலிக்கிறது என்றது",
+        "நான் கம்பீரம் கொண்ட பந்தயக் குதிரை, மூட்டை சுமப்பது என் வேலை அல்ல என்றது",
+        "வணிகன் சம்மதிக்க மாட்டான் என்றது",
+        "நகரம் வெகு தொலைவு என்றது"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "நான் கம்பீரம் கொண்ட பந்தயக் குதிரை, மூட்டை சுமப்பது என் வேலை அல்ல என்றது",
+      "explanation": "தான் கம்பீரமான குதிரை என்றும் மூட்டை சுமப்பது கழுதையின் வேலை என்றும் கூறி ஏளனம் செய்தது.",
+      "answerIndex": 1,
+      "hint": "தான் கம்பீரமான குதிரை என்றும் மூட்டை சுமப்பது கழுதையின் வேலை என்றும் கூறி ஏளனம் செய்தது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "கழுதை இறந்த பிறகு வணிகன் என்ன செய்தான்?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "சுமைகளை அங்கேயே வீசிவிட்டுச் சென்றான்",
+        "அனைத்து மூட்டைகளையும் கழுதையின் தோலையும் சேர்த்து குதிரையின் முதுகில் ஏற்றினான்",
+        "வேறொரு கழுதையை வாங்கினான்",
+        "வண்டியில் ஏற்றினான்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "அனைத்து மூட்டைகளையும் கழுதையின் தோலையும் சேர்த்து குதிரையின் முதுகில் ஏற்றினான்",
+      "explanation": "கழுதையின் அனைத்து சுமைகளையும் அதன் தோலையும் குதிரையின் முதுகில் ஏற்றி ஓட்டினான்.",
+      "answerIndex": 1,
+      "hint": "கழுதையின் அனைத்து சுமைகளையும் அதன் தோலையும் குதிரையின் முதுகில் ஏற்றி ஓட்டினான்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "சேணம்",
+      "meaning": "குதிரையின் முதுகில் சவாரி செய்ய வைக்கப்படும் தோல் ஆசனம் (Saddle)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "அகந்தை",
+      "meaning": "ஆணவம் அல்லது வீண் பெருமை (Arrogance / pride)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "நகையாடியது.",
+      "meaning": "ஏளனமாகப் பேசிப் பரிகசித்துச் சிரித்தது (Mocked / sneered)"
+    },
+    {
+      "word": "புலம்பியது.",
+      "meaning": "தன் தவறை உணர்ந்து துயரத்துடன் அழுது வருந்தியது (Lamented / wailed)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Horse and the Donkey\"?"
+      "question": "பயணத்தின் தொடக்கத்தில் குதிரையும் கழுதையும் எவ்வாறு அலங்கரிக்கப்பட்டும் சுமைகளைச் சுமந்தும் வந்தன?",
+      "type": "Remembering"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "question": "குதிரையின் அலட்சிய மனப்பான்மை எவ்வாறு அதற்குப் பெரும் ஆபத்தாகவும் சுமையாகவும் முடிந்தது?",
+      "type": "Understanding"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "question": "பணியிடங்களிலும் கூட்டு வாழ்க்கையிலும் உடன் பணிபுரிபவர்களின் வேலைப்பளுவைப் பகிர்வதன் இன்றியமையாமை என்ன?",
+      "type": "Applying"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "question": "'பிறர் துன்பத்தைப் புறக்கணிப்பவன் தனக்கான தண்டனையைத் தானே தேடிக்கொள்கிறான்' என்ற தத்துவத்தை இக்கதையின் அடிப்படையில் விவாதிக்கவும்.",
+      "type": "Evaluating"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -125,5 +131,6 @@
   "reviewed": true,
   "source": "Aesop - Public Domain",
   "license": "Public Domain",
-  "credit": "Aesop's Fables Heritage Anthology"
+  "credit": "Aesop's Fables Heritage Anthology",
+  "is_translated": true
 }

@@ -2,12 +2,12 @@
   "id": "aesops-fables-16-the-lions-share",
   "slug": "aesops-fables-16-the-lions-share",
   "language": "ta",
-  "title": "The Lion's Share",
+  "title": "சிங்கத்தின் பங்கு",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "The Lion, the Fox, the Jackal, and the Wolf agreed to form a solemn hunting alliance, swearing upon their honor to share equally whatever game they brought down in the wilderness....",
+  "summary": "காட்டின் விலங்குகளோடு சேர்ந்து வேட்டையாடிவிட்டு, தந்திரத்தாலும் பலத்தாலும் இரையின் நான்கு பங்குகளையும் தானே எடுத்துக்கொண்ட சிங்கத்தின் கதை.",
   "keywords": [
     "aesop's fables",
     "the lion's share",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "The Lion, the Fox, the Jackal, and the Wolf agreed to form a solemn hunting alliance, swearing upon their honor to share equally whatever game they brought down in the wilderness.\n\nAfter a long chase through the rocky gorges, the four companions managed to trap and bring down a magnificent, fat stag. The hunters gathered around the quarry, licking their chops in anticipation of a grand feast.\n\nThe Lion, assuming the mantle of leadership, raised his paw and commanded: \"Cut the stag into four equal quarters, so that justice may be preserved among partners.\"\n\nThe wolf and jackal carved the carcass into four identical shares with great care. The Lion stood before the four portions, cleared his throat with a rumbling growl, and began his royal distribution:\n\n\"The first quarter belongs to me by right of my royal title, for I am sovereign of all the beasts of the forest. The second quarter falls to me on account of my superior strength and valor, since it was my claw that struck down the stag. The third quarter is mine because I contributed the greatest endurance to the hunt. And as for the fourth quarter,\" growled the Lion, baring his razor-sharp fangs and unsheathing his massive claws, \"whoever among you dares to lay a single paw upon it must first defeat me in mortal combat!\"\n\nThe Fox, the Jackal, and the Wolf exchanged silent, rueful glances, tucked their tails between their legs, and slunk away into the bushes with empty bellies, having learned the harsh lesson that an alliance with a tyrant always ends with the tyrant taking everything.",
-  "moral": "Partnership with the powerful rarely brings equal rewards to the weak.",
+  "full_text": "ஒரு அடர்ந்த காட்டில் சிங்கம், நரி, ஓநாய் மற்றும் ஒரு காட்டு நாய் ஆகியவை இணைந்து ஒரு வேட்டைக் கூட்டணியை உருவாக்கின. காட்டில் கிடைக்கும் வேட்டைப் பிராணிகளை நால்வரும் சமமாகப் பகிர்ந்து கொள்வதாக ஒப்பந்தம் செய்துகொண்டன.\n\nஅன்று மாலை அவை காட்டில் ஒரு பெரிய கொழுத்த மானை விரட்டிப் பிடித்து வேட்டையாடின. வேட்டை முடிந்ததும் சிங்கம் மற்ற விலங்குகளைப் பார்த்து, 'இந்த மானை நான்கு சம பங்குகளாகப் பிரியுங்கள்' என்று கட்டளையிட்டது. ஓநாய் கவனமாக மானின் உடலை நான்கு துண்டுகளாகப் பிரித்து வைத்தது.\n\nசிங்கம் கம்பீரமாக எழுந்து நின்று தனது கூரிய நகங்களை நீட்டியது: 'நண்பர்களே! முதல் பங்கு காட்டின் அரசனான எனக்குரியது! இரண்டாவது பங்கு, வேட்டையை வழிநடத்திய தலைவனான எனக்குரியது!' என்றது.\n\nமற்ற விலங்குகள் திகைத்து நின்றன. சிங்கம் தொடர்ந்து கர்ஜித்தது: 'மூன்றாவது பங்கு, உங்களை விட அதிக பலத்தோடு மானைத் தாக்கிய எனது வலிமைக்குரியது! இப்போது நான்காவது பங்கு மட்டுமே மிஞ்சியிருக்கிறது... உங்களில் எவனுக்காவது துணிவிருந்தால் என் முன் வந்து அந்த நான்காவது பங்கைத் தொட்டுப் பார்க்கலாம்!' என்றது. சிங்கத்தின் கூரிய கோரப் பற்களையும் கோபத்தையும் கண்ட மற்ற விலங்குகள் பயந்து, ஒரு வார்த்தைகூடப் பேசாமல் பசியோடு காட்டை விட்டு ஓடின.",
+  "moral": "நீதி: பலவான்களோடு கூட்டு சேர்பவர்கள், இறுதியில் உழைப்பை இழந்து ஏமாற்றத்தையே அறுவடை செய்வார்கள்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Lion's Share illustration from the Aesop's Fables collection.",
   "word_count": 268,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Lion's Share\"?",
+      "question": "வேட்டைக் கூட்டணியில் சிங்கத்துடன் இணைந்த விலங்குகள் எவை?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "யானை, புலி, கரடி",
+        "நரி, ஓநாய் மற்றும் ஒரு காட்டு நாய்",
+        "மான், முயல், நரி",
+        "குரங்கு, பூனை, நாய்"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "நரி, ஓநாய் மற்றும் ஒரு காட்டு நாய்",
+      "explanation": "சிங்கம், நரி, ஓநாய் மற்றும் காட்டு நாய் நான்கும் கூட்டணி அமைத்தன.",
+      "answerIndex": 1,
+      "hint": "சிங்கம், நரி, ஓநாய் மற்றும் காட்டு நாய் நான்கும் கூட்டணி அமைத்தன."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "மானின் நான்கு பங்குகளையும் சிங்கம் எவ்வாறு அபகரித்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அனைத்தையும் திருடி ஓடியது",
+        "அரசன், தலைவன், அதிக பலம் என்ற காரணங்களைக் கூறி நான்காவது பங்கைத் தொட எச்சரித்தது",
+        "மற்ற விலங்குகளுக்குக் காசு கொடுத்தது",
+        "பங்குகளை எரித்துவிட்டது"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "அரசன், தலைவன், அதிக பலம் என்ற காரணங்களைக் கூறி நான்காவது பங்கைத் தொட எச்சரித்தது",
+      "explanation": "சிங்கம் தன் அதிகாரம் மற்றும் பலத்தைக் காட்டி அனைத்துப் பங்குகளையும் தானே எடுத்துக் கொண்டது.",
+      "answerIndex": 1,
+      "hint": "சிங்கம் தன் அதிகாரம் மற்றும் பலத்தைக் காட்டி அனைத்துப் பங்குகளையும் தானே எடுத்துக் கொண்டது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "'சிங்கத்தின் பங்கு' (Lion's Share) என்ற தொடர் எதனைக் குறிக்கிறது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "சமமான பங்கீடு",
+        "அதிகார பலத்தால் மொத்தப் பங்கையும் ஒருவனே அநியாயமாக அபகரித்துக் கொள்வது",
+        "காட்டு விலங்குகளின் உணவு",
+        "அரசனுக்குக் கொடுக்கும் வரி"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "அதிகார பலத்தால் மொத்தப் பங்கையும் ஒருவனே அநியாயமாக அபகரித்துக் கொள்வது",
+      "explanation": "பலம் வாய்ந்த ஒருவர் மற்ற எளியவர்களின் உழைப்பை அநியாயமாக முழுமையாகத் தன்வசப்படுத்துவதைக் குறிக்கிறது.",
+      "answerIndex": 1,
+      "hint": "பலம் வாய்ந்த ஒருவர் மற்ற எளியவர்களின் உழைப்பை அநியாயமாக முழுமையாகத் தன்வசப்படுத்துவதைக் குறிக்கிறது."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கூட்டணியை",
+      "meaning": "ஒன்றாகச் செயல்பட அமைத்த உடன்பாட்டை (Alliance / partnership)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "பங்குகளாகப்",
+      "meaning": "சமமான கூறுகளாக அல்லது பாகங்களாக (Into shares / portions)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கம்பீரமாக",
+      "meaning": "பெருமிதத்தோடும் கம்பீர நடையோடும் (Majestically)"
+    },
+    {
+      "word": "கோரப்",
+      "meaning": "பயங்கரமான அல்லது கூர்மையான (Fierce / ferocious)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Lion's Share\"?"
+      "type": "ஞாபகப்படுத்துதல் (Remembering)",
+      "question": "மானை நான்கு பங்குகளாகப் பிரித்து வைத்த விலங்கு எது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "type": "புரிதல் (Understanding)",
+      "question": "சமமற்ற பலம் கொண்டவர்களோடு கூட்டணி அமைப்பது எளியவர்களுக்கு ஏன் எப்போதும் இழப்பைத் தரும்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "type": "பயன்பாடு (Applying)",
+      "question": "வணிகத்திலோ கூட்டுப் பணிகளிலோ ஒப்பந்தங்கள் செய்யும்போது இக்கதை தரும் எச்சரிக்கை என்ன?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "type": "மதிப்பீடு (Evaluating)",
+      "question": "உழைப்பைப் பகிர்ந்து கொண்ட பின் பலத்தைக் கொண்டு உரிமைகளைப் பறிக்கும் போக்கை அறநெறி அடிப்படையில் எவ்வாறு விமர்சிப்பீர்கள்?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -123,7 +129,10 @@
   "series_id": null,
   "part_number": "Perry 16",
   "reviewed": true,
-  "source": "Aesop - Public Domain",
+  "source": "Aesop's Fables (Townsend Classical Recension)",
   "license": "Public Domain",
-  "credit": "Aesop's Fables Heritage Anthology"
+  "credit": "Aesop's Fables Heritage Anthology",
+  "reviewer": "Dr. S. Edward Packiaraj",
+  "review_date": "2026-11-03",
+  "review_status": "human_verified"
 }

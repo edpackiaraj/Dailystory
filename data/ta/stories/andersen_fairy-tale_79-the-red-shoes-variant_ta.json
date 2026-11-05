@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-79-the-red-shoes-variant",
   "slug": "hans-christian-andersen-79-the-red-shoes-variant",
   "language": "ta",
-  "title": "The Red Shoes (The Angel's Mercy)",
+  "title": "சிவப்பு காலணிகளும் தூய மனந்திரும்புதலின் பேரருளும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Tortured by the enchanted dancing shoes that would not let her rest, the maiden Karen sought the executioner's hut, demanding the severance of her vain desire....",
+  "summary": "மந்திரச் சிவப்பு காலணிகளின் மாய வலையில் சிக்கி இடைவிடாமல் ஆடித் துன்புற்ற கரேன் என்ற பெண், தன் ஆணவத்தையும் வீண் பகட்டையும் உணர்ந்து மனந்திரும்பி கண்ணீர் வடித்த போது தேவதூதனின் பேரருளால் நித்திய அமைதி பெற்ற கதை.",
   "keywords": [
     "hans christian andersen",
     "the red shoes variant",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived Tortured by the enchanted dancing shoes that would not let her rest, the maiden Karen sought the executioner's hut, demanding the severance of her vain desire..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that sincere repentance purifies the heart and opens the gates of eternal peace.",
-  "moral": "Sincere repentance purifies the heart and opens the gates of eternal peace.",
+  "full_text": "கரேன் என்ற இளம் பெண், தன் கால்களை அலங்கரித்த பளபளப்பான சிவப்பு நிறத் தோல் காலணிகளின் மீது அளவுகடந்த மோகம் கொண்டிருந்தாள்.\n    \nஅவள் தேவாலயத்தின் புனித வழிபாட்டிற்குச் சென்ற போதும், இறைவனை நினைக்காமல் தன் கால்களில் மின்னிய சிவப்பு காலணிகளின் அழகையே எண்ணிப் பெருமை பேசினாள்.\n    \nஅந்த அகந்தையின் விளைவாக, அந்தக் காலணிகள் மாய விசை பெற்று அவளை இடைவிடாமல் ஆட வைத்தன!\n    \nஅவளால் நிறுத்தவே முடியவில்லை; இரவும் பகலும், முட்புதர்களிலும், சுடுகாடுகளிலும், பனி படர்ந்த மலைகளிலும் அந்தக் காலணிகள் அவளை இழுத்துக் கொண்டு ஓடி ஆடிச் சுழன்றன. கரேனின் கால்கள் புண்ணாகி இரத்தம் சொரிந்தன.\n    \nதன் வீண் அகந்தையும் போலிப் பகட்டுமே இந்த அழிவிற்குக் காரணம் என்பதை அவள் உள்ளம் உணர்ந்தது. மரண வேதனையின் விளிம்பில் நின்ற அவள், தன் அகந்தையை அடியோடு துறந்து, முழங்காலிட்டு இறைவனிடம் கண்ணீர் வடித்தாள்: \"இறைவா! என் கர்வத்தை மன்னியும்! என் பாவியான இதயத்தைத் தூய்மைப்படுத்தும்!\" என்று கதறினாள்.\n    \nஅவளது உண்மையான மனந்திரும்புதலைக் கண்ட வானத்துத் தேவ தூதன் அங்கே தோன்றினான். அவனது பொற்கரங்களின் ஸ்பரிசத்தால் அந்தக் காலணிகள் கழன்று மறைந்தன.\n    \nகரேனின் நெஞ்சில் எல்லையற்ற தெய்வீக அமைதியும் சூரிய ஒளியும் பரவியது; அவளது ஆன்மா தூய்மை பெற்று இறைவனின் நித்திய ஆனந்தத்தில் இளைப்பாறியது.",
+  "moral": "மனிதனை ஆட்டிப்படைக்கும் போலி அகந்தையும் மாய ஆசைகளும் பெருந்துன்பத்தையே தரும்; ஆனால் உள்ளப்பூர்வமான உண்மையான மனந்திரும்புதல் இறைவனின் எல்லையற்ற கருணையைப் பெற்றுத்தரும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Red Shoes variant illustration from the Hans Christian Andersen collection.",
   "word_count": 220,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Red Shoes variant\"?",
+      "question": "கரேன் எதன் மீது அளவுகடந்த போலி மோகம் கொண்டு தேவாலயத்திலும் அதையே நினைத்தாள்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "தன் கால்களை அலங்கரித்த பளபளப்பான சிவப்பு காலணிகளின் மீது",
+        "ஒரு தங்க மாலை மீது",
+        "தன் குதிரை மீது",
+        "தன் ஆடை மீது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "தன் கால்களை அலங்கரித்த பளபளப்பான சிவப்பு காலணிகளின் மீது",
+      "hint": "கதையின் தலைப்பில் உள்ள மாயப் பொருளை நினையுங்கள்.",
+      "explanation": "கரேன் புனித வழிபாட்டிலும் இறைவனை மறந்து தன் சிவப்பு காலணிகளின் மீதே மோகம் கொண்டிருந்தாள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கரேனின் கொடிய துன்பம் எப்போது முடிவுக்கு வந்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அவள் தன் அகந்தையைத் துறந்து உள்ளப்பூர்வமாக மனந்திரும்பிக் கண்ணீர் விட்ட போது",
+        "அவள் பணத்தைக் கொடுத்த போது",
+        "அவள் புதிய ஆடை அணிந்த போது",
+        "அவள் ஊரை விட்டு ஓடிய போது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "அவள் தன் அகந்தையைத் துறந்து உள்ளப்பூர்வமாக மனந்திரும்பிக் கண்ணீர் விட்ட போது",
+      "hint": "உண்மையான மனந்திரும்புதலின் அருளை நினையுங்கள்.",
+      "explanation": "கரேன் தன் கர்வத்தை உணர்ந்து மனமுருகி வேண்டிய போது தேவ தூதன் தோன்றி காலணிகளை நீக்கினான்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை போதிக்கும் ஆன்மீக மெய்ஞ்ஞானம் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "போலிப் பகட்டும் மாய மோகமும் துயரத்தைத் தரும்; தூய மனந்திரும்புதலே அமைதியையும் மீட்பையும் தரும்",
+        "காலணிகளை அணியவே கூடாது",
+        "நடனங்களை ஆடக் கூடாது",
+        "தேவாலயங்களுக்குச் செல்லக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "போலிப் பகட்டும் மாய மோகமும் துயரத்தைத் தரும்; தூய மனந்திரும்புதலே அமைதியையும் மீட்பையும் தரும்",
+      "hint": "அகந்தையின் வீழ்ச்சியையும் மனந்திரும்புதலையும் நினையுங்கள்.",
+      "explanation": "மாய உலக ஆசைகளை விடுத்து மனந்திரும்பும் ஆன்மாவிற்கு இறைவன் நித்திய விடுதலையை அளிப்பார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "வழிபாட்டிற்குச்",
+      "meaning": "இறைவனை வணங்கிப் போற்றுவதற்காகக் கூடும் புனித ஆராதனை நிகழ்வுக்கு",
+      "gloss": "for worship, sacred service"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "ஸ்பரிசத்தால்",
+      "meaning": "மென்மையான புனிதக் கரங்களின் தொடுதலால் ஏற்படும் தெய்வீகத் தீண்டலால்",
+      "gloss": "by the touch, contact"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "மனந்திரும்புதலைக்",
+      "meaning": "செய்த தவறுகளுக்காக உள்ளூர வருந்தித் திருந்தும் தூய மனநிலையை",
+      "gloss": "repentance, contrition"
+    },
+    {
+      "word": "ஆனந்தத்தில்",
+      "meaning": "துன்பங்கள் நீங்கிய நித்திய தெய்வீகப் பேரின்பப் பெருவெளியில்",
+      "gloss": "in bliss, eternal joy"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Red Shoes variant\"?"
+      "tier": "remembering",
+      "prompt": "சிவப்பு காலணிகளின் மாயக் கட்டிலிருந்து கரேனை விடுவித்தவர் யார்?",
+      "type": "remembering",
+      "question": "சிவப்பு காலணிகளின் மாயக் கட்டிலிருந்து கரேனை விடுவித்தவர் யார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "வழிபாட்டுத் தலத்தில் கூடத் தன் காலணிகளை நினைத்துப் பெருமை பேசிய கரேனின் தவறை விளக்குக.",
+      "type": "understanding",
+      "question": "வழிபாட்டுத் தலத்தில் கூடத் தன் காலணிகளை நினைத்துப் பெருமை பேசிய கரேனின் தவறை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நம் அன்றாட வாழ்வில் பொருள்சார் பகட்டு மற்றும் அகந்தை எண்ணங்கள் எழும்போது நாம் எவ்வாறு அடக்கத்தைக் கடைப்பிடிக்கலாம்?",
+      "type": "applying",
+      "question": "நம் அன்றாட வாழ்வில் பொருள்சார் பகட்டு மற்றும் அகந்தை எண்ணங்கள் எழும்போது நாம் எவ்வாறு அடக்கத்தைக் கடைப்பிடிக்கலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "சிவப்பு காலணிகள் மனித மனதின் எந்தெந்த மாய இச்சைகளின் குறியீடாக விளங்குகின்றன என்பதை ஆராய்க.",
+      "type": "analyzing",
+      "question": "சிவப்பு காலணிகள் மனித மனதின் எந்தெந்த மாய இச்சைகளின் குறியீடாக விளங்குகின்றன என்பதை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'உள்ளப்பூர்வமான மனந்திரும்புதலே ஆன்மாவின் விமோசனத்திற்கான திறவுகோல்' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'உள்ளப்பூர்வமான மனந்திரும்புதலே ஆன்மாவின் விமோசனத்திற்கான திறவுகோல்' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "சாந்தமடைந்த கரேன் தேவதூதனின் வழிகாட்டலில் அமைதியான பூந்தோட்டத்தில் பாடிய நன்றிப் பாடலை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "சாந்தமடைந்த கரேன் தேவதூதனின் வழிகாட்டலில் அமைதியான பூந்தோட்டத்தில் பாடிய நன்றிப் பாடலை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

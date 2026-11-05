@@ -2,12 +2,12 @@
   "id": "jataka-tales-10-rajovada-jataka",
   "slug": "jataka-tales-10-rajovada-jataka",
   "language": "ta",
-  "title": "Rajovada Jataka",
+  "title": "ராஜோவாத ஜாதகம் – அரசனின் நீதியும் இயற்கையின் சுவையும்",
   "genre": "Jataka Tales",
   "collection": "Jataka Tales",
   "culture_region": "Ancient India / Buddhist Folklore",
   "age_group": "Below 13",
-  "summary": "In ancient times, in the royal capital of Mithila in the fertile realm of Videha, the Great Being (Bodhisattva) was born according to the ripening of his past meritorious deeds. In...",
+  "summary": "தன் குறைகளைச் சுட்டிக்காட்டும் உண்மையான மனிதனைத் தேடி மாறுவேடத்தில் நாடெங்கும் அலைந்த அரசன், இமயமலைத் துறவியின் காட்டில் சுவைத்த இனிமையான காட்டுப் பழங்களின் மூலம், 'மன்னன் நீதி தவறினால் இயற்கையின் சுவையும் மாறும்' என்ற பேருண்மையை உணர்ந்த வரலாறு.",
   "keywords": [
     "jataka tales",
     "rajovada jataka",
@@ -22,49 +22,55 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In ancient times, in the royal capital of Mithila in the fertile realm of Videha, the Great Being (Bodhisattva) was born according to the ripening of his past meritorious deeds. In that life, he appeared as a noble exemplar of Upekkha, demonstrating boundless wisdom and spotless compassion for all living beings.\n\nAt that time, a great trial arose in the realm. The king and his ministers, blinded by greed, transient pride, and false counsel, had strayed from the path of righteousness, imposing harsh taxes and causing distress among the people and the forest creatures. Seeing the distress of the realm, the Great Being stepped forward without fear for his own comfort or life.\n\nGathering the people and confronting the monarch in the royal courtyard, the Great Being spoke words of gentle yet unshakeable truth: \"O King! A throne upheld by tyranny crumbles to dust, but a realm governed by virtue, justice, and loving-kindness flourishes like a banyan tree whose shade shelters travelers from every land. He who sows harm reaps sorrow, while he who guards the weak attains enduring peace.\"\n\nMoved by the Great Being’s spotless purity and profound reasoning, the king renounced his unjust decrees, ordered granaries opened to feed the hungry, and declared total protection for all beasts and birds in the forest. The Great Being guided the realm in peace and virtue, teaching that moral integrity, selfless sacrifice, and steady wisdom are the highest ornaments of life, leading mortals safely across the ocean of worldly trials.",
-  "moral": "Freedom from guards, wealth, and fear brings true and lasting bliss.",
+  "full_text": "வாரணாசி நாட்டை ஆண்ட அரசன் மிகவும் நேர்மையானவன். அவனது அவையிலிருந்த அனைவரும் அவனைப் புகழ்ந்து மட்டுமே பேசினர்; ஆனால் தனது உண்மையான தவறுகளையும் குறைகளையும் சுட்டிக்காட்டும் ஒரு நேர்மையாளனைக் காண வேண்டும் என்று அரசன் விரும்பினான். எனவே அவன் மாறுவேடம் பூண்டு, ஒரு எளிய வழிப்போக்கனைப் போல நாடெங்கும் பயணம் செய்தான்; ஆனால் குடிமக்கள் அனைவரும் அவனது நல்லாட்சியையே போற்றினர்.\n\nஇறுதியில் இமயமலையின் சாரலில் ஒரு குகையில் வாழ்ந்த போதிசத்துவ முனிவரை அரசன் அடைந்தான். துறவி காட்டில் பழுத்த காட்டு அத்திப் பழங்களை அவனுக்கு உணவாகத் தந்தார். அந்தப் பழத்தை உண்ட அரசன் வியந்துபோனான்; \"முனிவரே! இந்தப் பழம் தேனை விடவும் வெல்லத்தை விடவும் இவ்வளவு தித்திப்பாக இருக்கிறதே, இதன் ரகசியம் என்ன?\" என்று கேட்டான்.\n\nபோதிசத்துவர் புன்னகையுடன், \"பயணியே! இந்த நாட்டை ஆளும் மன்னன் அறநெறியோடும், பாரபட்சமின்றியும் நீதியோடும் ஆட்சி செய்கிறான். மன்னன் தர்மத்தைக் கடைப்பிடித்தால், மழையும் காலத்தோடு பெய்யும்; பயிர்கள் செழிக்கும்; காட்டின் கனிகளும் தேன்போல இனிக்கும். ஒருவேளை மன்னன் அநீதியாகவும் ஊழல் நிறைந்தவனாகவும் மாறினால், இயற்கையின் சுவை மாறி உப்புக்கரிக்கத் தொடங்கும்!\" என்றார். மன்னன் தன் அரண்மனைக்குத் திரும்பி, தன் வாழ்நாள் முழுவதும் எளிய மக்களுக்குத் தவறாத நீதி வழங்கி நாட்டைப் பொற்காலமாக வழிநடத்தினான்.",
+  "moral": "ஒரு நாட்டின் ஆட்சியாளனின் நேர்மையும் அறமுமே நாட்டின் செழிப்புக்கும், இயற்கையின் மங்கலத்திற்கும், மக்களின் நல்வாழ்விற்கும் ஆணிவேராக அமைகின்றன.",
   "image": "/images/stories/jataka.webp",
   "image_alt": "Rajovada Jataka illustration from the Jataka Tales collection.",
-  "word_count": 249,
-  "reading_time": "2 min",
-  "listen_time": "2 min",
+  "word_count": 133,
+  "reading_time": "2 mins",
+  "listen_time": "2 mins",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"Rajovada Jataka\"?",
+      "question": "அரசன் மாறுவேடத்தில் நாடெங்கும் எதனைத் தேடி அலைந்தான்?",
       "options": [
-        "Paramita perfection - Dana, Sila, Kshanti etc.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "புதையலை",
+        "தன் தவறுகளையும் குறைகளையும் சுட்டிக்காட்டும் உண்மையான மனிதனை",
+        "எதிரிகளை",
+        "புதிய உணவுகளை"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "தன் தவறுகளையும் குறைகளையும் சுட்டிக்காட்டும் உண்மையான மனிதனை",
+      "explanation": "புகழ்ச்சிகளை விடுத்துத் தன் குறைகளைக் கூறும் நேர்மையாளனைத் தேடினான்.",
+      "answerIndex": 1,
+      "hint": "புகழ்ச்சிகளை விடுத்துத் தன் குறைகளைக் கூறும் நேர்மையாளனைத் தேடினான்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "இமயமலைத் துறவி அரசனுக்கு என்ன பழங்களை உணவாகக் கொடுத்தார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "மாம்பழங்கள்",
+        "காட்டில் பழுத்த காட்டு அத்திப் பழங்கள்",
+        "ஆப்பிள்",
+        "திராட்சை"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "காட்டில் பழுத்த காட்டு அத்திப் பழங்கள்",
+      "explanation": "தேன் போன்ற தித்திப்பான காட்டு அத்திப் பழங்களைத் தந்தார்.",
+      "answerIndex": 1,
+      "hint": "தேன் போன்ற தித்திப்பான காட்டு அத்திப் பழங்களைத் தந்தார்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "பழங்கள் இனிப்பதற்குத் துறவி கூறிய காரணம் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "நல்ல உரம் போட்டதால்",
+        "மன்னன் அறநெறியோடும் பாரபட்சமின்றியும் நீதியோடும் ஆட்சி செய்வதால்",
+        "மழை பெய்ததால்",
+        "தேனில் ஊறவைத்ததால்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "மன்னன் அறநெறியோடும் பாரபட்சமின்றியும் நீதியோடும் ஆட்சி செய்வதால்",
+      "explanation": "மன்னனின் நீதி தவறாத ஆட்சியில் இயற்கை செழித்து இனிக்கும் என்றார்.",
+      "answerIndex": 1,
+      "hint": "மன்னனின் நீதி தவறாத ஆட்சியில் இயற்கை செழித்து இனிக்கும் என்றார்."
     }
   ],
   "author": "Traditional Buddhist Fables (Pali Canon / Public Domain)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "வழிப்போக்கனைப்",
+      "meaning": "நெடுஞ்சாலையில் நடந்து செல்லும் யாத்ரீகனைப் (Traveler / wayfarer)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "தித்திப்பாக",
+      "meaning": "மிகுந்த இனிப்புச் சுவையோடு (Sweetly / delicious)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "பாரபட்சமின்றியும்",
+      "meaning": "ஒருதலைப்பட்சமாகச் சாயாமல் நடுநிலையோடு (Impartially)"
+    },
+    {
+      "word": "உப்புக்கரிக்கத்",
+      "meaning": "உப்பின் கடுமையான சுவையோடு கெட்டுப்போக (Turn salty / brackish)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"Rajovada Jataka\"?"
+      "type": "ஞாபகப்படுத்துதல் (Remembering)",
+      "question": "இமயமலைக் குகையில் தவமிருந்த போதிசத்துவர் என்ன பழங்களை அரசனுக்கு வழங்கினார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Paramita perfection - Dana, Sila, Kshanti etc.\" meaningful in daily life?"
+      "type": "புரிதல் (Understanding)",
+      "question": "ஆட்சியாளரின் தார்மீக ஒழுக்கத்திற்கும் இயற்கையின் சமநிலைக்கும் இடையே உள்ள தொடர்பை இக்கதை எவ்வாறு விளக்குகிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "type": "பயன்பாடு (Applying)",
+      "question": "தலைவர்கள் தங்கள் தவறுகளையும் குறைகளையும் விமர்சனங்களையும் திறந்த மனதோடு ஏற்க வேண்டியதன் அவசியம் என்ன?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "type": "மதிப்பீடு (Evaluating)",
+      "question": "நீதி, சுற்றுச்சூழல் மற்றும் சமூக நலன் ஆகிய மூன்றையும் இணைக்கும் பௌத்த அறவியல் கோட்பாட்டை ஆராய்க."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

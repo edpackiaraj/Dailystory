@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-62-the-old-church-bell",
   "slug": "hans-christian-andersen-62-the-old-church-bell",
   "language": "ta",
-  "title": "The Old Church Bell",
+  "title": "பழைய தேவாலய மணியும் கவிஞன் ஷில்லரின் மணிநாதமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "In the small town of Marbach in Germany, an old church bell hung in the church tower. When a great storm cracked its bronze rim, the town melted the metal into a smaller bell....",
+  "summary": "ஜெர்மனியின் மார்பாக் நகர தேவாலய மணி உடைந்த போது வார்க்கப்பட்ட சிறிய மணி ஒலித்த வேளையில், எளிய மருத்துவரின் வீட்டில் பிறந்த குழந்தை பின்னாளில் மாபெரும் விடுதலைக் கவிஞன் பிரீட்ரிக் ஷில்லராக மலர்ந்த வரலாற்று நிகழ்வு.",
   "keywords": [
     "hans christian andersen",
     "the old church bell",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the small town of Marbach in Germany, an old church bell hung in the church tower. When a great storm cracked its bronze rim, the town melted the metal into a smaller bell.\n\nOn the night the bell was recast, a poor army surgeon's wife gave birth to a frail infant boy in a humble garret. The church bell tolled, and its chime seemed to weave a prophecy around the child's cradle: \"Thou shalt ring out a song of freedom that will shake the thrones of tyrants!\"\n\nThat child was Friedrich Schiller—the glorious poet who wrote the Ode to Joy and the Song of the Bell! His fiery verse swept across Europe like a thunderstorm, inspiring millions to stand for human liberty, dignity, and brotherhood.\n\nThe old bronze bell had cracked, but the poetry born under its chime rings on through centuries, an unbreakable anthem of the free human spirit.",
-  "moral": "The bell of true freedom and poetry rings from humble cradles to awaken the conscience of nations.",
+  "full_text": "ஜெர்மனியின் மார்பாக் என்ற சிறிய நகரின் பழைமையான தேவாலயக் கோபுரத்தில், ஒரு வெண்கல மணி பல தலைமுறைகளாகத் தொங்கிக் கொண்டிருந்தது.\n    \nஒரு கடுமையான புயலின் போது, இடி முழக்கத்திற்கு நடுவே அந்த வெண்கல மணியின் விளிம்பில் விரிசல் விழுந்தது. இனி அது ஒலிக்காது என்பதால், ஊர் மக்கள் அதை இறக்கி உருக்கி, சிறிய மணியாக மீண்டும் வார்த்தனர்.\n    \nஅந்தப் புதிய சிறிய மணி முதன்முதலாக தேவாலயக் கோபுரத்தில் ஏற்றப்பட்டு ஒலித்த அதே இரவில், அருகில் இருந்த ஒரு ஏழை ராணுவ மருத்துவரின் எளிய வீட்டில் ஒரு ஆண்குழந்தை பிறந்தது.\n    \nஅந்தக் குழந்தைக்குப் பிரீட்ரிக் ஷில்லர் என்று பெயரிட்டனர். அந்தக் குழந்தை வறுமையிலும் நோயிலும் வாடிய போதிலும், அதன் நெஞ்சில் சுதந்திரத்தின் தீப்பொறி கனன்று கொண்டிருந்தது.\n    \nகாலம் உருண்டோடியது; தேவாலயத்தின் மணி பிறந்த குழந்தைகளுக்கும் மரணமடைந்தவர்களுக்கும் வழக்கம்போல ஒலித்துக் கொண்டிருந்தது. ஆனால் அந்த ஏழைக் குடிசையில் பிறந்த ஷில்லரோ, உலகமே வியக்கும் மாபெரும் காவியக் கவிஞனாகவும் நாடக ஆசிரியனாகவும் உருவெடுத்தான்!\n    \nஅவன் எழுதிய 'மணிக்கான பாடல்' (Song of the Bell) மற்றும் விடுதலைப் படைப்புகள், வெண்கல மணிகளை விடவும் பல்லாயிரக் கணக்கான மடங்கு உரக்க ஒலித்து ஐரோப்பா முழுவதும் சுதந்திர வேட்கையை மூட்டின.\n    \nவெண்கல மணி உலகாயத ஆலயத்தில் தொங்கலாம்; ஆனால் கவிஞனின் வரிகளோ மானுடத்தின் நெஞ்சில் என்றென்றும் அழியாத விடுதலை மணியாக எதிரொலித்துக் கொண்டே இருக்கும்.",
+  "moral": "எளிய குடிசைகளில் பிறக்கும் மேதைகளின் சிந்தனைகளும் கவிதைகளும், தேவாலய மணிகளை விடவும் உரக்க ஒலித்து உலக நாடுகளின் மனசாட்சியைத் தட்டியெழுப்பும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Old Church Bell illustration from the Hans Christian Andersen collection.",
   "word_count": 151,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Old Church Bell\"?",
+      "question": "மார்பாக் நகர தேவாலய மணி உருக்கப்பட்டு மீண்டும் வார்க்கப்பட்ட இரவில் பிறந்த மேதை யார்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "மாபெரும் கவிஞன் பிரீட்ரிக் ஷில்லர்",
+        "ஒரு நெசவாளி",
+        "ஒரு வணிகன்",
+        "ஒரு தளபதி"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "மாபெரும் கவிஞன் பிரீட்ரிக் ஷில்லர்",
+      "hint": "ஜெர்மன் இலக்கியத்தின் மாபெரும் விடுதலைக் கவிஞரை நினையுங்கள்.",
+      "explanation": "அந்த எளிய இரவில் ஏழை மருத்துவரின் வீட்டில் பிறந்த குழந்தைதான் உலகப் புகழ்பெற்ற கவிஞர் பிரீட்ரிக் ஷில்லர்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "ஷில்லர் எழுதிய எந்தப் புகழ்பெற்ற படைப்பு சுதந்திர வேட்கையைத் தூண்டியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "'மணிக்கான பாடல்' (Song of the Bell) உள்ளிட்ட காவியப் படைப்புகள்",
+        "மளிகைக் கணக்கு புத்தகம்",
+        "மருத்துவக் குறிப்புகள்",
+        "போர் உடன்படிக்கைகள்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "'மணிக்கான பாடல்' (Song of the Bell) உள்ளிட்ட காவியப் படைப்புகள்",
+      "hint": "மணியின் தத்துவத்தை விளக்கும் புகழ்பெற்ற கவிதையை நினையுங்கள்.",
+      "explanation": "ஷில்லரின் 'Song of the Bell' கவிதை உலகப் பிரசித்தி பெற்றது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை போதிக்கும் வரலாற்றுப் பெருமை என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "எளிய குடிசையில் பிறக்கும் கவிஞனின் சிந்தனைகள் தேவாலய மணியை விட உரத்து மனித மனசாட்சியை எழுப்பும்",
+        "மணிகளை உருக்கவே கூடாது",
+        "கோபுரங்களில் மணிகளைக் கட்டக் கூடாது",
+        "புயல் வீசும் போது ஆலயங்களை மூட வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "எளிய குடிசையில் பிறக்கும் கவிஞனின் சிந்தனைகள் தேவாலய மணியை விட உரத்து மனித மனசாட்சியை எழுப்பும்",
+      "hint": "கவிதையினதும் சுதந்திரச் சிந்தனையினதும் ஆற்றலை நினையுங்கள்.",
+      "explanation": "கவிஞனின் சுதந்திரக் குரல் சடங்கு மணிகளை விட மானுடத்தின் இதயத்தில் ஆழமாக எதிரொலிக்கும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "வெண்கல",
+      "meaning": "செம்பும் தகரமும் சேர்த்து வார்க்கப்பட்ட உறுதியான மணியோசை தரும் உலோகம்",
+      "gloss": "bronze, bell-metal"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "தீப்பொறி",
+      "meaning": "எரியும் நெருப்பிலிருந்து வெளிப்பட்டுப் பேரொளியை உண்டாக்கும் சிறிய கனல்",
+      "gloss": "spark, ember"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "வேட்கையை",
+      "meaning": "அடங்காத தாகத்தையும் மாபெரும் விடுதலை நாட்டத்தையும்",
+      "gloss": "yearning, thirst, passion"
+    },
+    {
+      "word": "எதிரொலித்துக்",
+      "meaning": "ஒரு முறை ஒலித்த பின் பல திசைகளிலும் மீண்டும் மீண்டும் ஒலித்துத் திரும்புதல்",
+      "gloss": "echoing, resonating, reverberating"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Old Church Bell\"?"
+      "tier": "remembering",
+      "prompt": "தேவாலய மணி விரிசல் விழுந்ததற்குக் காரணமாக அமைந்த இயற்கைச் சீற்றம் எது?",
+      "type": "remembering",
+      "question": "தேவாலய மணி விரிசல் விழுந்ததற்குக் காரணமாக அமைந்த இயற்கைச் சீற்றம் எது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "புதிய வெண்கல மணியின் உருவாக்கத்திற்கும் ஷில்லரின் பிறப்பிற்கும் இடையே உள்ள இலக்கிய ஒப்புமையை விளக்குக.",
+      "type": "understanding",
+      "question": "புதிய வெண்கல மணியின் உருவாக்கத்திற்கும் ஷில்லரின் பிறப்பிற்கும் இடையே உள்ள இலக்கிய ஒப்புமையை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "வறுமையிலும் எளிய பின்னணியிலும் பிறக்கும் குழந்தைகளின் ஆற்றலை இனம் கண்டு ஊக்கப்படுத்த நாம் என்ன செய்ய வேண்டும்?",
+      "type": "applying",
+      "question": "வறுமையிலும் எளிய பின்னணியிலும் பிறக்கும் குழந்தைகளின் ஆற்றலை இனம் கண்டு ஊக்கப்படுத்த நாம் என்ன செய்ய வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "உலோக மணியின் பௌதிக ஒலிக்கும், கவிஞனின் கவிதைகள் எழுப்பும் சிந்தனைப் புரட்சி ஒலிக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "உலோக மணியின் பௌதிக ஒலிக்கும், கவிஞனின் கவிதைகள் எழுப்பும் சிந்தனைப் புரட்சி ஒலிக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'ஒரு கவிஞனின் பேனா முனை பல்லாயிரக் கணக்கான ஆயுதங்களை விட வலிமையானது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'ஒரு கவிஞனின் பேனா முனை பல்லாயிரக் கணக்கான ஆயுதங்களை விட வலிமையானது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "ஷில்லர் தன் இளமைப் பருவத்தில் தேவாலய மணியோசையைக் கேட்டு உணர்ச்சிவசப்பட்டு எழுதிய முதல் கவிதை வரிகளை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "ஷில்லர் தன் இளமைப் பருவத்தில் தேவாலய மணியோசையைக் கேட்டு உணர்ச்சிவசப்பட்டு எழுதிய முதல் கவிதை வரிகளை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

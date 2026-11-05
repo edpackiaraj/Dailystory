@@ -2,12 +2,12 @@
   "id": "aesops-fables-21-the-eagle-and-the-arrow",
   "slug": "aesops-fables-21-the-eagle-and-the-arrow",
   "language": "ta",
-  "title": "The Eagle and the Arrow",
+  "title": "கழுகும் வேடனின் அம்பும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A majestic eagle soared high above the jagged mountain peaks, his great golden wings riding the thermals with regal ease. Looking down with keen, telescopic vision from the clouds,...",
+  "summary": "வானில் கம்பீரமாகப் பறந்த கழுகு ஒன்று, வேடன் எய்த அம்பில் தன் சொந்த சிறகுகளே பொருத்தப்பட்டிருந்ததைக் கண்டு, தன் சொந்த ஆற்றலே தனக்கு வினையாக முடிந்ததை எண்ணி வருந்திய நெகிழ்ச்சியூட்டும் நீதிக்கதை.",
   "keywords": [
     "aesop's fables",
     "the eagle and the arrow",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A majestic eagle soared high above the jagged mountain peaks, his great golden wings riding the thermals with regal ease. Looking down with keen, telescopic vision from the clouds, he surveyed the rocky crags, seeking hare or grouse among the boulders.\n\nDown in the ravine, a solitary archer spotted the great bird circling against the blue sky. The hunter notched a slender wooden arrow onto his bowstring, drew the cord back to his ear, and released the shaft with a musical twang.\n\nThe arrow shot upward through the air like a whistling streak of lightning. It pierced the eagle's breast with mortal precision.\n\nFolding his mighty wings in agony, the great monarch of the heavens tumbled from the sky, crashing down upon a carpet of mountain moss. As the eagle lay gasping his last breath, his dimming eyes looked down at the fatal shaft embedded deep in his chest.\n\nTo his bitter grief, he saw that the arrow's guiding fletching was made from one of his own dropped feathers, which the archer had plucked from the crags weeks before.\n\n\"Alas,\" groaned the dying monarch with a heavy sigh, \"how doubly bitter is my end! It was not enough that man sought my life, but my own wings provided the feather that guided the fatal shaft straight to my heart!\"",
-  "moral": "It sharpens the sting of sorrow when we realize our own gifts furnished the weapon of our downfall.",
+  "full_text": "உயர்ந்த மலைச் சிகரங்களுக்கு மேலே ஆகாயத்தில் ஒரு கம்பீரமான கழுகு தன் அகன்ற பொன் சிறகுகளை விரித்துக் காற்றில் மிதந்து வட்டமிட்டுக் கொண்டிருந்தது. தன் கூரிய தொலைநோக்குப் பார்வையால் பள்ளத்தாக்குகளையும் பாறைகளையும் நோட்டமிட்டபடி, காட்டின் மீது தனக்கிருந்த இணையற்ற வலிமையை எண்ணி அது மட்டற்ற பெருமிதம் கொண்டது.\n\nமலையடிவாரத்தில் மறைந்திருந்த ஒரு திறமையான வேடன், வானில் சுழன்ற கழுகைக் குறிபார்த்தான். தன் வில்லை வளைத்து, நாணேற்றி ஒரு கூரிய அம்பை விசைத்து எய்தான். அந்த அம்பு மின்னல் வேகத்தில் சீறிப் பாய்ந்து, வானில் பறந்த கழுகின் நெஞ்சைத் துளைத்தது. தாங்க முடியாத வலியால் அலறிய கழுகு, தன் சிறகுகள் சோர்ந்துபோகப் பாறையின் மீது சுருண்டு விழுந்தது.\n\nமரணப் படுக்கையில் துடித்த கழுகு, தன் நெஞ்சில் ஆழமாகப் பாய்ந்திருந்த அம்பைக் குனிந்து பார்த்தது. திடுக்கிடும் விதமாக, அந்த அம்பின் பின்புறத்தில் அது நேராகப் பறப்பதற்காகப் பொருத்தப்பட்டிருந்த இறகுகள், சில நாட்களுக்கு முன் தன் சொந்த உடம்பிலிருந்து உதிர்ந்த கழுகின் இறகுகளே என்பதைக் கண்டறிந்தது!\n\nகண்ணீர் மல்கிய கழுகு பெருமூச்சுடன், \"அந்தோ! வேடனின் அம்பு என் உடலைத் துளைத்ததை விட, என் சொந்த இறகுகளே அவனது அம்பு விரைந்து வந்து என்னைக் கொல்ல உதவியிருக்கிறது என்பதுதான் என் நெஞ்சில் தாங்க முடியாத வேதனையைத் தருகிறது!\" என்று கதறியபடி தன் இறுதி மூச்சை விட்டது.",
+  "moral": "நீதி: நமது சொந்த பலவீனங்களோ அல்லது நாம் உதிர்த்த வளங்களோ எதிரியின் கைகளில் போய்ச் சேரும்போது, அதுவே நமக்குத் தீராத பேரழிவை உண்டாக்கும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Eagle and the Arrow illustration from the Aesop's Fables collection.",
-  "word_count": 219,
+  "word_count": 165,
   "reading_time": "2 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Eagle and the Arrow\"?",
+      "question": "மலைச் சிகரங்களின் மேலே பறந்த கழுகு எதைக் கண்டு பெருமிதம் கொண்டது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "காட்டின் மீது தனக்கிருந்த இணையற்ற பறக்கும் ஆற்றலையும் கூரிய பார்வையையும் கண்டு",
+        "வேடர்களோடு நட்பு கொண்டதற்காக",
+        "கூட்டில் இருந்த தன் குஞ்சுகளின் அழகைக் கண்டு",
+        "வேடன் தந்த இறைச்சியை உண்டதற்காக"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "கழுகின் வான ஆதிக்கத்தையும் தற்பெருமையையும் நினைவுகூருங்கள்.",
+      "answer": "காட்டின் மீது தனக்கிருந்த இணையற்ற பறக்கும் ஆற்றலையும் கூரிய பார்வையையும் கண்டு",
+      "explanation": "கழுகின் வான ஆதிக்கத்தையும் தற்பெருமையையும் நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "தன் நெஞ்சைத் துளைத்த அம்பைக் கண்ட கழுகுக்கு ஏன் தாங்க முடியாத அதிர்ச்சி ஏற்பட்டது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அம்பின் பின்புறத்தில் வேகத்திற்காகப் பொருத்தப்பட்டிருந்தது தன் சொந்த இறகுகளே என்பதைக் கண்டதால்",
+        "அம்பு தங்கத்தால் செய்யப்பட்டிருந்ததால்",
+        "வேடன் தன் நண்பன் என்று அது நினைத்ததால்",
+        "அம்பில் விஷம் தடவப்பட்டிருக்கவில்லை என்பதால்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "கழுகின் அழிவுக்கு அதன் சொந்த இறகே காரணமாக அமைந்த விபரீதத்தை யோசியுங்கள்.",
+      "answer": "அம்பின் பின்புறத்தில் வேகத்திற்காகப் பொருத்தப்பட்டிருந்தது தன் சொந்த இறகுகளே என்பதைக் கண்டதால்",
+      "explanation": "கழுகின் அழிவுக்கு அதன் சொந்த இறகே காரணமாக அமைந்த விபரீதத்தை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் மூலம் நாம் உணரும் மிக ஆழமான படிப்பினை எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "நம்மிடமிருந்து பிரிந்து செல்லும் ஆற்றலோ ரகசியங்களோ எதிரிக்கு ஆயுதமாக மாறி நம்மையே அழிக்கக்கூடும்",
+        "கழுகுகள் எப்போதும் உயரமாகப் பறக்கக் கூடாது",
+        "வேடர்களுக்கு அம்புகளை விற்கக் கூடாது",
+        "இறகுகளைப் பத்திரமாகப் பூட்டி வைக்க வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "நமது பலவீனங்கள் நமக்கு எதிராகப் பயன்படும் ஆபத்தை எண்ணிப்பாருங்கள்.",
+      "answer": "நம்மிடமிருந்து பிரிந்து செல்லும் ஆற்றலோ ரகசியங்களோ எதிரிக்கு ஆயுதமாக மாறி நம்மையே அழிக்கக்கூடும்",
+      "explanation": "நமது பலவீனங்கள் நமக்கு எதிராகப் பயன்படும் ஆபத்தை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கம்பீரமான",
+      "meaning": "அச்சமின்றித் தலைநிமிர்ந்து நிற்கும் பெருமிதமான தோற்றம்"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "நாணேற்றி",
+      "meaning": "வில்லின் இரு முனைகளையும் இணைத்துக் கட்டப்பட்ட உறுதியான அம்பு எய்யும் கயிறு"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "உதிர்ந்த",
+      "meaning": "பறவையின் உடம்பிலிருந்து இயல்பாகக் கீழே விழுந்த இறகு"
+    },
+    {
+      "word": "மரணப் படுக்கை",
+      "meaning": "உயிர் பிரியும் இறுதி தருணத்தில் வீழ்ந்து கிடக்கும் நிலை"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Eagle and the Arrow\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "வேடன் கழுகை எங்கிருந்து குறிபார்த்து அம்பெய்தான்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "கழுகின் துன்பத்திற்கு வேடனின் அம்பை விட அதன் சொந்த இறகுகள் ஏன் அதிக வலியைத் தந்தன?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "நமது குடும்பத்திலோ நாட்டிலோ உள்ள வளங்களை அந்நியர்களுக்குக் காட்டிக்கொடுப்பது எத்தகைய பேரழிவை உண்டாக்கும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "துரோகம் அல்லது உள்வீட்டுப் பலவீனம் எவ்வாறு ஒரு வலிமையான கோட்டையையும் தகர்க்கிறது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

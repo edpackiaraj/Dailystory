@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Horse and the Donkey\"?",
+      "question": "சந்தைக்குச் சென்ற சீடர்களிடம் ஒரு தந்திர வியாபாரி பெரிய பூசணிக்காயை என்னவென்று கூறி விற்றான்?",
       "options": [
-        "Foolishness of book knowledge without worldly wisdom",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "இது மிக உயர்ந்த அரேபியக் குதிரையின் அரிய முட்டை என்று கூறி ஏமாற்றி விற்றான்",
+        "இது விண்ணிலிருந்து விழுந்த விண்கல் என்றான்",
+        "இது தங்கமாக மாறும் அதிசயக் காய் என்றான்",
+        "இது நோய்களைத் தீர்க்கும் மூலிகை என்றான்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "வியாபாரி பூசணிக்காய்க்குச் சூட்டிய பொய்யான பெயரை நினைவுகூருங்கள்.",
+      "answer": "இது மிக உயர்ந்த அரேபியக் குதிரையின் அரிய முட்டை என்று கூறி ஏமாற்றி விற்றான்",
+      "explanation": "வியாபாரி பூசணிக்காய்க்குச் சூட்டிய பொய்யான பெயரை நினைவுகூருங்கள்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "வழியில் பூசணிக்காய் தவறி உருண்டு புதருக்குள் விழுந்ததும் அங்கிருந்து என்ன விலங்கு பாய்ந்து ஓடியது?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "புதருக்குள் பதுங்கியிருந்த ஒரு காட்டு முயல் பயந்து துள்ளியோடியது",
+        "ஒரு பெரிய புலி பாய்ந்து வந்தது",
+        "நிஜமான குதிரைக் குட்டி வெளியே வந்தது",
+        "ஒரு கருநாகப் பாம்பு சீறி வந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "புதரில் மறைந்திருந்து ஓடிய வெள்ளையான சிறு விலங்கை யோசியுங்கள்.",
+      "answer": "புதருக்குள் பதுங்கியிருந்த ஒரு காட்டு முயல் பயந்து துள்ளியோடியது",
+      "explanation": "புதரில் மறைந்திருந்து ஓடிய வெள்ளையான சிறு விலங்கை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "முயல் ஓடுவதைக் கண்ட சீடர்கள் என்ன எண்ணி ஆனந்தக் கூத்தாடினர்?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "\"முட்டை உடைந்து நம் குதிரைக் குட்டி அதிவேகமாகப் பாய்ந்து ஓடுகிறது!\" என்று அறியாமையால் மகிழ்ந்தனர்",
+        "முயலைத் துரத்திப் பிடிக்க முயன்றனர்",
+        "வியாபாரி ஏமாற்றிவிட்டான் என்று உணர்ந்தனர்",
+        "குருவிடம் சென்று அழுதனர்"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "சீடர்களின் அடக்க முடியாத அறியாமை மகிழ்ச்சியை எண்ணுங்கள்.",
+      "answer": "\"முட்டை உடைந்து நம் குதிரைக் குட்டி அதிவேகமாகப் பாய்ந்து ஓடுகிறது!\" என்று அறியாமையால் மகிழ்ந்தனர்",
+      "explanation": "சீடர்களின் அடக்க முடியாத அறியாமை மகிழ்ச்சியை எண்ணுங்கள்."
     }
   ],
   "author": "Veeramamunivar (Costanzo Beschi, 1728 / Tamil Folk Humor)",
@@ -77,38 +83,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "பூசணிக்காய்",
+      "meaning": "தரையில் கொடியாகப் படர்ந்து காய்க்கும் பெரிய உருண்டையான நாட்டுக்காய்"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "குதிரை",
+      "meaning": "உலகில் இல்லாத, முட்டாள்களை ஏமாற்றப் புனையப்பட்ட பொய்ப் பொருள்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "அடைகாத்தால்",
+      "meaning": "முட்டையின் மீது அமர்ந்து உடல் வெப்பத்தால் குஞ்சு பொரிக்கச் செய்யும் செயல்"
+    },
+    {
+      "word": "பரமார்த்த",
+      "meaning": "பரமார்த்த என்ற சொல்லின் சூழல் பொருள் (Signifies பரமார்த்த in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Horse and the Donkey\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "குதிரை முட்டையை அடைகாக்க சீடர்கள் என்ன திட்டம் போட்டனர்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Foolishness of book knowledge without worldly wisdom\"?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "இயற்கை விதிகளை அறியாத மனிதர்கள் போலி வாக்குறுதிகளால் எவ்வாறு எளிதில் ஏமாற்றப்படுகிறார்கள்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "பயன்பாடு",
+      "prompt": "சந்தையிலும் இணையத்திலும் கவர்ச்சிகரமான போலி விளம்பரங்களை நாம் எவ்வாறு பகுத்தறிவோடு அணுக வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "சிந்தனை",
+      "prompt": "அறிவியல் விழிப்புணர்வும் கல்வியும் மூடநம்பிக்கைகளை ஒழிப்பதில் எத்தகைய பங்கு வகிக்கின்றன?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

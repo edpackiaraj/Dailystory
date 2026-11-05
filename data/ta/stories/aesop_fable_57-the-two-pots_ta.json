@@ -2,12 +2,12 @@
   "id": "aesops-fables-57-the-two-pots",
   "slug": "aesops-fables-57-the-two-pots",
   "language": "ta",
-  "title": "The Two Pots",
+  "title": "இரு பானைகள்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "Two cooking pots—one fashioned of sturdy hammered brass, and the other made of delicate earthen clay—were swept from a kitchen shelf by a sudden flood and floated together down the...",
+  "summary": "ஆற்று வெள்ளத்தில் அடித்துச் செல்லப்பட்ட ஒரு மண்பானையும் வெண்கலப் பானையும் மிதந்தபோது, \"என் அருகே வராதே, உன் மோதலால் நான் உடைந்து போவேன்\" என்று கூறி பலசாலியின் ஆபத்தான நட்பை விவேகத்தோடு விலக்கிய மண்பானையின் கதை.",
   "keywords": [
     "aesop's fables",
     "the two pots",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Along a dusty rural road that wound between stone walls and sun-drenched vineyards, Two cooking pots—one fashioned of sturdy hammered brass, and the other made of delicate earthen clay—were swept from a kitchen shelf by a sudden flood and floated together down the.... The creatures of the field went about their daily lives according to their nature, each seeking their own advantage while keeping a vigilant watch over friends and foes alike.\n\nAs the hours passed, an unexpected turning point arose that tested their wits and character. A tense confrontation soon arose as rival desires crossed paths under the midday sun. Words were exchanged with cautious cunning, glances were measured, and each party sought to disguise their true intentions behind a veil of outward innocence.\n\nYet the timeless laws of nature cannot be deceived by clever words or false appearances. Natural instincts and sharp wits collided, bringing the trial to an immediate, decisive climax.  The outcome was swift and irreversible, leaving behind a lasting lesson for all who witnessed the event, proving that the weak must keep a safe distance from the strong; collision brings ruin to the fragile.",
-  "moral": "The weak must keep a safe distance from the strong; collision brings ruin to the fragile.",
+  "full_text": "ஒரு பெருமழைக் காலத்தில் காட்டாற்றில் ஏற்பட்ட வெள்ளம் ஊருக்குள் புகுந்தது. ஆற்றங்கரையில் இருந்த ஒரு வீட்டிலிருந்து இரண்டு சமையல் பானைகள் ஆற்று வெள்ளத்தில் அடித்துச் செல்லப்பட்டன. அவற்றில் ஒன்று ஏழைகள் சமைக்கும் எளிய மண்பானை; மற்றொன்று செல்வந்தர்களின் வீட்டில் பயன்படுத்தப்படும் கெட்டியான பளபளக்கும் வெண்கலப் பானை. இரண்டும் வெள்ள நீரில் அடுத்தடுத்து மிதந்து சென்றன.\n\nஅப்போது அந்த வெண்கலப் பானை மிகுந்த கனிவோடு மண்பானையைப் பார்த்துச் சொன்னது: \"தோழா மண்பானையே! ஆற்று நீர் மிகவும் கொந்தளிப்பாக இருக்கிறது; நீயோ உடையக்கூடிய மென்மையான களிமண்ணால் ஆனவன். என் அருகே வந்து ஒட்டிக்கொள்! நாம் இருவரும் இணைந்தே மிதப்போம்; உன்னை நான் பாறைகளில் மோதாமல் பாதுகாப்பேன்!\" என்று அழைத்தது.\n\nஆனால் அந்த புத்திசாலி மண்பானை அச்சத்தோடு சற்று தள்ளி நீந்தி விலகிச் சென்றது. அது சொன்னது: \"நண்பா! உன் நல்லெண்ணத்திற்கு மிக்க நன்றி! ஆனால் தயவுசெய்து என் அருகே மட்டும் வந்துவிடாதே, தள்ளியே இரு!\n\nஆற்று வெள்ளத்தில் நாம் இருவரும் மோதிக்கொண்டால், அல்லது அலையின் வேகத்தில் நீ என் மீது உரசி மோதினால், உன் கெட்டியான வெண்கல உடம்பிற்கு ஒரு சேதமும் வராது; ஆனால் என் மென்மையான மண் உடலோ நொறுங்கி சுக்குநூறாகிவிடும்! பாறையை விட உன் மோதலே எனக்குப் பெரும் பேராபத்து!\" என்று கூறி விலகியது.",
+  "moral": "நீதி: நம்மை விட மிக வலிமையானவர்களுடன் சமமற்ற நட்பு வைப்பது நமக்குத்தான் ஆபத்தை விளைவிக்கும்; எளியவர்கள் எளியவர்களோடு வாழ்வதே அமைதி.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Two Pots illustration from the Aesop's Fables collection.",
-  "word_count": 189,
+  "word_count": 154,
   "reading_time": "1 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Two Pots\"?",
+      "question": "வெள்ளத்தில் மிதந்த இரு பானைகள் எவற்றால் செய்யப்பட்டிருந்தன?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஒன்று உடையக்கூடிய மண்பானை, மற்றொன்று கெட்டியான வெண்கலப் பானை",
+        "இரண்டும் தங்கப் பானைகள்",
+        "இரண்டும் மரப் பானைகள்",
+        "ஒன்று பிளாஸ்டிக் பானை, மற்றொன்று இரும்புப் பானை"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "மண்ணுக்கும் வெண்கலத்திற்கும் உள்ள வேறுபாட்டை நினைவுகூருங்கள்.",
+      "answer": "ஒன்று உடையக்கூடிய மண்பானை, மற்றொன்று கெட்டியான வெண்கலப் பானை",
+      "explanation": "மண்ணுக்கும் வெண்கலத்திற்கும் உள்ள வேறுபாட்டை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "மண்பானை வெண்கலப் பானையின் நட்பை ஏன் பணிவோடு நிராகரித்து விலகியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அலையின் வேகத்தில் வெண்கலம் மோதினால் மண்பானை சுக்குநூறாக உடைந்துவிடும் என்பதால்",
+        "மண்பானைக்கு நீந்தப் பிடிக்கவில்லை என்பதால்",
+        "வெண்கலப் பானை அழுக்காக இருந்தது என்பதால்",
+        "கரையை அடைந்துவிட்டதால்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "வலிமையான பொருளின் மோதல் எளியவருக்குத் தரும் ஆபத்தை யோசியுங்கள்.",
+      "answer": "அலையின் வேகத்தில் வெண்கலம் மோதினால் மண்பானை சுக்குநூறாக உடைந்துவிடும் என்பதால்",
+      "explanation": "வலிமையான பொருளின் மோதல் எளியவருக்குத் தரும் ஆபத்தை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை சமுதாய உறவுகளுக்கு உணர்த்தும் யதார்த்தமான அறிவுரை எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "அளவுக்கு மீறிய பலசாலியோடு சமமற்ற நெருக்கம் கொள்வது எளியவர்களுக்கு ஆபத்தையே தரும்",
+        "மண்பானைகளில் சமைக்கவே கூடாது",
+        "ஆற்றில் எதையும் மிதக்க விடக்கூடாது",
+        "வெண்கலப் பாத்திரங்களை வாங்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "தமக்கு நிகரானவர்களோடு இணங்கி வாழ்வதன் பாதுகாப்பை எண்ணுங்கள்.",
+      "answer": "அளவுக்கு மீறிய பலசாலியோடு சமமற்ற நெருக்கம் கொள்வது எளியவர்களுக்கு ஆபத்தையே தரும்",
+      "explanation": "தமக்கு நிகரானவர்களோடு இணங்கி வாழ்வதன் பாதுகாப்பை எண்ணுங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "வெண்கலப் பானை",
+      "meaning": "செம்பும் தகரமும் கலந்து வார்க்கப்பட்ட உடையாத கெட்டியான உலோகப் பாத்திரம்"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "கொந்தளிப்பாக",
+      "meaning": "அலைகளும் சுழல்களும் ஆக்ரோஷமாக மோதும் கொந்தளிப்பான வெள்ள நிலை"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "சுக்குநூறாகிவிடும்",
+      "meaning": "கண்ணாடி அல்லது மண்பாண்டம் சிறுசிறு துகள்களாக உடைந்து தூளாகும் பேரழிவு"
+    },
+    {
+      "word": "பெருமழைக்",
+      "meaning": "பெருமழைக் என்ற சொல்லின் சூழல் பொருள் (Signifies பெருமழைக் in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Two Pots\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "வெண்கலப் பானை மண்பானைக்கு என்ன வாக்குறுதி தந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "நல்லெண்ணத்தோடு அழைத்தாலும் சமமற்ற பலம் ஏன் பலவீனமானவருக்கு அச்சுறுத்தலாகிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "அரசியலிலும் தனிமனித வாழ்க்கையிலும் பெரிய சக்திகளோடு உடன்படிக்கை செய்யும் போது எளியவர்கள் ஏன் எச்சரிக்கையாக இருக்க வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "தற்காப்பு உணர்வும் யதார்த்தமான எச்சரிக்கையும் எவ்வாறு மண்பானையைக் காப்பாற்றியது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

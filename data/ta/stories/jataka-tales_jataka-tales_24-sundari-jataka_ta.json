@@ -2,12 +2,12 @@
   "id": "jataka-tales-24-sundari-jataka",
   "slug": "jataka-tales-24-sundari-jataka",
   "language": "ta",
-  "title": "Sundari Jataka",
+  "title": "ஆஜன்ன ஜாதகம் – போர்க் குதிரையின் தியாகமும் தேசப் பாதுகாப்பும்",
   "genre": "Jataka Tales",
   "collection": "Jataka Tales",
   "culture_region": "Ancient India / Buddhist Folklore",
   "age_group": "Below 13",
-  "summary": "In ancient times, in the fragrant sal groves along the tranquil banks of the Ganges, the Great Being (Bodhisattva) was born according to the ripening of his past meritorious deeds....",
+  "summary": "ஏழு மன்னர்களின் பெரும்படையால் முற்றுகையிடப்பட்ட வாராணசியைக் காக்க, உடலில் அம்புகள் பாய்ந்து குற்றுயிராகச் சாய்ந்த போதிலும், 'தேசம் காக்கும் கடமை முடியும் முன் நான் படுக்க மாட்டேன்!' என்று மீண்டும் போர்க்களத்திற்கு எழுந்து நின்று நாட்டை மீட்ட உன்னதப் போர்க் குதிரையின் ஜாதகக் கதை.",
   "keywords": [
     "jataka tales",
     "sundari jataka",
@@ -22,49 +22,55 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In ancient times, in the fragrant sal groves along the tranquil banks of the Ganges, the Great Being (Bodhisattva) was born according to the ripening of his past meritorious deeds. In that life, he appeared as a noble exemplar of Panna, demonstrating boundless wisdom and spotless compassion for all living beings.\n\nAt that time, a great trial arose in the realm. The king and his ministers, blinded by greed, transient pride, and false counsel, had strayed from the path of righteousness, imposing harsh taxes and causing distress among the people and the forest creatures. Seeing the distress of the realm, the Great Being stepped forward without fear for his own comfort or life.\n\nGathering the people and confronting the monarch in the royal courtyard, the Great Being spoke words of gentle yet unshakeable truth: \"O King! A throne upheld by tyranny crumbles to dust, but a realm governed by virtue, justice, and loving-kindness flourishes like a banyan tree whose shade shelters travelers from every land. He who sows harm reaps sorrow, while he who guards the weak attains enduring peace.\"\n\nMoved by the Great Being’s spotless purity and profound reasoning, the king renounced his unjust decrees, ordered granaries opened to feed the hungry, and declared total protection for all beasts and birds in the forest. The Great Being guided the realm in peace and virtue, teaching that moral integrity, selfless sacrifice, and steady wisdom are the highest ornaments of life, leading mortals safely across the ocean of worldly trials.",
-  "moral": "Wisdom interprets ominous visions as warnings to govern with justice and mercy.",
+  "full_text": "பண்டைய வாராணசியில் போதிசத்துவர் அரச பரம்பரையின் ஆஜன்னிய என்ற தலைசிறந்த உன்னதப் போர்க் குதிரையாகப் பிறந்தார். அது மின்னல் வேகமும், இடி முழக்கம் போன்ற உறுதியும், தன் எஜமானனின் மீது அசைக்க முடியாத விசுவாசமும் கொண்டதாகத் திகழ்ந்தது.\n\nஒருமுறை ஏழு அண்டை நாட்டு மன்னர்கள் ஒன்று கூடி, பெரும் படைகளுடன் வாராணசி நகரத்தை நாலாபுறமும் முற்றுகையிட்டனர். வாராணசி மன்னன் தன் சிறந்த வாள்வீரனை அழைத்து, \"வீரனே! நமது ஆஜன்னியக் குதிரையின் மீது ஏறிச் சென்று ஏழு மன்னர்களின் படைகளையும் முறியடி!\" என்று பணித்தான்.\n\nஅந்த வீரன் போதிசத்துவக் குதிரையின் மீது ஏறி மின்னல் வேகத்தில் பாய்ந்தான். அவன் ஆறு மன்னர்களின் முகாம்களைத் தரைமட்டமாக்கினான். ஆனால் ஏழாவது முகாமைத் தாக்கிய போது, எதிரிகளின் நச்சு அம்பு ஒன்று குதிரையின் நெஞ்சைத் துளைத்தது! குதிரை ரத்தம் சொட்டச் சொட்டத் தரையில் சரிந்தது.\n\nவீரன் குதிரையின் கவசத்தைக் கழற்றி, மற்றொரு குதிரையைக் கட்ட முயன்றான். அப்போது போதிசத்துவர் மனிதக் குரலில் பேசினார்: \"வீரனே! வேறு எந்தக் குதிரையாலும் இந்த ஏழாவது முகாமை வெல்ல முடியாது! என் உடலின் வலியைப் பார்க்காதே! என்னைக் கட்டவிழ்த்து என் மீதே மீண்டும் ஏறு! கடமையை முடிக்காமல் நான் தரையில் சாக மாட்டேன்!\" என்றார்.\n\nவீரன் கண்கலங்கி மீண்டும் ஏறினான்; போதிசத்துவர் தன் இறுதி மூச்சைத் திரட்டிப் பாய்ந்து ஏழாவது மன்னனையும் சிறைபிடித்தார்! நாடு காப்பாற்றப்பட்டது. பின்னர் அரண்மனை முற்றத்தில் மன்னனின் மடியில் தலைசாய்த்துத் தன் இன்னுயிரைத் துறந்தார்.\n\nகடமை உணர்வே வீரத்தின் சிகரம் என்பதைப் போதிசத்துவர் உணர்த்தினார்.",
+  "moral": "தன் சொந்த உடலின் வலியையும் மரணத்தையும் பொருட்படுத்தாமல், கடமையையும் தர்மத்தையும் இறுதி மூச்சு வரை நிறைவேற்றுவதே மெய்யான தியாக வீரம்.",
   "image": "/images/stories/jataka.webp",
   "image_alt": "Sundari Jataka illustration from the Jataka Tales collection.",
-  "word_count": 249,
-  "reading_time": "2 min",
+  "word_count": 1,
+  "reading_time": 1,
   "listen_time": "2 min",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"Sundari Jataka\"?",
+      "question": "வாராணசியை எத்தனை அண்டை நாட்டு மன்னர்கள் முற்றுகையிட்டனர்?",
       "options": [
-        "Paramita perfection - Dana, Sila, Kshanti etc.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "இரண்டு மன்னர்கள்",
+        "ஏழு அண்டை நாட்டு மன்னர்கள்",
+        "பத்து மன்னர்கள்",
+        "நான்கு மன்னர்கள்"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "ஏழு அண்டை நாட்டு மன்னர்கள்",
+      "answerIndex": 1,
+      "hint": "ஏழு மன்னர்கள்.",
+      "explanation": "ஏழு அண்டை நாட்டு மன்னர்கள் பெரும் படைகளோடு வாராணசியை முற்றுகையிட்டனர்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "நெஞ்சில் அம்பு பாய்ந்து விழுந்த குதிரை வீரனிடம் என்ன கூறியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "தன்னை விட்டு ஓடச் சொன்னது",
+        "வேறு குதிரையால் வெல்ல முடியாது, கடமையை முடிக்காமல் சாக மாட்டேன் என்று மீண்டும் போரிட அழைத்தது",
+        "மருந்து கேட்டது",
+        "புல் கேட்டது"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "வேறு குதிரையால் வெல்ல முடியாது, கடமையை முடிக்காமல் சாக மாட்டேன் என்று மீண்டும் போரிட அழைத்தது",
+      "answerIndex": 1,
+      "hint": "கடமையை முடிக்காமல் சாக மாட்டேன் என்றது.",
+      "explanation": "தன் வலியைப் பாராமல் கடமையை முடித்து நாட்டைக் காக்க மீண்டும் போரிட அழைத்தது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "ஆஜன்ன ஜாதகம் உணர்த்தும் தியாக நெறி யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "போர் செய்யக் கூடாது",
+        "உடல் வலியையும் மரணத்தையும் பொருட்படுத்தாமல் கடமையையும் தர்மத்தையும் இறுதி வரை நிறைவேற்றுவதே உண்மை வீரம்",
+        "குதிரைகளை விற்க வேண்டும்",
+        "அரண்மனையை மூட வேண்டும்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "உடல் வலியையும் மரணத்தையும் பொருட்படுத்தாமல் கடமையையும் தர்மத்தையும் இறுதி வரை நிறைவேற்றுவதே உண்மை வீரம்",
+      "answerIndex": 1,
+      "hint": "கடமையை இறுதி வரை நிறைவேற்றுதல்.",
+      "explanation": "நாட்டைக் காக்கும் கடமைக்காகத் தன் உயிரையே ஈந்த போதிசத்துவக் குதிரையின் தியாகமே கடமை உணர்வின் உச்சம்."
     }
   ],
   "author": "Traditional Buddhist Fables (Pali Canon / Public Domain)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "ஆஜன்னிய",
+      "meaning": "உயர்ந்த குலப்பிறப்பும் சிறந்த பயிற்சியும் அறிவும் கொண்ட உன்னதக் குதிரை",
+      "gloss": "noble thoroughbred steed"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "முகாம்களைத்",
+      "meaning": "போர்க்களத்தில் படைகள் தங்கி இருக்கும் தற்காலிகப் பாசறைகளை",
+      "gloss": "military camps/encampments"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கட்டவிழ்த்து",
+      "meaning": "கட்டப்பட்டிருந்த கயிறுகளையும் கவசங்களையும் அவிழ்த்துத் தயார் செய்து",
+      "gloss": "untie, harness ready"
+    },
+    {
+      "word": "இன்னுயிரைத்",
+      "meaning": "விலைமதிப்பற்ற தன் சொந்த இனிய உயிரையே தியாகமாக",
+      "gloss": "precious life"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"Sundari Jataka\"?"
+      "tier": "remembering",
+      "prompt": "போர்க்களத்தில் ஆஜன்னியக் குதிரை ஆற்றிய வீர தீரச் செயல்கள் யாவை?",
+      "type": "remembering",
+      "question": "போர்க்களத்தில் ஆஜன்னியக் குதிரை ஆற்றிய வீர தீரச் செயல்கள் யாவை?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Paramita perfection - Dana, Sila, Kshanti etc.\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "தன் மரணம் நிச்சயம் என்று தெரிந்தும் குதிரை ஏன் ஏழாவது முகாமைத் தாக்க முன்வந்தது?",
+      "type": "understanding",
+      "question": "தன் மரணம் நிச்சயம் என்று தெரிந்தும் குதிரை ஏன் ஏழாவது முகாமைத் தாக்க முன்வந்தது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "தேசப் பாதுகாப்பு மற்றும் பொதுநலப் பணிகளில் ஈடுபடுவோர் கடைப்பிடிக்க வேண்டிய தியாக மனப்பான்மையை விவாதிக்கவும்.",
+      "type": "applying",
+      "question": "தேசப் பாதுகாப்பு மற்றும் பொதுநலப் பணிகளில் ஈடுபடுவோர் கடைப்பிடிக்க வேண்டிய தியாக மனப்பான்மையை விவாதிக்கவும்."
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "சுயநலப் பாதுகாப்பு உணர்வுக்கும், உயர்ந்த கடமைக்கான தியாகத்திற்கும் இடையிலான போராட்டத்தை ஆராய்க.",
+      "type": "analyzing",
+      "question": "சுயநலப் பாதுகாப்பு உணர்வுக்கும், உயர்ந்த கடமைக்கான தியாகத்திற்கும் இடையிலான போராட்டத்தை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "குதிரையின் தியாகத்தை மனித வீரங்களை விட மேலானது எனப் போற்றும் ஜாதகக் கருத்தை மதிப்பிடுக.",
+      "type": "evaluating",
+      "question": "குதிரையின் தியாகத்தை மனித வீரங்களை விட மேலானது எனப் போற்றும் ஜாதகக் கருத்தை மதிப்பிடுக."
+    },
+    {
+      "tier": "creating",
+      "prompt": "வாராணசி மன்னன் அந்த விசுவாசக் குதிரைக்கு அமைத்த நினைவுச் சின்னத்தின் கல்வெட்டு வரிகளை வரைக.",
+      "type": "creating",
+      "question": "வாராணசி மன்னன் அந்த விசுவாசக் குதிரைக்கு அமைத்த நினைவுச் சின்னத்தின் கல்வெட்டு வரிகளை வரைக."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

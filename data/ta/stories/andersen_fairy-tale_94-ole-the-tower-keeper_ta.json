@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-94-ole-the-tower-keeper",
   "slug": "hans-christian-andersen-94-ole-the-tower-keeper",
   "language": "ta",
-  "title": "Ole the Tower-Keeper",
+  "title": "கோபுரக் காவலன் ஓலேயும் மனிதப் பேராசையின் எள்ளல் பார்வையும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "High atop the church tower in Copenhagen lived Ole, the old watchman. Looking down upon the bustling city below, he watched kings and beggars, processions and funerals, like swarmi...",
+  "summary": "கோபன்ஹேகன் தேவாலயக் கோபுரத்தின் உச்சியில் வாழ்ந்து, கீழே வீதிகளில் அற்பப் புகழுக்காகவும் பணத்திற்காகவும் எறும்பு போல அடித்துக் கொள்ளும் மனிதர்களின் அற்ப ஆசைகளை மேலிருந்து பார்த்துச் சிரித்த முதிய காவலன் ஓலேயின் தத்துவக் கதை.",
   "keywords": [
     "hans christian andersen",
     "ole the tower-keeper",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived High atop the church tower in Copenhagen lived Ole, the old watchman. Looking down upon the bustling city below, he watched kings and beggars, processions and funerals, like swarmi.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that looking down from the tower of contemplation reveals the folly of petty worldly ambition.",
-  "moral": "Looking down from the tower of contemplation reveals the folly of petty worldly ambition.",
+  "full_text": "கோபன்ஹேகன் மாநகரத்தின் மிக உயரமான தேவாலயக் கோபுரத்தின் மாடியில், ஓலே என்ற முதிய இரவுக்காவலாளி வசித்து வந்தார்.\n    \nஅவர் நகரத்தின் மணிக்கூண்டைப் பராமரித்து, தீ விபத்துக்கள் ஏதேனும் ஏற்படுகின்றனவா என்று இரவும் பகலும் மேலிருந்து கண்காணித்து வந்தார்.\n    \nஅவர் கோபுர மாடத்திலிருந்து கீழே வீதிகளைப் பார்ப்பார். கீழே உள்ள மக்கள் எறும்புக் கூட்டங்களைப் போலச் சுறுசுறுப்பாக ஓடிக் கொண்டிருப்பார்கள்.\n    \nஅரசர்களின் ஊர்வலங்கள், பிரபுக்களின் ஆடம்பரத் திருமணங்கள், வணிகர்களின் போட்டிகள், பேராசைக் கலகங்கள் யாவற்றையும் அவர் ஒரு புன்னகையோடு நோக்குவார்.\n    \n\"கீழே இருக்கும் மனிதர்கள் எவ்வளவு விசித்திரமானவர்கள்! அற்பப் புகழுக்காகவும், சில நாணயங்களுக்காகவும் ஒருவரையொருவர் வஞ்சித்துக் கொள்கிறார்கள்; முடிவில் அனைவரும் கல்லறையின் ஆறடி மண்ணுக்கே போகப் போகிறார்கள்! ஆனால் எனக்கோ இந்த வானமும், விண்மீன்களும், தூய காற்றும் சொந்தமாக இருக்கின்றன!\" என்று தத்துவார்த்தமாகப் பேசுவார்.\n    \nஅவரது அறையில் ஒரு சிறிய ஜன்னலும், சில பழைய புத்தகங்களும் மட்டுமே இருந்தன; ஆனால் அவர் எந்த அரசரையும் விட அமைதியாகவும் மகிழ்ச்சியாகவும் வாழ்ந்தார்.\n    \nஉலகத்தின் இரைச்சலிலிருந்து விலகி அமைதியான உயர்ந்த நோக்கில் வாழ்பவனுக்கே வாழ்வின் உண்மைப் பேரானந்தம் கைவரும் என்பதை ஓலே தன் புன்னகையால் உலகிற்கு உணர்த்தினார்.",
+  "moral": "உலகாயதப் பேராசைகளிலிருந்தும் அற்ப போட்டிகளிலிருந்தும் விலகி, உயரமான ஆன்மீக சிந்தனை கோபுரத்திலிருந்து நோக்கும் போது மட்டுமே வாழ்வின் உண்மையான அர்த்தமும் அமைதியும் புலப்படும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "Ole the Tower-Keeper illustration from the Hans Christian Andersen collection.",
   "word_count": 223,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"Ole the Tower-Keeper\"?",
+      "question": "கோபுர உச்சியில் வாழ்ந்த முதிய காவலன் ஓலே கீழே உள்ள மனிதர்களை எதனுடன் ஒப்பிட்டுப் பார்த்தார்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "அற்ப ஆசைகளுக்காக ஓடும் எறும்புக் கூட்டங்களுடன் ஒப்பிட்டுப் பார்த்தார்",
+        "புலிகளுடன் ஒப்பிட்டார்",
+        "வானத்து விண்மீன்கள் என்றார்",
+        "கடல் மீன்கள் என்றார்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "அற்ப ஆசைகளுக்காக ஓடும் எறும்புக் கூட்டங்களுடன் ஒப்பிட்டுப் பார்த்தார்",
+      "hint": "மேலிருந்து பார்த்த சிறிய மனிதப் போக்கினை நினையுங்கள்.",
+      "explanation": "ஓலே கோபுரத்திலிருந்து பார்க்கும்போது மக்கள் அற்ப ஆசைகளுக்காக எறும்புகள் போல் அடித்துக் கொள்வதாகக் கண்டார்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "ஓலே தான் அரசர்களை விட மகிழ்ச்சியாக இருப்பதாகக் கருதக் காரணம் என்ன?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அவர் உலகாயதப் பேராசைகளற்ற வானத்தின் தூய அமைதியையும் விண்மீன்களையும் அனுபவித்ததால்",
+        "அவரிடம் தங்கம் இருந்ததால்",
+        "அவர் அரண்மனையில் வாழ்ந்ததால்",
+        "அவரிடம் படை இருந்ததால்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "அவர் உலகாயதப் பேராசைகளற்ற வானத்தின் தூய அமைதியையும் விண்மீன்களையும் அனுபவித்ததால்",
+      "hint": "அவரது பற்றற்ற எளிய வாழ்வை நினையுங்கள்.",
+      "explanation": "அமைதியும் இயற்கையும் தத்துவப் பார்வையுமே ஓலேவை எந்த மன்னரையும் விடப் பெருமகிழ்ச்சி கொள்ள வைத்தன."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை போதிக்கும் தத்துவார்த்தப் பாடம் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "உலக இரைச்சல்களிலிருந்து விலகி உயர்ந்த ஆன்மீகப் பார்வையில் வாழ்வதே உண்மையான மன அமைதியைத் தரும்",
+        "கோபுரங்களில் மட்டுமே வாழ வேண்டும்",
+        "கடிகாரங்களைப் பார்க்கக் கூடாது",
+        "வீதிகளில் நடக்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "உலக இரைச்சல்களிலிருந்து விலகி உயர்ந்த ஆன்மீகப் பார்வையில் வாழ்வதே உண்மையான மன அமைதியைத் தரும்",
+      "hint": "பற்றற்ற மனதின் மேன்மையை நினையுங்கள்.",
+      "explanation": "பேராசைகளைத் துறந்து வாழ்க்கையை மேலோட்டமாக அல்லாமல் தத்துவக் கண்ணோட்டத்தோடு பார்ப்பதே சாந்தியைத் தரும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "இரவுக்காவலாளி",
+      "meaning": "நகரத்தைக் காப்பதற்காக இரவெல்லாம் விழித்திருந்து கண்காணிக்கும் காவல் பணியாளர்",
+      "gloss": "night watchman"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "மணிக்கூண்டைப்",
+      "meaning": "நகர மக்கள் நேரத்தை அறிந்துகொள்ள தேவாலயக் கோபுரத்தில் அமைக்கப்பட்டுள்ள பெரிய கடிகாரத்தை",
+      "gloss": "clock tower, belfry"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "வஞ்சித்துக்",
+      "meaning": "சுயநலத்திற்காக மற்றவர்களை ஏமாற்றியும் துரோகம் செய்தும்",
+      "gloss": "deceiving, betraying"
+    },
+    {
+      "word": "இரைச்சலிலிருந்து",
+      "meaning": "அமைதியைச் சிதைக்கும் இரைச்சலான சந்தடி மற்றும் கூச்சல்களிலிருந்து",
+      "gloss": "from the clamor, noisy din"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"Ole the Tower-Keeper\"?"
+      "tier": "remembering",
+      "prompt": "கோபுரக் காவலன் ஓலே எந்த நகரத்தின் தேவாலயக் கோபுரத்தில் வாழ்ந்தார்?",
+      "type": "remembering",
+      "question": "கோபுரக் காவலன் ஓலே எந்த நகரத்தின் தேவாலயக் கோபுரத்தில் வாழ்ந்தார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "கோபுரத்தின் உயரத்திலிருந்து மனிதர்களைப் பார்த்த ஓலேயின் பார்வை எத்தகைய தத்துவ உண்மையை விளக்கியது?",
+      "type": "understanding",
+      "question": "கோபுரத்தின் உயரத்திலிருந்து மனிதர்களைப் பார்த்த ஓலேயின் பார்வை எத்தகைய தத்துவ உண்மையை விளக்கியது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது அன்றாட பரபரப்பான வாழ்க்கையில் அமைதியான மனநிலையைப் பேண நாம் எவ்வாறு எளிய வாழ்வை மேற்கொள்ளலாம்?",
+      "type": "applying",
+      "question": "நமது அன்றாட பரபரப்பான வாழ்க்கையில் அமைதியான மனநிலையைப் பேண நாம் எவ்வாறு எளிய வாழ்வை மேற்கொள்ளலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "கீழே வீதியில் ஓடும் மக்களின் அதிகார வெறிக்கும், மேலே கோபுரத்தில் வாழும் ஓலேயின் பற்றற்ற அமைதிக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "கீழே வீதியில் ஓடும் மக்களின் அதிகார வெறிக்கும், மேலே கோபுரத்தில் வாழும் ஓலேயின் பற்றற்ற அமைதிக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'அளவுக்கு அதிகமான பொருள் தேடலே மனிதனின் மன அமைதியைக் குலைக்கும் முதன்மை எதிரி' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'அளவுக்கு அதிகமான பொருள் தேடலே மனிதனின் மன அமைதியைக் குலைக்கும் முதன்மை எதிரி' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "கோபுர உச்சியிலிருந்து நள்ளிரவில் ஓலே விண்மீன்களைப் பார்த்துப் பாடிய ஒரு தத்துவப் பாடலை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "கோபுர உச்சியிலிருந்து நள்ளிரவில் ஓலே விண்மீன்களைப் பார்த்துப் பாடிய ஒரு தத்துவப் பாடலை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

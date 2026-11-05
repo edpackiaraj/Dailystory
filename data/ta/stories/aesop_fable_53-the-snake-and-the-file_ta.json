@@ -2,12 +2,12 @@
   "id": "aesops-fables-53-the-snake-and-the-file",
   "slug": "aesops-fables-53-the-snake-and-the-file",
   "language": "ta",
-  "title": "The Snake and the File",
+  "title": "பாம்பும் இரும்பு அரமும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A venomous serpent slithered into a blacksmith's workshop in search of mice. Slithering across the workbench, his cold skin struck a heavy, hardened steel file used by the smith to...",
+  "summary": "கொல்லன் பட்டறைக்குள் நுழைந்து இரும்பு அரத்தைக் கடித்து தன் பற்களை இழந்து ரத்தம் சிந்திய மூடப் பாம்பு, தன் சொந்த பலவீனத்தை உணராமல் இரும்பைக் காயப்படுத்த முயன்ற வீண் ஆத்திரத்தின் கதை.",
   "keywords": [
     "aesop's fables",
     "the snake and the file",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "On the outskirts of a quiet Hellenic village where shepherds tended their flocks upon the hills, A venomous serpent slithered into a blacksmith's workshop in search of mice. Slithering across the workbench, his cold skin struck a heavy, hardened steel file used by the smith to.... The creatures of the field went about their daily lives according to their nature, each seeking their own advantage while keeping a vigilant watch over friends and foes alike.\n\nAs the hours passed, an unexpected turning point arose that tested their wits and character. A tense confrontation soon arose as rival desires crossed paths under the midday sun. Words were exchanged with cautious cunning, glances were measured, and each party sought to disguise their true intentions behind a veil of outward innocence.\n\nYet the timeless laws of nature cannot be deceived by clever words or false appearances. Natural instincts and sharp wits collided, bringing the trial to an immediate, decisive climax.  The outcome was swift and irreversible, leaving behind a lasting lesson for all who witnessed the event, proving that never vent your malice against that which cannot be harmed, lest you destroy yourself.",
-  "moral": "Never vent your malice against that which cannot be harmed, lest you destroy yourself.",
+  "full_text": "ஒரு கிராமத்துக் கொல்லன் பட்டறைக்குள் நள்ளிரவில் ஓர் ஆக்ரோஷமான நச்சுப் பாம்பு இரை தேடி நுழைந்தது. இருட்டில் நிலத்தில் ஊர்ந்து சென்றபோது, தரையில் கிடந்த கடினமான ஒரு கூரிய இரும்பு அரத்தின் மீது அதன் உடல் பட்டது. அரத்தின் கரடுமுரடான பல் போன்ற விளிம்பு உரசியதால் பாம்பின் தோலில் ஒரு சிறிய கீறல் விழுந்தது.\n\nஇதனால் கடும் கோபமும் ஆத்திரமும் அடைந்த அந்தப் பாம்பு, அந்த அரத்தை ஒரு உயிருள்ள எதிரி என்று தவறாக நினைத்துக் கொண்டது. \"என்னை உரசி காயப்படுத்திய உன்னை ஒரே கடியில் தீர்த்துக்கட்டுகிறேன் பார்!\" என்று சீறியபடி தன் கூரிய நச்சுப் பற்களைத் திறந்து அந்த இரும்பு அரத்தைப் பலமாக \"நறுக்\" என்று கடித்தது!\n\nஆனால் இரும்பு அரமோ சிறிதும் அசையவில்லை; மாறாக, இரும்பின் கடினத்தன்மையால் பாம்பின் கூரிய நச்சுப் பற்கள் அனைத்தும் உடைந்து சிதறின! அதன் வாயிலிருந்து ரத்தம் கொப்பளித்தது.\n\nரத்தத்தின் சுவையையும் வாசனையையும் நுகர்ந்த அந்த மூடப் பாம்பு, அது அரத்தின் ரத்தம் என்று நினைத்து மேலும் வெறி கொண்டு மீண்டும் மீண்டும் அந்த இரும்பைக் கடித்துக் குதறியது. இறுதியில் தன் வாயும் தாடைகளும் நொறுங்கி, ரத்த வெள்ளத்தில் துடிதுடித்து அந்த இடத்திலேயே தன் முட்டாள்தனத்தால் மடிந்தது.",
+  "moral": "நீதி: நமது எதிர்ப்பை விடப் பல மடங்கு வலிமையான அசைக்க முடியாத உண்மைகளோடு வீணாக மோதினால், நமக்குத்தான் தீராத அழிவு நேரிடும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Snake and the File illustration from the Aesop's Fables collection.",
-  "word_count": 190,
+  "word_count": 154,
   "reading_time": "1 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Snake and the File\"?",
+      "question": "பாம்பு இரும்பு அரத்தின் மீது ஏன் ஆக்ரோஷமாகக் கோபமடைந்தது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "அரத்தின் விளிம்பு உரசியதால் தோலில் கீறல் விழுந்ததை எதிரியின் தாக்குதல் என்று நினைத்தது",
+        "அரம் பாம்பைத் துரத்தியதால்",
+        "கொல்லன் பாம்பை அடித்ததால்",
+        "அரத்தின் மீது உணவு இருந்ததால்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "பாம்பின் மேலோட்டமான தவறான ஆத்திரத்தை நினைவுகூருங்கள்.",
+      "answer": "அரத்தின் விளிம்பு உரசியதால் தோலில் கீறல் விழுந்ததை எதிரியின் தாக்குதல் என்று நினைத்தது",
+      "explanation": "பாம்பின் மேலோட்டமான தவறான ஆத்திரத்தை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "இரும்பு அரத்தைக் கடித்ததால் பாம்பிற்கு என்ன விபரீத காயம் ஏற்பட்டது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அதன் கூரிய பற்கள் அனைத்தும் உடைந்து வாயிலிருந்து ரத்தம் கொப்பளித்தது",
+        "அரம் இரண்டாக உடைந்துபோனது",
+        "பாம்பு அரத்தை முழுமையாக விழுங்கியது",
+        "பாம்பிற்குப் புதிய பற்கள் முளைத்தன"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "இரும்போடு மோதிய பற்களின் நிலையை யோசியுங்கள்.",
+      "answer": "அதன் கூரிய பற்கள் அனைத்தும் உடைந்து வாயிலிருந்து ரத்தம் கொப்பளித்தது",
+      "explanation": "இரும்போடு மோதிய பற்களின் நிலையை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை முரட்டு ஆத்திரக்காரர்களுக்கு உணர்த்தும் ஆழமான எச்சரிக்கை எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "நம்மால் அசைக்க முடியாத வலிமையான உண்மைகளுடனும் பலசாலியுடனும் வீணாக மோதினால் நாமே அழிந்து போவோம்",
+        "பட்டறைகளில் பாம்புகள் நுழையவே கூடாது",
+        "அரங்களை இரும்பில் செய்யக்கூடாது",
+        "பாம்புகளுக்குப் பற்கள் இருக்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "\"சுவரில் முட்டிக்கொள்வது போல\" வீண் மோதல் தரும் அழிவை எண்ணுங்கள்.",
+      "answer": "நம்மால் அசைக்க முடியாத வலிமையான உண்மைகளுடனும் பலசாலியுடனும் வீணாக மோதினால் நாமே அழிந்து போவோம்",
+      "explanation": "\"சுவரில் முட்டிக்கொள்வது போல\" வீண் மோதல் தரும் அழிவை எண்ணுங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "இருட்டில்",
+      "meaning": "இரும்பைத் தேய்த்து அறுப்பதற்காகக் கூரிய பற்களுடன் செய்யப்பட்ட கடினமான எஃகு கருவி"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "கொல்லன் பட்டறை",
+      "meaning": "இரும்பைக் காய்ச்சி ஆயுதங்களும் கருவிகளும் செய்யும் பட்டறை"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "ஆக்ரோஷமான",
+      "meaning": "விளைவுகளை யோசிக்காமல் சீறிப் பாயும் கடுமையான முரட்டுக் கோபம்"
+    },
+    {
+      "word": "மூடப்",
+      "meaning": "உண்மையை உணராமல் தவறான எண்ணத்தை உண்மையென நம்பி அழிவைத் தேடும் மடமை"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Snake and the File\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "பாம்பு எங்கே இரை தேடி நுழைந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "பாம்பு தன் சொந்த ரத்தத்தைக் கண்டு ஏன் மேலும் வெறி கொண்டு கடித்தது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "நமது வாழ்க்கையில் எதையும் மாற்ற முடியாத இயற்கை விதிகளோடும் எதார்த்தங்களோடும் வீணாக மோதுவதைத் தவிர்ப்பது எவ்வாறு அமைதியைத் தரும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "அறிவற்ற முரட்டு கோபமும் அகந்தையும் ஒருவனை எவ்வாறு தன் சொந்த அழிவுக்கே இட்டுச் செல்கிறது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

@@ -26,7 +26,7 @@
   "moral": "நீதி: எதிர்காலத்தைப் பற்றிச் சிந்தித்து உழைத்துச் சேமிப்பவரே துன்பமின்றி வாழ முடியும்; சோம்பேறித்தனம் அழிவைத் தரும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Ant and the Grasshopper illustration from the Aesop's Fables collection.",
-  "word_count": 361,
+  "word_count": 162,
   "reading_time": "3 min",
   "listen_time": "3 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Ant and the Grasshopper\"?",
+      "question": "இளவேனிற் காலத்தில் எறும்பு என்ன கடினமான வேலையைச் செய்துகொண்டிருந்தது?",
       "options": [
-        "Work today for tomorrow.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "குளிர்காலத் தேவைக்காகத் தானிய மணிகளைத் தன் புற்றில் சேமித்தது",
+        "மரத்தடியில் அமர்ந்து வெட்டுக்கிளியுடன் பாடியது",
+        "ஆற்றங்கரைக்குச் சென்று நீந்திக் குளித்தது",
+        "மண்ணைத் தோண்டி புதிய வீடு கட்டியது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "எறும்பின் சேமிப்புப் பழக்கத்தை நினைவுகூருங்கள்.",
+      "answer": "குளிர்காலத் தேவைக்காகத் தானிய மணிகளைத் தன் புற்றில் சேமித்தது",
+      "explanation": "எறும்பின் சேமிப்புப் பழக்கத்தை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "வெட்டுக்கிளி எறும்பின் அறிவுரையை ஏன் ஏற்கவில்லை?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "காலத்தை வீணடித்து ஆனந்தமாகப் பாடுவதிலேயே குறியாக இருந்தது",
+        "அதனிடம் ஏற்கனவே மலைபோல உணவு இருந்தது",
+        "குளிர்காலம் வராது என்று அது உறுதியாக நம்பியது",
+        "எறும்பின் மொழி அதற்குப் புரியவில்லை"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "வெட்டுக்கிளியின் சோம்பேறித்தனமான சிந்தனையைக் கவனியுங்கள்.",
+      "answer": "காலத்தை வீணடித்து ஆனந்தமாகப் பாடுவதிலேயே குறியாக இருந்தது",
+      "explanation": "வெட்டுக்கிளியின் சோம்பேறித்தனமான சிந்தனையைக் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "குளிர்காலம் வந்தபோது வெட்டுக்கிளிக்கு ஏற்பட்ட கதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "உணவின்றிப் பசியாலும் கடுங்குளிராலும் நடுங்கி வாடியது",
+        "வெப்பமான வெளிநாட்டுக்கு எளிதாகப் பறந்து சென்றது",
+        "பூமிக்கடியில் பெரும் உணவுக் களஞ்சியத்தைக் கண்டுபிடித்தது",
+        "எறும்புடன் சேர்ந்து மகிழ்ச்சியாக விருந்துண்டது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "முன்னேற்பாடு இல்லாத சோம்பேறிக்கு ஏற்படும் நிலையை எண்ணிப்பாருங்கள்.",
+      "answer": "உணவின்றிப் பசியாலும் கடுங்குளிராலும் நடுங்கி வாடியது",
+      "explanation": "முன்னேற்பாடு இல்லாத சோம்பேறிக்கு ஏற்படும் நிலையை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "இளவேனிற்",
+      "meaning": "பனி குறைந்து வெயில் தொடங்கும் வசந்த காலம்"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "சேமித்து",
+      "meaning": "எதிர்காலத் தேவைக்காகப் பொருட்களை முன்னரே சேர்த்துப் பாதுகாக்கும் பழக்கம்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "அலட்சியப்படுத்திப்",
+      "meaning": "முக்கியமான அறிவுரையை அல்லது கடமையை மதிக்காமல் விடுதல்"
+    },
+    {
+      "word": "நடுநடுங்கி",
+      "meaning": "தாங்க முடியாத குளிராலோ அல்லது அச்சத்தாலோ உடல் நடுங்குதல்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Ant and the Grasshopper\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "வெட்டுக்கிளி எறும்பை என்ன செய்யுமாறு அழைத்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Work today for tomorrow.\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "எறும்பு தன் உழைப்பின் பயனை எப்போது உணர்ந்தது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "பள்ளித் தேர்வுக்கு முன்கூட்டியே படிப்பதற்கும் எறும்பின் சேமிப்புக்கும் என்ன தொடர்பு?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "இன்றைய இன்பத்தை விட நாளைய பாதுகாப்புக்கு முக்கியத்துவம் கொடுப்பது ஏன் புத்திசாலித்தனம்?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

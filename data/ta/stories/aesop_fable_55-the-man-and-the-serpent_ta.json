@@ -2,12 +2,12 @@
   "id": "aesops-fables-55-the-man-and-the-serpent",
   "slug": "aesops-fables-55-the-man-and-the-serpent",
   "language": "ta",
-  "title": "The Man and the Serpent",
+  "title": "மனிதனும் பாம்பும் – ஆறாத வடுவின் சாட்சி",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A country farmer had an old serpent living beneath his doorstep, which in a moment of fury bit his beloved son, killing the boy instantly. Overwhelmed by grief and rage, the farmer...",
+  "summary": "மகனைக் கொன்ற பாம்பின் வாலை வெட்டிய விவசாயி, பின்னர் சமாதானம் ஆகப் பால் வைத்தபோது, 'மகனின் கல்லறையும் அறுத்த வாலும் உள்ளவரை சமாதானம் சாத்தியமில்லை' என்று பாம்பு மறுத்த கதை.",
   "keywords": [
     "aesop's fables",
     "the man and the serpent",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the sunlit pastures of ancient Greece, where olive groves swayed gently against the mountain breeze, A country farmer had an old serpent living beneath his doorstep, which in a moment of fury bit his beloved son, killing the boy instantly. Overwhelmed by grief and rage, the farmer.... The creatures of the field went about their daily lives according to their nature, each seeking their own advantage while keeping a vigilant watch over friends and foes alike.\n\nAs the hours passed, an unexpected turning point arose that tested their wits and character. A tense confrontation soon arose as rival desires crossed paths under the midday sun. Words were exchanged with cautious cunning, glances were measured, and each party sought to disguise their true intentions behind a veil of outward innocence.\n\nYet the timeless laws of nature cannot be deceived by clever words or false appearances. Natural instincts and sharp wits collided, bringing the trial to an immediate, decisive climax.  The outcome was swift and irreversible, leaving behind a lasting lesson for all who witnessed the event, proving that true reconciliation is impossible where monuments of mutual injury remain.",
-  "moral": "True reconciliation is impossible where monuments of mutual injury remain.",
+  "full_text": "ஒரு கிராமத்து விவசாயியின் வீட்டு வாசற்படியின் அடியில் ஒரு வயதான நாகப்பாம்பு நெடுங்காலமாக வசித்து வந்தது. ஒரு நாள் அவனது செல்ல மகன் விளையாட்டாக அதன் வாலை மிதித்துவிட்டான். சீற்றமடைந்த பாம்பு ஒரே கொத்தில் சிறுவனைக் கடித்ததில், அவன் சம்பவ இடத்திலேயே துடிதுடித்து உயிரிழந்தான். மகனின் சடலத்தைக் கண்டு கதறி அழுத விவசாயி, அடக்க முடியாத ஆத்திரத்துடன் கைக்கோடரியை எடுத்துப் பாம்பைத் துரத்தினான்.\n\nபாம்பு தன் புற்றுக்குள் நுழைய முயன்ற போது, வீசிய கோடரி அதன் வால் பகுதியைத் துண்டித்தது! கடும் காயத்துடன் பாம்பு புற்றினுள் தப்பியது. சில வாரங்கள் கடந்தன. எப்போதும் பாம்பினால் தன் குடும்பத்திற்கு ஆபத்து வந்துவிடுமோ என்று விவசாயி அஞ்சினான். எனவே பாம்போடு சமாதானம் செய்துகொள்ள எண்ணி, ஒரு கிண்ணத்தில் பசும்பாலையும் அப்பத்தையும் எடுத்துக்கொண்டு அதன் புற்றின் அருகே வைத்து அழைத்தான்.\n\n\"பாம்பே! நாம் இருவரும் பழைய பகையை மறந்துவிடுவோம்! நீ என் மகனைக் கொன்றாய், நான் உன் வாலை வெட்டினேன்; இப்போது கணக்குத் தீர்ந்துவிட்டது. இனி நாம் நண்பர்களாக வாழ்வோம், வா!\" என்றான்.\n\nபாம்பு புற்றிலிருந்து தலையை மட்டும் நீட்டி விவேகத்தோடு கூறியது: \"விவசாயியே! உன் சமாதானப் பேச்சை நான் நம்ப மாட்டேன்! நீ உன் மகனின் கல்லறையைப் பார்க்கும் போதெல்லாம் உன் நெஞ்சில் கோபம் கொப்பளிக்கும்; நான் என் அறுபட்ட வாலைப் பார்க்கும் போதெல்லாம் என் உடலில் பழிவாங்கும் விஷம் எரியும்! நம் இருவர் மத்தியிலும் ஆறாத வடுக்கள் இருக்கும் வரை, வெறும் பாலைக் காட்டி சமாதானம் செய்ய முடியாது; நாம் விலகி இருப்பதே இருவருக்குமே நலம்!\" என்று கூறிவிட்டுப் புற்றினுள் மறைந்தது.",
+  "moral": "இரு தரப்பிலும் ஆழமான காயங்களும் வடுக்களும் நிலைத்திருக்கும் வரை, மேலோட்டமான போலி சமாதானங்களால் இதயங்களை ஒன்றிணைக்க முடியாது.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Man and the Serpent illustration from the Aesop's Fables collection.",
   "word_count": 188,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Man and the Serpent\"?",
+      "question": "விவசாயியின் மகன் எவ்வாறு உயிரிழந்தான்?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "கிணற்றில் தவறி விழுந்ததால்",
+        "பாம்பின் வாலை மிதித்ததால் அது சீறி கடித்ததில்",
+        "நோயால்",
+        "காட்டரக்கனால்"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "பாம்பின் வாலை மிதித்ததால் அது சீறி கடித்ததில்",
+      "explanation": "விளையாட்டாகப் பாம்பின் வாலை மிதித்த போது அது சீற்றத்துடன் கடித்ததால் மகன் உயிரிழந்தான்.",
+      "answerIndex": 1,
+      "hint": "விளையாட்டாகப் பாம்பின் வாலை மிதித்த போது அது சீற்றத்துடன் கடித்ததால் மகன் உயிரிழந்தான்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "ஆத்திரமடைந்த விவசாயி கோடரியால் பாம்பிற்கு என்ன செய்தான்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அதன் தலையைத் துண்டித்தான்",
+        "அதன் வால் பகுதியைத் துண்டித்தான்",
+        "புற்றை இடித்தான்",
+        "நெருப்பு வைத்தான்"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "அதன் வால் பகுதியைத் துண்டித்தான்",
+      "explanation": "புற்றுக்குள் நுழைய முயன்ற பாம்பின் வாலைக் கோடரியால் வெட்டித் துண்டித்தான்.",
+      "answerIndex": 1,
+      "hint": "புற்றுக்குள் நுழைய முயன்ற பாம்பின் வாலைக் கோடரியால் வெட்டித் துண்டித்தான்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "விவசாயியின் சமாதான அழைப்பை பாம்பு ஏன் நிராகரித்தது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "பால் பிடிக்காததால்",
+        "மகனின் கல்லறையும் அறுபட்ட வாலும் உள்ளவரை உண்மையான சமாதானம் சாத்தியமில்லை என்பதால்",
+        "வேறு ஊருக்குச் செல்ல நினைத்ததால்",
+        "விவசாயியைக் கொல்ல நினைத்ததால்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "மகனின் கல்லறையும் அறுபட்ட வாலும் உள்ளவரை உண்மையான சமாதானம் சாத்தியமில்லை என்பதால்",
+      "explanation": "இருபுறமும் ஆறாத வடுக்கள் சாட்சியாக இருக்கும் வரை போலி சமாதானம் நிலைக்காது என்று பாம்பு மறுத்துவிட்டது.",
+      "answerIndex": 1,
+      "hint": "இருபுறமும் ஆறாத வடுக்கள் சாட்சியாக இருக்கும் வரை போலி சமாதானம் நிலைக்காது என்று பாம்பு மறுத்துவிட்டது."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "வாசற்படியின்",
+      "meaning": "வீட்டின் நுழைவு வாயிலின் படிக்கட்டுப் பகுதியில் (Under the threshold / doorstep)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "கைக்கோடரியை",
+      "meaning": "மரங்களை வெட்டப் பயன்படும் சிறிய கோடரியை (Hand-axe)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கொப்பளிக்கும்;",
+      "meaning": "அடங்காமல் பொங்கி எழும் அல்லது கொதிக்கும் (Will boil / surge up)"
+    },
+    {
+      "word": "வடுக்கள்",
+      "meaning": "ஆறிய பின்னும் உடலில் அல்லது மனதில் நிலைத்து நிற்கும் காயத் தழும்புகள் (Scars / lasting marks)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Man and the Serpent\"?"
+      "question": "விவசாயி பாம்புடன் சமாதானம் செய்ய புற்றின் அருகே என்ன பொருட்களைக் கொண்டு வைத்தான்?",
+      "type": "Remembering"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "question": "ஆறாத மனக்காயங்கள் இருக்கும் சூழலில் வெளிப்புறச் சமாதான உடன்படிக்கைகள் ஏன் தோல்வியடைகின்றன?",
+      "type": "Understanding"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "question": "தனிமனித மற்றும் தேசிய மோதல்களில் உண்மையான நல்லிணக்கம் ஏற்பட எத்தகைய நிபந்தனைகள் தேவைப்படுகின்றன?",
+      "type": "Applying"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "question": "'விலகி இருப்பதே இருவருக்குமே நலம்' என்ற பாம்பின் தீர்ப்பை முதிர்ச்சியான முடிவாகக் கருதலாமா? விளக்குக.",
+      "type": "Evaluating"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -125,5 +131,6 @@
   "reviewed": true,
   "source": "Aesop - Public Domain",
   "license": "Public Domain",
-  "credit": "Aesop's Fables Heritage Anthology"
+  "credit": "Aesop's Fables Heritage Anthology",
+  "is_translated": true
 }

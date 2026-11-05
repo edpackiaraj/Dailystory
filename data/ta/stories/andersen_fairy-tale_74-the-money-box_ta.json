@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-74-the-money-box",
   "slug": "hans-christian-andersen-74-the-money-box",
   "language": "ta",
-  "title": "The Money Box",
+  "title": "மண் உண்டியல் பன்றியும் உடைந்துபோன கர்வமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "On top of the nursery wardrobe sat an enormous earthenware pig with a slit in its back. It was stuffed to the brim with silver and copper coins, so full that it could no longer rat...",
+  "summary": "அலமாரியின் உச்சியில் அமர்ந்து நாணயங்களால் வயிறு நிரம்பி, பிற பொம்மைகளை எள்ளி நகையாடிய பன்றி வடிவ மண் உண்டியல், கீழே விழுந்து சுக்குநூறாக உடைந்து தன் போலி கர்வத்தை இழந்த அங்கதக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the money box",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived On top of the nursery wardrobe sat an enormous earthenware pig with a slit in its back. It was stuffed to the brim with silver and copper coins, so full that it could no longer rat.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that pride based upon hoarded wealth shatters into useless shards in an instant.",
-  "moral": "Pride based upon hoarded wealth shatters into useless shards in an instant.",
+  "full_text": "குழந்தைகளின் அறையில் இருந்த உயரமான மர அலமாரியின் உச்சியில், களிமண்ணால் செய்யப்பட்ட ஒரு பெரிய பன்றி வடிவ உண்டியல் வைக்கப்பட்டிருந்தது.\n    \nஅதன் முதுகில் இருந்த பிளவில் நாள்தோறும் வெள்ளிக் காசுகளும் செப்புக் காசுகளும் போடப்பட்டு, அது காசுகளால் விம்மிப் புடைத்துக் குலுங்கக்கூட முடியாத அளவுக்கு நிரம்பியிருந்தது.\n    \nஅறையில் இருந்த மரப் பொம்மைகள், ஈயச் சிப்பாய்கள், பீங்கான் பொம்மைகள் யாவற்றையும் அது எகத்தாளமாகப் பார்த்தது: \"ஏழைப் பொம்மைகளே! என்னை விட உயர்ந்த பிரபு இந்த அறையில் எவருமில்லை! என் வயிற்றில் இருக்கும் செல்வம்தான் என் தகுதி!\" என்று ஆணவத்தோடு கொக்கரித்தது.\n    \nஒரு நாள் அந்த அறையில் ஒரு நாடக விருந்து நடந்தது. பொம்மைகள் யாவும் இசை பாடி மகிழ்ந்தன. மண் பன்றி மட்டும், \"நான் தரையிலெல்லாம் இறங்கி ஆட மாட்டேன், என் கனமே எனக்குப் பெருமை!\" என்று பெருமிதம் கொண்டது.\n    \nஅப்போது ஒரு தள்ளாட்டத்தால் அந்த மண் உண்டியல் அலமாரியின் மேலிருந்து 'தொம்!' என்று தரையில் விழுந்தது!\n    \nஒரே நொடியில் அது சுக்குநூறாக உடைந்து சிதறியது! அதன் வயிற்றுக்குள் இருந்த நாணயங்கள் நாலாபுறமும் சிதறி ஓடின; உடைந்த மண்பாண்டத் துண்டுகள் குப்பைக் கூடைக்கு வீசப்பட்டன.\n    \nமறுநாளே அதே இடத்தில் புதிய மண் உண்டியல் ஒன்று வைக்கப்பட்டது; ஆனால் அது இன்னும் எதையும் கற்றுக்கொள்ளாமல் பழைய பன்றியைப் போலவே கர்வம் கொள்ளத் தொடங்கியது.\n    \nபணத்தின் மீதான அகந்தை மனிதர்களை எவ்வாறு வீழ்த்துகிறது என்பதையும், செல்வம் தரும் போலிப் பெருமை எத்துணை நிலையற்றது என்பதையும் இக்கதை நையாண்டி செய்தது.",
+  "moral": "சேமித்து வைத்த செல்வத்தின் மீது கட்டப்படும் செருக்கு ஒரு நொடியில் சிதறிப் போகும்; வெறும் காசுகள் மனித மதிப்பையோ குணத்தையோ உயர்த்திவிட முடியாது.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Money Box illustration from the Hans Christian Andersen collection.",
   "word_count": 230,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Money Box\"?",
+      "question": "அலமாரியின் உச்சியில் அமர்ந்திருந்த மண் உண்டியல் எதனால் நிரம்பியிருந்தது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "வெள்ளிக் காசுகளாலும் செப்புக் காசுகளாலும் நிரம்பி வழிந்தது",
+        "பூக்களால் நிரம்பியிருந்தது",
+        "நீரால் நிரம்பியிருந்தது",
+        "மணலால் நிரம்பியிருந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "வெள்ளிக் காசுகளாலும் செப்புக் காசுகளாலும் நிரம்பி வழிந்தது",
+      "hint": "உண்டியலில் சேமிக்கப்பட்ட செல்வத்தை நினையுங்கள்.",
+      "explanation": "மண் உண்டியல் காசுகளால் நிரம்பி குலுங்க முடியாத அளவுக்கு கனத்திருந்தது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "மண் உண்டியலின் அகந்தைக்கு என்ன முடிவு ஏற்பட்டது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அலமாரியிலிருந்து கீழே விழுந்து சுக்குநூறாக உடைந்து குப்பையானது",
+        "அது ராஜாவாக மாறியது",
+        "அரண்மனைக்குச் சென்றது",
+        "வானத்தில் பறந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "அலமாரியிலிருந்து கீழே விழுந்து சுக்குநூறாக உடைந்து குப்பையானது",
+      "hint": "தவறி விழுந்து உடைந்த முடிவை நினையுங்கள்.",
+      "explanation": "கீழே விழுந்த மண் பன்றி சுக்குநூறாக உடைந்து காசுகள் சிதறின; ஓடுகள் குப்பையில் வீசப்பட்டன."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை போதிக்கும் நீதி யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "சேமித்த பணத்தின் மீது கொள்ளும் கர்வம் ஒரு நொடியில் சுக்குநூறாக உடையும்",
+        "உண்டியல்களைப் பயன்படுத்தக் கூடாது",
+        "பொம்மைகளோடு பேசக் கூடாது",
+        "அலமாரிகளை உடைக்க வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "சேமித்த பணத்தின் மீது கொள்ளும் கர்வம் ஒரு நொடியில் சுக்குநூறாக உடையும்",
+      "hint": "பணச் செருக்கின் நிலையாமையை நினையுங்கள்.",
+      "explanation": "செல்வத்தை மட்டுமே தகுதியாகக் கருதும் தற்பெருமை முடிவில் பரிதாபமாக அழியும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "உண்டியல்",
+      "meaning": "காசுகளையும் நாணயங்களையும் சேமித்து வைப்பதற்காகப் பயன்படும் சேமிப்புப் பேழை",
+      "gloss": "piggy bank, money box"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "சுக்குநூறாக",
+      "meaning": "துண்டு துண்டாக உடைந்து சிதறும் பரிதாப நிலை",
+      "gloss": "into pieces, shattered"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கொக்கரித்தது",
+      "meaning": "தன் செருக்கையும் கர்வத்தையும் காட்டி வாய்வீச்சுடன் கூச்சலிட்டது",
+      "gloss": "boasted loudly, crowed"
+    },
+    {
+      "word": "நிலையற்றது",
+      "meaning": "எப்போது வேண்டுமானாலும் அழிந்துபோகும் நிரந்தரமற்ற தன்மை",
+      "gloss": "impermanent, transient, fleeting"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Money Box\"?"
+      "tier": "remembering",
+      "prompt": "மண் உண்டியல் பன்றி எந்த இடத்தில் வைக்கப்பட்டிருந்தது?",
+      "type": "remembering",
+      "question": "மண் உண்டியல் பன்றி எந்த இடத்தில் வைக்கப்பட்டிருந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "பன்றி உண்டியல் தன்னை மற்ற பொம்மைகளை விட உயர்ந்ததாகக் கருதியதன் காரணத்தை விளக்குக.",
+      "type": "understanding",
+      "question": "பன்றி உண்டியல் தன்னை மற்ற பொம்மைகளை விட உயர்ந்ததாகக் கருதியதன் காரணத்தை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது வாழ்வில் நாம் ஈட்டும் செல்வத்தைக் கண்டு அகந்தை கொள்ளாமல் எவ்வாறு எளிமையோடும் ஈகை உணர்வோடும் வாழலாம்?",
+      "type": "applying",
+      "question": "நமது வாழ்வில் நாம் ஈட்டும் செல்வத்தைக் கண்டு அகந்தை கொள்ளாமல் எவ்வாறு எளிமையோடும் ஈகை உணர்வோடும் வாழலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "உண்டியலில் சேமிக்கப்பட்ட பணத்திற்கும், மனிதர்களின் உள்ளத்து நற்பண்புகளுக்கும் இடையே உள்ள மதிப்பீட்டு வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "உண்டியலில் சேமிக்கப்பட்ட பணத்திற்கும், மனிதர்களின் உள்ளத்து நற்பண்புகளுக்கும் இடையே உள்ள மதிப்பீட்டு வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'பொருள் செல்வம் நிலையற்றது, பண்புச் செல்வமே நிலையானது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'பொருள் செல்வம் நிலையற்றது, பண்புச் செல்வமே நிலையானது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "உடைந்த பன்றியின் நாணயங்களை எடுத்து ஏழைக் குழந்தைகளுக்கு உதவிய சிறுவனின் செயலை ஒரு கதையாக விவரிக்கவும்.",
+      "type": "creating",
+      "question": "உடைந்த பன்றியின் நாணயங்களை எடுத்து ஏழைக் குழந்தைகளுக்கு உதவிய சிறுவனின் செயலை ஒரு கதையாக விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-76-the-old-bachelor",
   "slug": "hans-christian-andersen-76-the-old-bachelor",
   "language": "ta",
-  "title": "The Old Bachelor (The Silent Hearth)",
+  "title": "முதிய மருந்தாளரும் எரியாத அடுப்பின் மௌன தியாகமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "In a quiet alleyway of the old city lived an aged bachelor who kept a modest apothecary shop. The neighborhood considered him a dry, humorless recluse who hoarded his small savings...",
+  "summary": "நகரத்தின் மூலையில் எளிய மருந்துக் கடையை நடத்தி, அண்டை வீட்டாருக்கு உதவிகளைச் செய்துவிட்டுத் தன் வீட்டில் அடுப்புக் கரியைச் சிக்கனப்படுத்திக் குளிரில் வாழ்ந்த முதியவர் மறைந்த பின் வெளிப்பட்ட மௌன தியாக வரலாறு.",
   "keywords": [
     "hans christian andersen",
     "the old bachelor",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived In a quiet alleyway of the old city lived an aged bachelor who kept a modest apothecary shop. The neighborhood considered him a dry, humorless recluse who hoarded his small savings.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that unseen acts of quiet loyalty and self-sacrifice shine like stars in the memory of heaven.",
-  "moral": "Unseen acts of quiet loyalty and self-sacrifice shine like stars in the memory of heaven.",
+  "full_text": "அந்தப் பழைய நகரத்தின் ஒதுக்குப்புறமான சந்தில், ஒரு முதிய மருந்தாளர் வாழ்ந்து வந்தார். அவர் ஒரு சிறிய மருந்துக் கடையை நடத்தி மூலிகைகளையும் களிம்புகளையும் விற்று வந்தார்.\n    \nஅவர் எப்போதும் பழைய மேலங்கியை அணிந்திருப்பார்; தன் வீட்டில் அடுப்பைக் கூட எரிக்காமல் குளிரில் நடுங்கிக் கொண்டு வாழ்ந்தார்.\n    \nஅண்டை வீட்டு மக்கள் அவரைப் பார்த்து, \"அவன் ஒரு கஞ்சன்! பிணந்தின்னி போலப் பணத்தைச் சேர்த்து வைக்கிறான்; அடுப்பை எரிக்கக் கூட அவனுக்குக் காசு செலவழிக்க மனமில்லை!\" என்று நிந்தனை செய்தனர்.\n    \nஆனால் உண்மை என்னவென்று எவருக்கும் தெரியவில்லை!\n    \nதன் இளமைப் பருவத்தில் அவர் தன் உடன் பிறந்த தம்பியின் குடும்பத்திற்காகத் தன் வாழ்வையே அர்ப்பணித்திருந்தார். தம்பி கடனில் மூழ்கி இறந்த போது, அவனது கடன்களை அடைக்கவும், அவனது அனாதைக் குழந்தைகளின் கல்விக்கும் தன் ஒவ்வொரு காசையும் அவர் அனுப்பி வந்தார்.\n    \nஅவர் அடுப்பை எரிக்காமல் சிக்கனம் பிடித்த ஒவ்வொரு ரூபாயும், தொலைதூர ஊரில் இருந்த அந்த ஏழைக் குழந்தைகளின் பசியைப் போக்கி அவர்களுக்கு நல்வாழ்வை அளித்துக் கொண்டிருந்தது!\n    \nமுதுமையில் அவர் அமைதியாக மரணமடைந்த போது, அவரது அலமாரியில் இருந்த கடிதங்கள் மூலம் இந்த உன்னத ரகசியம் ஊருக்குத் தெரிந்தது.\n    \nஅவரைப் பழித்துப் பேசிய அண்டை வீட்டார் வெட்கித் தலைகுனிந்தனர்; உலக ஆரவாரங்கள் அறியாத தூய தியாகத்தின் திருவுருவமாக அந்த முதியவர் திகழ்ந்தார்.",
+  "moral": "பிறரின் அறியாமையால் ஏளனம் செய்யப்படும் பல அமைதியான எளிய மனிதர்கள், கடவுளின் பார்வையில் விலைமதிப்பற்ற நற்குணத்தின் மாணிக்கங்களாக ஒளிர்கிறார்கள்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Old Bachelor illustration from the Hans Christian Andersen collection.",
   "word_count": 226,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Old Bachelor\"?",
+      "question": "அண்டை வீட்டார் முதிய மருந்தாளரை என்னவென்று தவறாக நினைத்துப் பழித்தனர்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "அடுப்பை எரிக்கக் கூட மனமில்லாத பண ஆசை பிடித்த கஞ்சன் என்றனர்",
+        "அரசன் என்றனர்",
+        "மந்திரவாதி என்றனர்",
+        "திருடன் என்றனர்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "அடுப்பை எரிக்கக் கூட மனமில்லாத பண ஆசை பிடித்த கஞ்சன் என்றனர்",
+      "hint": "அவரின் சிக்கனத்தைக் கண்டு ஊரார் பேசிய ஏளனத்தை நினையுங்கள்.",
+      "explanation": "அவர் அடுப்பைக் கூட எரிக்காமல் வாழ்ந்ததைக் கண்டு மக்கள் கஞ்சன் என்று நிந்தித்தனர்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "முதிய மருந்தாளர் தன் பணத்தை எதற்காகச் செலவழித்து வந்தார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "மறைந்த தம்பியின் அனாதைக் குழந்தைகளின் கல்விக்கும் நல்வாழ்விற்கும் அனுப்பினார்",
+        "சூதாட்டத்தில் இழந்தார்",
+        "தங்கத்தை வாங்கிக் குவித்தார்",
+        "நிலங்களை வாங்கினார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "மறைந்த தம்பியின் அனாதைக் குழந்தைகளின் கல்விக்கும் நல்வாழ்விற்கும் அனுப்பினார்",
+      "hint": "தம்பியின் குடும்பத்திற்கு அவர் செய்த ரகசிய தியாகத்தை நினையுங்கள்.",
+      "explanation": "அவர் தன் பசியையும் குளிரையும் தாங்கிக் கொண்டு அனாதைக் குழந்தைகளுக்குப் பணத்தை அனுப்பி வந்தார்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை புகட்டும் வாழ்க்கை நெறி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "வெளித்தோற்றத்தை வைத்து மனிதர்களை எடைபோடக் கூடாது; மௌன தியாகமே தெய்விகமானது",
+        "மருந்து விற்கக் கூடாது",
+        "அடுப்பை எரிக்கவே கூடாது",
+        "கடிதங்களை எழுதக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "வெளித்தோற்றத்தை வைத்து மனிதர்களை எடைபோடக் கூடாது; மௌன தியாகமே தெய்விகமானது",
+      "hint": "மறைந்த தியாகத்தின் மேன்மையை நினையுங்கள்.",
+      "explanation": "உலகம் பழித்தாலும் மௌனமாகப் பிறருக்காகத் தன்னைத் தியாகம் செய்யும் இதயங்களே தெய்விகமானவை."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "மருந்தாளர்",
+      "meaning": "நோய்களைத் தீர்க்கும் மருந்துகளைத் தயாரித்து வழங்கும் மருந்து விற்பனையாளர்",
+      "gloss": "apothecary, druggist"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "நிந்தனை",
+      "meaning": "உண்மை தெரியாமல் மற்றவர்களைப் பழித்துப் பேசும் அவதூறு",
+      "gloss": "reproach, slander, censure"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "அர்ப்பணித்திருந்தார்",
+      "meaning": "தன் சொந்த நலன்களைத் துறந்து முழுமையாக ஒப்படைத்திருந்தார்",
+      "gloss": "had dedicated, consecrated"
+    },
+    {
+      "word": "திருவுருவமாக",
+      "meaning": "உயர்ந்த குணத்தின் முழுமையான வடிவமாகவும் அடையாளமாகவும்",
+      "gloss": "as the embodiment, personification"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Old Bachelor\"?"
+      "tier": "remembering",
+      "prompt": "முதிய மருந்தாளர் தனது கடையில் என்னென்ன பொருட்களை விற்று வந்தார்?",
+      "type": "remembering",
+      "question": "முதிய மருந்தாளர் தனது கடையில் என்னென்ன பொருட்களை விற்று வந்தார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "முதியவர் தன் வீட்டில் அடுப்பைக் கூட எரிக்காமல் நடுங்கியதன் உன்னத காரணத்தை விளக்குக.",
+      "type": "understanding",
+      "question": "முதியவர் தன் வீட்டில் அடுப்பைக் கூட எரிக்காமல் நடுங்கியதன் உன்னத காரணத்தை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது சமூகத்தில் பிறர் அறியாமல் ரகசியமாக நற்செயல்களையும் உதவிகளையும் செய்யும் மனப்பான்மையை நாம் எவ்வாறு வளர்க்கலாம்?",
+      "type": "applying",
+      "question": "நமது சமூகத்தில் பிறர் அறியாமல் ரகசியமாக நற்செயல்களையும் உதவிகளையும் செய்யும் மனப்பான்மையை நாம் எவ்வாறு வளர்க்கலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "ஊர் மக்களின் மேலோட்டமான அவதூறுப் பேச்சுக்கும், முதியவரின் ஆழ்ந்த தியாக வாழ்விற்கும் உள்ள முரண்பாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "ஊர் மக்களின் மேலோட்டமான அவதூறுப் பேச்சுக்கும், முதியவரின் ஆழ்ந்த தியாக வாழ்விற்கும் உள்ள முரண்பாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'விளம்பரமற்ற மௌன தியாகமே கடவுளின் பார்வையில் மிகப்பெரிய புண்ணியம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'விளம்பரமற்ற மௌன தியாகமே கடவுளின் பார்வையில் மிகப்பெரிய புண்ணியம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "முதியவரின் உண்மை வரலாற்றை அறிந்த ஊர் மக்கள் அவரது நினைவிடத்தில் கூடி கண்ணீருடன் ஆற்றிய உரையை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "முதியவரின் உண்மை வரலாற்றை அறிந்த ஊர் மக்கள் அவரது நினைவிடத்தில் கூடி கண்ணீருடன் ஆற்றிய உரையை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

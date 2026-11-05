@@ -2,12 +2,12 @@
   "id": "paramartha-guru-92-paramartha-guru-tale-92",
   "slug": "paramartha-guru-92-paramartha-guru-tale-92",
   "language": "ta",
-  "title": "Paramartha Guru Tale 92",
+  "title": "சரஸ்வதி தேங்காயும் கிழிந்த குடலும்",
   "genre": "Humorous Tales",
   "collection": "Paramartha Guru",
   "culture_region": "Tamil Nadu, India",
   "age_group": "Below 13",
-  "summary": "A wandering trickster sold Mudan a small, dried coconut for two silver coins, whispering: 'This is the Saraswati-Phala! Inscribe the alph...",
+  "summary": "வேத ஞானம் தரும் மந்திரத் தேங்காய் என ஏமாற்றியவனிடம் காய்ந்த தேங்காயை வாங்கி, அதன் கடின ஓட்டைப் பொடியாக்கிப் பாலில் குடித்துக் குடல் கிழிந்து துடித்த சீடன் மூடனின் கதை.",
   "keywords": [
     "paramartha guru",
     "paramartha guru tale 92",
@@ -22,8 +22,8 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "A wandering trickster sold Mudan a small, dried coconut for two silver coins, whispering: 'This is the Saraswati-Phala! Inscribe the alphabet upon the shell, grind it to powder, and drink it with milk; all the wisdom of the Vedas will instantly enter your brain!'\n\nMudan bought the coconut, ground the rock-hard shell into coarse, jagged brown gravel, and stirred it into a glass of hot milk.\n\nHe swallowed the mixture in three gulps!\n\nWithin an hour, the sharp, jagged coconut shell fragments began tearing through his stomach and intestines!\n\nMudan rolled on the floor, groaning in agony: 'MY STOMACH! THE VEDAS ARE BATTERING MY RIBS!'\n\nThe village physician administered purgatives and herbal oils, saving the fool's life.\n\nWhen Mudan recovered, the Guru questioned him: 'Mudan, did the sacred knowledge manifest in your understanding?'\n\nMudan groaned: 'Master, I learned only one great truth: coconut shells belong on trees, not in bellies!'\n\nThe Guru nodded: 'A profound realization; knowledge has indeed commenced.'",
-  "moral": "Swallowing coconut shells will not plant wisdom in an empty head.",
+  "full_text": "ஊருக்கு வந்த ஏமாற்றுக்காரன் ஒருவன், ஒரு சிறிய காய்ந்த தேங்காயை இரண்டு வெள்ளிக் காசுகளுக்கு மூடனிடம் விற்றான்: \"இது தேவலோகத்து சரஸ்வதி காய்! இதன் ஓட்டின் மீது அரிச்சுவடி எழுத்துக்களை எழுதி, பொடியாக்கிப் பாலில் கலந்து குடித்தால், நான்கு வேதங்களின் அத்தனை ஞானமும் ஒரே நொடியில் உன் மூளைக்குள் புகுந்துவிடும்!\"\n\nமூடன் அந்தத் தேங்காயை வாங்கி, அதன் பாறை போன்ற கடினமான சிரட்டையை உரலில் போட்டு இடித்துக் கூரிய செங்கற்கள் போன்ற துகள்களாக அரைத்தான்!\n\nஅந்தக் கூரிய சிரட்டைத் துகள்களை ஒரு குவளை சூடான பாலில் கலந்து கலக்கினான்.\n\nஒரே மூச்சில் மூன்று மடக்குகளில் அந்தக் குவளைப் பாலை விழுங்கினான்!\n\nஅடுத்த ஒரு மணி நேரத்தில், கூரிய தேங்காய் சிரட்டைத் துகள்கள் அவனது வயிறு மற்றும் குடல் சுவர்களைக் கிழித்து அறுக்கத் தொடங்கின!\n\nமூடன் தரையில் விழுந்து கதறினான்: \"ஐயோ என் வயிறு எரிகிறது! நான்கு வேதங்களும் என் விலா எலும்புகளை உடைக்கின்றனவே!\"\n\nஅவசரமாக நாட்டு மருத்துவர் வந்து பேதி மருந்துகளையும் நெய்யையும் கொடுத்து அவனது வயிற்றைச் சுத்தம் செய்து அவனது உயிரைக் காப்பாற்றினார்.\n\nமூடன் குணமடைந்ததும் பரமார்த்த குரு கேட்டார்: \"மூடா! அந்தப் புனித ஞானம் உன் மனதில் உதித்ததா?\"\n\nமூடன் முனகினான்: \"குருவே! ஒரே ஒரு மாபெரும் உண்மையை நான் கற்றுக்கொண்டேன்: தேங்காய் ஓடுகள் மரத்தில் இருக்க வேண்டியவை; மனிதர்களின் வயிற்றுக்குள் போக வேண்டியவை அல்ல!\"\n\nகுரு தலையசைத்தார்: \"உன்னதமான உணர்தல்; உன் ஞானப் பயணம் தொடங்கிவிட்டது!\"",
+  "moral": "அறிவும் கல்வியும் தொடர் உழைப்பாலும் பயிற்சியாலுமே கிடைக்கும்; தேங்காய் ஓடுகளை விழுங்குவதால் ஞானம் வராது, குடல் புண்ணே மிஞ்சும்.",
   "image": "/images/stories/tenali-rama.webp",
   "image_alt": "Paramartha Guru Tale 92 illustration from the Paramartha Guru collection.",
   "word_count": 160,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"Paramartha Guru Tale 92\"?",
+      "question": "ஏமாற்றுக்காரன் விற்ற சரஸ்வதி தேங்காயை என்ன செய்யச் சொன்னான்?",
       "options": [
-        "Foolishness of book knowledge without worldly wisdom",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "கடவுளுக்கு உடைக்கச் சொன்னான்",
+        "ஓட்டில் எழுத்துக்களை எழுதிப் பொடியாக்கிப் பாலில் குடித்தால் வேத ஞானம் வரும் என்றான்",
+        "மரத்தில் கட்டச் சொன்னான்",
+        "பூஜை செய்யச் சொன்னான்"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "answer": "ஓட்டில் எழுத்துக்களை எழுதிப் பொடியாக்கிப் பாலில் குடித்தால் வேத ஞானம் வரும் என்றான்",
+      "explanation": "தேங்காய் சிரட்டையைப் பொடியாக்கிப் பாலில் குடித்தால் வேத ஞானம் கிடைக்கும் என்று ஏமாற்றினான்.",
+      "answerIndex": 1,
+      "hint": "தேங்காய் சிரட்டையைப் பொடியாக்கிப் பாலில் குடித்தால் வேத ஞானம் கிடைக்கும் என்று ஏமாற்றினான்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "கடினமான தேங்காய் ஓட்டுத் துகள்களைக் குடித்த மூடனுக்கு என்ன நேர்ந்தது?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "வேதங்களை ஒப்புவித்தான்",
+        "கூரிய ஓடுகள் குடலைக் கிழித்துக் கடுமையான வயிற்று வலி ஏற்பட்டு மருத்துவரால் காப்பாற்றப்பட்டான்",
+        "பறந்தான்",
+        "தூங்கிவிட்டான்"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "answer": "கூரிய ஓடுகள் குடலைக் கிழித்துக் கடுமையான வயிற்று வலி ஏற்பட்டு மருத்துவரால் காப்பாற்றப்பட்டான்",
+      "explanation": "கூரிய சிரட்டைத் துகள்கள் குடலைக் கிழித்ததால் மரண வேதனையோடு மருத்துவரிடம் சிகிச்சை பெற்றான்.",
+      "answerIndex": 1,
+      "hint": "கூரிய சிரட்டைத் துகள்கள் குடலைக் கிழித்ததால் மரண வேதனையோடு மருத்துவரிடம் சிகிச்சை பெற்றான்."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "மூடன் இறுதியாகக் கற்றுக்கொண்ட உண்மை என்ன?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "தேங்காய் இனிப்பானது என்றான்",
+        "தேங்காய் ஓடுகள் மரத்தில் இருக்க வேண்டியவை, மனித வயிற்றுக்குள் போக வேண்டியவை அல்ல என்றான்",
+        "மீண்டும் குடிப்பேன் என்றான்",
+        "வேதம் பொய் என்றான்"
       ],
-      "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "answer": "தேங்காய் ஓடுகள் மரத்தில் இருக்க வேண்டியவை, மனித வயிற்றுக்குள் போக வேண்டியவை அல்ல என்றான்",
+      "explanation": "தேங்காய் ஓடு வயிற்றுக்குள் போகக் கூடாது என்ற எளிய உண்மையை வலியால் உணர்ந்தான்.",
+      "answerIndex": 1,
+      "hint": "தேங்காய் ஓடு வயிற்றுக்குள் போகக் கூடாது என்ற எளிய உண்மையை வலியால் உணர்ந்தான்."
     }
   ],
   "author": "Veeramamunivar (Costanzo Beschi, 1728 / Tamil Folk Humor)",
@@ -76,38 +82,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "சிரட்டையை",
+      "meaning": "தேங்காயின் கடினமான வெளிப்புற ஓட்டினை",
+      "gloss": "coconut shell"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "துகள்களாக",
+      "meaning": "சிறிய கரடுமுரடான கல் போன்ற துகள்களாக",
+      "gloss": "into particles"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "விலா",
+      "meaning": "மார்பின் பக்கவாட்டு விலா எலும்புகள்",
+      "gloss": "ribs"
+    },
+    {
+      "word": "உணர்தல்",
+      "meaning": "அனுபவத்தால் உண்மையை அறிந்துகொள்ளுதல்",
+      "gloss": "realization"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"Paramartha Guru Tale 92\"?"
+      "tier": "Remembering",
+      "type": "நினைவுகூருதல் (Remembering)",
+      "prompt": "சரஸ்வதி தேங்காயை மூடன் எத்தனை வெள்ளிக் காசுகள் கொடுத்து வாங்கினான்?",
+      "question": "சரஸ்வதி தேங்காயை மூடன் எத்தனை வெள்ளிக் காசுகள் கொடுத்து வாங்கினான்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Foolishness of book knowledge without worldly wisdom\"?"
+      "tier": "Understanding",
+      "type": "புரிந்துகொள்ளுதல் (Understanding)",
+      "prompt": "கல்வியும் ஞானமும் தொடர் கற்றலால் மட்டுமே கிடைக்கும் என்ற உண்மையை அறியாமல் குறுக்குவழியை நாடிய மூடனின் அறியாமையை விளக்குக.",
+      "question": "கல்வியும் ஞானமும் தொடர் கற்றலால் மட்டுமே கிடைக்கும் என்ற உண்மையை அறியாமல் குறுக்குவழியை நாடிய மூடனின் அறியாமையை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "Applying",
+      "type": "பயன்படுத்துதல் (Applying)",
+      "prompt": "பரீட்சைகளில் வெற்றி பெற நினைத்து மந்திர தாயத்துகளையும் போலி மருந்துகளையும் நம்பும் மாணவர்களுக்கு இக்கதை எத்தகைய எச்சரிக்கையைத் தருகிறது?",
+      "question": "பரீட்சைகளில் வெற்றி பெற நினைத்து மந்திர தாயத்துகளையும் போலி மருந்துகளையும் நம்பும் மாணவர்களுக்கு இக்கதை எத்தகைய எச்சரிக்கையைத் தருகிறது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "tier": "Analyzing",
+      "type": "பகுப்பாய்தல் (Analyzing)",
+      "prompt": "கடுமையான தேங்காய் சிரட்டை செரிமான மண்டலத்தை எவ்வாறு சிதைக்கும் என்ற உயிரியல் உண்மைகளைப் பகுத்தாராய்க.",
+      "question": "கடுமையான தேங்காய் சிரட்டை செரிமான மண்டலத்தை எவ்வாறு சிதைக்கும் என்ற உயிரியல் உண்மைகளைப் பகுத்தாராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "Evaluating",
+      "type": "மதிப்பிடுதல் (Evaluating)",
+      "prompt": "அடிபட்ட பின் மூடன் உணர்ந்த ஞானத்தை 'உன்னதமான உணர்தல்' என்று பாராட்டிய குருவின் அணுகுமுறையை மதிப்பிடுக.",
+      "question": "அடிபட்ட பின் மூடன் உணர்ந்த ஞானத்தை 'உன்னதமான உணர்தல்' என்று பாராட்டிய குருவின் அணுகுமுறையை மதிப்பிடுக."
+    },
+    {
+      "tier": "Creating",
+      "type": "படைத்தல் (Creating)",
+      "prompt": "முறையான வாசிப்பு மற்றும் பயிற்சி மூலமாக அறிவை வளர்ப்பதற்கான வழிகாட்டுக் குறிப்பை உருவாக்குக.",
+      "question": "முறையான வாசிப்பு மற்றும் பயிற்சி மூலமாக அறிவை வளர்ப்பதற்கான வழிகாட்டுக் குறிப்பை உருவாக்குக."
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

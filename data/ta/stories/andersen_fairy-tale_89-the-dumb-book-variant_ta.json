@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-89-the-dumb-book-variant",
   "slug": "hans-christian-andersen-89-the-dumb-book-variant",
   "language": "ta",
-  "title": "The Dumb Book (The Botanist's Garden)",
+  "title": "ஊமைப் புத்தகமும் தாவரவியலாளரின் அறுபதாண்டு உழைப்பும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Between the yellowed pages of the old botanical herbarium rested dried alpine gentians, sea-grasses, and clover blossoms gathered over six decades of study....",
+  "summary": "பழைய தாவரவியல் ஹெர்பேரியத்தின் மஞ்சள் பக்கங்களுக்கு நடுவே வைக்கப்பட்டிருந்த ஆல்பைன் மலர்களும் கடல் பாசிகளும், அறுபதாண்டுகளாக இயற்கை ஆய்வில் அர்ப்பணித்த முதிய அறிஞரின் வாழ்வையும் தூய அன்பையும் மௌனமாகப் பறைசாற்றிய கதை.",
   "keywords": [
     "hans christian andersen",
     "the dumb book variant",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived Between the yellowed pages of the old botanical herbarium rested dried alpine gentians, sea-grasses, and clover blossoms gathered over six decades of study..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that every pressed leaf preserves a heartbeat of human love and dedication.",
-  "moral": "Every pressed leaf preserves a heartbeat of human love and dedication.",
+  "full_text": "பழைய நூலகத்தின் மூலையில் வைக்கப்பட்டிருந்த கனத்த ஹெர்பேரியப் புத்தகத்தின் மஞ்சள் பக்கங்கள் மெதுவாகத் திறக்கப்பட்டன.\n    \nஅப்புத்தகத்தில் வார்த்தைகள் இல்லை; மாறாக, அறுபது ஆண்டுகளுக்கும் மேலாக ஒரு தாவரவியல் அறிஞரால் சேகரிக்கப்பட்ட நூற்றுக்கணக்கான அரிய தாவரங்களும் மலர்களும் உலர்த்தி வைக்கப்பட்டிருந்தன.\n    \nஆல்ப்ஸ் மலைகளின் உறைபனிப் பாறைகளில் பூத்த நீல மலர்கள், கடலின் ஆழமான அலைகளில் மிதந்து வந்த கடல் பாசிகள், அடர்ந்த காடுகளில் பூத்த நறுமண மல்லிகைகள் ஆகியவை அங்கே அடக்கமாகத் துயின்றன.\n    \nஒவ்வொரு உலர்ந்த மலரிலும் அந்த அறிஞரின் இதயத் துடிப்பு பதிந்திருந்தது.\n    \nஅந்த முதல் ஆல்பைன் மலர், அவர் தன் வாழ்நாளின் ஒரே காதலியை மலையடிவாரத்தில் முதன்முதலில் சந்தித்து மகிழ்ந்த நாளில் பறிக்கப்பட்டது.\n    \nஅந்தச் சின்னஞ்சிறு முக்காலி இலை (Clover), அவர் காதலி நோய்வாய்ப்பட்டு இயற்கை எய்திய துயர நாளில் அவள் நினைவாகக் கண்ணீருடன் வைக்கப்பட்ட இலை.\n    \nமக்கள் அப்புத்தகத்தைப் பார்த்து, \"இது பேசாத ஊமைப் புத்தகம்!\" என்றனர். ஆனால் அந்த அறிஞரின் கண்களுக்கோ அது ஓர் அழியாத நினைவுகளின் சொர்க்கமாக விளங்கியது.\n    \nஅறிஞர் மறைந்த பின்னரும், அந்த உலர்ந்த மலர்கள் மனித வாழ்வின் நேசத்தையும், இயற்கையின் அதிசயங்களையும் எக்காலத்திற்கும் மௌனமாக உணர்த்திக் கொண்டே இருந்தன.",
+  "moral": "இயற்கையின் அழகைப் போற்றிப் பாதுகாக்கப்படும் ஒவ்வொரு உலர்ந்த இலையும், ஒரு மனிதனின் தூய வாழ்நாள் அர்ப்பணிப்பையும் மௌன காதலையும் நிலைநிறுத்தும் பொக்கிஷமாகும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Dumb Book variant illustration from the Hans Christian Andersen collection.",
   "word_count": 216,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Dumb Book variant\"?",
+      "question": "தாவரவியல் அறிஞரின் ஹெர்பேரியப் புத்தகத்தில் எத்தனை ஆண்டுகால உழைப்பு பொதிந்திருந்தது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "அறுபது ஆண்டுகளுக்கும் மேலான வாழ்நாள் உழைப்பு",
+        "ஐந்து ஆண்டுகள்",
+        "ஒரு மாதம்",
+        "நூறு நாட்கள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "அறுபது ஆண்டுகளுக்கும் மேலான வாழ்நாள் உழைப்பு",
+      "hint": "அறிஞரின் ஆறு தசாப்த காலத் தேடலை நினையுங்கள்.",
+      "explanation": "அந்த அறிஞர் தன் அறுபதாண்டு கால வாழ்க்கையை அரிய தாவரங்களைச் சேகரிக்க அர்ப்பணித்தார்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "புத்தகத்தில் இருந்த ஆல்பைன் மலர் அறிஞருக்கு எதனை நினைவூட்டியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "தன் காதலியை முதன்முதலில் சந்தித்துப் பேசிய இனிய நாளை",
+        "அரசனின் போரை",
+        "கப்பல் பயணத்தை",
+        "தேர்வில் வென்றதை"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "தன் காதலியை முதன்முதலில் சந்தித்துப் பேசிய இனிய நாளை",
+      "hint": "அவரது இளமைக்காலக் காதல் நினைவை நினையுங்கள்.",
+      "explanation": "அறிஞர் தன் வாழ்வின் ஒரே காதலியைச் சந்தித்த போது அந்த மலரைப் பறித்துப் பாதுகாத்தார்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை போதிக்கும் தத்துவார்த்த மெய்ம்மை யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "அன்போடும் அர்ப்பணிப்போடும் பேணப்படும் எளிய மலர்களும் மனித ஆன்மாவின் புனித நினைவுகளைக் காக்கும்",
+        "செடிகளைப் புத்தகங்களில் வைக்கக் கூடாது",
+        "பழைய நூல்களை எரிக்க வேண்டும்",
+        "ஆல்ப்ஸ் மலைக்குச் செல்லக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "அன்போடும் அர்ப்பணிப்போடும் பேணப்படும் எளிய மலர்களும் மனித ஆன்மாவின் புனித நினைவுகளைக் காக்கும்",
+      "hint": "மௌன நினைவுகளின் புனிதம் பற்றி நினையுங்கள்.",
+      "explanation": "எழுத்துக்கள் இல்லாத ஊமைப் புத்தகமும் மனித இதயத்தின் உன்னத அன்பைப் பேசி நிற்கும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "தாவரவியல்",
+      "meaning": "தாவரங்களின் இயல்புகளையும் வகைகளையும் பற்றி ஆராயும் இயற்கை அறிவியல் துறை",
+      "gloss": "botanical, botany"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "உறைபனிப்",
+      "meaning": "கடும் குளிரினால் உறைந்து பாறைகளாக மாறிய பனிக்கட்டிகள் சார்ந்த",
+      "gloss": "frozen ice, glacial"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "முக்காலி",
+      "meaning": "மூன்று மெல்லிய இதழ்களைக் கொண்ட அதிர்ஷ்டத்தின் அடையாளமாகக் கருதப்படும் புல் இலை",
+      "gloss": "clover leaf"
+    },
+    {
+      "word": "அதிசயங்களையும்",
+      "meaning": "இயற்கையில் நிகழும் வியக்கத்தக்க விசித்திரங்களையும் அற்புதங்களையும்",
+      "gloss": "wonders, marvels"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Dumb Book variant\"?"
+      "tier": "remembering",
+      "prompt": "அறிஞரின் புத்தகத்தில் உலர்த்தி வைக்கப்பட்டிருந்த இரு தாவர வகைகள் எவை?",
+      "type": "remembering",
+      "question": "அறிஞரின் புத்தகத்தில் உலர்த்தி வைக்கப்பட்டிருந்த இரு தாவர வகைகள் எவை?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "ஊமைப் புத்தகம் மனித வார்த்தைகளை விட ஆழமான உணர்வுகளை எவ்வாறு வெளிப்படுத்தியது என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "ஊமைப் புத்தகம் மனித வார்த்தைகளை விட ஆழமான உணர்வுகளை எவ்வாறு வெளிப்படுத்தியது என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது அன்றாட வேகமான வாழ்வில் இயற்கையோடு இயைந்து வாழும் பழக்கத்தை நாம் எவ்வாறு வளர்த்துக் கொள்ளலாம்?",
+      "type": "applying",
+      "question": "நமது அன்றாட வேகமான வாழ்வில் இயற்கையோடு இயைந்து வாழும் பழக்கத்தை நாம் எவ்வாறு வளர்த்துக் கொள்ளலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "தாவரவியல் ஆய்வின் அறிவியல் நோக்கத்திற்கும், அறிஞரின் தனிப்பட்ட காதல் நினைவுகளுக்கும் உள்ள இணைப்பை ஆராய்க.",
+      "type": "analyzing",
+      "question": "தாவரவியல் ஆய்வின் அறிவியல் நோக்கத்திற்கும், அறிஞரின் தனிப்பட்ட காதல் நினைவுகளுக்கும் உள்ள இணைப்பை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'வாழ்வின் மிகப்பெரிய செல்வம் நாம் சேகரிக்கும் பொருள்களில் அல்ல, நாம் நேசித்த நினைவுகளிலேயே உள்ளது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'வாழ்வின் மிகப்பெரிய செல்வம் நாம் சேகரிக்கும் பொருள்களில் அல்ல, நாம் நேசித்த நினைவுகளிலேயே உள்ளது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "அந்த நூலகத்தின் இளம் வாசகர் ஒருவர் அந்தப் புத்தகத்தைத் திறந்து பார்த்து எழுதிய கவிதை வரிகளை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "அந்த நூலகத்தின் இளம் வாசகர் ஒருவர் அந்தப் புத்தகத்தைத் திறந்து பார்த்து எழுதிய கவிதை வரிகளை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

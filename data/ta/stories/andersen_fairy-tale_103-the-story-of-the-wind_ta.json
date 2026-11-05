@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-103-the-story-of-the-wind",
   "slug": "hans-christian-andersen-103-the-story-of-the-wind",
   "language": "ta",
-  "title": "The Story of the Wind (Valdemar Daa and His Daughters)",
+  "title": "காற்றின் கதை – வால்டெமர் டாவும் தங்கப் பேராசையால் சிதைந்த மாளிகையும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "\"Whew! Hu-u-ush! Let me tell you a story!\" howled the Wind as he blew across the ruins of Borreby Castle....",
+  "summary": "பொன் செய்ய முயலும் ரசவாதப் பேராசையில் தன் சொத்துக்களையும், கோட்டையையும், மூன்று மகள்களின் எதிர்காலத்தையும் தொலைத்துவிட்டு முடிவில் பரம ஏழையாகப் புயல் காற்றில் அலைந்து திரிந்த வால்டெமர் டாவின் சோக வரலாறு.",
   "keywords": [
     "hans christian andersen",
     "the story of the wind",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Beneath the cozy eaves of an antique home where climbing honeysuckle framed the dormer windows, there was \"Whew! Hu-u-ush! Let me tell you a story!\" howled the Wind as he blew across the ruins of Borreby Castle..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that squandering life and love on the pursuit of gold leaves an empty house in the storm.",
-  "moral": "Squandering life and love on the pursuit of gold leaves an empty house in the storm.",
+  "full_text": "\"ஊ... ஊஹ்... சூறாவளியாக வீசும் என் கதையைக் கேளுங்கள்!\" என்று போர்ரெபி கோட்டையின் பாழடைந்த இடிபாடுகளின் வழியே காற்று ஊளையிட்டது.\n    \nஅங்கே வாழ்ந்த வால்டெமர் டா என்ற பிரபுவிற்கு அபரிமிதமான செல்வமும், கம்பீரமான ஒரு கோட்டையும், பேரழகு வாய்ந்த மூன்று அன்பு மகள்களும் இருந்தனர்.\n    \nஆனால் வால்டெமரின் மனதில் ஒரு கொடிய தங்கப் பித்து பிடித்தது! சாதாரண உலோகங்களைத் தங்கமாக மாற்றும் ரசவாத வித்தையில் அவன் தன் வாழ்நாளை வீணடிக்கத் தொடங்கினான்.\n    \nஅவன் உலைகளில் இரவும் பகலும் நெருப்பை மூட்டினான்; காடுகளை வெட்டி எரித்தான்; தன் பண்ணைகளையும் மாளிகையையும் அடகு வைத்தான்.\n    \nமகள்கள் கண்ணீர் வடித்துக் கெஞ்சினர்: \"தந்தையே! தங்கப் பேராசையை விடுங்கள்! நாம் நிம்மதியாக வாழ்வோம்!\" என்றனர். ஆனால் அவன் கேட்கவில்லை.\n    \nமுடிவில் ஒரு நாள் அவனது சோதனைக் குடுவை வெடித்துச் சிதறியது! தங்கம் பிறக்கவில்லை; மாறாக அவனது மாளிகை பறிபோனது; கடன்காரர்கள் அவனைத் தெருவில் தள்ளினர்.\n    \nஅவனது மகள்கள் வறுமையில் வாடினர்; வால்டெமர் டா கந்தல் ஆடை அணிந்து வீதிகளில் பிச்சை எடுக்கும் நிலைக்குத் தள்ளப்பட்டு, ஒரு புயல் வீசும் குளிர்கால இரவில் வீதியோரத்தில் மாண்டான்.\n    \n\"தங்கம் மனிதனை வாழ வைக்காது; பேராசை மனிதனைக் காற்று போலச் சுழற்றி அடித்து அழித்துவிடும்!\" என்று காற்று இன்றும் அந்த இடிபாடுகளில் பாடுகிறது.",
+  "moral": "தங்கத்தின் மீதான பேராசை மனிதனின் குடும்ப அன்பையும் நல்வாழ்வையும் பாழாக்கிவிடும்; பேராசை பிடித்த உள்ளம் புயல் காற்றில் வெறும் சாம்பலாகவே எஞ்சும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Story of the Wind illustration from the Hans Christian Andersen collection.",
   "word_count": 215,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Story of the Wind\"?",
+      "question": "வால்டெமர் டா தன் சொத்துக்களையும் மாளிகையையும் இழக்கக் காரணமான பைத்தியக்காரத்தனம் என்ன?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "உலோகங்களைத் தங்கமாக மாற்றும் ரசவாதப் பேராசையில் எல்லாவற்றையும் அழித்தது",
+        "அவன் போரில் ஈடுபட்டது",
+        "அவன் நிலங்களை ஏழைகளுக்குக் கொடுத்தது",
+        "அவன் கப்பல் கட்டியது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "உலோகங்களைத் தங்கமாக மாற்றும் ரசவாதப் பேராசையில் எல்லாவற்றையும் அழித்தது",
+      "hint": "தங்கத்தைச் செய்ய முயன்ற ரசவாதத்தை நினையுங்கள்.",
+      "explanation": "வால்டெமர் தங்கத்தைத் தயாரிக்கும் மாய ஆசையில் தன் சொத்துக்களையும் மகள்களின் வாழ்வையும் பலியாக்கினான்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "முடிவில் வால்டெமர் டாவின் நிலைமை என்னவாக மாறியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "மாளிகையை இழந்து பிச்சைக்காரனாகத் தெருவில் அலைந்து புயலில் மாண்டான்",
+        "அவன் பெரிய அரசனானான்",
+        "அவன் தங்கம் எடுத்தான்",
+        "அவன் வெளிநாடு சென்றான்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "மாளிகையை இழந்து பிச்சைக்காரனாகத் தெருவில் அலைந்து புயலில் மாண்டான்",
+      "hint": "அவன் அடைந்த பரிதாப வீழ்ச்சியை நினையுங்கள்.",
+      "explanation": "பேராசையால் அனைத்தையும் இழந்த அவன் கந்தல் துணியோடு தெருவில் பிச்சைக்காரனாக இறந்து போனான்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் எச்சரிக்கை நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "தங்கத்தின் மீதான வெறிபிடித்த பேராசை உள்ள அமைதியையும் குடும்ப நல்வாழ்வையும் அடியோடு அழித்துவிடும்",
+        "கோட்டைகளைக் கட்டக் கூடாது",
+        "நெருப்பை மூட்டவே கூடாது",
+        "காற்றோடு பேசக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "தங்கத்தின் மீதான வெறிபிடித்த பேராசை உள்ள அமைதியையும் குடும்ப நல்வாழ்வையும் அடியோடு அழித்துவிடும்",
+      "hint": "பேராசையின் விபரீத விளைவை நினையுங்கள்.",
+      "explanation": "பொருளாசை மனிதனை எவ்வாறு சீரழிக்கும் என்பதை ஆன்டர்சன் காற்றின் வழியாகப் பாடினார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "இடிபாடுகளின்",
+      "meaning": "சிதைந்து நொறுங்கி விழுந்த பழங்காலக் கட்டடங்களின் பாழ் எச்சங்களின்",
+      "gloss": "of the ruins, debris"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "ரசவாத",
+      "meaning": "இரும்பு முதலிய சாதாரண உலோகங்களை மந்திர ரசாயன முறைகளால் தங்கமாக மாற்ற முயலும் போலி வித்தை சார்ந்த",
+      "gloss": "alchemy, alchemical"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "குடுவை",
+      "meaning": "மருந்துகளையும் ரசாயனத் திரவங்களையும் காய்ச்சப் பயன்படும் கண்ணாடி அல்லது மண்பாத்திரம்",
+      "gloss": "crucible, flask, retort"
+    },
+    {
+      "word": "பேராசை",
+      "meaning": "இருப்பதில் திருப்தி கொள்ளாமல் மேலும் மேலும் விரும்பி அழியும் அளவுகடந்த ஆசை",
+      "gloss": "greed, avarice"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Story of the Wind\"?"
+      "tier": "remembering",
+      "prompt": "வால்டெமர் டாவின் பாழடைந்த கோட்டையின் பெயர் என்ன?",
+      "type": "remembering",
+      "question": "வால்டெமர் டாவின் பாழடைந்த கோட்டையின் பெயர் என்ன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "வால்டெமரின் மகள்கள் கெஞ்சியும் அவன் ரசவாதத்தைக் கைவிட மறுத்ததன் உளவியல் காரணத்தை விளக்குக.",
+      "type": "understanding",
+      "question": "வால்டெமரின் மகள்கள் கெஞ்சியும் அவன் ரசவாதத்தைக் கைவிட மறுத்ததன் உளவியல் காரணத்தை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "குறுகிய காலத்தில் பெரும் செல்வம் சேர்க்கும் குறுக்குவழிகளையும் பேராசையையும் தவிர்த்து நேர்மையான உழைப்பை நாம் எவ்வாறு நம்ப வேண்டும்?",
+      "type": "applying",
+      "question": "குறுகிய காலத்தில் பெரும் செல்வம் சேர்க்கும் குறுக்குவழிகளையும் பேராசையையும் தவிர்த்து நேர்மையான உழைப்பை நாம் எவ்வாறு நம்ப வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "கோட்டையின் ஆரம்பகாலப் பெருமைக்கும், காற்றின் சீற்றத்தால் அது இடிபாடுகளாக மாறியதற்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "கோட்டையின் ஆரம்பகாலப் பெருமைக்கும், காற்றின் சீற்றத்தால் அது இடிபாடுகளாக மாறியதற்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'தங்கத்தைத் தேடுபவன் தன் இதயத்தைத் தொலைத்து விடுகிறான்' என்ற பழமொழியை இக்கதையோடு இணைத்து எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'தங்கத்தைத் தேடுபவன் தன் இதயத்தைத் தொலைத்து விடுகிறான்' என்ற பழமொழியை இக்கதையோடு இணைத்து எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "கோட்டையின் இடிபாடுகளுக்கு நடுவே வீசிய காற்று பாடிய ஒரு சோக இரங்கல் கீதத்தை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "கோட்டையின் இடிபாடுகளுக்கு நடுவே வீசிய காற்று பாடிய ஒரு சோக இரங்கல் கீதத்தை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

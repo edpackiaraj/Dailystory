@@ -12,86 +12,115 @@ const t = getT(currentLang);
 const currentLangObj = getLanguageMeta(currentLang);
 ---
 
-<header class="sticky top-0 z-30 bg-[#FFF8EC]/95 dark:bg-[#1B1A2E]/95 backdrop-blur-md border-b border-[#EEDFC8] dark:border-[#383659] transition-colors duration-200">
+<header class="sticky top-0 z-30 bg-white/85 dark:bg-[#151426]/85 backdrop-blur-md border-b border-[#EEDFC8]/80 dark:border-[#383659]/80 transition-colors duration-200">
   <!-- Skip to Content Accessibility Link -->
   <a
     href="#main-content"
-    class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:px-4 focus:py-2.5 focus:bg-[#D97706] focus:text-white focus:rounded-xl focus:shadow-xl focus:outline-none"
+    class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:px-4 focus:py-2 focus:bg-[#D97706] focus:text-white focus:rounded-xl focus:shadow-xl focus:outline-none text-xs font-bold"
   >
     Skip to main content
   </a>
 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16 sm:h-20 gap-3">
+    <div class="flex items-center justify-between h-16 sm:h-18 gap-2 sm:gap-4">
       
-      <!-- Brand Logo & Wordmark -->
+      <!-- Left: Brand Logo & Wordmark -->
       <a
         href={`/${currentLang}/`}
-        class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-[#D97706] rounded-xl p-1 -ml-1 transition-all"
+        class="flex items-center gap-2.5 shrink-0 group focus:outline-none focus:ring-2 focus:ring-[#D97706] rounded-xl p-1 -ml-1 transition-all"
         aria-label={`${brandConfig.name} - Home`}
       >
-        <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-[#D97706] flex items-center justify-center shadow-md group-hover:scale-105 transition-transform overflow-hidden">
+        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-linear-to-br from-[#D97706] to-[#B45309] flex items-center justify-center shadow-xs group-hover:scale-105 transition-transform overflow-hidden">
           <img
             src="/favicon.svg"
             alt="Daily Tale Story Owl Mascot"
-            width="36"
-            height="36"
-            class="w-7 h-7 sm:w-8 sm:h-8 object-contain"
+            width="32"
+            height="32"
+            class="w-6 h-6 sm:w-7 sm:h-7 object-contain"
           />
         </div>
         <div class="flex flex-col">
-          <span class="text-xl sm:text-2xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-none group-hover:text-[#D97706] transition-colors">
+          <span class="text-lg sm:text-xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-none group-hover:text-[#D97706] transition-colors">
             {brandConfig.name}
           </span>
-          <span class="text-[11px] sm:text-xs font-medium text-[#6B5644] dark:text-[#C8BFAF] tracking-tight mt-0.5 leading-none">
+          <span class="text-[10px] sm:text-[11px] font-medium text-[#8C7A6B] dark:text-[#A89F91] tracking-tight mt-0.5 leading-none">
             {brandConfig.tagline}
           </span>
         </div>
       </a>
 
-      <!-- Desktop Navigation Links (PC: 1024px+) -->
-      <nav class="hidden lg:flex items-center gap-6 text-sm font-semibold text-[#3B2A1A] dark:text-[#F3EBDD]" aria-label="Main Navigation">
-        <a href={`/${currentLang}/`} class="hover:text-[#D97706] transition-colors">
-          {t.home}
+      <!-- Center-Aligned Desktop Navigation Links (English Only, No translation) -->
+      <nav class="hidden lg:flex items-center justify-center flex-1 mx-2 gap-1 xl:gap-2 text-sm font-semibold text-[#4A3B2C] dark:text-[#E2D9CC]" aria-label="Main Navigation">
+        <a
+          href={`/${currentLang}/`}
+          class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all"
+        >
+          Today's Story
         </a>
-        <a href={`/${currentLang}/collections/`} class="hover:text-[#D97706] transition-colors">
-          {t.collections}
+        <a
+          href={`/${currentLang}/collections/`}
+          class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all"
+        >
+          Stories
         </a>
-        <a href={`/${currentLang}/search/`} class="hover:text-[#D97706] transition-colors flex items-center gap-1.5">
-          <span>{t.search}</span>
-          <kbd class="hidden xl:inline text-[10px] px-1.5 py-0.5 bg-[#EEDFC8]/60 dark:bg-[#2E2D4D] rounded font-mono border border-[#EEDFC8] dark:border-[#383659]">
-            /
-          </kbd>
+        <a
+          href={`/${currentLang}/classroom/`}
+          class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1.5"
+        >
+          <span>🎓</span>
+          <span>My Classroom</span>
         </a>
-        <a href={`/${currentLang}/favourites/`} class="hover:text-[#D97706] transition-colors flex items-center gap-1">
-          <span>⭐</span> {t.favourites}
+        <a
+          href={`/${currentLang}/favourites/`}
+          class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1"
+        >
+          <span>⭐</span>
+          <span>Favorites</span>
         </a>
-        <a href={`/${currentLang}/about/`} class="hover:text-[#D97706] transition-colors">
-          {t.about}
+        <a
+          href={`/${currentLang}/about/`}
+          class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all"
+        >
+          About
         </a>
       </nav>
 
-      <!-- Right Utility Bar -->
-      <div class="flex items-center gap-2 sm:gap-2.5">
+      <!-- Right Utility Bar (Novatool-inspired compact controls) -->
+      <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
         
-        <!-- Search Button (Mobile & Tablet) -->
-        <a
-          href={`/${currentLang}/search/`}
-          aria-label="Search stories"
-          class="lg:hidden p-2.5 rounded-full text-[#6B5644] dark:text-[#C8BFAF] hover:bg-[#EEDFC8] dark:hover:bg-[#2E2D4D] transition-colors flex items-center justify-center min-w-[44px] min-h-[44px]"
+        <!-- Dual Mode Switcher (General Mode ⇄ School Mode) -->
+        <button
+          type="button"
+          id="mode-toggle-btn"
+          title="Switch between General Mode & School/Classroom Mode"
+          aria-label="Toggle Learning Mode"
+          class="px-2.5 sm:px-3 py-1.5 rounded-full border border-[#EEDFC8] dark:border-[#383659] bg-[#FFF8EC] dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1.5 text-xs font-bold shadow-2xs min-h-[38px]"
         >
-          <span class="text-lg">🔍</span>
-        </a>
+          <span id="mode-icon" class="text-sm">👁️</span>
+          <span id="mode-text" class="hidden sm:inline font-semibold">General</span>
+        </button>
 
-        <!-- Reading Aa Settings Trigger -->
+        <!-- Compact Night/Day Toggle Button (Reduced text size) -->
+        <button
+          type="button"
+          id="theme-quick-toggle"
+          title="Toggle Night & Day Theme"
+          aria-label="Toggle Night/Day Theme"
+          class="px-2.5 py-1.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] bg-[#FFF8EC] dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1 text-[11px] sm:text-xs font-semibold shadow-2xs min-h-[38px]"
+        >
+          <span id="theme-icon" class="text-xs">🌙</span>
+          <span id="theme-text" class="text-[11px]">Night</span>
+        </button>
+
+        <!-- Aa Reader Settings Trigger -->
         <button
           type="button"
           data-open-aa-panel
           title="Reader Settings (Font size, style, theme)"
           aria-label="Open Reader Settings"
-          class="p-2 sm:px-3 sm:py-2 rounded-2xl border border-[#EEDFC8] dark:border-[#383659] bg-white dark:bg-[#25243E] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1.5 text-xs sm:text-sm font-bold min-h-[44px]"
+          class="px-2.5 py-1.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] bg-white dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1 text-xs font-bold min-h-[38px]"
         >
-          <span class="text-sm font-serif font-black">Aa</span>
+          <span class="text-xs font-serif font-black">Aa</span>
         </button>
 
         <!-- Searchable Language Switcher Pill -->
@@ -100,11 +129,11 @@ const currentLangObj = getLanguageMeta(currentLang);
           data-open-lang-modal
           title="Change language"
           aria-label="Change Language"
-          class="px-3 py-2 rounded-2xl border border-[#D97706]/40 bg-[#D97706]/10 text-[#D97706] dark:text-[#F59E0B] hover:bg-[#D97706]/20 transition-all flex items-center gap-1.5 text-xs sm:text-sm font-bold min-h-[44px]"
+          class="px-2.5 sm:px-3 py-1.5 rounded-xl border border-[#D97706]/40 bg-[#D97706]/10 text-[#D97706] dark:text-[#F59E0B] hover:bg-[#D97706]/20 transition-all flex items-center gap-1.5 text-xs font-bold min-h-[38px]"
         >
-          <span class="text-sm">🌐</span>
-          <span class="font-bold">{currentLangObj.native}</span>
-          <span class="text-[10px] opacity-70">▼</span>
+          <span class="text-xs">🌐</span>
+          <span class="font-bold text-xs">{currentLangObj.native}</span>
+          <span class="text-[9px] opacity-70">▼</span>
         </button>
 
       </div>
@@ -114,18 +143,87 @@ const currentLangObj = getLanguageMeta(currentLang);
 </header>
 
 <script is:inline>
-  // Global Keyboard Shortcuts (PC):
-  // "/" focuses the search bar
-  document.addEventListener('keydown', (e) => {
-    if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName)) {
-      e.preventDefault();
-      const searchBox = document.querySelector('input[type="search"]');
-      if (searchBox) {
-        searchBox.focus();
-      } else {
-        const lang = document.documentElement.lang || 'en';
-        window.location.href = `/${lang}/search/`;
+  (function initHeaderControls() {
+    // 1. Dual Mode Controller (General Mode vs School Mode)
+    const modeBtn = document.getElementById('mode-toggle-btn');
+    const modeIcon = document.getElementById('mode-icon');
+    const modeText = document.getElementById('mode-text');
+
+    function syncModeUI(mode) {
+      document.documentElement.setAttribute('data-mode', mode);
+      localStorage.setItem('dailytale_user_mode', mode);
+      
+      if (modeBtn && modeIcon && modeText) {
+        if (mode === 'school') {
+          modeIcon.textContent = '🎓';
+          modeText.textContent = 'School';
+          modeBtn.classList.add('border-[#0F766E]', 'bg-[#0F766E]/10', 'text-[#0F766E]', 'dark:text-[#2DD4BF]');
+          modeBtn.classList.remove('border-[#EEDFC8]', 'bg-[#FFF8EC]');
+        } else {
+          modeIcon.textContent = '👁️';
+          modeText.textContent = 'General';
+          modeBtn.classList.remove('border-[#0F766E]', 'bg-[#0F766E]/10', 'text-[#0F766E]', 'dark:text-[#2DD4BF]');
+          modeBtn.classList.add('border-[#EEDFC8]', 'bg-[#FFF8EC]');
+        }
+      }
+
+      // Dispatch event so any story page or classroom component updates immediately
+      window.dispatchEvent(new CustomEvent('dailytale_mode_changed', { detail: { mode } }));
+    }
+
+    const currentMode = localStorage.getItem('dailytale_user_mode') || 'general';
+    syncModeUI(currentMode);
+
+    if (modeBtn) {
+      modeBtn.addEventListener('click', () => {
+        const active = document.documentElement.getAttribute('data-mode') || 'general';
+        const nextMode = active === 'general' ? 'school' : 'general';
+        syncModeUI(nextMode);
+      });
+    }
+
+    // 2. Compact Night / Day Theme Controller
+    const themeBtn = document.getElementById('theme-quick-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    const themeText = document.getElementById('theme-text');
+
+    function syncThemeUI() {
+      const isDark = document.documentElement.classList.contains('dark');
+      if (themeIcon && themeText) {
+        if (isDark) {
+          themeIcon.textContent = '☀️';
+          themeText.textContent = 'Day';
+        } else {
+          themeIcon.textContent = '🌙';
+          themeText.textContent = 'Night';
+        }
       }
     }
-  });
+
+    syncThemeUI();
+
+    if (themeBtn) {
+      themeBtn.addEventListener('click', () => {
+        const willBeDark = !document.documentElement.classList.contains('dark');
+        if (willBeDark) {
+          document.documentElement.classList.add('dark');
+          document.documentElement.classList.remove('theme-sepia');
+          localStorage.setItem('dailytale_theme', 'night');
+        } else {
+          document.documentElement.classList.remove('dark', 'theme-sepia');
+          localStorage.setItem('dailytale_theme', 'light');
+        }
+        syncThemeUI();
+      });
+    }
+
+    // Global "/" shortcut to Stories
+    document.addEventListener('keydown', (e) => {
+      if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName)) {
+        e.preventDefault();
+        const lang = document.documentElement.lang || 'en';
+        window.location.href = `/${lang}/collections/`;
+      }
+    });
+  })();
 </script>

@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-108-the-old-house-clock",
   "slug": "hans-christian-andersen-108-the-old-house-clock",
   "language": "ta",
-  "title": "The Old House Clock",
+  "title": "பழைய வீட்டுப் பெரிய கடிகாரமும் காலத்தின் மாறாத பாடமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "For two hundred years, the grandfather clock had ticked against the oak-paneled wall: \"Tick, tack! Tick, tack!\" It had seen babies christened, young lovers married, and old men car...",
+  "summary": "இருநூறு ஆண்டுகளாக வீட்டின் சுவரில் நின்று விநாடிகளை எண்ணி, குழந்தைகளின் பிறப்பு, இளைஞர்களின் திருமணம், முதியவர்களின் மரணம் எனத் தலைமுறைகளைக் கண்டு மௌன சாட்சியாய் நின்ற பெரிய கடிகாரத்தின் தத்துவக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the old house clock",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived For two hundred years, the grandfather clock had ticked against the oak-paneled wall: \"Tick, tack! Tick, tack!\" It had seen babies christened, young lovers married, and old men car.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that time ticks steadily for both prince and pauper; live each hour with purpose and kindness.",
-  "moral": "Time ticks steadily for both prince and pauper; live each hour with purpose and kindness.",
+  "full_text": "அந்தப் பழங்காலத்து மாளிகையின் கருவாலி மரச் சுவரில், இருநூறு ஆண்டுகளாக ஒரு பெரிய தாத்தா கடிகாரம் (Grandfather Clock) தொங்கிக் கொண்டிருந்தது.\n    \nஅதன் கனத்த ஊசல் ஆடிக்கொண்டே இருந்தது: \"டிக்... டாக்! டிக்... டாக்!\" என்று இரவும் பகலும் ஒரே சீரான தாளத்தில் அது விநாடிகளை எண்ணிக் கொண்டிருந்தது.\n    \nஅது பல தலைமுறைகளைக் கண்டது. தொட்டிலில் பிறந்த பச்சிளங் குழந்தைகள் ஞானஸ்நானம் பெற்றதை அது பார்த்தது; அவர்கள் வாலிபர்களாகி திருமண மாலை சூடியதை அது கண்டது; அவர்கள் முதுமையடைந்து அமைதியாக மரணப்படுக்கையில் சாய்ந்த போதும் அது அதே விநாடிகளை எண்ணிக் கொண்டிருந்தது!\n    \n\"மனிதர்களே! அவசரப்படாதீர்கள்! கோபத்தாலும் அகந்தையாலும் உங்கள் பொன்னான நேரத்தை வீணடிக்காதீர்கள்! காலம் யாருக்காகவும் நிற்காது; அரசனானாலும் ஆண்டியானாலும் இந்த ஊசலின் ஒரு துடிப்பைக்கூடப் பின்னோக்கித் திருப்ப முடியாது!\" என்று அது முணுமுணுத்தது.\n    \nசுற்றியிருந்த மனிதர்கள் செல்வத்திற்காகவும் புகழுக்காகவும் சண்டையிட்டுக் கொண்டு மறைந்தனர்; ஆனால் அந்தக் கடிகாரமோ கடமையுணர்ச்சியோடு தன் காலப்பணியைச் செய்து கொண்டே இருந்தது.\n    \nமுடிவில் அதன் ஸ்பிரிங் உடைந்து நின்ற போது, அது ஒரு வீட்டின் முடிவை மட்டுமல்ல, பல தலைமுறைகளின் அழியாத வரலாற்றையே தன் நெஞ்சில் சுமந்து மௌனமானது.",
+  "moral": "காலம் மன்னனுக்கும் ஏழைக்கும் சமமாகவே இடைவிடாமல் ஓடுகிறது; நமக்கிருக்கும் ஒவ்வொரு மணித்துளியையும் நற்செயல்களாலும் அன்பாலும் அர்த்தமுள்ளதாக்குவதே மனிதப் பிறவியின் கடமையாகும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Old House Clock illustration from the Hans Christian Andersen collection.",
   "word_count": 224,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Old House Clock\"?",
+      "question": "மாளிகையின் சுவரில் தொங்கிய தாத்தா கடிகாரம் எத்தனை ஆண்டுகளாக இயங்கி வந்தது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "இருநூறு ஆண்டுகளாகத் தொடர்ந்து இயங்கி வந்தது",
+        "பத்து ஆண்டுகள்",
+        "ஐந்து ஆண்டுகள்",
+        "ஆயிரம் ஆண்டுகள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "இருநூறு ஆண்டுகளாகத் தொடர்ந்து இயங்கி வந்தது",
+      "hint": "இரண்டு நூற்றாண்டுகளின் காலத்தைக் கணக்கிடுங்கள்.",
+      "explanation": "அந்தப் பழமையான கடிகாரம் 200 ஆண்டுகள் பல தலைமுறைகளைக் கண்டு விநாடிகளை எண்ணியது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கடிகாரத்தின் ஊசல் மனிதர்களுக்கு என்ன போதனையை மௌனமாக வழங்கியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "காலம் எவருக்காகவும் நிற்காது, நேரத்தை நற்செயல்களால் பயனுள்ளதாக்குங்கள் என்றது",
+        "பணத்தைச் சேருங்கள் என்றது",
+        "தூங்குங்கள் என்றது",
+        "சண்டையிடுங்கள் என்றது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "காலம் எவருக்காகவும் நிற்காது, நேரத்தை நற்செயல்களால் பயனுள்ளதாக்குங்கள் என்றது",
+      "hint": "காலத்தின் மாறாத உண்மையை நினையுங்கள்.",
+      "explanation": "அரசனானாலும் ஆண்டியானாலும் காலத்தின் விநாடிகளைத் திருப்ப முடியாது என அது உணர்த்தியது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனித வாழ்விற்குப் புகட்டும் கால மெய்ஞ்ஞானம் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "கடந்து செல்லும் ஒவ்வொரு மணித்துளியும் விலைமதிப்பற்றது; அன்போடும் நற்பணியோடும் நேரத்தைப் பயன் கொள்க",
+        "கடிகாரங்களை உடைக்க வேண்டும்",
+        "நேரத்தைப் பற்றிக் கவலைப்படக் கூடாது",
+        "பழைய வீடுகளில் வாழக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "கடந்து செல்லும் ஒவ்வொரு மணித்துளியும் விலைமதிப்பற்றது; அன்போடும் நற்பணியோடும் நேரத்தைப் பயன் கொள்க",
+      "hint": "காலத்தின் உன்னத மதிப்பைப் போற்றுங்கள்.",
+      "explanation": "ஆன்டர்சன் காலத்தின் ஓட்டத்தையும் மனித வாழ்வின் நிலையாமையையும் கடிகாரத்தின் வழி தத்துவமாக விளக்கினார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கடிகாரம்",
+      "meaning": "நேரத்தையும் விநாடிகளையும் துல்லியமாகக் காட்டும் கால அளவைக் கருவி",
+      "gloss": "clock, timepiece"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "ஊசல்",
+      "meaning": "கடிகாரத்தின் கீழே இருபுறமும் சீராக அசைந்து தாளமிடும் தொங்கு எடை உருண்டை",
+      "gloss": "pendulum"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "ஞானஸ்நானம்",
+      "meaning": "கிறிஸ்தவ மரபில் குழந்தைப் பருவத்தில் வழங்கப்படும் புனிதத் திருமுழுக்கு",
+      "gloss": "baptism, christening"
+    },
+    {
+      "word": "அழியாத",
+      "meaning": "காலத்தால் அழியாமல் மனித நினைவுகளில் என்றும் நிலைத்திருக்கும்",
+      "gloss": "immortal, undying"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Old House Clock\"?"
+      "tier": "remembering",
+      "prompt": "தாத்தா கடிகாரத்தின் ஊசல் என்ன ஒலியோடு அசைந்தது?",
+      "type": "remembering",
+      "question": "தாத்தா கடிகாரத்தின் ஊசல் என்ன ஒலியோடு அசைந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "கடிகாரம் எவ்வாறு ஒரு குடும்பத்தின் பல தலைமுறை வாழ்க்கை நிகழ்வுகளின் சாட்சியாக நின்றது என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "கடிகாரம் எவ்வாறு ஒரு குடும்பத்தின் பல தலைமுறை வாழ்க்கை நிகழ்வுகளின் சாட்சியாக நின்றது என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது அன்றாட வாழ்வில் நேரத்தை வீணடிக்காமல் பயனுள்ள நற்செயல்களுக்கும் கல்விக்கும் எவ்வாறு பயன்படுத்த வேண்டும்?",
+      "type": "applying",
+      "question": "நமது அன்றாட வாழ்வில் நேரத்தை வீணடிக்காமல் பயனுள்ள நற்செயல்களுக்கும் கல்விக்கும் எவ்வாறு பயன்படுத்த வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "மனிதர்களின் அவசர ஆசைகளுக்கும், காலத்தின் அமைதியான மாறாத சீரான ஓட்டத்திற்கும் உள்ள முரண்பாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "மனிதர்களின் அவசர ஆசைகளுக்கும், காலத்தின் அமைதியான மாறாத சீரான ஓட்டத்திற்கும் உள்ள முரண்பாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'செல்வத்தை இழப்பவன் மீண்டும் பெறலாம், ஆனால் நேரத்தை இழப்பவன் அதை ஒருபோதும் பெற முடியாது' என்ற பழமொழியை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'செல்வத்தை இழப்பவன் மீண்டும் பெறலாம், ஆனால் நேரத்தை இழப்பவன் அதை ஒருபோதும் பெற முடியாது' என்ற பழமொழியை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "கடிகாரம் நின்ற வேளையில் அந்த வீட்டின் புதிய தலைமுறை இளைஞன் அதற்குச் செலுத்திய நெகிழ்ச்சியான அஞ்சலியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "கடிகாரம் நின்ற வேளையில் அந்த வீட்டின் புதிய தலைமுறை இளைஞன் அதற்குச் செலுத்திய நெகிழ்ச்சியான அஞ்சலியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

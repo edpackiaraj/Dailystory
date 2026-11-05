@@ -2,12 +2,12 @@
   "id": "aesops-fables-36-the-thirsty-pigeon",
   "slug": "aesops-fables-36-the-thirsty-pigeon",
   "language": "ta",
-  "title": "The Thirsty Pigeon",
+  "title": "தாகம் கொண்ட புறா",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A pigeon, tormented by a raging thirst on a scorching summer day, flew frantically over the rooftops in search of water. Every fountain was dry, and the gutters were filled with du...",
+  "summary": "கடுமையான தாகத்தால் வாடிய ஒரு புறா, ஓவியப் பலகையில் தத்ரூபமாக வரையப்பட்டிருந்த தண்ணீர்க் குடத்தை நிஜமான நீர் என நம்பி அவசரமாகப் பாய்ந்து மோதி, சிறகுகள் முறிந்து வேடனிடம் பிடிபட்ட அவசரத்தின் கதை.",
   "keywords": [
     "aesop's fables",
     "the thirsty pigeon",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A pigeon, tormented by a raging thirst on a scorching summer day, flew frantically over the rooftops in search of water. Every fountain was dry, and the gutters were filled with dust.\n\nGlancing toward the wall of a tavern, the desperate bird saw a large sign depicting a crystal glass brim-full of sparkling, ice-cold water, painted with such exquisite realism by an artist that water droplets seemed to glisten upon its rim.\n\nDeluded by his frantic desire and without stopping to inspect the scene, the pigeon closed his wings and swooped down with reckless speed, intending to plunge into the refreshing vessel.\n\nHe slammed headfirst into the hard wooden signboard with a resounding CRACK! The impact broke his wings and shattered his breastbone. Tumbling helpless to the cobblestones below, the dying bird was promptly picked up by a tavern cat, sighing in his final breath: \"Alas, my blind haste made an illusion my executioner!\"",
-  "moral": "Blind haste born of desperate desire leads straight into destruction.",
+  "full_text": "ஒரு சுட்டெரிக்கும் கோடை நாளில் காட்டின் நீர்நிலைகள் அனைத்தும் காய்ந்து வறண்டன. காட்டில் பறந்து கொண்டிருந்த ஒரு வெள்ளைப் புறாவுக்குத் தொண்டை வறண்டு போகும் அளவுக்குக் கடுமையான தாகம் வாட்டியெடுத்தது. தண்ணீரைத் தேடி அது கிராமத்தின் எல்லை நோக்கிப் பறந்து வந்தது.\n\nஅங்கே ஒரு வீட்டின் வெளிப்புறச் சுவரில், ஒரு தாகத்தைத் தீர்க்கும் விழிப்புணர்வுக்காக ஒரு திறமையான ஓவியன் வரைந்த பெரிய வண்ண ஓவியப் பலகை வைக்கப்பட்டிருந்தது. அந்த ஓவியத்தில் ஒரு பெரிய மண் குடமும், அதில் பளபளவெனத் ததும்பி நின்ற தூய நீரும் அச்சு அசல் நிஜமான குடத்தைப் போலவே தத்ரூபமாகத் தீட்டப்பட்டிருந்தன.\n\nதாகத்தின் அவசரத்தால் புத்தி மழுங்கிய அந்தப் புறா, அது வெறும் ஓவியம் என்பதைக் கவனிக்காமல் உண்மையான தண்ணீர்க் குடம் என்றே குருட்டுத்தனமாக நம்பியது. சற்றும் யோசிக்காமல், விண்ணிலிருந்து நேராக அந்தப் பலகையை நோக்கிப் பாய்ந்து வந்து முழு வேகத்தோடு \"டமார்\" என்று மோதியது!\n\nஓவியப் பலகையின் கெட்டியான மரப் பலகையில் பலமாக மோதியதால் அதன் இரு சிறகுகளும் ஒடிந்து தொங்கின; தலையில் பலத்த காயமடைந்து மயங்கித் தரையில் சுருண்டு விழுந்தது. அப்போது அவ்வழியே வந்த ஒரு வேடன், பறக்க முடியாமல் தரையில் துடித்த அந்தப் புறாவை மிக எளிதாகத் தன் கூடைக்குள் பிடித்துப் போட்டான். அவசரப்பட்டு ஆராயாமல் பாய்ந்த தன் குருட்டுத்தனத்தை எண்ணிப் புறா கண்ணீர் வடித்தது.",
+  "moral": "நீதி: கண்மூடித்தனமான அவசரமும், எதையும் தீர விசாரிக்காமல் ஆசைப்படுவதும் விபரீதமான பேரழிவையே உண்டாக்கும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Thirsty Pigeon illustration from the Aesop's Fables collection.",
-  "word_count": 154,
+  "word_count": 156,
   "reading_time": "2 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Thirsty Pigeon\"?",
+      "question": "சுவரில் வைக்கப்பட்டிருந்த ஓவியப் பலகையில் என்ன படம் வரையப்பட்டிருந்தது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "தண்ணீர் ததும்பி நின்ற ஒரு மண்பாண்டக் குடத்தின் தத்ரூபமான ஓவியம்",
+        "வேடனின் கொடிய வலைப் படம்",
+        "காட்டுப் பூனையின் படம்",
+        "தானியக் களஞ்சியத்தின் படம்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "புறாவை ஏமாற்றிய நீர் ஓவியத்தை நினைவுகூருங்கள்.",
+      "answer": "தண்ணீர் ததும்பி நின்ற ஒரு மண்பாண்டக் குடத்தின் தத்ரூபமான ஓவியம்",
+      "explanation": "புறாவை ஏமாற்றிய நீர் ஓவியத்தை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "தாகத்தால் வாடிய புறா அவசரப்பட்டுச் செய்த தவறான செயல் என்ன?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "ஓவியம் என்பதை அறியாமல் நிஜக் குடம் என நம்பி அதிவேகமாக வந்து மோதியது",
+        "குடத்தின் மீது கல்லை எறிந்தது",
+        "வேடனிடம் சென்று நீர் கேட்டது",
+        "நீரோடைக்குச் செல்லாமல் மரத்தில் அமர்ந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "புறாவின் கண்மூடித்தனமான அவசரப் பாய்ச்சலை யோசியுங்கள்.",
+      "answer": "ஓவியம் என்பதை அறியாமல் நிஜக் குடம் என நம்பி அதிவேகமாக வந்து மோதியது",
+      "explanation": "புறாவின் கண்மூடித்தனமான அவசரப் பாய்ச்சலை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை அவசரப்படும் மனிதர்களுக்கு விடுக்கும் தலையாய எச்சரிக்கை எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "எந்தவொரு பொருளையும் கண்மூடித்தனமாக நம்பி அவசரப்படக்கூடாது; தீர ஆராய்ந்தே இறங்க வேண்டும்",
+        "புறாக்கள் எப்போதும் பறக்கக் கூடாது",
+        "சுவர்களில் ஓவியங்கள் வரையக் கூடாது",
+        "கோடைக்காலத்தில் வெளியே வரக்கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "\"பதறிய காரியம் சிதறும்\" என்ற பழமொழியை நினைவில் கொள்ளுங்கள்.",
+      "answer": "எந்தவொரு பொருளையும் கண்மூடித்தனமாக நம்பி அவசரப்படக்கூடாது; தீர ஆராய்ந்தே இறங்க வேண்டும்",
+      "explanation": "\"பதறிய காரியம் சிதறும்\" என்ற பழமொழியை நினைவில் கொள்ளுங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "தத்ரூபமாக",
+      "meaning": "பார்த்தால் நிஜமான பொருள் போலவே தோன்றும் அளவுக்கு மிக அச்சு அசலான வடிவம்"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "சுட்டெரிக்கும்",
+      "meaning": "சூரியனின் வெப்பம் நிலத்தை மிகக் கடுமையாகச் சுட்டுப் பொசுக்கும் நிலை"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "புத்தி",
+      "meaning": "கடுமையான ஆசையாலோ அவசரத்தாலோ நன்மை தீமையை ஆராயும் திறன் மங்கிப்போதல்"
+    },
+    {
+      "word": "குருட்டுத்தனமாக",
+      "meaning": "உண்மையை நேரில் சோதித்துப் பார்க்காமல் கண்மூடித்தனமாகச் செயல்படும் அறியாமை"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Thirsty Pigeon\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "பலகையில் மோதிய புறாவுக்கு என்னென்ன காயங்கள் ஏற்பட்டன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "கடுமையான ஆசையோ தேவைகளோ மனிதர்களின் சிந்திக்கும் திறனை எவ்வாறு மழுங்கடிக்கச் செய்கிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "இணையத்திலோ விளம்பரங்களிலோ நிஜம் போலத் தோன்றும் போலி கவர்ச்சிகளை நாம் எவ்வாறு விழிப்புடன் கையாள வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "ஆபத்தில் அவசரத்தை விட விவேகமான நிதானமே உயிரைக் காக்கும் அரண் என்பது எதனால்?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

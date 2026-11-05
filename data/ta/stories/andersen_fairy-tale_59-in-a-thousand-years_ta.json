@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-59-in-a-thousand-years",
   "slug": "hans-christian-andersen-59-in-a-thousand-years",
   "language": "ta",
-  "title": "In a Thousand Years",
+  "title": "ஆயிரம் ஆண்டுகளுக்குப் பின் – வருங்கால வான்பயணமும் வரலாற்றுத் தரிசனமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Yes, in a thousand years, they will come on wings of steam and air! The youthful inhabitants of America will fly across the great Atlantic Ocean to visit the ancient, venerable con...",
+  "summary": "ஆயிரமாயிரம் ஆண்டுகளுக்குப் பின்னர் வானூர்திகளில் பறந்து வந்து பண்டைய ஐரோப்பாவின் வரலாற்றுத் தலங்களையும் இலக்கியச் சின்னங்களையும் வியந்து பார்க்கும் எதிர்கால மக்களின் அறிவியல் கனவுப் பார்வை.",
   "keywords": [
     "hans christian andersen",
     "in a thousand years",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Yes, in a thousand years, they will come on wings of steam and air! The youthful inhabitants of America will fly across the great Atlantic Ocean to visit the ancient, venerable continent of Europe!\n\nThey will travel in grand aerial ships propelled through the clouds, landing first upon the emerald shores of Ireland, gazing down upon the ruins of London and the monuments of Paris. In a few days, they will cross the Alps, view the Colosseum of Rome, walk upon the Acropolis of Athens, and gaze at the ruins of Copenhagen.\n\nA young traveler will hold a guidebook of antiquities, saying: \"Here stood the kingdoms of the ancient world! Here poets sang and emperors ruled!\"\n\nThey will see Europe as we look upon the pyramids of the Nile. Yet through all changes of technology and empires, the glorious achievements of human intellect, freedom, and love will remain the eternal heritage that unites mankind across millennia.",
-  "moral": "Human genius soars across skies, yet the enduring monuments of history remain sacred beacons.",
+  "full_text": "ஆம்! ஆயிரம் ஆண்டுகளுக்குப் பின்னர், மனித இனம் நீராவியாலும் காற்றாலும் இயங்கும் வானூர்திகளில் பறக்கத் தொடங்கும்!\n    \nஎதிர்கால உலகின் இளைய தலைமுறையினர் அட்லாண்டிக் பெருங்கடலை வான்வழியாகச் சில மணிநேரங்களில் கடந்து, பண்டைய ஐரோப்பியக் கண்டத்தின் புனிதம் நிறைந்த வரலாற்றுத் தலங்களைத் தரிசிக்கப் பறந்து வருவார்கள்.\n    \nஅவர்கள் மேகங்களைக் கிழித்துக் கொண்டு வானில் மிதக்கும் மாபெரும் வான் கப்பல்களில் பயணிப்பார்கள். அயர்லாந்தின் பசுமைப் புல்வெளிகளையும், இங்கிலாந்தின் ஷேக்ஸ்பியர் வாழ்ந்த வீடுகளையும் வானிலிருந்து நோக்கி வியப்பார்கள்.\n    \nபாரிஸ் மாநகரின் எழிலையும், ரோம் நகரின் சரித்திரப் புகழ்மிக்க கொலோசியம் இடிபாடுகளையும், கிரேக்கத்தின் அக்ரோபோலிஸ் குன்றுகளையும் சில மணிநேர அவகாசத்தில் விரைந்து பார்த்துப் பதிவு செய்வார்கள்.\n    \n\"இங்கேதான் ஹோமர் பாடினார்! அங்கேதான் மோட்சார்ட் தன் இசையை வடித்தார்! இதோ இந்த மூலையில்தான் மைக்கேலேஞ்சலோ சிலைகளைச் செதுக்கினார்!\" என்று அந்த எதிர்காலப் பயணிகள் பரவசத்தோடு கைசுட்டிக் காட்டுவார்கள்.\n    \nமனிதனின் அறிவியல் ஆற்றல் காலத்தையும் தூரத்தையும் சுருக்கிவிடும்; ஆனால் மனித இதயங்களை இணைப்பது அந்தப் பழைய கவிஞர்களின் வரிகளும், கலைஞர்களின் தூய படைப்புகளுமே ஆகும்.\n    \nஅவர்கள் ஒரு வாரத்திற்குள் ஒட்டுமொத்த ஐரோப்பிய வரலாற்றையும் கண்டு முடித்துத் தங்களின் புதிய உலகத்திற்குத் திரும்புவார்கள். மனிதனின் அறிவியல் எவ்வளவு உயர்ந்தாலும், வரலாற்றுக் கலைச் சின்னங்களின் முன்னிலையில் தலைவணங்காமல் இருக்க முடியாது என்பதை எதிர்காலம் உணர்த்தும்.",
+  "moral": "தொழில்நுட்பமும் மனித நாகரிகமும் விண்ணைத் தொடும் அளவுக்கு முன்னேறினாலும், வரலாற்றின் கால்தடங்களும் பண்பாட்டுச் செல்வங்களே மனித குலத்தின் ஆன்மாவாகத் திகழும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "In a Thousand Years illustration from the Hans Christian Andersen collection.",
   "word_count": 156,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"In a Thousand Years\"?",
+      "question": "ஆயிரம் ஆண்டுகளுக்குப் பின் மனிதர்கள் எவ்வாறு கண்டங்களைக் கடப்பார்கள் என்று ஆன்டர்சன் தீர்க்கதரிசனமாகக் கணித்தார்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "வானில் பறக்கும் பிரம்மாண்டமான வான் கப்பல்கள் மற்றும் வானூர்திகள் மூலம்",
+        "குதிரை வண்டிகளில் செல்வார்கள்",
+        "நடந்து செல்வார்கள்",
+        "நீந்திக் கடப்பார்கள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "வானில் பறக்கும் பிரம்மாண்டமான வான் கப்பல்கள் மற்றும் வானூர்திகள் மூலம்",
+      "hint": "வான்வழிப் பயணத்தை நினையுங்கள்.",
+      "explanation": "விமானப் போக்குவரத்து தொடங்குவதற்கு முன்பே ஆன்டர்சன் எதிர்கால வான்பயணத்தைத் துல்லியமாகக் கணித்தார்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "எதிர்காலப் பயணிகள் ஐரோப்பாவிற்கு வந்து எவற்றைப் பரவசத்தோடு தரிசிப்பார்கள்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "பண்டைய கவிஞர்கள், இசையமைப்பாளர்கள் மற்றும் சிற்பிகள் வாழ்ந்த வரலாற்றுச் சின்னங்களை",
+        "மளிகைக் கடைகளை மட்டும்",
+        "வெறும் காடுகளை மட்டும்",
+        "ஆடை ஆபரணங்களை மட்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "பண்டைய கவிஞர்கள், இசையமைப்பாளர்கள் மற்றும் சிற்பிகள் வாழ்ந்த வரலாற்றுச் சின்னங்களை",
+      "hint": "வரலாற்றுப் பண்பாட்டுச் செல்வங்களை நினையுங்கள்.",
+      "explanation": "ஷேக்ஸ்பியர், ஹோமர், மொசார்ட் வாழ்ந்த பண்பாட்டு வரலாற்றுத் தலங்களைத் தரிசிப்பார்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் தொலைநோக்குச் செய்தி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "அறிவியல் எத்துணை முன்னேறினாலும் பண்பாடும் வரலாற்றுக் கலைகளுமே மனிதகுலத்தின் நிரந்தர ஆன்மாவாகும்",
+        "விமானங்களில் பயணம் செய்யவே கூடாது",
+        "பழைய வரலாற்றை மறந்துவிட வேண்டும்",
+        "எதிர்காலத்தில் மனிதர்கள் வாழ மாட்டார்கள்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "அறிவியல் எத்துணை முன்னேறினாலும் பண்பாடும் வரலாற்றுக் கலைகளுமே மனிதகுலத்தின் நிரந்தர ஆன்மாவாகும்",
+      "hint": "அறிவியலையும் வரலாற்றுப் பண்பாட்டையும் ஒப்பிடுங்கள்.",
+      "explanation": "தொழில்நுட்பம் வேகத்தைத் தரும்; ஆனால் வரலாறும் கலையுமே மனிதத்தை உயிர்ப்புடன் வைத்திருக்கும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "வானூர்திகளில்",
+      "meaning": "வானில் சுதந்திரமாகப் பறந்து செல்லக்கூடிய வானூர்தி அல்லது வான் கப்பல்களில்",
+      "gloss": "in aircrafts, flying vessels"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "அக்ரோபோலிஸ்",
+      "meaning": "பண்டைய கிரேக்க நாட்டின் பெருமைமிக்க வரலாற்றுச் சிறப்புமிக்க கோட்டை மேடு",
+      "gloss": "Acropolis, citadel of ancient Greece"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "அறிவியல்",
+      "meaning": "இயற்கையின் விதிகளைக் கற்று மனித முன்னேற்றத்திற்குப் பயன்படுத்தும் விஞ்ஞான அறிவு",
+      "gloss": "science, scientific knowledge"
+    },
+    {
+      "word": "பரவசத்தோடு",
+      "meaning": "பேரானந்தத்துடனும் மெய்சிலிர்க்கும் வியப்புடனும் கூடிய பரவச உணர்வோடு",
+      "gloss": "with rapture, excitedly, ecstatically"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"In a Thousand Years\"?"
+      "tier": "remembering",
+      "prompt": "ஆன்டர்சன் எதிர்கால வான்பயணக் கதையில் குறிப்பிட்ட வரலாற்று நாயகர்கள் யாவர்?",
+      "type": "remembering",
+      "question": "ஆன்டர்சன் எதிர்கால வான்பயணக் கதையில் குறிப்பிட்ட வரலாற்று நாயகர்கள் யாவர்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "விமானங்கள் கண்டுபிடிக்கப்படாத 19ஆம் நூற்றாண்டிலேயே ஆன்டர்சன் இத்தகைய வான்பயணத்தைக் கற்பனை செய்ததன் சிறப்பை விளக்குக.",
+      "type": "understanding",
+      "question": "விமானங்கள் கண்டுபிடிக்கப்படாத 19ஆம் நூற்றாண்டிலேயே ஆன்டர்சன் இத்தகைய வான்பயணத்தைக் கற்பனை செய்ததன் சிறப்பை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நவீன விமானப் போக்குவரத்தும் விண்வெளி ஆய்வுகளும் வளர்ந்துள்ள இன்றைய சூழலில் வரலாற்றுப் பாரம்பரியங்களை நாம் எவ்வாறு பாதுகாக்கலாம்?",
+      "type": "applying",
+      "question": "நவீன விமானப் போக்குவரத்தும் விண்வெளி ஆய்வுகளும் வளர்ந்துள்ள இன்றைய சூழலில் வரலாற்றுப் பாரம்பரியங்களை நாம் எவ்வாறு பாதுகாக்கலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "விரைவான தொழில்நுட்ப முன்னேற்றத்திற்கும், நிதானமான வரலாற்றுப் பண்பாட்டு நினைவுகளுக்கும் உள்ள தொடர்பை ஆராய்க.",
+      "type": "analyzing",
+      "question": "விரைவான தொழில்நுட்ப முன்னேற்றத்திற்கும், நிதானமான வரலாற்றுப் பண்பாட்டு நினைவுகளுக்கும் உள்ள தொடர்பை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'வரலாற்றை மறந்த சமூகம் தன் ஆன்மாவை இழந்துவிடும்' என்ற கூற்றை இக்கதையோடு இணைத்து எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'வரலாற்றை மறந்த சமூகம் தன் ஆன்மாவை இழந்துவிடும்' என்ற கூற்றை இக்கதையோடு இணைத்து எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "இன்றிலிருந்து மேலும் ஆயிரம் ஆண்டுகளுக்குப் பின் மனிதர்கள் வேற்று கிரகங்களிலிருந்து பூமிக்கு வந்து வரலாற்றுச் சின்னங்களைப் பார்க்கும் ஒரு காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "இன்றிலிருந்து மேலும் ஆயிரம் ஆண்டுகளுக்குப் பின் மனிதர்கள் வேற்று கிரகங்களிலிருந்து பூமிக்கு வந்து வரலாற்றுச் சின்னங்களைப் பார்க்கும் ஒரு காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

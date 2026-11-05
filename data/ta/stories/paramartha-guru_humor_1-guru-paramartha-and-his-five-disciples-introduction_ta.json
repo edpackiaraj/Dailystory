@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"Guru Paramartha and His Five Disciples - Introduction\"?",
+      "question": "வீரமாமுனிவர் இயற்றிய பரமார்த்த குருவின் கதைகளில் வரும் ஐந்து சீடர்களின் பொதுவான குணம் என்ன?",
       "options": [
-        "Foolishness of book knowledge without worldly wisdom",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "எந்தவொரு எளிய செயலையும் விபரீதமான முட்டாள்தனத்தோடு செய்து முடிக்கும் பேரறியாமை",
+        "மிகவும் புத்திசாலித்தனமாகப் பிரச்சனைகளைத் தீர்ப்பது",
+        "காட்டில் கொடிய விலங்குகளை வேட்டையாடுவது",
+        "மன்னருக்குத் தலைமை மந்திரியாகப் பணியாற்றுவது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "சீடர்களின் அப்பாவியான மூடத்தனத்தை நினைவுகூருங்கள்.",
+      "answer": "எந்தவொரு எளிய செயலையும் விபரீதமான முட்டாள்தனத்தோடு செய்து முடிக்கும் பேரறியாமை",
+      "explanation": "சீடர்களின் அப்பாவியான மூடத்தனத்தை நினைவுகூருங்கள்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "பரமார்த்த குருவும் சீடர்களும் எதற்காக உலகப் புகழ்பெற்றார்கள்?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "அவர்களின் அறியாமைச் செயல்கள் மூலம் மக்களுக்கு நகைச்சுவையோடு ஆழ்ந்த விழிப்புணர்வை ஊட்டியதற்காக",
+        "பெரும் போர்களில் வெற்றி பெற்றதற்காக",
+        "வானியலில் புதிய கோள்களைக் கண்டுபிடித்ததற்காக",
+        "அரசாங்கத்தை ஆட்சி செய்ததற்காக"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "கதையின் முக்கிய நோக்கமான நகைச்சுவை மற்றும் விழிப்புணர்வை யோசியுங்கள்.",
+      "answer": "அவர்களின் அறியாமைச் செயல்கள் மூலம் மக்களுக்கு நகைச்சுவையோடு ஆழ்ந்த விழிப்புணர்வை ஊட்டியதற்காக",
+      "explanation": "கதையின் முக்கிய நோக்கமான நகைச்சுவை மற்றும் விழிப்புணர்வை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "இக்கதையின் மூலம் தமிழ் இலக்கியம் நமக்குக் கற்பிக்கும் முக்கியமான கருத்து எது?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "குருவாக இருந்தாலும் சீடர்களாக இருந்தாலும் கண்மூடித்தனமான அறியாமையை விட்டுப் பகுத்தறிவோடு சிந்திக்க வேண்டும்",
+        "சீடர்கள் எப்போதுமே குருவின் சொல்லைக் கேட்கக்கூடாது",
+        "கல்வி கற்காமல் இருப்பது நல்லது",
+        "யாருக்கும் வழிகாட்டக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "பகுத்தறிவின் அவசியத்தை எண்ணிப்பாருங்கள்.",
+      "answer": "குருவாக இருந்தாலும் சீடர்களாக இருந்தாலும் கண்மூடித்தனமான அறியாமையை விட்டுப் பகுத்தறிவோடு சிந்திக்க வேண்டும்",
+      "explanation": "பகுத்தறிவின் அவசியத்தை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Veeramamunivar (Costanzo Beschi, 1728 / Tamil Folk Humor)",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "மடம்",
+      "meaning": "எதையும் பகுத்தறிந்து சிந்திக்காமல் மூடத்தனமாகச் செயல்படும் அறியாமை"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "சீடர்கள்",
+      "meaning": "குருவின் வழிகாட்டுதலைப் பின்பற்றிப் பாடம் கற்கும் மாணவர்கள்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "பழங்காலத்தில்",
+      "meaning": "பழங்காலத்தில் என்ற சொல்லின் சூழல் பொருள் (Signifies பழங்காலத்தில் in the context of the story)"
+    },
+    {
+      "word": "வேடிக்கை",
+      "meaning": "பார்ப்பவர்களுக்குச் சிரிப்பையும் ஆச்சரியத்தையும் தரும் விசித்திரமான செயல்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"Guru Paramartha and His Five Disciples - Introduction\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "பரமார்த்த குருவின் கதைகளைத் தமிழில் இயற்றிய புகழ்பெற்ற இத்தாலியத் துறவி யார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Foolishness of book knowledge without worldly wisdom\"?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "மூடத்தனமான செயல்கள் எவ்வாறு சிரிப்பையும் அதே நேரத்தில் விழிப்புணர்வையும் தருகின்றன?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "பயன்பாடு",
+      "prompt": "எந்த ஒரு செய்தியையும் கண்மூடித்தனமாக நம்பாமல் ஆராய்ந்து செயல்படுவது ஏன் அவசியம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "சிந்தனை",
+      "prompt": "வாழ்க்கையில் உண்மையான குருவுக்கு இருக்க வேண்டிய நற்குணங்கள் யாவை?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

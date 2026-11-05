@@ -2,12 +2,12 @@
   "id": "paramartha-guru-90-paramartha-guru-tale-90",
   "slug": "paramartha-guru-90-paramartha-guru-tale-90",
   "language": "ta",
-  "title": "Paramartha Guru Tale 90",
+  "title": "சேற்றை விசிறிய சீடர்களும் மண் சிலைகளும்",
   "genre": "Humorous Tales",
   "collection": "Paramartha Guru",
   "culture_region": "Tamil Nadu, India",
   "age_group": "Below 13",
-  "summary": "Following a heavy rain, the ashram courtyard was covered in deep, sticky red mud.",
+  "summary": "மழைக்குப் பின் முற்றத்தில் இருந்த ஈரச் சேற்றைக் காயவைக்கப் பனை விசிறிகளால் தரையை நோக்கி வீசி, முகமெல்லாம் சேறு அப்பிக் களிமண் சிலைகளாக மாறிய சீடர்களின் கதை.",
   "keywords": [
     "paramartha guru",
     "paramartha guru tale 90",
@@ -22,8 +22,8 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "Following a heavy rain, the ashram courtyard was covered in deep, sticky red mud.\n\nGuru Paramartha wished to walk to the study hall, but refused to soil his sandals.\n\nMadayan summoned the disciples: 'We must accelerate the evaporation of the moisture! Fetch five large palm-leaf hand fans!'\n\nThe five disciples knelt in the deep mud, fanning the wet earth with all their might: FLAP, FLAP, FLAP!\n\nThe vigorous fanning created violent gusts of air. The air did not dry the mud; instead, it picked up droplets of wet red slime and sprayed them across their faces, eyes, and white shawls!\n\nWithin ten minutes, all five disciples were coated in red mud like clay statues!\n\nGuru Paramartha peered from the veranda: 'Is the earth dry, my children?'\n\nMatti wiped mud from his nose: 'The earth remains moist, Master, but our faces have absorbed the mud completely!'\n\nThe Guru sighed, stepped onto wooden planks laid by the washerman, and walked across, leaving his fanners to wash in the pond.",
-  "moral": "Fanning wet mud with palm leaves only spatters your own face with slime.",
+  "full_text": "கனமழை பெய்து ஓய்ந்த பிறகு, ஆசிரமத்தின் முற்றம் முழுவதும் ஆழமான பிசுபிசுப்பான செம்மண் சேறாக மாறியிருந்தது.\n\nபரமார்த்த குரு படிப்பு அறைக்குச் செல்ல விரும்பினார்; ஆனால் தன் காலணிகளில் சேறு படிவதை அவர் விரும்பவில்லை.\n\nமடயன் சீடர்களைக் கூப்பிட்டான்: \"ஈரப்பதம் காற்றில் ஆவியாவதை நாம் துரிதப்படுத்த வேண்டும்! உடனே ஐந்து பெரிய பனை ஓலை விசிறிகளை எடுத்து வாருங்கள்!\"\n\nஐந்து சீடர்களும் சேற்றில் மண்டியிட்டு அமர்ந்து, தரையை நோக்கித் தங்கள் முழு பலத்தையும் திரட்டி விசிறத் தொடங்கினர்: 'படபட... படபட!'\n\nஅவர்கள் வேகமாக விசிறியதால் கடுமையான காற்றுச் சுழல் எழுந்தது. ஆனால் அந்தக் காற்று சேற்றைக் காயவைக்கவில்லை; மாறாக, பிசுபிசுப்பான செம்மண் சேற்றுத் துளிகளை அள்ளி அவர்களது முகங்கள், கண்கள், வெண்ணிற சால்வைகளின் மீது வாரி இறைத்தது!\n\nபத்தே நிமிடங்களில், ஐந்து சீடர்களும் உச்சி முதல் பாதம் வரை செம்மண் பூசப்பட்டு உயிருள்ள களிமண் சிலைகளைப் போலக் காட்சியளித்தனர்!\n\nதிண்ணையிலிருந்து எட்டிப் பார்த்தார் பரமார்த்த குரு: \"குழந்தைகளே! தரை காய்ந்துவிட்டதா?\"\n\nமட்டி மூக்கிலிருந்த சேற்றைத் துடைத்துக்கொண்டு பதிலளித்தான்: \"தரை இன்னும் ஈரமாகத்தான் உள்ளது குருவே; ஆனால் எங்கள் முகங்கள் சேற்றை முழுமையாக உறிஞ்சிவிட்டன!\"\n\nகுரு பெருமூச்சு விட்டு, சலவைத் தொழிலாளி போட்ட மரப் பலகைகளின் மீது காலடி எடுத்து வைத்து நடந்து சென்றார்; விசிறிய சீடர்களோ தங்களைக் கழுவிக்கொள்ளக் குளத்தை நோக்கி ஓடினர்.",
+  "moral": "இயற்கையான ஆவியாதல் செயல்முறையை அறியாமல், மூர்க்கத்தனமான முட்டாள்தனங்களால் சேற்றை விரட்ட நினைத்தால் சேறு நம் முகத்திலேயே படியும்.",
   "image": "/images/stories/tenali-rama.webp",
   "image_alt": "Paramartha Guru Tale 90 illustration from the Paramartha Guru collection.",
   "word_count": 167,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"Paramartha Guru Tale 90\"?",
+      "question": "முற்றத்துச் சேற்றைக் காயவைக்க மடயன் என்ன யோசனை கூறினான்?",
       "options": [
-        "Foolishness of book knowledge without worldly wisdom",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "மணல் போடச் சொன்னான்",
+        "ஐந்து பனை ஓலை விசிறிகளால் சேற்றை நோக்கி வீசச் சொன்னான்",
+        "நெருப்பு மூட்டச் சொன்னான்",
+        "வெயிலில் காயவைக்கச் சொன்னான்"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "answer": "ஐந்து பனை ஓலை விசிறிகளால் சேற்றை நோக்கி வீசச் சொன்னான்",
+      "explanation": "காற்றை வீசினால் ஆவியாதல் துரிதமாகும் என்று விசிறியால் சேற்றை வீசச் சொன்னான்.",
+      "answerIndex": 1,
+      "hint": "காற்றை வீசினால் ஆவியாதல் துரிதமாகும் என்று விசிறியால் சேற்றை வீசச் சொன்னான்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "சேற்றை நோக்கி விசிறியதால் சீடர்களுக்கு என்ன நேர்ந்தது?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "சேறு காய்ந்தது",
+        "சேற்றுத் துளிகள் முகத்திலும் உடலிலும் தெறித்து களிமண் சிலைகளாக மாறினர்",
+        "விசிறி உடைந்தது",
+        "மழை பெய்தது"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "answer": "சேற்றுத் துளிகள் முகத்திலும் உடலிலும் தெறித்து களிமண் சிலைகளாக மாறினர்",
+      "explanation": "காற்றின் வேகத்தால் சேறு அவர்கள் முகத்திலேயே தெறித்து மண் சிலையாக்கியது.",
+      "answerIndex": 1,
+      "hint": "காற்றின் வேகத்தால் சேறு அவர்கள் முகத்திலேயே தெறித்து மண் சிலையாக்கியது."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "குரு எவ்வாறு சேற்றைக் கடந்து சென்றார்?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "சேற்றில் நடந்து சென்றார்",
+        "சலவைத் தொழிலாளி போட்ட மரப் பலகைகளின் மீது நடந்து சென்றார்",
+        "குதித்துச் சென்றார்",
+        "சீடர்களின் தோளில் சென்றார்"
       ],
-      "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "answer": "சலவைத் தொழிலாளி போட்ட மரப் பலகைகளின் மீது நடந்து சென்றார்",
+      "explanation": "சலவைக்காரன் போட்ட மரப் பலகைகளின் மீது ஏறிச் சுத்தமாகக் கடந்தார்.",
+      "answerIndex": 1,
+      "hint": "சலவைக்காரன் போட்ட மரப் பலகைகளின் மீது ஏறிச் சுத்தமாகக் கடந்தார்."
     }
   ],
   "author": "Veeramamunivar (Costanzo Beschi, 1728 / Tamil Folk Humor)",
@@ -76,38 +82,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "பிசுபிசுப்பான",
+      "meaning": "ஒட்டிக்கொள்ளும் தன்மையுடைய சேற்றுப் பிசுபிசுப்பு",
+      "gloss": "sticky"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "ஆவியாவதை",
+      "meaning": "நீர் காற்றில் நீராவியாக மாறி வற்றிப் போவதை",
+      "gloss": "evaporating"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "விசிறிகளை",
+      "meaning": "பனை ஓலையினால் செய்யப்பட்ட கை விசிறிகளை",
+      "gloss": "hand fans"
+    },
+    {
+      "word": "சால்வைகளின்",
+      "meaning": "தோளில் போர்த்தியிருந்த மேலாடைத் துணிகளின்",
+      "gloss": "of the shawls"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"Paramartha Guru Tale 90\"?"
+      "tier": "Remembering",
+      "type": "நினைவுகூருதல் (Remembering)",
+      "prompt": "சீடர்கள் விசிறிய விசிறிகள் எதனால் செய்யப்பட்டவை?",
+      "question": "சீடர்கள் விசிறிய விசிறிகள் எதனால் செய்யப்பட்டவை?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Foolishness of book knowledge without worldly wisdom\"?"
+      "tier": "Understanding",
+      "type": "புரிந்துகொள்ளுதல் (Understanding)",
+      "prompt": "ஈரச் சேற்றை விசிறியால் காயவைக்க முடியாது என்ற எளிய அறிவியலை அறியாத மடமையை விளக்குக.",
+      "question": "ஈரச் சேற்றை விசிறியால் காயவைக்க முடியாது என்ற எளிய அறிவியலை அறியாத மடமையை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "Applying",
+      "type": "பயன்படுத்துதல் (Applying)",
+      "prompt": "பிரச்சினையைத் தீர்க்கிறேன் என்ற பெயரில் அதைத் தங்கள் மீதே பூசிக்கொள்ளும் செயல்களை நிஜ வாழ்வோடு ஒப்பிடுக.",
+      "question": "பிரச்சினையைத் தீர்க்கிறேன் என்ற பெயரில் அதைத் தங்கள் மீதே பூசிக்கொள்ளும் செயல்களை நிஜ வாழ்வோடு ஒப்பிடுக."
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "tier": "Analyzing",
+      "type": "பகுப்பாய்தல் (Analyzing)",
+      "prompt": "எளிய மரப்பலகை தீர்வை யோசிக்காமல் விசிறி வீசிச் சேற்றைப் பூசிக்கொண்ட சீடர்களின் தர்க்கத்தைப் பகுத்தாராய்க.",
+      "question": "எளிய மரப்பலகை தீர்வை யோசிக்காமல் விசிறி வீசிச் சேற்றைப் பூசிக்கொண்ட சீடர்களின் தர்க்கத்தைப் பகுத்தாராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "Evaluating",
+      "type": "மதிப்பிடுதல் (Evaluating)",
+      "prompt": "'எங்கள் முகங்கள் சேற்றை உறிஞ்சிவிட்டன' என்ற மட்டியின் பதிலின் நகைச்சுவை நயத்தை மதிப்பிடுக.",
+      "question": "'எங்கள் முகங்கள் சேற்றை உறிஞ்சிவிட்டன' என்ற மட்டியின் பதிலின் நகைச்சுவை நயத்தை மதிப்பிடுக."
+    },
+    {
+      "tier": "Creating",
+      "type": "படைத்தல் (Creating)",
+      "prompt": "மழைக்காலத்தில் வீடுகளிலும் ஆசிரமங்களிலும் சேறு படியாமல் காக்கும் வடிகால் மற்றும் நடைபாதை உத்திகளை உருவாக்குக.",
+      "question": "மழைக்காலத்தில் வீடுகளிலும் ஆசிரமங்களிலும் சேறு படியாமல் காக்கும் வடிகால் மற்றும் நடைபாதை உத்திகளை உருவாக்குக."
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

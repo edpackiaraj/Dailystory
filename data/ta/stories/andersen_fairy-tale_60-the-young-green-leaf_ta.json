@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-60-the-young-green-leaf",
   "slug": "hans-christian-andersen-60-the-young-green-leaf",
   "language": "ta",
-  "title": "The Young Green Leaf",
+  "title": "இளம்பச்சை தளிரும் வசந்தத்தின் புதுவாழ்வு நம்பிக்கையும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "From the dark, frozen loam of early spring, a tiny green shoot poked its head through the melting snow. The cold north wind blew bitterly: \"Go back into the earth, tiny leaf! The f...",
+  "summary": "கடும் குளிர்காலத்தின் பனி படர்ந்த நிலத்திலிருந்து முளைத்து வந்த சின்னஞ்சிறு பச்சைக் கொழுந்து, கொடிய வடகாற்றின் அச்சுறுத்தல்களைத் தாங்கி நின்று வசந்தத்தின் வருகையை உலகிற்கு அறிவித்த நம்பிக்கைக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the young green leaf",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived From the dark, frozen loam of early spring, a tiny green shoot poked its head through the melting snow. The cold north wind blew bitterly: \"Go back into the earth, tiny leaf! The f.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that every humble sprout of green carries within it the eternal promise of life's resurrection.",
-  "moral": "Every humble sprout of green carries within it the eternal promise of life's resurrection.",
+  "full_text": "கடும் பனிக்காலம் தன் இறுதிக் கட்டத்தை எட்டியிருந்தது. பூமி முழுவதும் உறைந்த வெண்பனிப் போர்வையால் மூடப்பட்டு மரத்துப் போயிருந்தது.\n    \nஅந்தக் கடும் குளிரின் நடுவே, கருமையான ஈர மண்ணைத் துளைத்துக் கொண்டு ஒரு சின்னஞ்சிறு இளம்பச்சைக் கொழுந்து தலைநீட்டியது!\n    \nகொடூரமான வடகாற்று சீறியடித்தது: \"சின்னஞ்சிறு முட்டாள் தளிரே! மீண்டும் பூமிக்குள் சென்று ஒளிந்து கொள்! பனிக்கட்டி உன்னை உறைய வைத்துவிடும்; என் பனிக் காற்று உன் மென் உடலைச் சுட்டுப் பொசுக்கிவிடும்!\" என்று எச்சரித்தது.\n    \nஆனால் அந்த இளம் தளிர் அஞ்சவில்லை. \"என்னை அனுப்பிய இயற்கை அன்னை என் இதயத்தில் வாழ்வின் தாகத்தை ஊட்டியிருக்கிறாள்! நான் சூரியனைப் பார்க்க வேண்டும்; இந்த உறைந்த உலகிற்கு வசந்தத்தின் செய்தியை அறிவிக்க வேண்டும்!\" என்று கம்பீரமாகக் கூறியது.\n    \nவானத்திலிருந்து மென்மையான சூரியக் கதிர்கள் எட்டிப் பார்த்தன. அவை அந்த இளம் தளிரின் தைரியத்தைக் கண்டு அதன் மீது தங்களின் பொன்னொளிக் கரங்களை வீசின.\n    \nபனி உருகத் தொடங்கியது; இளம் தளிரைச் சுற்றி வண்ண மலர்களும் புற்களும் கண்விழித்தன! பறவைகள் தங்களின் கூடுகளிலிருந்து வெளியே வந்து இன்சுவைக் கீதங்களை இசைத்தன.\n    \nஒற்றைத் தளிரின் அசைக்க முடியாத நம்பிக்கையே உலகத்தின் கொடும் பனியை உடைத்து, பேரழகான வசந்த காலத்தைக் கண்முன்னே கொண்டுவந்து சேர்த்தது.",
+  "moral": "துன்பங்களும் இடர்பாடுகளும் எவ்வளவு கொடூரமாகச் சூழ்ந்தாலும், நெஞ்சில் துளிர்க்கும் சிறிய நம்பிக்கை ஒளி புதிய வாழ்வின் வசந்தத்தைக் கொண்டுவரும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Young Green Leaf illustration from the Hans Christian Andersen collection.",
   "word_count": 228,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Young Green Leaf\"?",
+      "question": "உறைந்த பனியைத் துளைத்துக் கொண்டு முதலில் வெளியே வந்தது எது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஒரு சின்னஞ்சிறு இளம்பச்சைக் கொழுந்து",
+        "ஒரு பெரிய மரம்",
+        "ஒரு பாறை",
+        "ஒரு நரி"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "ஒரு சின்னஞ்சிறு இளம்பச்சைக் கொழுந்து",
+      "hint": "வசந்தத்தின் முதல் தூதுவனை நினையுங்கள்.",
+      "explanation": "பனிக்காலத்தின் முடிவில் இளம் பச்சைக் கொழுந்து பனியைத் துளைத்துக் கொண்டு தைரியமாக முளைத்தது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "வடகாற்றின் எச்சரிக்கைக்கு இளம் தளிர் என்ன பதில் கூறியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "சூரியனைப் பார்த்து வசந்தத்தின் செய்தியை உலகிற்கு அறிவிக்க வந்துள்ளேன் என்றது",
+        "மண்ணுக்குள் மீண்டும் பதுங்கியது",
+        "பயந்து அழுதது",
+        "காற்றோடு சண்டையிட்டது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "சூரியனைப் பார்த்து வசந்தத்தின் செய்தியை உலகிற்கு அறிவிக்க வந்துள்ளேன் என்றது",
+      "hint": "தளிரின் அஞ்சாத நம்பிக்கை வார்த்தைகளை நினையுங்கள்.",
+      "explanation": "இயற்கை அன்னையின் அருளோடு சூரியனைப் பார்த்து வசந்தத்தை அழைக்க வந்துள்ளதாகத் தளிர் கூறியது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனித வாழ்விற்குப் புகட்டும் பாடம் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "துன்பங்கள் சூழ்ந்தாலும் உள்ளத்தில் இருக்கும் சிறிய நம்பிக்கை ஒளி புதிய விடியலைக் கொண்டுவரும்",
+        "குளிர்காலத்தில் வீட்டை விட்டு வெளியேறக் கூடாது",
+        "இலைகளைப் பறிக்க வேண்டும்",
+        "பனிக்கட்டி கரையவே கரையாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "துன்பங்கள் சூழ்ந்தாலும் உள்ளத்தில் இருக்கும் சிறிய நம்பிக்கை ஒளி புதிய விடியலைக் கொண்டுவரும்",
+      "hint": "நம்பிக்கையின் தளராத வலிமையை நினையுங்கள்.",
+      "explanation": "ஒரு சிறிய தளிரின் தைரியம் ஒட்டுமொத்தப் பனியையும் போக்கி வசந்தத்தை மீட்டது போல் மனித நம்பிக்கையும் விடியலைத் தரும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "இளம்பச்சைக்",
+      "meaning": "முதன்முதலில் துளிர்த்து வரும் மென்மையான புதிய பச்சைப் பருவத்து இலை",
+      "gloss": "tender green, fresh sprout"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "வடகாற்று",
+      "meaning": "குளிர்காலத்தில் வடதிசையிலிருந்து வீசும் கடுங்குளிர்க் காற்று",
+      "gloss": "north wind, chilly gale"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "பொன்னொளிக்",
+      "meaning": "தங்கத்தைப் போல் மினுமினுக்கும் பிரகாசமான சூரிய ஒளிக் கதிர்கள்",
+      "gloss": "golden light rays"
+    },
+    {
+      "word": "அசைக்க முடியாத",
+      "meaning": "எந்த ஒரு கொடிய சூழலாலும் மாற்ற இயலாத திடமான",
+      "gloss": "unshakeable, steadfast"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Young Green Leaf\"?"
+      "tier": "remembering",
+      "prompt": "இளம் தளிரை அச்சுறுத்தி எச்சரித்த காற்று எது?",
+      "type": "remembering",
+      "question": "இளம் தளிரை அச்சுறுத்தி எச்சரித்த காற்று எது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "இளம் தளிருக்குச் சூரியக் கதிர்கள் எவ்வாறு துணை நின்றன என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "இளம் தளிருக்குச் சூரியக் கதிர்கள் எவ்வாறு துணை நின்றன என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "தோல்விகளும் அவநம்பிக்கைகளும் சூழும்போது நாம் நமது உள்ளத்தில் நம்பிக்கைத் தளிரை எவ்வாறு வளர்த்தெடுக்க வேண்டும்?",
+      "type": "applying",
+      "question": "தோல்விகளும் அவநம்பிக்கைகளும் சூழும்போது நாம் நமது உள்ளத்தில் நம்பிக்கைத் தளிரை எவ்வாறு வளர்த்தெடுக்க வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "கொடிய பனிக்கும் மென்மையான தளிருக்கும் இடையேயான போராட்டத்தின் உருவகப் பொருளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "கொடிய பனிக்கும் மென்மையான தளிருக்கும் இடையேயான போராட்டத்தின் உருவகப் பொருளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'எதிர்ப்புகளைத் தாங்கி நிற்கும் துணிச்சலே வெற்றிக்கான திறவுகோல்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'எதிர்ப்புகளைத் தாங்கி நிற்கும் துணிச்சலே வெற்றிக்கான திறவுகோல்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "வசந்தம் மலர்ந்ததும் தளிர் ஒரு பூவாக மலர்ந்து பிற மலர்களுக்கு நல்வரவு கூறிய காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "வசந்தம் மலர்ந்ததும் தளிர் ஒரு பூவாக மலர்ந்து பிற மலர்களுக்கு நல்வரவு கூறிய காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

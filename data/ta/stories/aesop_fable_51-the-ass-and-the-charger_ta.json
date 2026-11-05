@@ -2,12 +2,12 @@
   "id": "aesops-fables-51-the-ass-and-the-charger",
   "slug": "aesops-fables-51-the-ass-and-the-charger",
   "language": "ta",
-  "title": "The Ass and the Charger",
+  "title": "போர்க்குதிரையும் சுமைக்கழுதைகளும் – வீழ்ந்த ஆணவம்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "An ass trudging under heavy sacks of firewood met a magnificent warhorse bedecked with polished steel armor, flowing silk banners, and jingling silver bridles. The charger pranced...",
+  "summary": "விறகுச் சுமைகளைச் சுமந்து சென்ற எளிய கழுதையை ஏளனம் செய்த பளபளக்கும் போர்க்குதிரை, போரில் காயமடைந்து கால்கள் முடமாகிச் சாணக்குப்பையைச் சுமக்க நேர்ந்தபோது தன் செருக்கை இழந்த கதை.",
   "keywords": [
     "aesop's fables",
     "the ass and the charger",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the sunlit pastures of ancient Greece, where olive groves swayed gently against the mountain breeze, An ass trudging under heavy sacks of firewood met a magnificent warhorse bedecked with polished steel armor, flowing silk banners, and jingling silver bridles. The charger pranced.... The creatures of the field went about their daily lives according to their nature, each seeking their own advantage while keeping a vigilant watch over friends and foes alike.\n\nAs the hours passed, an unexpected turning point arose that tested their wits and character. A tense confrontation soon arose as rival desires crossed paths under the midday sun. Words were exchanged with cautious cunning, glances were measured, and each party sought to disguise their true intentions behind a veil of outward innocence.\n\nYet the timeless laws of nature cannot be deceived by clever words or false appearances. Natural instincts and sharp wits collided, bringing the trial to an immediate, decisive climax.  The outcome was swift and irreversible, leaving behind a lasting lesson for all who witnessed the event, proving that the glittering honors of high office carry mortal perils that humble peace escapes.",
-  "moral": "The glittering honors of high office carry mortal perils that humble peace escapes.",
+  "full_text": "விறகு மூட்டைகளைச் சுமந்துகொண்டு பாதையில் மெதுவாகச் சென்றுகொண்டிருந்தது ஒரு பரம ஏழைக் கழுதை. அப்போது எதிரே மின்னும் இரும்புக்கவசம் பூண்டு, பட்டுப் பதாகைகள் அசைய, வெள்ளிச் சலங்கைகள் ஒலிக்க ஒரு கம்பீரமான போர்க்குதிரை பாய்ந்து வந்தது. அரசனின் படைத்தளபதி அதன் மீது சவாரி செய்துகொண்டிருந்தான்.\n\nகுதிரை தன் பாதாளக் குளம்புகளால் தரையை உதைத்து, செருக்கோடு கனைத்தது. \"பாதையை விட்டு விலகி நில், கேவலமான கழுதையே! என் வழிக்குக் குறுக்கே வந்தால் உன்னை என் கால்களால் மிதித்துச் சாகடிப்பேன்!\" என்று ஆணவத்தோடு பிளிறியது. பயந்துபோன கழுதை முட்புதருக்குள் ஒதுங்கி நின்று அதற்குப் பாதை விட்டது. \"என்னே இதன் பெருமை! நான் மட்டும் ஏன் இப்படி விறகு சுமக்கும் அற்பப் பிறவியாகப் பிறந்தேன்?\" என்று கழுதை ஏங்கியது.\n\nசில மாதங்கள் கடந்தன. நாட்டில் ஒரு கொடிய போர் மூண்டது. அந்தப் போர்க்குதிரை போர்க்களத்திற்குச் சென்றது. அங்கே எதிரிகளின் ஈட்டிகளும் அம்புகளும் அதன் உடலைத் துளைத்தன. குதிரையின் முன்னங்காலில் ஈட்டி பாய்ந்து அதன் கணுக்கால் உடைந்தது. போருக்குப் பயனற்றதாகி நொண்டி ஆனதால், படைத்தளபதி அதை ஒரு மாட்டுத் தரகனிடம் விற்றுவிட்டான்.\n\nசில நாட்களுக்குப் பின், ஆலைச் செக்கில் அழுக்குச் சாக்குகளையும் சாணத்தையும் முதுகில் சுமந்துகொண்டு, புண்கள் நிறைந்த உடலுடன் அதே குதிரை தள்ளாடி நடந்து வந்தது. அதைக் கண்ட கழுதை பெருமூச்சு விட்டது: \"அன்று நீ உன் பகட்டைக் காட்டி என்னை ஏளனம் செய்தாய்! இன்று போரின் கொடுமையால் உன் பெருமை அழிந்து என் நிலைக்குத் தள்ளப்பட்டுவிட்டாய்! அமைதியான எளிய வாழ்வே ஆயிரம் மடங்கு மேலானது!\" என்று கூறியது.",
+  "moral": "உயர் பதவிகளும் அதிகாரப் பகட்டுகளும் நிரந்தரமானவை அல்ல; அமைதியான எளிய வாழ்வே பாதுகாப்பானது.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Ass and the Charger illustration from the Aesop's Fables collection.",
   "word_count": 186,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Ass and the Charger\"?",
+      "question": "பாதையில் எதிரே வந்த போர்க்குதிரை கழுதையை எவ்வாறு மிரட்டியது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "உனக்கு உணவு தருகிறேன் என்றது",
+        "விலகி நில், இல்லாவிட்டால் கால்களால் மிதித்துக் கொல்வேன் என்றது",
+        "என்னோடு ஓடி வா என்றது",
+        "அமைதியாகக் கடந்து சென்றது"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "விலகி நில், இல்லாவிட்டால் கால்களால் மிதித்துக் கொல்வேன் என்றது",
+      "explanation": "தன்னைப் பார்த்துப் பயந்து விலகி நிற்காவிட்டால் மிதித்துச் சாகடிப்பேன் என்று குதிரை ஆணவத்தோடு மிரட்டியது.",
+      "answerIndex": 1,
+      "hint": "தன்னைப் பார்த்துப் பயந்து விலகி நிற்காவிட்டால் மிதித்துச் சாகடிப்பேன் என்று குதிரை ஆணவத்தோடு மிரட்டியது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "போர்க்களத்தில் அந்தக் குதிரைக்கு என்ன நேர்ந்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "வெற்றிப் பதக்கம் பெற்றது",
+        "முன்னங்காலில் ஈட்டி பாய்ந்து நொண்டி ஆனது",
+        "காட்டுக்குள் தப்பியோடியது",
+        "மன்னனின் பரிசைப் பெற்றது"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "முன்னங்காலில் ஈட்டி பாய்ந்து நொண்டி ஆனது",
+      "explanation": "போரில் எதிரிகளின் ஈட்டி பாய்ந்து கணுக்கால் உடைந்ததால் அது நொண்டியாக மாறியது.",
+      "answerIndex": 1,
+      "hint": "போரில் எதிரிகளின் ஈட்டி பாய்ந்து கணுக்கால் உடைந்ததால் அது நொண்டியாக மாறியது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இறுதியில் குதிரையின் நிலையைப் பார்த்த கழுதை என்ன பாடம் உணர்ந்தது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "குதிரை தப்பித்தது என்று எண்ணியது",
+        "அதிகாரப் பகட்டுகளை விட அமைதியான எளிய வாழ்வே பாதுகாப்பானது என்று உணர்ந்தது",
+        "குதிரையை மீண்டும் பயந்தது",
+        "படைக்குச் செல்ல விரும்பியது"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "அதிகாரப் பகட்டுகளை விட அமைதியான எளிய வாழ்வே பாதுகாப்பானது என்று உணர்ந்தது",
+      "explanation": "போரின் பகட்டுகளும் ஆடம்பரங்களும் அழியக்கூடியவை; அமைதியான எளிய வாழ்வே நிம்மதியானது என்பதை உணர்ந்தது.",
+      "answerIndex": 1,
+      "hint": "போரின் பகட்டுகளும் ஆடம்பரங்களும் அழியக்கூடியவை; அமைதியான எளிய வாழ்வே நிம்மதியானது என்பதை உணர்ந்தது."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பதாகைகள்",
+      "meaning": "அரசின் அடையாளச் சின்னங்கள் பொறித்த கொடிகள் (Banners / flags)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "குளம்புகளால்",
+      "meaning": "குதிரை அல்லது கால்நடைகளின் கெட்டியான கால் நகங்களால் (With hooves)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கணுக்கால்",
+      "meaning": "காலின் பாதத்திற்கு மேலே உள்ள இணைப்பு மூட்டு (Ankle joint)"
+    },
+    {
+      "word": "தள்ளாடி",
+      "meaning": "பலம் குன்றி உடலைச் சமநிலைப்படுத்த முடியாமல் தத்தளித்து (Staggering / tottering)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Ass and the Charger\"?"
+      "question": "போர்க்குதிரை எத்தகைய அலங்காரங்களுடன் மிடுக்காகப் பாய்ந்து வந்தது?",
+      "type": "Remembering"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "question": "அதிகாரமும் கர்வமும் மனிதர்களை எவ்வாறு தற்காலிகமாக மதிமயங்கச் செய்கிறது?",
+      "type": "Understanding"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "question": "செல்வாக்குமிக்க காலத்தில் பிறரை அவமதிக்காமல் அடக்கத்தோடு இருப்பதன் நன்மைகள் யாவை?",
+      "type": "Applying"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "question": "'புகழின் உச்சிக்குச் செல்பவர்கள் வீழ்ச்சியின் அபாயத்தையும் எதிர்கொள்ள வேண்டும்' என்பதை இக்கதை எவ்வாறு மெய்ப்பிக்கிறது?",
+      "type": "Evaluating"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -125,5 +131,6 @@
   "reviewed": true,
   "source": "Aesop - Public Domain",
   "license": "Public Domain",
-  "credit": "Aesop's Fables Heritage Anthology"
+  "credit": "Aesop's Fables Heritage Anthology",
+  "is_translated": true
 }

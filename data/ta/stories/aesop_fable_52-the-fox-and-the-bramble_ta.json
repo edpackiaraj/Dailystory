@@ -2,12 +2,12 @@
   "id": "aesops-fables-52-the-fox-and-the-bramble",
   "slug": "aesops-fables-52-the-fox-and-the-bramble",
   "language": "ta",
-  "title": "The Fox and the Bramble",
+  "title": "நரியும் முட்புதரும் – தவறான அடைக்கலம்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A fox, pursued closely by hounds, slipped as he leaped over a high garden hedge. Desperate to break his fall and save himself from the stony ravine below, he reached out and clampe...",
+  "summary": "வேட்டை நாய்களிடம் தப்பிக்கும் அவசரத்தில் முள்வேலியின் மீது பாய்ந்து, அதைப் பிடித்துத் தொங்கியதால் கால்களில் முட்கள் குத்தி ரத்தம் வடிந்து தவித்த நரியும் முட்புதரின் எச்சரிக்கையும்.",
   "keywords": [
     "aesop's fables",
     "the fox and the bramble",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the sunlit pastures of ancient Greece, where olive groves swayed gently against the mountain breeze, A fox, pursued closely by hounds, slipped as he leaped over a high garden hedge. Desperate to break his fall and save himself from the stony ravine below, he reached out and clampe.... The creatures of the field went about their daily lives according to their nature, each seeking their own advantage while keeping a vigilant watch over friends and foes alike.\n\nAs the hours passed, an unexpected turning point arose that tested their wits and character. A tense confrontation soon arose as rival desires crossed paths under the midday sun. Words were exchanged with cautious cunning, glances were measured, and each party sought to disguise their true intentions behind a veil of outward innocence.\n\nYet the timeless laws of nature cannot be deceived by clever words or false appearances. Natural instincts and sharp wits collided, bringing the trial to an immediate, decisive climax.  The outcome was swift and irreversible, leaving behind a lasting lesson for all who witnessed the event, proving that it is foolish to seek refuge in what is naturally armed to hurt whatever touches it.",
-  "moral": "It is foolish to seek refuge in what is naturally armed to hurt whatever touches it.",
+  "full_text": "ஒரு தந்திர நரியை வேட்டை நாய்கள் துரத்திக் கொண்டு வெறித்தனமாக ஓடி வந்தன. நாய்களின் குரைப்பொலி நெருங்க நெருங்க, நரி தன் உயிரைக் காக்கக் குறுக்கும் நெடுக்குமாக ஓடியது. வழியில் ஒரு தோட்டத்தின் உயர்ந்த சுவரைக் கண்டது. ஒரே தாவலில் அந்தச் சுவரைத் தாண்ட முயன்ற போது, அதன் கால் சறுக்கிப் பாறைப் பள்ளத்தில் விழப் பார்த்தது.\n\nகீழே விழுந்தால் எலும்புகள் முறிந்துவிடும் என்ற அவசரத்தில், சுவரோரமாகப் படர்ந்திருந்த ஒரு முட்புதரின் கிளையைத் தன் இரு முன்னங்கால்களாலும் நரி கெட்டியாகப் பற்றிக்கொண்டது. ஆனால் அந்தப் புதரில் இருந்த கொடிய முட்கள் நரியின் உள்ளங்கால்களையும் சதையையும் ஆழமாகக் குத்திக் கிழித்தன. நரியின் கால்களிலிருந்து ரத்தம் பீறிட்டு வழிந்தது.\n\nதாங்க முடியாத வலியால் நரி அலறியது: \"ஐயோ முட்புதரே! நான் உன்னை ஒரு நண்பனாகக் கருதி, உயிரைக் காக்க அடைக்கலம் அடைந்தேன்; ஆனால் நீயோ என்னை இப்படிக் குத்திக் குதறிவிட்டாயே! என்ன ஒரு கொடுமை!\" என்று புலம்பியது.\n\nஅதைக் கேட்ட முட்புதர் அமைதியாகக் கூறியது: \"முட்டாள் நரியே! என் மீது கைவைத்த உன்னைத்தான் முட்டாள் என்று சொல்ல வேண்டும்! தன்னைத் தொடும் அனைவரையுமே குத்திக் காயப்படுத்துவதே என் பிறவி சுபாவம் என்பது உனக்குத் தெரியாதா? இயல்பிலேயே முட்கள் நிறைந்த என்னிடம் போய் உதவி தேடினால் காயம் படாமல் வேறு என்ன கிடைக்கும்?\" என்றது. விவேகமின்றி ஆபத்தான இடத்தில் தஞ்சம் அடைந்த தன் முட்டாள்தனத்தை எண்ணி நரி நொந்து கொண்டது.",
+  "moral": "இயல்பிலேயே பிறரைக் குத்திக் காயப்படுத்தும் சுபாவம் கொண்டவர்களிடம் உதவி அல்லது அடைக்கலம் தேடுவது மேலும் துன்பத்திற்கே வழிவகுக்கும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Fox and the Bramble illustration from the Aesop's Fables collection.",
   "word_count": 195,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Fox and the Bramble\"?",
+      "question": "நரி எதற்கு அஞ்சி ஓடி வந்து சுவரில் தாவியது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "வேட்டை நாய்களின் துரத்தலுக்கு அஞ்சி",
+        "சிங்கத்தைக் கண்டு",
+        "மழையைக் கண்டு",
+        "வேடனின் அம்பைக் கண்டு"
       ],
+      "answer": "வேட்டை நாய்களின் துரத்தலுக்கு அஞ்சி",
+      "explanation": "வேட்டை நாய்கள் துரத்தி வந்ததால் நரி உயிரைக் காக்கச் சுவரில் தாவியது.",
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "வேட்டை நாய்கள் துரத்தி வந்ததால் நரி உயிரைக் காக்கச் சுவரில் தாவியது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "சுவரிலிருந்து விழாமல் இருக்க நரி எதனைப் பற்றிக்கொண்டது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "மரக்கிளையை",
+        "சுவரோரமாகப் படர்ந்திருந்த முட்புதரை",
+        "கயிற்றை",
+        "பாறையை"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "சுவரோரமாகப் படர்ந்திருந்த முட்புதரை",
+      "explanation": "கீழே விழாமல் இருக்கச் சுவரோரம் இருந்த முட்புதரின் கிளையைப் பற்றிக்கொண்டது.",
+      "answerIndex": 1,
+      "hint": "கீழே விழாமல் இருக்கச் சுவரோரம் இருந்த முட்புதரின் கிளையைப் பற்றிக்கொண்டது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "நரியின் குற்றச்சாட்டுக்கு முட்புதர் என்ன பதில் கூறியது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "மன்னிப்பு கேட்டது",
+        "தொடும் அனைவரையும் காயப்படுத்துவதே என் பிறவி சுபாவம், என்னிடம் அடைக்கலம் புகுந்தது உன் முட்டாள்தனம் என்றது",
+        "நாய்களைத் துரத்துவேன் என்றது",
+        "மருந்து போடுகிறேன் என்றது"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "தொடும் அனைவரையும் காயப்படுத்துவதே என் பிறவி சுபாவம், என்னிடம் அடைக்கலம் புகுந்தது உன் முட்டாள்தனம் என்றது",
+      "explanation": "தன்னைத் தொடும் எவரையும் குத்துவதே தன் சுபாவம் என்றும் தன்னிடம் அடைக்கலம் தேடியதே தவறு என்றும் முட்புதர் கூறியது.",
+      "answerIndex": 1,
+      "hint": "தன்னைத் தொடும் எவரையும் குத்துவதே தன் சுபாவம் என்றும் தன்னிடம் அடைக்கலம் தேடியதே தவறு என்றும் முட்புதர் கூறியது."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "வெறித்தனமாக",
+      "meaning": "கட்டுக்கடங்காத வெறியுடன் மூர்க்கமாக (Furiously / frantically)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "முட்புதரின்",
+      "meaning": "முட்கள் நிறைந்த அடர்ந்த காட்டுச் செடியின் (Of the thorny bramble bush)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "சுபாவம்",
+      "meaning": "இயற்கையான குணம் அல்லது பிறவிப் பண்பு (Inherent nature / character)"
+    },
+    {
+      "word": "தஞ்சம்",
+      "meaning": "பாதுகாப்பிற்காகத் தஞ்சம் அடைதல் அல்லது புகலிடம் (Refuge / shelter)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Fox and the Bramble\"?"
+      "question": "சுவரில் தாவிய போது நரிக்கு ஏற்பட்ட உடனடி விபத்து யாது?",
+      "type": "Remembering"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "question": "இயல்பிலேயே கொடூர குணம் கொண்டவர்களிடம் நட்பு பாராட்டுவது எத்தகைய இன்னல்களை விளைவிக்கும்?",
+      "type": "Understanding"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "question": "அவசரக் காலகட்டங்களில் தவறான நபர்களிடம் உதவி கேட்டு ஏமாறாமல் இருக்க நாம் எவ்வாறு விழிப்புடன் இருக்க வேண்டும்?",
+      "type": "Applying"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "question": "முட்புதரின் வாதம் இயற்கை விதிகளின் அடிப்படையில் நியாயமானதா? ஆராய்க.",
+      "type": "Evaluating"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -125,5 +131,6 @@
   "reviewed": true,
   "source": "Aesop - Public Domain",
   "license": "Public Domain",
-  "credit": "Aesop's Fables Heritage Anthology"
+  "credit": "Aesop's Fables Heritage Anthology",
+  "is_translated": true
 }

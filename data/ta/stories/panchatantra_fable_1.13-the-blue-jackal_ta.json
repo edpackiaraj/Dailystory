@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Blue Jackal\"?",
+      "question": "நாய்களுக்குப் பயந்து ஊருக்குள் ஓடிய நரி எதில் விழுந்து தன் நிறத்தை மாற்றிக்கொண்டது?",
       "options": [
-        "Wisdom, patience, and kind conduct lead to peace and happiness.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "சாயப் பட்டறையில் இருந்த நீலச் சாயத் தொட்டிக்குள் தலைகீழாக விழுந்தது",
+        "சேற்று வயலில் விழுந்தது",
+        "சாம்பல் குவியலில் விழுந்தது",
+        "பச்சை வண்ண ஆற்றுக்குள் குதித்தது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "நரியை நீல நிறமாக மாற்றிய சாயத் தொட்டியை நினைவுகூருங்கள்.",
+      "answer": "சாயப் பட்டறையில் இருந்த நீலச் சாயத் தொட்டிக்குள் தலைகீழாக விழுந்தது",
+      "explanation": "நரியை நீல நிறமாக மாற்றிய சாயத் தொட்டியை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "நீல நிறத்தோடு காட்டுக்குத் திரும்பிய நரி மற்ற விலங்குகளை ஏமாற்றி என்ன கூறியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "\"கடவுள் என்னை உங்கள் அனைவருக்கும் ராஜாவாகப் படைத்து அனுப்பியுள்ளார்\" என்று பொய் கூறியது",
+        "\"நான் வேடர்களைக் கொன்றுவிட்டேன்\" என்றது",
+        "\"நான் காட்டை விட்டு வெளியேறப் போகிறேன்\" என்றது",
+        "\"எனக்கு நாள்தோறும் பழங்கள் மட்டுமே கொடுங்கள்\" என்றது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "கடவுளின் தூதன் எனப் பொய் சொல்லி ஏமாற்றிய நரியை யோசியுங்கள்.",
+      "answer": "\"கடவுள் என்னை உங்கள் அனைவருக்கும் ராஜாவாகப் படைத்து அனுப்பியுள்ளார்\" என்று பொய் கூறியது",
+      "explanation": "கடவுளின் தூதன் எனப் பொய் சொல்லி ஏமாற்றிய நரியை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "நீல நரியின் போலி நாடகம் காட்டில் எவ்வாறு அம்பலமானது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "பௌர்ணமி இரவில் தூரத்து நரிகள் ஊளையிட்ட சத்தத்தைக் கேட்டு, தன் இயல்பான குணத்தை அடக்க முடியாமல் தானும் ஊளையிட்டுக் காட்டிக்கொடுத்தது",
+        "மழையில் நனைந்து சாயம் வெளுத்துப் போனது",
+        "சிங்கம் அதன் வாலைப் பிடித்து இழுத்தது",
+        "ஒரு நாய் காட்டுக்குள் வந்து அடையாளம் காட்டியது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "தன் இயற்கை சுபாவமான ஊளையை அடக்க முடியாமல் நரி செய்த தவறை எண்ணிப்பாருங்கள்.",
+      "answer": "பௌர்ணமி இரவில் தூரத்து நரிகள் ஊளையிட்ட சத்தத்தைக் கேட்டு, தன் இயல்பான குணத்தை அடக்க முடியாமல் தானும் ஊளையிட்டுக் காட்டிக்கொடுத்தது",
+      "explanation": "தன் இயற்கை சுபாவமான ஊளையை அடக்க முடியாமல் நரி செய்த தவறை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Pandit Vishnu Sharma (~200 BCE – 300 CE)",
@@ -79,30 +85,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "சாயத்தொட்டி",
-      "meaning": "துணிகளுக்கு வண்ணம் தீட்ட பயன்படும் திரவத் தொட்டி"
+      "word": "நீலச்",
+      "meaning": "துணிகளுக்கு வண்ணமேற்றத் தொட்டியில் வைக்கப்பட்டிருந்த நீல நிறச் சாயக் கரைசல்"
     },
     {
-      "word": "சுபாவம்",
-      "meaning": "பிறப்பிலேயே அமைந்த இயற்கையான குணம்"
+      "word": "சண்டாரவன்",
+      "meaning": "சண்டாரவன் என்ற சொல்லின் சூழல் பொருள் (Signifies சண்டாரவன் in the context of the story)"
     },
     {
-      "word": "போலி வேடம்",
-      "meaning": "உண்மையை மறைத்து போலியாக அணியும் தோற்றம்"
+      "word": "இயற்கையான",
+      "meaning": "எத்தனை வேடம் போட்டாலும் மறைக்க முடியாத உயிரினத்தின் பிறவிக் குணம்"
+    },
+    {
+      "word": "ஊளையிட்டது",
+      "meaning": "இரவு நேரத்தில் நரிகள் வானத்தைப் பார்த்துக் கூட்டமாக எழுப்பும் நீண்ட அலறல் ஒலி"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "நரி எப்படி நீல நிறமாக மாறியது?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "நீல நரி ராஜாவானதும் உண்மையான நரிக் கூட்டத்தை என்ன செய்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "நீல நரியின் ரகசியம் மற்ற விலங்குகளுக்கு எப்படித் தெரிந்தது?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "போலி வேடமும் தற்காலிகப் பகட்டும் ஏன் ஒருபோதும் நிரந்தர வெற்றியைத் தராது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "நமது சுய அடையாளத்தை மறைக்காமல் உண்மையோடு வாழ்வது ஏன் முக்கியம்?"
+      "tier": "பயன்பாடு",
+      "prompt": "மற்றவர்களை ஏமாற்றப் போலி அடையாளங்களை அணிபவர்கள் இறுதியில் எவ்வாறு வெளிப்படுகிறார்கள்?"
+    },
+    {
+      "tier": "சிந்தனை",
+      "prompt": "\"சுபாவத்தை மாற்ற முடியாது\" என்பதற்கு நீல நரியின் செயல் எவ்வாறு உலகப் புகழ்பெற்ற பாடமாக அமைந்தது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

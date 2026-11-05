@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Cook's Pot\"?",
+      "question": "யமுனை நதியின் உறைபனிக் கடும் குளிரில் இரவு முழுவதும் நின்ற ஏழைத் தொழிலாளிக்கு அக்பர் ஏன் பரிசு தர மறுத்தார்?",
       "options": [
-        "Wit beats power",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "அரண்மனை மாளிகையில் எரிந்த தொலைதூர விளக்கின் வெப்பத்தைப் பெற்றுக்கொண்டு நின்றதாகக் கூறி அற்பக் குற்றம் சாட்டினார்",
+        "அந்த ஏழை பாதியிலேயே கரையேறி ஓடிவிட்டான் என்று அமைச்சர் கூறினார்",
+        "மன்னருக்குப் பணம் தர விருப்பமில்லை",
+        "ஏழைத் தொழிலாளி அக்பரை அவமதித்துவிட்டான்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "அக்பர் சொன்ன நியாயமற்ற சாக்குபோக்கை நினைவுகூருங்கள்.",
+      "answer": "அரண்மனை மாளிகையில் எரிந்த தொலைதூர விளக்கின் வெப்பத்தைப் பெற்றுக்கொண்டு நின்றதாகக் கூறி அற்பக் குற்றம் சாட்டினார்",
+      "explanation": "அக்பர் சொன்ன நியாயமற்ற சாக்குபோக்கை நினைவுகூருங்கள்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "ஏழைக்கு நீதி கிடைக்க பீர்பால் தன் வீட்டுத் தோட்டத்தில் என்ன விநோதமான சமையலைச் செய்தார்?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "மிக உயரமான மூங்கில் கம்பத்தில் பானையைக் கட்டி, தரையில் வெகு அடியில் சிறு தீயை மூட்டி கிச்சடி சமைத்தார்",
+        "தண்ணீரே இல்லாமல் உலர்ந்த பாத்திரத்தில் சமைத்தார்",
+        "பானையைத் தலைகீழாகப் போட்டு சமைத்தார்",
+        "மண்ணைத் தோண்டி உள்ளே பானையைப் புதைத்து வைத்தார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "தூரத்து நெருப்பினால் சமைக்க முயன்ற பீர்பாலின் கிச்சடி நாடகத்தை யோசியுங்கள்.",
+      "answer": "மிக உயரமான மூங்கில் கம்பத்தில் பானையைக் கட்டி, தரையில் வெகு அடியில் சிறு தீயை மூட்டி கிச்சடி சமைத்தார்",
+      "explanation": "தூரத்து நெருப்பினால் சமைக்க முயன்ற பீர்பாலின் கிச்சடி நாடகத்தை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "இவ்வளவு தூரத்தில் எரியும் நெருப்பால் பானை எப்படிச் சூடாகும் என்று கேட்ட அக்பருக்கு பீர்பால் என்ன உணர்த்தினார்?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "மைல் தூரத்து விளக்கு மனிதனுக்கு வெப்பம் தர முடியும் என்றால், சில அடி தூரத்து நெருப்பு என் கிச்சடியைச் சமைக்கும் என்றார்",
+        "மன்னருக்குச் சமையல் கலை தெரியாது என்றார்",
+        "தான் ஒரு புதிய சமையல் முறையைக் கண்டுபிடித்ததாகக் கூறினார்",
+        "அரண்மனை உணவை விடத் தன் கிச்சடி சிறந்தது என்றார்"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "மன்னரின் தர்க்கத்தையே அவரிடம் திருப்பியடித்து ஏழைக்கு நீதி பெற்றுத் தந்ததை எண்ணுங்கள்.",
+      "answer": "மைல் தூரத்து விளக்கு மனிதனுக்கு வெப்பம் தர முடியும் என்றால், சில அடி தூரத்து நெருப்பு என் கிச்சடியைச் சமைக்கும் என்றார்",
+      "explanation": "மன்னரின் தர்க்கத்தையே அவரிடம் திருப்பியடித்து ஏழைக்கு நீதி பெற்றுத் தந்ததை எண்ணுங்கள்."
     }
   ],
   "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "கிச்சடி",
+      "meaning": "அரிசியும் பருப்பும் கலந்து சமைக்கப்படும் ஒரு சுவையான பாரம்பரிய உணவு"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "கடும்",
+      "meaning": "உடலை நடுங்க வைக்கும் அளவுக்குத் தாங்க முடியாத பனிக்குளிர்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "பனிக்காலம்",
+      "meaning": "பனிக்காலம் என்ற சொல்லின் சூழல் பொருள் (Signifies பனிக்காலம் in the context of the story)"
+    },
+    {
+      "word": "நிலவிய",
+      "meaning": "நிலவிய என்ற சொல்லின் சூழல் பொருள் (Signifies நிலவிய in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Cook's Pot\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "ஏழைத் தொழிலாளி எந்த நதியின் குளிர்ந்த நீரில் இரவு முழுவதும் நின்றான்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wit beats power\"?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "அதிகாரத்தில் இருப்பவர்கள் தங்கள் வாக்குறுதியை மீறும் போது பீர்பால் போன்றவர்கள் எவ்வாறு வழிகாட்ட வேண்டும்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "பயன்பாடு",
+      "prompt": "நாம் ஒருவருக்கு வாக்களித்தால் எவ்வித சாக்குப் போக்கும் கூறாமல் அதைக் காப்பாற்றுவது ஏன் முக்கியம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "சிந்தனை",
+      "prompt": "மன்னரின் தவறை நேரடியாகச் சுட்டிக்காட்டாமல் செயல் விளக்கம் மூலம் உணர வைத்த பீர்பாலின் பண்பு யாது?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

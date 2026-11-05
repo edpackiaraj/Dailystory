@@ -2,12 +2,12 @@
   "id": "arabian-nights-333-fifteenth-constables-history",
   "slug": "arabian-nights-333-fifteenth-constables-history",
   "language": "ta",
-  "title": "Fifteenth Constable's History",
+  "title": "பதினைந்தாம் காவல் தலைவரின் வரலாறு – தங்கக் கம்பித் தையலும் அரச தையற்கலைஞரின் ரகசிய முடிச்சும்",
   "genre": "Folktales",
   "collection": "Arabian Nights",
   "culture_region": "Middle East",
   "age_group": "Below 13",
-  "summary": "The Fifteenth Constable related:",
+  "summary": "பிரபுவின் இல்லத்திலிருந்து திருடப்பட்ட தங்க வேலைப்பாடு கொண்ட வெல்வெட் மேலங்கியை, அரச தையற்கலைஞரின் ரகசிய முடிச்சுத் தையல் கலையைக் கொண்டு கண்டுபிடித்தார் பதினைந்தாம் காவல் தலைவர்.",
   "keywords": [
     "arabian nights",
     "1001 nights",
@@ -22,8 +22,8 @@
     "classic",
     "wisdom"
   ],
-  "full_text": "The Fifteenth Constable of Cairo spoke: \"Sire, a nobleman’s residence was burglarized of an embroidered velvet coat of royal craftsmanship, trimmed with golden wire and seed pearls. Weeks passed, and the garment appeared lost forever, until an anonymous merchant was seen wearing a velvet coat of identical cut in the spice bazaar.\"\n\n\"The merchant protested indignantly, claiming he had purchased the coat lawfully from an honest merchant in Damascus and possessed witnesses to his character. I did not engage in endless arguments. I brought the coat directly to the master embroiderer of the Citadel, who had crafted garments for three generations of sultans.\"\n\n\"The master examined the golden seams with a needle and pointed out: 'This thread is twisted with the secret Citadel knot—a stitch known only to my private apprentices, using dyed silk found nowhere in Damascus!' Confronted with this undeniable craft signature, the merchant confessed he had bought the coat from a fence in the back alleys. The burglary ring was dismantled and the nobleman’s treasure returned, proving that true craftsmanship leaves an unforgeable imprint.\"",
-  "moral": "Distinctive craftsmanship identifies stolen property that has been altered to deceive.",
+  "full_text": "பதினைந்தாம் காவல் தலைவர் சுல்தான் பைபர்ஸ் முன் தோன்றித் தன் வரலாற்றைத் தெரிவித்தார்: \"அரசே! இந்நகரத்து உயர்குடிப் பிரபு ஒருவரின் மாளிகையிலிருந்து, தங்கக் கம்பிகளாலும் முத்துக்களாலும் பின்னப்பட்ட அரச கைவினைத்திறன் கொண்ட வெல்வெட் மேலங்கி ஒன்று திருடப்பட்டது. பல வாரங்கள் கழிந்தும் அது கிடைக்கவில்லை. ஒரு நாள் நறுமணப் பொருள் சந்தையில் அதே வெட்டு கொண்ட வெல்வெட் அங்கியை ஒரு வெளிநாட்டு வணிகன் அணிந்திருப்பதை மக்கள் பார்த்தனர்.\"\n\n\"அந்த வணிகன் ஆவேசத்துடன் வாதாடி, தான் அந்த அங்கியை டமாஸ்கஸின் நேர்மையான வணிகனிடம் முறைப்படி வாங்கியதாகவும், தன் நற்பெயருக்குப் பல சாட்சிகள் இருப்பதாகவும் கூறினான். நான் அவனுடன் வீண் வாக்குவாதம் செய்யவில்லை. அந்த மேலங்கியை அப்படியே கழற்றி எடுத்துக்கொண்டு, மூன்று தலைமுறை சுல்தான்களுக்கு ஆடை தைத்த கோட்டையின் தலைமைத் தையல் வல்லுநரிடம் சென்றேன்.\"\n\n\"அப்பெரியவர் ஒரு கூரிய ஊசியால் தங்கத் தையல்களை உற்றுப் பார்த்துப் புன்னகைத்தார்: 'இந்தத் தங்க இழை எங்கள் கோட்டையின் ரகசிய முடிச்சால் தைக்கப்பட்டுள்ளது! இது என் நேரடி மாணவர்களுக்கு மட்டுமே தெரிந்த தனித்துவக் கலை; மேலும் இதில் பயன்படுத்தப்பட்ட சாயம் பூசிய பட்டு நூல் டமாஸ்கஸில் எங்குமே கிடைக்காத அரிய எகிப்தியப் பட்டு!' என்றார். இந்த மறுக்க முடியாத கலைச் சான்றைக் கண்ட வணிகன், தான் சந்தின் பின்புறத் திருட்டுச் சந்தையில் வாங்கியதை ஒப்புக்கொண்டான். திருட்டுக் கும்பல் முறியடிக்கப்பட்டு அங்கி மீட்கப்பட்டது; தலைசிறந்த கைவினைத் திறன் தனக்கென ஒரு அழியாத முத்திரையைக் கொண்டிருக்கும் என்பதை இது காட்டியது.\"",
+  "moral": "உண்மையான கைவினைத் திறன் அழிக்க முடியாத தனித்துவ முத்திரையைக் கொண்டிருக்கும்; அதை எந்தத் திருடனாலும் மறைக்க முடியாது.",
   "image": "/images/stories/arabian-nights.webp",
   "image_alt": "Fifteenth Constable's History illustration from the 1001 Arabian Nights collection.",
   "word_count": 177,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central focus of \"Fifteenth Constable's History\"?",
+      "question": "பிரபுவின் மாளிகையிலிருந்து திருடப்பட்ட அங்கி எதனால் அலங்கரிக்கப்பட்டிருந்தது?",
       "options": [
-        "Seeking wisdom, patience, and solving a unique problem",
-        "Finding gold and keeping it hidden away",
-        "Leaving home forever without greeting friends",
-        "Building tall towers in the sand"
+        "வெள்ளிக் கம்பிகளால்",
+        "தங்கக் கம்பிகளாலும் முத்துக்களாலும் பின்னப்பட்ட தையல்களால்",
+        "வைரங்களால்",
+        "செம்பு மணிகளால்"
       ],
-      "answerIndex": 0,
-      "hint": "Reflect upon the moral outcome of the characters’ choices."
+      "answerIndex": 1,
+      "answer": "தங்கக் கம்பிகளாலும் முத்துக்களாலும் பின்னப்பட்ட தையல்களால்",
+      "hint": "தங்கக் கம்பி மற்றும் சிறு முத்து வேலைப்பாடு.",
+      "explanation": "அந்த வெல்வெட் மேலங்கி தங்கக் கம்பிகளாலும் முத்துக்களாலும் வேலைப்பாடு செய்யப்பட்டிருந்தது."
     },
     {
-      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "question": "அங்கி யாருடைய பிரத்தியேகத் தையல் முறையைக் கொண்டிருந்தது?",
       "options": [
-        "Thoughtfulness, patience, and integrity",
-        "Loud shouting and boastful anger",
-        "Running away from every challenge",
-        "Ignoring all wise advice"
+        "டமாஸ்கஸ் நெசவாளியின் தையல் முறை",
+        "சுல்தான் கோட்டையின் தலைமைத் தையல் வல்லுநரின் ரகசிய முடிச்சு",
+        "ரோமானியத் தையல்",
+        "பாரசீகத் தையல்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how calm reflection solves dilemmas in folktales."
+      "answerIndex": 1,
+      "answer": "சுல்தான் கோட்டையின் தலைமைத் தையல் வல்லுநரின் ரகசிய முடிச்சு",
+      "hint": "மூன்று தலைமுறை சுல்தான்களுக்குத் தைத்த கலைஞரின் பாணி.",
+      "explanation": "அங்கி கோட்டையின் தலைமைத் தையல் கலைஞரின் ரகசிய முடிச்சுத் தையல் கலையைக் கொண்டிருந்தது."
     },
     {
-      "question": "What memorable lesson does this story impart to listeners?",
+      "question": "வணிகன் அந்த அங்கியை எங்கே வாங்கியதாக இறுதியாக ஒப்புக்கொண்டான்?",
       "options": [
-        "Integrity and keeping one’s word build enduring trust across all borders.",
-        "Never listen to advice from elders",
-        "Always act hastily without planning",
-        "Words spoken in anger cause no harm"
+        "அரச சந்தையில்",
+        "பின்புறத் திருட்டுச் சந்தையில்",
+        "கப்பலில்",
+        "நண்பனிடம்"
       ],
-      "answerIndex": 0,
-      "hint": "Look closely at the story’s moral."
+      "answerIndex": 1,
+      "answer": "பின்புறத் திருட்டுச் சந்தையில்",
+      "hint": "சந்தின் பின்புறத்தில் கள்ளத்தனமாக விற்ற சந்தை.",
+      "explanation": "அவன் சந்தின் பின்புறத் திருட்டுச் சந்தையில் கள்ளத்தனமாக வாங்கியதை ஒப்புக்கொண்டான்."
     }
   ],
   "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
@@ -77,38 +83,62 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "caliph",
-      "meaning": "a sovereign leader or ruler in historical Islamic states"
+      "word": "மேலங்கியை",
+      "meaning": "உடலின் மேல் அணியப்படும் நீண்ட கோட்டு போன்ற ஆடையை",
+      "gloss": "overcoat / royal robe"
     },
     {
-      "word": "vizier",
-      "meaning": "a high-ranking minister or trusted counselor"
+      "word": "வெல்வெட்",
+      "meaning": "மென்மையான பளபளப்பான பட்டு வகை ஆடை",
+      "gloss": "velvet fabric"
     },
     {
-      "word": "hospitality",
-      "meaning": "the friendly and generous reception and entertainment of guests"
+      "word": "முடிச்சால்",
+      "meaning": "நூல்களை இணைத்துக் கட்டப்படும் தனித்துவ முடிச்சு முறையால்",
+      "gloss": "by knot / secret stitch"
+    },
+    {
+      "word": "தையல்களை",
+      "meaning": "ஊசியால் தைக்கப்பட்ட நூல் தையல் வரிகளை",
+      "gloss": "stitches / seams"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What initial challenge or mystery sets the story of \"Fifteenth Constable's History\" into motion?"
+      "tier": "remembering",
+      "prompt": "வணிகன் அந்த அங்கியை எந்த ஊரில் வாங்கியதாக முதலில் பொய் கூறினான்?",
+      "type": "remembering",
+      "question": "வணிகன் அந்த அங்கியை எந்த ஊரில் வாங்கியதாக முதலில் பொய் கூறினான்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+      "tier": "understanding",
+      "prompt": "கைவினைஞர்களின் தனித்துவமான வேலைப்பாடு ஒரு பொருளின் மூலத்தைக் கண்டறிய எவ்வாறு உதவுகிறது?",
+      "type": "understanding",
+      "question": "கைவினைஞர்களின் தனித்துவமான வேலைப்பாடு ஒரு பொருளின் மூலத்தைக் கண்டறிய எவ்வாறு உதவுகிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+      "tier": "applying",
+      "prompt": "நவீன பிராண்டட் தயாரிப்புகளின் அசல் தன்மையை உறுதி செய்யும் குறியீடுகளோடு இக்கதையை எவ்வாறு ஒப்பிடலாம்?",
+      "type": "applying",
+      "question": "நவீன பிராண்டட் தயாரிப்புகளின் அசல் தன்மையை உறுதி செய்யும் குறியீடுகளோடு இக்கதையை எவ்வாறு ஒப்பிடலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+      "tier": "analyzing",
+      "prompt": "வீண் வாக்குவாதங்களைத் தவிர்த்து நிபுணர்களின் தொழில்நுட்ப அறிவை நாடிய காவல் தலைவரின் அணுகுமுறையை ஆராய்க.",
+      "type": "analyzing",
+      "question": "வீண் வாக்குவாதங்களைத் தவிர்த்து நிபுணர்களின் தொழில்நுட்ப அறிவை நாடிய காவல் தலைவரின் அணுகுமுறையை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+      "tier": "evaluating",
+      "prompt": "பொருட்களின் ரகசிய உற்பத்தி முறைகள் பாதுகாப்பு மற்றும் உரிமையைப் பாதுகாக்க எத்தகைய பங்காற்றுகின்றன?",
+      "type": "evaluating",
+      "question": "பொருட்களின் ரகசிய உற்பத்தி முறைகள் பாதுகாப்பு மற்றும் உரிமையைப் பாதுகாக்க எத்தகைய பங்காற்றுகின்றன?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "ஒரு பாரம்பரியக் கைவினைப் பொருளின் அடையாளக் குறியீடுகளைப் பாதுகாப்பதற்கான பதிப்புரிமைப் பரிந்துரையை வரைக.",
+      "type": "creating",
+      "question": "ஒரு பாரம்பரியக் கைவினைப் பொருளின் அடையாளக் குறியீடுகளைப் பாதுகாப்பதற்கான பதிப்புரிமைப் பரிந்துரையை வரைக."
     }
   ],
   "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",

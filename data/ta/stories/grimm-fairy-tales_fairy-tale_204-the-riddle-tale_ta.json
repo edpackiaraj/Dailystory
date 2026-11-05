@@ -2,12 +2,12 @@
   "id": "grimm-fairy-tales-204-the-riddle-tale",
   "slug": "grimm-fairy-tales-204-the-riddle-tale",
   "language": "ta",
-  "title": "The Riddle Tale",
+  "title": "புல்வெளி மலர்களும் கணவனின் புதிரும் – உண்மை அன்பின் அடையாளம்",
   "genre": "Fairy Tales",
   "collection": "Grimm Fairy Tales",
   "culture_region": "German Folklore / European",
   "age_group": "Below 13",
-  "summary": "Three women were turned into wild flowers growing in a meadow: two were red poppies and the third was a blue cornflower....",
+  "summary": "சூனியக்காரியின் சாபத்தால் புல்வெளி மலர்களாக மாறிய மூன்று பெண்களில், இரவு மட்டும் வீட்டிற்கு வந்து செல்லும் தன் மனைவியைப் பனித்துளி படராத தன்மையைக் கொண்டு சரியாக அடையாளம் கண்ட கணவனின் கதை.",
   "keywords": [
     "grimm fairy tales",
     "the riddle tale",
@@ -22,11 +22,11 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "Three women were turned into wild flowers growing in a meadow: two were red poppies and the third was a blue cornflower.\n\nOne of the women was permitted to return home to her husband every night under cover of darkness, provided she returned to the meadow before sunrise and transformed back into a flower among her sisters.\n\nWhen morning dawned and the sun rose over the meadow, her husband walked out to find her and break the enchantment. He looked at the three flowers standing side by side in the morning dew, identified his true wife without hesitation, and brought her safely home!\n\nHow could the husband recognize her when the three flowers looked completely identical?\n\nThe answer is simple: because she had spent the night inside their warm cottage and had only returned to the meadow at dawn, there was no morning dew upon her petals, while the other two flowers were soaked in frost and dew! He plucked the dry blossom, and the loving wife returned to her human form forever.",
-  "moral": "Quick wits and playful riddles turn ordinary chores into delightful amusement.",
+  "full_text": "ஒரு விசித்திர காட்டின் எல்லையில் வசித்து வந்த ஒரு தீய சூனியக்காரி, மூன்று அப்பாவி இளம்பெண்களைச் சபித்து அவர்களைப் புல்வெளியில் பூக்கும் காட்டு மலர்களாக உருமாற்றினாள்; அவர்களில் இருவர் செந்நிறப் பாப்பி மலர்களாகவும், மூன்றாமவள் ஒரு நீல நிறக் காட்டு மலராகவும் மாறினர். அவர்களில் ஒரு பெண் மட்டும், தன் அன்புக் கணவனைப் பிரிந்து வாழ முடியாமல், இரவு நேரத்தில் மட்டும் தன் மனித உருவை மீண்டும் பெற்று வீட்டிற்குச் சென்று தன் கணவனுடன் வாழ்ந்துவிட்டு விடிவதற்குள் புல்வெளிக்குத் திரும்பி மலராக மாறினாள்.\n\nஒருநாள் விடியற்காலையில் அவள் தன் கணவனிடம் விடைபெறும் போது, \"அன்பரே, இன்று நண்பகலில் நீங்கள் அந்தப் புல்வெளிக்கு வந்து, என்னைச் சரியாக அடையாளம் கண்டு என் மலரைப் பறித்தால், நான் மீண்டும் நிரந்தரமாக மனித உருவம் பெற்று உங்களுடன் வாழ்வேன்; தவறினால் நான் எப்போதும் மலராகவே இருக்க வேண்டும்!\" என்று விசித்திரப் புதிர் கூறினாள்.\n\nகணவன் நண்பகலில் புல்வெளிக்குச் சென்றான்; அங்கே ஒரே தோற்றத்தில் நூற்றுக்கணக்கான செந்நிற மற்றும் நீல மலர்கள் பூத்துக் குலுங்கின; ஆனால் அவன் சற்றும் தயங்காமல் தன் மனைவியின் மலரைச் சரியாக அடையாளம் கண்டு பறித்தான்! அவனது நுணுக்கமான கவனிப்பால் வியந்த சூனியக்காரி, \"இதை எப்படித் துல்லியமாகக் கண்டுபிடித்தாய்?\" என்று கேட்டாள்; அவன் புன்னகையோடு, \"மற்ற அனைத்து மலர்களின் மீதும் காலைப் பனித்துளிகள் படிந்திருந்தன; ஆனால் என் மனைவி இரவில் என்னுடன் வீட்டில் தங்கியிருந்ததால் அவள் மீது மட்டும் பனித்துளி படரவே இல்லை!\" என்று கூறினான். சாபம் நீங்கி இருவரும் மகிழ்வோடு இணைந்தனர். தர்மம் நிலைத்தது.",
+  "moral": "நுணுக்கமான கவனிப்பும் ஆழ்ந்த அன்பும் எத்தகைய மாயத் திரைகளையும் விடுத்து உண்மைத் துணையைத் துல்லியமாக அடையாளம் காட்டும்.",
   "image": "/images/stories/cinderella.webp",
   "image_alt": "The Riddle Tale illustration from the Grimm Fairy Tales collection.",
-  "word_count": 173,
+  "word_count": 165,
   "reading_time": "2 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,40 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Riddle Tale\"?",
+      "question": "சூனியக்காரி பெண்களை என்னவாக உருமாற்றினாள்?",
       "options": [
-        "Presence of mind and quiet wisdom triumph over brute strength.",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "புல்வெளியில் பூக்கும் காட்டு மலர்களாக மாற்றினாள்",
+        "பறவைகளாக மாற்றினாள்",
+        "மான்களாக மாற்றினாள்",
+        "மரங்களாக மாற்றினாள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "காட்டு மலர்கள்.",
+      "explanation": "பெண்களைப் புல்வெளியில் பூக்கும் செந்நிற மற்றும் நீல நிற மலர்களாக மாற்றினாள்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "கணவன் தன் மனைவியின் மலரை எவ்வாறு அடையாளம் கண்டான்?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "அவள் இரவில் வீட்டில் தங்கியதால் அவள் மலர் மீது மட்டும் பனித்துளி படரவில்லை",
+        "நிறத்தை வைத்து",
+        "மணம் பார்த்து",
+        "இலைகளை எண்ணி"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "பனித்துளி படரவில்லை.",
+      "explanation": "இரவில் வீட்டில் இருந்ததால் மற்ற மலர்களைப் போல விடியற்காலைப் பனித்துளிகள் அவள் மீது விழவில்லை."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "இக்கதையின் புதிரை விடுவிக்க உதவிய முக்கியப் பண்பு எது?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "நுணுக்கமான கவனிப்பும் ஆழ்ந்த அன்பும்",
+        "மந்திர சக்தி",
+        "அதிர்ஷ்டம்",
+        "சூனியக்காரியின் உதவி"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "கவனிப்பும் அன்பும்.",
+      "explanation": "இயற்கையின் பனித்துளி விதியை நுணுக்கமாகக் கவனித்த புத்திசாலித்தனமே அவனைக் காப்பாற்றியது."
     }
   ],
   "author": "Jacob & Wilhelm Grimm (1812–1857)",
@@ -78,38 +81,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "பாப்பி",
+      "meaning": "செந்நிறப் பாப்பி காட்டு மலர்களை",
+      "gloss": "poppies"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "நிரந்தரமாக",
+      "meaning": "என்றென்றும் மாறாமல் நிலையாக",
+      "gloss": "permanently"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "பனித்துளிகள்",
+      "meaning": "புற்களின் மீது விழும் விடியற்காலைப் பனித்துளிகள்",
+      "gloss": "dewdrops"
+    },
+    {
+      "word": "துல்லியமாகக்",
+      "meaning": "சற்றும் பிழையின்றிச் சரியாக",
+      "gloss": "precisely"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Riddle Tale\"?"
+      "tier": "remembering",
+      "type": "remembering",
+      "prompt": "மூன்றாவது பெண் என்ன நிற மலராக மாறினாள்?",
+      "question": "மூன்றாவது பெண் என்ன நிற மலராக மாறினாள்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+      "tier": "understanding",
+      "type": "understanding",
+      "prompt": "கணவன் பனித்துளியின் இல்லாமையைக் கொண்டு எவ்வாறு உண்மையை உணர்ந்தான் என்பதை விளக்குக.",
+      "question": "கணவன் பனித்துளியின் இல்லாமையைக் கொண்டு எவ்வாறு உண்மையை உணர்ந்தான் என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "applying",
+      "type": "applying",
+      "prompt": "அறிவியல் ரீதியான இயற்கைக் கவனிப்பு சிக்கலான வாழ்வியல் புதிர்களை விடுவிக்க எவ்வாறு உதவுகிறது?",
+      "question": "அறிவியல் ரீதியான இயற்கைக் கவனிப்பு சிக்கலான வாழ்வியல் புதிர்களை விடுவிக்க எவ்வாறு உதவுகிறது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "tier": "analyzing",
+      "type": "analyzing",
+      "prompt": "மனைவியின் நம்பிக்கைக்கும் கணவனின் கூர்ந்த அறிவுக்கும் உள்ள பிணைப்பை ஆராய்க.",
+      "question": "மனைவியின் நம்பிக்கைக்கும் கணவனின் கூர்ந்த அறிவுக்கும் உள்ள பிணைப்பை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "evaluating",
+      "type": "evaluating",
+      "prompt": "கணவனின் விவேகமான தீர்வை நீங்கள் எவ்வாறு மதிப்பீடு செய்கிறீர்கள்?",
+      "question": "கணவனின் விவேகமான தீர்வை நீங்கள் எவ்வாறு மதிப்பீடு செய்கிறீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "type": "creating",
+      "prompt": "மழை பெய்திருந்தால் கணவன் மனைவியை எவ்வாறு அடையாளம் கண்டிருப்பான்?",
+      "question": "மழை பெய்திருந்தால் கணவன் மனைவியை எவ்வாறு அடையாளம் கண்டிருப்பான்?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

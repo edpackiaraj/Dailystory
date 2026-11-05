@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-73-the-bell-deep",
   "slug": "hans-christian-andersen-73-the-bell-deep",
   "language": "ta",
-  "title": "The Bell Deep",
+  "title": "மணிச் சுனையும் ஒடன்ஸ் ஆற்றின் அடியில் ஒலிக்கும் நீதியும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "In the deep waters of the Odense River lies a mysterious pool called the Bell Deep. Centuries ago, during a civil war, a cruel baron tore the church bell from its tower to melt int...",
+  "summary": "போர்க்காலத்தில் தேவாலய மணியைப் பீரங்கியாக உருக்க முயன்ற கொடுங்கோல் பிரபுவின் கைகளிலிருந்து தப்பி ஆற்றுச் சுனையில் மூழ்கிய வெண்கல மணி, இன்றும் அநீதிக்கு எதிராக ஆழத்திலிருந்து எச்சரிக்கை ஒலி எழுப்பும் கதை.",
   "keywords": [
     "hans christian andersen",
     "the bell deep",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived In the deep waters of the Odense River lies a mysterious pool called the Bell Deep. Centuries ago, during a civil war, a cruel baron tore the church bell from its tower to melt int.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the voice of conscience may be submerged beneath human violence, but its bell echoes forever in truth.",
-  "moral": "The voice of conscience may be submerged beneath human violence, but its bell echoes forever in truth.",
+  "full_text": "டென்மார்க்கின் அழகிய ஒடன்ஸ் ஆற்றின் வளைவில், ஆழமான ஒரு நீரோட்டச் சுனை உண்டு. அந்தச் சுனையை மக்கள் 'மணிச் சுனை' (Bell Deep) என்று பரபக்தியோடு அழைத்தனர்.\n    \nபல நூற்றாண்டுகளுக்கு முன் நடைபெற்ற உள்நாட்டுப் போரின் போது, அந்தப் பகுதியை ஆண்ட ஒரு கொடூரமான நிலப்பிரபு, பீரங்கியாக உருக்க உலோகம் தேவைப்பட்டதால் கிராமத்து தேவாலய மணியைப் பறித்து உருக்க உத்தரவிட்டான்.\n    \nகிராம மக்கள் கண்ணீர் விட்டு மன்றாடியும் அவன் கேட்கவில்லை. வீரர்கள் அந்தப் புனித மணியைக் கோபுரத்திலிருந்து கயிறுகளால் இறக்கிக் குதிரை வண்டியில் ஆற்றைக் கடக்க முயன்றனர்.\n    \nஅப்போது ஒரு பெரும் அதிசயம் நிகழ்ந்தது!\n    \nஆற்றின் பாலத்தைக் கடக்கும் போது, அந்த வெண்கல மணி திடீரெனத் தானே உயிர்பெற்றது போல் நழுவி, ஆற்றுச் சுழலுக்குள் ஆழமாக மூழ்கியது! கொடுங்கோல் பிரபுவால் அதைக் கரையேற்றவே முடியவில்லை.\n    \nஆற்றின் ஆழத்தில் வசித்த நீர்த் தேவதைகளும் மீன்களும் அந்த மணியைத் தங்களின் அரண்மனை மணியாகப் போற்றின.\n    \nஅன்றிலிருந்து, அந்த நாட்டில் அநீதியும் கொடுமையும் தலைதூக்கும் போதெல்லாம், அந்த ஆற்றின் ஆழமான சுனையிலிருந்து 'டாங்... டாங்...' என்று பயங்கரமான எச்சரிக்கை மணியோசை எழும்பும்!\n    \nமனிதர்களின் வன்முறை நீதியைத் தற்காலிகமாக நசுக்கினாலும், இயற்கை மற்றும் இறைவனின் மனசாட்சி மணி அநீதியை எச்சரித்து ஒலித்துக் கொண்டே இருக்கும் என்பதை மணிச் சுனை நிரூபித்தது.",
+  "moral": "கொடுங்கோலர்களின் வன்முறையால் தற்காலிகமாக நீதியின் குரலை மூழ்கடிக்க முடியுமே தவிர, அதன் ஆன்மீக மனசாட்சி மணியை ஒருபோதும் மௌனமாக்க முடியாது.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Bell Deep illustration from the Hans Christian Andersen collection.",
   "word_count": 234,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Bell Deep\"?",
+      "question": "ஒடன்ஸ் ஆற்றுச் சுனைக்கு 'மணிச் சுனை' என்று பெயர் வரக் காரணம் என்ன?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "பீரங்கியாக உருக்கப்படவிருந்த தேவாலய மணி ஆற்றுச் சுனையில் மூழ்கி அங்கிருந்தே ஒலித்ததால்",
+        "ஆற்றில் தங்க மணிகள் கிடைத்ததால்",
+        "ஆற்றின் கரையில் மணிகள் விற்கப்பட்டதால்",
+        "ஆறு மணி போலப் பளபளத்ததால்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "பீரங்கியாக உருக்கப்படவிருந்த தேவாலய மணி ஆற்றுச் சுனையில் மூழ்கி அங்கிருந்தே ஒலித்ததால்",
+      "hint": "தேவாலய மணி நீரில் மூழ்கிய வரலாற்றை நினையுங்கள்.",
+      "explanation": "கொடுங்கோலனிடமிருந்து தப்பிய தேவாலய மணி ஆற்றுச் சுழலில் மூழ்கி எச்சரிக்கை மணியாக ஒலித்தது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கொடுங்கோல் பிரபு எதற்காகத் தேவாலய மணியைப் பறித்தான்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "போர் ஆயுதங்கள் மற்றும் பீரங்கிகளாக உருக்குவதற்காக",
+        "தன் வீட்டில் தொங்கவிட",
+        "விற்பனை செய்ய",
+        "பொற்காசுகள் பெற"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "போர் ஆயுதங்கள் மற்றும் பீரங்கிகளாக உருக்குவதற்காக",
+      "hint": "போர்க்கள ஆயுதத் தயாரிப்பை நினையுங்கள்.",
+      "explanation": "நிலப்பிரபு பீரங்கிகள் செய்வதற்காக ஆலயத்தின் வெண்கல மணியைப் பறிக்க உத்தரவிட்டான்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை போதிக்கும் தார்மீக நீதி யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "வன்முறையால் நீதியை மூழ்கடித்தாலும் மனசாட்சியின் எச்சரிக்கைக் குரலை ஒருபோதும் அடக்க முடியாது",
+        "ஆறுகளில் குளிக்கக் கூடாது",
+        "மணிகளைப் படகில் ஏற்றக் கூடாது",
+        "பாலங்களைக் கட்டக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "வன்முறையால் நீதியை மூழ்கடித்தாலும் மனசாட்சியின் எச்சரிக்கைக் குரலை ஒருபோதும் அடக்க முடியாது",
+      "hint": "நீதியின் அழியாத குரலை நினையுங்கள்.",
+      "explanation": "ஆன்டர்சன் நீதியின் குரல் எத்தகைய ஆழத்திலும் அநீதியை எதிர்த்து ஒலிக்கும் என்று போதித்தார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கொடுங்கோல்",
+      "meaning": "நீதியற்ற கொடுமையான அதிகார ஆட்சி முறை கொண்ட",
+      "gloss": "tyrannical, despotic"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "பீரங்கியாக",
+      "meaning": "போர்க்களத்தில் குண்டுகளைத் தூர எறியப் பயன்படுத்தப்படும் பெரும் பீரங்கி ஆயுதமாக",
+      "gloss": "as a cannon"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "ஆற்றுச்",
+      "meaning": "ஓடும் நதியில் ஏற்படும் அபாயகரமான சுழல் நீர் நிறைந்த",
+      "gloss": "river, riverbed"
+    },
+    {
+      "word": "எச்சரிக்கை",
+      "meaning": "வரவிருக்கும் ஆபத்தை முன்கூட்டியே உணர்த்தும் விழிப்புணர்வுச் செய்தி",
+      "gloss": "warning, alert"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Bell Deep\"?"
+      "tier": "remembering",
+      "prompt": "மணிச் சுனை அமைந்துள்ள ஆற்றின் பெயர் என்ன?",
+      "type": "remembering",
+      "question": "மணிச் சுனை அமைந்துள்ள ஆற்றின் பெயர் என்ன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "மணி தன் விருப்பப்படி ஆற்றுக்குள் மூழ்கியதாக மக்கள் நம்பியதன் குறியீட்டுப் பொருளை விளக்குக.",
+      "type": "understanding",
+      "question": "மணி தன் விருப்பப்படி ஆற்றுக்குள் மூழ்கியதாக மக்கள் நம்பியதன் குறியீட்டுப் பொருளை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "சமூகத்தில் நடக்கும் அநீதிகளைக் கண்டு அமைதியாக இருக்காமல் மனசாட்சியின் குரலுக்கு ஏற்ப நாம் எவ்வாறு அறவழியில் செயல்பட வேண்டும்?",
+      "type": "applying",
+      "question": "சமூகத்தில் நடக்கும் அநீதிகளைக் கண்டு அமைதியாக இருக்காமல் மனசாட்சியின் குரலுக்கு ஏற்ப நாம் எவ்வாறு அறவழியில் செயல்பட வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "பீரங்கியின் அழிவு ஆற்றலுக்கும், மணியின் ஆன்மீக அமைதி இசைக்கும் உள்ள தத்துவ முரண்பாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "பீரங்கியின் அழிவு ஆற்றலுக்கும், மணியின் ஆன்மீக அமைதி இசைக்கும் உள்ள தத்துவ முரண்பாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'அதிகார வெறி தற்காலிகமாக வெற்றி பெற்றாலும், இயற்கையும் தர்மமும் முடிவில் நீதியையே நிலைநாட்டும்' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'அதிகார வெறி தற்காலிகமாக வெற்றி பெற்றாலும், இயற்கையும் தர்மமும் முடிவில் நீதியையே நிலைநாட்டும்' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "ஆற்றின் ஆழத்திலிருந்து எழும்பிய எச்சரிக்கை மணியோசையைக் கேட்டு அஞ்சிய கொடுங்கோலன் மனம் திருந்திய காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "ஆற்றின் ஆழத்திலிருந்து எழும்பிய எச்சரிக்கை மணியோசையைக் கேட்டு அஞ்சிய கொடுங்கோலன் மனம் திருந்திய காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

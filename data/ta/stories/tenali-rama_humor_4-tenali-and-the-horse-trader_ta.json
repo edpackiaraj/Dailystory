@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"Tenali and the Horse Trader\"?",
+      "question": "மன்னர் கிருஷ்ணதேவராயர் அரசவை அமைச்சர்களுக்கும் ராமனுக்கும் குதிரைக் குட்டிகளைக் கொடுத்து என்ன உத்தரவிட்டார்?",
       "options": [
-        "Wit and humor triumph over arrogance and power",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "தினமும் சத்தான தீவனம் தந்து வளர்த்து ஒரு மாதம் கழித்து அரசவைக்குக் கொண்டுவர வேண்டும் என்றார்",
+        "குதிரைகளை விற்றுப் பணம் கொண்டுவர வேண்டும் என்றார்",
+        "போர்க்களத்திற்கு உடனே குதிரைகளை ஓட்டிச் செல்ல வேண்டும் என்றார்",
+        "குதிரைகளுக்கு நடனம் கற்றுக் கொடுக்க வேண்டும் என்றார்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "மன்னரின் குதிரை வளர்ப்புச் சோதனையை நினைவுகூருங்கள்.",
+      "answer": "தினமும் சத்தான தீவனம் தந்து வளர்த்து ஒரு மாதம் கழித்து அரசவைக்குக் கொண்டுவர வேண்டும் என்றார்",
+      "explanation": "மன்னரின் குதிரை வளர்ப்புச் சோதனையை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "மற்றவர்கள் குதிரையை நன்கு மேய்த்தபோது, தெனாலிராமன் தன் குதிரையை எவ்வாறு வளர்த்தார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "ஒரு சிறிய கொட்டிலில் கட்டிப்போட்டுச் சுவரின் சாளர இடைவெளி வழியே சிறிதளவு புல்லை மட்டுமே தினமும் காட்டினார்",
+        "குதிரைக்கு அறுசுவை உணவும் இனிப்புகளும் மட்டுமே தந்தார்",
+        "குதிரையைக் காட்டில் சுதந்திரமாகத் திரிய விட்டார்",
+        "குதிரையைத் தன் படுக்கையறையிலேயே வளர்த்தார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "ராமன் குதிரையைப் புல்லுக்காக ஏங்க வைத்த உத்தியைக் கவனியுங்கள்.",
+      "answer": "ஒரு சிறிய கொட்டிலில் கட்டிப்போட்டுச் சுவரின் சாளர இடைவெளி வழியே சிறிதளவு புல்லை மட்டுமே தினமும் காட்டினார்",
+      "explanation": "ராமன் குதிரையைப் புல்லுக்காக ஏங்க வைத்த உத்தியைக் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "மன்னரின் குதிரைப் பயிற்சியாளர் குதிரையைச் சோதிக்க வந்தபோது என்ன நடந்தது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "பயிற்சியாளரின் நீண்ட தாடியைப் புல் என்று நினைத்துக் குதிரை கவ்விப் பிடித்துக்கொண்டது",
+        "குதிரை ஓடிவந்து பயிற்சியாளரை மிதித்தது",
+        "குதிரை பயந்துபோய்ப் படுத்துக்கொண்டது",
+        "பயிற்சியாளர் குதிரையின் வேகத்தைப் பாராட்டிப் பரிசு தந்தார்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "குதிரையின் பசிக்கு ஆளான பயிற்சியாளரின் தாடியை நினைவுகூருங்கள்.",
+      "answer": "பயிற்சியாளரின் நீண்ட தாடியைப் புல் என்று நினைத்துக் குதிரை கவ்விப் பிடித்துக்கொண்டது",
+      "explanation": "குதிரையின் பசிக்கு ஆளான பயிற்சியாளரின் தாடியை நினைவுகூருங்கள்."
     }
   ],
   "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பராமரிக்க",
+      "meaning": "விலங்குகளையோ மனிதர்களையோ முறையாகப் பேணிப் பாதுகாக்கும் செயல்"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "தாடி",
+      "meaning": "முகத்தில் வளரும் ரோமம்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "விஜயநகரப்",
+      "meaning": "விஜயநகரப் என்ற சொல்லின் சூழல் பொருள் (Signifies விஜயநகரப் in the context of the story)"
+    },
+    {
+      "word": "பேரரசுக்கு",
+      "meaning": "பேரரசுக்கு என்ற சொல்லின் சூழல் பொருள் (Signifies பேரரசுக்கு in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"Tenali and the Horse Trader\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "குதிரைகளை வளர்க்க மன்னர் அரசு கஜானாவிலிருந்து என்ன வழங்கினார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wit and humor triumph over arrogance and power\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "அரசுப் பணத்தைப் பெற்றுக்கொண்டு போலி உழைப்பு காட்டும் அமைச்சர்களுக்கு ராமன் எவ்வாறு பாடம் புகட்டினார்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "பொறுப்புகளை நிறைவேற்றாமல் பணத்தை மட்டும் வீணடிப்பவர்களை சமூகம் எவ்வாறு அடையாளம் காண வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "தெனாலிராமனின் அணுகுமுறையில் நகைச்சுவைக்கு அப்பால் உள்ள அரசியல் விழிப்புணர்வு யாது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

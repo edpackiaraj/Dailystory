@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-109-the-porter-and-the-lad",
   "slug": "hans-christian-andersen-109-the-porter-and-the-lad",
   "language": "ta",
-  "title": "The Porter and the Lad",
+  "title": "வாயிற்காவலனும் சிறுவனும் – உழைப்பால் உயர்ந்த லட்சியம்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "An old gatekeeper and his son lived in a tiny lodge at the entrance of a grand estate. The father taught the boy to read by the light of tallow candles and instilled in him the vir...",
+  "summary": "பெரிய பண்ணை மாளிகையின் நுழைவாயிலில் எளிய காவல் பணியைச் செய்த தந்தையும், ஆட்டுக்கொழுப்பு மெழுகுவர்த்தி வெளிச்சத்தில் படித்துத் தன் விடாமுயற்சியால் உயர்ந்து சமுதாயத்தின் போற்றுதலுக்குரிய நிலையை அடைந்த அவனது மகனின் எழுச்சியூட்டும் கதை.",
   "keywords": [
     "hans christian andersen",
     "the porter and the lad",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Out in the wide, tranquil meadows where wildflowers bent gracefully before the seaside breeze, there lived An old gatekeeper and his son lived in a tiny lodge at the entrance of a grand estate. The father taught the boy to read by the light of tallow candles and instilled in him the vir.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that honest labor and an eager mind elevate a youth above the barriers of poverty.",
-  "moral": "Honest labor and an eager mind elevate a youth above the barriers of poverty.",
+  "full_text": "ஒரு பிரம்மாண்டமான பிரபுவின் எஸ்டேட் மாளிகையின் தலைவாயிலில், ஒரு சிறிய ஓலைக் குடிசை இருந்தது. அங்கே வயதான வாயிற்காவலன் ஒருவன் தன் மகனோடு வாழ்ந்து வந்தான்.\n    \nஅவர்கள் பரம ஏழைகள்; மாளிகைக்குள் செல்லும் பிரபுக்களின் குதிரை வண்டிகளுக்குக் கதவைத் திறந்து மூடுவதே தந்தையின் அன்றாடப் பணியாக இருந்தது.\n    \nஆனால் தந்தை தன் மகனிடம் சொன்னார்: \"மகனே! நாம் ஏழைகளாக இருக்கலாம்; ஆனால் உன் உள்ளம் உயர்ந்ததாக இருக்க வேண்டும்! நீ படிக்க வேண்டும்!\" என்று ஊக்கப்படுத்தினார்.\n    \nமாலையில் தந்தை தந்த ஆட்டுக்கொழுப்பு மெழுகுவர்த்தியின் மங்கலான வெளிச்சத்தில், அந்தச் சிறுவன் புத்தகங்களை இரவெல்லாம் விரும்பிப் படித்தான்.\n    \nஅவன் கடின உழைப்பையும் நேர்மையையும் தன் இரு கண்களாகப் போற்றினான்.\n    \nகாலங்கள் கடந்தன. மாளிகையில் வாழ்ந்த சோம்பேறிப் பிரபுக்கள் சூதாட்டத்திலும் வீண் விரயத்திலும் தங்கள் செல்வங்களை இழந்து ஏழைகளாக மாறினர்.\n    \nஆனால் வாயிற்காவலனின் மகனோ தன் விடாமுயற்சியாலும் அறிவாற்றலாலும் தேர்வுகளில் வென்று, நாட்டின் மதிப்புமிக்க தலைமை அதிகாரியாக உயர்ந்தான்!\n    \nஅவன் தன் வயதான தந்தையைத் தன் அன்பு இல்லத்திற்கு அழைத்து வந்து கௌரவித்தான்.\n    \nமனிதனின் உயர்வை அவன் பிறக்கும் மாளிகை தீர்மானிப்பதில்லை; அவனது நற்குணமும் கல்வியும் விடாமுயற்சியுமே அவனைச் சமுதாயத்தில் உயர்த்தும் என்பதை அச்சிறுவன் மெய்ப்பித்தான்.",
+  "moral": "பிறந்த எளிய சூழல் ஒரு மனிதனின் எதிர்காலத்தை முடக்கிவிட முடியாது; நேர்மையான உழைப்பும் தீவிரக் கல்வி ஆர்வமும் எளியோரையும் உயர்ந்த நிலைக்கு உயர்த்தும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Porter and the Lad illustration from the Hans Christian Andersen collection.",
   "word_count": 229,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Porter and the Lad\"?",
+      "question": "வாயிற்காவலனின் மகன் எதன் மங்கலான வெளிச்சத்தில் இரவெல்லாம் புத்தகங்களைப் படித்தான்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஆட்டுக்கொழுப்பு மெழுகுவர்த்தியின் வெளிச்சத்தில்",
+        "சூரிய ஒளியில்",
+        "மின்சார விளக்கில்",
+        "தீப்பந்த வெளிச்சத்தில்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "ஆட்டுக்கொழுப்பு மெழுகுவர்த்தியின் வெளிச்சத்தில்",
+      "hint": "தந்தை ஏற்றி வைத்த எளிய மெழுகுவர்த்தியை நினையுங்கள்.",
+      "explanation": "சிறுவன் எளிய ஆட்டுக்கொழுப்பு மெழுகுவர்த்தி ஒளியில் இரவு பகலாகப் படித்து உயர்ந்தான்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "வாயிற்காவலனின் மகன் பிற்காலத்தில் தன் உழைப்பால் என்னவாக உயர்ந்தான்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "நாட்டின் மதிப்புமிக்க தலைமை அதிகாரியாக உயர்ந்தான்",
+        "குதிரை வண்டிக்காரனானான்",
+        "காவலனானான்",
+        "வணிகனானான்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "நாட்டின் மதிப்புமிக்க தலைமை அதிகாரியாக உயர்ந்தான்",
+      "hint": "அவன் அடைந்த அரசு தலைமைப் பொறுப்பை நினையுங்கள்.",
+      "explanation": "விடாமுயற்சியால் படித்து அரசு தலைமைப் பொறுப்பை எட்டித் தன் தந்தையைப் பெருமைப்படுத்தினான்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை இளைஞர்களுக்கு அளிக்கும் உத்வேகம் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "வறுமை தடையல்ல; நேர்மையான உழைப்பும் கல்வியுமே எளியவரையும் சிகரத்தில் உயர்த்தும்",
+        "காவல் பணிகளைச் செய்யக் கூடாது",
+        "மெழுகுவர்த்திகளைப் பயன்படுத்தக் கூடாது",
+        "மாளிகைகளைக் கட்ட வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "வறுமை தடையல்ல; நேர்மையான உழைப்பும் கல்வியுமே எளியவரையும் சிகரத்தில் உயர்த்தும்",
+      "hint": "கல்வியும் விடாமுயற்சியும் தரும் உயர்வை நினையுங்கள்.",
+      "explanation": "பிறப்பால் உயர்வு தாழ்வு இல்லை, ஒழுக்கமும் கல்வியுமே மனிதனை உயர்த்தும் என ஆன்டர்சன் போதித்தார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "வாயிற்காவலன்",
+      "meaning": "பெரிய மாளிகைகள் அல்லது கோட்டைகளின் தலைவாயிலைக் காவல் காக்கும் காவலன்",
+      "gloss": "porter, gatekeeper"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "விரயத்திலும்",
+      "meaning": "பயனற்ற ஆடம்பரங்களுக்காகப் பணத்தை அநியாயமாகச் செலவழித்து அழிப்பதிலும்",
+      "gloss": "in wastefulness, squandering"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "விடாமுயற்சியாலும்",
+      "meaning": "தோல்விகளைக் கண்டும் தளராமல் தொடர்ந்து உறுதியோடு பாடுபடும் மன வலிமையாலும்",
+      "gloss": "through perseverance, dogged persistence"
+    },
+    {
+      "word": "கௌரவித்தான்",
+      "meaning": "மரியாதையோடும் அன்போடும் உயர் மதிப்பளித்துப் போற்றினான்",
+      "gloss": "honored, respected"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Porter and the Lad\"?"
+      "tier": "remembering",
+      "prompt": "வாயிற்காவலன் தன் மகனுக்கு வழங்கிய முதன்மையான அறிவுரை என்ன?",
+      "type": "remembering",
+      "question": "வாயிற்காவலன் தன் மகனுக்கு வழங்கிய முதன்மையான அறிவுரை என்ன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "மாளிகைப் பிரபுக்களின் வீழ்ச்சிக்கும் காவலன் மகனின் உயர்ச்சிக்கும் இடையே உள்ள காரணங்களை விளக்குக.",
+      "type": "understanding",
+      "question": "மாளிகைப் பிரபுக்களின் வீழ்ச்சிக்கும் காவலன் மகனின் உயர்ச்சிக்கும் இடையே உள்ள காரணங்களை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "பொருளாதார நெருக்கடிகளுக்கு நடுவிலும் மாணவர்கள் தங்களின் கல்வி லட்சியங்களை எவ்வாறு உறுதியோடு தொடர வேண்டும்?",
+      "type": "applying",
+      "question": "பொருளாதார நெருக்கடிகளுக்கு நடுவிலும் மாணவர்கள் தங்களின் கல்வி லட்சியங்களை எவ்வாறு உறுதியோடு தொடர வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "பரம்பரைச் செல்வத்தின் போலி கர்வத்திற்கும், சொந்த உழைப்பால் ஈட்டிய அறிவாற்றலின் மதிப்பிற்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "பரம்பரைச் செல்வத்தின் போலி கர்வத்திற்கும், சொந்த உழைப்பால் ஈட்டிய அறிவாற்றலின் மதிப்பிற்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'விடாமுயற்சி என்ற மூலதனமே மனிதனை எந்த எல்லைக்கும் உயர்த்தும் வல்லமை கொண்டது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'விடாமுயற்சி என்ற மூலதனமே மனிதனை எந்த எல்லைக்கும் உயர்த்தும் வல்லமை கொண்டது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "உயர்ந்த பதவிக்கு வந்த மகன் தன் தந்தைக்கு மாலை அணிவித்து மேடையில் ஆற்றிய உணர்ச்சிமயமான உரையை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "உயர்ந்த பதவிக்கு வந்த மகன் தன் தந்தைக்கு மாலை அணிவித்து மேடையில் ஆற்றிய உணர்ச்சிமயமான உரையை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

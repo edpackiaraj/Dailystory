@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-91-the-storm-shakes-the-shield",
   "slug": "hans-christian-andersen-91-the-storm-shakes-the-shield",
   "language": "ta",
-  "title": "The Storm Shakes the Shield",
+  "title": "புயல் அசைத்த விளம்பரப் பலகைகளும் உண்மையை உணர்த்திய மாற்றங்களும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "A ferocious gale swept through the city on New Year's Eve, ripping down the painted shop-signs and hanging shields, tossing them into the air....",
+  "summary": "புத்தாண்டின் இரவில் வீசிய கடும் புயல், நகரத்தின் கடைகளில் தொங்கிய போலி விளம்பரப் பலகைகளையும் பெயர்ப்பலகைகளையும் பிய்த்து மாற்றிப் பொருத்தி, மனிதர்களின் போலி முகமூடிகளைக் கிழித்து உண்மையை வெளிப்படுத்திய அங்கதக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the storm shakes the shield",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Out in the wide, tranquil meadows where wildflowers bent gracefully before the seaside breeze, there lived A ferocious gale swept through the city on New Year's Eve, ripping down the painted shop-signs and hanging shields, tossing them into the air..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that when the tempest of truth blows, false pretensions fall and true merits take their place.",
-  "moral": "When the tempest of truth blows, false pretensions fall and true merits take their place.",
+  "full_text": "ஒரு பழைய நகரத்தில் புத்தாண்டுப் பண்டிகை இரவில், யாரும் எதிர்பாராத வண்ணம் ஒரு பயங்கரமான புயற்காற்று சீறியடித்தது!\n    \nகடுங்காற்று வீதிகளில் சுழன்றடித்து, கடைகளின் வாயில்களில் தொங்கிக் கொண்டிருந்த வர்ணம் பூசப்பட்ட மர விளம்பரப் பலகைகளையும் பெயர்ப் பலகைகளையும் பிய்த்து எறிந்தது.\n    \nவிடியற்காலையில் புயல் ஓய்ந்த போது, அந்த நகரமே விசித்திரமான ஒரு புதிய காட்சியைக் கண்டது!\n    \nஏனெனில் புயல் காற்று அந்தப் பலகைகளைத் தூக்கிச் சென்று ஒன்று மாற்றி மற்றொன்றின் வாசலில் மாட்டி வைத்திருந்தது!\n    \n'முட்டாள்களுக்கான பள்ளி' என்ற பலகை பெருமை பேசிய பிரபுக்களின் மன்ற வாசலில் தொங்கியது!\n    \n'உயர் சிந்தனை மற்றும் தூய கலைக்கூடம்' என்ற பெயர்ப்பலகை ஏழை எளிய மக்களின் எளிய குடிசை வாசலில் பொருத்தப்பட்டிருந்தது!\n    \n'கொடூரக் கொள்ளையர்கள்' என்ற பலகை வட்டிக்குப் பணம் கொடுத்து ஏழைகளைச் சுரண்டிய கந்துவட்டிக்காரரின் வீட்டின் மீது தொங்கியது!\n    \nநகர மக்கள் காலையில் எழுந்து இந்த மாற்றங்களைப் பார்த்து விழுந்து விழுந்து சிரித்தனர்; அதே சமயம் அவர்கள் மனசாட்சியும் உறுத்தியது.\n    \nபுயல் வெறும் பலகைகளை மட்டும் மாற்றவில்லை; மனிதர்களின் போலிப் பகட்டுகளை உடைத்து யார் யார் எந்தெந்த இடத்திற்கு உண்மையில் தகுதியானவர்கள் என்ற உண்மையை அது அம்பலப்படுத்தியிருந்தது!",
+  "moral": "சமூகத்தில் மனிதர்கள் அணிந்திருக்கும் போலி அந்தஸ்துகளையும் வேடங்களையும் உண்மை என்னும் புயல் காற்று ஒரு நொடியில் கலைத்து, தகுதியானவர்களுக்கே உரிய இடத்தை அளிக்கும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Storm Shakes the Shield illustration from the Hans Christian Andersen collection.",
   "word_count": 217,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Storm Shakes the Shield\"?",
+      "question": "புத்தாண்டு இரவில் வீசிய புயற்காற்று நகரத்தில் என்ன செய்தது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "கடைகளின் பெயர்ப்பலகைகளையும் விளம்பரங்களையும் பிய்த்து மாற்றி மாற்றிப் பொருத்தியது",
+        "நகரத்தை எரித்தது",
+        "மழையில் மூழ்கடித்தது",
+        "கற்களை வீசியது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "கடைகளின் பெயர்ப்பலகைகளையும் விளம்பரங்களையும் பிய்த்து மாற்றி மாற்றிப் பொருத்தியது",
+      "hint": "விளம்பரப் பலகைகள் இடம் மாறியதை நினையுங்கள்.",
+      "explanation": "புயல் பலகைகளைப் பிய்த்து மனிதர்களின் உண்மை குணத்தைக் காட்டும் வீடுகளில் கொண்டு பொருத்தியது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "ஏழைகளைச் சுரண்டிய கந்துவட்டிக்காரரின் வீட்டு வாசலில் எந்தப் பலகை வந்து தொங்கியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "'கொடூரக் கொள்ளையர்கள்' என்ற பலகை வந்து தொங்கியது",
+        "'புனிதர் இல்லம்' என்ற பலகை",
+        "'மருத்துவமனை' என்ற பலகை",
+        "'பூந்தோட்டம்' என்ற பலகை"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "'கொடூரக் கொள்ளையர்கள்' என்ற பலகை வந்து தொங்கியது",
+      "hint": "சுரண்டலின் உண்மை முகத்தைக் காட்டிய பலகையை நினையுங்கள்.",
+      "explanation": "கந்துவட்டிக்காரனின் வீட்டு வாசலில் கொள்ளையர்கள் என்ற பலகை பொருத்தமாக வந்து அமைந்தது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் கூர்மையான அங்கத நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "உண்மை என்னும் புயல் போலி முகமூடிகளைக் கிழித்து மனிதர்களின் தகுதியான உண்மை நிலையை வெளிப்படுத்தும்",
+        "விளம்பரப் பலகைகளை மாட்டவே கூடாது",
+        "புத்தாண்டு இரவில் விழித்திருக்கக் கூடாது",
+        "புயல் காற்றைத் தடுத்து நிறுத்த வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "உண்மை என்னும் புயல் போலி முகமூடிகளைக் கிழித்து மனிதர்களின் தகுதியான உண்மை நிலையை வெளிப்படுத்தும்",
+      "hint": "போலி அந்தஸ்துகளின் வீழ்ச்சியை நினையுங்கள்.",
+      "explanation": "ஆன்டர்சன் சமூகத்தில் நிலவும் போலி முகங்களையும் அதிகாரப் பகட்டையும் இக்கதையில் அற்புதமாக எள்ளி நகையாடினார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "புயற்காற்று",
+      "meaning": "மழையோடும் சூறாவளியோடும் அதிவேகமாகச் சுழன்றடிக்கும் பயங்கரக் காற்று",
+      "gloss": "stormwind, tempest gale"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "வர்ணம்",
+      "meaning": "பலகைகளிலும் சுவர்களிலும் பூசப்படும் பல வண்ண வண்ணப் பூச்சு",
+      "gloss": "paint, colored coating"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கந்துவட்டிக்காரரின்",
+      "meaning": "ஏழைகளின் வறுமையைப் பயன்படுத்தி வரம்புமீறிய வட்டி வசூலிக்கும் கந்துவட்டி வணிகரின்",
+      "gloss": "usurer's, loan shark's"
+    },
+    {
+      "word": "அம்பலப்படுத்தியிருந்தது",
+      "meaning": "மறைக்கப்பட்டிருந்த போலி முகமூடிகளை விலக்கி மக்கள் மன்றத்தில் வெளிப்படுத்தியிருந்தது",
+      "gloss": "unmasked, exposed to light"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Storm Shakes the Shield\"?"
+      "tier": "remembering",
+      "prompt": "புயல் காற்று எந்தப் பண்டிகை இரவில் நகரத்தில் வீசியது?",
+      "type": "remembering",
+      "question": "புயல் காற்று எந்தப் பண்டிகை இரவில் நகரத்தில் வீசியது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "பெயர்ப்பலகைகள் இடம் மாறியதைக் கண்டு சிரித்த மக்களுக்கு மனசாட்சி உறுத்தியதன் காரணத்தை விளக்குக.",
+      "type": "understanding",
+      "question": "பெயர்ப்பலகைகள் இடம் மாறியதைக் கண்டு சிரித்த மக்களுக்கு மனசாட்சி உறுத்தியதன் காரணத்தை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "மனிதர்களின் போலிப் பட்டங்களையும் வெளிவேஷங்களையும் நம்பாமல் அவர்களின் உண்மைச் செயல்களை நாம் எவ்வாறு உணர வேண்டும்?",
+      "type": "applying",
+      "question": "மனிதர்களின் போலிப் பட்டங்களையும் வெளிவேஷங்களையும் நம்பாமல் அவர்களின் உண்மைச் செயல்களை நாம் எவ்வாறு உணர வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "விளம்பரப் பலகைகளின் செயற்கையான சமூகப் பார்வைக்கும், புயல் ஏற்படுத்திய எதார்த்தமான உண்மைக்கும் உள்ள தொடர்பை ஆராய்க.",
+      "type": "analyzing",
+      "question": "விளம்பரப் பலகைகளின் செயற்கையான சமூகப் பார்வைக்கும், புயல் ஏற்படுத்திய எதார்த்தமான உண்மைக்கும் உள்ள தொடர்பை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'இயற்கையின் உண்மை வெளிச்சத்தின் முன் மனிதனின் எந்தப் போலிப் பகட்டும் நிலைக்க முடியாது' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'இயற்கையின் உண்மை வெளிச்சத்தின் முன் மனிதனின் எந்தப் போலிப் பகட்டும் நிலைக்க முடியாது' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "பலகைகள் மாறியதைக் கண்டு அந்த ஊர் மக்கள் ஒன்று கூடி விவாதித்த ஒரு நகைச்சுவை நாடகக் காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "பலகைகள் மாறியதைக் கண்டு அந்த ஊர் மக்கள் ஒன்று கூடி விவாதித்த ஒரு நகைச்சுவை நாடகக் காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

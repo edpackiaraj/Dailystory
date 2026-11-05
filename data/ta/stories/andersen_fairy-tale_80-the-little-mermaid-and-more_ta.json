@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-80-the-little-mermaid-and-more",
   "slug": "hans-christian-andersen-80-the-little-mermaid-and-more",
   "language": "ta",
-  "title": "The Little Mermaid (The Eternal Dawn)",
+  "title": "கடல் கன்னி – தியாகத்தால் மலர்ந்த நித்திய ஆன்மாவும் விடியலும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Standing upon the deck of the royal ship, the little mermaid held the witch's knife over the sleeping prince. A single thrust would return her to her beloved ocean sisters and spar...",
+  "summary": "தூங்கும் இளவரசனைக் கொன்று மீண்டும் கடலுக்குத் திரும்பும் மாயக் கத்தியைக் கையில் ஏந்திய போதிலும், தன் காதலனைக் கொல்ல மனமின்றித் தன் இன்னுயிரைத் தியாகம் செய்த கடல் கன்னி, அழியாத ஆன்மாவைப் பெற்று வானுலகத் தேவதையாக மலர்ந்த காவியம்.",
   "keywords": [
     "hans christian andersen",
     "the little mermaid and more",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Out in the wide, tranquil meadows where wildflowers bent gracefully before the seaside breeze, there lived Standing upon the deck of the royal ship, the little mermaid held the witch's knife over the sleeping prince. A single thrust would return her to her beloved ocean sisters and spar.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that love that surrenders its own claim to bless another receives the crown of an immortal soul.",
-  "moral": "Love that surrenders its own claim to bless another receives the crown of an immortal soul.",
+  "full_text": "அரண்மனைக் கப்பலின் தளத்தில், விடியலின் செவ்வொளி பரவத் தொடங்கிய வேளையில், கடல் கன்னி நின்றிருந்தாள்.\n    \nஅவளது கையில் கடல் சூனியக்காரி கொடுத்த கூரிய மாயக் கத்தி மின்னியது. அவளது சகோதரிகள் கடலிலிருந்து தலையை நீட்டிக் கதறினர்: \"தங்கையே! சூரியன் உதிப்பதற்குள் அந்தக் கத்தியால் இளவரசனின் நெஞ்சில் குத்து! அவனது இரத்தம் உன் கால்களில் பட்டால் நீ மீண்டும் வால் பெற்று எங்களோடு கடலில் வாழலாம்!\" என்றனர்.\n    \nதூங்கிக் கொண்டிருந்த இளவரசனின் அருகே அவள் சென்றாள்; அவனது இதழ்கள் தன் புதிய மணப்பெண்ணின் பெயரை முணுமுணுத்தன.\n    \nகடல் கன்னி அவனது பேரழகைப் பார்த்தாள்; தன் இதயத்தில் அவன் மீது கொண்ட எல்லையற்ற தூய காதலை உணர்ந்தாள். \"என் அன்பனே! நீ உன் மனைவியோடு ஆனந்தமாக வாழ்வாயாக! உனக்கு நான் மரணத்தைக் கொண்டுவர மாட்டேன்!\" என்று கூறியபடி, அந்தக் கூரிய கத்தியை அலைகளுக்குள் வீசி எறிந்தாள்!\n    \nஅடுத்த கணம் அவள் கடலுக்குள் குதித்தாள்; அவளது உடல் கடல் நுரையாய் உருகத் தொடங்கியது.\n    \nஆனால் அவள் அழியவில்லை! வானத்தின் தேவ மகளிர் அவளை வான்வெளியில் ஏந்தினர். \"அன்பின் தியாகத்தால் நீ அழியாத ஆன்மாவை வென்றுவிட்டாய்! இனி நீ காற்றுத் தேவதையாக வாழ்ந்து உலகிற்கு நன்மைகளைச் செய்வாய்!\" என்று பாடினர்.\n    \nசுயநலத்தைத் துறந்த கடல் கன்னியின் ஆன்மா, சூரியனின் பொற்கிரணங்களை நோக்கிப் புன்னகையோடு சிறகடித்துப் பறந்தது.",
+  "moral": "சுயநலத்தை அடியோடு துறந்து பிறரின் நல்வாழ்விற்காகத் தன்னைத் தியாகம் செய்யும் தூய அன்பே ஆன்மாவிற்கு அழியாத நித்திய பேரின்பத்தை ஈட்டித் தருகிறது.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Little Mermaid and more illustration from the Hans Christian Andersen collection.",
   "word_count": 226,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Little Mermaid and more\"?",
+      "question": "கடல் கன்னி இளவரசனைக் கொல்லாமல் கத்தியை எங்கே எறிந்தாள்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "அலைகளுக்குள் வீசி எறிந்தாள்",
+        "கப்பல் அறையில் மறைத்தாள்",
+        "தன் சகோதரிகளிடம் கொடுத்தாள்",
+        "சூனியக்காரியிடம் திருப்பி அளித்தாள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "அலைகளுக்குள் வீசி எறிந்தாள்",
+      "hint": "கடலின் அலைகளில் வீசியதை நினையுங்கள்.",
+      "explanation": "கடல் கன்னி இளவரசனை வாழ்த்திக் கத்தியைக் கடலலைகளில் எறிந்தாள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "தன் உயிரைத் தியாகம் செய்த கடல் கன்னிக்கு என்ன வரம் கிடைத்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அவள் அழியாத ஆன்மாவைப் பெற்று காற்றுத் தேவதையாக உயர்ந்தாள்",
+        "அவள் மீண்டும் கடலில் மீனானாள்",
+        "அவள் அரண்மனை ராணியானாள்",
+        "அவள் கல்லாக மாறினாள்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "அவள் அழியாத ஆன்மாவைப் பெற்று காற்றுத் தேவதையாக உயர்ந்தாள்",
+      "hint": "வான் தேவதைகள் அவளுக்கு அளித்த அழியாத ஆன்மாவை நினையுங்கள்.",
+      "explanation": "சுயநலமற்ற தியாகத்தினால் அவள் அழியாத ஆன்மாவைப் பெற்று காற்று மகளிரோடு இணைந்தாள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் உன்னத ஆன்மீக நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "சுயநலத்தை விடுத்து பிறரின் மகிழ்ச்சிக்காகத் தன்னைத் தரும் அன்பே அழியாத பேரின்பத்தைப் பெற்றுத்தரும்",
+        "கப்பல்களில் பயணம் செய்யக் கூடாது",
+        "கத்திகளைப் பயன்படுத்தக் கூடாது",
+        "சூனியக்காரிகளை நம்ப வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "சுயநலத்தை விடுத்து பிறரின் மகிழ்ச்சிக்காகத் தன்னைத் தரும் அன்பே அழியாத பேரின்பத்தைப் பெற்றுத்தரும்",
+      "hint": "தியாகக் காதலின் எல்லையற்ற புண்ணியத்தை நினையுங்கள்.",
+      "explanation": "ஆன்டர்சன் கடல் கன்னியின் தியாகத்தின் வழியே ஆன்மாவின் அழியாத் தன்மையை வெளிப்படுத்தினார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "செவ்வொளி",
+      "meaning": "அதிகாலைச் சூரியன் உதிக்கும் போது வானில் படரும் சிவந்த ஒளிக்கதிர்கள்",
+      "gloss": "rosy dawn, reddish glow"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "சூனியக்காரி",
+      "meaning": "மாய வித்தைகளையும் கொடிய மந்திரங்களையும் செய்யும் மாயக்காரி",
+      "gloss": "witch, sorceress"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "தேவ மகளிர்",
+      "meaning": "விண்ணுலகில் வாழும் பரிசுத்தமான தேவதைப் பெண்கள்",
+      "gloss": "daughters of the air, celestial maidens"
+    },
+    {
+      "word": "சிறகடித்துப்",
+      "meaning": "வான்வெளியில் சுதந்திரமாக இறக்கைகளை அசைத்துப் பறந்து",
+      "gloss": "fluttering wings, flying"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Little Mermaid and more\"?"
+      "tier": "remembering",
+      "prompt": "கடல் கன்னியின் சகோதரிகள் அவளுக்கு எதனைக் கொடுத்து இளவரசனைக் கொல்லச் சொன்னார்கள்?",
+      "type": "remembering",
+      "question": "கடல் கன்னியின் சகோதரிகள் அவளுக்கு எதனைக் கொடுத்து இளவரசனைக் கொல்லச் சொன்னார்கள்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "தன் சொந்த வாழ்வை விட இளவரசனின் நல்வாழ்வை முதன்மையாக எண்ணிய கடல் கன்னியின் தூய அன்பை விளக்குக.",
+      "type": "understanding",
+      "question": "தன் சொந்த வாழ்வை விட இளவரசனின் நல்வாழ்வை முதன்மையாக எண்ணிய கடல் கன்னியின் தூய அன்பை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது உறவுகளில் எதிர்பார்ப்புகளும் சுயநலங்களும் இன்றித் தூய அன்பை வெளிப்படுத்த நாம் எத்தகைய தியாக மனப்பான்மையைக் கைக்கொள்ள வேண்டும்?",
+      "type": "applying",
+      "question": "நமது உறவுகளில் எதிர்பார்ப்புகளும் சுயநலங்களும் இன்றித் தூய அன்பை வெளிப்படுத்த நாம் எத்தகைய தியாக மனப்பான்மையைக் கைக்கொள்ள வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "கடல் கன்னியின் அழிந்துபோகும் கடல் வாழ்விற்கும், தியாகத்தால் அவள் பெற்ற அழியாத ஆன்மாவிற்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "கடல் கன்னியின் அழிந்துபோகும் கடல் வாழ்விற்கும், தியாகத்தால் அவள் பெற்ற அழியாத ஆன்மாவிற்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'உண்மையான அன்பு எதையும் கோருவதில்லை, தன்னையே முழுமையாகத் தருகிறது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'உண்மையான அன்பு எதையும் கோருவதில்லை, தன்னையே முழுமையாகத் தருகிறது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "காற்றுத் தேவதையாக மாறிய கடல் கன்னி துன்பப்படும் குழந்தைகளுக்குத் தென்றலாக வீசி அமைதி தந்த ஒரு காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "காற்றுத் தேவதையாக மாறிய கடல் கன்னி துன்பப்படும் குழந்தைகளுக்குத் தென்றலாக வீசி அமைதி தந்த ஒரு காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

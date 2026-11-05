@@ -2,12 +2,12 @@
   "id": "aesops-fables-25-the-gnat-and-the-bull",
   "slug": "aesops-fables-25-the-gnat-and-the-bull",
   "language": "ta",
-  "title": "The Gnat and the Bull",
+  "title": "கொசுவும் முரட்டுக் காளையும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A tiny gnat, having buzzed around the meadow for an entire afternoon, grew weary from his flight and decided to rest. He landed softly upon the tip of one of the massive horns of a...",
+  "summary": "பெரிய காளையின் கொம்பின் மீது அமர்ந்து ஓய்வெடுத்த ஒரு சின்னஞ்சிறு கொசு, தான் கிளம்புவதால் காளைக்கு பாரம் குறையும் என்று அகந்தையோடு பேசியபோது, காளை அளித்த நையாண்டிப் பதில்.",
   "keywords": [
     "aesop's fables",
     "the gnat and the bull",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A tiny gnat, having buzzed around the meadow for an entire afternoon, grew weary from his flight and decided to rest. He landed softly upon the tip of one of the massive horns of a colossal prize bull that was grazing peacefully in the pasture.\n\nThe gnat groomed his wings, cleaned his microscopic antennae, and rested for an hour while the great beast munched sweet clover, totally unaware of the insect's presence.\n\nWhen the gnat was refreshed and prepared to take flight, he felt an overwhelming surge of self-importance. He buzzed loudly in the bull's ear and said with grand, pompous courtesy: \"Noble beast, I have rested upon your horn long enough. I thank you for your hospitality! I must depart now, but if my weight has burdened your brow, I beg your pardon for the inconvenience.\"\n\nThe colossal bull did not even interrupt his chewing. He slowly raised one lazy eye toward his horn, exhaled a warm gust of steam through his nostrils, and replied in a deep, rumbling voice:\n\n\"Little fellow, do not trouble yourself with apologies. To tell you the honest truth, I did not even know you had arrived, and I shall certainly not notice when you are gone!\"\n\nMortified by the giant's indifference, the tiny gnat buzzed away into the weeds, his swollen vanity deflated by the truth of his absolute insignificance.",
-  "moral": "The smaller the mind, the greater the conceit; you are not as important as you imagine.",
+  "full_text": "ஒரு பரந்த புல்வெளியில் நாள் முழுவதும் தன் மெல்லிய இறக்கைகளால் ரீங்காரமிட்டுப் பறந்து திரிந்த ஒரு சிறிய கொசு களைப்படைந்தது. சற்று நேரம் ஓய்வெடுக்க இடம் தேடிய அந்தக் கொசு, அங்கே புல் மேய்ந்து கொண்டிருந்த ஒரு பிரம்மாண்டமான முரட்டுக் காளையின் கூரிய கொம்பின் நுனியில் வந்து மெதுவாக அமர்ந்தது.\n\nநீண்ட நேரம் அங்கேயே அமர்ந்து இளைப்பாறிய கொசு, தன் பயணத்தைத் தொடர எண்ணியது. அதற்குள் அதன் மனதில் வீணான தற்பெருமை குடிகொண்டது. தான் காளையின் மீது அமர்ந்திருந்ததால் அந்தக் காளைக்குப் பெரும் பாரமாக இருந்திருக்கும் என்று அது தனக்குத்தானே கற்பனை செய்துகொண்டது.\n\nகொசு தன் மெல்லிய குரலில் காளையின் காதருகே சென்று, \"மாபெரும் காளையாரே! நான் இத்தனை நேரம் தங்கள் கொம்பின் மீது அமர்ந்து ஓய்வெடுத்தேன். தங்களுக்கு நான் மிகவும் பாரமாக இருந்திருப்பேன் அல்லவா? இதோ இப்போது நான் பறந்து செல்லப் போகிறேன், உங்களுக்கு என் பாரம் குறையும்!\" என்று அகந்தையோடு கூறியது.\n\nகாளையோ நிதானமாகப் புல்லை மென்றபடி தன் வாலால் ஈக்களை விரட்டிவிட்டு அமைதியாகச் சொன்னது: \"அப்படியா கொசுவே? நீ எப்போது என் கொம்பில் வந்து அமர்ந்தாய் என்பது கூட எனக்குத் தெரியாது; இப்போது நீ கிளம்பிச் செல்வதாலும் எனக்கு எவ்வித நஷ்டமும் இல்லை, பாரமும் குறையவில்லை. உன்னை ஒரு பொருட்டாகவே நான் கருதவில்லை, தாராளமாகப் போ!\" என்றது. கொசு தன் அற்பத்தனத்தை உணர்ந்து வெட்கித் தலைகுனிந்து பறந்தது.",
+  "moral": "நீதி: உலகில் பிறருக்கு நாம் மிக முக்கியமானவர்கள் என்று வீண் அகந்தை கொள்ளக்கூடாது; நம் இருப்போ மறைவோ சிலருக்கு எவ்வித மாற்றத்தையும் தருவதில்லை.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Gnat and the Bull illustration from the Aesop's Fables collection.",
-  "word_count": 227,
+  "word_count": 155,
   "reading_time": "2 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Gnat and the Bull\"?",
+      "question": "சிறு கொசு தன் களைப்பைப் போக்க எதன் மீது சென்று அமர்ந்தது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "புல்வெளியில் நின்ற பெரிய காளையின் கொம்பின் நுனியில் அமர்ந்தது",
+        "மரத்தின் உச்சி இலையில் அமர்ந்தது",
+        "ஆற்றின் பாறையின் மீது அமர்ந்தது",
+        "வேடனின் தோளில் அமர்ந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "காளையின் தலையிலிருந்த கூரிய பகுதியை நினைவுகூருங்கள்.",
+      "answer": "புல்வெளியில் நின்ற பெரிய காளையின் கொம்பின் நுனியில் அமர்ந்தது",
+      "explanation": "காளையின் தலையிலிருந்த கூரிய பகுதியை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "பறந்து செல்வதற்கு முன் கொசு காளையிடம் என்ன கூறித் தற்பெருமை பேசியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "நான் புறப்படுவதால் உனக்கு என் பாரம் குறையும் என்று கூறியது",
+        "உனக்கு இனிப்பு கொண்டு வருவேன் என்றது",
+        "உன்னோடு பந்தயம் வைக்கவா என்று கேட்டது",
+        "உன் கொம்பை உடைத்துவிடுவேன் என்று மிரட்டியது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "தன்னை ஒரு பெரிய பாரமாக எண்ணிய கொசுவின் அறியாமையை யோசியுங்கள்.",
+      "answer": "நான் புறப்படுவதால் உனக்கு என் பாரம் குறையும் என்று கூறியது",
+      "explanation": "தன்னை ஒரு பெரிய பாரமாக எண்ணிய கொசுவின் அறியாமையை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "காளையின் அலட்சியமான பதில் கொசுவுக்கு என்ன உண்மையை உணர்த்தியது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "உலகில் நாம் பிறருக்கு மிக முக்கியமானவர்கள் என்ற வீண் அகந்தை அர்த்தமற்றது என்பதை உணர்த்தியது",
+        "கொசுக்கள் காளையை விட வலிமையானவை",
+        "புல்வெளியில் அமரவே கூடாது",
+        "காளையின் கொம்புகள் மென்மையானவை"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "சுய முக்கியத்துவத்தைப் பற்றிய போலி எண்ணத்தை எண்ணிப்பாருங்கள்.",
+      "answer": "உலகில் நாம் பிறருக்கு மிக முக்கியமானவர்கள் என்ற வீண் அகந்தை அர்த்தமற்றது என்பதை உணர்த்தியது",
+      "explanation": "சுய முக்கியத்துவத்தைப் பற்றிய போலி எண்ணத்தை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "ரீங்காரமிட்டுப்",
+      "meaning": "கொசு அல்லது வண்டு பறக்கும் போது இறக்கைகளால் எழுப்பும் மெல்லிய ஒலி"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "பிரம்மாண்டமான",
+      "meaning": "கண்களுக்கு வியப்பைத் தரும் அளவுக்கு மிக பிரம்மாண்டமான பெரிய உருவம்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "தற்பெருமை",
+      "meaning": "தான் மிகவும் முக்கியமானவன் என்று தனக்குத்தானே வீணாகப் பெருமை பேசிக்கொள்ளும் அறியாமை"
+    },
+    {
+      "word": "பொருட்டாக",
+      "meaning": "கவனத்தில் எடுத்துக்கொள்ள வேண்டிய முக்கியமான ஒன்றாக"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Gnat and the Bull\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "காளை கொசுவின் பேச்சைக் கேட்டு என்ன செய்துகொண்டிருந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "கொசுவின் எண்ணத்திற்கும் காளையின் மனநிலைக்கும் இடையே இருந்த மிகப்பெரிய முரண்பாடு என்ன?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "ஒரு குழுவிலோ நிறுவனத்திலோ நாம் இன்றியமையாதவர்கள் என்ற அகந்தை ஏன் கூடாது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "அடக்கம் மற்றும் தன்னடக்கம் ஒரு மனிதனை எவ்வாறு மேன்மைப்படுத்துகிறது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

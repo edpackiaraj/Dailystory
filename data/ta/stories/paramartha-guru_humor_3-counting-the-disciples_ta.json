@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"Counting the Disciples\"?",
+      "question": "ஆற்றைக் கடந்த பிறகு சீடர்கள் ஏன் நடுநடுங்கி கதறி அழத் தொடங்கினர்?",
       "options": [
-        "Foolishness of book knowledge without worldly wisdom",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "ஒவ்வொருவரும் மற்றவர்களை எண்ணிவிட்டுத் தன்னை எண்ண மறந்ததால் ஒருவர் ஆற்றில் மூழ்கிவிட்டதாகத் தவறாக நினைத்தனர்",
+        "அவர்களின் பணப் பை ஆற்றில் அடித்துச் செல்லப்பட்டது",
+        "ஆற்றில் முதலை வந்து அவர்களை அச்சுறுத்தியது",
+        "குரு ஆற்றில் நீந்தத் தெரியாமல் மயங்கி விழுந்தார்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "சீடர்கள் செய்த புகழ்பெற்ற கணக்குப் பிழையை நினைவுகூருங்கள்.",
+      "answer": "ஒவ்வொருவரும் மற்றவர்களை எண்ணிவிட்டுத் தன்னை எண்ண மறந்ததால் ஒருவர் ஆற்றில் மூழ்கிவிட்டதாகத் தவறாக நினைத்தனர்",
+      "explanation": "சீடர்கள் செய்த புகழ்பெற்ற கணக்குப் பிழையை நினைவுகூருங்கள்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "அவ்வழியே வந்த புத்திசாலி வழிப்போக்கன் அவர்களின் பிழையை எவ்வாறு புரியவைத்தார்?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "ஒவ்வொருவர் முதுகிலும் ஒரு தடியால் தட்டி எண்ணிக்கையை உரக்கச் சொல்லித் தலைகளைக் கூட்டிக் காட்டினார்",
+        "அவர்களை மீண்டும் ஆற்றில் குதிக்கச் சொன்னார்",
+        "அவர்களோடு சேர்ந்து தானும் அழுதார்",
+        "ஊர் பஞ்சாயத்துக்கு அழைத்துச் சென்றார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "வழிப்போக்கன் தடியால் தட்டி எண்ணிய உத்தியைக் கவனியுங்கள்.",
+      "answer": "ஒவ்வொருவர் முதுகிலும் ஒரு தடியால் தட்டி எண்ணிக்கையை உரக்கச் சொல்லித் தலைகளைக் கூட்டிக் காட்டினார்",
+      "explanation": "வழிப்போக்கன் தடியால் தட்டி எண்ணிய உத்தியைக் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "இக்கதையின் தத்துவார்த்த உட்கருத்து என்ன?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "மற்றவர்களை ஆராய்ந்து கணக்கிடும் மனிதன், பெரும்பாலும் தன்னைப் பற்றி சுய ஆய்வு செய்ய மறந்துவிடுகிறான்",
+        "ஆற்றில் எப்போதுமே நீந்தக்கூடாது",
+        "கணக்குப் பாடம் மிகவும் கடினமானது",
+        "வழிப்போக்கர்களை நம்பக்கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "தன்னை அறிதலின் முக்கியத்துவத்தை எண்ணிப்பாருங்கள்.",
+      "answer": "மற்றவர்களை ஆராய்ந்து கணக்கிடும் மனிதன், பெரும்பாலும் தன்னைப் பற்றி சுய ஆய்வு செய்ய மறந்துவிடுகிறான்",
+      "explanation": "தன்னை அறிதலின் முக்கியத்துவத்தை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Veeramamunivar (Costanzo Beschi, 1728 / Tamil Folk Humor)",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "ஆற்றங்கரை",
+      "meaning": "ஓடும் ஆற்றின் மணல் பரந்த ஓரப் பகுதி"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "தன்னை",
+      "meaning": "எல்லோரையும் எண்ணும்போது தன்னை மட்டும் கணக்கில் சேர்க்காமல் விட்டுவிடும் மறதி"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "நாள்",
+      "meaning": "நாள் என்ற சொல்லின் சூழல் பொருள் (Signifies நாள் in the context of the story)"
+    },
+    {
+      "word": "வழிப்போக்கன்",
+      "meaning": "அந்தப் பாதையைக் கடந்து செல்லும் அறிவார்ந்த புதிய மனிதர்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"Counting the Disciples\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "சீடர்கள் மொத்தம் எத்தனை பேர் ஆற்றில் நீந்திக் கடந்தனர்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Foolishness of book knowledge without worldly wisdom\"?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "எல்லோரும் எண்ணியும் ஒரே தவறு மீண்டும் மீண்டும் ஏன் நிகழ்ந்தது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "பயன்பாடு",
+      "prompt": "நமது வாழ்க்கையில் பிறரின் குறைகளைத் தேடும் முன் நம்மை நாம் சுயபரிசோதனை செய்வது ஏன் அவசியம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "சிந்தனை",
+      "prompt": "கூட்டு அறியாமை (Group Mentality) எவ்வாறு மனிதர்களைப் பகுத்தறிவற்ற முடிவுகளுக்கு இட்டுச் செல்கிறது?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

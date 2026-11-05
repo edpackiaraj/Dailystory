@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"Numskull and the Rabbit\"?",
+      "question": "பாசிடோசகன் என்ற மகா கொடிய சிங்கம் நாள்தோறும் என்ன அட்டகாசம் செய்தது?",
       "options": [
-        "Wisdom, patience, and kind conduct lead to peace and happiness.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "காட்டின் அனைத்து மிருகங்களையும் இரக்கமின்றி வேட்டையாடிக் கொன்று குவித்தது",
+        "காட்டைத் தீயிட்டுக் கொளுத்தியது",
+        "ஆற்று நீரை யாரையும் குடிக்க விடாமல் தடுத்தது",
+        "மற்ற விலங்குகளைக் கூண்டில் அடைத்து வைத்தது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "சிங்கத்தின் வரம்பற்ற படுகொலைகளை நினைவுகூருங்கள்.",
+      "answer": "காட்டின் அனைத்து மிருகங்களையும் இரக்கமின்றி வேட்டையாடிக் கொன்று குவித்தது",
+      "explanation": "சிங்கத்தின் வரம்பற்ற படுகொலைகளை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "தனது முறை வந்தபோது சிறிய முயல் சிங்கத்திடம் என்ன பொய்க் காரணத்தைக் கூறித் தாமதமாக வந்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "வழியில் மற்றொரு பெரும் சிங்கம் தன்னை வழிமறித்துத் தானே காட்டின் அரசன் என்று கர்ஜித்ததாகக் கூறியது",
+        "தான் தூங்கிவிட்டதாக உண்மையைச் சொன்னது",
+        "காட்டில் வழி தவறிப் போய்விட்டதாகக் கூறியது",
+        "தன் குடும்பத்தாரைப் பார்த்துவிட்டு வந்ததாகக் கூறியது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "சிங்கத்தின் கர்வத்தைத் தூண்ட முயல் புனைந்த கதையை யோசியுங்கள்.",
+      "answer": "வழியில் மற்றொரு பெரும் சிங்கம் தன்னை வழிமறித்துத் தானே காட்டின் அரசன் என்று கர்ஜித்ததாகக் கூறியது",
+      "explanation": "சிங்கத்தின் கர்வத்தைத் தூண்ட முயல் புனைந்த கதையை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "முயல் காட்டிய பாழுங்கிணற்றுக்குள் எட்டிப் பார்த்த சிங்கம் ஏன் கிணற்றுக்குள் குதித்தது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "நீரில் தெரிந்த தன் சொந்த நிழலையும் எதிரொலியையும் மற்றொரு எதிரி சிங்கம் என நினைத்து ஆக்ரோஷத்தில் குதித்து மடிந்தது",
+        "கிணற்றுக்குள் தாகத்திற்கு நீர் குடிக்கக் குதித்தது",
+        "முயலைத் தள்ள முயன்ற போது தவறி விழுந்தது",
+        "கிணற்றுக்குள் ஒளிந்திருந்த வேடனைத் தாக்கக் குதித்தது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "சிங்கத்தின் சொந்தக் கோபமும் அறியாமையுமே அதைக் கொன்றதை நினைவுகூருங்கள்.",
+      "answer": "நீரில் தெரிந்த தன் சொந்த நிழலையும் எதிரொலியையும் மற்றொரு எதிரி சிங்கம் என நினைத்து ஆக்ரோஷத்தில் குதித்து மடிந்தது",
+      "explanation": "சிங்கத்தின் சொந்தக் கோபமும் அறியாமையுமே அதைக் கொன்றதை நினைவுகூருங்கள்."
     }
   ],
   "author": "Pandit Vishnu Sharma (~200 BCE – 300 CE)",
@@ -79,30 +85,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "கொடுங்கோலன்",
-      "meaning": "இரக்கமின்றி கொடுமையான ஆட்சி செய்யும் அரசன்"
+      "word": "அடர்ந்த",
+      "meaning": "அடர்ந்த என்ற சொல்லின் சூழல் பொருள் (Signifies அடர்ந்த in the context of the story)"
     },
     {
-      "word": "பிரதிபலிப்பு",
-      "meaning": "தண்ணீர் அல்லது கண்ணாடியில் தோன்றும் நிழல் உருவம்"
+      "word": "நிழலைப்",
+      "meaning": "நீரிலோ கண்ணாடியிலோ தெரியும் பிம்பம்"
     },
     {
-      "word": "மனோபலம்",
-      "meaning": "அச்சமில்லாத மன உறுதி மற்றும் துணிச்சல்"
+      "word": "காட்டில்",
+      "meaning": "காட்டில் என்ற சொல்லின் சூழல் பொருள் (Signifies காட்டில் in the context of the story)"
+    },
+    {
+      "word": "பாசுரகன்",
+      "meaning": "பாசுரகன் என்ற சொல்லின் சூழல் பொருள் (Signifies பாசுரகன் in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "முயல் சிங்கத்தின் குகைக்கு ஏன் தாமதமாகச் சென்றது?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "காட்டு விலங்குகள் சிங்கத்திற்கு நாள்தோறும் என்ன ஒப்பந்தம் செய்திருந்தன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "சிங்கம் கிணற்றுக்குள் பாயக் காரணம் என்ன?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "அசாத்திய உடல் பலம் கொண்ட கொடிய சிங்கத்தை மிகச் சிறிய முயல் எவ்வாறு வீழ்த்தியது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "நம்மை விட வலிமையான எதிரி எதிரில் வரும்போது நாம் கோபப்படாமல் எப்படி விவேகமாகச் செயல்பட வேண்டும்?"
+      "tier": "பயன்பாடு",
+      "prompt": "\"உடல்பலத்தை விட அறிவுபலமே சிறந்தது\" என்பதற்கு இக்கதை எவ்வாறு தலைசிறந்த சான்றாகிறது?"
+    },
+    {
+      "tier": "சிந்தனை",
+      "prompt": "கட்டுக்கடங்காத கோபமும் கர்வமும் மனிதனின் சிந்திக்கும் ஆற்றலை எவ்வாறு முற்றிலும் குருடாக்குகிறது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

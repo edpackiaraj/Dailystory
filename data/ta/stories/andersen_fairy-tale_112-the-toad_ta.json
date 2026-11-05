@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-112-the-toad",
   "slug": "hans-christian-andersen-112-the-toad",
   "language": "ta",
-  "title": "The Toad",
+  "title": "கிணற்றுத் தவளையும் நெஞ்சில் ஒளிர்ந்த வைர மணியும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Deep at the bottom of an old muddy well lived a mother toad and her little ones. The mother croaked: \"The world is this damp well and the wet stones!\"...",
+  "summary": "இருண்ட பாசி படர்ந்த பழைய கிணற்றின் அடியில் பிறந்து, தன் தாயின் குறுகிய உலகப் பார்வையைத் தாண்டி மேலே உள்ள சூரிய ஒளியையும் வானத்தையும் காணத் துடித்து, தியாகத்தோடு மேலேறிப் புனிதம் அடைந்த சிறிய தவளையின் கதை.",
   "keywords": [
     "hans christian andersen",
     "the toad",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived Deep at the bottom of an old muddy well lived a mother toad and her little ones. The mother croaked: \"The world is this damp well and the wet stones!\".... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the outward form may be humble and despised, yet a jewel of divine aspiration rests within.",
-  "moral": "The outward form may be humble and despised, yet a jewel of divine aspiration rests within.",
+  "full_text": "பழைய பாழடைந்த தோட்டத்து கிணற்றின் ஆழமான ஈரச் சேற்றில், ஒரு முதிய தாய் தவளையும் அதன் குட்டித் தவளைகளும் வாழ்ந்து வந்தன.\n    \nதாய் தவளை கரகரத்த குரலில் கத்தியது: \"என் கண்மணிகளே! இந்த இருண்ட கிணறும், பாசி படர்ந்த கற்களுமே உலகின் உன்னத சொர்க்கம்! இதை விட மேலான இடம் வேறு எதுவுமே இல்லை!\" என்றது.\n    \nஆனால் ஒரு சிறிய குட்டித் தவளையின் நெஞ்சில் மட்டும் அடங்காத ஒரு தாகம் இருந்தது. அது மேலே தெரிந்த வட்ட வடிவ வெளிச்சத்தைப் பார்த்து ஏங்கியது: \"அந்த வெளிச்சத்திற்கு மேலே என்ன இருக்கிறது? நான் அதை நேரில் பார்க்க வேண்டும்!\" என்றது.\n    \n\"முட்டாளே! மேலே சூரியன் உன் தோலைச் சுட்டுவிடும்; மனிதர்கள் உன்னை நசுக்கிவிடுவார்கள்!\" என்று தாய் தவளை எச்சரித்தது.\n    \nஆனால் அக்குட்டித் தவளை பின்வாங்கவில்லை. அது பாறைகளின் இடுக்குகளிலும், கயிறுகளிலும் தன் மெல்லிய கால்களால் கஷ்டப்பட்டு ஏறி, கிணற்றின் விளிம்பை அடைந்தது!\n    \nஅங்கே அது கண்ட காட்சி பேரானந்தத்தை அளித்தது: விரிந்த பசுமைப் புல்வெளிகள், வண்ண மலர்கள், எல்லையற்ற நீல வானம்!\n    \nபழங்கால நம்பிக்கையின்படி, தவளையின் தலையினுள் ஒரு விலைமதிப்பற்ற வைர மணி ஒளிந்திருப்பதாகக் கூறுவர்.\n    \nஅந்தத் தவளையின் தலையில் ரத்தினம் இருந்ததோ இல்லையோ, ஆனால் அதன் நெஞ்சில் எல்லையற்ற அழகையும் ஒளியையும் நாடும் தூய ஆன்மீகத் தாகம் சுடரொளியாகப் பிரகாசித்தது.",
+  "moral": "வெளித்தோற்றம் அருவருப்பானதாக இருந்தாலும், உள்ளத்தில் உன்னதமான ஒளிமிக்க லட்சியமும் இறை நாட்டமும் கொண்ட ஆன்மா பரலோகப் பேரொளியை அடையும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Toad illustration from the Hans Christian Andersen collection.",
   "word_count": 228,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Toad\"?",
+      "question": "கிணற்றின் அடியில் இருந்த குட்டித் தவளை எதனைப் பார்க்க வேண்டும் என்று ஏங்கியது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "கிணற்றுக்கு மேலே தெரிந்த சூரிய ஒளியையும் பரந்த வானத்தையும் பார்க்க ஏங்கியது",
+        "சேற்றைத் தின்ன ஏங்கியது",
+        "தூங்க ஏங்கியது",
+        "மீன்களைப் பிடிக்க ஏங்கியது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "கிணற்றுக்கு மேலே தெரிந்த சூரிய ஒளியையும் பரந்த வானத்தையும் பார்க்க ஏங்கியது",
+      "hint": "வட்ட வடிவ வெளிச்சத்தை நோக்கிய தாகத்தை நினையுங்கள்.",
+      "explanation": "குட்டித் தவளை இருட்டு கிணற்றைத் தாண்டி மேலே உள்ள உலகப் பேரொளியைக் காண விரும்பியது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "குட்டித் தவளை கிணற்றின் விளிம்பை அடைந்ததும் எதனைக் கண்டது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "பசுமைப் புல்வெளிகள், மலர்கள் மற்றும் நீல வானத்தின் எல்லையற்ற பேரழகைக் கண்டது",
+        "இருளைக் கண்டது",
+        "பாறைகளை மட்டுமே கண்டது",
+        "வெள்ளத்தைக் கண்டது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "பசுமைப் புல்வெளிகள், மலர்கள் மற்றும் நீல வானத்தின் எல்லையற்ற பேரழகைக் கண்டது",
+      "hint": "வெளி உலகப் பேரெழிலை நினையுங்கள்.",
+      "explanation": "கிணற்றை விட்டு வெளியே வந்த தவளை இயற்கையின் அற்புதப் பேரழகைக் கண்டு களித்தது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் உன்னத ஆன்மீக நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "வெளித்தோற்றம் அருவருப்பானாலும் உள்ளத்து உயர்ந்த லட்சிய தாகமே ஆன்மாவை ஒளியில் சேர்க்கும்",
+        "கிணறுகளுக்குள் தவளைகளைப் போடக் கூடாது",
+        "தவளைகளைக் கொல்ல வேண்டும்",
+        "சூரிய ஒளியைப் பார்க்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "வெளித்தோற்றம் அருவருப்பானாலும் உள்ளத்து உயர்ந்த லட்சிய தாகமே ஆன்மாவை ஒளியில் சேர்க்கும்",
+      "hint": "உள்ளத்து ஒளிமிக்க தேடலின் மேன்மையை நினையுங்கள்.",
+      "explanation": "ஆன்டர்சன் தவளையின் வழி தாழ்ந்த நிலையிலும் ஆன்மாவை உயர்த்தும் உன்னத லட்சியத்தை உருவகப்படுத்தினார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கரகரத்த",
+      "meaning": "தொண்டை அடைத்து கரகரவென்று எழும் கரடுமுரடான தடித்த ஒலி கொண்ட",
+      "gloss": "croaking, hoarse, rasping"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "விளிம்பை",
+      "meaning": "ஆழமான கிணறு அல்லது பள்ளத்தின் மேல் விளிம்பு அல்லது கரைப் பகுதியை",
+      "gloss": "the edge, rim, brink"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "சுடரொளியாகப்",
+      "meaning": "இருளைப் போக்கும் பிரகாசமான தீபச் சுடரின் பேரொளியாக",
+      "gloss": "as a radiant flame, bright flare"
+    },
+    {
+      "word": "ஆன்மீகத்",
+      "meaning": "பௌதிகப் பொருட்களுக்கு அப்பால் இறைவனையும் ஒளியையும் நாடும் ஆன்மா சார்ந்த",
+      "gloss": "spiritual, soulful"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Toad\"?"
+      "tier": "remembering",
+      "prompt": "தாய் தவளை எதனை உலகத்தின் உன்னத சொர்க்கம் என்று கருதியது?",
+      "type": "remembering",
+      "question": "தாய் தவளை எதனை உலகத்தின் உன்னத சொர்க்கம் என்று கருதியது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "தவளையின் தலையில் இருப்பதாகக் கூறப்படும் 'வைர மணி' உண்மையில் எதனைக் குறிக்கிறது என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "தவளையின் தலையில் இருப்பதாகக் கூறப்படும் 'வைர மணி' உண்மையில் எதனைக் குறிக்கிறது என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது வாழ்க்கைச் சூழல் இருண்டதாகவும் குறுகியதாகவும் இருந்தாலும் நாம் எவ்வாறு பரந்த அறிவு ஒளியை நோக்கி முன்னேற வேண்டும்?",
+      "type": "applying",
+      "question": "நமது வாழ்க்கைச் சூழல் இருண்டதாகவும் குறுகியதாகவும் இருந்தாலும் நாம் எவ்வாறு பரந்த அறிவு ஒளியை நோக்கி முன்னேற வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "கிணற்றின் குறுகிய உலகத்திற்கும், கிணற்றுக்கு வெளியே விரியும் பரந்த உலகத்திற்கும் உள்ள வாழ்வியல் தத்துவங்களை ஆராய்க.",
+      "type": "analyzing",
+      "question": "கிணற்றின் குறுகிய உலகத்திற்கும், கிணற்றுக்கு வெளியே விரியும் பரந்த உலகத்திற்கும் உள்ள வாழ்வியல் தத்துவங்களை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'பிறந்த சூழலை விட மனிதன் அடைய விரும்பும் உன்னத லட்சியமே அவனது உண்மையான மதிப்பைத் தீர்மானிக்கிறது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'பிறந்த சூழலை விட மனிதன் அடைய விரும்பும் உன்னத லட்சியமே அவனது உண்மையான மதிப்பைத் தீர்மானிக்கிறது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "சூரிய ஒளியைக் கண்ட குட்டித் தவளை தன் தாய் தவளைக்கு விடுத்த அன்பான அழைப்பை ஒரு கவிதையாக வடிக்கவும்.",
+      "type": "creating",
+      "question": "சூரிய ஒளியைக் கண்ட குட்டித் தவளை தன் தாய் தவளைக்கு விடுத்த அன்பான அழைப்பை ஒரு கவிதையாக வடிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

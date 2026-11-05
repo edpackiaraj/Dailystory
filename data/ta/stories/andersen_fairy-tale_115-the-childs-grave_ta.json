@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-115-the-childs-grave",
   "slug": "hans-christian-andersen-115-the-childs-grave",
   "language": "ta",
-  "title": "The Child's Grave (The Vision of Hope)",
+  "title": "குழந்தையின் கல்லறையும் நம்பிக்கையின் நித்திய தரிசனமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Weeping through the bitter frost upon her child's grave, the mother felt her soul descend into the subterranean gloom. There she saw her little one heavy with her tears, unable to...",
+  "summary": "மரணமடைந்த தன் பச்சிளங்குழந்தையின் கல்லறையில் விழுந்து ஓயாமல் கண்ணீர் வடித்த தாய், தன் ஆறாத் துயரம் குழந்தையின் ஆன்மாவை பாரமாக்குகிறது என்பதை உணர்ந்து, விசுவாசத்தோடு இறைவனின் பேரொளியில் சாந்தியடைந்த கதை.",
   "keywords": [
     "hans christian andersen",
     "the child's grave",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived Weeping through the bitter frost upon her child's grave, the mother felt her soul descend into the subterranean gloom. There she saw her little one heavy with her tears, unable to.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that tears of faith water the blossoms of reunion; the departed live in the warm light of eternity.",
-  "moral": "Tears of faith water the blossoms of reunion; the departed live in the warm light of eternity.",
+  "full_text": "கடும் குளிர்காலத்தின் பனி மூடிய மயானத்தில், தன் பச்சிளங்குழந்தையின் கல்லறைக் குன்றின் மீது சாய்ந்து ஒரு தாய் இரவு பகலாக அழுது கொண்டிருந்தாள்.\n    \nஅவளது கணவரும் உறவினர்களும் அவளைத் தேற்ற முயன்றும், \"என் குழந்தை இல்லாத இந்த உலகத்தில் எனக்கு எந்த ஒளியும் தேவையில்லை!\" என்று அவள் கதறினாள்.\n    \nஒரு நள்ளிரவில், அவளது ஆன்மா கனவில் பாதாள இருளுக்குள் இழுத்துச் செல்லப்பட்டது. அங்கே அவளது அருமை மகன் நின்று கொண்டிருந்தான்.\n    \nஆனால் அவனது வெண்ணிற ஆடை, தாயின் ஆறாக் கண்ணீரால் நனைந்து மிகவும் கனத்துக் கிடந்தது! அவனால் பிற வானத்துத் தேவதைகளோடு சிறகடித்துப் பறக்க முடியவில்லை.\n    \nஅந்தக் குழந்தை கண்ணீருடன் கெஞ்சியது: \"அம்மா! தயவுசெய்து எனக்காக இனி அழாதீர்கள்! உங்கள் ஒவ்வொரு கண்ணீர்த் துளியும் என் மீது கனத்த பாறையாக விழுகிறது! நான் விண்ணுலகில் இறைவனின் பொற்கரங்களில் ஆனந்தமாக இருக்க என்னை விடைபெற அனுமதியுங்கள்!\" என்றது.\n    \nதாயின் உள்ளத்தில் ஞானத்தின் மின்னல் வெட்டியது. தன் சுயநலக் கண்ணீர் குழந்தையை விண்ணகத்தில் மகிழ்வாக இருக்க விடாமல் தடுக்கிறது என்பதை உணர்ந்தாள்.\n    \nஅவள் விழித்தெழுந்து முழங்காலிட்டு இறைவனிடம் பிரார்த்தித்தாள்; தன் வீண் அழுகையை விடுத்துத் தன் மற்ற குழந்தைகளிடம் புன்னகையோடு திரும்பினாள். விசுவாசம் அவளது இருண்ட இதயத்தில் நித்திய அமைதியின் ஒளியைப் பாய்ச்சியது.",
+  "moral": "கண்ணீரின் இருளில் மூழ்கிவிடாமல் தூய விசுவாசத்தோடு நிமிர்ந்து பார்க்கும் போது, மறைந்த உயிர்கள் இறைவனின் நித்தியப் பேரொளியில் ஆனந்தமாக வாழ்வதைத் தரிசிக்க முடியும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Child's Grave illustration from the Hans Christian Andersen collection.",
   "word_count": 230,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Child's Grave\"?",
+      "question": "கனவுக் காட்சியில் குழந்தை தாயிடம் என்ன வேண்டுகோள் விடுத்தது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "அம்மா, எனக்காக அழாதீர்கள்; உங்கள் கண்ணீர் என் ஆடைகளைக் கனமாக்கி என்னை விண்ணில் பறக்க விடாமல் தடுக்கிறது என்றது",
+        "எனக்கு உணவு தாருங்கள் என்றது",
+        "பூமிக்கு வர விரும்புகிறேன் என்றது",
+        "ஆடைகளை மாற்றுங்கள் என்றது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "அம்மா, எனக்காக அழாதீர்கள்; உங்கள் கண்ணீர் என் ஆடைகளைக் கனமாக்கி என்னை விண்ணில் பறக்க விடாமல் தடுக்கிறது என்றது",
+      "hint": "கண்ணீரின் பாரத்தைப் பற்றி குழந்தை கூறியதை நினையுங்கள்.",
+      "explanation": "தாயின் எல்லையற்ற துயரம் குழந்தையை விண்ணகப் பேரின்பத்தை அனுபவிக்க விடாமல் தடுத்தது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "விழித்தெழுந்த தாய் தன் தவறை உணர்ந்து என்ன செய்தாள்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "இறைவனிடம் மன்னிப்புக் கோரிப் புன்னகையோடு குடும்பத்தாரிடம் திரும்பி அமைதி பெற்றாள்",
+        "மீண்டும் மயானத்திற்கு ஓடினாள்",
+        "ஊரை விட்டுச் சென்றாள்",
+        "வீட்டை அடைத்துக் கொண்டாள்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "இறைவனிடம் மன்னிப்புக் கோரிப் புன்னகையோடு குடும்பத்தாரிடம் திரும்பி அமைதி பெற்றாள்",
+      "hint": "அவள் அடைந்த விசுவாச சாந்தியை நினையுங்கள்.",
+      "explanation": "தாய் தன் சுயநலத் துயரத்தை விடுத்து விசுவாசத்தோடு இறைவனின் பேரொளியை நம்பி வாழ்வைத் தொடர்ந்தாள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனிதர்களுக்கு அளிக்கும் ஆன்மீக ஆறுதல் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "இறந்தவர்களை நினைத்து ஓயாமல் அழுவதை விடுத்து, விசுவாசத்தோடு இறைவனின் கருணையை நம்ப வேண்டும்",
+        "குழந்தைகளை நேசிக்கக் கூடாது",
+        "கல்லறைகளுக்கு மலர் வைக்கக் கூடாது",
+        "குளிர்காலத்தில் நடக்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "இறந்தவர்களை நினைத்து ஓயாமல் அழுவதை விடுத்து, விசுவாசத்தோடு இறைவனின் கருணையை நம்ப வேண்டும்",
+      "hint": "மரணத்தைக் கடந்த விசுவாசத்தின் ஒளியை நினையுங்கள்.",
+      "explanation": "ஆன்டர்சன் மனித இழப்புகளை விசுவாசத்தோடு ஏற்றுக்கொண்டு அமைதி பெறுவதன் மேன்மையை விளக்கினார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "மயானத்தில்",
+      "meaning": "மரணமடைந்த உடல்களை அடக்கம் செய்யும் தேவாலயக் கல்லறைத் தோட்டத்தில்",
+      "gloss": "in the cemetery, churchyard"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "தேற்ற",
+      "meaning": "துன்பத்தில் தவிப்பவருக்கு ஆறுதல் கூறித் துயரத்தைப் போக்க",
+      "gloss": "to console, comfort"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "விண்ணுலகில்",
+      "meaning": "பரிசுத்தமான தேவதைகளும் இறைவனும் வாழும் நித்திய பரலோகத்தில்",
+      "gloss": "in the heavenly realm"
+    },
+    {
+      "word": "விசுவாசம்",
+      "meaning": "இறைவனின் நீதி மற்றும் கருணையின் மீதான அசைக்க முடியாத பக்தி நம்பிக்கை",
+      "gloss": "faith, devout belief"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Child's Grave\"?"
+      "tier": "remembering",
+      "prompt": "தாய் இரவும் பகலும் எங்கே சென்று அழுது கொண்டிருந்தாள்?",
+      "type": "remembering",
+      "question": "தாய் இரவும் பகலும் எங்கே சென்று அழுது கொண்டிருந்தாள்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "தாயின் தொடர் அழுகை எவ்வாறு ஒரு குழந்தையின் ஆன்மீக விடுதலைக்குத் தடையாக இருந்தது என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "தாயின் தொடர் அழுகை எவ்வாறு ஒரு குழந்தையின் ஆன்மீக விடுதலைக்குத் தடையாக இருந்தது என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது வாழ்வில் ஏற்படும் பெரிய இழப்புகளின் போது நாம் எவ்வாறு மனந்தளராமல் குடும்பத்தைப் பாதுகாக்கும் உறுதியை அடையலாம்?",
+      "type": "applying",
+      "question": "நமது வாழ்வில் ஏற்படும் பெரிய இழப்புகளின் போது நாம் எவ்வாறு மனந்தளராமல் குடும்பத்தைப் பாதுகாக்கும் உறுதியை அடையலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "கல்லறையின் மண்ணோடு கட்டப்படும் சுயநலத் துயரத்திற்கும், விசுவாசம் காட்டும் விண்ணகப் பேரொளிக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "கல்லறையின் மண்ணோடு கட்டப்படும் சுயநலத் துயரத்திற்கும், விசுவாசம் காட்டும் விண்ணகப் பேரொளிக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'உண்மையான அன்பு என்பது பிரிந்தவர்களுக்காக ஓயாமல் அழுவது அல்ல, அவர்களின் அமைதிக்காகப் பிரார்த்திப்பதே' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'உண்மையான அன்பு என்பது பிரிந்தவர்களுக்காக ஓயாமல் அழுவது அல்ல, அவர்களின் அமைதிக்காகப் பிரார்த்திப்பதே' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "குடும்பத்திற்குத் திரும்பிய தாய் தன் பிற குழந்தைகளை அரவணைத்து ஆற்றிய அன்பான உரையை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "குடும்பத்திற்குத் திரும்பிய தாய் தன் பிற குழந்தைகளை அரவணைத்து ஆற்றிய அன்பான உரையை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

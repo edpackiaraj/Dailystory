@@ -2,12 +2,12 @@
   "id": "arabian-nights-330-fourteenth-constables-history",
   "slug": "arabian-nights-330-fourteenth-constables-history",
   "language": "ta",
-  "title": "Fourteenth Constable's History",
+  "title": "பதினான்காம் காவல் தலைவரின் வரலாறு – உடைந்த வண்ண ஓட்டுச் சில்லும் அரசக் காவலனின் காட்சியும்",
   "genre": "Folktales",
   "collection": "Arabian Nights",
   "culture_region": "Middle East",
   "age_group": "Below 13",
-  "summary": "The Fourteenth Constable spoke:",
+  "summary": "அரண்மனை மாடியில் உடைந்த நீல வண்ண மொசைக் ஓட்டின் விடுபட்ட சிறிய சில்லு, ஒரு காவலனின் காலணித் தோலில் புதைந்திருந்ததைக் கொண்டு அவனது உடந்தைக் குற்றத்தை நிரூபித்தார் பதினான்காம் காவல் தலைவர்.",
   "keywords": [
     "arabian nights",
     "1001 nights",
@@ -22,8 +22,8 @@
     "classic",
     "wisdom"
   ],
-  "full_text": "The Fourteenth Constable related: \"Sire, the private treasury of the royal palace was entered by an unknown intruder who scrambled over the parapet. In his flight, he smashed an ornamental Persian mosaic tile that lined the royal terrace, scattering sharp blue fragments across the marble.\"\n\n\"The guards found nothing, but I gathered the blue fragments and noted that a single sharp triangular sliver was missing from the corner of the broken tile. I ordered every soldier and servant on duty that night to present their boots and leather sandals for immediate inspection.\"\n\n\"Embedded deep in the thick leather sole of a royal guard’s boot, we discovered the missing triangular sliver of blue-glazed tile, fitting the broken terrace mosaic like a puzzle piece! The treacherous sentry, confronted with the stone that had cleaved to his heel, confessed his complicity in the theft. The stolen gold was recovered from his garden wall, proving that a single broken shard is sufficient to shatter the fortress of falsehood.\"",
-  "moral": "A broken fragment matching its origin speaks with unbreakable certainty in the hall of justice.",
+  "full_text": "பதினான்காம் காவல் தலைவர் சுல்தானின் முன் வந்து தன் வரலாற்றைப் பகிர்ந்துகொண்டார்: \"அரசே! அரண்மனையின் தனிப்பட்ட பொற்கருவூலத்திற்குள் நள்ளிரவில் மர்ம நபர் ஒருவன் சுற்றுச்சுவரேறிப் புகுந்து தங்கத்தை அள்ளினான். தப்பியோடும் அவசரத்தில், அரண்மனை மேல்மாடியின் தரையில் பதிக்கப்பட்டிருந்த பாரசீக நீல வண்ண பீங்கான் மொசைக் ஓடு ஒன்றைத் தன் காலால் மிதித்து உடைத்துவிட்டான்; பளிங்குத் தரையெங்கும் கூரிய நீல வண்ணத் துண்டுகள் சிதறிக்கிடந்தன.\"\n\n\"அரண்மனைக் காவலர்கள் எவ்விதத் தடயமும் கிடைக்கவில்லை என்று கைவிரித்தனர். ஆனால் நான் அந்த நீல வண்ண ஓட்டுச் சில்லுகளைச் சேகரித்துத் தரையில் வைத்துப் பொருத்திப் பார்த்தேன். அந்த உடைந்த ஓட்டின் ஒரு மூலையிலிருந்து முக்கோண வடிவிலான ஒரு சிறிய கூர்மையான சில்லு மட்டும் விடுபட்டிருப்பதைக் கண்டேன். உடனே அன்றிரவு பணியிலிருந்த அனைத்துக் காவலர்கள் மற்றும் ஏவலாட்களின் தோல் காலணிகளையும் உடனே என் முன் ஒப்படைக்க ஆணையிட்டேன்.\"\n\n\"பரிசோதனையின்போது, ஓர் அரச காவலனின் தடித்த தோல் காலணியின் அடிப்பகுதியில், அந்த விடுபட்ட முக்கோண நீல பீங்கான் சில்லு ஆழமாகப் புதைந்திருந்தது! தரையில் வைக்கப்பட்ட ஓட்டின் இடைவெளியில் அது புதிரின் விடை போலக் கச்சிதமாகப் பொருந்தி நின்றது! தன் குதிகாலில் ஒட்டியிருந்த கல்லை நேரில் கண்ட துரோகக் காவலன் நடுங்கித் தன் உடந்தைக் குற்றத்தை ஒப்புக்கொண்டான். அவன் தன் வீட்டுத் தோட்டத்துச் சுவரில் மறைத்து வைத்திருந்த தங்கக் குவியலும் மீட்கப்பட்டது; உடைந்த ஒரு சிறு சில்லு மாபெரும் பொய்மையின் கோட்டையைத் தகர்த்தது!\"",
+  "moral": "சிறு துரும்பு போன்ற சிறிய தடயமும் மாபெரும் பொய்யின் கோட்டையை நொறுக்கி உண்மையை நிலைநாட்டிவிடும்.",
   "image": "/images/stories/arabian-nights.webp",
   "image_alt": "Fourteenth Constable's History illustration from the 1001 Arabian Nights collection.",
   "word_count": 164,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central focus of \"Fourteenth Constable's History\"?",
+      "question": "அரண்மனை மேல்மாடியில் உடைந்து சிதறிய பொருள் எது?",
       "options": [
-        "Seeking wisdom, patience, and solving a unique problem",
-        "Finding gold and keeping it hidden away",
-        "Leaving home forever without greeting friends",
-        "Building tall towers in the sand"
+        "கண்ணாடி விளக்கு",
+        "பாரசீக நீல வண்ண பீங்கான் மொசைக் ஓடு",
+        "வெள்ளிக் கோப்பை",
+        "தங்கத் தட்டு"
       ],
-      "answerIndex": 0,
-      "hint": "Reflect upon the moral outcome of the characters’ choices."
+      "answerIndex": 1,
+      "answer": "பாரசீக நீல வண்ண பீங்கான் மொசைக் ஓடு",
+      "hint": "நீல நிறத்திலான அழகான தரை ஓடு.",
+      "explanation": "அரண்மனை மேல்மாடியின் பாரசீக நீல வண்ண பீங்கான் மொசைக் ஓடு உடைந்திருந்தது."
     },
     {
-      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "question": "விடுபட்ட முக்கோணச் சில்லு எங்கே கண்டுபிடிக்கப்பட்டது?",
       "options": [
-        "Thoughtfulness, patience, and integrity",
-        "Loud shouting and boastful anger",
-        "Running away from every challenge",
-        "Ignoring all wise advice"
+        "ஒரு காவலனின் பையில்",
+        "ஓர் அரச காவலனின் தடித்த தோல் காலணியின் அடிப்பகுதியில் புதைந்திருந்தது",
+        "தோட்டத்து மண்ணில்",
+        "அரண்மனைப் படிகளில்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how calm reflection solves dilemmas in folktales."
+      "answerIndex": 1,
+      "answer": "ஓர் அரச காவலனின் தடித்த தோல் காலணியின் அடிப்பகுதியில் புதைந்திருந்தது",
+      "hint": "காலணியின் தடிமனான அடிப்பாகத்தில் சிக்கியிருந்தது.",
+      "explanation": "அரச காவலனின் தோல் காலணியின் அடிப்பகுதியில் அந்த நீலச் சில்லு ஆழமாகப் பதிந்திருந்தது."
     },
     {
-      "question": "What memorable lesson does this story impart to listeners?",
+      "question": "திருடப்பட்ட தங்கம் எங்கே மறைத்து வைக்கப்பட்டிருந்தது?",
       "options": [
-        "Integrity and keeping one’s word build enduring trust across all borders.",
-        "Never listen to advice from elders",
-        "Always act hastily without planning",
-        "Words spoken in anger cause no harm"
+        "குதிரை லாயத்தில்",
+        "காவலனின் வீட்டுத் தோட்டத்துச் சுவரில்",
+        "கிணற்றுக்குள்",
+        "படுக்கைக்கு அடியில்"
       ],
-      "answerIndex": 0,
-      "hint": "Look closely at the story’s moral."
+      "answerIndex": 1,
+      "answer": "காவலனின் வீட்டுத் தோட்டத்துச் சுவரில்",
+      "hint": "அவனது வீட்டின் வெளிச்சுவர் பகுதியில் மறைத்து வைக்கப்பட்டிருந்தது.",
+      "explanation": "காவலனின் வீட்டுத் தோட்டத்துச் சுவரில் பதுக்கி வைக்கப்பட்டிருந்த தங்கக் குவியலை மீட்டனர்."
     }
   ],
   "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
@@ -77,38 +83,62 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "caliph",
-      "meaning": "a sovereign leader or ruler in historical Islamic states"
+      "word": "பீங்கான்",
+      "meaning": "மண்ணால் செய்து மெருகூட்டப்பட்ட வழவழப்பான ஓடு (Ceramic/Porcelain)",
+      "gloss": "ceramic / porcelain tile"
     },
     {
-      "word": "vizier",
-      "meaning": "a high-ranking minister or trusted counselor"
+      "word": "குதிகாலில்",
+      "meaning": "காலின் பின்புறக் கீழ் எலும்புப் பகுதியில்",
+      "gloss": "in the heel"
     },
     {
-      "word": "hospitality",
-      "meaning": "the friendly and generous reception and entertainment of guests"
+      "word": "விடுபட்டிருப்பதைக்",
+      "meaning": "காணாமல் போய் அல்லது விடுபட்டுப் போயிருப்பதைக்",
+      "gloss": "being missing"
+    },
+    {
+      "word": "துரோகக்",
+      "meaning": "நம்பிக்கைக்கு மாறாக வஞ்சனை செய்கின்ற",
+      "gloss": "treacherous"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What initial challenge or mystery sets the story of \"Fourteenth Constable's History\" into motion?"
+      "tier": "remembering",
+      "prompt": "உடைந்த ஓட்டின் சில்லுகளைத் தரையில் பொருத்தியபோது எந்த வடிவிலான சில்லு விடுபட்டிருந்தது?",
+      "type": "remembering",
+      "question": "உடைந்த ஓட்டின் சில்லுகளைத் தரையில் பொருத்தியபோது எந்த வடிவிலான சில்லு விடுபட்டிருந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+      "tier": "understanding",
+      "prompt": "சில்லுகளைப் புதிர்போலச் சேர்த்து விடுபட்ட பகுதியைத் தேடிய காவல் தலைவரின் அறிவியல் அணுகுமுறையை விளக்குக.",
+      "type": "understanding",
+      "question": "சில்லுகளைப் புதிர்போலச் சேர்த்து விடுபட்ட பகுதியைத் தேடிய காவல் தலைவரின் அறிவியல் அணுகுமுறையை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+      "tier": "applying",
+      "prompt": "நவீன குற்றவியல் சோதனையில் காலணிகளின் தடயங்கள் மற்றும் அதில் சிக்கும் நுண்துகள்களின் முக்கியத்துவத்தை ஆராய்க.",
+      "type": "applying",
+      "question": "நவீன குற்றவியல் சோதனையில் காலணிகளின் தடயங்கள் மற்றும் அதில் சிக்கும் நுண்துகள்களின் முக்கியத்துவத்தை ஆராய்க."
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+      "tier": "analyzing",
+      "prompt": "அரண்மனையைக் காக்க வேண்டிய காவலனே துரோகியாக மாறியதற்கான காரணங்களையும் அதன் பின்விளைவுகளையும் ஆராய்க.",
+      "type": "analyzing",
+      "question": "அரண்மனையைக் காக்க வேண்டிய காவலனே துரோகியாக மாறியதற்கான காரணங்களையும் அதன் பின்விளைவுகளையும் ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+      "tier": "evaluating",
+      "prompt": "மறுக்க முடியாத இயற்பியல் ஆதாரத்தின் முன் குற்றவாளி சரணடைந்த நிகழ்வை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "மறுக்க முடியாத இயற்பியல் ஆதாரத்தின் முன் குற்றவாளி சரணடைந்த நிகழ்வை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "ஒரு உடைந்த தடையப் பொருளை அடிப்படையாகக் கொண்ட புலனாய்வுக் காட்சியை ஒரு நாடக வடிவில் வரைக.",
+      "type": "creating",
+      "question": "ஒரு உடைந்த தடையப் பொருளை அடிப்படையாகக் கொண்ட புலனாய்வுக் காட்சியை ஒரு நாடக வடிவில் வரைக."
     }
   ],
   "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",

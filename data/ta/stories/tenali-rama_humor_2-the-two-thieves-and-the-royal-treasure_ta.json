@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Two Thieves and the Royal Treasure\"?",
+      "question": "தன் வீட்டைச் சுற்றித் திருடர்கள் பதுங்கியிருப்பதை உணர்ந்த தெனாலிராமன் என்ன செய்தார்?",
       "options": [
-        "Wit and humor triumph over arrogance and power",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "மனைவியிடம் சத்தமாகப் பேசி, நகைப் பெட்டி எனப் பழைய இரும்புப் பாத்திரங்களை மூட்டையாகக் கட்டிப் பாழுங்கிணற்றில் போட்டார்",
+        "உடனே காவலாளிகளை அழைத்துத் திருடர்களைப் பிடிக்க வைத்தார்",
+        "பயந்துபோய் கதவை உள்பக்கமாகப் பூட்டிக்கொண்டு நடுங்கினார்",
+        "வீட்டிலிருந்த நகைகளை எடுத்துக்கொண்டு இரவோடு இரவாக ஓடினார்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "திருடர்களைக் கொண்டே தன் தோட்டத்திற்கு நீர் பாய்ச்ச ராமன் செய்த தந்திரத்தை யோசியுங்கள்.",
+      "answer": "மனைவியிடம் சத்தமாகப் பேசி, நகைப் பெட்டி எனப் பழைய இரும்புப் பாத்திரங்களை மூட்டையாகக் கட்டிப் பாழுங்கிணற்றில் போட்டார்",
+      "explanation": "திருடர்களைக் கொண்டே தன் தோட்டத்திற்கு நீர் பாய்ச்ச ராமன் செய்த தந்திரத்தை யோசியுங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கிணற்றில் போட்ட பெட்டியை எடுக்கத் திருடர்கள் இரவு முழுவதும் என்ன செய்தனர்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "கிணற்றிலிருந்து பல நூறு வாளித் தண்ணீரைத் தொடர்ந்து இறைத்துத் தோட்டத்துப் பயிர்களுக்குப் பாய்ச்சினர்",
+        "கிணற்றுக்குள் கயிறு கட்டி இறங்கி உடனே தப்பித்தனர்",
+        "பெட்டி கனமாக இருந்ததால் அதை எடுக்காமல் ஓடிவிட்டனர்",
+        "ராமனின் வீட்டைத் தீயிட்டுக் கொளுத்தினர்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "திருடர்கள் செய்த கடுமையான உடலுழைப்பைக் கவனியுங்கள்.",
+      "answer": "கிணற்றிலிருந்து பல நூறு வாளித் தண்ணீரைத் தொடர்ந்து இறைத்துத் தோட்டத்துப் பயிர்களுக்குப் பாய்ச்சினர்",
+      "explanation": "திருடர்கள் செய்த கடுமையான உடலுழைப்பைக் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "விடிந்ததும் களைத்து நின்ற திருடர்களிடம் தெனாலிராமன் என்ன கூறி நன்றி தெரிவித்தார்?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "\"என் தோட்டம் முழுவதும் நீர் பாய்ச்சிய உங்கள் அன்பான உழைப்புக்கு மிக்க நன்றி!\" என்றார்",
+        "\"உங்களைச் சிறையில் அடைக்கப் போகிறேன்!\" என்றார்",
+        "\"இந்தப் பெட்டியில் தங்கம் இருக்கிறது எடுத்துச் செல்லுங்கள்!\" என்றார்",
+        "\"இனிமேல் என் வீட்டிற்கு வரக்கூடாது!\" என்று எச்சரித்தார்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "தெனாலிராமனின் நையாண்டியான நகைச்சுவை உணர்வை நினைவுகூருங்கள்.",
+      "answer": "\"என் தோட்டம் முழுவதும் நீர் பாய்ச்சிய உங்கள் அன்பான உழைப்புக்கு மிக்க நன்றி!\" என்றார்",
+      "explanation": "தெனாலிராமனின் நையாண்டியான நகைச்சுவை உணர்வை நினைவுகூருங்கள்."
     }
   ],
   "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கோடைக்",
+      "meaning": "கோடைக் என்ற சொல்லின் சூழல் பொருள் (Signifies கோடைக் in the context of the story)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "காலத்தில்",
+      "meaning": "காலத்தில் என்ற சொல்லின் சூழல் பொருள் (Signifies காலத்தில் in the context of the story)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "தெனாலிராமனின்",
+      "meaning": "தெனாலிராமனின் என்ற சொல்லின் சூழல் பொருள் (Signifies தெனாலிராமனின் in the context of the story)"
+    },
+    {
+      "word": "தோட்டத்தில்",
+      "meaning": "தோட்டத்தில் என்ற சொல்லின் சூழல் பொருள் (Signifies தோட்டத்தில் in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Two Thieves and the Royal Treasure\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "ராமன் கிணற்றில் போட்ட கனமான பெட்டிக்குள் உண்மையில் என்ன இருந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wit and humor triumph over arrogance and power\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "ஆபத்தான திருடர்களை வன்முறையின்றி ராமன் எவ்வாறு தோற்கடித்தார்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "அச்சமூட்டும் இக்கட்டான சூழ்நிலைகளில் பதற்றப்படாமல் அமைதியாகச் சிந்திப்பது எவ்வாறு உதவும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "\"சமய புத்தியே சிறந்த ஆயுதம்\" என்பதற்கு இக்கதை எவ்வாறு சான்றாகிறது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

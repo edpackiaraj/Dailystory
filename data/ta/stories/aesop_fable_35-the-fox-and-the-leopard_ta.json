@@ -2,12 +2,12 @@
   "id": "aesops-fables-35-the-fox-and-the-leopard",
   "slug": "aesops-fables-35-the-fox-and-the-leopard",
   "language": "ta",
-  "title": "The Fox and the Leopard",
+  "title": "நரியும் சிறுத்தையும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A proud leopard and a clever fox were disputing with each other as to who possessed the greater beauty and nobility. The leopard stood upon a mossy rock, stretching his supple limb...",
+  "summary": "தன் பளபளப்பான பொன் நிறத் தோலிலும் வட்டப் புள்ளிகளிலும் பெருமை கொண்ட சிறுத்தையிடம், \"தோலின் வெளிப்புற அழகை விட, பல வண்ணங்களில் சிந்திக்கும் அகத்தின் கூர்மதியே மேலானது\" என்று நரி உணர்த்திய கதை.",
   "keywords": [
     "aesop's fables",
     "the fox and the leopard",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A proud leopard and a clever fox were disputing with each other as to who possessed the greater beauty and nobility. The leopard stood upon a mossy rock, stretching his supple limbs and displaying his golden pelt covered with exquisite dark rosettes.\n\n\"Look upon my magnificent coat!\" purred the leopard boastfully. \"There is not a creature in all the wilderness whose skin can match the elegance, symmetry, and splendor of my spots. I am a living masterpiece of velvet and gold, while your coat is nothing but plain, dusty orange fur!\"\n\nThe fox listened patiently, cleaning his whiskers with a nimble paw. When the leopard had exhausted his conceited praise, the fox looked up and replied with calm, smiling dignity:\n\n\"You have a very handsome skin, friend Leopard, and no one denies the beauty of your spots. But I am far more beautifully endowed than you: for while your beauty is painted merely upon your outside hide, my spots are within—woven into the keenness of my mind, the sharpness of my wit, and the resourcefulness of my spirit. When your skin is worn out, you will have nothing left, but my inner wisdom serves me for all my days!\"",
-  "moral": "A brilliant mind is far more beautiful and valuable than a painted skin.",
+  "full_text": "ஒரு காட்டின் பாறை மேட்டின் மீது கம்பீரமான ஒரு சிறுத்தை அமர்ந்திருந்தது. தன் பளபளப்பான மஞ்சள் நிறத் தோலையும், அதன் மீது வட்ட வட்டமாக அமைந்திருந்த அழகிய கருப்புப் புள்ளிகளையும் கண்டு அது அடக்க முடியாத கர்வம் கொண்டிருந்தது. அந்தப் பக்கமாக வந்த தந்திர நரியைப் பார்த்து, \"ஏ நரியே! காட்டின் அனைத்து விலங்குகளையும் விட நான் எத்தனை பேரழகு வாய்ந்தவன் பார்த்தாயா? என் தோலின் கவர்ச்சிக்கு முன்னால் உன் செந்நிற ரோமம் எத்தனை மட்டமாகத் தெரிகிறது!\" என்று ஏளனமாகப் பேசியது.\n\nநரி புன்னகைத்துக்கொண்டு சிறுத்தையை உற்றுப் பார்த்தது. பிறகு மிகவும் அமைதியாகக் கூறியது: \"சிறுத்தையே! உன் தோலின் மீது இருக்கும் புள்ளிகளை எண்ணி நீ பெருமைப்படுகிறாய். ஆனால் அந்தப் புள்ளிகள் வெறும் வெளிப்புறத் தோலின் மீது மட்டுமே உள்ளன; அதில் எவ்வித அறிவோ விவேகமோ இல்லை!\n\nஆனால் எனக்கோ, என் தோலின் மீது புள்ளிகள் இல்லாவிட்டாலும், என் உள்ளத்தில் ஆயிரக்கணக்கான புத்திசாலித்தனமான யோசனைகளும் சமயோசித நுட்பங்களும் நிறைந்திருக்கின்றன! ஆபத்து வரும் போது உன் புள்ளிகள் உன்னைக் காப்பாற்றாது; என் அகத்தில் உள்ள விவேகமே என்னைக் காப்பாற்றும்! வெறும் தோலின் அழகை விட, சூழ்நிலைக்கு ஏற்ப சிந்திக்கும் அகத்தின் அறிவழகே பல மடங்கு மேலானது!\" என்றது. சிறுத்தை தன் வீண் பெருமையை எண்ணிப் பேச வழியின்றி அமைதியானது.",
+  "moral": "நீதி: அழியக்கூடிய வெளிப்புற உடல் அழகை விட, வாழ்க்கைப் புயல்களை வெல்லும் அகத்தின் கூரிய அறிவாற்றலே உண்மையான மேன்மை.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Fox and the Leopard illustration from the Aesop's Fables collection.",
-  "word_count": 199,
+  "word_count": 158,
   "reading_time": "2 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Fox and the Leopard\"?",
+      "question": "சிறுத்தை எதைக் குறித்து மிகுந்த அகந்தையோடும் கர்வத்தோடும் பெருமை பேசியது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "தன் பளபளப்பான பொன் நிறத் தோலிலும் வட்டப் புள்ளிகளிலும் இருந்த வெளிப்புற அழகைக் குறித்து",
+        "தான் காட்டின் ராஜாவாக முடிசூட்டப்பட்டதற்காக",
+        "தான் மரங்களை எளிதில் ஏறுவதற்காக",
+        "தான் நரியை விட வேகமாக ஓடுவதற்காக"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "சிறுத்தையின் தோலின் அழகை நினைவுகூருங்கள்.",
+      "answer": "தன் பளபளப்பான பொன் நிறத் தோலிலும் வட்டப் புள்ளிகளிலும் இருந்த வெளிப்புற அழகைக் குறித்து",
+      "explanation": "சிறுத்தையின் தோலின் அழகை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "சிறுத்தையின் ஏளனப் பேச்சுக்கு நரி என்ன தத்துவார்த்தப் பதிலடி தந்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "தோலின் அழகை விட ஆபத்துகளில் காப்பாற்றும் அகத்தின் கூரிய அறிவழகே மேலானது என்றது",
+        "தான் சிறுத்தையின் தோலை உரித்துவிடுவேன் என்றது",
+        "வேடர்களை அழைத்து வருவதாகக் கூறி அச்சுறுத்தியது",
+        "காட்டை விட்டு ஓடிப்போனது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "அகத்தின் அறிவுத்திறனுக்கும் வெளிப்புற அழகுக்கும் உள்ள ஒப்பீட்டை யோசியுங்கள்.",
+      "answer": "தோலின் அழகை விட ஆபத்துகளில் காப்பாற்றும் அகத்தின் கூரிய அறிவழகே மேலானது என்றது",
+      "explanation": "அகத்தின் அறிவுத்திறனுக்கும் வெளிப்புற அழகுக்கும் உள்ள ஒப்பீட்டை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனிதர்களின் சுய மதிப்பீட்டிற்கு உணர்த்தும் மிகச் சிறந்த பாடம் எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "தோற்றப் பொலிவை விட ஒருவரின் குணமும் புத்திசாலித்தனமான சிந்தனையுமே உண்மையான மதிப்பு",
+        "சிறுத்தைகளிடம் பேசவே கூடாது",
+        "தோல் ஆடைகளை அணியக் கூடாது",
+        "விலங்குகள் அழகாக இருக்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "அக அழகின் நிரந்தர மேன்மையை எண்ணிப்பாருங்கள்.",
+      "answer": "தோற்றப் பொலிவை விட ஒருவரின் குணமும் புத்திசாலித்தனமான சிந்தனையுமே உண்மையான மதிப்பு",
+      "explanation": "அக அழகின் நிரந்தர மேன்மையை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கவர்ச்சி",
+      "meaning": "கண்களைக் கவரும் வெளிப்புற அழகு மற்றும் மினுமினுப்பு"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "அகத்தில்",
+      "meaning": "உள்ளத்தில் நிறைந்திருக்கும் நற்பண்புகளும் கூரிய புத்திசாலித்தனமும்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "விவேகமோ",
+      "meaning": "நன்மை தீமைகளைச் சரியாகப் பிரித்தறிந்து விழிப்புணர்வோடு செயல்படும் மேன்மை"
+    },
+    {
+      "word": "ஏளனமாகப்",
+      "meaning": "பிறரின் குறையைச் சுட்டிக்காட்டி நையாண்டி செய்து கேலி பேசுதல்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Fox and the Leopard\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "நரி தன் மனதில் எத்தனை யோசனைகள் இருப்பதாகக் கூறியது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "வெளிப்புற அழகு ஒருபோதும் ஒருவரை ஆபத்துகளிலிருந்து காப்பாற்ற முடியாது ஏன்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "சமூகத்தில் தோற்றத்தை வைத்து மனிதர்களை எடைபோடும் பழக்கத்தை நாம் எவ்வாறு மாற்ற வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "\"அகத்தின் அழகு முகத்தில் தெரியும்\" என்ற பழமொழிக்கும் இக்கதைக்கும் என்ன தொடர்பு?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

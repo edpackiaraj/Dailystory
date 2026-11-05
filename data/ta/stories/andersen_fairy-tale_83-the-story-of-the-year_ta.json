@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-83-the-story-of-the-year",
   "slug": "hans-christian-andersen-83-the-story-of-the-year",
   "language": "ta",
-  "title": "The Story of the Year",
+  "title": "ஆண்டின் கதை – பருவகாலங்களின் சுழற்சியும் வசந்தத்தின் மலர்ச்சியும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "The sparrows sat shivering in the bare branches, chirping: \"When will spring return? Winter is so long and cruel!\"...",
+  "summary": "கடும் குளிர்காலத்தில் இலைகளற்ற மரக்கிளைகளில் நடுங்கிக் கொண்டு 'வசந்தம் எப்போது வரும்?' என்று ஏங்கிய ஊர்க்குருவிகளும், பனி உருகி இளவேனில் மலர்ந்து கோடையும் இலையுதிர்காலமும் கடந்து ஆண்டு சுழன்ற அழகிய இயற்கைக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the story of the year",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived The sparrows sat shivering in the bare branches, chirping: \"When will spring return? Winter is so long and cruel!\".... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the seasons of life change in relentless rhythm, yet every winter conceals the seeds of spring.",
-  "moral": "The seasons of life change in relentless rhythm, yet every winter conceals the seeds of spring.",
+  "full_text": "கடும் பனிக்காலம் காட்டை உறைபனியாக மாற்றியிருந்தது. மரங்களின் இலைகள் உதிர்ந்து போய்க் கிளைகள் எலும்புக் கூடுகள் போல நின்றன.\n    \nஅந்த வெற்று மரக்கிளைகளில் அமர்ந்து சிறகுகளைச் சுருக்கிக் கொண்டு ஊர்க்குருவிகள் குளிரில் நடுங்கின. \"சீச்சீ! இந்த குளிர்காலம் எத்துணை கொடுமையானது! வசந்தம் எப்போதுதான் வரும்? பஞ்சாங்கத்தில் வசந்தம் தொடங்கிவிட்டது என்று போட்டிருக்கிறது; ஆனால் பனி இன்னும் உருகவில்லையே!\" என்று கீச்சிட்டன.\n    \nஅப்போது தெற்கிலிருந்து மென்மையான தென்றல் காற்று வீசத் தொடங்கியது.\n    \nவானில் இருந்து ஒரு அழகிய இளம்பெண்ணும் இளைஞனும் இறங்கி வந்தனர். அவர்கள் வசந்தத்தின் இளவரசனும் இளவரசியும் ஆவர்! அவர்கள் பாதங்கள் பட்ட இடமெல்லாம் பனி உருகி, பசும்புற்களும், பனித்துளி மலர்களும் (Snowdrops) மலர்ந்தன.\n    \nகாடு முழுவதும் உயிர்ப்பெற்றுப் பூத்துக் குலுங்கியது; மரங்கள் பச்சைத் துளிர்விட்டன. குருவிகள் ஆனந்தமாகப் பாடின: \"இதோ வசந்தம் வந்துவிட்டது!\" என்றன.\n    \nஆனால் காலம் நிற்கவில்லை! வசந்தம் கோடைக் காலமாக முதிர்ந்தது; தங்கக் கதிர்கள் முற்றி அறுவடை நிகழ்ந்தது. பின்னர் இலையுதிர் காலம் வந்து பழங்கள் பழுத்து இலைகள் உதிர்ந்தன.\n    \nமீண்டும் அதே குளிர்காலம் வந்து தன் வெண்பனிப் போர்வையைப் போர்த்தியது.\n    \nஆண்டுகள் மாறி மாறிச் சுழன்றாலும், ஒவ்வொரு குளிரின் முடிவிலும் புதிய வசந்தம் பிறந்தே தீரும் என்ற இயற்கையின் மாறாத விதியை அந்த ஆண்டு முழுமையாகப் பாடியது.",
+  "moral": "வாழ்க்கையின் கொடிய பனிக்காலங்கள் எப்போதுமே நிலையானவை அல்ல; பொறுமையோடு காத்திருந்தால் ஒவ்வொரு குளிரின் மார்பிலும் வசந்தத்தின் மலர்கள் பூத்துக் குலுங்கும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Story of the Year illustration from the Hans Christian Andersen collection.",
   "word_count": 217,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Story of the Year\"?",
+      "question": "குளிர்காலத்தில் இலைகளற்ற கிளைகளில் நடுங்கிக் கொண்டு வருந்திய பறவைகள் எவை?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஊர்க்குருவிகள்",
+        "மயில்கள்",
+        "கழுகுகள்",
+        "கிளிகள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "ஊர்க்குருவிகள்",
+      "hint": "பஞ்சாங்கத்தைப் பார்த்து வசந்தத்தை எதிர்பார்த்த சிறிய பறவைகளை நினையுங்கள்.",
+      "explanation": "ஊர்க்குருவிகள் மரக்கிளைகளில் நடுங்கிக் கொண்டு வசந்தத்தின் வருகைக்காக ஏங்கின."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "வசந்த தேவதைகளின் பாதங்கள் பட்டவுடன் பூமியில் என்ன நடந்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "பனி உருகிப் பசும்புற்களும் பனித்துளி மலர்களும் மலர்ந்து பூத்துக் குலுங்கின",
+        "பெருவெள்ளம் வந்தது",
+        "பூமி பிளந்தது",
+        "சூரியன் மறைந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "பனி உருகிப் பசும்புற்களும் பனித்துளி மலர்களும் மலர்ந்து பூத்துக் குலுங்கின",
+      "hint": "வசந்தத்தின் உயிர்ப்பை நினையுங்கள்.",
+      "explanation": "வசந்தத்தின் வருகையால் பனி மறைந்து பூக்களும் பசுமையும் மீண்டும் கண்விழித்தன."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனித வாழ்விற்குப் புகட்டும் நம்பிக்கை என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "வாழ்க்கையில் துன்பத்தின் பனிக்காலம் நிரந்தரமல்ல; உறுதியோடு காத்திருந்தால் வசந்தத்தின் விடியல் வந்தே தீரும்",
+        "குளிர்காலத்தில் வீட்டை விட்டு வெளியேறக் கூடாது",
+        "குருவிகளுக்கு உணவளிக்கக் கூடாது",
+        "மரங்களை வெட்ட வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "வாழ்க்கையில் துன்பத்தின் பனிக்காலம் நிரந்தரமல்ல; உறுதியோடு காத்திருந்தால் வசந்தத்தின் விடியல் வந்தே தீரும்",
+      "hint": "காலச் சுழற்சியின் நம்பிக்கையை நினையுங்கள்.",
+      "explanation": "பருவங்கள் மாறி மாறி வருவது போல மனித வாழ்வின் துன்பங்களும் மறைந்து வசந்தம் மலரும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பஞ்சாங்கத்தில்",
+      "meaning": "காலம், திதி, நட்சத்திரம் மற்றும் பருவகால மாற்றங்களைக் குறிக்கும் மரபுவழி ஆண்டுக் குறிப்பேட்டில்",
+      "gloss": "in the almanac, calendar"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "தென்றல்",
+      "meaning": "தென் திசையிலிருந்து வீசும் மென்மையான இதமான நறுமணக் காற்று",
+      "gloss": "gentle breeze, zephyr"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "பனித்துளி",
+      "meaning": "அதிகாலைப் பனியில் மலரும் வெண்மையான சிறிய வசந்த மலர்கள்",
+      "gloss": "snowdrop flowers"
+    },
+    {
+      "word": "சுழன்றாலும்",
+      "meaning": "காலச் சக்கரம் இடைவிடாமல் சுழன்று மாற்றங்களைக் கொண்டு வந்தாலும்",
+      "gloss": "even as it revolves, cycles"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Story of the Year\"?"
+      "tier": "remembering",
+      "prompt": "வசந்தம் வந்ததும் மலர்ந்த முதல் பூக்களின் பெயர் என்ன?",
+      "type": "remembering",
+      "question": "வசந்தம் வந்ததும் மலர்ந்த முதல் பூக்களின் பெயர் என்ன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "ஆண்டின் நான்கு பருவகாலங்களும் மனித வாழ்க்கையின் எந்தெந்த நிலைகளைக் குறிக்கின்றன என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "ஆண்டின் நான்கு பருவகாலங்களும் மனித வாழ்க்கையின் எந்தெந்த நிலைகளைக் குறிக்கின்றன என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "வாழ்க்கையில் சவால்களும் சோர்வுகளும் ஏற்படும் காலங்களில் நாம் எவ்வாறு நம்பிக்கையோடு வசந்தத்தை எதிர்நோக்க வேண்டும்?",
+      "type": "applying",
+      "question": "வாழ்க்கையில் சவால்களும் சோர்வுகளும் ஏற்படும் காலங்களில் நாம் எவ்வாறு நம்பிக்கையோடு வசந்தத்தை எதிர்நோக்க வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "குளிர்காலத்தின் உறைந்த அமைதிக்கும், வசந்த காலத்தின் பொங்கும் புத்துயிர்ப்பிற்கும் உள்ள மாற்றங்களை ஆராய்க.",
+      "type": "analyzing",
+      "question": "குளிர்காலத்தின் உறைந்த அமைதிக்கும், வசந்த காலத்தின் பொங்கும் புத்துயிர்ப்பிற்கும் உள்ள மாற்றங்களை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'இயற்கையின் காலச் சுழற்சியே மனிதனுக்குப் பொறுமையையும் நம்பிக்கையையும் கற்பிக்கும் மாபெரும் ஆசிரியர்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'இயற்கையின் காலச் சுழற்சியே மனிதனுக்குப் பொறுமையையும் நம்பிக்கையையும் கற்பிக்கும் மாபெரும் ஆசிரியர்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "பருவகாலங்களின் அழகைப் போற்றி ஊர்க்குருவிகள் பாடிய ஒரு வசந்த காலக் கீதத்தை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "பருவகாலங்களின் அழகைப் போற்றி ஊர்க்குருவிகள் பாடிய ஒரு வசந்த காலக் கீதத்தை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

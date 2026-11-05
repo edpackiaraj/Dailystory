@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-117-two-maidens",
   "slug": "hans-christian-andersen-117-two-maidens",
   "language": "ta",
-  "title": "Two Maidens",
+  "title": "இரு கன்னியரும் அக அழகின் அழியாத நறுமணமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Two young maidens sat by the fountain. One had dazzling ruby cheeks and sparkling eyes, but spent her hours admiring her reflection in the water and mocking the poor....",
+  "summary": "நீரூற்றின் அருகே அமர்ந்து தன் பளபளப்பான சிவந்த உதடுகளையும் அழகையும் கண்ணாடியில் பார்த்து ஏழை எளியவர்களை ஏளனம் செய்த செருக்குமிக்க அழகியும், கனிவான உள்ளத்தோடு பிறருக்கு உதவிய எளிய அழகற்ற பெண்ணும் உணர்த்திய உண்மை அழகு.",
   "keywords": [
     "hans christian andersen",
     "two maidens",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived Two young maidens sat by the fountain. One had dazzling ruby cheeks and sparkling eyes, but spent her hours admiring her reflection in the water and mocking the poor..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that outward cosmetics fade with the morning dew; the gentle fragrance of inner virtue endures forever.",
-  "moral": "Outward cosmetics fade with the morning dew; the gentle fragrance of inner virtue endures forever.",
+  "full_text": "கிராமத்துச் சலசலக்கும் நீரூற்றின் பளிங்குப் படிக்கட்டுகளின் மீது, இரு இளம் கன்னியர் அமர்ந்திருந்தனர்.\n    \nமுதல் கன்னி பேரழகு வாய்ந்தவள்; மாதுளை போன்ற சிவந்த உதடுகளும் பளபளக்கும் கூந்தலும் கொண்டவள். ஆனால் அவளது உள்ளத்தில் அகந்தை தலைவிரித்தாடியது.\n    \nஅவள் நீரூற்று நீரில் தன் முக அழகைப் பார்த்துப் பார்த்து ரசித்துக் கொண்டிருந்தாள். அவ்வழியே சென்ற ஏழை எளிய மக்களையும் முதியவர்களையும் பார்த்து எகத்தாளமாகச் சிரித்தாள்; தன் ஆடைகளில் புழுதி படாமல் இருக்க விலகி நடந்தாள்.\n    \nஇரண்டாவது கன்னியோ புறத்தோற்றத்தில் சாதாரணமானவள்; அவளிடம் பளபளப்பான உடைகள் இல்லை. ஆனால் அவளது விழிகளில் தூய கருணையும் இரக்கமும் ஒளிர்ந்தன.\n    \nஅவள் நீர் சுமக்க வந்த முதிய மூதாட்டிக்கு உதவினாள்; தாகத்தோடு வந்த பறவைகளுக்கும் விலங்குகளுக்கும் தண்ணீர் புகட்டினாள்; ஏழைக் குழந்தைகளை அன்போடு அரவணைத்தாள்.\n    \nஆண்டுகள் பல கடந்தன; முதுமை வந்தது.\n    \nஅகந்தை கொண்ட முதல் கன்னியின் பளபளப்பான கன்னங்கள் சுருங்கிப் போயின; அவளது கூந்தல் நரைத்தது; அவளது கல்நெஞ்சத்தின் காரணமாக எவரும் அவளை நாடவில்லை, அவள் தனிமையில் காய்ந்து போனாள்.\n    \nஆனால் இரண்டாவது கன்னியோ முதுமையிலும் தேவலோகத் தேவதையைப் போல ஒளிவீசினாள்! அவளது அன்பும் கனிவான புன்னகையும் ஊர் மக்களின் இதயங்களை நனைத்தன.\n    \nபுற அழகை விட உள்ளத்தின் தூய நற்குணமே ஒருபோதும் வாடாத அழியாத அழகு என்பதை அவ்விரு பெண்களும் மெய்ப்பித்தனர்.",
+  "moral": "புற அழகும் ஒப்பனைகளும் காலைப் பனித்துளி போல விரைந்து மறைந்துவிடும்; ஆனால் உள்ளத்தின் கனிவும் நற்குணமுமே என்றும் வாடாத தெய்வீக எழிலாகும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "Two Maidens illustration from the Hans Christian Andersen collection.",
   "word_count": 224,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"Two Maidens\"?",
+      "question": "நீரூற்றின் கரையில் அமர்ந்திருந்த முதல் பெண் எதனைச் செய்து காலத்தைக் கழித்தாள்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "நீரில் தன் அழகைப் பார்த்து ரசித்து ஏழைகளை எகத்தாளமாக ஏளனம் செய்தாள்",
+        "புத்தகங்களைப் படித்தாள்",
+        "மக்களுக்கு உதவினாள்",
+        "பூக்களை நட்டாள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "நீரில் தன் அழகைப் பார்த்து ரசித்து ஏழைகளை எகத்தாளமாக ஏளனம் செய்தாள்",
+      "hint": "அவளது போலி புற அழகின் கர்வத்தை நினையுங்கள்.",
+      "explanation": "முதல் பெண் தன் அழகில் மயங்கிப் பிற மனிதர்களை இழிவாகப் பேசி வந்தாள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "இரண்டாவது பெண் எத்தகைய நற்செயல்களில் தன் உள்ளத்தை ஈடுபடுத்தினாள்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "முதியவர்களுக்கு உதவிகளைச் செய்து உயிர்களிடம் பரிவுகாட்டி அன்பைப் பரப்பினாள்",
+        "கண்ணாடியைப் பார்த்தாள்",
+        "தங்கத்தைச் சேர்த்தாள்",
+        "வீட்டை விட்டு வெளியேறவில்லை"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "முதியவர்களுக்கு உதவிகளைச் செய்து உயிர்களிடம் பரிவுகாட்டி அன்பைப் பரப்பினாள்",
+      "hint": "அவளது தன்னலமற்ற உள்ளத்து அழகை நினையுங்கள்.",
+      "explanation": "இரண்டாவது பெண் தன் தூய உள்ளத்தால் மக்களுக்குப் பணிவிடை செய்து மகிழ்ந்தாள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை போதிக்கும் உண்மையான அழகின் தத்துவம் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "புற அழகு காலத்தால் சுருங்கி அழியும்; உள்ளத்தின் நற்குணமே என்றும் வாடாத உண்மையான அழகாகும்",
+        "நீரூற்றுகளுக்குச் செல்லக் கூடாது",
+        "ஒப்பனைகள் மட்டுமே முக்கியம்",
+        "கண்ணாடிகளைப் பார்க்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "புற அழகு காலத்தால் சுருங்கி அழியும்; உள்ளத்தின் நற்குணமே என்றும் வாடாத உண்மையான அழகாகும்",
+      "hint": "அக அழகு புற அழகை வெல்வதை நினையுங்கள்.",
+      "explanation": "தோற்றப் பொலிவை விடவும் அன்பான இதயமே மனிதனை என்றென்றும் இளமையோடும் அழகோடும் வாழ வைக்கும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "நீரூற்றின்",
+      "meaning": "பூமிக்கடியிலிருந்து சுனையாக வெளிப்பட்டு ஓடும் தெளிந்த நீரோடையின்",
+      "gloss": "of the water spring, fountain"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "மாதுளை",
+      "meaning": "செந்நிற முத்துக்களை உடைய சுவையான மாதுளம் பழம் போன்ற வண்ணமுடைய",
+      "gloss": "pomegranate"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கன்னங்கள்",
+      "meaning": "மனித முகத்தின் இருபுறமும் அமைந்துள்ள மென்மையான கன்னப் பகுதிகள்",
+      "gloss": "cheeks"
+    },
+    {
+      "word": "மெய்ப்பித்தனர்",
+      "meaning": "தங்களின் வாழ்க்கை அனுபவத்தின் மூலம் உண்மையை ஐயமற நிரூபித்தனர்",
+      "gloss": "demonstrated, established truth"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"Two Maidens\"?"
+      "tier": "remembering",
+      "prompt": "இரண்டாவது பெண் நீரூற்றுக்கு வந்த முதிய மூதாட்டிக்கு என்ன உதவி செய்தாள்?",
+      "type": "remembering",
+      "question": "இரண்டாவது பெண் நீரூற்றுக்கு வந்த முதிய மூதாட்டிக்கு என்ன உதவி செய்தாள்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "முதுமை வந்த போது முதல் கன்னியும் இரண்டாவது கன்னியும் அடைந்த வெவ்வேறு நிலைகளை விளக்குக.",
+      "type": "understanding",
+      "question": "முதுமை வந்த போது முதல் கன்னியும் இரண்டாவது கன்னியும் அடைந்த வெவ்வேறு நிலைகளை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "இன்றைய நவீன உலகில் விளம்பரப்படுத்தப்படும் போலி உடல் அழகை விட நற்குணத்தை நாம் எவ்வாறு முன்னிலைப்படுத்த வேண்டும்?",
+      "type": "applying",
+      "question": "இன்றைய நவீன உலகில் விளம்பரப்படுத்தப்படும் போலி உடல் அழகை விட நற்குணத்தை நாம் எவ்வாறு முன்னிலைப்படுத்த வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "நீரில் தெரியும் புற பிம்பத்தின் நிலையாமையையும், மனித இதயங்களில் பதியும் நற்செயல்களின் நிரந்தரத்தையும் ஆராய்க.",
+      "type": "analyzing",
+      "question": "நீரில் தெரியும் புற பிம்பத்தின் நிலையாமையையும், மனித இதயங்களில் பதியும் நற்செயல்களின் நிரந்தரத்தையும் ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'அழகான முகம் சிலருக்கு மட்டுமே சொந்தம், ஆனால் அழகான இதயம் விரும்புவோர் அனைவருக்கும் சாத்தியம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'அழகான முகம் சிலருக்கு மட்டுமே சொந்தம், ஆனால் அழகான இதயம் விரும்புவோர் அனைவருக்கும் சாத்தியம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "இரண்டாவது பெண்ணின் இல்லத்திற்கு வந்து ஊர் மக்கள் அவளுக்குச் சூட்டிய அன்புப் புகழுரையை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "இரண்டாவது பெண்ணின் இல்லத்திற்கு வந்து ஊர் மக்கள் அவளுக்குச் சூட்டிய அன்புப் புகழுரையை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

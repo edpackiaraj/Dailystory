@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-68-the-dumb-book",
   "slug": "hans-christian-andersen-68-the-dumb-book",
   "language": "ta",
-  "title": "The Dumb Book",
+  "title": "ஊமைப் புத்தகமும் உலர்ந்த மலர்களின் நினைவுகளும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "In the library of an old university town lay an ancient herbarium—a dumb book containing pressed leaves, dried moss, and withered wildflowers collected by an old botanist who had p...",
+  "summary": "பழைய பல்கலைக்கழக நூலகத்தில் கிடந்த உலர்ந்த இலைகளும் மலர்களும் கொண்ட ஹெர்பேரியம் புத்தகம், ஒரு மாணவனின் இளமைக் காதல், நட்பின் தியாகம், மற்றும் மறைந்த வாழ்வின் புனித நினைவுகளை மௌனமாகப் பேசிய வரலாறு.",
   "keywords": [
     "hans christian andersen",
     "the dumb book",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived In the library of an old university town lay an ancient herbarium—a dumb book containing pressed leaves, dried moss, and withered wildflowers collected by an old botanist who had p.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that a quiet life of research and affection leaves a silent book of memories richer than kings' tombs.",
-  "moral": "A quiet life of research and affection leaves a silent book of memories richer than kings' tombs.",
+  "full_text": "ஒரு பழமையான பல்கலைக்கழக நகரத்தின் நூலகத்தில், தூசி படிந்த மேசையின் மீது ஒரு கனத்த பழைய நூல் கிடந்தது. அது மனிதர்களால் பேசப்படாத 'ஊமைப் புத்தகம்' என்று அழைக்கப்பட்டது.\n    \nஅப்புத்தகத்தில் அச்சிடப்பட்ட எழுத்துக்கள் எதுவும் இல்லை; மாறாக, உலர்ந்த காட்டு மலர்களும், பாசி படர்ந்த இலைகளும், மெல்லிய தாவரக் கொடிகளும் கவனமாக ஒட்டப்பட்டுப் பாதுகாக்கப்பட்டிருந்தன.\n    \nஅவை பல ஆண்டுகளுக்கு முன் வாழ்ந்த ஒரு ஏழைத் தாவரவியல் மாணவனால் சேகரிக்கப்பட்டவை ஆகும். ஒவ்வொரு உலர்ந்த மலரின் பின்னும் ஒரு நெகிழ்ச்சியான வாழ்வின் கதை மறைந்திருந்தது.\n    \nஅந்த முதல் நீல மலர், அவன் தன் பால்ய தோழியிடம் விடைபெற்றுப் பல்கலைக்கழகத்திற்கு வந்த போது அவள் கண்களில் சிந்திய கண்ணீரின் நினைவாகப் பறிக்கப்பட்டது.\n    \nஅந்த உலர்ந்த ரோஜா மலர், அவன் நெஞ்சாரக் காதலித்த பேரழகி வேறொரு செல்வந்தப் பிரபுவுக்குத் திருமணமாகிச் சென்ற துயர நாளில் உதிர்ந்த மலர்.\n    \nஅடுத்த பக்கத்திலிருந்த மஞ்சள் நிற மலர், அவனது உயிர்த் தோழன் கடற்பயணத்தில் மூழ்கி இறந்த போது அவனது நினைவாகச் சூடப்பட்ட மலர்.\n    \nஅந்த மாணவன் தன் வாழ்நாள் முழுவதும் எளிய மனிதனாக வாழ்ந்து மறைந்தான்; அவனது சவப்பெட்டியில் இந்த ஊமைப் புத்தகத்தையே அவனது மார்பின் மீது வைத்தனர்.\n    \nஎழுத்துக்களால் எழுதப்படாத அந்த உலர்ந்த மலர்கள், மனித இதயத்தின் புனிதமான அன்பையும், துயரத்தையும், காலத்தைக் கடந்து மௌனமாகப் பேசிக் கொண்டே இருந்தன.",
+  "moral": "பேச முடியாத ஊமைப் பொருட்களும் உலர்ந்த மலர்களும் கூட, அரண்மனைக் கல்லறைகளை விடவும் ஆழமான மனித வாழ்வின் புனித நினைவுகளை நெஞ்சில் ஏந்தி நிற்கின்றன.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Dumb Book illustration from the Hans Christian Andersen collection.",
   "word_count": 229,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Dumb Book\"?",
+      "question": "பல்கலைக்கழக நூலகத்தில் கிடந்த ஊமைப் புத்தகத்தில் எழுத்துக்களுக்குப் பதிலாக என்ன இருந்தன?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "உலர்ந்த காட்டு மலர்களும், பாசிகளும், தாவர இலைகளும் பத்திரப்படுத்தப்பட்டிருந்தன",
+        "தங்க நாணயங்கள் இருந்தன",
+        "ஓவியங்கள் மட்டும் இருந்தன",
+        "வெற்றுத் தாள்கள் மட்டுமே இருந்தன"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "உலர்ந்த காட்டு மலர்களும், பாசிகளும், தாவர இலைகளும் பத்திரப்படுத்தப்பட்டிருந்தன",
+      "hint": "தாவரவியல் மாணவன் சேகரித்த மலர்களை நினையுங்கள்.",
+      "explanation": "ஊமைப் புத்தகம் என்பது மாணவன் தன் வாழ்வின் நினைவுகளாகச் சேகரித்து உலர்த்தி வைத்த தாவர மலர்களின் தொகுப்பு."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "புத்தகத்தில் இருந்த நீல மலர் மாணவனுக்கு எதனை நினைவூட்டியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "பால்ய தோழியிடம் விடைபெற்ற போது அவள் சிந்திய விடைபெறும் கண்ணீரை",
+        "அவன் வாங்கிய பரிசை",
+        "அவன் எழுதிய தேர்வை",
+        "அரசனின் வருகையை"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "பால்ய தோழியிடம் விடைபெற்ற போது அவள் சிந்திய விடைபெறும் கண்ணீரை",
+      "hint": "பால்ய தோழியின் பிரிவுத் துயரை நினையுங்கள்.",
+      "explanation": "நீல மலர் மாணவனின் கிராமத்துத் தோழியின் விடைபெறும் கண்ணீர்த் துளியின் அடையாளமாக இருந்தது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் ஆழ்ந்த தத்துவம் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "பேசாத எளிய பொருட்களும் உலர்ந்த மலர்களும் மனித வாழ்வின் தூய நினைவுகளை ஆழமாகச் சுமந்து நிற்கின்றன",
+        "புத்தகங்களில் மலர்களை வைக்கக் கூடாது",
+        "பல்கலைக்கழகங்களுக்குச் செல்லக் கூடாது",
+        "செடிகளைப் பறிக்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "பேசாத எளிய பொருட்களும் உலர்ந்த மலர்களும் மனித வாழ்வின் தூய நினைவுகளை ஆழமாகச் சுமந்து நிற்கின்றன",
+      "hint": "மௌன நினைவுகளின் புனிதம் பற்றி நினையுங்கள்.",
+      "explanation": "வெளிப்பகட்டு எழுத்துக்களை விட, இதய உணர்வுகளோடு இணைந்த எளிய சின்னங்களே அழியாத மதிப்புடையவை."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "நூலகத்தில்",
+      "meaning": "அறிவையும் வரலாற்றையும் தாங்கிய நூல்கள் திரட்டப்பட்டுப் பாதுகாக்கப்படும் பொது இடத்தில்",
+      "gloss": "in the library"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "தாவரவியல்",
+      "meaning": "செடி, கொடி, மரங்கள் மற்றும் தாவரங்களைப் பற்றி ஆராயும் இயற்கை அறிவியல் துறை",
+      "gloss": "botany, botanical science"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "சவப்பெட்டியில்",
+      "meaning": "மரணமடைந்த மனித உடலை அடக்கம் செய்வதற்காக வைக்கப்படும் பேழையில்",
+      "gloss": "in the coffin, casket"
+    },
+    {
+      "word": "மௌனமாகப்",
+      "meaning": "வாய்விட்டுப் பேசாமல் அமைதியாக உள்ளுணர்வால் வெளிப்படுத்தும் விதமாக",
+      "gloss": "silently, mutely"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Dumb Book\"?"
+      "tier": "remembering",
+      "prompt": "ஊமைப் புத்தகத்தைச் சேகரித்துப் பாதுகாத்தவர் யார்?",
+      "type": "remembering",
+      "question": "ஊமைப் புத்தகத்தைச் சேகரித்துப் பாதுகாத்தவர் யார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "அப்புத்தகம் ஏன் 'ஊமைப் புத்தகம்' என்று அழைக்கப்பட்டது என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "அப்புத்தகம் ஏன் 'ஊமைப் புத்தகம்' என்று அழைக்கப்பட்டது என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது தனிப்பட்ட வாழ்வில் அன்பானவர்களின் நினைவுகளையும் பண்பாட்டுப் பொக்கிஷங்களையும் நாம் எவ்வாறு போற்றிப் பாதுகாக்கலாம்?",
+      "type": "applying",
+      "question": "நமது தனிப்பட்ட வாழ்வில் அன்பானவர்களின் நினைவுகளையும் பண்பாட்டுப் பொக்கிஷங்களையும் நாம் எவ்வாறு போற்றிப் பாதுகாக்கலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "அச்சிடப்பட்ட நூல்களின் அறிவுச் செல்வத்திற்கும், உலர்ந்த மலர்கள் உணர்த்தும் உணர்வுபூர்வ நினைவுகளுக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "அச்சிடப்பட்ட நூல்களின் அறிவுச் செல்வத்திற்கும், உலர்ந்த மலர்கள் உணர்த்தும் உணர்வுபூர்வ நினைவுகளுக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'ஒரு மனிதனின் உண்மையான செல்வம் அவன் நெஞ்சில் சுமந்த தூய நினைவுகளே' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'ஒரு மனிதனின் உண்மையான செல்வம் அவன் நெஞ்சில் சுமந்த தூய நினைவுகளே' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "அந்த நூலகத்திற்கு வந்த ஒரு புதிய மாணவன் அப்புத்தகத்தைத் திறந்து பார்த்து நெகிழ்ந்து எழுதிய குறிப்பை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "அந்த நூலகத்திற்கு வந்த ஒரு புதிய மாணவன் அப்புத்தகத்தைத் திறந்து பார்த்து நெகிழ்ந்து எழுதிய குறிப்பை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

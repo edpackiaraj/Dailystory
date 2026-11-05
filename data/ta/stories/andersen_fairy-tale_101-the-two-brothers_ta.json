@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-101-the-two-brothers",
   "slug": "hans-christian-andersen-101-the-two-brothers",
   "language": "ta",
-  "title": "The Two Brothers",
+  "title": "இரு சகோதரர்கள் – அறிவியலும் நீதியும் இணைந்த பேரொளி",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "In a quiet country town in Denmark lived two brothers, Anders and Hans Christian. From childhood, they shared an unquenchable thirst for knowledge, reading ancient classics and stu...",
+  "summary": "டென்மார்க்கின் சிறிய ஊரில் பிறந்து வறுமையில் வாழ்ந்த போதிலும், ஞானத் தாகத்தால் ஒன்றிணைந்து படித்து ஒருவர் மாபெரும் இயற்பியல் விஞ்ஞானியாகவும் மற்றவர் நாட்டின் தலைமைச் சட்ட அறிஞராகவும் உயர்ந்து தேசத்திற்கு ஒளியூட்டிய ஆர்ஸ்டெட் சகோதரர்களின் உண்மை வரலாறு.",
   "keywords": [
     "hans christian andersen",
     "the two brothers",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived In a quiet country town in Denmark lived two brothers, Anders and Hans Christian. From childhood, they shared an unquenchable thirst for knowledge, reading ancient classics and stu.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that when scientific genius and judicial righteousness walk hand in hand, a nation is illuminated.",
-  "moral": "When scientific genius and judicial righteousness walk hand in hand, a nation is illuminated.",
+  "full_text": "டென்மார்க்கின் ஒரு சிறிய அமைதியான கிராமத்தில், ஆண்டர்ஸ் மற்றும் ஹான்ஸ் கிறிஸ்டியன் ஆர்ஸ்டெட் என்ற இரு உடன்பிறந்த சகோதரர்கள் வாழ்ந்து வந்தனர்.\n    \nஅவர்களின் தந்தை ஒரு ஏழை மருந்தாளர்; வீட்டில் வசதிகள் இல்லை என்றாலும், அந்த இரு சிறுவர்களின் நெஞ்சிலும் வற்றாத ஞானத் தாகம் கனன்று கொண்டிருந்தது.\n    \nஅவர்கள் ஒரு பழைய விளக்கின் மெல்லிய ஒளியில் அமர்ந்து, பழங்காலக் கிரேக்க நூல்களையும் கணிதச் சூத்திரங்களையும் இரவு பகலாகக் கற்றுத் தேர்ந்தனர்.\n    \nஒரு சகோதரன் இயற்கையின் விதிகளை ஆராய்வதில் தன் உள்ளத்தைப் பறிகொடுத்தான்; மற்ற சகோதரனோ மனித சமூகத்தின் நீதியையும் சட்டங்களையும் கற்பதில் முனைந்தான்.\n    \nஆண்டுகள் உருண்டோடின; அவர்களது அயராத உழைப்பும் அறிவும் உலக அரங்கில் அவர்களை உயர்த்தின!\n    \nஹான்ஸ் கிறிஸ்டியன் ஆர்ஸ்டெட், மின்காந்தவியல் (Electromagnetism) என்ற மாபெரும் இயற்கை ரகசியத்தைக் கண்டுபிடித்து உலகப் புகழ்பெற்ற விஞ்ஞானியாக உயர்ந்தார். ஆண்டர்ஸ் ஆர்ஸ்டெட்டோ நாட்டின் தலைமை நீதிபதியாகவும் சட்ட மேதையாகவும் உயர்ந்து நாட்டு மக்களுக்கு நீதியை நிலைநாட்டினார்.\n    \nஒரே தாயின் வயிற்றில் பிறந்த இரு சகோதரர்கள், ஒருவர் அறிவியலாலும் மற்றவர் நீதியாலும் தங்கள் தேசத்தை உலக அரங்கில் பெருமையோடு தலைநிமிரச் செய்தனர்.",
+  "moral": "அறிவியல் மேதைமையும் சட்ட நீதியும் கைகோர்த்து நடக்கும் போது ஒரு தேசமே அறிவொளியாலும் தர்மத்தாலும் பிரகாசிக்கிறது.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Two Brothers illustration from the Hans Christian Andersen collection.",
   "word_count": 224,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Two Brothers\"?",
+      "question": "ஆர்ஸ்டெட் சகோதரர்களில் ஒருவர் அறிவியலாளராகவும், மற்றொருவர் என்னவாகவும் புகழ்பெற்றனர்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "நாட்டின் தலைமை நீதிபதியாகவும் சட்ட மேதையாகவும் புகழ்பெற்றார்",
+        "ஒரு போர் தளபதியானார்",
+        "வணிகரானார்",
+        "கப்பல் தலைவரானார்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "நாட்டின் தலைமை நீதிபதியாகவும் சட்ட மேதையாகவும் புகழ்பெற்றார்",
+      "hint": "சட்ட நீதியை நிலைநாட்டிய சகோதரரை நினையுங்கள்.",
+      "explanation": "ஹான்ஸ் கிறிஸ்டியன் அறிவியலாளராகவும், ஆண்டர்ஸ் தலைமை நீதிபதியாகவும் உயர்ந்தனர்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "ஹான்ஸ் கிறிஸ்டியன் ஆர்ஸ்டெட் கண்டுபிடித்த உலகப் புகழ்பெற்ற அறிவியல் விதி எது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "மின்சாரத்திற்கும் காந்தத்திற்கும் இடையேயான மின்காந்தவியல் தத்துவம்",
+        "புவியீர்ப்பு விசை",
+        "நீராவி என்ஜின்",
+        "கண்ணாடி தயாரிப்பு"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "மின்சாரத்திற்கும் காந்தத்திற்கும் இடையேயான மின்காந்தவியல் தத்துவம்",
+      "hint": "மின்காந்தத் தொடர்பை நினையுங்கள்.",
+      "explanation": "மின்னோட்டம் காந்த ஊசியைத் திருப்பும் மின்காந்தவியல் தத்துவத்தை இவர் கண்டுபிடித்தார்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை இளைய தலைமுறைக்கு அளிக்கும் உன்னத வழிகாட்டல் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "அறிவியல் கண்டுபிடிப்புகளும் சட்ட நீதியும் இணைந்து செயல்படும் போது தேசம் ஒளிரும்",
+        "மருந்து கடைகளை மூட வேண்டும்",
+        "நூல்களைப் படிக்கக் கூடாது",
+        "சகோதரர்கள் சண்டையிட வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "அறிவியல் கண்டுபிடிப்புகளும் சட்ட நீதியும் இணைந்து செயல்படும் போது தேசம் ஒளிரும்",
+      "hint": "அறிவியலும் நீதியும் கைகோர்ப்பதன் மேன்மையை நினையுங்கள்.",
+      "explanation": "கல்வியும் ஒழுக்கமும் இருந்தால் எளிய குடும்பத்துப் பிள்ளைகளும் தேசத்தின் தூண்களாக உயர முடியும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "விஞ்ஞானியாக",
+      "meaning": "இயற்கையின் புதிர்களையும் அறிவியல் விதிகளையும் ஆராய்ந்து கண்டுபிடிக்கும் மேதையாக",
+      "gloss": "as a scientist"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "மின்காந்தவியல்",
+      "meaning": "மின்சாரத்திற்கும் காந்த விசைக்கும் இடையே உள்ள பிரபஞ்சத் தொடர்பை விளக்கும் அறிவியல் துறை",
+      "gloss": "electromagnetism"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "சட்டங்களையும்",
+      "meaning": "சமூகத்தில் அமைதியையும் நீதியையும் நிலைநிறுத்த வகுக்கப்பட்ட நெறிமுறைகளையும்",
+      "gloss": "laws, legal principles"
+    },
+    {
+      "word": "தலைநிமிரச்",
+      "meaning": "அவமானமும் தாழ்வுணர்ச்சியும் நீங்கி உலக மக்கள் முன் கம்பீரமாகப் பெருமைப்படச்",
+      "gloss": "to hold one's head high, feel proud"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Two Brothers\"?"
+      "tier": "remembering",
+      "prompt": "ஆர்ஸ்டெட் சகோதரர்களின் தந்தையின் தொழில் என்ன?",
+      "type": "remembering",
+      "question": "ஆர்ஸ்டெட் சகோதரர்களின் தந்தையின் தொழில் என்ன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "வறுமையான சூழலிலும் இரு சகோதரர்களும் எவ்வாறு படிப்பில் சாதனை படைத்தனர் என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "வறுமையான சூழலிலும் இரு சகோதரர்களும் எவ்வாறு படிப்பில் சாதனை படைத்தனர் என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது குடும்பங்களிலும் சமூகத்திலும் கல்வி மற்றும் ஆராய்ச்சி ஆர்வத்தை நாம் எவ்வாறு ஊக்குவிக்கலாம்?",
+      "type": "applying",
+      "question": "நமது குடும்பங்களிலும் சமூகத்திலும் கல்வி மற்றும் ஆராய்ச்சி ஆர்வத்தை நாம் எவ்வாறு ஊக்குவிக்கலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "இயற்கை அறிவியலின் பயன்களுக்கும், சட்ட நீதியின் சமூகப் பாதுகாப்பிற்கும் இடையே உள்ள தொடர்பை ஆராய்க.",
+      "type": "analyzing",
+      "question": "இயற்கை அறிவியலின் பயன்களுக்கும், சட்ட நீதியின் சமூகப் பாதுகாப்பிற்கும் இடையே உள்ள தொடர்பை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'ஒரு தேசத்தின் உண்மையான பலம் அதன் படைகளில் அல்ல, அதன் அறிஞர்களின் மேதைமையிலேயே உள்ளது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'ஒரு தேசத்தின் உண்மையான பலம் அதன் படைகளில் அல்ல, அதன் அறிஞர்களின் மேதைமையிலேயே உள்ளது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "இரு சகோதரர்களும் முதிய வயதில் சந்தித்துப் பேசித் தங்களின் சிறுவயதுக் கனவுகள் நிறைவேறியதை எண்ணி மகிழ்ந்த ஒரு காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "இரு சகோதரர்களும் முதிய வயதில் சந்தித்துப் பேசித் தங்களின் சிறுவயதுக் கனவுகள் நிறைவேறியதை எண்ணி மகிழ்ந்த ஒரு காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

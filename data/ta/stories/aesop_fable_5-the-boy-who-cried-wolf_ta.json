@@ -26,7 +26,7 @@
   "moral": "நீதி: அடிக்கடி பொய் பேசுபவன் உண்மையைச் சொன்னாலும் இந்த உலகம் அவனை ஒருபோதும் நம்பாது.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Boy Who Cried Wolf illustration from the Aesop's Fables collection.",
-  "word_count": 391,
+  "word_count": 158,
   "reading_time": "3 min",
   "listen_time": "4 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Boy Who Cried Wolf\"?",
+      "question": "ஆட்டு மேய்ப்பன் சிறுவன் முதல்முறை ஏன் \"ஓநாய் வருதே\" என்று பொய் கூச்சலிட்டான்?",
       "options": [
-        "Liars are not believed even when they speak the truth.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "வேலையில் சலிப்புற்று ஊர்மக்களை ஏமாற்றி வேடிக்கை பார்க்க விரும்பினான்",
+        "தூரத்தில் நிழலைக் கண்டு உண்மையாகவே பயந்துபோனான்",
+        "ஊர் மக்கள் அவனுக்குப் பிடித்த இனிப்புகளைக் கொண்டு வருவார்கள் என்று எண்ணினான்",
+        "காட்டு ஓநாயைப் பிடிக்கப் பொறி வைக்கத் திட்டமிட்டான்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "சிறுவனின் பொறுப்பற்ற குறும்புத்தனத்தை நினைவுகூருங்கள்.",
+      "answer": "வேலையில் சலிப்புற்று ஊர்மக்களை ஏமாற்றி வேடிக்கை பார்க்க விரும்பினான்",
+      "explanation": "சிறுவனின் பொறுப்பற்ற குறும்புத்தனத்தை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "உண்மையாகவே ஓநாய் வந்தபோது கிராம மக்கள் ஏன் உதவிக்கு ஓடிவரவில்லை?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "முன்பு பலமுறை பொய் சொன்னதால் இப்போதும் அவன் பொய் கூறுகிறான் என்றே மக்கள் கருதினர்",
+        "மக்கள் அனைவரும் வெளியூர் திருவிழாவிற்குச் சென்றிருந்தனர்",
+        "கிராம மக்களுக்கு ஓநாயைக் கண்டு தாங்க முடியாத பயம் இருந்தது",
+        "சிறுவனின் கூக்குரல் கிராமத்தின் எல்லைக்குக் கேட்கவே இல்லை"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "தொடர்ந்து பொய் பேசுபவனின் சொல்லை உலகம் எவ்வாறு பார்க்கும் என்பதை எண்ணுங்கள்.",
+      "answer": "முன்பு பலமுறை பொய் சொன்னதால் இப்போதும் அவன் பொய் கூறுகிறான் என்றே மக்கள் கருதினர்",
+      "explanation": "தொடர்ந்து பொய் பேசுபவனின் சொல்லை உலகம் எவ்வாறு பார்க்கும் என்பதை எண்ணுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனிதர்களுக்குக் கற்பிக்கும் தலையாய நற்பண்பு எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "எந்தச் சூழ்நிலையிலும் உண்மையை மட்டுமே பேசி நம்பகத்தன்மையைக் காப்பாற்ற வேண்டும்",
+        "காட்டு விலங்குகளோடு விளையாடக்கூடாது",
+        "ஆடுகளைத் தனியாக மேய்க்கக் கூடாது",
+        "கிராம மக்களின் பேச்சைக் கேட்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "பொய் பேசுவதால் ஏற்படும் இழப்பையும் உண்மையான நற்பண்பையும் சிந்தியுங்கள்.",
+      "answer": "எந்தச் சூழ்நிலையிலும் உண்மையை மட்டுமே பேசி நம்பகத்தன்மையைக் காப்பாற்ற வேண்டும்",
+      "explanation": "பொய் பேசுவதால் ஏற்படும் இழப்பையும் உண்மையான நற்பண்பையும் சிந்தியுங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Advanced",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "குறும்பு",
+      "meaning": "விளைவுகளை யோசிக்காமல் விளையாட்டாகச் செய்யும் தவறான செயல்"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "கூக்குரலிட்டான்",
+      "meaning": "உயிருக்கு அச்சமுற்று அல்லது அவசர ஆபத்தில் உரக்கக் கத்தும் அழுகை ஒலி"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "அலட்சியமாக",
+      "meaning": "மற்றவரின் வார்த்தைகளை நம்பாமல் புறக்கணிக்கும் மனநிலை"
+    },
+    {
+      "word": "அறியாமை",
+      "meaning": "நன்மை தீமைகளை உணராமல் தவறான செயலில் ஈடுபடும் மூடத்தனம்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Boy Who Cried Wolf\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "கிராம மக்கள் சிறுவனின் முதல் கூச்சலைக் கேட்டு என்ன ஆயுதங்களுடன் ஓடிவந்தனர்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Liars are not believed even when they speak the truth.\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "நம்பிக்கை என்பது ஏன் ஒரு கண்ணாடியைப் போன்றது என்று பெரியவர்கள் கூறுகிறார்கள்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "விளையாட்டுக்காகக் கூட நாம் பொய் சொல்லக் கூடாது என்பதற்கு இக்கதை எவ்வாறு சான்றாகிறது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "ஒரு முறை இழந்த நற்பெயரையும் நம்பிக்கையையும் மீண்டும் பெறுவது ஏன் கடினம்?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

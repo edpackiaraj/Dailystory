@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-102-the-old-church-bell-variant",
   "slug": "hans-christian-andersen-102-the-old-church-bell-variant",
   "language": "ta",
-  "title": "The Old Church Bell (The Voice of Schiller)",
+  "title": "பழைய தேவாலய மணி – கவிஞர் ஷில்லரின் சுதந்திரக் குரல்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "In the small German town of Marbach, the recast church bell rang on the night of Friedrich Schiller's birth. Through poverty, military tyranny, and illness, the boy grew into the p...",
+  "summary": "ஜெர்மனியின் மார்பாக் தேவாலயத்தின் பழைய மணி உடைந்த போது வார்க்கப்பட்ட புதிய மணி ஒலித்த இரவில் பிறந்து, கொடுங்கோன்மைக்கு எதிராகக் கவிதைகளால் விடுதலைத் தீயை மூட்டிய கவிஞன் பிரீட்ரிக் ஷில்லரின் ஆன்ம ஒலி.",
   "keywords": [
     "hans christian andersen",
     "the old church bell variant",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived In the small German town of Marbach, the recast church bell rang on the night of Friedrich Schiller's birth. Through poverty, military tyranny, and illness, the boy grew into the p.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the chime of true poetry awakens the love of freedom in every human soul.",
-  "moral": "The chime of true poetry awakens the love of freedom in every human soul.",
+  "full_text": "ஜெர்மனியின் மார்பாக் நகர தேவாலயத்தில், புயலில் உடைந்த பழைய மணி உருக்கப்பட்டு மீண்டும் வார்க்கப்பட்ட வேளையில், எளிய மருத்துவரின் குடிசையில் பிறந்த குழந்தைதான் பிரீட்ரிக் ஷில்லர்.\n    \nஅச்சிறுவன் வளர்ந்த போது, நாடு கொடூரமான மன்னரின் ராணுவக் கட்டுப்பாட்டில் அடிமைப்பட்டுக் கிடந்தது. ஷில்லரின் சிந்தனைகளைச் சிறைப்படுத்த மன்னர் எவ்வளவோ முயன்றார்.\n    \nஆனால் ஷில்லரின் இதயத்தில் சுதந்திரத்தின் வெண்கல மணி ஓயாமல் ஒலித்துக் கொண்டே இருந்தது!\n    \nஅவன் இரகசியமாக நாடகங்களையும் காவியங்களையும் எழுதினான். 'கொள்ளையர்கள்' மற்றும் 'வில்லியம் டெல்' போன்ற அவனது நாடகங்கள் மேடைகளில் அரங்கேறிய போது, மக்கள் கண்ணீர் மல்கி எழுந்து நின்று சுதந்திர முழக்கமிட்டனர்.\n    \nஅவனது வரிகள் வெண்கல மணிகளை விடவும் உரக்க ஒலித்து, ஜெர்மனி முழுவதும் மக்களின் அடிமை விலங்குகளை உடைத்தெறியும் விடுதலை வேட்கையை ஊட்டின.\n    \nமன்னனின் படைகளும் கொடுங்கோல் அதிகாரமும் கால வெள்ளத்தில் அழிந்து போயின; ஆனால் தேவாலய மணியோடு பிறந்த ஷில்லரின் கவிதைகளோ இன்றும் உலகெங்கும் சுதந்திரத்தின் மணிநாதமாக ஒலித்துக் கொண்டிருக்கின்றன.",
+  "moral": "உண்மையான கவிதையின் மணியோசை வன்முறையையும் அடக்குமுறையையும் தகர்த்து, மனித ஆன்மாவில் சுதந்திரத்தின் ஒளியை ஏற்றி வைக்கும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Old Church Bell variant illustration from the Hans Christian Andersen collection.",
   "word_count": 225,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Old Church Bell variant\"?",
+      "question": "கவிஞர் பிரீட்ரிக் ஷில்லரின் நாடகங்கள் மக்களிடம் எத்தகைய எழுச்சியை உண்டாக்கின?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "அடிமை விலங்குகளை உடைத்தெறியும் தீராத சுதந்திர வேட்கையை ஊட்டின",
+        "மக்களைத் தூங்க வைத்தன",
+        "அரரசருக்கு அடிபணியச் செய்தன",
+        "போரை வெறுக்க வைத்தன"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "அடிமை விலங்குகளை உடைத்தெறியும் தீராத சுதந்திர வேட்கையை ஊட்டின",
+      "hint": "சுதந்திர விழிப்புணர்வை நினையுங்கள்.",
+      "explanation": "ஷில்லரின் எழுத்துக்கள் மக்களின் உள்ளத்தில் சுதந்திரப் புரட்சியை மூட்டின."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "ஷில்லரின் கவிதைகள் எதனை விடவும் உரக்க ஒலித்ததாக ஆன்டர்சன் குறிப்பிடுகிறார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "தேவாலயத்தின் வெண்கல மணிகளை விடவும் உரக்க ஒலித்தன",
+        "இடி முழக்கத்தை விட",
+        "பீரங்கிகளை விட",
+        "புயல் காற்றை விட"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "தேவாலயத்தின் வெண்கல மணிகளை விடவும் உரக்க ஒலித்தன",
+      "hint": "வெண்கல மணியை விட உரத்த கவிதையின் குரலை நினையுங்கள்.",
+      "explanation": "கவிஞனின் சுதந்திர வரிகள் உலோக மணிகளை விட மனித நெஞ்சில் வலிமையாக ஒலித்தன."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் இலக்கிய நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "அடக்குமுறைகள் தற்காலிகமானவை; கவிதையின் சுதந்திரக் குரலே நிரந்தரமானது",
+        "நாடகங்களை எழுதக் கூடாது",
+        "மணிகளை உடைக்க வேண்டும்",
+        "மன்னர்களை மட்டுமே புகழ வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "அடக்குமுறைகள் தற்காலிகமானவை; கவிதையின் சுதந்திரக் குரலே நிரந்தரமானது",
+      "hint": "சுதந்திர சிந்தனையின் வெல்ல முடியாத ஆற்றலை நினையுங்கள்.",
+      "explanation": "கவிஞனின் தூய இலக்கியமே மனித விடுதலையின் அழியாத ஒளியாகத் திகழ்கிறது."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கொடுங்கோல்",
+      "meaning": "மக்களைத் துன்புறுத்தும் அநீதியான அடக்குமுறை ஆட்சி சார்ந்த",
+      "gloss": "tyrannical, despotic"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "விலங்குகளை",
+      "meaning": "கைதிகளின் கைகால்களில் பூட்டப்படும் இரும்புச் சங்கிலிகளை",
+      "gloss": "chains, shackles, fetters"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "அடிமைப்பட்டுக்",
+      "meaning": "சுதந்திரத்தை இழந்து பிறரின் கடுமையான கட்டுப்பாட்டிற்குள் சிக்கி",
+      "gloss": "enslaved, subjugated"
+    },
+    {
+      "word": "மணிநாதமாக",
+      "meaning": "மங்களகரமாகவும் விழிப்புணர்வூட்டும் விதமாகவும் ஒலிக்கும் மணியின் இனிய ஓசையாக",
+      "gloss": "as bell chimes, clarion call"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Old Church Bell variant\"?"
+      "tier": "remembering",
+      "prompt": "ஷில்லர் பிறந்த ஊரின் பெயர் என்ன?",
+      "type": "remembering",
+      "question": "ஷில்லர் பிறந்த ஊரின் பெயர் என்ன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "தேவாலய மணியோசைக்கும் ஷில்லரின் சுதந்திரக் கவிதைகளுக்கும் உள்ள உருவகப் பொருத்தத்தை விளக்குக.",
+      "type": "understanding",
+      "question": "தேவாலய மணியோசைக்கும் ஷில்லரின் சுதந்திரக் கவிதைகளுக்கும் உள்ள உருவகப் பொருத்தத்தை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "அநீதிகளும் அடக்குமுறைகளும் தலைதூக்கும் சமூகத்தில் எழுத்தாளர்களும் கலைஞர்களும் எவ்வாறு மக்கள் பக்கம் நிற்க வேண்டும்?",
+      "type": "applying",
+      "question": "அநீதிகளும் அடக்குமுறைகளும் தலைதூக்கும் சமூகத்தில் எழுத்தாளர்களும் கலைஞர்களும் எவ்வாறு மக்கள் பக்கம் நிற்க வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "ஆட்சியாளர்களின் அதிகார வன்முறைக்கும், கவிஞனின் பேனா முனையின் புரட்சிக்கும் உள்ள வரலாற்றுப் போராட்டங்களை ஆராய்க.",
+      "type": "analyzing",
+      "question": "ஆட்சியாளர்களின் அதிகார வன்முறைக்கும், கவிஞனின் பேனா முனையின் புரட்சிக்கும் உள்ள வரலாற்றுப் போராட்டங்களை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'சுதந்திரத்தின் தாகம் எத்தகைய இரும்புச் சங்கிலிகளாலும் அடக்க முடியாதது' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'சுதந்திரத்தின் தாகம் எத்தகைய இரும்புச் சங்கிலிகளாலும் அடக்க முடியாதது' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "ஷில்லரின் நாடகத்தைப் பார்த்த ஜெர்மன் இளைஞர்கள் விடுதலைப் பாடலை முழங்கிய ஒரு காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "ஷில்லரின் நாடகத்தைப் பார்த்த ஜெர்மன் இளைஞர்கள் விடுதலைப் பாடலை முழங்கிய ஒரு காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

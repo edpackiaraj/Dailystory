@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-99-psyche",
   "slug": "hans-christian-andersen-99-psyche",
   "language": "ta",
-  "title": "Psyche",
+  "title": "சைக்கி – பளிங்குச் சிற்பமும் அழியாத ஆன்மாவின் எழுச்சியும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "In Rome, a young sculptor crafted a statue of Psyche out of pure Carrara marble. The figure radiated such heavenly innocence that the artist fell to his knees in sacred adoration....",
+  "summary": "ரோம் நகரில் கார்ராரா பளிங்குக் கல்லில் 'சைக்கி' என்ற ஆன்மாவின் தேவதா உருவத்தைச் செதுக்கி, அதன் தெய்வீக அழகில் மயங்கி உலக ஆசைகளைத் துறந்த சிற்பியின் கலை தவமும், நூற்றாண்டுகள் கடந்து மண்ணிலிருந்து மீண்ட பளிங்கின் நித்திய ஒளியும்.",
   "keywords": [
     "hans christian andersen",
     "psyche",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Beneath the cozy eaves of an antique home where climbing honeysuckle framed the dormer windows, there was In Rome, a young sculptor crafted a statue of Psyche out of pure Carrara marble. The figure radiated such heavenly innocence that the artist fell to his knees in sacred adoration..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the marble statue of human art decays, but the living soul of beauty ascends to eternity.",
-  "moral": "The marble statue of human art decays, but the living soul of beauty ascends to eternity.",
+  "full_text": "பண்டைய ரோம் மாநகரின் கலைக்கூடத்தின் நடுவே, ஒரு இளம் சிற்பி வெண்மையான கார்ராரா பளிங்குக் கல்லை இரவு பகலாகச் செதுக்கிக் கொண்டிருந்தான்.\n    \nஅவன் மனக்கண்ணில் தோன்றிய 'சைக்கி' (Psyche) என்ற ஆன்மாவின் தேவதையை, அந்தப் பளிங்குக் கல்லில் உயிர்ப்பிக்க வேண்டும் என்று விரதம் பூண்டான்.\n    \nஅவனது உளியின் ஒவ்வொரு தட்டிலும் தெய்வீக அழகு வெளிப்பட்டது. சிற்பம் முடிவடைந்த போது, அது வெறும் கல்லாகத் தெரியவில்லை; வானுலகின் பரிசுத்தமும் கள்ளமற்ற ஆன்மாவின் பேரொளியும் ததும்பும் ஒரு உயிருள்ள தேவதையாகவே அது நின்றது!\n    \nஅந்தச் சிற்பத்தின் தெய்வீகப் பேரழகைக் கண்ட அந்த இளம் சிற்பி, பரவசத்தில் அதன் காலடியில் மண்டியிட்டு வணங்கினான்.\n    \nபூமியின் அற்ப இன்பங்களும் செல்வங்களும் அவனது மனதிலிருந்து அகன்றன. அவன் உலகப் பற்றுக்களைத் துறந்து ஒரு துறவியாக மாறி இறைத் தியானத்தில் தன் வாழ்நாளைக் கழித்து மறைந்தான்.\n    \nநூற்றாண்டுகள் கடந்தன; போர்களும் பூகம்பங்களும் அந்த நகரத்தைத் தகர்த்தன; கலைக்கூடம் இடிந்து அந்தப் பளிங்குச் சிற்பம் மண்ணுக்குள் ஆழமாகப் புதைந்தது.\n    \nபல தலைமுறைகளுக்குப் பின், அங்கே அகழ்வாராய்ச்சி செய்த மக்கள் அந்தச் சைக்கி பளிங்குச் சிற்பத்தை மண்ணிலிருந்து வெளியே எடுத்தனர்!\n    \nமண்ணுக்குள் பல நூற்றாண்டுகள் கிடந்த போதிலும், அதன் எழிலிலும் புன்னகையிலும் ஒரு சிறிய கீறல் கூட விழவில்லை; கலைக்கும் ஆன்மாவிற்கும் சாவே இல்லை என்பதை அது உலகிற்கு உணர்த்தியது.",
+  "moral": "மனித உடல் மண்ணோடு மறைந்துவிடும்; ஆனால் தூய ஆன்மீகத் தாகத்தோடு வடிக்கப்பட்ட கலையும் அதன் உயிரோட்டமும் காலத்தைக் கடந்து நித்தியமாக ஒளிவீசும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "Psyche illustration from the Hans Christian Andersen collection.",
   "word_count": 226,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"Psyche\"?",
+      "question": "இளம் சிற்பி கார்ராரா பளிங்குக் கல்லில் யாருடைய உருவத்தைச் செதுக்கினான்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "'சைக்கி' என்ற ஆன்மாவின் புனித தேவதையின் உருவத்தைச் செதுக்கினான்",
+        "ரோமப் பேரரசனின் உருவத்தை",
+        "ஒரு சிங்கத்தின் உருவத்தை",
+        "ஒரு குதிரையின் உருவத்தை"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "'சைக்கி' என்ற ஆன்மாவின் புனித தேவதையின் உருவத்தைச் செதுக்கினான்",
+      "hint": "ஆன்மாவைக் குறிக்கும் கிரேக்கத் தேவதையை நினையுங்கள்.",
+      "explanation": "சிற்பி தூய ஆன்மாவின் வடிவமான சைக்கி தேவதையை வெண்பளிங்கில் செதுக்கினான்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "நூற்றாண்டுகள் கழித்து மண்ணிலிருந்து மீட்கப்பட்ட சிற்பத்தின் நிலை என்னவாக இருந்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "ஒரு சிறு கீறலும் இன்றி அதே தெய்வீகப் புன்னகையோடும் எழிலோடும் ஒளிர்ந்தது",
+        "முற்றிலும் உடைந்து தூளானது",
+        "கரிய நிறமாக மாறியது",
+        "எவராலும் அடையாளம் காண முடியவில்லை"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "ஒரு சிறு கீறலும் இன்றி அதே தெய்வீகப் புன்னகையோடும் எழிலோடும் ஒளிர்ந்தது",
+      "hint": "கலையின் அழியாத தன்மையை நினையுங்கள்.",
+      "explanation": "மண்ணில் புதைந்திருந்தாலும் சைக்கி சிற்பம் தன் வாடாத ஆன்மீக அழகோடு ஒளிவீசியது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை போதிக்கும் மகத்தான தத்துவம் யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "மனித உடல் மறைந்தாலும் தூய கலையும் ஆன்மாவின் எழிலும் காலத்தைக் கடந்து வாழும்",
+        "சிற்பங்களைச் செதுக்கக் கூடாது",
+        "பளிங்குக் கற்களைத் தொடக் கூடாது",
+        "மண்ணைத் தோண்டக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "மனித உடல் மறைந்தாலும் தூய கலையும் ஆன்மாவின் எழிலும் காலத்தைக் கடந்து வாழும்",
+      "hint": "ஆன்மீகக் கலையின் நித்தியத்துவத்தை நினையுங்கள்.",
+      "explanation": "உண்மையான ஆன்மீக உணர்வோடு வடிக்கப்படும் கலைக்கு எக்காலத்திலும் மரணம் கிடையாது."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "சிற்பி",
+      "meaning": "கற்களையும் பளிங்கையும் செதுக்கி அழகான உருவங்களையும் கலைச் சிலைகளையும் படைக்கும் கலைஞன்",
+      "gloss": "sculptor"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "விரதம்",
+      "meaning": "ஒரு புனிதமான இலக்கை எட்டுவதற்காக மேற்கொள்ளப்படும் உறுதியான மனக்கட்டுப்பாடு",
+      "gloss": "vow, sacred resolve"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "தியானத்தில்",
+      "meaning": "மனதை ஒருமுகப்படுத்தி இறைவனோடு ஆன்மாவை இணைக்கும் ஆழ்ந்த அமைதி நிலையில்",
+      "gloss": "in meditation, contemplation"
+    },
+    {
+      "word": "அகழ்வாராய்ச்சி",
+      "meaning": "மண்ணில் புதைந்து கிடக்கும் பழங்கால வரலாற்றுச் சின்னங்களைத் தோண்டி எடுக்கும் ஆய்வு",
+      "gloss": "archaeological excavation"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"Psyche\"?"
+      "tier": "remembering",
+      "prompt": "சிற்பம் செய்யப் பயன்படுத்தப்பட்ட பளிங்குக் கல்லின் வகை என்ன?",
+      "type": "remembering",
+      "question": "சிற்பம் செய்யப் பயன்படுத்தப்பட்ட பளிங்குக் கல்லின் வகை என்ன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "சிற்பி தன் படைப்பை முடித்ததும் உலகப் பற்றுக்களைத் துறந்து ஆன்மீகவாதியாக மாறியதன் காரணத்தை விளக்குக.",
+      "type": "understanding",
+      "question": "சிற்பி தன் படைப்பை முடித்ததும் உலகப் பற்றுக்களைத் துறந்து ஆன்மீகவாதியாக மாறியதன் காரணத்தை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது படைப்புகளிலும் பணிகளிலும் வெறும் பொருள் ஆதாயத்தை நோக்காமல் உள்ளப்பூர்வமான அர்ப்பணிப்பை எவ்வாறு வெளிப்படுத்தலாம்?",
+      "type": "applying",
+      "question": "நமது படைப்புகளிலும் பணிகளிலும் வெறும் பொருள் ஆதாயத்தை நோக்காமல் உள்ளப்பூர்வமான அர்ப்பணிப்பை எவ்வாறு வெளிப்படுத்தலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "அழிந்துபோகும் ரோம சாம்ராஜ்யத்தின் செல்வத்திற்கும், மண்ணில் நிலைத்து நின்ற பளிங்குச் சிற்பத்தின் ஆன்ம எழிலுக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "அழிந்துபோகும் ரோம சாம்ராஜ்யத்தின் செல்வத்திற்கும், மண்ணில் நிலைத்து நின்ற பளிங்குச் சிற்பத்தின் ஆன்ம எழிலுக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'கலையே மனிதனின் மரணமில்லாத ஆன்மாவை வெளிப்படுத்தும் நித்தியக் கண்ணாடி' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'கலையே மனிதனின் மரணமில்லாத ஆன்மாவை வெளிப்படுத்தும் நித்தியக் கண்ணாடி' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "மண்ணிலிருந்து வெளியே எடுக்கப்பட்ட சைக்கி சிற்பத்தைக் கண்ட அகழ்வாராய்ச்சி அறிஞர்கள் வியந்து பேசிய காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "மண்ணிலிருந்து வெளியே எடுக்கப்பட்ட சைக்கி சிற்பத்தைக் கண்ட அகழ்வாராய்ச்சி அறிஞர்கள் வியந்து பேசிய காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

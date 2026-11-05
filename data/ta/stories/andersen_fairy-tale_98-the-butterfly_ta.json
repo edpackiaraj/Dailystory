@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-98-the-butterfly",
   "slug": "hans-christian-andersen-98-the-butterfly",
   "language": "ta",
-  "title": "The Butterfly",
+  "title": "வண்ணத்துப் பூச்சியும் காலம் கடந்த தனிமை வருத்தமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "A vain butterfly fluttered through the garden seeking a bride among the flowers. The rose was too romantic; the sweet-pea was too domestic; the apple blossom was too fragile; the m...",
+  "summary": "தோட்டத்தில் உள்ள மலர்களில் தனக்கு ஏற்ற மணப்பெண்ணைத் தேர்ந்தெடுக்க எண்ணி, ஒவ்வொரு பூவின் அழகிலும் குற்றம் கூறி அலைந்து திரிந்த வண்ணத்துப் பூச்சி, முடிவில் பருவம் கடந்து குளிர்காலத்தில் ஒற்றைத் தனிமையில் வாடிய அங்கதக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the butterfly",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived A vain butterfly fluttered through the garden seeking a bride among the flowers. The rose was too romantic; the sweet-pea was too domestic; the apple blossom was too fragile; the m.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that he who flits endlessly without commitment ends his days alone in cold regret.",
-  "moral": "He who flits endlessly without commitment ends his days alone in cold regret.",
+  "full_text": "ஒரு அழகான பூந்தோட்டத்தில், வண்ணத்துச் சிறகுகளைக் கொண்ட ஒரு செருக்குமிக்க பட்டாம்பூச்சி சிறகடித்துப் பறந்தது.\n    \nஅது தனக்கு ஒரு அழகான மலரைத் திருமணம் செய்ய விரும்பியது. அது தோட்டத்தில் மலர்ந்திருந்த மலர்களை ஒவ்வொன்றாகப் பார்வையிட்டது.\n    \nரோஜா மலரைப் பார்த்தது: \"இது மிகவும் உணர்ச்சிவசப்படும் மலர்; இதன் ஆயுள் குறைவு!\" என்று ஒதுக்கியது.\n    \nஆப்பிள் மலரைப் பார்த்தது: \"இது இன்று பூக்கும், நாளை உதிர்ந்துவிடும், மிகவும் பலவீனமானது!\" என்றது.\n    \nசெம்பருத்தியைப் பார்த்தது: \"இது மிகவும் அடக்கமானது, ஆனால் எனக்குத் தகுந்த பகட்டு இல்லை!\" என்று சலித்துக் கொண்டது.\n    \nஇப்படியாக ஒவ்வொரு மலரிடமும் ஏதோ ஒரு குறையைக் கூறி, அது திருமணத்தை ஒத்திப்போட்டுக் கொண்டே வந்தது.\n    \nகாலம் உருண்டோடியது. வசந்தம் முடிந்து இலையுதிர் காலம் வந்தது; குளிர் காற்று வீசத் தொடங்கியதும் தோட்டத்தில் இருந்த அனைத்து மலர்களும் உதிர்ந்து வாடிப் போயின!\n    \nவண்ணத்துப் பூச்சியின் சிறகுகள் நனைந்து தளர்ந்தன; அதற்கு அடைக்கலம் தரத் தோட்டத்தில் ஒரு மலர்கூட மிச்சமில்லை.\n    \nஅது குளிரில் நடுங்கிக் கொண்டு ஒரு வீட்டின் ஜன்னல் இடுக்கில் தஞ்சம் புகுந்தது. மனிதர்கள் அதைப் பிடித்து ஒரு குண்டூசியில் குத்தித் தங்களின் அலங்காரப் பெட்டியில் வைத்தனர்.\n    \n\"நான் மலர்களைத் தேர்ந்தெடுப்பதில் அதிக காலம் வீணடித்து விட்டேன்; இப்போது என் தற்பெருமை குண்டூசியில் தொங்குகிறது!\" என்று அது தன் தனிமையை எண்ணிக் கண்ணீர் வடித்தது.",
+  "moral": "வாழ்க்கையில் சரியான வாய்ப்புகள் கிட்டும் போது காலம் தாழ்த்தாமல் முடிவெடுக்க வேண்டும்; எல்லாவற்றிலும் குற்றம் கண்டு காலம் கடத்துபவர்கள் முடிவில் தனிமையிலேயே வாடுவார்கள்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Butterfly illustration from the Hans Christian Andersen collection.",
   "word_count": 226,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Butterfly\"?",
+      "question": "வண்ணத்துப் பூச்சி தோட்டத்தில் மலர்களைத் திருமணம் செய்யாமல் காலம் தாழ்த்தக் காரணம் என்ன?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஒவ்வொரு மலரின் அழகிலும் ஏதோ ஒரு குறையைக் கூறி ஒதுக்கியதால்",
+        "அதற்குப் பறக்கத் தெரியாததால்",
+        "மழையால் வெளியே வர முடியாததால்",
+        "மலர்கள் பேச மறுத்ததால்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "ஒவ்வொரு மலரின் அழகிலும் ஏதோ ஒரு குறையைக் கூறி ஒதுக்கியதால்",
+      "hint": "அதன் குறைகாண்பி மனப்பான்மையை நினையுங்கள்.",
+      "explanation": "பட்டாம்பூச்சி எந்த மலரையும் மனதார ஏற்காமல் எல்லாவற்றிலும் குற்றம் கண்டு காலம் கடத்தியது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "குளிர்காலத்தில் பூக்கள் உதிர்ந்ததும் வண்ணத்துப் பூச்சிக்கு என்ன கதி நேர்ந்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அடைக்கலமின்றி ஜன்னல் இடுக்கில் தஞ்சமடைந்து மனிதர்களின் குண்டூசிப் பெட்டியில் குத்தப்பட்டது",
+        "அரண்மனைக்குச் சென்றது",
+        "மகிழ்ச்சியாகப் பறந்தது",
+        "தங்கக் கூண்டில் வாழ்ந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "அடைக்கலமின்றி ஜன்னல் இடுக்கில் தஞ்சமடைந்து மனிதர்களின் குண்டூசிப் பெட்டியில் குத்தப்பட்டது",
+      "hint": "தனிமையில் அது அடைந்த பரிதாப முடிவை நினையுங்கள்.",
+      "explanation": "காலம் கடந்த பின் எங்கும் புகலிடமின்றிப் பிடிபட்டு அலங்காரப் பெட்டியின் குண்டூசியில் மாட்டப்பட்டது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை போதிக்கும் நடைமுறை வாழ்வியல் நீதி யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "வாய்ப்புகள் இருக்கும் போதே விவேகத்தோடு முடிவெடுக்க வேண்டும்; காலங்கடந்த தேர்வு தனிமையைத் தரும்",
+        "மலர்களைப் பறிக்கவே கூடாது",
+        "வண்ணத்துப் பூச்சிகளைப் பிடிக்கக் கூடாது",
+        "தோட்டங்களை அழிக்க வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "வாய்ப்புகள் இருக்கும் போதே விவேகத்தோடு முடிவெடுக்க வேண்டும்; காலங்கடந்த தேர்வு தனிமையைத் தரும்",
+      "hint": "காலந் தாழ்த்துவதின் விபரீதத்தை நினையுங்கள்.",
+      "explanation": "முழுமையைத் தேடுகிறேன் என்று வாய்ப்புகளை நழுவவிடுபவர்கள் இறுதியில் தனிமையிலேயே வாடுவார்கள்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பூந்தோட்டத்தில்",
+      "meaning": "பல்வேறு வண்ண வண்ண மலர்களும் நறுமணச் செடிகளும் பூத்துக் குலுங்கும் தோட்டத்தில்",
+      "gloss": "in the flower garden"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "அடக்கமானது",
+      "meaning": "ஆணவமும் தற்பெருமையும் இன்றி பணிவான சுபாவம் கொண்டது",
+      "gloss": "humble, modest"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "அடைக்கலம்",
+      "meaning": "ஆபத்து அல்லது துன்பத்திலிருந்து தப்பிக்கப் புகும் பாதுகாப்பு இடம்",
+      "gloss": "shelter, refuge"
+    },
+    {
+      "word": "குண்டூசியில்",
+      "meaning": "பூச்சிகளைப் பாதுகாத்துப் பாடம் செய்யப் பயன்படுத்தப்படும் மெல்லிய உலோக ஊசியில்",
+      "gloss": "on a pin"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Butterfly\"?"
+      "tier": "remembering",
+      "prompt": "பட்டாம்பூச்சி ரோஜா மலரை ஏன் நிராகரித்தது?",
+      "type": "remembering",
+      "question": "பட்டாம்பூச்சி ரோஜா மலரை ஏன் நிராகரித்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "எல்லாவற்றிலும் குறை மட்டுமே காணும் சுபாவம் ஒருவரின் வாழ்க்கையை எவ்வாறு பாழாக்குகிறது என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "எல்லாவற்றிலும் குறை மட்டுமே காணும் சுபாவம் ஒருவரின் வாழ்க்கையை எவ்வாறு பாழாக்குகிறது என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது வாழ்க்கைத் துணை மற்றும் நண்பர்களைத் தேர்ந்தெடுக்கும் போது புற அழகை விட நற்குணங்களுக்கு நாம் எவ்வாறு முக்கியத்துவம் அளிக்க வேண்டும்?",
+      "type": "applying",
+      "question": "நமது வாழ்க்கைத் துணை மற்றும் நண்பர்களைத் தேர்ந்தெடுக்கும் போது புற அழகை விட நற்குணங்களுக்கு நாம் எவ்வாறு முக்கியத்துவம் அளிக்க வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "வசந்த காலத்தின் சுதந்திரப் பறத்தலுக்கும், குளிர்காலத்தில் குண்டூசியில் மாட்டப்பட்ட சிறைக்கும் உள்ள முரண்பாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "வசந்த காலத்தின் சுதந்திரப் பறத்தலுக்கும், குளிர்காலத்தில் குண்டூசியில் மாட்டப்பட்ட சிறைக்கும் உள்ள முரண்பாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'தக்க தருணத்தில் எடுக்கப்படாத முடிவு முடிவில்லாத துயரத்தையே தரும்' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'தக்க தருணத்தில் எடுக்கப்படாத முடிவு முடிவில்லாத துயரத்தையே தரும்' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "குண்டூசியில் குத்தப்பட்ட வண்ணத்துப் பூச்சி ஜன்னல் வழியே வெளியே மலரும் புதிய மலர்களைப் பார்த்துப் பேசிய இரங்கல் வரிகளை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "குண்டூசியில் குத்தப்பட்ட வண்ணத்துப் பூச்சி ஜன்னல் வழியே வெளியே மலரும் புதிய மலர்களைப் பார்த்துப் பேசிய இரங்கல் வரிகளை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

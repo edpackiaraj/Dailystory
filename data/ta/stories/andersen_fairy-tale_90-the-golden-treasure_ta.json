@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-90-the-golden-treasure",
   "slug": "hans-christian-andersen-90-the-golden-treasure",
   "language": "ta",
-  "title": "The Golden Treasure",
+  "title": "தங்கப் புதையலும் மேதைமை கொண்ட முரசுப் பையனின் இசையும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "In the town of Odense, the drummer's wife gave birth to a boy with golden hair. An old fortune-teller prophesied: \"He carries a golden treasure in his breast!\" The father thought o...",
+  "summary": "ஒடன்ஸ் நகரின் எளிய முரசு அடிப்பவனின் வீட்டில் பிறந்த தங்க நிறத் தலைமுடி கொண்ட பையனைப் பார்த்து, 'அவன் நெஞ்சில் தங்கப் புதையல் இருக்கிறது' என்று குறிசொல்லி கூறியதன் உண்மைப் பொருளாக அவனது இசை மேதைமை மலர்ந்த உன்னத வரலாறு.",
   "keywords": [
     "hans christian andersen",
     "the golden treasure",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Out in the wide, tranquil meadows where wildflowers bent gracefully before the seaside breeze, there lived In the town of Odense, the drummer's wife gave birth to a boy with golden hair. An old fortune-teller prophesied: \"He carries a golden treasure in his breast!\" The father thought o.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the gift of music and genius in the soul is the true golden treasure of life.",
-  "moral": "The gift of music and genius in the soul is the true golden treasure of life.",
+  "full_text": "டென்மார்க்கின் ஒடன்ஸ் நகரில், ராணுவத்தில் முரசு அடிக்கும் ஒரு எளிய வீரனின் குடிசையில் அழகான ஒரு ஆண்குழந்தை பிறந்தது. அதன் தலைமுடி தங்கம் போலப் பளபளத்தது.\n    \nஅக்குழந்தையைப் பார்த்த ஒரு வயதான குறிசொல்லும் மூதாட்டி, \"இப்பையன் தன் மார்புக்குள் ஒரு தங்கப் புதையலைச் சுமந்து கொண்டிருக்கிறான்!\" என்று தீர்க்கதரிசனமாகக் கூறினாள்.\n    \nதந்தை மகிழ்ந்து போனார்: \"ஆகா! என் மகன் பூமியைத் தோண்டித் தங்கப் புதையலை எடுக்கப் போகிறான்; பெரும் பணக்காரனாகப் போகிறான்!\" என்று தப்புக் கணக்கு போட்டார்.\n    \nஆனால் பீட்டர் என்ற அந்தச் சிறுவனுக்கோ தங்கத்தின் மீது ஆசை இல்லை. அவன் காற்றில் அசையும் மரங்களின் ஓசையிலும், ஓடும் நதியின் சலசலப்பிலும், பறவைகளின் கீதங்களிலும் இசை நாதத்தைக் கேட்டான்.\n    \nஅவன் ஒரு பழைய வயலினை எடுத்து வாசிக்கத் தொடங்கினான். அவனது விரல்கள் பட்டதும், அந்த இசை மக்களின் கண்களில் கண்ணீரையும் ஆனந்தத்தையும் வரவழைத்தது!\n    \nவளர்ந்து வாலிபனான பீட்டர், உலகமே போற்றும் மாபெரும் இசை மேதையாக உயர்ந்தான். அவனது இசை அரண்மனைகளிலும் மேடைகளிலும் எதிரொலித்து நாடெங்கும் புகழைப் பரப்பியது.\n    \nஅப்போதுதான் தந்தை புரிந்துகொண்டார்: குறிசொல்லி சொன்ன தங்கப் புதையல் வெறும் பொற்காசுகள் அல்ல; உலக மக்களை இணைக்கும் தெய்வீக இசைக் கலையே அவனது நெஞ்சில் இருந்த உண்மையான பொக்கிஷம் என்றுணர்ந்து நெகிழ்ந்தார்.",
+  "moral": "உண்மையான தங்கப் புதையல் என்பது பூமிக்கடியில் தோண்டி எடுக்கப்படும் காசுகள் அல்ல; மனிதனின் இதயத்தில் பிறந்து உலகை மகிழ்விக்கும் கலை மேதைமையே ஆகும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Golden Treasure illustration from the Hans Christian Andersen collection.",
   "word_count": 226,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Golden Treasure\"?",
+      "question": "குறிசொல்லி மூதாட்டி முரசுக்காரனின் குழந்தையைப் பார்த்து என்ன தீர்க்கதரிசனம் கூறினாள்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "இப்பையன் தன் மார்புக்குள் ஒரு தங்கப் புதையலைச் சுமக்கிறான் என்றாள்",
+        "அவன் அரசனாவான் என்றாள்",
+        "அவன் போர் வீரன் என்றாள்",
+        "அவன் வணிகனாவான் என்றாள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "இப்பையன் தன் மார்புக்குள் ஒரு தங்கப் புதையலைச் சுமக்கிறான் என்றாள்",
+      "hint": "மார்பில் இருந்த புதையல் பற்றிய ஜோதிடத்தை நினையுங்கள்.",
+      "explanation": "குறிசொல்லி பீட்டரின் நெஞ்சில் ஒரு தங்கப் புதையல் உள்ளதாகக் கணித்தாள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "பீட்டரின் நெஞ்சில் இருந்த உண்மையான தங்கப் புதையல் எது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "உலகை மெய்மறக்கச் செய்த அவனது தெய்வீக இசை மேதைமை",
+        "பூமிக்கடியில் கிடைத்த தங்கக் காசுகள்",
+        "வைர மாலை",
+        "அரண்மனைப் பணம்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "உலகை மெய்மறக்கச் செய்த அவனது தெய்வீக இசை மேதைமை",
+      "hint": "அவன் வடித்த உன்னத வயலின் இசையை நினையுங்கள்.",
+      "explanation": "பீட்டரின் உள்ளத்தில் இருந்த இசைத் திறமையும் கலை ஞானமுமே அந்த உண்மையான தங்கப் புதையல் ஆகும்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனிதர்களுக்குப் புகட்டும் உயர்ந்த நீதி யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "பொருள் செல்வத்தை விட மனித ஆன்மாவில் சுடரும் கலையும் ஞானமுமே உண்மையான பொக்கிஷமாகும்",
+        "வயலின் வாசிக்கக் கூடாது",
+        "முரசு அடிக்கக் கூடாது",
+        "குறிசொல்பவர்களை நம்பவே கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "பொருள் செல்வத்தை விட மனித ஆன்மாவில் சுடரும் கலையும் ஞானமுமே உண்மையான பொக்கிஷமாகும்",
+      "hint": "உள்ளத்து ஆன்மச் செல்வத்தின் மேன்மையை நினையுங்கள்.",
+      "explanation": "ஆன்டர்சன் பணத்தை விடக் கலையும் படைப்பாற்றலுமே வாழ்வின் அழியாத தங்கப் புதையல் எனப் போதித்தார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "தீர்க்கதரிசனமாகக்",
+      "meaning": "எதிர்காலத்தில் நடக்கவிருக்கும் உன்னத உண்மையை முன்னரே ஞானத்தால் அறிவிக்கும் விதமாக",
+      "gloss": "prophetically, visionary"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "சலசலப்பிலும்",
+      "meaning": "தெளிந்த நதிநீர் கூழாங்கற்களின் மீது ஓடும் போது எழும் மெல்லிய இனிய ஒலியிலும்",
+      "gloss": "in the murmuring, babbling"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "வயலினை",
+      "meaning": "நரம்புகளை வில்லினால் வருடி இனிய நாதம் எழுப்பும் நரம்பிசைக் கருவியை",
+      "gloss": "violin, fiddle"
+    },
+    {
+      "word": "பொக்கிஷம்",
+      "meaning": "எல்லாவற்றையும் விடப் போற்றிப் பாதுகாக்கப்படும் விலைமதிப்பற்ற அரிய செல்வம்",
+      "gloss": "treasure, precious jewel"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Golden Treasure\"?"
+      "tier": "remembering",
+      "prompt": "பீட்டரின் தந்தை ராணுவத்தில் என்ன பணியைச் செய்து வந்தார்?",
+      "type": "remembering",
+      "question": "பீட்டரின் தந்தை ராணுவத்தில் என்ன பணியைச் செய்து வந்தார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "தந்தை எதிர்பார்த்த தங்கப் புதையலுக்கும், பீட்டர் வெளிப்படுத்திய ஆன்மீகப் புதையலுக்கும் உள்ள முரணை விளக்குக.",
+      "type": "understanding",
+      "question": "தந்தை எதிர்பார்த்த தங்கப் புதையலுக்கும், பீட்டர் வெளிப்படுத்திய ஆன்மீகப் புதையலுக்கும் உள்ள முரணை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "குழந்தைகளிடம் உள்ள கலை மற்றும் இலக்கியத் திறமைகளை வெறும் பணக் கண்ணோட்டமின்றி நாம் எவ்வாறு ஊக்கப்படுத்தலாம்?",
+      "type": "applying",
+      "question": "குழந்தைகளிடம் உள்ள கலை மற்றும் இலக்கியத் திறமைகளை வெறும் பணக் கண்ணோட்டமின்றி நாம் எவ்வாறு ஊக்கப்படுத்தலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "பூமியின் தங்கம் தரும் உலகாயத பெருமைக்கும், இசை தரும் மன அமைதிக்கும் உள்ள மதிப்பீடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "பூமியின் தங்கம் தரும் உலகாயத பெருமைக்கும், இசை தரும் மன அமைதிக்கும் உள்ள மதிப்பீடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'கலையே மனித இதயங்களை இணைக்கும் ஆகச்சிறந்த ஆன்மீகச் செல்வம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'கலையே மனித இதயங்களை இணைக்கும் ஆகச்சிறந்த ஆன்மீகச் செல்வம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "பீட்டரின் இசையைக் கேட்டு நெகிழ்ந்த ஊர் மக்கள் அவனுக்கு அளித்த வாழ்த்துப் பாராட்டுகளை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "பீட்டரின் இசையைக் கேட்டு நெகிழ்ந்த ஊர் மக்கள் அவனுக்கு அளித்த வாழ்த்துப் பாராட்டுகளை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

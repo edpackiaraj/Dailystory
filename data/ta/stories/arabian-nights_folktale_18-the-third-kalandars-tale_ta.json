@@ -2,12 +2,12 @@
   "id": "arabian-nights-18-the-third-kalandars-tale",
   "slug": "arabian-nights-18-the-third-kalandars-tale",
   "language": "ta",
-  "title": "The Third Kalandar's Tale",
+  "title": "மூன்றாம் துறவியின் காவிய வரலாறு – காந்த மலையும் திறக்கப்பட்ட ரகசியக் கதவும்",
   "genre": "Folktales",
   "collection": "Arabian Nights",
   "culture_region": "Middle East",
   "age_group": "Below 13",
-  "summary": "The third one-eyed Kalandar stepped forward and said: \"My name is Ajib, son of King Hammad. My downfall began when my ship was driven by ...",
+  "summary": "காந்த மலையின் ஈர்ப்பால் கப்பல் உடைந்தபின் தப்பிய அஜீப் என்ற இளவரசன், தங்கக் கோட்டையின் நாற்பதாவது ரகசியக் கதவைத் திறக்கக் கூடாது என்ற நிபந்தனையை மீறியதால், மாயக் குதிரையின் வாலினால் ஒரு கண்ணை இழந்து துறவியாக மாறிய கதை.",
   "keywords": [
     "arabian nights",
     "1001 nights",
@@ -22,49 +22,55 @@
     "classic",
     "wisdom"
   ],
-  "full_text": "The third one-eyed Kalandar stepped forward and said: \"My name is Ajib, son of King Hammad. My downfall began when my ship was driven by a violent storm toward the dreaded Loadstone Mountain. The mountain’s magnetic power was so immense that it drew all the iron nails from our vessel, causing the ship to fall to pieces in the roaring waves.\n\nI alone reached the rocky shore. Guided by a dream, I climbed to the summit of the mountain, where stood a bronze dome surmounted by a horseman of brass. Using a magical bow, I shot the talismanic horseman, who fell into the sea, breaking the mountain's enchantment. Immediately, a boat steered by an angel of brass appeared and carried me safely to a paradisiacal island.\n\nThere I discovered a subterranean palace where a gentle youth had been hidden by his father to escape an astrological prophecy predicting he would be slain by King Ajib. I befriended the boy, swearing to protect him with my life. But alas! On the very day the prophecy was to expire, as I climbed onto a table to slice a melon for him, my foot slipped, the knife flew from my hand, and it pierced the youth’s breast. Stricken with horror at fulfilling the prophecy by accident, I fled into the forest.\n\nEventually, I reached a magnificent palace inhabited by forty peerless maidens. They welcomed me as their sovereign, showering me with delights. When they had to depart for forty days on an annual journey, they handed me the keys to a hundred golden doors, saying: 'Enter where you will and feast your eyes on every wonder, but on your life, do not open the golden door of ebony.'\n\nFor thirty-nine days I explored thirty-nine rooms filled with gardens, fountains, and jewels. But on the fortieth day, consumed by reckless curiosity, I unlocked the forbidden ebony door. Inside stood a black winged stallion. When I mounted him, the steed leaped into the clouds, flew across continents, and threw me onto a rocky terrace in Baghdad, blinding my left eye with a lash of its tail before vanishing forever. Thus did my unbridled curiosity leave me a blind wanderer in mourning.\"",
-  "moral": "Forbidden curiosity and breaking solemn trusts lead to irrevocable loss and long regret.",
+  "full_text": "மூன்றாம் ஒற்றைக்கண் துறவி அஜீப் முன்வந்து பேசினார்: \"சகோதரிகளே! நானும் ஹம்மாத் என்ற மாமன்னரின் புதல்வன். எனது வணிகக் கப்பல்கள் ஒரு முறை கடலில் திசைதவறி, 'காந்த மலை' என்ற பயங்கரமான பாறைத் தீவை நோக்கி இழுக்கப்பட்டன. அந்தக் காந்த மலையின் அதீத காந்த ஈர்ப்பு விசை, எங்கள் கப்பலின் அனைத்து இரும்பு ஆணிகளையும் பலவந்தமாக ஈர்த்துப் பிடுங்கியது! ஆணிகள் கழன்றதால் கப்பலின் மரப் பலகைகள் சிதறி நடுக்கடலில் உடைந்து மூழ்கின; நான் ஒரு மரக்கட்டையைப் பிடித்துத் தப்பித்துக் கரையேறினேன்.\n\nஅங்கே காந்த மலையின் உச்சியில் நின்ற வெண்கலக் குதிரை வீரனின் சிலையை வில்லால் அடித்து வீழ்த்தி, அந்தத் தீவின் சாபத்தை உடைத்தேன். பின்னர் ஆகாயத்தில் பறந்த பிரம்மாண்டமான ஒரு ராக் பறவை என்னைத் தூக்கிச் சென்று, ஒரு பெரிய அழகிய தங்கக் கோட்டையில் இறக்கிவிட்டது. அங்கே நாற்பது தேவலோக அழகிய கன்னியர்கள் என்னை வரவேற்றுத் தங்கள் தலைவனாக ஏற்றுக்கொண்டனர். அவர்கள் ஒரு முறை தொலைதூரப் பயணம் செல்லும்போது, கோட்டையின் அனைத்து சாவிகளையும் என்னிடம் ஒப்படைத்தனர்: 'இளவரசனே! இந்த மாளிகையில் முப்பத்தொன்பது கதவுகளைத் திறந்து நீ மகிழலாம்; ஆனால் இந்த நாற்பதாவது தங்கக் கதவை மட்டும் எந்தக் காரணத்தைக் கொண்டும் திறக்காதே!' என்று சத்தியம் வாங்கினர்.\n\nமுப்பத்தொன்பது அறைகளிலும் அளப்பரிய பொக்கிஷங்களைக் கண்டு மகிழ்ந்தேன். ஆனால் மனிதனின் பலவீனமான ஆர்வம் என்னை உந்தியது; நாற்பதாவது கதவின் பின்னால் என்ன இருக்கிறது என்பதை அறியத் துடித்து, அதைத் திறந்தேன்! உள்ளே ஒரு கருப்பு மாயக் குதிரை நின்றது. நான் அதன் முதுகில் ஏறியதும், அது வானில் மின்னல் வேகத்தில் பறந்து, தன் நீண்ட கூரிய வாலினால் எனது வலது கண்ணில் ஓங்கி விளாசியது! என் கண்ணின் பார்வை அடியோடு பறிபோனது; குதிரை என்னை ஒரு பாலைவனத்தில் தூக்கியெறிந்துவிட்டு மறைந்தது! என் மீறலுக்காக வருந்தி, தலையை மழித்து இந்த யாசகத் துறவியாக வாழ்கிறேன்\" என்றார்.",
+  "moral": "தடுக்கப்பட்ட ரகசியங்களை அறியும் வரம்பற்ற ஆர்வம் ஆபத்தையே தரும்; கொடுக்கப்பட்ட வாக்கையும் நம்பிக்கையையும் மீறினால் நிரந்தர இழப்பும் தீராத் துயரமுமே மிஞ்சும்.",
   "image": "/images/stories/arabian-nights.webp",
   "image_alt": "The Third Kalandar's Tale illustration from the 1001 Arabian Nights collection.",
-  "word_count": 366,
-  "reading_time": "3 min",
-  "listen_time": "4 min",
+  "word_count": 198,
+  "reading_time": "2 mins",
+  "listen_time": "3 mins",
   "audio_url": null,
   "publish_date": "2026-03-15",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central focus of \"The Third Kalandar's Tale\"?",
+      "question": "காந்த மலையில் கப்பல் ஏன் உடைந்தது?",
       "options": [
-        "Seeking wisdom, patience, and solving a unique problem",
-        "Finding gold and keeping it hidden away",
-        "Leaving home forever without greeting friends",
-        "Building tall towers in the sand"
+        "பாறையில் மோதியதால்",
+        "காந்த மலையின் ஈர்ப்பு விசை கப்பலின் இரும்பு ஆணிகளைப் பிடுங்கியதால்",
+        "சுறா தாக்கியதால்",
+        "தீப்பிடித்ததால்"
       ],
-      "answerIndex": 0,
-      "hint": "Reflect upon the moral outcome of the characters’ choices."
+      "answer": "காந்த மலையின் ஈர்ப்பு விசை கப்பலின் இரும்பு ஆணிகளைப் பிடுங்கியதால்",
+      "explanation": "காந்த ஈர்ப்பால் இரும்பு ஆணிகள் கழன்று பலகைகள் பிரிந்து மூழ்கின.",
+      "answerIndex": 1,
+      "hint": "காந்த ஈர்ப்பால் இரும்பு ஆணிகள் கழன்று பலகைகள் பிரிந்து மூழ்கின."
     },
     {
-      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "question": "நாற்பது கன்னியர்கள் இளவரசனிடம் என்ன நிபந்தனை விதித்தனர்?",
       "options": [
-        "Thoughtfulness, patience, and integrity",
-        "Loud shouting and boastful anger",
-        "Running away from every challenge",
-        "Ignoring all wise advice"
+        "உணவருந்தக் கூடாது",
+        "நாற்பதாவது தங்கக் கதவை மட்டும் திறக்கக் கூடாது",
+        "வெளியே போகக் கூடாது",
+        "தூங்கக் கூடாது"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how calm reflection solves dilemmas in folktales."
+      "answer": "நாற்பதாவது தங்கக் கதவை மட்டும் திறக்கக் கூடாது",
+      "explanation": "நாற்பதாவது கதவைத் திறக்கக் கூடாது என்று சத்தியம் வாங்கினர்.",
+      "answerIndex": 1,
+      "hint": "நாற்பதாவது கதவைத் திறக்கக் கூடாது என்று சத்தியம் வாங்கினர்."
     },
     {
-      "question": "What memorable lesson does this story impart to listeners?",
+      "question": "இளவரசனின் வலது கண் பார்வை எவ்வாறு பறிபோனது?",
       "options": [
-        "Integrity and keeping one’s word build enduring trust across all borders.",
-        "Never listen to advice from elders",
-        "Always act hastily without planning",
-        "Words spoken in anger cause no harm"
+        "தீக்காயத்தால்",
+        "நாற்பதாவது அறையிலிருந்த மாயக் குதிரையின் கூரிய வால் விளாசியதால்",
+        "போரில்",
+        "நோயால்"
       ],
-      "answerIndex": 0,
-      "hint": "Look closely at the story’s moral."
+      "answer": "நாற்பதாவது அறையிலிருந்த மாயக் குதிரையின் கூரிய வால் விளாசியதால்",
+      "explanation": "நிபந்தனையை மீறி ஏறியபோது மாயக் குதிரையின் வால் கண்ணைத் தாக்கியது.",
+      "answerIndex": 1,
+      "hint": "நிபந்தனையை மீறி ஏறியபோது மாயக் குதிரையின் வால் கண்ணைத் தாக்கியது."
     }
   ],
   "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
@@ -77,38 +83,38 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "caliph",
-      "meaning": "a sovereign leader or ruler in historical Islamic states"
+      "word": "பலவந்தமாக",
+      "meaning": "தடுத்து நிறுத்த முடியாத கடுமையான பலப் பிரயோகத்துடன் (Forcibly / violently)"
     },
     {
-      "word": "vizier",
-      "meaning": "a high-ranking minister or trusted counselor"
+      "word": "ஆணிகளையும்",
+      "meaning": "மரப் பலகைகளை இணைக்கும் இரும்புத் துளை ஆணிகளையும் (Nails)"
     },
     {
-      "word": "hospitality",
-      "meaning": "the friendly and generous reception and entertainment of guests"
+      "word": "பலவீனமான",
+      "meaning": "உறுதியற்ற அல்லது சபலத்திற்கு ஆளாகும் (Weak / frail)"
+    },
+    {
+      "word": "விளாசியது",
+      "meaning": "சவுக்கால் அடிப்பது போலக் கடுமையாகத் தாக்கியது (Lasher / whipped)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What initial challenge or mystery sets the story of \"The Third Kalandar's Tale\" into motion?"
+      "type": "ஞாபகப்படுத்துதல் (Remembering)",
+      "question": "மூன்றாம் துறவியின் பெயர் என்ன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+      "type": "புரிதல் (Understanding)",
+      "question": "முப்பத்தொன்பது அறைகளில் இல்லாத எதனைத் தேடி அவன் நாற்பதாவது கதவைத் திறந்தான்? மனிதனின் மனோதத்துவம் இதில் எவ்வாறு வெளிப்படுகிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+      "type": "பயன்பாடு (Applying)",
+      "question": "'விலக்கப்பட்ட கனி'யைத் தேடும் எல்லை மீறிய ஆர்வமும், விதிகளுக்குக் கட்டுப்படாத போக்கும் நம்மை எத்தகைய விபத்துகளில் தள்ளும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+      "type": "மதிப்பீடு (Evaluating)",
+      "question": "காந்த மலை மற்றும் நாற்பதாவது கதவு உருவகங்களின் வழியே அரேபிய இலக்கியம் மனித பலவீனத்தைச் சித்திரிக்கும் நேர்த்தியை விளக்குக."
     }
   ],
   "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",

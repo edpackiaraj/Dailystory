@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-120-the-pen-and-inkstand-variant",
   "slug": "hans-christian-andersen-120-the-pen-and-inkstand-variant",
   "language": "ta",
-  "title": "The Pen and Inkstand (The Song of the Spirit)",
+  "title": "எழுதுகோலும் மைக்கூடும் ஆன்மாவின் கானமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Disputing over who was the true creator of masterworks, the steel pen and the china inkstand argued in the moonlight....",
+  "summary": "நிலவொளியில் மேசையின் மீது அமர்ந்து 'மாபெரும் கவிதைகளைப் படைத்தது நான்தான்' என்று எஃகுப் பேனாவும் மைக்கூடும் வாதிட்ட போது, உண்மையான கவிதை என்பது கருவிகளில் இல்லை, கவிஞனின் ஆன்ம மூச்சிலேயே பிறக்கிறது என்றுணர்த்திய அங்கதக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the pen and inkstand variant",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived Disputing over who was the true creator of masterworks, the steel pen and the china inkstand argued in the moonlight..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the quill and the ink are mere clay; the breath of the poet is what gives the poem life.",
-  "moral": "The quill and the ink are mere clay; the breath of the poet is what gives the poem life.",
+  "full_text": "கவிஞனின் எழுத்து மேசையின் மீது, நிலவொளி பரவிய நள்ளிரவு வேளையில், எஃகுப் பேனாவும் பீங்கான் மைக்கூடும் தங்களுக்குள் காரசாரமாக விவாதித்துக் கொண்டிருந்தன.\n    \nமைக்கூடு கர்வத்தோடு கூறியது: \"என் கருப்பு மையிலிருந்துதான் அந்தப் பேரழகு காவிய வரிகள் பிறக்கின்றன! மனிதர்களின் கண்களில் கண்ணீரையும் சிரிப்பையும் வரவழைக்கும் மகா சக்தி என்னிடமே உள்ளது!\" என்றது.\n    \nஎஃகுப் பேனா உடனே சீறியது: \"முட்டாள் மைக்கூடோ! நீ வெறும் திரவம் மட்டுமே! என் கூரிய நுனி இல்லாவிட்டால் ஒரு எழுத்துக்கூட உருவாகாது! அந்த அமர கவிதைகளை உருவாக்கிய பெருமை எனக்கே உரியது!\" என்று சண்டையிட்டது.\n    \nஅப்போது கவிஞர் தன் படுக்கையை விட்டு எழுந்து மேசைக்கு வந்தார். அவர் இயற்கையின் பேரமைதியைத் தன் நெஞ்சில் உணர்ந்து, பேனாவை மையில் தொட்டு ஒரு புதிய கவிதையை வடித்தார்.\n    \nஅவர் எழுதினார்: \"மண்ணும் நீரும் வெறும் வடிவங்களே; ஆனால் அவற்றுக்குள் உயிரூட்டுவது கடவுளின் பரிசுத்த மூச்சே! பேனாவும் மையும் கருவிகளே; கவிஞனின் நெஞ்சில் துடிக்கும் ஆன்ம தாகமே கவிதையின் ஜீவநாடி!\" என்று எழுதினார்.\n    \nகவிஞர் விளக்கை அணைத்துச் சென்றார்.\n    \nஅவர் எழுதிய வரிகளைப் படித்த பேனாவும் மைக்கூடும் தங்களின் அறியாமையை உணர்ந்து தலைகுனிந்தன; தங்களின் போலித் தற்பெருமையை விடுத்து அடக்கத்தைக் கற்றுக்கொண்டன.",
+  "moral": "கருவிகள் வெறும் மண்பாண்டங்களைப் போன்றவை; மனித ஆன்மாவின் தெய்வீக மூச்சும் இறைவனின் அருளுமே கலையை உயிர்ப்பிக்கிறது.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Pen and Inkstand variant illustration from the Hans Christian Andersen collection.",
   "word_count": 221,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Pen and Inkstand variant\"?",
+      "question": "எஃகுப் பேனாவும் மைக்கூடும் தங்களுக்குள் எதனைப் பற்றிச் சண்டையிட்டுக் கொண்டன?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "கவிதைகளைப் படைத்த உண்மையான பெருமை யாருக்கு உரியது என்று சண்டையிட்டன",
+        "அவற்றின் விலையைப் பற்றிப் பேசின",
+        "காகிதத்தைப் பற்றிக் குறை கூறின",
+        "விளக்கைப் பற்றி விவாதித்தன"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "கவிதைகளைப் படைத்த உண்மையான பெருமை யாருக்கு உரியது என்று சண்டையிட்டன",
+      "hint": "படைப்பின் பெருமை குறித்த போட்டியை நினையுங்கள்.",
+      "explanation": "மைக்கூடு மையம் தான் காரணம் என்றது; பேனாவோ தன் கூரிய நுனியே கவிதைக்குக் காரணம் என்று வாதிட்டது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கவிஞர் எழுதிய கவிதையில் கலையின் உண்மையான ஜீவநாடி எது என்று விளக்கினார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "கருவிகள் வெறும் சாதனங்களே, கவிஞனின் ஆன்ம தாகமே கவிதையின் உண்மையான ஜீவநாடி என்றார்",
+        "மை மட்டுமே முக்கியம் என்றார்",
+        "பேனா மட்டுமே முக்கியம் என்றார்",
+        "காகிதமே முக்கியம் என்றார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "கருவிகள் வெறும் சாதனங்களே, கவிஞனின் ஆன்ம தாகமே கவிதையின் உண்மையான ஜீவநாடி என்றார்",
+      "hint": "ஆன்மாவின் உயிர்ப்பைப் பற்றி நினையுங்கள்.",
+      "explanation": "கவிஞர் சாதனங்களை விடப் படைப்பாளியின் ஆன்ம உணர்வே கலைக்கு உயிர் தருகிறது என்று விளக்கினார்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் நையாண்டி அறநெறி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "படைப்பின் கருவிகள் அகந்தை கொள்ளலாகாது; கலைக்கு உயிர் தருவது ஆன்மாவின் உள்ளுணர்வே",
+        "மைக்கூடுகளைப் பயன்படுத்தக் கூடாது",
+        "எஃகுப் பேனாக்களால் எழுதக் கூடாது",
+        "இரவில் கவிதை எழுதக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "படைப்பின் கருவிகள் அகந்தை கொள்ளலாகாது; கலைக்கு உயிர் தருவது ஆன்மாவின் உள்ளுணர்வே",
+      "hint": "கருவிகளின் போலி கர்வத்தை நினையுங்கள்.",
+      "explanation": "ஆன்டர்சன் கருவிகளை வைத்து அகந்தை கொள்ளும் மனிதர்களின் அறியாமையைக் கவித்துவமாக நையாண்டி செய்தார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பீங்கான்",
+      "meaning": "வெள்ளை நிறக் களிமண்ணால் செய்யப்பட்டு வழவழப்பாக எரிக்கப்பட்ட பீங்கான் பாண்டம்",
+      "gloss": "china, porcelain"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "காரசாரமாக",
+      "meaning": "மிகவும் தீவிரமாகவும் காரமான வாதப் பிரதிவாதங்களோடும்",
+      "gloss": "heatedly, fiercely"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "அமர",
+      "meaning": "மரணமில்லாமல் காலத்தைக் கடந்து நிலைத்து நிற்கும் அழியாத",
+      "gloss": "immortal, eternal"
+    },
+    {
+      "word": "ஜீவநாடி",
+      "meaning": "ஒரு படைப்புக்கு அல்லது உயிரினத்திற்கு உயிர் தரும் முதன்மையான ஆதார மையம்",
+      "gloss": "lifeblood, vital pulse"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Pen and Inkstand variant\"?"
+      "tier": "remembering",
+      "prompt": "கவிஞரின் மேசையில் காரசாரமாக விவாதித்த இரு பொருட்கள் எவை?",
+      "type": "remembering",
+      "question": "கவிஞரின் மேசையில் காரசாரமாக விவாதித்த இரு பொருட்கள் எவை?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "கவிஞர் எழுதிய வரிகளைப் படித்ததும் பேனாவும் மைக்கூடும் அமைதியானதன் காரணத்தை விளக்குக.",
+      "type": "understanding",
+      "question": "கவிஞர் எழுதிய வரிகளைப் படித்ததும் பேனாவும் மைக்கூடும் அமைதியானதன் காரணத்தை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது அன்றாடப் பணிகளில் நாம் பயன்படுத்தும் நவீன சாதனங்களின் மீது கர்வம் கொள்ளாமல் நமது உள்ளுணர்வை எவ்வாறு வளர்க்க வேண்டும்?",
+      "type": "applying",
+      "question": "நமது அன்றாடப் பணிகளில் நாம் பயன்படுத்தும் நவீன சாதனங்களின் மீது கர்வம் கொள்ளாமல் நமது உள்ளுணர்வை எவ்வாறு வளர்க்க வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "பௌதிக எழுது பொருட்களின் பங்களிப்பிற்கும், கவிஞனின் மன உணர்வுகளுக்கும் உள்ள படைப்புத் தொடர்பை ஆராய்க.",
+      "type": "analyzing",
+      "question": "பௌதிக எழுது பொருட்களின் பங்களிப்பிற்கும், கவிஞனின் மன உணர்வுகளுக்கும் உள்ள படைப்புத் தொடர்பை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'கருவிகள் மாறலாம், ஆனால் மனித இதயத்தின் கவித்துவத் தாகமே கலையை என்றும் வாழ வைக்கிறது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'கருவிகள் மாறலாம், ஆனால் மனித இதயத்தின் கவித்துவத் தாகமே கலையை என்றும் வாழ வைக்கிறது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "அடக்கத்தைக் கற்றுக்கொண்ட பேனாவும் மைக்கூடும் இணைந்து கவிஞருக்கு நன்றி கூறி இயற்றிய ஒரு சிறிய பாடலை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "அடக்கத்தைக் கற்றுக்கொண்ட பேனாவும் மைக்கூடும் இணைந்து கவிஞருக்கு நன்றி கூறி இயற்றிய ஒரு சிறிய பாடலை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

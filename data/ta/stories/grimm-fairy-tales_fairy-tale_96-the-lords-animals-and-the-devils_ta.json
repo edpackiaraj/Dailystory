@@ -2,12 +2,12 @@
   "id": "grimm-fairy-tales-96-the-lords-animals-and-the-devils",
   "slug": "grimm-fairy-tales-96-the-lords-animals-and-the-devils",
   "language": "ta",
-  "title": "The Lord's Animals and the Devil's",
+  "title": "இறைவனின் படைப்புகளும் பிசாசின் படைப்புகளும்",
   "genre": "Fairy Tales",
   "collection": "Grimm Fairy Tales",
   "culture_region": "German Folklore / European",
   "age_group": "Below 13",
-  "summary": "While the Lord created gentle sheep, fruitful cattle, and singing birds, the envious devil created wild wolves and stubborn goats....",
+  "summary": "இறைவன் மனித குலத்திற்கு உதவும் ஆடுகளையும் மாடுகளையும் படைக்க, பொறாமை கொண்ட பிசாசு ஓநாய்களையும் ஆடுகளையும் படைத்து இறுதியில் தன் அறியாமையால் தானே ஏமாந்துபோன வரலாறு.",
   "keywords": [
     "grimm fairy tales",
     "the lord's animals and the devil's",
@@ -22,8 +22,8 @@
     "wisdom",
     "bedtime-story"
   ],
-  "full_text": "Long ago, where the shadowy pine woods met the rolling green meadows of an ancient German realm, there was While the Lord created gentle sheep, fruitful cattle, and singing birds, the envious devil created wild wolves and stubborn goats..... The humble folk of the valley went about their daily toil, guided by the ancient proverbs of their ancestors and keeping their hearth fires burning bright through the frosty winter nights. Yet even in the quietest cottages, fate had woven a path that would soon reveal whether honest hearts could withstand the trials of the world.\n\nAs the morning mist lifted from the valley, the full nature of the trial unfolded. As the days passed, a mysterious challenge arrived that tested the courage and fidelity of everyone involved. With whispered words, solemn vows, and careful preparation, each character played their part upon the stage of fortune. Whether facing enchanted creatures, greedy oppressors, or impossible tasks, the atmosphere was thick with wonder and rising suspense.\n\nWhen the crucial moment arrived, neither deceit nor cruelty could hold back the rightful turning of the wheel. Through patient endurance and resourceful wits, the hidden truth began to shine through the darkness.  The ancient magic dissolved, the false pretenders were exposed before the eyes of the realm, and the humble were raised to honor. Leaving behind a joyful celebration of life and peace, the tale lived on in the hearthside memories of every family, proving that creation reflects divine purpose; malice produces only stubborn goats.",
-  "moral": "Creation reflects divine purpose; malice produces only stubborn goats.",
+  "full_text": "முற்காலத்தில் உலகத்தை இறைவன் சிருஷ்டித்த போது, மனிதர்களுக்கு பால் தரும் பசுக்களையும், மென்மையான ரோமங்களைத் தரும் ஆடுகளையும், இனிமையாகப் பாடும் பறவைகளையும் அன்போடு படைத்தார். அவை உலகெங்கும் அமைதியையும் மனிதர்களுக்கு நல்வாழ்வையும் அளித்தன.\n\nஇதைக் கண்டு பொறாமை கொண்ட பிசாசு, தானும் படைக்க முடியும் என்று அகந்தை கொண்டது. ஆனால் அதனிடம் அன்பு இல்லாததால், அது மூர்க்கமான காட்டு ஓநாய்களையும், முரட்டுத்தனமான வெள்ளாடுகளையும் படைத்தது. அந்த வெள்ளாடுகள் மரங்களின் பட்டைகளை உரித்து, வயல்களை நாசமாக்கின.\n\nபிசாசு அந்த வெள்ளாடுகளுக்கு நீண்ட வால்களை வைத்திருந்தது. அவை முட்புதர்களில் சிக்கி அவதிப்பட்டதைக் கண்டு சினமடைந்த பிசாசு, அவற்றின் வால்களைக் கடித்துத் துண்டித்தது; அதனால்தான் இன்று வரை ஆடுகளுக்குக் குட்டை வால் மட்டுமே எஞ்சியுள்ளது.\n\nபின்னர் பிசாசு இறைவனிடம் சென்று, \"நான் படைத்த வெள்ளாடுகளையும் உன் பசுக்களோடு மேய்க்க அனுமதிப்பாயா?\" என்று வாதாடியது. இறைவன் புன்னகைத்து, \"என் ஆடுகளும் மாடுகளும் பசுமையான புல்வெளிகளில் மேயும்; உன் வெள்ளாடுகள் பாறைகளிலும் முட்களிலும் ஏறி மேயட்டும்\" என்று அருளினார். வெள்ளாடுகள் பாறைகளில் ஏறித் தன் பசியைத் தீர்த்துக்கொண்டன; ஓநாய்கள் காட்டின் எல்லைக்குள்ளேயே ஒடுங்கின. தீமையின் எல்லை இறைவனின் ஞானத்தால் கட்டுப்படுத்தப்பட்டு உலகத்தில் சமநிலை நிலவியது.",
+  "moral": "தீய நோக்கத்தோடு செய்யப்படும் எந்த ஒரு காரியமும் நன்மையை அழிக்க முடியாது; மாறாக அது தன் சொந்த அநீதியாலேயே எல்லைப்படுத்தப்படும்.",
   "image": "/images/stories/cinderella.webp",
   "image_alt": "The Lord's Animals and the Devil's illustration from the Grimm Fairy Tales collection.",
   "word_count": 249,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Lord's Animals and the Devil's\"?",
+      "question": "பிசாசு படைத்த வெள்ளாடுகளின் வால் ஏன் குட்டையாக மாறியது என்று கதை கூறுகிறது?",
       "options": [
-        "Presence of mind and quiet wisdom triumph over brute strength.",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "முட்புதரில் சிக்கியதால் கோபமடைந்த பிசாசு அவற்றின் வாலைக் கடித்துத் துண்டித்ததால்",
+        "வேடன் வெட்டியதால்",
+        "பிறவியிலேயே அவ்வாறு பிறந்ததால்",
+        "பாறையில் இடிபட்டதால்"
       ],
+      "answer": "முட்புதரில் சிக்கியதால் கோபமடைந்த பிசாசு அவற்றின் வாலைக் கடித்துத் துண்டித்ததால்",
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "முட்களில் சிக்கிய ஆட்டின் வாலை பிசாசு கடித்த நாட்டுப்புறக் கற்பனை.",
+      "explanation": "நீண்ட வால்கள் முட்களில் சிக்கியதால் ஆத்திரமடைந்த பிசாசு அவற்றைக் கடித்துத் துண்டித்ததால் குட்டை வால் உருவானது என்று நாட்டுப்புறக் கதை கூறுகிறது."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "இறைவன் பிசாசின் வெள்ளாடுகளுக்கு அளித்த மேய்ச்சல் நிலம் எது?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "செங்குத்துப் பாறைகளும் முட்புதர்களும்",
+        "அரண்மனைத் தோட்டம்",
+        "பசுமையான புல்வெளி",
+        "ஆற்றுப்படுகை"
       ],
+      "answer": "செங்குத்துப் பாறைகளும் முட்புதர்களும்",
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "பாறைகளின் மீது தாவி மேயும் கடினமான இடம்.",
+      "explanation": "பசுக்கள் புல்வெளிகளில் மேயும்போது வெள்ளாடுகள் பாறைகளிலும் முட்களிலும் ஏறி மேயுமாறு இறைவன் அமைத்தார்."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "இக்கதையின் ஆழ்ந்த தத்துவப் பார்வை என்ன?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "இயற்கையின் அனைத்துப் படைப்புகளிலும் உள்ள முரண்களை இறை ஞானம் சமநிலையில் ஆள்கிறது",
+        "வெள்ளாடுகளை வளர்க்கக் கூடாது",
+        "ஓநாய்கள் எப்போதுமே ஆடுகளைக் கொல்லும்",
+        "புல்வெளிகள் மனிதர்களுக்கு மட்டுமே உரியது"
       ],
+      "answer": "இயற்கையின் அனைத்துப் படைப்புகளிலும் உள்ள முரண்களை இறை ஞானம் சமநிலையில் ஆள்கிறது",
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "தீய நோக்கங்கள் இருந்தாலும் உலகத்தில் இயற்கைச் சமநிலை எவ்வாறு பாதுகாக்கப்படுகிறது என்பதை நினையுங்கள்.",
+      "explanation": "தீமையின் அழிவு சக்திகளையும் தாண்டி தெய்வீக ஞானம் பிரபஞ்சத்தின் ஒழுங்கையும் சமநிலையையும் நிலைநிறுத்துகிறது."
     }
   ],
   "author": "Jacob & Wilhelm Grimm (1812–1857)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "சிருஷ்டித்த",
+      "meaning": "படைத்த / உருவாக்கிய",
+      "gloss": "created"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "மூர்க்கமான",
+      "meaning": "கட்டுக்கடங்காத கொடூரமான",
+      "gloss": "ferocious / savage"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "அவதிப்பட்டதைக்",
+      "meaning": "துன்பப்பட்டதை / கஷ்டப்பட்டதை",
+      "gloss": "suffering / undergoing misery"
+    },
+    {
+      "word": "சமநிலை",
+      "meaning": "சமமான சமநிலை ஒழுங்கு",
+      "gloss": "balance / equilibrium"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Lord's Animals and the Devil's\"?"
+      "tier": "Remembering",
+      "prompt": "இறைவன் மனிதர்களுக்காக அன்போடு படைத்த மூன்று பிராணிகள் யாவை?",
+      "type": "Remembering",
+      "question": "இறைவன் மனிதர்களுக்காக அன்போடு படைத்த மூன்று பிராணிகள் யாவை?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Presence of mind and quiet wisdom triumph over brute strength.\"?"
+      "tier": "Understanding",
+      "prompt": "பிசாசின் படைப்புகளுக்கு அன்பு இல்லாததால் அவை மனிதர்களுக்கு எத்தகைய தொல்லைகளை உண்டாக்கின?",
+      "type": "Understanding",
+      "question": "பிசாசின் படைப்புகளுக்கு அன்பு இல்லாததால் அவை மனிதர்களுக்கு எத்தகைய தொல்லைகளை உண்டாக்கின?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "Applying",
+      "prompt": "சமூகத்தில் தீய சக்திகளையோ அல்லது இடையூறுகளையோ நேருக்கு நேர் எதிர்க்கும்போது விவேகத்தோடு வரம்புகளை நிர்ணயிப்பது எவ்வாறு உதவும்?",
+      "type": "Applying",
+      "question": "சமூகத்தில் தீய சக்திகளையோ அல்லது இடையூறுகளையோ நேருக்கு நேர் எதிர்க்கும்போது விவேகத்தோடு வரம்புகளை நிர்ணயிப்பது எவ்வாறு உதவும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "tier": "Analyzing",
+      "prompt": "விலங்குகளின் உடலமைப்புப் பண்புகளை (Etiological tale) விளக்கும் நாட்டுப்புற உத்திகள் எத்தகைய இலக்கிய நயத்தைத் தருகின்றன?",
+      "type": "Analyzing",
+      "question": "விலங்குகளின் உடலமைப்புப் பண்புகளை (Etiological tale) விளக்கும் நாட்டுப்புற உத்திகள் எத்தகைய இலக்கிய நயத்தைத் தருகின்றன?"
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "Evaluating",
+      "prompt": "இயற்கையின் சமநிலைக்குக் கொடிய விலங்குகளும் கூட அவசியமே என்ற அறிவியல் உண்மையை இக்கதை எவ்விதம் தொட்டுச் செல்கிறது?",
+      "type": "Evaluating",
+      "question": "இயற்கையின் சமநிலைக்குக் கொடிய விலங்குகளும் கூட அவசியமே என்ற அறிவியல் உண்மையை இக்கதை எவ்விதம் தொட்டுச் செல்கிறது?"
+    },
+    {
+      "tier": "Creating",
+      "prompt": "இறைவன் பிசாசின் ஓநாய்களை மனிதர்களைக் காக்கும் காவல் நாய்களாக மாற்றியதாக ஒரு மாற்றுத் தொடர்ச்சியை வரைக.",
+      "type": "Creating",
+      "question": "இறைவன் பிசாசின் ஓநாய்களை மனிதர்களைக் காக்கும் காவல் நாய்களாக மாற்றியதாக ஒரு மாற்றுத் தொடர்ச்சியை வரைக."
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

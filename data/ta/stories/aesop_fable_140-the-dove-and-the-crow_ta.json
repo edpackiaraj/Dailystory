@@ -2,74 +2,80 @@
   "id": "aesops-fables-140-the-dove-and-the-crow",
   "slug": "aesops-fables-140-the-dove-and-the-crow",
   "language": "ta",
-  "title": "The Dove and the Crow",
+  "title": "கூண்டுப் புறாவும் காகமும் - அடிமைச் சிறையில் குஞ்சு பொரிப்பதன் வேதனை",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A dove in a cage boasted of hatching many broods. A crow remarked: \"Why do you boast, foolish mother? The more children you hatch, the more slaves you produce for your master!\"...",
+  "summary": "தங்கக் கூண்டில் சுகபோகமாக வாழ்ந்த வெண்புறா ஒன்று, தான் ஒரே பருவத்தில் பல குஞ்சுகளைப் பொரித்ததாகக் காட்டில் வாழும் காகத்திடம் பெருமை பேசியது. ஆனால் காகமோ, 'அடிமைச் சிறையிலே அதிகக் குஞ்சுகளைப் பொரிப்பது எஜமானனுக்கு அதிக அடிமைகளை உருவாக்குமே தவிர அதில் பெருமைப்படுவதற்கு ஒன்றுமில்லை' என்று எதார்த்தத்தை உணர்த்தியது.",
   "keywords": [
     "aesop's fables",
     "the dove and the crow",
     "moral stories for children",
-    "timeless folktales worldwide",
+    "world folktales and fables",
     "aesops-fables"
   ],
   "tags": [
     "aesops-fables",
     "folktale",
     "values",
-    "bedtime-story",
-    "wisdom"
+    "wisdom",
+    "bedtime-story"
   ],
-  "full_text": "Inside the ornate courtyard of a wealthy merchant's villa, a pampered white dove lived inside an elaborate gilded wicker cage. Every morning, the master’s servants brought her fresh millet, clean spring water, and soft cotton for her nest, ensuring she was shielded from the cold winds and predators of the open world.\n\nProud of her quiet shelter, the dove sat beside her nest and began boasting loudly to the wild birds gathered on the courtyard eaves: \"Look upon my fruitful nest! I have hatched four fine broods of fledglings this season alone, more than any wild bird in the entire district! Is there any mother under heaven more blessed and productive than I?\"\n\nA ragged wild crow, perched on the tiled roof of the stable, looked down through the wire bars with a gaze of sorrowful pity. \"Why do you boast, foolish captive?\" croaked the crow. \"Every chick you bring forth into that cage will never know the freedom of soaring over mountain valleys or wheeling through the open sky. The more fledglings you hatch within your gilded bars, the more captives you provide to serve your master's amusement. To multiply children into servitude is no honor; true blessing lies in freedom, not in the abundance of one's chains.\"",
-  "moral": "Multiplying children in captivity only multiplies the parent’s sorrow.",
+  "full_text": "செல்வந்தர் ஒருவரின் மாளிகை முற்றத்தில் அழகிய தங்க முலாம் பூசப்பட்ட கம்பிகளாலான பெரிய கூண்டில் வெண்புறா ஒன்று வளர்க்கப்பட்டு வந்தது. அதற்குத் தினமும் உயர்தரத் தானியங்களும், சுத்தமான நீரும், குளிரில் கதகதப்பாக இருக்க மென்மையான பஞ்சும் வேலையாட்களால் வழங்கப்பட்டன.\n\nவெளியுலகப் போராட்டங்களோ, புயலோ, பருந்துகளின் அச்சமோ இல்லாமல் வாழ்ந்த அந்தப் புறா, கூண்டிற்குள்ளேயே கூடு கட்டி முட்டையிட்டு ஒரே பருவத்தில் நான்கு முறை குஞ்சுகளைப் பொரித்து வளர்த்தது.\n\nதன் குஞ்சுகளின் எண்ணிக்கையைக் கண்டு பெருமை கொண்ட அந்தப் புறா, கூரையின் மீது வந்து அமர்ந்த கரிய காட்டுக்காகத்தைப் பார்த்து ஆணவத்தோடு பேசியது:\n\n\"காகமே! உன்னைப் பார்; காடுகளில் அலைந்து திரிந்து பாழ்பட்டுப் போகிறாய்! ஆனால் என் கூட்டைப் பார்! ஒரே பருவத்தில் நான் நான்கு முறை அழகிய குஞ்சுகளைப் பொரித்துவிட்டேன்! இந்தக் காட்டில் என்னை விட இவ்வளவு பாக்கியசாலியான, அதிகக் குழந்தைகளைப் பெற்ற தாய் வேறு யாராவது உண்டா?\" என்று எக்காளமிட்டது.\n\nகூரையின் மீது அமர்ந்திருந்த காகம் பரிதாபத்துடன் கூண்டிற்குள் இருந்த புறாவை உற்றுப் பார்த்து அமைதியாகக் கூறியது:\n\n\"அறியாமை பிடித்த புறாவே! நீ எதற்காக இவ்வளவு பெருமை பேசுகிறாய்? நீ பொரித்தெடுத்த ஒவ்வொரு குஞ்சும் உன்னைப் போலவே இந்தக் கூண்டின் கம்பிகளுக்குள்ளேயே முடங்கிக் கிடக்கும் அடிமைகளாகத்தான் வாழப்போகின்றன! வானத்தில் சுதந்திரமாகச் சிறகடித்துப் பறக்கும் பேரின்பத்தை அவை ஒருபோதும் அனுபவிக்கப் போவதில்லை!\n\nஅடிமைச் சிறையில் அதிகக் குழந்தைகளைப் பெற்றெடுப்பது உன் எஜமானனின் பொழுதுபோக்கிற்கு அதிக அடிமைகளை உருவாக்கிக் கொடுப்பதாகும்! சிறையிலே எண்ணிக்கையைப் பெருக்குவது பெருமை அல்ல; அது தாய்மையின் துயரத்தை அதிகரிக்கும் சாபமே ஆகும்! உண்மையான பாக்கியம் சுதந்திரத்தில்தான் இருக்கிறது, விலங்குகளின் எண்ணிக்கையில் இல்லை!\" என்று கூறியது.\n\nகாகத்தின் வார்த்தைகளைக் கேட்ட புறா வெட்கித் தலைகுனிந்து, தன் அடிமை நிலையை எண்ணிக் கண்ணீர் சிந்தியது.",
+  "moral": "சுதந்திரமற்ற சிறை வாழ்வில் எண்ணிக்கையைப் பெருக்குவது அடிமைத்தனத்தின் துயரத்தை அதிகரிக்குமே தவிர, அது மேன்மையான ஆசீர்வாதம் ஆகாது.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Dove and the Crow illustration from the Aesop's Fables collection.",
-  "word_count": 209,
-  "reading_time": "2 min",
+  "word_count": 186,
+  "reading_time": 2,
   "listen_time": "2 min",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Dove and the Crow\"?",
+      "question": "கூண்டுப் புறா காகத்தைப் பார்த்து எதற்காகத் தற்பெருமை பேசியது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "தான் தங்கக் கூண்டிற்குள் ஒரே பருவத்தில் பல குஞ்சுகளைப் பொரித்ததாகக் கூறி",
+        "தன் சிறகுகள் வெள்ளையாக இருக்கிறது என்று கூறி",
+        "தன்னால் வேகமாகப் பறக்க முடியும் என்று கூறி",
+        "காகத்திற்குக் குரல் இனிமையாக இல்லை என்று கூறி"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "தான் தங்கக் கூண்டிற்குள் ஒரே பருவத்தில் பல குஞ்சுகளைப் பொரித்ததாகக் கூறி",
+      "hint": "குஞ்சுகளின் எண்ணிக்கையைப் பற்றிப் புறா பெருமை பேசியது.",
+      "explanation": "கூண்டில் இருந்த புறா தான் பல குஞ்சுகளைப் பொரித்த பாக்கியசாலி என்று காகத்திடம் தற்பெருமை பேசியது.",
+      "answerIndex": 0
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "புறாவின் பெருமைக்குக் காகம் என்ன ஆழமான உண்மையை எடுத்துரைத்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அடிமைச் சிறையில் குஞ்சுகளைப் பெருக்குவது எஜமானனுக்கு அதிக அடிமைகளை உருவாக்குவதே அன்றிப் பெருமை அல்ல என்றது",
+        "காகம் தானும் கூண்டிற்குள் வர விரும்புவதாகக் கூறியது",
+        "புறாவின் குஞ்சுகளைத் திருடிச் செல்வதாகக் கூறியது",
+        "புறாவுக்கு வாழ்த்துக்கள் கூறியது"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "அடிமைச் சிறையில் குஞ்சுகளைப் பெருக்குவது எஜமானனுக்கு அதிக அடிமைகளை உருவாக்குவதே அன்றிப் பெருமை அல்ல என்றது",
+      "hint": "சுதந்திரமற்ற சூழலில் சந்ததியைப் பெருக்குவதன் துயரத்தை உணர்த்தியது.",
+      "explanation": "சிறைக்குள் வாழும் பிள்ளைகள் எஜமானனுக்கு அடிமைகளாக மட்டுமே இருப்பார்கள் என்பதால் அது பெருமை அல்ல என்று காகம் கூறியது.",
+      "answerIndex": 0
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் உன்னதமான மையக்கருத்து யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "சுதந்திரமே உண்மையான பாக்கியம்; அடிமைச் சிறையில் செல்வமும் சந்ததிப் பெருக்கமும் துயரத்தையே அதிகரிக்கும்",
+        "காகங்கள் எப்போதுமே புறாக்களோடு பேசக் கூடாது",
+        "தங்கக் கூண்டுகள் தான் பறவைகளுக்கு மிகவும் பிடிக்கும்",
+        "புறாக்கள் எப்போதும் முட்டையிடக் கூடாது"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "சுதந்திரமே உண்மையான பாக்கியம்; அடிமைச் சிறையில் செல்வமும் சந்ததிப் பெருக்கமும் துயரத்தையே அதிகரிக்கும்",
+      "hint": "சுதந்திரத்தின் மேன்மையும் அடிமைத்தனத்தின் கொடுமையும்.",
+      "explanation": "சுதந்திரமற்ற சூழலில் எவ்வளவு ஆடம்பரம் இருந்தாலும், அது அடிமைத்தனத்தின் வலியை மாற்றாது.",
+      "answerIndex": 0
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
   "status": "published",
-  "content_notes": "Family-safe traditional adaptation from Aesop's Fables. (Localized for Tamil readers, safe for schools and family bedtime).",
+  "content_notes": "Family-safe traditional adaptation from the Aesop's Fables anthology.",
   "values": [
     "wisdom",
     "grief",
@@ -78,52 +84,76 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "முலாம்",
+      "meaning": "உலோகத்தின் மீது பளபளப்பிற்காகவும் அழகிற்காகவும் பூசப்படும் தங்க அல்லது வெள்ளிப் பூச்சு",
+      "gloss": "gilding, coating"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "எக்காளமிட்டது",
+      "meaning": "தற்பெருமையினாலும் ஆணவத்தினாலும் மற்றவர்களை ஏளனம் செய்து ஆரவாரித்தது",
+      "gloss": "exulted arrogantly, boasted"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "முடங்கிக்",
+      "meaning": "வெளியே செல்ல வழியின்றி ஒரு குறுகிய இடத்திற்குள்ளேயே சிறைபட்டுக் கிடந்து",
+      "gloss": "confined, cooped up"
+    },
+    {
+      "word": "பாக்கியம்",
+      "meaning": "வாழ்க்கையில் அடையக்கூடிய உன்னதமான பேறும் நல்வாழ்வும்",
+      "gloss": "blessing, true fortune"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Dove and the Crow\"?"
+      "tier": "remembering",
+      "prompt": "புறா எந்த வகையான கூண்டிற்குள் வளர்க்கப்பட்டு வந்தது?",
+      "type": "remembering",
+      "question": "புறா எந்த வகையான கூண்டிற்குள் வளர்க்கப்பட்டு வந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "சிறையிலே எண்ணிக்கையைப் பெருக்குவது ஏன் பெருமை அல்ல என்று காகம் வாதிட்டது?",
+      "type": "understanding",
+      "question": "சிறையிலே எண்ணிக்கையைப் பெருக்குவது ஏன் பெருமை அல்ல என்று காகம் வாதிட்டது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "மனித வரலாற்றில் அடிமை முறையின் போது மக்கள் பட்ட துயரங்களோடு இக்கதையின் தத்துவத்தை எவ்வாறு ஒப்பிடலாம்?",
+      "type": "applying",
+      "question": "மனித வரலாற்றில் அடிமை முறையின் போது மக்கள் பட்ட துயரங்களோடு இக்கதையின் தத்துவத்தை எவ்வாறு ஒப்பிடலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "பொன் கூண்டின் போலிப் பாதுகாப்பிற்கும் (gilded cage security), திறந்தவெளியின் ஆபத்து நிறைந்த சுதந்திரத்திற்கும் (free wild life) உள்ள முரண்பாடுகளைப் பகுப்பாய்வு செய்க.",
+      "type": "analyzing",
+      "question": "பொன் கூண்டின் போலிப் பாதுகாப்பிற்கும் (gilded cage security), திறந்தவெளியின் ஆபத்து நிறைந்த சுதந்திரத்திற்கும் (free wild life) உள்ள முரண்பாடுகளைப் பகுப்பாய்வு செய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "காகத்தின் கடுமையான ஆனால் எதார்த்தமான பார்வையை நீங்கள் எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "காகத்தின் கடுமையான ஆனால் எதார்த்தமான பார்வையை நீங்கள் எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "புறா ஒரு நாள் கூண்டின் கதவு திறந்திருக்கும் போது தன் குஞ்சுகளோடு வானில் பறந்து சுதந்திரம் அடையும் ஒரு காட்சியை உருவாக்குக.",
+      "type": "creating",
+      "question": "புறா ஒரு நாள் கூண்டின் கதவு திறந்திருக்கும் போது தன் குஞ்சுகளோடு வானில் பறந்து சுதந்திரம் அடையும் ஒரு காட்சியை உருவாக்குக."
     }
   ],
-  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
-  "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
+  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
   "mood": [
     "calm",
     "curious",
     "brave"
   ],
-  "teaser": "Tomorrow, explore another heartwarming classic in our worldwide story treasury.",
+  "teaser": "Tomorrow, explore another timeless classic from our worldwide story library.",
   "series_id": null,
   "part_number": "Perry 140",
   "reviewed": true,
   "source": "Aesop - Public Domain",
   "license": "Public Domain",
-  "credit": "Aesop's Fables Heritage Anthology"
+  "credit": "Aesop's Fables Global Treasury"
 }

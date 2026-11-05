@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Guru's Beard and Belly\"?",
+      "question": "குருவின் நீண்ட தாடியும் பெருத்த தொப்பையும் சீடர்களுக்கு என்ன பெரிய பிரச்சனையாகத் தோன்றியது?",
       "options": [
-        "Foolishness of book knowledge without worldly wisdom",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "குரு குனிந்து அமரும் போதும் நடக்கும் போதும் தாடி தரையில் பட்டு அழுக்காவதாக எண்ணினர்",
+        "குருவின் தாடிக்குள் கிளிகள் கூடு கட்டின",
+        "குருவுக்குத் தாடி வளர்க்கப் பிடிக்கவில்லை",
+        "அரசன் குருவின் தாடியை வெட்ட உத்தரவிட்டான்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "சீடர்களின் விநோதமான கவலையை நினைவுகூருங்கள்.",
+      "answer": "குரு குனிந்து அமரும் போதும் நடக்கும் போதும் தாடி தரையில் பட்டு அழுக்காவதாக எண்ணினர்",
+      "explanation": "சீடர்களின் விநோதமான கவலையை நினைவுகூருங்கள்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "குருவின் தாடியைச் சுத்தமாக வைத்திருக்க சீடர்கள் செய்த முட்டாள்தனமான யோசனை என்ன?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "கத்தரிக்கோலைத் தொடாமல் நெருப்பைக் கொண்டு தாடியைச் சுருக்க முயன்றனர்",
+        "தாடியைத் தங்க இழைகளால் கட்டினர்",
+        "குருவைத் தலைகீழாகத் தொங்கவிட்டனர்",
+        "தாடியை ஆற்று நீரில் தினமும் கழுவினர்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "சீடர்களின் விபரீதமான நெருப்பு யோசனையை யோசியுங்கள்.",
+      "answer": "கத்தரிக்கோலைத் தொடாமல் நெருப்பைக் கொண்டு தாடியைச் சுருக்க முயன்றனர்",
+      "explanation": "சீடர்களின் விபரீதமான நெருப்பு யோசனையை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "இக்கதை மனிதர்களுக்கு உணர்த்தும் வாழ்வியல் நகைச்சுவை நீதி எது?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "அறிவுக்கூர்மை இல்லாதவர்களின் உதவி நன்மையை விடப் பெரும் விபரீதத்தையே உண்டாக்கும்",
+        "தாடி வளர்ப்பது எப்போதுமே ஆபத்தானது",
+        "சீடர்கள் இல்லாத குருவே மேலானவர்",
+        "மருத்துவரிடம் மட்டுமே ஆலோசனை கேட்க வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "\"அறிவில்லாத நண்பனை விட அறிவார்ந்த எதிரி மேல்\" என்ற தத்துவத்தை நினைவுகூருங்கள்.",
+      "answer": "அறிவுக்கூர்மை இல்லாதவர்களின் உதவி நன்மையை விடப் பெரும் விபரீதத்தையே உண்டாக்கும்",
+      "explanation": "\"அறிவில்லாத நண்பனை விட அறிவார்ந்த எதிரி மேல்\" என்ற தத்துவத்தை நினைவுகூருங்கள்."
     }
   ],
   "author": "Veeramamunivar (Costanzo Beschi, 1728 / Tamil Folk Humor)",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "பெருத்த",
+      "meaning": "அளவுக்கு அதிகமாக உண்டு பருத்துப் போன பெரிய தொப்பை"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "தாடி",
+      "meaning": "முகத்தில் அடர்த்தியாக வளர்ந்த மயிர்க்கற்றை"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "பரமார்த்த",
+      "meaning": "பரமார்த்த என்ற சொல்லின் சூழல் பொருள் (Signifies பரமார்த்த in the context of the story)"
+    },
+    {
+      "word": "குருவுக்குத்",
+      "meaning": "குருவுக்குத் என்ற சொல்லின் சூழல் பொருள் (Signifies குருவுக்குத் in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Guru's Beard and Belly\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "சீடர்களின் செயலால் குருவின் முகத்திற்கு என்ன நேர்ந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Foolishness of book knowledge without worldly wisdom\"?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "நல்ல எண்ணத்தோடு செய்யப்படும் ஒரு செயல் அறிவின்மையால் எவ்வாறு தீங்காக மாறுகிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "பயன்பாடு",
+      "prompt": "பிறருக்கு உதவி செய்யும்போது சரியான முறையைத் தேர்ந்தெடுக்க வேண்டியதன் முக்கியத்துவம் என்ன?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "சிந்தனை",
+      "prompt": "முட்டாள்களின் துணையை விட தனிமையே சிறந்தது என்பது எதனால்?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

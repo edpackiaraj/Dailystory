@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Wedge-Pulling Monkey\"?",
+      "question": "கோவில் மண்டபம் கட்டும் தச்சர்கள் மதிய உணவிற்காகச் சென்றபோது மரக்கட்டையில் என்ன செய்திருந்தனர்?",
       "options": [
-        "Wisdom, patience, and kind conduct lead to peace and happiness.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "பாதி அறுக்கப்பட்ட மரக்கட்டை பிளவுபடாமல் இருக்க இடையில் ஓர் ஆப்பைச் செருகி வைத்திருந்தனர்",
+        "மரக்கட்டையைத் தங்கச் சங்கிலியால் பூட்டி வைத்திருந்தனர்",
+        "மரத்தின் மீது துணியைப் போர்த்தி மறைத்து வைத்திருந்தனர்",
+        "மரத்தைச் சுற்றிலும் பொறி அமைத்திருந்தனர்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "தச்சர்கள் மரக்கட்டையின் பிளவில் செருகிய பொருளை நினைவுகூருங்கள்.",
+      "answer": "பாதி அறுக்கப்பட்ட மரக்கட்டை பிளவுபடாமல் இருக்க இடையில் ஓர் ஆப்பைச் செருகி வைத்திருந்தனர்",
+      "explanation": "தச்சர்கள் மரக்கட்டையின் பிளவில் செருகிய பொருளை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "மரக்கூட்டத்தில் இருந்த குறும்புக்காரக் குரங்கு என்ன முட்டாள்தனமான செயலைச் செய்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "மரப்பிளவின் மீது அமர்ந்து கொண்டு, பலவந்தமாக அந்த மர ஆப்பைப் பிடுங்கி எறிந்தது",
+        "மரக்கட்டையைத் தூக்கிக்கொண்டு காட்டுக்குள் ஓடியது",
+        "தச்சர்களின் உணவைத் திருடித் தின்றது",
+        "மரத்தின் மீது ஏறி ஆனந்தமாகக் கூத்தாடியது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "குரங்கு தேவையின்றி ஆப்பை அசைத்த விபரீதத்தை யோசியுங்கள்.",
+      "answer": "மரப்பிளவின் மீது அமர்ந்து கொண்டு, பலவந்தமாக அந்த மர ஆப்பைப் பிடுங்கி எறிந்தது",
+      "explanation": "குரங்கு தேவையின்றி ஆப்பை அசைத்த விபரீதத்தை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "பஞ்சதந்திரக் கதையான இக்கதை மனிதர்களுக்கு விடுக்கும் மிக முக்கியமான எச்சரிக்கை எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "தனக்குத் தொடர்பும் அறிவும் இல்லாத பிறர் விஷயங்களில் வீணாகத் தலையிடுபவன் பேராபத்தில் முடிவான்",
+        "குரங்குகளுக்கு மர வேலைகளைக் கற்றுத்தர வேண்டும்",
+        "தச்சர்கள் எப்போதும் மர ஆப்புகளைப் பயன்படுத்தக் கூடாது",
+        "காட்டில் கோவில் கட்டக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "\"தன் வேலையைப் பார்க்காமல் அடுத்தவர் வேலையில் மூக்கை நுழைப்பவனுக்கு நேரும் கதியை\" எண்ணுங்கள்.",
+      "answer": "தனக்குத் தொடர்பும் அறிவும் இல்லாத பிறர் விஷயங்களில் வீணாகத் தலையிடுபவன் பேராபத்தில் முடிவான்",
+      "explanation": "\"தன் வேலையைப் பார்க்காமல் அடுத்தவர் வேலையில் மூக்கை நுழைப்பவனுக்கு நேரும் கதியை\" எண்ணுங்கள்."
     }
   ],
   "author": "Pandit Vishnu Sharma (~200 BCE – 300 CE)",
@@ -79,38 +85,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "ஆப்பு",
+      "meaning": "பிளந்த மரக்கட்டை மீண்டும் மூடிக்கொள்ளாமல் இருக்க இடையில் செருகப்படும் ஆப்பு வடிவ மரக்கட்டை"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "தச்சர்",
+      "meaning": "மர வேலைகளைச் செய்து பொருட்கள் உருவாக்கும் கைவினைஞர்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "காட்டின்",
+      "meaning": "காட்டின் என்ற சொல்லின் சூழல் பொருள் (Signifies காட்டின் in the context of the story)"
+    },
+    {
+      "word": "எல்லையில்",
+      "meaning": "எல்லையில் என்ற சொல்லின் சூழல் பொருள் (Signifies எல்லையில் in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Wedge-Pulling Monkey\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "குரங்கின் எந்த உடல் உறுப்பு மரப்பிளவுக்குள் சிக்கிக்கொண்டது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom, patience, and kind conduct lead to peace and happiness.\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "அனுபவமும் அறிவும் இல்லாத பணிகளில் நாம் ஏன் கண்மூடித்தனமாகத் தலையிடக்கூடாது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "மற்றவர்களின் சொந்த விவகாரங்களில் தேவையின்றித் தலையிடுவதைத் தவிர்ப்பது நம்மை எவ்வாறு பாதுகாக்கும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "விழிப்புணர்வும் தன்னுணர்வும் ஒரு மனிதனின் பாதுகாப்பிற்கு எவ்வாறு கவசமாக அமைகிறது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

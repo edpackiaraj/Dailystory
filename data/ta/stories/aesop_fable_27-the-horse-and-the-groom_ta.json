@@ -2,12 +2,12 @@
   "id": "aesops-fables-27-the-horse-and-the-groom",
   "slug": "aesops-fables-27-the-horse-and-the-groom",
   "language": "ta",
-  "title": "The Horse and the Groom",
+  "title": "குதிரையும் குதிரைப் பராமரிப்பாளனும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A wealthy merchant owned a magnificent chestnut stallion of Arabian blood, whose sleek form was the envy of all the neighborhood. The groom in charge of the stables spent hours eve...",
+  "summary": "குதிரையின் உடலை நாள் முழுவதும் தூய்மை செய்து மினுங்க வைத்த பராமரிப்பாளன், அதன் தீவன தானியங்களைத் திருடி விற்றதால், தன் எஜமானனின் போலி அன்பை உணர்த்திய குதிரையின் கதை.",
   "keywords": [
     "aesop's fables",
     "the horse and the groom",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A wealthy merchant owned a magnificent chestnut stallion of Arabian blood, whose sleek form was the envy of all the neighborhood. The groom in charge of the stables spent hours every day polishing the horse's coat with curry-combs, brushing his mane, braiding his tail with colorful ribbons, and oiling his hooves until they shone like jet.\n\nYet despite all this meticulous grooming, the poor stallion grew thinner and more haggard day by day; his ribs began to press against his skin, his eyes lost their bright fire, and his knees trembled whenever he was saddled.\n\nThe cause was simple: the dishonest groom was secretly stealing the horse's daily rations of oats and sweet barley, selling the grain at the market and pocketing the money, leaving the beast with only moldy chaff and stale straw.\n\nOne afternoon, as the groom was lovingly combing the horse's silky neck and whispering lavish compliments, the starving stallion turned his head and spoke with bitter reproach:\n\n\"If you truly desire that I should look sleek and handsome, master groom, stop brushing my coat so relentlessly and give me back the oats you steal from my manger! A well-fed horse shines without a comb, but an empty belly starves beneath the finest polish.\"",
-  "moral": "Empty grooming and superficial compliments cannot substitute for essential nourishment.",
+  "full_text": "ஒரு வசதியான பண்ணையில் கம்பீரமான ஒரு குதிரை இருந்தது. அதைப் பராமரிப்பதற்காக அதன் எஜமானன் ஒரு சேவகனை வேலைக்கு அமர்த்தியிருந்தான். அந்தப் பராமரிப்பாளன் நாள்தோறும் பல மணி நேரம் அந்தக் குதிரையின் உடலைத் தூரிகையால் தேய்த்துக் கழுவி, அதன் பிடரி மயிரைச் சீவி, அதன் தோலைத் தங்கம் போல மினுங்க வைப்பதிலேயே தன் முழுக் கவனத்தையும் காட்டினான்.\n\nஆனால், அதே நேரத்தில் அவனுக்குக் பேராசையும் வஞ்சகப் புத்தியும் இருந்தது. எஜமானன் குதிரைக்குக் கொடுப்பதற்காக வாங்கி வைக்கும் உயர்ந்த சத்துள்ள ஓட்ஸ் மற்றும் கொள்ளு தானியங்களை அவன் இரகசியமாகத் திருடிச் சந்தையில் விற்றுத் தன் சொந்தப் பையை நிரப்பிக்கொண்டான். இதனால் வயிறு நிறைய உணவின்றிப் பட்டினியால் வாடிய அந்தக் குதிரை நாளுக்கு நாள் எலும்பும் தோலுமாக மெலிந்து தளர்ந்துபோனது.\n\nஒரு நாள், அந்தப் பராமரிப்பாளன் வழக்கம்போலக் குதிரையின் உடலைத் தூரிகையால் பளபளவெனத் தேய்த்துவிட்டுக் கொண்டிருந்தான். அப்போது பசியால் நடுங்கிய அந்தக் குதிரை பெருமூச்சுடன் அவனிடம் சொன்னது: \"பராமரிப்பாளனே! என் உடல் பளபளப்பாக இருக்க வேண்டும் என்று நீ உண்மையிலேயே விரும்பினால், என் உடம்பைத் தேய்ப்பதைச் சற்று நிறுத்திவிட்டு, எனக்கென எஜமானன் தரும் தானியங்களைத் திருடாமல் என் வயிற்றுக்கு உணவாகப் போடு! பசியால் வாடும் எனக்கு இந்த வெளிப்பூச்சு எதற்கு?\" என்றது. பராமரிப்பாளன் தன் கள்ளத்தனம் அம்பலமானதை எண்ணி அஞ்சினான்.",
+  "moral": "நீதி: வெறும் வெளிப்புறப் பகட்டும் வெற்றுப் புகழ்ச்சியும் அடிப்படைத் தேவையை ஈடுசெய்யாது; செயலில் உண்மையான நேர்மை வேண்டும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Horse and the Groom illustration from the Aesop's Fables collection.",
-  "word_count": 207,
+  "word_count": 154,
   "reading_time": "2 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Horse and the Groom\"?",
+      "question": "குதிரைப் பராமரிப்பாளன் எதில் அதிக நேரத்தைச் செலவழித்தான்?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "குதிரையின் உடலைத் தேய்த்துக் கழுவிப் பளபளப்பாக வைப்பதிலேயே நேரம் செலவழித்தான்",
+        "குதிரைக்குச் சவாரிப் பயிற்சி அளிப்பதில்",
+        "குதிரையோடு பந்தயம் வைப்பதில்",
+        "குதிரைக்குப் புதிய லாடம் அடிப்பதில்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "குதிரையின் வெளிப்புறப் பராமரிப்பைக் கவனியுங்கள்.",
+      "answer": "குதிரையின் உடலைத் தேய்த்துக் கழுவிப் பளபளப்பாக வைப்பதிலேயே நேரம் செலவழித்தான்",
+      "explanation": "குதிரையின் வெளிப்புறப் பராமரிப்பைக் கவனியுங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "குதிரை மெலிந்து பலவீனமடைய உண்மையான காரணம் என்ன?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "குதிரைக்கான சத்தான தானியங்களை அவன் திருடி விற்றுவிட்டதால் அது பசியால் வாடியது",
+        "குதிரைக்குத் தீராத நோய் இருந்தது",
+        "குதிரை அளவுக்கு அதிகமாக ஓடியது",
+        "எஜமானன் குதிரையை அடித்தான்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "பராமரிப்பாளனின் திருட்டுத்தனத்தையும் குதிரையின் பசியையும் யோசியுங்கள்.",
+      "answer": "குதிரைக்கான சத்தான தானியங்களை அவன் திருடி விற்றுவிட்டதால் அது பசியால் வாடியது",
+      "explanation": "பராமரிப்பாளனின் திருட்டுத்தனத்தையும் குதிரையின் பசியையும் யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "குதிரை கூறிய வார்த்தைகள் மனிதர்களுக்குக் கற்பிக்கும் முக்கியமான நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "அடிப்படைத் தேவைகளையும் உண்மையான அன்பையும் விடுத்து வெற்று வெளிப்புறப் பகட்டை மட்டுமே காட்டுவது போலித்தனம்",
+        "குதிரைகளுக்குத் தானியங்கள் கொடுக்கக் கூடாது",
+        "தூரிகைகளைப் பயன்படுத்தவே கூடாது",
+        "எஜமானர்கள் வேலைக்காரர்களை நம்பக்கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "செயலில் உள்ள நேர்மையை வார்த்தை ஜாலங்கள் ஈடுசெய்யாது என்பதை எண்ணுங்கள்.",
+      "answer": "அடிப்படைத் தேவைகளையும் உண்மையான அன்பையும் விடுத்து வெற்று வெளிப்புறப் பகட்டை மட்டுமே காட்டுவது போலித்தனம்",
+      "explanation": "செயலில் உள்ள நேர்மையை வார்த்தை ஜாலங்கள் ஈடுசெய்யாது என்பதை எண்ணுங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பராமரிப்பாளன்",
+      "meaning": "குதிரை போன்ற பிராணிகளுக்கு உணவளித்துப் பாதுகாக்கும் பணியாள்"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "தூரிகை",
+      "meaning": "குதிரையின் உடலில் உள்ள தூசிகளைத் துடைத்துத் தேய்க்கப் பயன்படும் பிரஷ்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "பிடரி",
+      "meaning": "குதிரையின் கழுத்துப் பகுதியில் அழகாக அடர்ந்து வளரும் நீண்ட தலைமயிர்"
+    },
+    {
+      "word": "வெளிப்பூச்சு",
+      "meaning": "உள்ளே சத்து அல்லது உண்மை இல்லாமல் வெளியே மட்டும் கவர்ச்சியாகக் காட்டும் போலித்தனம்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Horse and the Groom\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "பராமரிப்பாளன் குதிரைக்கான என்ன தானியங்களைத் திருடி விற்றான்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "வெளிப்புற அழகு ஒருபோதும் உண்மையான ஆரோக்கியத்திற்கும் திருப்திக்கும் மாற்றாக முடியாது ஏன்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "நமது வாழ்க்கையில் பிறருக்கு உதவும் போது உதட்டளவிலான அன்பை விட உண்மையான உதவி எவ்வாறு சிறந்தது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "பொறுப்புகளில் உள்ளவர்கள் கடமையை மறைத்துப் பகட்டு காட்டுவது சமுதாயத்திற்கு எத்தகைய சீரழிவைத் தரும்?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

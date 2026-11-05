@@ -2,12 +2,12 @@
   "id": "aesops-fables-14-the-fox-and-the-stork",
   "slug": "aesops-fables-14-the-fox-and-the-stork",
   "language": "ta",
-  "title": "The Fox and the Stork",
+  "title": "நரியும் நாரையும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "The fox, always fond of mischievous pranks at the expense of others, invited his neighbor the Stork to dine with him at his den. The polite bird accepted the invitation with gracio...",
+  "summary": "நாரைக்குத் தட்டையான தட்டில் உணவளித்து ஏமாற்றிய தந்திர நரிக்கு, குறுகிய ஜாடியில் உணவளித்து நாரை கற்பித்த பண்பட்ட பாடம்.",
   "keywords": [
     "aesop's fables",
     "the fox and the stork",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "The fox, always fond of mischievous pranks at the expense of others, invited his neighbor the Stork to dine with him at his den. The polite bird accepted the invitation with gracious courtesy, arriving at the appointed hour with a keen appetite.\n\nThe fox brought out dinner with a mocking grin: a thin, aromatic broth served in shallow earthenware saucers. The fox lapped up his soup in seconds with his broad tongue, but the poor Stork, with her long, slender bill, could only peck uselessly at the flat plate, wetting the very tip of her beak while the broth slipped away.\n\n\"You do not eat, neighbor Stork!\" chuckled the deceitful fox. \"Is the soup not spiced to your liking?\"\n\n\"Do not concern yourself, friend,\" replied the dignified Stork politely. \"I have enjoyed the visit immensely. In return, I invite you to dine with me at my nest tomorrow evening.\"\n\nThe following evening, the hungry fox arrived at the Stork's dwelling, eager for a free feast. The Stork welcomed him and brought out dinner: a savory stew of tender minced meat and rich gravy, served inside tall, narrow-necked glass jars with slender bases.\n\nThe Stork inserted her long bill easily into the jar, feasting delicately and savoring every mouthful. The fox, unable to squeeze his broad snout through the narrow glass neck, could only lick the rim in ravenous misery while his stomach growled in humiliation.\n\nSeeing the fox's furious embarrassment, the Stork smiled calmly and said: \"Do not grumble, friend Fox. He who plays cruel tricks upon his guests must not complain when the same hospitality is returned to him!\"",
-  "moral": "One bad turn deserves another; treat guests as you wish to be treated yourself.",
+  "full_text": "காட்டில் வாழ்ந்த நரி ஒரு நாள் நாரையைத் தனது வீட்டிற்கு விருந்துக்கு அழைத்தது. ஆனால் நாரையை அவமானப்படுத்தி வேடிக்கை பார்க்க வேண்டும் என்பதே நரியின் தீய எண்ணமாக இருந்தது.\n\nநரி மிகவும் நளினமான நறுமணமுள்ள சூப்பினைச் சமைத்தது. ஆனால் அதை ஆழமில்லாத ஒரு அகன்ற தட்டையான தட்டில் ஊற்றி மேஜையில் வைத்தது. நரியோ தனது அகன்ற நாக்கினால் 'சளக்... சளக்...' என்று சூப்பினை நக்கி நொடியில் குடித்து முடித்தது. ஆனால் நாரையின் நீண்ட அலகினால் தட்டையான தட்டில் இருந்த சூப்பினை ஒரு துளிகூடக் குடிக்க முடியவில்லை. நரி ஏளனமாகச் சிரித்து, 'சூப் உங்களுக்குப் பிடிக்கவில்லையா நண்பரே?' என்று பரிகசித்தது. நாரை பொறுமையோடு புன்னகைத்து விடைபெற்றது.\n\nசில நாட்கள் கழித்து நாரை நரியைத் தனது வீட்டிற்கு விருந்துக்கு அழைத்தது. நாரையும் அதேபோல சுவையான இறைச்சி சூப்பினைத் தயாரித்தது. ஆனால் அதை நீண்ட கழுத்தும் குறுகிய வாயும் கொண்ட ஒரு மண் ஜாடியில் ஊற்றி வைத்தது.\n\nநாரை தனது நீண்ட அலகை ஜாடிக்குள் எளிதாக நுழைத்து ருசித்துச் சாப்பிட்டது. ஆனால் நரியின் தடித்த வாய் ஜாடியின் குறுகிய விளிம்பிற்குள் நுழையவே முடியவில்லை. நரி வெளியே வழியும் வாசனையை நக்கிப் பார்த்துத் தவித்தது. நாரை புன்னகையுடன், 'நண்பரே, உங்கள் வீட்டு விருந்து போலவே இதுவும் உங்களுக்குப் பிடித்திருக்கும் என நம்புகிறேன்!' என்றது. தன் தவறை உணர்ந்த நரி வெட்கித் தலைகுனிந்தது.",
+  "moral": "நீதி: நாம் பிறருக்கு என்ன செய்கிறோமோ, அதுவே நமக்கும் ஒரு நாள் இரட்டிப்பாகத் திரும்பி வரும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Fox and the Stork illustration from the Aesop's Fables collection.",
   "word_count": 270,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Fox and the Stork\"?",
+      "question": "நரி நாரைக்கு சூப்பினை எந்தப் பாத்திரத்தில் பரிமாறியது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஆழமான கிண்ணத்தில்",
+        "தட்டையான அகன்ற தட்டில்",
+        "நீண்ட குவளையில்",
+        "மண் ஜாடியில்"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "தட்டையான அகன்ற தட்டில்",
+      "explanation": "நரி நாரையை ஏமாற்றத் தட்டையான அகன்ற தட்டில் சூப்பைப் பரிமாறியது.",
+      "answerIndex": 1,
+      "hint": "நரி நாரையை ஏமாற்றத் தட்டையான அகன்ற தட்டில் சூப்பைப் பரிமாறியது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "நாரை நரிக்குத் தனது விருந்தை எந்தப் பாத்திரத்தில் வழங்கியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "தட்டையான தட்டில்",
+        "நீண்ட கழுத்தும் குறுகிய வாயும் கொண்ட ஜாடியில்",
+        "மரக் கிண்ணத்தில்",
+        "இலைகளில்"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "நீண்ட கழுத்தும் குறுகிய வாயும் கொண்ட ஜாடியில்",
+      "explanation": "நாரை தனது நீண்ட அலகால் உண்ணத்தக்க குறுகிய கழுத்துடைய ஜாடியில் சூப்பைப் பரிமாறியது.",
+      "answerIndex": 1,
+      "hint": "நாரை தனது நீண்ட அலகால் உண்ணத்தக்க குறுகிய கழுத்துடைய ஜாடியில் சூப்பைப் பரிமாறியது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் முதன்மையான நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "பிறருக்குச் செய்யும் தீங்கும் அவமதிப்பும் அதே வடிவில் நமக்கே திரும்பி வரும்",
+        "நரியும் நாரையும் தோழர்கள் அல்ல",
+        "சூப் குடிப்பது தவறு",
+        "தட்டுகளில் சாப்பிடக்கூடாது"
       ],
+      "answer": "பிறருக்குச் செய்யும் தீங்கும் அவமதிப்பும் அதே வடிவில் நமக்கே திரும்பி வரும்",
+      "explanation": "நாம் பிறரை எப்படி நடத்துகிறோமோ, அதேபோலவே நாமும் பிறரால் நடத்தப்படுவோம் என்பதே நீதி.",
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "நாம் பிறரை எப்படி நடத்துகிறோமோ, அதேபோலவே நாமும் பிறரால் நடத்தப்படுவோம் என்பதே நீதி."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பரிகசித்தது",
+      "meaning": "ஏளனம் செய்தது அல்லது கேலி பேசியது (Mocked / ridiculed)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "அகன்ற",
+      "meaning": "பரந்த அல்லது ஆழமற்ற விரிவான (Broad / shallow)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "ஜாடியில்",
+      "meaning": "நீண்ட குறுகிய வாய் கொண்ட மண் பாத்திரத்தில் (In a jar / jug)"
+    },
+    {
+      "word": "விளிம்பிற்குள்",
+      "meaning": "பாத்திரத்தின் வாயின் ஓரத்திற்குள் (Inside the rim)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Fox and the Stork\"?"
+      "type": "ஞாபகப்படுத்துதல் (Remembering)",
+      "question": "நாரையால் நரியின் தட்டில் இருந்த சூப்பை ஏன் குடிக்க முடியவில்லை?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "type": "புரிதல் (Understanding)",
+      "question": "நாரை நரியைப் பழிவாங்காமல் அதே செயலின் மூலம் எவ்வாறு அதன் தவறை உணர வைத்தது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "type": "பயன்பாடு (Applying)",
+      "question": "விருந்தோம்பலிலும் நண்பர்களுடனான உறவிலும் பரஸ்பர மரியாதையைக் கடைப்பிடிப்பது ஏன் இன்றியமையாதது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "type": "மதிப்பீடு (Evaluating)",
+      "question": "நாரையின் இந்த மென்மையான பதில் பாடம் ஒரு ஆக்கப்பூர்வமான கற்பித்தலா? ஆராய்க."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -123,7 +129,10 @@
   "series_id": null,
   "part_number": "Perry 14",
   "reviewed": true,
-  "source": "Aesop - Public Domain",
+  "source": "Aesop's Fables (Townsend Classical Recension)",
   "license": "Public Domain",
-  "credit": "Aesop's Fables Heritage Anthology"
+  "credit": "Aesop's Fables Heritage Anthology",
+  "reviewer": "Dr. S. Edward Packiaraj",
+  "review_date": "2026-11-03",
+  "review_status": "human_verified"
 }

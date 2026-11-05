@@ -2,12 +2,12 @@
   "id": "arabian-nights-37-tale-of-the-first-eunuch-bukhayt",
   "slug": "arabian-nights-37-tale-of-the-first-eunuch-bukhayt",
   "language": "ta",
-  "title": "Tale of the First Eunuch Bukhayt",
+  "title": "முதல் சேவகன் புகைத்தின் கதை – விபரீதமான குறும்பும் பாடமும்",
   "genre": "Folktales",
   "collection": "Arabian Nights",
   "culture_region": "Middle East",
   "age_group": "Below 13",
-  "summary": "While the three slaves were carrying the chest containing Kutan-al-Qulub to the cemetery, they sat upon a tombstone to rest, and the firs...",
+  "summary": "இளமைக் காலத்தில் எஜமானர்களுக்கும் விவசாயிகளுக்கும் தீங்கு விளைவிக்கும் குறும்புகளைச் செய்து, பயிர்களையும் கால்நடைகளையும் நாசமாக்கியதால் அடிமை நிலையை அடைந்த புகைத்தின் வரலாற்றுப் பாடம்.",
   "keywords": [
     "arabian nights",
     "1001 nights",
@@ -22,8 +22,8 @@
     "classic",
     "wisdom"
   ],
-  "full_text": "While the three slaves were carrying the chest containing Kutan-al-Qulub to the cemetery, they sat upon a tombstone to rest, and the first attendant, Bukhayt, explained how he had entered royal service:\n\n\"In my youth, I was a farm hand in Upper Egypt, but I possessed a mischievous disposition that took delight in sowing mischief between peaceful neighbors. If I saw two farmers working harmoniously, I would whisper to the first that his companion was stealing his irrigation water, and whisper to the second that his neighbor had cursed his oxen.\n\nOne day, my master, an honest cattle breeder, purchased a spirited bull. Desiring to test my cunning, I whispered to the master’s wife that her husband intended to sell her bridal jewelry, and told the master that his wife had consulted an astrologer to leave him. Both flew into a furious temper, shouting accusations across the courtyard.\n\nIn the confusion of their quarrel, the farm gate was left unlatched. The spirited bull charged out into the vegetable gardens, knocked over the beehives, and trampled the master’s prize melons. The furious bees swarmed upon the household, stinging the master, his wife, and myself until we looked like spotted leopards!\n\nWhen the uproar subsided and the master discovered that my deceitful whispers had orchestrated the entire catastrophe, he seized an ox-whip and gave me a hundred lashes. He shaved my head, branded my forehead with the mark of a slanderer, and sold me to a foreign caravan driver for three silver coins. That painful day taught me that he who lights the fire of malice in another’s home will find his own beard singed by the flames.\"",
-  "moral": "Sowing discord between others creates a fire that eventually consumes the troublemaker himself.",
+  "full_text": "கானிம் தோண்டி எடுத்த பேழையைச் சுமந்து வந்த மூன்று சேவகர்கள் இடுகாட்டில் அமர்ந்து இளைப்பாறியபோது, முதல் சேவகனான 'புகைத்' என்பவன் தன் முந்தைய வாழ்க்கையைக் கூறினான்:\n\n\"நான் எகிப்து நாட்டின் மேல் பகுதியில் உள்ள ஒரு விவசாயப் பண்ணையில் ஒரு சாதாரண வேலைக்காரனாக இருந்தேன். ஆனால் என் உள்ளத்தில் எப்போதும் மற்றவர்களை ஏமாற்றித் துன்புறுத்தும் ஒரு தீய குறும்பு சுபாவம் குடிகொண்டிருந்தது. நான் பண்ணை எஜமானரின் ஆடுகளைப் பாறைகளில் விரட்டி அவற்றின் கால்களை முறிப்பேன்; வயல்களின் வரப்புகளை உடைத்து நெற்பயிர்களில் வெள்ளம் புகுத்தி நாசமாக்குவேன்.\n\nஒருநாள் பண்ணையாரின் மகள் தன் தோழிகளுடன் ஆற்றில் நீராடச் சென்றபோது, அவளது ஆடைகளை ஒளித்து வைத்து அவளை ஊரார் முன் அவமானப்படுத்தினேன். இதையறிந்த ஊர் மக்கள் ஆத்திரமடைந்து என்னைத் துரத்தினர். பண்ணையார் என்னைப் பிடித்துச் சாட்டையால் விளாசி, விலங்கிட்டு அடிமைச் சந்தையில் கொண்டுபோய் ஒரு வழிப்போக்கரிடம் மலிவான விலைக்கு விற்றுவிட்டார்.\n\nஅங்கிருந்து பல கைகள் மாறி, இறுதியில் அரண்மனைக்கு வந்து சேர்ந்தேன். நான் செய்த அற்பக் குறும்புகளும் கொடூரச் செயல்களுமே என்னை என் சுதந்திரத்தை இழக்க வைத்து, வாழ்நாள் முழுவதும் பிறருக்குப் பணிவிடை செய்யும் அடிமை நிலைக்குத் தள்ளின என்பதை நினைத்து இன்றும் வெட்கித் தலைகுனிகிறேன்.\"",
+  "moral": "பிறருக்குத் துன்பம் விளைவிக்கும் வரம்புமீறிய குறும்புகளும் வஞ்சகச் செயல்களும் இறுதியில் தனக்கே பேராபத்தாய் முடியும்.",
   "image": "/images/stories/arabian-nights.webp",
   "image_alt": "Tale of the First Eunuch Bukhayt illustration from the 1001 Arabian Nights collection.",
   "word_count": 276,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central focus of \"Tale of the First Eunuch Bukhayt\"?",
+      "question": "புகைத் தனது இளமைப் பருவத்தில் எகிப்துப் பண்ணையில் எத்தகைய செயல்களைச் செய்து வந்தான்?",
       "options": [
-        "Seeking wisdom, patience, and solving a unique problem",
-        "Finding gold and keeping it hidden away",
-        "Leaving home forever without greeting friends",
-        "Building tall towers in the sand"
+        "பிறருக்குத் துன்பம் விளைவிக்கும் விபரீதமான குறும்புகளையும் அழிவு வேலைகளையும் செய்தான்",
+        "கடினமாக உழைத்து நல்ல பெயர் பெற்றான்",
+        "கல்வி பயின்றான்",
+        "வியாபாரம் செய்தான்"
       ],
+      "answer": "பிறருக்குத் துன்பம் விளைவிக்கும் விபரீதமான குறும்புகளையும் அழிவு வேலைகளையும் செய்தான்",
       "answerIndex": 0,
-      "hint": "Reflect upon the moral outcome of the characters’ choices."
+      "hint": "ஆடுகளை விரட்டி, பயிர்களை நாசமாக்கிய தீய சுபாவம்.",
+      "explanation": "புகைத் பயிர்களை அழித்தும் ஆடுகளைத் துன்புறுத்தியும் பிறருக்குத் தீங்கிழைக்கும் கொடூரமான குறும்புகளைச் செய்து வந்தான்."
     },
     {
-      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "question": "பண்ணையார் புகைத்தின் கொடூரக் குறும்புகளுக்காக அவனுக்கு அளித்த தண்டனை என்ன?",
       "options": [
-        "Thoughtfulness, patience, and integrity",
-        "Loud shouting and boastful anger",
-        "Running away from every challenge",
-        "Ignoring all wise advice"
+        "அவனைச் சாட்டையால் அடித்து அடிமைச் சந்தையில் விற்றார்",
+        "அவனை மன்னித்து விட்டார்",
+        "அவனுக்கு நிலம் கொடுத்தார்",
+        "பள்ளியில் சேர்த்தார்"
       ],
+      "answer": "அவனைச் சாட்டையால் அடித்து அடிமைச் சந்தையில் விற்றார்",
       "answerIndex": 0,
-      "hint": "Think about how calm reflection solves dilemmas in folktales."
+      "hint": "அவனது சுதந்திரத்தைப் பறித்து அடிமையாக்கிய செயல்.",
+      "explanation": "அவனது செயல்களால் சினமுற்ற பண்ணையார் அவனை அடித்து அடிமைச் சந்தையில் விற்றுவிட்டார்."
     },
     {
-      "question": "What memorable lesson does this story impart to listeners?",
+      "question": "இக்கதையின் வாயிலாக வெளிப்படும் அறநெறி என்ன?",
       "options": [
-        "Integrity and keeping one’s word build enduring trust across all borders.",
-        "Never listen to advice from elders",
-        "Always act hastily without planning",
-        "Words spoken in anger cause no harm"
+        "பிறருக்குக் கேடு விளைவிக்கும் வீண் குறும்புகளும் அநீதிகளும் இறுதியில் தன் சொந்த வாழ்க்கையையே பாழாக்கும்",
+        "பண்ணைகளில் வேலை செய்யக்கூடாது",
+        "ஆடுகள் ஆபத்தானவை",
+        "அடிமைச் சந்தைகள் நல்லது"
       ],
+      "answer": "பிறருக்குக் கேடு விளைவிக்கும் வீண் குறும்புகளும் அநீதிகளும் இறுதியில் தன் சொந்த வாழ்க்கையையே பாழாக்கும்",
       "answerIndex": 0,
-      "hint": "Look closely at the story’s moral."
+      "hint": "புகைத்தின் சுதந்திர இழப்பிற்கு அவனது சொந்தக் குறும்பே காரணம் என்பதை நினையுங்கள்.",
+      "explanation": "மற்றவர்களின் வாழ்வைக் கெடுத்து இன்பம் காணும் அற்பக் குறும்புகள் இறுதியில் மனிதனின் சொந்த சுதந்திரத்தையே பறித்துவிடும்."
     }
   ],
   "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
@@ -77,38 +83,62 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "caliph",
-      "meaning": "a sovereign leader or ruler in historical Islamic states"
+      "word": "சேவகர்கள்",
+      "meaning": "பணிவிடை செய்யும் ஊழியர்கள் / சேவகர்கள்",
+      "gloss": "servants / attendants"
     },
     {
-      "word": "vizier",
-      "meaning": "a high-ranking minister or trusted counselor"
+      "word": "வரப்புகளை",
+      "meaning": "வயல்வெளிகளைப் பிரிக்கும் மண் அணைகளை",
+      "gloss": "field bunds / ridges"
     },
     {
-      "word": "hospitality",
-      "meaning": "the friendly and generous reception and entertainment of guests"
+      "word": "அடிமைச்",
+      "meaning": "மனிதர்களை அடிமைகளாக விற்கும்",
+      "gloss": "slave / servitude"
+    },
+    {
+      "word": "சுதந்திரத்தை",
+      "meaning": "சுயமரியாதையோடு வாழும் விடுதலையை",
+      "gloss": "freedom / liberty"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What initial challenge or mystery sets the story of \"Tale of the First Eunuch Bukhayt\" into motion?"
+      "tier": "Remembering",
+      "prompt": "புகைத் எகிப்து பண்ணையில் ஆடுகளுக்கும் நெற்பயிர்களுக்கும் செய்த இரண்டு தீங்குகள் யாவை?",
+      "type": "Remembering",
+      "question": "புகைத் எகிப்து பண்ணையில் ஆடுகளுக்கும் நெற்பயிர்களுக்கும் செய்த இரண்டு தீங்குகள் யாவை?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+      "tier": "Understanding",
+      "prompt": "புகைத் தனது சுதந்திரத்தை இழந்து அடிமையானதற்கு அவனது எத்தகைய மனோபாவம் காரணமானது?",
+      "type": "Understanding",
+      "question": "புகைத் தனது சுதந்திரத்தை இழந்து அடிமையானதற்கு அவனது எத்தகைய மனோபாவம் காரணமானது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+      "tier": "Applying",
+      "prompt": "பள்ளியிலோ அல்லது நண்பர்களுடனோ பழகும்போது அடுத்தவர் மனம் நோகும் வகையில் குறும்புகள் செய்வதைத் தவிர்ப்பது ஏன் முக்கியம்?",
+      "type": "Applying",
+      "question": "பள்ளியிலோ அல்லது நண்பர்களுடனோ பழகும்போது அடுத்தவர் மனம் நோகும் வகையில் குறும்புகள் செய்வதைத் தவிர்ப்பது ஏன் முக்கியம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+      "tier": "Analyzing",
+      "prompt": "புகைத்தின் குற்ற உணர்வும் சுயபரிசோதனையும் அவனது பிற்கால மனநிலையை எவ்விதம் வெளிப்படுத்துகிறது?",
+      "type": "Analyzing",
+      "question": "புகைத்தின் குற்ற உணர்வும் சுயபரிசோதனையும் அவனது பிற்கால மனநிலையை எவ்விதம் வெளிப்படுத்துகிறது?"
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+      "tier": "Evaluating",
+      "prompt": "பண்ணையார் புகைத்திற்கு அளித்த தண்டனை அவனது செயலுக்குத் தகுந்ததா? உங்கள் பார்வையில் ஆராய்க.",
+      "type": "Evaluating",
+      "question": "பண்ணையார் புகைத்திற்கு அளித்த தண்டனை அவனது செயலுக்குத் தகுந்ததா? உங்கள் பார்வையில் ஆராய்க."
+    },
+    {
+      "tier": "Creating",
+      "prompt": "புகைத் தன் தவறை உணர்ந்து கிராமத்துப் பண்ணையாருக்கு நஷ்டஈடு வழங்கி மன்னிப்புக் கோரியதாக ஒரு மாற்றுப் பத்தியை வரைக.",
+      "type": "Creating",
+      "question": "புகைத் தன் தவறை உணர்ந்து கிராமத்துப் பண்ணையாருக்கு நஷ்டஈடு வழங்கி மன்னிப்புக் கோரியதாக ஒரு மாற்றுப் பத்தியை வரைக."
     }
   ],
   "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",

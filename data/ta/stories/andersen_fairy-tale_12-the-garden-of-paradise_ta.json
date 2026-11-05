@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-12-the-garden-of-paradise",
   "slug": "hans-christian-andersen-12-the-garden-of-paradise",
   "language": "ta",
-  "title": "The Garden of Paradise",
+  "title": "சொர்க்கப் பூந்தோட்டமும் நான்கு திசைக் காற்றுகளும் – சுயக்கட்டுப்பாட்டின் மேன்மை",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "There was once a king's son who read vast libraries of books, but longed above all things to discover the Garden of Paradise, from which mankind had been expelled....",
+  "summary": "மனிதகுலம் இழந்த சொர்க்கப் பூந்தோட்டத்தைத் தேடிச் சென்ற இளவரசன், காற்றுகளின் தாய் மற்றும் கிழக்குக் காற்றின் வழிகாட்டலில் அந்த தேவ தோட்டத்தை அடைந்தும், சுயக்கட்டுப்பாட்டை இழந்து மரணமில்லா இளவரசியைத் தொட்டதால் மீண்டும் பூமிக்குத் தள்ளப்பட்ட பாடம்.",
   "keywords": [
     "hans christian andersen",
     "the garden of paradise",
@@ -22,49 +22,55 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "There was once a king's son who read vast libraries of books, but longed above all things to discover the Garden of Paradise, from which mankind had been expelled.\n\nOne stormy evening, while wandering in a primeval forest, he sought shelter in the Cavern of the Winds. Here lived an ancient mother whose four sons were the North Wind, the South Wind, the East Wind, and the West Wind. When the gentle East Wind returned from his travels, he announced that he had just visited the Garden of Paradise, where the Phoenix nested and eternal spring reigned.\n\nThe young prince begged the East Wind to take him there. The East Wind agreed, lifted the prince onto his broad shoulders, and flew across sapphire seas and golden mountains until they landed upon the luminous island of Paradise.\n\nThe garden surpassed all human dreams. The air was scented with celestial blossoms, rivers flowed with crystal nectar, lions walked peacefully beside gazelles, and the Fairy of the Garden welcomed the prince with radiant grace.\n\n\"You may dwell here in joy,\" warned the Fairy Queen, \"but beware the fatal temptation! When I sleep beneath the Tree of Knowledge, you must not approach, nor touch my lips. If you yield to curiosity and kiss me, Paradise will sink into the earth, and you will be cast out into sorrow and death.\"\n\nThe prince vowed absolute obedience: \"I have the courage and willpower of a thousand men; I shall never falter!\"\n\nFor several days, he lived in bliss. But on the hundredth evening, as music drifted through the golden groves, the prince walked near the Tree of Knowledge. He saw the Fairy sleeping in celestial beauty. Passion and pride flared in his chest: \"I am strong! A single kiss can bring no harm!\" He leaned over and kissed her lips.\n\nA crack of thunder rent the sky like the doom of the world! Lightning tore the golden palace to dust, the garden vanished, and the prince awoke in the cold, howling rain of the earthly wilderness, weeping for the paradise he had lost through the lack of a single moment of self-restraint.",
-  "moral": "Curiosity divorced from self-control loses the highest blessings; self-mastery is the gate to paradise.",
+  "full_text": "பண்டைய காலத்தில் ஒரு மாமன்னரின் மகன் வாழ்ந்தான். அவன் உலகின் ஆயிரக்கணக்கான வரலாற்று நூல்களைக் கற்றுத் தேர்ந்தான்; ஆனால் மனிதன் இழந்த பழங்காலத்துச் சொர்க்கப் பூந்தோட்டம் எங்கே இருக்கிறது என்பதை அறிவதே அவனது வாழ்நாள் பெருங்கனவாக இருந்தது. ஒரு நாள் காட்டில் வழிதவறிய அவன், ஒரு பெரும் குகையை அடைந்தான். அங்கே வடகாற்று, தென்றல்காற்று, மேல்காற்று, கீழ்க்காற்று ஆகிய நான்கு திசைக் காற்றுகளின் வயதான தாய் அமர்ந்திருந்தாள்.\n\nஅவளது இளைய மகனான கீழ்க்காற்று சீனக் கடலிலிருந்து திரும்பி வந்தபோது, \"நான் சொர்க்கப் பூந்தோட்டத்திலிருந்து வருகிறேன்; அங்கே மலர்கள் வாடுவதில்லை; காலமெல்லாம் வசந்தம் வீசுகிறது\" என்றான். இளவரசன் அவனிடம் மன்றாடவே, கீழ்க்காற்று அவனைத் தன் தோள்களில் சுமந்துகொண்டு கடல்களையும் மலைகளையும் தாண்டிச் சொர்க்கப் பூந்தோட்டத்திற்கு அழைத்துச் சென்றது. அங்கே கண்ட காட்சிகள் இளவரசனைக் கிறங்கடித்தன; அங்கே ஜீவ மரத்தின் நிழலில் அறிவும் எழிலும் நிறைந்த அழகிய சொர்க்கத்தின் இளவரசி புன்னகையோடு அவனை வரவேற்றாள்.\n\n\"இளவரசனே! நீ இங்கே நூறு ஆண்டுகள் கூட அமைதியாக வாழலாம்; ஆனால் ஒரே ஒரு நிபந்தனை உண்டு. ஜீவ மரத்தின் கீழ் நான் உறங்கும்போது என்னை முத்தமிடவோ தொடவோ கூடாது. மீறினால் பாவம் சூழ்ந்து பூமிக்குத் தள்ளப்படுவாய்\" என்று எச்சரித்தாள். தொடக்கத்தில் இளவரசன் உறுதிபூண்டான். ஆனால் இரவு நேரத்தில் அந்த இளவரசியின் பேரழகைக் கண்டபோது அவனது மன உறுதி தடுமாறியது; ஆசையைக் கட்டுப்படுத்த முடியாமல் அவளைத் தொட்டான்! அடுத்த கணமே பலத்த இடி முழங்கியது; பூந்தோட்டம் மறைந்தது. அவன் இருண்ட பூமிக்குத் தள்ளப்பட்டு, சுயக்கட்டுப்பாட்டை இழந்ததற்காகக் கண்ணீர் விட்டுக் கதறினான்.",
+  "moral": "மனக்கட்டுப்பாடும் நன்னடத்தையும் இல்லாத எந்தப் பேராசையும் பேரின்பத்தை இழக்கச் செய்யும்; சுய ஒழுக்கமே மனிதனை உயர்த்தும் நிரந்தரச் சொர்க்கமாகும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Garden of Paradise illustration from the Hans Christian Andersen collection.",
-  "word_count": 356,
-  "reading_time": "3 min",
-  "listen_time": "3 min",
+  "word_count": 164,
+  "reading_time": "2 mins",
+  "listen_time": "2 mins",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Garden of Paradise\"?",
+      "question": "இளவரசனைச் சொர்க்கப் பூந்தோட்டத்திற்கு அழைத்துச் சென்ற காற்று எது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "வடகாற்று",
+        "கீழ்க்காற்று",
+        "மேல்காற்று",
+        "தென்றல்காற்று"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "கீழ்க்காற்று",
+      "explanation": "சீனக் கடலிலிருந்து வந்த கீழ்க்காற்றே இளவரசனைத் தன் தோள்களில் சுமந்து சென்றது.",
+      "answerIndex": 1,
+      "hint": "சீனக் கடலிலிருந்து வந்த கீழ்க்காற்றே இளவரசனைத் தன் தோள்களில் சுமந்து சென்றது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "சொர்க்கத்தின் இளவரசி விதித்த நிபந்தனை என்ன?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "கனிகளைப் பறிக்கக் கூடாது",
+        "பூந்தோட்டத்தை விட்டு வெளியேறக் கூடாது",
+        "ஜீவ மரத்தின் கீழ் உறங்கும்போது அவளைத் தொடவோ முத்தமிடவோ கூடாது",
+        "யாருடனும் பேசக் கூடாது"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "ஜீவ மரத்தின் கீழ் உறங்கும்போது அவளைத் தொடவோ முத்தமிடவோ கூடாது",
+      "explanation": "ஜீவ மரத்தின் கீழ் உறங்கும்போது தன்னைத் தொடக் கூடாது என்று எச்சரித்தாள்.",
+      "answerIndex": 2,
+      "hint": "ஜீவ மரத்தின் கீழ் உறங்கும்போது தன்னைத் தொடக் கூடாது என்று எச்சரித்தாள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இளவரசன் சொர்க்கத்திலிருந்து வெளியேற்றப்படக் காரணம் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "எதிரிகள் தாக்கியதால்",
+        "சுயக்கட்டுப்பாட்டை இழந்து ஆசையால் இளவரசியைத் தொட்டதால்",
+        "கீழே விழுந்ததால்",
+        "வழி தவறியதால்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "சுயக்கட்டுப்பாட்டை இழந்து ஆசையால் இளவரசியைத் தொட்டதால்",
+      "explanation": "தன் ஆசையைக் கட்டுப்படுத்த முடியாமல் நிபந்தனையை மீறியதால் வெளியேற்றப்பட்டான்.",
+      "answerIndex": 1,
+      "hint": "தன் ஆசையைக் கட்டுப்படுத்த முடியாமல் நிபந்தனையை மீறியதால் வெளியேற்றப்பட்டான்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பெருங்கனவாக",
+      "meaning": "வாழ்நாளின் மிக உயர்ந்த இலட்சிய ஆசையாக (Greatest dream)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "நிபந்தனை",
+      "meaning": "ஒரு காரியத்தை நிறைவேற்ற விதிக்கப்படும் கட்டுப்பாடு (Condition / rule)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "தடுமாறியது",
+      "meaning": "உறுதி தளர்ந்து விலகியது (Faltered / wavered)"
+    },
+    {
+      "word": "பேரழகைக்",
+      "meaning": "மிதமிஞ்சிய ஒப்பற்ற எழில் அழகை (Sublime / peerless beauty)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Garden of Paradise\"?"
+      "type": "ஞாபகப்படுத்துதல் (Remembering)",
+      "question": "காற்றுகளின் குகையில் இளவரசன் சந்தித்த நான்கு காற்றுகள் யாவை?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "type": "புரிதல் (Understanding)",
+      "question": "சொர்க்கத்தை அடைந்த பிறகும் இளவரசன் அதை இழந்ததன் மூலம் ஆண்டர்சன் உணர்த்தும் அறம் என்ன?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "type": "பயன்பாடு (Applying)",
+      "question": "கல்வி அறிவும் செல்வமும் இருந்தாலும், நம் வாழ்வில் சுயக்கட்டுப்பாடு (Self-control) ஏன் மிக இன்றியமையாதது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "type": "மதிப்பீடு (Evaluating)",
+      "question": "மனித பலவீனங்களையும் விதிகளுக்குக் கட்டுப்படும் ஒழுக்கத்தையும் கதையின் முடிவோடு ஒப்பிட்டு ஆராய்க."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

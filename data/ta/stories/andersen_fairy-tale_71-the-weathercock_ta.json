@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-71-the-weathercock",
   "slug": "hans-christian-andersen-71-the-weathercock",
   "language": "ta",
-  "title": "The Weathercock",
+  "title": "தங்கக் காற்றுத் திசைகாட்டியும் போலி கர்வத்தின் சுழற்சியும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Perched atop the church steeple, the gilded weathercock spun around with every gust of wind. \"I am the guide of the town!\" he boasted. \"The sun shines for me, and the clouds follow...",
+  "summary": "தேவாலயக் கோபுரத்தின் உச்சியில் அமர்ந்து காற்று வீசும் திசையெல்லாம் திரும்பி ஆடி, 'நானே உலகத்தை இயக்குகிறேன்' என்று மார்தட்டிய தங்கச் சேவல் வடிவத் திசைகாட்டி, முடிவில் கழன்று விழுந்து உடைந்த நையாண்டிக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the weathercock",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Out in the wide, tranquil meadows where wildflowers bent gracefully before the seaside breeze, there lived Perched atop the church steeple, the gilded weathercock spun around with every gust of wind. \"I am the guide of the town!\" he boasted. \"The sun shines for me, and the clouds follow.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that turning with every breeze of opinion leaves one unstable, hollow, and blind to true direction.",
-  "moral": "Turning with every breeze of opinion leaves one unstable, hollow, and blind to true direction.",
+  "full_text": "நகரத்து தேவாலயக் கோபுரத்தின் உச்சி முனையில், தங்க முலாம் பூசப்பட்ட ஒரு சேவல் வடிவக் காற்றுத் திசைகாட்டி பொருத்தப்பட்டிருந்தது.\n    \nஅது சூரிய ஒளியில் பளபளவென மின்னியது. காற்று வீசும் போதெல்லாம் அது 'கிரீச்... கிரீச்...' என்று சத்தமிட்டுத் தன் முகத்தைத் திருப்பிக் கொண்டது.\n    \nஅந்தத் தங்கச் சேவலுக்கு அளவுகடந்த கர்வம் உண்டானது: \"பாருங்கள்! நானே இந்த நகரத்தின் தலையாய வழிகாட்டி! நான் திரும்பும் திசையில்தான் மேகங்கள் நகர்கின்றன; கப்பல்கள் கடலில் செல்கின்றன; சூரியனே எனக்காகத்தான் ஒளிர்கிறது!\" என்று தற்பெருமை பேசியது.\n    \nகோபுரத்தின் அடியில் அமைதியாக நின்ற தேவாலய மணி சொன்னது: \"சேவலே! நீ காற்றை வழிநடத்தவில்லை; வீசும் காற்றுக்கு ஏற்ப நீதான் சுழன்று ஆடுகிறாய்! உனக்கென்று ஒரு நிலையான உறுதியான கொள்கையோ பாதையோ கிடையாது!\" என்றது.\n    \nஆனால் செருக்குக் கொண்ட சேவல் மணியின் பேச்சைக் கேட்கவில்லை. \"நான் உயரத்தில் இருக்கிறேன், நீ கீழே கிடக்கிறாய்! உனக்கு என் பெருமை புரியாது!\" என்று எகத்தாளம் பேசியது.\n    \nஒரு நாள் பயங்கரமான புயற்காற்று சுழன்றடித்தது. நாலாபுறமிருந்தும் காற்று சீறிய போது, சேவலால் எந்தப் பக்கம் திரும்புவது என்று தெரியாமல் வெறிபிடித்தது போல் சுழன்றது!\n    \nமுடிவில் அதன் கீல் முறிந்து, அது கோபுர உச்சியிலிருந்து தலைகுப்புறக் கீழே விழுந்து சேற்றில் புதைந்து சுக்குநூறாக உடைந்தது. தன் நிலையான கொள்கை இன்றிப் பிறர் ஆட்டுவிப்பதற்கெல்லாம் ஆடியதன் முடிவை அது அடைந்தது.",
+  "moral": "பிறரின் எண்ணப் போக்குகளுக்கும் சூழ்நிலைக் காற்றிற்கும் ஏற்பத் தன் கொள்கைகளை மாற்றி ஆடுபவர்கள், எந்தச் சுய மதிப்பும் இல்லாத போலி அகந்தையாளர்களாகவே முடிவில் வீழ்வார்கள்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Weathercock illustration from the Hans Christian Andersen collection.",
   "word_count": 226,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Weathercock\"?",
+      "question": "தேவாலயக் கோபுர உச்சியில் இருந்த தங்கச் சேவல் திசைகாட்டி என்னவென்று அகந்தையுடன் பேசியது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "நானே உலகை இயக்குகிறேன், நான் திரும்பும் திசையில்தான் மேகங்களும் கப்பல்களும் செல்கின்றன என்றது",
+        "நான் வெறும் இரும்பு என்றது",
+        "எனக்கு பயமாக இருக்கிறது என்றது",
+        "நான் கீழே இறங்க விரும்புகிறேன் என்றது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "நானே உலகை இயக்குகிறேன், நான் திரும்பும் திசையில்தான் மேகங்களும் கப்பல்களும் செல்கின்றன என்றது",
+      "hint": "சேவலின் போலித் தற்பெருமையை நினையுங்கள்.",
+      "explanation": "காற்றினால் சுழலும் தான் தான் உலகத்தையே இயக்குவதாகச் சேவல் கர்வம் கொண்டது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "தேவாலய மணி அந்தச் சேவலுக்கு என்ன உண்மையைக் கூறி எச்சரித்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "நீ காற்றை வழிநடத்தவில்லை, காற்று ஆட்டும் பக்கமெல்லாம் நீதான் சுழல்கிறாய் என்றது",
+        "நீ மிகவும் அழகானவன் என்றது",
+        "நீ தங்கம் என்றது",
+        "நீ பாட வேண்டும் என்றது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "நீ காற்றை வழிநடத்தவில்லை, காற்று ஆட்டும் பக்கமெல்லாம் நீதான் சுழல்கிறாய் என்றது",
+      "hint": "மணியின் அறிவுரை வரிகளை நினையுங்கள்.",
+      "explanation": "சுய கொள்கையின்றி வீசும் காற்றுக்கெல்லாம் ஆடுவதைச் சுட்டிக்காட்டி மணி எச்சரித்தது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் அங்கத நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "சுய கொள்கையின்றிச் சூழலுக்கு ஏற்ப நிறம் மாறும் போலி அகந்தையாளர்கள் முடிவில் வீழ்வார்கள்",
+        "திசைகாட்டிகளைப் பொருத்தக் கூடாது",
+        "மணிகளை அடிக்கக் கூடாது",
+        "கோபுரங்களைக் கட்டக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "சுய கொள்கையின்றிச் சூழலுக்கு ஏற்ப நிறம் மாறும் போலி அகந்தையாளர்கள் முடிவில் வீழ்வார்கள்",
+      "hint": "நிலையான கொள்கையின் முக்கியத்துவத்தை நினையுங்கள்.",
+      "explanation": "ஆன்டர்சன் சந்தர்ப்பவாத மனிதர்களின் போலிப் பகட்டை இச்சேவல் வடிவில் கேலி செய்தார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "திசைகாட்டி",
+      "meaning": "காற்று வீசும் திசையையோ பயணப் பாதையையோ காட்டும் கருவி",
+      "gloss": "weathercock, wind-vane"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "முலாம்",
+      "meaning": "உலோகப் பொருட்களின் மீது பளபளப்புக்காகப் பூசப்படும் தங்க அல்லது வெள்ளிப் பூச்சு",
+      "gloss": "gilding, plating"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "எகத்தாளம்",
+      "meaning": "மற்றவர்களை அற்பமாக எண்ணிக் கேலியும் கிண்டலும் செய்யும் ஆணவப் பேச்சு",
+      "gloss": "scorn, haughty mockery"
+    },
+    {
+      "word": "சுக்குநூறாக",
+      "meaning": "அடியோடு நொறுங்கிச் சிறு சிறு துண்டுகளாகச் சிதறும் நிலை",
+      "gloss": "into smithereens, completely shattered"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Weathercock\"?"
+      "tier": "remembering",
+      "prompt": "திசைகாட்டியின் மீது என்ன உலோகம் பூசப்பட்டிருந்தது?",
+      "type": "remembering",
+      "question": "திசைகாட்டியின் மீது என்ன உலோகம் பூசப்பட்டிருந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "காற்று வீசும் திசையெல்லாம் திரும்பும் திசைகாட்டி மனிதர்களின் எந்தக் குணத்தைக் குறிக்கிறது?",
+      "type": "understanding",
+      "question": "காற்று வீசும் திசையெல்லாம் திரும்பும் திசைகாட்டி மனிதர்களின் எந்தக் குணத்தைக் குறிக்கிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "பொதுவெளியில் பிறரின் வற்புறுத்தல்களுக்கு அடிபணியாமல் நமது அறநெறிக் கொள்கைகளில் நாம் எவ்வாறு உறுதியாக நிற்க வேண்டும்?",
+      "type": "applying",
+      "question": "பொதுவெளியில் பிறரின் வற்புறுத்தல்களுக்கு அடிபணியாமல் நமது அறநெறிக் கொள்கைகளில் நாம் எவ்வாறு உறுதியாக நிற்க வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "திசைகாட்டியின் சஞ்சலமான சுழற்சிக்கும், ஆலய மணியின் நிலையான உறுதியான இருப்புக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "திசைகாட்டியின் சஞ்சலமான சுழற்சிக்கும், ஆலய மணியின் நிலையான உறுதியான இருப்புக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'சந்தர்ப்பத்திற்கு ஏற்ப நிலைப்பாட்டை மாற்றிக் கொள்பவன் தலைவனாக முடியாது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'சந்தர்ப்பத்திற்கு ஏற்ப நிலைப்பாட்டை மாற்றிக் கொள்பவன் தலைவனாக முடியாது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "சேற்றில் உடைந்த சேவலைப் பார்த்து அந்த ஊர்ச் சிறுவர்கள் பேசிய அங்கத உரையாடலை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "சேற்றில் உடைந்த சேவலைப் பார்த்து அந்த ஊர்ச் சிறுவர்கள் பேசிய அங்கத உரையாடலை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

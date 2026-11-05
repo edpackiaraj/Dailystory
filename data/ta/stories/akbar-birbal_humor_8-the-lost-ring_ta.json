@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Lost Ring\"?",
+      "question": "மன்னர் அக்பர் தன் விலைமதிப்பற்ற நவரத்தின மோதிரத்தை எங்கே தவறவிட்டார்?",
       "options": [
-        "Wit beats power",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "நீராடும் போது தன் அந்தரங்க அறையில் கழற்றி வைத்த இடத்தில் காணாமல் போனது",
+        "போர்க்களத்தில் வாள் சண்டை இடும் போது விழுந்தது",
+        "வேட்டையாடக் காட்டுக்குச் சென்ற போது நழுவியது",
+        "யமுனை நதியில் படகு சவாரி செய்த போது ஆற்றில் விழுந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "அக்பரின் தனிப்பட்ட சேவகர்கள் மட்டுமே நுழையக்கூடிய அறையை நினைவுகூருங்கள்.",
+      "answer": "நீராடும் போது தன் அந்தரங்க அறையில் கழற்றி வைத்த இடத்தில் காணாமல் போனது",
+      "explanation": "அக்பரின் தனிப்பட்ட சேவகர்கள் மட்டுமே நுழையக்கூடிய அறையை நினைவுகூருங்கள்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "அறையில் இருந்த எட்டு சேவகர்களைப் பார்த்துப் பீர்பால் என்ன முழக்கமிட்டார்?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "\"மோதிரத்தைத் திருடிய திருடனின் தாடியில் ஒரு சிறிய துரும்பு ஒட்டிக்கொண்டிருக்கிறது!\" என்றார்",
+        "\"திருடனை இப்போது தலையை வெட்டப் போகிறேன்!\" என்றார்",
+        "\"மோதிரம் தானாகப் பேசும் ஆற்றல் கொண்டது!\" என்றார்",
+        "\"எல்லோரும் தங்கள் ஆடைகளைக் களைய வேண்டும்!\" என்றார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "திருடனின் தாடியைப் பற்றிக் கூறி பீர்பால் வீசிய உளவியல் வலையை யோசியுங்கள்.",
+      "answer": "\"மோதிரத்தைத் திருடிய திருடனின் தாடியில் ஒரு சிறிய துரும்பு ஒட்டிக்கொண்டிருக்கிறது!\" என்றார்",
+      "explanation": "திருடனின் தாடியைப் பற்றிக் கூறி பீர்பால் வீசிய உளவியல் வலையை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "பீர்பாலின் சொல்லைக் கேட்டதும் உண்மையான திருடன் என்ன செய்து மாட்டிக்கொண்டான்?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "பதற்றத்தில் தன் தாடியில் உண்மையிலேயே துரும்பு உள்ளதா என்று கைகளால் அவசரமாகத் தடவிப் பார்த்தான்",
+        "மன்னரின் காலில் விழுந்து கதறினான்",
+        "அங்கிருந்து வெளியே ஓட முயன்றான்",
+        "மோதிரத்தை வாயில் போட்டு விழுங்கினான்"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "தவறு செய்தவன் அனிச்சையாகத் தன் தாடியைத் தொட்டுக் காட்டியதைக் கவனியுங்கள்.",
+      "answer": "பதற்றத்தில் தன் தாடியில் உண்மையிலேயே துரும்பு உள்ளதா என்று கைகளால் அவசரமாகத் தடவிப் பார்த்தான்",
+      "explanation": "தவறு செய்தவன் அனிச்சையாகத் தன் தாடியைத் தொட்டுக் காட்டியதைக் கவனியுங்கள்."
     }
   ],
   "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "நாள்",
+      "meaning": "நாள் என்ற சொல்லின் சூழல் பொருள் (Signifies நாள் in the context of the story)"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "துரும்பு",
+      "meaning": "வைக்கோல் அல்லது புல்லின் மிகச் சிறிய துகள்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "பேரரசர்",
+      "meaning": "பேரரசர் என்ற சொல்லின் சூழல் பொருள் (Signifies பேரரசர் in the context of the story)"
+    },
+    {
+      "word": "அக்பரின்",
+      "meaning": "அக்பரின் என்ற சொல்லின் சூழல் பொருள் (Signifies அக்பரின் in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Lost Ring\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "அறையில் மொத்தம் எத்தனை மெய்க்காவலர்கள் பணியில் இருந்தனர்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wit beats power\"?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "திருடாத மற்ற ஏழு சேவகர்கள் ஏன் தங்கள் தாடியைத் தொட்டுப் பார்க்கவில்லை?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "பயன்பாடு",
+      "prompt": "நம்மிடம் உண்மை இருக்கும் போது வீண் வதந்திகளுக்கும் அச்சங்களுக்கும் நாம் ஏன் ஆட்படக்கூடாது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "சிந்தனை",
+      "prompt": "குற்றவாளிகள் தங்கள் சொந்த அச்சத்தினாலேயே தங்களை வெளிப்படுத்திக்கொள்வது எவ்வாறு நிகழ்கிறது?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

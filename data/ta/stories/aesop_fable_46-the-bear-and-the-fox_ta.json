@@ -2,12 +2,12 @@
   "id": "aesops-fables-46-the-bear-and-the-fox",
   "slug": "aesops-fables-46-the-bear-and-the-fox",
   "language": "ta",
-  "title": "The Bear and the Fox",
+  "title": "கரடியும் நரியும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A large brown bear loved to boast of his extraordinary gentleness, piety, and benevolence to all the woodland creatures. Standing before a gathering of animals, he puffed out his b...",
+  "summary": "\"நான் இறந்த மனிதர்களின் உடலைத் தொட மாட்டேன்\" என்று தன் கருணையைப் பற்றிப் பெருமை பேசிய கரடியிடம், \"செத்தவர்களை விட்டுவிட்டு உயிருள்ள மனிதர்களைக் கொன்று தின்னும் உன் கொடூரத்தை விட அதுவா கருணை?\" என்று நரி கேட்ட கதை.",
   "keywords": [
     "aesop's fables",
     "the bear and the fox",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A large brown bear loved to boast of his extraordinary gentleness, piety, and benevolence to all the woodland creatures. Standing before a gathering of animals, he puffed out his broad chest and declared:\n\n\"I am the most compassionate beast in all creation! Look at the lions, tigers, and wolves—how savagely they tear into living flesh! But as for me, I have such tender reverence for mortal life that I have never in all my years touched, harmed, or eaten a human corpse; I leave the departed to rest in peace!\"\n\nThe other beasts nodded in polite admiration of his noble virtue. But the clever fox stepped forward, tilted his head, and remarked with a biting smile:\n\n\"Your piety would be far more convincing, Master Bear, if you showed the same tender mercy to the living that you show to the dead! You may spare the corpses who can feel no pain, but you slaughter the living with your claws without a single tremor of regret!\"",
-  "moral": "Hypocrisy that pretends to spare the dead while preying upon the living deserves no praise.",
+  "full_text": "ஒரு காட்டில் வாழ்ந்த பெரிய கரடி ஒன்று தன் கொடூரக் குணத்தை மறைத்துக்கொண்டு, மற்ற விலங்குகளிடம் தான் மிகப்பெரிய கருணை உள்ளம் கொண்டவன் என்று தற்பெருமை பேசிக்கொண்டிருந்தது.\n\nஒரு நாள் அது நரியிடம் பெருமிதத்தோடு சொன்னது: \"நரியாரே! உலகத்தில் உள்ள கொடிய மாமிச உண்ணிகளைப் போல நான் இரக்கமற்றவன் அல்ல! இறந்துபோன மனிதர்களின் பிணங்களை நான் ஒருபோதும் தொடுவதோ அல்லது தின்பதோ இல்லை பார்த்தாயா? மனிதர்கள் மீது எனக்கு எத்தனை கருணையும் தர்ம சிந்தனையும் இருக்கிறது!\" என்று மார்தட்டிக் கொண்டது.\n\nஅதைக் கேட்ட புத்திசாலி நரி ஏளனமாகச் சிரித்தது. \"கரடியாரே! உன் போலி தர்மத்தைக் கேட்டு எனக்குச் சிரிப்புதான் வருகிறது! இறந்த மனிதர்களின் உடலைத் தொடாத நீ, உயிருள்ள அப்பாவி மனிதர்களைக் காட்டில் கண்டதும் பாய்ந்து சென்று அவர்களைக் கொன்று சதையைக் கிழித்துத் தின்கிறாயே!\n\nஅவர்கள் இறந்த பிறகு அவர்களைத் தொடாமல் விட்டுவிடுவதால் என்ன பயன்? முடிந்தால் உயிருள்ள மனிதர்களைக் கொல்லாமல் உயிரோடு விட்டுவிடு! உயிருள்ளவரை துன்புறுத்திவிட்டுச் செத்த பின் காட்டும் கருணை வெறும் கபட நாடகம்!\" என்று முகத்திலடித்தாற்போல் கூறியது. கரடி வெட்கித் தலைகுனிந்தது.",
+  "moral": "நீதி: உயிருள்ள மனிதர்களைத் துன்புறுத்திவிட்டு, அவர்கள் இறந்த பின் போலி இரக்கம் காட்டுவது அப்பட்டமான போலி நயவஞ்சகம்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Bear and the Fox illustration from the Aesop's Fables collection.",
-  "word_count": 165,
+  "word_count": 154,
   "reading_time": "2 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Bear and the Fox\"?",
+      "question": "கரடி நரியிடம் எதைப்பற்றிப் பெருமை பேசியது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "தான் இறந்த மனிதர்களின் உடலைத் தொடுவதோ தின்பதோ இல்லை என்று பெருமை பேசியது",
+        "தான் தேன் கூடுகளைக் கலைப்பதில்லை என்றது",
+        "தான் காட்டின் அரசனாகப் போகிறேன் என்றது",
+        "தான் மாமிசம் உண்பதை நிறுத்திவிட்டதாகக் கூறியது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "இறந்த உடல்களைத் தொடாத கரடியின் விசித்திர வாதத்தை நினைவுகூருங்கள்.",
+      "answer": "தான் இறந்த மனிதர்களின் உடலைத் தொடுவதோ தின்பதோ இல்லை என்று பெருமை பேசியது",
+      "explanation": "இறந்த உடல்களைத் தொடாத கரடியின் விசித்திர வாதத்தை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "நரி கரடியின் போலி கருணையை எவ்வாறு அம்பலப்படுத்தியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "உயிருள்ள மனிதர்களைக் கொன்று தின்றுவிட்டு, செத்த பின் இரக்கம் காட்டுவது வெறும் கபட நாடகம் என்றது",
+        "கரடியின் வாலில் தீ வைத்தது",
+        "வேடர்களை உதவிக்கு அழைத்தது",
+        "கரடி சொல்வது உண்மைதான் என்று பாராட்டியது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "உயிருள்ளவர்க்குச் செய்யும் கொடுமையை நரி சுட்டிக்காட்டியதைக் கவனியுங்கள்.",
+      "answer": "உயிருள்ள மனிதர்களைக் கொன்று தின்றுவிட்டு, செத்த பின் இரக்கம் காட்டுவது வெறும் கபட நாடகம் என்றது",
+      "explanation": "உயிருள்ளவர்க்குச் செய்யும் கொடுமையை நரி சுட்டிக்காட்டியதைக் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை சமுதாய மனிதர்களுக்கு உணர்த்தும் அறநெறி எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "மனிதர்கள் வாழும் போது அவர்களுக்கு அன்பும் உதவியும் செய்ய வேண்டும்; இறந்த பின் காட்டும் போலி மரியாதை பயனற்றது",
+        "கரடிகளோடு பேசக்கூடாது",
+        "காட்டுக்கு மனிதர்கள் செல்லவே கூடாது",
+        "நரிகளை மட்டுமே நம்ப வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "உயிருள்ள மனிதர்களை மதிப்பதன் மேன்மையை எண்ணிப்பாருங்கள்.",
+      "answer": "மனிதர்கள் வாழும் போது அவர்களுக்கு அன்பும் உதவியும் செய்ய வேண்டும்; இறந்த பின் காட்டும் போலி மரியாதை பயனற்றது",
+      "explanation": "உயிருள்ள மனிதர்களை மதிப்பதன் மேன்மையை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "தர்ம சிந்தனை",
+      "meaning": "பிற உயிர்கள் மீது இரக்கம் காட்டி தர்ம நெறியோடு வாழும் நற்பண்பு"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "மார்தட்டிக்",
+      "meaning": "தான் செய்த அற்பச் செயலை மிகப்பெரிய சாதனையாகப் பெருமை பேசுதல்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கபட நாடகம்",
+      "meaning": "மனதில் உள்ள கொடுமையை மறைத்துப் பிறர் முன் நல்லவன் போல் நடிக்கும் போலித்தனம்"
+    },
+    {
+      "word": "அப்பாவி",
+      "meaning": "எந்தத் தவறும் அறியாமல் வஞ்சகமில்லாமல் வாழும் எளிய மனிதர்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Bear and the Fox\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "கரடி தன்னை என்ன விலங்கு என்று புகழ்ந்து கொண்டது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "வாழும் காலத்தில் துன்புறுத்திவிட்டு இறந்த பின் புகழாரம் சூட்டுவது ஏன் சுயநலமானது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "பெற்றோரோ அல்லது பெரியவர்களோ வாழும் போதே அவர்களை அன்புடன் கவனிப்பது ஏன் உண்மையான தர்மம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "சமூகத்தில் காணப்படும் போலி அறவேடங்களை நரியைப் போல நாம் எவ்வாறு பகுத்தறிவோடு இனம் காண வேண்டும்?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

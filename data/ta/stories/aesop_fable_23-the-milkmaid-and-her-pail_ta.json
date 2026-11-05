@@ -2,12 +2,12 @@
   "id": "aesops-fables-23-the-milkmaid-and-her-pail",
   "slug": "aesops-fables-23-the-milkmaid-and-her-pail",
   "language": "ta",
-  "title": "The Milkmaid and Her Pail",
+  "title": "பால் விற்கும் பெண்ணும் பகற்கனவும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "Patty, the milkmaid, had filled her polished wooden pail with rich, creamy milk from the morning milking. Balancing the heavy pail gracefully upon her head, she set off down the su...",
+  "summary": "தலையில் பால் பானையைச் சுமந்துகொண்டு, எதிர்காலக் கற்பனைகளில் மூழ்கித் தலையாட்டிப் பானையை உடைத்த பால்காரப் பெண்ணின் கதை.",
   "keywords": [
     "aesop's fables",
     "the milkmaid and her pail",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Patty, the milkmaid, had filled her polished wooden pail with rich, creamy milk from the morning milking. Balancing the heavy pail gracefully upon her head, she set off down the sunny country lane toward the market town, her mind drifting into delightful daydreams of future fortune.\n\n\"The milk in this pail will easily sell for three silver coins,\" she reasoned with a bright smile. \"With three silver coins, I shall purchase a hundred eggs from farmer Giles. Even if some are addled, at least eighty plump, healthy chicks will hatch in the spring.\n\n\"I will feed the chicks on grain and kitchen crumbs until autumn, when fat pullets bring the highest price at the Michaelmas fair. With the money from my poultry, I will buy a stunning silk party dress of emerald green, with ribbons of crimson and slippers of fine leather.\n\n\"I will wear this dazzling gown to the Christmas ball! All the handsome young men will flock around me, begging for a dance. The miller's son will ask for my hand, and the wealthy farmer's boy will plead for a smile. But I shall toss my head with haughty disdain and say: 'No!'\"\n\nLost in the intoxication of her daydream, Patty suited the action to the thought: she gave her head a sharp, proud toss!\n\nInstantly, the wooden pail slipped from her head and crashed onto the stony lane. The fresh, creamy milk poured out into the dirt, soaking into the dry dust until not a single drop remained!\n\nWeeping bitterly over the white puddle, Patty returned home to face her mother's scolding, learning the eternal truth that building castles in the air without watching your feet brings present ruin.",
-  "moral": "Do not count your chickens before they are hatched; keep your mind on the task at hand.",
+  "full_text": "ஒரு கிராமத்தில் வசித்து வந்த பால்காரப் பெண் ஒரு நாள் காலையில் தனது பசு மாடுகள் கறந்த தூய்மையான பசும்பாலால் ஒரு பெரிய மண்பானையை நிரப்பினாள். அந்தப் பால் பானையைத் தனது தலையில் கவனமாகச் சுமந்துகொண்டு சந்தைக்கு விற்கப் புறப்பட்டாள்.\n\nநடந்து செல்லும் வழியில் அவளது மனம் பகற்கனவில் மிதக்கத் தொடங்கியது: 'இந்தப் பாலை விற்றால் எனக்கு நிறைய வெள்ளிக் காசுகள் கிடைக்கும். அந்தக் காசுகளைக் கொண்டு நான் நூறு கோழி முட்டைகளை வாங்குவேன். அந்த முட்டைகளை அடை காத்து நூறு அழகான கோழிக்குஞ்சுகளை உருவாக்குவேன்.'\n\nஅவளது கற்பனை மேலும் வளர்ந்தது: 'அந்தக் கோழிகள் வளர்ந்ததும் அவற்றை நல்ல விலைக்கு விற்று ஒரு அழகான பட்டுப் புடவையும், ஒரு ஆட்டுக்குட்டியையும் வாங்குவேன். அந்த ஆடு குட்டிகள் போட்டுப் பெருகும். பிறகு நான் ஊரிலேயே பெரிய பணக்காரியாக மாறுவேன். ஊர்த்திருவிழாவில் இளைஞர்கள் என்னை விரும்பி அணுகும்போது, நான் திமிராக என் தலையை இப்படி அசைத்து மறுப்பேன்!'\n\nஅவள் தனது கற்பனையில் மெய்மறந்து, உண்மையில் தனது தலையை பலமாக இடமும் வலமும் அசைத்தாள்! அடுத்த வினாடியே தலையில் இருந்த மண்பானை நழுவித் தரையில் விழுந்து சுக்குநூறாக உடைந்தது. பால் முழுவதும் புழுதியில் ஓடி வீணானது. கையில் ஒரு காசுமின்றி, முட்டைகளும் ஆடுகளும் இன்றியே அவள் கண்ணீருடன் வீடு திரும்பினாள்.",
+  "moral": "நீதி: கையில் இல்லாத எதிர்காலக் கற்பனைகளில் மிதக்கக் கூடாது; செயலில் இறங்காமல் கனவு மட்டும் காண்பது பெரும் நஷ்டத்தைத் தரும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Milkmaid and Her Pail illustration from the Aesop's Fables collection.",
   "word_count": 282,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Milkmaid and Her Pail\"?",
+      "question": "பால்விற்பனைப் பெண் தலையில் எதைச் சுமந்து சென்றாள்?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "பழக்கூடை",
+        "புதிய பால் நிறைந்த மண்பானை",
+        "முட்டைக்கூடை",
+        "மலர்மாலை"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "புதிய பால் நிறைந்த மண்பானை",
+      "explanation": "கறந்த புதிய பசும்பால் நிரம்பிய மண்பானையைத் தலையில் சுமந்து சென்றாள்.",
+      "answerIndex": 1,
+      "hint": "கறந்த புதிய பசும்பால் நிரம்பிய மண்பானையைத் தலையில் சுமந்து சென்றாள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "பால்காரி தன் கற்பனையில் எதையெல்லாம் வாங்கத் திட்டமிட்டாள்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "புதிய வீடும் நிலமும்",
+        "கோழி முட்டைகள், குஞ்சுகள், செம்மறி ஆடுகள், பட்டுச் சேலை",
+        "குதிரை வண்டி",
+        "நகைகள்"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "கோழி முட்டைகள், குஞ்சுகள், செம்மறி ஆடுகள், பட்டுச் சேலை",
+      "explanation": "பால் விற்ற பணத்தில் முட்டைகள், குஞ்சுகள், ஆடுகள், பின்னர் பணக்காரி ஆவது எனத் தொடர் கற்பனை செய்தாள்.",
+      "answerIndex": 1,
+      "hint": "பால் விற்ற பணத்தில் முட்டைகள், குஞ்சுகள், ஆடுகள், பின்னர் பணக்காரி ஆவது எனத் தொடர் கற்பனை செய்தாள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "மண்பானை கீழே விழுந்து உடைய என்ன காரணம்?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "கால் சறுக்கியது",
+        "கற்பனையில் தலையைத் திமிராக அசைத்ததால் பானை நழுவி விழுந்தது",
+        "காற்று பலமாக வீசியது",
+        "யாரோ மோதினர்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "கற்பனையில் தலையைத் திமிராக அசைத்ததால் பானை நழுவி விழுந்தது",
+      "explanation": "தான் மறுப்பது போலத் தலையை நிஜத்திலேயே பலமாக அசைத்ததால் பானை கீழே விழுந்து உடைந்தது.",
+      "answerIndex": 1,
+      "hint": "தான் மறுப்பது போலத் தலையை நிஜத்திலேயே பலமாக அசைத்ததால் பானை கீழே விழுந்து உடைந்தது."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "மண்பானை",
+      "meaning": "சுடப்பட்ட களிமண்ணாலான பாண்டம் (Earthen pot)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "கற்பனையில்",
+      "meaning": "மனக்கண்ணில் ஓடிய எண்ணங்களில் (In fantasy / daydreaming)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "சுக்குநூறாக",
+      "meaning": "சிறு சிறு துகள்களாக உடைந்து (Shattered to pieces)"
+    },
+    {
+      "word": "புழுதியில்",
+      "meaning": "மண் துகள்கள் படிந்த தூசியில் (In the dust)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Milkmaid and Her Pail\"?"
+      "type": "ஞாபகப்படுத்துதல் (Remembering)",
+      "question": "பால் கீழே கொட்டியதும் பால்காரி என்ன செய்தாள்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "type": "புரிதல் (Understanding)",
+      "question": "நடைமுறை எதார்த்தத்தை மறந்து எதிர்காலப் பகற்கனவில் மிதப்பது ஏன் தற்போதைய காரியத்தைக் கெடுக்கிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "type": "பயன்பாடு (Applying)",
+      "question": "'முட்டை பொரிக்கும் முன்பே குஞ்சுகளை எண்ணாதே' என்ற ஆங்கிலப் பழமொழியை உங்கள் சொந்த அனுபவத்துடன் ஒப்பிடுக."
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "type": "மதிப்பீடு (Evaluating)",
+      "question": "எதிர்காலக் கனவுகளும் திட்டங்களும் ஒரு மனிதனுக்கு அவசியமா அல்லது அது கவனச்சிதறலா? சமநிலையை மதிப்பிடுக."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -123,7 +129,10 @@
   "series_id": null,
   "part_number": "Perry 23",
   "reviewed": true,
-  "source": "Aesop - Public Domain",
+  "source": "Aesop's Fables (Townsend Classical Recension)",
   "license": "Public Domain",
-  "credit": "Aesop's Fables Heritage Anthology"
+  "credit": "Aesop's Fables Heritage Anthology",
+  "reviewer": "Dr. S. Edward Packiaraj",
+  "review_date": "2026-11-03",
+  "review_status": "human_verified"
 }

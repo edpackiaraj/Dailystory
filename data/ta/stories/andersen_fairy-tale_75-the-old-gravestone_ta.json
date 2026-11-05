@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-75-the-old-gravestone",
   "slug": "hans-christian-andersen-75-the-old-gravestone",
   "language": "ta",
-  "title": "The Old Gravestone (The Memory of Goodness)",
+  "title": "பழைய கல்லறைக் கல்லும் மறைந்த தம்பதியரின் நற்பணிகளும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "An ancient gravestone had been moved to the kitchen courtyard to serve as a stepping stone by the well. Its inscription was nearly worn away by the footsteps of water-carriers....",
+  "summary": "வீட்டின் சமையலறை முற்றத்தில் கிணற்றடிப் படிக்கல்லாக வைக்கப்பட்டிருந்த எழுத்துக்கள் தேய்ந்த பழைய கல்லறைக் கல், பல ஆண்டுகளுக்கு முன் வாழ்ந்து மறைந்த அன்பும் இரக்கமும் கொண்ட தம்பதியரின் நற்பணிகளை நினைவுகூர்ந்த நெகிழ்ச்சியான கதை.",
   "keywords": [
     "hans christian andersen",
     "the old gravestone",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Beneath the cozy eaves of an antique home where climbing honeysuckle framed the dormer windows, there was An ancient gravestone had been moved to the kitchen courtyard to serve as a stepping stone by the well. Its inscription was nearly worn away by the footsteps of water-carriers..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the memory of the righteous is blessed; quiet acts of mercy survive the decay of marble.",
-  "moral": "The memory of the righteous is blessed; quiet acts of mercy survive the decay of marble.",
+  "full_text": "அந்தப் பழைய வீட்டின் சமையலறைக் கொல்லைப்புற முற்றத்தில், கிணற்றின் அருகே ஒரு பழைய படிக்கல் போடப்பட்டிருந்தது.\n    \nஅது உண்மையில் ஒரு பழங்காலத்துச் சலவைக்கல்லால் ஆன கல்லறைக் கல் ஆகும். பல தலைமுறைகளாகத் தண்ணீர் சுமந்து சென்ற மக்களின் காலடிப் பதிவுகளால், அந்தக் கல்லில் பொறிக்கப்பட்டிருந்த பெயர்களும் எழுத்துக்களும் முற்றிலுமாகத் தேய்ந்து போயிருந்தன.\n    \nஒரு நாள் மாலையில், அக்குடும்பத்து முதிய பாட்டி அந்தப் பழைய கல்லின் மீது அமர்ந்து தன் பேரக்குழந்தைகளுக்கு அதன் வரலாற்றைக் கூறினார்.\n    \n\"குழந்தைகளே! இந்தக் கல் பல ஆண்டுகளுக்கு முன் வாழ்ந்த ஒரு நல்ல தம்பதியரின் கல்லறைக் கல். அவர்கள் இருவரிடமும் பெரும் செல்வம் இல்லை; ஆனால் ஊரில் வறுமையால் தவித்த ஏழைகளுக்கும் நோயாளிகளுக்கும் தங்களின் சொந்தக் கரங்களால் உணவளித்து மருந்து கொடுத்து ஆதரித்தனர்.\n    \nஅவர்கள் மறைந்த போது ஊர் மக்கள் கண்ணீருடன் இக்கல்லை நட்டனர். காலப்போக்கில் ஆலயம் இடிக்கப்பட்ட போது இந்தக் கல் இங்கே படிக்கல்லாக வந்து சேர்ந்தது!\" என்றார் பாட்டி.\n    \nகுழந்தைகள் அந்தக் கல்லைத் தொட்டுப் பார்த்தனர்; தேய்ந்துபோன அந்தப் பாறையின் அடியில் தூய மனித நேயத்தின் நறுமணம் வீசுவது போல உணர்ந்தனர்.\n    \nமனிதர்களின் பெயர்கள் கல்லில் செதுக்கப்பட்டுத் தேய்ந்து போகலாம்; ஆனால் அவர்கள் செய்த தன்னலமற்ற அறப்பணிகள் விண்ணுலகில் என்றென்றும் அழியாத பொன்னெழுத்துக்களாகப் பொறிக்கப்பட்டிருக்கும்.",
+  "moral": "கல்லறைக் கற்களின் எழுத்துக்கள் காலத்தால் தேய்ந்து மறைந்தாலும், மனிதர்கள் வாழ்நாளில் செய்த தூய அறப்பணிகளும் நல்லெண்ணமும் இறைவனின் நினைவில் என்றென்றும் வாழும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Old Gravestone illustration from the Hans Christian Andersen collection.",
   "word_count": 225,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Old Gravestone\"?",
+      "question": "கிணற்றடியில் படிக்கல்லாக வைக்கப்பட்டிருந்த கல் உண்மையில் என்னவாக இருந்தது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஒரு நல்ல தம்பதியரின் பழங்காலத்துச் சலவைக்கல் கல்லறைப் பலகை",
+        "ஒரு சாதாரணக் கருங்கல்",
+        "அரண்மனை வாசல் படி",
+        "கோட்டை சுவர் துண்டு"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "ஒரு நல்ல தம்பதியரின் பழங்காலத்துச் சலவைக்கல் கல்லறைப் பலகை",
+      "hint": "எழுத்துக்கள் தேய்ந்த பழைய நினைவுக் கல்லை நினையுங்கள்.",
+      "explanation": "அது ஒரு காலத்தில் ஏழைகளுக்கு உதவிய நல்ல தம்பதியரின் கல்லறையில் நட்ட சலவைக்கல் ஆகும்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "அந்தத் தம்பதியர் தங்கள் வாழ்நாளில் எத்தகைய நற்செயல்களைச் செய்தனர்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "ஏழைகளுக்கும் நோயாளிகளுக்கும் உணவும் மருந்தும் தந்து ஆதரித்தனர்",
+        "போர் தொடுத்தனர்",
+        "வரி வசூலித்தனர்",
+        "மாளிகைகள் கட்டினர்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "ஏழைகளுக்கும் நோயாளிகளுக்கும் உணவும் மருந்தும் தந்து ஆதரித்தனர்",
+      "hint": "அவர்களின் தன்னலமற்ற இரக்கப் பணிகளை நினையுங்கள்.",
+      "explanation": "அவர்கள் எளிய மக்களுக்குத் தங்கள் கரங்களால் பணிவிடை செய்து தர்மம் செய்தனர்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனித குலத்திற்கு உணர்த்தும் உன்னத உண்மை என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "கற்களில் உள்ள பெயர்கள் தேய்ந்தாலும் மனிதர்கள் செய்த அறப்பணிகள் விண்ணில் அழியாமல் நிலைக்கும்",
+        "கல்லறைக் கற்களை மிதிக்கக் கூடாது",
+        "கிணறுகளைத் தோண்டக் கூடாது",
+        "பழைய கற்களை உடைக்க வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "கற்களில் உள்ள பெயர்கள் தேய்ந்தாலும் மனிதர்கள் செய்த அறப்பணிகள் விண்ணில் அழியாமல் நிலைக்கும்",
+      "hint": "புண்ணியச் செயல்களின் அழியாத தன்மையை நினையுங்கள்.",
+      "explanation": "பௌதிகச் சின்னங்கள் அழிந்தாலும் நற்குணத்தின் நினைவுகள் தெய்வீகமாக நிலைத்து நிற்கும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கொல்லைப்புற",
+      "meaning": "வீட்டின் பின் பக்கத்தில் அமைந்த முற்றம் அல்லது வெளிப் பகுதி",
+      "gloss": "backyard, courtyard"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "சலவைக்கல்லால்",
+      "meaning": "வெள்ளை நிறப் பளபளப்பு கொண்ட மென்மையான பளிங்குக் கல்லால்",
+      "gloss": "of marble stone"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "அறப்பணிகள்",
+      "meaning": "ஏழை எளிய மக்களுக்கு மனமுவந்து செய்யும் தர்மச் செயல்கள்",
+      "gloss": "charitable deeds, acts of mercy"
+    },
+    {
+      "word": "பொன்னெழுத்துக்களாகப்",
+      "meaning": "என்றும் அழியாத தங்க எழுத்துக்களைப் போலப் பெருமையோடு",
+      "gloss": "in letters of gold"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Old Gravestone\"?"
+      "tier": "remembering",
+      "prompt": "கல்லறைக் கல்லின் வரலாற்றைக் குழந்தைகளுக்கு எடுத்துரைத்தவர் யார்?",
+      "type": "remembering",
+      "question": "கல்லறைக் கல்லின் வரலாற்றைக் குழந்தைகளுக்கு எடுத்துரைத்தவர் யார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "கல்லின் எழுத்துக்கள் தேய்ந்து போயிருந்தும் அதன் புனித மதிப்பு குறையாமல் இருந்ததன் காரணம் என்ன?",
+      "type": "understanding",
+      "question": "கல்லின் எழுத்துக்கள் தேய்ந்து போயிருந்தும் அதன் புனித மதிப்பு குறையாமல் இருந்ததன் காரணம் என்ன?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது சமூகத்தில் பிறருக்குச் செய்யும் உதவிகளைப் பெயருக்காக அன்றி உண்மையான அன்போடு எவ்வாறு செய்ய வேண்டும்?",
+      "type": "applying",
+      "question": "நமது சமூகத்தில் பிறருக்குச் செய்யும் உதவிகளைப் பெயருக்காக அன்றி உண்மையான அன்போடு எவ்வாறு செய்ய வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "வெளிப்பகட்டு நினைவுச் சின்னங்களுக்கும், மனித இதயங்களில் வாழும் நற்செயல்களின் நினைவுகளுக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "வெளிப்பகட்டு நினைவுச் சின்னங்களுக்கும், மனித இதயங்களில் வாழும் நற்செயல்களின் நினைவுகளுக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'நல்லவர்களின் நினைவே மிகச் சிறந்த ஆசீர்வாதம்' என்ற கருத்தை இக்கதையோடு ஒப்பிட்டு எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'நல்லவர்களின் நினைவே மிகச் சிறந்த ஆசீர்வாதம்' என்ற கருத்தை இக்கதையோடு ஒப்பிட்டு எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "அந்தப் படிக்கல்லின் மீது குழந்தைகள் மலர்களைத் தூவி அந்த நல்ல தம்பதியருக்கு அஞ்சலி செலுத்திய காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "அந்தப் படிக்கல்லின் மீது குழந்தைகள் மலர்களைத் தூவி அந்த நல்ல தம்பதியருக்கு அஞ்சலி செலுத்திய காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

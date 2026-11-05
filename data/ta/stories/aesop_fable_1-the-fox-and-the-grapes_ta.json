@@ -26,7 +26,7 @@
   "moral": "நீதி: தங்களால் அடைய முடியாத ஒன்றை இழிவாகப் பேசுவது பலவீனமானவர்களின் அறியாமை குணமாகும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Fox and the Grapes illustration from the Aesop's Fables collection.",
-  "word_count": 264,
+  "word_count": 156,
   "reading_time": "2 min",
   "listen_time": "3 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Fox and the Grapes\"?",
+      "question": "திராட்சைத் தோட்டத்திற்குள் நுழைந்த நரியின் நிலை என்னவாக இருந்தது?",
       "options": [
-        "It is easy to despise what you cannot get.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "கடுமையான பசியும் தாகமும் வாட்டியெடுத்தது",
+        "வயிறு நிறைய உண்டு ஓய்வெடுக்க விரும்பியது",
+        "வேடனிடமிருந்து தப்பித்து ஓடி வந்தது",
+        "தோட்டக்காரனுடன் விளையாட விரும்பியது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "கதை தொடங்கும் போது நரியின் உடல் சோர்வை நினைவுகூருங்கள்.",
+      "answer": "கடுமையான பசியும் தாகமும் வாட்டியெடுத்தது",
+      "explanation": "கதை தொடங்கும் போது நரியின் உடல் சோர்வை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "உயரமான பந்தலில் இருந்த திராட்சைப் பழங்களைப் பறிக்க நரி என்ன செய்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "முழு பலத்தையும் திரட்டி பலமுறை மேலே எகிறிக் குதித்தது",
+        "மர ஏணியை எடுத்து வந்து பந்தலில் ஏறியது",
+        "தோட்டக்காரனிடம் பழங்களைப் பறித்துக் கொடுக்குமாறு கெஞ்சியது",
+        "கல்லால் அடித்துப் பழங்களை வீழ்த்தியது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "நரி பழங்களை எட்ட முயன்ற விதத்தை கவனியுங்கள்.",
+      "answer": "முழு பலத்தையும் திரட்டி பலமுறை மேலே எகிறிக் குதித்தது",
+      "explanation": "நரி பழங்களை எட்ட முயன்ற விதத்தை கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "பழங்களை எட்ட முடியாமல் போனதும் நரி என்ன கூறித் தன்னைத் தேற்றிக்கொண்டது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "\"சீச்சீ! இந்தப் பழங்கள் இன்னும் பழுக்கவே இல்லை, மிகவும் புளிக்கும்!\"",
+        "\"இந்தப் பழங்கள் மிக ருசியாக இருக்கும் போலிருக்கிறது!\"",
+        "\"நாளை வந்து மீண்டும் பறித்துப் பார்க்கலாம்!\"",
+        "\"இவற்றை மற்ற நரிகளுக்குக் கொண்டு செல்வேன்!\""
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "தன்னை ஏமாற்றிக்கொள்ள நரி கூறிய புகழ்பெற்ற பொய்க் காரணத்தை எண்ணிப்பாருங்கள்.",
+      "answer": "\"சீச்சீ! இந்தப் பழங்கள் இன்னும் பழுக்கவே இல்லை, மிகவும் புளிக்கும்!\"",
+      "explanation": "தன்னை ஏமாற்றிக்கொள்ள நரி கூறிய புகழ்பெற்ற பொய்க் காரணத்தை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பந்தலில்",
+      "meaning": "கொடி படர்வதற்காக மரக்கட்டைகளால் அமைக்கப்பட்ட உயர்ந்த சட்டம்"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "இயலாமை",
+      "meaning": "ஒரு செயலைச் செய்து முடிக்க ஆற்றல் இல்லாமல் போகும் நிலை"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "எகிறி",
+      "meaning": "முழு வேகத்துடன் மேலே தாவி அல்லது பாய்ந்து"
+    },
+    {
+      "word": "கூசிவிடும்",
+      "meaning": "புளிப்பு போன்ற சுவையால் பற்களில் உண்டாகும் கூர்மையான உணர்வு"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Fox and the Grapes\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "திராட்சைப் பழங்கள் எந்த இடத்தில் தொங்கிக்கொண்டிருந்தன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"It is easy to despise what you cannot get.\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "பழங்கள் புளிக்கும் என்று நரி ஏன் கூறியது? அதன் உண்மையான நோக்கம் என்ன?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "நமக்கு ஒரு பொருள் கிடைக்காதபோது, அதை இழிவாகப் பேசாமல் உண்மையை ஒப்புக்கொள்வது ஏன் சிறந்தது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "தோல்விகளை நரியைப் போலப் பொய்யால் மூடாமல், வெற்றிகரமான மனிதர்கள் எவ்வாறு எதிர்கொள்கிறார்கள்?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

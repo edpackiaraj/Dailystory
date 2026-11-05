@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-135-the-wicked-prince",
   "slug": "hans-christian-andersen-135-the-wicked-prince",
   "language": "ta",
-  "title": "The Wicked Prince",
+  "title": "கொடுங்கோல் இளவரசனும் கொசுவின் மூக்குக் குத்தலும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "A cruel, power-mad prince conquered all neighboring kingdoms, burned peaceful cities, and erected golden statues of himself, demanding divine worship....",
+  "summary": "உலகத்தின் அனைத்து நாடுகளையும் போரினால் அழித்து, இறைவனுக்கே சவால் விட்டு விண்ணுலகைத் தாக்க இரும்புப் படகுகளில் பறந்த கொடுங்கோல் இளவரசன், கடவுள் அனுப்பிய ஒரு சின்னஞ்சிறு கொசுவின் குத்தலால் மதிமயங்கித் தன் கர்வத்தை இழந்த அங்கதக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the wicked prince",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Beneath the cozy eaves of an antique home where climbing honeysuckle framed the dormer windows, there was A cruel, power-mad prince conquered all neighboring kingdoms, burned peaceful cities, and erected golden statues of himself, demanding divine worship..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that tyrants who seek to conquer heaven are brought to their knees by the humblest gnat.",
-  "moral": "Tyrants who seek to conquer heaven are brought to their knees by the humblest gnat.",
+  "full_text": "ஒரு கொடூரமான கொடுங்கோல் இளவரசன் வாழ்ந்து வந்தான். அவன் அண்டை நாடுகள் அனைத்தின் மீதும் போர் தொடுத்து, நகரங்களை எரித்து, மக்களை அடிமைகளாக்கினான்.\n    \nஅவன் தன் உருவத்தைத் தங்கச் சிலைகளாக நாடெங்கும் நட்டு, \"நானே கடவுள்! அனைவரும் என்னை மட்டுமே வணங்க வேண்டும்!\" என்று உத்தரவிட்டான்.\n    \nஆனால் அவனது பேராசை அடங்கவில்லை: \"பூமியை வென்றுவிட்டேன்; இனி விண்ணுலகையும் வென்று கடவுளையே என் சிறைக்கைதியாக்குவேன்!\" என்று ஆணவத்தோடு கொக்கரித்தான்.\n    \nஅவன் காற்றிலும் மேகங்களிலும் பறக்கக்கூடிய பிரம்மாண்டமான இரும்புப் போர்க் கப்பல்களை உருவாக்கினான்; ஆயிரமாயிரம் வீரர்களோடு வானத்தை நோக்கிப் படையெடுத்தான்.\n    \nவிண்ணுலகின் வாசலில், இறைவன் அவனோடு போரிட எந்தப் பெரும்படையையும் அனுப்பவில்லை!\n    \nமாறாக, ஒரே ஒரு சின்னஞ்சிறு கொசுவை மட்டும் அனுப்பினார்!\n    \nஅந்தச் சிறிய கொசு இளவரசனின் காதுக்குள் புகுந்து, அவனது மூக்கின் உட்புறத்தில் ஒரே ஒரு கொட்டு கொட்டியது!\n    \nஅந்தச் சிறிய கொசுவின் நஞ்சும் வலியும் அவனைப் பைத்தியக்காரனாக்கியது! அவன் வலியால் தரையில் விழுந்து புரண்டான்; தன் சொந்த வாளாலேயே தன் முகத்தைக் கிழித்துக் கொண்டான்!\n    \nஅவனது வீரர்கள் அவனைப் பார்த்து ஏளனம் செய்து கைவிட்டு ஓடினர்; உலகையே வெல்ல நினைத்த மாபெரும் கொடுங்கோலன் ஒரு அற்பக் கொசுவின் முன்னிலையில் மண்டியிட்டு அலறி மாண்டான்.",
+  "moral": "பேராசையாலும் அதிகார வெறியாலும் கடவுளுக்கே சவால் விடத் துணியும் கொடுங்கோலர்களின் மமதையை, இயற்கையின் மிகச் சிறிய படைப்பு கூட ஒரு நொடியில் சுக்குநூறாக உடைத்துவிடும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Wicked Prince illustration from the Hans Christian Andersen collection.",
   "word_count": 214,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Wicked Prince\"?",
+      "question": "விண்ணுலகைத் தாக்கி இறைவனையே சிறைபிடிக்கச் சென்ற கொடுங்கோலனை அடக்க இறைவன் எதனை அனுப்பினார்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஒரே ஒரு சின்னஞ்சிறு கொசுவை மட்டும் அனுப்பினார்",
+        "மின்னலை அனுப்பினார்",
+        "இடி முழக்கத்தை அனுப்பினார்",
+        "ராட்சதப் படையை அனுப்பினார்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "ஒரே ஒரு சின்னஞ்சிறு கொசுவை மட்டும் அனுப்பினார்",
+      "hint": "மிகச் சிறிய பூச்சியின் கொட்டை நினையுங்கள்.",
+      "explanation": "இறைவன் பெரும் படைகளை அனுப்பாமல் எளிய ஒரு கொசுவை அனுப்பி அவனது கர்வத்தை அடக்கினார்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கொசுவின் குத்தலால் கொடுங்கோல் இளவரசனுக்கு என்ன நேர்ந்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "வலியால் பைத்தியமாகித் தன் முகத்தையே கிழித்துக் கொண்டு அசிங்கமாக மடிந்தான்",
+        "அவன் வெற்றி பெற்றான்",
+        "அவன் தேவதையானான்",
+        "அவன் அமைதியாகத் தூங்கினான்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "வலியால் பைத்தியமாகித் தன் முகத்தையே கிழித்துக் கொண்டு அசிங்கமாக மடிந்தான்",
+      "hint": "அவனது அவமானகரமான முடிவை நினையுங்கள்.",
+      "explanation": "கொசுவின் குடைச்சலால் நிலைகுலைந்த இளவரசன் தன் சொந்தக் கையாலேயே அழிந்து போனான்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் கூர்மையான ஆன்மீக நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "இறைவனுக்கே சவால் விடும் கொடிய சர்வாதிகாரிகளின் கர்வத்தை இயற்கையின் மிகச் சிறிய படைப்பும் உடைக்கும்",
+        "கொசுக்களைப் பிடிக்கக் கூடாது",
+        "இரும்புக் கப்பல்களைக் கட்டக் கூடாது",
+        "போர்களை ஆதரிக்க வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "இறைவனுக்கே சவால் விடும் கொடிய சர்வாதிகாரிகளின் கர்வத்தை இயற்கையின் மிகச் சிறிய படைப்பும் உடைக்கும்",
+      "hint": "செருக்கின் வீழ்ச்சியை நினையுங்கள்.",
+      "explanation": "ஆன்டர்சன் கொடுங்கோலர்களின் அகந்தையை ஒரு கொசுவின் மூலம் நையாண்டி செய்து அழிவைக் காட்டினார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கொடுங்கோல்",
+      "meaning": "மக்களைத் துன்புறுத்தும் இரக்கமற்ற கொடிய சர்வாதிகார ஆட்சி முறை கொண்ட",
+      "gloss": "tyrannical, despotic"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "இரும்புப்",
+      "meaning": "உறுதியான இரும்பு உலோகத் தகடுகளால் போர்க்களத்திற்காக அமைக்கப்பட்ட",
+      "gloss": "iron, iron-plated"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கொக்கரித்தான்",
+      "meaning": "வரம்பு மீறிய கர்வத்தோடும் ஆணவத்தோடும் வீண் சவால் விட்டுக் கத்தினான்",
+      "gloss": "boasted insolently, crowed"
+    },
+    {
+      "word": "அலறி",
+      "meaning": "தாங்க முடியாத கடுமையான வலியினாலும் பயத்தினாலும் உரக்கக் கூச்சலிட்டு",
+      "gloss": "screaming in agony, howling"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Wicked Prince\"?"
+      "tier": "remembering",
+      "prompt": "கொடுங்கோல் இளவரசன் விண்ணுலகைத் தாக்க எத்தகைய போர்க் கப்பல்களை உருவாக்கினான்?",
+      "type": "remembering",
+      "question": "கொடுங்கோல் இளவரசன் விண்ணுலகைத் தாக்க எத்தகைய போர்க் கப்பல்களை உருவாக்கினான்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "இறைவன் பெரும் படைகளை அனுப்பாமல் ஒரு சிறிய கொசுவை அனுப்பியதன் தத்துவார்த்தப் பொருளை விளக்குக.",
+      "type": "understanding",
+      "question": "இறைவன் பெரும் படைகளை அனுப்பாமல் ஒரு சிறிய கொசுவை அனுப்பியதன் தத்துவார்த்தப் பொருளை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "வரம்பற்ற அதிகாரமும் பணபலமும் ஒரு மனிதனை மமதையில் ஆழ்த்தாமல் இருக்க நாம் எவ்வாறு பணிவைக் கடைப்பிடிக்க வேண்டும்?",
+      "type": "applying",
+      "question": "வரம்பற்ற அதிகாரமும் பணபலமும் ஒரு மனிதனை மமதையில் ஆழ்த்தாமல் இருக்க நாம் எவ்வாறு பணிவைக் கடைப்பிடிக்க வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "இளவரசனின் பிரம்மாண்டமான இரும்புப் படைகளுக்கும், கொசுவின் எளிய இயற்கை ஆற்றலுக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "இளவரசனின் பிரம்மாண்டமான இரும்புப் படைகளுக்கும், கொசுவின் எளிய இயற்கை ஆற்றலுக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'இயற்கையின் நியதிகளையும் இறைவனின் வரம்புகளையும் மீறும் எந்தப் பேராதிக்கமும் நிலைக்காது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'இயற்கையின் நியதிகளையும் இறைவனின் வரம்புகளையும் மீறும் எந்தப் பேராதிக்கமும் நிலைக்காது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "கொடுங்கோலனின் வீழ்ச்சிக்குப் பின் விடுதலையடைந்த மக்கள் பாடிய ஒரு சுதந்திரப் பாடலை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "கொடுங்கோலனின் வீழ்ச்சிக்குப் பின் விடுதலையடைந்த மக்கள் பாடிய ஒரு சுதந்திரப் பாடலை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

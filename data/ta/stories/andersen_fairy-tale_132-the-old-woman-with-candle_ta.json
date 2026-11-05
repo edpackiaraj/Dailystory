@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-132-the-old-woman-with-candle",
   "slug": "hans-christian-andersen-132-the-old-woman-with-candle",
   "language": "ta",
-  "title": "The Old Woman with the Candle",
+  "title": "ஜன்னல் மெழுகுவர்த்தியும் கடலில் வழிகாட்டிய தாயன்பும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Every stormy night, an elderly widow placed a single tallow candle in her attic window overlooking the dangerous coastal reef....",
+  "summary": "கடுமையான புயல் வீசும் ஒவ்வொரு இரவிலும், கடலின் ஆபத்தான பாறைத் தொடரை நோக்கித் தன் கூரை வீட்டு ஜன்னலில் ஒரு சிறிய மெழுகுவர்த்தியை ஏற்றி வைத்து, எண்ணற்ற மாலுமிகளின் கப்பல்களைப் பாறைகளில் மோதாமல் காத்த எளிய மூதாட்டியின் தியாகக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the old woman with candle",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Beneath the cozy eaves of an antique home where climbing honeysuckle framed the dormer windows, there was Every stormy night, an elderly widow placed a single tallow candle in her attic window overlooking the dangerous coastal reef..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that a small candle of kindness placed in the window guides lost travelers safely through the dark.",
-  "moral": "A small candle of kindness placed in the window guides lost travelers safely through the dark.",
+  "full_text": "கடற்கரைக் குன்றின் உச்சியில், பாழடைந்த ஒரு சிறிய மரக் குடிசையில் வயதான ஒரு விதவைத் தாய் வாழ்ந்து வந்தாள்.\n    \nஅவளது ஒரே மகன் பல ஆண்டுகளுக்கு முன் கடற்பயணத்தில் கப்பல் பாறையில் மோதி உயிரிழந்திருந்தான். அந்த ஆழமான துயரத்தை அவள் ஒருபோதும் மறக்கவில்லை.\n    \nகடலில் புயல் வீசும் கொடூரமான இரவுகள் வரும் போதெல்லாம், அவள் தன் எளிய ஆட்டுக்கொழுப்பு மெழுகுவர்த்தியை ஏற்றித் தன் குடிசை ஜன்னலில் வைப்பாள்.\n    \nஅந்த மெழுகுவர்த்தியின் சிறிய சுடர், கடலின் கொந்தளிப்பான அலைகளுக்கு நடுவே ஒரு கலங்கரை விளக்கம் போலப் பிரகாசித்தது.\n    \nகாரிருளில் திசை தெரியாமல் தத்தளித்த மாலுமிகள், அந்த மெல்லிய ஒளியைக் கண்டதும், \"இதோ பாறைத் தொடர் இருக்கிறது, கப்பலைத் திருப்புங்கள்!\" என்று எச்சரிக்கையடைந்து தங்கள் கப்பல்களைப் பத்திரமாகக் கரைக்குத் திருப்புவர்.\n    \nஎத்தனையோ ஆண்டுகள், எத்தனையோ நூற்றுக்கணக்கான மாலுமிகளின் உயிர்களை அந்த ஒற்றை மெழுகுவர்த்தி காப்பாற்றியது!\n    \nஅந்த மூதாட்டி தன் படுக்கையில் அமைதியாக இயற்கை எய்திய இரவிலும், அவளது ஜன்னலில் அந்த மெழுகுவர்த்தி அணையாமல் எரிந்து கொண்டிருந்தது!\n    \nமக்கள் அங்கே ஓடி வந்து அவளது புனிதமான உடலின் முன் கண்ணீர் விட்டு வணங்கினர்; ஒரு தாயின் கண்ணீரிலிருந்து பிறந்த எளிய அன்பே உலகத்தைக் காக்கும் தெய்விக ஒளியாகத் திகழ்ந்தது.",
+  "moral": "பிறருக்காக இரவில் ஏற்றி வைக்கப்படும் ஒரு சிறிய நல்விரலின் மெழுகுவர்த்தி வெளிச்சமும், கடலின் கொடும் புயலிலிருந்து மனித உயிர்களைக் காக்கும் தேவ ஒளியாக மலர்கிறது.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Old Woman with Candle illustration from the Hans Christian Andersen collection.",
   "word_count": 215,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Old Woman with Candle\"?",
+      "question": "மூதாட்டி புயல் இரவுகளில் தன் ஜன்னலில் எதனை ஏற்றி வைத்து மாலுமிகளைக் காப்பாற்றினாள்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஒரு சிறிய எளிய மெழுகுவர்த்தியை ஏற்றி வைத்தாள்",
+        "தீப்பந்தத்தை வைத்தாள்",
+        "கற்களை வீசினாள்",
+        "மணியடித்தாள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "ஒரு சிறிய எளிய மெழுகுவர்த்தியை ஏற்றி வைத்தாள்",
+      "hint": "ஜன்னலில் வைக்கப்பட்ட சிறிய ஒளியை நினையுங்கள்.",
+      "explanation": "மூதாட்டி தன் ஜன்னலில் மெழுகுவர்த்தியை ஏற்றி ஆபத்தான பாறையை மாலுமிகளுக்குச் சுட்டிக்காட்டினாள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "மூதாட்டி அத்தகைய தியாகப் பணியைச் செய்யக் காரணமாக இருந்த அவளது சொந்தத் துயரம் என்ன?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அவளது மகன் பல ஆண்டுகளுக்கு முன் கப்பல் பாறையில் மோதி இறந்த சோகம்",
+        "அவள் ஏழையாக இருந்தது",
+        "அவளுக்குக் கண் தெரியாதது",
+        "அவள் கப்பல் தலைவியாக இருந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "அவளது மகன் பல ஆண்டுகளுக்கு முன் கப்பல் பாறையில் மோதி இறந்த சோகம்",
+      "hint": "மகன் இறந்த துயரத்தை நினையுங்கள்.",
+      "explanation": "தன் மகனைப் போல வேறு எந்தத் தாயின் மகனும் கடலில் அழியக் கூடாது என்ற தியாக அன்பால் அவள் விளக்கையேற்றினாள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனித சமுதாயத்திற்குப் புகட்டும் நெகிழ்ச்சியான நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "தனிமனிதன் காட்டும் சிறிய அன்பின் ஒளியும் எண்ணற்ற உயிர்களைக் காக்கும் மாபெரும் சக்தியாக மாறும்",
+        "கடலுக்குப் போகவே கூடாது",
+        "மெழுகுவர்த்திகளை எரிக்கக் கூடாது",
+        "குடிசைகளில் வாழக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "தனிமனிதன் காட்டும் சிறிய அன்பின் ஒளியும் எண்ணற்ற உயிர்களைக் காக்கும் மாபெரும் சக்தியாக மாறும்",
+      "hint": "எளிய அன்பின் மாபெரும் ஆற்றலை நினையுங்கள்.",
+      "explanation": "சுயநலமற்ற தாயன்பு இருளில் சுடரும் சிறிய ஒளியாக நின்று உலக உயிர்களைக் காக்கும் என ஆன்டர்சன் உணர்த்தினார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "விதவைத்",
+      "meaning": "தன் கணவனை இழந்து தனிமையில் எளிய வாழ்க்கை வாழும் பெண் சார்ந்த",
+      "gloss": "widowed"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "கொந்தளிப்பான",
+      "meaning": "புயலினாலும் காற்றினாலும் அலைகள் ஆக்ரோஷமாக எழுந்து மோதுகின்ற",
+      "gloss": "turbulent, tempestuous"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கலங்கரை",
+      "meaning": "கடலில் செல்லும் கப்பல்களுக்கு வழிகாட்டுவதற்காக உயரமான இடத்தில் ஒளிரும் ஒளிவிளக்கு",
+      "gloss": "lighthouse"
+    },
+    {
+      "word": "பாறைத் தொடர்",
+      "meaning": "கடலுக்கு அடியில் மறைந்திருந்து கப்பல்களை உடைக்கக்கூடிய அபாயகரமான பாறை வரிசை",
+      "gloss": "reef, ridge of rocks"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Old Woman with Candle\"?"
+      "tier": "remembering",
+      "prompt": "மூதாட்டியின் குடிசை எந்த இடத்தில் அமைந்திருந்தது?",
+      "type": "remembering",
+      "question": "மூதாட்டியின் குடிசை எந்த இடத்தில் அமைந்திருந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "தன் சொந்த இழப்பை உலகத்தின் மீதான பேரன்பாக மாற்றிய அந்த மூதாட்டியின் உயர்ந்த மனநிலையை விளக்குக.",
+      "type": "understanding",
+      "question": "தன் சொந்த இழப்பை உலகத்தின் மீதான பேரன்பாக மாற்றிய அந்த மூதாட்டியின் உயர்ந்த மனநிலையை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது தனிப்பட்ட துயரங்களையும் ஏமாற்றங்களையும் பிறருக்கு உதவும் ஆக்கப்பூர்வமான சமூகப் பணிகளாக நாம் எவ்வாறு மாற்றலாம்?",
+      "type": "applying",
+      "question": "நமது தனிப்பட்ட துயரங்களையும் ஏமாற்றங்களையும் பிறருக்கு உதவும் ஆக்கப்பூர்வமான சமூகப் பணிகளாக நாம் எவ்வாறு மாற்றலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "கடலின் கொடிய புயல் இருளுக்கும், ஜன்னல் மெழுகுவர்த்தியின் மென்மையான ஒளிக் கதிர்களுக்கும் உள்ள ஆன்மீக முரண்பாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "கடலின் கொடிய புயல் இருளுக்கும், ஜன்னல் மெழுகுவர்த்தியின் மென்மையான ஒளிக் கதிர்களுக்கும் உள்ள ஆன்மீக முரண்பாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'விளம்பரமற்ற எளிய தியாகங்களே கடவுளின் பார்வையில் ஆகச்சிறந்த நற்பணிகள்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'விளம்பரமற்ற எளிய தியாகங்களே கடவுளின் பார்வையில் ஆகச்சிறந்த நற்பணிகள்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "உயிர் பிழைத்த மாலுமிகள் ஒன்று கூடி அந்த மூதாட்டியின் நினைவாகக் கடற்கரையில் எழுப்பிய ஒரு புதிய கலங்கரை விளக்கத்தை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "உயிர் பிழைத்த மாலுமிகள் ஒன்று கூடி அந்த மூதாட்டியின் நினைவாகக் கடற்கரையில் எழுப்பிய ஒரு புதிய கலங்கரை விளக்கத்தை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

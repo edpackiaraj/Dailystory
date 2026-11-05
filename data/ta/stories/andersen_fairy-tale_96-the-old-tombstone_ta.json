@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-96-the-old-tombstone",
   "slug": "hans-christian-andersen-96-the-old-tombstone",
   "language": "ta",
-  "title": "The Old Tombstone (The Record of Virtue)",
+  "title": "பழைய நடுகல்லும் காலத்தால் அழியாத நற்பண்பின் பதிவும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "An ancient marble tombstone in the overgrown churchyard bore only the worn fragments of an epitaph: \"He walked with God and loved his brother.\"...",
+  "summary": "புல் மண்டிக்கிடந்த பழைய மயானத்தில் சிதைந்து கிடந்த பளிங்கு நடுகல்லில் 'அவர் கடவுளோடு நடந்தார்; சக மனிதர்களை நேசித்தார்' என்ற சிதைந்த வரிகள் மட்டுமே எஞ்சியிருந்த போதிலும், அந்த நல்ல மனிதரின் புண்ணியம் என்றும் அழியாமல் வாழ்ந்த வரலாறு.",
   "keywords": [
     "hans christian andersen",
     "the old tombstone",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In the quiet, cobblestone alleys of an old Danish town, where church steeples rose into the northern sky, there lived An ancient marble tombstone in the overgrown churchyard bore only the worn fragments of an epitaph: \"He walked with God and loved his brother.\".... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the stone may crumble, but the record of an unselfish life is engraved in the book of life.",
-  "moral": "The stone may crumble, but the record of an unselfish life is engraved in the book of life.",
+  "full_text": "பழைய தேவாலயத்தைச் சுற்றியுள்ள கைவிடப்பட்ட கல்லறைத் தோட்டத்தில், முட்புதர்களும் புற்களும் அடர்ந்து மண்டிக் கிடந்தன.\n    \nஅங்கே ஒரு பழமையான சலவைக் கல்லறைப் பலகை தரையில் சாய்ந்து கிடந்தது. கால வெள்ளத்தாலும் மழையினாலும் அதன் மீது பொறிக்கப்பட்டிருந்த பெயரும், ஆண்டுக் குறிப்புகளும் முற்றிலும் அழிந்து போயிருந்தன.\n    \nஆனால் அந்தக் கல்லின் அடிப்பகுதியில், ஒரே ஒரு வாசகம் மட்டும் தேயாமல் தெளிவாகத் தெரிந்தது: \"அவர் கடவுளோடு நடந்தார்; தன் சகோதர மனிதர்களை உளமார நேசித்தார்!\" என்ற சொற்கள் மட்டுமே எஞ்சியிருந்தன.\n    \nஅந்த ஊரின் பாதிரியார் அந்த வாசகத்தைப் படித்துத் தன் மாணவர்களுக்குக் கூறினார்:\n    \n\"மாணவர்களே! இந்தக் கல்லின் அடியில் புதைந்திருப்பவர் யார் என்ற பெயர் உலகத்திற்குத் தெரியாமல் போயிருக்கலாம். அவர் ஒரு மாபெரும் அரசராகவோ தளபதியாகவோ இருந்திருக்க மாட்டார்.\n    \nஆனால் அவர் தன் சக மனிதர்களை நேசித்தார்; ஏழைகளின் கண்ணீரைத் துடைத்தார். உலகாயத மனிதர்கள் புகழை விரும்பிக் கல்வெட்டுகளை நடுகிறார்கள்; ஆனால் காலம் அந்தக் கல்வெட்டுகளையே தகர்த்து விடுகிறது.\n    \nஆனால் இந்த எளிய மனிதர் செய்த நற்செயல்களோ இறைவனின் நித்தியப் பதிவேட்டில் அழியாத பொன்னெழுத்துக்களாகப் பொறிக்கப்பட்டுள்ளன!\" என்றார்.\n    \nமாணவர்கள் தலைவணங்கி அந்தப் பழைய நடுகல்லின் மீது மலர்களை வைத்தனர்; பெயரற்ற அந்த மனிதரின் நற்குணம் அவர்களுக்கு மாபெரும் வழிகாட்டியாக ஒளிர்ந்தது.",
+  "moral": "பளிங்குக் கற்களும் அரச கோபுரங்களும் கால வெள்ளத்தில் உதிர்ந்து போகலாம்; ஆனால் மனித நேயத்தோடு வாழ்ந்தவர்களின் நற்செயல்கள் இறைவனின் ஜீவப் புத்தகத்தில் என்றும் அழியாது.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Old Tombstone illustration from the Hans Christian Andersen collection.",
   "word_count": 224,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Old Tombstone\"?",
+      "question": "சிதைந்த பழைய நடுகல்லில் அழியாமல் எஞ்சியிருந்த வாசகம் என்ன?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "'அவர் கடவுளோடு நடந்தார்; தன் சகோதர மனிதர்களை உளமார நேசித்தார்!' என்ற வாசகம்",
+        "அரசனின் வீரம்",
+        "பெரும் செல்வந்தன்",
+        "தளபதியின் பெருமை"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "'அவர் கடவுளோடு நடந்தார்; தன் சகோதர மனிதர்களை உளமார நேசித்தார்!' என்ற வாசகம்",
+      "hint": "மனித நேயத்தையும் பக்தியையும் போற்றும் வாசகத்தை நினையுங்கள்.",
+      "explanation": "கல்லில் பெயர்கள் அழிந்தாலும் மனித நேயத்தைப் போற்றும் அந்த ஒரு வரி மட்டும் அழியாமல் இருந்தது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "பாதிரியார் அந்த நடுகல்லின் வழியே தன் மாணவர்களுக்குக் கற்பித்த பாடம் என்ன?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "வெளிப் பெயர்களை விட மனித நேயமும் நற்செயல்களுமே இறைவனின் பார்வையில் அழியாதவை",
+        "கல்லறைகளைக் கட்டக் கூடாது",
+        "மலர்களை வைக்கக் கூடாது",
+        "பழைய கற்களை உடைக்க வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "வெளிப் பெயர்களை விட மனித நேயமும் நற்செயல்களுமே இறைவனின் பார்வையில் அழியாதவை",
+      "hint": "புண்ணியச் செயல்களின் அழியாத தன்மையை நினையுங்கள்.",
+      "explanation": "பெயர்கள் காலத்தால் அழியலாம்; ஆனால் தூய நற்குணத்தின் புண்ணியம் என்றென்றும் வாழும்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் உன்னத ஆன்மீக நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "கற்கள் உதிர்ந்தாலும் தன்னலமற்ற அன்பு இறைவனின் ஜீவப் புத்தகத்தில் அழியாமல் வாழும்",
+        "பெரிய கல்லறைகளை எழுப்ப வேண்டும்",
+        "கல்வெட்டுகளைப் பாதுகாக்கக் கூடாது",
+        "மக்களை நேசிக்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "கற்கள் உதிர்ந்தாலும் தன்னலமற்ற அன்பு இறைவனின் ஜீவப் புத்தகத்தில் அழியாமல் வாழும்",
+      "hint": "நித்திய நற்குணத்தின் மதிப்பை நினையுங்கள்.",
+      "explanation": "ஆன்டர்சன் உலகாயதப் புகழை விடவும் மனித நேயமே நிலையானது என்பதை அற்புதமாகச் சித்தரித்தார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "முட்புதர்களும்",
+      "meaning": "முட்கள் நிறைந்த அடர்ந்த காட்டுப் புதர்ச் செடிகளும்",
+      "gloss": "thorn bushes, brambles"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "பாதிரியார்",
+      "meaning": "தேவாலயத்தில் வழிபாடுகளையும் ஆன்மீகப் போதனைகளையும் நடத்தும் மத குரு",
+      "gloss": "priest, pastor"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கல்வெட்டுகளை",
+      "meaning": "வரலாற்றுப் புகழை நிலைநாட்டுவதற்காகக் கற்பாறைகளில் வெட்டப்பட்ட எழுத்துப் பதிவுகளை",
+      "gloss": "stone inscriptions, epitaphs"
+    },
+    {
+      "word": "நற்குணம்",
+      "meaning": "பிறருக்குத் தீங்கு செய்யாமல் நன்மையை மட்டுமே செய்யும் உன்னதமான குணநலம்",
+      "gloss": "good virtue, noble character"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Old Tombstone\"?"
+      "tier": "remembering",
+      "prompt": "பழைய நடுகல்லின் மீது மாணவர்கள் எதனை வைத்து அஞ்சலி செலுத்தினர்?",
+      "type": "remembering",
+      "question": "பழைய நடுகல்லின் மீது மாணவர்கள் எதனை வைத்து அஞ்சலி செலுத்தினர்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "பெயர் தெரியாத நிலையிலும் அந்த மனிதர் ஏன் புனிதமாகப் போற்றப்பட்டார் என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "பெயர் தெரியாத நிலையிலும் அந்த மனிதர் ஏன் புனிதமாகப் போற்றப்பட்டார் என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது வாழ்வில் வெறும் வெளிப்பகட்டுப் புகழைத் தேடாமல் அமைதியான நற்செயல்களைச் செய்ய நாம் எவ்வாறு உறுதி பூணலாம்?",
+      "type": "applying",
+      "question": "நமது வாழ்வில் வெறும் வெளிப்பகட்டுப் புகழைத் தேடாமல் அமைதியான நற்செயல்களைச் செய்ய நாம் எவ்வாறு உறுதி பூணலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "அரசர்களின் மறைந்துபோன பிரம்மாண்ட நினைவுச் சின்னங்களுக்கும், எளிய மனிதரின் அழியாத அறநெறிக்கும் உள்ள தொடர்பை ஆராய்க.",
+      "type": "analyzing",
+      "question": "அரசர்களின் மறைந்துபோன பிரம்மாண்ட நினைவுச் சின்னங்களுக்கும், எளிய மனிதரின் அழியாத அறநெறிக்கும் உள்ள தொடர்பை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'மனிதன் வாழ்ந்த வாழ்வின் தகுதியை அவன் பெற்ற பதவிகள் அல்ல, அவன் காட்டிய அன்பே தீர்மானிக்கிறது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'மனிதன் வாழ்ந்த வாழ்வின் தகுதியை அவன் பெற்ற பதவிகள் அல்ல, அவன் காட்டிய அன்பே தீர்மானிக்கிறது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "மாணவர்கள் அந்த நடுகல்லின் வாசகத்தால் உந்தப்பட்டுத் தங்களின் ஊரில் ஏழைகளுக்குச் செய்த ஒரு நற்பணியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "மாணவர்கள் அந்த நடுகல்லின் வாசகத்தால் உந்தப்பட்டுத் தங்களின் ஊரில் ஏழைகளுக்குச் செய்த ஒரு நற்பணியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

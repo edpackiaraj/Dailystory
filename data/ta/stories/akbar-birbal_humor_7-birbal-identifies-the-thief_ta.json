@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"Birbal Identifies the Thief\"?",
+      "question": "வணிகரின் வீட்டில் வைரம் திருடுபோன வழக்கில் பீர்பால் வேலைக்காரர்கள் அனைவருக்கும் என்ன கொடுத்தார்?",
       "options": [
-        "Wit beats power",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "சரியாக ஒரே அளவிலான குச்சிகளைக் கொடுத்து, மந்திரக் குச்சி இரவு ஒரு அங்குலம் வளரும் என்றார்",
+        "அனைவருக்கும் தலா நூறு பொற்காசுகள் கொடுத்தார்",
+        "எல்லோரையும் சிறைக் காவலில் அடைத்தார்",
+        "அவர்களை யமுனை நதியில் மூழ்கச் சொன்னார்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "பீர்பால் உளவியல் ரீதியாகக் கையாண்ட மந்திரக் குச்சி சோதனையை நினைவுகூருங்கள்.",
+      "answer": "சரியாக ஒரே அளவிலான குச்சிகளைக் கொடுத்து, மந்திரக் குச்சி இரவு ஒரு அங்குலம் வளரும் என்றார்",
+      "explanation": "பீர்பால் உளவியல் ரீதியாகக் கையாண்ட மந்திரக் குச்சி சோதனையை நினைவுகூருங்கள்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "உண்மையான திருடன் இரவு பயந்துபோய் என்ன காரியத்தைச் செய்தான்?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "தன் குச்சி ஒரு அங்குலம் வளர்ந்துவிட்டால் மாட்டிக்கொள்வோம் என்று பயந்து, குச்சியை ஒரு அங்குலம் வெட்டிச் சிறிதாக்கினான்",
+        "குச்சியைத் தீயிலிட்டுக் கொளுத்தினான்",
+        "இரவோடு இரவாக நாட்டை விட்டு ஓடினான்",
+        "வணிகரின் காலில் விழுந்து வைரத்தைக் கொடுத்தான்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "குற்றவாளியின் பயத்தால் செய்த திருட்டுத்தனமான முட்டாள்தனத்தை யோசியுங்கள்.",
+      "answer": "தன் குச்சி ஒரு அங்குலம் வளர்ந்துவிட்டால் மாட்டிக்கொள்வோம் என்று பயந்து, குச்சியை ஒரு அங்குலம் வெட்டிச் சிறிதாக்கினான்",
+      "explanation": "குற்றவாளியின் பயத்தால் செய்த திருட்டுத்தனமான முட்டாள்தனத்தை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "மறுநாள் காலையில் பீர்பால் திருடனை எவ்வாறு உடனடியாக அடையாளம் கண்டார்?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "மற்றவர்களின் குச்சிகள் அப்படியே இருக்க, திருடனின் குச்சி மட்டும் ஒரு அங்குலம் குறைவாக இருந்ததைக் கண்டு பிடித்தார்",
+        "காவலாளிகளின் சாட்சியத்தை வைத்துப் பிடித்தார்",
+        "வணிகரின் வாக்குமூலத்தைக் கேட்டு முடிவெடுத்தார்",
+        "குச்சியின் வாசனையை நுகர்ந்து பார்த்தார்"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "குறைந்த நீளமுடைய குச்சியை வைத்திருந்த திருடனை நினைவுகூருங்கள்.",
+      "answer": "மற்றவர்களின் குச்சிகள் அப்படியே இருக்க, திருடனின் குச்சி மட்டும் ஒரு அங்குலம் குறைவாக இருந்ததைக் கண்டு பிடித்தார்",
+      "explanation": "குறைந்த நீளமுடைய குச்சியை வைத்திருந்த திருடனை நினைவுகூருங்கள்."
     }
   ],
   "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "மந்திரக் குச்சி",
+      "meaning": "மாய சக்தி கொண்டதாகக் கூறித் திருடனின் மனசாட்சியைச் சோதிக்கப் பயன்படுத்திய மரக்குச்சி"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "ஆக்ரா",
+      "meaning": "ஆக்ரா என்ற சொல்லின் சூழல் பொருள் (Signifies ஆக்ரா in the context of the story)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "அங்குலம்",
+      "meaning": "நீளத்தை அளக்கப் பயன்படும் ஒரு சிறிய பாரம்பரிய அளவு"
+    },
+    {
+      "word": "குறைவாக",
+      "meaning": "தவறு செய்துவிட்டோமே என்ற அச்சத்தால் உள்ளுக்குள் நடுங்கும் பயம்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"Birbal Identifies the Thief\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "வணிகரின் வீட்டில் திருடுபோன விலைமதிப்பற்ற பொருள் எது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wit beats power\"?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "பீர்பால் பயன்படுத்திய குச்சிகளில் உண்மையில் ஏதேனும் மாய சக்தி இருந்ததா? அதன் உளவியல் தந்திரம் என்ன?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "பயன்பாடு",
+      "prompt": "\"குற்றமுள்ள நெஞ்சு குறுகுறுக்கும்\" என்ற தமிழ் முதுமொழிக்கு இக்கதை எவ்வாறு சான்றாகிறது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "சிந்தனை",
+      "prompt": "விசாரணைகளில் வன்முறையைக் கையாளாமல் உளவியல் நுண்ணறிவால் உண்மையை வெளிக்கொணர்வது ஏன் மேலானது?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

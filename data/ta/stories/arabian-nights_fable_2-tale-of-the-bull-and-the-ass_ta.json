@@ -2,12 +2,12 @@
   "id": "arabian-nights-2-tale-of-the-bull-and-the-ass",
   "slug": "arabian-nights-2-tale-of-the-bull-and-the-ass",
   "language": "ta",
-  "title": "Tale of the Bull and the Ass",
+  "title": "காளை மாடும் தந்திரக் கழுதையும் – பிறருக்குக் குழி பறித்த கதை",
   "genre": "Fables",
   "collection": "Arabian Nights",
   "culture_region": "Middle East",
   "age_group": "Below 13",
-  "summary": "In a fertile valley between the two great rivers lived a wealthy merchant endowed with a secret gift: he understood the speech of all bea...",
+  "summary": "கடினமாக உழைக்கும் காளையை ஏய்க்கப் பொய் சொல்லி ஓய்வெடுக்க ஆலோசனை கூறிய கழுதை, முடிவில் காளையின் கடின உழைப்பைத் தானே சுமக்க நேர்ந்த நகைச்சுவை விவேகக் கதை.",
   "keywords": [
     "arabian nights",
     "1001 nights",
@@ -22,49 +22,58 @@
     "classic",
     "wisdom"
   ],
-  "full_text": "In a fertile valley between the two great rivers lived a wealthy merchant endowed with a secret gift: he understood the speech of all beasts, birds, and creeping things. Yet this gift carried a strict warning—should he ever reveal to another human being what the creatures spoke, his peace of mind and very fortune would be forfeited.\n\nIn the merchant's courtyard stood a sturdy bull and a sleek, well-fed donkey. Each morning, the bull was harnessed to the heavy iron plow, driven through the rocky fields beneath the burning sun, and returned at dusk drenched in sweat and bruised by the yoke. The donkey, by contrast, spent his days resting beneath shaded palms, dining on sifted barley and clear fountain water, his only labor being to carry the master gently to market when occasion arose.\n\nOne evening, as the bull collapsed into the stable with weary groans, the donkey looked over with smug pity. \"Friend,\" said the donkey, \"why do you suffer so meekly? Tomorrow, when the plowman comes with your fodder, refuse to eat. Thrash the ground, moan as if struck by illness, and do not rise. If you pretend to be frail, the master will surely let you rest in the cool shade.\"\n\nThe bull thanked the donkey for his ingenious counsel. The next dawn, when the servant brought grain, the bull rolled his eyes, kicked his legs, and feigned dreadful weakness. The servant ran to the merchant in alarm. But the merchant, who had overheard the donkey's whispering the previous night, smiled knowingly. \"Since the bull is too sick to plow,\" ordered the merchant, \"harness the healthy donkey in his place and work him without mercy until sunset.\"\n\nAll through the scorching day, the pampered donkey was dragged through briars and mud, whipped whenever he faltered, and forced to turn the heavy earth. When dusk arrived, the donkey staggered back to the stall with broken knees, a bloody neck, and ribs trembling with agony. The bull looked up gratefully: \"Blessings upon you, wise companion! Your advice brought me a day of sweet slumber.\"\n\nThe donkey coughed through dust and replied bitterly: \"Hear my latest news, brother. As I labored, I overheard the merchant whisper to the butcher that if the bull does not stand strong tomorrow, he must be sold to the meat market.\" At once the bull leaped to his feet, devoured all his straw, and vowed to pull the plow with double vigor. The merchant, listening behind the partition, laughed heartily at how the meddlesome donkey had cured his own pride by tasting the bitter fruit of his own scheming.",
-  "moral": "He who meddles unwisely in another's burden may find himself forced to carry it all on his own shoulders.",
+  "full_text": "பண்டைய காலத்தில் பல ஏக்கர் நிலங்களைக் கொண்ட ஒரு பெரும் செல்வந்த விவசாயி வாழ்ந்து வந்தான். அவன் விலங்குகள் மற்றும் பறவைகளின் மொழியைப் புரிந்து கொள்ளும் அபூர்வ வரத்தைப் பெற்றிருந்தான்; ஆனால் அந்த ரகசியத்தைப் பிறரிடம் கூறினால் அவனது உயிர் பிரிந்துவிடும் என்ற நிபந்தனை இருந்தது.\n\nஅவனது தொழுவத்தில் ஒரு பலமிக்க காளையும், ஒரு சோம்பேறிக் கழுதையும் அருகருகே கட்டப்பட்டிருந்தன. காளை நாள் முழுவதும் வயலில் உழுது, பாரமான நுகத்தடியைச் சுமந்து, மாலையில் உடல் புண்ணாகி வலியால் பெருமூச்சு விட்டவாறு தொழுவத்திற்கு வந்தது. ஆனால் கழுதையோ எஜமானனைச் சவாரி செய்ய மட்டுமே பயன்பட்டதால், சுத்தமான புல்லையும் தவிடு தானியங்களையும் தின்றுவிட்டு நாள் முழுவதும் நிழலில் சுகமாக ஓய்வெடுத்து வந்தது.\n\nகாளை வேதனையுடன் கழுதையைப் பார்த்து, \"நண்பா! நீ எவ்வளவு கொடுத்து வைத்தவன்! நாள் முழுவதும் சுகமாகத் தூங்கித் தீனி உண்கிறாய். நானோ விடியற்காலை முதல் அந்தி சாயும் வரை சேற்றில் உழுது என் விலா எலும்புகள் நொறுங்க உழைக்கிறேன்\" என்று முறையிட்டது.\n\nகழுதை ஒரு நயவஞ்சகப் புன்னகையுடன், \"நண்பா! உனக்கு மூளையில்லை. நாளைக் காலை விவசாயி உன்னை உழவுக்குப் பூட்ட வரும்போது, கால்களை மடக்கி நிலத்தில் விழுந்துவிடு; பற்களைக் கடித்து மூச்சு வாங்க முனங்கு. வைக்கோலைத் தொடாமல் பட்டினி கிடப்பது போல நடி. நீ நோய்வாய்ப்பட்டுவிட்டாய் என்று எண்ணி உன்னை உழவுக்கு அனுப்ப மாட்டான்; நீயும் சுகமாக ஓய்வெடுக்கலாம்!\" என்று போதனை செய்தது.\n\nவிலங்குகளின் பேச்சைக் கூர்ந்து கவனித்துக் கொண்டிருந்த எஜமான் இவர்களின் உரையாடலைக் கேட்டு மனதுக்குள் சிரித்துக் கொண்டான்.\n\nமறுநாள் காலையில் காளை கழுதை சொன்னபடியே நிலத்தில் விழுந்து பெருமூச்சு விட்டு முனகியது; உணவையும் தொடவில்லை. விவசாயி வந்து பார்த்துவிட்டு, வேலைக்காரனிடம், \"காளைக்கு உடம்பு சரியில்லை போலிருக்கிறது; அதனால் இன்று காளைக்கு பதிலாக இந்தக் கழுதையை நுகத்தடியில் பூட்டி முழு வயலையும் உழுதுவிடுங்கள்!\" என்று உத்தரவிட்டான்.\n\nவேலைக்காரர்கள் கழுதையை இழுத்துச் சென்று நுகத்தடியில் பூட்டிச் சவுக்கால் விளாசினர். காலை முதல் மாலை வரை கொளுத்தும் வெயிலில் உழுது உழுது கழுதையின் தோள்பட்டை கிழிந்தது; கால்கள் நடுங்கின; நாக்கு வறண்டு தொங்கியது. மாலையில் தொழுவத்திற்குத் தள்ளாடி வந்த கழுதை தரையில் விழுந்து கிடந்தது.\n\nஅப்போது காளை நன்றியோடு, \"நண்பா! உன் அருமையான யோசனையால் இன்று நான் முழுவதும் நிம்மதியாக ஓய்வெடுத்தேன், மிக்க நன்றி!\" என்றது.\n\nகழுதை பயந்துபோய், \"நண்பா! விவசாயி இன்று மாலையில் பேசுவதைக் கேட்டேன்; நாளைக்கும் காளை சாப்பிடாமல் படுத்திருந்தால், அதை உடனே கசாப்புக் கடைக்காரனிடம் விற்றுவிடுங்கள் என்று கூறினார்! உன் உயிரைக் காப்பாற்றிக்கொள்ள விரும்பினால், உடனே எழுந்து புல்லைத் தின்று நாளை உழவுக்குப் புறப்படு!\" என்று நடுங்கிக்கொண்டே பொய் சொன்னது.\n\nஇதைக் கேட்ட காளை பயந்து துள்ளி எழுந்து வைக்கோலை முழு மூச்சில் தின்னத் தொடங்கியது. பிறருக்கு வீண் அறிவுரை கூறித் தானே துன்பத்தில் சிக்கிய கழுதை, \"இனி பிறர் விஷயத்தில் மூக்கை நுழைக்கவே கூடாது\" என்று பாடம் கற்றுக்கொண்டது.",
+  "moral": "பிறருக்குத் தவறான ஆலோசனைகளைக் கூறி ஏய்க்க நினைப்பவர், முடிவில் அதே வலையில் தாமே சிக்கித் துன்புறுவர்.",
   "image": "/images/stories/arabian-nights.webp",
   "image_alt": "Tale of the Bull and the Ass illustration from the 1001 Arabian Nights collection.",
-  "word_count": 435,
-  "reading_time": "3 min",
+  "word_count": 304,
+  "reading_time": 3,
   "listen_time": "4 min",
   "audio_url": null,
   "publish_date": "2026-03-15",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central focus of \"Tale of the Bull and the Ass\"?",
+      "question": "விவசாயியிடம் இருந்த விசேஷ ஆற்றல் என்ன?",
       "options": [
-        "Seeking wisdom, patience, and solving a unique problem",
-        "Finding gold and keeping it hidden away",
-        "Leaving home forever without greeting friends",
-        "Building tall towers in the sand"
+        "விலங்குகள் மற்றும் பறவைகளின் மொழியைப் புரிந்து கொள்ளும் சக்தி",
+        "மண்ணைத் தங்கமாக மாற்றும் சக்தி",
+        "எதிர்காலத்தைக் கணிக்கும் ஆற்றல்",
+        "காற்றில் பறக்கும் மாய வித்தை"
       ],
+      "correct_answer": 0,
+      "explanation": "விலங்குகளின் பேச்சைப் புரிந்து கொள்ளும் ஆற்றல் அவனுக்கு இருந்தது; ஆனால் அதை வெளிப்படுத்தினால் உயிர் போய்விடும்.",
+      "hint": "விலங்குகளின் பேச்சைப் புரிந்து கொள்ளும் ஆற்றல் அவனுக்கு இருந்தது; ஆனால் அதை வெளிப்படுத்தினால் உயிர் போய்விடும்.",
       "answerIndex": 0,
-      "hint": "Reflect upon the moral outcome of the characters’ choices."
+      "answer": "விலங்குகள் மற்றும் பறவைகளின் மொழியைப் புரிந்து கொள்ளும் சக்தி"
     },
     {
-      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "question": "கழுதை காளைக்கு என்ன தந்திரமான யோசனையைக் கூறியது?",
       "options": [
-        "Thoughtfulness, patience, and integrity",
-        "Loud shouting and boastful anger",
-        "Running away from every challenge",
-        "Ignoring all wise advice"
+        "உடல்நலமில்லை என்று நடித்து நிலத்தில் விழுந்து உணவைத் தொடாமல் படுத்துக் கொள்ளச் சொன்னது",
+        "காட்டிற்குள் ஓடிவிடச் சொன்னது",
+        "விவசாயியைக் காலால் உதைக்கச் சொன்னது",
+        "நுகத்தடியை உடைத்துவிடச் சொன்னது"
       ],
+      "correct_answer": 0,
+      "explanation": "நோய்வாய்ப்பட்டது போல நடித்தால் உழவுக்கு அனுப்பாமல் ஓய்வு கிடைக்கும் என்று கழுதை உபாயம் கூறியது.",
+      "hint": "நோய்வாய்ப்பட்டது போல நடித்தால் உழவுக்கு அனுப்பாமல் ஓய்வு கிடைக்கும் என்று கழுதை உபாயம் கூறியது.",
       "answerIndex": 0,
-      "hint": "Think about how calm reflection solves dilemmas in folktales."
+      "answer": "உடல்நலமில்லை என்று நடித்து நிலத்தில் விழுந்து உணவைத் தொடாமல் படுத்துக் கொள்ளச் சொன்னது"
     },
     {
-      "question": "What memorable lesson does this story impart to listeners?",
+      "question": "கழுதைக்கு இறுதியில் கிடைத்த தண்டனை யாது?",
       "options": [
-        "Integrity and keeping one’s word build enduring trust across all borders.",
-        "Never listen to advice from elders",
-        "Always act hastily without planning",
-        "Words spoken in anger cause no harm"
+        "காளைக்குப் பதிலாகத் தானே நுகத்தடியில் பூட்டப்பட்டு நாள் முழுவதும் உழுது வதைபட்டது",
+        "விவசாயி அதைக் காட்டில் விட்டான்",
+        "அதற்கு உணவே தரப்படவில்லை",
+        "அது சிறையில் அடைக்கப்பட்டது"
       ],
+      "correct_answer": 0,
+      "explanation": "காளை ஓய்வெடுத்ததால் கழுதையே வயலில் பூட்டப்பட்டுத் தன் போலி புத்திசாலித்தனத்திற்குத் தானே பலியானது.",
+      "hint": "காளை ஓய்வெடுத்ததால் கழுதையே வயலில் பூட்டப்பட்டுத் தன் போலி புத்திசாலித்தனத்திற்குத் தானே பலியானது.",
       "answerIndex": 0,
-      "hint": "Look closely at the story’s moral."
+      "answer": "காளைக்குப் பதிலாகத் தானே நுகத்தடியில் பூட்டப்பட்டு நாள் முழுவதும் உழுது வதைபட்டது"
     }
   ],
   "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
@@ -77,39 +86,31 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "caliph",
-      "meaning": "a sovereign leader or ruler in historical Islamic states"
+      "word": "நுகத்தடியைச்",
+      "meaning": "உழவு மாடுகளின் அல்லது விலங்குகளின் கழுத்தில் பூட்டப்படும் கனத்த மரக்கட்டையை",
+      "context": "காளை நாள் முழுவதும் பாரமான நுகத்தடியைச் சுமந்து உழைத்தது."
     },
     {
-      "word": "vizier",
-      "meaning": "a high-ranking minister or trusted counselor"
+      "word": "நயவஞ்சகப் புன்னகையுடன்",
+      "meaning": "உள்ளத்தில் கள்ள எண்ணத்தை வைத்துக்கொண்டு உதட்டளவில் தோன்றும் போலிச் சிரிப்புடன்",
+      "context": "கழுதை ஒரு நயவஞ்சகப் புன்னகையுடன் காளைக்கு ஏய்ப்பு ஆலோசனையைக் கூறியது."
     },
     {
-      "word": "hospitality",
-      "meaning": "the friendly and generous reception and entertainment of guests"
+      "word": "சவுக்கால் விளாசினர்",
+      "meaning": "தோல் சாட்டையினால் மிகுந்த வேகத்தோடு ஓங்கி அடித்தனர்",
+      "context": "வேலைக்காரர்கள் கழுதையை நுகத்தடியில் பூட்டிச் சவுக்கால் விளாசினர்."
+    },
+    {
+      "word": "தொழுவத்திற்குத்",
+      "meaning": "மாடுகளும் பிற வீட்டு விலங்குகளும் கட்டப்படும் தங்குமிடத்திற்கு",
+      "context": "மாலையில் தொழுவத்திற்குத் தள்ளாடி வந்த கழுதை தரையில் விழுந்தது."
     }
   ],
   "discussion_questions": [
-    {
-      "tier": "Remember",
-      "prompt": "What initial challenge or mystery sets the story of \"Tale of the Bull and the Ass\" into motion?"
-    },
-    {
-      "tier": "Understand",
-      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
-    },
-    {
-      "tier": "Apply",
-      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
-    },
-    {
-      "tier": "Evaluate",
-      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
-    }
+    "கழுதை காளையின் மீது உண்மையான இரக்கம் கொண்டு உதவ நினைத்ததா அல்லது தன் சோம்பேறித்தனமான மேட்டிமைத்தனத்தைக் காட்ட நினைத்ததா?",
+    "தவறான ஏமாற்று வழிகளைக் கையாளும்போது தற்காலிக இன்பம் கிடைத்தாலும் முடிவில் என்ன நேரிடும்?",
+    "வேலையைத் தட்டிக் கழிக்கப் பொய் சொல்வது எவ்வாறு ஒருவருக்கே பாதகமாக முடியும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
+    "பிறருக்கு ஆலோசனை தரும்போது நாம் எவ்வளவு பொறுப்புணர்வுடன் இருக்க வேண்டும்?"
   ],
   "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",
   "activity": "Draw a colorful desert oasis, bustling marketplace, or peaceful courtyard inspired by this story.",

@@ -2,12 +2,12 @@
   "id": "arabian-nights-329-thirteenth-constables-history",
   "slug": "arabian-nights-329-thirteenth-constables-history",
   "language": "ta",
-  "title": "Thirteenth Constable's History",
+  "title": "பதின்மூன்றாம் காவல் தலைவரின் வரலாறு – நைல் நதி மரக்கட்டைகளும் மரகதக் கடத்தலும்",
   "genre": "Folktales",
   "collection": "Arabian Nights",
   "culture_region": "Middle East",
   "age_group": "Below 13",
-  "summary": "The Thirteenth Constable related:",
+  "summary": "மேல் எகிப்திலிருந்து நைல் நதியில் மிதந்து வந்த மரக்கட்டைகளின் மிதக்கும் உயரத்தை வைத்து, மரத்தின் உள்ளே துளையிட்டுப் பதுக்கப்பட்டிருந்த பெரும் மரகதக் கடத்தலை முறியடித்தார் பதின்மூன்றாம் காவல் தலைவர்.",
   "keywords": [
     "arabian nights",
     "1001 nights",
@@ -22,8 +22,8 @@
     "classic",
     "wisdom"
   ],
-  "full_text": "The Thirteenth Constable addressed the throne: \"Sire, an anonymous informant warned that a vast fortune in uncut emeralds was being smuggled out of Upper Egypt into Cairo, yet the river patrols inspected every barge of wheat, pottery, and wool without discovering a single stone.\"\n\n\"I took command of the river customs at the southern locks. Watching the timber rafts floating down the Nile from the forests of Nubia, I noticed that while most cedar trunks rode high upon the water, three particular logs rode unnaturally low, submerged almost to their bark.\"\n\n\"I ordered the timber pulled ashore and sawn in half. Inside the center of each trunk, a deep hollow cavity had been bored out and sealed with wooden plugs and pitch, containing hundreds of uncut emeralds wrapped in oiled silk! The smugglers, who traveled aboard as humble raftsmen, were seized and their contraband confiscated for the imperial treasury, proving that vigilance on the waters catches what land guards miss.\"",
-  "moral": "Vigilance along the riverways detects contraband concealed in the plainest disguises.",
+  "full_text": "பதின்மூன்றாம் காவல் தலைவர் சுல்தான் பைபர்ஸின் அரியணையை நோக்கி வணங்கித் தன் வரலாற்றை எடுத்துரைத்தார்: \"அரசே! மேல் எகிப்திலிருந்து கெய்ரோ மாநகரத்திற்குள் பெரும் அளவிலான செதுக்கப்படாத மரகதக் கற்கள் கடத்தப்பட்டு வருவதாக ஓர் அடையாளம் தெரியாத உளவாளி எச்சரித்தான். நதி ரோந்துப் படையினர் கோதுமை, மண்பாண்டங்கள் மற்றும் கம்பளி ஏற்றிவந்த ஒவ்வொரு படகையும் சல்லடை போட்டுத் தேடியும் ஒரு சிறு மணியைக் கூடக் கண்டுபிடிக்க முடியவில்லை.\"\n\n\"நான் தெற்கு நதி மதகுகளின் சுங்கத்துறைப் பொறுப்பை நேரடியாக ஏற்றுக்கொண்டேன். நூபியக் காடுகளிலிருந்து நைல் நதியின் நீரோட்டத்தில் மிதந்து வந்த நூற்றுக்கணக்கான மரக்கட்டைகளை நான் கூர்ந்து கவனித்தேன். பெரும்பாலான தேவதாரு மரக்கட்டைகள் நீருக்கு மேலே உயரமாக மிதந்தன; ஆனால் மூன்று மரக்கட்டைகள் மட்டும் வழக்கத்திற்கு மாறாகத் தண்ணீரில் மிகவும் தாழ்ந்து, மரப்பட்டை வரை மூழ்கி மிதப்பதைக் கண்டேன்.\"\n\n\"அந்த மூன்று மரக்கட்டைகளையும் உடனடியாகக் கரைக்கு இழுத்து நடுவே ரம்பம் வைத்து அறுக்குமாறு கட்டளையிட்டேன். மரத்தின் மையப்பகுதி ஆழமாகத் துளையிடப்பட்டு, மர அடைப்பான்களாலும் தாரினாலும் சீல் வைக்கப்பட்டு, எண்ணெய் பட்டுத்துணியில் சுற்றப்பட்ட நூற்றுக்கணக்கான விலைமதிப்பற்ற பச்சை மரகதக் கற்கள் அதனுள் பதுக்கப்பட்டிருந்தது வெளிப்பட்டது! எளிய படகோட்டிகள் போல வேடமிட்டு வந்த கடத்தல்காரர்கள் கைது செய்யப்பட்டனர்; கடத்தல் கற்கள் அரசு கருவூலத்திற்குச் சென்றன; நதி நீரின் எடைக் குறியீடே கடத்தல்காரர்களைக் காட்டிக்கொடுத்தது!\"",
+  "moral": "நீரோட்டத்தின் இயற்கையான விதிகளைக் கூர்ந்து கவனிப்பதன் மூலம் நிலப்பரப்புக் காவலர்களால் கண்டுபிடிக்க முடியாத பெரும் கடத்தல்களையும் தடுத்துவிடலாம்.",
   "image": "/images/stories/arabian-nights.webp",
   "image_alt": "Thirteenth Constable's History illustration from the 1001 Arabian Nights collection.",
   "word_count": 160,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central focus of \"Thirteenth Constable's History\"?",
+      "question": "நைல் நதியில் கடத்தப்பட்ட விலையுயர்ந்த பொருட்கள் எவை?",
       "options": [
-        "Seeking wisdom, patience, and solving a unique problem",
-        "Finding gold and keeping it hidden away",
-        "Leaving home forever without greeting friends",
-        "Building tall towers in the sand"
+        "வைரங்கள்",
+        "செதுக்கப்படாத மரகதக் கற்கள்",
+        "முத்துக்கள்",
+        "தங்கக் கட்டிகள்"
       ],
-      "answerIndex": 0,
-      "hint": "Reflect upon the moral outcome of the characters’ choices."
+      "answerIndex": 1,
+      "answer": "செதுக்கப்படாத மரகதக் கற்கள்",
+      "hint": "பச்சை நிற விலையுயர்ந்த ரத்தினக் கற்கள்.",
+      "explanation": "நூபியாவிலிருந்து செதுக்கப்படாத மரகதக் கற்கள் மரக்கட்டைகளுக்குள் பதுக்கிக் கடத்தப்பட்டன."
     },
     {
-      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "question": "கடத்தல் மரக்கட்டைகளை எதன் மூலம் காவல் தலைவர் அடையாளம் கண்டார்?",
       "options": [
-        "Thoughtfulness, patience, and integrity",
-        "Loud shouting and boastful anger",
-        "Running away from every challenge",
-        "Ignoring all wise advice"
+        "அவற்றில் சிவப்பு அடையாளம் இடப்பட்டிருந்தது",
+        "அவை மற்ற மரங்களை விடத் தண்ணீரில் மிகவும் தாழ்ந்து மூழ்கி மிதந்தன",
+        "அவற்றிலிருந்து நறுமணம் வந்தது",
+        "படகோட்டி பயந்து ஓடினான்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how calm reflection solves dilemmas in folktales."
+      "answerIndex": 1,
+      "answer": "அவை மற்ற மரங்களை விடத் தண்ணீரில் மிகவும் தாழ்ந்து மூழ்கி மிதந்தன",
+      "hint": "அதிக எடையால் மரக்கட்டைகள் தண்ணீரில் ஆழ்ந்து மிதந்தன.",
+      "explanation": "கற்களின் பாரத்தால் மூன்று மரக்கட்டைகள் தண்ணீரில் வழக்கத்திற்கு மாறாக மிகவும் தாழ்ந்து மிதந்ததைக் கண்டு கண்டுபிடித்தார்."
     },
     {
-      "question": "What memorable lesson does this story impart to listeners?",
+      "question": "மரகதக் கற்கள் மரக்கட்டைகளுக்குள் எவ்வாறு பாதுகாக்கப்பட்டிருந்தன?",
       "options": [
-        "Integrity and keeping one’s word build enduring trust across all borders.",
-        "Never listen to advice from elders",
-        "Always act hastily without planning",
-        "Words spoken in anger cause no harm"
+        "இரும்புப் பெட்டிகளில்",
+        "எண்ணெய் பட்டுத்துணியில் சுற்றப்பட்டு மர அடைப்பான்களால் சீல் வைக்கப்பட்டிருந்தன",
+        "களிமண்ணில் பொதிக்கப்பட்டிருந்தன",
+        "சாக்குகளில் கட்டப்பட்டிருந்தன"
       ],
-      "answerIndex": 0,
-      "hint": "Look closely at the story’s moral."
+      "answerIndex": 1,
+      "answer": "எண்ணெய் பட்டுத்துணியில் சுற்றப்பட்டு மர அடைப்பான்களால் சீல் வைக்கப்பட்டிருந்தன",
+      "hint": "நீர்புகா எண்ணெய் பட்டுத்துணியில் சுற்றப்பட்டிருந்தன.",
+      "explanation": "மரகதங்கள் எண்ணெய் பட்டுத்துணியில் சுற்றப்பட்டு தாரினாலும் மர அடைப்பான்களாலும் மூடப்பட்டிருந்தன."
     }
   ],
   "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
@@ -77,38 +83,62 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "caliph",
-      "meaning": "a sovereign leader or ruler in historical Islamic states"
+      "word": "ரம்பம்",
+      "meaning": "மரங்களை அறுப்பதற்குப் பயன்படும் பற்கள் கொண்ட கூரிய வாள் கருவி",
+      "gloss": "saw / cutting tool"
     },
     {
-      "word": "vizier",
-      "meaning": "a high-ranking minister or trusted counselor"
+      "word": "மதகுகளின்",
+      "meaning": "ஆற்று நீரைத் தேக்கித் திறந்துவிடும் நீர் ஒழுங்கு அமைப்புகளின்",
+      "gloss": "sluices / water locks"
     },
     {
-      "word": "hospitality",
-      "meaning": "the friendly and generous reception and entertainment of guests"
+      "word": "செதுக்கப்படாத",
+      "meaning": "பட்டை தீட்டப்படாமல் இயற்கையான வடிவில் உள்ள",
+      "gloss": "uncut / unpolished"
+    },
+    {
+      "word": "படகோட்டிகள்",
+      "meaning": "படகுகளை அல்லது மரக்கட்டைகளை ஆற்றில் செலுத்துபவர்கள்",
+      "gloss": "boatmen / raftsmen"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What initial challenge or mystery sets the story of \"Thirteenth Constable's History\" into motion?"
+      "tier": "remembering",
+      "prompt": "மரகதக் கற்கள் எகிப்தின் எந்தப் பகுதியிலிருந்து நைல் நதியில் கொண்டுவரப்பட்டன?",
+      "type": "remembering",
+      "question": "மரகதக் கற்கள் எகிப்தின் எந்தப் பகுதியிலிருந்து நைல் நதியில் கொண்டுவரப்பட்டன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+      "tier": "understanding",
+      "prompt": "மரக்கட்டைகளின் மிதக்கும் உயரத்தை வைத்து உள்ளே எடை இருப்பதை ஊகித்த அறிவியல் தத்துவத்தை விளக்குக.",
+      "type": "understanding",
+      "question": "மரக்கட்டைகளின் மிதக்கும் உயரத்தை வைத்து உள்ளே எடை இருப்பதை ஊகித்த அறிவியல் தத்துவத்தை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+      "tier": "applying",
+      "prompt": "நவீன துறைமுகங்களிலும் சுங்கச் சாவடிகளிலும் எடையறிதல் மற்றும் ஸ்கேனிங் முறைகள் கடத்தலைத் தடுப்பதோடு ஒப்பிடுக.",
+      "type": "applying",
+      "question": "நவீன துறைமுகங்களிலும் சுங்கச் சாவடிகளிலும் எடையறிதல் மற்றும் ஸ்கேனிங் முறைகள் கடத்தலைத் தடுப்பதோடு ஒப்பிடுக."
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+      "tier": "analyzing",
+      "prompt": "வழக்கமான படகுகளை விடுத்து மரக்கட்டைகளில் கடத்த முயன்ற கடத்தல்காரர்களின் தந்திரத்தை ஆராய்க.",
+      "type": "analyzing",
+      "question": "வழக்கமான படகுகளை விடுத்து மரக்கட்டைகளில் கடத்த முயன்ற கடத்தல்காரர்களின் தந்திரத்தை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+      "tier": "evaluating",
+      "prompt": "நிலப்பரப்புக் காவலாளிகள் தவறவிட்டதை நதிப் பரப்பில் கண்டுபிடித்த காவல் தலைவரின் விவேகத்தை மதிப்பிடுக.",
+      "type": "evaluating",
+      "question": "நிலப்பரப்புக் காவலாளிகள் தவறவிட்டதை நதிப் பரப்பில் கண்டுபிடித்த காவல் தலைவரின் விவேகத்தை மதிப்பிடுக."
+    },
+    {
+      "tier": "creating",
+      "prompt": "நீர்வழிப் போக்குவரத்துப் பாதுகாப்பிற்கான ஒரு விரிவான ஆய்வு வழிகாட்டி நெறிமுறையை வரைக.",
+      "type": "creating",
+      "question": "நீர்வழிப் போக்குவரத்துப் பாதுகாப்பிற்கான ஒரு விரிவான ஆய்வு வழிகாட்டி நெறிமுறையை வரைக."
     }
   ],
   "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",

@@ -2,12 +2,12 @@
   "id": "aesops-fables-50-the-fox-and-the-lion",
   "slug": "aesops-fables-50-the-fox-and-the-lion",
   "language": "ta",
-  "title": "The Fox and the Lion",
+  "title": "நரியும் சிங்கமும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A young fox who had never seen a lion encountered the King of Beasts on a woodland trail. The lion's thunderous stride and massive mane terrified the fox so utterly that he collaps...",
+  "summary": "காட்டின் அரசனை முதல்முறை கண்டபோது பயந்து நடுங்கி விழுந்த நரி, இரண்டாவது முறை விலகி நின்று கவனித்து, மூன்றாவது முறை துணிவோடு சென்று உரையாடியதன் மூலம் பழக்கம் பயத்தைப் போக்கும் என்ற தத்துவத்தை உணர்த்திய கதை.",
   "keywords": [
     "aesop's fables",
     "the fox and the lion",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Along a dusty rural road that wound between stone walls and sun-drenched vineyards, A young fox who had never seen a lion encountered the King of Beasts on a woodland trail. The lion's thunderous stride and massive mane terrified the fox so utterly that he collaps.... The creatures of the field went about their daily lives according to their nature, each seeking their own advantage while keeping a vigilant watch over friends and foes alike.\n\nAs the hours passed, an unexpected turning point arose that tested their wits and character. A tense confrontation soon arose as rival desires crossed paths under the midday sun. Words were exchanged with cautious cunning, glances were measured, and each party sought to disguise their true intentions behind a veil of outward innocence.\n\nYet the timeless laws of nature cannot be deceived by clever words or false appearances. Natural instincts and sharp wits collided, bringing the trial to an immediate, decisive climax.  The outcome was swift and irreversible, leaving behind a lasting lesson for all who witnessed the event, proving that familiarity takes away the terrors of the unknown; courage grows through understanding.",
-  "moral": "Familiarity takes away the terrors of the unknown; courage grows through understanding.",
+  "full_text": "காட்டில் புதிதாகப் பிறந்த ஒரு இளம் நரி, காட்டின் அரசரான சிங்கத்தை அதுவரை நேரில் கண்டதே இல்லை. ஒரு நாள் அது காட்டின் புதருக்குள் நடந்து சென்றபோது, எதிரே கம்பீரமான பிடரி மயிரோடு மாபெரும் சிங்கம் கர்ஜித்துக்கொண்டு வருவதை முதன்முறையாகக் கண்டது. சிங்கத்தின் கோரமான பயங்கரத் தோற்றத்தையும் இடி போன்ற முழக்கத்தையும் கண்ட அந்த நரிக்குக் குலை நடுங்கிப்போனது; பயத்தில் மூர்ச்சையாகித் தரையில் சுருண்டு விழுந்து கிட்டத்தட்ட செத்தே போனது.\n\nசில வாரங்கள் கழித்து, அதே நரி நீரோடைக்குச் சென்றபோது மீண்டும் அந்தச் சிங்கத்தைக் கண்டது. இம்முறையும் அதற்குள் பயம் எழுந்தது; ஆனால் முதல்முறை போல அது மயங்கி விழவில்லை. நடுக்கத்தோடு தூரத்தில் ஒரு பாறைக்குப் பின்னால் பதுங்கி நின்று சிங்கத்தின் ஒவ்வொரு அசைவையும் கூர்ந்து கவனித்தது.\n\nமூன்றாவது முறை நரி காட்டின் சமவெளியில் உலவியபோது, அதே சிங்கம் எதிரே நடந்து வந்தது. இப்போது நரியின் மனதில் சிங்கத்தைக் குறித்த அசாத்திய பயம் முற்றிலும் மறைந்திருந்தது. பழக்கத்தின் காரணமாகச் சிங்கமும் மற்றுமொரு விலங்கே என்பதை உணர்ந்த நரி, சற்றும் அச்சமின்றி நேராகச் சிங்கத்தின் முன்னே சென்று பணிவோடு நின்று, \"காட்டின் அரசரே! வணக்கம், நலமாக இருக்கிறீர்களா?\" என்று மிக இயல்பாகப் பேசிவிட்டுத் தன் வழியே சென்றது.",
+  "moral": "நீதி: பழக்கமும் அனுபவமும் எத்தகைய பயங்கரமான அச்சத்தையும் போக்கி மனிதனுக்குத் தெளிவையும் துணிவையும் தரும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Fox and the Lion illustration from the Aesop's Fables collection.",
-  "word_count": 188,
+  "word_count": 154,
   "reading_time": "1 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Fox and the Lion\"?",
+      "question": "முதல்முறை சிங்கத்தைக் கண்ட இளம் நரிக்கு என்ன நேர்ந்தது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "பயத்தில் குலை நடுங்கி மூர்ச்சையாகித் தரையில் மயங்கி விழுந்தது",
+        "சிங்கத்தை நோக்கி ஓடிச் சென்று சண்டையிட்டது",
+        "சிங்கத்திடம் உணவு கேட்டது",
+        "மரத்தின் உச்சிக்கு ஏறித் தப்பியது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "முதல் சந்திப்பில் ஏற்பட்ட உச்சக்கட்டப் பயத்தை நினைவுகூருங்கள்.",
+      "answer": "பயத்தில் குலை நடுங்கி மூர்ச்சையாகித் தரையில் மயங்கி விழுந்தது",
+      "explanation": "முதல் சந்திப்பில் ஏற்பட்ட உச்சக்கட்டப் பயத்தை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "மூன்றாவது முறை சிங்கத்தைக் கண்ட நரி என்ன துணிச்சலான செயலைச் செய்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அச்சமின்றி நேராகச் சிங்கத்தின் முன்னே சென்று வணக்கம் கூறி இயல்பாகப் பேசியது",
+        "சிங்கத்தைத் தன் குகைக்குள் சிறைவைத்தது",
+        "காட்டை விட்டு ஓடிப்போனது",
+        "வேடனிடம் சிங்கத்தைக் காட்டிக் கொடுத்தது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "பழக்கத்தால் ஏற்பட்ட பயமின்மையைக் கவனியுங்கள்.",
+      "answer": "அச்சமின்றி நேராகச் சிங்கத்தின் முன்னே சென்று வணக்கம் கூறி இயல்பாகப் பேசியது",
+      "explanation": "பழக்கத்தால் ஏற்பட்ட பயமின்மையைக் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை உளவியல் ரீதியாக மனிதர்களுக்குக் கற்பிக்கும் முக்கியமான உண்மை எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "நாம் எதைக் கண்டு அஞ்சுகிறோமோ அதை மீண்டும் மீண்டும் எதிர்கொள்ளப் பழகினால் அச்சம் மறைந்து துணிவு பிறக்கும்",
+        "சிங்கங்கள் ஆபத்தானவை அல்ல",
+        "நரிகள் எப்போதுமே வலிமையானவை",
+        "காட்டுக்குள் செல்லவே கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "பயத்தை வெல்லும் பழக்கத்தின் ஆற்றலை எண்ணிப்பாருங்கள்.",
+      "answer": "நாம் எதைக் கண்டு அஞ்சுகிறோமோ அதை மீண்டும் மீண்டும் எதிர்கொள்ளப் பழகினால் அச்சம் மறைந்து துணிவு பிறக்கும்",
+      "explanation": "பயத்தை வெல்லும் பழக்கத்தின் ஆற்றலை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "குலை",
+      "meaning": "எதிர்பாராத பயங்கரக் காட்சியைக் கண்டு நெஞ்சம் பதறிப் பேரச்சம் கொள்ளுதல்"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "மூர்ச்சை",
+      "meaning": "தாங்க முடியாத பயத்தாலோ வலியாலோ சுயநினைவை இழந்து மயங்கி விழுதல்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "பிடரி",
+      "meaning": "சிங்கத்தின் முகத்தைச் சுற்றிலும் கம்பீரமாக வளர்ந்திருக்கும் நீண்ட மயிர்க்கற்றை"
+    },
+    {
+      "word": "பழக்கத்தின்",
+      "meaning": "மீண்டும் மீண்டும் ஒரு காரியத்தை எதிர்கொள்வதால் மனதில் அச்சம் நீங்கி இயல்பாகும் தன்மை"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Fox and the Lion\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "இரண்டாவது முறை நரி சிங்கத்தை எங்கிருந்து கவனித்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "தெரியாத ஒன்றை அறியாதவரை மட்டுமே மனிதர்கள் அதிகமாக அஞ்சுகிறார்கள் என்பது எதனால்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "மேடைப் பேச்சு அல்லது புதிய சவால்களை எதிர்கொள்ளும் போது நரியின் இந்த அனுபவம் எவ்வாறு வழிகாட்டுகிறது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "\"பயத்தை எதிர்கொள்வதே பயத்தை வெல்லும் ஒரே வழி\" என்ற தத்துவத்தை விளக்குக."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

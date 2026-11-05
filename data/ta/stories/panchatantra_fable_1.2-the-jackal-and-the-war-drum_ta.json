@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Jackal and the War-Drum\"?",
+      "question": "பசியோடு காட்டில் அலைந்த கோமாயு என்ற நரிக்கு மரத்தடியிலிருந்து என்ன விநோதமான ஒலி கேட்டது?",
       "options": [
-        "Wisdom, patience, and kind conduct lead to peace and happiness.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "காற்றில் அசைந்த மரக்கிளை மோதியதால் போர்க்களத்து முரசு எழுப்பிய பெரும் சத்தம் கேட்டது",
+        "காட்டுப் புலியின் பயங்கரமான உறுமல் ஒலி கேட்டது",
+        "மழையின் இடி முழக்கம் கேட்டது",
+        "வேடர்களின் துப்பாக்கி வெடிக்கும் சத்தம் கேட்டது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "கைவிடப்பட்ட முரசின் மீது மரக்கிளை மோதியதை நினைவுகூருங்கள்.",
+      "answer": "காற்றில் அசைந்த மரக்கிளை மோதியதால் போர்க்களத்து முரசு எழுப்பிய பெரும் சத்தம் கேட்டது",
+      "explanation": "கைவிடப்பட்ட முரசின் மீது மரக்கிளை மோதியதை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "முரசைத் தொட்டுப் பார்த்த நரி உள்ளே பெரும் கொழுப்பும் மாமிசமும் இருக்கும் என எண்ணி என்ன செய்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "தன் கூரிய பற்களால் முரசின் தடித்த தோலைக் கிழித்து உள்ளே பார்த்தது",
+        "முரசைத் தூக்கிக்கொண்டு தன் குகைக்கு ஓடியது",
+        "மற்ற நரிகளை உதவிக்கு அழைத்தது",
+        "முரசுக்குப் பயந்து காட்டை விட்டே ஓடியது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "நரி முரசின் தோலைக் கடித்ததைக் கவனியுங்கள்.",
+      "answer": "தன் கூரிய பற்களால் முரசின் தடித்த தோலைக் கிழித்து உள்ளே பார்த்தது",
+      "explanation": "நரி முரசின் தோலைக் கடித்ததைக் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "முரசின் உள்ளே வெற்று மரத்தைத் தவிர ஒன்றுமில்லை என்பதைக் கண்ட நரி என்ன உணர்ந்தது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "ஆழமற்ற வெறும் இரைச்சலையும் சத்தத்தையும் கண்டு ஒருபோதும் அஞ்சக்கூடாது என்பதை உணர்ந்தது",
+        "போர்க்களத்திற்குச் செல்லக்கூடாது என்று முடிவெடுத்தது",
+        "முரசுகளை உடைப்பது தவறு என்றது",
+        "இனிமேல் மாமிசம் சாப்பிடக்கூடாது என்றது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "வெற்றுப் பெருமை மற்றும் இரைச்சலின் நிஜத்தை எண்ணுங்கள்.",
+      "answer": "ஆழமற்ற வெறும் இரைச்சலையும் சத்தத்தையும் கண்டு ஒருபோதும் அஞ்சக்கூடாது என்பதை உணர்ந்தது",
+      "explanation": "வெற்றுப் பெருமை மற்றும் இரைச்சலின் நிஜத்தை எண்ணுங்கள்."
     }
   ],
   "author": "Pandit Vishnu Sharma (~200 BCE – 300 CE)",
@@ -79,38 +85,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "போர்ப் பறை",
+      "meaning": "போர்க்களத்தில் வீரர்களை உற்சாகப்படுத்த முழக்கப்படும் பெரிய தோல் முரசு"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "மரக்கிளை",
+      "meaning": "காற்றில் அசைந்து முரசின் மீது மோதிய மரத்தின் பகுதி"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "பசியால்",
+      "meaning": "பசியால் என்ற சொல்லின் சூழல் பொருள் (Signifies பசியால் in the context of the story)"
+    },
+    {
+      "word": "அச்சத்தில்",
+      "meaning": "காரணத்தை அறியாமல் வெறும் பெரும் சத்தத்தைக் கண்டு பயந்து ஓடாமல் ஆராய்தல்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Jackal and the War-Drum\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "முரசு எந்த இடத்தில் விழுந்து கிடந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom, patience, and kind conduct lead to peace and happiness.\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "மனிதர்களில் யார் வெற்று முரசு போலப் பெரும் சத்தம் போடுகிறார்கள்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "தோற்றப் பொலிவையும் வெற்றுப் பேச்சையும் கண்டு நாம் அஞ்சாமல் உண்மையை எவ்வாறு ஆராய வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "\"குறைகுடம் கூத்தாடும், நிறைகுடம் ததும்பாது\" என்ற பழமொழிக்கு இக்கதை எவ்வாறு சான்றாகிறது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

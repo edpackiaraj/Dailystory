@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"Tenali and the Three Dolls\"?",
+      "question": "அண்டை நாட்டுத் தூதர் அரசவைக்குக் கொண்டுவந்த மூன்று பொம்மைகளின் சிறப்பு என்ன?",
       "options": [
-        "Wit and humor triumph over arrogance and power",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "மூன்றும் ஒரே எடையும் உருவமும் கொண்டு அச்சு அசல் ஒரே மாதிரி இருந்தன",
+        "அவை தங்கம், வெள்ளி மற்றும் செம்பினால் செய்யப்பட்டிருந்தன",
+        "அவை தானாகப் பேசும் மற்றும் நடக்கும் ஆற்றல் பெற்றிருந்தன",
+        "அவை விலங்குகளின் குரலில் ஒலி எழுப்பின"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "பொம்மைகளின் வெளிப்புறத் தோற்றத்தை நினைவுகூருங்கள்.",
+      "answer": "மூன்றும் ஒரே எடையும் உருவமும் கொண்டு அச்சு அசல் ஒரே மாதிரி இருந்தன",
+      "explanation": "பொம்மைகளின் வெளிப்புறத் தோற்றத்தை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "தெனாலிராமன் மெல்லிய வைக்கோல் துரும்பை முதல் பொம்மையின் காதில் விட்டபோது என்ன நடந்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அது மறு காது வழியே வெளியே வந்தது; ஒரு காதில் வாங்கி மறுகாதில் விடும் அற்ப மனிதர்களைக் குறித்தது",
+        "அது வாய் வழியே வந்து பிறரிடம் இரகசியத்தைப் பரப்பும் மனிதர்களைக் குறித்தது",
+        "அது வயிற்றுக்குள் சென்று இரகசியத்தைக் காக்கும் நல்ல மனிதரைக் குறித்தது",
+        "பொம்மை இரண்டாக உடைந்துபோனது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "ராமன் காட்டிய முதல் வகை மனிதர்களின் குணத்தை யோசியுங்கள்.",
+      "answer": "அது மறு காது வழியே வெளியே வந்தது; ஒரு காதில் வாங்கி மறுகாதில் விடும் அற்ப மனிதர்களைக் குறித்தது",
+      "explanation": "ராமன் காட்டிய முதல் வகை மனிதர்களின் குணத்தை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "மூன்று பொம்மைகளில் மிகச் சிறந்த பொம்மையாக ராமன் எதைத் தேர்ந்தெடுத்தார்? ஏன்?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "மூன்றாவது பொம்மை; ஏனெனில் அது கேட்ட நல்ல விஷயங்களைத் தன் நெஞ்சில் அடக்கி இரகசியம் காக்கும் உத்தம நண்பனைக் குறித்தது",
+        "முதல் பொம்மை; அது பார்ப்பதற்கு மிக அழகாக இருந்தது",
+        "இரண்டாவது பொம்மை; அது உரக்கப் பேசியது",
+        "எந்தப் பொம்மையும் சிறந்ததல்ல என்று கூறினார்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "இரகசியத்தைக் காக்கும் சிறந்த மனிதரின் உயர்வை எண்ணுங்கள்.",
+      "answer": "மூன்றாவது பொம்மை; ஏனெனில் அது கேட்ட நல்ல விஷயங்களைத் தன் நெஞ்சில் அடக்கி இரகசியம் காக்கும் உத்தம நண்பனைக் குறித்தது",
+      "explanation": "இரகசியத்தைக் காக்கும் சிறந்த மனிதரின் உயர்வை எண்ணுங்கள்."
     }
   ],
   "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -76,30 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "உத்தமன்",
-      "meaning": "உயர்ந்த நற்பண்புகளும் நல்லொழுக்கமும் கொண்ட மேலான மனிதன்"
+      "word": "விஜயநகரப்",
+      "meaning": "விஜயநகரப் என்ற சொல்லின் சூழல் பொருள் (Signifies விஜயநகரப் in the context of the story)"
     },
     {
-      "word": "வதந்தி",
-      "meaning": "உண்மைக்குப் புறம்பாகப் பரப்பப்படும் தவறான பேச்சு"
+      "word": "காதில்",
+      "meaning": "செவியின் வழியே எதையும் நுட்பமாக ஆராய்தல்"
     },
     {
-      "word": "ரகசியம்",
-      "meaning": "பிறருக்குத் தேவையின்றி வெளிப்படுத்தாமல் காக்கப்பட வேண்டிய செய்தி"
+      "word": "இரகசியங்களையும்",
+      "meaning": "பிறர் அறியாதபடி மறைத்து வைக்கப்படும் அந்தரங்கமான உண்மை"
+    },
+    {
+      "word": "பேரரசர்",
+      "meaning": "பேரரசர் என்ற சொல்லின் சூழல் பொருள் (Signifies பேரரசர் in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "தெனாலிராமன் பொம்மைகளைச் சோதிக்க எதைப் பயன்படுத்தினார்?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "பொம்மைகளின் வேறுபாட்டைக் கண்டுபிடிக்க ராமன் பயன்படுத்திய பொருள் எது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "மூன்று பொம்மைகளும் எந்த மூன்று வகை மனிதர்களைக் குறிக்கின்றன?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "கேட்டதை உடனே ஊரெல்லாம் பரப்பும் மனிதர்களிடம் நாம் ஏன் எச்சரிக்கையாக இருக்க வேண்டும்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "நமது நண்பர்கள் நம்மிடம் ஒரு விஷயத்தை நம்பிச் சொல்லும்போது நாம் எப்படி நடந்துகொள்ள வேண்டும்?"
+      "tier": "பயன்பாடு",
+      "prompt": "நல்ல நண்பர்களைத் தேர்ந்தெடுக்கும் போது இந்த மூன்று பொம்மைகளின் தத்துவம் எவ்வாறு வழிகாட்டுகிறது?"
+    },
+    {
+      "tier": "சிந்தனை",
+      "prompt": "ஒருவரின் உள்ளடக்கமான குணத்தை அறியாமல் வெளிப்புற அழகை மட்டுமே நம்புவது ஏன் தவறு?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

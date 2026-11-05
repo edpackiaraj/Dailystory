@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-136-the-watch-of-the-old-bachelor",
   "slug": "hans-christian-andersen-136-the-watch-of-the-old-bachelor",
   "language": "ta",
-  "title": "The Watch of the Old Bachelor",
+  "title": "முதிய பிரம்மச்சாரியின் தங்கக் கைக்கடிகாரமும் சொல்லப்படாத தியாகமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "The antique gold pocket watch of the old bachelor ticked steadily against his breast through seventy years of solitude....",
+  "summary": "எழுபது ஆண்டுகளாகத் தன் மார்போடு அணைத்து வைத்திருந்த தங்கக் கைக்கடிகாரத்தின் சீரான துடிப்பில், இளமையில் வறுமையால் பிரிந்துபோன தன் காதலியின் நினைவுகளையும், ஆதரவற்ற ஏழைக் குழந்தைகளுக்கு ரகசியமாகச் செய்த உதவிகளையும் பொதித்து வைத்திருந்த முதியவரின் கதை.",
   "keywords": [
     "hans christian andersen",
     "the watch of the old bachelor",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Beneath the cozy eaves of an antique home where climbing honeysuckle framed the dormer windows, there was The antique gold pocket watch of the old bachelor ticked steadily against his breast through seventy years of solitude..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the heart that beats for others never runs out of time.",
-  "moral": "The heart that beats for others never runs out of time.",
+  "full_text": "நகரத்தின் ஒரு பழைய மாடி அறையில், ஒரு முதியவர் முற்றிலும் தனிமையில் வாழ்ந்து வந்தார்.\n    \nஅவரது சட்டைப் பையில், எழுபது ஆண்டுகளாகத் துடித்துக் கொண்டிருக்கும் ஒரு பழைய தங்க பாக்கெட் கடிகாரம் இருந்தது.\n    \n\"டிக்... டாக்... டிக்... டாக்...\" என்று அது அவரது இதயத் துடிப்போடு இணைந்து ஒரே சீராக ஓடிக்கொண்டிருந்தது.\n    \nஅக்கம் பக்கத்தினர் அவரை உணர்ச்சியற்ற ஒரு கஞ்சன் என்று கருதினர்.\n    \nஆனால் அந்தக் கடிகாரத்தின் உள்ளே, ஒரு அழகிய பெண்ணின் சிறிய தலைமுடிச் சுருள் பத்திரமாக வைக்கப்பட்டிருந்தது! இளமைப் பருவத்தில் அவர் நேசித்த காதலி, ஏழைக் குடும்பத்தைக் காக்க வேறொருவருக்கு மணமுடிக்கப்பட்டுச் சென்ற போது அவளுக்கு அளித்த விடைபெறும் பரிசு அது.\n    \nஅவர் திருமணம் செய்து கொள்ளாமல், அந்தக் கடிகாரத்தின் ஒவ்வொரு மணித்துளியிலும் தன் தியாகத்தை எண்ணி வாழ்ந்தார்.\n    \nஅவர் தான் சேமித்த ஒவ்வொரு காசையும் அனாதைக் குழந்தைகளின் பசியைப் போக்கவும் கல்விக்கும் ரகசியமாக அனுப்பி வந்தார்.\n    \nஒரு நாள் இரவு, அந்தக் கடிகாரம் தன் கடைசித் துடிப்போடு 'டிக்...' என்று நின்றது; அதே கணத்தில் அந்த முதியவரின் மூச்சும் நின்றது.\n    \nஅவரது அலமாரியைத் திறந்த போதுதான் அவரது மாபெரும் தியாகமும் ரகசியக் கொடைகளும் வெளிச்சத்திற்கு வந்தன.\n    \nஉலகம் அவரைத் தாமதமாகப் புரிந்துகொண்டது; ஆனால் அந்தக் கடிகாரமோ அவரது இதயத்தின் புனிதமான அன்பை எழுபதாண்டுகளாக இறைவனின் சமுகத்தில் சாட்சியாய் முழங்கிக் கொண்டிருந்தது.",
+  "moral": "பிறருக்காகத் துடிக்கும் அன்பு உள்ளத்திற்கு ஒருபோதும் கால எல்லை முடிந்து போவதில்லை; விசுவாசத்தோடு வாழும் அமைதியான வாழ்வே சொர்க்கத்தின் ஒளியை அடைகிறது.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Watch of the Old Bachelor illustration from the Hans Christian Andersen collection.",
   "word_count": 209,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Watch of the Old Bachelor\"?",
+      "question": "முதியவரின் பாக்கெட் கடிகாரத்திற்குள் என்ன ரகசிய நினைவுப் பொருள் வைக்கப்பட்டிருந்தது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "இளமையில் அவர் நேசித்த காதலியின் சிறிய தலைமுடிச் சுருள் வைக்கப்பட்டிருந்தது",
+        "வைரக் கல்",
+        "தங்க நாணயம்",
+        "கடிதம்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "இளமையில் அவர் நேசித்த காதலியின் சிறிய தலைமுடிச் சுருள் வைக்கப்பட்டிருந்தது",
+      "hint": "காதலியின் நினைவாக அவர் காத்த பொருளை நினையுங்கள்.",
+      "explanation": "கடிகாரத்திற்குள் தன் இளமைக்காலக் காதலியின் தலைமுடிச் சுருளை முதியவர் பத்திரமாக வைத்திருந்தார்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "முதியவர் தன் பணத்தை ரகசியமாக எதற்காகச் செலவழித்து வந்தார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "ஆதரவற்ற அனாதைக் குழந்தைகளின் பசியைப் போக்கவும் கல்விக்கும் அனுப்பி வந்தார்",
+        "சூதாட்டத்தில் செலவழித்தார்",
+        "மாளிகை கட்டினார்",
+        "மது அருந்தினார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "ஆதரவற்ற அனாதைக் குழந்தைகளின் பசியைப் போக்கவும் கல்விக்கும் அனுப்பி வந்தார்",
+      "hint": "அவரது ரகசியத் தர்மத்தை நினையுங்கள்.",
+      "explanation": "முதியவர் தன் சேமிப்பை அனாதைக் குழந்தைகளுக்கு ரகசியமாக வழங்கி வந்தார்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை வெளிப்படுத்தும் மென்மையான தத்துவம் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "பிறருக்காகத் துடிக்கும் தூய தியாக இதயத்திற்கு எக்காலத்திலும் முடிவு கிடையாது",
+        "கடிகாரங்களைப் பையில் வைக்கக் கூடாது",
+        "தனிமையில் வாழக் கூடாது",
+        "பணத்தைச் சேமிக்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "பிறருக்காகத் துடிக்கும் தூய தியாக இதயத்திற்கு எக்காலத்திலும் முடிவு கிடையாது",
+      "hint": "தியாக அன்பின் அழியாத் தன்மையை நினையுங்கள்.",
+      "explanation": "வெளி உலகம் அறியாவிட்டாலும் அமைதியான தியாக வாழ்வே கடவுளின் பார்வையில் விலைமதிப்பற்றது."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பாக்கெட்",
+      "meaning": "சட்டைப் பைக்குள் வைத்துப் பாதுகாக்கப்படும் சிறிய தங்கக் கைக்கடிகாரம் சார்ந்த",
+      "gloss": "pocket watch"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "சுருள்",
+      "meaning": "அன்பின் அடையாளமாக நினைவுப் பொருளாகப் பத்திரப்படுத்தப்பட்ட தலைமுடிச் சுருள்",
+      "gloss": "lock of hair, curl"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "அனாதைக்",
+      "meaning": "தாயும் தந்தையும் இன்றி ஆதரவற்ற நிலையில் தவிக்கும் ஏழைக் குழந்தைகள் சார்ந்த",
+      "gloss": "orphan"
+    },
+    {
+      "word": "சமுகத்தில்",
+      "meaning": "இறைவனின் பரிசுத்தமான திருமுன்னிலையில் அல்லது தெய்வ சந்நிதானத்தில்",
+      "gloss": "in the divine presence"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Watch of the Old Bachelor\"?"
+      "tier": "remembering",
+      "prompt": "முதியவரின் தங்கக் கடிகாரம் எத்தனை ஆண்டுகள் அவரது நெஞ்சோடு துடித்தது?",
+      "type": "remembering",
+      "question": "முதியவரின் தங்கக் கடிகாரம் எத்தனை ஆண்டுகள் அவரது நெஞ்சோடு துடித்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "ஊர் மக்கள் கஞ்சன் என்று பழித்த போதும் முதியவர் மௌனமாக வாழ்ந்ததன் மேன்மையை விளக்குக.",
+      "type": "understanding",
+      "question": "ஊர் மக்கள் கஞ்சன் என்று பழித்த போதும் முதியவர் மௌனமாக வாழ்ந்ததன் மேன்மையை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "விளம்பரமின்றி இரகசியமாக ஏழை எளியவர்களுக்கு உதவும் தர்ம மனப்பான்மையை நாம் எவ்வாறு வளர்த்துக் கொள்ளலாம்?",
+      "type": "applying",
+      "question": "விளம்பரமின்றி இரகசியமாக ஏழை எளியவர்களுக்கு உதவும் தர்ம மனப்பான்மையை நாம் எவ்வாறு வளர்த்துக் கொள்ளலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "கடிகாரத்தின் பௌதிக விநாடித் துடிப்பிற்கும், முதியவரின் தியாக இதயத் துடிப்பிற்கும் உள்ள கவித்துவ ஒற்றுமையை ஆராய்க.",
+      "type": "analyzing",
+      "question": "கடிகாரத்தின் பௌதிக விநாடித் துடிப்பிற்கும், முதியவரின் தியாக இதயத் துடிப்பிற்கும் உள்ள கவித்துவ ஒற்றுமையை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'மௌனமான தியாக வாழ்வே உலகப் புகழை விடவும் உன்னதமானது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'மௌனமான தியாக வாழ்வே உலகப் புகழை விடவும் உன்னதமானது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "முதியவரால் பயன்பெற்ற அனாதைக் குழந்தைகள் அவரது நடுகல்லில் கூடிப் பாடிய நன்றிப் பாடலை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "முதியவரால் பயன்பெற்ற அனாதைக் குழந்தைகள் அவரது நடுகல்லில் கூடிப் பாடிய நன்றிப் பாடலை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

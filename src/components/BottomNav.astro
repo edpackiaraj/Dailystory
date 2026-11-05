@@ -1,24 +1,21 @@
 ---
-import { getT } from '../lib/i18n';
-
 interface Props {
   currentLang: string;
-  activeTab?: 'home' | 'stories' | 'search' | 'favourites';
+  activeTab?: 'home' | 'stories' | 'classroom' | 'favourites';
 }
 
 const { currentLang, activeTab = 'home' } = Astro.props;
-const t = getT(currentLang);
 ---
 
 <!-- Fixed Mobile Bottom Navigation Bar (Phone: 360px - 600px) -->
 <nav
   id="mobile-bottom-nav"
   aria-label="Mobile Navigation"
-  class="md:hidden fixed bottom-0 inset-x-0 z-40 bg-white/95 dark:bg-[#1B1A2E]/95 backdrop-blur-md border-t border-[#EEDFC8] dark:border-[#383659] px-2 py-1.5 shadow-lg transition-colors duration-200"
+  class="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-white/95 dark:bg-[#151426]/95 backdrop-blur-md border-t border-[#EEDFC8]/80 dark:border-[#383659]/80 px-2 py-1.5 shadow-lg transition-colors duration-200"
 >
-  <div class="max-w-md mx-auto grid grid-cols-4 items-center gap-1">
+  <div class="max-w-md mx-auto grid grid-cols-4 items-center gap-1 text-center">
     
-    <!-- Home Tab -->
+    <!-- Today Tab -->
     <a
       href={`/${currentLang}/`}
       class={`flex flex-col items-center justify-center min-h-[48px] py-1 rounded-xl transition-all ${
@@ -28,11 +25,11 @@ const t = getT(currentLang);
       }`}
       aria-current={activeTab === 'home' ? 'page' : undefined}
     >
-      <span class="text-xl leading-none">🏠</span>
-      <span class="text-[11px] font-medium tracking-tight mt-1">{t.home}</span>
+      <span class="text-lg leading-none">📖</span>
+      <span class="text-[11px] font-semibold tracking-tight mt-1">Today</span>
     </a>
 
-    <!-- Stories / Collections Tab -->
+    <!-- Stories Tab (replaces Search) -->
     <a
       href={`/${currentLang}/collections/`}
       class={`flex flex-col items-center justify-center min-h-[48px] py-1 rounded-xl transition-all ${
@@ -42,25 +39,25 @@ const t = getT(currentLang);
       }`}
       aria-current={activeTab === 'stories' ? 'page' : undefined}
     >
-      <span class="text-xl leading-none">📚</span>
-      <span class="text-[11px] font-medium tracking-tight mt-1">{t.stories}</span>
+      <span class="text-lg leading-none">📚</span>
+      <span class="text-[11px] font-semibold tracking-tight mt-1">Stories</span>
     </a>
 
-    <!-- Search Tab -->
+    <!-- Classroom Tab -->
     <a
-      href={`/${currentLang}/search/`}
+      href={`/${currentLang}/classroom/`}
       class={`flex flex-col items-center justify-center min-h-[48px] py-1 rounded-xl transition-all ${
-        activeTab === 'search'
+        activeTab === 'classroom'
           ? 'text-[#D97706] font-bold dark:text-[#F59E0B]'
           : 'text-[#6B5644] dark:text-[#C8BFAF] hover:text-[#D97706]'
       }`}
-      aria-current={activeTab === 'search' ? 'page' : undefined}
+      aria-current={activeTab === 'classroom' ? 'page' : undefined}
     >
-      <span class="text-xl leading-none">🔍</span>
-      <span class="text-[11px] font-medium tracking-tight mt-1">{t.search}</span>
+      <span class="text-lg leading-none">🎓</span>
+      <span class="text-[11px] font-semibold tracking-tight mt-1">Classroom</span>
     </a>
 
-    <!-- Favourites Tab -->
+    <!-- Favorites Tab -->
     <a
       href={`/${currentLang}/favourites/`}
       class={`flex flex-col items-center justify-center min-h-[48px] py-1 rounded-xl transition-all ${
@@ -70,12 +67,12 @@ const t = getT(currentLang);
       }`}
       aria-current={activeTab === 'favourites' ? 'page' : undefined}
     >
-      <span class="text-xl leading-none">⭐</span>
-      <span class="text-[11px] font-medium tracking-tight mt-1">{t.favourites}</span>
+      <span class="text-lg leading-none">⭐</span>
+      <span class="text-[11px] font-semibold tracking-tight mt-1">Favorites</span>
     </a>
 
   </div>
 </nav>
 
 <!-- Padding helper to prevent page content from being hidden behind fixed bottom bar on phone -->
-<div class="md:hidden h-16 w-full" aria-hidden="true"></div>
+<div class="lg:hidden h-16 w-full" aria-hidden="true"></div>

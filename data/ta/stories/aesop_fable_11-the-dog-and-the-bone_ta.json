@@ -2,12 +2,12 @@
   "id": "aesops-fables-11-the-dog-and-the-bone",
   "slug": "aesops-fables-11-the-dog-and-the-bone",
   "language": "ta",
-  "title": "The Dog and the Bone",
+  "title": "நாயும் ஆற்று நீரில் தெரிந்த நிழலும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A butcher had tossed a juicy, marrow-filled bone to a mastiff who lingered outside the shop. Proud of his delicious prize, the dog clamped his jaws firmly around the bone and trott...",
+  "summary": "வாயில் இருந்த பெரிய இறைச்சித் துண்டோடு ஆற்றைக் கடந்த நாய், நீரில் தெரிந்த தன் நிழலைக் கண்டு பேராசையால் குரைத்து உணவை இழந்த கதை.",
   "keywords": [
     "aesop's fables",
     "the dog and the bone",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A butcher had tossed a juicy, marrow-filled bone to a mastiff who lingered outside the shop. Proud of his delicious prize, the dog clamped his jaws firmly around the bone and trotted off toward his home across the river, eager to enjoy his feast in quiet solitude.\n\nAs he crossed a narrow wooden footbridge over a clear, tranquil stream, he happened to look down into the mirror-like surface of the water. There, gazing back up at him from the depths, he beheld another dog holding a bone that appeared twice as large and plump as his own!\n\nUnaware that he was looking at his own reflection, the greedy dog was seized with an overwhelming desire to possess the second prize. \"Why should I settle for one bone,\" he thought, \"when I can easily snatch that larger one and enjoy a double banquet?\"\n\nSnarling with aggressive greed, he opened his jaws wide to snap at the rival in the stream.\n\nThe moment his teeth parted, his own precious bone slipped from his mouth, plunged into the rushing water with a splash, and sank straight to the muddy bottom, carried away by the current.\n\nThe startled dog stared down into the ripples, seeing the reflection now empty-mouthed like himself. Whimpering with regret and an empty belly, he trudged home, having learned too late that insatiable greed sacrifices present abundance for worthless illusions.",
-  "moral": "He who grasps at shadows loses the real substance of what he holds.",
+  "full_text": "ஒரு ஊரில் வாழ்ந்த தெருநாய் ஒன்றுக்கு இறைச்சிக் கடைக்காரர் ஒரு பெரிய எலும்புத் துண்டை இரக்கமாக வீசி எறிந்தார். அதில் நிறைய சுவையான இறைச்சி ஒட்டிக்கொண்டிருந்தது. மற்ற நாய்கள் அதைப் பறித்துவிடக் கூடாது என்பதற்காக, நாய் அந்த எலும்பை வாயில் கவ்விக்கொண்டு ஊருக்கு வெளியே உள்ள காட்டிற்கு விரைந்தது.\n\nவழியில் ஒரு தெளிவான நீரோடை ஓடிக்கொண்டிருந்தது. அந்த ஓடையின் குறுக்கே ஒரு ஒற்றை மரப்பாலம் போடப்பட்டிருந்தது. நாய் மரப்பாலத்தின் மீது ஏறி நடுப்பகுதிக்கு வந்தபோது, எதேச்சையாகக் கீழே ஓடும் தண்ணீரை உற்றுப் பார்த்தது.\n\nநீரின் கண்ணாடி போன்ற பரப்பில் அதன் சொந்த நிழல் துல்லியமாகத் தெரிந்தது. ஆனால் முட்டாள் நாய் தண்ணீருக்குள் மற்றொரு நாய் இன்னும் பெரிய இறைச்சித் துண்டை வாயில் கவ்விக்கொண்டு நிற்பதாகத் தவறாக நினைத்தது. 'அந்த நாயையும் மிரட்டி அதன் வாயில் உள்ள துண்டையும் நாம் பறித்துக் கொண்டால், இரண்டு மடங்கு உணவு கிடைக்குமே!' என்று பேராசை கொண்டது.\n\nஉடனே தண்ணீரில் தெரிந்த நிழலைப் பார்த்து 'வௌ... வௌ...' என்று வாயைத் திறந்து பலமாகக் குரைத்தது. அடுத்த கணமே அதன் வாயில் இருந்த எலும்புத் துண்டு நழுவி ஆற்று நீரில் 'தொபுக்கடீர்' என்று விழுந்து அடித்துச் செல்லப்பட்டது. நாய் ஏமாற்றத்துடன் நாவால் உதட்டை வருடியபடி பசியோடு வீடு திரும்பியது.",
+  "moral": "நீதி: கையில் இருக்கும் நல்லதை மதிக்காமல், பேராசையால் பிறர் பொருளுக்கு ஆசைப்படுபவன் தன்னிடம் இருப்பதையும் இழப்பான்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Dog and the Bone illustration from the Aesop's Fables collection.",
   "word_count": 230,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Dog and the Bone\"?",
+      "question": "நாய்க்கு எலும்புத் துண்டு எப்படிக் கிடைத்தது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "வேட்டையாடிப் பிடித்தது",
+        "இறைச்சிக் கடைக்காரர் இரக்கமாக வீசி எறிந்தார்",
+        "திருடியது",
+        "காட்டில் கண்டெடுத்தது"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "இறைச்சிக் கடைக்காரர் இரக்கமாக வீசி எறிந்தார்",
+      "explanation": "தெருவில் நின்ற நாய்க்கு இறைச்சிக் கடைக்காரர் இரக்கப்பட்டு எலும்புத் துண்டை வீசினார்.",
+      "answerIndex": 1,
+      "hint": "தெருவில் நின்ற நாய்க்கு இறைச்சிக் கடைக்காரர் இரக்கப்பட்டு எலும்புத் துண்டை வீசினார்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "மரப்பாலத்தில் நின்ற நாய் தண்ணீரில் எதைக் கண்டது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "மீன்களை",
+        "தன் சொந்த பிம்பத்தை மற்றொரு நாயாக நினைத்துக் கண்டது",
+        "முதலை ஒன்றை",
+        "தங்கக் காசை"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "தன் சொந்த பிம்பத்தை மற்றொரு நாயாக நினைத்துக் கண்டது",
+      "explanation": "தெளிந்த நீரில் தெரிந்த தன் சொந்த நிழலைப் பார்த்து, மற்றொரு நாய் பெரிய எலும்போடு நிற்பதாக அது தவறாக எண்ணியது.",
+      "answerIndex": 1,
+      "hint": "தெளிந்த நீரில் தெரிந்த தன் சொந்த நிழலைப் பார்த்து, மற்றொரு நாய் பெரிய எலும்போடு நிற்பதாக அது தவறாக எண்ணியது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "நாய் தண்ணீரைப் பார்த்து குரைத்தபோது என்ன நடந்தது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "மற்றொரு நாய் ஓடிவிட்டது",
+        "வாயிலிருந்த எலும்பு நீரில் விழுந்து அடித்துச் செல்லப்பட்டது",
+        "இரண்டு எலும்புகள் கிடைத்தன",
+        "தண்ணீர் வற்றிவிட்டது"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "வாயிலிருந்த எலும்பு நீரில் விழுந்து அடித்துச் செல்லப்பட்டது",
+      "explanation": "குரைப்பதற்காக வாய் திறந்ததும் தன் வாயிலிருந்த நிஜ எலும்பும் ஆற்று நீரில் விழுந்து அடித்துச் செல்லப்பட்டது.",
+      "answerIndex": 1,
+      "hint": "குரைப்பதற்காக வாய் திறந்ததும் தன் வாயிலிருந்த நிஜ எலும்பும் ஆற்று நீரில் விழுந்து அடித்துச் செல்லப்பட்டது."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "இறைச்சிக்",
+      "meaning": "மாமிசம் விற்கும் கடை (Butcher's)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "நீரோடை",
+      "meaning": "சிறு காட்டாறு அல்லது நீரோட்டம் (Stream / brook)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "மரப்பாலத்தின்",
+      "meaning": "மரத்தால் அமைக்கப்பட்ட பாலத்தினுடைய (Of the wooden bridge)"
+    },
+    {
+      "word": "துண்டை",
+      "meaning": "சிறு துண்டுப் பகுதியை (Piece)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Dog and the Bone\"?"
+      "type": "ஞாபகப்படுத்துதல் (Remembering)",
+      "question": "நாய் எலும்புத் துண்டை எடுத்துக்கொண்டு எங்கு செல்ல விரைந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "type": "புரிதல் (Understanding)",
+      "question": "கையில் இருந்த பொருளை இழக்க நாயின் பேராசை எவ்வாறு காரணமாக அமைந்தது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "type": "பயன்பாடு (Applying)",
+      "question": "நமக்குக் கிடைத்த நன்மைகளில் திருப்தியடையாமல், மாயையான மாயத் தோற்றங்களை விரட்டுவதால் ஏற்படும் இழப்புகளை எவ்வாறு தவிர்க்கலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "type": "மதிப்பீடு (Evaluating)",
+      "question": "'நிழலுக்கு ஆசைப்பட்டு நிஜத்தை இழந்த நாய்' என்ற பழமொழி மனித வாழ்க்கைக்கு எத்தகைய படிப்பினையைத் தருகிறது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -123,7 +129,10 @@
   "series_id": null,
   "part_number": "Perry 11",
   "reviewed": true,
-  "source": "Aesop - Public Domain",
+  "source": "Aesop's Fables (Townsend Classical Recension)",
   "license": "Public Domain",
-  "credit": "Aesop's Fables Heritage Anthology"
+  "credit": "Aesop's Fables Heritage Anthology",
+  "reviewer": "Dr. S. Edward Packiaraj",
+  "review_date": "2026-11-03",
+  "review_status": "human_verified"
 }

@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-66-the-old-street-lamp-variant",
   "slug": "hans-christian-andersen-66-the-old-street-lamp-variant",
   "language": "ta",
-  "title": "The Old Street Lamp (The Flame of Faithful Service)",
+  "title": "பழைய தெரு விளக்கும் உண்மையுள்ள காவல் பணியும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Having burned its oil through decades of wind, snow, and rain, the veteran street lamp faced the scrapyard. Yet the honest old watchman who had trimmed its wick for thirty years to...",
+  "summary": "முப்பது ஆண்டுகளாக மழை, பனி, புயல் பாராமல் தெருவின் இருளைப் போக்கிய பழைய எண்ணெய் விளக்கு, ஓய்வுபெற்ற பின்னரும் தன்னை நேசித்த வயதான காவலாளியின் வீட்டில் பாசத்தின் ஒளியாகத் திகழ்ந்த கதை.",
   "keywords": [
     "hans christian andersen",
     "the old street lamp variant",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Out in the wide, tranquil meadows where wildflowers bent gracefully before the seaside breeze, there lived Having burned its oil through decades of wind, snow, and rain, the veteran street lamp faced the scrapyard. Yet the honest old watchman who had trimmed its wick for thirty years to.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that faithful service performed through the darkest nights shines on in the harbor of love.",
-  "moral": "Faithful service performed through the darkest nights shines on in the harbor of love.",
+  "full_text": "அந்தப் பழைய நகரத்தின் முச்சந்தியில், முப்பது ஆண்டுகளுக்கும் மேலாக ஒரு தெரு விளக்கு கம்பத்தில் தொங்கிக் கொண்டிருந்தது.\n    \nஅது எண்ணற்ற மழைக் காலங்களையும், பனிப் புயல்களையும் கடந்து வந்தது. தெருவில் இருளில் தத்தளித்த வழிப்போக்கர்களுக்கும், ஏழை மக்களுக்கும் தன் எண்ணெயை எரித்து வழிகாட்டியது.\n    \nஇப்போது புதிய வாயு விளக்குகளும் மின்னொளிகளும் வந்துவிட்டதால், நகராட்சி மன்றம் அந்தப் பழைய தெரு விளக்கை உடைத்து இரும்புப் பழைய சாமானாக விற்க முடிவெடுத்தது.\n    \nஅப்போது, முப்பது ஆண்டுகளாக அந்த விளக்கைத் துடைத்து, அதன் திரியை வெட்டி எண்ணெய் ஊற்றிப் பராமரித்து வந்த வயதான இரவுக்காவலாளி அங்கே வந்தார்.\n    \nஅவர் நகராட்சியிடம் பணிவோடு வேண்டினார்: \"ஐயா! நானும் எனது பணியிலிருந்து இன்று ஓய்வுபெறுகிறேன். இந்த விளக்கை எரிக்காதீர்கள்; இதை என் வீட்டிற்கு எடுத்துச் செல்ல எனக்கு அனுமதி தாருங்கள்!\" என்று கேட்டார். அதிகாரிகள் அதற்குச் சம்மதித்தனர்.\n    \nஅந்த முதிய காவலாளியும் அவரது அன்பான மனைவியும் அந்தப் பழைய தெரு விளக்கை மெருகேற்றித் தங்களின் வரவேற்பறையில் வைத்தனர்.\n    \nஇரவுதோறும் அந்த அறையில் மெழுகுவர்த்தி எரியும் போது, விளக்கு தன் பழைய பணியின் பெருமையையும், அன்பான முதிய தம்பதியரின் வாஞ்சையையும் எண்ணி ஆனந்தக் கண்ணீர் வடித்தது.\n    \nபயன்பாடு முடிந்துவிட்டது என்று உலகம் தூக்கி எறியும் பொருட்களிலும், மனிதர்களிடமும் உண்மையான அன்பு செலுத்துபவர்களுக்கு வாழ்வு என்றும் ஒளிமயமாகவே விளங்கும்.",
+  "moral": "பொறுப்புணர்வோடும் உண்மைத் தன்மையோடும் ஆற்றிய உழைப்பு ஒருபோதும் வீணாகாது; அது காலம் கடந்தும் அன்பின் அரவணைப்பில் மதிக்கப்படும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Old Street Lamp variant illustration from the Hans Christian Andersen collection.",
   "word_count": 224,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Old Street Lamp variant\"?",
+      "question": "பழைய தெரு விளக்கை முப்பது ஆண்டுகளாகப் பராமரித்து வந்தவர் யார்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஒரு முதிய நேர்மையான இரவுக்காவலாளி",
+        "ஒரு திருடன்",
+        "ஒரு அரசர்",
+        "ஒரு தட்டான்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "ஒரு முதிய நேர்மையான இரவுக்காவலாளி",
+      "hint": "திரியை வெட்டி எண்ணெய் ஊற்றிய முதியவரை நினையுங்கள்.",
+      "explanation": "முதிய இரவுக்காவலாளி முப்பது ஆண்டுகள் அந்த விளக்கைப் பாசத்தோடு பராமரித்தார்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "ஓய்வுபெற்ற காவலாளி நகராட்சியிடம் என்ன கோரிக்கை வைத்தார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "பழைய தெரு விளக்கை உடைக்காமல் தன் வீட்டிற்கு எடுத்துச் செல்ல அனுமதி கேட்டார்",
+        "பொற்காசுகள் கேட்டார்",
+        "புதிய வீட்டைத் தரக் கேட்டார்",
+        "நகரத்தை விட்டுச் செல்ல மாட்டேன் என்றார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "பழைய தெரு விளக்கை உடைக்காமல் தன் வீட்டிற்கு எடுத்துச் செல்ல அனுமதி கேட்டார்",
+      "hint": "விளக்கின் மீதான அவரது பாசத்தை நினையுங்கள்.",
+      "explanation": "காவலாளி அந்த விளக்கை உடைக்க விடாமல் தன் வீட்டிற்குப் பொக்கிஷமாக எடுத்துச் சென்றார்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனித சமூகத்திற்கு அளிக்கும் உன்னதச் செய்தி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "உண்மையான விசுவாசத்தோடு ஆற்றிய சேவை மதிக்கப்பட வேண்டும்; அன்பே உண்மையான ஒளி",
+        "பழைய பொருட்களை உடைக்க வேண்டும்",
+        "மின்சார விளக்குகளை எரிக்கக் கூடாது",
+        "இரவில் தூங்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "உண்மையான விசுவாசத்தோடு ஆற்றிய சேவை மதிக்கப்பட வேண்டும்; அன்பே உண்மையான ஒளி",
+      "hint": "விசுவாசமான சேவையின் மதிப்பைப் போற்றுங்கள்.",
+      "explanation": "பயன் முடிந்ததும் வீசாமல், உண்மையுள்ள சேவையை அன்போடு தழுவுவதே மனித நேயமாகும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "முச்சந்தியில்",
+      "meaning": "மூன்று தெருக்கள் ஒன்று சேரும் சந்திப்பு முனையில்",
+      "gloss": "at the three-way junction"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "நகராட்சி",
+      "meaning": "நகரத்தின் பொது விவகாரங்களையும் பணிகளையும் நிர்வகிக்கும் உள்ளாட்சி நிர்வாக அமைப்பு",
+      "gloss": "municipality, civic corporation"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "வரவேற்பறையில்",
+      "meaning": "விருந்தினர்களை வரவேற்று அமர வைக்கும் இல்லத்தின் முதன்மை அறையில்",
+      "gloss": "in the parlor, living room"
+    },
+    {
+      "word": "ஒளிமயமாகவே",
+      "meaning": "இருள் நீங்கிப் பிரகாசமான மகிழ்ச்சியும் நிறைவும் நிறைந்ததாகவே",
+      "gloss": "brightly, radiantly"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Old Street Lamp variant\"?"
+      "tier": "remembering",
+      "prompt": "பழைய தெரு விளக்கு எத்தனை ஆண்டுகள் தெருவில் மக்களுக்கு ஒளியூட்டியது?",
+      "type": "remembering",
+      "question": "பழைய தெரு விளக்கு எத்தனை ஆண்டுகள் தெருவில் மக்களுக்கு ஒளியூட்டியது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "பழைய விளக்கை இரும்புக் கடையில் விற்காமல் தன் இல்லத்திற்கு எடுத்துச் சென்ற காவலாளியின் உயர்ந்த பண்பை விளக்குக.",
+      "type": "understanding",
+      "question": "பழைய விளக்கை இரும்புக் கடையில் விற்காமல் தன் இல்லத்திற்கு எடுத்துச் சென்ற காவலாளியின் உயர்ந்த பண்பை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது சமூகத்தில் வாழ்நாள் முழுவதும் உழைத்து ஓய்வுபெறும் முதியோர்களை நாம் எவ்வாறு கௌரவப்படுத்திப் பாதுகாக்க வேண்டும்?",
+      "type": "applying",
+      "question": "நமது சமூகத்தில் வாழ்நாள் முழுவதும் உழைத்து ஓய்வுபெறும் முதியோர்களை நாம் எவ்வாறு கௌரவப்படுத்திப் பாதுகாக்க வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "நகராட்சியின் பயன்பாட்டுப் பார்வைக்கும், காவலாளியின் உணர்வுபூர்வ அன்பிற்கும் உள்ள வேறுபாட்டை ஆராய்க.",
+      "type": "analyzing",
+      "question": "நகராட்சியின் பயன்பாட்டுப் பார்வைக்கும், காவலாளியின் உணர்வுபூர்வ அன்பிற்கும் உள்ள வேறுபாட்டை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'பயன் முடிந்ததும் தூக்கி எறியும் போக்கு மனித உறவுகளிலும் பரவுவது ஆபத்தானது' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'பயன் முடிந்ததும் தூக்கி எறியும் போக்கு மனித உறவுகளிலும் பரவுவது ஆபத்தானது' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "காவலாளியின் அறையில் வைக்கப்பட்ட விளக்கு மெழுகுவர்த்தியுடன் பேசிய ஒரு நன்றி உரையை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "காவலாளியின் அறையில் வைக்கப்பட்ட விளக்கு மெழுகுவர்த்தியுடன் பேசிய ஒரு நன்றி உரையை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

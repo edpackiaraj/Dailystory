@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-114-the-porters-son",
   "slug": "hans-christian-andersen-114-the-porters-son",
   "language": "ta",
-  "title": "The Porter's Son (The Triumph of Art)",
+  "title": "காவலனின் மகனும் கலையின் வெற்றியும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Little George was the son of the general's basement gatekeeper. In the grand salon above lived the general's lovely daughter, Emily. The proud general mocked George when the boy sk...",
+  "summary": "தளபதியின் மாளிகை அடித்தள வாயிற்காவலனின் மகனான ஜார்ஜ் என்ற ஏழைச் சிறுவன், தன் வறுமையை ஏளனம் செய்த உயர்வர்க்கப் பிரபுக்களின் ஆணவத்தைத் தன் அபார ஓவிய மற்றும் சிற்பக் கலைத்திறனால் வென்று உயர்ந்த காவியம்.",
   "keywords": [
     "hans christian andersen",
     "the porter's son",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived Little George was the son of the general's basement gatekeeper. In the grand salon above lived the general's lovely daughter, Emily. The proud general mocked George when the boy sk.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that true talent and hard work will always triumph over social snobbery and inherited privilege.",
-  "moral": "True talent and hard work will always triumph over social snobbery and inherited privilege.",
+  "full_text": "ஒரு மாபெரும் ராணுவத் தளபதியின் பிரம்மாண்ட மாளிகையின் அடித்தளத்தில், வாயிற்காவலன் ஒருவன் தன் மகன் ஜார்ஜுடன் வசித்து வந்தான்.\n    \nமாளிகையின் மேல் தளத்தில் தளபதியின் பேரழகான மகள் எமிலி வாழ்ந்து வந்தாள்.\n    \nசிறுவன் ஜார்ஜ் களிமண்ணைக் கொண்டு அற்புதமான சிற்பங்களைச் செய்வான்; நிலக்கரித் துண்டுகளால் சுவர்களில் உயிரோட்டமுள்ள ஓவியங்களை வரைவான்.\n    \nஅவனது திறமையைக் கண்ட அகந்தை பிடித்த தளபதி எகத்தாளமாகச் சிரித்தார்: \"காவலன் மகன் காவலனாகவே சாக வேண்டும்! இவனுக்கு ஓவியமும் சிற்பமும் ஒரு கேடா?\" என்று ஏளனம் செய்தார்.\n    \nஆனால் ஜார்ஜ் மனம் தளரவில்லை. அவன் ரோம் மற்றும் பாரிஸ் நகரங்களுக்குச் சென்று இரவும் பகலும் உழைத்துக் கலையைக் கற்றான்.\n    \nபல ஆண்டுகளுக்குப் பின், தலைநகரின் அரச கலைக்கூடத்தில் மாபெரும் கண்காட்சி நடைபெற்றது. அங்கே பளிங்கில் செதுக்கப்பட்ட ஒரு பேரழகுச் சிலை அனைவரின் கண்களையும் கவர்ந்து முதல் பரிசை வென்றது!\n    \nஅச்சிலையை வடித்த அந்த உலகப் புகழ்பெற்ற மகா கலைஞன் யார் என்று பார்க்க தளபதியும் அவனது மகள் எமிலியும் ஆவலோடு ஓடி வந்தனர்.\n    \nஅங்கே கம்பீரமாக நின்றவர் வேறு யாருமல்ல, வாயிற்காவலனின் மகன் ஜார்ஜ்!\n    \nதளபதி தலைகுனிந்தார்; பிறப்பின் போலி கர்வத்தை உழைப்பும் கலையும் அடியோடு முறியடித்து வெற்றி வாகை சூடியதை உலகம் போற்றியது.",
+  "moral": "பிறப்பின் அந்தஸ்தோ பரம்பரைச் செல்வமோ திறமைக்கு ஈடாகாது; அர்ப்பணிப்பும் உழைப்பும் கொண்ட தூய கலை எத்தகைய சமூகப் பாகுபாடுகளையும் தகர்த்து வெற்றி பெறும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Porter's Son illustration from the Hans Christian Andersen collection.",
   "word_count": 224,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Porter's Son\"?",
+      "question": "தளபதி வாயிற்காவலனின் மகன் ஜார்ஜைப் பார்த்து என்னவென்று அகந்தையோடு ஏளனம் செய்தார்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "காவலன் மகன் காவலனாகவே சாக வேண்டும்; இவனுக்குக் கலை ஒரு கேடா என்று ஏளனம் செய்தார்",
+        "அவனை வாழ்த்தினார்",
+        "அவனுக்குப் பரிசு கொடுத்தார்",
+        "அவனைப் படிக்க வைத்தார்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "காவலன் மகன் காவலனாகவே சாக வேண்டும்; இவனுக்குக் கலை ஒரு கேடா என்று ஏளனம் செய்தார்",
+      "hint": "தளபதியின் வர்க்க ஆணவப் பேச்சை நினையுங்கள்.",
+      "explanation": "தளபதி சமூக அந்தஸ்தை வைத்து ஏழைக் கலைஞனான ஜார்ஜை இழித்துப் பேசினார்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "ஜார்ஜ் பிற்காலத்தில் அரச கலைக்கூடக் கண்காட்சியில் எதனைச் செய்து முதல் பரிசை வென்றான்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "வெண்பளிங்கில் செதுக்கப்பட்ட உலகப் புகழ்பெற்ற பேரழகுச் சிலையை வடித்து வென்றான்",
+        "போர் ஆயுதங்களைச் செய்தான்",
+        "குதிரையை ஓட்டினான்",
+        "கதவைத் திறந்தான்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "வெண்பளிங்கில் செதுக்கப்பட்ட உலகப் புகழ்பெற்ற பேரழகுச் சிலையை வடித்து வென்றான்",
+      "hint": "அவனது கலை மேதைமைக்குக் கிடைத்த உலக அங்கீகாரத்தை நினையுங்கள்.",
+      "explanation": "ஜார்ஜ் தன் கடின உழைப்பால் உலகமே வியக்கும் தலைமைச் சிற்பியாக உயர்ந்து வென்றான்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை சமூகத்திற்குப் புகட்டும் சமத்துவப் பாடம் என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "உண்மைத் திறமையும் கலையும் பரம்பரைச் செல்வத்தையும் வர்க்கப் பாகுபாடுகளையும் முறியடித்து வெற்றி பெறும்",
+        "சிற்பங்களைச் செய்யக் கூடாது",
+        "காவலர்களாக மட்டுமே வாழ வேண்டும்",
+        "கண்காட்சிகளுக்குச் செல்லக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "உண்மைத் திறமையும் கலையும் பரம்பரைச் செல்வத்தையும் வர்க்கப் பாகுபாடுகளையும் முறியடித்து வெற்றி பெறும்",
+      "hint": "உழைப்பால் விளையும் கலை வெற்றியின் பெருமையை நினையுங்கள்.",
+      "explanation": "பிறப்பால் எவருக்கும் மேன்மை வருவதில்லை; மனிதனின் சொந்தத் திறமையும் உழைப்புமே அவனை உயர்த்தும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "அடித்தளத்தில்",
+      "meaning": "மாளிகையின் தரைமட்டத்திற்குக் கீழே அமைந்துள்ள எளிய அடித்தள அறையில்",
+      "gloss": "in the basement"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "உயிரோட்டமுள்ள",
+      "meaning": "உண்மையாக உயிருடன் இருப்பது போலத் தோன்றும் தத்ரூபமான அழகுடைய",
+      "gloss": "lifelike, vivid"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கண்களையும்",
+      "meaning": "பார்வையாளர்களின் இரு கண்களையும் வியப்பில் ஆழ்த்தி ஈர்க்கும் வண்ணம்",
+      "gloss": "the eyes"
+    },
+    {
+      "word": "முறியடித்து",
+      "meaning": "எதிர்ப்புகளையும் தடைகளையும் தகர்த்து அடியோடு முறியடித்து",
+      "gloss": "shattered, defeated, triumphed over"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Porter's Son\"?"
+      "tier": "remembering",
+      "prompt": "ஜார்ஜ் சிறுவயதில் எவற்றைக் கொண்டு தன் முதல் ஓவியங்களையும் சிற்பங்களையும் செய்தான்?",
+      "type": "remembering",
+      "question": "ஜார்ஜ் சிறுவயதில் எவற்றைக் கொண்டு தன் முதல் ஓவியங்களையும் சிற்பங்களையும் செய்தான்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "தளபதியின் ஆதிக்க மனப்பான்மையை ஜார்ஜ் எவ்வாறு வன்முறையின்றித் தன் கலைத்திறனால் வென்றான் என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "தளபதியின் ஆதிக்க மனப்பான்மையை ஜார்ஜ் எவ்வாறு வன்முறையின்றித் தன் கலைத்திறனால் வென்றான் என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "சமூகத்தில் எளிய பின்னணியிலிருந்து வரும் திறமையாளர்களை நாம் எவ்வாறு இனம்கண்டு ஊக்கப்படுத்த வேண்டும்?",
+      "type": "applying",
+      "question": "சமூகத்தில் எளிய பின்னணியிலிருந்து வரும் திறமையாளர்களை நாம் எவ்வாறு இனம்கண்டு ஊக்கப்படுத்த வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "தளபதியின் போலி வம்சப் பெருமைக்கும், ஜார்ஜின் உண்மையான கலை மேதைமைக்கும் இடையே உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "தளபதியின் போலி வம்சப் பெருமைக்கும், ஜார்ஜின் உண்மையான கலை மேதைமைக்கும் இடையே உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'கலையின் மேன்மைக்கு முன்னால் பிறப்பின் போலி ஏற்றத்தாழ்வுகள் ஒருபோதும் நிற்க முடியாது' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'கலையின் மேன்மைக்கு முன்னால் பிறப்பின் போலி ஏற்றத்தாழ்வுகள் ஒருபோதும் நிற்க முடியாது' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "ஜார்ஜின் வெற்றியைப் பார்த்து மனம் மாறிய தளபதி அவனிடம் பகிரங்கமாக மன்னிப்புக் கோரிய காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "ஜார்ஜின் வெற்றியைப் பார்த்து மனம் மாறிய தளபதி அவனிடம் பகிரங்கமாக மன்னிப்புக் கோரிய காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

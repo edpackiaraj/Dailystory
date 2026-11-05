@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-116-the-puppet-showman",
   "slug": "hans-christian-andersen-116-the-puppet-showman",
   "language": "ta",
-  "title": "The Puppet Showman",
+  "title": "பொம்மலாட்டக் கலைஞனும் உயிரற்ற பொம்மைகளின் பாடமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "A traveling puppet showman traveled with a box of wooden marionettes. He wished with all his heart that his puppets could become living humans so he could manage a real theater....",
+  "summary": "தன் மரப்பொம்மைகள் நிஜ மனிதர்களாக மாறினால் பெரிய நாடக அரங்கை நடத்திப் பெரும் பணக்காரனாகலாம் என்று ஆசைப்பட்ட பொம்மலாட்டக் கலைஞன், மாய வித்தையால் பொம்மைகள் மனிதர்களாக மாறிய பின் அவற்றின் சுயநல சண்டைகளைக் கண்டு அதிர்ச்சியடைந்து தன் எளிய பொம்மைகளே மேல் என்றுணர்ந்த கதை.",
   "keywords": [
     "hans christian andersen",
     "the puppet showman",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Out in the wide, tranquil meadows where wildflowers bent gracefully before the seaside breeze, there lived A traveling puppet showman traveled with a box of wooden marionettes. He wished with all his heart that his puppets could become living humans so he could manage a real theater..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that real human beings with all their flaws are infinitely more precious than mechanical puppets.",
-  "moral": "Real human beings with all their flaws are infinitely more precious than mechanical puppets.",
+  "full_text": "ஊர் ஊராகச் சென்று ஒரு மரப்பெட்டி நிறைய மரப்பொம்மைகளை வைத்துப் பொம்மலாட்டம் நடத்தி வந்தான் ஒரு நாடோடிக் கலைஞன்.\n    \nஅவனது விரல்களில் கட்டப்பட்ட நூல்களை அசைத்த போது, பொம்மைகள் அழகாக நடனமாடி மக்களை மகிழ்வித்தன.\n    \nஆனால் கலைஞனின் மனதில் ஒரு பேராசை எழுந்தது: \"இந்த மரப்பொம்மைகள் மட்டும் உயிருள்ள நிஜ மனிதர்களாக மாறினால், நான் ஒரு பெரிய நாடக அரங்கை நடத்தி உலகப் பணக்காரனாக ஆவேனே!\" என்று ஏங்கினான்.\n    \nஒரு நாள் ஒரு ரசவாத மாயவாதி அவனது ஆசையை நிறைவேற்றினான்; அவனது அனைத்து மரப்பொம்மைகளுக்கும் உயிரூட்டினான்!\n    \nஆனால் அடுத்த கணமே பெருங்குழப்பம் வெடித்தது!\n    \nஉயிர்பெற்ற பொம்மைகள் மனிதர்களாக மாறியவுடன், தங்களுக்குள் பொறாமையும் சண்டையும் வளர்த்துக் கொண்டன! அரசன் பொம்மைக்கு அதிக சம்பளம் வேண்டும் என்றது; ராணி பொம்மை தனக்குத் தனி மாளிகை கேட்டது; வேலைக்கார பொம்மைகள் வேலை செய்ய மறுத்துக் கலகம் செய்தன!\n    \nகலைஞனின் நிம்மதி முற்றிலும் பறிபோனது. அவன் தலைதெறிக்க ஓடி அந்த மாயவாதியிடம் மன்றாடினான்: \"ஐயா! என் மரப்பொம்மைகளையே எனக்குத் திருப்பித் தந்துவிடுங்கள்! நூலால் ஆட்டப்படும் எளிய பொம்மைகளே மனிதர்களின் பொறாமை சண்டைகளை விட மேலானவை!\" என்று கதறினான்.\n    \nபொம்மைகள் மீண்டும் மரமாக மாறின; கலைஞன் தன் எளிய வாழ்க்கையின் அமைதியை உணர்ந்து திருப்தியுடன் புன்னகைத்தான்.",
+  "moral": "குறைபாடுகளும் முரண்பாடுகளும் நிறைந்த எதார்த்த உலகை விடுத்து, இயந்திரப் பூரணத்துவத்தை விரும்புவது அறியாமை; தன் நிலையை உணர்ந்து திருப்தியுடன் வாழ்வதே அமைதி தரும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Puppet Showman illustration from the Hans Christian Andersen collection.",
   "word_count": 223,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Puppet Showman\"?",
+      "question": "பொம்மலாட்டக் கலைஞன் தன் மரப்பொம்மைகளைப் பற்றி என்ன பேராசை கொண்டான்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "அவை நிஜ மனிதர்களாக மாறினால் பெரிய நாடக அரங்கை நடத்திப் பணக்காரனாகலாம் என்று ஆசைப்பட்டான்",
+        "அவற்றை எரிக்க வேண்டும் என்றான்",
+        "அவற்றை ஆற்றில் வீச நினைத்தான்",
+        "அவற்றை விற்க விரும்பினான்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "அவை நிஜ மனிதர்களாக மாறினால் பெரிய நாடக அரங்கை நடத்திப் பணக்காரனாகலாம் என்று ஆசைப்பட்டான்",
+      "hint": "உயிருள்ள மனிதர்களாக மாற்ற அவன் ஆசைப்பட்டதை நினையுங்கள்.",
+      "explanation": "கலைஞன் பொம்மைகள் மனிதர்களானால் பெரிய லாபம் ஈட்டலாம் என்று பேராசைப்பட்டான்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "பொம்மைகள் மனிதர்களாக மாறியதும் என்ன விபரீதம் நிகழ்ந்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அவை தங்களுக்குள் பொறாமையும் சம்பளச் சண்டையும் போட்டுக் கொண்டு கலகம் செய்தன",
+        "அவை அமைதியாக நாடகம் போட்டன",
+        "அவை காட்டில் ஓடின",
+        "அவை தூங்கின"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "அவை தங்களுக்குள் பொறாமையும் சம்பளச் சண்டையும் போட்டுக் கொண்டு கலகம் செய்தன",
+      "hint": "மனிதர்களின் சுயநல குணங்கள் பொம்மைகளிடம் வந்ததை நினையுங்கள்.",
+      "explanation": "உயிர் பெற்றதும் பொம்மைகள் அதிகாரத்திற்கும் பணத்திற்கும் சண்டையிட்டுக் கலைஞனின் நிம்மதியைக் குலைத்தன."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் அங்கத நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "மனிதர்களின் பொறாமை மனப்பான்மையை விட எளிமையும் மனநிறைவுமே அமைதியைத் தரும்",
+        "பொம்மலாட்டம் நடத்தக் கூடாது",
+        "மரப்பொம்மைகளை வாங்கக் கூடாது",
+        "நாடக அரங்கை மூட வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "மனிதர்களின் பொறாமை மனப்பான்மையை விட எளிமையும் மனநிறைவுமே அமைதியைத் தரும்",
+      "hint": "பேராசையை விடுத்து மனநிறைவை நாடுவதை நினையுங்கள்.",
+      "explanation": "ஆன்டர்சன் மனித இயல்பின் குறைபாடுகளையும் எளிய கலைஞனின் திருப்தியையும் அழகாக அங்கதப்படுத்தினார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "நாடோடிக்",
+      "meaning": "ஒரே இடத்தில் நிலையாகத் தங்காமல் ஊர் ஊராகச் சுற்றித் திரியும் வாழ்க்கை முறை கொண்ட",
+      "gloss": "itinerant, traveling, nomadic"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "பொம்மலாட்டம்",
+      "meaning": "நூல்களால் கட்டப்பட்ட பொம்மைகளைத் திரைக்குப் பின்னால் இருந்து இயக்கும் மரபுவழிக் கலை",
+      "gloss": "puppetry, marionette show"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கலகம்",
+      "meaning": "கட்டுப்பாட்டை மீறி அதிகாரத்திற்கு எதிராகச் செய்யும் சண்டை மற்றும் குழப்பம்",
+      "gloss": "rebellion, mutiny, revolt"
+    },
+    {
+      "word": "திருப்தியுடன்",
+      "meaning": "கிடைத்த நன்மைகளில் நிறைவு கண்டு அமைதியான மன நிறைவோடு",
+      "gloss": "with contentment, satisfaction"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Puppet Showman\"?"
+      "tier": "remembering",
+      "prompt": "பொம்மைகளுக்கு உயிரூட்டியவர் யார்?",
+      "type": "remembering",
+      "question": "பொம்மைகளுக்கு உயிரூட்டியவர் யார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "பொம்மைகள் மனிதர்களாக மாறிய போது கலைஞன் தன் நிம்மதியை ஏன் இழந்தான் என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "பொம்மைகள் மனிதர்களாக மாறிய போது கலைஞன் தன் நிம்மதியை ஏன் இழந்தான் என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "வாழ்க்கையில் பேராசைகளுக்கு இடம் தராமல் நமக்கிருக்கும் திறமைகளைக் கொண்டு எவ்வாறு மனநிறைவோடு வாழலாம்?",
+      "type": "applying",
+      "question": "வாழ்க்கையில் பேராசைகளுக்கு இடம் தராமல் நமக்கிருக்கும் திறமைகளைக் கொண்டு எவ்வாறு மனநிறைவோடு வாழலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "மரப்பொம்மைகளின் கட்டுப்பாடான ஒழுங்கிற்கும், மனிதர்களின் கட்டுக்கடங்காத சுயநல இச்சைகளுக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "மரப்பொம்மைகளின் கட்டுப்பாடான ஒழுங்கிற்கும், மனிதர்களின் கட்டுக்கடங்காத சுயநல இச்சைகளுக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'இருப்பதைக் கொண்டு திருப்தி அடைபவனே இவ்வுலகின் ஆகச்சிறந்த பணக்காரன்' என்ற தத்துவத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'இருப்பதைக் கொண்டு திருப்தி அடைபவனே இவ்வுலகின் ஆகச்சிறந்த பணக்காரன்' என்ற தத்துவத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "பொம்மைகள் மீண்டும் மரமாக மாறியதும் கலைஞன் தன் விரல்களால் நூல்களை அசைத்துப் பாடிய ஒரு நன்றிப் பாடலை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "பொம்மைகள் மீண்டும் மரமாக மாறியதும் கலைஞன் தன் விரல்களால் நூல்களை அசைத்துப் பாடிய ஒரு நன்றிப் பாடலை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

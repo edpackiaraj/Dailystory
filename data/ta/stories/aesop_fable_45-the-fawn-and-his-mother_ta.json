@@ -2,12 +2,12 @@
   "id": "aesops-fables-45-the-fawn-and-his-mother",
   "slug": "aesops-fables-45-the-fawn-and-his-mother",
   "language": "ta",
-  "title": "The Fawn and His Mother",
+  "title": "மான் குட்டியும் தாயும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A young fawn was browsing in a peaceful forest clearing with his mother. Looking admiringly at his mother's graceful, slender limbs, sharp hooves, and keen ears, the young buck ask...",
+  "summary": "நாய்களை விடப் பெரிய உடலும், கூரிய கொம்புகளும், அதிவேகப் பாய்ச்சலும் இருந்தும் வேட்டை நாயின் குரைப்பைக் கேட்டவுடனே ஏன் பயந்து ஓடுகிறாய் என்று கேட்ட குட்டிக்கு, ஆழ்ந்த அச்சத்தைப் பற்றித் தாய் அளித்த விளக்கம்.",
   "keywords": [
     "aesop's fables",
     "the fawn and his mother",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A young fawn was browsing in a peaceful forest clearing with his mother. Looking admiringly at his mother's graceful, slender limbs, sharp hooves, and keen ears, the young buck asked:\n\n\"Mother, why are you always so terrified of the dogs? You are much larger and swifter than they are; your hooves can deliver a crushing blow; you have sharp senses that detect danger miles away, and when I grow my antlers, we could easily pierce any hound. Why do you always flee at the first sound of their bark?\"\n\nThe mother hind smiled tenderly and stroked her son's head:\n\n\"Every word you speak is the absolute truth, my child. I tell myself the very same things every single day: that I am swift, that I am large, and that I should stand my ground. But alas! The moment I hear the distant baying of a single hound echoing across the hills, all my courage evaporates in an instant, and my legs carry me away before I even know I am running!\"",
-  "moral": "No amount of logical reasoning can cure a heart ruled by inherited fear.",
+  "full_text": "ஒரு பசுமையான காட்டில் புல் மேய்ந்து கொண்டிருந்த ஒரு மான் குட்டி, தன் தாயை வியப்போடு பார்த்துக் கேட்டது: \"அம்மா! நம் காட்டில் உள்ள வேட்டை நாய்களை விட நீ எவ்வளவோ பெரிய உடலமைப்பைக் கொண்டிருக்கிறாய்; உன் தலையில் தற்காத்துக் கொள்ள கூரிய கொம்புகள் உள்ளன; கால்களில் காற்றைப் போலப் பாயும் அசாத்திய வேகம் இருக்கிறது! அப்படியிருக்க, தூரத்தில் ஒரு சிறிய வேட்டை நாய் குரைக்கும் சத்தம் கேட்டால் கூட, ஏன் உயிரைக் கையில் பிடித்துக்கொண்டு பயந்து ஓடுகிறாய்?\" என்று கேட்டது.\n\nதாய் மான் கனிவோடு புன்னகைத்துவிட்டு பெருமூச்சுடன் சொன்னது: \"என் அன்பு மகனே! நீ சொல்வது அனைத்தும் முற்றிலும் உண்மைதான்; எனக்குக் கூரிய கொம்புகளும் வேகமான கால்களும் இருக்கின்றன என்பது எனக்கு நன்றாகவே தெரியும்.\n\nஆனால் என்ன செய்வது மகனே! தூரத்தில் வேட்டை நாயின் ஒரு சிறிய குரைப்பு ஒலி என் காதில் விழுந்த அடுத்த கணமே, என் உடலில் உள்ள ரத்தம் உறைந்து போகிறது! என் புத்தி சொல்வதை மீறி என் கால்கள் தாமாகவே பயத்தில் நடுங்கித் திரும்பி ஓடத் தொடங்கிவிடுகின்றன! உள்ளத்தில் எழும் அச்சத்தை எந்த உடல் பலத்தாலும் வெல்ல முடியாது!\" என்றது. பயந்த சுபாவத்தை ஆயுதங்களால் மாற்ற முடியாது என்பதை உணர்த்திய கதை இது.",
+  "moral": "நீதி: உள்ளத்தில் அச்சமும் கோழைத்தனமும் இருக்கும் வரை, வெளிப்புற உடல் வலிமையோ அல்லது ஆயுதங்களோ எந்தப் பயனையும் தராது.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Fawn and His Mother illustration from the Aesop's Fables collection.",
-  "word_count": 171,
+  "word_count": 156,
   "reading_time": "2 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Fawn and His Mother\"?",
+      "question": "மான் குட்டி தன் தாயிடம் என்ன வியப்பான சந்தேகத்தைக் கேட்டது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "உடல் பலமும் கொம்புகளும் இருந்தும் வேட்டை நாயின் குரைப்பைக் கேட்டு ஏன் பயந்து ஓடுகிறாய் என்று கேட்டது",
+        "நாம் ஏன் புல்லை மட்டுமே தின்கிறோம் என்று கேட்டது",
+        "வானத்தில் பறக்க முடியுமா என்று கேட்டது",
+        "மனிதர்களோடு வாழலாமா என்று கேட்டது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "தாயின் பலத்திற்கும் பயத்திற்கும் உள்ள முரண்பாட்டை நினைவுகூருங்கள்.",
+      "answer": "உடல் பலமும் கொம்புகளும் இருந்தும் வேட்டை நாயின் குரைப்பைக் கேட்டு ஏன் பயந்து ஓடுகிறாய் என்று கேட்டது",
+      "explanation": "தாயின் பலத்திற்கும் பயத்திற்கும் உள்ள முரண்பாட்டை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "நாயின் குரைப்பைக் கேட்டதும் தனக்கு என்ன நிகழ்கிறது என்று தாய் மான் விளக்கியது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "உடலில் ரத்தம் உறைந்துபோய் கால்கள் தானாகவே பயத்தில் ஓடத் தொடங்கிவிடுகின்றன என்றது",
+        "நாயைக் குத்திக் கொல்லத் தோன்றும் என்றது",
+        "மண்ணைத் தோண்டி ஒளிந்து கொள்வேன் என்றது",
+        "வேடனை அழைக்கத் தோன்றும் என்றது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "அச்சத்தால் ஏற்படும் அனிச்சைச் செயலை யோசியுங்கள்.",
+      "answer": "உடலில் ரத்தம் உறைந்துபோய் கால்கள் தானாகவே பயத்தில் ஓடத் தொடங்கிவிடுகின்றன என்றது",
+      "explanation": "அச்சத்தால் ஏற்படும் அனிச்சைச் செயலை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனிதர்களின் மன உறுதிக்கு உணர்த்தும் முக்கியமான வாழ்வியல் நீதி எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "உள்ளத்தில் தைரியமும் தன்னம்பிக்கையும் இல்லாவிட்டால், எவ்வளவு பெரிய உடல் பலமும் வசதிகளும் பயனற்றவை",
+        "மான்கள் காட்டில் வாழவே கூடாது",
+        "நாய்களை வளர்க்கக் கூடாது",
+        "கொம்புகள் உள்ள விலங்குகள் ஓடக்கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "மன தைரியத்தின் அவசியத்தை எண்ணிப்பாருங்கள்.",
+      "answer": "உள்ளத்தில் தைரியமும் தன்னம்பிக்கையும் இல்லாவிட்டால், எவ்வளவு பெரிய உடல் பலமும் வசதிகளும் பயனற்றவை",
+      "explanation": "மன தைரியத்தின் அவசியத்தை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பசுமையான",
+      "meaning": "பசுமையான என்ற சொல்லின் சூழல் பொருள் (Signifies பசுமையான in the context of the story)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "அசாத்திய வேகம்",
+      "meaning": "எவராலும் எளிதில் கற்பனை செய்ய முடியாத அளவுக்கு மின்னல் போன்ற வேகம்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "ரத்தம்",
+      "meaning": "கடுமையான அதிர்ச்சியிலும் பயத்திலும் உடல் இயக்கம் நின்றுபோகும் பயங்கர உணர்வு"
+    },
+    {
+      "word": "சுபாவத்தை",
+      "meaning": "பிறவியிலேயே ஓர் உயிரினத்தின் உள்ளத்தில் பதிந்துவிட்ட இயற்கையான குணம்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Fawn and His Mother\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "மான் குட்டி தாயிடம் பட்டியலிட்ட மூன்று பலமான தற்காப்பு அம்சங்கள் எவை?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "உடல் பலத்தை விட மன தைரியமே வெற்றியைத் தீர்மானிக்கிறது என்பது எதனால்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "தேர்வுகளிலோ போட்டிகளிலோ திறமை இருந்தும் பயத்தால் தோல்வியடைவதைத் தவிர்க்க நாம் என்ன செய்ய வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "உள்ளுறைந்த அச்சங்களை (Phobias) மனிதர்கள் விழிப்புணர்வாலும் பயிற்சியாலும் எவ்வாறு வெல்ல முடியும்?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

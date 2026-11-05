@@ -2,12 +2,12 @@
   "id": "arabian-nights-320-fifth-constables-history",
   "slug": "arabian-nights-320-fifth-constables-history",
   "language": "ta",
-  "title": "Fifth Constable's History",
+  "title": "ஐந்தாம் காவல் தலைவரின் வரலாறு – பட்டு மாளிகைச் சன்னலும் தேன் பொறியும்",
   "genre": "Folktales",
   "collection": "Arabian Nights",
   "culture_region": "Middle East",
   "age_group": "Below 13",
-  "summary": "The Fifth Constable stepped forward:",
+  "summary": "நாற்பது அடி உயர மாளிகைச் சன்னல்கள் வழியாகப் புகுந்து பட்டுச் சேலைகளைத் திருடிய நள்ளிரவுத் திருடனை, ஈயம் பூசிய குழாய்களில் மலைத்தேன் பசையைத் தடவிப் பிடித்தார் ஐந்தாம் காவல் தலைவர்.",
   "keywords": [
     "arabian nights",
     "1001 nights",
@@ -22,8 +22,8 @@
     "classic",
     "wisdom"
   ],
-  "full_text": "The Fifth Constable approached the throne and related: \"Sire, a nimble burglar had repeatedly broken through the high, barred windows of the great silk warehouses in the heart of the city. The windows were situated forty feet above the street, accessible only by a slender lead drainpipe that seemed impossible for any human being to climb without falling.\"\n\n\"Rather than setting guards whose lanterns would warn the burglar, I procured a pot of boiled mountain honey mixed with sticky gum arabic from the spice bazaar. In the dark hours of dusk, my men climbed ladders and coated the upper lead pipes, stone sills, and window gratings with a thick, invisible layer of the sweet, adhesive substance.\"\n\n\"At midnight, the thief made his ascent. His hands and tunic were immediately coated in the sticky resin. As he slipped down the pipe to make his escape, a swarm of night hornets and biting gnats, attracted by the sweet honey, swarmed over his face and hands! Howling in agony and swatting wildly at the air with sticky fingers, the burglar ran straight down the alley into the arms of our waiting patrol! We secured him and recovered the stolen silks, demonstrating that a drop of honey can accomplish what a score of guards cannot achieve.\"",
-  "moral": "A simple psychological trap catches the nocturnal prowler with his own hands.",
+  "full_text": "ஐந்தாம் காவல் தலைவர் அரியணையின் முன் வந்து தன் துப்பறியும் சாகசத்தை எடுத்துரைத்தார்: \"அரசே! இந்நகரின் பிரதான வணிக வீதியில் இருந்த பட்டு மாளிகைகளின் உயர்ந்த சன்னல்கள் வழியாகத் திருடன் ஒருவன் புகுந்து விலையுயர்ந்த பட்டுத் துணிகளைத் தொடர்ந்து களவாடினான். அச்சன்னல்கள் தரையிலிருந்து நாற்பது அடி உயரத்தில் அமைந்திருந்தன; ஒரு மனிதன் ஏறிச் செல்ல முடியாத மிக மெல்லிய ஈயக் கழிவுநீர்க் குழாய் மட்டுமே அங்கு இருந்தது.\"\n\n\"விளக்குகளோடு ரோந்து நின்றால் திருடன் எச்சரிக்கையாகி விடுவான் என்பதை நான் உணர்ந்தேன். எனவே நறுமணச் சந்தையிலிருந்து காய்ச்சிய மலைத்தேன் மற்றும் பிசுபிசுப்பான அரபுப் பிசின் ஆகியவற்றை வரவழைத்தேன். அந்திப் பொழுதில் ஏணிகள் வைத்து, அந்தக் கழிவுநீர்க் குழாய்களிலும், சன்னலின் கருங்கல் விளிம்புகளிலும், இரும்புக் கம்பிகளிலும் கண்ணுக்குத் தெரியாதவாறு அப்பசையான இனிப்புக் கலவையைத் தடிப்பாகப் பூசச் செய்தேன்.\"\n\n\"நள்ளிரவில் திருடன் வழக்கம் போல ஏறி வந்தான். அவனது கைகளிலும் ஆடைகளிலும் பிசுபிசுப்பான தேன் பசையானது அப்பிக்கொண்டது. பட்டு மூட்டைகளுடன் அவன் குழாயில் சறுக்கி இறங்க முயன்றபோது, தேனின் நறுமணத்தால் ஈர்க்கப்பட்ட பெருங்கூட்டமான இரவு குளவிகளும் விஷ வண்டுகளும் அவனது முகத்தையும் கைகளையும் சூழ்ந்து கொட்டின! வலியால் அலறித் துடித்தவாறு, பிசுபிசுத்த விரல்களால் காற்றைத் துழாவியபடி வீதியில் ஓடிவந்த திருடன் எங்கள் காவல் படையின் கரங்களில் நேராக வந்து விழுந்தான்! பட்டுப் பொதிகளையும் மீட்டோம்; ஒரு துளித் தேன் பல காவலர்கள் செய்ய முடியாத அதிசயத்தைச் செய்தது!\"",
+  "moral": "படைபலத்தைக் கொண்டு வீழ்த்த முடியாத குற்றவாளிகளை இயற்கையான உத்திகளையும் தந்திரங்களையும் கொண்டு எளிதில் முறியடிக்கலாம்.",
   "image": "/images/stories/arabian-nights.webp",
   "image_alt": "Fifth Constable's History illustration from the 1001 Arabian Nights collection.",
   "word_count": 212,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central focus of \"Fifth Constable's History\"?",
+      "question": "பட்டு மாளிகையின் சன்னல்கள் தரையிலிருந்து எத்தனை அடி உயரத்தில் இருந்தன?",
       "options": [
-        "Seeking wisdom, patience, and solving a unique problem",
-        "Finding gold and keeping it hidden away",
-        "Leaving home forever without greeting friends",
-        "Building tall towers in the sand"
+        "இருபது அடி",
+        "முப்பது அடி",
+        "நாற்பது அடி",
+        "ஐம்பது அடி"
       ],
-      "answerIndex": 0,
-      "hint": "Reflect upon the moral outcome of the characters’ choices."
+      "answerIndex": 2,
+      "answer": "நாற்பது அடி",
+      "hint": "நான்கு பத்துகள்.",
+      "explanation": "பட்டு மாளிகையின் சன்னல்கள் தெருவிலிருந்து நாற்பது அடி உயரத்தில் அமைந்திருந்தன."
     },
     {
-      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "question": "காவல் தலைவர் குழாய்களிலும் சன்னல்களிலும் என்ன கலவையைப் பூசினார்?",
       "options": [
-        "Thoughtfulness, patience, and integrity",
-        "Loud shouting and boastful anger",
-        "Running away from every challenge",
-        "Ignoring all wise advice"
+        "எண்ணெயும் கரியும்",
+        "காய்ச்சிய மலைத்தேன் மற்றும் அரபுப் பிசின்",
+        "விஷ மருந்து",
+        "வழுக்கும் சோப்புக் கரைசல்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how calm reflection solves dilemmas in folktales."
+      "answerIndex": 1,
+      "answer": "காய்ச்சிய மலைத்தேன் மற்றும் அரபுப் பிசின்",
+      "hint": "ஒட்டும் தன்மையும் இனிப்பு நறுமணமும் கொண்ட பொருள்.",
+      "explanation": "காய்ச்சிய மலைத்தேனும் பிசுபிசுப்பான அரபுப் பிசினும் கலந்த பசையைக் குழாய்களிலும் விளிம்புகளிலும் பூசினார்."
     },
     {
-      "question": "What memorable lesson does this story impart to listeners?",
+      "question": "திருடன் தப்ப முடியாமல் அலறி ஓடிவரக் காரணம் என்ன?",
       "options": [
-        "Integrity and keeping one’s word build enduring trust across all borders.",
-        "Never listen to advice from elders",
-        "Always act hastily without planning",
-        "Words spoken in anger cause no harm"
+        "கால் ஒடிந்து விழுந்ததால்",
+        "தேனின் மணத்தால் ஈர்க்கப்பட்ட குளவிகளும் வண்டுகளும் கொட்டியதால்",
+        "காவலர்கள் அம்பெய்ததால்",
+        "வலை வீசிப் பிடித்ததால்"
       ],
-      "answerIndex": 0,
-      "hint": "Look closely at the story’s moral."
+      "answerIndex": 1,
+      "answer": "தேனின் மணத்தால் ஈர்க்கப்பட்ட குளவிகளும் வண்டுகளும் கொட்டியதால்",
+      "hint": "தேனுக்கு வந்த பூச்சிகள் அவனைக் கொட்டின.",
+      "explanation": "தேனின் மணத்தால் ஈர்க்கப்பட்ட இரவு குளவிகளும் வண்டுகளும் அவனைக் கொட்டியதால் அவன் வலியால் ஓடிவந்து பிடிபட்டான்."
     }
   ],
   "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
@@ -77,38 +83,62 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "caliph",
-      "meaning": "a sovereign leader or ruler in historical Islamic states"
+      "word": "குளவிகளும்",
+      "meaning": "கொட்டும் தன்மை கொண்ட விஷ வண்டுகள்",
+      "gloss": "hornets / wasps"
     },
     {
-      "word": "vizier",
-      "meaning": "a high-ranking minister or trusted counselor"
+      "word": "பிசின்",
+      "meaning": "மரங்களிலிருந்து வடியும் ஒட்டும் தன்மையுடைய பசை",
+      "gloss": "sticky gum / resin"
     },
     {
-      "word": "hospitality",
-      "meaning": "the friendly and generous reception and entertainment of guests"
+      "word": "பிசுபிசுப்பான",
+      "meaning": "தொட்டால் ஒட்டுகின்ற தன்மையுடைய",
+      "gloss": "sticky / adhesive"
+    },
+    {
+      "word": "துழாவியபடி",
+      "meaning": "இருளில் அல்லது தடுமாற்றத்தில் கைகளால் தடவியபடி",
+      "gloss": "flailing / groping"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What initial challenge or mystery sets the story of \"Fifth Constable's History\" into motion?"
+      "tier": "remembering",
+      "prompt": "திருடன் மாளிகையின் நாற்பது அடி உயர சன்னலுக்கு எவ்வாறு ஏறிச் சென்றான்?",
+      "type": "remembering",
+      "question": "திருடன் மாளிகையின் நாற்பது அடி உயர சன்னலுக்கு எவ்வாறு ஏறிச் சென்றான்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+      "tier": "understanding",
+      "prompt": "காவல் தலைவர் வழக்கமான காவலர்களை நிறுத்தாமல் தேன் பொறியைப் பயன்படுத்தக் காரணம் என்ன?",
+      "type": "understanding",
+      "question": "காவல் தலைவர் வழக்கமான காவலர்களை நிறுத்தாமல் தேன் பொறியைப் பயன்படுத்தக் காரணம் என்ன?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+      "tier": "applying",
+      "prompt": "வன்முறையின்றி குற்றவாளிகளைப் பொறிகளில் சிக்க வைக்கும் உத்திகள் பாதுகாப்புத் துறையில் எவ்வாறு பயன்படுகின்றன?",
+      "type": "applying",
+      "question": "வன்முறையின்றி குற்றவாளிகளைப் பொறிகளில் சிக்க வைக்கும் உத்திகள் பாதுகாப்புத் துறையில் எவ்வாறு பயன்படுகின்றன?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+      "tier": "analyzing",
+      "prompt": "இயற்கைப் பூச்சிகளின் நடத்தை முறையைத் துப்பறிவுக்குப் பயன்படுத்திய காவல் தலைவரின் அறிவியல் பார்வையை ஆராய்க.",
+      "type": "analyzing",
+      "question": "இயற்கைப் பூச்சிகளின் நடத்தை முறையைத் துப்பறிவுக்குப் பயன்படுத்திய காவல் தலைவரின் அறிவியல் பார்வையை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+      "tier": "evaluating",
+      "prompt": "'ஒரு துளித் தேன் பல காவலர்கள் செய்ய முடியாததைச் செய்தது' என்ற காவல் தலைவரின் முடிவை மதிப்பிடுக.",
+      "type": "evaluating",
+      "question": "'ஒரு துளித் தேன் பல காவலர்கள் செய்ய முடியாததைச் செய்தது' என்ற காவல் தலைவரின் முடிவை மதிப்பிடுக."
+    },
+    {
+      "tier": "creating",
+      "prompt": "இயற்கைக் கூறுகளைப் பயன்படுத்திப் பாதுகாப்பை உறுதி செய்யும் ஒரு புதிய தடுப்பு அமைப்பைத் திட்டமிடுக.",
+      "type": "creating",
+      "question": "இயற்கைக் கூறுகளைப் பயன்படுத்திப் பாதுகாப்பை உறுதி செய்யும் ஒரு புதிய தடுப்பு அமைப்பைத் திட்டமிடுக."
     }
   ],
   "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",

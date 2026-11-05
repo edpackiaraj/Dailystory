@@ -155,7 +155,7 @@ const defaultJsonLd = [
       <script type="application/ld+json" set:html={JSON.stringify(schema)} />
     ))}
 
-    <!-- Inline Script: Immediate Theme, Font & Language Auto-Detection -->
+    <!-- Inline Script: Immediate Theme, Font & Language Auto-Detection + Dual Mode -->
     <script is:inline>
       (function() {
         // 1. Immediate Theme Detection (Prevents white flash)
@@ -183,8 +183,29 @@ const defaultJsonLd = [
             document.documentElement.style.setProperty('--story-line-height', settings.lineSpacing);
           }
         } catch(e) {}
+
+        // 3. Dual Mode: General Mode vs School / Classroom Mode
+        const savedMode = localStorage.getItem('dailytale_user_mode') || 'general';
+        document.documentElement.setAttribute('data-mode', savedMode);
       })();
     </script>
+
+    <style is:global>
+      /* Minimalist Novatool-inspired global styling */
+      html {
+        font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+      }
+
+      /* In General Mode: Strictly hide moral/life lesson, vocabulary, comprehension quiz, and discussion questions */
+      html[data-mode="general"] .pedagogy-learning-suite,
+      html[data-mode="general"] .school-mode-only {
+        display: none !important;
+      }
+
+      html[data-mode="school"] .general-mode-only {
+        display: none !important;
+      }
+    </style>
   </head>
 
   <body class="bg-[#FFF8EC] text-[#3B2A1A] dark:bg-[#1B1A2E] dark:text-[#F3EBDD] min-h-screen flex flex-col font-sans transition-colors duration-200">

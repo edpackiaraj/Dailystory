@@ -26,7 +26,7 @@
   "moral": "நீதி: தொடர்ச்சியான கடின உழைப்பும் விடாமுயற்சியும் எப்பேர்ப்பட்ட திறமையையும் வெல்லும்; கர்வம் வீழ்ச்சியைத் தரும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Tortoise and the Hare illustration from the Aesop's Fables collection.",
-  "word_count": 336,
+  "word_count": 168,
   "reading_time": "3 min",
   "listen_time": "3 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Tortoise and the Hare\"?",
+      "question": "முயல் எதைக் குறித்து மிகுந்த செருக்கும் கர்வமும் கொண்டிருந்தது?",
       "options": [
-        "Slow and steady wins the race.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "தான் மிக வேகமாக ஓடும் திறமையைக் குறித்து",
+        "தனது அழகிய வெண்மை நிற உரோமத்தைக் குறித்து",
+        "காட்டில் தனக்கிருந்த நண்பர்களைக் குறித்து",
+        "தனது கூர்மையான பற்களைக் குறித்து"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "முயல் காட்டில் மற்ற விலங்குகளிடம் எதைப் பற்றிப் பெருமை பேசியது?",
+      "answer": "தான் மிக வேகமாக ஓடும் திறமையைக் குறித்து",
+      "explanation": "முயல் காட்டில் மற்ற விலங்குகளிடம் எதைப் பற்றிப் பெருமை பேசியது?"
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "பந்தயத்தின் நடுவே முயல் மரத்தடியில் உறங்க முடிவெடுத்த காரணம் என்ன?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "ஆமை வெகு தொலைவில் மெதுவாக வந்ததால் எளிதில் வென்றுவிடலாம் என்ற அதீத தன்னம்பிக்கை",
+        "முயலுக்குக் கடுமையான காய்ச்சல் இருந்தது",
+        "நரி நடுவர் பந்தயத்தை நிறுத்திவிட்டார்",
+        "முயலுக்குப் பந்தயத்தில் வெற்றிபெற விருப்பமில்லை"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "முயலின் சோம்பலுக்கும் கர்வத்திற்கும் பின்னாலிருந்த தவறான எண்ணத்தைக் கவனியுங்கள்.",
+      "answer": "ஆமை வெகு தொலைவில் மெதுவாக வந்ததால் எளிதில் வென்றுவிடலாம் என்ற அதீத தன்னம்பிக்கை",
+      "explanation": "முயலின் சோம்பலுக்கும் கர்வத்திற்கும் பின்னாலிருந்த தவறான எண்ணத்தைக் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "ஆமை பந்தயத்தில் வெற்றிபெற உதவிய மிக முக்கியமான குணம் எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "இடையறாத தொடர் முயற்சியும் தன்னம்பிக்கையும்",
+        "முயலை ஏமாற்றி குறுக்கு வழியில் ஓடியது",
+        "நரியின் உதவியால் முன்னேறியது",
+        "முயலை விட அதிவேகமாகப் பாய்ந்து ஓடியது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "ஆமையின் நிதானமான அணுகுமுறையை நினைவுகூருங்கள்.",
+      "answer": "இடையறாத தொடர் முயற்சியும் தன்னம்பிக்கையும்",
+      "explanation": "ஆமையின் நிதானமான அணுகுமுறையை நினைவுகூருங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "அடர்ந்த",
+      "meaning": "அடர்ந்த என்ற சொல்லின் சூழல் பொருள் (Signifies அடர்ந்த in the context of the story)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "அயர்ந்து",
+      "meaning": "எச்சரிக்கை உணர்வின்றி மிகவும் ஆழ்ந்து தூங்குதல்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "காட்டில்",
+      "meaning": "காட்டில் என்ற சொல்லின் சூழல் பொருள் (Signifies காட்டில் in the context of the story)"
+    },
+    {
+      "word": "ஏளனமாகச்",
+      "meaning": "மற்றவர்களின் குறையைச் சுட்டிக்காட்டி பரிகாசம் அல்லது கேலி செய்தல்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Tortoise and the Hare\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "முயலுக்கும் ஆமைக்கும் இடையே நடந்த பந்தயத்தில் நடுவராக இருந்த விலங்கு எது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Slow and steady wins the race.\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "முயலிடம் வேகம் இருந்தும் அது ஏன் தோல்வியைத் தழுவியது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "படிப்பிலோ விளையாட்டிலோ இயல்பான திறமையை விட தொடர் பயிற்சி ஏன் மேலானது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "\"நிதானமும் விடாமுயற்சியும் கர்வத்தை வெல்லும்\" என்ற பழமொழி உங்கள் அன்றாட வாழ்வில் எவ்வாறு பொருந்துகிறது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

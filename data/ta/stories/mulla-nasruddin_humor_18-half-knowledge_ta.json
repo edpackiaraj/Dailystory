@@ -2,12 +2,12 @@
   "id": "mulla-nasruddin-18-half-knowledge",
   "slug": "mulla-nasruddin-18-half-knowledge",
   "language": "ta",
-  "title": "Half Knowledge",
+  "title": "அரைகுறை ஞானமும் ஆற்றில் மூழ்கிய பண்டிதரும் – வாழ்க்கைக் கல்வியின் மேன்மை",
   "genre": "Humorous Tales",
   "collection": "Mulla Nasruddin",
   "culture_region": "Middle East & Central Asia",
   "age_group": "Below 13",
-  "summary": "A haughty grammarian boarded Nasruddin's ferry to cross a turbulent river. During the crossing, the scholar asked sneeringly: \"Mulla, have you ever studied Arabic grammar and the r...",
+  "summary": "இலக்கண விதி தெரியாத படகோட்டியான முல்லாவை \"உன் வாழ்க்கையில் பாதி வீணாகிவிட்டது\" என்று ஏளனம் செய்த பண்டிதருக்கு, படகு கவிழ்ந்தபோது நீச்சல் தெரியாததால் நேர்ந்த பாடம்.",
   "keywords": [
     "mulla nasruddin",
     "half knowledge",
@@ -22,49 +22,58 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Mulla Nasruddin was once earning a humble living as a ferryman, rowing passengers across a wide, turbulent river whose waters rushed swiftly from the mountain snows. One afternoon, a haughty grammarian from the imperial capital stepped into his wooden skiff. As Nasruddin pulled steadily at the heavy oars, pushing against the frothing current, the scholar adjusted his spectacles, sneered at the Mulla’s calloused hands, and asked in a condescending voice: \"Tell me, ferryman, have you ever studied the intricate rules of Arabic grammar, syntax, and classical rhetoric?\"\n\n\"Alas, no, respected professor,\" replied Nasruddin cheerfully, his muscles straining against the river's pull. \"I am just a simple boatman. I know how to mend an oar, read the river eddies, and haul cargo, but I have never opened a book of grammar in my life.\" The scholar shook his head with theatrical sorrow and announced loudly so the other passengers could hear: \"What a tragedy! You have lived like a beast in the dark! In that case, my poor man, at least half of your entire life has been completely wasted!\"\n\nJust as the scholar finished speaking, a violent mountain squall swept down the gorge. A monstrous wave slammed against the side of the skiff, snapping the steering rudder and smashing a hole through the floorboards. As icy water rushed into the boat and it began to sink rapidly beneath the white foam, the passengers screamed in terror. Nasruddin dropped his oars, stripped off his heavy coat, and turned to the trembling professor, who was clutching his parchment scrolls with white knuckles. \"Professor,\" shouted Nasruddin above the roar of the water, \"have you ever in your life studied the practical science of swimming?\" \"No, alas, heavens preserve me, never!\" shrieked the petrified grammarian. \"Then, my dear professor,\" shouted Nasruddin as he dove gracefully into the river, \"your whole life has been completely wasted, for this boat is going straight to the bottom!\"",
-  "moral": "Academic arrogance is useless when the river of reality rises; practical skill saves life.",
+  "full_text": "ஒரு அகன்ற காட்டாற்றின் கரையில் முல்லா நஸ்ருதீன் எளிய படகோட்டியாகப் பணிபுரிந்து வந்தார். ஒருநாள் பெரும் இலக்கண அறிஞரும் சாஸ்திர பண்டிதருமான ஒருவர் ஆற்றைக் கடப்பதற்காக முல்லாவின் படகில் ஏறினார்.\n\nபடகில் அமர்ந்திருந்த அந்தப் பண்டிதர் தன் அகந்தையை அடக்க முடியாமல், முல்லாவைப் பார்த்து ஏளனமாக வினவினார்: \"படகோட்டியே! நீர் உலகப் புகழ்பெற்ற இலக்கண நூல்களையும், அலங்கார சாஸ்திரங்களையும் ஆழமாகக் கற்றதுண்டா?\"\n\nமுல்லா அமைதியாகத் துடுப்பு போட்டவாறு, \"ஐயா! நான் ஒரு படிக்காத பாமரன். எனக்கு இலக்கணமும் தெரியாது, சாஸ்திரமும் தெரியாது; படகோட்ட மட்டுமே தெரியும்\" என்றார்.\n\nபண்டிதர் பரிகாசமாகச் சிரித்து, \"ஐயோ பாவம்! மொழியின் இலக்கணத்தை அறியாத மதியற்றவனே! உமது வாழ்நாளில் சரிபாதியை நீர் முற்றிலும் வீணடித்துவிட்டீர்!\" என்று இழிவாகப் பேசினார். முல்லா எதுவும் பேசாமல் மௌனமாகத் துடுப்பை வலித்தார்.\n\nபடகு ஆற்றின் நடுவே சென்றபோது, வானில் கருமேகங்கள் சூழ்ந்து பலத்த சூறாவளிக் காற்று வீசியது! அலைகள் கொந்தளித்தன. ஒரு பெரும் பாறையின் மீது மோதிப் படகின் அடிப்பலகை பிளந்தது; தண்ணீர் மடமடவெனப் படகுக்குள் பாய்ந்தது! படகு மெதுவாக நீரில் மூழ்கத் தொடங்கியது.\n\nபண்டிதர் அச்சத்தில் நடுநடுங்கி, \"ஐயோ! படகு மூழ்குகிறதே! நாம் என்ன செய்வது?!\" என்று அலறினார்.\n\nஅப்போது முல்லா நஸ்ருதீன் தன் துடுப்பை நிறுத்திவிட்டு, அமைதியாகப் பண்டிதரைப் பார்த்து வினவினார்: \"பண்டிதரே! தங்களுக்கு உலகப் புகழ்பெற்ற நீச்சல் கலை தெரியுமா? ஆற்றில் நீந்தக் கற்றுக் கொண்டுள்ளீர்களா?\" என்று கேட்டார்.\n\nபண்டிதர் மரண பயத்தில் நடுங்கி, \"ஐயோ! எனக்கு நீச்சல் தெரியாதே! நான் வாழ்நாள் முழுவதும் ஏடுகளையும் ஏட்டுச் சுவடிகளையுமே படித்துக் கிடந்தேன்; எனக்கு நீந்தத் தெரியாது!\" என்று கதறினார்.\n\nமுல்லா நஸ்ருதீன் ஆற்றில் குதிப்பதற்கு முன் புன்னகையோடு கூறினார்: \"பண்டிதரே! இலக்கணம் தெரியாததால் என் வாழ்நாளில் பாதி வீணாகிவிட்டது என்று கூறினீர்களே; ஆனால் உயிரைக் காக்கும் நீச்சல் கலை தெரியாததால் தங்களின் முழு வாழ்நாளுமே இதோ இந்த ஆற்றுக்குள் மூழ்கி வீணாகப் போகிறதே!\" என்றார்.\n\nமுல்லா இரக்கமுள்ளவர் என்பதால், பண்டிதரின் தலைமுடியைப் பற்றி அவரைத் தன் தோளில் தாங்கிப் பத்திரமாகக் கரை சேர்த்தார். தன் ஏட்டுப் படிப்பின் ஆணவம் அழிந்துபோன அந்தப் பண்டிதர், தன் உயிரைக் காத்த முல்லாவின் கால்களில் வீழ்ந்து தன் போலி அகந்தைக்காக மன்னிப்புக் கோரினார்.",
+  "moral": "வாழ்க்கைப் பயன்பாட்டிற்கும் ஆபத்திற்கும் உதவாத வெற்று ஏட்டுக் கல்வி பயனற்றது; உயிரையும் அறத்தையும் காக்கும் நடைமுறை அறிவே தலைசிறந்த கல்வியாகும்.",
   "image": "/images/stories/nasruddin.webp",
   "image_alt": "Half Knowledge illustration from the Mulla Nasruddin collection.",
-  "word_count": 320,
-  "reading_time": "2 min",
+  "word_count": 234,
+  "reading_time": 2,
   "listen_time": "3 min",
   "audio_url": null,
   "publish_date": "2026-03-25",
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"Half Knowledge\"?",
+      "question": "பண்டிதர் முல்லாவிடம் அவரது வாழ்நாளில் பாதி வீணாகிவிட்டது என்று எதனால் கூறினார்?",
       "options": [
-        "Foolishness hides wisdom; laughter teaches truth",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "முல்லாவுக்கு இலக்கிய இலக்கண சாஸ்திரங்கள் தெரியாது என்ற காரணத்தால்",
+        "முல்லாவுக்குப் படகோட்டத் தெரியாது என்பதால்",
+        "முல்லா ஏழையாக இருந்ததால்",
+        "முல்லாவுக்குக் குழந்தைகள் இல்லை என்பதால்"
       ],
+      "correct_answer": 0,
+      "explanation": "ஏட்டு இலக்கண அறிவை அறியாத எளிய பாமரன் என்பதால் பண்டிதர் தன் அகந்தையால் அவ்வாறு இழிவாகப் பேசினார்.",
+      "hint": "ஏட்டு இலக்கண அறிவை அறியாத எளிய பாமரன் என்பதால் பண்டிதர் தன் அகந்தையால் அவ்வாறு இழிவாகப் பேசினார்.",
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "முல்லாவுக்கு இலக்கிய இலக்கண சாஸ்திரங்கள் தெரியாது என்ற காரணத்தால்"
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "படகு மூழ்கத் தொடங்கியபோது முல்லா பண்டிதரிடம் கேட்ட கேள்வி என்ன?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "தங்களுக்கு உயிரைக் காக்கும் நீச்சல் கலை தெரியுமா என்று கேட்டார்",
+        "உங்களிடம் பணம் உள்ளதா என்றார்",
+        "இலக்கணம் பாடச் சொன்னார்",
+        "மந்திரம் ஓதச் சொன்னார்"
       ],
+      "correct_answer": 0,
+      "explanation": "நெருக்கடியான அந்த விநாடியில் புத்தகப் படிப்பு உதவாது, நீச்சல் போன்ற நடைமுறை வாழ்க்கைத் திறமையே உயிர்காக்கும் என்பதை உணர்த்தினார்.",
+      "hint": "நெருக்கடியான அந்த விநாடியில் புத்தகப் படிப்பு உதவாது, நீச்சல் போன்ற நடைமுறை வாழ்க்கைத் திறமையே உயிர்காக்கும் என்பதை உணர்த்தினார்.",
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "தங்களுக்கு உயிரைக் காக்கும் நீச்சல் கலை தெரியுமா என்று கேட்டார்"
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் வாயிலாக முல்லா நஸ்ருதீன் உணர்த்தும் மிக முக்கியமான கல்வித் தத்துவம் யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "வாழ்க்கைக்கு உதவும் நடைமுறைத் திறன்களும் (Life skills) பொது அறிவும் இல்லாத வெறும் ஏட்டுக் கல்வி பயனற்றது",
+        "ஆற்றில் படகு விடக் கூடாது",
+        "இலக்கணம் படிக்கவே கூடாது",
+        "பண்டிதர்களைப் படகில் ஏற்றக் கூடாது"
       ],
+      "correct_answer": 0,
+      "explanation": "வாழ்க்கையின் உண்மை நெருக்கடிகளை எதிர்கொள்ள உதவும் திறன்களே உண்மையான கல்வியாகும்.",
+      "hint": "வாழ்க்கையின் உண்மை நெருக்கடிகளை எதிர்கொள்ள உதவும் திறன்களே உண்மையான கல்வியாகும்.",
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "வாழ்க்கைக்கு உதவும் நடைமுறைத் திறன்களும் (Life skills) பொது அறிவும் இல்லாத வெறும் ஏட்டுக் கல்வி பயனற்றது"
     }
   ],
   "author": "Traditional Satirical Folklore of Mulla Nasruddin Hodja",
@@ -78,39 +87,31 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "சாஸ்திர",
+      "meaning": "இலக்கணம், தருக்கம் மற்றும் சமயம் தொடர்பான பண்டைய மரபுவழி நூல்களின் அறிவுசார்",
+      "context": "பண்டிதர் சாஸ்திர அறிஞராகத் திகழ்ந்தார்."
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "அடிப்பலகை",
+      "meaning": "படகு அல்லது கப்பலின் தரைப்பகுதியில் நீரைக் கட்டுப்படுத்தும் கீழ் மரப்பலகை",
+      "context": "பாறையில் மோதிப் படகின் அடிப்பலகை பிளந்தது."
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "மரண பயத்தில்",
+      "meaning": "உயிர் பிரிந்துவிடுமோ என்ற தாங்க முடியாத கொடிய அச்ச உணர்வில்",
+      "context": "பண்டிதர் மரண பயத்தில் நடுங்கிக் கதறினார்."
+    },
+    {
+      "word": "சுவடிகளையுமே",
+      "meaning": "பனை ஓலைகளில் எழுத்தாணியால் எழுதப்பட்ட பழங்காலக் கையெழுத்து நூல்களையுமே",
+      "context": "நான் ஏட்டுச் சுவடிகளையுமே படித்துக் கிடந்தேன் என்றார்."
     }
   ],
   "discussion_questions": [
-    {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"Half Knowledge\"?"
-    },
-    {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Foolishness hides wisdom; laughter teaches truth\" meaningful in daily life?"
-    },
-    {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
-    },
-    {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
-    }
+    "கல்வி கற்ற மனிதர்களிடம் தோன்றும் \"அறிவுக் கர்வம்\" (Intellectual arrogance) அவர்களை எவ்வாறு மற்றவர்களை இழிவாகப் பார்க்க வைக்கிறது?",
+    "இன்றைய நவீன கல்வி முறையில் ஏட்டுக் கல்விக்கும் \"வாழ்க்கைத் திறன்களுக்கும்\" (Life skills & survival skills) உள்ள சமநிலை எவ்வாறு இருக்க வேண்டும்?",
+    "முல்லா பண்டிதரின் உயிரைக் காப்பாற்றியது அவரது எத்தகைய கருணை உள்ளத்தையும் பெருந்தன்மையையும் காட்டுகிறது?",
+    "\"நீச்சல் தெரியாத பண்டிதர்\" என்பது சமூகத்தில் எத்தகைய மனிதர்களைக் குறிக்கும் உருவகமாக அமைகிறது?"
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
   "activity": "Retell this story to a friend or draw your favorite scene from the tale.",

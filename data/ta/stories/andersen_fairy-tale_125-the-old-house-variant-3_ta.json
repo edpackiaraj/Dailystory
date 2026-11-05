@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-125-the-old-house-variant-3",
   "slug": "hans-christian-andersen-125-the-old-house-variant-3",
   "language": "ta",
-  "title": "The Old House (The Immortal Tapestry)",
+  "title": "பழைய வீடும் தலைமுறை கடந்த அழியாத அன்பின் திரையும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "In the three-hundred-year-old house, gilded leather wall-hangings whispered tales of vanished centuries. The little boy who sent his toy tin soldier across the street brought a ray...",
+  "summary": "முந்நூறு ஆண்டுகள் பழமையான வீட்டில் வாழ்ந்த முதியவருக்கு அண்டை வீட்டுச் சிறுவன் அன்பளிப்பாக அளித்த ஈயச் சிப்பாயும், காலத்தால் வீடு இடிக்கப்பட்டுப் பல தசாப்தங்களுக்குப் பின் அச்சிறுவனின் மனைவியின் கைகளில் அதே சிப்பாய் மீண்டும் மலர்ந்த நெகிழ்ச்சியான கதை.",
   "keywords": [
     "hans christian andersen",
     "the old house variant 3",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived In the three-hundred-year-old house, gilded leather wall-hangings whispered tales of vanished centuries. The little boy who sent his toy tin soldier across the street brought a ray.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the tapestry of time weaves every act of human kindness into an eternal fabric.",
-  "moral": "The tapestry of time weaves every act of human kindness into an eternal fabric.",
+  "full_text": "முந்நூறு ஆண்டுகள் பழமையான அந்த மர மாளிகையின் அறைகளில், பொன் முலாம் பூசப்பட்ட தோல் திரைச்சீலைகள் கடந்த நூற்றாண்டுகளின் ரகசியங்களை கிசுகிசுத்தன.\n    \nஅங்கே வாழ்ந்த வயோதிக முதியவர், தனக்குரிய உற்றார் உறவினர் அனைவரையும் இழந்து முற்றிலும் தனிமையில் வாழ்ந்து வந்தார்.\n    \nஎதிர்வீட்டு ஜன்னலில் இருந்து அவரைப் பார்த்த ஒரு சிறுவன், அவரது தனிமையைப் போக்கத் தன் பிரியத்திற்குரிய ஒரு சிறிய ஈயச் சிப்பாயைப் பரிசளித்தான்.\n    \nஅந்தச் சின்னஞ்சிறு அன்பளிப்பு, முதியவரின் தனிமை அறையில் வசந்த காலத்தின் ஒளியைப் பாய்ச்சியது. முதியவர் சிறுவனோடு நட்பு கொண்டு தன் பழங்கால நினைவுகளைப் பகிர்ந்தார்.\n    \nகாலங்கள் உருண்டோடின; முதியவர் இயற்கை எய்தினார். அந்தப் பழைய வீடும் இடிக்கப்பட்டுப் புதிய பூந்தோட்டமாக மாறியது.\n    \nமுப்பது ஆண்டுகளுக்குப் பின், வளர்ந்து வாலிபனான அந்தச் சிறுவன் தன் இளம் மனைவியோடு அந்தப் பூந்தோட்டத்தில் உலவிக் கொண்டிருந்தான்.\n    \nமனைவி மண்ணில் கிடந்த ஒரு பழைய பாசி படிந்த செம்பாலான ஆடையை எடுத்த போது, அதனுள் அந்த பழைய ஈயச் சிப்பாய் பளபளவென மின்னியது!\n    \nசிறுவன் தன் கண்களில் நீர் வழிய தன் குழந்தைப் பருவத்தையும், அன்பின் அழியாத பிணைப்பையும் நினைவுகூர்ந்தான்; அன்பு ஒருபோதும் சாவதில்லை என்பதை அந்த ஈயச் சிப்பாய் மெய்ப்பித்தது.",
+  "moral": "காலத்தின் திரையில் மனிதர்கள் செய்யும் ஒவ்வொரு சிறிய அன்பின் செயலும் ஒருபோதும் அழிந்துபோகாமல், அழியாத இழைகளாகப் பின்னப்பட்டு தலைமுறைகளைக் காக்கும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Old House variant 3 illustration from the Hans Christian Andersen collection.",
   "word_count": 221,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Old House variant 3\"?",
+      "question": "தனிமையில் வாழ்ந்த முதியவருக்கு அண்டை வீட்டுச் சிறுவன் எதனைப் பரிசளித்தான்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "தன் பிரியத்திற்குரிய ஈயச் சிப்பாயைப் பரிசளித்தான்",
+        "ஒரு தங்க நாணயத்தைக் கொடுத்தான்",
+        "புத்தகத்தைக் கொடுத்தான்",
+        "ஆடையைக் கொடுத்தான்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "தன் பிரியத்திற்குரிய ஈயச் சிப்பாயைப் பரிசளித்தான்",
+      "hint": "சிறுவனின் விளையாட்டுச் சிப்பாயை நினையுங்கள்.",
+      "explanation": "சிறுவன் முதியவரின் தனிமையைப் போக்கத் தன் ஈயச் சிப்பாயைப் பரிசளித்தான்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "பல ஆண்டுகளுக்குப் பின் பூந்தோட்டத்தில் மண்ணிலிருந்து ஈயச் சிப்பாயைக் கண்டெடுத்தவர் யார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "வளர்ந்து வாலிபனான அந்தச் சிறுவனின் இளம் மனைவி",
+        "ஒரு தோட்டக்காரன்",
+        "ஒரு காவலன்",
+        "அரசர்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "வளர்ந்து வாலிபனான அந்தச் சிறுவனின் இளம் மனைவி",
+      "hint": "அச்சிறுவனின் குடும்பத் துணையை நினையுங்கள்.",
+      "explanation": "சிறுவனின் மனைவி மண்ணில் புதைந்திருந்த பழைய ஈயச் சிப்பாயைக் கண்டெடுத்து அவனிடம் காட்டினாள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனித சமுதாயத்திற்குப் புகட்டும் தத்துவம் யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "பழைய வீடுகள் அழிந்தாலும் மனிதர்கள் செய்த தூய அன்பின் செயல்கள் தலைமுறை கடந்து வாழும்",
+        "பழைய வீடுகளை இடிக்கக் கூடாது",
+        "ஈயச் சிப்பாய்களை மண்ணில் வீச வேண்டும்",
+        "தோட்டங்களுக்குச் செல்லக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "பழைய வீடுகள் அழிந்தாலும் மனிதர்கள் செய்த தூய அன்பின் செயல்கள் தலைமுறை கடந்து வாழும்",
+      "hint": "அன்பின் தலைமுறை கடந்த அழகை நினையுங்கள்.",
+      "explanation": "அன்பின் சிறிய விதை காலத்தின் மண்ணில் புதைந்தாலும் என்றென்றும் வாடாமல் நிலைத்திருக்கும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "திரைச்சீலைகள்",
+      "meaning": "அறைகளின் சுவர்களிலும் ஜன்னல்களிலும் அழகிற்காகவும் தடுப்பிற்காகவும் தொங்கவிடப்படும் திரைகள்",
+      "gloss": "tapestries, curtains, wall-hangings"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "அன்பளிப்பு",
+      "meaning": "எதிர்பார்ப்பின்றி மற்றவர்களின் மகிழ்ச்சிக்காக மனமுவந்து வழங்கப்படும் அன்புப் பரிசு",
+      "gloss": "gift, token of affection"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "பூந்தோட்டமாக",
+      "meaning": "பழைய கட்டடம் இடிக்கப்பட்ட இடத்தில் நறுமண மலர்கள் பூத்துக் குலுங்கும் நந்தவனமாக",
+      "gloss": "as a flower garden"
+    },
+    {
+      "word": "மெய்ப்பித்தது",
+      "meaning": "அன்பின் தொடர்ச்சியை எவராலும் மறுக்க முடியாத வகையில் மெய்யாக நிரூபித்தது",
+      "gloss": "corroborated, proved true"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Old House variant 3\"?"
+      "tier": "remembering",
+      "prompt": "பழைய வீட்டில் தொங்கிய தோல் திரைச்சீலைகள் எத்தனை ஆண்டுகள் பழமையானவை?",
+      "type": "remembering",
+      "question": "பழைய வீட்டில் தொங்கிய தோல் திரைச்சீலைகள் எத்தனை ஆண்டுகள் பழமையானவை?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "ஈயச் சிப்பாய் எவ்வாறு இரு வேறு தலைமுறைகளை அன்பினால் இணைத்தது என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "ஈயச் சிப்பாய் எவ்வாறு இரு வேறு தலைமுறைகளை அன்பினால் இணைத்தது என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது சமூகத்தில் தனிமையில் வாடும் முதியோர்களுக்கு ஆறுதலாக நாம் எவ்வாறு சிறிய அன்பின் செயல்களைச் செய்யலாம்?",
+      "type": "applying",
+      "question": "நமது சமூகத்தில் தனிமையில் வாடும் முதியோர்களுக்கு ஆறுதலாக நாம் எவ்வாறு சிறிய அன்பின் செயல்களைச் செய்யலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "இடிக்கப்பட்ட பழைய வீட்டின் வரலாற்று நினைவுகளுக்கும், அங்கே மலர்ந்த புதிய பூந்தோட்டத்திற்கும் உள்ள உருவகத் தொடர்பை ஆராய்க.",
+      "type": "analyzing",
+      "question": "இடிக்கப்பட்ட பழைய வீட்டின் வரலாற்று நினைவுகளுக்கும், அங்கே மலர்ந்த புதிய பூந்தோட்டத்திற்கும் உள்ள உருவகத் தொடர்பை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'பொருட்களின் அழியக் கூடிய தன்மையை விட அதில் பொதிந்துள்ள மனித அன்பே நிரந்தரமானது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'பொருட்களின் அழியக் கூடிய தன்மையை விட அதில் பொதிந்துள்ள மனித அன்பே நிரந்தரமானது' என்ற கூற்றை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "மீண்டும் கிடைத்த ஈயச் சிப்பாயைத் தன் குழந்தைக்கு அன்போடு வழங்கிய போது அந்த வாலிபன் கூறிய அறிவுரையை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "மீண்டும் கிடைத்த ஈயச் சிப்பாயைத் தன் குழந்தைக்கு அன்போடு வழங்கிய போது அந்த வாலிபன் கூறிய அறிவுரையை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

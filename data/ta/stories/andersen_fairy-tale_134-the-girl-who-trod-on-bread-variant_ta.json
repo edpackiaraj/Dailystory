@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-134-the-girl-who-trod-on-bread-variant",
   "slug": "hans-christian-andersen-134-the-girl-who-trod-on-bread-variant",
   "language": "ta",
-  "title": "The Girl Who Trod on Bread (The Sparrow's Flight)",
+  "title": "ரொட்டியை மிதித்த இங்கரும் குருவியின் விடுதலைப் பறத்தலும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "Frozen into a stone statue in the underworld for stepping upon a loaf of bread, Inger's soul was pierced by the tear of a child who prayed for her forgiveness....",
+  "summary": "ரொட்டியை மிதித்த பாவத்திற்காகப் பாதாளச் சேற்றில் சிலையாக நின்று கண்ணீர் வடித்த இங்கர், தன் சுயநலத்தை அடியோடு மறந்து காட்டில் பசியால் நடுங்கும் பறவைகளுக்குத் தானியங்களை ஊட்டிய தியாகத்தால் வானத்து ஒளியில் சங்கமித்த கதை.",
   "keywords": [
     "hans christian andersen",
     "the girl who trod on bread variant",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Out in the wide, tranquil meadows where wildflowers bent gracefully before the seaside breeze, there lived Frozen into a stone statue in the underworld for stepping upon a loaf of bread, Inger's soul was pierced by the tear of a child who prayed for her forgiveness..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that selfish vanity sinks into the mire, but self-forgetting labor for others lifts the soul to light.",
-  "moral": "Selfish vanity sinks into the mire, but self-forgetting labor for others lifts the soul to light.",
+  "full_text": "ரொட்டித் துண்டின் மீது கால்வைத்து மிதித்த தன் கொடிய அகந்தையின் காரணமாக, இங்கர் பாதாள நரகத்தின் சேற்றுப் படுகையில் அசைவற்ற பாறைச் சிலையாக நின்றிருந்தாள்.\n    \nஅவள் தன் அழகை இழந்தாள்; அவளது உடல் மீது நச்சுப் பூச்சிகள் ஊர்ந்தன. எத்தனையோ தலைமுறைகளாக அவள் அங்கே அசைவற்று நின்று தன் கர்வத்தை எண்ணி உள்ளூரக் கண்ணீர் வடித்தாள்.\n    \nபூமியில் ஒரு சிறிய குழந்தை அவள் மீது பரிவுகொண்டு சிந்திய ஒற்றைக் கண்ணீர்த் துளி, இங்கரின் கல் நெஞ்சைத் துளைத்துக் கரைத்தது!\n    \nஅவள் தன் கர்வத்தை அடியோடு துறந்தாள்; உடனே அவளது சிலையுடல் உடைந்து, அவள் ஒரு சிறிய சாம்பல் நிறக் குருவியாக வானில் சிறகடித்துப் பறந்தாள்!\n    \nஆனால் அவள் தன் விடுதலையைத் தன் சுகத்திற்காகப் பயன்படுத்தவில்லை.\n    \nகடும் பனிக்காலத்தில், பசியால் நடுங்கிய பிற எளிய பறவைகளுக்குத் தானிய மணிகளையும் ரொட்டித் துகள்களையும் தேடிக் கொண்டு வந்து ஊட்டுவதிலேயே தன் காலத்தைக் கழித்தாள்.\n    \nஅவள் தான் மிதித்த அதே அளவு ரொட்டித் துண்டுகளுக்கு இணையான உணவைப் பிற பறவைகளுக்கு வழங்கி முடித்த அந்தப் புனித நாளில்...\n    \nஅவளது சிறகுகள் சூரிய ஒளியில் தூய வெண்மையான அன்னப் பறவையின் சிறகுகளாக மாறின! அவள் இறைவனின் நித்தியப் பேரொளியோடு சங்கமித்தாள்.",
+  "moral": "சுயநலமும் கர்வமும் மனிதனை நரகச் சேற்றில் தள்ளும்; ஆனால் பிறரின் துன்பத்தைப் போக்கும் தன்னலமற்ற உழைப்பே ஆன்மாவை விடுதலை செய்து விண்ணில் உயர்த்தும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Girl Who Trod on Bread variant illustration from the Hans Christian Andersen collection.",
   "word_count": 224,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Girl Who Trod on Bread variant\"?",
+      "question": "இங்கர் சாபத்திலிருந்து விடுபட்டு முதன்முதலில் என்ன உருவம் பெற்றாள்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஒரு சிறிய சாம்பல் நிறக் குருவியாக உருப்பெற்றுப் பறந்தாள்",
+        "மீனாக மாறினாள்",
+        "மானாக மாறினாள்",
+        "ராணியானாள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "ஒரு சிறிய சாம்பல் நிறக் குருவியாக உருப்பெற்றுப் பறந்தாள்",
+      "hint": "சாம்பல் நிறப் பறவையின் மறுபிறப்பை நினையுங்கள்.",
+      "explanation": "இங்கர் குருவியாக மாறித் தான் மிதித்த உணவை ஈடுசெய்யத் தானியங்களைச் சேகரித்தாள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "குருவியாக மாறிய இங்கரின் சிறகுகள் எப்போது தூய வெண் சிறகுகளாக மாறின?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "தான் மிதித்த ரொட்டிக்கு இணையான உணவைப் பசித்த பறவைகளுக்கு ஊட்டி முடித்த புனித நாளில்",
+        "சூரியனைத் தொட்ட போது",
+        "கடலில் குளித்த போது",
+        "கூடு கட்டிய போது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "தான் மிதித்த ரொட்டிக்கு இணையான உணவைப் பசித்த பறவைகளுக்கு ஊட்டி முடித்த புனித நாளில்",
+      "hint": "அவளது பாவப்பரிகாரம் நிறைவேறியதை நினையுங்கள்.",
+      "explanation": "இங்கர் பிறருக்கு உணவளித்துத் தன் பாவத்தைக் கழுவியதும் அவளது ஆன்மா தூய அன்னமாக விண்ணில் உயர்ந்தது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் உன்னத ஆன்மீக நீதி யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "பிறருக்குச் சேவை செய்து பசியைத் தீர்க்கும் தன்னலமற்ற உழைப்பே ஆன்மாவைச் சாபத்திலிருந்து மீட்டு உயர்த்தும்",
+        "ரொட்டியைத் தொடக் கூடாது",
+        "பறவைகளைப் பிடிக்க வேண்டும்",
+        "சேற்றில் நடக்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "பிறருக்குச் சேவை செய்து பசியைத் தீர்க்கும் தன்னலமற்ற உழைப்பே ஆன்மாவைச் சாபத்திலிருந்து மீட்டு உயர்த்தும்",
+      "hint": "ஈகை தரும் ஆன்ம விடுதலையை நினையுங்கள்.",
+      "explanation": "செய்த தவறுக்குப் பிராயச்சித்தமாகப் பிறருக்கு உணவளிக்கும் சேவையே மனிதனை இறைவனிடம் சேர்க்கும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "படுகையில்",
+      "meaning": "ஆற்றின் அல்லது ஏரியின் ஆழமான அடிப்பகுதியில் அமைந்துள்ள சேற்று நிலப் பரப்பில்",
+      "gloss": "in the riverbed, muddy depths"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "சிலையுடல்",
+      "meaning": "உயிரற்ற கல்லைப்போல உறைந்துபோன உடலமைப்பு",
+      "gloss": "statue-body, petrified form"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "அன்னப்",
+      "meaning": "பரிசுத்தமும் வெண்மையும் தெய்வீக நயமும் பொருந்திய ராஜ அன்னப் பறவை சார்ந்த",
+      "gloss": "swan-like"
+    },
+    {
+      "word": "சங்கமித்த",
+      "meaning": "தனியாகப் பிரிந்து நின்ற நிலை மாறி இறைவனின் நித்தியப் பேரொளியோடு இரண்டறக் கலந்த",
+      "gloss": "merged, united with light"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Girl Who Trod on Bread variant\"?"
+      "tier": "remembering",
+      "prompt": "இங்கரின் கல் நெஞ்சைத் துளைத்துக் கரைத்த கண்ணீர்த் துளி யாருடையது?",
+      "type": "remembering",
+      "question": "இங்கரின் கல் நெஞ்சைத் துளைத்துக் கரைத்த கண்ணீர்த் துளி யாருடையது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "இங்கர் குருவியாக மாறிய பிறகும் தன் சொந்த சுகத்தைத் தேடாமல் பிற பறவைகளுக்கு உணவளித்ததன் தியாகத்தை விளக்குக.",
+      "type": "understanding",
+      "question": "இங்கர் குருவியாக மாறிய பிறகும் தன் சொந்த சுகத்தைத் தேடாமல் பிற பறவைகளுக்கு உணவளித்ததன் தியாகத்தை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "கடந்த காலத்தில் நாம் செய்த தவறுகளுக்கு வெறும் வருத்தத்தோடு நில்லாமல் ஆக்கப்பூர்வமான நற்செயல்களால் எவ்வாறு பிராயச்சித்தம் தேடலாம்?",
+      "type": "applying",
+      "question": "கடந்த காலத்தில் நாம் செய்த தவறுகளுக்கு வெறும் வருத்தத்தோடு நில்லாமல் ஆக்கப்பூர்வமான நற்செயல்களால் எவ்வாறு பிராயச்சித்தம் தேடலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "பாதாளச் சேற்றில் இங்கர் அனுபவித்த தனிமைச் சிறைக்கும், அன்னமாக விண்ணில் உயர்ந்த சுதந்திரத்திற்கும் உள்ள ஆன்மீக வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "பாதாளச் சேற்றில் இங்கர் அனுபவித்த தனிமைச் சிறைக்கும், அன்னமாக விண்ணில் உயர்ந்த சுதந்திரத்திற்கும் உள்ள ஆன்மீக வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'தன்னலமற்ற சேவையே பாவங்களைப் போக்கி ஆன்மாவைத் தூய்மைப்படுத்தும் ஆகச்சிறந்த தீர்த்தம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'தன்னலமற்ற சேவையே பாவங்களைப் போக்கி ஆன்மாவைத் தூய்மைப்படுத்தும் ஆகச்சிறந்த தீர்த்தம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "வெண் அன்னமாக மாறிய இங்கர் விண்ணுலகை நோக்கிப் பறக்கும் போது பாடிய ஒரு விடுதலைப் கீதத்தை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "வெண் அன்னமாக மாறிய இங்கர் விண்ணுலகை நோக்கிப் பறக்கும் போது பாடிய ஒரு விடுதலைப் கீதத்தை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

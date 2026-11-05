@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-87-the-old-lady",
   "slug": "hans-christian-andersen-87-the-old-lady",
   "language": "ta",
-  "title": "The Old Lady",
+  "title": "அன்பான மூதாட்டியும் இஞ்சி ரொட்டிகளின் வாஞ்சையும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "In a clean cottage surrounded by honeysuckle lived an elderly lady who spent her days baking sweet ginger biscuits for neighborhood children and knitting warm stockings for poor sa...",
+  "summary": "சுற்றிலும் கொடி மலர்கள் படர்ந்த எளிய குடிசையில் வாழ்ந்து, ஊர்க் குழந்தைகளுக்குச் சுவையான இஞ்சி ரொட்டிகளைச் சுட்டும், ஏழை மாலுமிகளுக்குக் கம்பளிக் காலுறைகளைப் பின்னியும் கொடுத்துப் பேரன்பைப் பரப்பிய மூதாட்டியின் தூய வாழ்வு.",
   "keywords": [
     "hans christian andersen",
     "the old lady",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived In a clean cottage surrounded by honeysuckle lived an elderly lady who spent her days baking sweet ginger biscuits for neighborhood children and knitting warm stockings for poor sa.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that a life spent in selfless generosity leaves an enduring garden of joy in the heart.",
-  "moral": "A life spent in selfless generosity leaves an enduring garden of joy in the heart.",
+  "full_text": "அந்தச் சிறிய கிராமத்தின் எல்லையில், தேன்சிந்தும் மலர்க் கொடிகள் படர்ந்த ஒரு சுத்தமான வெள்ளை நிறச் சிறு குடிசை இருந்தது.\n    \nஅங்கே ஒரு அன்பான வயதான மூதாட்டி வாழ்ந்து வந்தார். அவரிடம் தங்கம், வெள்ளி போன்ற பெரிய செல்வங்கள் எதுவும் இல்லை; ஆனால் கருணை நிறைந்த ஒரு பரந்த இதயம் அவரிடம் இருந்தது.\n    \nஅவர் நாள்தோறும் தன் பழைய அடுப்பில் இனிப்பான இஞ்சி ரொட்டிகளையும் (Ginger Biscuits) சர்க்கரை மிட்டாய்களையும் சுட்டு வைப்பார். தெருவில் விளையாடும் குழந்தைகள் ஓடி வரும் போதெல்லாம், அவர்களுக்கு அந்த ரொட்டிகளைப் பாசத்தோடு வாரி வழங்குவார்.\n    \nகடும் குளிர்கால இரவுகளில், பனிப்புயலில் நடுக்கத்தோடு கடற்பயணம் மேற்கொள்ளும் ஏழை மாலுமிகளுக்காகக் கம்பளி நூல்களைக் கொண்டு சூடான காலுறைகளை இரவெல்லாம் விழித்துப் பின்னி அனுப்புவார்.\n    \nஎந்தப் பிரதிபலனையும் எதிர்பாராமல், ஊரில் உள்ள எளிய மக்களின் கண்ணீரைத் துடைப்பதிலேயே அவர் தன் வாழ்நாளைக் கழித்தார்.\n    \nஅந்த மூதாட்டி முதுமையில் அமைதியாக இயற்கை எய்திய போது, அக்கிராமத்தின் குழந்தைகளும் மக்களும் கண்ணீர் வடித்து மலர்களைத் தூவி அவரை வழியனுப்பினர்.\n    \nஅவரது குடிசை மறைந்திருக்கலாம்; ஆனால் அவர் விதைத்த தூய பாசத்தின் இனிமை தலைமுறை கடந்தும் மக்களின் இதயங்களில் ஒரு நந்தவனமாகப் பூத்துக் குலுங்கியது.",
+  "moral": "பிறருக்காக வாழும் தன்னலமற்ற எளிய அன்பும் கருணையுமே இவ்வுலகில் மனிதன் விட்டுச்செல்லும் அழியாத நறுமணமாகும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Old Lady illustration from the Hans Christian Andersen collection.",
   "word_count": 224,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Old Lady\"?",
+      "question": "குடிசையில் வாழ்ந்த அன்பான மூதாட்டி கிராமத்துக் குழந்தைகளுக்கு எதனைச் சுட்டு வழங்கினார்?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "சுவையான இஞ்சி ரொட்டிகளையும் சர்க்கரை மிட்டாய்களையும் வழங்கினார்",
+        "பழைய உணவைக் கொடுத்தார்",
+        "கற்களைக் கொடுத்தார்",
+        "விலைமதிப்பற்ற தங்கத்தைக் கொடுத்தார்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "சுவையான இஞ்சி ரொட்டிகளையும் சர்க்கரை மிட்டாய்களையும் வழங்கினார்",
+      "hint": "குழந்தைகளுக்கு அவர் சுட்டுத் தந்த இனிப்பை நினையுங்கள்.",
+      "explanation": "மூதாட்டி தன் அடுப்பில் சுவையான இஞ்சி ரொட்டிகளைச் சுட்டுக் குழந்தைகளுக்குப் பரிவோடு தந்தார்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "குளிர்காலத்தில் ஏழை மாலுமிகளுக்காக மூதாட்டி எதனை இரவெல்லாம் பின்னி அனுப்பினார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "கம்பளி நூலால் ஆன சூடான காலுறைகளைப் பின்னினார்",
+        "வலைகளைப் பின்னினார்",
+        "பாய்களைப் பின்னினார்",
+        "கூடைகளைப் பின்னினார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "கம்பளி நூலால் ஆன சூடான காலுறைகளைப் பின்னினார்",
+      "hint": "மாலுமிகளின் குளிரைப் போக்கிய கம்பளிப் பொருளை நினையுங்கள்.",
+      "explanation": "கடுங்குளிரில் தவிக்கும் மாலுமிகளுக்காக அவர் சூடான கம்பளிக் காலுறைகளைப் பின்னினார்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை மனிதர்களுக்குப் புகட்டும் நற்பண்பு யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "பிரதிபலன் எதிர்பாராமல் பிறருக்குச் செய்யும் எளிய உதவிகளே இதயங்களை மலர வைக்கும்",
+        "ரொட்டிகளை விற்க வேண்டும்",
+        "குடிசைகளில் வாழக் கூடாது",
+        "மாலுமிகளுக்கு உதவக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "பிரதிபலன் எதிர்பாராமல் பிறருக்குச் செய்யும் எளிய உதவிகளே இதயங்களை மலர வைக்கும்",
+      "hint": "தன்னலமற்ற தூய ஈகையின் மதிப்பை நினையுங்கள்.",
+      "explanation": "எளிய மனிதர்கள் செய்யும் சுயநலமற்ற தர்மமே உலகத்தை அன்பால் நனைக்கிறது."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "தேன்சிந்தும்",
+      "meaning": "இனிய தேனைச் சுரந்து வண்டுகளை ஈர்க்கும் நறுமணம் மிக்க",
+      "gloss": "honey-dripping, nectarous"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "காலுறைகளை",
+      "meaning": "குளிரிலிருந்து கால்களைப் பாதுகாக்கக் கம்பளியால் பின்னப்பட்ட காலுறைகளை",
+      "gloss": "stockings, socks"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "பிரதிபலனையும்",
+      "meaning": "செய்த உதவிக்கு ஈடாகப் பதிலாக எதிர்பார்க்கும் லாபத்தையோ பயனെയோ",
+      "gloss": "recompense, return, reward"
+    },
+    {
+      "word": "நந்தவனமாகப்",
+      "meaning": "அழகான வாசம் வீசும் மலர்கள் பூத்துக் குலுங்கும் பூந்தோட்டமாக",
+      "gloss": "as a fragrant garden"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Old Lady\"?"
+      "tier": "remembering",
+      "prompt": "மூதாட்டியின் குடிசையைச் சுற்றி என்ன செடிகள் படர்ந்திருந்தன?",
+      "type": "remembering",
+      "question": "மூதாட்டியின் குடிசையைச் சுற்றி என்ன செடிகள் படர்ந்திருந்தன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "செல்வம் இல்லாத நிலையிலும் மூதாட்டி எவ்வாறு நிறைவான வாழ்க்கையை வாழ்ந்தார் என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "செல்வம் இல்லாத நிலையிலும் மூதாட்டி எவ்வாறு நிறைவான வாழ்க்கையை வாழ்ந்தார் என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது பகுதியில் வாழும் ஏழை எளியவர்களுக்கும் முதியோர்களுக்கும் நாம் எவ்வாறு ஆதரவாக உதவிகளைச் செய்யலாம்?",
+      "type": "applying",
+      "question": "நமது பகுதியில் வாழும் ஏழை எளியவர்களுக்கும் முதியோர்களுக்கும் நாம் எவ்வாறு ஆதரவாக உதவிகளைச் செய்யலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "பொருள் சார்ந்த பெரும் பணக்காரர்களின் ஆடம்பரத்திற்கும், மூதாட்டியின் எளிய நற்பண்புகளுக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "பொருள் சார்ந்த பெரும் பணக்காரர்களின் ஆடம்பரத்திற்கும், மூதாட்டியின் எளிய நற்பண்புகளுக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'பிறருக்குக் கொடுத்து மகிழும் உள்ளமே இவ்வுலகின் மிகச் சிறந்த செல்வம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'பிறருக்குக் கொடுத்து மகிழும் உள்ளமே இவ்வுலகின் மிகச் சிறந்த செல்வம்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "மூதாட்டிக்கு நன்றி செலுத்தும் வகையில் கிராமத்துக் குழந்தைகள் தயாரித்த ஒரு பரிசு மாலையை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "மூதாட்டிக்கு நன்றி செலுத்தும் வகையில் கிராமத்துக் குழந்தைகள் தயாரித்த ஒரு பரிசு மாலையை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

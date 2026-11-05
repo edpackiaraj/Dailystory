@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"Birbal's Entry to Akbar's Court\"?",
+      "question": "அரண்மனை வாயில் காவலாளி இளம் பீர்பாலை உள்ளே அனுமதிக்க என்ன நிபந்தனை விதித்தான்?",
       "options": [
-        "Wit beats power",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "மன்னரிடம் பீர்பால் பெறும் பரிசில் சரிபாதியைத் தனக்கு லஞ்சமாகத் தர வேண்டும் என்றான்",
+        "பீர்பால் அவனுக்குப் பத்து பொற்காசுகளை உடனே தர வேண்டும் என்றான்",
+        "பீர்பால் வாயிலில் மூன்று மணி நேரம் காத்திருக்க வேண்டும் என்றான்",
+        "பீர்பால் மன்னருக்குப் பாட்டுக் கற்றுத்தர வேண்டும் என்றான்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "காவலாளியின் பேராசையான நிபந்தனையை நினைவுகூருங்கள்.",
+      "answer": "மன்னரிடம் பீர்பால் பெறும் பரிசில் சரிபாதியைத் தனக்கு லஞ்சமாகத் தர வேண்டும் என்றான்",
+      "explanation": "காவலாளியின் பேராசையான நிபந்தனையை நினைவுகூருங்கள்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "அக்பர் சக்கரவர்த்தி பீர்பாலின் கவிதையைக் கேட்டு மகிழ்ந்து பரிசைக் கேட்டபோது பீர்பால் என்ன கேட்டார்?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "தனக்கு நூறு கசையடிகள் பரிசாக வழங்கப்பட வேண்டும் என்று விநோதமாகக் கேட்டார்",
+        "ஆயிரம் பொற்காசுகளும் நவரத்தினங்களும் கேட்டார்",
+        "அரண்மனையில் உயர்ந்த மந்திரி பதவி கேட்டார்",
+        "ஒரு பெரிய கிராமத்தையே தனக்குப் பரிசாகக் கேட்டார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "காவலாளிக்குத் தகுந்த பாடம் புகட்ட பீர்பால் கேட்ட பரிசு எதுவென்று யோசியுங்கள்.",
+      "answer": "தனக்கு நூறு கசையடிகள் பரிசாக வழங்கப்பட வேண்டும் என்று விநோதமாகக் கேட்டார்",
+      "explanation": "காவலாளிக்குத் தகுந்த பாடம் புகட்ட பீர்பால் கேட்ட பரிசு எதுவென்று யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "பீர்பால் கேட்ட கசையடிப் பரிசின் முடிவில் என்ன நடந்தது?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "லஞ்சம் கேட்ட காவலாளிக்கு ஐம்பது கசையடிகள் தண்டனையாக வழங்கப்பட்டு சிறையிலடைக்கப்பட்டான்; பீர்பால் மந்திரியானார்",
+        "பீர்பால் கசையடிகளை முழுமையாகத் தன் முதுகில் வாங்கிக்கொண்டார்",
+        "அக்பர் கோபமுற்று பீர்பாலை நாட்டை விட்டு விரட்டினார்",
+        "காவலாளிக்கு மன்னர் தங்கப் பதக்கம் வழங்கினார்"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "லஞ்சப் பேர்வழிக்குக் கிடைத்த நீதியான தண்டனையை எண்ணிப்பாருங்கள்.",
+      "answer": "லஞ்சம் கேட்ட காவலாளிக்கு ஐம்பது கசையடிகள் தண்டனையாக வழங்கப்பட்டு சிறையிலடைக்கப்பட்டான்; பீர்பால் மந்திரியானார்",
+      "explanation": "லஞ்சப் பேர்வழிக்குக் கிடைத்த நீதியான தண்டனையை எண்ணிப்பாருங்கள்."
     }
   ],
   "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "ராஜா",
+      "meaning": "ராஜா என்ற சொல்லின் சூழல் பொருள் (Signifies ராஜா in the context of the story)"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "காவலன்",
+      "meaning": "அரண்மனை வாயிலில் நின்று பாதுகாக்கும் சேவகன்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "கசையடி",
+      "meaning": "தோல் சாட்டையினால் முதுகில் அடித்து வழங்கப்படும் கடுமையான தண்டனை"
+    },
+    {
+      "word": "பேராசைக்காரன்",
+      "meaning": "பிறர் உழைப்பில் வரும் பலனை அநியாயமாகப் பறிக்க நினைக்கும் தீயவன்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"Birbal's Entry to Akbar's Court\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "பீர்பால் மன்னரைச் சந்திக்க வந்த போது கொண்டு வந்த கலை எது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wit beats power\"?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "லஞ்சம் கேட்கும் அதிகாரிகளை அவர்களின் பேராசையைக் கொண்டே வீழ்த்துவது எப்படி?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "பயன்பாடு",
+      "prompt": "அரசு அலுவலகங்களில் லஞ்சம் கேட்கும் சூழலை நாம் நேர்மையோடு எவ்வாறு கையாள வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "சிந்தனை",
+      "prompt": "அக்பர் பீர்பாலைத் தன் அரசவையின் நவரத்தினங்களில் ஒருவராக இணைக்கக் காரணம் என்ன?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

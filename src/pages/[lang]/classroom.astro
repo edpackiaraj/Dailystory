@@ -1,0 +1,916 @@
+---
+import brandConfig from '../../../config/brand.json';
+import { getT, getLanguageMeta } from '../../lib/i18n';
+import { getAllReviewedStories, getStoryUrl } from '../../lib/stories';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export function getStaticPaths() {
+  return brandConfig.supportedLanguages.map(l => ({
+    params: { lang: l.code }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = lang || 'en';
+const t = getT(currentLang);
+const currentLangObj = getLanguageMeta(currentLang);
+
+// Get a representative sample of popular stories for schedule preparation
+const allStories = getAllReviewedStories(currentLang);
+const sampleStories = allStories.slice(0, 40).map(s => ({
+  id: s.id,
+  title: s.title,
+  collection: s.collection,
+  url: getStoryUrl(s, currentLang)
+}));
+---
+
+<BaseLayout
+  title={`My Classroom & Reading Schedule — Daily Tale`}
+  description={`Teacher and student learning portal: create classrooms, prepare reading schedules, share stories, and track student quiz results.`}
+  lang={currentLang}
+  canonicalUrl={`${brandConfig.siteUrl.replace(/\/$/, '')}/${currentLang}/classroom/`}
+  activeNavTab="stories"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-10">
+    
+    <!-- Hero Banner (Novatool-inspired Minimalist SaaS Aesthetic) -->
+    <section class="text-center max-w-3xl mx-auto space-y-4">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-500/10 border border-teal-500/30 text-teal-700 dark:text-teal-300 text-xs font-bold tracking-wide uppercase">
+        <span class="w-2 h-2 rounded-full bg-teal-500 animate-pulse"></span>
+        <span>Classroom &amp; Learning Portal</span>
+      </div>
+
+      <h1 class="text-3xl sm:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight">
+        My Classroom
+      </h1>
+
+      <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+        Foster daily reading habits through scheduled cultural stories, collaborative classroom assignments, and automatic quiz comprehension tracking.
+      </p>
+
+      <!-- Active Navigation Tabs (Teacher / Student / Results) -->
+      <div class="flex items-center justify-center gap-2 pt-2">
+        <div class="inline-flex p-1.5 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs text-xs font-bold">
+          <button
+            type="button"
+            id="tab-btn-teacher"
+            class="classroom-tab-btn px-4 py-2 rounded-xl transition-all bg-[#0F766E] text-white shadow-xs"
+            data-target="panel-teacher"
+          >
+            👩‍🏫 Teacher Desk
+          </button>
+          <button
+            type="button"
+            id="tab-btn-student"
+            class="classroom-tab-btn px-4 py-2 rounded-xl transition-all text-[#6B5644] dark:text-[#C8BFAF] hover:text-[#0F766E]"
+            data-target="panel-student"
+          >
+            🎒 Student Desk
+          </button>
+          <button
+            type="button"
+            id="tab-btn-results"
+            class="classroom-tab-btn px-4 py-2 rounded-xl transition-all text-[#6B5644] dark:text-[#C8BFAF] hover:text-[#0F766E]"
+            data-target="panel-results"
+          >
+            📊 Quiz Results Table
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PANEL 1: TEACHER DESK (Class Creation, Schedule Preparation & Sharing) -->
+    <div id="panel-teacher" class="classroom-panel space-y-8">
+      
+      <!-- Top Row: Create Class & Active Classrooms -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        
+        <!-- Create Classroom Card -->
+        <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-5">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-2xl bg-[#0F766E]/15 text-[#0F766E] dark:text-[#2DD4BF] flex items-center justify-center text-xl">
+              🏫
+            </div>
+            <div>
+              <h2 class="text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Create Classroom</h2>
+              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">Set up a new grade or literature group</p>
+            </div>
+          </div>
+
+          <form id="create-class-form" class="space-y-4 text-xs">
+            <div>
+              <label class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1">Class / Grade Name</label>
+              <input
+                type="text"
+                id="new-class-name"
+                required
+                placeholder="e.g. Grade 5 - Alpha"
+                class="w-full p-2.5 rounded-xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] text-xs font-medium focus:ring-2 focus:ring-[#0F766E] focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1">Subject / Focus</label>
+              <input
+                type="text"
+                id="new-class-subject"
+                placeholder="e.g. Moral Science &amp; Tamil Literature"
+                class="w-full p-2.5 rounded-xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] text-xs font-medium focus:ring-2 focus:ring-[#0F766E] focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1">Teacher / Instructor Name</label>
+              <input
+                type="text"
+                id="new-class-teacher"
+                required
+                placeholder="e.g. Dr. S. Edward Packiaraj"
+                class="w-full p-2.5 rounded-xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] text-xs font-medium focus:ring-2 focus:ring-[#0F766E] focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1">Class Code (Unique)</label>
+              <div class="flex items-center gap-2">
+                <input
+                  type="text"
+                  id="new-class-code"
+                  required
+                  placeholder="e.g. CLASS-5A"
+                  class="w-full p-2.5 rounded-xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] font-mono text-xs uppercase font-bold focus:ring-2 focus:ring-[#0F766E] focus:outline-none"
+                />
+                <button
+                  type="button"
+                  id="btn-gen-code"
+                  class="px-3 py-2.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] hover:bg-[#EEDFC8]/50 text-xs font-bold shrink-0"
+                >
+                  🎲 Auto
+                </button>
+              </div>
+            </div>
+
+            <button
+              type="submit"
+              class="w-full py-3 rounded-xl bg-[#0F766E] hover:bg-[#0D655E] text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-1.5 min-h-[42px]"
+            >
+              <span>➕</span>
+              <span>Register Classroom</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Active Classrooms Overview List -->
+        <div class="lg:col-span-2 p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-4">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="text-xl">📋</span>
+              <h2 class="text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Active Classrooms</h2>
+            </div>
+            <span class="text-xs text-[#8C7A6B] dark:text-[#A89F91]">Share codes with students</span>
+          </div>
+
+          <div id="classrooms-cards-container" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- Dynamically populated via JS -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Schedule Preparation Section (Teacher assigns story for students) -->
+      <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-6">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#EEDFC8]/60 dark:border-[#383659]/60 pb-4">
+          <div>
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold text-[#D97706] uppercase tracking-wider">
+              <span>📅</span> Reading Schedule Preparation
+            </div>
+            <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD] mt-0.5">
+              Assign Stories &amp; Prepare Learning Schedule
+            </h2>
+          </div>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] max-w-sm">
+            Select stories from the 2,448 library collection, set scheduled reading dates, and share them directly with your students.
+          </p>
+        </div>
+
+        <!-- Schedule Preparation Form -->
+        <form id="create-schedule-form" class="grid grid-cols-1 md:grid-cols-4 gap-4 text-xs">
+          <div>
+            <label class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1">Target Classroom</label>
+            <select
+              id="schedule-class-select"
+              required
+              class="w-full p-2.5 rounded-xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] font-medium focus:ring-2 focus:ring-[#0F766E] focus:outline-none"
+            >
+              <!-- Filled via JS -->
+            </select>
+          </div>
+
+          <div>
+            <label class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1">Select Story</label>
+            <select
+              id="schedule-story-select"
+              required
+              class="w-full p-2.5 rounded-xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] font-medium focus:ring-2 focus:ring-[#0F766E] focus:outline-none"
+            >
+              {sampleStories.map(s => (
+                <option value={s.id} data-url={s.url} data-title={s.title} data-col={s.collection}>
+                  {s.title} ({s.collection})
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div>
+            <label class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1">Scheduled Date</label>
+            <input
+              type="date"
+              id="schedule-date-input"
+              required
+              class="w-full p-2.5 rounded-xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] font-medium focus:ring-2 focus:ring-[#0F766E] focus:outline-none"
+            />
+          </div>
+
+          <div class="flex items-end">
+            <button
+              type="submit"
+              class="w-full py-2.5 rounded-xl bg-[#D97706] hover:bg-[#B45309] text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-1.5 min-h-[40px]"
+            >
+              <span>📌</span>
+              <span>Add to Schedule</span>
+            </button>
+          </div>
+        </form>
+
+        <!-- Scheduled Stories Table with Sharing Links -->
+        <div class="space-y-3 pt-2">
+          <div class="flex items-center justify-between text-xs font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+            <span>Scheduled Assignments &amp; Sharing Links</span>
+            <span id="schedule-count-badge" class="px-2 py-0.5 rounded-md bg-[#0F766E]/15 text-[#0F766E] dark:text-[#2DD4BF]">0 scheduled</span>
+          </div>
+
+          <div class="overflow-x-auto rounded-2xl border border-[#EEDFC8] dark:border-[#383659]">
+            <table class="w-full text-left border-collapse text-xs">
+              <thead>
+                <tr class="bg-[#FFF8EC] dark:bg-[#151426] text-[#8C7A6B] dark:text-[#A89F91] border-b border-[#EEDFC8] dark:border-[#383659]">
+                  <th class="p-3 font-bold">Date</th>
+                  <th class="p-3 font-bold">Class Code</th>
+                  <th class="p-3 font-bold">Assigned Story</th>
+                  <th class="p-3 font-bold">Action / Sharing</th>
+                </tr>
+              </thead>
+              <tbody id="schedule-table-body" class="divide-y divide-[#EEDFC8]/60 dark:divide-[#383659]/60">
+                <!-- Injected via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- PANEL 2: STUDENT DESK (Registration, Daily Tasks & Motivation) -->
+    <div id="panel-student" class="classroom-panel hidden space-y-8">
+      
+      <!-- Student Profile & Registration Card -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Registration Form -->
+        <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-2xl bg-amber-500/15 text-amber-600 dark:text-amber-400 flex items-center justify-center text-xl">
+              ✍️
+            </div>
+            <div>
+              <h2 class="text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Student Sign-In</h2>
+              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">Join your classroom to track stories</p>
+            </div>
+          </div>
+
+          <form id="student-register-form" class="space-y-4 text-xs">
+            <div>
+              <label class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1">Your Full Name</label>
+              <input
+                type="text"
+                id="student-name-input"
+                required
+                placeholder="e.g. Ananya or David"
+                class="w-full p-2.5 rounded-xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] text-xs font-medium focus:ring-2 focus:ring-[#D97706] focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1">Classroom Code</label>
+              <input
+                type="text"
+                id="student-class-code-input"
+                required
+                placeholder="e.g. CLASS-5A"
+                class="w-full p-2.5 rounded-xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] font-mono text-xs uppercase font-bold focus:ring-2 focus:ring-[#D97706] focus:outline-none"
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="w-full py-3 rounded-xl bg-[#D97706] hover:bg-[#B45309] text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-1.5 min-h-[42px]"
+            >
+              <span>🚀</span>
+              <span>Join Classroom</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Student Motivational Dashboard -->
+        <div class="md:col-span-2 p-6 sm:p-8 rounded-3xl bg-linear-to-br from-[#FFF8EC] to-white dark:from-[#1E1D36] dark:to-[#151426] border border-[#EEDFC8] dark:border-[#383659] shadow-xs flex flex-col justify-between space-y-6">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <span id="student-badge-role" class="px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 text-xs font-bold">
+                Registered Reader
+              </span>
+              <button
+                type="button"
+                id="btn-switch-student"
+                class="text-xs text-[#8C7A6B] hover:text-[#D97706] underline"
+              >
+                Change Student
+              </button>
+            </div>
+
+            <h3 id="student-greeting" class="text-2xl sm:text-3xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+              Welcome, Reader! 🌟
+            </h3>
+            <p id="student-class-info" class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+              Enrolled in Classroom: <strong class="text-[#0F766E] dark:text-[#2DD4BF]">CLASS-5A</strong>
+            </p>
+          </div>
+
+          <!-- Motivational Achievement Badges -->
+          <div class="grid grid-cols-3 gap-3 text-center">
+            <div class="p-3 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-2xs">
+              <div class="text-2xl mb-1">🌟</div>
+              <div class="font-black text-sm text-[#3B2A1A] dark:text-[#F3EBDD]" id="stat-stories-read">3</div>
+              <div class="text-[10px] text-[#8C7A6B] dark:text-[#A89F91]">Stories Read</div>
+            </div>
+
+            <div class="p-3 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-2xs">
+              <div class="text-2xl mb-1">🎯</div>
+              <div class="font-black text-sm text-[#3B2A1A] dark:text-[#F3EBDD]" id="stat-quiz-score">100%</div>
+              <div class="text-[10px] text-[#8C7A6B] dark:text-[#A89F91]">Quiz Accuracy</div>
+            </div>
+
+            <div class="p-3 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-2xs">
+              <div class="text-2xl mb-1">🏅</div>
+              <div class="font-black text-sm text-[#3B2A1A] dark:text-[#F3EBDD]" id="stat-stars">5 ★</div>
+              <div class="text-[10px] text-[#8C7A6B] dark:text-[#A89F91]">Gold Stars</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Assigned Schedule Story List for Student -->
+      <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-4">
+        <div class="flex items-center justify-between border-b border-[#EEDFC8]/60 dark:border-[#383659]/60 pb-3">
+          <div class="flex items-center gap-2">
+            <span class="text-xl">📚</span>
+            <h3 class="text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Your Scheduled Stories to Learn</h3>
+          </div>
+          <span class="text-xs text-[#0F766E] dark:text-[#2DD4BF] font-bold">Read &bull; Learn Words &bull; Attend Quiz</span>
+        </div>
+
+        <div id="student-scheduled-list" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- Injected via JS -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- PANEL 3: STUDENT LEARNING & QUIZ RESULTS TABLE -->
+    <div id="panel-results" class="classroom-panel hidden space-y-6">
+      
+      <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-6">
+        
+        <!-- Results Table Header & Controls -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#EEDFC8]/60 dark:border-[#383659]/60 pb-4">
+          <div>
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold text-[#0F766E] uppercase tracking-wider">
+              <span>📊</span> Assessment &amp; Evaluation Ledger
+            </div>
+            <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD] mt-0.5">
+              Student Learning &amp; Quiz Results
+            </h2>
+          </div>
+
+          <div class="flex items-center gap-2.5 flex-wrap">
+            <!-- Filter by Class -->
+            <select
+              id="filter-results-class"
+              class="px-3 py-1.5 rounded-xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] text-xs font-semibold"
+            >
+              <option value="ALL">All Classrooms</option>
+              <option value="CLASS-5A">CLASS-5A</option>
+              <option value="CLASS-6L">CLASS-6L</option>
+            </select>
+
+            <!-- Export to CSV -->
+            <button
+              type="button"
+              id="btn-export-csv"
+              class="px-3.5 py-1.5 rounded-xl border border-[#0F766E] text-[#0F766E] dark:text-[#2DD4BF] hover:bg-[#0F766E]/10 font-bold text-xs transition-all flex items-center gap-1"
+            >
+              <span>📥</span> Export CSV
+            </button>
+          </div>
+        </div>
+
+        <!-- Clean Novatool-Inspired Results Table -->
+        <div class="overflow-x-auto rounded-2xl border border-[#EEDFC8] dark:border-[#383659]">
+          <table class="w-full text-left border-collapse text-xs">
+            <thead>
+              <tr class="bg-[#FFF8EC] dark:bg-[#151426] text-[#8C7A6B] dark:text-[#A89F91] border-b border-[#EEDFC8] dark:border-[#383659]">
+                <th class="p-3.5 font-bold">Student Name</th>
+                <th class="p-3.5 font-bold">Class Code</th>
+                <th class="p-3.5 font-bold">Story Title</th>
+                <th class="p-3.5 font-bold text-center">Score</th>
+                <th class="p-3.5 font-bold">Date &amp; Time</th>
+                <th class="p-3.5 font-bold text-right">Status</th>
+              </tr>
+            </thead>
+            <tbody id="results-table-body" class="divide-y divide-[#EEDFC8]/60 dark:divide-[#383659]/60 font-medium">
+              <!-- Dynamically populated from localStorage -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="flex items-center justify-between text-xs text-[#8C7A6B] dark:text-[#A89F91] pt-2">
+          <span id="results-count-label">Showing results</span>
+          <button
+            type="button"
+            id="btn-clear-results"
+            class="text-red-500 hover:text-red-700 text-xs"
+          >
+            Reset Test Ledger
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function initClassroomPortal() {
+    // Automatically switch to school mode when visiting classroom
+    document.documentElement.setAttribute('data-mode', 'school');
+    localStorage.setItem('dailytale_user_mode', 'school');
+
+    // 1. Tab Navigation Controller
+    const tabs = document.querySelectorAll('.classroom-tab-btn');
+    const panels = document.querySelectorAll('.classroom-panel');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const targetId = tab.getAttribute('data-target');
+        
+        // Update tabs styling
+        tabs.forEach(t => {
+          t.classList.remove('bg-[#0F766E]', 'text-white', 'shadow-xs');
+          t.classList.add('text-[#6B5644]', 'dark:text-[#C8BFAF]');
+        });
+        tab.classList.add('bg-[#0F766E]', 'text-white', 'shadow-xs');
+        tab.classList.remove('text-[#6B5644]', 'dark:text-[#C8BFAF]');
+
+        // Update panels visibility
+        panels.forEach(p => p.classList.add('hidden'));
+        const activePanel = document.getElementById(targetId);
+        if (activePanel) activePanel.classList.remove('hidden');
+      });
+    });
+
+    // 2. Default Seed Classrooms if none exist
+    const defaultClasses = [
+      { id: '1', name: 'Grade 5 - Alpha', subject: 'Moral Values & World Folklore', teacher: 'Dr. S. Edward Packiaraj', code: 'CLASS-5A' },
+      { id: '2', name: 'Grade 6 - Literature', subject: 'Tamil Heritage Stories & Aesop', teacher: 'Mrs. Malar', code: 'CLASS-6L' }
+    ];
+
+    function getClassrooms() {
+      try {
+        const stored = localStorage.getItem('dailytale_classrooms');
+        if (stored) return JSON.parse(stored);
+      } catch(e) {}
+      localStorage.setItem('dailytale_classrooms', JSON.stringify(defaultClasses));
+      return defaultClasses;
+    }
+
+    function saveClassrooms(classes) {
+      localStorage.setItem('dailytale_classrooms', JSON.stringify(classes));
+      renderClassrooms();
+    }
+
+    function renderClassrooms() {
+      const list = getClassrooms();
+      const container = document.getElementById('classrooms-cards-container');
+      const select = document.getElementById('schedule-class-select');
+      const filterSelect = document.getElementById('filter-results-class');
+
+      if (container) {
+        container.innerHTML = list.map(c => `
+          <div class="p-4 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="px-2.5 py-0.5 rounded-md bg-[#0F766E]/15 text-[#0F766E] dark:text-[#2DD4BF] font-mono font-black text-xs">
+                  ${c.code}
+                </span>
+                <button type="button" class="copy-code-btn text-xs text-[#D97706] hover:underline" data-code="${c.code}">
+                  Copy Code
+                </button>
+              </div>
+              <h4 class="font-black text-sm text-[#3B2A1A] dark:text-[#F3EBDD] mt-2">${c.name}</h4>
+              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">${c.subject || 'Stories'}</p>
+              <p class="text-[11px] text-[#8C7A6B] dark:text-[#A89F91] mt-1">Teacher: ${c.teacher}</p>
+            </div>
+            <div class="flex items-center justify-between text-xs pt-2 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
+              <button type="button" class="btn-share-class text-emerald-600 dark:text-emerald-400 font-bold" data-code="${c.code}" data-name="${c.name}">
+                💬 Share Class Code
+              </button>
+            </div>
+          </div>
+        `).join('');
+
+        // Copy Code handler
+        container.querySelectorAll('.copy-code-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const code = btn.getAttribute('data-code');
+            navigator.clipboard.writeText(code).then(() => {
+              btn.textContent = 'Copied!';
+              setTimeout(() => { btn.textContent = 'Copy Code'; }, 2000);
+            });
+          });
+        });
+
+        // Share via WhatsApp
+        container.querySelectorAll('.btn-share-class').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const code = btn.getAttribute('data-code');
+            const name = btn.getAttribute('data-name');
+            const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(`🏫 Join our Daily Tale Classroom: *${name}*\nClass Code: *${code}*\nAccess here: ${window.location.origin}/${document.documentElement.lang || 'en'}/classroom/`)}`;
+            window.open(url, '_blank');
+          });
+        });
+      }
+
+      if (select) {
+        select.innerHTML = list.map(c => `<option value="${c.code}">${c.code} — ${c.name}</option>`).join('');
+      }
+
+      if (filterSelect) {
+        filterSelect.innerHTML = `<option value="ALL">All Classrooms</option>` + list.map(c => `<option value="${c.code}">${c.code}</option>`).join('');
+      }
+    }
+
+    renderClassrooms();
+
+    // Create Classroom Submit Form
+    const createClassForm = document.getElementById('create-class-form');
+    if (createClassForm) {
+      createClassForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('new-class-name').value.trim();
+        const subject = document.getElementById('new-class-subject').value.trim();
+        const teacher = document.getElementById('new-class-teacher').value.trim();
+        const code = document.getElementById('new-class-code').value.trim().toUpperCase();
+
+        const classes = getClassrooms();
+        classes.unshift({
+          id: Date.now().toString(),
+          name,
+          subject,
+          teacher,
+          code
+        });
+        saveClassrooms(classes);
+        createClassForm.reset();
+        alert(`Classroom "${name}" (Code: ${code}) created successfully!`);
+      });
+    }
+
+    // Auto generate code button
+    const genCodeBtn = document.getElementById('btn-gen-code');
+    if (genCodeBtn) {
+      genCodeBtn.addEventListener('click', () => {
+        const rand = Math.floor(100 + Math.random() * 900);
+        document.getElementById('new-class-code').value = `CLASS-${rand}`;
+      });
+    }
+
+    // 3. Story Schedule Preparation
+    const defaultSchedules = [
+      {
+        id: 's1',
+        classCode: 'CLASS-5A',
+        storyTitle: 'The Fox and the Grapes',
+        storyUrl: `/${document.documentElement.lang || 'en'}/aesop-s-fables/aesops-fables-1-the-fox-and-the-grapes/`,
+        date: new Date().toISOString().split('T')[0]
+      },
+      {
+        id: 's2',
+        classCode: 'CLASS-5A',
+        storyTitle: 'The Tortoise and the Hare',
+        storyUrl: `/${document.documentElement.lang || 'en'}/aesop-s-fables/aesops-fables-2-the-tortoise-and-the-hare/`,
+        date: new Date(Date.now() + 86400000).toISOString().split('T')[0]
+      }
+    ];
+
+    function getSchedules() {
+      try {
+        const stored = localStorage.getItem('dailytale_schedules');
+        if (stored) return JSON.parse(stored);
+      } catch(e) {}
+      localStorage.setItem('dailytale_schedules', JSON.stringify(defaultSchedules));
+      return defaultSchedules;
+    }
+
+    function saveSchedules(schedules) {
+      localStorage.setItem('dailytale_schedules', JSON.stringify(schedules));
+      renderSchedules();
+      renderStudentScheduledList();
+    }
+
+    function renderSchedules() {
+      const schedules = getSchedules();
+      const tbody = document.getElementById('schedule-table-body');
+      const badge = document.getElementById('schedule-count-badge');
+
+      if (badge) badge.textContent = `${schedules.length} scheduled`;
+
+      if (tbody) {
+        if (schedules.length === 0) {
+          tbody.innerHTML = `<tr><td colspan="4" class="p-6 text-center text-[#8C7A6B]">No stories scheduled yet. Add one above!</td></tr>`;
+          return;
+        }
+
+        tbody.innerHTML = schedules.map(s => `
+          <tr class="hover:bg-[#FFF8EC]/60 dark:hover:bg-[#151426]/60">
+            <td class="p-3 text-[#3B2A1A] dark:text-[#F3EBDD] font-bold whitespace-nowrap">${s.date}</td>
+            <td class="p-3"><span class="px-2 py-0.5 rounded font-mono font-bold bg-[#0F766E]/15 text-[#0F766E] dark:text-[#2DD4BF]">${s.classCode}</span></td>
+            <td class="p-3 font-semibold text-[#3B2A1A] dark:text-[#F3EBDD]">
+              <a href="${s.storyUrl}?class=${s.classCode}" class="hover:text-[#D97706] hover:underline">${s.storyTitle}</a>
+            </td>
+            <td class="p-3 whitespace-nowrap space-x-2">
+              <button
+                type="button"
+                class="btn-copy-story-link px-2.5 py-1 rounded-lg border border-[#0F766E] text-[#0F766E] dark:text-[#2DD4BF] hover:bg-[#0F766E]/10 font-bold"
+                data-url="${window.location.origin}${s.storyUrl}?class=${s.classCode}"
+              >
+                📋 Copy Link
+              </button>
+              <a
+                href="https://api.whatsapp.com/send?text=${encodeURIComponent(`📚 Today's Classroom Assignment (${s.classCode}):\n*${s.storyTitle}*\nRead & complete quiz: ${window.location.origin}${s.storyUrl}?class=${s.classCode}`)}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="px-2.5 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold inline-flex items-center gap-1"
+              >
+                💬 WhatsApp
+              </a>
+            </td>
+          </tr>
+        `).join('');
+
+        tbody.querySelectorAll('.btn-copy-story-link').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const url = btn.getAttribute('data-url');
+            navigator.clipboard.writeText(url).then(() => {
+              btn.textContent = 'Copied!';
+              setTimeout(() => { btn.textContent = '📋 Copy Link'; }, 2000);
+            });
+          });
+        });
+      }
+    }
+
+    renderSchedules();
+
+    // Create Schedule Form Submit
+    const createScheduleForm = document.getElementById('create-schedule-form');
+    const scheduleDateInput = document.getElementById('schedule-date-input');
+    if (scheduleDateInput) {
+      scheduleDateInput.value = new Date().toISOString().split('T')[0];
+    }
+
+    if (createScheduleForm) {
+      createScheduleForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const classCode = document.getElementById('schedule-class-select').value;
+        const storySelect = document.getElementById('schedule-story-select');
+        const selectedOption = storySelect.options[storySelect.selectedIndex];
+        const storyTitle = selectedOption.getAttribute('data-title');
+        const storyUrl = selectedOption.getAttribute('data-url');
+        const date = document.getElementById('schedule-date-input').value;
+
+        const schedules = getSchedules();
+        schedules.unshift({
+          id: Date.now().toString(),
+          classCode,
+          storyTitle,
+          storyUrl,
+          date
+        });
+        saveSchedules(schedules);
+        alert(`Story "${storyTitle}" scheduled for ${classCode} on ${date}!`);
+      });
+    }
+
+    // 4. Student Registration & Personal Dashboard
+    function getCurrentStudent() {
+      try {
+        const s = localStorage.getItem('dailytale_current_student');
+        if (s) return JSON.parse(s);
+      } catch(e) {}
+      return { name: 'Kavitha', classCode: 'CLASS-5A' };
+    }
+
+    function syncStudentUI() {
+      const student = getCurrentStudent();
+      const greeting = document.getElementById('student-greeting');
+      const classInfo = document.getElementById('student-class-info');
+      const nameInput = document.getElementById('student-name-input');
+      const codeInput = document.getElementById('student-class-code-input');
+
+      if (greeting) greeting.textContent = `Welcome, ${student.name}! 🌟`;
+      if (classInfo) classInfo.innerHTML = `Enrolled in Classroom: <strong class="text-[#0F766E] dark:text-[#2DD4BF]">${student.classCode}</strong>`;
+      if (nameInput) nameInput.value = student.name;
+      if (codeInput) codeInput.value = student.classCode;
+
+      renderStudentScheduledList();
+    }
+
+    function renderStudentScheduledList() {
+      const student = getCurrentStudent();
+      const schedules = getSchedules().filter(s => s.classCode === student.classCode);
+      const container = document.getElementById('student-scheduled-list');
+
+      if (container) {
+        if (schedules.length === 0) {
+          container.innerHTML = `<div class="p-6 text-center text-[#8C7A6B] col-span-2">No stories scheduled for your class code (${student.classCode}) yet. Check back soon!</div>`;
+          return;
+        }
+
+        container.innerHTML = schedules.map(s => `
+          <div class="p-5 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between text-xs">
+                <span class="font-bold text-[#D97706]">Scheduled for: ${s.date}</span>
+                <span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 font-bold">Today's Task</span>
+              </div>
+              <h4 class="font-black text-base text-[#3B2A1A] dark:text-[#F3EBDD] mt-1">${s.storyTitle}</h4>
+              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">Read the story text, review the vocabulary words, and attend the comprehension quiz challenge.</p>
+            </div>
+            <div class="pt-2 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex items-center justify-between">
+              <a
+                href="${s.storyUrl}?class=${s.classCode}"
+                class="px-4 py-2 rounded-xl bg-[#0F766E] hover:bg-[#0D655E] text-white font-bold text-xs transition-all flex items-center gap-1.5"
+              >
+                <span>📖</span> Read &amp; Take Quiz →
+              </a>
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    syncStudentUI();
+
+    const studentForm = document.getElementById('student-register-form');
+    if (studentForm) {
+      studentForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('student-name-input').value.trim();
+        const classCode = document.getElementById('student-class-code-input').value.trim().toUpperCase();
+
+        const student = { name, classCode };
+        localStorage.setItem('dailytale_current_student', JSON.stringify(student));
+        syncStudentUI();
+        alert(`Welcome to Daily Tale Classroom, ${name}! Your assigned stories are ready below.`);
+      });
+    }
+
+    const switchStudentBtn = document.getElementById('btn-switch-student');
+    if (switchStudentBtn) {
+      switchStudentBtn.addEventListener('click', () => {
+        const newName = prompt('Enter student name:');
+        if (newName) {
+          const student = getCurrentStudent();
+          student.name = newName.trim();
+          localStorage.setItem('dailytale_current_student', JSON.stringify(student));
+          syncStudentUI();
+        }
+      });
+    }
+
+    // 5. Quiz Results Table & Ledger
+    const defaultResults = [
+      { id: 'r1', studentName: 'Ananya Sharma', classCode: 'CLASS-5A', storyTitle: 'The Fox and the Grapes', score: '3/3 (100%)', scoreNum: 100, date: 'Nov 5, 2026, 07:15 PM', status: 'Distinction' },
+      { id: 'r2', studentName: 'Kavitha R.', classCode: 'CLASS-5A', storyTitle: 'The Fox and the Grapes', score: '3/3 (100%)', scoreNum: 100, date: 'Nov 5, 2026, 06:40 PM', status: 'Distinction' },
+      { id: 'r3', studentName: 'Rahul Verma', classCode: 'CLASS-5A', storyTitle: 'The Tortoise and the Hare', score: '2/3 (66%)', scoreNum: 66, date: 'Nov 5, 2026, 05:20 PM', status: 'Passed' },
+      { id: 'r4', studentName: 'David Sundaram', classCode: 'CLASS-6L', storyTitle: 'The Ant and the Grasshopper', score: '3/3 (100%)', scoreNum: 100, date: 'Nov 5, 2026, 04:10 PM', status: 'Distinction' }
+    ];
+
+    function getResults() {
+      try {
+        const stored = localStorage.getItem('dailytale_classroom_results');
+        if (stored) return JSON.parse(stored);
+      } catch(e) {}
+      localStorage.setItem('dailytale_classroom_results', JSON.stringify(defaultResults));
+      return defaultResults;
+    }
+
+    function renderResultsTable() {
+      const results = getResults();
+      const filter = document.getElementById('filter-results-class')?.value || 'ALL';
+      const filtered = filter === 'ALL' ? results : results.filter(r => r.classCode === filter);
+      const tbody = document.getElementById('results-table-body');
+      const countLabel = document.getElementById('results-count-label');
+
+      if (countLabel) countLabel.textContent = `Showing ${filtered.length} submissions`;
+
+      if (tbody) {
+        if (filtered.length === 0) {
+          tbody.innerHTML = `<tr><td colspan="6" class="p-8 text-center text-[#8C7A6B]">No quiz submissions recorded yet for ${filter}.</td></tr>`;
+          return;
+        }
+
+        tbody.innerHTML = filtered.map(r => {
+          const isDistinction = (r.scoreNum || 100) >= 70;
+          return `
+            <tr class="hover:bg-[#FFF8EC]/60 dark:hover:bg-[#151426]/60 transition-colors">
+              <td class="p-3.5">
+                <div class="flex items-center gap-2.5">
+                  <div class="w-7 h-7 rounded-full bg-[#0F766E]/15 text-[#0F766E] dark:text-[#2DD4BF] font-black flex items-center justify-center text-xs">
+                    ${r.studentName.charAt(0)}
+                  </div>
+                  <span class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">${r.studentName}</span>
+                </div>
+              </td>
+              <td class="p-3.5">
+                <span class="px-2 py-0.5 rounded font-mono font-bold bg-[#EEDFC8]/60 dark:bg-[#383659]/60 text-[#3B2A1A] dark:text-[#F3EBDD] text-[11px]">
+                  ${r.classCode}
+                </span>
+              </td>
+              <td class="p-3.5 font-semibold text-[#3B2A1A] dark:text-[#F3EBDD]">${r.storyTitle}</td>
+              <td class="p-3.5 text-center">
+                <span class="px-2.5 py-1 rounded-full font-bold text-xs ${isDistinction ? 'bg-emerald-500/15 text-emerald-700 dark:text-emerald-300' : 'bg-amber-500/15 text-amber-700 dark:text-amber-300'}">
+                  ${r.score}
+                </span>
+              </td>
+              <td class="p-3.5 text-[#8C7A6B] dark:text-[#A89F91] whitespace-nowrap text-[11px]">${r.date}</td>
+              <td class="p-3.5 text-right">
+                <span class="inline-flex items-center gap-1 font-bold ${isDistinction ? 'text-emerald-600 dark:text-emerald-400' : 'text-blue-600 dark:text-blue-400'}">
+                  ${isDistinction ? '🎯 Distinction' : '✅ Completed'}
+                </span>
+              </td>
+            </tr>
+          `;
+        }).join('');
+      }
+    }
+
+    renderResultsTable();
+
+    const filterSelect = document.getElementById('filter-results-class');
+    if (filterSelect) {
+      filterSelect.addEventListener('change', renderResultsTable);
+    }
+
+    // Export to CSV button
+    const exportBtn = document.getElementById('btn-export-csv');
+    if (exportBtn) {
+      exportBtn.addEventListener('click', () => {
+        const results = getResults();
+        let csv = 'Student Name,Class Code,Story Title,Score,Date,Status\n';
+        results.forEach(r => {
+          csv += `"${r.studentName}","${r.classCode}","${r.storyTitle}","${r.score}","${r.date}","${r.status}"\n`;
+        });
+        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = `DailyTale_Classroom_Quiz_Results_${new Date().toISOString().split('T')[0]}.csv`;
+        link.click();
+      });
+    }
+
+    // Clear Results button
+    const clearBtn = document.getElementById('btn-clear-results');
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (confirm('Are you sure you want to clear the student test ledger?')) {
+          localStorage.setItem('dailytale_classroom_results', JSON.stringify([]));
+          renderResultsTable();
+        }
+      });
+    }
+  })();
+</script>

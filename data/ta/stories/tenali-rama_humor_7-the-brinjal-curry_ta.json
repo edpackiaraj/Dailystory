@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Brinjal Curry\"?",
+      "question": "அரச தோட்டத்துக் கத்திரிக்காயின் விசேஷத் தன்மை என்ன?",
       "options": [
-        "Wit and humor triumph over arrogance and power",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "அது மிகுந்த நறுமணமும் சுவையும் கொண்ட அபூர்வமான ராஜ கத்திரிக்காய் ஆகும்",
+        "அது தங்க நிறத்தில் மின்னியது",
+        "அதைத் தின்றால் மனிதர்கள் பறக்க முடியும்",
+        "அது நோய்களை உடனடியாகக் குணப்படுத்தும் மருந்து"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "மன்னரின் விசேஷ காய்கறித் தோட்டத்தை நினைவுகூருங்கள்.",
+      "answer": "அது மிகுந்த நறுமணமும் சுவையும் கொண்ட அபூர்வமான ராஜ கத்திரிக்காய் ஆகும்",
+      "explanation": "மன்னரின் விசேஷ காய்கறித் தோட்டத்தை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "இரவில் கத்திரிக்காய் கறியை உண்ட தன் மகன் உண்மையைச் சொல்லிவிடுவான் என்று அஞ்சிய ராமன் என்ன தந்திரம் செய்தார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "நள்ளிரவில் மகனை எழுப்பிக் கூரை மீது நீர் தெளித்துத் தூறல் போட்டு நனைய வைத்துப் பின் படுக்க வைத்தார்",
+        "மகனை வெளியூருக்கு அனுப்பி வைத்தார்",
+        "மகனின் வாயில் துணியைக் கட்டி வைத்தார்",
+        "கத்திரிக்காயை மண்ணுக்குள் புதைத்துவிட்டார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "ராமன் செயற்கையாக உருவாக்கிய நள்ளிரவு மழை நாடகத்தைக் கவனியுங்கள்.",
+      "answer": "நள்ளிரவில் மகனை எழுப்பிக் கூரை மீது நீர் தெளித்துத் தூறல் போட்டு நனைய வைத்துப் பின் படுக்க வைத்தார்",
+      "explanation": "ராமன் செயற்கையாக உருவாக்கிய நள்ளிரவு மழை நாடகத்தைக் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "மன்னர் சிறுவனிடம் விசாரித்த போது வழக்கு ஏன் தள்ளுபடியானது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "\"நேற்று இரவு பெரும் புயல் மழையில் நனைந்துகொண்டே கத்தரிக்காய் தின்றேன்\" எனச் சிறுவன் கூறியதால் அவனது வாக்குமூலம் கனவு என நிராகரிக்கப்பட்டது",
+        "ராமன் மன்னரிடம் மன்னிப்புக் கேட்டுப் பொற்காசு தந்தார்",
+        "தோட்டத்துக் கத்திரிக்காய்கள் மாயமாக மீண்டும் முளைத்துவிட்டன",
+        "காவலாளிகள் திருடனைப் பிடித்துவிட்டனர்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "மழை பெய்யாத இரவில் சிறுவன் கூறிய முரண்பட்ட சாட்சியத்தை யோசியுங்கள்.",
+      "answer": "\"நேற்று இரவு பெரும் புயல் மழையில் நனைந்துகொண்டே கத்தரிக்காய் தின்றேன்\" எனச் சிறுவன் கூறியதால் அவனது வாக்குமூலம் கனவு என நிராகரிக்கப்பட்டது",
+      "explanation": "மழை பெய்யாத இரவில் சிறுவன் கூறிய முரண்பட்ட சாட்சியத்தை யோசியுங்கள்."
     }
   ],
   "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -76,30 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "தேவாமிர்தம்",
-      "meaning": "மகிழ்ச்சியூட்டும் இணையற்ற சுவை கொண்ட உணவு"
+      "word": "அரசவையில்",
+      "meaning": "அரண்மனைக்குச் சொந்தமான காவல் நிறைந்த விசேஷ நந்தவனம்"
     },
     {
-      "word": "பௌர்ணமி",
-      "meaning": "முழு நிலவு ஒளிரும் இரவுக் காலம்"
+      "word": "விஜயநகர",
+      "meaning": "விஜயநகர என்ற சொல்லின் சூழல் பொருள் (Signifies விஜயநகர in the context of the story)"
     },
     {
-      "word": "சந்தேகம்",
-      "meaning": "உண்மையை உறுதியாக அறியாமல் ஏற்படும் ஐயம்"
+      "word": "அரண்மனைத்",
+      "meaning": "அரண்மனைத் என்ற சொல்லின் சூழல் பொருள் (Signifies அரண்மனைத் in the context of the story)"
+    },
+    {
+      "word": "மழைகூட",
+      "meaning": "தூக்கத்தில் இருந்த குழந்தையை ஏமாற்றத் தண்ணீரைத் தெளித்து இடி போல ஒலி எழுப்புதல்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "அரச தோட்டத்தில் பயிரிடப்பட்ட சிறப்புப் பயிர் எது?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "கத்திரிக்காயைத் திருடி வரச் சொல்லி ராமனிடம் வற்புறுத்தியவர் யார்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "தெனாலிராமன் தன் மகனிடம் எதற்காக மழை நாடகத்தை நடத்தினார்?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "சிறுவர்களின் மனநிலை மற்றும் கனவு கலந்த நினைவுகளை ராமன் எவ்வாறு தனக்குச் சாதகமாகப் பயன்படுத்தினார்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "சட்டம் அனைவருக்கும் பொதுவானது என்பதில் தெனாலிராமன் என்ன விவேகத்தைக் காட்டினார்?"
+      "tier": "பயன்பாடு",
+      "prompt": "ஆபத்திலிருந்து தப்பிக்க பொய் சாட்சியங்களை உருவாக்குவதை விட திருடாமல் இருப்பதே ஏன் மேலானது?"
+    },
+    {
+      "tier": "சிந்தனை",
+      "prompt": "மன்னரின் கடும் தண்டனையிலிருந்து குடும்பத்தைக் காக்க ராமனின் அறிவு எவ்வாறு கைகொடுத்தது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

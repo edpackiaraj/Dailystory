@@ -2,12 +2,12 @@
   "id": "arabian-nights-326-tenth-constables-history",
   "slug": "arabian-nights-326-tenth-constables-history",
   "language": "ta",
-  "title": "Tenth Constable's History",
+  "title": "பத்தாம் காவல் தலைவரின் வரலாறு – இரண்டு பூட்டுகளும் மெழுகு அச்சு ரகசியமும்",
   "genre": "Folktales",
   "collection": "Arabian Nights",
   "culture_region": "Middle East",
   "age_group": "Below 13",
-  "summary": "The Tenth Constable spoke:",
+  "summary": "இரும்புப் பெட்டியின் இரண்டு சிக்கலான பூட்டுகளும் சேதமடையாமல் நவரத்தினங்கள் திருடப்பட்ட வழக்கில், பூட்டுத் துவாரங்களில் இருந்த தேன்மெழுகுத் தடயத்தை வைத்துப் போலிச் சாவியைச் செய்தவனைக் கைது செய்தார் பத்தாம் காவல் தலைவர்.",
   "keywords": [
     "arabian nights",
     "1001 nights",
@@ -22,8 +22,8 @@
     "classic",
     "wisdom"
   ],
-  "full_text": "The Tenth Constable related his chronicle: \"Sire, a wealthy goldsmith stored his most precious gems inside an iron-bound chest fitted with two intricate locks, each requiring a unique key. One morning, he opened the chest to find every ruby and sapphire stolen, yet the iron padlocks showed no sign of filing, pick marks, or violence.\"\n\n\"The goldsmith suspected his head apprentice, who possessed the keys only during working hours. I examined the brass keyholes and noticed microscopic traces of fine beeswax adhering to the interior tumblers. I immediately summoned every locksmith in the city and inspected their workbenches.\"\n\n\"In the workshop of a locksmith two streets away, we discovered two brass keys fashioned from recent wax impressions, along with the goldsmith’s cousin who had paid ten dinars for the counterfeit work! The cousin had borrowed the keys for an hour under pretext of counting inventory, pressed them into soft wax, and carried out the robbery at midnight. We recovered the gems intact, proving that patience and microscopic scrutiny unravel the most baffling locks.\"",
-  "moral": "Careful examination of locks and hinges reveals whether a crime was an invasion or an inside betrayal.",
+  "full_text": "பத்தாம் காவல் தலைவர் அரியணையின் முன் பணிந்து தன் வரலாற்றைக் கூறினார்: \"அரசே! இந்நகரத்துச் செல்வந்தப் பொற்கொல்லர் ஒருவர் தன் விலைமதிப்பற்ற மாணிக்கங்களையும் நீலமணிகளையும் இரண்டு சிக்கலான பூட்டுகள் பொருத்தப்பட்ட இரும்புப் பெட்டியில் பாதுகாத்து வந்தார். ஒவ்வொரு பூட்டிற்கும் தனித்துவமான தனித்தனிச் சாவிகள் தேவைப்பட்டன. ஒரு நாள் காலையில் அவர் பெட்டியைத் திறந்தபோது, அனைத்து நவரத்தினங்களும் திருடப்பட்டிருந்தன; ஆனால் இரும்புப் பூட்டுகளில் எந்தவித உடைப்போ, நெம்புகோல் கீறல்களோ, வன்முறைத் தடயங்களோ சிறிதும் இருக்கவில்லை.\"\n\n\"பொற்கொல்லர் வேலை நேரத்தில் மட்டுமே சாவிகளை வைத்திருக்கும் தன் முதன்மைப் பணிப்பெண் மீது சந்தேகம் கொண்டார். ஆனால் நான் பித்தளைப் பூட்டுத் துவாரங்களைப் பூதக்கண்ணாடி கொண்டு தீவிரமாக ஆராய்ந்தேன். உட்புற விளிம்புகளில் நுண்ணிய தேன்மெழுகுத் துகள்கள் ஒட்டியிருந்ததை நான் கவனித்தேன். உடனடியாக இந்நகரிலுள்ள அனைத்துப் பூட்டுச் செய்வோரின் பட்டறைகளையும் சோதனையிட ஆணையிட்டேன்.\"\n\n\"இரண்டு வீதிகள் தள்ளி இருந்த ஒரு பூட்டுப் பட்டறையில், அண்மையில் மெழுகு அச்சுகளிலிருந்து வார்க்கப்பட்ட இரண்டு பித்தளைச் சாவிகள் கிடைத்தன! அதனுடன் அப்போலிச் சாவிகளைச் செய்ய பத்து பொற்காசுகளைக் கூலியாகக் கொடுத்த பொற்கொல்லரின் உறவினனும் அங்கே பிடிபட்டான்! சரக்குக் கணக்கெடுக்கும் போர்வையில் ஒரு மணி நேரம் சாவிகளை இரவல் வாங்கி மெழுகில் அச்செடுத்து நள்ளிரவில் திருடியதாக அவன் ஒப்புக்கொண்டான். ரத்தினங்கள் அனைத்தும் மீட்கப்பட்டன; நுண்ணிய தேன்மெழுகின் தடயம் பெரும் திருட்டை வெளிப்படுத்தியது!\"",
+  "moral": "நுண்ணிய தடயங்களைப் பொறுமையுடன் ஆராய்ந்தால் எப்பேர்ப்பட்ட சதிச்செயல்களும் வெளிப்பட்டுவிடும்.",
   "image": "/images/stories/arabian-nights.webp",
   "image_alt": "Tenth Constable's History illustration from the 1001 Arabian Nights collection.",
   "word_count": 173,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central focus of \"Tenth Constable's History\"?",
+      "question": "நவரத்தினப் பெட்டியின் பூட்டுகளில் ஒட்டியிருந்த முக்கியத் தடயம் எது?",
       "options": [
-        "Seeking wisdom, patience, and solving a unique problem",
-        "Finding gold and keeping it hidden away",
-        "Leaving home forever without greeting friends",
-        "Building tall towers in the sand"
+        "எண்ணெய்ப் பிசுக்கு",
+        "நுண்ணிய தேன்மெழுகுத் துகள்கள்",
+        "சிவப்புச் சாயம்",
+        "இரும்புத் தூள்"
       ],
-      "answerIndex": 0,
-      "hint": "Reflect upon the moral outcome of the characters’ choices."
+      "answerIndex": 1,
+      "answer": "நுண்ணிய தேன்மெழுகுத் துகள்கள்",
+      "hint": "சாவி அச்செடுக்கப் பயன்படும் மென்மையான பொருள்.",
+      "explanation": "பூட்டுத் துவாரங்களின் உட்புற விளிம்புகளில் நுண்ணிய தேன்மெழுகுத் துகள்கள் ஒட்டியிருந்தன."
     },
     {
-      "question": "Which virtue helps the protagonist triumph in this tale?",
+      "question": "போலிச் சாவிகளைச் செய்ய பூட்டுப் பட்டறைக்காரனுக்குக் கொடுக்கப்பட்ட கூலி எவ்வளவு?",
       "options": [
-        "Thoughtfulness, patience, and integrity",
-        "Loud shouting and boastful anger",
-        "Running away from every challenge",
-        "Ignoring all wise advice"
+        "ஐந்து பொற்காசுகள்",
+        "பத்து பொற்காசுகள்",
+        "இருபது பொற்காசுகள்",
+        "ஐம்பது பொற்காசுகள்"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how calm reflection solves dilemmas in folktales."
+      "answerIndex": 1,
+      "answer": "பத்து பொற்காசுகள்",
+      "hint": "ஒரு பத்து பொற்காசுகள்.",
+      "explanation": "பொற்கொல்லரின் உறவினன் போலிச் சாவிகளைச் செய்ய பத்து பொற்காசுகளைக் கூலியாகக் கொடுத்திருந்தான்."
     },
     {
-      "question": "What memorable lesson does this story impart to listeners?",
+      "question": "திருட்டைச் செய்த உண்மையான குற்றவாளி யார்?",
       "options": [
-        "Integrity and keeping one’s word build enduring trust across all borders.",
-        "Never listen to advice from elders",
-        "Always act hastily without planning",
-        "Words spoken in anger cause no harm"
+        "முதன்மைப் பணிப்பெண்",
+        "பொற்கொல்லரின் உறவினன்",
+        "இரவுக் காவலன்",
+        "பூட்டுத் தொழிலாளி"
       ],
-      "answerIndex": 0,
-      "hint": "Look closely at the story’s moral."
+      "answerIndex": 1,
+      "answer": "பொற்கொல்லரின் உறவினன்",
+      "hint": "சரக்குக் கணக்கெடுப்பதாகச் சொல்லி சாவியை மெழுகில் அச்செடுத்தவன்.",
+      "explanation": "பொற்கொல்லரின் உறவினனே சாவியை மெழுகில் அச்செடுத்துத் திருட்டைச் செய்தவன் ஆவான்."
     }
   ],
   "author": "Traditional (1001 Nights / Alf Layla wa Layla)",
@@ -77,38 +83,62 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "caliph",
-      "meaning": "a sovereign leader or ruler in historical Islamic states"
+      "word": "தேன்மெழுகுத்",
+      "meaning": "தேன்கூட்டிலிருந்து பெறப்படும் மென்மையான மெழுகுப் பொருள்",
+      "gloss": "beeswax"
     },
     {
-      "word": "vizier",
-      "meaning": "a high-ranking minister or trusted counselor"
+      "word": "நெம்புகோல்",
+      "meaning": "பொருட்களைப் பலவந்தமாகப் பெயர்க்கப் பயன்படும் இரும்புக்கம்பி",
+      "gloss": "crowbar / lever"
     },
     {
-      "word": "hospitality",
-      "meaning": "the friendly and generous reception and entertainment of guests"
+      "word": "விளிம்புகளில்",
+      "meaning": "ஓரப் பகுதிகளில் அல்லது உட்புற விளிம்புகளில்",
+      "gloss": "on the edges / rims"
+    },
+    {
+      "word": "உறவினனும்",
+      "meaning": "சொந்த பந்தத்தைச் சேர்ந்த ஒருவனும்",
+      "gloss": "relative / kinsman"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What initial challenge or mystery sets the story of \"Tenth Constable's History\" into motion?"
+      "tier": "remembering",
+      "prompt": "இரும்புப் பெட்டியில் எத்தனை பூட்டுகள் பொருத்தப்பட்டிருந்தன?",
+      "type": "remembering",
+      "question": "இரும்புப் பெட்டியில் எத்தனை பூட்டுகள் பொருத்தப்பட்டிருந்தன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is patience and calm thought more helpful in this tale than hasty action?"
+      "tier": "understanding",
+      "prompt": "பூட்டு உடைக்கப்படாத நிலையில் காவல் தலைவர் பூட்டுத் துவாரங்களை ஆராயத் தீர்மானித்ததன் காரணம் என்ன?",
+      "type": "understanding",
+      "question": "பூட்டு உடைக்கப்படாத நிலையில் காவல் தலைவர் பூட்டுத் துவாரங்களை ஆராயத் தீர்மானித்ததன் காரணம் என்ன?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How can you apply the moral of this story when you face an unexpected problem at school or home?"
+      "tier": "applying",
+      "prompt": "நவீன இணையப் பாதுகாப்பில் கடவுச்சொல் திருட்டு மற்றும் சாவிப் பிரதி எடுப்புத் தடுப்புக்கு இக்கதையை எவ்வாறு பொருத்தலாம்?",
+      "type": "applying",
+      "question": "நவீன இணையப் பாதுகாப்பில் கடவுச்சொல் திருட்டு மற்றும் சாவிப் பிரதி எடுப்புத் தடுப்புக்கு இக்கதையை எவ்வாறு பொருத்தலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Did the characters make wise choices when confronted with difficult circumstances?"
+      "tier": "analyzing",
+      "prompt": "நம்பிக்கைக்குரிய உறவினர்களே பேராசையால் திருடர்களாக மாறும் மனிதப் பலவீனத்தை ஆராய்க.",
+      "type": "analyzing",
+      "question": "நம்பிக்கைக்குரிய உறவினர்களே பேராசையால் திருடர்களாக மாறும் மனிதப் பலவீனத்தை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful solution the characters could have used to resolve their dispute."
+      "tier": "evaluating",
+      "prompt": "அப்பாவிப் பணிப்பெண் மீது சந்தேகம் எழுந்தபோது ஆதாரங்களை மட்டுமே நம்பிய காவல் தலைவரின் அணுகுமுறையை மதிப்பிடுக.",
+      "type": "evaluating",
+      "question": "அப்பாவிப் பணிப்பெண் மீது சந்தேகம் எழுந்தபோது ஆதாரங்களை மட்டுமே நம்பிய காவல் தலைவரின் அணுகுமுறையை மதிப்பிடுக."
+    },
+    {
+      "tier": "creating",
+      "prompt": "ரகசியப் பூட்டுகள் மற்றும் நகைகளின் பாதுகாப்பிற்கான ஒரு விழிப்புணர்வு நெறிமுறையை வரைக.",
+      "type": "creating",
+      "question": "ரகசியப் பூட்டுகள் மற்றும் நகைகளின் பாதுகாப்பிற்கான ஒரு விழிப்புணர்வு நெறிமுறையை வரைக."
     }
   ],
   "reflection_prompt": "Have you ever found that speaking kindly and listening carefully resolved a misunderstanding?",

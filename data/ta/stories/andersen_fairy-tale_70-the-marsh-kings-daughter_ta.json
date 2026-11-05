@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-70-the-marsh-kings-daughter",
   "slug": "hans-christian-andersen-70-the-marsh-kings-daughter",
   "language": "ta",
-  "title": "The Marsh King's Daughter",
+  "title": "சதுப்பு நில அரசனின் மகளும் பகல்-இரவு சாப விமோசனமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "In the wild marshes of Jutland lived the daughter of the ancient Marsh King and an Egyptian princess. By day, she was the lovely, fierce maiden Helga, possessing dazzling beauty bu...",
+  "summary": "பகலில் பேரழகும் கொடூர நெஞ்சமும் கொண்ட இளவரசியாகவும், இரவில் கொடிய தவளையாகவும் ஆனால் இரக்கமுள்ள உள்ளத்தோடும் மாறும் சாபம் பெற்ற ஹெல்கா, தியாகத்தாலும் கிறிஸ்தவ நெறியாலும் சாபம் நீங்கி ஆன்ம விமோசனம் பெற்ற காவியக் கதை.",
   "keywords": [
     "hans christian andersen",
     "the marsh king's daughter",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived In the wild marshes of Jutland lived the daughter of the ancient Marsh King and an Egyptian princess. By day, she was the lovely, fierce maiden Helga, possessing dazzling beauty bu.... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the battle between dark earthly nature and spiritual light is won through love and divine redemption.",
-  "moral": "The battle between dark earthly nature and spiritual light is won through love and divine redemption.",
+  "full_text": "டென்மார்க்கின் காட்டுச் சதுப்பு நிலங்களின் அடியில், சதுப்பு நில அரசனின் வஞ்சக வலையில் எகிப்து இளவரசி ஒருத்தி சிக்கினாள். அவர்களுக்கு ஹெல்கா என்ற விசித்திரமான பெண் குழந்தை பிறந்தது.\n    \nஹெல்கா ஒரு கொடூரமான மாய சாபத்திற்கு ஆளானாள்: பகலில் அவள் கண்ணைக் கவரும் பேரழகியாக இருப்பாள்; ஆனால் அவளது இதயம் பாம்பைப் போலக் கொடூரமானதாகவும் கல்நெஞ்சமாகவும் இருக்கும்!\n    \nஇரவிலோ அவள் ஒரு அசிங்கமான, அருவருக்கத்தக்க தவளையாக உருமாறுவாள்; ஆனால் ஆச்சரியப்படும் வகையில், அந்தத் தவளை உருவத்தில் அவளது இதயம் இரக்கமும் கண்ணீரும் நிறைந்ததாக இருக்கும்!\n    \nஅவளை வளர்த்த வைக்கிங் அரசி அவளது கொடுமைகளால் துன்புற்றாள். ஒரு நாள் அந்த நாட்டிற்கு ஒரு கிறிஸ்தவத் துறவி வந்தார். பகலில் கொடூர ஹெல்கா அவரைச் சிறைபிடித்துக் கொல்ல முயன்றாள்.\n    \nஆனால் இரவு வந்ததும் தவளையாக மாறிய ஹெல்கா, தன் கல்நெஞ்சம் நீங்கி, கண்ணீர் வடித்து அந்தத் துறவியின் கட்டுகளை அவிழ்த்து அவரைக் காப்பாற்றினாள்.\n    \nதுறவி அவளுக்காகப் பிரார்த்தித்தார்; அவளது நெஞ்சில் உறங்கிக் கிடந்த தூய மனித நேயத்தைத் தட்டியெழுப்பினார். அந்தத் துறவியின் தியாகமும் தெய்வீகப் பிரார்த்தனையும் ஹெல்காவின் கொடிய சாபத்தை அடியோடு தகர்த்தன!\n    \nமிருக சுபாவமும் கொடூரமும் மறைந்தன; பகலிலும் இரவிலும் எழிலும் கருணையும் ஒருங்கே கொண்ட உன்னத தேவதையாக ஹெல்கா உருவெடுத்து, சாப விமோசனம் பெற்று விண்ணுலகின் சாந்தியை அடைந்தாள்.",
+  "moral": "மனித இயல்பில் இருக்கும் மிருகத்தனமான இருளும் வனப்பும் மோதும் போது, தியாகமும் தெய்வீக அன்பும் தூய பரிவுமே ஆன்மாவைத் தூய்மைப்படுத்திப் பேரொளியை வழங்கும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Marsh King's Daughter illustration from the Hans Christian Andersen collection.",
   "word_count": 227,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Marsh King's Daughter\"?",
+      "question": "ஹெல்கா பெற்றிருந்த விசித்திரமான சாபம் யாது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "பகலில் அழகும் கொடூர மனமும், இரவில் தவளை உருவமும் இரக்க மனமும் கொண்டிருத்தல்",
+        "பகலில் தூங்குவதும் இரவில் விழிப்பதும்",
+        "பறவையாக மாறுவது",
+        "பேச முடியாமல் போவது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "பகலில் அழகும் கொடூர மனமும், இரவில் தவளை உருவமும் இரக்க மனமும் கொண்டிருத்தல்",
+      "hint": "பகலுக்கும் இரவுக்கும் இடையேயான இரட்டை இயல்பை நினையுங்கள்.",
+      "explanation": "ஹெல்கா பகலில் பேரழகியாயினும் கொடூர சுபாவம் கொண்டாள்; இரவில் தவளையானாலும் இரக்க நெஞ்சம் கொண்டாள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "ஹெல்காவைச் சாபத்திலிருந்து மீட்க உதவியவர் யார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "நாட்டுக்கு வந்த புண்ணிய கிறிஸ்தவத் துறவியின் தூய பிரார்த்தனை",
+        "ஒரு மந்திரவாதி",
+        "வைக்கிங் அரசன்",
+        "சதுப்பு நில அரசன்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "நாட்டுக்கு வந்த புண்ணிய கிறிஸ்தவத் துறவியின் தூய பிரார்த்தனை",
+      "hint": "ஹெல்காவால் காப்பாற்றப்பட்டு அவளுக்காக வேண்டிக்கொண்ட துறவியை நினையுங்கள்.",
+      "explanation": "துறவியின் தன்னலமற்ற தியாகமும் இறைப் பிரார்த்தனையும் ஹெல்காவின் சாபத்தை நீக்கின."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் உன்னத ஆன்மீக நீதி என்ன?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "வெளி அழகை விட உள்ளத்தின் தூய இரக்கமும் தியாகமுமே மனிதனை மிருகத்தனத்திலிருந்து விடுவிக்கும்",
+        "தவளைகளைத் தொடக் கூடாது",
+        "சதுப்பு நிலங்களுக்குச் செல்லக் கூடாது",
+        "வைக்கிங் போர்களை ஆதரிக்க வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "வெளி அழகை விட உள்ளத்தின் தூய இரக்கமும் தியாகமுமே மனிதனை மிருகத்தனத்திலிருந்து விடுவிக்கும்",
+      "hint": "உள்ளத்தின் இரக்கமே சாபத்தை வெல்லும் வழியை நினையுங்கள்.",
+      "explanation": "மனிதனின் உள்மனப் போராட்டத்தை ஆன்டர்சன் ஹெல்காவின் இரட்டை இயல்பின் வழி அற்புதமாகச் சித்தரித்தார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "சதுப்பு",
+      "meaning": "நீரும் சேறும் சகதியும் நிரம்பிய ஈர நிலப் பகுதி",
+      "gloss": "marsh, swamp, bog"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "அருவருக்கத்தக்க",
+      "meaning": "பார்ப்பதற்குச் சகிக்க முடியாத விகாரமான தோற்றம் கொண்ட",
+      "gloss": "hideous, repulsive, loathsome"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "துறவி",
+      "meaning": "உலகப் பற்றுக்களைத் துறந்து இறை நெறியில் வாழும் தவசி",
+      "gloss": "monk, ascetic, hermit"
+    },
+    {
+      "word": "விமோசனம்",
+      "meaning": "கொடிய சாபத்திலிருந்தும் வினைகளிலிருந்தும் முழுமையான விடுதலை",
+      "gloss": "redemption, deliverance, salvation"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Marsh King's Daughter\"?"
+      "tier": "remembering",
+      "prompt": "ஹெல்காவின் தாய் எந்த நாட்டைச் சேர்ந்த இளவரசி?",
+      "type": "remembering",
+      "question": "ஹெல்காவின் தாய் எந்த நாட்டைச் சேர்ந்த இளவரசி?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "ஹெல்காவின் இரட்டை இயல்பு மனிதனின் நற்குண-தீயகுணப் போராட்டத்தை எவ்வாறு அடையாளப்படுத்துகிறது?",
+      "type": "understanding",
+      "question": "ஹெல்காவின் இரட்டை இயல்பு மனிதனின் நற்குண-தீயகுணப் போராட்டத்தை எவ்வாறு அடையாளப்படுத்துகிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது சுபாவத்தில் எழும் கோபமும் சுயநலமும் கொண்ட எதிர்மறை எண்ணங்களை நாம் எவ்வாறு கருணையினால் மாற்றியமைக்கலாம்?",
+      "type": "applying",
+      "question": "நமது சுபாவத்தில் எழும் கோபமும் சுயநலமும் கொண்ட எதிர்மறை எண்ணங்களை நாம் எவ்வாறு கருணையினால் மாற்றியமைக்கலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "பகலின் வெளித்தோற்ற அழகுக்கும், இரவின் உள்மனக் கருணைக்கும் உள்ள முரண்பாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "பகலின் வெளித்தோற்ற அழகுக்கும், இரவின் உள்மனக் கருணைக்கும் உள்ள முரண்பாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'மன்னிப்பும் தியாகமுமே மனித ஆன்மாவை மிருக சுபாவத்திலிருந்து மீட்கும் பேராற்றல்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'மன்னிப்பும் தியாகமுமே மனித ஆன்மாவை மிருக சுபாவத்திலிருந்து மீட்கும் பேராற்றல்' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "சாபம் நீங்கிய ஹெல்கா எகிப்தில் இருந்த தன் தாயிடம் பறந்து சென்று தழுவிய உணர்ச்சிமயமான காட்சியை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "சாபம் நீங்கிய ஹெல்கா எகிப்தில் இருந்த தன் தாயிடம் பறந்து சென்று தழுவிய உணர்ச்சிமயமான காட்சியை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

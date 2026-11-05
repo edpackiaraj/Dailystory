@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-97-the-bird-of-folklore",
   "slug": "hans-christian-andersen-97-the-bird-of-folklore",
   "language": "ta",
-  "title": "The Bird of Folklore",
+  "title": "நாட்டுப்புறக் கதைகளின் பொற்பறவையும் மனித ஆன்மாவின் அழியாத் தாகமும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "From ancient Scandinavia to the shores of the Mediterranean, the golden bird of song and folklore has flown across centuries....",
+  "summary": "பண்டைய ஸ்காண்டிநேவியக் காடுகளிலிருந்து மத்தியதரைக் கடற்கரை வரை பல நூற்றாண்டுகளாகப் பறந்து சென்று, போர், வறுமை, இருள் ஆகியவற்றின் நடுவிலும் மனிதர்களின் நெஞ்சில் கற்பனையையும் கலையையும் உயிர்ப்புடன் காத்த நாட்டுப்புறப் பொற்பறவையின் காவியம்.",
   "keywords": [
     "hans christian andersen",
     "the bird of folklore",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "In a warm attic garret where a humble flowerbox bloomed with sweet peas and sweet marjoram, there lived From ancient Scandinavia to the shores of the Mediterranean, the golden bird of song and folklore has flown across centuries..... While the hurried world rushed past with noisy ambitions and proud words, the quiet creatures of the hearth and garden listened to the gentle music of life, noticing the delicate details that noisy vanity never perceives.\n\nAs the twilight settled and shadows lengthened across the floorboards, the deeper meaning of the journey became clear. Through the changing seasons of frost, rain, and golden summer light, the heart learned to endure every trial with gentle patience. In moments of solitude and quiet longing, the soul whispered its sincere hopes to the stars, discovering that true worth does not depend on outward glitter or the praise of the crowd.\n\nAt last, when the trial reached its appointed close, the light of genuine virtue shone with irresistible radiance. When the moment of transformation arrived, truth dissolved the illusions of pride and vanity.  The cold winds melted away into a dawn of peace, leaving behind a fragrant memory that touched every heart with wonder, proving that the sacred bird of folklore never dies; it soars across centuries to keep the soul of humanity alive.",
-  "moral": "The sacred bird of folklore never dies; it soars across centuries to keep the soul of humanity alive.",
+  "full_text": "பனி படர்ந்த வடநாட்டுப் பெருவெளிகளிலிருந்து வெயில் கொஞ்சும் மத்தியதரைக் கடல் வரை, ஒரு தங்கச் சிறகுகள் கொண்ட மாயப் பொற்பறவை பல நூற்றாண்டுகளாகப் பறந்து கொண்டே இருக்கிறது.\n    \nஅதுதான் மனித குலத்தின் 'நாட்டுப்புறக் கதைகளின் பொற்பறவை' (Bird of Folklore)!\n    \nபோர்களின் கொடிய இருள் சூழ்ந்த காலங்களிலும், கொடூரப் பஞ்சங்களிலும், சாம்ராஜ்யங்கள் சுக்குநூறாக நொறுங்கி விழுந்த நாட்களிலும், இந்தப் பறவை எளிய குடிசைகளின் கூரைகளில் வந்து அமர்ந்தது.\n    \nஅது தன் பொன் அலகைத் திறந்து பாடிய போதெல்லாம், பாட்டிகள் தன் பேரக்குழந்தைகளுக்கு மாயக் கதைகளைக் கூறினர்; தாய்மார்கள் தாலாட்டுப் பாடினர்; உழவர்கள் வயல்வெளிகளில் சோர்வு நீங்கிக் கானம் பாடினர்.\n    \nமன்னர்கள் எவ்வளவோ முயன்றும் இந்தப் பறவையைத் தங்கக் கூண்டுகளில் அடைக்க முடியவில்லை. கொடுங்கோலர்களின் வாள்கள் இதன் ஒற்றைச் சிறகைக்கூட வெட்ட முடியவில்லை!\n    \nஏனெனில் இது மண்ணில் பிறந்த பறவை அல்ல; மனித இதயங்களின் உன்னதமான கனவுகளிலிருந்தும், நம்பிக்கைகளிலிருந்தும், தூய கற்பனையிலிருந்தும் உருவான தெய்வீகப் பறவை!\n    \nதலைமுறைகள் தோன்றி மறையலாம்; ஆனால் இப்புனிதப் பொற்பறவை வானில் சிறகடித்துப் பறந்து, மனித குலத்தின் ஆன்மாவை என்றும் இளமையோடும் அன்போடும் உயிர்ப்பித்து வாழ வைக்கும்.",
+  "moral": "அரசுகளும் சாம்ராஜ்யங்களும் அழிந்து போகலாம்; ஆனால் மனித குலத்தின் ஆன்மாவாகத் திகழும் நாட்டுப்புறக் கதைகளும் இலக்கியப் பொற்பறவையும் ஒருபோதும் சாவதில்லை.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Bird of Folklore illustration from the Hans Christian Andersen collection.",
   "word_count": 218,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Bird of Folklore\"?",
+      "question": "நாட்டுப்புறக் கதைகளின் பொற்பறவை எத்தகைய துன்பக் காலங்களிலும் எங்கே சென்று பாடியது?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "எளிய மக்களின் குடிசைகளின் கூரைகளில் அமர்ந்து நம்பிக்கை கீதங்களைப் பாடியது",
+        "அரண்மனைகளில் மட்டுமே பாடியது",
+        "கடலுக்குள் மறைந்தது",
+        "காடுகளில் ஒளிந்து கொண்டது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "எளிய மக்களின் குடிசைகளின் கூரைகளில் அமர்ந்து நம்பிக்கை கீதங்களைப் பாடியது",
+      "hint": "எளிய மக்களிடம் அது கொண்டு சேர்த்த கலை அழகை நினையுங்கள்.",
+      "explanation": "இப்பறவை வறுமையிலும் போரிலும் வாடிய எளிய குடிசைகளில் வந்து கதைகளையும் நம்பிக்கையையும் விதைத்தது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கொடுங்கோலர்களால் இந்தப் பொற்பறவையை ஏன் கூண்டில் அடைக்கவோ கொல்லவோ முடியவில்லை?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "ஏனெனில் அது மனித இதயங்களின் கனவுகளாலும் தூய கற்பனையாலும் உருவான தெய்வீகப் பறவை என்பதால்",
+        "அது வேகமாகப் பறந்ததால்",
+        "அது கண்ணுக்குத் தெரியாததால்",
+        "அது பெரியதாக இருந்ததால்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "ஏனெனில் அது மனித இதயங்களின் கனவுகளாலும் தூய கற்பனையாலும் உருவான தெய்வீகப் பறவை என்பதால்",
+      "hint": "கலையினதும் நாட்டுப்புற மரபினதும் அழியாத தன்மையை நினையுங்கள்.",
+      "explanation": "நாட்டுப்புறக் கலைகள் மனித கற்பனையின் ஆன்மா என்பதால் அதிகார ஆயுதங்களால் அதை அழிக்க முடியாது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் மாபெரும் இலக்கிய நீதி யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "அரசுகளும் சாம்ராஜ்யங்களும் அழிந்தாலும் மனிதகுலத்தின் நாட்டுப்புறக் கதைகளும் இலக்கியப் பறவையும் சாவதில்லை",
+        "பறவைகளைக் கூண்டில் அடைக்க வேண்டும்",
+        "கதைகளைக் கூறக் கூடாது",
+        "போர்களை ஆதரிக்க வேண்டும்"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "அரசுகளும் சாம்ராஜ்யங்களும் அழிந்தாலும் மனிதகுலத்தின் நாட்டுப்புறக் கதைகளும் இலக்கியப் பறவையும் சாவதில்லை",
+      "hint": "நாட்டுப்புற இலக்கியத்தின் அழியாத் தன்மையை நினையுங்கள்.",
+      "explanation": "கதைகளும் பண்பாட்டு மரபுகளுமே மானுடத்தின் இதயத்தை உயிர்ப்போடு வைத்திருக்கும் நித்திய ஆற்றலாகும்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "பொற்பறவை",
+      "meaning": "தங்கத்தைப் போல் ஒளிவீசும் மாய இறகுகளைக் கொண்ட அற்புதப் பறவை",
+      "gloss": "golden bird, bird of folklore"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "சாம்ராஜ்யங்கள்",
+      "meaning": "பல்வேறு நாடுகளையும் நிலப்பரப்புகளையும் அடக்கி ஆளும் பெரும் பேரரசுகள்",
+      "gloss": "empires, realms"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "கொடுங்கோலர்களின்",
+      "meaning": "நீதியற்ற வன்முறையாலும் கொடுமையாலும் மக்களை ஒடுக்கும் அடக்குமுறை ஆட்சியாளர்களின்",
+      "gloss": "tyrants', despots'"
+    },
+    {
+      "word": "உயிர்ப்பித்து",
+      "meaning": "சோர்வும் மரணமும் நீங்கி மீண்டும் புத்துயிரோடு உற்சாகமாக எழச் செய்து",
+      "gloss": "revitalizing, enlivening, resurrecting"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Bird of Folklore\"?"
+      "tier": "remembering",
+      "prompt": "நாட்டுப்புறக் கதைகளின் பொற்பறவையின் இறகுகள் எத்தகைய நிறத்தில் ஒளிர்ந்தன?",
+      "type": "remembering",
+      "question": "நாட்டுப்புறக் கதைகளின் பொற்பறவையின் இறகுகள் எத்தகைய நிறத்தில் ஒளிர்ந்தன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "நாட்டுப்புற இலக்கியங்களை ஆன்டர்சன் ஏன் ஒரு சுதந்திரமான பறவையாக உருவகித்தார் என்பதை விளக்குக.",
+      "type": "understanding",
+      "question": "நாட்டுப்புற இலக்கியங்களை ஆன்டர்சன் ஏன் ஒரு சுதந்திரமான பறவையாக உருவகித்தார் என்பதை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நவீன மின்னணு யுகத்தில் நமது தொன்மையான நாட்டுப்புறக் கதைகளையும் மரபுகளையும் இளைய தலைமுறையினரிடம் நாம் எவ்வாறு கொண்டு சேர்க்கலாம்?",
+      "type": "applying",
+      "question": "நவீன மின்னணு யுகத்தில் நமது தொன்மையான நாட்டுப்புறக் கதைகளையும் மரபுகளையும் இளைய தலைமுறையினரிடம் நாம் எவ்வாறு கொண்டு சேர்க்கலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "அழிந்துபோகும் பேரரசுகளின் அரசியல் அதிகாரத்திற்கும், காலத்தை வென்று வாழும் நாட்டுப்புறப் பாடல்களுக்கும் உள்ள வேறுபாடுகளை ஆராய்க.",
+      "type": "analyzing",
+      "question": "அழிந்துபோகும் பேரரசுகளின் அரசியல் அதிகாரத்திற்கும், காலத்தை வென்று வாழும் நாட்டுப்புறப் பாடல்களுக்கும் உள்ள வேறுபாடுகளை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'ஒரு சமூகத்தின் வரலாற்றை விட அதன் நாட்டுப்புறக் கதைகளே அதன் உண்மை ஆன்மாவைச் சுமந்து நிற்கின்றன' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'ஒரு சமூகத்தின் வரலாற்றை விட அதன் நாட்டுப்புறக் கதைகளே அதன் உண்மை ஆன்மாவைச் சுமந்து நிற்கின்றன' என்ற கருத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "பொற்பறவையின் இறகொன்று ஒரு குழந்தையின் தலையணையில் விழுந்த போது அக்குழந்தை கண்ட மாயக் கனவை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "பொற்பறவையின் இறகொன்று ஒரு குழந்தையின் தலையணையில் விழுந்த போது அக்குழந்தை கண்ட மாயக் கனவை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

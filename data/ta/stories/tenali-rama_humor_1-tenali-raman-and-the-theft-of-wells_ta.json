@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"Tenali Raman and the Theft of Wells\"?",
+      "question": "அரசவைக்குள் பதற்றத்தோடு ஓடிவந்த தெனாலிராமன் மன்னரிடம் என்ன விநோதமான புகார் கூறினார்?",
       "options": [
-        "Wit and humor triumph over arrogance and power",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "நேற்று இரவு தன் வீட்டுக் கொல்லைப்புறக் கிணற்றைத் திருடர்கள் பெயர்த்து எடுத்துச் சென்றுவிட்டனர்",
+        "தனது வீட்டிலிருந்த விலைமதிப்பற்ற வைரங்களைத் திருடர்கள் கவர்ந்து சென்றனர்",
+        "அரண்மனைத் தோட்டத்தில் புகுந்து திருடர்கள் காய்கறிகளைப் பறித்துவிட்டனர்",
+        "ஊர் மக்கள் யாரும் தனக்குக் குடிநீர் தர மறுக்கிறார்கள்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "மன்னரையும் அவையோரையும் வியக்க வைத்த கிணற்றுப் புகாரை நினைவுகூருங்கள்.",
+      "answer": "நேற்று இரவு தன் வீட்டுக் கொல்லைப்புறக் கிணற்றைத் திருடர்கள் பெயர்த்து எடுத்துச் சென்றுவிட்டனர்",
+      "explanation": "மன்னரையும் அவையோரையும் வியக்க வைத்த கிணற்றுப் புகாரை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கிணற்றைத் திருடர்கள் எப்படித் தூக்கிச் செல்ல முடியும் என்று மன்னர் கேட்டபோது ராமன் என்ன பதிலளித்தார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "அமைச்சர்களின் கணக்கு ஏடுகளில் இருந்த 30 கிணறுகளையே மாயமாகத் தூக்க முடியும் போது என் கிணற்றைத் தூக்க முடியாதா என்றார்",
+        "திருடர்களிடம் மாய மந்திரச் சக்தி இருந்தது என்று கூறினார்",
+        "பூமிக்கடியில் பெரும் சுரங்கம் அமைத்துத் திருடிவிட்டனர் என்றார்",
+        "தான் தூக்கத்தில் கண்ட கனவு என்று கூறினார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "காகிதக் கிணறுகள் மூலம் அமைச்சர்களின் ஊழலை ராமன் சுட்டிக்காட்டியதைக் கவனியுங்கள்.",
+      "answer": "அமைச்சர்களின் கணக்கு ஏடுகளில் இருந்த 30 கிணறுகளையே மாயமாகத் தூக்க முடியும் போது என் கிணற்றைத் தூக்க முடியாதா என்றார்",
+      "explanation": "காகிதக் கிணறுகள் மூலம் அமைச்சர்களின் ஊழலை ராமன் சுட்டிக்காட்டியதைக் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதை அதிகாரிகளுக்கும் ஆட்சியாளர்களுக்கும் புகட்டும் வாழ்வியல் பாடம் எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "அரசுப் பணத்தில் செய்யப்படும் ஊழல் என்றாவது ஒருநாள் புத்திசாலித்தனத்தால் அம்பலமாகும்",
+        "கிணறுகளுக்கு இரும்பு மூடி போட்டுப் பூட்ட வேண்டும்",
+        "அரசவையில் எப்போதுமே நகைச்சுவை செய்ய வேண்டும்",
+        "கணக்கு ஏடுகளை யாருக்கும் காட்டக்கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "நேர்மையும் மக்கள் நலனுமே உண்மையான ஆட்சி என்பதைக் கருத்தில் கொள்ளுங்கள்.",
+      "answer": "அரசுப் பணத்தில் செய்யப்படும் ஊழல் என்றாவது ஒருநாள் புத்திசாலித்தனத்தால் அம்பலமாகும்",
+      "explanation": "நேர்மையும் மக்கள் நலனுமே உண்மையான ஆட்சி என்பதைக் கருத்தில் கொள்ளுங்கள்."
     }
   ],
   "author": "Traditional South Indian Folklore (Tenali Ramakrishna)",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "ஊழல்",
+      "meaning": "தனது சுயலாபத்திற்காக மக்கள் மற்றும் அரசுப் பணத்தைத் தவறாகப் பயன்படுத்தும் அநீதி"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "பொறி",
+      "meaning": "திடீரென்று ஒரு மறைந்திருந்த உண்மை தெளிவாகப் புரிந்து விளங்குதல்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "தணிக்கை",
+      "meaning": "கணக்கு ஏடுகளில் எழுதப்பட்ட வரவு செலவுகளை நேரில் சரிபார்த்து ஆய்வு செய்தல்"
+    },
+    {
+      "word": "பொற்கிழி",
+      "meaning": "மன்னர்களால் அறிஞர்களுக்குப் பரிசாக வழங்கப்படும் தங்க நாணயங்கள் நிறைந்த பை"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"Tenali Raman and the Theft of Wells\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "ஊழல் அதிகாரிகள் அரசுப் பணத்தைக் கொள்ளையடித்துவிட்டு என்ன பொய்க் கணக்குக் காட்டினர்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wit and humor triumph over arrogance and power\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "நேரடியாகப் புகார் செய்யாமல் தெனாலிராமன் ஏன் இந்த விநோதமான நாடகத்தை அரங்கேற்றினார்?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "சமூகத்தில் நடக்கும் அநீதிகளை நகைச்சுவையோடும் சாதுரியத்தோடும் அம்பலப்படுத்துவது ஏன் வலிமையானது?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "ஒரு நாட்டின் வளர்ச்சிக்கு அதிகாரிகளின் நேர்மையும் வெளிப்படைத்தன்மையும் எவ்வளவு இன்றியமையாதது?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

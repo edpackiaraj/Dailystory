@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"The Crows in the Kingdom\"?",
+      "question": "மாளிகை உப்பரிகையில் நின்ற அக்பர் அவையினரிடம் என்ன திகைப்பூட்டும் கேள்வியைக் கேட்டார்?",
       "options": [
-        "Wit beats power",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "நமது தலைநகரில் மொத்தம் எத்தனை காகங்கள் வாழ்கின்றன என்று கேட்டார்",
+        "வானத்தில் எத்தனை விண்மீன்கள் உள்ளன என்று கேட்டார்",
+        "அரண்மனைத் தோட்டத்தில் எத்தனை மரங்கள் உள்ளன என்று கேட்டார்",
+        "நாட்டின் மக்கள் தொகை எவ்வளவு என்று கேட்டார்"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "அக்பர் கேட்ட விநோதமான பறவைக் கணக்கை நினைவுகூருங்கள்.",
+      "answer": "நமது தலைநகரில் மொத்தம் எத்தனை காகங்கள் வாழ்கின்றன என்று கேட்டார்",
+      "explanation": "அக்பர் கேட்ட விநோதமான பறவைக் கணக்கை நினைவுகூருங்கள்."
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "பீர்பால் சற்றும் தயங்காமல் காகங்களின் எண்ணிக்கை குறித்து என்ன விடையளித்தார்?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "\"அரசே, நமது நகரில் சரியாக ஐம்பத்து ஐந்தாயிரத்து நானூற்று அறுபத்து மூன்று காகங்கள் உள்ளன\" என்றார்",
+        "\"அரசே, காகங்களை எண்ணுவது இயலாத காரியம்\" என்றார்",
+        "\"அரசே, நகரில் ஒரேயொரு காகம் மட்டுமே உள்ளது\" என்றார்",
+        "\"அரசே, ஒரு கோடி காகங்கள் உள்ளன\" என்றார்"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "hint": "பீர்பால் துணிச்சலாகக் குறிப்பிட்ட துல்லியமான எண்ணிக்கையை யோசியுங்கள்.",
+      "answer": "\"அரசே, நமது நகரில் சரியாக ஐம்பத்து ஐந்தாயிரத்து நானூற்று அறுபத்து மூன்று காகங்கள் உள்ளன\" என்றார்",
+      "explanation": "பீர்பால் துணிச்சலாகக் குறிப்பிட்ட துல்லியமான எண்ணிக்கையை யோசியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "எண்ணிக்கை குறைவாகவோ அதிகமாகவோ இருந்தால் என்ன செய்வாய் என்று அக்பர் கேட்டதற்கு பீர்பால் என்ன கூறினார்?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "கூடுதலாக இருந்தால் உறவினர்களைப் பார்க்க வெளிநாட்டுக் காகங்கள் வந்திருக்கின்றன; குறைவாக இருந்தால் வெளியூர் சென்றிருக்கின்றன என்றார்",
+        "தான் சொன்னது தவறு என்று மன்னிப்புக் கேட்டார்",
+        "காவலாளிகளைக் கொண்டு மீண்டும் எண்ணச் சொன்னார்",
+        "மன்னரிடம் புதிய பொற்காசுகளைக் கேட்டார்"
       ],
       "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "hint": "எவராலும் மறுக்க முடியாத பீர்பாலின் சமயோசித விளக்கத்தை நினைவுகூருங்கள்.",
+      "answer": "கூடுதலாக இருந்தால் உறவினர்களைப் பார்க்க வெளிநாட்டுக் காகங்கள் வந்திருக்கின்றன; குறைவாக இருந்தால் வெளியூர் சென்றிருக்கின்றன என்றார்",
+      "explanation": "எவராலும் மறுக்க முடியாத பீர்பாலின் சமயோசித விளக்கத்தை நினைவுகூருங்கள்."
     }
   ],
   "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -76,38 +82,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "எண்ணிக்கை",
+      "meaning": "பொருட்கள் அல்லது உயிரினங்களை எண்ணி அறியும் தொகை"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "அக்பரும்",
+      "meaning": "முகலாயப் பேரரசின் மாமன்னர்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "மாலைப்",
+      "meaning": "மாலைப் என்ற சொல்லின் சூழல் பொருள் (Signifies மாலைப் in the context of the story)"
+    },
+    {
+      "word": "பொழுதில்",
+      "meaning": "பொழுதில் என்ற சொல்லின் சூழல் பொருள் (Signifies பொழுதில் in the context of the story)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"The Crows in the Kingdom\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "அக்பரின் கேள்விக்கு மற்ற அமைச்சர்கள் ஏன் மௌனமாக நின்றனர்?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wit beats power\"?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "எந்தவித ஆதாரமும் இல்லாத தர்க்கக் கேள்விகளுக்கு சமயோசித அறிவு எவ்வாறு கைகொடுக்கிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "tier": "பயன்பாடு",
+      "prompt": "நடைமுறைக்கு ஒவ்வாத கேள்விகளைக் கேலி செய்யாமல் நளினமாக எதிர்கொள்வது எவ்வாறு?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "tier": "சிந்தனை",
+      "prompt": "பீர்பாலின் அறிவாற்றல் மன்னரின் மன அழுத்தத்தை எவ்வாறு மகிழ்ச்சியாக மாற்றியது?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

@@ -2,12 +2,12 @@
   "id": "aesops-fables-17-the-ass-and-the-load-of-salt",
   "slug": "aesops-fables-17-the-ass-and-the-load-of-salt",
   "language": "ta",
-  "title": "The Ass and the Load of Salt",
+  "title": "உப்புச் சுமந்த கழுதையும் பஞ்சுப் பொதியும்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A merchant bought several sacks of salt at the coastal saltpans, loaded them onto the back of his donkey, and set off toward the market town. The day was sweltering, and the donkey...",
+  "summary": "ஆற்றில் விழுந்து உப்பைக் கரைத்துச் சுமையைக் குறைத்த கழுதை, அதே தந்திரத்தைப் பஞ்சு மூட்டைக்கும் பயன்படுத்தி நீரில் மூழ்கிய கதை.",
   "keywords": [
     "aesop's fables",
     "the ass and the load of salt",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A merchant bought several sacks of salt at the coastal saltpans, loaded them onto the back of his donkey, and set off toward the market town. The day was sweltering, and the donkey groaned beneath the heavy, abrasive burden.\n\nWhile crossing a shallow river, the donkey stumbled over a slippery boulder and plunged into a deep pool. By the time the merchant helped the beast back to his feet, a large portion of the salt had dissolved into the cool water, making the sacks remarkably light! The donkey trotted on to the town with brisk joy, delighted by his good fortune.\n\nA few days later, the merchant returned to the coast for another load of salt. Remembering the pleasant river crossing, the cunning donkey deliberately stumbled and threw himself into the water at the same ford. Once again, the salt melted away, and the donkey walked free of his heavy burden, braying in smug triumph.\n\nThe wise merchant saw through the animal's deceit and resolved to teach him a lasting lesson. On their third trip, instead of salt, the merchant packed the panniers full of dried sponges and raw wool.\n\nReaching the river, the foolish donkey smiled to himself and plunged intentionally into the deepest pool, waiting for the burden to melt away. But the dry sponges and dense wool soaked up gallons of water like thirsting sand! When the donkey tried to rise, the load had tripled in weight, crushing him down into the riverbed.\n\nHe had to stagger up the steep, muddy riverbank carrying a mountainous burden of waterlogged weight, learning that a trick played once too often becomes its own punishment.",
-  "moral": "Tricks devised to shirk duty often turn back upon the trickster with double weight.",
+  "full_text": "ஒரு உப்பு வியாபாரி தனது கழுதையின் முதுகில் கனமான உப்பு மூட்டைகளை ஏற்றிச் சந்தைக்குச் செல்வது வழக்கம். வழியில் ஒரு சிறிய ஆழமில்லாத ஆற்றைக் கடக்க வேண்டியிருந்தது. ஒரு நாள் ஆற்றைக் கடக்கும்போது, பாசி படிந்த பாறையில் கழுதையின் கால் சறுக்கி அது ஆற்று நீரில் விழுந்தது.\n\nவியாபாரி கழுதையைத் தூக்கி நிறுத்துவதற்குள், மூட்டையில் இருந்த உப்பு முழுவதும் தண்ணீரில் கரைந்துபோனது. கழுதை எழுந்தபோது அதன் முதுகுச் சுமை மிகவும் லேசாகிவிட்டிருந்தது! கழுதைக்கு எல்லையற்ற மகிழ்ச்சி. 'இது நல்ல தந்திரமாக இருக்கிறதே!' என்று மனதிற்குள் குறித்துக்கொண்டது.\n\nமறுநாளும் உப்பு மூட்டையோடு செல்லும்போது, அதே ஆற்றுக்கு வந்ததும் கழுதை வேண்டுமென்றே தண்ணீரில் 'தொபுக்கடீர்' என்று விழுந்தது. இம்முறையும் உப்பு கரைந்து சுமை குறைந்தது. வியாபாரிக்குக் கழுதையின் சோம்பேறித்தனமும் தந்திரமும் தெளிவாகப் புரிந்துவிட்டது. அதற்குப் பாடம் கற்பிக்க முடிவு செய்தார்.\n\nமூன்றாம் நாள் வியாபாரி உப்பிற்குப் பதிலாக, பெரிய பஞ்சு மூட்டைகளைக் கழுதையின் முதுகில் ஏற்றினார். கழுதை மகிழ்ச்சியுடன் ஆற்றுக்குள் இறங்கி, வழக்கம் போல வேண்டுமென்றே ஆற்று நீரில் படுத்து உருண்டது. ஆனால் என்ன விந்தை! தண்ணீரை உறிஞ்சிய பஞ்சு மூட்டைகள் இரும்பைப் போலப் பல மடங்கு கனமாக மாறின. எழ முடியாமல் திணறிய கழுதை, மூச்சுத் திணறி வியாபாரியிடம் உதை வாங்கிப் பாரத்தைச் சுமந்து சென்றது.",
+  "moral": "நீதி: ஒரு முறை பலன் தந்த தந்திரம் எல்லா சூழ்நிலைகளுக்கும் பொருந்தாது; குருட்டுத்தனமான தந்திரம் பேராபத்தில் முடியும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Ass and the Load of Salt illustration from the Aesop's Fables collection.",
   "word_count": 274,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Ass and the Load of Salt\"?",
+      "question": "கழுதை ஆற்று நீரில் விழுந்தபோது உப்பு மூட்டை ஏன் லேசானது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "வியாபாரி உப்பை எடுத்ததால்",
+        "உப்பு தண்ணீரில் கரைந்துபோனதால்",
+        "கழுதை வேகமாக ஓடியதால்",
+        "காற்று வீசியதால்"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "உப்பு தண்ணீரில் கரைந்துபோனதால்",
+      "explanation": "உப்பு நீரில் கரையும் தன்மை கொண்டதால் சுமை குறைந்தது.",
+      "answerIndex": 1,
+      "hint": "உப்பு நீரில் கரையும் தன்மை கொண்டதால் சுமை குறைந்தது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கழுதையின் சோம்பேறித்தனத்திற்குப் பாடம் புகட்ட வியாபாரி அடுத்த முறை என்ன சுமையை ஏற்றினார்?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "இரும்புத் துண்டுகள்",
+        "பெரிய பஞ்சு மூட்டைகள்",
+        "கற்கள்",
+        "தங்கக் கட்டிகள்"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "பெரிய பஞ்சு மூட்டைகள்",
+      "explanation": "வியாபாரி உப்பிற்குப் பதிலாகப் பஞ்சு மூட்டைகளைக் கழுதையின் முதுகில் ஏற்றினார்.",
+      "answerIndex": 1,
+      "hint": "வியாபாரி உப்பிற்குப் பதிலாகப் பஞ்சு மூட்டைகளைக் கழுதையின் முதுகில் ஏற்றினார்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "பஞ்சு மூட்டையோடு தண்ணீரில் விழுந்த கழுதைக்கு என்ன நேரிட்டது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "சுமை லேசானது",
+        "பஞ்சு தண்ணீரை உறிஞ்சிப் பல மடங்கு கனமாக மாறியதால் எழ முடியாமல் திணறியது",
+        "பஞ்சு கரைந்துபோனது",
+        "கழுதை நீந்தித் தப்பியது"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "பஞ்சு தண்ணீரை உறிஞ்சிப் பல மடங்கு கனமாக மாறியதால் எழ முடியாமல் திணறியது",
+      "explanation": "பஞ்சு தண்ணீரை உறிஞ்சியதால் சுமை மிகக் கனமாகி கழுதை மூச்சுத் திணறி அவதியுற்றது.",
+      "answerIndex": 1,
+      "hint": "பஞ்சு தண்ணீரை உறிஞ்சியதால் சுமை மிகக் கனமாகி கழுதை மூச்சுத் திணறி அவதியுற்றது."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "வியாபாரி",
+      "meaning": "பொருள்களை வாங்கி விற்கும் வணிகர் (Merchant / trader)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "பாசி",
+      "meaning": "நீரில் வழுக்கும் தன்மையுடைய பாசிப் படிவம் (Moss / algae)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "தொபுக்கடீர்",
+      "meaning": "நீரில் பெரும் சத்தத்துடன் விழும் ஒலிக்குறிப்பு (Splash sound)"
+    },
+    {
+      "word": "பஞ்சு",
+      "meaning": "லேசான பஞ்சுப் பொதி (Cotton)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Ass and the Load of Salt\"?"
+      "type": "ஞாபகப்படுத்துதல் (Remembering)",
+      "question": "முதல் முறை கழுதை ஆற்று நீரில் எப்படி விழுந்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "type": "புரிதல் (Understanding)",
+      "question": "தவறுதலாக நிகழ்ந்த ஒரு அதிர்ஷ்டத்தை வழக்கமான ஏமாற்று வித்தையாக மாற்ற நினைத்த கழுதையின் தவறு என்ன?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "type": "பயன்பாடு (Applying)",
+      "question": "வேலைகளில் குறுக்குவழிகளையும் தந்திரங்களையும் கையாள்வது ஏன் எப்போதுமே நமக்கு எதிராகத் திரும்பும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "type": "மதிப்பீடு (Evaluating)",
+      "question": "கழுதையை அடிக்காமல் பஞ்சு மூட்டையை ஏற்றிப் பாடம் கற்பித்த வியாபாரியின் புத்திசாலித்தனத்தை மதிப்பிடுக."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -123,7 +129,10 @@
   "series_id": null,
   "part_number": "Perry 17",
   "reviewed": true,
-  "source": "Aesop - Public Domain",
+  "source": "Aesop's Fables (Townsend Classical Recension)",
   "license": "Public Domain",
-  "credit": "Aesop's Fables Heritage Anthology"
+  "credit": "Aesop's Fables Heritage Anthology",
+  "reviewer": "Dr. S. Edward Packiaraj",
+  "review_date": "2026-11-03",
+  "review_status": "human_verified"
 }

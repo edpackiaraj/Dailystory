@@ -2,12 +2,12 @@
   "id": "aesops-fables-44-the-dog-in-the-manger",
   "slug": "aesops-fables-44-the-dog-in-the-manger",
   "language": "ta",
-  "title": "The Dog in the Manger",
+  "title": "வைக்கோல் பட்டறையில் நாய்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "A grumpy, ill-tempered farm dog, seeking a comfortable place to sleep during the heat of the afternoon, climbed into the manger of the barn. He curled himself up upon a soft, fragr...",
+  "summary": "தானும் உண்ண முடியாத வைக்கோல் தொட்டியின் மீது படுத்துக்கொண்டு, நாள் முழுவதும் உழைத்துக் களைத்து வந்த மாடுகளையும் ஒரு பிடி புல் கூட உண்ண விடாமல் குரைத்துத் துரத்திய பொறாமை பிடித்த நாயின் கதை.",
   "keywords": [
     "aesop's fables",
     "the dog in the manger",
@@ -22,11 +22,11 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "A grumpy, ill-tempered farm dog, seeking a comfortable place to sleep during the heat of the afternoon, climbed into the manger of the barn. He curled himself up upon a soft, fragrant bed of sweet clover and golden oat hay, falling into a comfortable doze.\n\nPresently, the tired oxen returned from the fields, weary and hungry after a long day of plowing the heavy furrow. They stepped into the stall and reached their broad muzzles toward the manger to eat the fresh hay that their master had provided.\n\nInstantly, the dog woke up in a savage fury. He sprang to his feet, bared his teeth, and barked viciously at the oxen, snapping at their noses whenever they tried to take a mouthful of the hay!\n\n\"Stand back, you clumsy brutes!\" snarled the dog, bristling with spite.\n\nOne patient ox looked down at the snarling hound and sighed with sorrowful indignation:\n\n\"What a miserable, selfish creature you are! You cannot eat the hay yourself, for grass is no food for a dog; yet you refuse to let those who can eat it satisfy their honest hunger. You enjoy nothing, except preventing others from enjoying what is theirs!\"",
-  "moral": "Do not begrudge to others what you cannot enjoy yourself.",
+  "full_text": "ஒரு கிராமத்துப் பண்ணையில் மிகுந்த முன்கோபமும் பொறாமை குணமும் கொண்ட ஒரு பண்ணை நாய் வாழ்ந்து வந்தது. ஒரு கோடைக்கால மதிய வேளையில், இதமான நிழலில் தூங்குவதற்காக இடம் தேடிய அந்த நாய், மாட்டுக் கொட்டிலுக்குள் நுழைந்தது. அங்கே மாடுகளுக்குத் தீவனமாகப் போடப்பட்டிருந்த மென்மையான உலர் வைக்கோல் நிறைந்த தீவனத் தொட்டியைக் கண்டதும், அதன் மேலே ஏறிப் படுத்துக்கொண்டு சுகமாக உறங்கத் தொடங்கியது.\n\nமாலையில், வயலில் நாள் முழுவதும் ஏர் உழுதுவிட்டுப் பசியோடும் களைப்போடும் உழைத்துத் திரும்பிய எருதுகளும் பசுக்களும் கொட்டிலுக்குள் வந்தன. தங்களின் தீவனத் தொட்டியில் வைக்கோல் இருப்பதை அறிந்து, ஒரு வாய் புல்லைத் தின்பதற்காகத் தலையைத் தொட்டிக்குள் நீட்டின.\n\nதிடீரென்று தூக்கம் கலைந்த அந்த நாய் ஆக்ரோஷமாக எழுந்து நின்று, கோரைப் பற்களைக் காட்டிப் பயங்கரமாகக் குரைத்தது. மாடுகள் தொட்டியை நெருங்க முயன்றபோதெல்லாம் அவற்றின் முகத்தைக் கடிக்கப் பாய்ந்தது.\n\nஅப்போது ஒரு சாதுவான எருது பெருமூச்சுடன் சொன்னது: \"நாயே! நீ எத்தனை பொறாமை பிடித்த சுயநலவாதியாக இருக்கிறாய்! இந்த உலர் வைக்கோல் உனக்கு உணவாகப் பயன்படாது; நீ ஒரு துரும்புப் புல்லைக் கூடத் தின்னப் போவதில்லை! ஆனால் நாள் முழுவதும் வெயிலில் உழைத்து வந்த எங்களை ஒரு பிடி புல் கூடத் தின்ன விடாமல் விரட்டுகிறாயே! உனக்கும் உதவாமல் மற்றவர்களுக்கும் உதவாமல் தடுக்கும் உன் கேவலமான குணம் அழியட்டும்!\" என்று சபித்தது.",
+  "moral": "நீதி: தனக்குப் பயன்படாத ஒரு பொருளை, மற்றவர்களுக்குப் பயன்படும் போது தடுத்து நிறுத்தும் சுயநலவாதி உலகத்தாரால் தூற்றப்படுவான்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Dog in the Manger illustration from the Aesop's Fables collection.",
-  "word_count": 196,
+  "word_count": 154,
   "reading_time": "2 min",
   "listen_time": "2 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Dog in the Manger\"?",
+      "question": "நாய் தூங்குவதற்காக எங்கு சென்று படுத்துக்கொண்டது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "மாட்டுக் கொட்டிலில் இருந்த வைக்கோல் தீவனத் தொட்டியின் மேலே படுத்துக்கொண்டது",
+        "பண்ணை வீட்டின் திண்ணையில் படுத்தது",
+        "மரத்தடி நிழலில் படுத்தது",
+        "வைக்கோல் போரின் அடியில் படுத்தது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "மாடுகள் உண்ணும் தொட்டியை நினைவுகூருங்கள்.",
+      "answer": "மாட்டுக் கொட்டிலில் இருந்த வைக்கோல் தீவனத் தொட்டியின் மேலே படுத்துக்கொண்டது",
+      "explanation": "மாடுகள் உண்ணும் தொட்டியை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "பசியோடு வந்த மாடுகள் வைக்கோலைத் தின்ன முயன்ற போது நாய் என்ன செய்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "பற்களைக் காட்டிப் பயங்கரமாகக் குரைத்துக் கடிக்கப் பாய்ந்தது",
+        "அமைதியாக விலகி வழிவிட்டது",
+        "மாடுகளோடு சேர்ந்து விளையாடியது",
+        "பண்ணையாளரை அழைத்து வந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "நாயின் குரைப்பையும் ஆக்ரோஷத்தையும் கவனியுங்கள்.",
+      "answer": "பற்களைக் காட்டிப் பயங்கரமாகக் குரைத்துக் கடிக்கப் பாய்ந்தது",
+      "explanation": "நாயின் குரைப்பையும் ஆக்ரோஷத்தையும் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் மூலம் உலகம் கண்டிக்கும் இழிவான குணம் எது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "தனக்குப் பயன்படாத ஒரு பொருளை மற்றவர்களுக்கும் பயன்பட விடாமல் தடுக்கும் கெட்ட பொறாமை குணம்",
+        "மாடுகள் கொட்டிலுக்குள் வருவது",
+        "வைக்கோல் தொட்டிகளை வைப்பது",
+        "பண்ணைகளில் நாய்களை வளர்ப்பது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "\"தானும் தின்னான், தின்னவும் விடான்\" என்ற முதுமொழியை நினைவில் கொள்ளுங்கள்.",
+      "answer": "தனக்குப் பயன்படாத ஒரு பொருளை மற்றவர்களுக்கும் பயன்பட விடாமல் தடுக்கும் கெட்ட பொறாமை குணம்",
+      "explanation": "\"தானும் தின்னான், தின்னவும் விடான்\" என்ற முதுமொழியை நினைவில் கொள்ளுங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "தீவனத் தொட்டி",
+      "meaning": "மாடுகளுக்கு வைக்கோல், புல் போன்ற உணவுகளைப் போட்டு வைக்கும் மரத்தொட்டி"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "பொறாமை",
+      "meaning": "தனக்குக் கிடைக்காதது பிறருக்கும் கிடைக்கக் கூடாது என்று தடுக்கும் இழிந்த சுபாவம்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "முன்கோபமும்",
+      "meaning": "காரணமின்றி மற்றவர்கள் மீது சட்டென்று சீறி விழும் கெட்ட சுபாவம்"
+    },
+    {
+      "word": "சுயநலவாதியாக",
+      "meaning": "பிறரின் அடிப்படைப் பசியைக் கூட மதிக்காமல் தன் சுகத்தை மட்டுமே பார்க்கும் இழிசெயல்"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Dog in the Manger\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "மாடுகள் நாள் முழுவதும் என்ன கடினமான வேலையைச் செய்துவிட்டுத் திரும்பின?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "ஆங்கிலத்தில் \"Dog in the manger\" என்ற புகழ்பெற்ற மரபுத்தொடர் எத்தகைய மனிதர்களைக் குறிக்கப் பயன்படுகிறது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "நமக்குத் தேவையில்லாத ஒரு பொருளை மற்றவர்களுக்குத் தராமல் பிடித்து வைத்திருப்பது ஏன் பெருந்தவறு?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "மனித சமுதாயத்தில் பொறாமையை விடப் பகிர்ந்தளிக்கும் மனப்பான்மையே எவ்வாறு அன்பை வளர்க்கும்?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

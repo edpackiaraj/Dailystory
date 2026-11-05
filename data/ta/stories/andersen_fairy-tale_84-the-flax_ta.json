@@ -2,12 +2,12 @@
   "id": "hans-christian-andersen-84-the-flax",
   "slug": "hans-christian-andersen-84-the-flax",
   "language": "ta",
-  "title": "The Flax",
+  "title": "ஆளிச் செடியும் தியாகங்களால் மலர்ந்த புதிய மறுவாழ்வும்",
   "genre": "Fairy Tales",
   "collection": "Hans Christian Andersen",
   "culture_region": "Denmark",
   "age_group": "Below 13",
-  "summary": "The flax plant bloomed in the meadow with delicate blue flowers like the sky. \"I am the happiest of plants!\" sang the flax. \"The sun warms me, the rain refreshes me, and I shall be...",
+  "summary": "புல்வெளியில் நீல மலர்களோடு பூத்துக் குலுங்கி, மனிதர்களால் வேரோடு பிடுங்கப்பட்டு, ஊறவைக்கப்பட்டு, நூலாக நூற்கப்பட்டு, மெல்லிய லினன் துணியாகவும் பின்னர் காகிதமாகவும் மாறிப் பலமுறை புதிய புத்துயிர் பெற்ற ஆளிச் செடியின் கதை.",
   "keywords": [
     "hans christian andersen",
     "the flax",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "The flax plant bloomed in the meadow with delicate blue flowers like the sky. \"I am the happiest of plants!\" sang the flax. \"The sun warms me, the rain refreshes me, and I shall be made into fine linen!\"\n\nOne day, workers pulled the flax by the roots, steeped it in water, broke it on the brake, and carded it with iron teeth. \"Ouch! This is painful!\" cried the flax. \"Yet one must suffer to become useful.\"\n\nIt was spun into delicate white thread and woven into fine linen tablecloths for the royal palace. \"How splendid!\" rejoiced the flax. \"I am useful to mankind!\"\n\nYears passed. The linen wore into rags. It was torn, boiled in lye, and beaten into pulp at the paper mill. From its fibers was created glorious white paper upon which inspiring stories were printed!\n\nFinally, the paper was cast into the hearth. As it burned, thousands of bright sparks danced like children up the chimney into the golden sun, singing: \"The song is never done! Life ascends forever into light!\"",
-  "moral": "Every painful dissolution is the doorway to a higher, more glorious state of service.",
+  "full_text": "வயல்வெளியில் ஆளிச் செடி (Flax) தன் மென்மையான நீல நிற மலர்களை விரித்து ஆனந்தமாகப் பூத்திருந்தது.\n    \n\"நான் எவ்வளவு மகிழ்ச்சியாக இருக்கிறேன்! சூரியன் என்னை முத்தமிடுகிறது; மழை என்னை நனைக்கிறது; உலகம் எத்துணை இனிமையானது!\" என்று ஆளிச் செடி பாடியது.\n    \nஆனால் அறுவடை நாள் வந்தது. மனிதர்கள் அதன் தண்டுகளை வேரோடு பிடுங்கினர்; அதைத் தண்ணீரில் ஊறவைத்து, உலர்த்தி, அடித்து நொறுக்கினர்!\n    \nஆளிச் செடி கதறியது: \"அந்தோ! என் வாழ்வு முடிந்துவிட்டது!\" என்று வருந்தியது.\n    \nஆனால் அது அழியவில்லை! அதன் மெல்லிய நாரிலிருந்து வெண்மையான நூல்கள் நூற்கப்பட்டு, மிக அழகான லினன் (Linen) ஆடையாக நெய்யப்பட்டது! இப்போது அது அரண்மனை மேசையை அலங்கரிக்கும் வெண்பட்டு போலப் பளபளத்தது.\n    \nபல ஆண்டுகளுக்குப் பின் அந்த ஆடை கிழிந்து கந்தலான போது, அது காகிதத் தொழிற்சாலைக்குக் கொண்டு செல்லப்பட்டு வெள்ளைத் தாள்களாக மாறியது! அந்தக் காகிதங்களில் மாபெரும் கவிஞரின் அழகிய கவிதைகள் அச்சிடப்பட்டன!\n    \nஇறுதியில் அந்தக் காகிதங்கள் அடுப்பில் போடப்பட்டு எரிக்கப்பட்ட போது, அதன் தீப்பொறிகள் வானில் பிரகாசமான நட்சத்திரங்களாகப் பறந்து சென்று விண்ணோடு கலந்தன.\n    \n\"பாடல் ஒருபோதும் முடிவதில்லை! ஒவ்வொரு முடிவும் ஒரு புதிய அழகிய தொடக்கமே!\" என்று அந்த ஆளிச் செடியின் ஆன்மா ஆனந்தமாக முழங்கியது.",
+  "moral": "துன்பங்களும் தியாகங்களும் மனித வாழ்வின் முடிவல்ல; ஒவ்வொரு வலியும் நம்மை மேலும் பக்குவப்படுத்தி ஒரு மேலான உன்னத நிலைக்கு உயர்த்தும் படிக்கட்டுகளாகும்.",
   "image": "/images/stories/andersen.webp",
   "image_alt": "The Flax illustration from the Hans Christian Andersen collection.",
   "word_count": 175,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Flax\"?",
+      "question": "ஆளிச் செடி வயலில் மலர்ந்திருந்த போது அதன் மலர்கள் எத்தகைய நிறத்தில் இருந்தன?",
       "options": [
-        "Andersen's tales teach compassion, resilience, and Christian hope",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "வானத்தைப் போன்ற மென்மையான நீல நிறத்தில் இருந்தன",
+        "சிவப்பு நிறத்தில் இருந்தன",
+        "மஞ்சள் நிறத்தில் இருந்தன",
+        "கருப்பு நிறத்தில் இருந்தன"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "வானத்தைப் போன்ற மென்மையான நீல நிறத்தில் இருந்தன",
+      "hint": "வானத்தின் நீல நிற மலர்களை நினையுங்கள்.",
+      "explanation": "ஆளிச் செடியின் பூக்கள் அழகிய நீல நிறத்தில் பூத்துக் குலுங்கின."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கந்தலான பழைய லினன் துணியாக மாறிய ஆளிச் செடி அடுத்ததாக என்ன உருவம் பெற்றது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "கவிதைகள் அச்சிடப்படும் தூய வெள்ளைக் காகிதமாக மாறியது",
+        "மண் பானையாக மாறியது",
+        "மரப் பெட்டியானது",
+        "கண்ணாடிப் பொருளானது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "answer": "கவிதைகள் அச்சிடப்படும் தூய வெள்ளைக் காகிதமாக மாறியது",
+      "hint": "காகிதத் தொழிற்சாலையில் ஏற்பட்ட மறுபிறப்பை நினையுங்கள்.",
+      "explanation": "பழைய துணி காகிதக் கூழாக அரைக்கப்பட்டுப் புத்தகத் தாள்களாக உயர்ந்தது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "இக்கதையின் தத்துவார்த்த வாழ்வியல் நீதி யாது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "துன்பங்களும் தியாகங்களும் முடிவல்ல; அவை நம்மை மேலும் மேலான நிலைக்கு உயர்த்தும் படிக்கட்டுகளே",
+        "செடிகளை நடவே கூடாது",
+        "காகிதங்களை எரிக்கக் கூடாது",
+        "துணிகளைத் தைக்கக் கூடாது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "துன்பங்களும் தியாகங்களும் முடிவல்ல; அவை நம்மை மேலும் மேலான நிலைக்கு உயர்த்தும் படிக்கட்டுகளே",
+      "hint": "தொடர் மறுமலர்ச்சியின் தத்துவத்தை நினையுங்கள்.",
+      "explanation": "ஒவ்வொரு வலியும் துன்பமும் ஒரு புதிய உன்னத வடிவத்திற்கு வழிவகுக்கும் என்பதை ஆன்டர்சன் போதித்தார்."
     }
   ],
   "author": "Hans Christian Andersen (1805–1875)",
@@ -78,38 +84,62 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "தண்டுகளை",
+      "meaning": "செடியின் வேரிலிருந்து இலைகளையும் மலர்களையும் தாங்கி நிற்கும் தடித்த உடற் பகுதிகளை",
+      "gloss": "stalks, stems"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "நெய்யப்பட்டது",
+      "meaning": "தறியில் நூல்களைக் குறுக்கும் நெடுக்குமாக இணைத்து ஆடையாக உருவாக்கப்பட்டது",
+      "gloss": "was woven"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "தீப்பொறிகள்",
+      "meaning": "நெருப்பில் எரியும் போது காற்றில் பறந்து பிரகாசிக்கும் சிறிய கனல் துகள்கள்",
+      "gloss": "sparks, fiery embers"
+    },
+    {
+      "word": "தொடக்கமே",
+      "meaning": "பழைய நிலை மறைந்து புதிய மேலான வாழ்வு தொடங்கும் புதுத் தொடக்கமே",
+      "gloss": "a beginning, inception"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Flax\"?"
+      "tier": "remembering",
+      "prompt": "ஆளிச் செடி மனிதர்களால் இறுதியாக எரிக்கப்பட்ட போது அதன் தீப்பொறிகள் எங்கே பறந்தன?",
+      "type": "remembering",
+      "question": "ஆளிச் செடி மனிதர்களால் இறுதியாக எரிக்கப்பட்ட போது அதன் தீப்பொறிகள் எங்கே பறந்தன?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Andersen's tales teach compassion, resilience, and Christian hope\" meaningful in daily life?"
+      "tier": "understanding",
+      "prompt": "ஆளிச் செடி மலரிலிருந்து ஆடையாகவும், ஆடையிலிருந்து காகிதமாகவும் மாறிய உருமாற்றப் பயணத்தை விளக்குக.",
+      "type": "understanding",
+      "question": "ஆளிச் செடி மலரிலிருந்து ஆடையாகவும், ஆடையிலிருந்து காகிதமாகவும் மாறிய உருமாற்றப் பயணத்தை விளக்குக."
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "applying",
+      "prompt": "நமது வாழ்வில் ஏற்படும் கடுமையான சோதனைகளையும் வலிகளையும் நாம் எவ்வாறு பக்குவத்திற்கான வாய்ப்பாக மாற்றலாம்?",
+      "type": "applying",
+      "question": "நமது வாழ்வில் ஏற்படும் கடுமையான சோதனைகளையும் வலிகளையும் நாம் எவ்வாறு பக்குவத்திற்கான வாய்ப்பாக மாற்றலாம்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
+      "tier": "analyzing",
+      "prompt": "ஆளிச் செடியின் அசைக்க முடியாத நம்பிக்கையான நேர்மறை சிந்தனைக்கும் அதன் தொடர் உயர்வுக்கும் உள்ள தொடர்பை ஆராய்க.",
+      "type": "analyzing",
+      "question": "ஆளிச் செடியின் அசைக்க முடியாத நம்பிக்கையான நேர்மறை சிந்தனைக்கும் அதன் தொடர் உயர்வுக்கும் உள்ள தொடர்பை ஆராய்க."
     },
     {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "evaluating",
+      "prompt": "'பாடல் ஒருபோதும் முடிவதில்லை, ஒவ்வொரு முடிவும் புதிய தொடக்கமே' என்ற தத்துவத்தை எவ்வாறு மதிப்பிடுவீர்கள்?",
+      "type": "evaluating",
+      "question": "'பாடல் ஒருபோதும் முடிவதில்லை, ஒவ்வொரு முடிவும் புதிய தொடக்கமே' என்ற தத்துவத்தை எவ்வாறு மதிப்பிடுவீர்கள்?"
+    },
+    {
+      "tier": "creating",
+      "prompt": "அந்தக் காகிதத்தில் எழுதப்பட்ட கவிதையைப் படித்து மனம் உருகிய ஒரு வாசகனின் அனுபவத்தை விவரிக்கவும்.",
+      "type": "creating",
+      "question": "அந்தக் காகிதத்தில் எழுதப்பட்ட கவிதையைப் படித்து மனம் உருகிய ஒரு வாசகனின் அனுபவத்தை விவரிக்கவும்."
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",

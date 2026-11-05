@@ -2,12 +2,12 @@
   "id": "aesops-fables-47-the-ass-in-the-lions-skin",
   "slug": "aesops-fables-47-the-ass-in-the-lions-skin",
   "language": "ta",
-  "title": "The Ass in the Lion's Skin",
+  "title": "சிங்கத் தோல் போர்த்திய கழுதை – வெளிப்பட்ட கத்தல்",
   "genre": "Fables",
   "collection": "Aesop's Fables",
   "culture_region": "Ancient Greece / Classical Folklore",
   "age_group": "Below 13",
-  "summary": "An ass found the skin of a lion left by hunters on the grass. Slipping his legs into the paws and pulling the massive mane over his head, he strutted through the countryside. Beast...",
+  "summary": "வேடர்கள் விட்டுச் சென்ற சிங்கத்தின் தோலைப் போர்த்திக்கொண்டு காட்டில் உள்ள ஆடுகளையும் மாடுகளையும் மிரட்டிய கழுதை, கர்ஜனை செய்ய நினைத்துக் கத்தியதால் உண்மை வெளிப்பட்டு உதை வாங்கிய கதை.",
   "keywords": [
     "aesop's fables",
     "the ass in the lion's skin",
@@ -22,8 +22,8 @@
     "bedtime-story",
     "wisdom"
   ],
-  "full_text": "Beside a cool mountain stream where wild plane trees offered shelter from the summer heat, An ass found the skin of a lion left by hunters on the grass. Slipping his legs into the paws and pulling the massive mane over his head, he strutted through the countryside. Beast.... The creatures of the field went about their daily lives according to their nature, each seeking their own advantage while keeping a vigilant watch over friends and foes alike.\n\nAs the hours passed, an unexpected turning point arose that tested their wits and character. A tense confrontation soon arose as rival desires crossed paths under the midday sun. Words were exchanged with cautious cunning, glances were measured, and each party sought to disguise their true intentions behind a veil of outward innocence.\n\nYet the timeless laws of nature cannot be deceived by clever words or false appearances. Natural instincts and sharp wits collided, bringing the trial to an immediate, decisive climax.  The outcome was swift and irreversible, leaving behind a lasting lesson for all who witnessed the event, proving that pretending to be what you are not only invites mockery when your true nature appears.",
-  "moral": "Pretending to be what you are not only invites mockery when your true nature appears.",
+  "full_text": "பண்டைய கிரேக்க நாட்டின் மலைப்பாங்கான மேய்ச்சல் நிலத்தில் வேடர்கள் காயப்போட்டிருந்த ஒரு சிங்கத்தின் தோலைக் கழுதை ஒன்று கண்டெடுத்தது. \"ஆகா! இந்தத் தோலை நான் போர்த்திக்கொண்டால், நானும் இந்தக் காட்டிற்கே ராஜாவாக வலம் வரலாம்!\" என்று எண்ணிய கழுதை, தன் உடலெங்கும் அந்தத் தோலைப் போர்த்திக்கொண்டு, சிங்கத்தின் தலையைத் தன் தலைக்கு மேலே அணிந்து கொண்டது.\n\nஅது கம்பீரமாக நடந்து புல்வெளிக்கு வந்தது. அதைக் கண்ட ஆடுகளும், பசுக்களும், மேய்ப்பர்களும் அஞ்சி நடுங்கி நாலாபுறமும் சிதறி ஓடினர். \"காட்டு ராஜா சிங்கமே நேரில் வந்துவிட்டது!\" என்று மக்கள் அலறினர். பிற விலங்குகள் தன்னிடம் காட்டிய பயத்தைக் கண்டு கழுதைக்குக் கர்வம் தலைக்கேறியது.\n\nஅப்போது புதரில் நின்ற நரி ஒன்று பயப்படாமல் சந்தேகத்தோடு கவனிப்பதைக் கண்ட கழுதை, \"அந்த நரியையும் அச்சுறுத்திக் காட்டுவோம்!\" என்று எண்ணி, சிங்கத்தைப் போல் கர்ஜிக்க முயன்றது. ஆனால் அதன் தொண்டையிலிருந்து கர்ஜனைக்கு பதிலாக, 'கத்தீ... கத்தீ...' என்று காதைப் பிளக்கும் கழுதைக் குரலே வெளிவந்தது!\n\nஅதன் கத்தலைக் கேட்ட நரி உரக்கச் சிரித்தது. \"அடடே! நீ வாய் திறக்காமல் இருந்திருந்தால் உன்னை உண்மையான சிங்கம் என்று நானும் நம்பியிருப்பேன்; ஆனால் உன் கத்தல் நீ வெறும் கழுதைதான் என்பதை உடைத்துவிட்டது!\" என்றது. ஏமாந்ததை உணர்ந்த மேய்ப்பர்கள் தடிகளுடன் ஓடிவந்து, சிங்கத் தோலை உரித்துவிட்டு அந்தக் கழுதையை விளாசித் தள்ளினர்.",
+  "moral": "போலியான ஆடைகளாலும் பகட்டுகளாலும் பிறரைச் சிறிது காலம் ஏமாற்றலாம்; ஆனால் வாயைத் திறந்து பேசும் போது மனிதனின் உண்மைத் தகுதி வெளிப்பட்டுவிடும்.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Ass in the Lion's Skin illustration from the Aesop's Fables collection.",
   "word_count": 194,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Ass in the Lion's Skin\"?",
+      "question": "கழுதை காட்டில் எதனை எடுத்துத் தன் உடலில் போர்த்திக்கொண்டது?",
       "options": [
-        "Wisdom of the ancients",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "ஒரு கம்பளிப் போர்வையை",
+        "வேடர்கள் விட்டுச் சென்ற சிங்கத்தின் தோலை",
+        "ஒரு புலித்தோலை",
+        "பசுந்தோலை"
       ],
-      "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "answer": "வேடர்கள் விட்டுச் சென்ற சிங்கத்தின் தோலை",
+      "explanation": "வேடர்கள் புல்வெளியில் விட்டுச் சென்றிருந்த சிங்கத்தின் தோலை எடுத்துப் போர்த்திக்கொண்டது.",
+      "answerIndex": 1,
+      "hint": "வேடர்கள் புல்வெளியில் விட்டுச் சென்றிருந்த சிங்கத்தின் தோலை எடுத்துப் போர்த்திக்கொண்டது."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "கழுதை தான் யார் என்பதை எவ்வாறு வெளிப்படுத்திக் கொண்டது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "சிங்கத்தைப் போல் கர்ஜிக்க முயன்று கழுதைக் குரலில் கத்தியதால்",
+        "புல் தின்றதால்",
+        "தோல் கழன்று விழுந்ததால்",
+        "சேற்றில் படுத்ததால்"
       ],
+      "answer": "சிங்கத்தைப் போல் கர்ஜிக்க முயன்று கழுதைக் குரலில் கத்தியதால்",
+      "explanation": "கர்ஜனை செய்ய முயன்ற போது அதன் இயல்பான கழுதைக் குரல் வெளிப்பட்டு அதன் சாயம் வெளுத்தது.",
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "கர்ஜனை செய்ய முயன்ற போது அதன் இயல்பான கழுதைக் குரல் வெளிப்பட்டு அதன் சாயம் வெளுத்தது."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "நரி கழுதையைப் பார்த்து என்ன கூறியது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "நீ உண்மையான சிங்கம் என்றது",
+        "வாய் திறக்காமல் இருந்திருந்தால் சிங்கம் என நம்பியிருப்பேன், கத்தல் உண்மையைக் காட்டிவிட்டது என்றது",
+        "என்னைத் தின்றுவிடு என்றது",
+        "ஓடி ஒளிந்தது"
       ],
-      "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "answer": "வாய் திறக்காமல் இருந்திருந்தால் சிங்கம் என நம்பியிருப்பேன், கத்தல் உண்மையைக் காட்டிவிட்டது என்றது",
+      "explanation": "வாய் திறந்து பேசாத வரை சிங்கமாகத் தெரிந்தாலும் கத்திய கணத்தில் உண்மை வெளிப்பட்டுவிட்டது என்று நரி கூறியது.",
+      "answerIndex": 1,
+      "hint": "வாய் திறந்து பேசாத வரை சிங்கமாகத் தெரிந்தாலும் கத்திய கணத்தில் உண்மை வெளிப்பட்டுவிட்டது என்று நரி கூறியது."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "மேய்ச்சல்",
+      "meaning": "கால்நடைகள் புல் மேயும் திறந்தவெளி நிலம் (Pasture / grazing land)"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "கம்பீரமாக",
+      "meaning": "அரச மிடுக்குடனும் பெருமையுடனும் (Majestically / proudly)"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "தலைக்கேறியது.",
+      "meaning": "அளவுக்கு அதிகமாகி மதியை மயக்கியது (Went to its head / intoxicated with pride)"
+    },
+    {
+      "word": "விளாசித்",
+      "meaning": "தடியால் பலமாக அடித்துத் துவைத்தல் (Beating soundly with sticks)"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Ass in the Lion's Skin\"?"
+      "question": "சிங்கத் தோல் போர்த்திய கழுதையைக் கண்டு மேய்ப்பர்களும் விலங்குகளும் எவ்வாறு எதிர்வினையாற்றினர்?",
+      "type": "Remembering"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Wisdom of the ancients\" meaningful in daily life?"
+      "question": "வெளிப்புற வேடங்களால் ஒரு மனிதனின் உள்ளார்ந்த தகுதியை மாற்ற முடியாது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
+      "type": "Understanding"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "question": "சமூகத்தில் தகுதிக்கு மீறிய தற்பெருமை பேசும் மனிதர்களிடம் இக்கதையின் படிப்பினை எவ்வாறு பொருந்துகிறது?",
+      "type": "Applying"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "question": "'ஆள் பாதி ஆடை பாதி' என்ற பழமொழிக்கு இக்கதை முரண்படுகிறதா? காரணங்களுடன் அலசுக.",
+      "type": "Evaluating"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
@@ -125,5 +131,6 @@
   "reviewed": true,
   "source": "Aesop - Public Domain",
   "license": "Public Domain",
-  "credit": "Aesop's Fables Heritage Anthology"
+  "credit": "Aesop's Fables Heritage Anthology",
+  "is_translated": true
 }

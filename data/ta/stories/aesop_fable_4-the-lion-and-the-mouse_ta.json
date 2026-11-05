@@ -26,7 +26,7 @@
   "moral": "நீதி: உருவத்தில் சிறியவர்களையும் எளியவர்களையும் குறைவாக எடைபோடக் கூடாது; உண்மையான கருணைக்கு எப்போதும் நல்ல பலன் உண்டு.",
   "image": "/images/stories/aesop.webp",
   "image_alt": "The Lion and the Mouse illustration from the Aesop's Fables collection.",
-  "word_count": 353,
+  "word_count": 172,
   "reading_time": "3 min",
   "listen_time": "3 min",
   "audio_url": null,
@@ -34,37 +34,43 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What fundamental virtue is highlighted in \"The Lion and the Mouse\"?",
+      "question": "சுண்டெலி உறங்கிக்கொண்டிருந்த சிங்கத்தின் உடலின் மீது ஏன் ஏறியது?",
       "options": [
-        "Little friends may prove great friends.",
-        "Acting in hasty anger without listening",
-        "Trusting deceitful flattery blindly",
-        "Leaving tasks undone"
+        "சிங்கத்தின் உடலை ஒரு சிறு குன்று என்று தவறாக நினைத்து விளையாடியது",
+        "சிங்கத்தை வேண்டும் என்றே எழுப்ப விரும்பியது",
+        "சிங்கத்தின் தோலைத் தின்பதற்காக வந்தது",
+        "மற்ற எலிகளிடம் பந்தயம் கட்டிவிட்டு வந்தது"
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of the story."
+      "hint": "எலி விளையாட்டாகச் செய்த அறியாமைச் செயலை நினைவுகூருங்கள்.",
+      "answer": "சிங்கத்தின் உடலை ஒரு சிறு குன்று என்று தவறாக நினைத்து விளையாடியது",
+      "explanation": "எலி விளையாட்டாகச் செய்த அறியாமைச் செயலை நினைவுகூருங்கள்."
     },
     {
-      "question": "How does the central character approach their challenge?",
+      "question": "சுண்டெலி \"என்றாவது ஒருநாள் நான் உங்களுக்கு உதவுவேன்\" என்று கூறியபோது சிங்கம் என்ன செய்தது?",
       "options": [
-        "Through thoughtful reflection, patience, and presence of mind",
-        "By running away from responsibility",
-        "By shouting loudly and blaming friends",
-        "By ignoring good counsel"
+        "ஏளனமாகச் சிரித்தாலும் இரக்கம் கொண்டு அதை உயிரோடு விடுவித்தது",
+        "கோபமடைந்து உடனே அதை விழுங்கியது",
+        "சுண்டெலியைத் தன் குகைக்குள் சிறைவைத்தது",
+        "மற்ற விலங்குகளை அழைத்து எலியைக் காட்டிக் கொடுத்தது"
       ],
       "answerIndex": 0,
-      "hint": "Consider the virtues praised in timeless fables."
+      "hint": "சிங்கம் எலியின் உருவத்தைக் கண்டு எண்ணிய விதம் மற்றும் அதன் தயவைக் கவனியுங்கள்.",
+      "answer": "ஏளனமாகச் சிரித்தாலும் இரக்கம் கொண்டு அதை உயிரோடு விடுவித்தது",
+      "explanation": "சிங்கம் எலியின் உருவத்தைக் கண்டு எண்ணிய விதம் மற்றும் அதன் தயவைக் கவனியுங்கள்."
     },
     {
-      "question": "What memorable conclusion does this story teach readers?",
+      "question": "வேடனின் வலையில் சிக்கிய சிங்கத்தை எலி எவ்வாறு மீட்டெடுத்தது?",
       "options": [
-        "Patience, honesty, and humility lead to lasting harmony",
-        "False appearances never get discovered",
-        "Greed brings true happiness",
-        "Might is always right"
+        "தன் கூரிய சிறு பற்களால் வலையின் தடித்த கயிறுகளைக் கடித்துத் துண்டித்தது",
+        "காட்டின் மற்ற பெரிய விலங்குகளை உதவிக்கு அழைத்தது",
+        "வேடர்களைக் கடித்துக் காட்டிலிருந்து விரட்டியது",
+        "வலையைத் தன் வாலால் சுருட்டித் தூக்கியது"
       ],
       "answerIndex": 0,
-      "hint": "Think about how justice and truth prevail."
+      "hint": "எலியின் இயற்கையான தனித்திறமை எதுவென்று யோசியுங்கள்.",
+      "answer": "தன் கூரிய சிறு பற்களால் வலையின் தடித்த கயிறுகளைக் கடித்துத் துண்டித்தது",
+      "explanation": "எலியின் இயற்கையான தனித்திறமை எதுவென்று யோசியுங்கள்."
     }
   ],
   "author": "Aesop (~620–564 BCE / Trans. George Fyler Townsend)",
@@ -78,38 +84,38 @@
   "reading_level": "Intermediate",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given after thoughtful consideration"
+      "word": "கர்ஜித்தது",
+      "meaning": "காடு அதிரும்படி சிங்கம் எழுப்பும் கம்பீரமான பயங்கர ஒலி"
     },
     {
-      "word": "integrity",
-      "meaning": "the quality of being honest and having strong moral principles"
+      "word": "கருணை",
+      "meaning": "துன்பப்படுபவர் மீது இரக்கம் காட்டித் தயவு செய்தல்"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and make sound choices in unexpected situations"
+      "word": "துண்டித்தது",
+      "meaning": "கூர்மையான பற்களாலோ ஆயுதத்தாலோ வெட்டித் துண்டாக்குதல்"
+    },
+    {
+      "word": "நன்றியுணர்வைக்",
+      "meaning": "பிறர் செய்த உதவியை என்றும் நினைவில் வைத்துத் திருப்பிச் செய்யும் நற்பண்பு"
     }
   ],
   "discussion_questions": [
     {
-      "tier": "Remember",
-      "prompt": "What central dilemma begins the tale of \"The Lion and the Mouse\"?"
+      "tier": "நினைவுகூருதல்",
+      "prompt": "சிங்கம் எதில் சிக்கிக்கொண்டு தவித்தது?"
     },
     {
-      "tier": "Understand",
-      "prompt": "Why is the moral \"Little friends may prove great friends.\" meaningful in daily life?"
+      "tier": "புரிந்து கொள்ளுதல்",
+      "prompt": "சிங்கத்திற்கு சுண்டெலி எவ்வாறு சமமான நண்பனாக மாறியது?"
     },
     {
-      "tier": "Apply",
-      "prompt": "How could you use the lesson from this story in a disagreement with friends or family?"
+      "tier": "பயன்பாடு",
+      "prompt": "நம்மை விட வயதிலோ அல்லது தோற்றத்திலோ சிறியவர்களிடம் நாம் ஏன் பணிவாகவும் அன்பாகவும் பழக வேண்டும்?"
     },
     {
-      "tier": "Evaluate",
-      "prompt": "Was the character’s resolution fair and beneficial to everyone involved?"
-    },
-    {
-      "tier": "Create",
-      "prompt": "Imagine a creative new ending or a sequel where the characters face a new adventure."
+      "tier": "சிந்தனை",
+      "prompt": "ஆபத்தில் செய்த சிறிய உதவி எவ்வாறு பெரிய நன்மையாகத் திரும்பக் கிடைக்கும்?"
     }
   ],
   "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
