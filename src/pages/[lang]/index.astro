@@ -44,6 +44,39 @@ for (const s of allStories) {
 }
 const collectionList = Object.values(collectionsMap);
 
+const localizedCollectionNames: Record<string, Record<string, string>> = {
+  ta: {
+    "cinderella-stories": "சிண்ட்ரெல்லா உலகக் கதைகள்",
+    "akbar-birbal": "அக்பர்–பீர்பால் கதைகள்",
+    "panchatantra": "பஞ்சதந்திரக் கதைகள்",
+    "tenali-rama": "தெனாலிராமன் கதைகள்",
+    "aesops-fables": "ஈசாப் கதைகள்",
+    "grimm-fairy-tales": "கிரிம் சகோதரர்கள் கதைகள்",
+    "hans-christian-andersen": "ஹான்ஸ் ஆண்டர்சன் கதைகள்",
+    "mulla-nasruddin": "முல்லா நஸ்ருதீன் கதைகள்",
+    "jataka-tales": "ஜாதகக் கதைகள்",
+    "arabian-nights": "ஆயிரத்தொரு இரவுகள்",
+    "paramartha-guru": "பரமார்த்த குரு கதைகள்",
+    "vikram-vetal": "விக்கிரமாதித்தன்–வேதாளம்",
+    "charles-perrault": "சார்லஸ் பெரோ கதைகள்"
+  },
+  hi: {
+    "cinderella-stories": "सिंड्रेला की कहानियाँ",
+    "akbar-birbal": "अकबर–बीरबल की कहानियाँ",
+    "panchatantra": "पंचतंत्र की कहानियाँ",
+    "tenali-rama": "तेनालीराम की कहानियाँ",
+    "aesops-fables": "ईसप की नीतिकथाएँ",
+    "grimm-fairy-tales": "ग्रिम्स की परिकथाएँ",
+    "hans-christian-andersen": "हंस एंडरसन की कहानियाँ",
+    "mulla-nasruddin": "मुल्ला नसरुद्दीन के किस्से",
+    "jataka-tales": "जातक कथाएँ",
+    "arabian-nights": "अलिफ लैला (1001 रातें)",
+    "paramartha-guru": "परमार्थ गुरु की कहानियाँ",
+    "vikram-vetal": "विक्रम और बेताल",
+    "charles-perrault": "चार्ल्स पेरोट की कहानियाँ"
+  }
+};
+
 // Latest stories for grid: prioritize translated stories in non-English editions
 const translatedFirst = currentLang === 'en'
   ? allStories
@@ -173,7 +206,7 @@ const recentStories = translatedFirst.slice(0, 16);
           href="#"
           class="px-4 py-2 rounded-full bg-[#D97706] text-white text-xs font-bold hover:bg-[#B45309] transition-all min-h-[40px] flex items-center"
         >
-          Resume →
+          {currentLang === 'ta' ? 'தொடர்க →' : (currentLang === 'hi' ? 'जारी रखें →' : 'Resume →')}
         </a>
       </div>
     </section>
@@ -183,10 +216,10 @@ const recentStories = translatedFirst.slice(0, 16);
       <div class="flex items-center justify-between">
         <div>
           <h2 class="text-xl sm:text-2xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
-            Explore by Reader / {t.audience}
+            {currentLang === 'ta' ? 'பார்வையாளர்கள் வாரியாக' : (currentLang === 'hi' ? 'पाठक वर्ग अनुसार' : 'Explore by Reader')}
           </h2>
           <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
-            Thoughtfully curated fables, folktales and wisdom for every stage of life
+            {currentLang === 'ta' ? 'அனைத்து வயதினருக்குமான நீதிக்கதைகள் மற்றும் பண்பாட்டு பொக்கிஷங்கள்' : 'Thoughtfully curated fables, folktales and wisdom for every stage of life'}
           </p>
         </div>
       </div>
@@ -203,7 +236,7 @@ const recentStories = translatedFirst.slice(0, 16);
                 {aud.label === 'Everyone' ? t.everyone : (aud.label === 'Kids' ? t.kids : t.teens)}
               </h3>
               <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
-                {aud.id === 'everyone' ? 'Universal wisdom & folktales' : (aud.id === 'kids' ? 'Gentle fables & fun animals' : 'Moral dilemmas & sharp wit')}
+                {aud.id === 'everyone' ? (currentLang === 'ta' ? 'அனைவருக்குமான வாழ்வியல் ஞானம்' : 'Universal wisdom & folktales') : (aud.id === 'kids' ? (currentLang === 'ta' ? 'விலங்குக் கதைகள் மற்றும் சிறுவர் பாலர் கதைகள்' : 'Gentle fables & fun animals') : (currentLang === 'ta' ? 'விவேகமும் சமயோசித புத்தியும்' : 'Moral dilemmas & sharp wit'))}
               </p>
             </div>
           </a>
@@ -220,11 +253,12 @@ const recentStories = translatedFirst.slice(0, 16);
               {t.shortStoriesUnder3Min}
             </h2>
             <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
-              Bite-sized life lessons perfect for a 2-minute tea break or bedtime pause
+              {currentLang === 'ta' ? '2-3 நிமிடங்களில் படித்து மகிழக்கூடிய சுவையான சிறுகதைகள்' : 'Bite-sized life lessons perfect for a 2-minute tea break or bedtime pause'}
             </p>
           </div>
           <a href={`/${currentLang}/search/?length=short`} class="text-xs sm:text-sm font-bold text-[#D97706] hover:underline">
-            View all →
+            {currentLang === 'ta' ? 'அனைத்தும் →' : (currentLang === 'hi' ? 'सभी देखें →' : 'View all →')}
+          </a>
           </a>
         </div>
 
@@ -298,7 +332,7 @@ const recentStories = translatedFirst.slice(0, 16);
                   />
                 </div>
                 <h3 class="text-sm sm:text-base font-black text-[#3B2A1A] dark:text-[#F3EBDD] group-hover:text-[#D97706] transition-colors leading-tight">
-                  {col.name}
+                  {localizedCollectionNames[currentLang]?.[colSlug] || col.name}
                 </h3>
               </div>
               <span class="text-xs font-semibold text-[#0F766E] dark:text-[#2DD4BF] mt-3">

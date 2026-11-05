@@ -26,6 +26,31 @@ export function getStaticPaths() {
     paths.push({ params: { lang: lang.code, page: 'submit' }, props: { view: 'submit' } });
     paths.push({ params: { lang: lang.code, page: 'guide' }, props: { view: 'guide' } });
 
+    // English legacy URL aliases (prevent 404 from external legacy links)
+    if (lang.code === 'en') {
+      const legacyAliases: Record<string, string> = {
+        'en-favorites': '/en/favorites/',
+        'en-submit': '/en/submit/',
+        'en-privacy': '/en/privacy/',
+        'en-about': '/en/about/',
+        'en-terms': '/en/terms/',
+        'en-disclaimer': '/en/disclaimer/',
+        'en-cookies': '/en/privacy/',
+        'en-accessibility': '/en/about/',
+        'en-guidelines': '/en/guide/',
+        'en-parent-guide': '/en/guide/',
+        'en-editorial-policy': '/en/about/',
+        'en-search': '/en/search/',
+        'en-contact': '/en/contact/'
+      };
+      for (const [alias, target] of Object.entries(legacyAliases)) {
+        paths.push({
+          params: { lang: 'en', page: alias },
+          props: { view: 'redirect', redirectTo: target }
+        });
+      }
+    }
+
     for (const key of legalKeys) {
       if (key === 'contact') {
         paths.push({
@@ -65,7 +90,7 @@ export function getStaticPaths() {
 }
 
 const { lang, page } = Astro.params;
-const { view, pageKey, pageData, lastUpdated, disclaimer } = Astro.props;
+const { view, pageKey, pageData, lastUpdated, disclaimer, redirectTo } = Astro.props;
 const currentLang = lang || 'en';
 const t = getT(currentLang);
 
@@ -148,6 +173,20 @@ if (view === 'search') {
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
     
+    <!-- VIEW 0: LEGACY URL REDIRECT -->
+    {view === 'redirect' && (
+      <div class="max-w-md mx-auto text-center py-20 space-y-4">
+        <meta http-equiv="refresh" content={`0;url=${redirectTo}`} />
+        <link rel="canonical" href={`${brandConfig.siteUrl}${redirectTo}`} />
+        <p class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+          Redirecting to <a href={redirectTo} class="text-[#D97706] underline font-bold">{redirectTo}</a>...
+        </p>
+        <script is:inline define:vars={{ redirectTo }}>
+          window.location.replace(redirectTo);
+        </script>
+      </div>
+    )}
+
     <!-- VIEW 1: SEARCH PAGE -->
     {view === 'search' && (
       <div class="space-y-8">

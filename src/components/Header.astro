@@ -92,12 +92,12 @@ const currentLangObj = getLanguageMeta(currentLang);
         <button
           type="button"
           id="mode-toggle-btn"
-          title="Switch between General Mode & School/Classroom Mode"
+          title="Toggle Reading Mode: General (Clean Story) vs School (Activities, Vocabulary & Quizzes)"
           aria-label="Toggle Learning Mode"
           class="px-2.5 sm:px-3 py-1.5 rounded-full border border-[#EEDFC8] dark:border-[#383659] bg-[#FFF8EC] dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1.5 text-xs font-bold shadow-2xs min-h-[38px]"
         >
           <span id="mode-icon" class="text-sm">👁️</span>
-          <span id="mode-text" class="hidden sm:inline font-semibold">General</span>
+          <span id="mode-text" class="hidden sm:inline font-semibold">Mode: General</span>
         </button>
 
         <!-- Compact Night/Day Toggle Button (Reduced text size) -->
@@ -156,12 +156,12 @@ const currentLangObj = getLanguageMeta(currentLang);
       if (modeBtn && modeIcon && modeText) {
         if (mode === 'school') {
           modeIcon.textContent = '🎓';
-          modeText.textContent = 'School';
+          modeText.textContent = 'Mode: School';
           modeBtn.classList.add('border-[#0F766E]', 'bg-[#0F766E]/10', 'text-[#0F766E]', 'dark:text-[#2DD4BF]');
           modeBtn.classList.remove('border-[#EEDFC8]', 'bg-[#FFF8EC]');
         } else {
           modeIcon.textContent = '👁️';
-          modeText.textContent = 'General';
+          modeText.textContent = 'Mode: General';
           modeBtn.classList.remove('border-[#0F766E]', 'bg-[#0F766E]/10', 'text-[#0F766E]', 'dark:text-[#2DD4BF]');
           modeBtn.classList.add('border-[#EEDFC8]', 'bg-[#FFF8EC]');
         }
