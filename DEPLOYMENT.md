@@ -184,4 +184,4 @@ npx wrangler pages deploy dist --project-name=dhinam-oru-kathai
 - [x] **Audio & Transcripts**: Full written text provided for every audio story; screen-reader accessible controls.
 
 ### D. Legal Review Checklist
-> **IMPORTANT NOTICE:** All legal texts in `data/legal/en.json` (About, Contact, Disclaimer, Privacy Policy, Terms of Use, Cookie Notice, Copyright & Takedown, Community Guidelines, Editorial Policy, Parent Guide, Accessibility Statement) are comprehensive operational templates. Prior to public launch, they must be reviewed and customized by a licensed attorney in your operating jurisdiction to ensure total compliance with local laws, including India's DPDP Act 2023, IT Rules 2021, EU GDPR, and US COPPA.
+

@@ -197,6 +197,8 @@ const defaultJsonLd = [
       }
 
       /* In General Mode: Strictly hide moral/life lesson, vocabulary, comprehension quiz, and discussion questions */
+      html:not([data-mode="school"]) .pedagogy-learning-suite,
+      html:not([data-mode="school"]) .school-mode-only,
       html[data-mode="general"] .pedagogy-learning-suite,
       html[data-mode="general"] .school-mode-only {
         display: none !important;
