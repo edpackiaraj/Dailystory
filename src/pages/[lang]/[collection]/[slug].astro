@@ -101,6 +101,7 @@ const jsonLd = [
   canonicalUrl={canonicalUrl}
   ogImage={story.image}
   ogType="article"
+  noindex={lang !== 'en' && !isTranslated}
   articleMeta={{
     publishDate: story.publishDate || '2026-03-25',
     author: story.author || brandConfig.name,
@@ -280,8 +281,8 @@ const jsonLd = [
                   <div class="pt-4 space-y-3 text-sm text-[#6B5644] dark:text-[#C8BFAF]">
                     {story.discussion_questions.map(q => (
                       <div class="p-3 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60">
-                        <span class="text-xs font-bold text-[#D97706] uppercase">{q.tier}:</span>
-                        <p class="mt-0.5 text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">{q.prompt}</p>
+                        <span class="text-xs font-bold text-[#D97706] uppercase">{q.tier || q.type}:</span>
+                        <p class="mt-0.5 text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">{q.prompt || q.question}</p>
                       </div>
                     ))}
                   </div>
