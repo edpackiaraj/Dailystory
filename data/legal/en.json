@@ -48,9 +48,16 @@
         "bio": "22 years in radio broadcasting (AIR, IGNOU FM), 17+ years in Educational Technology / e-Content Development, 250+ invited lectures, 2000+ video lessons, 65+ Interactive Multimedia Packages. Board of Studies member (Bharathidasan University) and Educational Technology Cell member (Tamil Nadu Teachers Education University).",
         "email": "edpackiaraj@gmail.com",
         "phone": "+91 9786424927",
-        "location": "Tamil Nadu, India"
+        "location": "Tamil Nadu, India",
+        "aboutFounder": "With over two decades of experience in educational technology, scriptwriting, instructional audio production, and digital curriculum development, Edward Packiaraj is dedicated to making quality educational resources and digital tools accessible to learners from diverse backgrounds.\n\nHis professional journey includes broadcasting and educational media contributions with All India Radio (AIR), IGNOU GyanVani FM, and the Department of Educational Technology at Bharathidasan University. Drawing on this multidisciplinary experience, he combines communication, instructional design, and emerging technologies to create meaningful and engaging learning experiences.\n\nAs an independent creator and developer, he also designs and develops free digital tools and web-based utilities that help people learn, create, and work more effectively. His focus is on building practical, accessible solutions that reduce barriers to technology and make useful digital resources available to everyone.\n\nA strong advocate of Open Educational Resources (OER), Edward is passionate about harnessing Artificial Intelligence, e-learning, and digital content development to transform education and expand access to knowledge.\n\nHis vision is to build inclusive, learner-centred digital learning environments and freely accessible tools—without paywalls, subscription fees, or intrusive data tracking.\n\nThrough his work, he continues to champion the idea that quality education and useful technology should be open, accessible, engaging, and available to all."
       },
       "sisterProjects": [
+        {
+          "name": "S. Edward Packiaraj — Personal Blog & Portfolio",
+          "url": "https://edwardpackiaraj.blogspot.com/",
+          "tagline": "Consultant – Educational Media Technologies, Trichy",
+          "description": "Personal academic portfolio, invited lectures, educational technology insights, publications, and consultancy services by Dr. S. Edward Packiaraj."
+        },
         {
           "name": "EnglishPesalaam",
           "url": "https://englishpesalaam.blogspot.com/",
@@ -62,6 +69,12 @@
           "url": "https://ncertquizhub.blogspot.com/",
           "tagline": "NCERT-Mapped MCQ Assessment Engine",
           "description": "Interactive multiple-choice practice engine for CBSE Classes 11 & 12, CUET, and UPSC foundation learners across Economics, History, Political Science, and Sociology. Offers Learning Mode with instant rationales and timed Test Simulation Mode."
+        },
+        {
+          "name": "Packiam Web Directory (OER)",
+          "url": "https://packiam.wordpress.com/",
+          "tagline": "6,000+ Curated Open Educational Resources",
+          "description": "A comprehensive, free directory of Open Educational Resources (OER) actively curated since 2008, featuring over 6,000 categorized web links for educators, researchers, and students."
         }
       ],
       "responseCommitment": "We respond to all community inquiries within 24 to 48 hours. Urgent content reports are reviewed by a human moderator within 24 hours.",

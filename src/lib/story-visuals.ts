@@ -28,7 +28,58 @@ export function getStoryVisual(story: {
     kw
   ).toLowerCase();
 
+  const hasWord = (w: string): boolean => {
+    return new RegExp(`(^|[^a-z0-9])${w}([^a-z0-9]|$)`, 'i').test(text);
+  };
+
   // 1. SPECIFIC FAMOUS FABLES & TALES
+  if (text.includes('red riding hood') || text.includes('chaperon rouge') || text.includes('சிவப்புத் தொப்பி')) {
+    return {
+      motif: 'red_riding_hood',
+      icon: '👧 🧣 🐺',
+      theme: 'crimson_rose',
+      bgGradient: 'from-rose-950 via-red-950 to-slate-950',
+      accentColor: '#F43F5E',
+      decorType: 'forest',
+      label: {
+        en: 'Little Red Riding Hood',
+        ta: 'சிவப்புத் தொப்பிச் சிறுமி',
+        hi: 'नन्हीं लाल टोपी'
+      }
+    };
+  }
+
+  if (text.includes('owl') || text.includes('ஆந்தை')) {
+    return {
+      motif: 'wise_owl',
+      icon: '🦉 🌲 🌙',
+      theme: 'starlight_violet',
+      bgGradient: 'from-indigo-950 via-slate-900 to-slate-950',
+      accentColor: '#818CF8',
+      decorType: 'forest',
+      label: {
+        en: 'The Wise Forest Owl',
+        ta: 'விவேகக் காட்டு ஆந்தை',
+        hi: 'बुद्धिमान उल्लू'
+      }
+    };
+  }
+
+  if (text.includes('parrot') || text.includes('கிளி')) {
+    return {
+      motif: 'clever_parrot',
+      icon: '🦜 🌿 🌾',
+      theme: 'emerald_forest',
+      bgGradient: 'from-emerald-950 via-teal-950 to-slate-950',
+      accentColor: '#10B981',
+      decorType: 'forest',
+      label: {
+        en: 'The Wise & Loyal Parrot',
+        ta: 'பேசும் விவேகக் கிளி',
+        hi: 'बुद्धिमान तोता'
+      }
+    };
+  }
   if (text.includes('tortoise') && (text.includes('hare') || text.includes('rabbit'))) {
     return {
       motif: 'tortoise_hare',
@@ -125,7 +176,7 @@ export function getStoryVisual(story: {
     };
   }
 
-  if (text.includes('ant') && (text.includes('grasshopper') || text.includes('cricket'))) {
+  if ((hasWord('ant') || hasWord('ants') || text.includes('எறும்பு')) && (text.includes('grasshopper') || text.includes('cricket') || text.includes('வெட்டுக்கிளி'))) {
     return {
       motif: 'ant_grasshopper',
       icon: '🐜 🌾 🦗',
@@ -334,7 +385,7 @@ export function getStoryVisual(story: {
     };
   }
 
-  if (text.includes('monkey') || text.includes('ape')) {
+  if (text.includes('monkey') || hasWord('ape') || hasWord('apes')) {
     return {
       motif: 'clever_monkey',
       icon: '🐒 🌴 🍌',
@@ -398,7 +449,7 @@ export function getStoryVisual(story: {
     };
   }
 
-  if (text.includes('donkey') || text.includes('ass') || text.includes('mule')) {
+  if (text.includes('donkey') || hasWord('ass') || hasWord('asses') || text.includes('mule')) {
     return {
       motif: 'patient_donkey',
       icon: '🫏 🌾 📦',
@@ -430,7 +481,7 @@ export function getStoryVisual(story: {
     };
   }
 
-  if (text.includes('bull') || text.includes('ox') || text.includes('cow')) {
+  if (text.includes('bull') || hasWord('ox') || hasWord('oxen') || hasWord('cow') || hasWord('cows')) {
     return {
       motif: 'mighty_ox',
       icon: '🐂 🌾 🪵',
@@ -462,7 +513,7 @@ export function getStoryVisual(story: {
     };
   }
 
-  if (text.includes('cat') || text.includes('kitten')) {
+  if (hasWord('cat') || hasWord('cats') || text.includes('kitten')) {
     return {
       motif: 'cunning_cat',
       icon: '🐈 🥛 🐾',
@@ -478,7 +529,7 @@ export function getStoryVisual(story: {
     };
   }
 
-  if (text.includes('mouse') || text.includes('rat') || text.includes('mice')) {
+  if (text.includes('mouse') || hasWord('rat') || hasWord('rats') || text.includes('mice')) {
     return {
       motif: 'tiny_mouse',
       icon: '🐭 🧀 🌾',

@@ -14,12 +14,18 @@ import {
 } from '../../lib/stories';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import StoryIllustration from '../../components/StoryIllustration.astro';
+import AboutView from '../../components/AboutView.astro';
+import ContactView from '../../components/ContactView.astro';
 
 export function getStaticPaths() {
-  const legalKeys = Object.keys(legalData.pages);
   const paths: any[] = [];
 
   for (const lang of brandConfig.supportedLanguages) {
+    const langLegalPath = path.resolve(`./data/legal/${lang.code}.json`);
+    const currentLegalData = fs.existsSync(langLegalPath)
+      ? JSON.parse(fs.readFileSync(langLegalPath, 'utf8'))
+      : legalData;
+    const legalKeys = Object.keys(currentLegalData.pages || legalData.pages);
     // Clean canonical paths (e.g., /en/search/, /en/about/)
     paths.push({ params: { lang: lang.code, page: 'search' }, props: { view: 'search' } });
     paths.push({ params: { lang: lang.code, page: 'favorites' }, props: { view: 'favorites' } });
@@ -59,8 +65,8 @@ export function getStaticPaths() {
           props: {
             view: 'contact',
             pageKey: key,
-            pageData: (legalData.pages as Record<string, any>)[key],
-            lastUpdated: legalData.lastUpdated
+            pageData: ((currentLegalData.pages as Record<string, any>)[key] || (legalData.pages as Record<string, any>)[key]),
+            lastUpdated: (currentLegalData.lastUpdated || legalData.lastUpdated)
           }
         });
       } else if (key === 'about') {
@@ -69,8 +75,8 @@ export function getStaticPaths() {
           props: {
             view: 'about',
             pageKey: key,
-            pageData: (legalData.pages as Record<string, any>)[key],
-            lastUpdated: legalData.lastUpdated
+            pageData: ((currentLegalData.pages as Record<string, any>)[key] || (legalData.pages as Record<string, any>)[key]),
+            lastUpdated: (currentLegalData.lastUpdated || legalData.lastUpdated)
           }
         });
       } else {
@@ -79,8 +85,8 @@ export function getStaticPaths() {
           props: {
             view: 'legal',
             pageKey: key,
-            pageData: (legalData.pages as Record<string, any>)[key],
-            lastUpdated: legalData.lastUpdated
+            pageData: ((currentLegalData.pages as Record<string, any>)[key] || (legalData.pages as Record<string, any>)[key]),
+            lastUpdated: (currentLegalData.lastUpdated || legalData.lastUpdated)
           }
         });
       }
@@ -109,6 +115,41 @@ for (const s of allStories) {
   collectionsMap[s.collection].count++;
 }
 const collectionList = Object.values(collectionsMap);
+
+const localizedCollectionNames: Record<string, Record<string, string>> = {
+  ta: {
+    "cinderella-stories": "சிண்ட்ரெல்லா உலகக் கதைகள்",
+    "akbar-birbal": "அக்பர்–பீர்பால் கதைகள்",
+    "panchatantra": "பஞ்சதந்திரக் கதைகள்",
+    "tenali-rama": "தெனாலிராமன் கதைகள்",
+    "aesop-s-fables": "ஈசாப் நீதிக்கதைகள்",
+    "aesops-fables": "ஈசாப் நீதிக்கதைகள்",
+    "grimm-fairy-tales": "கிரிம் சகோதரர்கள் கதைகள்",
+    "hans-christian-andersen": "ஹான்ஸ் கிறிஸ்டியன் ஆண்டர்சன் கதைகள்",
+    "mulla-nasruddin": "முல்லா நஸ்ருதீன் கதைகள்",
+    "jataka-tales": "ஜாதகக் கதைகள் (புத்தர் நீதிக்கதைகள்)",
+    "arabian-nights": "ஆயிரத்தொரு இரவுகள் (அரேபிய இரவுகள்)",
+    "paramartha-guru": "பரமார்த்த குரு கதைகள் (வீரமாமுனிவர்)",
+    "vikram-vetal": "விக்கிரமாதித்தன்–வேதாளம் கதைகள்",
+    "charles-perrault": "சார்லஸ் பெரோ கதைகள்"
+  },
+  hi: {
+    "cinderella-stories": "सिंड्रेला की कहानियाँ",
+    "akbar-birbal": "अकबर–बीरबल की कहानियाँ",
+    "panchatantra": "पंचतंत्र की कहानियाँ",
+    "tenali-rama": "तेनालीराम की कहानियाँ",
+    "aesop-s-fables": "ईसप की नीतिकथाएँ",
+    "aesops-fables": "ईसप की नीतिकथाएँ",
+    "grimm-fairy-tales": "ग्रिम्स की परिकथाएँ",
+    "hans-christian-andersen": "हंस एंडरसन की कहानियाँ",
+    "mulla-nasruddin": "मुल्ला नसरुद्दीन के किस्से",
+    "jataka-tales": "जातक कथाएँ",
+    "arabian-nights": "अलिफ लैला (1001 रातें)",
+    "paramartha-guru": "परमार्थ गुरु की कहानियाँ",
+    "vikram-vetal": "विक्रम और बेताल",
+    "charles-perrault": "चार्ल्स पेरोट की कहानियाँ"
+  }
+};
 
 // Compact stories for instant client-side search (prioritize translated stories in non-English editions)
 const orderedStories = currentLang === 'en'
@@ -155,11 +196,19 @@ if (view === 'search') {
   pageTitle = `${t.submit} — ${brandConfig.name}`;
   pageDesc = "Submit your original folktale, fable or moral story for global publication.";
 } else if (view === 'contact') {
-  pageTitle = `Contact Dr. S. Edward Packiaraj — ${brandConfig.name}`;
-  pageDesc = "Get in touch with Dr. S. Edward Packiaraj and the Daily Tale team for educational partnerships, classroom materials, sister projects (EnglishPesalaam & NCERT Quiz Hub), or content feedback.";
+  pageTitle = currentLang === 'ta'
+    ? `தொடர்பு கொள்ள — எஸ். எட்வர்ட் பாக்கியராஜ் & Daily Tale`
+    : `Contact Dr. S. Edward Packiaraj — ${brandConfig.name}`;
+  pageDesc = currentLang === 'ta'
+    ? "எஸ். எட்வர்ட் பாக்கியராஜ் மற்றும் Daily Tale ஆசிரியர் குழுவினருடன் தொடர்பு கொள்ளவும். கல்வி ஊடகத் தொழில்நுட்ப ஆலோசகர், ரோசரி இ-சொல்யூஷன்ஸ், திருச்சி."
+    : "Get in touch with Dr. S. Edward Packiaraj and the Daily Tale team for educational partnerships, classroom materials, sister projects (EnglishPesalaam, Packiam OER, NCERT Quiz Hub), or content feedback.";
 } else if (view === 'about') {
-  pageTitle = `About Daily Tale — ${brandConfig.tagline}`;
-  pageDesc = "Learn about Daily Tale, our global multilingual folktale treasury in 8 languages, educational mission, and founder Dr. S. Edward Packiaraj.";
+  pageTitle = currentLang === 'ta'
+    ? `Daily Tale பற்றி — நீதிநெறிக் கதைகளும் பண்பாட்டு மரபுக் கதைகளும்`
+    : `About Daily Tale — ${brandConfig.tagline}`;
+  pageDesc = currentLang === 'ta'
+    ? "Daily Tale தளம், எமது பன்மொழி நாட்டார் கதைப் பேழை, கல்வி நோக்கம் மற்றும் நிறுவனர் எஸ். எட்வர்ட் பாக்கியராஜ் பற்றிய முழு விவரங்கள்."
+    : "Learn about Daily Tale, our global multilingual folktale treasury in 8 languages, educational mission, and founder Dr. S. Edward Packiaraj.";
 } else if (view === 'legal' && pageData) {
   pageTitle = `${pageData.title} — ${brandConfig.name}`;
   pageDesc = pageData.summary || `${pageData.title} for ${brandConfig.name}`;
@@ -362,7 +411,11 @@ if (view === 'search') {
             {t.collections}
           </h1>
           <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF]">
-            Discover the great folklore, wisdom anthologies, courtly riddles, and bedtime stories of world literature.
+            {currentLang === 'ta'
+              ? 'உலகப் புகழ்பெற்ற பண்பாட்டு நாட்டார் கதைகள், நீதிக்கதைகள் மற்றும் நற்பண்புப் புதையல்கள்.'
+              : (currentLang === 'hi'
+                  ? 'विश्व साहित्य की अमर लोककथाएँ, नीतिकथाएँ और ज्ञानवर्धक कहानियाँ।'
+                  : 'Discover the great folklore, wisdom anthologies, courtly riddles, and bedtime stories of world literature.')}
           </p>
         </header>
 
@@ -386,12 +439,14 @@ if (view === 'search') {
                     />
                   </div>
                   <h2 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD] group-hover:text-[#D97706] transition-colors leading-snug">
-                    {col.name}
+                    {localizedCollectionNames[currentLang]?.[colSlug] || col.name}
                   </h2>
                 </div>
                 <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex items-center justify-between text-xs mt-4">
                   <span class="font-bold text-[#0F766E] dark:text-[#2DD4BF]">{col.count} {t.stories}</span>
-                  <span class="font-bold text-[#D97706] group-hover:translate-x-1 transition-transform">Browse →</span>
+                  <span class="font-bold text-[#D97706] group-hover:translate-x-1 transition-transform">
+                    {currentLang === 'ta' ? 'வாசிக்க →' : (currentLang === 'hi' ? 'पढ़ें →' : 'Browse →')}
+                  </span>
                 </div>
               </a>
             );
@@ -538,1269 +593,12 @@ if (view === 'search') {
 
     <!-- VIEW 7: DEDICATED CONTACT & COLLABORATION PAGE -->
     {view === 'contact' && (
-      <div class="max-w-5xl mx-auto space-y-12">
-        <!-- Hero Header -->
-        <header class="text-center space-y-4 max-w-3xl mx-auto">
-          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#D97706]/10 text-[#D97706] text-xs font-black tracking-wide uppercase">
-            <span>📬</span> Direct Communication & Collaboration
-          </div>
-          <h1 class="text-3xl sm:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-tight">
-            Get in Touch with Dr. S. Edward Packiaraj & Daily Tale
-          </h1>
-          <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-            Whether you are an educator seeking classroom materials, a parent sharing feedback, an academic researcher, or exploring partnerships with our educational media initiatives — we welcome your message with open arms.
-          </p>
-        </header>
-
-        <!-- Founder Spotlight Card -->
-        <div class="relative overflow-hidden rounded-3xl bg-linear-to-br from-[#FFF8EC] via-white to-[#FDF4E7] dark:from-[#25243E] dark:via-[#1E1D36] dark:to-[#17162B] border-2 border-[#EEDFC8] dark:border-[#383659] p-6 sm:p-10 shadow-lg">
-          <div class="flex flex-col md:flex-row items-center md:items-start gap-6 sm:gap-8">
-            <!-- Avatar / Icon badge -->
-            <div class="shrink-0 flex flex-col items-center text-center space-y-3">
-              <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-linear-to-br from-[#D97706] to-[#B45309] text-white flex items-center justify-center text-4xl sm:text-5xl shadow-md border-4 border-white dark:border-[#25243E]">
-                🎓
-              </div>
-              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
-                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                Active Responder
-              </span>
-            </div>
-
-            <!-- Founder Bio & Direction -->
-            <div class="space-y-4 text-center md:text-left flex-1">
-              <div>
-                <div class="text-xs font-bold text-[#D97706] tracking-wider uppercase">Founder & Educational Architect</div>
-                <h2 class="text-2xl sm:text-3xl font-black text-[#3B2A1A] dark:text-[#F3EBDD] mt-0.5">
-                  S. Edward Packiaraj
-                </h2>
-                <p class="text-xs sm:text-sm font-semibold text-[#0F766E] dark:text-[#2DD4BF] mt-1">
-                  (M.Com., M.Phil., B.Ed., BLIS., PGDBA., PGDCA.)
-                </p>
-                <p class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mt-0.5">
-                  Consultant – Educational Media Technologies, Rosary e-Solutions, Trichy
-                </p>
-              </div>
-
-              <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                With more than two decades of dedicated service in educational technology, scriptwriting, instructional audio, and digital curriculum design, Dr. Packiaraj has worked to bring quality educational resources to learners across diverse backgrounds. A former broadcaster with <strong>All India Radio (AIR)</strong> and <strong>IGNOU GyanVani FM</strong>, he champions <strong>Open Educational Resources (OER)</strong> — guaranteeing high-impact, ad-free learning environments built entirely without paywalls, subscriptions, or data tracking.
-              </p>
-
-              <!-- Founder Quick Badges -->
-              <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 pt-1 text-xs">
-                <span class="px-3 py-1 rounded-xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">
-                  📍 Tamil Nadu, India
-                </span>
-                <span class="px-3 py-1 rounded-xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">
-                  📻 20+ Yrs Educational Media
-                </span>
-                <span class="px-3 py-1 rounded-xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">
-                  🌐 10-Language OER Ecosystem
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Quick Contact Action Cards (3-column grid) -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
-          <!-- Direct Email Card -->
-          <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm flex flex-col justify-between hover:border-[#D97706] hover:shadow-md transition-all">
-            <div class="space-y-3">
-              <div class="w-12 h-12 rounded-2xl bg-[#D97706]/15 flex items-center justify-center text-2xl text-[#D97706]">
-                ✉️
-              </div>
-              <h3 class="font-black text-lg text-[#3B2A1A] dark:text-[#F3EBDD]">Direct Email</h3>
-              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                For research inquiries, school collaborations, content suggestions, or media interviews.
-              </p>
-              <div class="font-mono text-sm font-bold text-[#D97706] break-all">
-                edpackiaraj@gmail.com
-              </div>
-            </div>
-            <div class="pt-5 mt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
-              <a
-                href="mailto:edpackiaraj@gmail.com?subject=Inquiry%20from%20Daily%20Tale%20Reader"
-                class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl bg-[#D97706] text-white font-bold text-xs shadow hover:bg-[#B45309] transition-all"
-              >
-                Send Direct Email →
-              </a>
-            </div>
-          </div>
-
-          <!-- WhatsApp & Phone Card -->
-          <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm flex flex-col justify-between hover:border-emerald-500 hover:shadow-md transition-all">
-            <div class="space-y-3">
-              <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 flex items-center justify-center text-2xl text-emerald-600">
-                💬
-              </div>
-              <h3 class="font-black text-lg text-[#3B2A1A] dark:text-[#F3EBDD]">WhatsApp & Phone</h3>
-              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                Instant messaging for teachers, educators, and rapid academic queries. Mon–Sat (IST).
-              </p>
-              <div class="font-mono text-sm font-bold text-emerald-700 dark:text-emerald-400">
-                +91 9786424927
-              </div>
-            </div>
-            <div class="pt-5 mt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex gap-2">
-              <a
-                href="https://wa.me/919786424927?text=Hello%20Dr.%20Edward%2C%20I%20am%20reaching%20out%20via%20Daily%20Tale"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center justify-center flex-1 py-2.5 px-3 rounded-xl bg-emerald-600 text-white font-bold text-xs shadow hover:bg-emerald-700 transition-all"
-              >
-                WhatsApp ↗
-              </a>
-              <a
-                href="tel:+919786424927"
-                class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl border border-emerald-600 text-emerald-700 dark:text-emerald-400 font-bold text-xs hover:bg-emerald-50 dark:hover:bg-[#1E1D36] transition-all"
-              >
-                Call
-              </a>
-            </div>
-          </div>
-
-          <!-- Turnaround & Grievance Card -->
-          <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm flex flex-col justify-between hover:border-[#0F766E] hover:shadow-md transition-all">
-            <div class="space-y-3">
-              <div class="w-12 h-12 rounded-2xl bg-[#0F766E]/15 flex items-center justify-center text-2xl text-[#0F766E]">
-                🛡️
-              </div>
-              <h3 class="font-black text-lg text-[#3B2A1A] dark:text-[#F3EBDD]">Statutory Grievance</h3>
-              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                Dedicated desk for child safety, copyright remarks, content verification, and data queries.
-              </p>
-              <div class="text-xs text-[#0F766E] dark:text-[#2DD4BF] font-semibold space-y-1">
-                <div>⚡ Turnaround: 24 to 48 hours</div>
-                <div>👤 Officer: Dr. S. Edward Packiaraj</div>
-              </div>
-            </div>
-            <div class="pt-5 mt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
-              <a
-                href="mailto:edpackiaraj@gmail.com?subject=Statutory%20Grievance%20Notice%20-%20Daily%20Tale"
-                class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl border border-[#0F766E] text-[#0F766E] dark:text-[#2DD4BF] font-bold text-xs hover:bg-[#0F766E]/10 transition-all"
-              >
-                File Grievance Notice →
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Educational Ecosystem / Sister Projects Showcase -->
-        <div class="space-y-6 pt-4">
-          <div class="text-center space-y-2">
-            <span class="text-xs font-black uppercase tracking-wider text-[#D97706]">Our Open Educational Ecosystem</span>
-            <h2 class="text-2xl sm:text-3xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-              Explore Our Sister Learning Platforms
-            </h2>
-            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] max-w-2xl mx-auto">
-              S. Edward Packiaraj designs and curates interconnected, 100% free educational and spiritual initiatives serving students, teachers, and seekers worldwide.
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- EnglishPesalaam Card -->
-            <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-xl transition-all flex flex-col justify-between space-y-5">
-              <div class="space-y-3">
-                <div class="flex items-center justify-between">
-                  <span class="px-3 py-1 rounded-full bg-blue-500/15 text-blue-700 dark:text-blue-400 font-bold text-xs">
-                    🗣️ Spoken English & ESL
-                  </span>
-                  <span class="text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">100% Free OER</span>
-                </div>
-                <h3 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  EnglishPesalaam
-                </h3>
-                <p class="text-xs font-bold text-[#D97706]">
-                  Real-World Conversational English & Pronunciation Lab
-                </p>
-                <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Tailored for ESL learners, college students, and professionals aiming to speak fluent, confident English. Features 180+ situational dialogues (interviews, travel, meetings, daily banter), multi-accent audio listening modules, 2,100+ diagnostic quizzes, and 24/7 conversational practice.
-                </p>
-                <!-- Feature Pills -->
-                <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#6B5644] dark:text-[#C8BFAF]">
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">180+ Scenarios</span>
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">2,100+ Quizzes</span>
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Audio Immersion</span>
-                </div>
-              </div>
-              <div class="pt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
-                <a
-                  href="https://englishpesalaam.blogspot.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center justify-between w-full py-3 px-5 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm shadow transition-all"
-                >
-                  <span>Visit EnglishPesalaam</span>
-                  <span>↗</span>
-                </a>
-              </div>
-            </div>
-
-            <!-- Everyday Bread Card -->
-            <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-xl transition-all flex flex-col justify-between space-y-5">
-              <div class="space-y-3">
-                <div class="flex items-center justify-between">
-                  <span class="px-3 py-1 rounded-full bg-amber-500/15 text-[#D97706] dark:text-[#F59E0B] font-bold text-xs">
-                    🍞 Spiritual Reflections &amp; Faith
-                  </span>
-                  <span class="text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">100% Free OER</span>
-                </div>
-                <h3 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  Everyday Bread
-                </h3>
-                <p class="text-xs font-bold text-[#D97706]">
-                  Daily Spiritual Reflections &amp; Bread of Life
-                </p>
-                <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Daily spiritual reflections, inspirational bread of life, and uplifting devotional messages for personal faith, spiritual strength, hope, and daily encouragement.
-                </p>
-                <!-- Feature Pills -->
-                <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#6B5644] dark:text-[#C8BFAF]">
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Daily Reflections</span>
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Faith &amp; Hope</span>
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Inspiration</span>
-                </div>
-              </div>
-              <div class="pt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
-                <a
-                  href="https://everydaybread.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center justify-between w-full py-3 px-5 rounded-2xl bg-[#D97706] hover:bg-[#B45309] text-white font-bold text-xs sm:text-sm shadow transition-all"
-                >
-                  <span>Visit Everyday Bread</span>
-                  <span>↗</span>
-                </a>
-              </div>
-            </div>
-
-            <!-- Vinganam Card -->
-            <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-xl transition-all flex flex-col justify-between space-y-5">
-              <div class="space-y-3">
-                <div class="flex items-center justify-between">
-                  <span class="px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
-                    🔬 Science, Culture &amp; AI Tools
-                  </span>
-                  <span class="text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">100% Free OER</span>
-                </div>
-                <h3 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  Vinganam
-                </h3>
-                <p class="text-xs font-bold text-emerald-600 dark:text-emerald-400">
-                  Science Articles, Free Tools &amp; Packiam AI Suite
-                </p>
-                <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Bilingual blog blending science, Tamil culture, and educational technology. Covers scientific mysteries, ancient Siddhar knowledge, and the 11-tool Packiam AI Suite for teachers.
-                </p>
-                <!-- Feature Pills -->
-                <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#6B5644] dark:text-[#C8BFAF]">
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">11 Free AI Tools</span>
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Tamil Culture &amp; Siddhar</span>
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Science Articles</span>
-                </div>
-              </div>
-              <div class="pt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
-                <a
-                  href="https://vinganam.blogspot.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center justify-between w-full py-3 px-5 rounded-2xl bg-[#0F766E] hover:bg-[#115E59] text-white font-bold text-xs sm:text-sm shadow transition-all"
-                >
-                  <span>Visit Vinganam</span>
-                  <span>↗</span>
-                </a>
-              </div>
-            </div>
-            <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] hover:border-[#0F766E] hover:shadow-xl transition-all flex flex-col justify-between space-y-5">
-              <div class="space-y-3">
-                <div class="flex items-center justify-between">
-                  <span class="px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
-                    📝 CBSE, CUET & UPSC
-                  </span>
-                  <span class="text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">100% Free OER</span>
-                </div>
-                <h3 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  NCERT Quiz Hub
-                </h3>
-                <p class="text-xs font-bold text-[#0F766E] dark:text-[#2DD4BF]">
-                  Chapter-Wise Interactive MCQ Engine for Classes 11 & 12
-                </p>
-                <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Mapped directly to NCERT textbooks for Economics (Micro, Macro, Indian Economy), Political Science, History, and Sociology. Offers interactive Learning Mode with instant explanatory rationales and full timed Test Simulation Mode for CBSE Boards, CUET entrance, and civil services foundation.
-                </p>
-                <!-- Feature Pills -->
-                <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#6B5644] dark:text-[#C8BFAF]">
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Economics & Polity</span>
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Instant Rationales</span>
-                  <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Exam Simulation</span>
-                </div>
-              </div>
-              <div class="pt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
-                <a
-                  href="https://ncertquizhub.blogspot.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center justify-between w-full py-3 px-5 rounded-2xl bg-[#0F766E] hover:bg-[#115E59] text-white font-bold text-xs sm:text-sm shadow transition-all"
-                >
-                  <span>Visit NCERT Quiz Hub</span>
-                  <span>↗</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Interactive Contact Form -->
-        <div class="p-6 sm:p-10 rounded-3xl bg-white dark:bg-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] shadow-md space-y-6">
-          <div class="space-y-2 border-b border-[#EEDFC8] dark:border-[#383659] pb-4">
-            <h2 class="text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-              Send an Instant Message or Collaboration Proposal
-            </h2>
-            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
-              Fill out the form below. Your message will be formatted and opened in your email client or dispatched directly to Dr. Edward's editorial inbox.
-            </p>
-          </div>
-
-          <form id="contact-inquiry-form" class="space-y-5 text-xs sm:text-sm">
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label for="contact-name" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
-                  Your Full Name <span class="text-red-500">*</span>
-                </label>
-                <input
-                  id="contact-name"
-                  type="text"
-                  required
-                  placeholder="e.g., Prof. Sarah Jenkins / Rajesh Kumar"
-                  class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none"
-                />
-              </div>
-
-              <div>
-                <label for="contact-email" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
-                  Your Email Address <span class="text-red-500">*</span>
-                </label>
-                <input
-                  id="contact-email"
-                  type="email"
-                  required
-                  placeholder="e.g., sarah@university.edu"
-                  class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none"
-                />
-              </div>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label for="contact-topic" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
-                  Nature of Inquiry <span class="text-red-500">*</span>
-                </label>
-                <select
-                  id="contact-topic"
-                  required
-                  class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none font-medium"
-                >
-                  <option value="School / Classroom Collaboration">Teacher / School & Classroom Collaboration</option>
-                  <option value="Educational Technology & OER Research">Educational Technology & OER Research</option>
-                  <option value="Folktale Retelling or Story Contribution">Folktale Retelling or Story Contribution</option>
-                  <option value="Translation Refinement & Linguistic Feedback">Translation Refinement & Linguistic Feedback</option>
-                  <option value="EnglishPesalaam Inquiries">EnglishPesalaam Collaboration</option>
-                  <option value="NCERT Quiz Hub Inquiries">NCERT Quiz Hub Collaboration</option>
-                  <option value="Statutory Grievance & Content Safety">Statutory Grievance & Content Safety</option>
-                  <option value="General Feedback & Reader Greeting">General Feedback & Reader Greeting</option>
-                </select>
-              </div>
-
-              <div>
-                <label for="contact-phone" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
-                  WhatsApp / Phone Number <span class="text-xs font-normal text-[#6B5644] dark:text-[#C8BFAF]">(Optional)</span>
-                </label>
-                <input
-                  id="contact-phone"
-                  type="text"
-                  placeholder="e.g., +91 98765 43210"
-                  class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none"
-                />
-              </div>
-            </div>
-
-            <div>
-              <label for="contact-subject" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
-                Subject Line <span class="text-red-500">*</span>
-              </label>
-              <input
-                id="contact-subject"
-                type="text"
-                required
-                placeholder="Brief summary of your inquiry or proposal"
-                class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none"
-              />
-            </div>
-
-            <div>
-              <label for="contact-message" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
-                Your Detailed Message <span class="text-red-500">*</span>
-              </label>
-              <textarea
-                id="contact-message"
-                rows="6"
-                required
-                placeholder="Please describe how we can assist you, provide classroom details, or elaborate on your feedback..."
-                class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none leading-relaxed"
-              ></textarea>
-            </div>
-
-            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
-              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
-                🔒 We respect privacy. Your email is never shared, tracked, or monetized.
-              </p>
-              <button
-                type="submit"
-                class="w-full sm:w-auto px-8 py-4 rounded-full bg-[#D97706] hover:bg-[#B45309] text-white font-black text-sm shadow-md transition-all min-h-[48px] flex items-center justify-center gap-2"
-              >
-                <span>Dispatch Message</span>
-                <span>→</span>
-              </button>
-            </div>
-          </form>
-
-          <div id="contact-status-msg" class="hidden p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-800 dark:text-emerald-300 text-xs sm:text-sm font-semibold">
-          </div>
-        </div>
-
-        <!-- FAQ / Common Queries -->
-        <div class="space-y-4 pt-2">
-          <h2 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-            Frequently Asked Collaboration Questions
-          </h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
-            <div class="p-5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] space-y-2">
-              <h3 class="font-bold text-[#D97706]">May teachers and schools use Daily Tale stories for free?</h3>
-              <p class="text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                Yes, absolutely! All stories, Bloom's Taxonomy reflection questions, and printable moral summaries are free for non-commercial educational and classroom use worldwide.
-              </p>
-            </div>
-            <div class="p-5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] space-y-2">
-              <h3 class="font-bold text-[#D97706]">Can I contribute regional folktales or suggest corrections?</h3>
-              <p class="text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                We actively welcome contributions of authentic regional folklore retellings and cultural suggestions. Use our form above or submit via our Story Submission page.
-              </p>
-            </div>
-            <div class="p-5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] space-y-2">
-              <h3 class="font-bold text-[#D97706]">How can students access EnglishPesalaam and NCERT Quiz Hub?</h3>
-              <p class="text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                Both portals are 100% web-accessible without logins or paywalls. Students can directly visit <code>englishpesalaam.blogspot.com</code> for English speaking practice and <code>ncertquizhub.blogspot.com</code> for CBSE MCQs.
-              </p>
-            </div>
-            <div class="p-5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] space-y-2">
-              <h3 class="font-bold text-[#D97706]">What is the response turnaround for grievance notices?</h3>
-              <p class="text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                All statutory grievance or copyright notifications receive formal human acknowledgment within 24 hours and a detailed resolution within 15 working days.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ContactView currentLang={currentLang} />
     )}
 
     <!-- VIEW: DEDICATED ABOUT PAGE -->
     {view === 'about' && (
-      <div class="max-w-5xl mx-auto space-y-12">
-        <!-- Hero Header -->
-        <header class="text-center space-y-4 max-w-3xl mx-auto">
-          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#D97706]/10 text-[#D97706] text-xs font-black tracking-wide uppercase">
-            <span>🦉</span> World Wisdom &amp; Folklore Sanctuary
-          </div>
-          <h1 class="text-3xl sm:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-tight">
-            About Daily Tale
-          </h1>
-          <p class="text-base sm:text-lg font-bold text-[#D97706]">
-            Daily Tale – Moral Stories &amp; Interesting Folktales
-          </p>
-          <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-            Daily Tale is a multilingual digital storytelling sanctuary dedicated to nourishing character, imagination, and empathy through timeless folktales, fables, and heritage wisdom from world cultures.
-          </p>
-        </header>
-
-        <!-- Grouped Feature Cards Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <!-- Feature 1: Multilingual Story Treasury -->
-          <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-[#D97706]/15 flex items-center justify-center text-2xl text-[#D97706]">
-              📚
-            </div>
-            <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Multilingual Folklore Treasury</h2>
-            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-              We bring together over 2,448 curated stories across 8 languages: English, Tamil, Hindi, Telugu, Malayalam, Kannada, Marathi, and Chinese. Our collections span Akbar–Birbal, Tenali Rama, Panchatantra, Aesop's Fables, Jataka Tales, Hans Christian Andersen, Brothers Grimm, Arabian Nights, and cultural folklore from across Asia, Africa, Europe, and the Americas.
-            </p>
-            <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#0F766E] dark:text-[#2DD4BF]">
-              <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">2,448+ Stories</span>
-              <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">8 World Languages</span>
-              <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">13 Major Traditions</span>
-            </div>
-          </div>
-
-          <!-- Feature 2: Audio & Adaptive Reading Toolbar -->
-          <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-blue-500/15 flex items-center justify-center text-2xl text-blue-600">
-              🎧
-            </div>
-            <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Audio &amp; Adaptive Reading Toolbar</h2>
-            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-              Our platform offers browser-native read-aloud audio narration powered by text-to-speech, complete with adjustable playback speed (0.8x to 1.5x) and sentence-by-sentence reading assistance. To ensure maximum accessibility for neurodivergent and young readers, our reading toolbar features specialized typography controls including the OpenDyslexic typeface, custom font sizing, fluid line-height adjustment, and night/sepia reading themes.
-            </p>
-            <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-blue-700 dark:text-blue-400">
-              <span class="px-2.5 py-1 rounded-lg bg-blue-500/10">Browser-Native TTS</span>
-              <span class="px-2.5 py-1 rounded-lg bg-blue-500/10">OpenDyslexic Font</span>
-              <span class="px-2.5 py-1 rounded-lg bg-blue-500/10">0.8x–1.5x Speed</span>
-            </div>
-          </div>
-
-          <!-- Feature 3: Structured Pedagogical Depth -->
-          <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-purple-500/15 flex items-center justify-center text-2xl text-purple-600">
-              🎓
-            </div>
-            <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Structured Pedagogical Depth</h2>
-            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-              To support parents, educators, and language learners, every story is enriched with structured pedagogical resources: Bloom's Taxonomy discussion questions (spanning Remember, Understand, Apply, Analyze, Evaluate, and Create levels), curated in-text vocabulary glossaries with exact definitions, and interactive comprehension quizzes that cultivate critical thinking and family dialogue.
-            </p>
-            <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-purple-700 dark:text-purple-400">
-              <span class="px-2.5 py-1 rounded-lg bg-purple-500/10">Bloom's Taxonomy</span>
-              <span class="px-2.5 py-1 rounded-lg bg-purple-500/10">In-Text Glossaries</span>
-              <span class="px-2.5 py-1 rounded-lg bg-purple-500/10">Comprehension Quizzes</span>
-            </div>
-          </div>
-
-          <!-- Feature 4: Classroom & Community-Ready Resources -->
-          <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 flex items-center justify-center text-2xl text-emerald-600">
-              🏫
-            </div>
-            <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">Classroom &amp; Community Resources</h2>
-            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-              Daily Tale provides ready-to-share educational tools, including exportable 'Moral of the Day' cards, reading milestone certificates, printable story summaries, and seamless one-click sharing via WhatsApp, Telegram, and email for home, community, and classroom reflection.
-            </p>
-            <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-emerald-700 dark:text-emerald-400">
-              <span class="px-2.5 py-1 rounded-lg bg-emerald-500/10">Exportable Cards</span>
-              <span class="px-2.5 py-1 rounded-lg bg-emerald-500/10">Printable Summaries</span>
-              <span class="px-2.5 py-1 rounded-lg bg-emerald-500/10">One-Click Sharing</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Privacy & PWA Commitment Banner -->
-        <div class="p-6 sm:p-8 rounded-3xl bg-linear-to-r from-[#FFF8EC] to-amber-500/10 dark:from-[#25243E] dark:to-[#1E1D36] border-2 border-[#EEDFC8] dark:border-[#383659] flex flex-col md:flex-row items-center justify-between gap-6">
-          <div class="space-y-2 text-center md:text-left">
-            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
-              <span>🔒</span> 100% Free, Safe &amp; Privacy-First
-            </div>
-            <h2 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-              Lightweight PWA &amp; Zero Tracking Commitment
-            </h2>
-            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] max-w-2xl leading-relaxed">
-              Built with ultra-lightweight Progressive Web App technology and browser-native audio capabilities, Daily Tale is engineered for instant offline reading and minimal server dependency. Our commitment to children, families, and classrooms is absolute: 100% free, 100% ad-free, zero tracking, and zero user registration.
-            </p>
-          </div>
-          <div class="shrink-0 flex items-center gap-3 text-xs font-bold text-[#D97706]">
-            <span class="px-3 py-2 rounded-xl bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Zero Ads</span>
-            <span class="px-3 py-2 rounded-xl bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Zero Logins</span>
-            <span class="px-3 py-2 rounded-xl bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Offline PWA</span>
-          </div>
-        </div>
-
-        <!-- Our Mission Card -->
-        <div class="p-8 sm:p-10 rounded-3xl bg-[#D97706]/10 dark:bg-[#D97706]/15 border-2 border-[#D97706]/40 text-center space-y-3">
-          <span class="text-3xl">⭐</span>
-          <h2 class="text-2xl sm:text-3xl font-black text-[#D97706] dark:text-[#F59E0B]">
-            Our Mission
-          </h2>
-          <p class="text-base sm:text-lg font-medium text-[#3B2A1A] dark:text-[#F3EBDD] max-w-3xl mx-auto leading-relaxed">
-            "To make timeless moral wisdom, character values, and world folklore freely accessible, understandable, and inspiring every day, supporting families, educators, and language learners in growing together in empathy and global literacy."
-          </p>
-        </div>
-
-        <!-- SECTION: About Me — Edward Packiaraj -->
-        <section id="about-me" class="relative overflow-hidden rounded-3xl bg-linear-to-br from-[#FFF8EC] via-white to-[#FDF4E7] dark:from-[#25243E] dark:via-[#1E1D36] dark:to-[#17162B] border-2 border-[#EEDFC8] dark:border-[#383659] p-6 sm:p-10 shadow-lg space-y-8">
-          <div class="flex flex-col md:flex-row items-center md:items-start gap-6 sm:gap-8">
-            <div class="shrink-0 flex flex-col items-center text-center space-y-3">
-              <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-linear-to-br from-[#D97706] to-[#B45309] text-white flex items-center justify-center text-4xl sm:text-5xl shadow-md border-4 border-white dark:border-[#25243E]">
-                🎓
-              </div>
-              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
-                OER Pioneer
-              </span>
-            </div>
-
-            <div class="space-y-4 text-center md:text-left flex-1">
-              <div>
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] text-xs font-black uppercase tracking-wider mb-2">
-                  Founder &amp; Educational Architect
-                </div>
-                <h2 class="text-2xl sm:text-4xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  About Me — <a href="https://edwardpackiaraj.blogspot.com/" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706] underline decoration-[#D97706]/50">S. Edward Packiaraj</a>
-                </h2>
-                <p class="text-xs sm:text-sm font-semibold text-[#0F766E] dark:text-[#2DD4BF] mt-1">
-                  (M.Com., M.Phil., B.Ed., BLIS., PGDBA., PGDCA.)
-                </p>
-                <p class="text-sm sm:text-base font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mt-1">
-                  Consultant – Educational Media Technologies, Rosary e-Solutions, Trichy
-                </p>
-              </div>
-
-              <!-- Key Credentials & Milestone Badges -->
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs">
-                <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
-                  <span class="text-2xl">📻</span>
-                  <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]"><strong>22 years</strong> of experience in radio broadcasting (All India Radio, IGNOU FM, among others)</span>
-                </div>
-                <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
-                  <span class="text-2xl">💻</span>
-                  <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]"><strong>17+ years</strong> of experience in Educational Technology / e-Content Development</span>
-                </div>
-                <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
-                  <span class="text-2xl">🌍</span>
-                  <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]"><strong>250+ invited lectures</strong> delivered (including 9 international and 60 national events)</span>
-                </div>
-                <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
-                  <span class="text-2xl">📹</span>
-                  <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]">Creator of <strong>2000+ educational video lessons</strong> &amp; <strong>65+ Interactive Multimedia</strong> Packages</span>
-                </div>
-                <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
-                  <span class="text-2xl">🏛️</span>
-                  <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]"><strong>Board of Studies member</strong> – Centre for Distance Education, Bharathidasan University, Trichy</span>
-                </div>
-                <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
-                  <span class="text-2xl">🏫</span>
-                  <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]"><strong>Educational Technology Cell member</strong> – Tamil Nadu Teachers Education University, Chennai</span>
-                </div>
-              </div>
-
-              <!-- Biography & Core Philosophy -->
-              <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed pt-2">
-                With a strong interest in educational technology, web design, and AI-powered tools, Edward runs this platform on the belief that <strong>everyone deserves access to everything — learning shouldn't be locked behind a paywall</strong>. Under his foundational philosophy <em>"Learn More! Teach More!"</em>, he creates ad-free, accessible, and distraction-free open educational ecosystems.
-              </p>
-
-              <div class="pt-2">
-                <a
-                  href="https://edwardpackiaraj.blogspot.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#D97706] hover:bg-[#B45309] text-white font-bold text-xs shadow transition-all"
-                >
-                  <span>View Full Profile &amp; Resume</span>
-                  <span>↗</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- SECTION: Services Offered -->
-        <section class="space-y-6">
-          <div class="text-center max-w-2xl mx-auto space-y-2">
-            <h2 class="text-2xl sm:text-3xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
-              Services Offered
-            </h2>
-            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
-              For those looking for personal consultation, institutional workshops, or bespoke technical training, the following services are available:
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <!-- Service 1 -->
-            <div class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-2">
-              <div class="w-10 h-10 rounded-xl bg-blue-500/15 text-blue-600 flex items-center justify-center text-xl">
-                📦
-              </div>
-              <h3 class="font-black text-base text-[#3B2A1A] dark:text-[#F3EBDD]">e-Content Development</h3>
-              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                Interactive Self-Learning Packages (SLPs), SCORM packages, multimedia lesson creation, and digital textbook authoring.
-              </p>
-            </div>
-
-            <!-- Service 2 -->
-            <div class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-2">
-              <div class="w-10 h-10 rounded-xl bg-purple-500/15 text-purple-600 flex items-center justify-center text-xl">
-                💻
-              </div>
-              <h3 class="font-black text-base text-[#3B2A1A] dark:text-[#F3EBDD]">Blog &amp; Web Creation</h3>
-              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                Custom-designed educational portals, OER directories, and high-performance blogs built to your exact specifications.
-              </p>
-            </div>
-
-            <!-- Service 3 -->
-            <div class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-2">
-              <div class="w-10 h-10 rounded-xl bg-rose-500/15 text-rose-600 flex items-center justify-center text-xl">
-                🎵
-              </div>
-              <h3 class="font-black text-base text-[#3B2A1A] dark:text-[#F3EBDD]">Songwriting &amp; Music Production</h3>
-              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                Lyric writing, melody composing, instructional audio drama, voice-overs, and full audio recording &amp; mixing.
-              </p>
-            </div>
-
-            <!-- Service 4 -->
-            <div class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-2">
-              <div class="w-10 h-10 rounded-xl bg-emerald-500/15 text-emerald-600 flex items-center justify-center text-xl">
-                ⚙️
-              </div>
-              <h3 class="font-black text-base text-[#3B2A1A] dark:text-[#F3EBDD]">Software Development</h3>
-              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                Small web tools, quiz engines, AI-integrated educational utilities, and custom applications built to spec.
-              </p>
-            </div>
-
-            <!-- Service 5 -->
-            <div class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-2 sm:col-span-2 lg:col-span-2">
-              <div class="w-10 h-10 rounded-xl bg-amber-500/15 text-amber-600 flex items-center justify-center text-xl">
-                🧑‍🏫
-              </div>
-              <h3 class="font-black text-base text-[#3B2A1A] dark:text-[#F3EBDD]">Consulting &amp; Training</h3>
-              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                Faculty development programs (FDPs), workshops for colleges and universities on free web resources, prompt engineering, generative AI tools, and e-content development methodologies.
-              </p>
-            </div>
-          </div>
-
-          <div class="text-center pt-2">
-            <a
-              href="#contact-info"
-              class="inline-flex items-center gap-2 text-xs font-bold text-[#D97706] hover:underline"
-            >
-              <span>For any of the above services, reach out using the contact details below</span>
-              <span>↓</span>
-            </a>
-          </div>
-        </section>
-
-        <!-- SECTION: My Other Sites & Free Tools -->
-        <section class="space-y-6">
-          <div class="text-center max-w-2xl mx-auto space-y-2">
-            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#0F766E]/10 text-[#0F766E] dark:text-[#2DD4BF] text-xs font-bold uppercase tracking-wider">
-              "Learn More! Teach More!"
-            </div>
-            <h2 class="text-2xl sm:text-3xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
-              My Other Sites &amp; Free Platforms
-            </h2>
-            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
-              Under the same philosophy, several other free platforms have been built for students, teachers, and lifelong learners. Feel free to explore:
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            
-            <!-- Everyday Bread -->
-            <a
-              href="https://everydaybread.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="p-5 rounded-3xl bg-linear-to-br from-amber-500/10 via-white to-amber-100/30 dark:from-[#25243E] dark:via-[#1B1A2E] dark:to-[#25243E] border-2 border-amber-400/40 hover:border-[#D97706] hover:shadow-md transition-all flex flex-col justify-between group"
-            >
-              <div class="space-y-2">
-                <div class="flex items-center justify-between text-xs font-black text-[#D97706]">
-                  <span class="flex items-center gap-1.5">🍞 Everyday Bread</span>
-                  <span class="group-hover:translate-x-1 transition-transform">↗</span>
-                </div>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Daily spiritual reflections, inspirational bread of life, and uplifting messages for faith, spiritual strength, and daily encouragement.
-                </p>
-              </div>
-              <span class="text-[11px] font-bold text-[#D97706] mt-3 inline-block">everydaybread.netlify.app</span>
-            </a>
-
-            <!-- Vinganam -->
-            <a
-              href="https://vinganam.blogspot.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-emerald-500 hover:shadow-md transition-all flex flex-col justify-between group"
-            >
-              <div class="space-y-2">
-                <div class="flex items-center justify-between text-xs font-black text-emerald-600 dark:text-emerald-400">
-                  <span class="flex items-center gap-1.5">🔬 Vinganam</span>
-                  <span class="group-hover:translate-x-1 transition-transform">↗</span>
-                </div>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Science Articles, Free Tools, Presentations. A bilingual blog blending science, Tamil culture, and educational technology, covering ancient Siddhar knowledge and AI tools.
-                </p>
-              </div>
-              <span class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 mt-3 inline-block">vinganam.blogspot.com</span>
-            </a>
-
-            <!-- EnglishPesalaam -->
-            <a
-              href="https://englishpesalaam.blogspot.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-blue-500 hover:shadow-md transition-all flex flex-col justify-between group"
-            >
-              <div class="space-y-2">
-                <div class="flex items-center justify-between text-xs font-black text-blue-600 dark:text-blue-400">
-                  <span class="flex items-center gap-1.5">🗣️ EnglishPesalaam</span>
-                  <span class="group-hover:translate-x-1 transition-transform">↗</span>
-                </div>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Free conversational English &amp; pronunciation lab featuring 180+ real-life scenarios, multi-accent listening, 2,100+ quizzes, and 24/7 AI practice.
-                </p>
-              </div>
-              <span class="text-[11px] font-bold text-blue-600 dark:text-blue-400 mt-3 inline-block">englishpesalaam.blogspot.com</span>
-            </a>
-
-            <!-- Packiam Web Directory (OER) -->
-            <a
-              href="https://packiam.wordpress.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-purple-500 hover:shadow-md transition-all flex flex-col justify-between group"
-            >
-              <div class="space-y-2">
-                <div class="flex items-center justify-between text-xs font-black text-purple-600 dark:text-purple-400">
-                  <span class="flex items-center gap-1.5">📚 Packiam Web Directory (OER)</span>
-                  <span class="group-hover:translate-x-1 transition-transform">↗</span>
-                </div>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  A large, free directory of Open Educational Resources (OER) built since 2008, with 6000+ curated web links for teachers, professors, and students.
-                </p>
-              </div>
-              <span class="text-[11px] font-bold text-purple-600 dark:text-purple-400 mt-3 inline-block">packiam.wordpress.com</span>
-            </a>
-
-            <!-- NCERT Quiz Hub -->
-            <a
-              href="https://ncertquizhub.blogspot.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-teal-500 hover:shadow-md transition-all flex flex-col justify-between group"
-            >
-              <div class="space-y-2">
-                <div class="flex items-center justify-between text-xs font-black text-teal-600 dark:text-teal-400">
-                  <span class="flex items-center gap-1.5">📝 NCERT Quiz Hub</span>
-                  <span class="group-hover:translate-x-1 transition-transform">↗</span>
-                </div>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Interactive MCQs, chapter-by-chapter assessments, and study materials specially created for UPSC, CUET, and CBSE aspirants.
-                </p>
-              </div>
-              <span class="text-[11px] font-bold text-teal-600 dark:text-teal-400 mt-3 inline-block">ncertquizhub.blogspot.com</span>
-            </a>
-
-            <!-- Trending in Internet (TrendWave) -->
-            <a
-              href="https://trendinternetviral.blogspot.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-pink-500 hover:shadow-md transition-all flex flex-col justify-between group"
-            >
-              <div class="space-y-2">
-                <div class="flex items-center justify-between text-xs font-black text-pink-600 dark:text-pink-400">
-                  <span class="flex items-center gap-1.5">📈 TrendWave</span>
-                  <span class="group-hover:translate-x-1 transition-transform">↗</span>
-                </div>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Aggregates real-time viral content and internet trends across YouTube, TikTok, Facebook, Instagram, and X (Twitter).
-                </p>
-              </div>
-              <span class="text-[11px] font-bold text-pink-600 dark:text-pink-400 mt-3 inline-block">trendinternetviral.blogspot.com</span>
-            </a>
-
-            <!-- Tractor Management -->
-            <a
-              href="https://tractoraccounts.blogspot.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-amber-600 hover:shadow-md transition-all flex flex-col justify-between group"
-            >
-              <div class="space-y-2">
-                <div class="flex items-center justify-between text-xs font-black text-amber-700 dark:text-amber-400">
-                  <span class="flex items-center gap-1.5">🚜 Tractor Management</span>
-                  <span class="group-hover:translate-x-1 transition-transform">↗</span>
-                </div>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  A community platform connecting farmers with tractor and farm-equipment owners, with automated rental accounting and billing management.
-                </p>
-              </div>
-              <span class="text-[11px] font-bold text-amber-700 dark:text-amber-400 mt-3 inline-block">tractoraccounts.blogspot.com</span>
-            </a>
-
-            <!-- Real Folk Songs YouTube Playlist -->
-            <a
-              href="https://www.youtube.com/playlist?list=PLRAE0guKNbdf6QBCkF-IY7GKTKMNWb6hG"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-red-500 hover:shadow-md transition-all flex flex-col justify-between group"
-            >
-              <div class="space-y-2">
-                <div class="flex items-center justify-between text-xs font-black text-red-600 dark:text-red-400">
-                  <span class="flex items-center gap-1.5">🎶 Real Folk Songs</span>
-                  <span class="group-hover:translate-x-1 transition-transform">↗</span>
-                </div>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  A field-documentation cultural audio project recording and preserving traditional rural folk songs and oral musical heritage.
-                </p>
-              </div>
-              <span class="text-[11px] font-bold text-red-600 dark:text-red-400 mt-3 inline-block">YouTube Playlist</span>
-            </a>
-
-            <!-- ICT & e-Content Tutorials YouTube Playlist -->
-            <a
-              href="https://www.youtube.com/playlist?list=PLRAE0guKNbddU5I3XI-RXjXBK4rCn7TUb"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-red-500 hover:shadow-md transition-all flex flex-col justify-between group"
-            >
-              <div class="space-y-2">
-                <div class="flex items-center justify-between text-xs font-black text-red-600 dark:text-red-400">
-                  <span class="flex items-center gap-1.5">🎥 ICT &amp; e-Content Tutorials</span>
-                  <span class="group-hover:translate-x-1 transition-transform">↗</span>
-                </div>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Hands-on video training modules on e-content creation, digital pedagogies, multimedia editing, and Open Educational Resources.
-                </p>
-              </div>
-              <span class="text-[11px] font-bold text-red-600 dark:text-red-400 mt-3 inline-block">YouTube Training Series</span>
-            </a>
-
-          </div>
-        </section>
-
-        <!-- SECTION: Our Free Online Tools — Packiam Tools Suite -->
-        <section class="space-y-6">
-          <div class="text-center max-w-3xl mx-auto space-y-2">
-            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] text-xs font-black uppercase tracking-wider">
-              100% Free • No Login • Unlimited Use
-            </div>
-            <h2 class="text-2xl sm:text-4xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
-              Our Free Online Tools — Packiam Tools Suite
-            </h2>
-            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
-              Hosted on <a href="https://vinganam.blogspot.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-[#D97706] underline">Vinganam</a>, these tools empower teachers, researchers, content creators, and students with cutting-edge AI utilities without logins or paywalls.
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-
-            <!-- Tool 1: Packiam AI -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-3 flex flex-col justify-between">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-2.5 py-0.5 rounded-full bg-[#D97706]/15 text-[#D97706] text-[10px] font-black uppercase tracking-wider">Tool 1 • Flagship AI</span>
-                  <a href="https://vinganam.blogspot.com/p/ai.html" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#D97706] hover:underline">Launch Tool ↗</a>
-                </div>
-                <h3 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  <a href="https://vinganam.blogspot.com/p/ai.html" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706]">
-                    Packiam AI – Free Artificial Intelligence Tool
-                  </a>
-                </h3>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Your all-in-one AI assistant for education. Create lesson plans, e-content, articles, and study materials in Tamil &amp; English instantly. Our flagship AI tool with no login and unlimited use, designed specifically for teachers and students.
-                </p>
-              </div>
-              <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex flex-wrap gap-1.5 text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">free AI tool for teachers</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">educational AI tool Tamil</span>
-              </div>
-            </div>
-
-            <!-- Tool 2: Packiam Voice Typing -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-3 flex flex-col justify-between">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-2.5 py-0.5 rounded-full bg-blue-500/15 text-blue-600 text-[10px] font-black uppercase tracking-wider">Tool 2 • Speech to Text</span>
-                  <a href="https://vinganam.blogspot.com/p/voice-typing.html" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#D97706] hover:underline">Launch Tool ↗</a>
-                </div>
-                <h3 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  <a href="https://vinganam.blogspot.com/p/voice-typing.html" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706]">
-                    Packiam Voice Typing – Speech to Text Tool
-                  </a>
-                </h3>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Convert your voice into typed text instantly. Supports Tamil &amp; English with No Time Limit and No Text Limit. Ideal for fast content creation, note-taking, and documentation without typing.
-                </p>
-              </div>
-              <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex flex-wrap gap-1.5 text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Tamil voice typing</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">free speech to text</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">voice to text Tamil</span>
-              </div>
-            </div>
-
-            <!-- Tool 3: Packiam Translate -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-3 flex flex-col justify-between">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 text-[10px] font-black uppercase tracking-wider">Tool 3 • Long-Text Translation</span>
-                  <a href="https://vinganam.blogspot.com/p/translate.html" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#D97706] hover:underline">Launch Tool ↗</a>
-                </div>
-                <h3 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  <a href="https://vinganam.blogspot.com/p/translate.html" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706]">
-                    Packiam Translate – Free Translation Tool
-                  </a>
-                </h3>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Unlike other translators limited to 5,000 characters, Packiam Translate supports more than 10,000 characters at once. Translate long research papers, articles, and e-content between 100+ languages, including Tamil, Hindi, and English.
-                </p>
-              </div>
-              <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex flex-wrap gap-1.5 text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">free translator 10000 characters</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">English to Tamil translation long text</span>
-              </div>
-            </div>
-
-            <!-- Tool 4: Quiz / Question Maker -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-3 flex flex-col justify-between">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-2.5 py-0.5 rounded-full bg-purple-500/15 text-purple-600 text-[10px] font-black uppercase tracking-wider">Tool 4 • AI Assessment</span>
-                  <a href="https://vinganam.blogspot.com/p/quiz-question-maker.html" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#D97706] hover:underline">Launch Tool ↗</a>
-                </div>
-                <h3 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  <a href="https://vinganam.blogspot.com/p/quiz-question-maker.html" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706]">
-                    Quiz / Question Maker – Packiam AI Quiz Maker
-                  </a>
-                </h3>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Free AI tool to auto-generate Interactive Quizzes from any text. Paste any paragraph and instantly create Multiple Choice, Fill in the Blanks, Short Answer, and Long Answer questions. Includes printable versions with and without answers.
-                </p>
-              </div>
-              <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex flex-wrap gap-1.5 text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">free AI quiz maker</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">question generator from text</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">MCQ maker</span>
-              </div>
-            </div>
-
-            <!-- Tool 5: Search in Multiple Search Engines -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-3 flex flex-col justify-between">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-2.5 py-0.5 rounded-full bg-teal-500/15 text-teal-600 text-[10px] font-black uppercase tracking-wider">Tool 5 • Multi-Search</span>
-                  <a href="https://vinganam.blogspot.com/p/search-in-multiple-search-engines.html" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#D97706] hover:underline">Launch Tool ↗</a>
-                </div>
-                <h3 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  <a href="https://vinganam.blogspot.com/p/search-in-multiple-search-engines.html" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706]">
-                    Search in Multiple Search Engines
-                  </a>
-                </h3>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Boost your research by querying up to 20 different search engines simultaneously. Categorized into Popular, Regional, and Privacy-Focused engines to get deeper, unbiased results from a single interface.
-                </p>
-              </div>
-              <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex flex-wrap gap-1.5 text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">search multiple search engines at once</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">multi search tool</span>
-              </div>
-            </div>
-
-            <!-- Tool 6: AI-Powered Rewriter & Paraphraser -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-3 flex flex-col justify-between">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-2.5 py-0.5 rounded-full bg-rose-500/15 text-rose-600 text-[10px] font-black uppercase tracking-wider">Tool 6 • Writing Assistant</span>
-                  <a href="https://vinganam.blogspot.com/p/ai-powered-rewriter.html" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#D97706] hover:underline">Launch Tool ↗</a>
-                </div>
-                <h3 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  <a href="https://vinganam.blogspot.com/p/ai-powered-rewriter.html" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706]">
-                    AI-Powered Rewriter &amp; Paraphraser
-                  </a>
-                </h3>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Instantly correct grammar and paraphrase content. Features customizable options like intensity control, synonym replacement, and sentence structure changing. Perfect for bloggers and students to make content unique.
-                </p>
-              </div>
-              <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex flex-wrap gap-1.5 text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">free AI rewriter</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">free paraphrasing tool</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">grammar correction tool</span>
-              </div>
-            </div>
-
-            <!-- Tool 7: Meta Search Engine Tool -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-3 flex flex-col justify-between">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-2.5 py-0.5 rounded-full bg-indigo-500/15 text-indigo-600 text-[10px] font-black uppercase tracking-wider">Tool 7 • Meta Search</span>
-                  <a href="https://vinganam.blogspot.com/p/meta-search-engine.html" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#D97706] hover:underline">Launch Tool ↗</a>
-                </div>
-                <h3 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  <a href="https://vinganam.blogspot.com/p/meta-search-engine.html" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706]">
-                    Meta Search Engine Tool
-                  </a>
-                </h3>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  A powerful meta search engine that consolidates results from Google, Bing, DuckDuckGo and other specialized privacy-focused engines into one clean result page. No ads, no tracking.
-                </p>
-              </div>
-              <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex flex-wrap gap-1.5 text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">meta search engine</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">search Google Bing DuckDuckGo together</span>
-              </div>
-            </div>
-
-            <!-- Tool 8: Packiam AI Text Humaniser Tool -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-3 flex flex-col justify-between">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-600 text-[10px] font-black uppercase tracking-wider">Tool 8 • AI Humanizer</span>
-                  <a href="https://vinganam.blogspot.com/p/ai-text-humanizer.html" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#D97706] hover:underline">Launch Tool ↗</a>
-                </div>
-                <h3 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  <a href="https://vinganam.blogspot.com/p/ai-text-humanizer.html" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706]">
-                    Packiam AI Text Humaniser Tool
-                  </a>
-                </h3>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Transform robotic AI-generated text into natural, human-sounding content. Paste your ChatGPT content and get an engaging, humanized version that bypasses AI detectors and improves readability.
-                </p>
-              </div>
-              <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex flex-wrap gap-1.5 text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">free AI humanizer</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">AI to human text converter</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">bypass AI detector</span>
-              </div>
-            </div>
-
-            <!-- Tool 9: Free Images Search Engine -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-3 flex flex-col justify-between">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-2.5 py-0.5 rounded-full bg-cyan-500/15 text-cyan-600 text-[10px] font-black uppercase tracking-wider">Tool 9 • Royalty-Free Assets</span>
-                  <a href="https://vinganam.blogspot.com/p/free-images-search-engine.html" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#D97706] hover:underline">Launch Tool ↗</a>
-                </div>
-                <h3 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  <a href="https://vinganam.blogspot.com/p/free-images-search-engine.html" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706]">
-                    Free Images Search Engine
-                  </a>
-                </h3>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Dedicated tool to find royalty-free, reusable images for e-content, video lessons, PPTs, and YouTube thumbnails. Searches only CC0 and royalty-free image hosting sites to keep you safe from copyright strikes.
-                </p>
-              </div>
-              <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex flex-wrap gap-1.5 text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">free royalty free images</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">free images for e-content</span>
-              </div>
-            </div>
-
-            <!-- Tool 10: Packiam Website Translator -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-3 flex flex-col justify-between">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-2.5 py-0.5 rounded-full bg-blue-600/15 text-blue-700 dark:text-blue-400 text-[10px] font-black uppercase tracking-wider">Tool 10 • Full-Site Translation</span>
-                  <a href="https://vinganam.blogspot.com/p/packiam-website-translator.html" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#D97706] hover:underline">Launch Tool ↗</a>
-                </div>
-                <h3 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  <a href="https://vinganam.blogspot.com/p/packiam-website-translator.html" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706]">
-                    Packiam Website Translator
-                  </a>
-                </h3>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Translate entire websites by just entering a URL. Supports 100+ languages including major Indian languages like Tamil, Hindi, Telugu, Malayalam. Best tool for Tamil teachers to access global educational resources.
-                </p>
-              </div>
-              <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex flex-wrap gap-1.5 text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">website translator</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">translate whole website</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">URL translator Tamil</span>
-              </div>
-            </div>
-
-            <!-- Tool 11: Free Tamil OCR Tool -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-3 flex flex-col justify-between md:col-span-2">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-2.5 py-0.5 rounded-full bg-emerald-600/15 text-emerald-700 dark:text-emerald-400 text-[10px] font-black uppercase tracking-wider">Tool 11 • Tamil OCR Unicode</span>
-                  <a href="https://vinganam.blogspot.com/p/image-to-text-tamil-ocr.html" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#D97706] hover:underline">Launch Tool ↗</a>
-                </div>
-                <h3 class="text-base sm:text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
-                  <a href="https://vinganam.blogspot.com/p/image-to-text-tamil-ocr.html" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706]">
-                    Free Tamil OCR Tool – Image to Text Converter
-                  </a>
-                </h3>
-                <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                  Instantly converts Tamil text from images, photos, scanned documents, and screenshots into editable Unicode text. Supports both Upload and Screen Capture methods. Essential for digitizing old Tamil books, research manuscripts, and documents.
-                </p>
-              </div>
-              <div class="pt-3 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex flex-wrap gap-1.5 text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Tamil OCR online free</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">image to Tamil text</span>
-                <span class="px-2 py-0.5 rounded-md bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Tamil photo to text converter</span>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        <!-- SECTION: Get in Touch & Contact Details -->
-        <section id="contact-info" class="p-6 sm:p-10 rounded-3xl bg-linear-to-br from-[#FFF8EC] via-white to-amber-500/10 dark:from-[#25243E] dark:via-[#1B1A2E] dark:to-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] shadow-md space-y-6">
-          <div class="text-center max-w-2xl mx-auto space-y-2">
-            <span class="text-3xl">📬</span>
-            <h2 class="text-2xl sm:text-3xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
-              Get in Touch
-            </h2>
-            <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
-              Questions, feedback, and suggestions are always welcome. We're here to help you on your learning journey!
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
-            <!-- Phone / Cell -->
-            <div class="p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3">
-              <span class="text-2xl">📞</span>
-              <div>
-                <div class="text-[11px] font-bold text-[#6B5644] dark:text-[#C8BFAF] uppercase tracking-wider">Cell / WhatsApp</div>
-                <a href="tel:+919786424927" class="text-sm font-black text-[#D97706] hover:underline font-mono">
-                  +91 97864 24927
-                </a>
-              </div>
-            </div>
-
-            <!-- Email -->
-            <div class="p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3">
-              <span class="text-2xl">✉️</span>
-              <div>
-                <div class="text-[11px] font-bold text-[#6B5644] dark:text-[#C8BFAF] uppercase tracking-wider">Email Address</div>
-                <a href="mailto:edpackiaraj@gmail.com" class="text-sm font-black text-[#D97706] hover:underline font-mono">
-                  edpackiaraj@gmail.com
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="text-center text-xs text-[#6B5644] dark:text-[#C8BFAF] border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 pt-4">
-            <p class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">S. Edward Packiaraj</p>
-            <p>Consultant – Educational Media Technologies, Rosary e-Solutions, Trichy, Tamil Nadu, India</p>
-          </div>
-
-          <!-- Quick Action Buttons -->
-          <div class="flex flex-wrap items-center justify-center gap-3 pt-2">
-            <a
-              href="https://wa.me/919786424927?text=Hello%20Edward,%20I%20am%20reaching%20out%20from%20Daily%20Tale"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="px-6 py-3 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow transition-all flex items-center gap-2"
-            >
-              <span>💬</span>
-              <span>Message on WhatsApp</span>
-            </a>
-            <a
-              href="mailto:edpackiaraj@gmail.com?subject=Inquiry%20from%20Daily%20Tale"
-              class="px-6 py-3 rounded-full bg-[#D97706] hover:bg-[#B45309] text-white font-bold text-xs shadow transition-all flex items-center gap-2"
-            >
-              <span>✉️</span>
-              <span>Send Email</span>
-            </a>
-            <a
-              href={`/${currentLang}/collections/`}
-              class="px-6 py-3 rounded-full bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] font-bold text-xs shadow-2xs transition-all flex items-center gap-2"
-            >
-              <span>📖</span>
-              <span>Explore 2,448+ Stories</span>
-            </a>
-          </div>
-        </section>
-      </div>
+      <AboutView currentLang={currentLang} />
     )}
 
     <!-- VIEW 8: LEGAL / ABOUT / POLICY VIEWS -->

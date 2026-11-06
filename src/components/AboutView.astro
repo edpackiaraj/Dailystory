@@ -1,0 +1,596 @@
+---
+interface Props {
+  currentLang: string;
+}
+
+const { currentLang } = Astro.props;
+const isTa = currentLang === 'ta';
+---
+
+<div class="max-w-5xl mx-auto space-y-12">
+  <!-- Hero Header -->
+  <header class="text-center space-y-4 max-w-3xl mx-auto">
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#D97706]/10 text-[#D97706] text-xs font-black tracking-wide uppercase">
+      <span>🦉</span> {isTa ? 'உலக ஞானக் கருவூலமும் விவேக நாட்டார் கதைகளும்' : 'World Wisdom & Folklore Sanctuary'}
+    </div>
+    <h1 class="text-3xl sm:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-tight">
+      {isTa ? 'Daily Tale பற்றி' : 'About Daily Tale'}
+    </h1>
+    <p class="text-base sm:text-lg font-bold text-[#D97706]">
+      {isTa ? 'Daily Tale – நீதிக்கதைகளும் பண்பாட்டு மரபுக் கதைகளும்' : 'Daily Tale – Moral Stories & Interesting Folktales'}
+    </p>
+    <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+      {isTa
+        ? 'Daily Tale என்பது உலகம் முழுவதிலுமிருந்து திரட்டப்பட்ட காலத்தால் அழியாத மரபுக் கதைகள், ஈசாப் கதைகள் மற்றும் பண்பாட்டு ஞானத்தின் மூலம் நற்பண்புகளையும், கற்பனை வளத்தையும், மனிதநேயத்தையும் வளர்க்கும் ஒரு பன்மொழி எண்ணிம கதைக்களஞ்சியம்.'
+        : 'Daily Tale is a multilingual digital storytelling sanctuary dedicated to nourishing character, imagination, and empathy through timeless folktales, fables, and heritage wisdom from world cultures.'}
+    </p>
+  </header>
+
+  <!-- Grouped Feature Cards Grid -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- Feature 1: Multilingual Story Treasury -->
+    <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
+      <div class="w-12 h-12 rounded-2xl bg-[#D97706]/15 flex items-center justify-center text-2xl text-[#D97706]">
+        📚
+      </div>
+      <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+        {isTa ? 'பன்மொழி நாட்டார் கதைப் பேழை' : 'Multilingual Folklore Treasury'}
+      </h2>
+      <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+        {isTa
+          ? 'தமிழ், ஆங்கிலம், இந்தி, தெலுங்கு, மலையாளம், கன்னடம், மராத்தி மற்றும் சீனம் ஆகிய 8 உலக மொழிகளில் தொகுக்கப்பட்ட 2,448-க்கும் மேற்பட்ட கதைகளை நாங்கள் வழங்குகிறோம். அக்பர்–பீர்பால், தெனாலிராமன், பஞ்சதந்திரம், ஈசாப் நீதிக்கதைகள், ஜாதகக் கதைகள், ஆண்டர்சன் கதைகள், கிரிம் சகோதரர்களின் கதைகள், அரேபிய இரவுகள் மற்றும் ஆசியா, ஆப்பிரிக்கா, ஐரோப்பா, அமெரிக்க நாடுகளின் பாரம்பரியக் கதைகள் இதில் அடங்கும்.'
+          : 'We bring together over 2,448 curated stories across 8 languages: English, Tamil, Hindi, Telugu, Malayalam, Kannada, Marathi, and Chinese. Our collections span Akbar–Birbal, Tenali Rama, Panchatantra, Aesop\'s Fables, Jataka Tales, Hans Christian Andersen, Brothers Grimm, Arabian Nights, and cultural folklore from across Asia, Africa, Europe, and the Americas.'}
+      </p>
+      <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#0F766E] dark:text-[#2DD4BF]">
+        <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">{isTa ? '2,448+ கதைகள்' : '2,448+ Stories'}</span>
+        <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">{isTa ? '8 உலக மொழிகள்' : '8 World Languages'}</span>
+        <span class="px-2.5 py-1 rounded-lg bg-[#0F766E]/10">{isTa ? '13 முக்கிய மரபுகள்' : '13 Major Traditions'}</span>
+      </div>
+    </div>
+
+    <!-- Feature 2: Audio & Adaptive Reading Toolbar -->
+    <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
+      <div class="w-12 h-12 rounded-2xl bg-blue-500/15 flex items-center justify-center text-2xl text-blue-600">
+        🎧
+      </div>
+      <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+        {isTa ? 'ஒலி வாசிப்பு & தகவமைக்கும் வாசிப்புக் கருவிப்பட்டி' : 'Audio & Adaptive Reading Toolbar'}
+      </h2>
+      <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+        {isTa
+          ? 'எமது தளம் உலவி-சார்ந்த குரல் வாசிப்பு வசதியையும், வாசிப்பு வேகக் கட்டுப்பாட்டையும் (0.8x முதல் 1.5x வரை), வாக்கியம்-வாக்கியமாக ஒளிரும் வாசிப்பு உதவியையும் வழங்குகிறது. இளம் வாசகர்களுக்கும் சிறப்புத் தேவையுடையோருக்கும் உதவும் வகையில் டிஸ்லெக்ஸியா நட்பு எழுத்துரு (OpenDyslexic), எழுத்து அளவு மாற்றம், வரி இடைவெளி சரிசெய்தல் மற்றும் இரவு/செபியா வாசிப்பு முறைகள் ஆகியவையும் உள்ளன.'
+          : 'Our platform offers browser-native read-aloud audio narration powered by text-to-speech, complete with adjustable playback speed (0.8x to 1.5x) and sentence-by-sentence reading assistance. To ensure maximum accessibility for neurodivergent and young readers, our reading toolbar features specialized typography controls including the OpenDyslexic typeface, custom font sizing, fluid line-height adjustment, and night/sepia reading themes.'}
+      </p>
+      <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-blue-700 dark:text-blue-400">
+        <span class="px-2.5 py-1 rounded-lg bg-blue-500/10">{isTa ? 'இயற்கைக் குரல் வாசிப்பு' : 'Natural TTS'}</span>
+        <span class="px-2.5 py-1 rounded-lg bg-blue-500/10">{isTa ? 'டிஸ்லெக்ஸியா எழுத்துரு' : 'OpenDyslexic Font'}</span>
+        <span class="px-2.5 py-1 rounded-lg bg-blue-500/10">{isTa ? '0.8x–1.5x வேகம்' : '0.8x–1.5x Speed'}</span>
+      </div>
+    </div>
+
+    <!-- Feature 3: Structured Pedagogical Depth -->
+    <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
+      <div class="w-12 h-12 rounded-2xl bg-purple-500/15 flex items-center justify-center text-2xl text-purple-600">
+        🎓
+      </div>
+      <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+        {isTa ? 'கற்பித்தல் ஆழமும் வினாடி வினாக்களும்' : 'Structured Pedagogical Depth'}
+      </h2>
+      <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+        {isTa
+          ? 'பெற்றோர்கள், ஆசிரியர்கள் மற்றும் மொழி கற்போருக்கு உதவும் வகையில், ஒவ்வொரு கதையும் புளூமின் வகைப்பாட்டியல் (Bloom\'s Taxonomy) அடிப்படையிலான கலந்துரையாடல் வினாக்கள் (நினைவுகூர்தல், புரிதல், பயன்படுத்துதல், பகுப்பாய்வு, மதிப்பீடு, உருவாக்குதல்), தெளிவான கலைச்சொல் விளக்கங்கள் மற்றும் ஊடாடும் வினாடி வினாக்களுடன் வடிவமைக்கப்பட்டுள்ளது.'
+          : 'To support parents, educators, and language learners, every story is enriched with structured pedagogical resources: Bloom\'s Taxonomy reflection prompts (spanning Remember, Understand, Apply, Analyze, Evaluate, and Create levels), curated in-text vocabulary glossaries with exact definitions, and interactive comprehension quizzes that cultivate critical thinking.'}
+      </p>
+      <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-purple-700 dark:text-purple-400">
+        <span class="px-2.5 py-1 rounded-lg bg-purple-500/10">{isTa ? 'புளூமின் 6 நிலைகள்' : 'Bloom\'s Taxonomy'}</span>
+        <span class="px-2.5 py-1 rounded-lg bg-purple-500/10">{isTa ? 'கலைச்சொற்கள் விளக்கம்' : 'Vocabulary Glossaries'}</span>
+        <span class="px-2.5 py-1 rounded-lg bg-purple-500/10">{isTa ? 'ஊடாடும் வினாடி வினாக்கள்' : 'Interactive Quizzes'}</span>
+      </div>
+    </div>
+
+    <!-- Feature 4: Classroom & Community Resources -->
+    <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm hover:border-[#D97706] hover:shadow-md transition-all space-y-3">
+      <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 flex items-center justify-center text-2xl text-emerald-600">
+        🏫
+      </div>
+      <h2 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+        {isTa ? 'வகுப்பறை & சமூக வளங்கள்' : 'Classroom & Community Resources'}
+      </h2>
+      <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+        {isTa
+          ? 'Daily Tale பதிவிறக்கம் செய்து பகிரக்கூடிய \'இன்றைய நீதி\' அட்டைகள், வாசிப்புச் சான்றிதழ்கள், அச்சிடத்தக்க கதைச் சுருக்கங்கள் மற்றும் வாட்ஸ்அப், டெலிகிராம் வழியாக எளிதாகப் பகிரும் வசதிகளை வழங்குகிறது.'
+          : 'Daily Tale provides ready-to-share educational tools, including exportable \'Moral of the Day\' cards, reading milestone certificates, printable story summaries, and seamless one-click sharing via WhatsApp, Telegram, and email for home, community, and classroom reflection.'}
+      </p>
+      <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-emerald-700 dark:text-emerald-400">
+        <span class="px-2.5 py-1 rounded-lg bg-emerald-500/10">{isTa ? 'நீதிநெறி அட்டைகள்' : 'Exportable Cards'}</span>
+        <span class="px-2.5 py-1 rounded-lg bg-emerald-500/10">{isTa ? 'அச்சிடத்தக்க சுருக்கங்கள்' : 'Printable Summaries'}</span>
+        <span class="px-2.5 py-1 rounded-lg bg-emerald-500/10">{isTa ? 'எளிதான பகிர்வு' : 'One-Click Sharing'}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Privacy & PWA Commitment Banner -->
+  <div class="p-6 sm:p-8 rounded-3xl bg-linear-to-r from-[#FFF8EC] to-amber-500/10 dark:from-[#25243E] dark:to-[#1E1D36] border-2 border-[#EEDFC8] dark:border-[#383659] flex flex-col md:flex-row items-center justify-between gap-6">
+    <div class="space-y-2 text-center md:text-left">
+      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
+        <span>🔒</span> {isTa ? '100% இலவசம், பாதுகாப்பானது & தனியுரிமை முதன்மை' : '100% Free, Safe & Privacy-First'}
+      </div>
+      <h2 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+        {isTa ? 'இலகுரக PWA & பயனர்களைக் கண்காணிக்காத உறுதிப்பாடு' : 'Lightweight PWA & Zero Tracking Commitment'}
+      </h2>
+      <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] max-w-2xl leading-relaxed">
+        {isTa
+          ? 'குறைந்த இணைய வேகத்திலும் இயங்கும் முற்போக்கு வலைச் செயலி (PWA) தொழில்நுட்பத்தில் உருவாக்கப்பட்ட Daily Tale, முழுமையான ஆஃப்லைன் வாசிப்பையும் ஆதரிக்கிறது. எமது உறுதிமொழி: 100% இலவசம், 100% விளம்பரமற்றது, பயனர்களைக் கண்காணிக்கும் நிரல்கள் எதுவுமில்லை, பதிவு செய்யத் தேவையில்லை.'
+          : 'Built with ultra-lightweight Progressive Web App technology and browser-native audio capabilities, Daily Tale is engineered for instant offline reading and minimal server dependency. Our commitment to children, families, and classrooms is absolute: 100% free, 100% ad-free, zero tracking, and zero user registration.'}
+      </p>
+    </div>
+    <div class="shrink-0 flex items-center gap-3 text-xs font-bold text-[#D97706]">
+      <span class="px-3 py-2 rounded-xl bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">{isTa ? 'விளம்பரமில்லை' : 'Zero Ads'}</span>
+      <span class="px-3 py-2 rounded-xl bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">{isTa ? 'பதிவு தேவையில்லை' : 'Zero Logins'}</span>
+      <span class="px-3 py-2 rounded-xl bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">{isTa ? 'ஆஃப்லைன் PWA' : 'Offline PWA'}</span>
+    </div>
+  </div>
+
+  <!-- Our Mission Card -->
+  <div class="p-8 sm:p-10 rounded-3xl bg-[#D97706]/10 dark:bg-[#D97706]/15 border-2 border-[#D97706]/40 text-center space-y-3">
+    <span class="text-3xl">⭐</span>
+    <h2 class="text-2xl sm:text-3xl font-black text-[#D97706] dark:text-[#F59E0B]">
+      {isTa ? 'எமது இலட்சியம்' : 'Our Mission'}
+    </h2>
+    <p class="text-base sm:text-lg font-medium text-[#3B2A1A] dark:text-[#F3EBDD] max-w-3xl mx-auto leading-relaxed">
+      {isTa
+        ? '"காலத்தால் அழியாத நற்பண்புகளையும் உலக நாட்டார் கதை ஞானத்தையும் அனைவருக்கும் இலவசமாகவும் எளிமையாகவும் வழங்கி, குடும்பங்களும் வகுப்பறைகளும் மனிதநேயத்துடனும் மொழிவளத்துடனும் ஒன்றிணைந்து வளர உதவுவதே எமது இலட்சியம்."'
+        : '"To make timeless moral wisdom, character values, and world folklore freely accessible, understandable, and inspiring every day, supporting families, educators, and language learners in growing together in empathy and global literacy."'}
+    </p>
+  </div>
+
+  <!-- SECTION: About Me — Edward Packiaraj -->
+  <section id="about-me" class="relative overflow-hidden rounded-3xl bg-linear-to-br from-[#FFF8EC] via-white to-[#FDF4E7] dark:from-[#25243E] dark:via-[#1E1D36] dark:to-[#17162B] border-2 border-[#EEDFC8] dark:border-[#383659] p-6 sm:p-10 shadow-lg space-y-8">
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-6 sm:gap-8">
+      <div class="shrink-0 flex flex-col items-center text-center space-y-3">
+        <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-linear-to-br from-[#D97706] to-[#B45309] text-white flex items-center justify-center text-4xl sm:text-5xl shadow-md border-4 border-white dark:border-[#25243E]">
+          🎓
+        </div>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
+          OER Pioneer
+        </span>
+      </div>
+
+      <div class="space-y-4 text-center md:text-left flex-1">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] text-xs font-black uppercase tracking-wider mb-2">
+            {isTa ? 'நிறுவனர் & கல்விக் கட்டமைப்பாளர்' : 'Founder & Educational Architect'}
+          </div>
+          <h2 class="text-2xl sm:text-4xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
+            {isTa ? 'என்னைப்பற்றி — ' : 'About Me — '}
+            <a href="https://edwardpackiaraj.blogspot.com/" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706] underline decoration-[#D97706]/50">
+              {isTa ? 'எஸ். எட்வர்ட் பாக்கியராஜ்' : 'S. Edward Packiaraj'}
+            </a>
+          </h2>
+          <p class="text-xs sm:text-sm font-semibold text-[#0F766E] dark:text-[#2DD4BF] mt-1">
+            (M.Com., M.Phil., B.Ed., BLIS., PGDBA., PGDCA.)
+          </p>
+          <p class="text-sm sm:text-base font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mt-1">
+            {isTa
+              ? 'கல்வி ஊடகத் தொழில்நுட்ப ஆலோசகர், ரோசரி இ-சொல்யூஷன்ஸ், திருச்சி'
+              : 'Consultant – Educational Media Technologies, Rosary e-Solutions, Trichy'}
+          </p>
+        </div>
+
+        <!-- Key Credentials & Milestone Badges -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs">
+          <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
+            <span class="text-2xl">📻</span>
+            <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]">
+              {isTa
+                ? <>வானொலி ஒலிபரப்பில் <strong>22 ஆண்டுகள்</strong> அனுபவம் (அகில இந்திய வானொலி, இந்திரா காந்தி தேசிய திறந்தநிலை பல்கலைக்கழக FM உள்ளிட்டவை)</>
+                : <><strong>22 years</strong> of experience in radio broadcasting (All India Radio, IGNOU FM, among others)</>}
+            </span>
+          </div>
+          <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
+            <span class="text-2xl">💻</span>
+            <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]">
+              {isTa
+                ? <>கல்வித் தொழில்நுட்பம் / மின்-உள்ளடக்க உருவாக்கத்தில் <strong>17+ ஆண்டுகள்</strong> அனுபவம்</>
+                : <><strong>17+ years</strong> of experience in Educational Technology / e-Content Development</>}
+            </span>
+          </div>
+          <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
+            <span class="text-2xl">🌍</span>
+            <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]">
+              {isTa
+                ? <><strong>250+ சிறப்புச் சொற்பொழிவுகள்</strong> (9 பன்னாட்டு மற்றும் 60 தேசிய அளவிலானவை)</>
+                : <><strong>250+ invited lectures</strong> delivered (including 9 international and 60 national events)</>}
+            </span>
+          </div>
+          <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
+            <span class="text-2xl">📹</span>
+            <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]">
+              {isTa
+                ? <><strong>2000+ கல்வி காணொளிக் காட்சிகள்</strong> மற்றும் <strong>65+ ஊடாடும் சுயகற்றல்</strong> தொகுப்புகள்</>
+                : <>Creator of <strong>2000+ educational video lessons</strong> &amp; <strong>65+ Interactive Multimedia</strong> Packages</>}
+            </span>
+          </div>
+          <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
+            <span class="text-2xl">🏛️</span>
+            <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]">
+              {isTa
+                ? <><strong>பாடத்திட்டக் குழு உறுப்பினர்</strong> – தொலைதூரக் கல்வி மையம், பாரதிதாசன் பல்கலைக்கழகம், திருச்சி</>
+                : <><strong>Board of Studies member</strong> – Centre for Distance Education, Bharathidasan University, Trichy</>}
+            </span>
+          </div>
+          <div class="p-3 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] flex items-center gap-3 shadow-2xs">
+            <span class="text-2xl">🏫</span>
+            <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]">
+              {isTa
+                ? <><strong>கல்வித் தொழில்நுட்பப் பிரிவு உறுப்பினர்</strong> – தமிழ்நாடு ஆசிரியர் கல்வியியல் பல்கலைக்கழகம், சென்னை</>
+                : <><strong>Educational Technology Cell member</strong> – Tamil Nadu Teachers Education University, Chennai</>}
+            </span>
+          </div>
+        </div>
+
+        <!-- Biography & Core Philosophy -->
+        <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed pt-2">
+          {isTa
+            ? <>கல்வித் தொழில்நுட்பம், வலைத்தள வடிவமைப்பு மற்றும் செயற்கை நுண்ணறிவுக் (AI) கருவிகளில் மிகுந்த ஈடுபாடு கொண்ட எட்வர்ட், <strong>"அனைவருக்கும் அனைத்தும் இலவசமாகக் கிடைக்க வேண்டும் — கற்றல் எந்தக் கட்டணச் சுவருக்குள்ளும் முடங்கக் கூடாது"</strong> என்ற உயரிய கொள்கையுடன் செயல்படுகிறார். <em>"Learn More! Teach More!"</em> என்ற அடிப்படைக் கோட்பாட்டின் கீழ், விளம்பரங்களற்ற, கட்டணங்களற்ற திறந்த கல்வி வளங்களை உருவாக்கி வருகிறார்.</>
+            : <>With a strong interest in educational technology, web design, and AI-powered tools, Edward runs this platform on the belief that <strong>everyone deserves access to everything — learning shouldn't be locked behind a paywall</strong>. Under his foundational philosophy <em>"Learn More! Teach More!"</em>, he creates ad-free, accessible, and distraction-free open educational ecosystems.</>}
+        </p>
+
+        <div class="pt-2">
+          <a
+            href="https://edwardpackiaraj.blogspot.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#D97706] hover:bg-[#B45309] text-white font-bold text-xs shadow transition-all"
+          >
+            <span>{isTa ? 'முழு விவரக் குறிப்பைக் காண (Resume)' : 'View Full Profile & Resume'}</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: Services Offered -->
+  <section class="space-y-6">
+    <div class="text-center max-w-2xl mx-auto space-y-2">
+      <h2 class="text-2xl sm:text-3xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
+        {isTa ? 'வழங்கப்படும் சேவைகள்' : 'Services Offered'}
+      </h2>
+      <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+        {isTa
+          ? 'தனிநபர் ஆலோசனை, நிறுவனப் பயிலரங்குகள் அல்லது சிறப்பான தொழில்நுட்பப் பயிற்சிகளுக்கு பின்வரும் சேவைகள் வழங்கப்படுகின்றன:'
+          : 'For those looking for personal consultation, institutional workshops, or bespoke technical training, the following services are available:'}
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <!-- Service 1 -->
+      <div class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-2">
+        <div class="w-10 h-10 rounded-xl bg-blue-500/15 text-blue-600 flex items-center justify-center text-xl">
+          📦
+        </div>
+        <h3 class="font-black text-base text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'மின்-உள்ளடக்க உருவாக்கம்' : 'e-Content Development'}
+        </h3>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'ஊடாடும் சுயகற்றல் தொகுப்புகள் (SLPs), SCORM தொகுப்புகள், மல்டிமீடியா பாடங்கள் மற்றும் எண்ணிமப் பாடநூல் உருவாக்கம்.'
+            : 'Interactive Self-Learning Packages (SLPs), SCORM packages, multimedia lesson creation, and digital textbook authoring.'}
+        </p>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-2">
+        <div class="w-10 h-10 rounded-xl bg-purple-500/15 text-purple-600 flex items-center justify-center text-xl">
+          💻
+        </div>
+        <h3 class="font-black text-base text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'வலைப்பதிவு & வலைத்தள வடிவமைப்பு' : 'Blog & Web Creation'}
+        </h3>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'தனிப்பயனாக்கப்பட்ட கல்விக் களங்கள், திறந்த கல்வி வளத் தளங்கள் மற்றும் அதிவேக வலைப்பதிவுகள் உருவாக்கம்.'
+            : 'Custom-designed educational portals, OER directories, and high-performance blogs built to your exact specifications.'}
+        </p>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-2">
+        <div class="w-10 h-10 rounded-xl bg-rose-500/15 text-rose-600 flex items-center justify-center text-xl">
+          🎵
+        </div>
+        <h3 class="font-black text-base text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'பாடல் இயற்றுதல் & இசை உருவாக்கம்' : 'Songwriting & Music Production'}
+        </h3>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'பாடல் வரிகள் எழுதுதல், மெட்டமைத்தல், ஒலிச்சித்திரங்கள், குரல் பதிவுகள் மற்றும் முழுமையான ஆடியோ கலவை.'
+            : 'Lyric writing, melody composing, instructional audio drama, voice-overs, and full audio recording & mixing.'}
+        </p>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-2">
+        <div class="w-10 h-10 rounded-xl bg-emerald-500/15 text-emerald-600 flex items-center justify-center text-xl">
+          ⚙️
+        </div>
+        <h3 class="font-black text-base text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'மென்பொருள் உருவாக்கம்' : 'Software Development'}
+        </h3>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'எளிய இணையக் கருவிகள், வினாடி வினா செயலிகள், AI சார்ந்த கல்விக் கருவிகள் மற்றும் விருப்பத்திற்கேற்ப பயன்பாடுகள்.'
+            : 'Small web tools, quiz engines, AI-integrated educational utilities, and custom applications built to spec.'}
+        </p>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-xs hover:border-[#D97706] hover:shadow-md transition-all space-y-2 sm:col-span-2 lg:col-span-2">
+        <div class="w-10 h-10 rounded-xl bg-amber-500/15 text-amber-600 flex items-center justify-center text-xl">
+          🧑‍🏫
+        </div>
+        <h3 class="font-black text-base text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'ஆலோசனை & பயிற்றுவித்தல்' : 'Consulting & Training'}
+        </h3>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'இலவச இணைய வளங்கள், செயற்கை நுண்ணறிவு (AI) கருவிகள், ப்ராம்ப்ட் இன்ஜினியரிங் மற்றும் மின்-உள்ளடக்க முறைகளில் கல்லூரிகள் மற்றும் பல்கலைக்கழகங்களுக்கான பயிற்சிகள்.'
+            : 'Faculty development programs (FDPs), workshops for colleges and universities on free web resources, prompt engineering, generative AI tools, and e-content development methodologies.'}
+        </p>
+      </div>
+    </div>
+
+    <div class="text-center pt-2">
+      <a
+        href="#contact-info"
+        class="inline-flex items-center gap-2 text-xs font-bold text-[#D97706] hover:underline"
+      >
+        <span>{isTa ? 'மேற்கண்ட சேவைகளுக்கு கீழே உள்ள தொடர்புகளை அணுகவும்' : 'For any of the above services, reach out using the contact details below'}</span>
+        <span>↓</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- SECTION: My Other Sites & Free Platforms -->
+  <section class="space-y-6">
+    <div class="text-center max-w-2xl mx-auto space-y-2">
+      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#0F766E]/10 text-[#0F766E] dark:text-[#2DD4BF] text-xs font-bold uppercase tracking-wider">
+        "Learn More! Teach More!"
+      </div>
+      <h2 class="text-2xl sm:text-3xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
+        {isTa ? 'எனது பிற தளங்களும் இலவசக் கருவிகளும்' : 'My Other Sites & Free Platforms'}
+      </h2>
+      <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+        {isTa
+          ? '"Learn More! Teach More!" என்ற அதே நோக்கத்துடன் மாணவர்கள், ஆசிரியர்கள் மற்றும் வாசகர்களுக்காக உருவாக்கப்பட்ட பிற இலவசத் தளங்கள்:'
+          : 'Under the same philosophy, several other free platforms have been built for students, teachers, and lifelong learners. Feel free to explore:'}
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      
+      <!-- 1. Vinganam -->
+      <a
+        href="https://vinganam.blogspot.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-emerald-500 hover:shadow-md transition-all flex flex-col justify-between group"
+      >
+        <div class="space-y-2">
+          <div class="flex items-center justify-between text-xs font-black text-emerald-600 dark:text-emerald-400">
+            <span class="flex items-center gap-1.5">🔬 {isTa ? 'விஞ்ஞாநம் (Vinganam)' : 'Vinganam'}</span>
+            <span class="group-hover:translate-x-1 transition-transform">↗</span>
+          </div>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? 'அறிவியல் கட்டுரைகள், இலவசக் கருவிகள், விளக்கக்காட்சிகள். அறிவியல், தமிழ் பண்பாடு மற்றும் கல்வித் தொழில்நுட்பத்தை இணைக்கும் இருமொழித் தளம்.'
+              : 'Science Articles, Free Tools, Presentations. A bilingual blog blending science, Tamil culture, and educational technology, covering ancient Siddhar knowledge and AI tools.'}
+          </p>
+        </div>
+        <span class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 mt-3 inline-block">vinganam.blogspot.com</span>
+      </a>
+
+      <!-- 2. Educational Technology (EdTech Guru) -->
+      <a
+        href="https://edutechguru.blogspot.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-blue-500 hover:shadow-md transition-all flex flex-col justify-between group"
+      >
+        <div class="space-y-2">
+          <div class="flex items-center justify-between text-xs font-black text-blue-600 dark:text-blue-400">
+            <span class="flex items-center gap-1.5">💻 {isTa ? 'கல்வித் தொழில்நுட்பம் (EdTech Guru)' : 'Educational Technology'}</span>
+            <span class="group-hover:translate-x-1 transition-transform">↗</span>
+          </div>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? 'எட்டெக் கருவிகள், விளக்கக்காட்சிகள், காணொளிப் பாடங்கள். ஆசிரியர்களுக்கும் மாணவர்களுக்குமான விரிவான கல்வித் தொழில்நுட்ப வளங்கள்.'
+              : 'Comprehensive educational technology resources for teachers and students: EdTech tools, presentations, and video lessons.'}
+          </p>
+        </div>
+        <span class="text-[11px] font-bold text-blue-600 dark:text-blue-400 mt-3 inline-block">edutechguru.blogspot.com</span>
+      </a>
+
+      <!-- 3. Radio (Radio Tamil) -->
+      <a
+        href="https://radiotamil.blogspot.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-amber-500 hover:shadow-md transition-all flex flex-col justify-between group"
+      >
+        <div class="space-y-2">
+          <div class="flex items-center justify-between text-xs font-black text-amber-600 dark:text-amber-400">
+            <span class="flex items-center gap-1.5">📻 {isTa ? 'வானொலி (Radio Tamil)' : 'Radio'}</span>
+            <span class="group-hover:translate-x-1 transition-transform">↗</span>
+          </div>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? 'இணைய வானொலி நிலையங்களின் தொகுப்பு. பல்வேறு தமிழ் மற்றும் இந்திய இணைய வானொலிகளை ஒரே இடத்தில் கேட்க உதவும் தளம்.'
+              : 'A curated directory of online radio stations, streaming Tamil and world broadcasts.'}
+          </p>
+        </div>
+        <span class="text-[11px] font-bold text-amber-600 dark:text-amber-400 mt-3 inline-block">radiotamil.blogspot.com</span>
+      </a>
+
+      <!-- 4. Free Web Tools -->
+      <a
+        href="https://freewebtools.blogspot.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-teal-500 hover:shadow-md transition-all flex flex-col justify-between group"
+      >
+        <div class="space-y-2">
+          <div class="flex items-center justify-between text-xs font-black text-teal-600 dark:text-teal-400">
+            <span class="flex items-center gap-1.5">🛠️ {isTa ? 'இலவச இணையக் கருவிகள்' : 'Free Web Tools'}</span>
+            <span class="group-hover:translate-x-1 transition-transform">↗</span>
+          </div>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? 'தினசரி பயன்பாட்டுக்குத் தேவையான எளிய உலவி சார்ந்த இணையப் பயன்பாட்டுக் கருவிகள்.'
+              : 'Useful browser-based tools and online utilities for everyday productivity and learning.'}
+          </p>
+        </div>
+        <span class="text-[11px] font-bold text-teal-600 dark:text-teal-400 mt-3 inline-block">freewebtools.blogspot.com</span>
+      </a>
+
+      <!-- 5. AI Tools Directory -->
+      <a
+        href="https://aitoolsdirectory.blogspot.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-purple-500 hover:shadow-md transition-all flex flex-col justify-between group"
+      >
+        <div class="space-y-2">
+          <div class="flex items-center justify-between text-xs font-black text-purple-600 dark:text-purple-400">
+            <span class="flex items-center gap-1.5">🤖 {isTa ? 'AI கருவிகள் தொகுப்பு' : 'AI Tools Directory'}</span>
+            <span class="group-hover:translate-x-1 transition-transform">↗</span>
+          </div>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? 'மாணவர்களுக்கும் ஆசிரியர்களுக்கும் பயன்படும் சிறந்த இலவச மற்றும் பயனுள்ள AI கருவிகளின் தொகுப்பு.'
+              : 'A hand-picked directory of free and useful AI tools for learning, research, and productivity.'}
+          </p>
+        </div>
+        <span class="text-[11px] font-bold text-purple-600 dark:text-purple-400 mt-3 inline-block">aitoolsdirectory.blogspot.com</span>
+      </a>
+
+      <!-- 6. Trichy Info -->
+      <a
+        href="https://trichyinfo.blogspot.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-rose-500 hover:shadow-md transition-all flex flex-col justify-between group"
+      >
+        <div class="space-y-2">
+          <div class="flex items-center justify-between text-xs font-black text-rose-600 dark:text-rose-400">
+            <span class="flex items-center gap-1.5">🏛️ {isTa ? 'திருச்சி தகவல் தளம் (Trichy Info)' : 'Trichy Info'}</span>
+            <span class="group-hover:translate-x-1 transition-transform">↗</span>
+          </div>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? 'திருச்சிராப்பள்ளி மாவட்டத்திற்கான வழிகாட்டி, கல்வி நிறுவனங்கள் மற்றும் உள்ளூர் சமூக வளங்கள்.'
+              : 'Community information, educational directories, and local guidance for Tiruchirappalli.'}
+          </p>
+        </div>
+        <span class="text-[11px] font-bold text-rose-600 dark:text-rose-400 mt-3 inline-block">trichyinfo.blogspot.com</span>
+      </a>
+
+      <!-- 7. Everyday Bread -->
+      <a
+        href="https://everydaybread.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="p-5 rounded-3xl bg-linear-to-br from-amber-500/10 via-white to-amber-100/30 dark:from-[#25243E] dark:via-[#1B1A2E] dark:to-[#25243E] border-2 border-amber-400/40 hover:border-[#D97706] hover:shadow-md transition-all flex flex-col justify-between group"
+      >
+        <div class="space-y-2">
+          <div class="flex items-center justify-between text-xs font-black text-[#D97706]">
+            <span class="flex items-center gap-1.5">🍞 {isTa ? 'அன்றாட அப்பம் (Everyday Bread)' : 'Everyday Bread'}</span>
+            <span class="group-hover:translate-x-1 transition-transform">↗</span>
+          </div>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? 'தினசரி ஆன்மீக நற்சிந்தனைகள், மன அமைதி மற்றும் வாழ்வியல் ஊக்கமளிக்கும் செய்திகள்.'
+              : 'Daily spiritual reflections, inspirational bread of life, and uplifting messages for faith and daily encouragement.'}
+          </p>
+        </div>
+        <span class="text-[11px] font-bold text-[#D97706] mt-3 inline-block">everydaybread.netlify.app</span>
+      </a>
+
+      <!-- 8. EnglishPesalaam -->
+      <a
+        href="https://englishpesalaam.blogspot.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-indigo-500 hover:shadow-md transition-all flex flex-col justify-between group"
+      >
+        <div class="space-y-2">
+          <div class="flex items-center justify-between text-xs font-black text-indigo-600 dark:text-indigo-400">
+            <span class="flex items-center gap-1.5">🗣️ {isTa ? 'இங்கிலீஷ் பேசலாம் (EnglishPesalaam)' : 'EnglishPesalaam'}</span>
+            <span class="group-hover:translate-x-1 transition-transform">↗</span>
+          </div>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? 'இலவச உரையாடல் ஆங்கிலப் பயிற்சி கூடம்: 180+ நிஜ வாழ்க்கைச் சூழல்கள், 2,100+ வினாடி வினாக்கள் மற்றும் AI பயிற்சி.'
+              : 'Free conversational English & pronunciation lab featuring 180+ real-life scenarios, 2,100+ quizzes, and 24/7 AI practice.'}
+          </p>
+        </div>
+        <span class="text-[11px] font-bold text-indigo-600 dark:text-indigo-400 mt-3 inline-block">englishpesalaam.blogspot.com</span>
+      </a>
+
+      <!-- 9. Packiam Web Directory (OER) -->
+      <a
+        href="https://packiam.wordpress.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="p-5 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-violet-500 hover:shadow-md transition-all flex flex-col justify-between group"
+      >
+        <div class="space-y-2">
+          <div class="flex items-center justify-between text-xs font-black text-violet-600 dark:text-violet-400">
+            <span class="flex items-center gap-1.5">📚 {isTa ? 'பாக்கியம் இணையக் களஞ்சியம் (OER)' : 'Packiam Web Directory (OER)'}</span>
+            <span class="group-hover:translate-x-1 transition-transform">↗</span>
+          </div>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? '2008 முதல் செயல்பட்டு வரும் 6,000+ திறந்த கல்வி வளங்களின் (OER) பிரம்மாண்ட இணையக் களஞ்சியம்.'
+              : 'A large, free directory of Open Educational Resources (OER) built since 2008, with 6000+ curated web links for educators.'}
+          </p>
+        </div>
+        <span class="text-[11px] font-bold text-violet-600 dark:text-violet-400 mt-3 inline-block">packiam.wordpress.com</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- SECTION: Contact Info Footer Banner -->
+  <section id="contact-info" class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] text-center space-y-4">
+    <div class="w-12 h-12 rounded-2xl bg-[#D97706]/15 text-[#D97706] flex items-center justify-center text-2xl mx-auto">
+      ✉️
+    </div>
+    <div class="space-y-1">
+      <h3 class="text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+        {isTa ? 'தொடர்பு கொள்ள' : 'Get in Touch'}
+      </h3>
+      <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] max-w-lg mx-auto">
+        {isTa
+          ? 'கருத்துகள், ஆலோசனைகள் அல்லது பயிலரங்கு பயிற்சிகளுக்கு எங்களைத் தொடர்பு கொள்ளவும்:'
+          : 'For collaborations, institutional training, or feedback, reach out to our editorial team:'}
+      </p>
+    </div>
+    <div class="flex flex-wrap items-center justify-center gap-3 pt-2">
+      <a
+        href="mailto:rosaryesolutions@gmail.com"
+        class="px-5 py-2.5 rounded-full bg-[#D97706] hover:bg-[#B45309] text-white font-bold text-xs shadow transition-all flex items-center gap-2"
+      >
+        <span>📧 rosaryesolutions@gmail.com</span>
+      </a>
+      <a
+        href={`/${currentLang}/collections/`}
+        class="px-5 py-2.5 rounded-full bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] font-bold text-xs shadow-2xs transition-all flex items-center gap-2"
+      >
+        <span>📖</span>
+        <span>{isTa ? '2,448+ கதைகளை வாசிக்க' : 'Explore 2,448+ Stories'}</span>
+      </a>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,615 @@
+---
+interface Props {
+  currentLang: string;
+}
+
+const { currentLang } = Astro.props;
+const isTa = currentLang === 'ta';
+---
+
+<div class="max-w-5xl mx-auto space-y-12">
+  <!-- Hero Header -->
+  <header class="text-center space-y-4 max-w-3xl mx-auto">
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#D97706]/10 text-[#D97706] text-xs font-black tracking-wide uppercase">
+      <span>📬</span> {isTa ? 'நேரடித் தொடர்பு & கல்வி ஒத்துழைப்பு' : 'Direct Communication & Collaboration'}
+    </div>
+    <h1 class="text-3xl sm:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-tight">
+      {isTa ? 'எஸ். எட்வர்ட் பாக்கியராஜ் & Daily Tale ஆசிரியர் குழுவைத் தொடர்பு கொள்ள' : 'Get in Touch with Dr. S. Edward Packiaraj & Daily Tale'}
+    </h1>
+    <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+      {isTa
+        ? 'வகுப்பறைப் பாட வளங்களைத் தேடும் ஆசிரியர்கள், பண்பாட்டு வழக்காறுகளைப் பகிர்ந்துகொள்ளும் பெற்றோர்கள், ஆய்வாளர்கள் அல்லது கல்வி ஊடகத் திட்டங்களில் இணைந்திருக்க விரும்புவோர் என அனைவரது கருத்துகளையும் மனதார வரவேற்கிறோம்.'
+        : 'Whether you are an educator seeking classroom materials, a parent sharing feedback, an academic researcher, or exploring partnerships with our educational media initiatives — we welcome your message with open arms.'}
+    </p>
+  </header>
+
+  <!-- SECTION: About the Founder Spotlight Card -->
+  <section id="about-the-founder" class="relative overflow-hidden rounded-3xl bg-linear-to-br from-[#FFF8EC] via-white to-[#FDF4E7] dark:from-[#25243E] dark:via-[#1E1D36] dark:to-[#17162B] border-2 border-[#EEDFC8] dark:border-[#383659] p-6 sm:p-10 shadow-lg space-y-6">
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-6 sm:gap-8">
+      <!-- Avatar / Icon badge -->
+      <div class="shrink-0 flex flex-col items-center text-center space-y-3">
+        <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-linear-to-br from-[#D97706] to-[#B45309] text-white flex items-center justify-center text-4xl sm:text-5xl shadow-md border-4 border-white dark:border-[#25243E]">
+          🎓
+        </div>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          Active Responder
+        </span>
+      </div>
+
+      <!-- Founder Bio & Direction -->
+      <div class="space-y-4 text-center md:text-left flex-1">
+        <div>
+          <div class="text-xs font-bold text-[#D97706] tracking-wider uppercase">
+            {isTa ? 'நிறுவனர் & கல்விக் கட்டமைப்பாளர்' : 'Founder & Educational Architect'}
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-black text-[#3B2A1A] dark:text-[#F3EBDD] mt-0.5">
+            {isTa ? 'நிறுவனர் பற்றி — ' : 'About the Founder — '}
+            <a href="https://edwardpackiaraj.blogspot.com/" target="_blank" rel="noopener noreferrer" class="hover:text-[#D97706] underline decoration-[#D97706]/50">
+              {isTa ? 'எஸ். எட்வர்ட் பாக்கியராஜ்' : 'Edward Packiaraj'}
+            </a>
+          </h2>
+          <p class="text-xs sm:text-sm font-semibold text-[#0F766E] dark:text-[#2DD4BF] mt-1">
+            (M.Com., M.Phil., B.Ed., BLIS., PGDBA., PGDCA.)
+          </p>
+          <p class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mt-0.5">
+            {isTa
+              ? 'கல்வி ஊடகத் தொழில்நுட்ப ஆலோசகர், ரோசரி இ-சொல்யூஷன்ஸ், திருச்சி'
+              : 'Consultant – Educational Media Technologies, Rosary e-Solutions, Trichy'}
+          </p>
+        </div>
+
+        {isTa ? (
+          <div class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed space-y-3">
+            <p>
+              கல்வித் தொழில்நுட்பம், திரைக்கதை எழுதுதல், கற்பித்தல் ஆடியோ உருவாக்கம் மற்றும் எண்ணிமப் பாடத்திட்ட வடிவமைப்பில் இருபது ஆண்டுகளுக்கும் மேலான அனுபவத்துடன், பல்வேறு பின்னணிகளைக் கொண்ட கற்போருக்கும் உயர்தரக் கல்வி வளங்களையும் எண்ணிமக் கருவிகளையும் கொண்டு சேர்ப்பதில் <strong>எட்வர்ட் பாக்கியராஜ்</strong> அர்ப்பணிப்புடன் செயல்பட்டு வருகிறார்.
+            </p>
+            <p>
+              அவரது தொழில்முறைப் பயணத்தில் <strong>அகில இந்திய வானொலி (AIR)</strong>, <strong>இந்திரா காந்தி தேசிய திறந்தநிலை பல்கலைக்கழகத்தின் ஞானவாணி எஃப்எம் (IGNOU GyanVani FM)</strong>, மற்றும் <strong>பாரதிதாசன் பல்கலைக்கழகத்தின் கல்வித் தொழில்நுட்பத் துறை</strong> ஆகியவற்றின் வாயிலாக ஆற்றிய வானொலி ஒலிபரப்பு மற்றும் கல்வி ஊடகப் பங்களிப்புகள் அடங்கும். இத்தகைய பன்முக அனுபவத்தின் அடிப்படையில், தகவல் தொடர்பு, கற்பித்தல் வடிவமைப்பு மற்றும் வளர்ந்து வரும் தொழில்நுட்பங்களை இணைத்து ஆழமான மற்றும் ஈர்க்கக்கூடிய கற்றல் அனுபவங்களை உருவாக்குகிறார்.
+            </p>
+            <p>
+              ஒரு சுயாதீனப் படைப்பாளராகவும் மென்பொருள் உருவாக்குநராகவும், மக்கள் எளிதாகக் கற்கவும், படைக்கவும், பணியாற்றவும் உதவும் <strong>இலவச எண்ணிமக் கருவிகளையும் வலைத்தளப் பயன்பாடுகளையும்</strong> அவர் வடிவமைத்து வழங்கி வருகிறார். தொழில்நுட்பத் தடைகளைக் குறைத்து, அனைவருக்கும் பயனுள்ள எண்ணிம வளங்கள் இலவசமாகக் கிடைப்பதை உறுதி செய்வதே இவரது முக்கிய நோக்கமாகும்.
+            </p>
+            <p>
+              <strong>திறந்த கல்வி வளங்களின் (OER - Open Educational Resources)</strong> தீவிர ஆதரவாளரான எட்வர்ட், கல்வியை மறுசீரமைக்கவும் அறிவுக்கான வாய்ப்புகளை விரிவாக்கவும் <strong>செயற்கை நுண்ணறிவு (AI), மின்-கற்றல் (e-learning) மற்றும் எண்ணிம உள்ளடக்க உருவாக்கம்</strong> ஆகியவற்றைப் பயன்படுத்துவதில் மிகுந்த ஆர்வம் கொண்டவர்.
+            </p>
+            <p>
+              கட்டணச் சுவர்கள், சந்தாக் கட்டணங்கள் அல்லது பயனர்களின் தரவைக் கண்காணிக்கும் நிரல்கள் ஏதுமின்றி, அனைவரையும் உள்ளடக்கிய, மாணவர் மைய எண்ணிம கற்றல் சூழல்களையும் இலவசக் கருவிகளையும் உருவாக்குவதே இவரது தொலைநோக்குப் பார்வையாகும்.
+            </p>
+            <p>
+              தமது அரிய பணிகளின் வாயிலாக, தரமான கல்வியும் பயனுள்ள தொழில்நுட்பமும் திறந்ததாகவும், எளிதில் அணுகக்கூடியதாகவும், சுவாரஸ்யமானதாகவும், அனைவருக்கும் கிடைக்கக்கூடியதாகவும் இருக்க வேண்டும் என்ற உயரிய இலட்சியத்தை அவர் தொடர்ந்து முன்னெடுத்து வருகிறார்.
+            </p>
+          </div>
+        ) : (
+          <div class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed space-y-3">
+            <p>
+              With over two decades of experience in educational technology, scriptwriting, instructional audio production, and digital curriculum development, <strong>Edward Packiaraj</strong> is dedicated to making quality educational resources and digital tools accessible to learners from diverse backgrounds.
+            </p>
+            <p>
+              His professional journey includes broadcasting and educational media contributions with <strong>All India Radio (AIR)</strong>, <strong>IGNOU GyanVani FM</strong>, and the <strong>Department of Educational Technology at Bharathidasan University</strong>. Drawing on this multidisciplinary experience, he combines communication, instructional design, and emerging technologies to create meaningful and engaging learning experiences.
+            </p>
+            <p>
+              As an independent creator and developer, he also designs and develops <strong>free digital tools and web-based utilities</strong> that help people learn, create, and work more effectively. His focus is on building practical, accessible solutions that reduce barriers to technology and make useful digital resources available to everyone.
+            </p>
+            <p>
+              A strong advocate of <strong>Open Educational Resources (OER)</strong>, Edward is passionate about harnessing <strong>Artificial Intelligence, e-learning, and digital content development</strong> to transform education and expand access to knowledge.
+            </p>
+            <p>
+              His vision is to build inclusive, learner-centred digital learning environments and freely accessible tools—without paywalls, subscription fees, or intrusive data tracking.
+            </p>
+            <p>
+              Through his work, he continues to champion the idea that quality education and useful technology should be open, accessible, engaging, and available to all.
+            </p>
+          </div>
+        )}
+
+        <!-- Founder Quick Badges & Profile Link -->
+        <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 pt-2 text-xs">
+          <span class="px-3 py-1 rounded-xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">
+            📍 Tamil Nadu, India
+          </span>
+          <span class="px-3 py-1 rounded-xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">
+            📻 22+ Yrs Educational Media
+          </span>
+          <span class="px-3 py-1 rounded-xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">
+            🌐 10-Language OER Ecosystem
+          </span>
+          <a
+            href="https://edwardpackiaraj.blogspot.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-3.5 py-1 rounded-xl bg-[#D97706] hover:bg-[#B45309] text-white font-bold transition-all inline-flex items-center gap-1"
+          >
+            <span>{isTa ? 'முழு விவரக்குறிப்பு & வலைப்பதிவு' : 'Full Blog & Portfolio'}</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Contact Action Cards (3-column grid) -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+    <!-- Direct Email Card -->
+    <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm flex flex-col justify-between hover:border-[#D97706] hover:shadow-md transition-all">
+      <div class="space-y-3">
+        <div class="w-12 h-12 rounded-2xl bg-[#D97706]/15 flex items-center justify-center text-2xl text-[#D97706]">
+          ✉️
+        </div>
+        <h3 class="font-black text-lg text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'மின்னஞ்சல்' : 'Direct Email'}
+        </h3>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'ஆராய்ச்சி விசாரணைகள், பள்ளி வகுப்பறைத் திட்டங்கள், உள்ளடக்கப் பரிந்துரைகள் அல்லது நேர்காணல்களுக்கு.'
+            : 'For research inquiries, school collaborations, content suggestions, or media interviews.'}
+        </p>
+        <div class="font-mono text-sm font-bold text-[#D97706] break-all">
+          edpackiaraj@gmail.com
+        </div>
+      </div>
+      <div class="pt-5 mt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
+        <a
+          href="mailto:edpackiaraj@gmail.com?subject=Inquiry%20from%20Daily%20Tale%20Reader"
+          class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl bg-[#D97706] text-white font-bold text-xs shadow hover:bg-[#B45309] transition-all"
+        >
+          {isTa ? 'மின்னஞ்சல் அனுப்புக →' : 'Send Direct Email →'}
+        </a>
+      </div>
+    </div>
+
+    <!-- WhatsApp & Phone Card -->
+    <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm flex flex-col justify-between hover:border-emerald-500 hover:shadow-md transition-all">
+      <div class="space-y-3">
+        <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 flex items-center justify-center text-2xl text-emerald-600">
+          💬
+        </div>
+        <h3 class="font-black text-lg text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'வாட்ஸ்அப் & தொலைபேசி' : 'WhatsApp & Phone'}
+        </h3>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'ஆசிரியர்கள் மற்றும் கல்வியாளர்களுக்கான உடனடி செய்தித் தொடர்பு. திங்கள்–சனி (IST).'
+            : 'Instant messaging for teachers, educators, and rapid academic queries. Mon–Sat (IST).'}
+        </p>
+        <div class="font-mono text-sm font-bold text-emerald-700 dark:text-emerald-400">
+          +91 9786424927
+        </div>
+      </div>
+      <div class="pt-5 mt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 flex gap-2">
+        <a
+          href="https://wa.me/919786424927?text=Hello%20Dr.%20Edward%2C%20I%20am%20reaching%20out%20via%20Daily%20Tale"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center justify-center flex-1 py-2.5 px-3 rounded-xl bg-emerald-600 text-white font-bold text-xs shadow hover:bg-emerald-700 transition-all"
+        >
+          WhatsApp ↗
+        </a>
+        <a
+          href="tel:+919786424927"
+          class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl border border-emerald-600 text-emerald-700 dark:text-emerald-400 font-bold text-xs hover:bg-emerald-50 dark:hover:bg-[#1E1D36] transition-all"
+        >
+          {isTa ? 'அழைப்பு' : 'Call'}
+        </a>
+      </div>
+    </div>
+
+    <!-- Turnaround & Grievance Card -->
+    <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm flex flex-col justify-between hover:border-[#0F766E] hover:shadow-md transition-all">
+      <div class="space-y-3">
+        <div class="w-12 h-12 rounded-2xl bg-[#0F766E]/15 flex items-center justify-center text-2xl text-[#0F766E]">
+          🛡️
+        </div>
+        <h3 class="font-black text-lg text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'சட்டரீதியான குறைதீர்ப்பு' : 'Statutory Grievance'}
+        </h3>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'குழந்தைகள் பாதுகாப்பு, பதிப்புரிமைக் கேள்விகள் மற்றும் தரவுப் பாதுகாப்புக்கான சிறப்புப் பிரிவு.'
+            : 'Dedicated desk for child safety, copyright remarks, content verification, and data queries.'}
+        </p>
+        <div class="text-xs text-[#0F766E] dark:text-[#2DD4BF] font-semibold space-y-1">
+          <div>⚡ {isTa ? 'பதில் காலம்: 24 முதல் 48 மணி நேரம்' : 'Turnaround: 24 to 48 hours'}</div>
+          <div>👤 {isTa ? 'அதிகாரி: முனைவர் எஸ். எட்வர்ட் பாக்கியராஜ்' : 'Officer: Dr. S. Edward Packiaraj'}</div>
+        </div>
+      </div>
+      <div class="pt-5 mt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
+        <a
+          href="mailto:edpackiaraj@gmail.com?subject=Statutory%20Grievance%20Notice%20-%20Daily%20Tale"
+          class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl border border-[#0F766E] text-[#0F766E] dark:text-[#2DD4BF] font-bold text-xs hover:bg-[#0F766E]/10 transition-all"
+        >
+          {isTa ? 'புகார் மனு அனுப்புக →' : 'File Grievance Notice →'}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Educational Ecosystem / Sister Projects Showcase -->
+  <div class="space-y-6 pt-4">
+    <div class="text-center space-y-2">
+      <span class="text-xs font-black uppercase tracking-wider text-[#D97706]">
+        {isTa ? 'எமது திறந்த கல்விச் சூழலியல்' : 'Our Open Educational Ecosystem'}
+      </span>
+      <h2 class="text-2xl sm:text-3xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+        {isTa ? 'எமது பிற கல்வித் தளங்களையும் கருவிகளையும் காண்க' : 'Explore Our Sister Learning Platforms & Digital Resources'}
+      </h2>
+      <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] max-w-2xl mx-auto">
+        {isTa
+          ? 'எஸ். எட்வர்ட் பாக்கியராஜ் அவர்கள் மாணவர்கள், ஆசிரியர்கள் மற்றும் வாசகர்களுக்காக உருவாக்கிய 100% இலவச திறந்த கல்விக் களங்கள்:'
+          : 'S. Edward Packiaraj designs and curates interconnected, 100% free educational and spiritual initiatives serving students, teachers, and seekers worldwide.'}
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- 1. Edward Packiaraj Personal Blog & Portfolio -->
+      <div class="p-6 sm:p-8 rounded-3xl bg-linear-to-br from-[#FFF8EC] via-white to-amber-50/40 dark:from-[#25243E] dark:via-[#1E1D36] dark:to-[#25243E] border-2 border-amber-300 dark:border-amber-500/40 hover:border-[#D97706] hover:shadow-xl transition-all flex flex-col justify-between space-y-5">
+        <div class="space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="px-3 py-1 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] font-bold text-xs">
+              🎓 Personal Blog &amp; Portfolio
+            </span>
+            <span class="text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">Founder</span>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+            S. Edward Packiaraj
+          </h3>
+          <p class="text-xs font-bold text-[#D97706]">
+            Consultant – Educational Media Technologies, Rosary e-Solutions, Trichy
+          </p>
+          <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? 'எஸ். எட்வர்ட் பாக்கியராஜ் அவர்களின் தொழில்முறை சுயவிவரம், சிறப்புச் சொற்பொழிவுகள், கல்வித் தொழில்நுட்பக் கட்டுரைகள், மின்-உள்ளடக்க முறைகள் மற்றும் தனிப்பட்ட ஆலோசனைகள் அடங்கிய அதிகாரப்பூர்வ வலைப்பதிவு.'
+              : 'Official blog, academic portfolio, and insights on educational technology, AI tools, e-content creation, instructional design, and professional consultancy by Dr. S. Edward Packiaraj.'}
+          </p>
+          <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#6B5644] dark:text-[#C8BFAF]">
+            <span class="px-2.5 py-1 rounded-lg bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">22+ Yrs Broadcasting</span>
+            <span class="px-2.5 py-1 rounded-lg bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">17+ Yrs EdTech</span>
+            <span class="px-2.5 py-1 rounded-lg bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">250+ Lectures</span>
+          </div>
+        </div>
+        <div class="pt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
+          <a
+            href="https://edwardpackiaraj.blogspot.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-between w-full py-3 px-5 rounded-2xl bg-[#D97706] hover:bg-[#B45309] text-white font-bold text-xs sm:text-sm shadow transition-all"
+          >
+            <span>{isTa ? 'வலைப்பதிவைக் காண்க (edwardpackiaraj.blogspot.com)' : 'Visit edwardpackiaraj.blogspot.com'}</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- 2. Packiam Web Directory (OER) -->
+      <div class="p-6 sm:p-8 rounded-3xl bg-linear-to-br from-purple-50/50 via-white to-purple-100/30 dark:from-[#25243E] dark:via-[#1E1D36] dark:to-[#25243E] border-2 border-purple-300 dark:border-purple-500/40 hover:border-purple-600 hover:shadow-xl transition-all flex flex-col justify-between space-y-5">
+        <div class="space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="px-3 py-1 rounded-full bg-purple-500/15 text-purple-700 dark:text-purple-400 font-bold text-xs">
+              📚 Open Educational Resources
+            </span>
+            <span class="text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">Since 2008</span>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+            Packiam Web Directory (OER)
+          </h3>
+          <p class="text-xs font-bold text-purple-600 dark:text-purple-400">
+            6,000+ Curated Open Educational Resources for Global Learning
+          </p>
+          <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? '2008 முதல் தொடர்ந்து செயல்பட்டு வரும் பிரம்மாண்டமான திறந்த கல்வி வளக் களஞ்சியம். ஆசிரியர்கள், பேராசிரியர்கள், ஆய்வாளர்கள் மற்றும் மாணவர்களுக்கான 6,000-க்கும் மேற்பட்ட தேர்ந்தெடுக்கப்பட்ட பயனுள்ள கல்வி வலை இணைப்புகள்.'
+              : 'A landmark digital directory of Open Educational Resources (OER) curated actively since 2008, featuring over 6,000 hand-picked web links across disciplines for educators, professors, researchers, and students.'}
+          </p>
+          <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#6B5644] dark:text-[#C8BFAF]">
+            <span class="px-2.5 py-1 rounded-lg bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">6,000+ Links</span>
+            <span class="px-2.5 py-1 rounded-lg bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Free OER</span>
+            <span class="px-2.5 py-1 rounded-lg bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Higher Education</span>
+          </div>
+        </div>
+        <div class="pt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
+          <a
+            href="https://packiam.wordpress.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-between w-full py-3 px-5 rounded-2xl bg-purple-600 hover:bg-purple-700 text-white font-bold text-xs sm:text-sm shadow transition-all"
+          >
+            <span>{isTa ? 'களஞ்சியத்தைக் காண்க (packiam.wordpress.com)' : 'Visit packiam.wordpress.com'}</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- 3. EnglishPesalaam Card -->
+      <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-xl transition-all flex flex-col justify-between space-y-5">
+        <div class="space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="px-3 py-1 rounded-full bg-blue-500/15 text-blue-700 dark:text-blue-400 font-bold text-xs">
+              🗣️ Spoken English &amp; ESL
+            </span>
+            <span class="text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">100% Free OER</span>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+            EnglishPesalaam
+          </h3>
+          <p class="text-xs font-bold text-[#D97706]">
+            Real-World Conversational English &amp; Pronunciation Lab
+          </p>
+          <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? 'இரண்டாம் மொழி கற்போருக்கான உரையாடல் ஆங்கிலப் பயிற்சி கூடம்: 180+ நிஜ வாழ்க்கைச் சூழல்கள், 2,100+ வினாடி வினாக்கள் மற்றும் 24/7 AI உரையாடல் பயிற்சி.'
+              : 'Tailored for ESL learners, college students, and professionals aiming to speak fluent English. Features 180+ situational dialogues, multi-accent audio modules, 2,100+ quizzes, and 24/7 practice.'}
+          </p>
+          <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#6B5644] dark:text-[#C8BFAF]">
+            <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">180+ Scenarios</span>
+            <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">2,100+ Quizzes</span>
+          </div>
+        </div>
+        <div class="pt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
+          <a
+            href="https://englishpesalaam.blogspot.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-between w-full py-3 px-5 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm shadow transition-all"
+          >
+            <span>Visit EnglishPesalaam</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- 4. Vinganam Card -->
+      <div class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-xl transition-all flex flex-col justify-between space-y-5">
+        <div class="space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
+              🔬 Science, Culture &amp; AI Tools
+            </span>
+            <span class="text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">100% Free OER</span>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+            Vinganam
+          </h3>
+          <p class="text-xs font-bold text-emerald-600 dark:text-emerald-400">
+            Science Articles, Free Tools &amp; Packiam AI Suite
+          </p>
+          <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+            {isTa
+              ? 'அறிவியல் கட்டுரைகள், சித்தரியல் ஞானம் மற்றும் கல்வித் தொழில்நுட்பக் கட்டுரைகள். ஆசிரியர்கள் மற்றும் மாணவர்களுக்கான 11 இலவச AI கருவிகள் அடங்கிய தளம்.'
+              : 'Bilingual blog blending science, Tamil culture, and educational technology. Covers scientific mysteries, ancient Siddhar knowledge, and the 11-tool Packiam AI Suite for educators.'}
+          </p>
+          <div class="flex flex-wrap gap-2 pt-2 text-[11px] font-semibold text-[#6B5644] dark:text-[#C8BFAF]">
+            <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">11 Free AI Tools</span>
+            <span class="px-2.5 py-1 rounded-lg bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659]">Science Articles</span>
+          </div>
+        </div>
+        <div class="pt-4 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
+          <a
+            href="https://vinganam.blogspot.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-between w-full py-3 px-5 rounded-2xl bg-[#0F766E] hover:bg-[#115E59] text-white font-bold text-xs sm:text-sm shadow transition-all"
+          >
+            <span>Visit Vinganam</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Interactive Contact Form -->
+  <div class="p-6 sm:p-10 rounded-3xl bg-white dark:bg-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] shadow-md space-y-6">
+    <div class="space-y-2 border-b border-[#EEDFC8] dark:border-[#383659] pb-4">
+      <h2 class="text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+        {isTa ? 'உடனடி செய்தி அல்லது கருத்து அனுப்பவும்' : 'Send an Instant Message or Collaboration Proposal'}
+      </h2>
+      <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+        {isTa
+          ? 'கீழே உள்ள படிவத்தைப் பூர்த்தி செய்யவும். உங்கள் செய்தி உடனடியாக மின்னஞ்சல் வழியாக முனைவர் எஸ். எட்வர்ட் பாக்கியராஜ் அவர்களுக்கு அனுப்பப்படும்.'
+          : 'Fill out the form below. Your message will be formatted and opened in your email client to dispatch directly to Dr. Edward\'s editorial inbox.'}
+      </p>
+    </div>
+
+    <form id="contact-inquiry-form" class="space-y-5 text-xs sm:text-sm">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div>
+          <label for="contact-name" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
+            {isTa ? 'உங்கள் முழுப் பெயர்' : 'Your Full Name'} <span class="text-red-500">*</span>
+          </label>
+          <input
+            id="contact-name"
+            type="text"
+            required
+            placeholder={isTa ? 'எ.கா: பேராசிரியர் ரமேஷ் / பிரியா' : 'e.g., Prof. Sarah Jenkins / Rajesh Kumar'}
+            class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none"
+          />
+        </div>
+
+        <div>
+          <label for="contact-email" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
+            {isTa ? 'உங்கள் மின்னஞ்சல் முகவரி' : 'Your Email Address'} <span class="text-red-500">*</span>
+          </label>
+          <input
+            id="contact-email"
+            type="email"
+            required
+            placeholder="e.g., sarah@university.edu"
+            class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none"
+          />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div>
+          <label for="contact-topic" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
+            {isTa ? 'தொடர்பின் நோக்கம்' : 'Nature of Inquiry'} <span class="text-red-500">*</span>
+          </label>
+          <select
+            id="contact-topic"
+            required
+            class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none font-medium"
+          >
+            <option value="School / Classroom Collaboration">{isTa ? 'பள்ளி / வகுப்பறை ஒத்துழைப்பு' : 'Teacher / School & Classroom Collaboration'}</option>
+            <option value="Educational Technology & OER Research">{isTa ? 'கல்வித் தொழில்நுட்பம் & OER ஆராய்ச்சி' : 'Educational Technology & OER Research'}</option>
+            <option value="Folktale Retelling or Story Contribution">{isTa ? 'நாட்டார் கதைப் பங்களிப்பு' : 'Folktale Retelling or Story Contribution'}</option>
+            <option value="Translation Refinement & Linguistic Feedback">{isTa ? 'மொழிபெயர்ப்புத் திருத்தம் & கருத்துகள்' : 'Translation Refinement & Linguistic Feedback'}</option>
+            <option value="Consulting & Workshops">{isTa ? 'ஆலோசனை & பயிலரங்குகள்' : 'Consulting & Workshops'}</option>
+            <option value="Statutory Grievance & Content Safety">{isTa ? 'குறைதீர்ப்பு & பாதுகாப்பு' : 'Statutory Grievance & Content Safety'}</option>
+            <option value="General Feedback & Reader Greeting">{isTa ? 'பொதுவான கருத்துகள் & வாழ்த்துகள்' : 'General Feedback & Reader Greeting'}</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="contact-phone" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
+            {isTa ? 'வாட்ஸ்அப் / தொலைபேசி எண்' : 'WhatsApp / Phone Number'} <span class="text-xs font-normal text-[#6B5644] dark:text-[#C8BFAF]">({isTa ? 'விருப்பத்திற்குரியது' : 'Optional'})</span>
+          </label>
+          <input
+            id="contact-phone"
+            type="text"
+            placeholder="e.g., +91 98765 43210"
+            class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none"
+          />
+        </div>
+      </div>
+
+      <div>
+        <label for="contact-subject" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
+          {isTa ? 'விசயத்தின் சுருக்கம் (Subject)' : 'Subject Line'} <span class="text-red-500">*</span>
+        </label>
+        <input
+          id="contact-subject"
+          type="text"
+          required
+          placeholder={isTa ? 'உங்கள் செய்தியின் சுருக்கம்' : 'Brief summary of your inquiry or proposal'}
+          class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none"
+        />
+      </div>
+
+      <div>
+        <label for="contact-message" class="block font-bold text-[#3B2A1A] dark:text-[#F3EBDD] mb-1.5">
+          {isTa ? 'விரிவான செய்தி' : 'Your Detailed Message'} <span class="text-red-500">*</span>
+        </label>
+        <textarea
+          id="contact-message"
+          rows="6"
+          required
+          placeholder={isTa ? 'உங்கள் செய்தி, வகுப்பறை விவரங்கள் அல்லது கருத்துகளை இங்கு உள்ளிடவும்...' : 'Please describe how we can assist you, provide classroom details, or elaborate on your feedback...'}
+          class="w-full p-3.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] focus:ring-2 focus:ring-[#D97706] focus:outline-none leading-relaxed"
+        ></textarea>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+          🔒 {isTa ? 'நாங்கள் தனியுரிமையை மதிக்கிறோம். உங்கள் விவரங்கள் பகிரப்படவோ விற்கப்படவோ மாட்டாது.' : 'We respect privacy. Your email is never shared, tracked, or monetized.'}
+        </p>
+        <button
+          type="submit"
+          class="w-full sm:w-auto px-8 py-4 rounded-full bg-[#D97706] hover:bg-[#B45309] text-white font-black text-sm shadow-md transition-all min-h-[48px] flex items-center justify-center gap-2 cursor-pointer"
+        >
+          <span>{isTa ? 'செய்தி அனுப்புக' : 'Dispatch Message'}</span>
+          <span>→</span>
+        </button>
+      </div>
+    </form>
+
+    <div id="contact-status-msg" class="hidden p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-800 dark:text-emerald-300 text-xs sm:text-sm font-semibold">
+    </div>
+  </div>
+
+  <!-- FAQ / Common Queries -->
+  <div class="space-y-4 pt-2">
+    <h2 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+      {isTa ? 'அடிக்கடி கேட்கப்படும் கேள்விகள்' : 'Frequently Asked Collaboration Questions'}
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+      <div class="p-5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] space-y-2">
+        <h3 class="font-bold text-[#D97706]">
+          {isTa ? 'ஆசிரியர்களும் பள்ளிகளும் இக்கதைகளை இலவசமாகப் பயன்படுத்தலாமா?' : 'May teachers and schools use Daily Tale stories for free?'}
+        </h3>
+        <p class="text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'ஆம், நிச்சயமாக! அனைத்துக் கதைகளும், புளூமின் கலந்துரையாடல் வினாக்களும், நீதிநெறிச் சுருக்கங்களும் உலகெங்கிலும் உள்ள பள்ளிகள் மற்றும் வகுப்பறைக் கல்விக்கு 100% இலவசம்.'
+            : 'Yes, absolutely! All stories, Bloom\'s Taxonomy reflection questions, and printable moral summaries are free for non-commercial educational and classroom use worldwide.'}
+        </p>
+      </div>
+      <div class="p-5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] space-y-2">
+        <h3 class="font-bold text-[#D97706]">
+          {isTa ? 'வட்டார நாட்டார் கதைகளைப் பங்களிக்கலாமா அல்லது திருத்தங்கள் கூறலாமா?' : 'Can I contribute regional folktales or suggest corrections?'}
+        </h3>
+        <p class="text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'நாட்டார் வழக்காற்றுக் கதைகள் மற்றும் மொழித் திருத்தங்களை நாங்கள் மகிழ்ச்சியுடன் வரவேற்கிறோம். மேற்கண்ட படிவம் அல்லது எமது கதை அனுப்பும் பக்கத்தைப் பயன்படுத்தலாம்.'
+            : 'We actively welcome contributions of authentic regional folklore retellings and cultural suggestions. Use our form above or submit via our Story Submission page.'}
+        </p>
+      </div>
+      <div class="p-5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] space-y-2">
+        <h3 class="font-bold text-[#D97706]">
+          {isTa ? 'நிறுவனப் பயிலரங்குகள் அல்லது தனிப்பட்ட ஆலோசனைகளுக்கு யாரை அணுகுவது?' : 'How do I request consultancy, faculty workshops, or training?'}
+        </h3>
+        <p class="text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'முனைவர் எஸ். எட்வர்ட் பாக்கியராஜ் அவர்களை நேரடியாக edpackiaraj@gmail.com என்ற மின்னஞ்சல் அல்லது edwardpackiaraj.blogspot.com வழியாகத் தொடர்பு கொள்ளலாம்.'
+            : 'You can reach Dr. S. Edward Packiaraj directly via edpackiaraj@gmail.com or explore his consultancy portfolio at edwardpackiaraj.blogspot.com.'}
+        </p>
+      </div>
+      <div class="p-5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] space-y-2">
+        <h3 class="font-bold text-[#D97706]">
+          {isTa ? 'குறைதீர்ப்பு மனுக்களுக்குப் பதில் காலம் என்ன?' : 'What is the response turnaround for grievance notices?'}
+        </h3>
+        <p class="text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'அனைத்துச் சட்டரீதியான குறைதீர்ப்பு அல்லது பதிப்புரிமை அறிவிப்புகளும் 24 மணி நேரத்திற்குள் அங்கீகரிக்கப்பட்டு முறையான நடவடிக்கை எடுக்கப்படும்.'
+            : 'All statutory grievance or copyright notifications receive formal human acknowledgment within 24 hours and a detailed resolution within 15 working days.'}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  (function initContactForm() {
+    const contactForm = document.getElementById('contact-inquiry-form');
+    const contactStatus = document.getElementById('contact-status-msg');
+    if (!contactForm) return;
+
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const nameInput = document.getElementById('contact-name');
+      const emailInput = document.getElementById('contact-email');
+      const topicSelect = document.getElementById('contact-topic');
+      const phoneInput = document.getElementById('contact-phone');
+      const subjectInput = document.getElementById('contact-subject');
+      const msgInput = document.getElementById('contact-message');
+
+      const name = nameInput ? nameInput.value.trim() : '';
+      const email = emailInput ? emailInput.value.trim() : '';
+      const topic = topicSelect ? topicSelect.value : 'General Inquiry';
+      const phone = phoneInput ? phoneInput.value.trim() : 'Not provided';
+      const subject = subjectInput ? subjectInput.value.trim() : 'Inquiry from Daily Tale';
+      const message = msgInput ? msgInput.value.trim() : '';
+
+      const bodyText = `Name: ${name}
+Email: ${email}
+Topic: ${topic}
+Phone: ${phone}
+
+Message:
+${message}
+
+---
+Dispatched via Daily Tale Contact Page`;
+
+      const mailtoUrl = `mailto:edpackiaraj@gmail.com?subject=${encodeURIComponent(`[Daily Tale] ${topic}: ${subject}`)}&body=${encodeURIComponent(bodyText)}`;
+
+      if (contactStatus) {
+        contactStatus.textContent = `Thank you, ${name}! Opening your email client to dispatch this message directly to Dr. Edward Packiaraj (edpackiaraj@gmail.com)...`;
+        contactStatus.classList.remove('hidden');
+      }
+
+      window.location.href = mailtoUrl;
+    });
+  })();
+</script>
