@@ -12,6 +12,7 @@ import {
   type Story
 } from '../../lib/stories';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryIllustration from '../../components/StoryIllustration.astro';
 
 export function getStaticPaths() {
   return brandConfig.supportedLanguages.map(l => ({
@@ -176,16 +177,7 @@ const recentStories = translatedFirst.slice(0, 16);
 
           <!-- Story Visual (lg:col-span-5) -->
           <div class="lg:col-span-5">
-            <div class="aspect-4/3 rounded-2xl overflow-hidden shadow-xl border-4 border-white dark:border-[#2E2D4D] bg-[#EEDFC8]/30">
-              <img
-                src={todaysStory.image}
-                alt={todaysStory.image_alt || todaysStory.title}
-                width="600"
-                height="450"
-                loading="eager"
-                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-              />
-            </div>
+            <StoryIllustration story={todaysStory} size="hero" lang={currentLang} />
           </div>
 
         </div>
@@ -271,16 +263,7 @@ const recentStories = translatedFirst.slice(0, 16);
               class="group p-3.5 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-md transition-all flex flex-col justify-between"
             >
               <div class="space-y-2">
-                <div class="aspect-16/10 rounded-xl overflow-hidden bg-[#EEDFC8]/30">
-                  <img
-                    src={story.image}
-                    alt={story.title}
-                    width="300"
-                    height="190"
-                    loading="lazy"
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
+                <StoryIllustration story={story} size="compact" lang={currentLang} />
                 <div class="flex items-center justify-between text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
                   <span class="font-bold text-[#D97706]">{story.collection}</span>
                   <span>⏱ {story.reading_time || '2m'}</span>
@@ -369,16 +352,7 @@ const recentStories = translatedFirst.slice(0, 16);
             class="group p-3.5 sm:p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-lg transition-all flex flex-col justify-between"
           >
             <div class="space-y-2.5">
-              <div class="aspect-4/3 rounded-xl overflow-hidden bg-[#EEDFC8]/30">
-                <img
-                  src={story.image}
-                  alt={story.title}
-                  width="400"
-                  height="300"
-                  loading="lazy"
-                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
+              <StoryIllustration story={story} size="card" lang={currentLang} />
 
               <div class="flex items-center justify-between text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
                 <span class="font-bold text-[#D97706] truncate max-w-[55%]">{story.collection}</span>

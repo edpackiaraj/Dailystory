@@ -1,6 +1,7 @@
 ---
 import brandConfig from '../../../../config/brand.json';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import StoryIllustration from '../../../components/StoryIllustration.astro';
 import { getT } from '../../../lib/i18n';
 import {
   getAllReviewedStories,
@@ -171,19 +172,10 @@ const jsonLd = [
           </p>
         </header>
 
-        <!-- Story Illustration -->
-        {story.image && (
-          <div class="relative rounded-3xl overflow-hidden shadow-lg border border-[#EEDFC8] dark:border-[#383659] aspect-16/10 bg-[#EEDFC8]/30">
-            <img
-              src={story.image}
-              alt={story.image_alt || cleanTitle}
-              width="800"
-              height="500"
-              loading="eager"
-              class="w-full h-full object-cover"
-            />
-          </div>
-        )}
+        <!-- Story-Specific Thematic Illustration -->
+        <div class="relative rounded-3xl overflow-hidden shadow-lg border border-[#EEDFC8] dark:border-[#383659]">
+          <StoryIllustration story={story} size="hero" lang={currentLang} />
+        </div>
 
         <!-- Untranslated Story State: Clear Notice + English Edition CTA -->
         {!isTranslated ? (

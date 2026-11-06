@@ -13,6 +13,7 @@ import {
   isStoryTranslated
 } from '../../lib/stories';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryIllustration from '../../components/StoryIllustration.astro';
 
 export function getStaticPaths() {
   const legalKeys = Object.keys(legalData.pages);
@@ -267,16 +268,7 @@ if (view === 'search') {
               data-length={story.length}
             >
               <div class="space-y-2.5">
-                <div class="aspect-4/3 rounded-xl overflow-hidden bg-[#EEDFC8]/30">
-                  <img
-                    src={story.image}
-                    alt={story.title}
-                    width="400"
-                    height="300"
-                    loading="lazy"
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
+                <StoryIllustration story={story} size="card" lang={currentLang} />
 
                 <div class="flex items-center justify-between text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
                   <span class="font-bold text-[#D97706] truncate max-w-[55%]">{story.collection}</span>
