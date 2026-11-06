@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dailytale-cache-v2';
+const CACHE_NAME = 'dailytale-cache-v3';
 const STATIC_ASSETS = [
   '/',
   '/manifest.json',
@@ -30,10 +30,27 @@ self.addEventListener('fetch', (event) => {
   // Ignore admin and API calls
   if (event.request.url.includes('/admin') || event.request.url.includes('/api/')) return;
 
+  // For HTML documents / page navigations: Network-First to guarantee fresh updates
+  const isHtml = event.request.mode === 'navigate' || (event.request.headers.get('accept') && event.request.headers.get('accept').includes('text/html'));
+  if (isHtml) {
+    event.respondWith(
+      fetch(event.request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseToCache = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseToCache));
+          }
+          return networkResponse;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  // For static assets (CSS, JS, images): Cache-First with background revalidation
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
-        // Return cache and refresh in background (stale-while-revalidate)
         fetch(event.request).then((networkResponse) => {
           if (networkResponse && networkResponse.status === 200) {
             caches.open(CACHE_NAME).then((cache) => cache.put(event.request, networkResponse));
@@ -50,11 +67,6 @@ self.addEventListener('fetch', (event) => {
           cache.put(event.request, responseToCache);
         });
         return networkResponse;
-      }).catch(() => {
-        // Fallback for HTML documents when offline
-        if (event.request.headers.get('accept').includes('text/html')) {
-          return caches.match('/');
-        }
       });
     })
   );

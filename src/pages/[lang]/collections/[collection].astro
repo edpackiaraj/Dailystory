@@ -466,10 +466,16 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${colSlu
     });
   }
 
-  // Handle URL hash navigation for direct story anchors (e.g. #akbar-birbal-13-the-boy-who-wanted-to-meet-akbar-ta)
+  // Handle URL hash navigation for direct story anchors (e.g. #akbar-birbal-7-birbal-identifies-the-thief-ta)
   if (window.location.hash) {
-    const rawHash = window.location.hash.slice(1);
-    const targetCard = document.getElementById(rawHash) || document.querySelector(`[data-id="${rawHash}"]`) || document.querySelector(`[data-slug="${rawHash}"]`);
+    const rawHash = decodeURIComponent(window.location.hash.slice(1));
+    const cleanHash = rawHash.replace(/-(ta|hi|en|ml|te|kn|mr|zh)$/i, '');
+    const targetCard = document.getElementById(rawHash) ||
+                       document.getElementById(cleanHash) ||
+                       document.querySelector(`[data-id="${rawHash}"]`) ||
+                       document.querySelector(`[data-id="${cleanHash}"]`) ||
+                       document.querySelector(`[data-slug="${rawHash}"]`) ||
+                       document.querySelector(`[data-slug="${cleanHash}"]`);
     if (targetCard) {
       targetCard.classList.remove('hidden');
       targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
