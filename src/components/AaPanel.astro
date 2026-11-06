@@ -69,17 +69,17 @@ const t = getT(currentLang);
   <!-- 2. Font Style -->
   <div class="space-y-2">
     <span class="text-xs font-semibold text-[#6B5644] dark:text-[#C8BFAF] uppercase tracking-wider">
-      {t.fontFamily}
+      {currentLang === 'ta' ? 'எழுத்துரு' : t.fontFamily}
     </span>
     <div class="grid grid-cols-3 gap-2">
       <button type="button" data-font="serif" class="aa-font-btn min-h-[44px] p-2 rounded-xl border border-[#D97706] bg-[#D97706]/15 text-[#D97706] text-xs font-serif font-bold transition-all">
-        Storybook
+        {currentLang === 'ta' ? 'கதைநடை' : 'Storybook'}
       </button>
       <button type="button" data-font="sans" class="aa-font-btn min-h-[44px] p-2 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-sans font-bold hover:border-[#D97706] transition-all">
-        Clean Sans
+        {currentLang === 'ta' ? 'எளிய வடிவம்' : 'Clean Sans'}
       </button>
-      <button type="button" data-font="dyslexic" class="aa-font-btn min-h-[44px] p-2 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-mono font-bold hover:border-[#D97706] transition-all" title="OpenDyslexic Font for reading ease">
-        Dyslexic
+      <button type="button" data-font="dyslexic" class="aa-font-btn min-h-[44px] p-2 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-mono font-bold hover:border-[#D97706] transition-all" title={currentLang === 'ta' ? 'தெளிவான வாசிப்பு எழுத்துரு' : 'High legibility font for reading ease'}>
+        {currentLang === 'ta' ? 'தெளிவு வடிவம்' : 'Dyslexic'}
       </button>
     </div>
   </div>
@@ -91,13 +91,13 @@ const t = getT(currentLang);
     </span>
     <div class="grid grid-cols-3 gap-2">
       <button type="button" data-spacing="1.6" class="aa-spacing-btn min-h-[44px] p-2 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold hover:border-[#D97706] transition-all">
-        Normal
+        {currentLang === 'ta' ? 'இயல்பானது' : 'Normal'}
       </button>
       <button type="button" data-spacing="1.8" class="aa-spacing-btn min-h-[44px] p-2 rounded-xl border border-[#D97706] bg-[#D97706]/15 text-[#D97706] text-xs font-bold transition-all">
-        Relaxed
+        {currentLang === 'ta' ? 'தாராளமானது' : 'Relaxed'}
       </button>
       <button type="button" data-spacing="2.1" class="aa-spacing-btn min-h-[44px] p-2 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold hover:border-[#D97706] transition-all">
-        Spacious
+        {currentLang === 'ta' ? 'விரிவானது' : 'Spacious'}
       </button>
     </div>
   </div>

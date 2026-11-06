@@ -196,6 +196,18 @@ const defaultJsonLd = [
         font-feature-settings: "cv02", "cv03", "cv04", "cv11";
       }
 
+      body.font-serif-reading .story-reading-content {
+        font-family: 'Fraunces', Georgia, serif;
+      }
+      body.font-sans-reading .story-reading-content {
+        font-family: 'Noto Sans', system-ui, sans-serif;
+      }
+      body.font-dyslexic .story-reading-content {
+        font-family: 'Noto Sans Tamil', 'Noto Sans', sans-serif;
+        letter-spacing: 0.035em;
+        word-spacing: 0.08em;
+      }
+
       /* In General Mode: Strictly hide moral/life lesson, vocabulary, comprehension quiz, and discussion questions */
       html:not([data-mode="school"]) .pedagogy-learning-suite,
       html:not([data-mode="school"]) .school-mode-only,

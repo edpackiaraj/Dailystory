@@ -233,7 +233,7 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${colSlu
         <input
           type="search"
           id="collection-search-input"
-          placeholder={`Search within ${rawCollection}...`}
+          placeholder={currentLang === 'ta' ? `${displayCollectionName} தொகுப்பில் தேடுக...` : `Search within ${rawCollection}...`}
           class="w-full pl-10 pr-4 py-3 rounded-2xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-sm text-[#3B2A1A] dark:text-[#F3EBDD] placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#D97706] transition-all"
         />
       </div>
@@ -368,6 +368,16 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${colSlu
 </BaseLayout>
 
 <script is:inline>
+  // Forward legacy hash URLs (e.g. #akbar-birbal-7-birbal-identifies-the-thief-ta) directly to canonical story page
+  if (window.location.hash) {
+    const rawHash = window.location.hash.replace(/^#/, '');
+    const cleanHash = rawHash.replace(/-ta$/, '').replace(/-[a-z]{2}$/, '');
+    const targetLink = document.querySelector(`article[data-slug*="${cleanHash}"] h2 a, article[data-id*="${cleanHash}"] h2 a`);
+    if (targetLink && targetLink.href) {
+      window.location.replace(targetLink.href);
+    }
+  }
+
   // Filter & Search & Load-More Logic
   let activeAudience = 'all';
   let activeLength = 'all';

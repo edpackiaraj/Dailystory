@@ -71,6 +71,23 @@ const audienceKey = getAudienceCategory(story.age_group);
 const audienceLabel = audienceKey === 'kids' ? t.kids : (audienceKey === 'teens' ? t.teens : t.everyone);
 const canonicalUrl = `${brandConfig.siteUrl}/${lang}/${colSlug}/${story.slug}/`;
 
+const cultureRegionsMap: Record<string, string> = {
+  "India": "பாரதப் பாரம்பரியம்",
+  "Ancient India": "பண்டைய பாரதம்",
+  "Greece": "பண்டைய கிரேக்கம்",
+  "Ancient Greece": "பண்டைய கிரேக்கம்",
+  "Middle East": "மத்திய கிழக்கு",
+  "Germany": "ஜெர்மன் நாட்டார் மரபு",
+  "Denmark": "டென்மார்க் இலக்கியம்",
+  "France": "பிரெஞ்சுப் பாரம்பரியம்",
+  "Arabia": "அரேபியப் பாரம்பரியம்",
+  "Global": "உலக நாட்டார் கதைகள்"
+};
+const localizedCulture = (currentLang === 'ta' && story.culture_region) ? (cultureRegionsMap[story.culture_region] || story.culture_region) : story.culture_region;
+const localizedReadingTime = (currentLang === 'ta' && story.reading_time)
+  ? String(story.reading_time).replace('min', 'நிமிடம்').replace('m', ' நிமிடம்')
+  : (story.reading_time || (currentLang === 'ta' ? '4 நிமிடம்' : '4 min'));
+
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -151,11 +168,11 @@ const jsonLd = [
               {audienceLabel}
             </span>
             <span class="text-[#6B5644] dark:text-[#C8BFAF]">
-              ⏱ {story.reading_time || '4 min'}
+              ⏱ {localizedReadingTime}
             </span>
-            {story.culture_region && (
+            {localizedCulture && (
               <span class="text-[#6B5644] dark:text-[#C8BFAF]">
-                • {story.culture_region}
+                • {localizedCulture}
               </span>
             )}
           </div>
@@ -243,14 +260,14 @@ const jsonLd = [
               <!-- Mobile Natural Voice Selector -->
               <div class="flex items-center gap-2 pt-1 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
                 <span class="text-[11px] font-bold text-[#6B5644] dark:text-[#C8BFAF] shrink-0 flex items-center gap-1">
-                  <span>🎙️</span> Voice:
+                  <span>🎙️</span> {lang === 'ta' ? 'குரல் தெரிவு:' : 'Voice:'}
                 </span>
                 <select
                   id="mobile-voice-select"
                   class="w-full px-2.5 py-1.5 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-xs font-medium text-[#3B2A1A] dark:text-[#F3EBDD] focus:outline-none focus:ring-1 focus:ring-[#0F766E]"
-                  aria-label="Select Narration Voice"
+                  aria-label={lang === 'ta' ? 'வாசிக்கும் குரலைத் தேர்ந்தெடுக்கவும்' : 'Select Narration Voice'}
                 >
-                  <option value="">Auto-Detect Natural Voice</option>
+                  <option value="">{lang === 'ta' ? 'இயற்கையான குரல் (தானியங்கி)' : 'Auto-Detect Natural Voice'}</option>
                 </select>
               </div>
             </div>
@@ -292,7 +309,11 @@ const jsonLd = [
                     <span id="share-classroom-text">{t.copyClassLink || "Copy Class Link"}</span>
                   </button>
                   <a
-                    href={`https://api.whatsapp.com/send?text=${encodeURIComponent(`📚 Classroom Story: ${story.title}\nRead the story and answer the quiz here:\n${canonicalUrl}`)}`}
+                    href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
+                      lang === 'ta'
+                        ? `📚 வகுப்பறைக் கதை: ${story.title}\nகதையை வாசித்து வினாடி வினாவிற்கு விடையளிக்கவும்:\n${canonicalUrl}`
+                        : `📚 Classroom Story: ${story.title}\nRead the story and answer the quiz here:\n${canonicalUrl}`
+                    )}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     class="px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold transition-all flex items-center justify-center gap-1.5 shadow-xs min-h-[36px]"
@@ -304,7 +325,7 @@ const jsonLd = [
                     href={`/${currentLang}/classroom/`}
                     class="px-3.5 py-2 rounded-xl border border-teal-600 text-teal-700 dark:text-teal-300 hover:bg-teal-600/10 font-bold transition-all flex items-center justify-center gap-1 min-h-[36px]"
                   >
-                    <span>Desk</span>
+                    <span>{lang === 'ta' ? 'மேசை' : 'Desk'}</span>
                     <span>→</span>
                   </a>
                 </div>
@@ -436,7 +457,11 @@ const jsonLd = [
           <div class="flex items-center gap-2 text-xs font-bold">
             <span class="text-[#6B5644] dark:text-[#C8BFAF]">{t.share}:</span>
             <a
-              href={`https://api.whatsapp.com/send?text=${encodeURIComponent(story.title + ' - Read on Daily Tale: ' + canonicalUrl)}`}
+              href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
+                lang === 'ta'
+                  ? `${cleanTitle} – தினம் ஒரு கதையில் வாசியுங்கள்: ${canonicalUrl}`
+                  : `${cleanTitle} - Read on Daily Tale: ${canonicalUrl}`
+              )}`}
               target="_blank"
               rel="noopener noreferrer"
               class="p-2.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] hover:border-green-600 hover:text-green-600 transition-all flex items-center justify-center min-w-[44px] min-h-[44px]"
@@ -521,9 +546,9 @@ const jsonLd = [
           <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-4">
             <div class="flex items-center justify-between">
               <span class="text-xs font-bold uppercase tracking-wider text-[#0F766E] dark:text-[#2DD4BF] flex items-center gap-1.5">
-                <span>🎧</span> Audio Narration
+                <span>🎧</span> {lang === 'ta' ? 'ஒலி வடிவம்' : 'Audio Narration'}
               </span>
-              <span id="desktop-audio-status" class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">Ready</span>
+              <span id="desktop-audio-status" class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">{lang === 'ta' ? 'தயார்' : 'Ready'}</span>
             </div>
 
             <button
@@ -539,18 +564,18 @@ const jsonLd = [
             <div class="space-y-1.5 pt-1">
               <div class="flex items-center justify-between text-xs">
                 <span class="text-[#6B5644] dark:text-[#C8BFAF] font-semibold flex items-center gap-1">
-                  <span>🎙️</span> Natural Voice:
+                  <span>🎙️</span> {lang === 'ta' ? 'இயற்கையான குரல்:' : 'Natural Voice:'}
                 </span>
                 <span id="desktop-voice-badge" class="px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">
-                  ✨ Natural
+                  ✨ {lang === 'ta' ? 'இயற்கை' : 'Natural'}
                 </span>
               </div>
               <select
                 id="desktop-voice-select"
                 class="w-full px-3 py-2 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-xs font-medium text-[#3B2A1A] dark:text-[#F3EBDD] focus:outline-none focus:ring-2 focus:ring-[#0F766E]"
-                aria-label="Select Narration Voice"
+                aria-label={lang === 'ta' ? 'வாசிக்கும் குரலைத் தேர்ந்தெடுக்கவும்' : 'Select Narration Voice'}
               >
-                <option value="">Auto-Detect Natural Voice</option>
+                <option value="">{lang === 'ta' ? 'இயற்கையான குரல் (தானியங்கி)' : 'Auto-Detect Natural Voice'}</option>
               </select>
             </div>
 
@@ -570,19 +595,21 @@ const jsonLd = [
         <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-3">
           <div class="flex items-center justify-between">
             <span class="text-xs font-bold uppercase tracking-wider text-[#6B5644] dark:text-[#C8BFAF]">
-              Comfort Reading
+              {lang === 'ta' ? 'வசதியான வாசிப்பு' : 'Comfort Reading'}
             </span>
             <button
               type="button"
               data-open-aa-panel
               class="text-xs font-bold text-[#D97706] hover:underline"
             >
-              All Settings (Aa) →
+              {lang === 'ta' ? 'அனைத்து அமைப்புகளும் (Aa) →' : 'All Settings (Aa) →'}
             </button>
           </div>
 
           <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-            Adjust font size, spacing, contrast, and OpenDyslexic mode anytime.
+            {lang === 'ta'
+              ? 'எழுத்து அளவு, வரி இடைவெளி, பின்னணி நிறம் மற்றும் தெளிவான எழுத்துருவை மாற்றியமைக்கலாம்.'
+              : 'Adjust font size, spacing, contrast, and OpenDyslexic mode anytime.'}
           </p>
         </div>
 
@@ -592,10 +619,10 @@ const jsonLd = [
             ⌨️ {t.keyboardShortcuts}
           </span>
           <div class="grid grid-cols-2 gap-2 text-[#6B5644] dark:text-[#C8BFAF]">
-            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">Space</kbd> Play/Pause</div>
-            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">/</kbd> Search</div>
-            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">→</kbd> Next Story</div>
-            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">←</kbd> Prev Story</div>
+            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">Space</kbd> {lang === 'ta' ? 'ஒலி இயக்கு/நிறுத்து' : 'Play/Pause'}</div>
+            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">/</kbd> {lang === 'ta' ? 'தேடுக' : 'Search'}</div>
+            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">→</kbd> {lang === 'ta' ? 'அடுத்த கதை' : 'Next Story'}</div>
+            <div><kbd class="px-1.5 py-0.5 rounded bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] font-mono">←</kbd> {lang === 'ta' ? 'முந்தைய கதை' : 'Prev Story'}</div>
           </div>
         </div>
 
