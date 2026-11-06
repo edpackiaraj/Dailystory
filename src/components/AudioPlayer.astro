@@ -131,7 +131,38 @@ const { storyId, storyTitle, storyText, audioUrl, language } = Astro.props;
       sentences = Array.from(document.querySelectorAll('.story-sentence'));
     }
 
-    // Populate Available Speech Synthesis Voices
+    // Score voice based on naturalness and language match
+    function scoreVoice(voice, targetLang) {
+      const vLang = (voice.lang || '').toLowerCase().replace('_', '-');
+      const tLang = (targetLang || 'en').toLowerCase().replace('_', '-');
+      const lPrefix = tLang.slice(0, 2);
+      let score = 0;
+
+      if (vLang === tLang) {
+        score += 100;
+      } else if (vLang.startsWith(lPrefix)) {
+        score += 80;
+      } else {
+        return -1;
+      }
+
+      const name = (voice.name || '').toLowerCase();
+      if (name.includes('natural')) score += 150;
+      if (name.includes('online')) score += 120;
+      if (name.includes('neural')) score += 100;
+      if (name.includes('enhanced')) score += 90;
+      if (name.includes('premium')) score += 80;
+      if (name.includes('google')) score += 70;
+      if (name.includes('siri')) score += 60;
+
+      if (name.includes('desktop')) score -= 50;
+      if (name.includes('compact')) score -= 40;
+      if (name.includes('espeak')) score -= 80;
+
+      return score;
+    }
+
+    // Populate Available Speech Synthesis Voices (Prioritizing Natural / Neural Voices)
     function loadVoices() {
       if (!('speechSynthesis' in window)) {
         if (voiceSelect) voiceSelect.style.display = 'none';
@@ -140,17 +171,29 @@ const { storyId, storyTitle, storyText, audioUrl, language } = Astro.props;
       const voices = window.speechSynthesis.getVoices();
       if (!voiceSelect || !voices.length) return;
 
-      voiceSelect.innerHTML = '<option value="">Default Voice</option>';
-      const langPrefix = lang.slice(0, 2);
-      const filtered = voices.filter(v => v.lang.toLowerCase().startsWith(langPrefix));
-      const pool = filtered.length > 0 ? filtered : voices;
+      voiceSelect.innerHTML = '';
+      const pool = voices
+        .map(v => ({ voice: v, score: scoreVoice(v, lang) }))
+        .filter(item => item.score > 0)
+        .sort((a, b) => b.score - a.score);
 
-      pool.forEach((v) => {
+      if (!pool.length) {
+        voiceSelect.innerHTML = '<option value="">Default Device Voice</option>';
+        return;
+      }
+
+      pool.forEach(({ voice: v, score }) => {
         const opt = document.createElement('option');
         opt.value = v.name;
-        opt.textContent = `${v.name} (${v.lang})`;
+        const isNatural = score >= 120;
+        opt.textContent = `${isNatural ? '✨ ' : ''}${v.name} (${v.lang})${isNatural ? ' - Natural' : ''}`;
         voiceSelect.appendChild(opt);
       });
+
+      // Default to best natural voice
+      if (pool.length > 0) {
+        voiceSelect.value = pool[0].voice.name;
+      }
     }
 
     if ('speechSynthesis' in window) {

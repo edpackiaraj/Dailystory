@@ -229,21 +229,37 @@ const jsonLd = [
           <!-- Full Native Story Reading Experience -->
           <div class="space-y-8">
             <!-- Audio Player Card (Visible on Phone/Tablet inline) -->
-            <div class="lg:hidden p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm flex items-center justify-between gap-3">
-              <button
-                type="button"
-                id="mobile-audio-play-btn"
-                class="px-5 py-2.5 rounded-full bg-[#0F766E] hover:bg-[#0D655E] text-white text-sm font-bold flex items-center gap-2 shadow transition-all min-h-[48px]"
-              >
-                <span id="mobile-play-icon">▶</span>
-                <span id="mobile-play-text">{t.listen}</span>
-              </button>
+            <div class="lg:hidden p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-3">
+              <div class="flex items-center justify-between gap-3">
+                <button
+                  type="button"
+                  id="mobile-audio-play-btn"
+                  class="px-5 py-2.5 rounded-full bg-[#0F766E] hover:bg-[#0D655E] text-white text-sm font-bold flex items-center gap-2 shadow transition-all min-h-[44px]"
+                >
+                  <span id="mobile-play-icon">▶</span>
+                  <span id="mobile-play-text">{t.listen}</span>
+                </button>
 
-              <div class="flex items-center gap-1.5 text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">
-                <span>{t.speed}:</span>
-                <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#EEDFC8] dark:border-[#383659]" data-speed="0.8">0.8x</button>
-                <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#0F766E] bg-[#0F766E]/15 text-[#0F766E] font-bold" data-speed="1.0">1x</button>
-                <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#EEDFC8] dark:border-[#383659]" data-speed="1.2">1.2x</button>
+                <div class="flex items-center gap-1.5 text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">
+                  <span>{t.speed}:</span>
+                  <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#EEDFC8] dark:border-[#383659]" data-speed="0.8">0.8x</button>
+                  <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#0F766E] bg-[#0F766E]/15 text-[#0F766E] font-bold" data-speed="1.0">1x</button>
+                  <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#EEDFC8] dark:border-[#383659]" data-speed="1.2">1.2x</button>
+                </div>
+              </div>
+
+              <!-- Mobile Natural Voice Selector -->
+              <div class="flex items-center gap-2 pt-1 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
+                <span class="text-[11px] font-bold text-[#6B5644] dark:text-[#C8BFAF] shrink-0 flex items-center gap-1">
+                  <span>🎙️</span> Voice:
+                </span>
+                <select
+                  id="mobile-voice-select"
+                  class="w-full px-2.5 py-1.5 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-xs font-medium text-[#3B2A1A] dark:text-[#F3EBDD] focus:outline-none focus:ring-1 focus:ring-[#0F766E]"
+                  aria-label="Select Narration Voice"
+                >
+                  <option value="">Auto-Detect Natural Voice</option>
+                </select>
               </div>
             </div>
 
@@ -525,8 +541,27 @@ const jsonLd = [
               <span id="desktop-play-text">{t.listen}</span>
             </button>
 
+            <!-- Natural Voice Selection -->
+            <div class="space-y-1.5 pt-1">
+              <div class="flex items-center justify-between text-xs">
+                <span class="text-[#6B5644] dark:text-[#C8BFAF] font-semibold flex items-center gap-1">
+                  <span>🎙️</span> Natural Voice:
+                </span>
+                <span id="desktop-voice-badge" class="px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">
+                  ✨ Natural
+                </span>
+              </div>
+              <select
+                id="desktop-voice-select"
+                class="w-full px-3 py-2 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-xs font-medium text-[#3B2A1A] dark:text-[#F3EBDD] focus:outline-none focus:ring-2 focus:ring-[#0F766E]"
+                aria-label="Select Narration Voice"
+              >
+                <option value="">Auto-Detect Natural Voice</option>
+              </select>
+            </div>
+
             <!-- Speed Controls -->
-            <div class="flex items-center justify-between text-xs pt-1">
+            <div class="flex items-center justify-between text-xs pt-1 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
               <span class="text-[#6B5644] dark:text-[#C8BFAF] font-semibold">{t.speed}:</span>
               <div class="flex items-center gap-1.5">
                 <button type="button" class="audio-speed-btn px-2.5 py-1 rounded-lg border border-[#EEDFC8] dark:border-[#383659] text-xs hover:border-[#0F766E]" data-speed="0.8">0.8x</button>
@@ -651,19 +686,197 @@ const jsonLd = [
     localStorage.setItem('dailytale_last_read', JSON.stringify(historyItem));
   } catch(e) {}
 
-  // 3. Web Speech API Audio Narration Engine
+  // 3. Web Speech API Audio Narration Engine with Natural Voice Priority
   let speechUtterance = null;
   let isSpeaking = false;
   let playbackSpeed = 1.0;
+  let selectedVoiceName = '';
+  let paragraphs = [];
+  let currentParaIndex = 0;
 
-  const storyText = document.getElementById('story-body-content')?.innerText || '';
   const langCode = document.documentElement.lang || 'en';
+  const lPrefix = langCode.toLowerCase().slice(0, 2);
+
+  // Score voice based on naturalness and language match
+  function scoreVoice(voice, lang) {
+    const vLang = (voice.lang || '').toLowerCase().replace('_', '-');
+    const targetLang = (lang || 'en').toLowerCase().replace('_', '-');
+    const lPrefix = targetLang.slice(0, 2);
+    let score = 0;
+
+    if (vLang === targetLang) {
+      score += 100;
+    } else if (vLang.startsWith(lPrefix)) {
+      score += 80;
+    } else {
+      return -1;
+    }
+
+    const name = (voice.name || '').toLowerCase();
+
+    // Natural / Neural voice indicators across Edge, Chrome, Safari, Android
+    if (name.includes('natural')) score += 150;
+    if (name.includes('online')) score += 120;
+    if (name.includes('neural')) score += 100;
+    if (name.includes('enhanced')) score += 90;
+    if (name.includes('premium')) score += 80;
+    if (name.includes('google')) score += 70;
+    if (name.includes('siri')) score += 60;
+
+    // Penalize legacy robotic desktop synthesizers
+    if (name.includes('desktop')) score -= 50;
+    if (name.includes('compact')) score -= 40;
+    if (name.includes('espeak')) score -= 80;
+
+    return score;
+  }
+
+  function getSortedVoices() {
+    if (!('speechSynthesis' in window)) return [];
+    const all = window.speechSynthesis.getVoices();
+    return all
+      .map(v => ({ voice: v, score: scoreVoice(v, langCode) }))
+      .filter(item => item.score > 0)
+      .sort((a, b) => b.score - a.score);
+  }
+
+  function initVoiceSelectors() {
+    if (!('speechSynthesis' in window)) return;
+    const candidates = getSortedVoices();
+    const selectElements = [
+      document.getElementById('desktop-voice-select'),
+      document.getElementById('mobile-voice-select')
+    ].filter(Boolean);
+
+    const savedVoice = localStorage.getItem('dailytale_voice_' + lPrefix);
+    const bestCandidate = candidates[0]?.voice;
+
+    selectElements.forEach(sel => {
+      sel.innerHTML = '';
+      if (!candidates.length) {
+        const opt = document.createElement('option');
+        opt.value = '';
+        opt.textContent = 'Default Device Voice';
+        sel.appendChild(opt);
+        return;
+      }
+
+      candidates.forEach(({ voice, score }) => {
+        const opt = document.createElement('option');
+        opt.value = voice.name;
+        const isNatural = score >= 120;
+        opt.textContent = (isNatural ? '✨ ' : '') + voice.name;
+        sel.appendChild(opt);
+      });
+
+      if (savedVoice && candidates.some(c => c.voice.name === savedVoice)) {
+        sel.value = savedVoice;
+        selectedVoiceName = savedVoice;
+      } else if (bestCandidate) {
+        sel.value = bestCandidate.name;
+        selectedVoiceName = bestCandidate.name;
+      }
+
+      sel.onchange = () => {
+        selectedVoiceName = sel.value;
+        localStorage.setItem('dailytale_voice_' + lPrefix, sel.value);
+        selectElements.forEach(s => { if (s !== sel) s.value = sel.value; });
+        updateVoiceBadge();
+        if (isSpeaking) {
+          restartSpeech();
+        }
+      };
+    });
+
+    updateVoiceBadge();
+  }
+
+  function updateVoiceBadge() {
+    const badge = document.getElementById('desktop-voice-badge');
+    if (!badge) return;
+    const voices = window.speechSynthesis.getVoices();
+    const current = voices.find(v => v.name === selectedVoiceName) || voices.find(v => scoreVoice(v, langCode) > 0);
+    if (!current) {
+      badge.textContent = 'Standard';
+      return;
+    }
+    const score = scoreVoice(current, langCode);
+    const isNatural = score >= 120;
+    badge.textContent = isNatural ? '✨ Natural Voice' : 'Standard Voice';
+    badge.className = isNatural
+      ? 'px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-[10px]'
+      : 'px-2 py-0.5 rounded-full bg-slate-500/15 text-slate-700 dark:text-slate-400 font-medium text-[10px]';
+  }
+
+  if ('speechSynthesis' in window) {
+    initVoiceSelectors();
+    window.speechSynthesis.onvoiceschanged = initVoiceSelectors;
+  }
 
   const playBtns = [
     document.getElementById('mobile-audio-play-btn'),
     document.getElementById('desktop-audio-play-btn'),
     document.getElementById('bottom-bar-audio-btn')
   ].filter(Boolean);
+
+  function stopSpeech() {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+    isSpeaking = false;
+    currentParaIndex = 0;
+    updateAudioUI(false);
+  }
+
+  function restartSpeech() {
+    stopSpeech();
+    toggleSpeech();
+  }
+
+  function speakNextParagraph() {
+    if (!isSpeaking || currentParaIndex >= paragraphs.length) {
+      stopSpeech();
+      return;
+    }
+
+    const text = paragraphs[currentParaIndex];
+    if (!text) {
+      currentParaIndex++;
+      speakNextParagraph();
+      return;
+    }
+
+    speechUtterance = new SpeechSynthesisUtterance(text);
+    speechUtterance.rate = playbackSpeed;
+    speechUtterance.pitch = 1.0;
+    speechUtterance.lang = langCode;
+
+    // Apply natural voice
+    const voices = window.speechSynthesis.getVoices();
+    let voiceToUse = voices.find(v => v.name === selectedVoiceName);
+    if (!voiceToUse) {
+      const candidates = getSortedVoices();
+      if (candidates.length) voiceToUse = candidates[0].voice;
+    }
+    if (voiceToUse) speechUtterance.voice = voiceToUse;
+
+    speechUtterance.onend = () => {
+      if (isSpeaking) {
+        currentParaIndex++;
+        speakNextParagraph();
+      }
+    };
+
+    speechUtterance.onerror = (err) => {
+      console.warn('Speech error:', err);
+      if (isSpeaking) {
+        currentParaIndex++;
+        speakNextParagraph();
+      }
+    };
+
+    window.speechSynthesis.speak(speechUtterance);
+  }
 
   function toggleSpeech() {
     if (!('speechSynthesis' in window)) {
@@ -672,38 +885,27 @@ const jsonLd = [
     }
 
     if (isSpeaking) {
-      window.speechSynthesis.cancel();
-      isSpeaking = false;
-      updateAudioUI(false);
+      stopSpeech();
       return;
     }
 
+    const bodyEl = document.getElementById('story-body-content');
+    paragraphs = Array.from(bodyEl?.querySelectorAll('p') || [])
+      .map(p => p.innerText.trim())
+      .filter(Boolean);
+
+    if (!paragraphs.length) {
+      const rawText = bodyEl?.innerText || '';
+      paragraphs = rawText.split(/\n+/).map(s => s.trim()).filter(Boolean);
+    }
+
+    if (!paragraphs.length) return;
+
     window.speechSynthesis.cancel();
-    speechUtterance = new SpeechSynthesisUtterance(storyText);
-    speechUtterance.rate = playbackSpeed;
-    speechUtterance.lang = langCode;
-
-    // Pick best matching voice if available
-    const voices = window.speechSynthesis.getVoices();
-    const match = voices.find(v => v.lang.startsWith(langCode));
-    if (match) speechUtterance.voice = match;
-
-    speechUtterance.onstart = () => {
-      isSpeaking = true;
-      updateAudioUI(true);
-    };
-
-    speechUtterance.onend = () => {
-      isSpeaking = false;
-      updateAudioUI(false);
-    };
-
-    speechUtterance.onerror = () => {
-      isSpeaking = false;
-      updateAudioUI(false);
-    };
-
-    window.speechSynthesis.speak(speechUtterance);
+    isSpeaking = true;
+    currentParaIndex = 0;
+    updateAudioUI(true);
+    speakNextParagraph();
   }
 
   function updateAudioUI(speaking) {
