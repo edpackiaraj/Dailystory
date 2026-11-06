@@ -115,7 +115,7 @@
       "காதல் வயப்படும் ஒருவன் அறிவுக்கூர்மையை இழந்து உணர்ச்சிவசப்படும்போது விவேகமுள்ள நண்பனின் வழிகாட்டல் எவ்வளவு இன்றியமையாதது?",
       "விக்கிரமாதித்தனின் தீர்ப்பு தற்காலப் பிரச்சினை தீர்க்கும் நெறிமுறைகளுக்கு (Problem solving leadership) எத்தகைய வழிகாட்டலாக அமைகிறது?"
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -245,7 +245,7 @@
       "வேதாளத்தின் புதிர்கள் மனிதர்களின் எந்தெந்த நுட்பமான திறமைகளை வெளிக்கொணர்கின்றன?",
       "உண்மைக்கும் வெறும் தோற்றத்திற்கும் உள்ள வேறுபாட்டை உணர்வது ஏன் மிக அவசியம்?"
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -384,7 +384,7 @@
         "question": "ஏழு மனைவியரின் குணாதிசயங்கள் மனித வாழ்க்கையின் பல்வேறு சமூகப் பங்களிப்புகளை எவ்வாறு குறியீடாக உணர்த்துகின்றன?"
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -523,7 +523,7 @@
         "question": "வீரவரன் குடும்பத்தின் அதிதீவிர தியாக உணர்வும் சூத்ரக மன்னனின் உடனடி எதிர்வினையும் உணர்த்தும் இந்திய அறநெறிக் கோட்பாட்டை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -653,7 +653,7 @@
       "மனித உறவுகளில் முறையற்ற அல்லது குழப்பமான முடிவுகள் அடுத்த தலைமுறையை எவ்வாறு அடையாளச் சிக்கலில் தள்ளுகின்றன?",
       "\"மௌனம் என்பது பலவீனமல்ல, அது விவேகத்தின் உச்சக்கட்டம்\" என்பதை இக்கதை எவ்வாறு நிரூபிக்கிறது?"
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -783,7 +783,7 @@
       "விக்கிரமாதித்தனின் தீர்ப்பு நவீன சட்டம் மற்றும் மனித உளவியலோடு எவ்வாறு ஒத்துப்போகிறது?",
       "வேதாளத்தின் புதிர்கள் விக்கிரமாதித்தனின் எத்தகைய நீதி பரிபாலனத் திறமையைச் சோதிக்கின்றன?"
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -913,7 +913,7 @@
       "விக்கிரமாதித்தனின் தர்க்கப் பார்வை \"மௌன தியாகத்தை\" (Silent self-sacrifice) எவ்வாறு சமூகத்தின் மிக உயர்ந்த அறமாக அடையாளப்படுத்துகிறது?",
       "உண்மையான நட்பு என்பது வெறும் வார்த்தைகளில் இல்லாமல் செயலில் எத்தகைய அர்ப்பணிப்பைக் கோருகிறது?"
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -1043,7 +1043,7 @@
       "மனிதர்களின் அவசரக் கோபம் விலங்குகளின் மீதும் குடும்பத்தினரின் மீதும் எத்தகைய கொடுமைகளை விளைவிக்கிறது?",
       "ஒரு சோக நிகழ்வுக்குப் பின்னால் வரும் குற்ற உணர்ச்சியைத் தவிர்க்க நாம் அன்றாட வாழ்வில் எத்தகைய பொறுமையைக் கையாள வேண்டும்?"
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -1182,7 +1182,7 @@
         "question": "நாவிதன் மனைவியின் உளவியல் சாதுரியம் பாரம்பரிய இந்தியப் பெண்மையின் மதிநுட்பத்தை எவ்வாறு வெளிப்படுத்துகிறது?"
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -1312,7 +1312,7 @@
       "திருடனின் மனமாற்றம் மனித இயல்பின் (Human redemption) எத்தகைய ஆழமான சாத்தியக்கூறை வெளிப்படுத்துகிறது?",
       "விக்கிரமாதித்தனின் தீர்ப்பு சமூக அந்தஸ்தைத் தாண்டி \"செயலின் தியாக மதிப்பை\" எவ்வாறு துல்லியமாக எடைபோடுகிறது?"
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -1451,7 +1451,7 @@
         "question": "தர்மதத்தனின் வீரம் மற்றும் தியாகம் விக்கிரமாதித்தனின் நீதி நெறிமுறைகளோடு எவ்வாறு ஒத்துப் போகிறது என்பதை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -1586,7 +1586,7 @@
         "question": "மனிதனின் விதியைத் தீர்மானிப்பது பிறவி நிலையா அல்லது அவனது தற்போதைய அறச்செயல்களா என்பதை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -1716,7 +1716,7 @@
       "உண்மையான அன்பை வெளிப்படுத்துவது உடல் ரீதியான சாதனைகளா அல்லது உள்ளார்ந்த மாறாத அர்ப்பணிப்பா?",
       "வேதாளக் கதைகளில் வரும் இத்தகைய தர்ம சங்கடங்கள் மனித சிந்தனையை எவ்வாறு ஆழப்படுத்துகின்றன?"
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -1855,7 +1855,7 @@
         "question": "மக்களின் நலனுக்காகத் தன் தவ வாழ்வைத் துறந்து அரசப் பொறுப்பை ஏற்ற முனிவரின் தியாகத்தை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -1994,7 +1994,7 @@
         "question": "மூன்று பண்டிதர்களின் அழிவு, மனிதனின் கர்வத்திற்கும் இயற்கை நியதிக்கும் இடையிலான மோதலை எவ்வாறு சித்தரிக்கிறது?"
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -2129,7 +2129,7 @@
         "question": "கடமைக்கும் சொந்த இன்பத்திற்கும் இடையில் எழும் மோதலை விக்கிரமனின் தீர்ப்பின் அடிப்படையில் விவாதிக்கவும்."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -2264,7 +2264,7 @@
         "question": "அரசை வழிநடத்துவதற்கு வாள் வலிமையை விட அறநெறி ஏன் வலிமையானது என்பதை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -2399,7 +2399,7 @@
         "question": "விக்கிரமனின் தீர்ப்பில் உள்ள சமூகவியல் மற்றும் அறவியல் நீதியை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -2534,7 +2534,7 @@
         "question": "கடந்த காலத் தவறுகளையும் தற்போதைய தியாகச் செயல்களையும் சமநிலைப் படுத்தும் விக்கிரமனின் தத்துவார்த்தப் பார்வையை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -2669,7 +2669,7 @@
         "question": "'அன்பும் கருணையுமே அனைத்து சாபங்களையும் பொசுக்கும் பேராயுதம்' என்ற தத்துவார்த்தக் கருத்தை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -2804,7 +2804,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -2940,7 +2940,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -3076,7 +3076,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -3212,7 +3212,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -3349,7 +3349,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -3485,7 +3485,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -3625,7 +3625,7 @@
         "question": "ஏழு ஆண்டு உழைப்பை ஒரு கணத்தில் தீயிலிட்ட நெசவாளியின் மன உறுதியையும் துறவறச் செறிவையும் மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -3764,7 +3764,7 @@
         "question": "சமூகத்தின் அலட்சியத்தை விட தனிமனிதனின் செய்ந்நன்றிக் கொலையே அதிகப் பாவமானது என்ற விக்கிரமாதித்தனின் தார்மீகத் தீர்ப்பை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -3903,7 +3903,7 @@
         "question": "சட்டபூர்வ கடமையும் தனிமனித அன்பும் மோதும் தருணங்களில் வித்யாதரன் கையாண்ட சமரசமற்ற தர்ம அணுகுமுறையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -4042,7 +4042,7 @@
         "question": "பொதுமக்கள் பாதுகாப்பு சார்ந்த விவகாரங்களில் உண்மையை வெளிப்படுத்தும் சாட்சிகளைப் பாதுகாக்கும் சட்டங்களின் அவசியத்தை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -4181,7 +4181,7 @@
         "question": "உயிர் தியாகம், துறவறம், அறிவியல் சாதனை ஆகிய மூவகைக் காதலில் எது உயர்ந்தது என விவாதித்து விக்கிரமனின் தீர்ப்பை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -4320,7 +4320,7 @@
         "question": "தன்னை அவமதித்த பயணியைத் தன் தோளில் சுமந்து நீந்திய எளிய பாட்டாளியின் அற உணர்வை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -4459,7 +4459,7 @@
         "question": "தன் சுயநலப் பேராசையைக் கைவிட்டு அடுத்தவர் உயிரைக் காத்த திருடனின் ஆன்ம மேன்மையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -4598,7 +4598,7 @@
         "question": "வெளிப்பகட்டை விட அறிவார்ந்த சமத்துவமே சிறந்த மணவாழ்விற்கு அடித்தளம் என்ற விக்கிரமனின் பார்வையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -4737,7 +4737,7 @@
         "question": "நண்பர்களின் பகையைத் தவிர்த்துப் பொதுநலத் திட்டமாக மாற்றிய விக்கிரமாதித்தனின் சமூகப் பார்வையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -4876,7 +4876,7 @@
         "question": "வேடனின் குடும்பப் பசியையும் மானின் உயிரையும் ஒருசேரக் காக்க விக்கிரமாதித்தன் முன்வைத்த ஆக்கபூர்வமான தீர்வை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -5015,7 +5015,7 @@
         "question": "கடமையாற்றுவதே தர்மம் (கர்ம யோகம்) என்ற கீதையின் தத்துவத்தோடு விக்கிரமனின் தீர்ப்பை ஒப்பிட்டு ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -5154,7 +5154,7 @@
         "question": "'வினை விதைத்தவன் வினை அறுப்பான்' என்ற நியதியை இக்கதையின் பொற்கொல்லனின் அனுபவம் எவ்வாறு மெய்ப்பிக்கிறது என மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -5313,7 +5313,7 @@
         "question": "மன்னன் சுமதிக்குத் தன் மணிமுடியைத் தந்து கௌரவித்ததாகவும், சதிகாரர்களைச் சிறையில் அடைத்ததாகவும் ஒரு தொடர்ச்சிக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -5472,7 +5472,7 @@
         "question": "மூன்று ஓவியர்களும் இணைந்து அரண்மனையின் பிரதான மண்டபத்தை அலங்கரித்ததாக ஒரு புதிய காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -5631,7 +5631,7 @@
         "question": "கோபாலன் தன் தவறை உணர்ந்து ஹரிதாசனிடம் மன்னிப்புக் கேட்டுத் தன் பிற மாடுகளையும் அன்போடு வளர்த்ததாக ஒரு மாற்று முடிவை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -5790,7 +5790,7 @@
         "question": "வணிகன் தன் தவறை உணர்ந்து அந்த இடத்தில் நாய்க்கு ஒரு நினைவுச் சின்னம் அமைத்துத் தன் வாழ்வை தர்மத்திற்கு அர்ப்பணித்ததாக ஒரு தொடர்ச்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -5949,7 +5949,7 @@
         "question": "இருவரும் இணைந்து பாரத தேசம் முழுவதும் நாட்டியப் பள்ளிகளை அமைத்துக் கலையை வளர்த்ததாக ஒரு புதிய காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -6108,7 +6108,7 @@
         "question": "உயிர் தப்பிய இளவரசன் மனம் திருந்தி கலுவின் தியாகத்தை நாடெங்கும் போற்றி நல்வழியில் ஆண்டதாக ஒரு தொடர்ச்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -6267,7 +6267,7 @@
         "question": "அங்காரகன் முனிவரோடு சேர்ந்து யாத்ரீகர்களுக்கு வழிகாட்டியாக வாழ்ந்ததாக ஒரு தொடர்ச்சிக் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -6426,7 +6426,7 @@
         "question": "அரசி ரத்னாவதி கமலாவின் தர்மத்தைக் கண்டு வெட்கித் தன் கர்வத்தை விடுத்து ஏழைகளுக்கு உண்மையான தொண்டு செய்ததாக ஒரு மாற்று முடிவை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -6585,7 +6585,7 @@
         "question": "உயிர் பெற்ற அந்த மங்கை தன் சொந்த விருப்பத்தைத் தெரிவிப்பதாக ஒரு புதிய மாற்றுக் காட்சியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -6744,7 +6744,7 @@
         "question": "தாரா தன் தவற்றை உணர்ந்து சாந்தியின் வழியைப் பின்பற்றி கிராமத்திற்குத் திரும்புவது போல் ஒரு நாடக உரையாடலை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -6903,7 +6903,7 @@
         "question": "காடுகளையும் மரங்களையும் காக்க வலியுறுத்தும் ஒரு நவீன விழிப்புணர்வுப் பிரசார முழக்கங்களை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -7062,7 +7062,7 @@
         "question": "நவீன உலக மனிதர்கள் அனைவரும் தங்களின் உள்ளத்தை நேரில் காணும் ஒரு மாயக் கருவியைக் கண்டறிந்தால் என்ன நேரிடும் என்பதைச் சித்தரிக்கும் ஒரு கதைக் கருவை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -7221,7 +7221,7 @@
         "question": "இயற்கைப் பேரிடர்களைத் தாங்கும் எளிய மற்றும் வலிமையான கிராமப்புறக் கட்டுமானத் திட்டத்தை விவரிக்கும் அறிக்கையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -7380,7 +7380,7 @@
         "question": "இரு இளவரசர்களும் இணைந்து தங்கள் நாடுகளுக்கு இடையே அமைதி ஒப்பந்தம் செய்வதாக ஒரு வரலாற்றுக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -7539,7 +7539,7 @@
         "question": "மாதவனும் செவிட்டு மன்னனும் தனிமையில் சந்தித்து ஒருவரையொருவர் வாழ்த்தும் ஒரு நாடகக் காட்சியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -7698,7 +7698,7 @@
         "question": "இதே கணிதத் தத்துவத்தைப் பயன்படுத்தி வேறு ஒரு பொருளைப் பகிர்ந்தளிக்கும் புதிய நீதிக் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -7857,7 +7857,7 @@
         "question": "இக்கதையை அடிப்படையாகக் கொண்டு, நவீன தீயணைப்பு அல்லது மீட்புப் பணிகளில் பொதுமக்களின் விழிப்புணர்வை விளக்கும் உரையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -8016,7 +8016,7 @@
         "question": "வித்யாசாகரன் கந்தனின் அன்பைக் கண்டு மனம் திருந்தி அவனிடம் சீடனாகச் சேருவது போன்ற ஒரு தொடக்க உரையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -8175,7 +8175,7 @@
         "question": "மீனவன் தன் மனைவியின் முதல் ஆசையிலேயே அவளுக்குப் புத்திமதி கூறி நல்வழிப்படுத்துவது போன்ற ஒரு மாற்று முடிவை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -8334,7 +8334,7 @@
         "question": "இளவரசி இந்துமதி அந்த மோதிரத்தை ஏற்றுக்கொண்டு அவைக்குக் கூறும் ஏற்புரையை எழிலாக வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -8493,7 +8493,7 @@
         "question": "போர்ச் சூழலிலும் பொதுமக்களின் உரிமைகளைப் பாதுகாக்கும் நவீன வீரர்கள் கடைப்பிடிக்க வேண்டிய ஒரு நெறிமுறைக் கையேட்டை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -8652,7 +8652,7 @@
         "question": "முதிய பெற்றோரைப் பேணிக் காப்பதன் அவசியத்தை வலியுறுத்தும் ஒரு விழிப்புணர்வுக் கவிதையை அல்லது உரையாடலை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -8811,7 +8811,7 @@
         "question": "சுகன் தன் தவறை உணர்ந்து மோகினியைத் தன் ஆன்மீகக் குருவாக ஏற்கும் உரையாடலை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -8970,7 +8970,7 @@
         "question": "வீரபத்திரன் நேர்மையான மெய்க்காப்பாளனாக வாழ்ந்து தன் கடமையை ஆற்றுவது போன்ற ஒரு புதிய காட்சியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -9129,7 +9129,7 @@
         "question": "இரு நாடுகளுக்கு இடையிலான எல்லைத் தகராறை ரத்தமின்றித் தீர்த்து வைக்கும் சமாதானத் தூதுவரின் உரையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -9288,7 +9288,7 @@
         "question": "இதே போன்ற சமயோசித புத்தியைப் பயன்படுத்தி மற்றொரு திருட்டை அம்பலப்படுத்தும் ஒரு சிறிய நீதிக் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -9447,7 +9447,7 @@
         "question": "வேடன் மன்னனிடம் சென்று காட்டின் சமநிலையைப் பாதுகாப்பது குறித்துப் பேசும் ஒரு விழிப்புணர்வு உரையாடலை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -9606,7 +9606,7 @@
         "question": "அந்தணன் திருடர்களின் சதியை உடனே புரிந்துகொண்டு அவர்களைத் தண்டிப்பது போன்ற ஒரு மாற்றுக் கதையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -9765,7 +9765,7 @@
         "question": "மன்னிப்புப் பெற்ற கிளர்ச்சியாளன் நாட்டின் நல்வாழ்விற்காகத் தன் உயிரைக் கொடுத்து அரசியைக் காப்பாற்றும் ஒரு தொடர்ச்சிக் காட்சியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -9924,7 +9924,7 @@
         "question": "சித்திரகுப்தன் நீதிமன்றத்தில் துன்மதியனின் சதியை அம்பலப்படுத்தி நீதிபதியிடம் வாதிடும் ஒரு அனல் பறக்கும் உரையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -10083,7 +10083,7 @@
         "question": "மன்னன் தன் கோபத்தை அடக்கிப் பாறையின் மேலே ஏறிப் பார்த்து உண்மையறிந்து வல்லூறை முத்தமிடுவது போன்ற ஒரு மாற்று முடிவை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -10242,7 +10242,7 @@
         "question": "மாறன் அந்த நிலங்களில் ஊர் மக்கள் அனைவரும் பயன்பெறும் சமத்துவக் கிராமத்தை அமைப்பது போன்ற ஒரு புதிய காட்சியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -10401,7 +10401,7 @@
         "question": "நீதிபதி தாய்மையின் மாண்பைப் போற்றி அவையினருக்கு உரைக்கும் ஒரு நெகிழ்ச்சியான தீர்ப்புரையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -10560,7 +10560,7 @@
         "question": "போர்க் கருவிகளை மறுசுழற்சி செய்து சமுதாயத்திற்குப் பயன்படும் கருவிகளாக மாற்றும் ஒரு நவீனத் திட்ட முன்மொழிவை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -10719,7 +10719,7 @@
         "question": "அறிவியல் விழிப்புணர்வை மன்னனுக்குப் புகட்டும் வராகமிகிரரின் அரசவை உரையாடலை விரிவாக வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -10878,7 +10878,7 @@
         "question": "கண்ணன் மக்கள் முன் தோன்றி எளிமையே இறைவனின் வடிவம் என்று உரைக்கும் ஒரு பக்தி உரையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -11037,7 +11037,7 @@
         "question": "துப்பறிவாளர் சம்பவ இடத்தில் தடயங்களைச் சேகரித்து மன்னரிடம் அறிக்கை அளிக்கும் உரையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -11196,7 +11196,7 @@
         "question": "மன்னன் நடந்ததை அறிந்து இரண்டாம் யாசகனின் ஞானத்தை உணரும் ஒரு பின் காட்சியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -11355,7 +11355,7 @@
         "question": "பேரிடர் காலங்களில் நியாயமான வணிக நெறிமுறைகளைக் கடைப்பிடிக்க வணிகர்கள் ஏற்கும் ஒரு நன்னெறி உறுதிமொழியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -11514,7 +11514,7 @@
         "question": "கல்யாண் அரியணையில் ஏறிய பின் நாட்டில் உள்ள அனைத்து மாணவர்களுக்கும் கைவினைப் பயிற்சியைக் கட்டாயமாக்கும் அரச ஆணையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -11673,7 +11673,7 @@
         "question": "தனேஸ்வரன் தன் தந்தையிடம் கண்ணீர் மல்க மன்னிப்புக் கேட்கும் ஒரு நெகிழ்ச்சியான உரையாடலை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -11832,7 +11832,7 @@
         "question": "சிறையில் இருந்தவாறே கல்ஹணன் தன் ரத்தத்தால் உண்மை வரலாற்றைச் சுவரில் எழுதும் காட்சியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -11991,7 +11991,7 @@
         "question": "மன்னன் சம்புவை விடுவித்து அவனுக்குப் பரிசளித்து காட்டின் சிங்கத்தைப் பாதுகாக்கும் ஒரு புதிய ஆணையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -12150,7 +12150,7 @@
         "question": "இக்கதையை மையமாகக் கொண்டு மாலுமிகள் கடைப்பிடிக்க வேண்டிய விழிப்புணர்வுக் கையேட்டை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -12309,7 +12309,7 @@
         "question": "மழை பெய்ததும் ஊர் மக்கள் ராதாவையும் பசுக்களையும் போற்றிப் பாடும் ஒரு கிராமியப் பாடலை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -12468,7 +12468,7 @@
         "question": "நவீன மருத்துவர்கள் ஏற்கும் ஹிப்போகிரட்டிக் உறுதிமொழியை (Hippocratic Oath) ஜீவகனின் கதையை ஒட்டித் தமிழில் வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -12627,7 +12627,7 @@
         "question": "இளவரசி தன் உயிரைக் காத்த மூவருக்கும் பரிசளித்து மூன்றாமவனை மணக்கும் சுயம்வர உரையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -12786,7 +12786,7 @@
         "question": "மாதவ முனிவரின் கிணற்றின் கரையில் பொறிக்கப்படும் ஒரு மனிதநேய வாசகக் கல்வெட்டை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -12945,7 +12945,7 @@
         "question": "வாழ்க்கையில் தோல்வியடைந்த ஒருவரைத் தேற்றி உற்சாகப்படுத்தும் ஒரு ஊக்கமளிக்கும் உரையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -13104,7 +13104,7 @@
         "question": "இளவரசன் நெசவாளித் தாயின் வீட்டில் மனந்திருந்தி உழைத்து அவளது ஆசியைப் பெறும் ஒரு புதிய தொடர்ச்சிக் கதையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -13263,7 +13263,7 @@
         "question": "இடையன் தன் உயிரைக் காத்த மோதி நாய்க்கு மலையுச்சியில் அமைக்கும் ஒரு நினைவுச் சின்னத்தின் கல்வெட்டு வாசகத்தை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -13422,7 +13422,7 @@
         "question": "சகோதரிகள் இருவரும் இணைந்து இளைய தலைமுறை நெசவாளர்களுக்கு ஒற்றுமையைப் போதிக்கும் ஒரு பட்டறை உரையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -13581,7 +13581,7 @@
         "question": "அன்னப்பறவை குணமடைந்து வானில் சிறகடித்துப் பறக்கும் போது சித்தார்த்தன் அடையும் மகிழ்ச்சியை ஒரு கவிதையாக வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -13740,7 +13740,7 @@
         "question": "இருவரும் இணைந்து புதிய வணிகத்தைத் தொடங்கி மற்றவர்களுக்கு நேர்மைக்கு முன்மாதிரியாகத் திகழும் காட்சியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -13899,7 +13899,7 @@
         "question": "பண்டிதர் தன் கர்வம் அடங்கி மரவெட்டிக்கு நன்றி கூறி அவனிடம் கைவினைத் தொழிலைக் கற்கும் காட்சியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -14058,7 +14058,7 @@
         "question": "அரசி தன் தோட்டத்தில் மூலிகைப் பண்ணையை அமைத்து மக்களுக்கு இலவச மருத்துவம் தரும் ஒரு புதிய காட்சியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -14217,7 +14217,7 @@
         "question": "முனிவரின் குடிலில் பல பறவைகளும் விலங்குகளும் பாதுகாப்பாக வாழும் ஒரு அமைதிச் சோலையைச் சித்தரிக்கும் கவிதையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -14376,7 +14376,7 @@
         "question": "வாழ்க்கைப் போராட்டங்களைத் தீயில் பழுக்கும் இரும்போடு ஒப்பிட்டு ஒரு ஊக்கக் கவிதையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -14535,7 +14535,7 @@
         "question": "இரு நண்பர்களும் தங்கள் கிராமத்தில் ஏழை மாணவர்களுக்காக ஒரு கல்வி அறக்கட்டளையைத் தொடங்குவதாக ஒரு புதிய காட்சியை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -14694,7 +14694,7 @@
         "question": "சமுத்திரன் கரை சேர்ந்ததும் மக்கள் அவனை வரவேற்று நடத்தும் பாராட்டு விழாவின் உரையை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -14853,7 +14853,7 @@
         "question": "கோப மேலாண்மை (Anger Management) குறித்து இளைஞர்களுக்கு வழிகாட்டும் ஒரு வழிகாட்டிக் குறிப்பை வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",
@@ -15012,7 +15012,7 @@
         "question": "விக்கிரமாதித்தன் வெற்றி பெற்று நாடு திரும்பி மக்கள் முன் ஆற்றிய தர்ம வெற்றி உரையை ஒரு காவிய நாடகமாக வரைக."
       }
     ],
-    "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
     "mood": [
       "calm",

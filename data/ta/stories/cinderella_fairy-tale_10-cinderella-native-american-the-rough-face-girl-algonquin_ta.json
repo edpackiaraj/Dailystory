@@ -123,7 +123,7 @@
       "question": "ஐரோப்பிய சிண்ட்ரெல்லா கதைகளில் வரும் கண்ணாடி காலணியை விட, பழங்குடி மக்களின் இயற்கை சார்ந்த வானவில் பார்வை எவ்வாறு ஆழமானது என்பதை விளக்குக."
     }
   ],
-  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
   "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
   "mood": [
     "calm",

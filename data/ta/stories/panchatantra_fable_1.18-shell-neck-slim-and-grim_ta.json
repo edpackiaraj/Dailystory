@@ -94,7 +94,7 @@
     },
     {
       "word": "நாட்டின்",
-      "meaning": "நாட்டின் என்ற சொல்லின் சூழல் பொருள் (Signifies நாட்டின் in the context of the story)"
+      "meaning": "நாட்டின் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
     },
     {
       "word": "அந்தரத்தில்",
@@ -119,7 +119,7 @@
       "prompt": "திருக்குறளில் நாவடக்கம் பற்றித் திருவள்ளுவர் கூறும் தத்துவங்கள் இக்கதையோடு எவ்வாறு பொருந்திப் போகின்றன?"
     }
   ],
-  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
   "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
   "mood": [
     "calm",

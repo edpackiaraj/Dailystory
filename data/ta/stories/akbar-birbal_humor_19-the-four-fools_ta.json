@@ -83,11 +83,11 @@
   "vocabulary": [
     {
       "word": "நாள்",
-      "meaning": "நாள் என்ற சொல்லின் சூழல் பொருள் (Signifies நாள் in the context of the story)"
+      "meaning": "நாள் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
     },
     {
       "word": "பேரரசர்",
-      "meaning": "பேரரசர் என்ற சொல்லின் சூழல் பொருள் (Signifies பேரரசர் in the context of the story)"
+      "meaning": "பேரரசர் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
     },
     {
       "word": "ஆக்ரா",
@@ -95,7 +95,7 @@
     },
     {
       "word": "அக்பர்",
-      "meaning": "அக்பர் என்ற சொல்லின் சூழல் பொருள் (Signifies அக்பர் in the context of the story)"
+      "meaning": "அக்பர் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
     }
   ],
   "discussion_questions": [
@@ -116,7 +116,7 @@
       "prompt": "ஒரு ஆட்சியாளரின் தேவையற்ற தன்னிச்சையான கட்டளைகள் நாட்டின் நிர்வாகத்தை எவ்வாறு சீரழிக்கும்?"
     }
   ],
-  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
   "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
   "mood": [
     "calm",

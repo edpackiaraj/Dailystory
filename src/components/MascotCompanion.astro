@@ -1,11 +1,14 @@
 ---
 import brandConfig from '../../config/brand.json';
+import { getT } from '../lib/i18n';
 
 interface Props {
   tip?: string;
+  lang?: string;
 }
 
-const { tip } = Astro.props;
+const { tip, lang = 'en' } = Astro.props;
+const t = getT(lang);
 ---
 
 <div class="p-5 sm:p-6 rounded-3xl bg-amber-100/70 dark:bg-slate-900 border border-amber-300 dark:border-slate-800 shadow-sm flex items-center gap-4">
@@ -15,14 +18,14 @@ const { tip } = Astro.props;
   <div>
     <div class="flex items-center gap-2 mb-1">
       <span class="font-black text-amber-950 dark:text-amber-200 text-sm sm:text-base">
-        {brandConfig.mascot.name} {brandConfig.mascot.title}
+        {lang === 'ta' ? 'கதா – கதை ஆந்தை' : (lang === 'hi' ? 'कथा – कहानी उल्लू' : `${brandConfig.mascot.name} ${brandConfig.mascot.title}`)}
       </span>
       <span class="px-2 py-0.5 rounded-full bg-amber-200 dark:bg-amber-950 text-amber-900 dark:text-amber-300 text-[10px] font-bold">
-        Friendly Guide
+        {t.friendlyGuide || "Friendly Guide"}
       </span>
     </div>
     <p class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed italic">
-      "{tip || 'Welcome to our reading sanctuary! Read slowly, ask curious questions, and let your imagination soar.'}"
+      "{tip || t.mascotWelcome || 'Welcome to our reading sanctuary! Read slowly, ask curious questions, and let your imagination soar.'}"
     </p>
   </div>
 </div>

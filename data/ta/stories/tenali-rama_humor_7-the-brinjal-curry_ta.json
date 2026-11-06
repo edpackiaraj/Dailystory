@@ -87,11 +87,11 @@
     },
     {
       "word": "விஜயநகர",
-      "meaning": "விஜயநகர என்ற சொல்லின் சூழல் பொருள் (Signifies விஜயநகர in the context of the story)"
+      "meaning": "விஜயநகர என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
     },
     {
       "word": "அரண்மனைத்",
-      "meaning": "அரண்மனைத் என்ற சொல்லின் சூழல் பொருள் (Signifies அரண்மனைத் in the context of the story)"
+      "meaning": "அரண்மனைத் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
     },
     {
       "word": "மழைகூட",
@@ -116,7 +116,7 @@
       "prompt": "மன்னரின் கடும் தண்டனையிலிருந்து குடும்பத்தைக் காக்க ராமனின் அறிவு எவ்வாறு கைகொடுத்தது?"
     }
   ],
-  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
   "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
   "mood": [
     "calm",

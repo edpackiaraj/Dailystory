@@ -139,7 +139,7 @@
       "question": "நெருக்கடியான சூழல்களில் தோல்வி மனப்பான்மையை மாற்றி நம்பிக்கையூட்டும் உத்திகளைப் பட்டியலிடும் கையேட்டை உருவாக்குக."
     }
   ],
-  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
   "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
   "mood": [
     "calm",

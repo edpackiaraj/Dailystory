@@ -90,7 +90,7 @@
     },
     {
       "word": "பழம்பெரும்",
-      "meaning": "பழம்பெரும் என்ற சொல்லின் சூழல் பொருள் (Signifies பழம்பெரும் in the context of the story)"
+      "meaning": "பழம்பெரும் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
     },
     {
       "word": "நவரத்தின",
@@ -119,7 +119,7 @@
       "prompt": "பஞ்சதந்திரத்தின் \"மித்ர பேதம்\" பகுதியில் இக்கதை உணர்த்தும் அரசியல் ராஜதந்திரம் யாது?"
     }
   ],
-  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
   "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
   "mood": [
     "calm",

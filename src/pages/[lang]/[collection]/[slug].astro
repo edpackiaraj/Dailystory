@@ -274,10 +274,10 @@ const jsonLd = [
                 <div class="space-y-1">
                   <div class="flex items-center gap-2 text-teal-800 dark:text-teal-300 font-bold">
                     <span class="text-base">🎓</span>
-                    <span>School &amp; Classroom Learning Suite</span>
+                    <span>{t.schoolLearningSuite || "School & Classroom Learning Suite"}</span>
                   </div>
                   <p class="text-teal-700/80 dark:text-teal-400/80 text-[11px]">
-                    Pedagogical activities, moral reflection, vocabulary mastery, and quiz scoring active.
+                    {t.pedagogyActive || "Pedagogical activities, moral reflection, vocabulary mastery, and quiz scoring active."}
                   </p>
                 </div>
                 <div class="flex items-center gap-2 w-full sm:w-auto shrink-0">
@@ -289,7 +289,7 @@ const jsonLd = [
                     data-url={canonicalUrl}
                   >
                     <span id="share-classroom-icon">📋</span>
-                    <span id="share-classroom-text">Copy Class Link</span>
+                    <span id="share-classroom-text">{t.copyClassLink || "Copy Class Link"}</span>
                   </button>
                   <a
                     href={`https://api.whatsapp.com/send?text=${encodeURIComponent(`📚 Classroom Story: ${story.title}\nRead the story and answer the quiz here:\n${canonicalUrl}`)}`}
@@ -378,9 +378,11 @@ const jsonLd = [
                       <div id="quiz-completion-banner" class="hidden p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-500/40 text-emerald-800 dark:text-emerald-200 text-xs font-bold flex items-center justify-between">
                         <div class="flex items-center gap-2">
                           <span class="text-lg">🎉</span>
-                          <span id="quiz-completion-text">Quiz Complete!</span>
+                          <span id="quiz-completion-text">{t.quizComplete || "Quiz Complete!"}</span>
                         </div>
-                        <a href={`/${currentLang}/classroom/`} class="underline text-emerald-700 dark:text-emerald-300">View Classroom Board →</a>
+                        <a href={`/${currentLang}/classroom/`} class="underline text-emerald-700 dark:text-emerald-300">
+                          {currentLang === 'ta' ? 'வகுப்பறைப் பலகையைக் காண்க →' : (currentLang === 'hi' ? 'कक्षा बोर्ड देखें →' : 'View Classroom Board →')}
+                        </a>
                       </div>
 
                       {story.quiz.map((q, qIdx) => (

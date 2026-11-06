@@ -83,7 +83,7 @@
   "vocabulary": [
     {
       "word": "ராஜா",
-      "meaning": "ராஜா என்ற சொல்லின் சூழல் பொருள் (Signifies ராஜா in the context of the story)"
+      "meaning": "ராஜா என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
     },
     {
       "word": "காவலன்",
@@ -116,7 +116,7 @@
       "prompt": "அக்பர் பீர்பாலைத் தன் அரசவையின் நவரத்தினங்களில் ஒருவராக இணைக்கக் காரணம் என்ன?"
     }
   ],
-  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
   "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
   "mood": [
     "calm",

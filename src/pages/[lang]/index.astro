@@ -102,7 +102,7 @@ const recentStories = translatedFirst.slice(0, 16);
     <div class="p-3 sm:p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
       <div class="flex items-center gap-2 font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
         <span class="text-base">🌐</span>
-        <span>{t.language || "Language"}:</span>
+        <span>{t.selectLanguage || "Language"}:</span>
       </div>
       <div class="flex items-center gap-1.5 flex-wrap justify-center font-bold">
         {brandConfig.supportedLanguages.map(l => (

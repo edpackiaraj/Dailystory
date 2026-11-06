@@ -91,7 +91,7 @@
     },
     {
       "word": "பழங்காலத்தில்",
-      "meaning": "பழங்காலத்தில் என்ற சொல்லின் சூழல் பொருள் (Signifies பழங்காலத்தில் in the context of the story)"
+      "meaning": "பழங்காலத்தில் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
     },
     {
       "word": "வேடிக்கை",
@@ -116,7 +116,7 @@
       "prompt": "வாழ்க்கையில் உண்மையான குருவுக்கு இருக்க வேண்டிய நற்குணங்கள் யாவை?"
     }
   ],
-  "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",
+  "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
   "activity": "Draw a colorful picture of your favorite moment in this story or share the moral with your family.",
   "mood": [
     "calm",

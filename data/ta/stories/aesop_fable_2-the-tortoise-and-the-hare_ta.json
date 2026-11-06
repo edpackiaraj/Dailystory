@@ -85,7 +85,7 @@
   "vocabulary": [
     {
       "word": "அடர்ந்த",
-      "meaning": "அடர்ந்த என்ற சொல்லின் சூழல் பொருள் (Signifies அடர்ந்த in the context of the story)"
+      "meaning": "அடர்ந்த என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
     },
     {
       "word": "அயர்ந்து",
@@ -93,7 +93,7 @@
     },
     {
       "word": "காட்டில்",
-      "meaning": "காட்டில் என்ற சொல்லின் சூழல் பொருள் (Signifies காட்டில் in the context of the story)"
+      "meaning": "காட்டில் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
     },
     {
       "word": "ஏளனமாகச்",
@@ -118,7 +118,7 @@
       "prompt": "\"நிதானமும் விடாமுயற்சியும் கர்வத்தை வெல்லும்\" என்ற பழமொழி உங்கள் அன்றாட வாழ்வில் எவ்வாறு பொருந்துகிறது?"
     }
   ],
-  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
   "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
   "mood": [
     "calm",

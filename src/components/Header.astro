@@ -49,39 +49,39 @@ const currentLangObj = getLanguageMeta(currentLang);
         </div>
       </a>
 
-      <!-- Center-Aligned Desktop Navigation Links (English Only, No translation) -->
+      <!-- Center-Aligned Desktop Navigation Links -->
       <nav class="hidden lg:flex items-center justify-center flex-1 mx-2 gap-1 xl:gap-2 text-sm font-semibold text-[#4A3B2C] dark:text-[#E2D9CC]" aria-label="Main Navigation">
         <a
           href={`/${currentLang}/`}
           class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all"
         >
-          Today's Story
+          {t.storyOfTheDay || "Today's Story"}
         </a>
         <a
           href={`/${currentLang}/collections/`}
           class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all"
         >
-          Stories
+          {t.stories || "Stories"}
         </a>
         <a
           href={`/${currentLang}/classroom/`}
           class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1.5"
         >
           <span>🎓</span>
-          <span>My Classroom</span>
+          <span>{t.classroom || "My Classroom"}</span>
         </a>
         <a
           href={`/${currentLang}/favorites/`}
           class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1"
         >
           <span>⭐</span>
-          <span>Favorites</span>
+          <span>{t.favourites || "Favorites"}</span>
         </a>
         <a
           href={`/${currentLang}/about/`}
           class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all"
         >
-          About
+          {t.about || "About"}
         </a>
       </nav>
 
@@ -92,24 +92,28 @@ const currentLangObj = getLanguageMeta(currentLang);
         <button
           type="button"
           id="mode-toggle-btn"
-          title="Toggle Reading Mode: General (Clean Story) vs School (Activities, Vocabulary & Quizzes)"
+          title="Toggle Reading Mode: General vs School"
           aria-label="Toggle Learning Mode"
+          data-school-mode={t.schoolMode || "Mode: School"}
+          data-general-mode={t.generalMode || "Mode: General"}
           class="px-2.5 sm:px-3 py-1.5 rounded-full border border-[#EEDFC8] dark:border-[#383659] bg-[#FFF8EC] dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1.5 text-xs font-bold shadow-2xs min-h-[38px]"
         >
           <span id="mode-icon" class="text-sm">👁️</span>
-          <span id="mode-text" class="hidden sm:inline font-semibold">Mode: General</span>
+          <span id="mode-text" class="hidden sm:inline font-semibold">{t.generalMode || "Mode: General"}</span>
         </button>
 
-        <!-- Compact Night/Day Toggle Button (Reduced text size) -->
+        <!-- Compact Night/Day Toggle Button -->
         <button
           type="button"
           id="theme-quick-toggle"
           title="Toggle Night & Day Theme"
           aria-label="Toggle Night/Day Theme"
+          data-day-text={t.light || "Day"}
+          data-night-text={t.night || "Night"}
           class="px-2.5 py-1.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] bg-[#FFF8EC] dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1 text-[11px] sm:text-xs font-semibold shadow-2xs min-h-[38px]"
         >
           <span id="theme-icon" class="text-xs">🌙</span>
-          <span id="theme-text" class="text-[11px]">Night</span>
+          <span id="theme-text" class="text-[11px]">{t.night || "Night"}</span>
         </button>
 
         <!-- Aa Reader Settings Trigger -->
@@ -154,14 +158,16 @@ const currentLangObj = getLanguageMeta(currentLang);
       localStorage.setItem('dailytale_user_mode', mode);
       
       if (modeBtn && modeIcon && modeText) {
+        const schoolText = modeBtn.getAttribute('data-school-mode') || 'Mode: School';
+        const generalText = modeBtn.getAttribute('data-general-mode') || 'Mode: General';
         if (mode === 'school') {
           modeIcon.textContent = '🎓';
-          modeText.textContent = 'Mode: School';
+          modeText.textContent = schoolText;
           modeBtn.classList.add('border-[#0F766E]', 'bg-[#0F766E]/10', 'text-[#0F766E]', 'dark:text-[#2DD4BF]');
           modeBtn.classList.remove('border-[#EEDFC8]', 'bg-[#FFF8EC]');
         } else {
           modeIcon.textContent = '👁️';
-          modeText.textContent = 'Mode: General';
+          modeText.textContent = generalText;
           modeBtn.classList.remove('border-[#0F766E]', 'bg-[#0F766E]/10', 'text-[#0F766E]', 'dark:text-[#2DD4BF]');
           modeBtn.classList.add('border-[#EEDFC8]', 'bg-[#FFF8EC]');
         }
@@ -189,13 +195,15 @@ const currentLangObj = getLanguageMeta(currentLang);
 
     function syncThemeUI() {
       const isDark = document.documentElement.classList.contains('dark');
+      const dayText = themeBtn?.getAttribute('data-day-text') || 'Day';
+      const nightText = themeBtn?.getAttribute('data-night-text') || 'Night';
       if (themeIcon && themeText) {
         if (isDark) {
           themeIcon.textContent = '☀️';
-          themeText.textContent = 'Day';
+          themeText.textContent = dayText;
         } else {
           themeIcon.textContent = '🌙';
-          themeText.textContent = 'Night';
+          themeText.textContent = nightText;
         }
       }
     }

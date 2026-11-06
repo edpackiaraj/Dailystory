@@ -142,7 +142,7 @@
       "question": "மலையாடு தன் குட்டிகளுக்குக் காட்டில் வாழும் கொடிய விலங்குகளின் வஞ்சகத்தைப் பற்றி எச்சரித்துக் கூறும் ஒரு உரையாடலை உருவாக்குக."
     }
   ],
-  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
   "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
   "mood": [
     "calm",

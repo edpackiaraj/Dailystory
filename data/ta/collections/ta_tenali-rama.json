@@ -117,7 +117,7 @@
         "prompt": "ஒரு நாட்டின் வளர்ச்சிக்கு அதிகாரிகளின் நேர்மையும் வெளிப்படைத்தன்மையும் எவ்வளவு இன்றியமையாதது?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -217,19 +217,19 @@
     "vocabulary": [
       {
         "word": "கோடைக்",
-        "meaning": "கோடைக் என்ற சொல்லின் சூழல் பொருள் (Signifies கோடைக் in the context of the story)"
+        "meaning": "கோடைக் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       },
       {
         "word": "காலத்தில்",
-        "meaning": "காலத்தில் என்ற சொல்லின் சூழல் பொருள் (Signifies காலத்தில் in the context of the story)"
+        "meaning": "காலத்தில் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       },
       {
         "word": "தெனாலிராமனின்",
-        "meaning": "தெனாலிராமனின் என்ற சொல்லின் சூழல் பொருள் (Signifies தெனாலிராமனின் in the context of the story)"
+        "meaning": "தெனாலிராமனின் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       },
       {
         "word": "தோட்டத்தில்",
-        "meaning": "தோட்டத்தில் என்ற சொல்லின் சூழல் பொருள் (Signifies தோட்டத்தில் in the context of the story)"
+        "meaning": "தோட்டத்தில் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       }
     ],
     "discussion_questions": [
@@ -250,7 +250,7 @@
         "prompt": "\"சமய புத்தியே சிறந்த ஆயுதம்\" என்பதற்கு இக்கதை எவ்வாறு சான்றாகிறது?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -350,7 +350,7 @@
     "vocabulary": [
       {
         "word": "விஜயநகரப்",
-        "meaning": "விஜயநகரப் என்ற சொல்லின் சூழல் பொருள் (Signifies விஜயநகரப் in the context of the story)"
+        "meaning": "விஜயநகரப் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       },
       {
         "word": "காதில்",
@@ -362,7 +362,7 @@
       },
       {
         "word": "பேரரசர்",
-        "meaning": "பேரரசர் என்ற சொல்லின் சூழல் பொருள் (Signifies பேரரசர் in the context of the story)"
+        "meaning": "பேரரசர் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       }
     ],
     "discussion_questions": [
@@ -383,7 +383,7 @@
         "prompt": "ஒருவரின் உள்ளடக்கமான குணத்தை அறியாமல் வெளிப்புற அழகை மட்டுமே நம்புவது ஏன் தவறு?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -491,11 +491,11 @@
       },
       {
         "word": "விஜயநகரப்",
-        "meaning": "விஜயநகரப் என்ற சொல்லின் சூழல் பொருள் (Signifies விஜயநகரப் in the context of the story)"
+        "meaning": "விஜயநகரப் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       },
       {
         "word": "பேரரசுக்கு",
-        "meaning": "பேரரசுக்கு என்ற சொல்லின் சூழல் பொருள் (Signifies பேரரசுக்கு in the context of the story)"
+        "meaning": "பேரரசுக்கு என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       }
     ],
     "discussion_questions": [
@@ -516,7 +516,7 @@
         "prompt": "தெனாலிராமனின் அணுகுமுறையில் நகைச்சுவைக்கு அப்பால் உள்ள அரசியல் விழிப்புணர்வு யாது?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -624,11 +624,11 @@
       },
       {
         "word": "விஜயநகர",
-        "meaning": "விஜயநகர என்ற சொல்லின் சூழல் பொருள் (Signifies விஜயநகர in the context of the story)"
+        "meaning": "விஜயநகர என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       },
       {
         "word": "அரண்மனையில்",
-        "meaning": "அரண்மனையில் என்ற சொல்லின் சூழல் பொருள் (Signifies அரண்மனையில் in the context of the story)"
+        "meaning": "அரண்மனையில் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       }
     ],
     "discussion_questions": [
@@ -649,7 +649,7 @@
         "prompt": "விலங்குகளைத் தவறாகப் பழக்கப்படுத்தாமல் இயற்கையான முறையில் காப்பது ஏன் சிறந்தது?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -761,7 +761,7 @@
       },
       {
         "word": "நாள்",
-        "meaning": "நாள் என்ற சொல்லின் சூழல் பொருள் (Signifies நாள் in the context of the story)"
+        "meaning": "நாள் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       }
     ],
     "discussion_questions": [
@@ -782,7 +782,7 @@
         "prompt": "ஆட்சியாளர்கள் மக்களின் வரிப் பணத்தைச் செலவிடும் போது எத்தகைய பொறுப்புணர்வோடு இருக்க வேண்டும்?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -886,11 +886,11 @@
       },
       {
         "word": "விஜயநகர",
-        "meaning": "விஜயநகர என்ற சொல்லின் சூழல் பொருள் (Signifies விஜயநகர in the context of the story)"
+        "meaning": "விஜயநகர என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       },
       {
         "word": "அரண்மனைத்",
-        "meaning": "அரண்மனைத் என்ற சொல்லின் சூழல் பொருள் (Signifies அரண்மனைத் in the context of the story)"
+        "meaning": "அரண்மனைத் என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       },
       {
         "word": "மழைகூட",
@@ -915,7 +915,7 @@
         "prompt": "மன்னரின் கடும் தண்டனையிலிருந்து குடும்பத்தைக் காக்க ராமனின் அறிவு எவ்வாறு கைகொடுத்தது?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -1049,7 +1049,7 @@
         "prompt": "தெனாலிராமனின் நகைச்சுவைக்குப் பின்னால் இருந்த மக்கள் நலன் மற்றும் சமூக நீதி எத்தகையது?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -1154,7 +1154,7 @@
       },
       {
         "word": "காசி",
-        "meaning": "காசி என்ற சொல்லின் சூழல் பொருள் (Signifies காசி in the context of the story)"
+        "meaning": "காசி என்பதன் தூய இலக்கியத் தமிழ்ப் பொருள்"
       },
       {
         "word": "திலகாஷ்ட மஹிஷ பந்தனம்",
@@ -1183,7 +1183,7 @@
         "prompt": "\"அடக்கமே அறிவின் அடையாளம்\" என்பதற்கு இக்கதை எவ்வாறு தலைசிறந்த சான்றாகிறது?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -1320,7 +1320,7 @@
         "question": "தெனாலிராமனின் புலனாய்வுத் திறன் நவீன குற்றவியல் துப்பறியும் முறைகளோடு எவ்வாறு ஒப்பிடத்தக்கது என்பதை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -1448,7 +1448,7 @@
       "சந்தைகளில் நுகர்வோரை ஏமாற்றும் தவறான விளம்பரங்களையும் வணிக உத்திகளையும் நாம் எவ்வாறு விழிப்புணர்வோடு அணுக வேண்டும்?",
       "அரசன் முன்னிலையில் எளிய நெசவாளர்களின் உரிமையைப் பாதுகாத்த தெனாலிராமனின் சமூக நீதிப் பார்வை எத்தகையது?"
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -1581,7 +1581,7 @@
         "prompt": "மனிதர்களின் போலி முகமூடிகள் வாழ்க்கையின் சோதனைக் காலங்களில் எவ்வாறு வெளிப்படுகின்றன?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -1714,7 +1714,7 @@
         "prompt": "அதிகாரத்தில் உள்ளவர்களிடம் உண்மையை அஞ்சாமல் பேசும் தெனாலிராமனின் சுதந்திரமான ஆளுமை எத்தகையது?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -1842,7 +1842,7 @@
       "தெனாலிராமன் வழக்கை உடனடியாகத் தீர்க்காமல் ஒரு நாள் அவகாசம் எடுத்து ஆராய்ந்தது எத்தகைய நிதானத்தைக் காட்டுகிறது?",
       "சமூகத்தில் பிறரின் அரிய பொருட்களைப் போலி ஆவணங்கள் மூலம் அபகரிக்கும் தீய போக்கை இக்கதை எவ்வாறு கண்டிக்கிறது?"
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -1970,7 +1970,7 @@
       "நாட்டுப் பற்றும் மானமும் காக்கப்பட வேண்டிய தருணங்களில் விவேகிகள் எவ்வாறு தலைமை ஏற்க வேண்டும்?",
       "போட்டிகளில் பகட்டான உபகரணங்களை விடப் புத்திசாலித்தனமான உத்திகளே (Strategy over resources) வெற்றி தரும் என்பதை இக்கதை எவ்வாறு மெய்ப்பிக்கிறது?"
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -2105,7 +2105,7 @@
         "question": "மன்னரின் சினத்தைத் தணித்து விவசாயிக்கு நஷ்டஈடு பெற்றுத்தந்த தெனாலிராமனின் சமயோசித புத்தியை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -2233,7 +2233,7 @@
       "\"விகடகவி\" என்ற சொல்லின் இருவழிப் பொருளையும் (முன்னிருந்து படித்தாலும் பின்னிருந்து படித்தாலும் விகடகவி) அதன் இலக்கிய அழகையும் ஆராய்க.",
       "வாழ்க்கையின் இறுக்கமான சூழல்களை எதிர்கொள்ள \"நகைச்சுவை உணர்வு\" (Sense of humor) எவ்வாறு ஒரு சிறந்த மன அழுத்த நிவாரணியாகப் பயன்படுகிறது?"
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -2366,7 +2366,7 @@
         "prompt": "தெனாலிராமன் அரசருக்கு நேரடியாகப் பாடம் புகட்டாமல் செயல் விளக்கம் மூலம் உணர்த்திய விவேகம் எத்தகையது?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -2499,7 +2499,7 @@
         "question": "தெனாலிராமனின் துப்பறியும் முறையையும் குற்றத்தை நிரூபித்த வேகத்தையும் மதிப்பிடுக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -2627,7 +2627,7 @@
       "மன்னர் கிருஷ்ணதேவராயர் உடனடியாக நீதியை நிலைநாட்டிய விதம் ஒரு சிறந்த ஆட்சியாளரின் எத்தகைய கடமையை விளக்குகிறது?",
       "\"ஏழையின் கண்ணீர் கூரிய வாளை விடக் கொடியது\" என்ற பழமொழி இக்கதையில் எவ்வாறு மெய்ப்பிக்கப்படுகிறது?"
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -2764,7 +2764,7 @@
         "question": "மத குருமார்களின் போலித்தனங்களைத் தட்டிக்கேட்கத் தெனாலிராமன் கையாண்ட நகைச்சுவை வழிமுறை எவ்வாறு பயனுள்ளதாக அமைந்தது?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -2898,7 +2898,7 @@
         "question": "மன்னரின் மூடநம்பிக்கையை மரியாதையான விவாதத்தின் மூலம் கலைத்த தெனாலிராமனின் ராஜதந்திரத்தை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -3032,7 +3032,7 @@
         "question": "அறிவியல் மற்றும் தடயவியல் நுட்பங்கள் இல்லாத அக்காலத்தில் தெனாலிராமன் கையாண்ட மனோதத்துவ உத்தியை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -3169,7 +3169,7 @@
         "question": "பாரம்பரிய சித்த மருத்துவக் கோட்பாடுகளான வியர்வை வெளியேற்றம் மற்றும் தும்மலின் ஆரோக்கியப் பங்களிப்பை இக்கதை எவ்வாறு விளக்குகிறது?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -3308,7 +3308,7 @@
         "question": "சைகை விவாதம் சார்ந்த நாட்டுப்புறக் கதைகள் உலக இலக்கியங்களில் எவ்வாறு பொதுவான கருப்பொருளாக விளங்குகின்றன என்பதை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -3446,7 +3446,7 @@
         "question": "விலங்கு வதைக்கு எதிரான குரலை 16-ஆம் நூற்றாண்டிலேயே தெனாலிராமன் கதைகள் எவ்வாறு முன்னெடுத்தன என்பதை ஆராய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -3579,7 +3579,7 @@
         "question": "போலி வியாபாரியை வன்முறையின்றித் தன் நகைச்சுவை வாதத்தால் புறமுதுகிடச் செய்த தெனாலிராமனின் திறனை விளக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -3716,7 +3716,7 @@
         "question": "கிருஷ்ணதேவராயர் மற்றும் தெனாலிராமனின் நீதி வழங்கும் முறை எளிய மக்களின் உரிமைகளை எவ்வாறு பாதுகாத்தது என்பதை விவாதிக்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -3851,7 +3851,7 @@
         "question": "பிரம்மாண்டத்தின் பலவீனத்தை இயற்கை அறிவியலின் அடிப்படையில் சுட்டிக்காட்டிய தெனாலிராமனின் ஞானத்தை மதிப்பிடுக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -3984,7 +3984,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -4118,7 +4118,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -4252,7 +4252,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -4386,7 +4386,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -4520,7 +4520,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -4654,7 +4654,7 @@
         "type": "Evaluating"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -4792,7 +4792,7 @@
         "question": "சந்திரசேகரனின் போலி விசுவாசத்தை வெளிக்கொணரத் தெனாலிராமன் கையாண்ட நகைச்சுவை அணுகுமுறையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -4929,7 +4929,7 @@
         "question": "தெனாலிராமன் மஞ்சள் மற்றும் சுண்ணாம்பின் வேதிவினையை உளவியல் தந்திரத்துடன் இணைத்த விதத்தை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -5066,7 +5066,7 @@
         "question": "குரங்கின் பின்பற்றும் இயல்பைப் (mimicry) பயன்படுத்தி முத்துமாலையை மீட்ட தெனாலிராமனின் யுக்தியைப் பகுப்பாய்வு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -5204,7 +5204,7 @@
         "question": "தெனாலிராமனின் அச்சமின்மையையும் ஆதாரங்களை ஆராயும் புலனாய்வு முறையையும் மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -5341,7 +5341,7 @@
         "question": "விளைந்த செடியின் நறுமணப் பரிசோதனையின் மூலம் நீதியை நிலைநாட்டிய தெனாலிராமனின் தீர்ப்பை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -5478,7 +5478,7 @@
         "question": "அரசர் கிருஷ்ணதேவராயர் ஏமாறவிருந்த சூழலில் தெனாலிராமன் ஆற்றிய விவேகமான பங்களிப்பை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -5615,7 +5615,7 @@
         "question": "மனிதர்களின் உண்மையான எண்ணங்களை வெளிக்கொணரத் தெனாலிராமன் அமைத்த உளவியல் திரைப் பரிசோதனையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -5752,7 +5752,7 @@
         "question": "சுப்பண்ணாவின் திருந்துதலுக்குத் தெனாலிராமன் கையாண்ட நகைச்சுவை அணுகுமுறையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -5889,7 +5889,7 @@
         "question": "மனித பலவீனங்களையும் அதிகாரத்தின் தன்மையையும் நுட்பமாக உணர்ந்து செயல்பட்ட தெனாலிராமனின் மதிநுட்பத்தை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -6026,7 +6026,7 @@
         "question": "போலி விளம்பரத் தர்மத்தின் போதையை முறிக்கத் தெனாலிராமன் கையாண்ட குறியீட்டு அணுகுமுறையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -6163,7 +6163,7 @@
         "question": "போலி ஜோதிடர்களின் வாதங்களை முறியடிக்கத் தெனாலிராமன் கையாண்ட எளிய நேரடிச் செய்முறைப் பரிசோதனையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -6301,7 +6301,7 @@
         "question": "ஒரு மனிதனின் தீய பழக்கத்தை அவனது விருப்பத்தையே மிகையாக்கி மாற்றியமைத்த தெனாலிராமனின் உளவியல் உத்தியை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -6439,7 +6439,7 @@
         "question": "காரியப்பாவின் உண்மைத் தன்மைக்கும் சோமண்ணாவின் போலி நாடகத்திற்கும் இடையே உள்ள பண்பாட்டு முரணை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -6577,7 +6577,7 @@
         "question": "கணித மற்றும் தர்க்க விதிகளின் அடிப்படையில் தெனாலிராமனின் புத்தி கூர்மையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -6714,7 +6714,7 @@
         "question": "கலை, யதார்த்தம் மற்றும் கண்ணியம் ஆகிய மூன்றையும் ஒருங்கே இணைத்த தெனாலிராமனின் கலை நுணுக்கத்தை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -6851,7 +6851,7 @@
         "question": "தெனாலிராமனின் செய்முறைப் புத்தி சாதுரியத்தையும் தந்திர அணுகுமுறையையும் மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -6988,7 +6988,7 @@
         "question": "தெனாலிராமனின் துரிதமான பேரிடர் மேலாண்மைத் திறனையும் தன்னலமற்ற தலைமைப் பண்பையும் மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -7126,7 +7126,7 @@
         "question": "கொண்டைக்கடலையையும் வேப்பிலையையும் கொண்டு ஏமாற்றுக்காரனை மடக்கிய தெனாலிராமனின் நடைமுறைப் பரிசோதனையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -7263,7 +7263,7 @@
         "question": "தேனையும் தேனீக்களையும் துப்பறியும் கருவியாகப் பயன்படுத்திய தெனாலிராமனின் தாவரவியல் அறிவை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -7400,7 +7400,7 @@
         "question": "தன் தவறை உணர்ந்து சிம்மாசனத்திலிருந்து இறங்கி எளிய மூதாட்டிக்கு நீதி வழங்கிய கிருஷ்ணதேவராயரின் பெருந்தன்மையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -7537,7 +7537,7 @@
         "question": "சுற்றுச்சூழல் மற்றும் நீர் ஆதாரப் பாதுகாப்பில் தெனாலிராமன் மேற்கொண்ட நடைமுறை சீர்திருத்தங்களை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -7674,7 +7674,7 @@
         "question": "சதிகாரர்களின் சொந்தக் குரலையே அவர்களுக்கு எதிரான ஆயுதமாக மாற்றிய தெனாலிராமனின் யுக்தியை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -7811,7 +7811,7 @@
         "question": "கொடிய கொள்ளையர்களைத் தன் கையால் தாக்காமல் அவர்களின் சொந்த வஞ்சகத்தினாலேயே அழியச் செய்த தெனாலிராமனின் தந்திரத்தை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -7948,7 +7948,7 @@
         "question": "அறிவியல் அவதானிப்பையும் துரிதமான நடைமுறைச் செயலையும் ஒருங்கிணைத்த தெனாலிராமனின் புலனாய்வுத் திறனை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -8086,7 +8086,7 @@
         "question": "அரசரின் மனச்சோர்வை நீக்கத் தத்துவக் குறியீட்டுடன் கூடிய கண்ணாடியைப் பயன்படுத்திய தெனாலிராமனின் வழிமுறையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -8223,7 +8223,7 @@
         "question": "மருத்துவத்தையும் உளவியல் நகைச்சுவையையும் இணைத்துப் பிணியைத் தீர்த்த தெனாலிராமனின் வழிமுறையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -8360,7 +8360,7 @@
         "question": "ஏமாற்றுக்காரனின் சொந்த வாதத்தையே அவனுக்கு எதிரான தற்காப்புப் பொறியாக மாற்றிய தெனாலிராமனின் விவேகத்தை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -8497,7 +8497,7 @@
         "question": "குறியீட்டு ரீதியாக அதிகார நாற்காலியைச் சூடாக்கி ஊழலை வெளிப்படுத்திய தெனாலிராமனின் நாடக பாணியை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -8634,7 +8634,7 @@
         "question": "தெனாலிராமனின் கூர்மையான அவதானிப்புத் திறனையும் தர்க்கவியல் துப்பறியும் பாங்கையும் மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -8771,7 +8771,7 @@
         "question": "நேரடி மோதலைத் தவிர்த்துத் தன் உயிரைப் பணயம் வைத்துப் பொக்கிஷப் பெட்டியில் பதுங்கிய தெனாலிராமனின் தைரியத்தையும் விவேகத்தையும் மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -8909,7 +8909,7 @@
         "question": "சோமதத்தனின் பேராசையையே உழைப்பிற்கான உந்துசக்தியாக மாற்றிய தெனாலிராமனின் வழிநடத்தும் திறனை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -9046,7 +9046,7 @@
         "question": "குற்றவாளிக்குத் தண்டனையும், பலவந்தமாகப் பயன்படுத்தப்பட்ட சிறுவனுக்குக் கல்வியும் பெற்றுத் தந்த தெனாலிராமனின் இரட்டை அணுகுமுறையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -9183,7 +9183,7 @@
         "question": "தெனாலிராமனின் உடனடி சமயோசித அறிவையும் தர்க்க முரண் சாதுரியத்தையும் மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -9320,7 +9320,7 @@
         "question": "தேனீக்களின் நடத்தை மற்றும் வெப்பச் சோதனை ஆகிய இரு அறிவியல் வழிகளில் உண்மையைக் கண்டறிந்த தெனாலிராமனின் வழிமுறையை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -9457,7 +9457,7 @@
         "question": "நாயின் வாசனை உணர்வையும் பழக்கவழக்கங்களையும் வழக்காக மாற்றிய தெனாலிராமனின் இரக்கக் குணத்தை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -9594,7 +9594,7 @@
         "question": "அரசரின் மனத்தளவிலான பயத்தை நொடிப்பொழுதில் உடைத்தெறிந்த தெனாலிராமனின் அதிர்ச்சி வைத்திய உத்தியை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -9732,7 +9732,7 @@
         "question": "அதிகார வர்க்கத்தின் தவறான முடிவுகளை நகைச்சுவை உவமைகளின் மூலம் நேர்த்தியாக மாற்றியமைத்த தெனாலிராமனின் ராஜதந்திரத்தை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -9870,7 +9870,7 @@
         "question": "மன்னரின் கண்மூடித்தனமான பேராசையைத் தடுத்து அரசு கஜானாவைப் பாதுகாத்த தெனாலிராமனின் புலனாய்வுத் திறனை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -10008,7 +10008,7 @@
         "question": "குண்டப்பனைக் காயப்படுத்தாமல் அவன் செய்த தவற்றை அவனே உணர்ந்து திருந்த வைத்த ராமனின் உன்னதப் பண்பை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -10146,7 +10146,7 @@
         "question": "உடல் ரீதியான வன்முறை இன்றி உளவியல் தூண்டுதலின் மூலம் உண்மையை ஒப்புக்கொள்ள வைத்த தெனாலிராமனின் அறிவுத்திறனை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -10284,7 +10284,7 @@
         "question": "தனக்கு அநீதி இழைக்கப்பட்ட போதிலும் தெனாலிராமனின் உதவியால் இரட்டிப்புப் பரிசைப் பெற்ற நெசவாளியின் நேர்மையையும் பொறுமையையும் மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -10422,7 +10422,7 @@
         "question": "உண்மையான புலமை என்பது எளிமையிலும் பயன்பாட்டிலும் உள்ளதே தவிர பகட்டு வார்த்தைகளில் இல்லை என்ற கருத்தை மதிப்பீடு செய்க."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -10580,7 +10580,7 @@
         "question": "சூரிய ஒளி இல்லாத இரவு நேரத்தில் இதே போன்ற கிணற்றிலிருந்து மோதிரத்தை மீட்க நீங்களாக இருந்தால் எத்தகைய மாற்று அறிவியல் உத்தியை உருவாக்குவீர்கள்?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -10738,7 +10738,7 @@
         "question": "மூன்றாவதாக ஒரு சிலை இருந்தால், 'நல்லவற்றைக் கேட்டு, நல்லவற்றை மட்டுமே பேசும்' மனிதனைச் சித்தரிக்க அதன் உடலமைப்பை நீங்கள் எவ்வாறு வடிவமைப்பீர்கள்?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -10896,7 +10896,7 @@
         "question": "அடையாளங்கள் மறைந்துபோகும் ஒரு பாலைவனத்திலோ அல்லது பனிப் பிரதேசத்திலோ பொருளைப் புதைக்க நேர்ந்தால் அதை மீண்டும் கண்டுபிடிக்க நீங்கள் என்ன புத்திசாலித்தனமான முறையை உருவாக்குவீர்கள்?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -11054,7 +11054,7 @@
         "question": "வன்முறையற்ற முறையில் எதிரியின் சவால்களை முறியடிக்க தெனாலிராமனைப் போல வேறு என்ன புதுமையான தர்க்க நிபந்தனைகளை நீங்கள் உருவாக்கியிருப்பீர்கள்?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -11212,7 +11212,7 @@
         "question": "மரத்தை வெட்டும் சோதனை இல்லாமலேயே மரத்தின் உண்மையான வளர்ப்பாளரைக் கண்டறிய நீங்கள் எத்தகைய மாற்று விசாரணை முறையை வடிவமைப்பீர்கள்?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -11370,7 +11370,7 @@
         "question": "நீர்மட்ட இடப்பெயர்ச்சி முறையைத் தவிர்த்து, பொருளைச் சேதப்படுத்தாமல் இரு உலோகங்களின் கலப்படத்தைக் கண்டறிய நீங்கள் என்ன மாற்றுச் சோதனையை உருவாக்குவீர்கள்?"
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -11528,7 +11528,7 @@
         "question": "இன்றைய காலகட்டத்தில் சமூக ஊடகங்களில் போலிப் பெருமைகளைப் பேசுவோருக்கு விழிப்புணர்வு தரும் நகைச்சுவை நாடகக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -11686,7 +11686,7 @@
         "question": "பொருட்களில் படியும் வேதியியல் வாசனை மற்றும் கறைகளை வைத்து உண்மை கண்டறியும் ஒரு நவீன துப்பறியும் சிறுகதைக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -11844,7 +11844,7 @@
         "question": "சாத்தியமில்லாத விசித்திரமான நிபந்தனைகளைத் தர்க்கரீதியாக முறியடிக்கும் மற்றொரு புதிய கற்பனையான சூழலையும் பதிலையும் உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -12002,7 +12002,7 @@
         "question": "மூடநம்பிக்கைகளுக்கு எதிராகப் பொதுமக்களுக்கு விழிப்புணர்வை ஏற்படுத்தும் ஒரு துண்டுப் பிரசுரத்தை அல்லது பிரச்சார முழக்கத்தை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -12160,7 +12160,7 @@
         "question": "பொறாமைக்காரர்கள் விரிக்கும் வஞ்சக வலைகளிலிருந்து சமயோசித அறிவால் தப்பும் ஒரு புதிய நவீன அலுவலகச் சூழல் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -12318,7 +12318,7 @@
         "question": "அதிகார பலம் கொண்டவர்களால் ஏழைகள் சுரண்டப்படுவதைத் தடுத்து நீதியை நிலைநாட்டும் சமகால விழிப்புணர்வுக் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -12476,7 +12476,7 @@
         "question": "அகம்பாவம் பிடித்த மனிதர்களுக்குப் புத்தி புகட்டும் மற்றொரு நவீன நையாண்டிக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -12634,7 +12634,7 @@
         "question": "எளிய மக்களின் உரிமைகளைப் பாதுகாக்கும் நவீன இலவச சட்ட உதவி மையத்தின் மாதிரிப் பணிகளை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -12792,7 +12792,7 @@
         "question": "பார்வையாளர்களின் சிந்தனையைத் தூண்டும் ஒரு கருத்தியல் கலை (Conceptual Art) வடிவத்தை விவரிக்கும் குறிப்பை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -12950,7 +12950,7 @@
         "question": "ஆடம்பரச் சடங்குகளைத் தவிர்த்து எளிய முறையில் அன்போடு விருந்தோம்பல் செய்வதற்கான நெறிமுறைகளை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -13108,7 +13108,7 @@
         "question": "அறிவுப் புதிர்களைத் தர்க்கரீதியாக விடுவிக்கும் மற்றொரு புதிய விவாதக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -13266,7 +13266,7 @@
         "question": "திருக்குறளின் 'யாகாவா ராயினும் நாகாக்க' அதிகாரத்தை இக்கதையோடு இணைத்து ஒரு விழிப்புணர்வு உரையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -13424,7 +13424,7 @@
         "question": "எல்லைத் தகராறுகள் ஏற்படாமல் நிலங்களை நிரந்தரமாக அளவீடு செய்து பாதுகாப்பதற்கான நவீன வரைபட முறையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -13582,7 +13582,7 @@
         "question": "நகரங்களில் ஆதரவற்ற குழந்தைகளுக்கு உணவு மற்றும் அடைக்கலம் தரும் சமுதாய அமைப்பிற்கான செயல் திட்டத்தை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -13740,7 +13740,7 @@
         "question": "மன அழுத்தத்தைக் குறைத்து வாழ்வை நம்பிக்கையோடு அணுக உதவும் ஓர் உளவியல் வழிகாட்டுக் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -13898,7 +13898,7 @@
         "question": "தமிழில் முன்னும் பின்னும் படித்தால் ஒரே மாதிரி வரும் சில புதிய மாலைமாற்றுச் சொற்களையும் தொடர்களையும் உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -14056,7 +14056,7 @@
         "question": "அரசின் அதிகார எல்லைகளையும் தனிமனித உரிமைகளையும் வரையறுக்கும் மாதிரி வழிகாட்டுதலை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -14214,7 +14214,7 @@
         "question": "பொதுச் சொத்துக்களையும் மரங்களையும் நட்டுப் பராமரிக்கும் பசுமை இயக்கத்தின் செயல்பாட்டுக் குறிப்பை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -14372,7 +14372,7 @@
         "question": "தலைவர்களுக்கு அச்சமின்றி உண்மையை உரைக்கும் நற்குணத்தை வலியுறுத்தும் ஒரு மேடை நாடகக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -14530,7 +14530,7 @@
         "question": "கால்நடைகளின் உரிமைத் தகராறுகளை அறிவியல்பூர்வமாகத் தீர்க்கும் அடையாளக் குறியீட்டு வழிகாட்டலை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -14688,7 +14688,7 @@
         "question": "தவறான அனுமானங்களை முறியடிக்கும் மற்றொரு புதிய தர்க்கவாத விவாத உரையாடலை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -14846,7 +14846,7 @@
         "question": "மாய வித்தைகளுக்குப் பின்னால் உள்ள அறிவியல் தந்திரங்களை விளக்கும் எளிய மாணவர் கைநூலை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -15004,7 +15004,7 @@
         "question": "ஒரு நவீன வங்கிக் கொள்ளை வழக்கை உளவியல் உத்திகளைக் கொண்டு துப்பறியும் சிறுகதைக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -15162,7 +15162,7 @@
         "question": "இரு நாடுகளுக்கு இடையே ஏற்படும் முரண்பாடுகளை அமைதியான முறையில் தீர்க்கும் நவீன சமாதான ஒப்பந்த மாதிரியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -15317,7 +15317,7 @@
         "question": "ஆத்திர மேலாண்மை (Anger Management) மற்றும் நிதான முடிவெடுக்கும் நெறிகளைக் கற்பிக்கும் ஒரு புதிய உவமைக் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -15472,7 +15472,7 @@
         "question": "உண்மையான விருந்தோம்பலின் சிறப்பை விளக்கும் ஒரு சிறுகதையை அல்லது உரையாடலை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -15627,7 +15627,7 @@
         "question": "விலங்குகளிடம் கருணை காட்டுவதன் முக்கியத்துவத்தை விளக்கும் பிரசார வாசகங்கள் அல்லது விளம்பரப் பதாகையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -15782,7 +15782,7 @@
         "question": "இயற்பியல் விதிகளின் அடிப்படையில் குற்றத்தைக் கண்டுபிடிக்கும் மற்றொரு மர்மப் புலனாய்வுக் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -15937,7 +15937,7 @@
         "question": "அலுவலக மற்றும் நிதி ஆவணங்களில் முறைகேடுகளைத் தடுக்கும் வெளிப்படையான வழிமுறைகள் குறித்து ஒரு வழிகாட்டுதலை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -16092,7 +16092,7 @@
         "question": "மூடநம்பிக்கைகளுக்கு எதிரான எளிய அறிவியல் சோதனைகளை விளக்கும் விழிப்புணர்வு நாடகக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -16247,7 +16247,7 @@
         "question": "சந்தைகளில் எடை மோசடிகளைத் தடுக்க நுகர்வோர் விழிப்புணர்வு வாசகங்களை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -16402,7 +16402,7 @@
         "question": "பொய்ப் புகழ்ச்சியைத் தவிர்த்து நேர்மையான கருத்துக்களைக் கூற ஊக்குவிக்கும் ஒரு கலந்துரையாடல் வழிகாட்டலை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -16557,7 +16557,7 @@
         "question": "அன்றாடப் பொருட்களைக் கொண்டு புத்திசாலித்தனமாகச் சிக்கல்களைத் தீர்க்கும் மற்றொரு தந்திரக் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -16712,7 +16712,7 @@
         "question": "அமைதி மற்றும் இடைவெளியின் முக்கியத்துவத்தை விளக்கும் ஒரு கவிதை அல்லது இசை விமரிசனக் கட்டுரையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -16867,7 +16867,7 @@
         "question": "விலங்குகளின் இயற்கை நடத்தை அடிப்படையில் அமைக்கப்பட்ட மற்றொரு புலனாய்வுப் புதிர்க் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -17022,7 +17022,7 @@
         "question": "மூடநம்பிக்கைகளைத் தகர்த்து விழிப்புணர்வை ஏற்படுத்தும் நவீன பகுத்தறிவு உரையாடல் ஒன்றை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -17177,7 +17177,7 @@
         "question": "கால்நடைப் பாதுகாப்பு மற்றும் வறட்சி மேலாண்மை குறித்த விழிப்புணர்வுத் திட்ட அறிக்கை ஒன்றை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -17332,7 +17332,7 @@
         "question": "தொழிலாளர்களின் உழைப்பைப் போற்றும் விழிப்புணர்வு வாசகங்கள் அடங்கிய ஒரு சுவரொட்டியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -17487,7 +17487,7 @@
         "question": "மன அமைதியையும் நேர்மையையும் போதிக்கும் ஒரு சிறிய ஊக்கமளிக்கும் தத்துவக் கட்டுரையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -17642,7 +17642,7 @@
         "question": "அறிவியல் தந்திரங்களை முறைகேடாகப் பயன்படுத்துவோரை அம்பலப்படுத்தும் ஒரு மர்மக் கதைக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -17797,7 +17797,7 @@
         "question": "மன ஒருமைப்பாட்டையும் கவனக் குவிப்பையும் வளர்க்கும் எளிய பயிற்சி முறைகள் அடங்கிய வழிகாட்டலை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -17952,7 +17952,7 @@
         "question": "வாக்கைக் காப்பாற்றுவதன் அவசியத்தை வலியுறுத்தும் ஒரு நீதிக் கவிதை அல்லது முழக்கத் தொடரை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -18107,7 +18107,7 @@
         "question": "அடிப்படைத் தேவைகள் மற்றும் மக்கள் நல வரிகள் குறித்த கொள்கை வழிகாட்டல் வரைவை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -18262,7 +18262,7 @@
         "question": "மோசடி விளம்பரங்கள் மற்றும் போலி வணிகர்களுக்கு எதிரான விழிப்புணர்வு நாடகக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -18417,7 +18417,7 @@
         "question": "செல்வத்தின் சரியான பயன்பாட்டை விளக்கும் ஒரு நற்போதனைக் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -18572,7 +18572,7 @@
         "question": "போலி நகைகள் மற்றும் இரத்தினக் கற்களைக் கண்டறியும் எளிய சோதனைகள் குறித்த ஒரு தகவல் கையேட்டை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -18727,7 +18727,7 @@
         "question": "தடயவியல் அடிப்படையில் உரிமைச் சிக்கலைத் தீர்க்கும் மற்றொரு துப்பறியும் சிறு கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -18882,7 +18882,7 @@
         "question": "வேதியியல் அல்லது இயற்பியல் வினைகளை அடிப்படையாகக் கொண்ட மற்றொரு குற்றப் புலனாய்வுக் கதைக் கருவை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -19037,7 +19037,7 @@
         "question": "சுற்றுச்சூழலில் உள்ள விலங்கு அல்லது பறவைகளின் உதவிகொண்டு தீர்க்கப்படும் மற்றொரு கற்பனைக் குற்றப் புலனாய்வுக் கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -19192,7 +19192,7 @@
         "question": "இதே போன்று நடைமுறை அறிவால் மட்டுமே தீர்க்கக்கூடிய ஒரு புதிய கணித அல்லது தர்க்கப் புதிரை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -19347,7 +19347,7 @@
         "question": "கூட்டாண்மை வணிகத்தில் நியாயமான லாபப் பகிர்வுக்கான ஒப்பந்த விதிகள் கொண்ட வழிகாட்டல் நெறியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -19502,7 +19502,7 @@
         "question": "அரசு நிதி ஒதுக்கீடுகளின் வெளிப்படைத்தன்மையை உறுதி செய்யும் கண்காணிப்புத் திட்டம் ஒன்றை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -19657,7 +19657,7 @@
         "question": "விலங்குகளைக் கையாள்வதில் பொறுமையும் உளவியலும் ஏன் அவசியம் என்பதை விளக்கும் பயிற்சிக் குறிப்பு ஒன்றை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -19812,7 +19812,7 @@
         "question": "போலி மருந்துகளுக்கு எதிரான விழிப்புணர்வை ஏற்படுத்தும் ஒரு சுவரொட்டி அல்லது எச்சரிக்கை வாசகத்தை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -19967,7 +19967,7 @@
         "question": "விவசாயிகளின் பாரம்பரிய நீர் ஆதார உரிமைகளைப் பாதுகாக்கும் நெறிமுறை வழிகாட்டலை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -20122,7 +20122,7 @@
         "question": "அபத்தமான கோரிக்கைகளை நகைச்சுவையோடு நிராகரிக்கும் மற்றொரு நீதிமன்றக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -20277,7 +20277,7 @@
         "question": "அண்டை வீட்டார் நல்லுறவுக்கான சமரச விதிகள் அடங்கிய ஓர் எளிய குடியிருப்பு ஒப்பந்தத்தை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -20432,7 +20432,7 @@
         "question": "அன்றாட அறிவியல் பயன்பாடுகளைக் கொண்டு இக்கட்டான சூழலைத் தீர்க்கும் மற்றொரு துப்பறியும் சிறு கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -20587,7 +20587,7 @@
         "question": "விவசாயிகளுக்கு விழிப்புணர்வு தரும் நீர் மேலாண்மை மற்றும் சமூகப் பாதுகாப்பு வழிமுறைகளை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -20742,7 +20742,7 @@
         "question": "சூரியன் மற்றும் நிழலின் நகர்வை அடிப்படையாகக் கொண்ட மற்றொரு புதிர்க் குற்றக் கதைக் கருவை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -20897,7 +20897,7 @@
         "question": "எளிய குடும்பக் கைவினை அடையாளம் மூலம் உரிமை மீட்கப்படும் மற்றொரு துப்பறியும் சிறு கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -21052,7 +21052,7 @@
         "question": "வாழ்க்கையின் உண்மையான வெற்றியை வரையறுக்கும் ஒரு புதிய தத்துவ உரையாடலை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -21207,7 +21207,7 @@
         "question": "போலி அறிவியல் மற்றும் ரசவாத மோசடிகளைத் தடுக்கும் விழிப்புணர்வுப் பிரசாரத் திட்டத்தை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -21362,7 +21362,7 @@
         "question": "நவீன பொய் கண்டறியும் சோதனைகளின் (Polygraph tests) நம்பகத்தன்மை குறித்த விவாதக் குறிப்பை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "சிக்கலான அல்லது மன அழுத்தமான தருணங்களை நகைச்சுவை மற்றும் சமயோசித புத்தியால் எவ்வாறு எளிதாக்கலாம்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -21517,7 +21517,7 @@
         "question": "விலங்குகளின் விசுவாசத்தையும் நினைவாற்றலையும் போற்றும் ஒரு சிறு கதையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "இக்கதையில் வரும் பாத்திரத்தின் செயலிலிருந்து நீங்கள் கற்றுக்கொண்ட மிக முக்கியமான வாழ்வியல் பாடம் எது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -21672,7 +21672,7 @@
         "question": "உளவியல் உத்திகளைக் கொண்டு மாறுவேட நபர்களைக் கண்டறியும் மற்றொரு சுவாரசியமான நாடகக் காட்சியை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "கஷ்டமான சூழலிலும் நம்பிக்கை, பொறுமை மற்றும் நற்குணம் எப்போதுமே நற்பலனைத் தரும் என்பதை இக்கதை எவ்வாறு உணர்த்துகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -21827,7 +21827,7 @@
         "question": "மக்களின் குறைகளை நேரடியாகக் கேட்டறியும் நல்லாட்சித் திட்ட அறிக்கை ஒன்றை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "அதிகார பலத்தை விட அறிவுக்கூர்மையும் நீதியும் எப்போதுமே மேலானது என்பதை இக்கதை எவ்வாறு விளக்குகிறது?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",
@@ -21982,7 +21982,7 @@
         "question": "தெனாலிராமனின் ஒட்டுமொத்த வாழ்வின் நீதியையும் விவேகத்தையும் போற்றும் ஒரு நிறைவுப் பாராட்டுரையை உருவாக்குக."
       }
     ],
-    "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+    "reflection_prompt": "பிறருக்கு உதவும் மனப்பான்மையும் உண்மை பேசும் பழக்கமும் ஒருவருக்கு எத்தகைய நற்பெயரை ஈட்டித் தரும்?",
     "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
     "mood": [
       "calm",

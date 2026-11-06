@@ -118,7 +118,7 @@
       "question": "துன்பத்திலும் பாசிட்டிவான (Optimistic) நன்மைகளைக் காணும் மனித உளவியலை இக்கதையின் மூலம் மதிப்பீடு செய்க."
     }
   ],
-  "reflection_prompt": "Have you ever faced a challenging choice where calm thinking helped you do the right thing?",
+  "reflection_prompt": "இக்கதையில் வரும் நிகழ்வு உங்கள் அன்றாட வாழ்வில் நேர்மை அல்லது விவேகத்தைக் கடைப்பிடிக்க எவ்வாறு வழிகாட்டுகிறது?",
   "activity": "Retell this story to a friend or draw your favorite scene from the tale.",
   "mood": [
     "calm",
