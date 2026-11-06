@@ -1,8 +1,17 @@
 name = "dailystory"
 compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "dist"
 
 [vars]
 SITE_URL = "https://dailystory.pages.dev"
 ENVIRONMENT = "production"
 DEFAULT_LANGUAGE = "en"
+
+# Cloudflare D1 database binding (replace database_id with your actual D1 ID from the dashboard)
+# Run: wrangler d1 create dhinam_oru_kathai_d1 — then paste the generated ID below
+[[d1_databases]]
+binding = "DB"
+database_name = "dhinam_oru_kathai_d1"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
