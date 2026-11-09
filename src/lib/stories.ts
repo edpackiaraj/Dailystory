@@ -224,6 +224,132 @@ export function getCollectionSlug(collection: string): string {
   return collection.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
+export const collectionImageMap: Record<string, string> = {
+  'aesop-s-fables': '/images/stories/aesop.webp',
+  'aesops-fables': '/images/stories/aesop.webp',
+  'akbar-birbal': '/images/stories/akbar-birbal.webp',
+  'andersen': '/images/stories/andersen.webp',
+  'hans-christian-andersen': '/images/stories/andersen.webp',
+  'arabian-nights': '/images/stories/arabian-nights.webp',
+  'charles-perrault': '/images/stories/charles-perrault.webp',
+  'cinderella-stories': '/images/stories/cinderella.webp',
+  'cinderella': '/images/stories/cinderella.webp',
+  'grimm-fairy-tales': '/images/stories/grimm.webp',
+  'jataka-tales': '/images/stories/jataka.webp',
+  'mulla-nasruddin': '/images/stories/nasruddin.webp',
+  'panchatantra': '/images/stories/panchatantra.webp',
+  'paramartha-guru': '/images/stories/paramartha-guru.webp',
+  'tenali-rama': '/images/stories/tenali-rama.webp',
+  'vikram-vetal': '/images/stories/vikram-vetal.webp'
+};
+
+export function getStoryOgImage(story?: { collection?: string; image?: string } | null): string {
+  if (!story) return '/images/og-default.png';
+  const colSlug = getCollectionSlug(story.collection || '');
+  if (collectionImageMap[colSlug]) {
+    return collectionImageMap[colSlug];
+  }
+  if (story.image && story.image !== '/images/stories/akbar-birbal.webp' && story.image !== '/images/og-default.png') {
+    return story.image;
+  }
+  return collectionImageMap[colSlug] || '/images/og-default.png';
+}
+
+export const localizedCollectionNames: Record<string, Record<string, string>> = {
+  ta: {
+    "cinderella-stories": "சிண்ட்ரெல்லா உலகக் கதைகள்",
+    "akbar-birbal": "அக்பர்–பீர்பால் கதைகள்",
+    "panchatantra": "பஞ்சதந்திரக் கதைகள்",
+    "tenali-rama": "தெனாலிராமன் கதைகள்",
+    "aesop-s-fables": "ஈசாப் நீதிக்கதைகள்",
+    "aesops-fables": "ஈசாப் நீதிக்கதைகள்",
+    "grimm-fairy-tales": "கிரிம் சகோதரர்கள் கதைகள்",
+    "hans-christian-andersen": "ஹான்ஸ் கிறிஸ்டியன் ஆண்டர்சன் கதைகள்",
+    "mulla-nasruddin": "முல்லா நஸ்ருதீன் கதைகள்",
+    "jataka-tales": "ஜாதகக் கதைகள் (புத்தர் நீதிக்கதைகள்)",
+    "arabian-nights": "ஆயிரத்தொரு இரவுகள் (அரேபிய இரவுகள்)",
+    "paramartha-guru": "பரமார்த்த குரு கதைகள் (வீரமாமுனிவர்)",
+    "vikram-vetal": "விக்கிரமாதித்தன்–வேதாளம் கதைகள்",
+    "charles-perrault": "சார்லஸ் பெரோ கதைகள்"
+  },
+  hi: {
+    "cinderella-stories": "सिंड्रेला की विश्व प्रसिद्ध कहानियाँ",
+    "akbar-birbal": "अकबर-बीरबल की कहानियाँ",
+    "panchatantra": "पंचतंत्र की कहानियाँ",
+    "tenali-rama": "तेनालीराम की कहानियाँ",
+    "aesop-s-fables": "ईसप की नीतिकथाएँ",
+    "aesops-fables": "ईसप की नीतिकथाएँ",
+    "grimm-fairy-tales": "ग्रिम्स की परियों की कहानियाँ",
+    "hans-christian-andersen": "हंस क्रिश्चियन एंडरसन की कहानियाँ",
+    "mulla-nasruddin": "मुल्ला नसरुद्दीन के किस्से",
+    "jataka-tales": "जातक कथाएँ",
+    "arabian-nights": "अलिफ़ लैला (अरेबियन नाइट्स)",
+    "paramartha-guru": "परमार्थ गुरु की कथाएँ",
+    "vikram-vetal": "विक्रम-वेताल की कहानियाँ",
+    "charles-perrault": "चार्ल्स पेरौल्ट की कहानियाँ"
+  }
+};
+
+export function getLocalizedCollectionName(collectionName: string, lang: string): string {
+  if (!collectionName) return '';
+  const colSlug = getCollectionSlug(collectionName);
+  const langMap = localizedCollectionNames[lang];
+  if (langMap && langMap[colSlug]) {
+    return langMap[colSlug];
+  }
+  return collectionName;
+}
+
+export function cleanStorySummary(summary?: string): string {
+  if (!summary) return '';
+  let s = summary.replace(/\s*\[[A-Za-z]{2}\]/g, '').trim();
+  const repetitivePrefix = /^Through unexpected trial and turning point, each character learns that\s*/i;
+  if (repetitivePrefix.test(s)) {
+    s = s.replace(repetitivePrefix, '');
+    s = s.charAt(0).toUpperCase() + s.slice(1);
+  }
+  return s;
+}
+
+export function sanitizeQuizAndDiscussion(story: Story): Story {
+  if (!story) return story;
+  const clone = { ...story };
+  const moral = story.moral || 'Good character, wisdom, and kindness triumph over deceit.';
+
+  // Sanitize quiz
+  if (Array.isArray(clone.quiz)) {
+    clone.quiz = clone.quiz.map(q => {
+      const isMoralQuestion = /moral|lesson|learn|teaches/i.test(q.question);
+      const newOptions = [...q.options];
+      // If question asks about moral and option 0 was hardcoded to "Wit beats power" but moral is different
+      if (isMoralQuestion && newOptions[0] === 'Wit beats power' && !/wit/i.test(moral)) {
+        newOptions[0] = moral.split(';')[0].trim();
+      }
+      return {
+        ...q,
+        options: newOptions
+      };
+    });
+  }
+
+  // Sanitize discussion questions
+  if (Array.isArray(clone.discussion_questions)) {
+    clone.discussion_questions = clone.discussion_questions.map(dq => {
+      let prompt = dq.prompt || '';
+      if (prompt.includes('"Wit beats power"') && !/wit/i.test(moral)) {
+        const shortMoral = moral.split(';')[0].replace(/\.$/, '').trim();
+        prompt = prompt.replace('"Wit beats power"', `"${shortMoral}"`);
+      }
+      return {
+        ...dq,
+        prompt
+      };
+    });
+  }
+
+  return clone;
+}
+
 export function getStoryUrl(story: { collection: string; slug: string }, lang: string): string {
   const colSlug = getCollectionSlug(story.collection);
   return `/${lang}/${colSlug}/${story.slug}/`;

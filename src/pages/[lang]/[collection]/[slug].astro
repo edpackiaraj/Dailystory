@@ -5,11 +5,16 @@ import StoryIllustration from '../../../components/StoryIllustration.astro';
 import { getT, getLanguageMeta } from '../../../lib/i18n';
 import {
   getAllReviewedStories,
+  getStoriesByCollection,
   getCollectionSlug,
   getAudienceCategory,
   getLengthCategory,
   getStoryUrl,
   isStoryTranslated,
+  getLocalizedCollectionName,
+  getStoryOgImage,
+  sanitizeQuizAndDiscussion,
+  cleanStorySummary,
   type Story
 } from '../../../lib/stories';
 
@@ -49,10 +54,13 @@ interface Props {
 }
 
 const { lang, collection, slug } = Astro.params;
-const { story, prevStory, nextStory } = Astro.props;
+const { story: rawStory, prevStory, nextStory } = Astro.props;
 const currentLang = lang || 'en';
 const t = getT(currentLang);
 const currentLangObj = getLanguageMeta(currentLang);
+
+// Sanitize mismatched quiz options and generic boilerplate
+const story = sanitizeQuizAndDiscussion(rawStory);
 
 function sanitizeTag(str?: string) {
   if (!str) return '';
@@ -63,14 +71,31 @@ function sanitizeTag(str?: string) {
 }
 
 const cleanTitle = sanitizeTag(story.title);
-const cleanSummary = sanitizeTag(story.summary);
+const cleanSummary = cleanStorySummary(story.summary);
 const cleanMoral = sanitizeTag(story.moral);
 
 const isTranslated = isStoryTranslated(story, currentLang);
 const colSlug = getCollectionSlug(story.collection);
+const localizedColName = getLocalizedCollectionName(story.collection, currentLang);
 const audienceKey = getAudienceCategory(story.age_group);
 const audienceLabel = audienceKey === 'kids' ? t.kids : (audienceKey === 'teens' ? t.teens : t.everyone);
 const canonicalUrl = `${brandConfig.siteUrl}/${lang}/${colSlug}/${story.slug}/`;
+
+// Context-Rich, Keyword-Targeted Page Title Tag
+const seoStoryTitle = currentLang === 'ta'
+  ? `${cleanTitle}: ${localizedColName} நீதிக்கதை | ${brandConfig.name}`
+  : (currentLang === 'hi'
+      ? `${cleanTitle}: ${localizedColName} | ${brandConfig.name}`
+      : `${cleanTitle}: ${story.collection} Story with Moral | ${brandConfig.name}`);
+
+// Guaranteed Collection-Specific OG Visual
+const storyOgImage = getStoryOgImage(story);
+
+// 4 Related Stories from the Same Collection for Deep Crawlable Internal Linking
+const allColStories = getStoriesByCollection(currentLang, story.collection);
+const relatedStories = allColStories
+  .filter(s => s.id !== story.id && s.reviewed !== false)
+  .slice(0, 4);
 
 const cultureRegionsMap: Record<string, string> = {
   "India": "பாரதப் பாரம்பரியம்",
@@ -92,23 +117,49 @@ const localizedReadingTime = (currentLang === 'ta' && story.reading_time)
 const jsonLd = [
   {
     "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": t.home || "Home",
+        "item": `${brandConfig.siteUrl}/${lang}/`
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": localizedColName,
+        "item": `${brandConfig.siteUrl}/${lang}/collections/${colSlug}/`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": cleanTitle,
+        "item": canonicalUrl
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "Article",
     "headline": cleanTitle,
     "description": cleanSummary,
-    "image": story.image ? `${brandConfig.siteUrl}${story.image}` : `${brandConfig.siteUrl}/images/og-default.png`,
+    "image": storyOgImage.startsWith('http') ? storyOgImage : `${brandConfig.siteUrl}${storyOgImage}`,
     "inLanguage": lang,
     "genre": story.genre,
     "articleSection": story.collection,
     "wordCount": story.word_count || 450,
     "datePublished": story.publishDate || "2026-01-01T00:00:00Z",
-    "dateModified": "2026-11-09T00:00:00Z",
+    "dateModified": new Date().toISOString().split('T')[0] + "T00:00:00Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": canonicalUrl
     },
     "author": {
       "@type": "Person",
-      "name": story.author || brandConfig.name
+      "name": "Dr. Edward Packiaraj",
+      "jobTitle": "Chief Editor & Educational Researcher",
+      "url": `${brandConfig.siteUrl}/${lang}/about/`
     },
     "publisher": {
       "@type": "Organization",
@@ -118,6 +169,8 @@ const jsonLd = [
         "url": `${brandConfig.siteUrl}/favicon.svg`
       }
     },
+    "teaches": cleanMoral,
+    "educationalLevel": ["Beginner", "Intermediate"],
     "speakable": {
       "@type": "SpeakableSpecification",
       "cssSelector": ["#story-body-content", "h1"]
@@ -127,11 +180,11 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title={cleanTitle}
+  title={seoStoryTitle}
   description={cleanSummary}
   lang={lang}
   canonicalUrl={canonicalUrl}
-  ogImage={story.image}
+  ogImage={storyOgImage}
   ogType="article"
   noindex={false}
   articleMeta={{
@@ -536,6 +589,39 @@ const jsonLd = [
             </a>
           )}
         </nav>
+
+        <!-- Related Stories from the Same Collection (Deep Crawlable Internal Links) -->
+        {relatedStories.length > 0 && (
+          <section class="pt-8 border-t border-[#EEDFC8] dark:border-[#383659] space-y-4">
+            <div class="flex items-center justify-between">
+              <h2 class="text-base sm:text-lg font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
+                {currentLang === 'ta' ? `மேலும் ${localizedColName}:` : `More Stories from ${story.collection}:`}
+              </h2>
+              <a href={`/${currentLang}/collections/${colSlug}/`} class="text-xs font-bold text-[#D97706] hover:underline">
+                {currentLang === 'ta' ? 'அனைத்து கதைகளும் →' : 'View Collection →'}
+              </a>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {relatedStories.map(rel => (
+                <a
+                  href={getStoryUrl(rel, currentLang)}
+                  class="p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-md transition-all group flex items-start gap-3"
+                >
+                  <span class="text-xl shrink-0" aria-hidden="true">📖</span>
+                  <div class="space-y-1">
+                    <h3 class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] group-hover:text-[#D97706] transition-colors line-clamp-1">
+                      {rel.title}
+                    </h3>
+                    <p class="text-[11px] text-[#6B5644] dark:text-[#C8BFAF] line-clamp-1">
+                      {cleanStorySummary(rel.summary)}
+                    </p>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
 
       </article>
 

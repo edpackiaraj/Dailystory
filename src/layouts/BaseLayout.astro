@@ -65,7 +65,23 @@ const hreflangLinks = supportedLanguages.map(l => ({
   code: l.code,
   href: `${siteUrl}/${l.code}${cleanSubPath.startsWith('/') ? cleanSubPath : '/' + cleanSubPath}`
 }));
-const xDefaultHref = `${siteUrl}${cleanSubPath === '/' ? '/' : '/en' + cleanSubPath}`;
+const xDefaultHref = `${siteUrl}/en${cleanSubPath.startsWith('/') ? cleanSubPath : '/' + cleanSubPath}`;
+
+// Locales mapping for Open Graph
+const ogLocaleMap: Record<string, string> = {
+  en: 'en_US',
+  ta: 'ta_IN',
+  hi: 'hi_IN',
+  zh: 'zh_CN',
+  ml: 'ml_IN',
+  te: 'te_IN',
+  kn: 'kn_IN',
+  mr: 'mr_IN'
+};
+const currentOgLocale = ogLocaleMap[lang] || 'en_US';
+const alternateOgLocales = Object.entries(ogLocaleMap)
+  .filter(([code]) => code !== lang)
+  .map(([, loc]) => loc);
 
 // JSON-LD Structured Data
 const defaultJsonLd = [
@@ -131,9 +147,15 @@ const defaultJsonLd = [
     <meta property="og:image" content={fullOgImageUrl} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:locale" content={lang} />
+    <meta property="og:locale" content={currentOgLocale} />
+    {alternateOgLocales.map(altLoc => (
+      <meta property="og:locale:alternate" content={altLoc} />
+    ))}
     {ogType === 'article' && articleMeta?.publishDate && (
       <meta property="article:published_time" content={articleMeta.publishDate} />
+    )}
+    {ogType === 'article' && (
+      <meta property="article:modified_time" content={new Date().toISOString().split('T')[0]} />
     )}
 
     <!-- Twitter Card -->

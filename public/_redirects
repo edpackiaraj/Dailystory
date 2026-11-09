@@ -1,5 +1,8 @@
 # Cloudflare Pages 301 Redirect Rules for Legacy & Clean URLs
 
+# Canonical homepage redirect: consolidate root to /en/ to prevent duplicate indexing
+/ /en/ 301
+
 # Legacy subpages to clean canonical routes
 /en/en-favorites/ /en/favorites/ 301
 /en/en-submit/ /en/submit/ 301

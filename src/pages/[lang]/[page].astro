@@ -182,21 +182,25 @@ let pageTitle = `${brandConfig.name}`;
 let pageDesc = `${brandConfig.description}`;
 
 if (view === 'search') {
-  pageTitle = `${t.search} — ${brandConfig.name}`;
+  pageTitle = currentLang === 'ta'
+    ? `கதைத் தேடல் (2,448+ நீதிக்கதைகள் & பண்பாட்டுக் கதைகள்) — ${brandConfig.name}`
+    : `Search 2,448+ Moral Stories & Folktales — ${brandConfig.name}`;
   pageDesc = t.searchPlaceholder;
 } else if (view === 'favorites') {
   pageTitle = `${t.favourites} — ${brandConfig.name}`;
   pageDesc = "Your saved storybook collection for offline reading.";
 } else if (view === 'collections') {
-  pageTitle = `${t.collections} — ${brandConfig.name}`;
+  pageTitle = currentLang === 'ta'
+    ? `13 பாரம்பரியக் கதைத் தொகுப்புகள் (பஞ்சதந்திரம், தெனாலிராமன், விக்கிரமாதித்தன்) — ${brandConfig.name}`
+    : `13 Classic Folklore Collections (Panchatantra, Aesop, Akbar–Birbal) — ${brandConfig.name}`;
   pageDesc = "Explore all timeless cultural folklore collections on Daily Tale.";
 } else if (view === 'guide') {
   pageTitle = currentLang === 'ta'
-    ? `கல்வி உளவியல் & கற்பித்தல் வழிகாட்டி — ${brandConfig.name}`
-    : `Educational Psychology & Pedagogy Guide — ${brandConfig.name}`;
+    ? `பயனர் & கல்விக் கையேடு (தூக்கம் & பயண ஆடியோ வழிகாட்டி) — ${brandConfig.name}`
+    : `User & Educational Guide (Bedtime & Travel Audio) — ${brandConfig.name}`;
   pageDesc = currentLang === 'ta'
-    ? "கதைவழிக் கற்றல், கல்வி உளவியல் பரிமாணங்கள், பள்ளிகளில் செயல்படுத்தும் மாதிரி மற்றும் 5E கற்பித்தல் வழிகாட்டி."
-    : "Educational framework, cognitive psychology (Piaget, Vygotsky, Kohlberg), Bloom's taxonomy discussion prompts, and reading guidance for schools and families.";
+    ? "இரவு உறக்கம், பயணத் தொடர் ஆடியோ வாசிப்பு, வகுப்பறைப் பயன்முறை மற்றும் டிஸ்லெக்ஸியா வாசிப்பு வசதிகளைப் பயன்படுத்தும் எளிய வழிகாட்டி."
+    : "Comprehensive user guide to continuous bedtime storytelling, travel audio narrator, dual classroom mode, and accessible reading tools.";
 } else if (view === 'submit') {
   pageTitle = `${t.submit} — ${brandConfig.name}`;
   pageDesc = "Submit your original folktale, fable or moral story for global publication.";
@@ -224,6 +228,8 @@ if (view === 'search') {
   title={pageTitle}
   description={pageDesc}
   lang={currentLang}
+  canonicalUrl={`${brandConfig.siteUrl}/${currentLang}/${page}/`}
+  noindex={view === 'favorites'}
   activeNavTab={view === 'search' ? 'search' : (view === 'favorites' ? 'favourites' : (view === 'collections' ? 'stories' : 'home'))}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">

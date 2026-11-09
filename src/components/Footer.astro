@@ -9,6 +9,8 @@ interface Props {
 const { currentLang } = Astro.props;
 const t = getT(currentLang);
 const currentLangObj = getLanguageMeta(currentLang);
+const isTa = currentLang === 'ta';
+const isHi = currentLang === 'hi';
 ---
 
 <footer class="bg-[#FFF8EC] dark:bg-[#1B1A2E] border-t border-[#EEDFC8] dark:border-[#383659] text-[#6B5644] dark:text-[#C8BFAF] pt-12 pb-16 transition-colors duration-200">
@@ -28,13 +30,17 @@ const currentLangObj = getLanguageMeta(currentLang);
               {brandConfig.name}
             </span>
             <span class="text-xs text-[#D97706] dark:text-[#F59E0B] font-semibold">
-              {brandConfig.tagline}
+              {isTa ? 'தமிழ் நீதிக்கதைகள் & பண்பாட்டுச் சிறுகதைகள்' : brandConfig.tagline}
             </span>
           </div>
         </a>
 
         <p class="text-xs sm:text-sm leading-relaxed max-w-sm">
-          A timeless multilingual storytelling sanctuary celebrating wisdom, folklore, and moral tales across world cultures. Designed for families, classrooms, and curious readers of all generations.
+          {isTa 
+            ? 'உலகப் பண்பாடுகளின் நீதிக்கதைகள், நாட்டுப்புறக் கதைகள் மற்றும் வாழ்வியல் ஞானத்தை அடுத்த தலைமுறைக்குக் கொண்டு சேர்க்கும் எண்ணிமக் கதைக்களஞ்சியம்.'
+            : (isHi
+                ? 'विश्व की महान लोककथाओं और ज्ञानवर्धक नीतिकथाओं का बहुभाषी संग्रह। परिवारों और कक्षाओं के लिए आदर्श।'
+                : 'A timeless multilingual storytelling sanctuary celebrating wisdom, folklore, and moral tales across world cultures. Designed for families, classrooms, and curious readers.')}
         </p>
 
         <!-- Current Language Pill -->
@@ -47,7 +53,7 @@ const currentLangObj = getLanguageMeta(currentLang);
           >
             <span>🌐</span>
             <span>{currentLangObj.native} ({currentLangObj.name})</span>
-            <span class="text-[10px] text-[#D97706]">Change</span>
+            <span class="text-[10px] text-[#D97706]">{isTa ? 'மாற்று' : 'Change'}</span>
           </button>
         </div>
       </div>
@@ -69,11 +75,12 @@ const currentLangObj = getLanguageMeta(currentLang);
       <!-- Column 2: Readers & Trust -->
       <div>
         <h3 class="text-xs font-bold uppercase tracking-wider text-[#3B2A1A] dark:text-[#F3EBDD] mb-3">
-          Trust &amp; Family
+          {isTa ? 'கல்வி & சமூகம்' : (isHi ? 'शिक्षा व परिवार' : 'Education & Community')}
         </h3>
         <ul class="space-y-2.5 text-xs sm:text-sm">
           <li><a href={`/${currentLang}/about/`} class="hover:text-[#D97706] transition-colors">{t.about}</a></li>
-          <li><a href={`/${currentLang}/guide/`} class="hover:text-[#D97706] transition-colors">📖 {currentLang === 'ta' ? 'பயனர் & கல்விக் கையேடு' : (t.guide || 'User & Parent Guide')}</a></li>
+          <li><a href={`/${currentLang}/guide/`} class="hover:text-[#D97706] transition-colors">📖 {isTa ? 'பயனர் & கல்விக் கையேடு' : (t.guide || 'User & Educational Guide')}</a></li>
+          <li><a href={`/${currentLang}/classroom/`} class="hover:text-[#D97706] transition-colors">🏫 {isTa ? 'வகுப்பறைப் பயன்முறை' : 'Classroom Mode'}</a></li>
           <li><a href={`/${currentLang}/submit/`} class="hover:text-[#D97706] transition-colors">{t.submit}</a></li>
         </ul>
       </div>
@@ -81,13 +88,13 @@ const currentLangObj = getLanguageMeta(currentLang);
       <!-- Column 3: Legal & Privacy -->
       <div>
         <h3 class="text-xs font-bold uppercase tracking-wider text-[#3B2A1A] dark:text-[#F3EBDD] mb-3">
-          Transparency
+          {isTa ? 'வெளிப்படைத்தன்மை' : (isHi ? 'पारदर्शिता' : 'Transparency')}
         </h3>
         <ul class="space-y-2.5 text-xs sm:text-sm">
-          <li><a href={`/${currentLang}/privacy/`} class="hover:text-[#D97706] transition-colors">Privacy Policy</a></li>
-          <li><a href={`/${currentLang}/terms/`} class="hover:text-[#D97706] transition-colors">Terms of Use</a></li>
-          <li><a href={`/${currentLang}/disclaimer/`} class="hover:text-[#D97706] transition-colors">Editorial Disclaimer</a></li>
-          <li><a href={`/${currentLang}/contact/`} class="hover:text-[#D97706] transition-colors">Contact Us</a></li>
+          <li><a href={`/${currentLang}/privacy/`} class="hover:text-[#D97706] transition-colors">{isTa ? 'தனியுரிமைக் கொள்கை' : (isHi ? 'गोपनीयता नीति' : 'Privacy Policy')}</a></li>
+          <li><a href={`/${currentLang}/terms/`} class="hover:text-[#D97706] transition-colors">{isTa ? 'பயன்பாட்டு விதிமுறைகள்' : (isHi ? 'उपयोग की शर्तें' : 'Terms of Use')}</a></li>
+          <li><a href={`/${currentLang}/disclaimer/`} class="hover:text-[#D97706] transition-colors">{isTa ? 'ஆசிரியர் பொறுப்புத் துறப்பு' : (isHi ? 'अस्वीकरण' : 'Editorial Disclaimer')}</a></li>
+          <li><a href={`/${currentLang}/contact/`} class="hover:text-[#D97706] transition-colors">{isTa ? 'தொடர்பு கொள்ள' : (isHi ? 'संपर्क करें' : 'Contact Us')}</a></li>
           <li><a href="/sitemap.xml" class="hover:text-[#D97706] transition-colors">XML Sitemap</a></li>
         </ul>
       </div>
@@ -97,14 +104,16 @@ const currentLangObj = getLanguageMeta(currentLang);
     <!-- Bottom Bar -->
     <div class="pt-8 border-t border-[#EEDFC8] dark:border-[#383659] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
       <div>
-        © {new Date().getFullYear()} {brandConfig.name}. All rights reserved. Built with love for universal storytelling.
+        {isTa
+          ? `© ${new Date().getFullYear()} ${brandConfig.name}. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. உலகளாவிய கதைப் பகிர்விற்காக உருவாக்கப்பட்டது.`
+          : `© ${new Date().getFullYear()} ${brandConfig.name}. All rights reserved. Built with love for universal storytelling.`}
       </div>
 
       <!-- Live Visitor Hit Counter Badge -->
       <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-xs shadow-2xs font-medium">
         <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
         <span class="text-[#6B5644] dark:text-[#C8BFAF]">
-          {currentLang === 'ta' ? 'பார்வையாளர்கள்' : (currentLang === 'hi' ? 'पाठक संख्या' : 'Global Readers')}:
+          {isTa ? 'பார்வையாளர்கள்' : (isHi ? 'पाठक संख्या' : 'Global Readers')}:
         </span>
         <span id="site-hit-counter" class="font-bold font-mono text-[#D97706] dark:text-[#F59E0B]">
           15,420+
@@ -112,11 +121,11 @@ const currentLangObj = getLanguageMeta(currentLang);
       </div>
 
       <div class="flex items-center gap-4 text-[#D97706]">
-        <span>Zero Ads</span>
+        <span>{isTa ? 'விளம்பரங்கள் இல்லை' : 'Zero Ads'}</span>
         <span>•</span>
-        <span>Zero Tracking</span>
+        <span>{isTa ? 'கண்காணிப்பு இல்லை' : 'Zero Tracking'}</span>
         <span>•</span>
-        <span>All Ages</span>
+        <span>{isTa ? 'அனைத்து வயதினருக்கும்' : 'All Ages'}</span>
       </div>
     </div>
 

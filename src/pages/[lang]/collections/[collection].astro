@@ -11,6 +11,8 @@ import {
   getLengthCategory,
   getStoryUrl,
   isStoryTranslated,
+  getStoryOgImage,
+  cleanStorySummary,
   type Story
 } from '../../../lib/stories';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
@@ -196,9 +198,39 @@ const collectionSeoMeta: Record<string, { title: string; description: string }> 
 
 const displayCollectionName = localizedCollectionNames[currentLang]?.[colSlug] || rawCollection;
 const introText = localizedCollectionIntros[currentLang]?.[colSlug] || collectionIntros[colSlug] || `Explore authentic, beautifully illustrated stories from the ${rawCollection} collection on Daily Tale.`;
-const pageSeoTitle = (currentLang === 'en' && collectionSeoMeta[colSlug]?.title) ? collectionSeoMeta[colSlug].title : displayCollectionName;
+const pageSeoTitle = currentLang === 'ta'
+  ? `${displayCollectionName} (${matchingStories.length}+ தமிழ் நீதிக்கதைகள் & ஆடியோ) | ${brandConfig.name}`
+  : (collectionSeoMeta[colSlug]?.title || `${displayCollectionName} (${matchingStories.length}+ Moral Stories with Lessons) | ${brandConfig.name}`);
 const pageSeoDesc = (currentLang === 'en' && collectionSeoMeta[colSlug]?.description) ? collectionSeoMeta[colSlug].description : introText;
 const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${colSlug}/`;
+const collectionOgImage = getStoryOgImage({ collection: rawCollection });
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": t.home || "Home",
+        "item": `${brandConfig.siteUrl}/${currentLang}/`
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": t.collections || "Collections",
+        "item": `${brandConfig.siteUrl}/${currentLang}/collections/`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": displayCollectionName,
+        "item": canonicalUrl
+      }
+    ]
+  }
+];
 ---
 
 <BaseLayout
@@ -206,8 +238,9 @@ const canonicalUrl = `${brandConfig.siteUrl}/${currentLang}/collections/${colSlu
   description={pageSeoDesc}
   lang={currentLang}
   canonicalUrl={canonicalUrl}
-  ogImage={firstStory?.image}
+  ogImage={collectionOgImage}
   activeNavTab="stories"
+  jsonLd={jsonLd}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-8">
     

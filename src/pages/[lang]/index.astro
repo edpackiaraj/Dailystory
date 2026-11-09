@@ -9,6 +9,9 @@ import {
   getLengthCategory,
   getStoryUrl,
   isStoryTranslated,
+  getLocalizedCollectionName,
+  cleanStorySummary,
+  getStoryOgImage,
   type Story
 } from '../../lib/stories';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -88,17 +91,59 @@ const translatedFirst = currentLang === 'en'
       return bTr - aTr;
     });
 
-const recentStories = translatedFirst.slice(0, 16);
+// Diversify stories across collections for deep internal linking across all 13 traditions
+const colGroupMap: Record<string, Story[]> = {};
+for (const s of translatedFirst) {
+  const col = s.collection || 'World';
+  if (!colGroupMap[col]) colGroupMap[col] = [];
+  colGroupMap[col].push(s);
+}
+
+const recentStories: Story[] = [];
+const groupKeys = Object.keys(colGroupMap);
+for (let round = 0; round < 2; round++) {
+  for (const c of groupKeys) {
+    if (colGroupMap[c][round] && recentStories.length < 24) {
+      recentStories.push(colGroupMap[c][round]);
+    }
+  }
+}
+if (recentStories.length < 16) {
+  for (const s of translatedFirst) {
+    if (!recentStories.some(r => r.id === s.id)) {
+      recentStories.push(s);
+      if (recentStories.length >= 16) break;
+    }
+  }
+}
 ---
 
 <BaseLayout
   lang={currentLang}
   canonicalUrl={`${brandConfig.siteUrl}/${currentLang}/`}
-  ogImage={todaysStory?.image}
+  ogImage={getStoryOgImage(todaysStory)}
   activeNavTab="home"
 >
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-12 sm:space-y-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-10 sm:space-y-14">
     
+    <!-- Stable Primary Topical Heading for Search Engines (H1) -->
+    <header class="space-y-2">
+      <h1 class="text-2xl sm:text-4xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight">
+        {currentLang === 'ta'
+          ? 'தமிழ் நீதிக்கதைகள் & சிறுவர் கதைகள் — 2,448+ உலகப் பண்பாட்டுக் கருவூலம்'
+          : (currentLang === 'hi'
+              ? 'नैतिक कहानियाँ और बाल लोककथाएँ — Daily Tale'
+              : '2,448+ Moral Stories & Folktales for Kids & Families')}
+      </h1>
+      <p class="text-xs sm:text-base text-[#6B5644] dark:text-[#C8BFAF]">
+        {currentLang === 'ta'
+          ? 'பஞ்சதந்திரம், தெனாலிராமன், அக்பர்–பீர்பால், விக்கிரமாதித்தன் மற்றும் உலகெங்கிலும் உள்ள பண்பாட்டு நீதிக்கதைகள்.'
+          : (currentLang === 'hi'
+              ? 'पंचतंत्र, तेनालीराम, अकबर-बीरबल और विश्व साहित्य की अमर कहानियाँ।'
+              : 'Discover timeless folklore, animal fables, courtly humor, and bedside wisdom across 13 world traditions.')}
+      </p>
+    </header>
+
     <!-- Multilingual Quick Switcher Banner -->
     <div class="p-3 sm:p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
       <div class="flex items-center gap-2 font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
@@ -134,7 +179,7 @@ const recentStories = translatedFirst.slice(0, 16);
                 ⭐ {t.storyOfTheDay}
               </span>
               <span class="px-3 py-1 rounded-full bg-white dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">
-                {todaysStory.collection}
+                {getLocalizedCollectionName(todaysStory.collection, currentLang)}
               </span>
               <span class="px-3 py-1 rounded-full bg-[#0F766E]/15 text-[#0F766E] dark:text-[#2DD4BF] text-xs font-semibold">
                 {getAudienceCategory(todaysStory.age_group) === 'kids' ? t.kids : (getAudienceCategory(todaysStory.age_group) === 'teens' ? t.teens : t.everyone)}
@@ -144,15 +189,15 @@ const recentStories = translatedFirst.slice(0, 16);
               </span>
             </div>
 
-            <h1 class={currentLang === 'ta'
+            <h2 class={currentLang === 'ta'
               ? "text-xl sm:text-2xl md:text-3xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-normal leading-snug"
               : "text-2xl sm:text-4xl lg:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-tight"
             }>
               {todaysStory.title}
-            </h1>
+            </h2>
 
             <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed line-clamp-3">
-              {todaysStory.summary}
+              {cleanStorySummary(todaysStory.summary)}
             </p>
 
             <!-- Actions -->
@@ -412,7 +457,7 @@ const recentStories = translatedFirst.slice(0, 16);
               <div class="space-y-2">
                 <StoryIllustration story={story} size="compact" lang={currentLang} />
                 <div class="flex items-center justify-between text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
-                  <span class="font-bold text-[#D97706]">{story.collection}</span>
+                  <span class="font-bold text-[#D97706]">{getLocalizedCollectionName(story.collection, currentLang)}</span>
                   <span>⏱ {story.reading_time || '2m'}</span>
                 </div>
                 <h3 class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-2 leading-snug group-hover:text-[#D97706] transition-colors">
@@ -455,7 +500,7 @@ const recentStories = translatedFirst.slice(0, 16);
               <div class="space-y-2.5">
                 <StoryIllustration story={{ collection: col.name, title: col.name }} size="card" lang={currentLang} />
                 <h3 class="text-sm sm:text-base font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] group-hover:text-[#D97706] transition-colors leading-tight pt-1">
-                  {localizedCollectionNames[currentLang]?.[colSlug] || col.name}
+                  {getLocalizedCollectionName(col.name, currentLang)}
                 </h3>
               </div>
               <span class="text-xs font-semibold text-[#0F766E] dark:text-[#2DD4BF] mt-3">
@@ -493,7 +538,7 @@ const recentStories = translatedFirst.slice(0, 16);
               <StoryIllustration story={story} size="card" lang={currentLang} />
 
               <div class="flex items-center justify-between text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <span class="font-bold text-[#D97706] truncate max-w-[55%]">{story.collection}</span>
+                <span class="font-bold text-[#D97706] truncate max-w-[55%]">{getLocalizedCollectionName(story.collection, currentLang)}</span>
                 {isStoryTranslated(story, currentLang) ? (
                   <span class="px-2 py-0.5 rounded-md bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">
                     ✓ {t.fullTranslationBadge || "Full"}
@@ -508,7 +553,7 @@ const recentStories = translatedFirst.slice(0, 16);
               </h3>
 
               <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] line-clamp-2 leading-relaxed">
-                {story.summary}
+                {cleanStorySummary(story.summary)}
               </p>
             </div>
 

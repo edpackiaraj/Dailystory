@@ -4,8 +4,8 @@
   "tagline": "Moral Stories & Interesting Folktales",
   "positioning": "A timeless multilingual storytelling sanctuary celebrating wisdom, folklore, and moral stories from world cultures for readers of all ages.",
   "description": "Discover folktales, fables, and wisdom stories from around the world in 8 languages. Moral Stories & Interesting Folktales.",
-  "homeTitle": "2,448+ Moral Stories & Folktales for Students & Everyone — Daily Tale",
-  "homeMetaDescription": "Read a moral story every day: Aesop, Akbar–Birbal, Jataka, Panchatantra, Tenali Rama & more in Tamil, Hindi, English, with quizzes and audio.",
+  "homeTitle": "2,448+ Moral Stories & Folktales for Kids | Daily Tale",
+  "homeMetaDescription": "Read 2,448+ moral stories for kids: Aesop, Akbar–Birbal, Jataka, Panchatantra, Tenali Rama in Tamil, Hindi, English with audio narration.",
   "siteUrl": "https://dailystory.pages.dev",
   "mascot": {
     "name": "Katha",
@@ -34,14 +34,14 @@
   ],
   "localizedBrand": {
     "en": {
-      "title": "2,448+ Moral Stories & Folktales for Students & Everyone",
-      "metaDescription": "Read a moral story every day: Aesop, Akbar–Birbal, Jataka, Panchatantra, Tenali Rama & more in Tamil, Hindi, English, with quizzes and audio.",
+      "title": "2,448+ Moral Stories & Folktales for Kids | Daily Tale",
+      "metaDescription": "Read 2,448+ moral stories for kids: Aesop, Akbar–Birbal, Jataka, Panchatantra, Tenali Rama in Tamil, Hindi, English with audio narration.",
       "tagline": "Moral Stories & Interesting Folktales"
     },
     "ta": {
-      "title": "Daily Tale — உலகளாவிய நீதிக்கதைகள் & நாட்டுப்புறக் கதைகள்",
-      "metaDescription": "தெனாலிராமன், பஞ்சதந்திரம் மற்றும் உலகெங்கிலும் உள்ள பண்பாட்டுக் கதைகள். நீதிக்கதைகள் மற்றும் சுவாரசியமான நாட்டுப்புறக் கதைகள்.",
-      "tagline": "நீதிக்கதைகள் மற்றும் சுவாரசியமான நாட்டுப்புறக் கதைகள்"
+      "title": "தமிழ் நீதிக்கதைகள் & சிறுவர் கதைகள் | Daily Tale",
+      "metaDescription": "2,448+ தமிழ் நீதிக்கதைகள், பஞ்சதந்திரக் கதைகள், தெனாலிராமன் கதைகள், அக்பர் பீர்பால் கதைகள், ஈசாப் கதைகள். இலவச ஆடியோ, வினாடி வினா மற்றும் கற்றல் வசதிகளுடன்.",
+      "tagline": "தமிழ் நீதிக்கதைகள் & பண்பாட்டுச் சிறுகதைகள்"
     },
     "hi": {
       "title": "Daily Tale — नैतिक कहानियाँ और रोचक लोककथाएँ",
