@@ -83,6 +83,38 @@ const sampleStories = allStories.slice(0, 40).map(s => ({
     <!-- PANEL 1: TEACHER DESK (Class Creation, Schedule Preparation & Sharing) -->
     <div id="panel-teacher" class="classroom-panel space-y-8">
       
+      <!-- Pedagogy & Educational Psychology Guide Callout for Teachers -->
+      <div class="p-4 sm:p-5 rounded-3xl bg-linear-to-r from-[#EFF6FF] via-[#EEF2FF] to-[#FAF5FF] dark:from-[#1E1D36] dark:via-[#1B1A30] dark:to-[#17162B] border border-[#BFDBFE] dark:border-[#383659] flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-3.5">
+          <div class="w-10 h-10 rounded-2xl bg-blue-600/15 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xl shrink-0">
+            📖
+          </div>
+          <div>
+            <h3 class="text-sm font-black text-[#1E3A8A] dark:text-[#93C5FD]">
+              {currentLang === 'ta' ? 'ஆசிரியர்களுக்கான 5E கற்பித்தல் மாதிரி & கல்வி உளவியல் கையேடு' : '5E Pedagogical Model & Educational Psychology Guide for Educators'}
+            </h3>
+            <p class="text-xs text-[#475569] dark:text-[#C8BFAF]">
+              {currentLang === 'ta' ? 'பியாஜே, வைகோட்ஸ்கி ZPD, கோல்பெர்க் அறநெறி மற்றும் வகுப்பறைச் செயல்பாடுகள் அடங்கிய முழுமையான வழிகாட்டி.' : 'Cognitive scaffolding, Bloom\'s taxonomy, and structured school implementation framework.'}
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center gap-2 shrink-0">
+          <a
+            href={`/${currentLang}/guide/`}
+            class="px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-xs transition-all"
+          >
+            {currentLang === 'ta' ? 'கையேட்டைப் படிக்க' : 'Read Guide'}
+          </a>
+          <a
+            href="/docs/DailyStory_Educational_Psychology_Guide.docx"
+            download
+            class="px-3.5 py-1.5 rounded-xl bg-white dark:bg-[#1E1D36] border border-[#BFDBFE] dark:border-[#383659] text-[#1E3A8A] dark:text-[#93C5FD] hover:bg-blue-50 text-xs font-bold transition-all"
+          >
+            📥 Word (.docx)
+          </a>
+        </div>
+      </div>
+
       <!-- Top Row: Create Class & Active Classrooms -->
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
         

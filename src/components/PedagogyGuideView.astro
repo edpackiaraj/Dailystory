@@ -1,0 +1,488 @@
+---
+interface Props {
+  currentLang: string;
+}
+
+const { currentLang } = Astro.props;
+const isTa = currentLang === 'ta';
+---
+
+<div class="max-w-5xl mx-auto space-y-12">
+  
+  <!-- HERO BANNER -->
+  <header class="text-center space-y-5 max-w-4xl mx-auto">
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#0F766E]/10 border border-[#0F766E]/30 text-[#0F766E] dark:text-[#2DD4BF] text-xs font-black tracking-wide uppercase">
+      <span>🎓</span>
+      <span>{isTa ? 'ஆய்வு சஞ்சிகைக் கட்டுரை & பள்ளிக் கல்விக் கையேடு' : 'Research Monograph & Pedagogical Framework'}</span>
+    </div>
+
+    <h1 class="text-3xl sm:text-5xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-tight">
+      {isTa ? 'கதைவழிக் கற்றலும் கல்வி உளவியல் பரிமாணங்களும்' : 'Digital Narrative Pedagogy & Educational Psychology'}
+    </h1>
+
+    <p class="text-base sm:text-lg font-bold text-[#D97706]">
+      {isTa 
+        ? 'பள்ளிகள், ஆசிரியர்கள், மாணவர்கள் மற்றும் பெற்றோர்களுக்கான முழுமையான வழிகாட்டி'
+        : 'A Comprehensive Framework for Schools, Educators, Students, and Parents'}
+    </p>
+
+    <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed max-w-3xl mx-auto">
+      {isTa
+        ? 'ஜீன் பியாஜே, லெவ் வைகோட்ஸ்கி, லாரன்ஸ் கோல்பெர்க், ஆலன் பாய்வியோ மற்றும் ஹோவர்ட் கார்ட்னர் ஆகியோரின் கல்வி உளவியல் கோட்பாடுகளின் அடிப்படையில், மாணவர்களின் சிந்தனைத் திறன், மொழி ஆளுமை மற்றும் மனிதநேய விழுமியங்களை வளர்க்கும் நவீன எண்ணிமக் கற்பித்தல் வரைவு.'
+        : 'Grounded in cognitive psychology (Piaget, Vygotsky, Kohlberg, Paivio, Gardner), this monograph articulates how digital folklore nurtures critical thinking, language acquisition, emotional intelligence, and egalitarian ethics.'}
+    </p>
+
+    <!-- ACTION BUTTONS: DOWNLOAD WORD DOC & PRINT -->
+    <div class="flex flex-wrap items-center justify-center gap-3 pt-3">
+      <a
+        href="/docs/DailyStory_Educational_Psychology_Guide.docx"
+        download
+        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-[#1E3A8A] hover:bg-[#1E40AF] text-white text-xs sm:text-sm font-bold shadow-md hover:scale-102 transition-all"
+      >
+        <span>📥</span>
+        <span>{isTa ? 'Word (.docx) பதிவிறக்குக' : 'Download Word Doc (.docx)'}</span>
+      </a>
+      <a
+        href="/docs/DailyStory_Educational_Psychology_Guide.doc"
+        download
+        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-[#0F766E] hover:bg-[#115E59] text-white text-xs sm:text-sm font-bold shadow-md hover:scale-102 transition-all"
+      >
+        <span>📄</span>
+        <span>{isTa ? 'Doc வடிவில் (.doc)' : 'Download Doc (.doc)'}</span>
+      </a>
+      <button
+        type="button"
+        onclick="window.print()"
+        class="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] text-[#3B2A1A] dark:text-[#F3EBDD] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] text-xs sm:text-sm font-bold transition-all shadow-xs"
+      >
+        <span>🖨️</span>
+        <span>{isTa ? 'அச்சிடுக / PDF' : 'Print / Save as PDF'}</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- QUICK NAVIGATION TABS (ANCHOR LINKS) -->
+  <nav class="flex flex-wrap items-center justify-center gap-2 p-2 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">
+    <a href="#psychology" class="px-3 py-1.5 rounded-xl hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] hover:text-[#D97706]">🧠 {isTa ? 'கல்வி உளவியல்' : 'Psychology'}</a>
+    <a href="#schools" class="px-3 py-1.5 rounded-xl hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] hover:text-[#D97706]">🏫 {isTa ? 'பள்ளிகளில் பயன்பாடு' : 'School Model'}</a>
+    <a href="#teachers" class="px-3 py-1.5 rounded-xl hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] hover:text-[#D97706]">👩‍🏫 {isTa ? 'ஆசிரியர்களுக்கு (5E)' : 'Teachers (5E)'}</a>
+    <a href="#students" class="px-3 py-1.5 rounded-xl hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] hover:text-[#D97706]">🎒 {isTa ? 'மாணவர்களுக்கு' : 'Students'}</a>
+    <a href="#parents" class="px-3 py-1.5 rounded-xl hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] hover:text-[#D97706]">👨‍👩‍👧 {isTa ? 'பெற்றோர்களுக்கு' : 'Parents'}</a>
+    <a href="#collections" class="px-3 py-1.5 rounded-xl hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] hover:text-[#D97706]">📚 {isTa ? '13 கதைத் தொகுப்புகள்' : '13 Traditions'}</a>
+    <a href="#ethics" class="px-3 py-1.5 rounded-xl hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] hover:text-[#D97706]">⚖️ {isTa ? 'சமத்துவ விழுமியம்' : 'Egalitarian Ethics'}</a>
+  </nav>
+
+  <!-- SECTION 1: EDUCATIONAL PSYCHOLOGY FOUNDATIONS -->
+  <section id="psychology" class="space-y-6 pt-4 scroll-mt-20">
+    <div class="flex items-center gap-3 border-b border-[#EEDFC8] dark:border-[#383659] pb-3">
+      <div class="w-10 h-10 rounded-2xl bg-[#D97706]/15 flex items-center justify-center text-xl text-[#D97706]">
+        🧠
+      </div>
+      <div>
+        <h2 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? '1. கல்வி உளவியல் அடிப்படைக் கோட்பாடுகள்' : '1. Theoretical Frameworks in Educational Psychology'}
+        </h2>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+          {isTa ? 'பியாஜே, வைகோட்ஸ்கி, கோல்பெர்க், பாய்வியோ மற்றும் கார்ட்னரின் அறிவியல் சட்டகம்' : 'Rooted in cognitive, sociocultural, moral, and multimodal learning paradigms'}
+        </p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <!-- Card 1: Piaget -->
+      <div class="p-6 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-3">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-black px-2.5 py-1 rounded-lg bg-blue-500/10 text-blue-600 dark:text-blue-400">Jean Piaget</span>
+          <span class="text-lg">🌱</span>
+        </div>
+        <h3 class="text-base font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'அறிவாற்றல் வளர்ச்சி நிலைகள் (Cognitive Stages)' : 'Cognitive Developmental Stages'}
+        </h3>
+        <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa 
+            ? 'குழந்தைகளின் உயிருடைமைக் கொள்கைக்கு (Animism) ஏற்ப ஈசாப், பஞ்சதந்திரக் கதைகள் குறியீட்டுச் சிந்தனையை (Symbolic Thought) உருவாக்குகின்றன. அக்பர்-பீர்பால் பருப்பொருள் நிலைக்கும் (Concrete Operational), விக்கிரமாதித்தன் தர்க்கங்கள் முறையான செயல்பாட்டு நிலைக்கும் (Formal Operational) வழிவகுக்கின்றன.'
+            : 'Fables tap into childhood animism for symbolic thought (2-7 yrs), courtly wit cultivates concrete operations (7-11 yrs), and Vikram-Vetal riddles stimulate formal operational abstract deduction (11+ yrs).'}
+        </p>
+      </div>
+
+      <!-- Card 2: Vygotsky -->
+      <div class="p-6 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-3">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-black px-2.5 py-1 rounded-lg bg-teal-500/10 text-teal-600 dark:text-teal-400">Lev Vygotsky</span>
+          <span class="text-lg">🪜</span>
+        </div>
+        <h3 class="text-base font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'அருகமை வளர்ச்சி மண்டலம் (ZPD & Scaffolding)' : 'Zone of Proximal Development & Scaffolding'}
+        </h3>
+        <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'மாணவர்கள் தனித்து வாசிப்பதற்கும் வழிகாட்டுதலுடன் உயர் அறிவை அடைவதற்கும் இடைப்பட்ட பகுதியே ZPD. கதையின் முடிவில் உள்ள சிந்தனை வினாக்கள் (Think & Talk), புதிய சொற்களஞ்சிய விளக்கங்கள் மாணவர்களுக்குத் தகுந்த சாரக்கட்டுக் கற்றல் (Scaffolding) ஆதரவை வழங்குகின்றன.'
+            : 'End-of-story reflective prompts, moral cores, and contextual word tooltips provide dynamic instructional scaffolding, bridging actual ability to potential cognitive maturity.'}
+        </p>
+      </div>
+
+      <!-- Card 3: Kohlberg -->
+      <div class="p-6 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-3">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-black px-2.5 py-1 rounded-lg bg-amber-500/10 text-amber-600 dark:text-amber-400">Lawrence Kohlberg</span>
+          <span class="text-lg">⚖️</span>
+        </div>
+        <h3 class="text-base font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'ஒழுக்கநெறி வளர்ச்சிப் படிநிலைகள் (Moral Reasoning)' : 'Moral Dilemma & Ethics Evolution'}
+        </h3>
+        <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'தண்டனைக்கு அஞ்சுதல் என்ற ஆரம்ப நிலையிலிருந்து, சமுதாய ஒப்பந்தம் மற்றும் உலகளாவிய மனிதநேய விழுமியங்கள் (Universal Ethical Principles) நோக்கி மாணவர்களின் மனசாட்சியை உயர்த்த விக்கிரமாதித்தன் மற்றும் ஜாதகக் கதைகள் உதவுகின்றன.'
+            : 'Transitions young minds from reward/punishment compliance into conventional empathy and post-conventional universal human rights through multi-faceted moral quandaries.'}
+        </p>
+      </div>
+
+      <!-- Card 4: Paivio & Gardner -->
+      <div class="p-6 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-3">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-black px-2.5 py-1 rounded-lg bg-purple-500/10 text-purple-600 dark:text-purple-400">Paivio &amp; Gardner</span>
+          <span class="text-lg">🎨</span>
+        </div>
+        <h3 class="text-base font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? 'இரட்டைக் குறியீடு & பன்முக நுண்ணறிவு' : 'Dual Coding & Multiple Intelligences'}
+        </h3>
+        <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+          {isTa
+            ? 'பாய்வியோவின் இரட்டைக் குறியீட்டுக் கோட்பாட்டின்படி, எழுத்து (Text) மற்றும் குரல் (Audio) காட்சிக் கலை வண்ணங்களுடன் இணையும் போது நீண்டகால நினைவில் பதிவாகிறது. கார்ட்னரின் மொழி, தனிநபர், பிறர்சார் மற்றும் இயற்கை நுண்ணறிவுகளைத் தூண்டுகிறது.'
+            : 'Audio narration plus written text paired with distinct visual emblems optimizes working memory (Dual Coding) while nurturing linguistic, intrapersonal, interpersonal, and naturalist intelligences.'}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: SCHOOL IMPLEMENTATION FRAMEWORK -->
+  <section id="schools" class="space-y-6 pt-4 scroll-mt-20">
+    <div class="flex items-center gap-3 border-b border-[#EEDFC8] dark:border-[#383659] pb-3">
+      <div class="w-10 h-10 rounded-2xl bg-[#0F766E]/15 flex items-center justify-center text-xl text-[#0F766E]">
+        🏫
+      </div>
+      <div>
+        <h2 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? '2. பள்ளிகளில் செயல்படுத்தும் செயல்முறை வரைவு' : '2. School Implementation & Schedule Model'}
+        </h2>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+          {isTa ? 'காலை வழிபாடு, மொழி ஆய்வகம், நூலக நேரம் மற்றும் வகுப்பறையில் ஒருங்கிணைக்கும் விதம்' : 'Integrating digital storytelling into daily routines and scholastic periods'}
+        </p>
+      </div>
+    </div>
+
+    <div class="overflow-x-auto rounded-3xl border border-[#EEDFC8] dark:border-[#383659] shadow-xs">
+      <table class="w-full text-left border-collapse text-xs sm:text-sm">
+        <thead>
+          <tr class="bg-[#F8F4EE] dark:bg-[#1E1D36] text-[#3B2A1A] dark:text-[#F3EBDD] border-b border-[#EEDFC8] dark:border-[#383659]">
+            <th class="p-3.5 sm:p-4 font-black">{isTa ? 'பள்ளிக் களம்' : 'Setting'}</th>
+            <th class="p-3.5 sm:p-4 font-black">{isTa ? 'செயல்படுத்தும் உத்தி' : 'Application Strategy'}</th>
+            <th class="p-3.5 sm:p-4 font-black">{isTa ? 'கற்றல் வெளிப்பாடு' : 'Expected Learning Outcome'}</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-[#EEDFC8] dark:divide-[#383659] bg-white dark:bg-[#151426] text-[#6B5644] dark:text-[#C8BFAF]">
+          <tr>
+            <td class="p-3.5 sm:p-4 font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">{isTa ? 'காலை வழிபாடு (Assembly)' : 'Morning Assembly'}</td>
+            <td class="p-3.5 sm:p-4">{isTa ? '\'தினமொரு கதை\' (Story of the Day) ஒளிபரப்பப்பட்டு, ஒரு மாணவர் அதன் நீதியை விளக்குதல்.' : 'Project "Story of the Day"; student shares the moral takeaway with assembly.'}</td>
+            <td class="p-3.5 sm:p-4 font-semibold text-[#0F766E] dark:text-[#2DD4BF]">{isTa ? 'மேடைப் பேச்சு, தன்னம்பிக்கை, கூட்டு விழுமியம்' : 'Public speaking poise, moral focus, assembly cohesion'}</td>
+          </tr>
+          <tr>
+            <td class="p-3.5 sm:p-4 font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">{isTa ? 'மொழி ஆய்வகம் (Language Lab)' : 'Language Lab'}</td>
+            <td class="p-3.5 sm:p-4">{isTa ? 'கணினி/ஹெட்போன் வழியே தத்தமது வேகத்திற்கு ஏற்ப ஆடியோ கேட்டு வாசித்தல் (Self-paced).' : 'Students listen to synchronized audio narration while reading transcript.'}</td>
+            <td class="p-3.5 sm:p-4 font-semibold text-[#0F766E] dark:text-[#2DD4BF]">{isTa ? 'கேட்டல் திறன் (Listening Comprehension), திருத்தமான உச்சரிப்பு' : 'Flawless pronunciation, phonological awareness'}</td>
+          </tr>
+          <tr>
+            <td class="p-3.5 sm:p-4 font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">{isTa ? 'நூலக நேரம் (Library Period)' : 'Library Period'}</td>
+            <td class="p-3.5 sm:p-4">{isTa ? 'இரு குழுக்களாகப் பிரிந்து, விக்ரமாதித்தன் அல்லது பீர்பால் கதைகளின் முடிவில் உள்ள சிக்கல்களுக்கு வாதாடுதல்.' : 'Split into circles; debate Vikram-Vetal moral riddles or Birbal problem-solving.'}</td>
+            <td class="p-3.5 sm:p-4 font-semibold text-[#0F766E] dark:text-[#2DD4BF]">{isTa ? 'விமர்சனச் சிந்தனை, தர்க்கரீதியான வாதத்திறன்' : 'Critical thinking, respectful rebuttal, dialectic logic'}</td>
+          </tr>
+          <tr>
+            <td class="p-3.5 sm:p-4 font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">{isTa ? 'மதிப்பீட்டு நேரம் (Formative Assessment)' : 'Formative Assessment'}</td>
+            <td class="p-3.5 sm:p-4">{isTa ? 'கதையின் முடிவில் உள்ள வினாடி-வினா (Quiz) மூலம் உடனடித் தன்மதிப்பீடு செய்தல்.' : 'Automated story comprehension quiz with immediate rubric feedback.'}</td>
+            <td class="p-3.5 sm:p-4 font-semibold text-[#0F766E] dark:text-[#2DD4BF]">{isTa ? 'கருத்துப் புரிதல் உறுதிப்பாடு, அடைவுத் திறன் பதிவு' : 'Objective retention tracking, reading comprehension metrics'}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SECTION 3: TEACHER 5E PEDAGOGY -->
+  <section id="teachers" class="space-y-6 pt-4 scroll-mt-20">
+    <div class="flex items-center gap-3 border-b border-[#EEDFC8] dark:border-[#383659] pb-3">
+      <div class="w-10 h-10 rounded-2xl bg-amber-500/15 flex items-center justify-center text-xl text-amber-600">
+        👩‍🏫
+      </div>
+      <div>
+        <h2 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? '3. ஆசிரியர்களுக்கான 5E கற்பித்தல் மாதிரி' : '3. The 5E Pedagogical Model for Teachers'}
+        </h2>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+          {isTa ? 'Engage, Explore, Explain, Elaborate, Evaluate முறைப்படி வகுப்பறையைக் கையாளுதல்' : 'Structured constructivist lesson delivery powered by digital folklore'}
+        </p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5">
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-2">
+        <span class="text-xs font-black px-2 py-0.5 rounded-md bg-amber-500/15 text-amber-700 dark:text-amber-300">1. Engage</span>
+        <h4 class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] text-xs sm:text-sm">{isTa ? 'ஈர்த்தல்' : 'Hook Interest'}</h4>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+          {isTa ? 'கதையின் சுவாரசியமான தொடக்கத்தை அல்லது புதிரை எழுப்பி மாணவர்களின் கவனத்தை ஈர்த்தல்.' : 'Introduce a provocative dilemma or enigmatic opening.'}
+        </p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-2">
+        <span class="text-xs font-black px-2 py-0.5 rounded-md bg-blue-500/15 text-blue-700 dark:text-blue-300">2. Explore</span>
+        <h4 class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] text-xs sm:text-sm">{isTa ? 'ஆராய்ந்து அறிதல்' : 'Self-Exploration'}</h4>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+          {isTa ? 'மாணவர்கள் சுயமாக அல்லது குழுவாகக் கதையைப் படித்து சூழலை உற்றுநோக்குதல்.' : 'Students read in pairs or explore audio-text synchronously.'}
+        </p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-2">
+        <span class="text-xs font-black px-2 py-0.5 rounded-md bg-teal-500/15 text-teal-700 dark:text-teal-300">3. Explain</span>
+        <h4 class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] text-xs sm:text-sm">{isTa ? 'விளக்குதல்' : 'Co-Explanation'}</h4>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+          {isTa ? 'புதிய சொற்களஞ்சியம், வரலாற்று-பண்பாட்டுப் பின்னணி மற்றும் நீதியை ஆசிரியர் விளக்குதல்.' : 'Clarify vocabulary, historical context, and moral core.'}
+        </p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-2">
+        <span class="text-xs font-black px-2 py-0.5 rounded-md bg-purple-500/15 text-purple-700 dark:text-purple-300">4. Elaborate</span>
+        <h4 class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] text-xs sm:text-sm">{isTa ? 'விரிவுபடுத்தல்' : 'Real-Life Link'}</h4>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+          {isTa ? 'கதையின் நீதியை அன்றாடப் பள்ளி/சமூக வாழ்க்கையோடு ஒப்பிட்டுப் பேச வைத்தல்.' : 'Apply ethical principles to playground, family, and society.'}
+        </p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-2">
+        <span class="text-xs font-black px-2 py-0.5 rounded-md bg-rose-500/15 text-rose-700 dark:text-rose-300">5. Evaluate</span>
+        <h4 class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] text-xs sm:text-sm">{isTa ? 'மதிப்பிடுதல்' : 'Assessment'}</h4>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+          {isTa ? 'நாடகமாக்கம் (Role play), வினாடி-வினா மற்றும் மாற்று முடிவு எழுதச் செய்தல்.' : 'Interactive quiz, creative alternative ending, role-play.'}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4 & 5: STUDENTS & PARENTS DUAL COLUMN -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
+    <!-- Student Box -->
+    <section id="students" class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-4 scroll-mt-20">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-blue-500/15 text-blue-600 flex items-center justify-center text-xl">
+          🎒
+        </div>
+        <div>
+          <h3 class="text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+            {isTa ? '4. மாணவர்கள் சுயமாகப் பயன்படுத்தும் உத்திகள்' : '4. Self-Regulated Student Learning'}
+          </h3>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+            {isTa ? 'தன்னம்பிக்கை மற்றும் மொழி ஆளுமைக்கான பயிற்சிகள்' : 'Active reading habits and lexical mastery'}
+          </p>
+        </div>
+      </div>
+      <ul class="space-y-3 text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+        <li class="flex items-start gap-2">
+          <span class="text-[#0F766E] font-bold">✓</span>
+          <span><strong>{isTa ? 'பார்வை-செவிவழி வாசிப்பு:' : 'Dual-Input Reading:'}</strong> {isTa ? 'ஆடியோவுடன் சேர்ந்து படித்து கடினமான உச்சரிப்புகளைச் சரளமாக்குதல்.' : 'Read along with speech narration to master phonetic cadence.'}</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-[#0F766E] font-bold">✓</span>
+          <span><strong>{isTa ? 'சொற்களஞ்சியக் குறிப்பேடு:' : 'Vocabulary Diary:'}</strong> {isTa ? 'கதைகளில் வரும் புதிய தூய தமிழ்ச் சொற்களைக் குறித்து சொந்த வாக்கியத்தில் அமைத்தல்.' : 'Log rich heritage words and use them in original sentences.'}</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-[#0F766E] font-bold">✓</span>
+          <span><strong>{isTa ? 'தொடர் வாசிப்பு (Streak):' : 'Daily Streak:'}</strong> {isTa ? '\'Continue Reading\' வசதியைப் பயன்படுத்தி தினமும் 15 நிமிடம் வாசிப்பைத் தொடர்தல்.' : 'Use persistent state to sustain 15-minute daily reading rhythms.'}</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Parent Box -->
+    <section id="parents" class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-4 scroll-mt-20">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-rose-500/15 text-rose-600 flex items-center justify-center text-xl">
+          👨‍👩‍👧
+        </div>
+        <div>
+          <h3 class="text-lg font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+            {isTa ? '5. பெற்றோர்களுக்கான இல்லக் கற்றல் வழிகாட்டல்' : '5. Meaningful Parental Engagement'}
+          </h3>
+          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+            {isTa ? 'ஆக்கப்பூர்வ திரைநேரம் & உறங்குமுன் கதை சொல்லல்' : 'Transforming screen time into emotional bonding'}
+          </p>
+        </div>
+      </div>
+      <ul class="space-y-3 text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+        <li class="flex items-start gap-2">
+          <span class="text-rose-600 font-bold">✓</span>
+          <span><strong>{isTa ? 'பயனற்ற திரைநேரத்திற்கு மாற்று:' : 'Constructive Screen Time:'}</strong> {isTa ? 'ரீல்ஸ் (Reels), கேம்களுக்குப் பதிலாக வண்ணமயமான கதைகளைப் படிக்க வைத்தல்.' : 'Replace aimless scrolling with rich, illustrated classical stories.'}</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-rose-600 font-bold">✓</span>
+          <span><strong>{isTa ? 'உறங்குமுன் கதைப் பிணைப்பு:' : 'Bedtime Narrative Bonding:'}</strong> {isTa ? 'இரவில் பெற்றோரும் குழந்தைகளும் சேர்ந்து கதை கேட்டு அன்றைய மன அழுத்தத்தைக் குறைத்தல்.' : 'Wind down evenings together, strengthening emotional security.'}</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-rose-600 font-bold">✓</span>
+          <span><strong>{isTa ? 'விழுமியக் கலந்துரையாடல்:' : 'Dinner Table Moral Inquiries:'}</strong> {isTa ? '\'நீ அவனாக இருந்தால் என்ன செய்திருப்பாய்?\' எனப் பேசி அறநெறிப் பயிற்சி அளித்தல்.' : 'Ask open-ended ethical questions during meals to cultivate empathy.'}</span>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- SECTION 6: 13 CLASSICAL TRADITIONS -->
+  <section id="collections" class="space-y-6 pt-4 scroll-mt-20">
+    <div class="flex items-center gap-3 border-b border-[#EEDFC8] dark:border-[#383659] pb-3">
+      <div class="w-10 h-10 rounded-2xl bg-purple-500/15 flex items-center justify-center text-xl text-purple-600">
+        📚
+      </div>
+      <div>
+        <h2 class="text-xl sm:text-2xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? '6. 13 செவ்வியல் கதைத் தொகுப்புகளின் உளவியல் பகுப்பாய்வு' : '6. Psychological Matrix of the 13 Story Traditions'}
+        </h2>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+          {isTa ? 'ஒவ்வொரு மரபும் வளர்க்கும் பிரத்யேக ஆளுமை மற்றும் அறிவாற்றல் நன்மைகள்' : 'Targeted cognitive faculties and moral virtues cultivated by each collection'}
+        </p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-xs sm:text-sm">
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>🗡️ {isTa ? 'விக்கிரமாதித்தன் - வேதாளம்' : 'Vikram–Vetal'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-purple-500/15 text-purple-700 dark:text-purple-300 font-black">தர்க்கவியல்</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">சிக்கலான அறநெறித் தர்மசங்கடங்கள் (Moral Dilemmas), தத்துவ வினாக்கள் மற்றும் ஆழமான தர்க்கவியல் தீர்வு காணும் சிந்தனை.</p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>🦁 {isTa ? 'பஞ்சதந்திரம்' : 'Panchatantra'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-700 dark:text-amber-300 font-black">நிர்வாகவியல்</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">நட்புச் சோதனை, நடைமுறை அரசியல் சாதுரியம், ஆபத்துகளை முன்கூட்டியே கணிக்கும் ராஜதந்திரப் பார்வை.</p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>👳‍♂️ {isTa ? 'தெனாலிராமன்' : 'Tenali Rama'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 font-black">சமயோசிதம்</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">நகைச்சுவை உணர்வு, மாற்றுப் பாதையில் சிந்திக்கும் நுட்பம் (Lateral Thinking), அதிகாரத்திடம் பயமின்றி உண்மையைப் பேசுதல்.</p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>👑 {isTa ? 'அக்பர்–பீர்பால்' : 'Akbar–Birbal'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-rose-500/15 text-rose-700 dark:text-rose-300 font-black">சிக்கல் தீர்த்தல்</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">நேர்மை, பாரபட்சமற்ற தீர்ப்பு, தடயங்களை ஆராயும் புலனாய்வு விவேகம் மற்றும் அமைதியான தலைமைப் பண்பு.</p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>🪷 {isTa ? 'ஜாதகக் கதைகள்' : 'Jataka Tales'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-yellow-500/15 text-yellow-700 dark:text-yellow-300 font-black">கருணை</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">அகிம்சை, சக உயிர்களிடம் அன்பு, தன்னலமற்ற தியாகம், பொறுமை மற்றும் அக அமைதி.</p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>🏛️ {isTa ? 'ஈசாப் கதைகள்' : 'Aesop\'s Fables'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/15 text-cyan-700 dark:text-cyan-300 font-black">உலக எதார்த்தம்</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">அகந்தை தவிர்த்தல், பேராசையின் விபரீதம், எச்சரிக்கை உணர்வு மற்றும் எளிய மனித பலவீனங்களைப் புரிந்துகொள்ளுதல்.</p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>🌙 {isTa ? 'ஆயிரத்தொரு இரவுகள்' : 'Arabian Nights'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 font-black">கற்பனை வளம்</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">விநோதமான புனைவுகள், கதை சொல்லும் பேராற்றல் (Narrative Drive), கடின சூழலிலும் மனம் தளரா விடாமுயற்சி.</p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>🌴 {isTa ? 'பரமார்த்த குரு கதைகள்' : 'Paramartha Guru'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-orange-500/15 text-orange-700 dark:text-orange-300 font-black">விழிப்புணர்வு</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">மூடநம்பிக்கை எதிர்ப்பு, அறியாமையின் நகைப்புக்குரிய விளைவுகள், குருட்டுத்தனமாகப் பின்பற்றாமல் சுயசிந்தனை செய்தல்.</p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>🫏 {isTa ? 'முல்லா நஸ்ருதீன்' : 'Mulla Nasruddin'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-700 dark:text-amber-300 font-black">தத்துவச் சிரிப்பு</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">தலைகீழான பார்வைகள் வழியே உலக மாயைகளை உடைக்கும் சூஃபித்துவ தத்துவப் பார்வை மற்றும் நகைச்சுவை.</p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>🌲 {isTa ? 'கிரிம் கதைகள்' : 'Brothers Grimm'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-pink-500/15 text-pink-700 dark:text-pink-300 font-black">துணிச்சல்</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">இருண்ட தடைகளைத் தாண்டி ஒளிரும் நன்மை, வாக்குறுதியைக் காப்பாற்றுதல், இயற்கையோடு இயைந்த நாட்டுப்புற ஞானம்.</p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>🦢 {isTa ? 'ஆண்டர்சன் கதைகள்' : 'H.C. Andersen'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-sky-500/15 text-sky-700 dark:text-sky-300 font-black">அக அழகு</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">அசிங்கமான வாத்துக் குஞ்சு போலப் புறத்தோற்றத்தால் ஏளனம் செய்யாமல், ஒவ்வொருவருக்குள்ளும் இருக்கும் தனித்துவத்தை உணர்தல்.</p>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-xs space-y-1.5">
+        <div class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center justify-between">
+          <span>👠 {isTa ? 'சிண்ட்ரெல்லா கதைகள்' : 'Cinderella'}</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-purple-500/15 text-purple-700 dark:text-purple-300 font-black">தன்னம்பிக்கை</span>
+        </div>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">கொடுமைகள் மற்றும் அவமதிப்புகளைப் பொறுமையுடன் கடந்து, நற்பண்பால் வெற்றியை அடையும் மன உறுதி.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7: EQUALITY & INCLUSIVE ETHICS -->
+  <section id="ethics" class="p-6 sm:p-8 rounded-3xl bg-linear-to-br from-[#FFF8EC] to-[#FEF3C7] dark:from-[#1E1D36] dark:to-[#17162B] border border-[#FDE68A] dark:border-[#4B3B2B] shadow-xs space-y-4 scroll-mt-20">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-2xl bg-[#D97706]/20 text-[#D97706] flex items-center justify-center text-xl">
+        ⚖️
+      </div>
+      <div>
+        <h3 class="text-lg sm:text-xl font-black text-[#3B2A1A] dark:text-[#F3EBDD]">
+          {isTa ? '7. சாதி மறுப்பு, சமூக நீதி மற்றும் பாலினச் சமத்துவ விழுமியக் கட்டமைப்பு' : '7. Egalitarian Ethics, Social Justice & Caste-Neutral Curation'}
+        </h3>
+        <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+          {isTa ? 'அரசியலமைப்புச் சட்டம் வலியுறுத்தும் சமத்துவ நெறிகளைப் பாதுகாக்கும் கல்வி அறம்' : 'Constitutional values of equality, fraternity, and human dignity'}
+        </p>
+      </div>
+    </div>
+
+    <div class="space-y-3 text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+      <p>
+        {isTa
+          ? 'பழங்கால மரபுக் கதைகளில் சமூக மேலாதிக்கச் சொற்களோ, குறிப்பிட்ட சமூகத்தைப் பிறப்பால் உயர்வாகவோ தாழ்வாகவோ சித்தரிக்கும் வரிகளோ இடம்பெறாமல் முழுமையாகத் தணிக்கை செய்யப்பட்டுள்ளன. "பிராமின் / பார்ப்பான்" போன்ற குறிப்பிட்ட சாதிப்பெயர்கள் யாவும் "பூசாரி / ஆன்மீகப் பெரியவர் / வேதம் ஓதுபவர்" எனச் சமத்துவப் பண்பாட்டுச் சொற்களாக மாற்றப்பட்டுள்ளன.'
+          : 'Traditional folktales often contain vestiges of caste hierarchies and exclusionary feudal tropes. On DailyStory, all stories undergo rigorous ethical curation. Caste-specific descriptors have been neutralized to functional and spiritual roles (e.g. Priest / Spiritual Scholar), safeguarding children from caste prejudice.'}
+      </p>
+      <p>
+        {isTa
+          ? 'அனைத்துத் தொழில் செய்யும் உழைக்கும் மக்களையும், பெண்களின் நுண்ணறிவையும், எளிய மனிதர்களின் சாதுரியத்தையும் சமத்துவத்துடன் முன்னிறுத்துவதன் மூலம், எதிர்காலத் தலைமுறையினரிடையே சமத்துவம், மனிதநேயம் மற்றும் சமூக நல்லிணக்கத்தை விதைப்பதே இத்தளத்தின் உயரிய கல்வி நோக்கமாகும்.'
+          : 'By centering the wisdom of working artisans, farmers, and intellectually resilient women, DailyStory ensures that digital reading cultivates empathy, democratic spirit, and constitutional human rights.'}
+      </p>
+    </div>
+  </section>
+
+  <!-- SECTION 8: BIBLIOGRAPHY -->
+  <footer class="pt-6 border-t border-[#EEDFC8] dark:border-[#383659] text-xs text-[#8C7A6B] dark:text-[#A89F91] space-y-2">
+    <h4 class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD] uppercase tracking-wide text-[11px]">
+      {isTa ? 'உசாத்துணை நூல்கள் (Select References & Bibliography):' : 'Select Academic References:'}
+    </h4>
+    <p class="leading-relaxed">
+      Piaget, J. (1952). <em>The Origins of Intelligence in Children</em> • Vygotsky, L. S. (1978). <em>Mind in Society</em> • Kohlberg, L. (1984). <em>The Psychology of Moral Development</em> • Paivio, A. (1986). <em>Mental Representations: A Dual Coding Approach</em> • Gardner, H. (1983). <em>Frames of Mind: Theory of Multiple Intelligences</em> • Bruner, J. (1990). <em>Acts of Meaning</em> • Goleman, D. (1995). <em>Emotional Intelligence</em>.
+    </p>
+  </footer>
+
+</div>

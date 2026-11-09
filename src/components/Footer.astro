@@ -73,7 +73,13 @@ const currentLangObj = getLanguageMeta(currentLang);
         </h3>
         <ul class="space-y-2.5 text-xs sm:text-sm">
           <li><a href={`/${currentLang}/about/`} class="hover:text-[#D97706] transition-colors">{t.about}</a></li>
-          <li><a href={`/${currentLang}/guide/`} class="hover:text-[#D97706] transition-colors">{t.guide}</a></li>
+          <li><a href={`/${currentLang}/guide/`} class="hover:text-[#D97706] transition-colors font-bold text-[#0F766E] dark:text-[#2DD4BF]">📖 {currentLang === 'ta' ? 'கல்வி உளவியல் & கற்பித்தல் கையேடு' : (t.guide || 'Pedagogy Guide')}</a></li>
+          <li>
+            <a href="/docs/DailyStory_Educational_Psychology_Guide.docx" download class="hover:text-[#D97706] transition-colors inline-flex items-center gap-1 text-[11px]">
+              <span>📥</span>
+              <span>{currentLang === 'ta' ? 'கையேடு பதிவிறக்குக (Word .docx)' : 'Download Guide (.docx)'}</span>
+            </a>
+          </li>
           <li><a href={`/${currentLang}/submit/`} class="hover:text-[#D97706] transition-colors">{t.submit}</a></li>
         </ul>
       </div>

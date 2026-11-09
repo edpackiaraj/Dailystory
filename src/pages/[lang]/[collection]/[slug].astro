@@ -2,7 +2,7 @@
 import brandConfig from '../../../../config/brand.json';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import StoryIllustration from '../../../components/StoryIllustration.astro';
-import { getT } from '../../../lib/i18n';
+import { getT, getLanguageMeta } from '../../../lib/i18n';
 import {
   getAllReviewedStories,
   getCollectionSlug,
@@ -52,6 +52,7 @@ const { lang, collection, slug } = Astro.params;
 const { story, prevStory, nextStory } = Astro.props;
 const currentLang = lang || 'en';
 const t = getT(currentLang);
+const currentLangObj = getLanguageMeta(currentLang);
 
 function sanitizeTag(str?: string) {
   if (!str) return '';

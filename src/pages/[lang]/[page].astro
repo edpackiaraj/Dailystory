@@ -16,6 +16,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import StoryIllustration from '../../components/StoryIllustration.astro';
 import AboutView from '../../components/AboutView.astro';
 import ContactView from '../../components/ContactView.astro';
+import PedagogyGuideView from '../../components/PedagogyGuideView.astro';
 
 export function getStaticPaths() {
   const paths: any[] = [];
@@ -190,8 +191,12 @@ if (view === 'search') {
   pageTitle = `${t.collections} — ${brandConfig.name}`;
   pageDesc = "Explore all timeless cultural folklore collections on Daily Tale.";
 } else if (view === 'guide') {
-  pageTitle = `${t.guide} — ${brandConfig.name}`;
-  pageDesc = "Educational framework, Bloom's taxonomy discussion prompts, and reading guidance for families and classrooms.";
+  pageTitle = currentLang === 'ta'
+    ? `கல்வி உளவியல் & கற்பித்தல் வழிகாட்டி — ${brandConfig.name}`
+    : `Educational Psychology & Pedagogy Guide — ${brandConfig.name}`;
+  pageDesc = currentLang === 'ta'
+    ? "கதைவழிக் கற்றல், கல்வி உளவியல் பரிமாணங்கள், பள்ளிகளில் செயல்படுத்தும் மாதிரி மற்றும் 5E கற்பித்தல் வழிகாட்டி."
+    : "Educational framework, cognitive psychology (Piaget, Vygotsky, Kohlberg), Bloom's taxonomy discussion prompts, and reading guidance for schools and families.";
 } else if (view === 'submit') {
   pageTitle = `${t.submit} — ${brandConfig.name}`;
   pageDesc = "Submit your original folktale, fable or moral story for global publication.";
@@ -458,44 +463,7 @@ if (view === 'search') {
 
     <!-- VIEW 4: TEACHER & PARENT GUIDE -->
     {view === 'guide' && (
-      <div class="max-w-3xl mx-auto space-y-8">
-        
-        <header class="space-y-3 text-center">
-          <div class="w-16 h-16 mx-auto rounded-3xl bg-[#0F766E]/15 flex items-center justify-center text-3xl">
-            🌱
-          </div>
-          <h1 class="text-3xl sm:text-4xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight">
-            {t.guide}
-          </h1>
-          <p class="text-sm text-[#6B5644] dark:text-[#C8BFAF]">
-            A guide for families, educators, and language learners to spark meaningful discussions and deep reading joy.
-          </p>
-        </header>
-
-        <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-6 text-sm text-[#3B2A1A] dark:text-[#F3EBDD] leading-relaxed">
-          <div class="space-y-2">
-            <h2 class="text-lg font-black text-[#D97706]">1. Audience &amp; Age Guidance</h2>
-            <p>
-              We classify stories under three respectful categories: <strong>Everyone</strong> (universal folklore suitable for all ages), <strong>Kids</strong> (gentle animal fables, simple rhymes, bedtime tales), and <strong>Teens</strong> (moral dilemmas, courtly satire, and nuanced decisions). We deliberately avoid patronizing labels to encourage family co-reading.
-            </p>
-          </div>
-
-          <div class="space-y-2">
-            <h2 class="text-lg font-black text-[#D97706]">2. Using the Bloom's Taxonomy "Think &amp; Talk" Prompts</h2>
-            <p>
-              At the bottom of every story, you will find discussion prompts graded from basic recall (Remembering) to higher-order ethical reasoning (Evaluating &amp; Creating). Use these questions during dinner, car rides, or bedtime to encourage children to articulate why a character made a specific choice.
-            </p>
-          </div>
-
-          <div class="space-y-2">
-            <h2 class="text-lg font-black text-[#D97706]">3. Dual-Language &amp; Vocabulary Learning</h2>
-            <p>
-              Readers learning a new language can listen to speech narration at slower speeds (0.8x) while following the text. The "Words to Learn" section highlights challenging or poetic words to build vocabulary naturally in context.
-            </p>
-          </div>
-        </div>
-
-      </div>
+      <PedagogyGuideView currentLang={currentLang} />
     )}
 
     <!-- VIEW 5: SUBMIT A STORY -->
