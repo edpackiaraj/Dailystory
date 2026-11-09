@@ -8,6 +8,10 @@ console.log('1. Neutralizing deity references...');
 let res = spawnSync('node', ['scripts/neutralize-deities.mjs'], { stdio: 'inherit' });
 if (res.status !== 0) process.exit(res.status || 1);
 
+console.log('\n1-caste. Neutralizing caste references (e.g. Brahmin -> Priest / பூசாரி)...');
+res = spawnSync('node', ['scripts/neutralize-caste.mjs'], { stdio: 'inherit' });
+if (res.status !== 0) process.exit(res.status || 1);
+
 console.log('\n1b. Sanitizing tags and applying translations...');
 res = spawnSync('node', ['scripts/sanitize-and-translate-stories.mjs'], { stdio: 'inherit' });
 if (res.status !== 0) process.exit(res.status || 1);

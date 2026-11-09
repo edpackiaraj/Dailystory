@@ -300,7 +300,7 @@
         },
         {
           "id": "3.4",
-          "title": "The Brahmin's Goat",
+          "title": "The Priest's Goat",
           "moral": "Repeated lies become truth in fools' minds"
         },
         {
@@ -330,7 +330,7 @@
         },
         {
           "id": "3.10",
-          "title": "The Brahmin, the Thief and the Ghost",
+          "title": "The Priest, the Thief and the Ghost",
           "moral": "Deceivers deceive each other"
         },
         {
@@ -365,7 +365,7 @@
         },
         {
           "id": "3.17",
-          "title": "The Butter-blinded Brahmin",
+          "title": "The Butter-blinded Priest",
           "moral": "Greed makes you blind"
         }
       ]
@@ -457,7 +457,7 @@
       "olivelle_name": "On Hasty Actions",
       "theme": "Do not act without consideration - get facts, be patient, don't build castles in air",
       "frame_characters": [
-        "Brahmin and Mongoose"
+        "Priest and Mongoose"
       ],
       "story_count": 12,
       "stories": [
@@ -468,7 +468,7 @@
         },
         {
           "id": "5.1",
-          "title": "The Loyal Mongoose (The Loyal Mungoose and the Brahmin's wife)",
+          "title": "The Loyal Mongoose (The Loyal Mungoose and the Priest's wife)",
           "moral": "Hasty judgment leads to irreparable regret"
         },
         {
@@ -498,7 +498,7 @@
         },
         {
           "id": "5.7",
-          "title": "The Brahmin's Dream (The Brahman Who Built Castles in Air)",
+          "title": "The Priest's Dream (The Priest Who Built Castles in Air)",
           "moral": "Do not build castles in the air"
         },
         {
@@ -508,7 +508,7 @@
         },
         {
           "id": "5.9",
-          "title": "The Credulous Fiend (The Demon and the Brahmin)",
+          "title": "The Credulous Fiend (The Demon and the Priest)",
           "moral": "Do not trust demons / wicked persons"
         },
         {

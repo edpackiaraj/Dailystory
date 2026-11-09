@@ -258,6 +258,16 @@ const { storyId, storyTitle, storyText, audioUrl, language } = Astro.props;
         const pct = Math.round(((idx + 1) / sentences.length) * 100);
         progressBar.value = pct;
         timeCurrent.textContent = `${idx + 1}/${sentences.length}`;
+
+        // Dispatch listening progress event for continue listening tracking
+        window.dispatchEvent(new CustomEvent('dailytale-listening-update', {
+          detail: {
+            storyId,
+            sentenceIdx: idx,
+            totalSentences: sentences.length,
+            percent: pct
+          }
+        }));
       }
     }
 

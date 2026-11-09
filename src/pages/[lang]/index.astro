@@ -185,26 +185,172 @@ const recentStories = translatedFirst.slice(0, 16);
       </section>
     )}
 
-    <!-- Dynamic "Continue Reading" Section (Populated via client-side localStorage) -->
-    <section id="continue-reading-section" class="hidden p-5 sm:p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm">
-      <div class="flex items-center justify-between">
-        <div class="flex items-center gap-3">
-          <span class="text-2xl">🔖</span>
-          <div>
-            <h2 class="text-xs font-bold uppercase tracking-wider text-[#D97706] dark:text-[#F59E0B]">
-              {t.continueReading}
-            </h2>
-            <p id="continue-reading-title" class="text-sm sm:text-base font-bold text-[#3B2A1A] dark:text-[#F3EBDD]"></p>
+    <!-- Dynamic "Continue Reading / Listening" Section (Populated via client-side localStorage) -->
+    <section id="continue-reading-section" class="hidden p-5 sm:p-6 rounded-3xl bg-linear-to-r from-amber-50 via-orange-50/50 to-amber-50 dark:from-[#25243E] dark:via-[#1F1E38] dark:to-[#25243E] border-2 border-amber-300 dark:border-amber-600/50 shadow-md transition-all">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="flex items-start sm:items-center gap-3.5">
+          <div id="continue-icon-box" class="w-12 h-12 rounded-2xl bg-[#D97706] text-white flex items-center justify-center text-2xl shadow-sm shrink-0">
+            📖
+          </div>
+          <div class="space-y-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span id="continue-type-badge" class="px-2.5 py-0.5 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] text-[11px] font-black uppercase tracking-wider">
+                {currentLang === 'ta' ? 'வாசிப்பைத் தொடரவும்' : (currentLang === 'hi' ? 'जारी रखें' : 'Continue Reading')}
+              </span>
+              <span id="continue-progress-badge" class="px-2 py-0.5 rounded-full bg-white dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] text-[11px] font-mono font-bold text-[#6B5644] dark:text-[#C8BFAF]">
+                0%
+              </span>
+            </div>
+            <p id="continue-reading-title" class="text-base sm:text-lg font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1"></p>
+            <p id="continue-reading-collection" class="text-xs text-[#6B5644] dark:text-[#C8BFAF] font-medium"></p>
           </div>
         </div>
+
+        <!-- Action Buttons -->
+        <div class="flex items-center gap-2 self-end sm:self-center shrink-0">
+          <a
+            id="continue-read-link"
+            href="#"
+            class="px-4 py-2.5 rounded-xl bg-[#D97706] hover:bg-[#B45309] text-white text-xs font-black shadow-xs transition-all flex items-center gap-1.5 min-h-[40px]"
+          >
+            <span>📖</span>
+            <span>{currentLang === 'ta' ? 'வாசிக்க' : (currentLang === 'hi' ? 'पढ़ें' : 'Read')}</span>
+          </a>
+          <a
+            id="continue-listen-link"
+            href="#"
+            class="px-4 py-2.5 rounded-xl bg-[#0F766E] hover:bg-[#0D655E] text-white text-xs font-black shadow-xs transition-all flex items-center gap-1.5 min-h-[40px]"
+          >
+            <span>🎧</span>
+            <span>{currentLang === 'ta' ? 'கேட்க' : (currentLang === 'hi' ? 'सुनें' : 'Listen')}</span>
+          </a>
+          <button
+            id="continue-dismiss-btn"
+            type="button"
+            aria-label="Dismiss Continue Reading"
+            class="p-2.5 rounded-xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] hover:bg-red-50 dark:hover:bg-red-950/30 text-slate-400 hover:text-red-500 transition-colors"
+            title="Dismiss"
+          >
+            ✕
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome & How to Effectively Use Section -->
+    <section class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-6">
+      
+      <!-- Welcome Header -->
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-[#EEDFC8]/60 dark:border-[#383659]/60">
+        <div class="space-y-1.5">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] text-xs font-black uppercase tracking-wider">
+            <span>🦉</span>
+            <span>{currentLang === 'ta' ? 'நல்வரவு!' : (currentLang === 'hi' ? 'स्वागतम्' : 'Welcome to Daily Tale')}</span>
+          </div>
+          <h2 class="text-xl sm:text-2xl lg:text-3xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight">
+            {currentLang === 'ta' 
+              ? 'தினமும் ஒரு கதைக்கு அன்புடன் வரவேற்கிறோம்!' 
+              : (currentLang === 'hi' 
+                  ? 'डेली टेल में आपका हार्दिक स्वागत है!' 
+                  : 'Welcome to Daily Tale — Timeless Wisdom for Every Generation')}
+          </h2>
+          <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] max-w-2xl leading-relaxed">
+            {currentLang === 'ta'
+              ? 'குழந்தைகள், மாணவர்கள் மற்றும் குடும்பங்களுக்கான நற்பண்பு நீதிக்கதைகள், வரலாற்று நாட்டுப்புறக் கதைகள் மற்றும் தூக்க நேரக் கதைகளின் பாதுகாப்பான, விளம்பரங்கள் அற்ற பண்பாட்டு இல்லம்.'
+              : (currentLang === 'hi'
+                  ? 'बच्चों, परिवारों और शिक्षकों के लिए नैतिक कथाओं, लोककथाओं और ज्ञानवर्धक कहानियों का विज्ञापन-रहित सुरक्षित संसार।'
+                  : 'An ad-free, child-safe sanctuary offering timeless moral fables, cultural folktales, and bilingual bedtime stories across 8+ world languages.')}
+          </p>
+        </div>
+
         <a
-          id="continue-reading-link"
-          href="#"
-          class="px-4 py-2 rounded-full bg-[#D97706] text-white text-xs font-bold hover:bg-[#B45309] transition-all min-h-[40px] flex items-center"
+          href={`/${currentLang}/guide/`}
+          class="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold text-[#D97706] hover:border-[#D97706] transition-all self-start md:self-auto shrink-0 shadow-2xs"
         >
-          {currentLang === 'ta' ? 'தொடர்க →' : (currentLang === 'hi' ? 'जारी रखें →' : 'Resume →')}
+          <span>📘</span>
+          <span>{currentLang === 'ta' ? 'முழு வழிகாட்டி' : (currentLang === 'hi' ? 'मार्गदर्शिका' : 'Reading Guide')} →</span>
         </a>
       </div>
+
+      <!-- How to Effectively Use (4 Educational Pillars) -->
+      <div class="space-y-3">
+        <h3 class="text-xs font-bold uppercase tracking-wider text-[#6B5644] dark:text-[#C8BFAF]">
+          💡 {currentLang === 'ta' ? 'எவ்வாறு பயனுறக் கற்கலாம்? (வழிகாட்டி)' : (currentLang === 'hi' ? 'कहानियों का सर्वोत्तम उपयोग कैसे करें?' : 'How to Get the Most Out of Every Story')}
+        </h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          
+          <!-- Card 1: Audio Read-Along -->
+          <div class="p-4 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8]/80 dark:border-[#383659] space-y-2">
+            <div class="w-9 h-9 rounded-xl bg-teal-500/15 text-teal-600 dark:text-teal-400 flex items-center justify-center text-lg font-bold">
+              🎧
+            </div>
+            <h4 class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+              {currentLang === 'ta' ? '1. கேட்டு வாசியுங்கள்' : (currentLang === 'hi' ? '1. सुनकर पढ़ें' : '1. Listen & Read-Along')}
+            </h4>
+            <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              {currentLang === 'ta'
+                ? 'ஒலிப்பானை (Play) அழுத்தி இயற்கையான வாசிப்பைக் கேளுங்கள்; வாசிக்கும் சொற்கள் நிறம் மாறுவதால் உச்சரிப்பும் கேட்டல் திறனும் கூடும்.'
+                : (currentLang === 'hi'
+                    ? 'प्ले बटन दबाकर कथावाचन सुनें। शब्द स्वतः हाइलाइट होते हैं जिससे उच्चारण और भाषा पकड़ मजबूत होती है।'
+                    : 'Click Play to hear speech narration while words highlight in sync — boosting fluency, pronunciation, and listening comprehension.')}
+            </p>
+          </div>
+
+          <!-- Card 2: Bilingual Mode -->
+          <div class="p-4 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8]/80 dark:border-[#383659] space-y-2">
+            <div class="w-9 h-9 rounded-xl bg-amber-500/15 text-amber-600 dark:text-amber-400 flex items-center justify-center text-lg font-bold">
+              🌐
+            </div>
+            <h4 class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+              {currentLang === 'ta' ? '2. இருமொழி ஒப்பீடு' : (currentLang === 'hi' ? '2. द्विभाषी अध्ययन' : '2. Bilingual Mode')}
+            </h4>
+            <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              {currentLang === 'ta'
+                ? 'தாய்மொழி கதைகளை ஆங்கிலத்துடன் பக்கவாட்டில் ஒப்பிட்டுப் படித்து இருமொழி சொல்லாற்றலை எளிதாகப் பெருக்கலாம்.'
+                : (currentLang === 'hi'
+                    ? 'कहानियों को अंग्रेजी और अपनी भाषा में समानांतर पढ़कर शब्दावली और अनुवाद कौशल सहजता से बढ़ाएँ।'
+                    : 'Switch side-by-side between regional folklore and English to build vocabulary and contextual translation skills effortlessly.')}
+            </p>
+          </div>
+
+          <!-- Card 3: Think & Talk Quizzes -->
+          <div class="p-4 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8]/80 dark:border-[#383659] space-y-2">
+            <div class="w-9 h-9 rounded-xl bg-orange-500/15 text-orange-600 dark:text-orange-400 flex items-center justify-center text-lg font-bold">
+              💡
+            </div>
+            <h4 class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+              {currentLang === 'ta' ? '3. வினாடி வினா & சிந்தனை' : (currentLang === 'hi' ? '3. प्रश्नोत्तरी व संवाद' : '3. Think & Talk Quizzes')}
+            </h4>
+            <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              {currentLang === 'ta'
+                ? 'ஒவ்வொரு கதையின் முடிவிலும் உள்ள 3 எளிய வினாக்களுக்கு விடையளித்து கதையின் நன்னெறிகளை குடும்பத்துடன் உரையாடுங்கள்.'
+                : (currentLang === 'hi'
+                    ? 'हर कहानी के अंत में 3 सरल प्रश्नों के उत्तर देकर सीख पर चर्चा करें और नैतिक मूल्य आत्मसात करें।'
+                    : 'Check understanding with 3 quick interactive quiz questions and thoughtful conversation prompts after each tale.')}
+            </p>
+          </div>
+
+          <!-- Card 4: Calming Bedtime & Focus -->
+          <div class="p-4 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8]/80 dark:border-[#383659] space-y-2">
+            <div class="w-9 h-9 rounded-xl bg-indigo-500/15 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-lg font-bold">
+              🌙
+            </div>
+            <h4 class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+              {currentLang === 'ta' ? '4. கண் சோர்வற்ற வாசிப்பு' : (currentLang === 'hi' ? '4. शांत रात्रि वाचन' : '4. Bedtime & Aa Focus')}
+            </h4>
+            <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              {currentLang === 'ta'
+                ? 'எழுத்துரு அளவை மாற்றலாம் (Aa), கண் சோர்வின்றி இரவில் வாசிக்கலாம்; கவனச்சிதறல் இல்லாத அமைதியான வாசிப்பு.'
+                : (currentLang === 'hi'
+                    ? 'फॉन्ट आकार (Aa) और रात्रि थीम की मदद से आँखों को बिना थकाए सुकून से bedtime कहानियाँ पढ़ें।'
+                    : 'Toggle dyslexia-friendly fonts, adjust text sizes (Aa), or switch to calming night tones for restful bedtime reading.')}
+            </p>
+          </div>
+
+        </div>
+      </div>
+
     </section>
 
     <!-- Audience Filter Chips: Everyone, Kids, Teens -->
@@ -392,18 +538,55 @@ const recentStories = translatedFirst.slice(0, 16);
 </BaseLayout>
 
 <script is:inline>
-  // Check for "Continue Reading" from localStorage
-  try {
-    const lastRead = JSON.parse(localStorage.getItem('dailytale_last_read'));
-    if (lastRead && lastRead.title && lastRead.url) {
+  // Check for "Continue Reading / Listening" from localStorage
+  (function initContinueWidget() {
+    try {
+      const raw = localStorage.getItem('dailytale_last_read');
+      if (!raw) return;
+      const data = JSON.parse(raw);
+      if (!data || !data.title || !data.url) return;
+
       const section = document.getElementById('continue-reading-section');
       const titleEl = document.getElementById('continue-reading-title');
-      const linkEl = document.getElementById('continue-reading-link');
-      if (section && titleEl && linkEl) {
-        titleEl.textContent = lastRead.title;
-        linkEl.href = lastRead.url;
-        section.classList.remove('hidden');
+      const collectionEl = document.getElementById('continue-reading-collection');
+      const typeBadge = document.getElementById('continue-type-badge');
+      const progressBadge = document.getElementById('continue-progress-badge');
+      const iconBox = document.getElementById('continue-icon-box');
+      const readLink = document.getElementById('continue-read-link');
+      const listenLink = document.getElementById('continue-listen-link');
+      const dismissBtn = document.getElementById('continue-dismiss-btn');
+
+      if (!section) return;
+
+      if (titleEl) titleEl.textContent = data.title;
+      if (collectionEl) collectionEl.textContent = data.collection ? '📚 ' + data.collection : '';
+
+      const isListening = data.type === 'listening';
+      if (iconBox) iconBox.textContent = isListening ? '🎧' : '📖';
+      if (typeBadge) {
+        typeBadge.textContent = isListening 
+          ? (document.documentElement.lang === 'ta' ? 'கேட்பதைத் தொடரவும்' : 'Continue Listening')
+          : (document.documentElement.lang === 'ta' ? 'வாசிப்பைத் தொடரவும்' : 'Continue Reading');
       }
+
+      const pct = isListening ? (data.listeningPercent || 0) : (data.scrollPercent || 0);
+      if (progressBadge) {
+        progressBadge.textContent = pct > 0 ? pct + '% ' + (isListening ? 'listened' : 'read') : 'In Progress';
+      }
+
+      if (readLink) readLink.href = data.url + '#resume';
+      if (listenLink) listenLink.href = data.url + '#listen';
+
+      if (dismissBtn) {
+        dismissBtn.addEventListener('click', function() {
+          localStorage.removeItem('dailytale_last_read');
+          section.classList.add('hidden');
+        });
+      }
+
+      section.classList.remove('hidden');
+    } catch(e) {
+      console.warn('Error loading continue reading widget:', e);
     }
-  } catch(e) {}
+  })();
 </script>

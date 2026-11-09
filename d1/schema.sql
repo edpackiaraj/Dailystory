@@ -90,3 +90,10 @@ CREATE TABLE IF NOT EXISTS admin_audit_log (
   details TEXT,
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+
+-- 7. Site Visits & Real-time Hit Counter
+CREATE TABLE IF NOT EXISTS site_visits (
+  page TEXT PRIMARY KEY,
+  count INTEGER DEFAULT 0,
+  last_visit DATETIME DEFAULT CURRENT_TIMESTAMP
+);

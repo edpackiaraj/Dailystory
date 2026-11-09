@@ -1102,4 +1102,84 @@ const jsonLd = [
       }
     });
   }
+
+  // 7. Track Story Reading & Listening Progress for "Continue Reading/Listening"
+  (function trackStoryProgress() {
+    try {
+      const storyId = '{story.id}';
+      const storyTitle = {JSON.stringify(story.title)};
+      const storyCollection = {JSON.stringify(story.collection)};
+      const currentUrl = window.location.pathname;
+      const currentLang = '{currentLang}';
+      const storyImg = {JSON.stringify(story.image || '')};
+
+      function saveProgress(extra) {
+        extra = extra || {};
+        const docElem = document.documentElement;
+        const totalHeight = docElem.scrollHeight - docElem.clientHeight;
+        const scrollPct = totalHeight > 0 ? Math.min(100, Math.max(0, Math.round((window.scrollY / totalHeight) * 100))) : 0;
+        
+        let existing = {};
+        try { existing = JSON.parse(localStorage.getItem('dailytale_last_read') || '{}'); } catch(e) {}
+        
+        const state = {
+          id: storyId,
+          title: storyTitle,
+          collection: storyCollection,
+          url: currentUrl,
+          lang: currentLang,
+          image: storyImg,
+          scrollY: window.scrollY,
+          scrollPercent: scrollPct,
+          type: extra.type || (existing.id === storyId && existing.type ? existing.type : 'reading'),
+          listeningPercent: extra.listeningPercent !== undefined ? extra.listeningPercent : (existing.listeningPercent || 0),
+          sentenceIdx: extra.sentenceIdx !== undefined ? extra.sentenceIdx : (existing.sentenceIdx || 0),
+          timestamp: Date.now()
+        };
+        localStorage.setItem('dailytale_last_read', JSON.stringify(state));
+      }
+
+      // Initial save
+      saveProgress({ type: 'reading' });
+
+      // Save on scroll (throttled)
+      let scrollTimer;
+      window.addEventListener('scroll', function() {
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(function() {
+          saveProgress({ type: 'reading' });
+        }, 500);
+      }, { passive: true });
+
+      // Listen for audio player events
+      window.addEventListener('dailytale-listening-update', function(e) {
+        if (e.detail && e.detail.storyId === storyId) {
+          saveProgress({
+            type: 'listening',
+            listeningPercent: e.detail.percent,
+            sentenceIdx: e.detail.sentenceIdx
+          });
+        }
+      });
+
+      // Resume reading scroll position or start audio if URL contains hash
+      if (window.location.hash === '#resume') {
+        try {
+          const saved = JSON.parse(localStorage.getItem('dailytale_last_read') || '{}');
+          if (saved.id === storyId && saved.scrollY) {
+            setTimeout(function() {
+              window.scrollTo({ top: saved.scrollY, behavior: 'smooth' });
+            }, 300);
+          }
+        } catch(e) {}
+      } else if (window.location.hash.indexOf('listen') !== -1) {
+        setTimeout(function() {
+          const playBtn = document.getElementById('audio-play-pause-btn') || document.getElementById('desktop-audio-play-btn');
+          if (playBtn) playBtn.click();
+        }, 500);
+      }
+    } catch(err) {
+      console.warn('Progress tracking error:', err);
+    }
+  })();
 </script>

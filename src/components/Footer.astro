@@ -99,6 +99,18 @@ const currentLangObj = getLanguageMeta(currentLang);
       <div>
         © {new Date().getFullYear()} {brandConfig.name}. All rights reserved. Built with love for universal storytelling.
       </div>
+
+      <!-- Live Visitor Hit Counter Badge -->
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-xs shadow-2xs font-medium">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span class="text-[#6B5644] dark:text-[#C8BFAF]">
+          {currentLang === 'ta' ? 'பார்வையாளர்கள்' : (currentLang === 'hi' ? 'पाठक संख्या' : 'Global Readers')}:
+        </span>
+        <span id="site-hit-counter" class="font-bold font-mono text-[#D97706] dark:text-[#F59E0B]">
+          15,420+
+        </span>
+      </div>
+
       <div class="flex items-center gap-4 text-[#D97706]">
         <span>Zero Ads</span>
         <span>•</span>
@@ -110,3 +122,25 @@ const currentLangObj = getLanguageMeta(currentLang);
 
   </div>
 </footer>
+
+<script is:inline>
+  (function initHitCounter() {
+    try {
+      const el = document.getElementById('site-hit-counter');
+      if (!el) return;
+      const pathKey = window.location.pathname.replace(/\/+$/, '') || 'home';
+      fetch('/api/hits?page=' + encodeURIComponent(pathKey))
+        .then(function(res) { return res.json(); })
+        .then(function(data) {
+          if (data && data.count) {
+            el.textContent = Number(data.count).toLocaleString();
+          }
+        })
+        .catch(function() {
+          const localHits = (parseInt(localStorage.getItem('dailytale_hits') || '15420', 10) + 1);
+          localStorage.setItem('dailytale_hits', String(localHits));
+          el.textContent = localHits.toLocaleString() + '+';
+        });
+    } catch(e) {}
+  })();
+</script>

@@ -149,26 +149,148 @@ const recentStories = allStories.slice(0, 16);
       </section>
     )}
 
-    <!-- Dynamic "Continue Reading" Section (Populated via client-side localStorage) -->
-    <section id="continue-reading-section" class="hidden p-5 sm:p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm">
-      <div class="flex items-center justify-between">
-        <div class="flex items-center gap-3">
-          <span class="text-2xl">🔖</span>
-          <div>
-            <h2 class="text-xs font-bold uppercase tracking-wider text-[#D97706] dark:text-[#F59E0B]">
-              {t.continueReading}
-            </h2>
-            <p id="continue-reading-title" class="text-sm sm:text-base font-bold text-[#3B2A1A] dark:text-[#F3EBDD]"></p>
+    <!-- Dynamic "Continue Reading / Listening" Section (Populated via client-side localStorage) -->
+    <section id="continue-reading-section" class="hidden p-5 sm:p-6 rounded-3xl bg-linear-to-r from-amber-50 via-orange-50/50 to-amber-50 dark:from-[#25243E] dark:via-[#1F1E38] dark:to-[#25243E] border-2 border-amber-300 dark:border-amber-600/50 shadow-md transition-all">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="flex items-start sm:items-center gap-3.5">
+          <div id="continue-icon-box" class="w-12 h-12 rounded-2xl bg-[#D97706] text-white flex items-center justify-center text-2xl shadow-sm shrink-0">
+            📖
+          </div>
+          <div class="space-y-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span id="continue-type-badge" class="px-2.5 py-0.5 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] text-[11px] font-black uppercase tracking-wider">
+                Continue Reading
+              </span>
+              <span id="continue-progress-badge" class="px-2 py-0.5 rounded-full bg-white dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] text-[11px] font-mono font-bold text-[#6B5644] dark:text-[#C8BFAF]">
+                0%
+              </span>
+            </div>
+            <p id="continue-reading-title" class="text-base sm:text-lg font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1"></p>
+            <p id="continue-reading-collection" class="text-xs text-[#6B5644] dark:text-[#C8BFAF] font-medium"></p>
           </div>
         </div>
+
+        <!-- Action Buttons -->
+        <div class="flex items-center gap-2 self-end sm:self-center shrink-0">
+          <a
+            id="continue-read-link"
+            href="#"
+            class="px-4 py-2.5 rounded-xl bg-[#D97706] hover:bg-[#B45309] text-white text-xs font-black shadow-xs transition-all flex items-center gap-1.5 min-h-[40px]"
+          >
+            <span>📖</span>
+            <span>Read</span>
+          </a>
+          <a
+            id="continue-listen-link"
+            href="#"
+            class="px-4 py-2.5 rounded-xl bg-[#0F766E] hover:bg-[#0D655E] text-white text-xs font-black shadow-xs transition-all flex items-center gap-1.5 min-h-[40px]"
+          >
+            <span>🎧</span>
+            <span>Listen</span>
+          </a>
+          <button
+            id="continue-dismiss-btn"
+            type="button"
+            aria-label="Dismiss Continue Reading"
+            class="p-2.5 rounded-xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] hover:bg-red-50 dark:hover:bg-red-950/30 text-slate-400 hover:text-red-500 transition-colors"
+            title="Dismiss"
+          >
+            ✕
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome & How to Effectively Use Section -->
+    <section class="p-6 sm:p-8 rounded-3xl bg-white dark:bg-[#1E1D36] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-6">
+      
+      <!-- Welcome Header -->
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-[#EEDFC8]/60 dark:border-[#383659]/60">
+        <div class="space-y-1.5">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] text-xs font-black uppercase tracking-wider">
+            <span>🦉</span>
+            <span>Welcome to Daily Tale</span>
+          </div>
+          <h2 class="text-xl sm:text-2xl lg:text-3xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight">
+            Universal Wisdom &amp; Bedtime Stories for Every Generation
+          </h2>
+          <p class="text-xs sm:text-sm text-[#6B5644] dark:text-[#C8BFAF] max-w-2xl leading-relaxed">
+            An ad-free, child-safe sanctuary offering timeless moral fables, cultural folktales, and bilingual bedtime stories across 8+ world languages.
+          </p>
+        </div>
+
         <a
-          id="continue-reading-link"
-          href="#"
-          class="px-4 py-2 rounded-full bg-[#D97706] text-white text-xs font-bold hover:bg-[#B45309] transition-all min-h-[40px] flex items-center"
+          href="/en/guide/"
+          class="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold text-[#D97706] hover:border-[#D97706] transition-all self-start md:self-auto shrink-0 shadow-2xs"
         >
-          Resume →
+          <span>📘</span>
+          <span>Reading Guide →</span>
         </a>
       </div>
+
+      <!-- How to Effectively Use (4 Educational Pillars) -->
+      <div class="space-y-3">
+        <h3 class="text-xs font-bold uppercase tracking-wider text-[#6B5644] dark:text-[#C8BFAF]">
+          💡 How to Get the Most Out of Every Story (Pedagogical Guide)
+        </h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          
+          <!-- Card 1: Audio Read-Along -->
+          <div class="p-4 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8]/80 dark:border-[#383659] space-y-2">
+            <div class="w-9 h-9 rounded-xl bg-teal-500/15 text-teal-600 dark:text-teal-400 flex items-center justify-center text-lg font-bold">
+              🎧
+            </div>
+            <h4 class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+              1. Listen &amp; Read-Along
+            </h4>
+            <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              Click Play to hear speech narration while words highlight in sync — boosting fluency, pronunciation, and listening comprehension.
+            </p>
+          </div>
+
+          <!-- Card 2: Bilingual Mode -->
+          <div class="p-4 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8]/80 dark:border-[#383659] space-y-2">
+            <div class="w-9 h-9 rounded-xl bg-amber-500/15 text-amber-600 dark:text-amber-400 flex items-center justify-center text-lg font-bold">
+              🌐
+            </div>
+            <h4 class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+              2. Bilingual Mode
+            </h4>
+            <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              Compare regional stories side-by-side with English or other editions to build vocabulary and language proficiency in context.
+            </p>
+          </div>
+
+          <!-- Card 3: Think & Talk Quizzes -->
+          <div class="p-4 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8]/80 dark:border-[#383659] space-y-2">
+            <div class="w-9 h-9 rounded-xl bg-orange-500/15 text-orange-600 dark:text-orange-400 flex items-center justify-center text-lg font-bold">
+              💡
+            </div>
+            <h4 class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+              3. Think &amp; Talk Quizzes
+            </h4>
+            <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              Check understanding with 3 interactive quiz questions and thoughtful conversation prompts after every single story.
+            </p>
+          </div>
+
+          <!-- Card 4: Calming Bedtime & Focus -->
+          <div class="p-4 rounded-2xl bg-[#FFF8EC] dark:bg-[#151426] border border-[#EEDFC8]/80 dark:border-[#383659] space-y-2">
+            <div class="w-9 h-9 rounded-xl bg-indigo-500/15 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-lg font-bold">
+              🌙
+            </div>
+            <h4 class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+              4. Bedtime &amp; Focus Mode
+            </h4>
+            <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
+              Toggle dyslexia-friendly fonts, adjust text sizes (Aa), or switch to calming night tones for restful bedtime reading.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
     </section>
 
     <!-- Audience Filter Chips: Everyone, Kids, Teens -->
@@ -380,20 +502,48 @@ const recentStories = allStories.slice(0, 16);
         return;
       }
     }
-    // Check continue reading
-    const recentStory = localStorage.getItem('dailytale_recent');
-    if (recentStory) {
-      try {
-        const item = JSON.parse(recentStory);
+    // Check continue reading / listening
+    try {
+      const raw = localStorage.getItem('dailytale_last_read') || localStorage.getItem('dailytale_recent');
+      if (raw) {
+        const item = JSON.parse(raw);
         const section = document.getElementById('continue-reading-section');
         const titleEl = document.getElementById('continue-reading-title');
-        const linkEl = document.getElementById('continue-reading-link');
-        if (section && titleEl && linkEl && item.title && item.url) {
+        const collectionEl = document.getElementById('continue-reading-collection');
+        const typeBadge = document.getElementById('continue-type-badge');
+        const progressBadge = document.getElementById('continue-progress-badge');
+        const iconBox = document.getElementById('continue-icon-box');
+        const readLink = document.getElementById('continue-read-link');
+        const listenLink = document.getElementById('continue-listen-link');
+        const dismissBtn = document.getElementById('continue-dismiss-btn');
+
+        if (section && titleEl && item.title && item.url) {
           titleEl.textContent = item.title;
-          linkEl.href = item.url;
+          if (collectionEl) collectionEl.textContent = item.collection ? '📚 ' + item.collection : '';
+
+          const isListening = item.type === 'listening';
+          if (iconBox) iconBox.textContent = isListening ? '🎧' : '📖';
+          if (typeBadge) typeBadge.textContent = isListening ? 'Continue Listening' : 'Continue Reading';
+
+          const pct = isListening ? (item.listeningPercent || 0) : (item.scrollPercent || 0);
+          if (progressBadge) {
+            progressBadge.textContent = pct > 0 ? pct + '% ' + (isListening ? 'listened' : 'read') : 'In Progress';
+          }
+
+          if (readLink) readLink.href = item.url + '#resume';
+          if (listenLink) listenLink.href = item.url + '#listen';
+
+          if (dismissBtn) {
+            dismissBtn.addEventListener('click', function() {
+              localStorage.removeItem('dailytale_last_read');
+              localStorage.removeItem('dailytale_recent');
+              section.classList.add('hidden');
+            });
+          }
+
           section.classList.remove('hidden');
         }
-      } catch (e) {}
-    }
+      }
+    } catch (e) {}
   })();
 </script>

@@ -320,7 +320,7 @@ export function getStoryVisual(story: {
     };
   }
 
-  if (text.includes('brahmin') && (text.includes('dream') || text.includes('pot') || text.includes('rice'))) {
+  if (text.includes('priest') && (text.includes('dream') || text.includes('pot') || text.includes('rice'))) {
     return {
       motif: 'brahmin_dream',
       icon: '🧘‍♂️ 💭 🏺',
@@ -329,8 +329,8 @@ export function getStoryVisual(story: {
       accentColor: '#F59E0B',
       decorType: 'scroll',
       label: {
-        en: "The Brahmin's Daydream",
-        ta: 'பிராமணரின் பகற்கனவு',
+        en: "The Priest's Daydream",
+        ta: 'பூசாரியின் பகற்கனவு',
         hi: 'ब्राह्मण का सपना'
       }
     };
