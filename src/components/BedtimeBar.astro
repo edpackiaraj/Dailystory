@@ -349,6 +349,18 @@ const collectionsList = [
     const currentLang = dock.getAttribute('data-lang') || 'en';
     const isTa = currentLang === 'ta';
 
+    const bcp47Map = {
+      'ta': 'ta-IN',
+      'hi': 'hi-IN',
+      'en': 'en-US',
+      'te': 'te-IN',
+      'kn': 'kn-IN',
+      'ml': 'ml-IN',
+      'mr': 'mr-IN',
+      'zh': 'zh-CN'
+    };
+    const targetBcp47 = bcp47Map[currentLang] || currentLang;
+
     let playlist = [];
     let currentStoryIdx = 0;
     let isPlaying = false;
@@ -392,6 +404,23 @@ const collectionsList = [
         currentStoryIdx = 0;
         updateStoryUI();
         return;
+      }
+
+      // Check inline story playlist on story page first (instant & offline)
+      const inlineDataEl = document.getElementById('story-collection-playlist');
+      if (inlineDataEl) {
+        try {
+          const inlineList = JSON.parse(inlineDataEl.textContent);
+          if (Array.isArray(inlineList) && inlineList.length) {
+            playlist = inlineList;
+            cachedPlaylists[cacheKey] = playlist;
+            const curSlug = window.location.pathname.replace(/\/$/, '').split('/').pop();
+            const foundIdx = inlineList.findIndex(s => s.slug === curSlug);
+            currentStoryIdx = foundIdx >= 0 ? foundIdx : 0;
+            updateStoryUI();
+            return;
+          }
+        } catch(e){}
       }
 
       try {
@@ -454,36 +483,55 @@ const collectionsList = [
     }
 
     // 4. SPEECH SYNTHESIS NARRATION PIPELINE
+    function splitIntoSentences(raw) {
+      if (!raw) return [];
+      const parts = raw.split(/(?<=[.!?\n\u0964\u0965])\s+/);
+      const out = [];
+      for (const p of parts) {
+        const trimmed = p.trim();
+        if (!trimmed) continue;
+        if (trimmed.length > 180) {
+          const subparts = trimmed.split(/(?<=[,;:\u2014])\s+/);
+          for (const sp of subparts) {
+            const subTrimmed = sp.trim();
+            if (subTrimmed) out.push(subTrimmed);
+          }
+        } else {
+          out.push(trimmed);
+        }
+      }
+      return out;
+    }
+
     function buildNarrationQueue(story) {
       const chunks = [];
 
       // A. Story Title
-      chunks.push(story.title);
+      chunks.push(...splitIntoSentences(story.title));
 
-      // B. Story Paragraphs
+      // B. Story Paragraphs (Chunked to prevent Chrome 15s freeze bug)
       if (story.full_text) {
-        const paras = story.full_text.split(/\n\n+/).filter(Boolean);
-        chunks.push(...paras);
+        chunks.push(...splitIntoSentences(story.full_text));
       }
 
       // C. Optional Moral / Ethical Core
       if (optMoral && optMoral.checked && story.moral) {
         const moralPrefix = isTa ? 'இக்கதையின் வாழ்வியல் நீதி: ' : 'Moral of the story: ';
-        chunks.push(moralPrefix + story.moral);
+        chunks.push(...splitIntoSentences(moralPrefix + story.moral));
       }
 
       // D. Optional Vocabulary
       if (optVocab && optVocab.checked && story.vocabulary && story.vocabulary.length) {
         const vocabPrefix = isTa ? 'இக்கதையில் கற்றுக்கொள்ளும் புதிய சொற்கள்: ' : 'Words to learn: ';
         const vocabList = story.vocabulary.map(v => `${v.word}: ${v.meaning}`).join('. ');
-        chunks.push(vocabPrefix + vocabList);
+        chunks.push(...splitIntoSentences(vocabPrefix + vocabList));
       }
 
       // E. Optional Discussion Questions
       if (optQuestions && optQuestions.checked && story.discussion_questions && story.discussion_questions.length) {
         const qPrefix = isTa ? 'சிந்திக்க சில வினாக்கள்: ' : 'Reflection questions: ';
         const qList = story.discussion_questions.map(q => q.prompt).join('. ');
-        chunks.push(qPrefix + qList);
+        chunks.push(...splitIntoSentences(qPrefix + qList));
       }
 
       return chunks;
@@ -506,8 +554,13 @@ const collectionsList = [
 
       if (!('speechSynthesis' in window)) return;
 
+      // Chrome wake-up check
+      if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
+      }
+
       currentUtterance = new SpeechSynthesisUtterance(text);
-      currentUtterance.lang = currentLang;
+      currentUtterance.lang = targetBcp47;
       currentUtterance.rate = parseFloat(speedSelect?.value || '0.85');
 
       if (voiceSelect && voiceSelect.value) {
@@ -904,7 +957,7 @@ const collectionsList = [
 
       voiceSelect.innerHTML = '';
       const matchingVoices = voices
-        .filter(v => v.lang.startsWith(currentLang) || v.lang.startsWith('en'))
+        .filter(v => v.lang.startsWith(currentLang) || v.lang.startsWith(targetBcp47) || v.lang.startsWith('en'))
         .sort((a, b) => (b.name.includes('Natural') ? 1 : 0) - (a.name.includes('Natural') ? 1 : 0));
 
       const list = matchingVoices.length ? matchingVoices : voices;

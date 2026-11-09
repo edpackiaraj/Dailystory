@@ -306,40 +306,157 @@ const jsonLd = [
 
         <!-- Full Story Reading Experience -->
         <div class="space-y-8">
-            <!-- Audio Player Card (Visible on Phone/Tablet inline) -->
-            <div class="lg:hidden p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-3">
-              <div class="flex items-center justify-between gap-3">
-                <button
-                  type="button"
-                  id="mobile-audio-play-btn"
-                  class="px-5 py-2.5 rounded-full bg-[#0F766E] hover:bg-[#0D655E] text-white text-sm font-bold flex items-center gap-2 shadow transition-all min-h-[44px]"
-                >
-                  <span id="mobile-play-icon">▶</span>
-                  <span id="mobile-play-text">{t.listen}</span>
-                </button>
+            <!-- Embedded Collection Playlist for Seamless Auto-Advance Narration -->
+            <script type="application/json" id="story-collection-playlist" set:html={JSON.stringify(
+              allColStories.map(s => ({
+                title: s.title,
+                slug: s.slug,
+                url: getStoryUrl(s, currentLang),
+                full_text: s.full_text || '',
+                moral: s.moral || '',
+                vocabulary: s.vocabulary || [],
+                discussion_questions: s.discussion_questions || []
+              }))
+            )} />
 
-                <div class="flex items-center gap-1.5 text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF]">
-                  <span>{t.speed}:</span>
-                  <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#EEDFC8] dark:border-[#383659]" data-speed="0.8">0.8x</button>
-                  <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#0F766E] bg-[#0F766E]/15 text-[#0F766E] font-bold" data-speed="1.0">1x</button>
-                  <button type="button" class="audio-speed-btn px-2 py-1 rounded-lg border border-[#EEDFC8] dark:border-[#383659]" data-speed="1.2">1.2x</button>
+            <!-- Dedicated Audio & Bedtime Suite Card (Prominent on all devices above story text) -->
+            <section
+              id="story-audio-suite"
+              class="p-5 sm:p-6 rounded-3xl bg-linear-to-br from-white via-[#FFF8EC] to-amber-50/70 dark:from-[#25243E] dark:via-[#1B1A2E] dark:to-[#25243E] border-2 border-[#EEDFC8] dark:border-[#383659] shadow-md space-y-4"
+              data-story-id={story.id}
+              data-story-title={cleanTitle}
+              data-collection={story.collection}
+            >
+              <!-- Top Row: Main Play Button, Status & Countdown Badge -->
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div class="flex items-center gap-3">
+                  <button
+                    type="button"
+                    id="story-main-play-btn"
+                    class="px-6 py-3.5 rounded-full bg-[#0F766E] hover:bg-[#0D655E] active:scale-95 text-white font-bold text-sm sm:text-base flex items-center gap-2.5 shadow-md transition-all cursor-pointer min-h-[48px]"
+                  >
+                    <span id="story-play-icon" class="text-lg">▶</span>
+                    <span id="story-play-text">{lang === 'ta' ? 'கதையைக் கேட்க' : 'Listen to Story'}</span>
+                  </button>
+
+                  <div class="space-y-0.5">
+                    <div class="flex items-center gap-2">
+                      <span id="story-audio-status" class="text-xs font-bold text-[#0F766E] dark:text-[#2DD4BF]">
+                        {lang === 'ta' ? 'தயாராக உள்ளது' : 'Ready'}
+                      </span>
+                      <span id="story-countdown-badge" class="hidden px-2.5 py-0.5 rounded-full bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 font-mono text-xs font-bold border border-indigo-400/30 animate-pulse">
+                        00:00
+                      </span>
+                    </div>
+                    <p id="story-now-narrating" class="text-[11px] text-[#6B5644] dark:text-[#C8BFAF] line-clamp-1">
+                      {lang === 'ta' ? 'ஆடியோவை இயக்கத் தொடங்க பொத்தானைத் தட்டவும்' : 'Tap to start clear voice narration'}
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Speed Buttons (0.8x, 1x, 1.2x) -->
+                <div class="flex items-center gap-1.5 self-end sm:self-center text-xs">
+                  <span class="text-[#6B5644] dark:text-[#C8BFAF] font-semibold">{t.speed}:</span>
+                  <button type="button" class="audio-speed-btn px-2.5 py-1.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs hover:border-[#0F766E] cursor-pointer" data-speed="0.8">0.8x</button>
+                  <button type="button" class="audio-speed-btn px-2.5 py-1.5 rounded-xl border border-[#0F766E] bg-[#0F766E]/15 text-[#0F766E] font-bold text-xs cursor-pointer" data-speed="1.0">1.0x</button>
+                  <button type="button" class="audio-speed-btn px-2.5 py-1.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs hover:border-[#0F766E] cursor-pointer" data-speed="1.2">1.2x</button>
                 </div>
               </div>
 
-              <!-- Mobile Natural Voice Selector -->
-              <div class="flex items-center gap-2 pt-1 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60">
-                <span class="text-[11px] font-bold text-[#6B5644] dark:text-[#C8BFAF] shrink-0 flex items-center gap-1">
-                  <span>🎙️</span> {lang === 'ta' ? 'குரல் தெரிவு:' : 'Voice:'}
-                </span>
-                <select
-                  id="mobile-voice-select"
-                  class="w-full px-2.5 py-1.5 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-xs font-medium text-[#3B2A1A] dark:text-[#F3EBDD] focus:outline-none focus:ring-1 focus:ring-[#0F766E]"
-                  aria-label={lang === 'ta' ? 'வாசிக்கும் குரலைத் தேர்ந்தெடுக்கவும்' : 'Select Narration Voice'}
-                >
-                  <option value="">{lang === 'ta' ? 'இயற்கையான குரல் (தானியங்கி)' : 'Auto-Detect Natural Voice'}</option>
-                </select>
+              <!-- Bedtime & Travel Options Section (User-Requested Sleep Controls) -->
+              <div class="p-4 rounded-2xl bg-white/80 dark:bg-[#1B1A2E]/80 border border-[#EEDFC8] dark:border-[#383659] space-y-3.5">
+                
+                <div class="flex items-center justify-between border-b border-[#EEDFC8]/60 dark:border-[#383659]/60 pb-2">
+                  <span class="text-xs font-extrabold text-[#D97706] dark:text-[#F59E0B] flex items-center gap-1.5 uppercase tracking-wide">
+                    <span>🌙</span> {lang === 'ta' ? 'இரவு தூக்கம் & பயணத் தொடர் அமைப்புகள்' : 'Bedtime & Travel Auto-Play Settings'}
+                  </span>
+                  <span class="text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
+                    {lang === 'ta' ? 'நேரம் முடிந்ததும் மென்மையாக நின்றுவிடும்' : 'Soft fade-out on timer expiry'}
+                  </span>
+                </div>
+
+                <!-- 1. Duration / Timer Selector -->
+                <div class="space-y-1.5">
+                  <label class="block text-xs font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+                    ⏱️ {lang === 'ta' ? 'வாசிக்கும் கால அளவு (ஸ்லீப் டைமர்):' : 'Playback Duration (Sleep Timer):'}
+                  </label>
+                  <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 text-xs" id="bedtime-timer-group">
+                    <button type="button" class="bedtime-timer-pill py-2 px-2.5 rounded-xl border border-[#0F766E] bg-[#0F766E] text-white font-bold text-center transition-all cursor-pointer" data-mins="0">
+                      {lang === 'ta' ? '1 கதை மட்டும்' : 'Single Story'}
+                    </button>
+                    <button type="button" class="bedtime-timer-pill py-2 px-2.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#0F766E] font-medium text-center transition-all cursor-pointer" data-mins="15">
+                      {lang === 'ta' ? '15 நிமிடம்' : '15 min'}
+                    </button>
+                    <button type="button" class="bedtime-timer-pill py-2 px-2.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#0F766E] font-medium text-center transition-all cursor-pointer" data-mins="30">
+                      {lang === 'ta' ? '30 நிமிடம்' : '30 min'}
+                    </button>
+                    <button type="button" class="bedtime-timer-pill py-2 px-2.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#0F766E] font-medium text-center transition-all cursor-pointer" data-mins="45">
+                      {lang === 'ta' ? '45 நிமிடம்' : '45 min'}
+                    </button>
+                    <button type="button" class="bedtime-timer-pill py-2 px-2.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#0F766E] font-medium text-center transition-all cursor-pointer" data-mins="60">
+                      {lang === 'ta' ? '60 நிமிடம்' : '60 min'}
+                    </button>
+                    <button type="button" class="bedtime-timer-pill py-2 px-2.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#0F766E] font-medium text-center transition-all cursor-pointer" data-mins="-1">
+                      {lang === 'ta' ? 'தொடர்ந்து' : 'Infinite'}
+                    </button>
+                  </div>
+                </div>
+
+                <!-- 2. What to Read Checklist -->
+                <div class="space-y-1.5 pt-1">
+                  <label class="block text-xs font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+                    🎙️ {lang === 'ta' ? 'எதை எதை வாசிக்க வேண்டும்? (தேர்வு செய்க):' : 'What to Narrate (Checklist):'}
+                  </label>
+                  <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
+                    <label class="flex items-center gap-2 p-2 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] cursor-pointer">
+                      <input type="checkbox" id="narrate-story-chk" checked disabled class="rounded text-[#0F766E] focus:ring-0" />
+                      <span class="font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">{lang === 'ta' ? '📖 கதை உரை' : '📖 Story Text'}</span>
+                    </label>
+
+                    <label class="flex items-center gap-2 p-2 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] cursor-pointer hover:border-[#D97706]">
+                      <input type="checkbox" id="narrate-moral-chk" class="rounded text-[#0F766E] focus:ring-0 cursor-pointer" />
+                      <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]">{lang === 'ta' ? '💡 கதையின் நீதி' : '💡 Moral'}</span>
+                    </label>
+
+                    <label class="flex items-center gap-2 p-2 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] cursor-pointer hover:border-[#D97706]">
+                      <input type="checkbox" id="narrate-vocab-chk" class="rounded text-[#0F766E] focus:ring-0 cursor-pointer" />
+                      <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]">{lang === 'ta' ? '📚 புதிய சொற்கள்' : '📚 Vocabulary'}</span>
+                    </label>
+
+                    <label class="flex items-center gap-2 p-2 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] cursor-pointer hover:border-[#D97706]">
+                      <input type="checkbox" id="narrate-questions-chk" class="rounded text-[#0F766E] focus:ring-0 cursor-pointer" />
+                      <span class="font-medium text-[#3B2A1A] dark:text-[#F3EBDD]">{lang === 'ta' ? '❓ சிந்தனை வினாக்கள்' : '❓ Questions'}</span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- 3. Ambient Rain Sound & Natural Voice -->
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-2 border-t border-[#EEDFC8]/60 dark:border-[#383659]/60 text-xs">
+                  <!-- Rain Ambience Button -->
+                  <button
+                    type="button"
+                    id="toggle-rain-ambience-btn"
+                    class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl border border-indigo-400/40 bg-indigo-50 dark:bg-indigo-950/40 text-indigo-900 dark:text-indigo-200 font-bold hover:bg-indigo-100 transition-all cursor-pointer"
+                  >
+                    <span>🌧️</span>
+                    <span id="rain-ambience-label">{lang === 'ta' ? 'தாலாட்டு மழை ஒலி: ஆஃப்' : 'Sleep Rain Ambience: Off'}</span>
+                  </button>
+
+                  <!-- Voice Selector -->
+                  <div class="flex items-center gap-2">
+                    <span class="font-bold text-[#6B5644] dark:text-[#C8BFAF] shrink-0">🎙️ {lang === 'ta' ? 'குரல்:' : 'Voice:'}</span>
+                    <select
+                      id="story-voice-select"
+                      class="px-2.5 py-1.5 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8] dark:border-[#383659] text-xs font-medium text-[#3B2A1A] dark:text-[#F3EBDD] focus:outline-none focus:ring-1 focus:ring-[#0F766E]"
+                      aria-label="Narration Voice"
+                    >
+                      <option value="">{lang === 'ta' ? 'இயற்கையான குரல் (தானியங்கி)' : 'Auto-Detect Natural Voice'}</option>
+                    </select>
+                  </div>
+                </div>
+
               </div>
-            </div>
+            </section>
 
             <!-- Story Body Text (Ergonomic Typography 65-75ch, 19px base, 1.75 line-height) -->
             <div
@@ -792,47 +909,158 @@ const jsonLd = [
     localStorage.setItem('dailytale_last_read', JSON.stringify(historyItem));
   } catch(e) {}
 
-  // 3. Web Speech API Audio Narration Engine with Natural Voice Priority
+  // 3. Web Speech API Audio & Continuous Bedtime Narration Engine
   let speechUtterance = null;
   let isSpeaking = false;
+  let isPaused = false;
   let playbackSpeed = 1.0;
   let selectedVoiceName = '';
-  let paragraphs = [];
-  let currentParaIndex = 0;
+  let speechQueue = [];
+  let currentChunkIdx = 0;
+
+  // Bedtime Duration & Timer State
+  let selectedDurationMins = 0; // 0 = Single Story, >0 = minutes, -1 = infinite
+  let timerInterval = null;
+  let remainingSeconds = 0;
+  let currentPlaylistIdx = 0;
+  let collectionPlaylist = [];
 
   const langCode = document.documentElement.lang || 'en';
   const lPrefix = langCode.toLowerCase().slice(0, 2);
+  const isTa = lPrefix === 'ta';
+
+  const bcp47Map = {
+    ta: 'ta-IN',
+    hi: 'hi-IN',
+    en: 'en-US',
+    zh: 'zh-CN',
+    ml: 'ml-IN',
+    te: 'te-IN',
+    kn: 'kn-IN',
+    mr: 'mr-IN'
+  };
+  const targetBcp47 = bcp47Map[lPrefix] || langCode;
+
+  // Load Inlined Collection Playlist
+  try {
+    const plEl = document.getElementById('story-collection-playlist');
+    if (plEl && plEl.textContent) {
+      collectionPlaylist = JSON.parse(plEl.textContent);
+    }
+  } catch(e) {
+    collectionPlaylist = [];
+  }
+
+  // Find index of current story in playlist
+  const currentSlug = window.location.pathname.split('/').filter(Boolean).pop() || '';
+  const initialIdx = collectionPlaylist.findIndex(s => s.slug === currentSlug);
+  if (initialIdx !== -1) {
+    currentPlaylistIdx = initialIdx;
+  }
+
+  // Web Audio Procedural Rain Ambience Synthesizer (100% Offline, Zero Bandwidth)
+  let audioCtx = null;
+  let rainGain = null;
+  let rainSource = null;
+  let isRainPlaying = false;
+
+  function initRainSynthesizer() {
+    if (audioCtx) return;
+    try {
+      const AudioContext = window.AudioContext || window.webkitAudioContext;
+      audioCtx = new AudioContext();
+
+      // Generate 2 seconds of pink/brown noise buffer
+      const bufferSize = audioCtx.sampleRate * 2;
+      const noiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+      const output = noiseBuffer.getChannelData(0);
+      let b0 = 0, b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0;
+
+      for (let i = 0; i < bufferSize; i++) {
+        const white = Math.random() * 2 - 1;
+        b0 = 0.99886 * b0 + white * 0.0555179;
+        b1 = 0.99332 * b1 + white * 0.0750759;
+        b2 = 0.96900 * b2 + white * 0.1538520;
+        b3 = 0.86650 * b3 + white * 0.3104856;
+        b4 = 0.55000 * b4 + white * 0.5329522;
+        b5 = -0.7616 * b5 - white * 0.0168980;
+        output[i] = (b0 + b1 + b2 + b3 + b4 + b5 + b6 + white * 0.5362) * 0.04;
+        b6 = white * 0.115926;
+      }
+
+      rainSource = audioCtx.createBufferSource();
+      rainSource.buffer = noiseBuffer;
+      rainSource.loop = true;
+
+      // Lowpass filter at 450Hz for gentle calming rain
+      const filter = audioCtx.createBiquadFilter();
+      filter.type = 'lowpass';
+      filter.frequency.setValueAtTime(450, audioCtx.currentTime);
+
+      rainGain = audioCtx.createGain();
+      rainGain.gain.setValueAtTime(0.01, audioCtx.currentTime);
+
+      rainSource.connect(filter);
+      filter.connect(rainGain);
+      rainGain.connect(audioCtx.destination);
+      rainSource.start(0);
+    } catch(err) {
+      console.warn('Web Audio rain unavailable:', err);
+    }
+  }
+
+  function setRainActive(active) {
+    initRainSynthesizer();
+    isRainPlaying = active;
+    const btn = document.getElementById('toggle-rain-ambience-btn');
+    const label = document.getElementById('rain-ambience-label');
+
+    if (rainGain && audioCtx) {
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const targetGain = active ? 0.35 : 0.0001;
+      rainGain.gain.setTargetAtTime(targetGain, audioCtx.currentTime, 0.4);
+    }
+
+    if (btn) {
+      if (active) {
+        btn.classList.add('bg-indigo-600', 'text-white', 'border-indigo-600');
+        btn.classList.remove('bg-indigo-50', 'text-indigo-900', 'dark:bg-indigo-950/40', 'dark:text-indigo-200');
+        if (label) label.textContent = isTa ? 'தாலாட்டு மழை ஒலி: ஆன் (இயங்குகிறது)' : 'Sleep Rain Ambience: On';
+      } else {
+        btn.classList.remove('bg-indigo-600', 'text-white', 'border-indigo-600');
+        btn.classList.add('bg-indigo-50', 'text-indigo-900', 'dark:bg-indigo-950/40', 'dark:text-indigo-200');
+        if (label) label.textContent = isTa ? 'தாலாட்டு மழை ஒலி: ஆஃப்' : 'Sleep Rain Ambience: Off';
+      }
+    }
+  }
+
+  document.getElementById('toggle-rain-ambience-btn')?.addEventListener('click', () => {
+    setRainActive(!isRainPlaying);
+  });
 
   // Score voice based on naturalness and language match
-  function scoreVoice(voice, lang) {
+  function scoreVoice(voice, targetLang) {
     const vLang = (voice.lang || '').toLowerCase().replace('_', '-');
-    const targetLang = (lang || 'en').toLowerCase().replace('_', '-');
-    const lPrefix = targetLang.slice(0, 2);
+    const tLang = (targetLang || 'en').toLowerCase().replace('_', '-');
+    const prefix = tLang.slice(0, 2);
     let score = 0;
 
-    if (vLang === targetLang) {
+    if (vLang === tLang) {
+      score += 150;
+    } else if (vLang.startsWith(prefix)) {
       score += 100;
-    } else if (vLang.startsWith(lPrefix)) {
-      score += 80;
     } else {
-      return -1;
+      return 10; // Allow fallback to any system voice
     }
 
     const name = (voice.name || '').toLowerCase();
-
-    // Natural / Neural voice indicators across Edge, Chrome, Safari, Android
-    if (name.includes('natural')) score += 150;
-    if (name.includes('online')) score += 120;
-    if (name.includes('neural')) score += 100;
-    if (name.includes('enhanced')) score += 90;
-    if (name.includes('premium')) score += 80;
+    if (name.includes('natural')) score += 120;
+    if (name.includes('online')) score += 100;
+    if (name.includes('neural')) score += 90;
+    if (name.includes('enhanced')) score += 80;
     if (name.includes('google')) score += 70;
     if (name.includes('siri')) score += 60;
-
-    // Penalize legacy robotic desktop synthesizers
-    if (name.includes('desktop')) score -= 50;
-    if (name.includes('compact')) score -= 40;
-    if (name.includes('espeak')) score -= 80;
+    if (name.includes('desktop')) score -= 30;
 
     return score;
   }
@@ -841,8 +1069,7 @@ const jsonLd = [
     if (!('speechSynthesis' in window)) return [];
     const all = window.speechSynthesis.getVoices();
     return all
-      .map(v => ({ voice: v, score: scoreVoice(v, langCode) }))
-      .filter(item => item.score > 0)
+      .map(v => ({ voice: v, score: scoreVoice(v, targetBcp47) }))
       .sort((a, b) => b.score - a.score);
   }
 
@@ -850,9 +1077,11 @@ const jsonLd = [
     if (!('speechSynthesis' in window)) return;
     const candidates = getSortedVoices();
     const selectElements = [
-      document.getElementById('desktop-voice-select'),
-      document.getElementById('mobile-voice-select')
+      document.getElementById('story-voice-select'),
+      document.getElementById('desktop-voice-select')
     ].filter(Boolean);
+
+    if (!selectElements.length) return;
 
     const savedVoice = localStorage.getItem('dailytale_voice_' + lPrefix);
     const bestCandidate = candidates[0]?.voice;
@@ -862,7 +1091,7 @@ const jsonLd = [
       if (!candidates.length) {
         const opt = document.createElement('option');
         opt.value = '';
-        opt.textContent = 'Default Device Voice';
+        opt.textContent = isTa ? 'சாதனக் குரல் (தானியங்கி)' : 'Default Device Voice';
         sel.appendChild(opt);
         return;
       }
@@ -871,7 +1100,7 @@ const jsonLd = [
         const opt = document.createElement('option');
         opt.value = voice.name;
         const isNatural = score >= 120;
-        opt.textContent = (isNatural ? '✨ ' : '') + voice.name;
+        opt.textContent = (isNatural ? '✨ ' : '') + voice.name + ` (${voice.lang})`;
         sel.appendChild(opt);
       });
 
@@ -887,31 +1116,11 @@ const jsonLd = [
         selectedVoiceName = sel.value;
         localStorage.setItem('dailytale_voice_' + lPrefix, sel.value);
         selectElements.forEach(s => { if (s !== sel) s.value = sel.value; });
-        updateVoiceBadge();
         if (isSpeaking) {
           restartSpeech();
         }
       };
     });
-
-    updateVoiceBadge();
-  }
-
-  function updateVoiceBadge() {
-    const badge = document.getElementById('desktop-voice-badge');
-    if (!badge) return;
-    const voices = window.speechSynthesis.getVoices();
-    const current = voices.find(v => v.name === selectedVoiceName) || voices.find(v => scoreVoice(v, langCode) > 0);
-    if (!current) {
-      badge.textContent = 'Standard';
-      return;
-    }
-    const score = scoreVoice(current, langCode);
-    const isNatural = score >= 120;
-    badge.textContent = isNatural ? '✨ Natural Voice' : 'Standard Voice';
-    badge.className = isNatural
-      ? 'px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 font-bold text-[10px]'
-      : 'px-2 py-0.5 rounded-full bg-slate-500/15 text-slate-700 dark:text-slate-400 font-medium text-[10px]';
   }
 
   if ('speechSynthesis' in window) {
@@ -919,74 +1128,233 @@ const jsonLd = [
     window.speechSynthesis.onvoiceschanged = initVoiceSelectors;
   }
 
-  const playBtns = [
-    document.getElementById('mobile-audio-play-btn'),
-    document.getElementById('desktop-audio-play-btn'),
-    document.getElementById('bottom-bar-audio-btn')
-  ].filter(Boolean);
+  // Duration Timer Setup (Pills)
+  const timerGroup = document.getElementById('bedtime-timer-group');
+  if (timerGroup) {
+    timerGroup.querySelectorAll('.bedtime-timer-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        timerGroup.querySelectorAll('.bedtime-timer-pill').forEach(p => {
+          p.classList.remove('border-[#0F766E]', 'bg-[#0F766E]', 'text-white', 'font-bold');
+          p.classList.add('border-[#EEDFC8]', 'dark:border-[#383659]', 'font-medium');
+        });
+        pill.classList.add('border-[#0F766E]', 'bg-[#0F766E]', 'text-white', 'font-bold');
+        pill.classList.remove('border-[#EEDFC8]', 'dark:border-[#383659]', 'font-medium');
 
-  function stopSpeech() {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
+        selectedDurationMins = parseInt(pill.getAttribute('data-mins') || '0', 10);
+        if (isSpeaking && selectedDurationMins > 0) {
+          startCountdown(selectedDurationMins * 60);
+        }
+      });
+    });
+  }
+
+  function startCountdown(seconds) {
+    clearInterval(timerInterval);
+    remainingSeconds = seconds;
+    const badge = document.getElementById('story-countdown-badge');
+    if (badge) badge.classList.remove('hidden');
+
+    updateCountdownDisplay();
+    timerInterval = setInterval(() => {
+      remainingSeconds--;
+      updateCountdownDisplay();
+
+      // Soft Fade-out when 8 seconds remaining
+      if (remainingSeconds <= 8 && remainingSeconds > 0) {
+        if (rainGain && audioCtx) {
+          rainGain.gain.setTargetAtTime(0.0001, audioCtx.currentTime, 3.0);
+        }
+      }
+
+      if (remainingSeconds <= 0) {
+        clearInterval(timerInterval);
+        stopSpeech();
+        setRainActive(false);
+        const statusEl = document.getElementById('story-audio-status');
+        if (statusEl) statusEl.textContent = isTa ? 'நேரம் முடிந்தது (தூக்கம்)' : 'Timer finished (Sleep)';
+      }
+    }, 1000);
+  }
+
+  function updateCountdownDisplay() {
+    const badge = document.getElementById('story-countdown-badge');
+    if (!badge) return;
+    if (selectedDurationMins <= 0) {
+      badge.classList.add('hidden');
+      return;
     }
-    isSpeaking = false;
-    currentParaIndex = 0;
-    updateAudioUI(false);
+    const mins = Math.floor(remainingSeconds / 60);
+    const secs = remainingSeconds % 60;
+    badge.textContent = `⏳ ${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
   }
 
-  function restartSpeech() {
-    stopSpeech();
-    toggleSpeech();
+  // Build Narration Queue with Sentence Chunking (Prevents Chrome 15-second freeze bug!)
+  function buildStoryQueue(storyData) {
+    const queue = [];
+    const optMoral = document.getElementById('narrate-moral-chk');
+    const optVocab = document.getElementById('narrate-vocab-chk');
+    const optQuestions = document.getElementById('narrate-questions-chk');
+
+    // 1. Story Title
+    queue.push(storyData.title);
+
+    // 2. Story Sentences (Splitting paragraphs into short sentences for bulletproof Chrome TTS)
+    const text = storyData.full_text || '';
+    const rawSentences = text.split(/(?<=[.!?\n\u0964\u0965])\s+/).map(s => s.trim()).filter(Boolean);
+
+    for (const s of rawSentences) {
+      if (s.length > 180) {
+        // Subdivide long sentences by commas or pauses
+        const parts = s.split(/(?<=[,;:\u002C\u060C])\s+/).filter(Boolean);
+        queue.push(...parts);
+      } else {
+        queue.push(s);
+      }
+    }
+
+    // 3. Optional Moral Takeaway
+    if (optMoral && optMoral.checked && storyData.moral) {
+      queue.push(isTa ? `கதையின் நீதி: ${storyData.moral}` : `Moral of the story: ${storyData.moral}`);
+    }
+
+    // 4. Optional Vocabulary
+    if (optVocab && optVocab.checked && storyData.vocabulary && storyData.vocabulary.length) {
+      const vocabText = storyData.vocabulary.map(v => `${v.word}: ${v.meaning}`).join('. ');
+      queue.push(isTa ? `இக்கதையில் புதிய சொற்கள்: ${vocabText}` : `Words to learn: ${vocabText}`);
+    }
+
+    // 5. Optional Reflection Questions
+    if (optQuestions && optQuestions.checked && storyData.discussion_questions && storyData.discussion_questions.length) {
+      const qText = storyData.discussion_questions.map(q => q.prompt).join('. ');
+      queue.push(isTa ? `சிந்திக்க சில வினாக்கள்: ${qText}` : `Discussion questions: ${qText}`);
+    }
+
+    return queue;
   }
 
-  function speakNextParagraph() {
-    if (!isSpeaking || currentParaIndex >= paragraphs.length) {
-      stopSpeech();
+  function speakNextChunk() {
+    if (!isSpeaking || isPaused) return;
+
+    if (currentChunkIdx >= speechQueue.length) {
+      // Current story completed!
+      onStoryFinished();
       return;
     }
 
-    const text = paragraphs[currentParaIndex];
-    if (!text) {
-      currentParaIndex++;
-      speakNextParagraph();
-      return;
+    const chunk = speechQueue[currentChunkIdx];
+    currentChunkIdx++;
+
+    if (!('speechSynthesis' in window)) return;
+
+    // Clear any stuck state in Chrome
+    if (window.speechSynthesis.paused) {
+      window.speechSynthesis.resume();
     }
 
-    speechUtterance = new SpeechSynthesisUtterance(text);
+    speechUtterance = new SpeechSynthesisUtterance(chunk);
     speechUtterance.rate = playbackSpeed;
     speechUtterance.pitch = 1.0;
-    speechUtterance.lang = langCode;
+    speechUtterance.lang = targetBcp47;
 
-    // Apply natural voice
+    // Apply voice
     const voices = window.speechSynthesis.getVoices();
     let voiceToUse = voices.find(v => v.name === selectedVoiceName);
     if (!voiceToUse) {
       const candidates = getSortedVoices();
       if (candidates.length) voiceToUse = candidates[0].voice;
     }
-    if (voiceToUse) speechUtterance.voice = voiceToUse;
+    if (voiceToUse) {
+      speechUtterance.voice = voiceToUse;
+    }
+
+    const narratingLabel = document.getElementById('story-now-narrating');
+    if (narratingLabel) {
+      narratingLabel.textContent = chunk.slice(0, 60) + (chunk.length > 60 ? '...' : '');
+    }
 
     speechUtterance.onend = () => {
-      if (isSpeaking) {
-        currentParaIndex++;
-        speakNextParagraph();
+      if (isSpeaking && !isPaused) {
+        speakNextChunk();
       }
     };
 
     speechUtterance.onerror = (err) => {
-      console.warn('Speech error:', err);
-      if (isSpeaking) {
-        currentParaIndex++;
-        speakNextParagraph();
+      console.warn('Speech chunk warning:', err);
+      if (isSpeaking && !isPaused) {
+        speakNextChunk();
       }
     };
 
     window.speechSynthesis.speak(speechUtterance);
   }
 
-  function toggleSpeech() {
+  function onStoryFinished() {
+    // If single story mode (0 min), stop here!
+    if (selectedDurationMins === 0) {
+      stopSpeech();
+      const statusEl = document.getElementById('story-audio-status');
+      if (statusEl) statusEl.textContent = isTa ? 'கதை நிறைவுற்றது' : 'Story Completed';
+      return;
+    }
+
+    // If timer expired, stop here!
+    if (selectedDurationMins > 0 && remainingSeconds <= 0) {
+      stopSpeech();
+      return;
+    }
+
+    // Auto-advance to next story in collection!
+    if (collectionPlaylist.length > 1) {
+      currentPlaylistIdx = (currentPlaylistIdx + 1) % collectionPlaylist.length;
+      const nextStory = collectionPlaylist[currentPlaylistIdx];
+
+      const statusEl = document.getElementById('story-audio-status');
+      if (statusEl) statusEl.textContent = isTa ? `அடுத்த கதை: ${nextStory.title}...` : `Next: ${nextStory.title}...`;
+
+      // 2.5s gentle lull between stories
+      setTimeout(() => {
+        if (isSpeaking && !isPaused) {
+          startStoryNarration(nextStory);
+        }
+      }, 2500);
+    } else {
+      stopSpeech();
+    }
+  }
+
+  function startStoryNarration(storyData) {
     if (!('speechSynthesis' in window)) {
       alert('Text-to-speech audio narration is not supported on this browser.');
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+    speechQueue = buildStoryQueue(storyData);
+    currentChunkIdx = 0;
+    isSpeaking = true;
+    isPaused = false;
+
+    updateAllAudioUI(true);
+    speakNextChunk();
+  }
+
+  function stopSpeech() {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+    clearInterval(timerInterval);
+    isSpeaking = false;
+    isPaused = false;
+    currentChunkIdx = 0;
+    updateAllAudioUI(false);
+
+    const badge = document.getElementById('story-countdown-badge');
+    if (badge) badge.classList.add('hidden');
+  }
+
+  function toggleSpeech() {
+    if (!('speechSynthesis' in window)) {
+      alert('Audio narration is not supported on this device.');
       return;
     }
 
@@ -995,42 +1363,75 @@ const jsonLd = [
       return;
     }
 
-    const bodyEl = document.getElementById('story-body-content');
-    paragraphs = Array.from(bodyEl?.querySelectorAll('p') || [])
-      .map(p => p.innerText.trim())
-      .filter(Boolean);
-
-    if (!paragraphs.length) {
-      const rawText = bodyEl?.innerText || '';
-      paragraphs = rawText.split(/\n+/).map(s => s.trim()).filter(Boolean);
+    // Determine current story data
+    let currentStoryData = collectionPlaylist[currentPlaylistIdx];
+    if (!currentStoryData) {
+      const titleEl = document.querySelector('h1');
+      const bodyEl = document.getElementById('story-body-content');
+      currentStoryData = {
+        title: titleEl?.innerText.trim() || document.title,
+        full_text: bodyEl?.innerText.trim() || '',
+        moral: '',
+        vocabulary: [],
+        discussion_questions: []
+      };
     }
 
-    if (!paragraphs.length) return;
+    // Start timer if duration set
+    if (selectedDurationMins > 0) {
+      startCountdown(selectedDurationMins * 60);
+    }
 
-    window.speechSynthesis.cancel();
-    isSpeaking = true;
-    currentParaIndex = 0;
-    updateAudioUI(true);
-    speakNextParagraph();
+    startStoryNarration(currentStoryData);
   }
 
-  function updateAudioUI(speaking) {
-    playBtns.forEach(btn => {
-      const textSpan = btn.querySelector('span:last-child');
-      const iconSpan = btn.querySelector('span:first-child');
-      if (textSpan) textSpan.textContent = speaking ? 'Pause' : 'Listen';
-      if (iconSpan) iconSpan.textContent = speaking ? '⏸' : '▶';
-    });
-    const status = document.getElementById('desktop-audio-status');
-    if (status) status.textContent = speaking ? 'Speaking...' : 'Ready';
+  function updateAllAudioUI(speaking) {
+    const mainBtn = document.getElementById('story-main-play-btn');
+    const mainIcon = document.getElementById('story-play-icon');
+    const mainText = document.getElementById('story-play-text');
+    const statusEl = document.getElementById('story-audio-status');
+
+    if (mainIcon) mainIcon.textContent = speaking ? '⏸' : '▶';
+    if (mainText) mainText.textContent = speaking ? (isTa ? 'நிறுத்து (Pause)' : 'Pause') : (isTa ? 'கதையைக் கேட்க' : 'Listen to Story');
+    if (statusEl) statusEl.textContent = speaking ? (isTa ? 'வாசிக்கிறது...' : 'Narrating...') : (isTa ? 'தயாராக உள்ளது' : 'Ready');
+
+    // Sync Desktop Sidebar Buttons
+    const deskBtn = document.getElementById('desktop-audio-play-btn');
+    const deskIcon = document.getElementById('desktop-play-icon');
+    const deskText = document.getElementById('desktop-play-text');
+    const deskStatus = document.getElementById('desktop-audio-status');
+
+    if (deskIcon) deskIcon.textContent = speaking ? '⏸' : '▶';
+    if (deskText) deskText.textContent = speaking ? (isTa ? 'நிறுத்து' : 'Pause') : (isTa ? 'கேட்க' : 'Listen');
+    if (deskStatus) deskStatus.textContent = speaking ? (isTa ? 'வாசிக்கிறது...' : 'Narrating...') : (isTa ? 'தயார்' : 'Ready');
   }
 
-  playBtns.forEach(btn => btn.addEventListener('click', toggleSpeech));
+  // Hook Play Buttons
+  document.getElementById('story-main-play-btn')?.addEventListener('click', toggleSpeech);
+  document.getElementById('desktop-audio-play-btn')?.addEventListener('click', toggleSpeech);
 
   // Speed Buttons
   document.querySelectorAll('.audio-speed-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      playbackSpeed = parseFloat(btn.getAttribute('data-speed'));
+      playbackSpeed = parseFloat(btn.getAttribute('data-speed') || '1.0');
+      document.querySelectorAll('.audio-speed-btn').forEach(b => {
+        b.classList.remove('border-[#0F766E]', 'bg-[#0F766E]/15', 'text-[#0F766E]', 'font-bold');
+      });
+      btn.classList.add('border-[#0F766E]', 'bg-[#0F766E]/15', 'text-[#0F766E]', 'font-bold');
+      if (isSpeaking) {
+        stopSpeech();
+        toggleSpeech();
+      }
+    });
+  });
+
+  // Spacebar toggle
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'Space' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName)) {
+      e.preventDefault();
+      toggleSpeech();
+    }
+  });
       document.querySelectorAll('.audio-speed-btn').forEach(b => {
         b.classList.remove('border-[#0F766E]', 'bg-[#0F766E]/15', 'text-[#0F766E]', 'font-bold');
       });
