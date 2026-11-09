@@ -11,6 +11,7 @@ import {
   type Story
 } from '../lib/stories';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import StoryIllustration from '../components/StoryIllustration.astro';
 
 const currentLang = 'en';
 const t = getT(currentLang);
@@ -401,18 +402,9 @@ const recentStories = allStories.slice(0, 16);
               href={`/${currentLang}/collections/${colSlug}/`}
               class="group p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-md transition-all flex flex-col justify-between"
             >
-              <div class="space-y-2">
-                <div class="aspect-4/3 rounded-xl overflow-hidden bg-[#EEDFC8]/30">
-                  <img
-                    src={col.image}
-                    alt={col.name}
-                    width="300"
-                    height="225"
-                    loading="lazy"
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <h3 class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] group-hover:text-[#D97706] transition-colors">
+              <div class="space-y-2.5">
+                <StoryIllustration story={{ collection: col.name, title: col.name }} size="card" lang={currentLang} />
+                <h3 class="text-sm sm:text-base font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] group-hover:text-[#D97706] transition-colors pt-1">
                   {col.name}
                 </h3>
               </div>

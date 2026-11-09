@@ -99,6 +99,12 @@ const jsonLd = [
     "genre": story.genre,
     "articleSection": story.collection,
     "wordCount": story.word_count || 450,
+    "datePublished": story.publishDate || "2026-01-01T00:00:00Z",
+    "dateModified": "2026-11-09T00:00:00Z",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonicalUrl
+    },
     "author": {
       "@type": "Person",
       "name": story.author || brandConfig.name
@@ -106,7 +112,14 @@ const jsonLd = [
     "publisher": {
       "@type": "Organization",
       "name": brandConfig.name,
-      "logo": `${brandConfig.siteUrl}/favicon.svg`
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${brandConfig.siteUrl}/favicon.svg`
+      }
+    },
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["#story-body-content", "h1"]
     }
   }
 ];
@@ -119,7 +132,7 @@ const jsonLd = [
   canonicalUrl={canonicalUrl}
   ogImage={story.image}
   ogType="article"
-  noindex={lang !== 'en' && !isTranslated}
+  noindex={false}
   articleMeta={{
     publishDate: story.publishDate || '2026-03-25',
     author: story.author || brandConfig.name,
@@ -194,49 +207,51 @@ const jsonLd = [
           <StoryIllustration story={story} size="hero" lang={currentLang} />
         </div>
 
-        <!-- Untranslated Story State: Clear Notice + English Edition CTA -->
-        {!isTranslated ? (
-          <div class="space-y-6">
-            <div class="p-6 sm:p-8 rounded-3xl bg-amber-500/10 border-2 border-amber-500/40 text-start space-y-4 shadow-sm">
-              <div class="flex items-center gap-3 text-[#D97706] font-black text-base sm:text-lg">
-                <span class="text-2xl">🌐</span>
-                <span>{t.untranslatedTitle || "Story Available in English"}</span>
+        <!-- Real-Time Translation Banner (For untranslated editions other than Tamil) -->
+        {(!isTranslated && lang !== 'ta' && lang !== 'en') && (
+          <div id="realtime-translate-card" class="p-4 sm:p-5 rounded-2xl bg-linear-to-r from-amber-500/15 via-orange-500/10 to-teal-500/10 border-2 border-amber-500/40 shadow-sm space-y-3">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div class="flex items-start sm:items-center gap-3">
+                <span class="text-2xl shrink-0">🌐</span>
+                <div class="space-y-0.5">
+                  <h3 class="text-xs sm:text-sm font-black text-[#3B2A1A] dark:text-[#F3EBDD] flex items-center gap-2">
+                    <span>{currentLangObj.native} Real-Time Translation</span>
+                    <span class="px-2 py-0.5 rounded-full bg-amber-500 text-white text-[10px] uppercase font-bold tracking-wider">1-Click</span>
+                  </h3>
+                  <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF]">
+                    Original text is in English. Click below to translate this story instantly into {currentLangObj.native}.
+                  </p>
+                </div>
               </div>
-              <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-                {t.untranslatedDesc || "The authentic translation for this story is currently in progress. You can read the complete original story in English."}
-              </p>
-              <div class="pt-2">
-                <a
-                  href={`/en/${colSlug}/${story.slug.replace(new RegExp(`-${currentLang}$`), '')}/`}
-                  class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#D97706] hover:bg-[#B45309] text-white font-black text-sm shadow-md hover:scale-105 transition-all min-h-[48px]"
+
+              <div class="flex items-center gap-2 shrink-0">
+                <button
+                  type="button"
+                  id="btn-realtime-translate"
+                  class="px-4 py-2.5 rounded-xl bg-[#D97706] hover:bg-[#B45309] text-white text-xs font-black shadow-sm transition-all flex items-center gap-1.5 min-h-[40px]"
                 >
-                  <span>📖</span>
-                  <span>{t.readInEnglishBtn || "Read Complete Story in English →"}</span>
-                </a>
+                  <span id="tr-icon">⚡</span>
+                  <span id="tr-label">Translate to {currentLangObj.native}</span>
+                </button>
+                <button
+                  type="button"
+                  id="btn-show-original"
+                  class="hidden px-3.5 py-2.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF] hover:border-[#D97706] transition-all min-h-[40px]"
+                >
+                  Original English
+                </button>
               </div>
             </div>
 
-            <!-- Story Synopsis Preview Card -->
-            <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-3">
-              <h2 class="text-xs font-bold uppercase tracking-wider text-[#D97706]">
-                {t.siteName} • {story.collection}
-              </h2>
-              <p class="text-base text-[#3B2A1A] dark:text-[#F3EBDD] leading-relaxed italic">
-                "{cleanSummary}"
-              </p>
-              <div class="pt-2 flex items-center gap-3">
-                <a
-                  href={`/${currentLang}/collections/${colSlug}/`}
-                  class="text-xs font-bold text-[#0F766E] hover:underline"
-                >
-                  ← {t.collections}: {story.collection}
-                </a>
-              </div>
+            <!-- Translation Progress Indicator -->
+            <div id="tr-progress-bar-container" class="hidden w-full bg-amber-200 dark:bg-slate-700 h-1.5 rounded-full overflow-hidden">
+              <div id="tr-progress-bar" class="bg-[#D97706] h-full w-0 transition-all duration-300"></div>
             </div>
           </div>
-        ) : (
-          <!-- Full Native Story Reading Experience -->
-          <div class="space-y-8">
+        )}
+
+        <!-- Full Story Reading Experience -->
+        <div class="space-y-8">
             <!-- Audio Player Card (Visible on Phone/Tablet inline) -->
             <div class="lg:hidden p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-3">
               <div class="flex items-center justify-between gap-3">
@@ -436,7 +451,7 @@ const jsonLd = [
               </div>
             </div>
           </div>
-        )}
+        </div>
 
         <!-- Social Share & Favourite Action Bar -->
         <div class="pt-6 border-t border-[#EEDFC8] dark:border-[#383659] flex flex-wrap items-center justify-between gap-4">
@@ -526,24 +541,8 @@ const jsonLd = [
       <!-- Right Companion Panel on PC (1024px+ Sticky Column) -->
       <aside class="hidden lg:block lg:col-span-4 sticky top-24 space-y-6">
         
-        <!-- Desktop Audio Player Card / Untranslated English Notice -->
-        {!isTranslated ? (
-          <div class="p-6 rounded-3xl bg-amber-500/10 border-2 border-amber-500/30 shadow-sm space-y-4">
-            <span class="text-xs font-bold uppercase tracking-wider text-[#D97706] flex items-center gap-1.5">
-              <span>🌐</span> {t.englishEditionBadge || "English Edition"}
-            </span>
-            <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
-              {t.untranslatedDesc || "The complete authentic story is available to read in English."}
-            </p>
-            <a
-              href={`/en/${colSlug}/${story.slug.replace(new RegExp(`-${currentLang}$`), '')}/`}
-              class="w-full py-3 rounded-2xl bg-[#D97706] hover:bg-[#B45309] text-white font-bold flex items-center justify-center gap-2 shadow-md transition-all text-xs min-h-[44px]"
-            >
-              <span>{t.readInEnglish || "Read in English"} →</span>
-            </a>
-          </div>
-        ) : (
-          <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-4">
+        <!-- Desktop Audio Player Card -->
+        <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-4">
             <div class="flex items-center justify-between">
               <span class="text-xs font-bold uppercase tracking-wider text-[#0F766E] dark:text-[#2DD4BF] flex items-center gap-1.5">
                 <span>🎧</span> {lang === 'ta' ? 'ஒலி வடிவம்' : 'Audio Narration'}
@@ -589,7 +588,6 @@ const jsonLd = [
               </div>
             </div>
           </div>
-        )}
 
         <!-- Quick Reader Controls Card (Aa Settings) -->
         <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-3">
@@ -1180,6 +1178,118 @@ const jsonLd = [
       }
     } catch(err) {
       console.warn('Progress tracking error:', err);
+    }
+  })();
+
+  // 8. Real-Time On-The-Fly Translation Engine (for untranslated editions other than Tamil)
+  (function initRealtimeTranslation() {
+    try {
+      const trBtn = document.getElementById('btn-realtime-translate');
+      const origBtn = document.getElementById('btn-show-original');
+      const trLabel = document.getElementById('tr-label');
+      const progressBarContainer = document.getElementById('tr-progress-bar-container');
+      const progressBar = document.getElementById('tr-progress-bar');
+      const contentElem = document.getElementById('story-body-content');
+
+      if (!trBtn || !contentElem) return;
+
+      const targetLang = '{currentLang}';
+      const nativeLangName = '{currentLangObj.native}';
+      const storyId = '{story.id}';
+      const cacheKey = 'dailytale_rt_' + storyId + '_' + targetLang;
+
+      const paragraphs = Array.from(contentElem.querySelectorAll('p'));
+      const originalTexts = paragraphs.map(function(p) { return p.textContent.trim(); });
+
+      function applyTranslations(translatedArray) {
+        paragraphs.forEach(function(p, i) {
+          if (translatedArray[i]) {
+            p.textContent = translatedArray[i];
+          }
+        });
+        if (trLabel) trLabel.textContent = '✓ ' + nativeLangName;
+        trBtn.classList.remove('bg-[#D97706]', 'hover:bg-[#B45309]');
+        trBtn.classList.add('bg-emerald-600', 'hover:bg-emerald-700');
+        if (origBtn) origBtn.classList.remove('hidden');
+        if (progressBarContainer) progressBarContainer.classList.add('hidden');
+      }
+
+      function showOriginal() {
+        paragraphs.forEach(function(p, i) {
+          p.textContent = originalTexts[i];
+        });
+        if (trLabel) trLabel.textContent = '⚡ Translate to ' + nativeLangName;
+        trBtn.classList.remove('bg-emerald-600', 'hover:bg-emerald-700');
+        trBtn.classList.add('bg-[#D97706]', 'hover:bg-[#B45309]');
+        if (origBtn) origBtn.classList.add('hidden');
+      }
+
+      if (origBtn) {
+        origBtn.addEventListener('click', showOriginal);
+      }
+
+      // Check if translation was previously cached
+      try {
+        const cached = JSON.parse(localStorage.getItem(cacheKey) || 'null');
+        if (Array.isArray(cached) && cached.length === paragraphs.length) {
+          applyTranslations(cached);
+        }
+      } catch(e) {}
+
+      trBtn.addEventListener('click', async function() {
+        // If already cached, apply immediately
+        try {
+          const cached = JSON.parse(localStorage.getItem(cacheKey) || 'null');
+          if (Array.isArray(cached) && cached.length === paragraphs.length) {
+            applyTranslations(cached);
+            return;
+          }
+        } catch(e) {}
+
+        trBtn.disabled = true;
+        if (trLabel) trLabel.textContent = 'Translating...';
+        if (progressBarContainer) progressBarContainer.classList.remove('hidden');
+
+        const translated = [];
+        for (let i = 0; i < paragraphs.length; i++) {
+          const text = originalTexts[i];
+          if (!text) {
+            translated.push('');
+            continue;
+          }
+
+          try {
+            const res = await fetch('/api/translate', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ text: text, targetLang: targetLang, sourceLang: 'en' })
+            });
+            const data = await res.json();
+            if (data && data.translatedText) {
+              translated.push(data.translatedText);
+              paragraphs[i].textContent = data.translatedText;
+            } else {
+              translated.push(text);
+            }
+          } catch(err) {
+            translated.push(text);
+          }
+
+          if (progressBar) {
+            const pct = Math.round(((i + 1) / paragraphs.length) * 100);
+            progressBar.style.width = pct + '%';
+          }
+        }
+
+        try {
+          localStorage.setItem(cacheKey, JSON.stringify(translated));
+        } catch(e) {}
+
+        trBtn.disabled = false;
+        applyTranslations(translated);
+      });
+    } catch(err) {
+      console.warn('Realtime translation initialization error:', err);
     }
   })();
 </script>
