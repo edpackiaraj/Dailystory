@@ -3,6 +3,11 @@
 # Canonical homepage redirect: consolidate root to /en/ to prevent duplicate indexing
 / /en/ 301
 
+/classroom /en/classroom/ 301
+/classroom/ /en/classroom/ 301
+/guide /ta/guide/ 301
+/guide/ /ta/guide/ 301
+
 # Legacy subpages to clean canonical routes
 /en/en-favorites/ /en/favorites/ 301
 /en/en-submit/ /en/submit/ 301
@@ -13,6 +18,11 @@
 /en/en-search/ /en/search/ 301
 /en/en-guide/ /en/guide/ 301
 /en/en-contact/ /en/contact/ 301
+/en/en-cookies/ /en/privacy/ 301
+/en/en-accessibility/ /en/about/ 301
+/en/en-guidelines/ /en/guide/ 301
+/en/en-parent-guide/ /en/guide/ 301
+/en/en-editorial-policy/ /en/about/ 301
 
 /en.html /en/ 301
 /ta.html /ta/ 301

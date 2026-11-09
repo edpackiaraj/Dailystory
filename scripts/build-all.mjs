@@ -36,10 +36,6 @@ console.log('\n3. Generating sitemaps and robots.txt...');
 res = spawnSync('node', ['scripts/generate-sitemaps.mjs'], { stdio: 'inherit' });
 if (res.status !== 0) process.exit(res.status || 1);
 
-console.log('\n3b. Generating Bedtime & Travel audio playlists...');
-res = spawnSync('node', ['scripts/generate-playlists.mjs'], { stdio: 'inherit' });
-if (res.status !== 0) process.exit(res.status || 1);
-
 console.log('\n4. Running Astro static site compilation...');
 res = spawnSync('npx astro build', { stdio: 'inherit', env: process.env, shell: true });
 if (res.status !== 0) process.exit(res.status || 1);

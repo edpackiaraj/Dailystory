@@ -423,19 +423,7 @@ const collectionsList = [
         } catch(e){}
       }
 
-      try {
-        const res = await fetch(`/playlists/${currentLang}/${colSlug}.json`);
-        if (res.ok) {
-          playlist = await res.json();
-          cachedPlaylists[cacheKey] = playlist;
-          currentStoryIdx = 0;
-          updateStoryUI();
-        } else {
-          fallbackLoadFromPage();
-        }
-      } catch (e) {
-        fallbackLoadFromPage();
-      }
+      fallbackLoadFromPage();
     }
 
     function fallbackLoadFromPage() {
@@ -443,6 +431,34 @@ const collectionsList = [
       const articleEl = document.querySelector('article') || document.querySelector('.story-reading-content');
       if (pageTitleEl && articleEl) {
         playlist = [{
+          id: 'current-page-story',
+          title: pageTitleEl.innerText.trim(),
+          collection: 'Current Story',
+          full_text: articleEl.innerText.trim(),
+          moral: '',
+          vocabulary: [],
+          discussion_questions: []
+        }];
+        currentStoryIdx = 0;
+        updateStoryUI();
+        return;
+      }
+
+      const storyCards = document.querySelectorAll('article a[href*="/"]');
+      if (storyCards && storyCards.length) {
+        playlist = Array.from(storyCards).slice(0, 20).map((a, i) => ({
+          id: `card-${i}`,
+          title: a.innerText.trim() || `Story ${i + 1}`,
+          collection: 'Featured Tales',
+          full_text: a.closest('article')?.innerText.trim() || '',
+          moral: '',
+          vocabulary: [],
+          discussion_questions: []
+        })).filter(s => s.title);
+        currentStoryIdx = 0;
+        updateStoryUI();
+      }
+    }
           id: 'current-page-story',
           title: pageTitleEl.innerText.trim(),
           collection: 'Current Story',
