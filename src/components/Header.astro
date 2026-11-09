@@ -75,7 +75,7 @@ const currentLangObj = getLanguageMeta(currentLang);
           class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1.5"
         >
           <span>📖</span>
-          <span>{currentLang === 'ta' ? 'கற்பித்தல் கையேடு' : (t.guide || "Pedagogy Guide")}</span>
+          <span>{currentLang === 'ta' ? 'வழிகாட்டி' : (t.guide || "Guide")}</span>
         </a>
         <a
           href={`/${currentLang}/favorites/`}
@@ -95,6 +95,18 @@ const currentLangObj = getLanguageMeta(currentLang);
       <!-- Right Utility Bar (Novatool-inspired compact controls) -->
       <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
         
+        <!-- Bedtime & Travel Continuous Audio Player Trigger -->
+        <button
+          type="button"
+          id="open-bedtime-player-btn"
+          title={currentLang === 'ta' ? 'இரவு தூக்கம் & பயணத் தொடர் வாசிப்பு (Bedtime & Travel Player)' : 'Bedtime & Travel Continuous Player'}
+          aria-label="Bedtime & Travel Continuous Player"
+          class="px-2.5 sm:px-3 py-1.5 rounded-full border border-indigo-300 dark:border-indigo-700 bg-indigo-50 dark:bg-indigo-950/70 text-indigo-900 dark:text-indigo-200 hover:bg-indigo-100 dark:hover:bg-indigo-900/60 transition-all flex items-center gap-1.5 text-xs font-bold shadow-2xs min-h-[38px]"
+        >
+          <span class="text-sm">🌙</span>
+          <span class="hidden md:inline font-semibold">{currentLang === 'ta' ? 'தூக்கம் & பயணம்' : 'Bedtime Player'}</span>
+        </button>
+
         <!-- Dual Mode Switcher (General Mode ⇄ School Mode) -->
         <button
           type="button"

@@ -142,7 +142,7 @@ for (const lang of languages) {
     }
   }
 
-  // 3. Individual Story Pages (giving every story its own indexable URL!)
+  // 3. Individual Story Pages (giving every story its own indexable URL with clean, lightweight tags for fast GSC parsing!)
   let storiesIndexed = 0;
   for (const story of indexableStories) {
     const colSlug = (story.collection || 'world-folktales').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -154,10 +154,6 @@ for (const lang of languages) {
     xml += `    <lastmod>${lastModDate}</lastmod>\n`;
     xml += `    <changefreq>monthly</changefreq>\n`;
     xml += `    <priority>0.8</priority>\n`;
-    for (const altLang of languages) {
-      xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/${colSlug}/${story.slug}/"/>\n`;
-    }
-    xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}/en/${colSlug}/${story.slug}/"/>\n`;
     xml += '  </url>\n';
     storiesIndexed++;
   }
@@ -184,6 +180,9 @@ indexXml += '</sitemapindex>\n';
 safeWriteFileSync(path.join(publicDir, 'sitemap.xml'), indexXml);
 console.log('[Sitemap Generator] Generated master sitemap.xml index.');
 
+// Copy sitemap.xml to sitemap-index.xml for full compatibility
+safeWriteFileSync(path.join(publicDir, 'sitemap-index.xml'), indexXml);
+
 // robots.txt
 const robotsTxt = `User-agent: *
 Allow: /
@@ -191,6 +190,9 @@ Disallow: /admin/
 Disallow: /api/
 
 Sitemap: ${siteUrl}/sitemap.xml
+Sitemap: ${siteUrl}/sitemap-index.xml
+Sitemap: ${siteUrl}/sitemap-ta.xml
+Sitemap: ${siteUrl}/sitemap-en.xml
 `;
 safeWriteFileSync(path.join(publicDir, 'robots.txt'), robotsTxt);
-console.log('[Sitemap Generator] Generated robots.txt.');
+console.log('[Sitemap Generator] Generated robots.txt and sitemaps.');

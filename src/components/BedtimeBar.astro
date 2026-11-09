@@ -7,310 +7,922 @@ interface Props {
 
 const { currentLang } = Astro.props;
 const t = getT(currentLang);
+const isTa = currentLang === 'ta';
+
+const collectionsList = [
+  { slug: "all", name: isTa ? "🌟 அனைத்துக் கதைத் தொகுப்புகள்" : "🌟 All Collections (Mixed Wisdom)" },
+  { slug: "panchatantra", name: isTa ? "🦁 பஞ்சதந்திரக் கதைகள்" : "🦁 Panchatantra Fables" },
+  { slug: "vikram-vetal", name: isTa ? "🗡️ விக்கிரமாதித்தன் - வேதாளக் கதைகள்" : "🗡️ Vikram–Vetal Riddles" },
+  { slug: "tenali-rama", name: isTa ? "👳‍♂️ தெனாலிராமன் கதைகள்" : "👳‍♂️ Tenali Rama Tales" },
+  { slug: "akbar-birbal", name: isTa ? "👑 அக்பர்–பீர்பால் கதைகள்" : "👑 Akbar–Birbal Wisdom" },
+  { slug: "jataka-tales", name: isTa ? "🪷 ஜாதகக் கதைகள் (புத்தர் நீதிகள்)" : "🪷 Jataka Tales" },
+  { slug: "aesop-s-fables", name: isTa ? "🏛️ ஈசாப் நீதிக்கதைகள்" : "🏛️ Aesop's Fables" },
+  { slug: "arabian-nights", name: isTa ? "🌙 ஆயிரத்தொரு அரேபிய இரவுகள்" : "🌙 Arabian Nights" },
+  { slug: "paramartha-guru", name: isTa ? "🌴 பரமார்த்த குரு கதைகள்" : "🌴 Paramartha Guru" },
+  { slug: "mulla-nasruddin", name: isTa ? "🫏 முல்லா நஸ்ருதீன் கதைகள்" : "🫏 Mulla Nasruddin" },
+  { slug: "grimm-fairy-tales", name: isTa ? "🌲 கிரிம் சகோதரர்கள் கதைகள்" : "🌲 Brothers Grimm" },
+  { slug: "hans-christian-andersen", name: isTa ? "🦢 ஹான்ஸ் கிறிஸ்டியன் ஆண்டர்சன்" : "🦢 H.C. Andersen" },
+  { slug: "cinderella-stories", name: isTa ? "👠 சிண்ட்ரெல்லா உலகக் கதைகள்" : "👠 Cinderella Variants" },
+  { slug: "charles-perrault", name: isTa ? "👢 சார்லஸ் பெரோ கதைகள்" : "👢 Charles Perrault" }
+];
 ---
 
-<!-- Floating or Docked Bedtime Control Drawer -->
-<div id="bedtime-dock" class="hidden fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:w-96 z-50 bg-slate-900/95 border border-indigo-500/40 backdrop-blur-xl rounded-3xl p-5 shadow-2xl text-slate-100 transition-all duration-500">
-  <div class="flex items-center justify-between pb-3 border-b border-indigo-900/50">
-    <div class="flex items-center gap-2">
-      <span class="text-xl">🌙</span>
-      <h3 class="font-extrabold text-sm text-indigo-200">Bedtime Sanctuary</h3>
+<!-- FLOATING TRIGGER BUTTON (Always visible at bottom right in General Mode) -->
+<div id="bedtime-floating-trigger" class="fixed bottom-20 right-4 sm:bottom-6 sm:right-6 z-40">
+  <button
+    type="button"
+    id="toggle-bedtime-dock-btn"
+    title={isTa ? 'இரவு உறக்க & பயணத் தொடர் வாசிப்பான் (Bedtime & Travel Player)' : 'Bedtime & Travel Continuous Narrator'}
+    class="flex items-center gap-2.5 px-4 py-2.5 rounded-full bg-linear-to-r from-indigo-900 via-indigo-950 to-slate-950 text-indigo-100 border border-indigo-500/50 shadow-2xl hover:border-indigo-400 hover:scale-105 active:scale-95 transition-all text-xs font-bold backdrop-blur-md group"
+  >
+    <span class="text-base group-hover:rotate-12 transition-transform">🌙</span>
+    <span class="tracking-wide">{isTa ? 'தூக்கம் & பயணம்' : 'Bedtime Player'}</span>
+    <span id="trigger-timer-badge" class="hidden px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-300 text-[10px] font-mono border border-indigo-400/30 animate-pulse">
+      00:00
+    </span>
+  </button>
+</div>
+
+<!-- BEDTIME & TRAVEL CONTINUOUS PLAYER DRAWER -->
+<div
+  id="bedtime-dock"
+  class="hidden fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:w-104 max-h-[90vh] z-50 bg-linear-to-b from-slate-900/98 via-indigo-950/98 to-slate-950/98 border border-indigo-500/50 backdrop-blur-2xl rounded-3xl p-5 sm:p-6 shadow-2xl text-slate-100 overflow-y-auto transition-all duration-300"
+  data-lang={currentLang}
+>
+  <!-- Header Bar -->
+  <div class="flex items-center justify-between pb-3.5 border-b border-indigo-800/60">
+    <div class="flex items-center gap-2.5">
+      <div class="w-8 h-8 rounded-xl bg-indigo-500/20 text-indigo-300 flex items-center justify-center text-lg shadow-inner">
+        🌙
+      </div>
+      <div>
+        <h3 class="font-extrabold text-sm text-indigo-100 leading-tight">
+          {isTa ? 'இரவு தூக்கம் & பயணத் தொடர் வாசிப்பு' : 'Bedtime & Travel Continuous Narrator'}
+        </h3>
+        <p class="text-[10px] text-indigo-300/80">
+          {isTa ? 'தானியங்கி அடுத்த கதை & உறக்கக் காலக்கணிப்பான்' : 'Auto-advance playlist with fade sleep timer'}
+        </p>
+      </div>
     </div>
-    <button id="close-bedtime-dock" class="text-slate-400 hover:text-white text-xs px-2 py-1 rounded-full bg-slate-800">
-      Close ✕
-    </button>
+    
+    <div class="flex items-center gap-1.5">
+      <button
+        type="button"
+        id="minimize-bedtime-dock"
+        title="Minimize"
+        class="w-7 h-7 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center text-xs transition-colors"
+      >
+        —
+      </button>
+      <button
+        type="button"
+        id="close-bedtime-dock"
+        title="Close"
+        class="w-7 h-7 rounded-lg bg-slate-800/80 hover:bg-red-900/50 text-slate-300 hover:text-white flex items-center justify-center text-xs transition-colors"
+      >
+        ✕
+      </button>
+    </div>
   </div>
 
-  <!-- Ambient Sound Generator Controls (Web Audio API) -->
-  <div class="mt-4 space-y-3 text-xs">
-    <div class="text-slate-400 font-semibold uppercase tracking-wider text-[10px]">
-      Soothing Ambient Sounds (Synthesized &amp; Offline)
+  <!-- Now Playing Status & Controls Card -->
+  <div class="mt-4 p-4 rounded-2xl bg-indigo-950/70 border border-indigo-500/30 space-y-3">
+    <div class="flex items-center justify-between text-xs">
+      <span class="text-[11px] font-bold text-indigo-300/90 uppercase tracking-wider flex items-center gap-1.5">
+        <span id="playing-pulse-dot" class="w-2 h-2 rounded-full bg-emerald-400"></span>
+        <span id="player-status-badge">{isTa ? 'தயாராக உள்ளது' : 'Ready'}</span>
+      </span>
+      <span id="playlist-index-badge" class="text-[11px] font-mono text-indigo-300 bg-indigo-900/50 px-2 py-0.5 rounded-md border border-indigo-700/50">
+        1 / --
+      </span>
+    </div>
+
+    <!-- Active Story Title -->
+    <div>
+      <h4 id="active-story-title" class="text-sm font-bold text-white line-clamp-2 leading-snug">
+        {isTa ? 'கதையைத் தேர்ந்தெடுக்கவும்' : 'Select a story collection to start'}
+      </h4>
+      <p id="active-story-meta" class="text-[11px] text-indigo-300/70 mt-0.5">
+        {isTa ? 'பஞ்சதந்திரம் அல்லது உங்கள் விருப்பத் தொகுதி' : 'Panchatantra, Tenali Rama or your choice'}
+      </p>
+    </div>
+
+    <!-- Audio Control Buttons -->
+    <div class="flex items-center justify-between pt-1">
+      <div class="flex items-center gap-2">
+        <!-- Prev Story -->
+        <button
+          type="button"
+          id="btn-prev-story"
+          title={isTa ? 'முந்தைய கதை' : 'Previous Story'}
+          class="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-slate-200 transition-all text-sm"
+        >
+          ⏮️
+        </button>
+
+        <!-- Main Play / Pause -->
+        <button
+          type="button"
+          id="btn-play-pause-continuous"
+          class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 active:scale-95 text-white font-bold text-xs flex items-center gap-2 shadow-lg shadow-indigo-600/30 transition-all"
+        >
+          <span id="main-play-icon">▶️</span>
+          <span id="main-play-text">{isTa ? 'தொடங்குக' : 'Start'}</span>
+        </button>
+
+        <!-- Stop -->
+        <button
+          type="button"
+          id="btn-stop-continuous"
+          title={isTa ? 'நிறுத்து' : 'Stop'}
+          class="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-slate-200 transition-all text-sm"
+        >
+          ⏹️
+        </button>
+
+        <!-- Next Story -->
+        <button
+          type="button"
+          id="btn-next-story"
+          title={isTa ? 'அடுத்த கதை' : 'Next Story'}
+          class="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-slate-200 transition-all text-sm"
+        >
+          ⏭️
+        </button>
+      </div>
+
+      <!-- Live Sleep Timer Countdown Pill -->
+      <div id="sleep-countdown-pill" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-indigo-900/40 border border-indigo-700/50 text-indigo-200 font-mono text-xs">
+        <span>⏱️</span>
+        <span id="countdown-timer-text">Off</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 1. COLLECTION SELECTION -->
+  <div class="mt-4 space-y-1.5 text-xs">
+    <label class="block font-bold text-indigo-200 text-[11px] uppercase tracking-wider">
+      {isTa ? '1. கதைத் தொகுதியைத் தேர்வு செய்க:' : '1. Select Story Collection:'}
+    </label>
+    <select
+      id="continuous-col-select"
+      class="w-full p-2.5 rounded-xl bg-slate-800/90 border border-indigo-600/40 text-slate-100 font-medium text-xs focus:ring-2 focus:ring-indigo-400 focus:outline-none cursor-pointer"
+    >
+      {collectionsList.map(c => (
+        <option value={c.slug}>{c.name}</option>
+      ))}
+    </select>
+  </div>
+
+  <!-- 2. DURATION / SLEEP TIMER SELECTION -->
+  <div class="mt-4 space-y-2 text-xs">
+    <div class="flex items-center justify-between">
+      <span class="font-bold text-indigo-200 text-[11px] uppercase tracking-wider">
+        {isTa ? '2. எவ்வளவு நேரம் தொடர்ந்து வாசிக்க வேண்டும்? (Duration):' : '2. Narration Duration / Sleep Timer:'}
+      </span>
+    </div>
+    
+    <div class="grid grid-cols-4 gap-1.5">
+      <button type="button" class="duration-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/60 text-slate-200 text-xs font-semibold transition-all border border-slate-700" data-mins="10">10m</button>
+      <button type="button" class="duration-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/60 text-slate-200 text-xs font-semibold transition-all border border-slate-700" data-mins="15">15m</button>
+      <button type="button" class="duration-btn px-2 py-1.5 rounded-xl bg-indigo-600 text-white text-xs font-bold transition-all border border-indigo-400" data-mins="20">20m</button>
+      <button type="button" class="duration-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/60 text-slate-200 text-xs font-semibold transition-all border border-slate-700" data-mins="30">30m</button>
+      <button type="button" class="duration-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/60 text-slate-200 text-xs font-semibold transition-all border border-slate-700" data-mins="45">45m</button>
+      <button type="button" class="duration-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/60 text-slate-200 text-xs font-semibold transition-all border border-slate-700" data-mins="60">60m</button>
+      <button type="button" class="duration-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/60 text-slate-200 text-xs font-semibold transition-all border border-slate-700" data-mins="999">♾️ {isTa ? 'முடிவிலி' : 'Continuous'}</button>
+      <button type="button" class="duration-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-red-900/50 text-slate-200 text-xs font-semibold transition-all border border-slate-700" data-mins="0">{isTa ? 'அணை' : 'Off'}</button>
+    </div>
+    <p class="text-[10px] text-indigo-300/70 italic">
+      {isTa ? '* நேரம் முடிந்ததும் குழந்தை விழித்துக்கொள்ளாத வண்ணம் ஒலி மென்மையாக மங்கி நிற்கும் (Soft Fade-Out).' : '* Audio fades out gently during the final seconds so the child sleeps undisturbed.'}
+    </p>
+  </div>
+
+  <!-- 3. CONTENT TO NARRATE (CHECKBOXES) -->
+  <div class="mt-4 pt-3 border-t border-indigo-900/50 space-y-2 text-xs">
+    <span class="block font-bold text-indigo-200 text-[11px] uppercase tracking-wider">
+      {isTa ? '3. எதை எதை வாசிக்க வேண்டும்? (Included Parts):' : '3. What to Narrate with Story:'}
+    </span>
+    
+    <div class="grid grid-cols-2 gap-2 text-[11px]">
+      <!-- Story Text (Always checked) -->
+      <label class="flex items-center gap-2 p-2 rounded-xl bg-slate-800/80 border border-slate-700/80 cursor-not-allowed opacity-90">
+        <input type="checkbox" id="narrate-opt-story" checked disabled class="rounded text-indigo-500" />
+        <span class="font-bold text-white">📖 {isTa ? 'கதை உரை' : 'Story Text'}</span>
+      </label>
+
+      <!-- Moral / Wisdom -->
+      <label class="flex items-center gap-2 p-2 rounded-xl bg-slate-800/80 hover:bg-indigo-950/80 border border-slate-700/80 cursor-pointer transition-colors">
+        <input type="checkbox" id="narrate-opt-moral" checked class="rounded text-indigo-500 accent-indigo-500" />
+        <span class="text-indigo-100">🌟 {isTa ? 'வாழ்வியல் நீதி' : 'Moral Core'}</span>
+      </label>
+
+      <!-- Words to Learn -->
+      <label class="flex items-center gap-2 p-2 rounded-xl bg-slate-800/80 hover:bg-indigo-950/80 border border-slate-700/80 cursor-pointer transition-colors">
+        <input type="checkbox" id="narrate-opt-vocab" class="rounded text-indigo-500 accent-indigo-500" />
+        <span class="text-indigo-100">📚 {isTa ? 'புதிய சொற்கள்' : 'Vocabulary'}</span>
+      </label>
+
+      <!-- Reflection Questions -->
+      <label class="flex items-center gap-2 p-2 rounded-xl bg-slate-800/80 hover:bg-indigo-950/80 border border-slate-700/80 cursor-pointer transition-colors">
+        <input type="checkbox" id="narrate-opt-questions" class="rounded text-indigo-500 accent-indigo-500" />
+        <span class="text-indigo-100">💡 {isTa ? 'சிந்தனை வினாக்கள்' : 'Questions'}</span>
+      </label>
+    </div>
+  </div>
+
+  <!-- 4. AMBIENT CALMING SOUNDS (WEB AUDIO API SYNTHESIZER) -->
+  <div class="mt-4 pt-3 border-t border-indigo-900/50 space-y-2.5 text-xs">
+    <div class="flex items-center justify-between">
+      <span class="font-bold text-indigo-200 text-[11px] uppercase tracking-wider">
+        {isTa ? '4. பின்னணித் தாலாட்டு ஓசைகள் (Lullaby Sounds):' : '4. Calming Ambient Mix:'}
+      </span>
+      <span class="text-[10px] text-indigo-400">Offline Web Audio</span>
     </div>
 
     <!-- Rain Sound -->
-    <div class="flex items-center justify-between gap-3">
+    <div class="flex items-center justify-between gap-3 text-[11px]">
       <label class="flex items-center gap-2 cursor-pointer">
-        <input type="checkbox" id="ambient-rain-toggle" class="rounded text-indigo-500" />
-        <span>🌧️ {t.rain}</span>
+        <input type="checkbox" id="ambient-rain-toggle" class="rounded text-indigo-500 accent-indigo-500" />
+        <span>🌧️ {isTa ? 'மழைச் சாரல்' : 'Gentle Rain'}</span>
       </label>
-      <input type="range" id="ambient-rain-vol" min="0" max="1" step="0.05" value="0.3" class="w-24 accent-indigo-400" />
+      <input type="range" id="ambient-rain-vol" min="0" max="1" step="0.05" value="0.25" class="w-24 accent-indigo-400 h-1.5 bg-slate-700 rounded-lg cursor-pointer" />
     </div>
 
     <!-- Crickets Sound -->
-    <div class="flex items-center justify-between gap-3">
+    <div class="flex items-center justify-between gap-3 text-[11px]">
       <label class="flex items-center gap-2 cursor-pointer">
-        <input type="checkbox" id="ambient-crickets-toggle" class="rounded text-indigo-500" />
-        <span>🦗 {t.crickets}</span>
+        <input type="checkbox" id="ambient-crickets-toggle" class="rounded text-indigo-500 accent-indigo-500" />
+        <span>🦗 {isTa ? 'இரவு வெட்டுக்கிளி' : 'Night Crickets'}</span>
       </label>
-      <input type="range" id="ambient-crickets-vol" min="0" max="1" step="0.05" value="0.2" class="w-24 accent-indigo-400" />
+      <input type="range" id="ambient-crickets-vol" min="0" max="1" step="0.05" value="0.2" class="w-24 accent-indigo-400 h-1.5 bg-slate-700 rounded-lg cursor-pointer" />
     </div>
 
     <!-- Starlight Chimes -->
-    <div class="flex items-center justify-between gap-3">
+    <div class="flex items-center justify-between gap-3 text-[11px]">
       <label class="flex items-center gap-2 cursor-pointer">
-        <input type="checkbox" id="ambient-chimes-toggle" class="rounded text-indigo-500" />
-        <span>✨ {t.calmMusic}</span>
+        <input type="checkbox" id="ambient-chimes-toggle" class="rounded text-indigo-500 accent-indigo-500" />
+        <span>✨ {isTa ? 'விண்மீன் தாலாட்டு' : 'Starlight Chimes'}</span>
       </label>
-      <input type="range" id="ambient-chimes-vol" min="0" max="1" step="0.05" value="0.25" class="w-24 accent-indigo-400" />
+      <input type="range" id="ambient-chimes-vol" min="0" max="1" step="0.05" value="0.25" class="w-24 accent-indigo-400 h-1.5 bg-slate-700 rounded-lg cursor-pointer" />
     </div>
   </div>
 
-  <!-- Sleep Timer (10 / 20 / 30 mins) with Gradual Fade -->
-  <div class="mt-4 pt-3 border-t border-indigo-900/50">
-    <div class="flex items-center justify-between text-xs mb-2">
-      <span class="text-slate-400 font-semibold">{t.sleepTimer}:</span>
-      <span id="sleep-timer-display" class="font-mono text-indigo-300 font-bold">Off</span>
+  <!-- 5. SPEED & VOICE TUNING -->
+  <div class="mt-4 pt-3 border-t border-indigo-900/50 flex items-center justify-between gap-2 text-xs">
+    <div class="flex items-center gap-1.5">
+      <span class="text-indigo-300 text-[11px] font-semibold">{isTa ? 'வேகம்:' : 'Speed:'}</span>
+      <select id="continuous-speed-select" class="p-1 rounded-lg bg-slate-800 border border-slate-700 text-xs font-bold text-white focus:outline-none">
+        <option value="0.75">0.75x</option>
+        <option value="0.85" selected>0.85x 🌙</option>
+        <option value="1.0">1.0x</option>
+        <option value="1.2">1.2x 🚗</option>
+      </select>
     </div>
-    <div class="grid grid-cols-4 gap-2">
-      <button class="sleep-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/50 text-[11px] font-medium" data-mins="10">10m</button>
-      <button class="sleep-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/50 text-[11px] font-medium" data-mins="20">20m</button>
-      <button class="sleep-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-indigo-900/50 text-[11px] font-medium" data-mins="30">30m</button>
-      <button class="sleep-btn px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-red-900/40 text-[11px] font-medium" data-mins="0">Off</button>
+
+    <div class="flex items-center gap-1.5 max-w-[170px]">
+      <select id="continuous-voice-select" class="w-full p-1 rounded-lg bg-slate-800 border border-slate-700 text-[11px] font-medium text-white focus:outline-none truncate">
+        <option value="">Default Voice</option>
+      </select>
     </div>
   </div>
 </div>
 
-<!-- Healthy-Use Guardrail Modal ("That's enough stories for tonight. Sweet dreams!") -->
+<!-- HEALTHY-USE SWEET DREAMS MODAL -->
 <div id="bedtime-guardrail-modal" class="hidden fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4">
-  <div class="max-w-md w-full bg-slate-900 border border-indigo-500/30 rounded-3xl p-8 text-center shadow-2xl">
-    <div class="text-6xl mb-4 animate-pulse">🌟</div>
-    <h2 class="text-2xl font-black text-indigo-200 mb-2">
-      That's enough stories for tonight.
+  <div class="max-w-md w-full bg-slate-900 border border-indigo-500/40 rounded-3xl p-8 text-center shadow-2xl">
+    <div class="text-6xl mb-4 animate-bounce">🌟</div>
+    <h2 class="text-2xl font-black text-indigo-100 mb-2 font-display">
+      {isTa ? 'கதைகள் இனிதே நிறைவடைந்தன!' : "That's enough stories for tonight."}
     </h2>
     <p class="text-indigo-300/80 text-sm leading-relaxed mb-6">
-      Your story garden is safely saved under the stars. Close your eyes, let your imagination dream, and wake up fresh for tomorrow's tale.
+      {isTa
+        ? 'குழந்தை இனிதே உறங்கட்டும். உங்களின் கதைகள் யாவும் விண்மீன்களின் கீழ் பத்திரமாகச் சேமிக்கப்பட்டுள்ளன. இனிய கனவுகள்!'
+        : 'Your story garden is safely saved under the stars. Close your eyes, let your imagination dream, and wake up fresh for tomorrow.'}
     </p>
-    <div class="p-4 rounded-2xl bg-indigo-950/60 border border-indigo-800 text-xs text-indigo-300 font-medium mb-6">
-      "May your sleep be peaceful and your dreams full of kindness."
+    <div class="p-4 rounded-2xl bg-indigo-950/70 border border-indigo-800 text-xs text-indigo-300 font-medium mb-6">
+      {isTa ? '"அமைதியான தூக்கமும், அன்பு நிறைந்த நற்கனவுகளும் உண்டாகட்டும்."' : '"May your sleep be peaceful and your dreams full of kindness."'}
     </div>
     <button id="close-guardrail-btn" class="w-full py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm shadow-lg transition-transform active:scale-95">
-      Sweet Dreams! (Close Site)
+      {isTa ? 'இனிய உறக்கம் (Sweet Dreams)' : 'Sweet Dreams! (Close)'}
     </button>
   </div>
 </div>
 
+<!-- CLIENT RUNTIME LOGIC FOR CONTINUOUS BEDTIME & TRAVEL NARRATOR -->
 <script is:inline>
-  // Web Audio API Ambient Synthesizer
-  (function initBedtimeSynthesizer() {
+  (function initBedtimeTravelPlayer() {
+    const dock = document.getElementById('bedtime-dock');
+    const floatingTrigger = document.getElementById('bedtime-floating-trigger');
+    const toggleDockBtn = document.getElementById('toggle-bedtime-dock-btn');
+    const closeDockBtn = document.getElementById('close-bedtime-dock');
+    const minDockBtn = document.getElementById('minimize-bedtime-dock');
+    const triggerTimerBadge = document.getElementById('trigger-timer-badge');
+    const countdownText = document.getElementById('countdown-timer-text');
+
+    const colSelect = document.getElementById('continuous-col-select');
+    const durationBtns = document.querySelectorAll('.duration-btn');
+    const playPauseBtn = document.getElementById('btn-play-pause-continuous');
+    const playIcon = document.getElementById('main-play-icon');
+    const playText = document.getElementById('main-play-text');
+    const stopBtn = document.getElementById('btn-stop-continuous');
+    const prevBtn = document.getElementById('btn-prev-story');
+    const nextBtn = document.getElementById('btn-next-story');
+
+    const activeTitle = document.getElementById('active-story-title');
+    const activeMeta = document.getElementById('active-story-meta');
+    const statusBadge = document.getElementById('player-status-badge');
+    const indexBadge = document.getElementById('playlist-index-badge');
+    const pulseDot = document.getElementById('playing-pulse-dot');
+
+    const optMoral = document.getElementById('narrate-opt-moral');
+    const optVocab = document.getElementById('narrate-opt-vocab');
+    const optQuestions = document.getElementById('narrate-opt-questions');
+
+    const speedSelect = document.getElementById('continuous-speed-select');
+    const voiceSelect = document.getElementById('continuous-voice-select');
+
+    const guardrailModal = document.getElementById('bedtime-guardrail-modal');
+    const closeGuardrailBtn = document.getElementById('close-guardrail-btn');
+
+    if (!dock) return;
+
+    const currentLang = dock.getAttribute('data-lang') || 'en';
+    const isTa = currentLang === 'ta';
+
+    let playlist = [];
+    let currentStoryIdx = 0;
+    let isPlaying = false;
+    let isPaused = false;
+    let currentUtterance = null;
+    let timerDurationMins = 20; // default 20 minutes
+    let remainingSeconds = 20 * 60;
+    let timerInterval = null;
+    let cachedPlaylists = {};
+
+    // 1. DOCK VISIBILITY TOGGLING
+    function openDock() {
+      dock.classList.remove('hidden');
+      if (floatingTrigger) floatingTrigger.classList.add('hidden');
+    }
+
+    function closeDock() {
+      dock.classList.add('hidden');
+      if (floatingTrigger) floatingTrigger.classList.remove('hidden');
+    }
+
+    if (toggleDockBtn) toggleDockBtn.addEventListener('click', openDock);
+    if (closeDockBtn) closeDockBtn.addEventListener('click', closeDock);
+    if (minDockBtn) minDockBtn.addEventListener('click', closeDock);
+
+    // Global Header button binding
+    const headerBtn = document.getElementById('open-bedtime-player-btn');
+    if (headerBtn) {
+      headerBtn.addEventListener('click', () => {
+        openDock();
+        dock.scrollIntoView({ behavior: 'smooth' });
+      });
+    }
+
+    // 2. LOAD PLAYLIST DATA
+    async function loadCollectionPlaylist(colSlug) {
+      statusBadge.textContent = isTa ? 'ஏற்றுகிறது...' : 'Loading playlist...';
+      const cacheKey = `${currentLang}_${colSlug}`;
+      if (cachedPlaylists[cacheKey]) {
+        playlist = cachedPlaylists[cacheKey];
+        currentStoryIdx = 0;
+        updateStoryUI();
+        return;
+      }
+
+      try {
+        const res = await fetch(`/playlists/${currentLang}/${colSlug}.json`);
+        if (res.ok) {
+          playlist = await res.json();
+          cachedPlaylists[cacheKey] = playlist;
+          currentStoryIdx = 0;
+          updateStoryUI();
+        } else {
+          fallbackLoadFromPage();
+        }
+      } catch (e) {
+        fallbackLoadFromPage();
+      }
+    }
+
+    function fallbackLoadFromPage() {
+      const pageTitleEl = document.querySelector('h1');
+      const articleEl = document.querySelector('article') || document.querySelector('.story-reading-content');
+      if (pageTitleEl && articleEl) {
+        playlist = [{
+          id: 'current-page-story',
+          title: pageTitleEl.innerText.trim(),
+          collection: 'Current Story',
+          full_text: articleEl.innerText.trim(),
+          moral: '',
+          vocabulary: [],
+          discussion_questions: []
+        }];
+        currentStoryIdx = 0;
+        updateStoryUI();
+      }
+    }
+
+    if (colSelect) {
+      colSelect.addEventListener('change', (e) => {
+        const wasPlaying = isPlaying;
+        if (isPlaying) stopPlayback();
+        loadCollectionPlaylist(e.target.value).then(() => {
+          if (wasPlaying) startPlayback();
+        });
+      });
+    }
+
+    // 3. UI UPDATES
+    function updateStoryUI() {
+      if (!playlist.length) {
+        activeTitle.textContent = isTa ? 'கதைகள் கிடைக்கவில்லை' : 'No stories found';
+        activeMeta.textContent = '';
+        indexBadge.textContent = '0 / 0';
+        return;
+      }
+
+      const story = playlist[currentStoryIdx];
+      activeTitle.textContent = story.title;
+      activeMeta.textContent = `${story.collection} • ${story.reading_time || '3m'}`;
+      indexBadge.textContent = `${currentStoryIdx + 1} / ${playlist.length}`;
+      statusBadge.textContent = isPlaying ? (isTa ? 'வாசிக்கிறது...' : 'Narrating...') : (isTa ? 'தயாராக உள்ளது' : 'Ready');
+    }
+
+    // 4. SPEECH SYNTHESIS NARRATION PIPELINE
+    function buildNarrationQueue(story) {
+      const chunks = [];
+
+      // A. Story Title
+      chunks.push(story.title);
+
+      // B. Story Paragraphs
+      if (story.full_text) {
+        const paras = story.full_text.split(/\n\n+/).filter(Boolean);
+        chunks.push(...paras);
+      }
+
+      // C. Optional Moral / Ethical Core
+      if (optMoral && optMoral.checked && story.moral) {
+        const moralPrefix = isTa ? 'இக்கதையின் வாழ்வியல் நீதி: ' : 'Moral of the story: ';
+        chunks.push(moralPrefix + story.moral);
+      }
+
+      // D. Optional Vocabulary
+      if (optVocab && optVocab.checked && story.vocabulary && story.vocabulary.length) {
+        const vocabPrefix = isTa ? 'இக்கதையில் கற்றுக்கொள்ளும் புதிய சொற்கள்: ' : 'Words to learn: ';
+        const vocabList = story.vocabulary.map(v => `${v.word}: ${v.meaning}`).join('. ');
+        chunks.push(vocabPrefix + vocabList);
+      }
+
+      // E. Optional Discussion Questions
+      if (optQuestions && optQuestions.checked && story.discussion_questions && story.discussion_questions.length) {
+        const qPrefix = isTa ? 'சிந்திக்க சில வினாக்கள்: ' : 'Reflection questions: ';
+        const qList = story.discussion_questions.map(q => q.prompt).join('. ');
+        chunks.push(qPrefix + qList);
+      }
+
+      return chunks;
+    }
+
+    let activeQueue = [];
+    let activeQueueIdx = 0;
+
+    function playNextChunk() {
+      if (!isPlaying || isPaused) return;
+
+      if (activeQueueIdx >= activeQueue.length) {
+        // Current story finished! Auto-advance to next story!
+        onStoryCompleted();
+        return;
+      }
+
+      const text = activeQueue[activeQueueIdx];
+      activeQueueIdx++;
+
+      if (!('speechSynthesis' in window)) return;
+
+      currentUtterance = new SpeechSynthesisUtterance(text);
+      currentUtterance.lang = currentLang;
+      currentUtterance.rate = parseFloat(speedSelect?.value || '0.85');
+
+      if (voiceSelect && voiceSelect.value) {
+        const voice = window.speechSynthesis.getVoices().find(v => v.name === voiceSelect.value);
+        if (voice) currentUtterance.voice = voice;
+      }
+
+      currentUtterance.onend = () => {
+        if (isPlaying && !isPaused) {
+          playNextChunk();
+        }
+      };
+
+      currentUtterance.onerror = (err) => {
+        console.warn('Speech chunk error:', err);
+        if (isPlaying && !isPaused) {
+          playNextChunk();
+        }
+      };
+
+      window.speechSynthesis.speak(currentUtterance);
+    }
+
+    function onStoryCompleted() {
+      statusBadge.textContent = isTa ? 'அடுத்த கதை துவங்குகிறது...' : 'Next story starting...';
+      // Gentle 3-second soothing pause before next story
+      setTimeout(() => {
+        if (isPlaying && !isPaused) {
+          if (currentStoryIdx < playlist.length - 1) {
+            currentStoryIdx++;
+          } else {
+            currentStoryIdx = 0; // Loop back
+          }
+          startStoryNarration();
+        }
+      }, 2500);
+    }
+
+    function startStoryNarration() {
+      if (!playlist.length) return;
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+
+      const story = playlist[currentStoryIdx];
+      updateStoryUI();
+      activeQueue = buildNarrationQueue(story);
+      activeQueueIdx = 0;
+      isPlaying = true;
+      isPaused = false;
+      updatePlayButtonUI();
+      playNextChunk();
+    }
+
+    function startPlayback() {
+      if (isPaused && currentUtterance) {
+        isPaused = false;
+        isPlaying = true;
+        if ('speechSynthesis' in window) window.speechSynthesis.resume();
+        updatePlayButtonUI();
+        return;
+      }
+
+      startStoryNarration();
+      startSleepTimer();
+    }
+
+    function pausePlayback() {
+      isPaused = true;
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.pause();
+      }
+      updatePlayButtonUI();
+      statusBadge.textContent = isTa ? 'இடைநிறுத்தப்பட்டுள்ளது' : 'Paused';
+    }
+
+    function stopPlayback() {
+      isPlaying = false;
+      isPaused = false;
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+      updatePlayButtonUI();
+      statusBadge.textContent = isTa ? 'நிறுத்தப்பட்டது' : 'Stopped';
+      stopSleepTimer();
+    }
+
+    function updatePlayButtonUI() {
+      if (isPlaying && !isPaused) {
+        playIcon.textContent = '⏸️';
+        playText.textContent = isTa ? 'நிறுத்து' : 'Pause';
+        pulseDot.classList.add('bg-emerald-400', 'animate-pulse');
+        pulseDot.classList.remove('bg-amber-400', 'bg-slate-500');
+      } else if (isPaused) {
+        playIcon.textContent = '▶️';
+        playText.textContent = isTa ? 'தொடர்க' : 'Resume';
+        pulseDot.classList.add('bg-amber-400');
+        pulseDot.classList.remove('bg-emerald-400', 'animate-pulse');
+      } else {
+        playIcon.textContent = '▶️';
+        playText.textContent = isTa ? 'தொடங்குக' : 'Start';
+        pulseDot.classList.add('bg-slate-500');
+        pulseDot.classList.remove('bg-emerald-400', 'bg-amber-400', 'animate-pulse');
+      }
+    }
+
+    if (playPauseBtn) {
+      playPauseBtn.addEventListener('click', () => {
+        if (isPlaying && !isPaused) {
+          pausePlayback();
+        } else {
+          startPlayback();
+        }
+      });
+    }
+
+    if (stopBtn) stopBtn.addEventListener('click', stopPlayback);
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        if (currentStoryIdx > 0) {
+          currentStoryIdx--;
+          startStoryNarration();
+        }
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        if (currentStoryIdx < playlist.length - 1) {
+          currentStoryIdx++;
+        } else {
+          currentStoryIdx = 0;
+        }
+        startStoryNarration();
+      });
+    }
+
+    // 5. DURATION & SLEEP TIMER
+    durationBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        durationBtns.forEach(b => {
+          b.classList.remove('bg-indigo-600', 'text-white', 'border-indigo-400');
+          b.classList.add('bg-slate-800', 'text-slate-200', 'border-slate-700');
+        });
+        btn.classList.add('bg-indigo-600', 'text-white', 'border-indigo-400');
+        btn.classList.remove('bg-slate-800', 'text-slate-200');
+
+        const mins = parseInt(btn.getAttribute('data-mins') || '20', 10);
+        timerDurationMins = mins;
+        remainingSeconds = mins * 60;
+        updateTimerDisplay();
+        if (isPlaying) startSleepTimer();
+      });
+    });
+
+    function formatTime(secs) {
+      if (secs >= 999 * 60) return '♾️';
+      if (secs <= 0) return '00:00';
+      const m = Math.floor(secs / 60);
+      const s = secs % 60;
+      return `${m}:${s < 10 ? '0' : ''}${s}`;
+    }
+
+    function updateTimerDisplay() {
+      if (timerDurationMins === 0) {
+        countdownText.textContent = 'Off';
+        triggerTimerBadge.classList.add('hidden');
+      } else if (timerDurationMins >= 999) {
+        countdownText.textContent = '♾️ On';
+        triggerTimerBadge.classList.remove('hidden');
+        triggerTimerBadge.textContent = '♾️';
+      } else {
+        const formatted = formatTime(remainingSeconds);
+        countdownText.textContent = formatted;
+        triggerTimerBadge.classList.remove('hidden');
+        triggerTimerBadge.textContent = formatted;
+      }
+    }
+
+    function startSleepTimer() {
+      clearInterval(timerInterval);
+      if (timerDurationMins === 0 || timerDurationMins >= 999) return;
+
+      timerInterval = setInterval(() => {
+        if (!isPlaying || isPaused) return;
+
+        remainingSeconds--;
+        updateTimerDisplay();
+
+        // Last 10 seconds: gentle soft fade-out
+        if (remainingSeconds === 10) {
+          fadeAudioOut();
+        }
+
+        if (remainingSeconds <= 0) {
+          clearInterval(timerInterval);
+          stopPlayback();
+          if (guardrailModal) guardrailModal.classList.remove('hidden');
+        }
+      }, 1000);
+    }
+
+    function stopSleepTimer() {
+      clearInterval(timerInterval);
+      if (timerDurationMins > 0 && timerDurationMins < 999) {
+        remainingSeconds = timerDurationMins * 60;
+        updateTimerDisplay();
+      }
+    }
+
+    function fadeAudioOut() {
+      // Softly reduce ambient volumes if active
+      if (rainGain) rainGain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 8);
+      if (cricketsGain) cricketsGain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 8);
+      if (chimesGain) chimesGain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 8);
+    }
+
+    if (closeGuardrailBtn) {
+      closeGuardrailBtn.addEventListener('click', () => {
+        guardrailModal.classList.add('hidden');
+      });
+    }
+
+    // 6. SYNTHESIZED AMBIENT NATURE SOUNDS (Web Audio API)
     let audioCtx = null;
     let rainGain = null;
     let rainNode = null;
     let cricketsGain = null;
     let cricketsInterval = null;
     let chimesGain = null;
-    let chimesInterval = null;
-    let sleepTimerTimeout = null;
-    let sleepSecondsRemaining = 0;
-    let timerInterval = null;
 
-    const dock = document.getElementById('bedtime-dock');
-    const toggleBtn = document.getElementById('toggle-bedtime-btn');
-    const closeDockBtn = document.getElementById('close-bedtime-dock');
-
-    const rainToggle = document.getElementById('ambient-rain-toggle');
-    const rainVol = document.getElementById('ambient-rain-vol');
-    const cricketsToggle = document.getElementById('ambient-crickets-toggle');
-    const cricketsVol = document.getElementById('ambient-crickets-vol');
-    const chimesToggle = document.getElementById('ambient-chimes-toggle');
-    const chimesVol = document.getElementById('ambient-chimes-vol');
-
-    const timerDisplay = document.getElementById('sleep-timer-display');
-    const sleepBtns = document.querySelectorAll('.sleep-btn');
-    const guardrailModal = document.getElementById('bedtime-guardrail-modal');
-    const closeGuardrailBtn = document.getElementById('close-guardrail-btn');
-
-    function ensureAudioContext() {
+    function getAudioContext() {
       if (!audioCtx) {
-        const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-        audioCtx = new AudioContextClass();
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        audioCtx = new AudioContext();
       }
       if (audioCtx.state === 'suspended') {
         audioCtx.resume();
       }
+      return audioCtx;
     }
 
-    // Toggle Bedtime Mode Visuals & Dock
-    function toggleBedtimeMode() {
-      const isBedtime = document.documentElement.classList.toggle('dark');
-      localStorage.setItem('story_bedtime_theme', isBedtime ? 'dark' : 'light');
-      if (dock) {
-        dock.classList.toggle('hidden');
-      }
-    }
-
-    if (toggleBtn) toggleBtn.addEventListener('click', toggleBedtimeMode);
-    if (closeDockBtn) closeDockBtn.addEventListener('click', () => dock.classList.add('hidden'));
-
-    // 1. Synthesize Pink/Brown Noise for Soothing Rain
-    function startRain() {
-      ensureAudioContext();
-      const bufferSize = audioCtx.sampleRate * 2;
-      const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
-      const data = buffer.getChannelData(0);
-      let b0 = 0, b1 = 0, b2 = 0;
-      for (let i = 0; i < bufferSize; i++) {
-        const white = Math.random() * 2 - 1;
-        b0 = 0.99886 * b0 + white * 0.0555179;
-        b1 = 0.99332 * b1 + white * 0.0750759;
-        b2 = 0.96900 * b2 + white * 0.1538520;
-        data[i] = (b0 + b1 + b2) * 0.15;
-      }
-
-      rainNode = audioCtx.createBufferSource();
-      rainNode.buffer = buffer;
-      rainNode.loop = true;
-
-      // Filter to simulate soft raindrops
-      const filter = audioCtx.createBiquadFilter();
-      filter.type = 'lowpass';
-      filter.frequency.value = 800;
-
-      rainGain = audioCtx.createGain();
-      rainGain.gain.value = parseFloat(rainVol.value);
-
-      rainNode.connect(filter);
-      filter.connect(rainGain);
-      rainGain.connect(audioCtx.destination);
-      rainNode.start(0);
-    }
-
-    function stopRain() {
-      if (rainNode) {
-        try { rainNode.stop(); } catch(e) {}
-        rainNode.disconnect();
-        rainNode = null;
-      }
-    }
-
-    // 2. Synthesize Gentle Crickets Chirping
-    function chirpCricket() {
-      if (!audioCtx) return;
-      const osc = audioCtx.createOscillator();
-      const gain = audioCtx.createGain();
-
-      osc.type = 'sine';
-      osc.frequency.setValueAtTime(4500 + Math.random() * 300, audioCtx.currentTime);
-      gain.gain.setValueAtTime(0, audioCtx.currentTime);
-      gain.gain.linearRampToValueAtTime(parseFloat(cricketsVol.value) * 0.5, audioCtx.currentTime + 0.02);
-      gain.gain.linearRampToValueAtTime(0, audioCtx.currentTime + 0.08);
-
-      osc.connect(gain);
-      gain.connect(audioCtx.destination);
-      osc.start();
-      osc.stop(audioCtx.currentTime + 0.1);
-    }
-
-    function startCrickets() {
-      ensureAudioContext();
-      cricketsInterval = setInterval(() => {
-        chirpCricket();
-        setTimeout(chirpCricket, 90);
-        setTimeout(chirpCricket, 180);
-      }, 1200 + Math.random() * 800);
-    }
-
-    function stopCrickets() {
-      if (cricketsInterval) {
-        clearInterval(cricketsInterval);
-        cricketsInterval = null;
-      }
-    }
-
-    // 3. Synthesize Starlight Ambient Chimes
-    function chime() {
-      if (!audioCtx) return;
-      const freqs = [329.63, 392.00, 493.88, 587.33, 659.25]; // E minor pentatonic
-      const f = freqs[Math.floor(Math.random() * freqs.length)];
-      const osc = audioCtx.createOscillator();
-      const gain = audioCtx.createGain();
-
-      osc.type = 'sine';
-      osc.frequency.value = f;
-      gain.gain.setValueAtTime(0, audioCtx.currentTime);
-      gain.gain.linearRampToValueAtTime(parseFloat(chimesVol.value) * 0.4, audioCtx.currentTime + 0.3);
-      gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 4.0);
-
-      osc.connect(gain);
-      gain.connect(audioCtx.destination);
-      osc.start();
-      osc.stop(audioCtx.currentTime + 4.2);
-    }
-
-    function startChimes() {
-      ensureAudioContext();
-      chimesInterval = setInterval(chime, 3000 + Math.random() * 2000);
-      chime();
-    }
-
-    function stopChimes() {
-      if (chimesInterval) {
-        clearInterval(chimesInterval);
-        chimesInterval = null;
-      }
-    }
-
-    // Event listeners for ambient toggles
-    if (rainToggle) {
-      rainToggle.addEventListener('change', () => rainToggle.checked ? startRain() : stopRain());
-    }
-    if (rainVol) {
-      rainVol.addEventListener('input', () => { if (rainGain) rainGain.gain.value = parseFloat(rainVol.value); });
-    }
-
-    if (cricketsToggle) {
-      cricketsToggle.addEventListener('change', () => cricketsToggle.checked ? startCrickets() : stopCrickets());
-    }
-
-    if (chimesToggle) {
-      chimesToggle.addEventListener('change', () => chimesToggle.checked ? startChimes() : stopChimes());
-    }
-
-    // Sleep Timer with Gradual Fade
-    sleepBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const mins = parseInt(btn.getAttribute('data-mins'), 10);
-        if (timerInterval) clearInterval(timerInterval);
-        if (sleepTimerTimeout) clearTimeout(sleepTimerTimeout);
-
-        if (mins === 0) {
-          timerDisplay.textContent = 'Off';
-          return;
-        }
-
-        sleepSecondsRemaining = mins * 60;
-        updateTimerDisplay();
-
-        timerInterval = setInterval(() => {
-          sleepSecondsRemaining--;
-          if (sleepSecondsRemaining <= 0) {
-            clearInterval(timerInterval);
-            triggerBedtimeGuardrail();
-          } else {
-            updateTimerDisplay();
+    // Rain Generator
+    function toggleRain(enable, vol) {
+      const ctx = getAudioContext();
+      if (enable) {
+        if (!rainNode) {
+          const bufferSize = 2 * ctx.sampleRate;
+          const noiseBuffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+          const output = noiseBuffer.getChannelData(0);
+          let b0 = 0, b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0;
+          for (let i = 0; i < bufferSize; i++) {
+            const white = Math.random() * 2 - 1;
+            b0 = 0.99886 * b0 + white * 0.0555179;
+            b1 = 0.99332 * b1 + white * 0.0750759;
+            b2 = 0.96900 * b2 + white * 0.1538520;
+            b3 = 0.86650 * b3 + white * 0.3104856;
+            b4 = 0.55000 * b4 + white * 0.5329522;
+            b5 = -0.7616 * b5 - white * 0.0168980;
+            output[i] = b0 + b1 + b2 + b3 + b4 + b5 + b6 + white * 0.5362;
+            output[i] *= 0.11;
+            b6 = white * 0.115926;
           }
-        }, 1000);
+          rainNode = ctx.createBufferSource();
+          rainNode.buffer = noiseBuffer;
+          rainNode.loop = true;
+
+          const filter = ctx.createBiquadFilter();
+          filter.type = 'lowpass';
+          filter.frequency.value = 1000;
+
+          rainGain = ctx.createGain();
+          rainGain.gain.value = vol;
+
+          rainNode.connect(filter);
+          filter.connect(rainGain);
+          rainGain.connect(ctx.destination);
+          rainNode.start(0);
+        }
+      } else {
+        if (rainNode) {
+          try { rainNode.stop(); } catch(e){}
+          rainNode = null;
+        }
+      }
+    }
+
+    // Crickets Generator
+    function toggleCrickets(enable, vol) {
+      const ctx = getAudioContext();
+      if (enable) {
+        if (!cricketsInterval) {
+          cricketsGain = ctx.createGain();
+          cricketsGain.gain.value = vol;
+          cricketsGain.connect(ctx.destination);
+
+          cricketsInterval = setInterval(() => {
+            if (!cricketsGain) return;
+            const osc = ctx.createOscillator();
+            const g = ctx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(4500, ctx.currentTime);
+            osc.frequency.exponentialRampToValueAtTime(4800, ctx.currentTime + 0.04);
+
+            g.gain.setValueAtTime(0, ctx.currentTime);
+            g.gain.linearRampToValueAtTime(0.3, ctx.currentTime + 0.01);
+            g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.05);
+
+            osc.connect(g);
+            g.connect(cricketsGain);
+            osc.start(ctx.currentTime);
+            osc.stop(ctx.currentTime + 0.06);
+          }, 1400);
+        }
+      } else {
+        if (cricketsInterval) {
+          clearInterval(cricketsInterval);
+          cricketsInterval = null;
+        }
+      }
+    }
+
+    // Starlight Chimes
+    const pentatonicFrequencies = [523.25, 587.33, 659.25, 783.99, 880.00, 1046.50];
+    let chimesInterval = null;
+    function toggleChimes(enable, vol) {
+      const ctx = getAudioContext();
+      if (enable) {
+        if (!chimesInterval) {
+          chimesGain = ctx.createGain();
+          chimesGain.gain.value = vol;
+          chimesGain.connect(ctx.destination);
+
+          chimesInterval = setInterval(() => {
+            if (!chimesGain) return;
+            const freq = pentatonicFrequencies[Math.floor(Math.random() * pentatonicFrequencies.length)];
+            const osc = ctx.createOscillator();
+            const g = ctx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(freq, ctx.currentTime);
+
+            g.gain.setValueAtTime(0, ctx.currentTime);
+            g.gain.linearRampToValueAtTime(0.2, ctx.currentTime + 0.1);
+            g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 3.5);
+
+            osc.connect(g);
+            g.connect(chimesGain);
+            osc.start(ctx.currentTime);
+            osc.stop(ctx.currentTime + 3.6);
+          }, 3200);
+        }
+      } else {
+        if (chimesInterval) {
+          clearInterval(chimesInterval);
+          chimesInterval = null;
+        }
+      }
+    }
+
+    // Bind ambient sound checkboxes
+    const rainToggle = document.getElementById('ambient-rain-toggle');
+    const rainVol = document.getElementById('ambient-rain-vol');
+    if (rainToggle && rainVol) {
+      rainToggle.addEventListener('change', () => toggleRain(rainToggle.checked, parseFloat(rainVol.value)));
+      rainVol.addEventListener('input', () => {
+        if (rainGain) rainGain.gain.value = parseFloat(rainVol.value);
       });
-    });
-
-    function updateTimerDisplay() {
-      const m = Math.floor(sleepSecondsRemaining / 60);
-      const s = sleepSecondsRemaining % 60;
-      timerDisplay.textContent = `${m}:${s < 10 ? '0' : ''}${s}`;
     }
 
-    function triggerBedtimeGuardrail() {
-      stopRain();
-      stopCrickets();
-      stopChimes();
-      if ('speechSynthesis' in window) window.speechSynthesis.cancel();
-      if (guardrailModal) guardrailModal.classList.remove('hidden');
-    }
-
-    if (closeGuardrailBtn) {
-      closeGuardrailBtn.addEventListener('click', () => {
-        guardrailModal.classList.add('hidden');
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+    const cricketsToggle = document.getElementById('ambient-crickets-toggle');
+    const cricketsVol = document.getElementById('ambient-crickets-vol');
+    if (cricketsToggle && cricketsVol) {
+      cricketsToggle.addEventListener('change', () => toggleCrickets(cricketsToggle.checked, parseFloat(cricketsVol.value)));
+      cricketsVol.addEventListener('input', () => {
+        if (cricketsGain) cricketsGain.gain.value = parseFloat(cricketsVol.value);
       });
     }
+
+    const chimesToggle = document.getElementById('ambient-chimes-toggle');
+    const chimesVol = document.getElementById('ambient-chimes-vol');
+    if (chimesToggle && chimesVol) {
+      chimesToggle.addEventListener('change', () => toggleChimes(chimesToggle.checked, parseFloat(chimesVol.value)));
+      chimesVol.addEventListener('input', () => {
+        if (chimesGain) chimesGain.gain.value = parseFloat(chimesVol.value);
+      });
+    }
+
+    // 7. LOAD DEVICE VOICES
+    function loadVoices() {
+      if (!('speechSynthesis' in window) || !voiceSelect) return;
+      const voices = window.speechSynthesis.getVoices();
+      if (!voices.length) return;
+
+      voiceSelect.innerHTML = '';
+      const matchingVoices = voices
+        .filter(v => v.lang.startsWith(currentLang) || v.lang.startsWith('en'))
+        .sort((a, b) => (b.name.includes('Natural') ? 1 : 0) - (a.name.includes('Natural') ? 1 : 0));
+
+      const list = matchingVoices.length ? matchingVoices : voices;
+      list.forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v.name;
+        opt.textContent = `${v.name.includes('Natural') ? '✨ ' : ''}${v.name} (${v.lang})`;
+        voiceSelect.appendChild(opt);
+      });
+    }
+
+    if ('speechSynthesis' in window) {
+      loadVoices();
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+
+    // Initial load of default collection
+    const initialCol = colSelect?.value || 'panchatantra';
+    loadCollectionPlaylist(initialCol);
   })();
 </script>

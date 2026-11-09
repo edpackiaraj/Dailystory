@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 import BottomNav from '../components/BottomNav.astro';
 import AaPanel from '../components/AaPanel.astro';
 import LanguageModal from '../components/LanguageModal.astro';
+import BedtimeBar from '../components/BedtimeBar.astro';
 import { getLanguageMeta } from '../lib/i18n';
 
 interface Props {
@@ -237,6 +238,7 @@ const defaultJsonLd = [
     <BottomNav currentLang={lang} activeTab={activeNavTab} />
     <AaPanel currentLang={lang} />
     <LanguageModal currentLang={lang} />
+    <BedtimeBar currentLang={lang} />
 
     <!-- Offline Reading Service Worker Registration -->
     <script is:inline>
