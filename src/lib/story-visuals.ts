@@ -32,7 +32,218 @@ export function getStoryVisual(story: {
     return new RegExp(`(^|[^a-z0-9])${w}([^a-z0-9]|$)`, 'i').test(text);
   };
 
-  // 1. SPECIFIC FAMOUS FABLES & TALES
+  const col = (story.collection || '').toLowerCase();
+
+  // 1. PRIMARY COLLECTION-SPECIFIC MOTIFS (Guarantees every collection gets its authentic, accurate thumbnail)
+  if (col.includes('vikram') || col.includes('vetal') || col.includes('விக்கிரமாதித்தன்') || col.includes('வேதாளம்')) {
+    return {
+      motif: 'vikram_vetal',
+      icon: '🗡️ 🌲 🌕 🦉',
+      theme: 'starlight_violet',
+      bgGradient: 'from-purple-800 via-indigo-950 to-slate-950',
+      accentColor: '#C084FC',
+      decorType: 'stars',
+      label: {
+        en: 'King Vikram & The Wise Vetal',
+        ta: 'விக்கிரமாதித்தன்–வேதாளம் புதிர்க்கதைகள்',
+        hi: 'विक्रम और बेताल की न्याय कथाएँ'
+      }
+    };
+  }
+
+  if (col.includes('tenali') || col.includes('தெனாலிராமன்')) {
+    return {
+      motif: 'tenali_rama',
+      icon: '👳‍♂️ 🪷 👑 ✨',
+      theme: 'emerald_forest',
+      bgGradient: 'from-teal-700 via-emerald-950 to-slate-950',
+      accentColor: '#10B981',
+      decorType: 'palace',
+      label: {
+        en: "Tenali Rama's Courtly Wit",
+        ta: 'தெனாலிராமன் சாதுரியக் கதைகள்',
+        hi: 'तेनालीराम के हास्य-विनोद'
+      }
+    };
+  }
+
+  if (col.includes('akbar') || col.includes('birbal') || col.includes('அக்பர்')) {
+    return {
+      motif: 'akbar_birbal',
+      icon: '👑 🏛️ 💎 📜',
+      theme: 'royal_indigo',
+      bgGradient: 'from-indigo-700 via-blue-950 to-slate-950',
+      accentColor: '#FBBF24',
+      decorType: 'palace',
+      label: {
+        en: 'Akbar & Birbal Wisdom Tales',
+        ta: 'அக்பர்–பீர்பால் விவேகக் கதைகள்',
+        hi: 'अकबर–बीरबल की बुद्धिमत्ता'
+      }
+    };
+  }
+
+  if (col.includes('paramartha') || col.includes('பரமார்த்த')) {
+    return {
+      motif: 'paramartha_tales',
+      icon: '🌴 🥥 📜 🐂',
+      theme: 'rustic_lime',
+      bgGradient: 'from-emerald-600 via-teal-950 to-lime-950',
+      accentColor: '#2DD4BF',
+      decorType: 'village',
+      label: {
+        en: 'Paramartha Guru Stories',
+        ta: 'பரமார்த்த குரு கதைகள் (வீரமாமுனிவர்)',
+        hi: 'परमार्थ गुरु के अनोखे किस्से'
+      }
+    };
+  }
+
+  if (col.includes('nasruddin') || col.includes('முல்லா')) {
+    return {
+      motif: 'nasruddin_tales',
+      icon: '🫏 👳 🌻 📜',
+      theme: 'amber_gold',
+      bgGradient: 'from-orange-600 via-amber-950 to-stone-900',
+      accentColor: '#FB923C',
+      decorType: 'village',
+      label: {
+        en: 'Mulla Nasruddin Joyful Wit',
+        ta: 'முல்லா நஸ்ருதீன் தத்துவக் கதைகள்',
+        hi: 'मुल्ला नसरुद्दीन के रोचक किस्से'
+      }
+    };
+  }
+
+  if (col.includes('panchatantra') || col.includes('பஞ்சதந்திர')) {
+    return {
+      motif: 'panchatantra',
+      icon: '🦁 🐘 🦊 📜',
+      theme: 'amber_gold',
+      bgGradient: 'from-amber-600 via-emerald-900 to-slate-950',
+      accentColor: '#F59E0B',
+      decorType: 'forest',
+      label: {
+        en: 'Panchatantra Animal Wisdom',
+        ta: 'பஞ்சதந்திர நீதிப் புதையல்',
+        hi: 'पंचतंत्र की अमर नीति कथाएँ'
+      }
+    };
+  }
+
+  if (col.includes('jataka') || col.includes('ஜாதகக்')) {
+    return {
+      motif: 'jataka_tales',
+      icon: '🪷 🦌 🕊️ 🌟',
+      theme: 'amber_gold',
+      bgGradient: 'from-amber-600 via-yellow-900 to-stone-950',
+      accentColor: '#FBBF24',
+      decorType: 'scroll',
+      label: {
+        en: 'Jataka Tales of Compassion',
+        ta: 'ஜாதகக் கதைகள் – அருள்நெறி',
+        hi: 'जातक कथाएँ (करुणा व त्याग)'
+      }
+    };
+  }
+
+  if (col.includes('arabian') || col.includes('ஆயிரத்தொரு') || col.includes('அரேபிய')) {
+    return {
+      motif: 'arabian_nights',
+      icon: '🌙 🕌 ⭐ 🧞',
+      theme: 'starlight_violet',
+      bgGradient: 'from-cyan-700 via-indigo-950 to-purple-950',
+      accentColor: '#38BDF8',
+      decorType: 'stars',
+      label: {
+        en: '1001 Arabian Nights',
+        ta: 'ஆயிரத்தொரு இரவுகள் காவியம்',
+        hi: 'अलिफ लैला की जादुई कहानियाँ'
+      }
+    };
+  }
+
+  if (col.includes('aesop') || col.includes('ஈசாப்')) {
+    return {
+      motif: 'aesops_fables',
+      icon: '🏛️ 🦊 🍇 🦉',
+      theme: 'emerald_forest',
+      bgGradient: 'from-emerald-700 via-teal-950 to-amber-950',
+      accentColor: '#34D399',
+      decorType: 'forest',
+      label: {
+        en: "Aesop's Timeless Moral Fables",
+        ta: 'ஈசாப் உலக நீதிக்கதைகள்',
+        hi: 'ईसप की अमर नीतिकथाएँ'
+      }
+    };
+  }
+
+  if (col.includes('cinderella') || col.includes('சிண்ட்ரெல்லா')) {
+    return {
+      motif: 'cinderella_story',
+      icon: '👠 ✨ 🎃 🏰',
+      theme: 'starlight_violet',
+      bgGradient: 'from-sky-700 via-indigo-950 to-purple-950',
+      accentColor: '#38BDF8',
+      decorType: 'castle',
+      label: {
+        en: 'Cinderella World Folktales',
+        ta: 'சிண்ட்ரெல்லா உலகக் கதைகள்',
+        hi: 'सिंड्रेला की विश्व प्रसिद्ध कथाएँ'
+      }
+    };
+  }
+
+  if (col.includes('grimm') || col.includes('கிரிம்')) {
+    return {
+      motif: 'grimm_fairy',
+      icon: '🌲 🏰 🌹 ✨',
+      theme: 'crimson_rose',
+      bgGradient: 'from-rose-700 via-purple-950 to-slate-950',
+      accentColor: '#F43F5E',
+      decorType: 'castle',
+      label: {
+        en: "Brothers Grimm's Fairy Tales",
+        ta: 'கிரிம் சகோதரர்கள் மாயக்கதைகள்',
+        hi: 'ग्रिम्स की जादुई परिकथाएँ'
+      }
+    };
+  }
+
+  if (col.includes('andersen') || col.includes('ஆண்டர்சன்')) {
+    return {
+      motif: 'andersen_tales',
+      icon: '🦢 ❄️ 🏰 🌟',
+      theme: 'river_cyan',
+      bgGradient: 'from-sky-600 via-cyan-950 to-indigo-950',
+      accentColor: '#38BDF8',
+      decorType: 'castle',
+      label: {
+        en: 'Hans Christian Andersen Tales',
+        ta: 'ஹான்ஸ் ஆண்டர்சன் இலக்கியக் கதைகள்',
+        hi: 'हंस एंडरसन की अमर कहानियाँ'
+      }
+    };
+  }
+
+  if (col.includes('perrault') || col.includes('பெரோ')) {
+    return {
+      motif: 'charles_perrault',
+      icon: '👢 🏰 🪓 👑',
+      theme: 'royal_indigo',
+      bgGradient: 'from-indigo-700 via-purple-950 to-slate-950',
+      accentColor: '#FBBF24',
+      decorType: 'castle',
+      label: {
+        en: 'Charles Perrault Classical Tales',
+        ta: 'சார்லஸ் பெரோ செவ்வியல் கதைகள்',
+        hi: 'चार्ल्स पेरोट की क्लासिक कहानियाँ'
+      }
+    };
+  }
+
+  // 2. SPECIFIC FAMOUS FABLES & TALES
   if (text.includes('red riding hood') || text.includes('chaperon rouge') || text.includes('சிவப்புத் தொப்பி')) {
     return {
       motif: 'red_riding_hood',
@@ -686,193 +897,6 @@ export function getStoryVisual(story: {
         en: 'Enchanted Realms & Wonders',
         ta: 'மாயமும் அதிசயங்களும்',
         hi: 'जादुई दुनिया और चमत्कार'
-      }
-    };
-  }
-
-  // 4. COLLECTION FALLBACKS
-  const col = (story.collection || '').toLowerCase();
-  if (col.includes('akbar')) {
-    return {
-      motif: 'akbar_birbal',
-      icon: '👑 🏛️ 💎 📜',
-      theme: 'royal_indigo',
-      bgGradient: 'from-indigo-700 via-blue-950 to-slate-950',
-      accentColor: '#FBBF24',
-      decorType: 'palace',
-      label: {
-        en: 'Akbar & Birbal Wisdom Tales',
-        ta: 'அக்பர்–பீர்பால் விவேகக் கதைகள்',
-        hi: 'अकबर–बीरबल की बुद्धिमत्ता'
-      }
-    };
-  }
-
-  if (col.includes('tenali')) {
-    return {
-      motif: 'tenali_rama',
-      icon: '👳‍♂️ 🪷 👑 ✨',
-      theme: 'emerald_forest',
-      bgGradient: 'from-teal-700 via-emerald-950 to-slate-950',
-      accentColor: '#10B981',
-      decorType: 'palace',
-      label: {
-        en: "Tenali Rama's Courtly Wit",
-        ta: 'தெனாலிராமன் சாதுரியக் கதைகள்',
-        hi: 'तेनालीराम के हास्य-विनोद'
-      }
-    };
-  }
-
-  if (col.includes('panchatantra')) {
-    return {
-      motif: 'panchatantra',
-      icon: '🦁 🐘 🦊 📜',
-      theme: 'amber_gold',
-      bgGradient: 'from-amber-600 via-emerald-900 to-slate-950',
-      accentColor: '#F59E0B',
-      decorType: 'forest',
-      label: {
-        en: 'Panchatantra Animal Wisdom',
-        ta: 'பஞ்சதந்திர நீதிப் புதையல்',
-        hi: 'पंचतंत्र की अमर नीति कथाएँ'
-      }
-    };
-  }
-
-  if (col.includes('jataka')) {
-    return {
-      motif: 'jataka_tales',
-      icon: '🪷 🦌 🕊️ 🌟',
-      theme: 'amber_gold',
-      bgGradient: 'from-amber-600 via-yellow-900 to-stone-950',
-      accentColor: '#FBBF24',
-      decorType: 'scroll',
-      label: {
-        en: 'Jataka Tales of Compassion',
-        ta: 'ஜாதகக் கதைகள் – அருள்நெறி',
-        hi: 'जातक कथाएँ (करुणा व त्याग)'
-      }
-    };
-  }
-
-  if (col.includes('arabian')) {
-    return {
-      motif: 'arabian_nights',
-      icon: '🌙 🕌 ⭐ 🧞',
-      theme: 'starlight_violet',
-      bgGradient: 'from-cyan-700 via-indigo-950 to-purple-950',
-      accentColor: '#38BDF8',
-      decorType: 'stars',
-      label: {
-        en: '1001 Arabian Nights',
-        ta: 'ஆயிரத்தொரு இரவுகள் காவியம்',
-        hi: 'अलिफ लैला की जादुई कहानियाँ'
-      }
-    };
-  }
-
-  if (col.includes('aesop')) {
-    return {
-      motif: 'aesops_fables',
-      icon: '🏛️ 🦊 🍇 🦉',
-      theme: 'emerald_forest',
-      bgGradient: 'from-emerald-700 via-teal-950 to-amber-950',
-      accentColor: '#34D399',
-      decorType: 'forest',
-      label: {
-        en: "Aesop's Timeless Moral Fables",
-        ta: 'ஈசாப் உலக நீதிக்கதைகள்',
-        hi: 'ईसप की अमर नीतिकथाएँ'
-      }
-    };
-  }
-
-  if (col.includes('grimm')) {
-    return {
-      motif: 'grimm_fairy',
-      icon: '🌲 🏰 🌹 ✨',
-      theme: 'emerald_forest',
-      bgGradient: 'from-rose-700 via-purple-950 to-slate-950',
-      accentColor: '#F43F5E',
-      decorType: 'castle',
-      label: {
-        en: "Brothers Grimm's Fairy Tales",
-        ta: 'கிரிம் சகோதரர்கள் மாயக்கதைகள்',
-        hi: 'ग्रिम्स की जादुई परिकथाएँ'
-      }
-    };
-  }
-
-  if (col.includes('andersen')) {
-    return {
-      motif: 'andersen_tales',
-      icon: '🦢 ❄️ 🏰 🌟',
-      theme: 'river_cyan',
-      bgGradient: 'from-sky-600 via-cyan-950 to-indigo-950',
-      accentColor: '#38BDF8',
-      decorType: 'castle',
-      label: {
-        en: 'Hans Christian Andersen Tales',
-        ta: 'ஹான்ஸ் ஆண்டர்சன் இலக்கியக் கதைகள்',
-        hi: 'हंस एंडरसन की अमर कहानियाँ'
-      }
-    };
-  }
-
-  if (col.includes('nasruddin')) {
-    return {
-      motif: 'nasruddin_tales',
-      icon: '🫏 👳 🌻 📜',
-      theme: 'amber_gold',
-      bgGradient: 'from-orange-600 via-amber-950 to-stone-900',
-      accentColor: '#FB923C',
-      decorType: 'village',
-      label: {
-        en: 'Mulla Nasruddin Joyful Wit',
-        ta: 'முல்லா நஸ்ருதீன் தத்துவக் கதைகள்',
-        hi: 'मुल्ला नसरुद्दीन के रोचक किस्से'
-      }
-    };
-  }
-
-  if (col.includes('paramartha')) {
-    return {
-      motif: 'paramartha_tales',
-      icon: '🌴 🥥 📜 🐂',
-      theme: 'rustic_lime',
-      bgGradient: 'from-emerald-600 via-teal-950 to-lime-950',
-      accentColor: '#2DD4BF',
-      decorType: 'village',
-      label: {
-        en: 'Paramartha Guru Stories',
-        ta: 'பரமார்த்த குரு கதைகள் (வீரமாமுனிவர்)',
-        hi: 'परमार्थ गुरु के अनोखे किस्से'
-      }
-    };
-  }
-
-  if (col.includes('vikram')) {
-    return {
-      motif: 'vikram_vetal',
-      icon: '🗡️ 🌲 🌕 🦉',
-      theme: 'starlight_violet',
-      bgGradient: 'from-purple-700 via-indigo-950 to-slate-950',
-      accentColor: '#C084FC',
-      decorType: 'stars',
-      label: {
-        en: 'King Vikram & The Wise Vetal',
-        ta: 'விக்கிரமாதித்தன்–வேதாளம் புதிர்க்கதைகள்',
-        hi: 'विक्रम और बेताल की न्याय कथाएँ'
-      }
-    };
-  }
-      accentColor: '#F59E0B',
-      decorType: 'forest',
-      label: {
-        en: 'Vikram & Vetal Enigma',
-        ta: 'விக்கிரமாதித்தன்–வேதாளம் நீதிப்புதிர்',
-        hi: 'विक्रम और बेताल'
       }
     };
   }

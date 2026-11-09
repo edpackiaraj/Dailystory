@@ -12,6 +12,10 @@ console.log('\n1-caste. Neutralizing caste references (e.g. Brahmin -> Priest / 
 res = spawnSync('node', ['scripts/neutralize-caste.mjs'], { stdio: 'inherit' });
 if (res.status !== 0) process.exit(res.status || 1);
 
+console.log('\n1-images. Ensuring accurate story & collection thumbnails...');
+res = spawnSync('node', ['scripts/fix-story-images.mjs'], { stdio: 'inherit' });
+if (res.status !== 0) process.exit(res.status || 1);
+
 console.log('\n1b. Sanitizing tags and applying translations...');
 res = spawnSync('node', ['scripts/sanitize-and-translate-stories.mjs'], { stdio: 'inherit' });
 if (res.status !== 0) process.exit(res.status || 1);
