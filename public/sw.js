@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dailytale-cache-v4';
+const CACHE_NAME = 'dailytale-cache-v5';
 const STATIC_ASSETS = [
   '/',
   '/manifest.json',
@@ -29,6 +29,8 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   // Ignore admin and API calls
   if (event.request.url.includes('/admin') || event.request.url.includes('/api/')) return;
+  // Only cache same-origin assets; let browser load external fonts/CDNs natively without CSP connect-src conflict
+  if (!event.request.url.startsWith(self.location.origin)) return;
 
   // For HTML documents / page navigations: Network-First to guarantee fresh updates
   const isHtml = event.request.mode === 'navigate' || (event.request.headers.get('accept') && event.request.headers.get('accept').includes('text/html'));

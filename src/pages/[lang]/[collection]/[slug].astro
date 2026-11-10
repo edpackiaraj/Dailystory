@@ -1632,12 +1632,13 @@ const jsonLd = [
   // 7. Track Story Reading & Listening Progress for "Continue Reading/Listening"
   (function trackStoryProgress() {
     try {
-      const storyId = '{story.id}';
-      const storyTitle = {JSON.stringify(story.title)};
-      const storyCollection = {JSON.stringify(story.collection)};
+      const suite = document.getElementById('story-audio-suite');
+      const storyId = suite?.getAttribute('data-story-id') || window.location.pathname;
+      const storyTitle = suite?.getAttribute('data-story-title') || document.title.replace(' — Daily Tale', '').replace(' | Daily Tale', '');
+      const storyCollection = suite?.getAttribute('data-collection') || '';
       const currentUrl = window.location.pathname;
-      const currentLang = '{currentLang}';
-      const storyImg = {JSON.stringify(story.image || '')};
+      const currentLang = document.documentElement.lang || 'en';
+      const storyImg = document.querySelector('meta[property="og:image"]')?.getAttribute('content') || '';
 
       function saveProgress(extra) {
         extra = extra || {};
@@ -1721,9 +1722,11 @@ const jsonLd = [
 
       if (!trBtn || !contentElem) return;
 
-      const targetLang = '{currentLang}';
-      const nativeLangName = '{currentLangObj.native}';
-      const storyId = '{story.id}';
+      const targetLang = document.documentElement.lang || 'en';
+      const trLabelElem = document.getElementById('tr-label');
+      const nativeLangName = trLabelElem?.textContent?.replace('Translate to ', '') || targetLang;
+      const suite = document.getElementById('story-audio-suite');
+      const storyId = suite?.getAttribute('data-story-id') || window.location.pathname;
       const cacheKey = 'dailytale_rt_' + storyId + '_' + targetLang;
 
       const paragraphs = Array.from(contentElem.querySelectorAll('p'));
