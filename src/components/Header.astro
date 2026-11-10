@@ -21,79 +21,37 @@ const currentLangObj = getLanguageMeta(currentLang);
     Skip to main content
   </a>
 
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16 sm:h-18 gap-2 sm:gap-4">
+  <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+    <!-- ROW 1: Brand Wordmark (Left) + Utility Controls (Right) -->
+    <div class="flex items-center justify-between h-14 sm:h-16 gap-2 sm:gap-4 border-b border-[#EEDFC8]/40 dark:border-[#383659]/40">
       
       <!-- Left: Brand Logo & Wordmark -->
       <a
         href={`/${currentLang}/`}
-        class="flex items-center gap-2.5 shrink-0 group focus:outline-none focus:ring-2 focus:ring-[#D97706] rounded-xl p-1 -ml-1 transition-all"
+        class="flex items-center gap-2 sm:gap-2.5 shrink-0 group focus:outline-none focus:ring-2 focus:ring-[#D97706] rounded-xl p-1 -ml-1 transition-all"
         aria-label={`${brandConfig.name} - Home`}
       >
-        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-linear-to-br from-[#D97706] to-[#B45309] flex items-center justify-center shadow-xs group-hover:scale-105 transition-transform overflow-hidden">
+        <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-linear-to-br from-[#D97706] to-[#B45309] flex items-center justify-center shadow-xs group-hover:scale-105 transition-transform overflow-hidden shrink-0">
           <img
             src="/favicon.svg"
             alt="Daily Tale Story Owl Mascot"
             width="32"
             height="32"
-            class="w-6 h-6 sm:w-7 sm:h-7 object-contain"
+            class="w-5 h-5 sm:w-7 sm:h-7 object-contain"
           />
         </div>
         <div class="flex flex-col">
-          <span class="text-lg sm:text-xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-none group-hover:text-[#D97706] transition-colors">
+          <span class="text-base sm:text-xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-none group-hover:text-[#D97706] transition-colors">
             {brandConfig.name}
           </span>
-          <span class="text-[10px] sm:text-[11px] font-medium text-[#8C7A6B] dark:text-[#A89F91] tracking-tight mt-0.5 leading-none">
+          <span class="text-[9px] sm:text-[11px] font-medium text-[#8C7A6B] dark:text-[#A89F91] tracking-tight mt-0.5 leading-none line-clamp-1">
             {brandConfig.tagline}
           </span>
         </div>
       </a>
 
-      <!-- Center-Aligned Desktop Navigation Links -->
-      <nav class="hidden lg:flex items-center justify-center flex-1 mx-2 gap-1 xl:gap-2 text-sm font-semibold text-[#4A3B2C] dark:text-[#E2D9CC] min-w-0" aria-label="Main Navigation">
-        <a
-          href={`/${currentLang}/`}
-          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all whitespace-nowrap shrink-0"
-        >
-          {t.storyOfTheDay || "Today's Story"}
-        </a>
-        <a
-          href={`/${currentLang}/collections/`}
-          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all whitespace-nowrap shrink-0"
-        >
-          {t.stories || "Stories"}
-        </a>
-        <a
-          href={`/${currentLang}/classroom/`}
-          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1.5 whitespace-nowrap shrink-0"
-        >
-          <span>🎓</span>
-          <span>{t.classroom || "My Classroom"}</span>
-        </a>
-        <a
-          href={`/${currentLang}/guide/`}
-          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1.5 whitespace-nowrap shrink-0"
-        >
-          <span>📖</span>
-          <span>{currentLang === 'ta' ? 'வழிகாட்டி' : (t.guide || "Guide")}</span>
-        </a>
-        <a
-          href={`/${currentLang}/favorites/`}
-          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1 whitespace-nowrap shrink-0"
-        >
-          <span>⭐</span>
-          <span>{t.favourites || "Favorites"}</span>
-        </a>
-        <a
-          href={`/${currentLang}/about/`}
-          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all whitespace-nowrap shrink-0"
-        >
-          {t.about || "About"}
-        </a>
-      </nav>
-
-      <!-- Right Utility Bar (Novatool-inspired compact controls) -->
-      <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
+      <!-- Right Utility Bar (Controls) -->
+      <div class="flex items-center gap-1 sm:gap-2 shrink-0">
         
         <!-- Bedtime & Travel Continuous Audio Player Trigger -->
         <button
@@ -101,7 +59,7 @@ const currentLangObj = getLanguageMeta(currentLang);
           id="open-bedtime-player-btn"
           title={currentLang === 'ta' ? 'இரவு தூக்கம் & பயணத் தொடர் வாசிப்பு (Bedtime & Travel Player)' : 'Bedtime & Travel Continuous Player'}
           aria-label="Bedtime & Travel Continuous Player"
-          class="px-2.5 sm:px-3 py-1.5 rounded-full border border-indigo-300 dark:border-indigo-700 bg-indigo-50 dark:bg-indigo-950/70 text-indigo-900 dark:text-indigo-200 hover:bg-indigo-100 dark:hover:bg-indigo-900/60 transition-all flex items-center gap-1.5 text-xs font-bold shadow-2xs min-h-[38px]"
+          class="px-2 sm:px-3 py-1.5 rounded-full border border-indigo-300 dark:border-indigo-700 bg-indigo-50 dark:bg-indigo-950/70 text-indigo-900 dark:text-indigo-200 hover:bg-indigo-100 dark:hover:bg-indigo-900/60 transition-all flex items-center gap-1.5 text-xs font-bold shadow-2xs min-h-[36px]"
         >
           <span class="text-sm">🌙</span>
           <span class="hidden md:inline font-semibold">{currentLang === 'ta' ? 'தூக்கம் & பயணம்' : 'Bedtime Player'}</span>
@@ -115,7 +73,7 @@ const currentLangObj = getLanguageMeta(currentLang);
           aria-label="Toggle Learning Mode"
           data-school-mode={t.schoolMode || "Mode: School"}
           data-general-mode={t.generalMode || "Mode: General"}
-          class="px-2.5 sm:px-3 py-1.5 rounded-full border border-[#EEDFC8] dark:border-[#383659] bg-[#FFF8EC] dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1.5 text-xs font-bold shadow-2xs min-h-[38px]"
+          class="px-2 sm:px-3 py-1.5 rounded-full border border-[#EEDFC8] dark:border-[#383659] bg-[#FFF8EC] dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1.5 text-xs font-bold shadow-2xs min-h-[36px]"
         >
           <span id="mode-icon" class="text-sm">👁️</span>
           <span id="mode-text" class="hidden sm:inline font-semibold">{t.generalMode || "Mode: General"}</span>
@@ -129,7 +87,7 @@ const currentLangObj = getLanguageMeta(currentLang);
           aria-label="Toggle Night/Day Theme"
           data-day-text={t.light || "Day"}
           data-night-text={t.night || "Night"}
-          class="px-2.5 py-1.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] bg-[#FFF8EC] dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1 text-[11px] sm:text-xs font-semibold shadow-2xs min-h-[38px]"
+          class="px-2 sm:px-2.5 py-1.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] bg-[#FFF8EC] dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1 text-[11px] sm:text-xs font-semibold shadow-2xs min-h-[36px]"
         >
           <span id="theme-icon" class="text-xs">🌙</span>
           <span id="theme-text" class="text-[11px]">{t.night || "Night"}</span>
@@ -141,7 +99,7 @@ const currentLangObj = getLanguageMeta(currentLang);
           data-open-aa-panel
           title="Reader Settings (Font size, style, theme)"
           aria-label="Open Reader Settings"
-          class="px-2.5 py-1.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] bg-white dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1 text-xs font-bold min-h-[38px]"
+          class="px-2 sm:px-2.5 py-1.5 rounded-xl border border-[#EEDFC8] dark:border-[#383659] bg-white dark:bg-[#1F1E33] text-[#3B2A1A] dark:text-[#F3EBDD] hover:border-[#D97706] transition-all flex items-center gap-1 text-xs font-bold min-h-[36px]"
         >
           <span class="text-xs font-serif font-black">Aa</span>
         </button>
@@ -152,7 +110,7 @@ const currentLangObj = getLanguageMeta(currentLang);
           data-open-lang-modal
           title="Change language"
           aria-label="Change Language"
-          class="px-2.5 sm:px-3 py-1.5 rounded-xl border border-[#D97706]/40 bg-[#D97706]/10 text-[#D97706] dark:text-[#F59E0B] hover:bg-[#D97706]/20 transition-all flex items-center gap-1.5 text-xs font-bold min-h-[38px]"
+          class="px-2 sm:px-3 py-1.5 rounded-xl border border-[#D97706]/40 bg-[#D97706]/10 text-[#D97706] dark:text-[#F59E0B] hover:bg-[#D97706]/20 transition-all flex items-center gap-1.5 text-xs font-bold min-h-[36px]"
         >
           <span class="text-xs">🌐</span>
           <span class="font-bold text-xs">{currentLangObj.native}</span>
@@ -162,6 +120,53 @@ const currentLangObj = getLanguageMeta(currentLang);
       </div>
 
     </div>
+
+    <!-- ROW 2: Dedicated Horizontal Navigation Bar (Zero overlapping, smooth horizontal scroll on mobile) -->
+    <div class="py-1.5 overflow-x-auto scrollbar-none">
+      <nav class="flex items-center justify-start md:justify-center gap-1 sm:gap-2 text-xs sm:text-sm font-semibold text-[#4A3B2C] dark:text-[#E2D9CC] min-w-max mx-auto px-1" aria-label="Main Navigation">
+        <a
+          href={`/${currentLang}/`}
+          class="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all whitespace-nowrap shrink-0"
+        >
+          {t.storyOfTheDay || "Today's Story"}
+        </a>
+        <a
+          href={`/${currentLang}/collections/`}
+          class="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all whitespace-nowrap shrink-0"
+        >
+          {t.stories || "Stories"}
+        </a>
+        <a
+          href={`/${currentLang}/classroom/`}
+          class="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1.5 whitespace-nowrap shrink-0"
+        >
+          <span>🎓</span>
+          <span>{t.classroom || "My Classroom"}</span>
+        </a>
+        <a
+          href={`/${currentLang}/guide/`}
+          class="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1.5 whitespace-nowrap shrink-0"
+        >
+          <span>📖</span>
+          <span>{currentLang === 'ta' ? 'வழிகாட்டி' : (t.guide || "Guide")}</span>
+        </a>
+        <a
+          href={`/${currentLang}/favorites/`}
+          class="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1 whitespace-nowrap shrink-0"
+        >
+          <span>⭐</span>
+          <span>{t.favourites || "Favorites"}</span>
+        </a>
+        <a
+          href={`/${currentLang}/about/`}
+          class="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all whitespace-nowrap shrink-0"
+        >
+          {t.about || "About"}
+        </a>
+      </nav>
+    </div>
+
+  </div>
   </div>
 </header>
 

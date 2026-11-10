@@ -32,6 +32,10 @@ console.log('\n2b. Exporting individual story files with descriptive names...');
 res = spawnSync('node', ['scripts/export-individual-stories.mjs'], { stdio: 'inherit' });
 if (res.status !== 0) process.exit(res.status || 1);
 
+console.log('\n2c. Generating bedtime & narrator playlists...');
+res = spawnSync('node', ['scripts/generate-playlists.mjs'], { stdio: 'inherit' });
+if (res.status !== 0) process.exit(res.status || 1);
+
 console.log('\n3. Generating sitemaps and robots.txt...');
 res = spawnSync('node', ['scripts/generate-sitemaps.mjs'], { stdio: 'inherit' });
 if (res.status !== 0) process.exit(res.status || 1);

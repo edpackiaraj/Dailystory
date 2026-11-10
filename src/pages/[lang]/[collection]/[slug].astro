@@ -308,9 +308,12 @@ const jsonLd = [
         <div class="space-y-8">
             <!-- Embedded Collection Playlist for Seamless Auto-Advance Narration -->
             <script type="application/json" id="story-collection-playlist" set:html={JSON.stringify(
-              allColStories.map(s => ({
+              allColStories.slice(0, 30).map(s => ({
+                id: s.id,
                 title: s.title,
                 slug: s.slug,
+                collection: s.collection,
+                reading_time: s.reading_time || '3m',
                 url: getStoryUrl(s, currentLang),
                 full_text: s.full_text || '',
                 moral: s.moral || '',

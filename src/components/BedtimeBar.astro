@@ -1,5 +1,6 @@
 ---
 import { getT } from '../lib/i18n';
+import { getStoriesByLang } from '../lib/stories';
 
 interface Props {
   currentLang: string;
@@ -8,6 +9,20 @@ interface Props {
 const { currentLang } = Astro.props;
 const t = getT(currentLang);
 const isTa = currentLang === 'ta';
+
+// Curate 5 initial stories for 0ms offline instant bedtime narration on any page
+const allLangStories = getStoriesByLang(currentLang);
+const initialStories = (allLangStories || []).slice(0, 5).map(s => ({
+  id: s.id,
+  slug: s.slug,
+  title: s.title,
+  collection: s.collection,
+  reading_time: s.reading_time || '3m',
+  full_text: s.full_text || '',
+  moral: s.moral || '',
+  vocabulary: (s.vocabulary || []).slice(0, 3),
+  discussion_questions: (s.discussion_questions || []).slice(0, 2)
+}));
 
 const collectionsList = [
   { slug: "all", name: isTa ? "🌟 அனைத்துக் கதைத் தொகுப்புகள்" : "🌟 All Collections (Mixed Wisdom)" },
@@ -49,6 +64,9 @@ const collectionsList = [
   class="hidden fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:w-104 max-h-[90vh] z-50 bg-linear-to-b from-slate-900/98 via-indigo-950/98 to-slate-950/98 border border-indigo-500/50 backdrop-blur-2xl rounded-3xl p-5 sm:p-6 shadow-2xl text-slate-100 overflow-y-auto transition-all duration-300"
   data-lang={currentLang}
 >
+  <!-- Curated Initial Bedtime Playlist for Instant 0ms Playback -->
+  <script type="application/json" id="bedtime-initial-playlist" set:html={JSON.stringify(initialStories)}></script>
+
   <!-- Header Bar -->
   <div class="flex items-center justify-between pb-3.5 border-b border-indigo-800/60">
     <div class="flex items-center gap-2.5">
@@ -397,43 +415,85 @@ const collectionsList = [
 
     // 2. LOAD PLAYLIST DATA
     async function loadCollectionPlaylist(colSlug) {
-      statusBadge.textContent = isTa ? 'ஏற்றுகிறது...' : 'Loading playlist...';
-      const cacheKey = `${currentLang}_${colSlug}`;
-      if (cachedPlaylists[cacheKey]) {
+      const safeSlug = colSlug || 'all';
+      const cacheKey = `${currentLang}_${safeSlug}`;
+
+      if (cachedPlaylists[cacheKey] && cachedPlaylists[cacheKey].length) {
         playlist = cachedPlaylists[cacheKey];
         currentStoryIdx = 0;
         updateStoryUI();
         return;
       }
 
-      // Check inline story playlist on story page first (instant & offline)
+      if (statusBadge) statusBadge.textContent = isTa ? 'ஏற்றுகிறது...' : 'Loading playlist...';
+
+      // 1. Check inline story playlist on story page first (instant & offline)
       const inlineDataEl = document.getElementById('story-collection-playlist');
       if (inlineDataEl) {
         try {
           const inlineList = JSON.parse(inlineDataEl.textContent);
           if (Array.isArray(inlineList) && inlineList.length) {
-            playlist = inlineList;
-            cachedPlaylists[cacheKey] = playlist;
-            const curSlug = window.location.pathname.replace(/\/$/, '').split('/').pop();
+            const currentPath = window.location.pathname.replace(/\/$/, '');
+            const curSlug = currentPath.split('/').pop();
             const foundIdx = inlineList.findIndex(s => s.slug === curSlug);
-            currentStoryIdx = foundIdx >= 0 ? foundIdx : 0;
+            const pathCol = currentPath.split('/')[2] || '';
+            // If requested collection is "all", or matches this story page's collection, or is default initial load
+            if (safeSlug === 'all' || safeSlug === pathCol || (!cachedPlaylists[cacheKey] && safeSlug === 'panchatantra')) {
+              playlist = inlineList;
+              cachedPlaylists[cacheKey] = playlist;
+              currentStoryIdx = foundIdx >= 0 ? foundIdx : 0;
+              updateStoryUI();
+              return;
+            }
+          }
+        } catch(e){}
+      }
+
+      // 2. Fetch static collection playlist (/playlists/<lang>/<safeSlug>.json)
+      try {
+        const res = await fetch(`/playlists/${currentLang}/${safeSlug}.json`);
+        if (res.ok) {
+          const list = await res.json();
+          if (Array.isArray(list) && list.length) {
+            playlist = list;
+            cachedPlaylists[cacheKey] = playlist;
+            currentStoryIdx = 0;
+            updateStoryUI();
+            return;
+          }
+        }
+      } catch (err) {
+        console.warn('Playlist fetch failed:', err);
+      }
+
+      // 3. Fallback: try embedded initial playlist or current page article
+      fallbackLoadFromPage();
+    }
+
+    function fallbackLoadFromPage() {
+      // A. Try embedded initial playlist (curated server-side)
+      const initialEl = document.getElementById('bedtime-initial-playlist');
+      if (initialEl) {
+        try {
+          const list = JSON.parse(initialEl.textContent);
+          if (Array.isArray(list) && list.length) {
+            playlist = list;
+            currentStoryIdx = 0;
             updateStoryUI();
             return;
           }
         } catch(e){}
       }
 
-      fallbackLoadFromPage();
-    }
-
-    function fallbackLoadFromPage() {
+      // B. Try current page article
       const pageTitleEl = document.querySelector('h1');
       const articleEl = document.querySelector('article') || document.querySelector('.story-reading-content');
-      if (pageTitleEl && articleEl) {
+      if (pageTitleEl && articleEl && articleEl.innerText.trim().length > 50) {
         playlist = [{
           id: 'current-page-story',
           title: pageTitleEl.innerText.trim(),
-          collection: 'Current Story',
+          collection: 'Daily Tale',
+          reading_time: '3m',
           full_text: articleEl.innerText.trim(),
           moral: '',
           vocabulary: [],
@@ -444,20 +504,10 @@ const collectionsList = [
         return;
       }
 
-      const storyCards = document.querySelectorAll('article a[href*="/"]');
-      if (storyCards && storyCards.length) {
-        playlist = Array.from(storyCards).slice(0, 20).map((a, i) => ({
-          id: `card-${i}`,
-          title: a.innerText.trim() || `Story ${i + 1}`,
-          collection: 'Featured Tales',
-          full_text: a.closest('article')?.innerText.trim() || '',
-          moral: '',
-          vocabulary: [],
-          discussion_questions: []
-        })).filter(s => s.title);
-        currentStoryIdx = 0;
-        updateStoryUI();
-      }
+      // C. If completely empty, make sure UI is NEVER stuck on "Loading playlist..."
+      playlist = [];
+      currentStoryIdx = 0;
+      updateStoryUI();
     }
 
     if (colSelect) {
@@ -473,17 +523,20 @@ const collectionsList = [
     // 3. UI UPDATES
     function updateStoryUI() {
       if (!playlist.length) {
-        activeTitle.textContent = isTa ? 'கதைகள் கிடைக்கவில்லை' : 'No stories found';
-        activeMeta.textContent = '';
+        activeTitle.textContent = isTa ? 'கதையைத் தேர்ந்தெடுக்கவும்' : 'Select a story collection to start';
+        activeMeta.textContent = isTa ? 'பஞ்சதந்திரம் அல்லது உங்கள் விருப்பத் தொகுதி' : 'Choose a collection from the dropdown above';
         indexBadge.textContent = '0 / 0';
+        statusBadge.textContent = isTa ? 'தயாராக உள்ளது' : 'Ready';
         return;
       }
 
-      const story = playlist[currentStoryIdx];
-      activeTitle.textContent = story.title;
-      activeMeta.textContent = `${story.collection} • ${story.reading_time || '3m'}`;
-      indexBadge.textContent = `${currentStoryIdx + 1} / ${playlist.length}`;
-      statusBadge.textContent = isPlaying ? (isTa ? 'வாசிக்கிறது...' : 'Narrating...') : (isTa ? 'தயாராக உள்ளது' : 'Ready');
+      const story = playlist[currentStoryIdx] || playlist[0];
+      if (story) {
+        activeTitle.textContent = story.title;
+        activeMeta.textContent = `${story.collection || 'Daily Tale'} • ${story.reading_time || '3m'}`;
+        indexBadge.textContent = `${currentStoryIdx + 1} / ${playlist.length}`;
+        statusBadge.textContent = isPlaying ? (isTa ? 'வாசிக்கிறது...' : 'Narrating...') : (isTa ? 'தயாராக உள்ளது' : 'Ready');
+      }
     }
 
     // 4. SPEECH SYNTHESIS NARRATION PIPELINE
