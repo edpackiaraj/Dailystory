@@ -109,7 +109,7 @@ for (const lang of languages) {
       const altLoc = route ? `${siteUrl}/${altLang}/${route}/` : `${siteUrl}/${altLang}/`;
       xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${altLoc}"/>\n`;
     }
-    const xDefaultLoc = route ? `${siteUrl}/en/${route}/` : `${siteUrl}/`;
+    const xDefaultLoc = route ? `${siteUrl}/en/${route}/` : `${siteUrl}/en/`;
     xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${xDefaultLoc}"/>\n`;
     xml += '  </url>\n';
   }
@@ -190,9 +190,6 @@ Disallow: /admin/
 Disallow: /api/
 
 Sitemap: ${siteUrl}/sitemap.xml
-Sitemap: ${siteUrl}/sitemap-index.xml
-Sitemap: ${siteUrl}/sitemap-ta.xml
-Sitemap: ${siteUrl}/sitemap-en.xml
 `;
 safeWriteFileSync(path.join(publicDir, 'robots.txt'), robotsTxt);
 console.log('[Sitemap Generator] Generated robots.txt and sitemaps.');
