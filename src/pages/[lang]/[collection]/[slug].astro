@@ -1332,6 +1332,8 @@ const jsonLd = [
       narratingLabel.textContent = chunk.slice(0, 60) + (chunk.length > 60 ? '...' : '');
     }
 
+    window._dailytale_slug_utterance = speechUtterance;
+
     speechUtterance.onend = () => {
       if (isSpeaking && !isPaused) {
         speakNextChunk();
@@ -1339,7 +1341,8 @@ const jsonLd = [
     };
 
     speechUtterance.onerror = (err) => {
-      console.warn('Speech chunk warning:', err);
+      if (err.error === 'canceled' || err.error === 'interrupted') return;
+      console.warn('Speech chunk warning:', err.error);
       if (isSpeaking && !isPaused) {
         speakNextChunk();
       }
@@ -1348,7 +1351,11 @@ const jsonLd = [
     window.speechSynthesis.speak(speechUtterance);
   }
 
+  let slugAdvanceTimeout = null;
+
   function onStoryFinished() {
+    clearTimeout(slugAdvanceTimeout);
+
     // If single story mode (0 min), stop here!
     if (selectedDurationMins === 0) {
       stopSpeech();
@@ -1363,22 +1370,24 @@ const jsonLd = [
       return;
     }
 
-    // Auto-advance to next story in collection!
-    if (collectionPlaylist.length > 1) {
-      currentPlaylistIdx = (currentPlaylistIdx + 1) % collectionPlaylist.length;
+    // Auto-advance sequentially to next story in collection!
+    if (collectionPlaylist.length > 1 && currentPlaylistIdx < collectionPlaylist.length - 1) {
+      currentPlaylistIdx++;
       const nextStory = collectionPlaylist[currentPlaylistIdx];
 
       const statusEl = document.getElementById('story-audio-status');
-      if (statusEl) statusEl.textContent = isTa ? `அடுத்த கதை: ${nextStory.title}...` : `Next: ${nextStory.title}...`;
+      if (statusEl) statusEl.textContent = isTa ? `அடுத்த கதை: ${nextStory.title.slice(0, 30)}...` : `Next: ${nextStory.title.slice(0, 30)}...`;
 
-      // 2.5s gentle lull between stories
-      setTimeout(() => {
+      // 2.2s gentle lull before next story starts
+      slugAdvanceTimeout = setTimeout(() => {
         if (isSpeaking && !isPaused) {
           startStoryNarration(nextStory);
         }
-      }, 2500);
+      }, 2200);
     } else {
       stopSpeech();
+      const statusEl = document.getElementById('story-audio-status');
+      if (statusEl) statusEl.textContent = isTa ? 'தொகுப்பு நிறைவுற்றது' : 'Playlist Completed';
     }
   }
 

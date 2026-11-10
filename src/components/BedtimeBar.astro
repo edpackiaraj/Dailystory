@@ -383,6 +383,9 @@ const collectionsList = [
     let currentStoryIdx = 0;
     let isPlaying = false;
     let isPaused = false;
+    let isTransitioning = false;
+    let advanceTimeout = null;
+    let currentSessionToken = 0;
     let currentUtterance = null;
     let timerDurationMins = 20; // default 20 minutes
     let remainingSeconds = 20 * 60;
@@ -420,12 +423,14 @@ const collectionsList = [
 
       if (cachedPlaylists[cacheKey] && cachedPlaylists[cacheKey].length) {
         playlist = cachedPlaylists[cacheKey];
-        currentStoryIdx = 0;
-        updateStoryUI();
+        if (!isPlaying) {
+          currentStoryIdx = 0;
+          updateStoryUI();
+        }
         return;
       }
 
-      if (statusBadge) statusBadge.textContent = isTa ? 'ஏற்றுகிறது...' : 'Loading playlist...';
+      if (statusBadge && !isPlaying) statusBadge.textContent = isTa ? 'ஏற்றுகிறது...' : 'Loading playlist...';
 
       // 1. Check inline story playlist on story page first (instant & offline)
       const inlineDataEl = document.getElementById('story-collection-playlist');
@@ -441,8 +446,10 @@ const collectionsList = [
             if (safeSlug === 'all' || safeSlug === pathCol || (!cachedPlaylists[cacheKey] && safeSlug === 'panchatantra')) {
               playlist = inlineList;
               cachedPlaylists[cacheKey] = playlist;
-              currentStoryIdx = foundIdx >= 0 ? foundIdx : 0;
-              updateStoryUI();
+              if (!isPlaying) {
+                currentStoryIdx = foundIdx >= 0 ? foundIdx : 0;
+                updateStoryUI();
+              }
               return;
             }
           }
@@ -457,8 +464,10 @@ const collectionsList = [
           if (Array.isArray(list) && list.length) {
             playlist = list;
             cachedPlaylists[cacheKey] = playlist;
-            currentStoryIdx = 0;
-            updateStoryUI();
+            if (!isPlaying) {
+              currentStoryIdx = 0;
+              updateStoryUI();
+            }
             return;
           }
         }
@@ -467,7 +476,7 @@ const collectionsList = [
       }
 
       // 3. Fallback: try embedded initial playlist or current page article
-      fallbackLoadFromPage();
+      if (!isPlaying) fallbackLoadFromPage();
     }
 
     function fallbackLoadFromPage() {
@@ -478,7 +487,7 @@ const collectionsList = [
           const list = JSON.parse(initialEl.textContent);
           if (Array.isArray(list) && list.length) {
             playlist = list;
-            currentStoryIdx = 0;
+            if (!isPlaying) currentStoryIdx = 0;
             updateStoryUI();
             return;
           }
@@ -499,23 +508,23 @@ const collectionsList = [
           vocabulary: [],
           discussion_questions: []
         }];
-        currentStoryIdx = 0;
+        if (!isPlaying) currentStoryIdx = 0;
         updateStoryUI();
         return;
       }
 
       // C. If completely empty, make sure UI is NEVER stuck on "Loading playlist..."
       playlist = [];
-      currentStoryIdx = 0;
+      if (!isPlaying) currentStoryIdx = 0;
       updateStoryUI();
     }
 
     if (colSelect) {
       colSelect.addEventListener('change', (e) => {
-        const wasPlaying = isPlaying;
-        if (isPlaying) stopPlayback();
+        stopPlayback();
+        currentStoryIdx = 0;
         loadCollectionPlaylist(e.target.value).then(() => {
-          if (wasPlaying) startPlayback();
+          updateStoryUI();
         });
       });
     }
@@ -597,17 +606,23 @@ const collectionsList = [
     let activeQueue = [];
     let activeQueueIdx = 0;
 
-    function playNextChunk() {
+    function playNextChunk(thisSession) {
+      if (thisSession !== currentSessionToken) return;
       if (!isPlaying || isPaused) return;
 
       if (activeQueueIdx >= activeQueue.length) {
-        // Current story finished! Auto-advance to next story!
-        onStoryCompleted();
+        // Story finished! Advance smoothly to next story
+        onStoryCompleted(thisSession);
         return;
       }
 
       const text = activeQueue[activeQueueIdx];
       activeQueueIdx++;
+
+      if (!text || !text.trim()) {
+        playNextChunk(thisSession);
+        return;
+      }
 
       if (!('speechSynthesis' in window)) return;
 
@@ -625,59 +640,104 @@ const collectionsList = [
         if (voice) currentUtterance.voice = voice;
       }
 
+      // Retain global reference so Chrome garbage collection does NOT abruptly kill speech
+      window._dailytale_active_utterance = currentUtterance;
+
       currentUtterance.onend = () => {
+        if (thisSession !== currentSessionToken) return;
         if (isPlaying && !isPaused) {
-          playNextChunk();
+          playNextChunk(thisSession);
         }
       };
 
       currentUtterance.onerror = (err) => {
-        console.warn('Speech chunk error:', err);
+        if (thisSession !== currentSessionToken) return;
+        if (err.error === 'canceled' || err.error === 'interrupted') return;
+        console.warn('Speech chunk error:', err.error);
         if (isPlaying && !isPaused) {
-          playNextChunk();
+          playNextChunk(thisSession);
         }
       };
 
       window.speechSynthesis.speak(currentUtterance);
     }
 
-    function onStoryCompleted() {
-      statusBadge.textContent = isTa ? 'அடுத்த கதை துவங்குகிறது...' : 'Next story starting...';
-      // Gentle 3-second soothing pause before next story
-      setTimeout(() => {
-        if (isPlaying && !isPaused) {
-          if (currentStoryIdx < playlist.length - 1) {
-            currentStoryIdx++;
-          } else {
-            currentStoryIdx = 0; // Loop back
+    function onStoryCompleted(thisSession) {
+      if (thisSession !== currentSessionToken) return;
+      if (isTransitioning) return;
+      isTransitioning = true;
+
+      clearTimeout(advanceTimeout);
+
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+
+      // Check if there is a next story to continue
+      if (currentStoryIdx < playlist.length - 1) {
+        const nextIdx = currentStoryIdx + 1;
+        const nextStory = playlist[nextIdx];
+        statusBadge.textContent = isTa 
+          ? `அடுத்த கதை: ${nextStory.title.slice(0, 30)}...` 
+          : `Next: ${nextStory.title.slice(0, 30)}...`;
+
+        advanceTimeout = setTimeout(() => {
+          if (thisSession !== currentSessionToken) return;
+          if (!isPlaying || isPaused) {
+            isTransitioning = false;
+            return;
           }
+          isTransitioning = false;
+          currentStoryIdx = nextIdx;
           startStoryNarration();
-        }
-      }, 2500);
+        }, 2200);
+      } else {
+        // Reached end of entire playlist
+        isTransitioning = false;
+        statusBadge.textContent = isTa ? 'தொகுப்பு நிறைவுற்றது' : 'Playlist completed';
+        stopPlayback();
+      }
     }
 
     function startStoryNarration() {
-      if (!playlist.length) return;
+      if (!playlist || !playlist.length) return;
+      if (currentStoryIdx < 0) currentStoryIdx = 0;
+      if (currentStoryIdx >= playlist.length) currentStoryIdx = 0;
+
+      clearTimeout(advanceTimeout);
+      isTransitioning = false;
+      currentSessionToken++;
+      const thisSession = currentSessionToken;
+
       if ('speechSynthesis' in window) {
         window.speechSynthesis.cancel();
       }
 
       const story = playlist[currentStoryIdx];
+      if (!story) return;
+
       updateStoryUI();
       activeQueue = buildNarrationQueue(story);
       activeQueueIdx = 0;
       isPlaying = true;
       isPaused = false;
       updatePlayButtonUI();
-      playNextChunk();
+      playNextChunk(thisSession);
     }
 
     function startPlayback() {
-      if (isPaused && currentUtterance) {
+      if (isPaused) {
         isPaused = false;
         isPlaying = true;
-        if ('speechSynthesis' in window) window.speechSynthesis.resume();
+        if ('speechSynthesis' in window) {
+          if (window.speechSynthesis.paused) {
+            window.speechSynthesis.resume();
+          } else {
+            startStoryNarration();
+          }
+        }
         updatePlayButtonUI();
+        statusBadge.textContent = isTa ? 'வாசிக்கிறது...' : 'Narrating...';
         return;
       }
 
@@ -687,6 +747,8 @@ const collectionsList = [
 
     function pausePlayback() {
       isPaused = true;
+      clearTimeout(advanceTimeout);
+      isTransitioning = false;
       if ('speechSynthesis' in window) {
         window.speechSynthesis.pause();
       }
@@ -697,6 +759,9 @@ const collectionsList = [
     function stopPlayback() {
       isPlaying = false;
       isPaused = false;
+      isTransitioning = false;
+      clearTimeout(advanceTimeout);
+      currentSessionToken++;
       if ('speechSynthesis' in window) {
         window.speechSynthesis.cancel();
       }
@@ -749,10 +814,8 @@ const collectionsList = [
       nextBtn.addEventListener('click', () => {
         if (currentStoryIdx < playlist.length - 1) {
           currentStoryIdx++;
-        } else {
-          currentStoryIdx = 0;
+          startStoryNarration();
         }
-        startStoryNarration();
       });
     }
 
