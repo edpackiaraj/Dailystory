@@ -50,43 +50,43 @@ const currentLangObj = getLanguageMeta(currentLang);
       </a>
 
       <!-- Center-Aligned Desktop Navigation Links -->
-      <nav class="hidden lg:flex items-center justify-center flex-1 mx-2 gap-1 xl:gap-2 text-sm font-semibold text-[#4A3B2C] dark:text-[#E2D9CC]" aria-label="Main Navigation">
+      <nav class="hidden lg:flex items-center justify-center flex-1 mx-2 gap-1 xl:gap-2 text-sm font-semibold text-[#4A3B2C] dark:text-[#E2D9CC] min-w-0" aria-label="Main Navigation">
         <a
           href={`/${currentLang}/`}
-          class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all"
+          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all whitespace-nowrap shrink-0"
         >
           {t.storyOfTheDay || "Today's Story"}
         </a>
         <a
           href={`/${currentLang}/collections/`}
-          class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all"
+          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all whitespace-nowrap shrink-0"
         >
           {t.stories || "Stories"}
         </a>
         <a
           href={`/${currentLang}/classroom/`}
-          class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1.5"
+          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1.5 whitespace-nowrap shrink-0"
         >
           <span>🎓</span>
           <span>{t.classroom || "My Classroom"}</span>
         </a>
         <a
           href={`/${currentLang}/guide/`}
-          class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1.5"
+          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1.5 whitespace-nowrap shrink-0"
         >
           <span>📖</span>
           <span>{currentLang === 'ta' ? 'வழிகாட்டி' : (t.guide || "Guide")}</span>
         </a>
         <a
           href={`/${currentLang}/favorites/`}
-          class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1"
+          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all flex items-center gap-1 whitespace-nowrap shrink-0"
         >
           <span>⭐</span>
           <span>{t.favourites || "Favorites"}</span>
         </a>
         <a
           href={`/${currentLang}/about/`}
-          class="px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all"
+          class="px-2.5 xl:px-3 py-1.5 rounded-lg hover:text-[#D97706] dark:hover:text-[#F59E0B] hover:bg-[#FFF4E0] dark:hover:bg-[#25243E] transition-all whitespace-nowrap shrink-0"
         >
           {t.about || "About"}
         </a>

@@ -459,18 +459,6 @@ const collectionsList = [
         updateStoryUI();
       }
     }
-          id: 'current-page-story',
-          title: pageTitleEl.innerText.trim(),
-          collection: 'Current Story',
-          full_text: articleEl.innerText.trim(),
-          moral: '',
-          vocabulary: [],
-          discussion_questions: []
-        }];
-        currentStoryIdx = 0;
-        updateStoryUI();
-      }
-    }
 
     if (colSelect) {
       colSelect.addEventListener('change', (e) => {
