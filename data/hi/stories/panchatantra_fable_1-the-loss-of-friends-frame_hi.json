@@ -1,7 +1,7 @@
 {
-  "id": "panchatantra-1.0-the-loss-of-friends-frame",
-  "slug": "panchatantra-1.0-the-loss-of-friends-frame",
-  "language": "mr",
+  "id": "panchatantra-1-the-loss-of-friends-frame",
+  "slug": "panchatantra-1-the-loss-of-friends-frame",
+  "language": "hi",
   "title": "The Loss of Friends (Frame)",
   "genre": "Fables",
   "collection": "Panchatantra",
@@ -69,7 +69,7 @@
   ],
   "author": "Pandit Vishnu Sharma (~200 BCE – 300 CE)",
   "status": "published",
-  "content_notes": "Family-safe traditional adaptation from the Panchatantra anthology. (Localized for Marathi readers, safe for schools and family bedtime).",
+  "content_notes": "Family-safe traditional adaptation from the Panchatantra anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
   "values": [
     "wisdom",
     "honesty",

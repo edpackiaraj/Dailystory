@@ -3,9 +3,9 @@
   "nativeName": "Daily Tale",
   "tagline": "Moral Stories & Interesting Folktales",
   "positioning": "A timeless multilingual storytelling sanctuary celebrating wisdom, folklore, and moral stories from world cultures for readers of all ages.",
-  "description": "Discover folktales, fables, and wisdom stories from around the world in 8 languages. Moral Stories & Interesting Folktales.",
-  "homeTitle": "2,448+ Moral Stories & Folktales for Kids | Daily Tale",
-  "homeMetaDescription": "Read 2,448+ moral stories for kids: Aesop, Akbar–Birbal, Jataka, Panchatantra, Tenali Rama in Tamil, Hindi, English with audio narration.",
+  "description": "Discover folktales, fables, and wisdom stories from around the world in 9 languages. Moral Stories & Interesting Folktales.",
+  "homeTitle": "2,448+ Moral Stories & Folktales for Kids, Teens & Families | Daily Tale",
+  "homeMetaDescription": "Read 2,448+ moral stories for kids, teens, and families across 13 world traditions: Panchatantra, Jataka, Aesop, Akbar–Birbal, Tenali Rama, Vikram–Vetal, Arabian Nights, Grimm, Andersen, and more in 9 world languages with audio narration.",
   "siteUrl": "https://dailystory.pages.dev",
   "mascot": {
     "name": "Katha",
@@ -18,7 +18,7 @@
     { "id": "teens", "label": "Teens", "icon": "🌱" }
   ],
   "lengths": [
-    { "id": "short", "label": "Under 3 min", "maxWords": 350 },
+    { "id": "short", "label": "3 min or less", "maxWords": 350 },
     { "id": "medium", "label": "3 to 7 min", "minWords": 351, "maxWords": 900 },
     { "id": "long", "label": "Over 7 min", "minWords": 901 }
   ],
@@ -35,8 +35,8 @@
   ],
   "localizedBrand": {
     "en": {
-      "title": "2,448+ Moral Stories & Folktales for Kids | Daily Tale",
-      "metaDescription": "Read 2,448+ moral stories for kids: Aesop, Akbar–Birbal, Jataka, Panchatantra, Tenali Rama in Tamil, Hindi, English with audio narration.",
+      "title": "2,448+ Moral Stories & Folktales for Kids, Teens & Families | Daily Tale",
+      "metaDescription": "Read 2,448+ moral stories for kids, teens, and families across 13 world traditions: Panchatantra, Jataka, Aesop, Akbar–Birbal, Tenali Rama, Vikram–Vetal, Arabian Nights, Grimm, Andersen, and more in 9 world languages with audio narration.",
       "tagline": "Moral Stories & Interesting Folktales"
     },
     "ta": {
@@ -61,7 +61,7 @@
     },
     "te": {
       "title": "Daily Tale — నీతి కథలు మరియు ఆసక్తికరమైన జానపద కథలు",
-      "metaDescription": "తెనాలి రామకృష్ణ, పంచతంత్రం మరియు ప్రపంచ ప్రసిద్ధ నీతి కథలు 10 భాషల్లో.",
+      "metaDescription": "తెనాలి రామకృష్ణ, పంచతంత్రం మరియు ప్రపంచ ప్రసిద్ధ నీతి కథలు 9 భాషల్లో.",
       "tagline": "నీతి కథలు మరియు ఆసక్తికరమైన జానపద కథలు"
     },
     "kn": {

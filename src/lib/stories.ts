@@ -201,14 +201,54 @@ export function getCollectionsWithCounts(lang: string) {
   return counts;
 }
 
-export function getAudienceCategory(ageGroup?: string): 'kids' | 'teens' | 'everyone' {
-  const lower = (ageGroup || '').toLowerCase();
-  if (lower.includes('below 10') || lower.includes('below 8') || lower.includes('kids') || lower.includes('children') || lower.includes('below 13')) {
-    return 'kids';
+export function getAudienceCategory(
+  ageGroupOrStory?: string | { age_group?: string; collection?: string; title?: string; slug?: string },
+  collectionArg?: string,
+  titleArg?: string,
+  slugArg?: string
+): 'kids' | 'teens' | 'everyone' {
+  let ageGroup = '';
+  let collection = collectionArg || '';
+  let title = titleArg || '';
+  let slug = slugArg || '';
+
+  if (typeof ageGroupOrStory === 'object' && ageGroupOrStory !== null) {
+    ageGroup = ageGroupOrStory.age_group || '';
+    collection = collection || ageGroupOrStory.collection || '';
+    title = title || ageGroupOrStory.title || '';
+    slug = slug || ageGroupOrStory.slug || '';
+  } else if (typeof ageGroupOrStory === 'string') {
+    ageGroup = ageGroupOrStory;
   }
-  if (lower.includes('teen') || lower.includes('13-18') || lower.includes('young adult')) {
+
+  const colSlug = getCollectionSlug(collection);
+  const textCheck = `${title} ${slug}`.toLowerCase();
+
+  // 1. Mature themes / dark folklore / riddles with ghouls & executions -> Teens (13+)
+  if (
+    colSlug === 'arabian-nights' ||
+    colSlug === 'vikram-vetal' ||
+    /shahryar|vetal|vetala|cremation|corpse|execution|adultery|bluebeard|godfather-death|fitcher|bridegroom|juniper-tree|snow-white/i.test(textCheck)
+  ) {
     return 'teens';
   }
+
+  // 2. Playful animal fables, simple wisdom & classic childhood fairy tales -> Kids
+  if (
+    colSlug === 'aesop-s-fables' ||
+    colSlug === 'aesops-fables' ||
+    colSlug === 'panchatantra' ||
+    colSlug === 'jataka-tales' ||
+    colSlug === 'cinderella-stories' ||
+    colSlug === 'cinderella' ||
+    colSlug === 'charles-perrault' ||
+    ageGroup.toLowerCase().includes('below 8') ||
+    ageGroup.toLowerCase().includes('below 10')
+  ) {
+    return 'kids';
+  }
+
+  // 3. Witty courtroom humour, philosophical satire, family folklore -> Everyone
   return 'everyone';
 }
 
@@ -319,9 +359,19 @@ export function getLocalizedCollectionName(collectionName: string, lang: string)
 export function cleanStorySummary(summary?: string): string {
   if (!summary) return '';
   let s = summary.replace(/\s*\[[A-Za-z]{2}\]/g, '').trim();
-  const repetitivePrefix = /^Through unexpected trial and turning point, each character learns that\s*/i;
-  if (repetitivePrefix.test(s)) {
-    s = s.replace(repetitivePrefix, '');
+
+  // Specific polish for classic fable inconsistencies
+  if (/boastful hare.*tortoise/i.test(s) && /each character learns/i.test(s)) {
+    return "A boastful hare relentlessly mocks a quiet tortoise, but when challenged to a race, his arrogance costs him victory as the hare learns that slow and steady perseverance wins the race.";
+  }
+  if (/thirsty fox/i.test(s) && /grapes/i.test(s)) {
+    s = s.replace(/a thirsty fox/i, 'A hungry fox');
+  }
+
+  // Strip formulaic prompt artifacts anywhere in summary
+  s = s.replace(/through unexpected trial and turning point,\s*each character learns that\s*/gi, '');
+  s = s.replace(/\s+/g, ' ').trim();
+  if (s.length) {
     s = s.charAt(0).toUpperCase() + s.slice(1);
   }
   return s;
@@ -368,6 +418,13 @@ export function sanitizeQuizAndDiscussion(story: Story): Story {
 
 export function getStoryUrl(story: { collection: string; slug: string }, lang: string): string {
   const colSlug = getCollectionSlug(story.collection);
-  return `/${lang}/${colSlug}/${story.slug}/`;
+  let slug = story.slug;
+  if (slug === 'panchatantra-1.0-the-loss-of-friends-frame') {
+    slug = 'panchatantra-1-the-loss-of-friends-frame';
+  }
+  if (slug === 'cinderella-stories-1-yeh-shen-ye-xian-china-oldest-known-cinderella') {
+    slug = 'cinderella-stories-1-yeh-shen-ye-xian-china-tang-dynasty';
+  }
+  return `/${lang}/${colSlug}/${slug}/`;
 }
 

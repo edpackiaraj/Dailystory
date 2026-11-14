@@ -76,7 +76,7 @@ export function getStoryVisual(story: {
       accentColor: '#FBBF24',
       decorType: 'palace',
       label: {
-        en: 'Akbar & Birbal Wisdom Tales',
+        en: 'Akbar–Birbal Wisdom Tales',
         ta: 'அக்பர்–பீர்பால் விவேகக் கதைகள்',
         hi: 'अकबर–बीरबल की बुद्धिमत्ता'
       }

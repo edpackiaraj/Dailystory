@@ -1,13 +1,13 @@
 {
-  "id": "panchatantra-1.0-the-loss-of-friends-frame",
-  "slug": "panchatantra-1.0-the-loss-of-friends-frame",
-  "language": "hi",
-  "title": "The Loss of Friends (Frame)",
-  "genre": "Fables",
+  "id": "panchatantra-1-the-loss-of-friends-frame",
+  "slug": "panchatantra-1-the-loss-of-friends-frame",
+  "language": "en",
+  "title": "The Loss of Friends (Frame - Pingalaka and Sanjivaka)",
+  "genre": "Fable",
   "collection": "Panchatantra",
   "culture_region": "India",
   "age_group": "Below 13",
-  "summary": "In the southern city of Mahilaropya, there lived a wealthy and enterprising merchant named Vardhamanaka. Observing that even abundant gol...",
+  "summary": "In the southern city of Mahilaropya, there lived a wealthy and enterprising merchant named Vardhamanaka. Observing that even abundant gold diminishes when spent without being in...",
   "keywords": [
     "panchatantra",
     "the loss of friends (frame)",
@@ -69,11 +69,12 @@
   ],
   "author": "Pandit Vishnu Sharma (~200 BCE – 300 CE)",
   "status": "published",
-  "content_notes": "Family-safe traditional adaptation from the Panchatantra anthology. (Localized for Hindi readers, safe for schools and family bedtime).",
+  "content_notes": "Family-safe traditional adaptation from the Panchatantra anthology.",
   "values": [
-    "wisdom",
-    "honesty",
-    "teamwork"
+    "Friendship",
+    "Wisdom",
+    "Discernment",
+    "Loyalty"
   ],
   "reading_level": "Intermediate",
   "vocabulary": [

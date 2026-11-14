@@ -52,7 +52,7 @@ const cleanMoral = sanitizeTag(story.moral);
 const isTranslated = isStoryTranslated(story, currentLang);
 const colSlug = getCollectionSlug(story.collection);
 const localizedColName = getLocalizedCollectionName(story.collection, currentLang);
-const audienceKey = getAudienceCategory(story.age_group);
+const audienceKey = getAudienceCategory(story);
 const audienceLabel = audienceKey === 'kids' ? t.kids : (audienceKey === 'teens' ? t.teens : t.everyone);
 const canonicalUrl = `${brandConfig.siteUrl}/${lang}/${colSlug}/${story.slug}/`;
 
@@ -1375,6 +1375,23 @@ const jsonLd = [
     return queue;
   }
 
+  let speechKeepAliveTimer = null;
+  function startSpeechKeepAlive() {
+    stopSpeechKeepAlive();
+    speechKeepAliveTimer = setInterval(() => {
+      if (window.speechSynthesis && window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+        window.speechSynthesis.pause();
+        window.speechSynthesis.resume();
+      }
+    }, 10000);
+  }
+  function stopSpeechKeepAlive() {
+    if (speechKeepAliveTimer) {
+      clearInterval(speechKeepAliveTimer);
+      speechKeepAliveTimer = null;
+    }
+  }
+
   function speakNextChunk() {
     if (!isSpeaking || isPaused) return;
 
@@ -1385,7 +1402,11 @@ const jsonLd = [
     }
 
     const chunk = speechQueue[currentChunkIdx];
-    currentChunkIdx++;
+    if (!chunk || !chunk.trim()) {
+      currentChunkIdx++;
+      speakNextChunk();
+      return;
+    }
 
     if (!('speechSynthesis' in window)) return;
 
@@ -1415,22 +1436,39 @@ const jsonLd = [
       narratingLabel.textContent = chunk.slice(0, 60) + (chunk.length > 60 ? '...' : '');
     }
 
+    // Utterance bag prevents V8 garbage collection dropping audio chunks during night mode
+    window._speechUtteranceBag = window._speechUtteranceBag || [];
+    window._speechUtteranceBag.push(speechUtterance);
+    if (window._speechUtteranceBag.length > 50) {
+      window._speechUtteranceBag.splice(0, 25);
+    }
     window._dailytale_slug_utterance = speechUtterance;
 
+    let chunkEnded = false;
     speechUtterance.onend = () => {
+      if (chunkEnded) return;
+      chunkEnded = true;
       if (isSpeaking && !isPaused) {
+        currentChunkIdx++;
         speakNextChunk();
       }
     };
 
     speechUtterance.onerror = (err) => {
-      if (err.error === 'canceled' || err.error === 'interrupted') return;
+      if (chunkEnded) return;
+      if (err.error === 'canceled' || err.error === 'interrupted') {
+        // Do not advance index when screen dims/powers down in night mode; allow clean resume
+        return;
+      }
       console.warn('Speech chunk warning:', err.error);
+      chunkEnded = true;
       if (isSpeaking && !isPaused) {
+        currentChunkIdx++;
         speakNextChunk();
       }
     };
 
+    startSpeechKeepAlive();
     window.speechSynthesis.speak(speechUtterance);
   }
 
@@ -1491,6 +1529,7 @@ const jsonLd = [
   }
 
   function stopSpeech() {
+    stopSpeechKeepAlive();
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
     }

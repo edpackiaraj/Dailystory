@@ -146,7 +146,7 @@ const compactStories = (view === 'search' || view === 'favorites') ? orderedStor
   collection: s.collection,
   image: s.image,
   url: getStoryUrl(s, currentLang),
-  audience: getAudienceCategory(s.age_group),
+  audience: getAudienceCategory(s),
   length: getLengthCategory(s.word_count),
   is_translated: isStoryTranslated(s, currentLang),
   keywords: (s.keywords || []).join(' ').toLowerCase()

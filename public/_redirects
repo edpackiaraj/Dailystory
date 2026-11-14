@@ -8,6 +8,16 @@
 /guide /ta/guide/ 301
 /guide/ /ta/guide/ 301
 
+# Clean URL redirects for updated slugs
+/:lang/panchatantra/panchatantra-1.0-the-loss-of-friends-frame/ /:lang/panchatantra/panchatantra-1-the-loss-of-friends-frame/ 301
+/:lang/panchatantra/panchatantra-1.0-the-loss-of-friends-frame /:lang/panchatantra/panchatantra-1-the-loss-of-friends-frame/ 301
+/:lang/cinderella-stories/cinderella-stories-1-yeh-shen-ye-xian-china-oldest-known-cinderella/ /:lang/cinderella-stories/cinderella-stories-1-yeh-shen-ye-xian-china-tang-dynasty/ 301
+/:lang/cinderella-stories/cinderella-stories-1-yeh-shen-ye-xian-china-oldest-known-cinderella /:lang/cinderella-stories/cinderella-stories-1-yeh-shen-ye-xian-china-tang-dynasty/ 301
+/:lang/stories/panchatantra-1.0-the-loss-of-friends-frame/ /:lang/panchatantra/panchatantra-1-the-loss-of-friends-frame/ 301
+/:lang/stories/panchatantra-1.0-the-loss-of-friends-frame /:lang/panchatantra/panchatantra-1-the-loss-of-friends-frame/ 301
+/:lang/stories/cinderella-stories-1-yeh-shen-ye-xian-china-oldest-known-cinderella/ /:lang/cinderella-stories/cinderella-stories-1-yeh-shen-ye-xian-china-tang-dynasty/ 301
+/:lang/stories/cinderella-stories-1-yeh-shen-ye-xian-china-oldest-known-cinderella /:lang/cinderella-stories/cinderella-stories-1-yeh-shen-ye-xian-china-tang-dynasty/ 301
+
 # Legacy subpages to clean canonical routes
 /en/en-favorites/ /en/favorites/ 301
 /en/en-submit/ /en/submit/ 301

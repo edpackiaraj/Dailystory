@@ -606,6 +606,23 @@ const collectionsList = [
     let activeQueue = [];
     let activeQueueIdx = 0;
 
+    let bedtimeKeepAliveTimer = null;
+    function startBedtimeKeepAlive() {
+      stopBedtimeKeepAlive();
+      bedtimeKeepAliveTimer = setInterval(() => {
+        if (window.speechSynthesis && window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+          window.speechSynthesis.pause();
+          window.speechSynthesis.resume();
+        }
+      }, 10000);
+    }
+    function stopBedtimeKeepAlive() {
+      if (bedtimeKeepAliveTimer) {
+        clearInterval(bedtimeKeepAliveTimer);
+        bedtimeKeepAliveTimer = null;
+      }
+    }
+
     function playNextChunk(thisSession) {
       if (thisSession !== currentSessionToken) return;
       if (!isPlaying || isPaused) return;
@@ -617,9 +634,8 @@ const collectionsList = [
       }
 
       const text = activeQueue[activeQueueIdx];
-      activeQueueIdx++;
-
       if (!text || !text.trim()) {
+        activeQueueIdx++;
         playNextChunk(thisSession);
         return;
       }
@@ -640,25 +656,41 @@ const collectionsList = [
         if (voice) currentUtterance.voice = voice;
       }
 
-      // Retain global reference so Chrome garbage collection does NOT abruptly kill speech
+      // Retain in bag so V8 garbage collection does NOT abruptly kill speech
+      window._speechUtteranceBag = window._speechUtteranceBag || [];
+      window._speechUtteranceBag.push(currentUtterance);
+      if (window._speechUtteranceBag.length > 50) {
+        window._speechUtteranceBag.splice(0, 25);
+      }
       window._dailytale_active_utterance = currentUtterance;
 
+      let chunkEnded = false;
       currentUtterance.onend = () => {
+        if (chunkEnded) return;
+        chunkEnded = true;
         if (thisSession !== currentSessionToken) return;
         if (isPlaying && !isPaused) {
+          activeQueueIdx++;
           playNextChunk(thisSession);
         }
       };
 
       currentUtterance.onerror = (err) => {
+        if (chunkEnded) return;
         if (thisSession !== currentSessionToken) return;
-        if (err.error === 'canceled' || err.error === 'interrupted') return;
+        if (err.error === 'canceled' || err.error === 'interrupted') {
+          // Do not skip chunks when screen sleeps in night mode
+          return;
+        }
         console.warn('Speech chunk error:', err.error);
+        chunkEnded = true;
         if (isPlaying && !isPaused) {
+          activeQueueIdx++;
           playNextChunk(thisSession);
         }
       };
 
+      startBedtimeKeepAlive();
       window.speechSynthesis.speak(currentUtterance);
     }
 
@@ -757,6 +789,7 @@ const collectionsList = [
     }
 
     function stopPlayback() {
+      stopBedtimeKeepAlive();
       isPlaying = false;
       isPaused = false;
       isTransitioning = false;

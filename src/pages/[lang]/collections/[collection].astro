@@ -70,15 +70,15 @@ const collectionIntros: Record<string, string> = {
   "cinderella-stories": "The Cinderella story is one of humanity's most enduring folktales, told across every continent and spanning more than two thousand years. Across cultures, it celebrates humility, gentle kindness, and inner strength.",
   "akbar-birbal": "The legendary tales of Emperor Akbar and his witty minister Birbal form the crown jewel of courtly folklore. Birbal's wisdom holds a compassionate mirror to human nature, teaching that presence of mind is mightier than force.",
   "panchatantra": "The ancient Sanskrit animal fables composed over two thousand years ago by Pandit Vishnu Sharma. Divided into five books of niti (practical wisdom), they teach friendship, ethical foresight, and peaceful problem-solving.",
-  "tenali-rama": "Tenali Rama, the celebrated court poet-philosopher of King Krishna Deva Raya, is revered for his quick wit, brilliant satire, and fearless defense of justice using laughter as a tool for fairness.",
+  "tenali-rama": "Tenali Rama (also revered as Tenali Raman), the celebrated court poet-philosopher of King Krishna Deva Raya in the Vijayanagara Empire, is celebrated for his quick wit, brilliant satire, and fearless defense of justice using laughter as a tool for fairness.",
   "aesops-fables": "Originating in ancient Greece in the sixth century BCE, these parables use animal archetypes to illuminate everyday virtues such as humility, perseverance, and modesty.",
-  "grimm-fairy-tales": "Folk stories documented by Jacob and Wilhelm Grimm in nineteenth-century Germany, celebrating the resilience of the humble, the wonder of generosity, and the beauty of keeping promises.",
+  "grimm-fairy-tales": "Folk stories documented by Jacob and Wilhelm Grimm in nineteenth-century Germany, featuring 211 tales (comprising the canonical 200 fairy tales, 10 Children's Legends, and traditional folklore fragments) celebrating the resilience of the humble, the wonder of generosity, and the beauty of keeping promises.",
   "hans-christian-andersen": "Hans Christian Andersen of Denmark elevated the fairy tale into high poetic art, exploring the emotional landscape of belonging, courage, and discovering inner beauty.",
   "mulla-nasruddin": "Mulla Nasruddin of Middle Eastern, Mediterranean, and Central Asian lore plays the wise fool whose comical misadventures expose human hypocrisy with unforgettable warmth and laughter.",
   "jataka-tales": "Ancient Buddhist parables highlighting selfless compassion, truthfulness, and courage across diverse animal and human incarnations.",
-  "arabian-nights": "The grand cycle of 1001 Nights retold with reverence, where cleverness, loyalty, and the healing wonder of storytelling restore peace and understanding.",
-  "paramartha-guru": "Delightful South Indian satirical folklore chronicling the philosophical Guru Paramartha and his well-meaning yet hilariously literal disciples.",
-  "vikram-vetal": "Classic Indian riddles between King Vikramaditya and the celestial riddle-telling Vetal, exploring ethical dilemmas and moral discernment."
+  "arabian-nights": "The grand cycle of 1001 Nights retold with reverence, featuring a curated treasury of 419 tales from Alf Laylah wa-Laylah where cleverness, loyalty, and the healing wonder of storytelling restore peace and understanding.",
+  "paramartha-guru": "Delightful South Indian satirical folklore chronicling the philosophical Guru Paramartha and his well-meaning yet hilariously literal disciples, originally authored in Tamil by Constantius Beschi (Veeramamunivar) and expanded through 100 teaching episodes.",
+  "vikram-vetal": "Classic Indian riddles between King Vikramaditya and the celestial riddle-telling Vetal, exploring ethical dilemmas and moral discernment. Includes the 25 foundational tales of the classical Vetala Panchavimshati alongside expanded regional folklore cycles comprising 100 riddle stories."
 };
 
 const localizedCollectionNames: Record<string, Record<string, string>> = {
@@ -330,7 +330,7 @@ const jsonLd = [
     <!-- Story Grid (2 cols mobile, 3 cols tablet, 4 cols desktop) -->
     <div id="collection-stories-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-5">
       {matchingStories.map((story, idx) => {
-        const aud = getAudienceCategory(story.age_group);
+        const aud = getAudienceCategory(story);
         const len = getLengthCategory(story.word_count);
         const cleanTitle = (story.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').replace(/\s*\([A-Za-z\s\u0B80-\u0BFF\u0900-\u097F]+\)$/, '').trim();
         const cleanSummary = (story.summary || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim();
