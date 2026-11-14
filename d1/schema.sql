@@ -91,9 +91,26 @@ CREATE TABLE IF NOT EXISTS admin_audit_log (
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- 7. Site Visits & Real-time Hit Counter
+-- 7. Site Visits & Real-time Hit Counters (Multi-Period & Live)
 CREATE TABLE IF NOT EXISTS site_visits (
   page TEXT PRIMARY KEY,
   count INTEGER DEFAULT 0,
   last_visit DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Daily aggregations for Today, This Week, This Month, This Year, Lifetime
+CREATE TABLE IF NOT EXISTS site_hits_daily (
+  day TEXT PRIMARY KEY, -- Format: YYYY-MM-DD
+  count INTEGER DEFAULT 0,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Active live visitors ping (cleaned up every 5 minutes)
+CREATE TABLE IF NOT EXISTS site_active_visitors (
+  session_id TEXT PRIMARY KEY,
+  last_seen INTEGER NOT NULL, -- Unix timestamp in seconds
+  page TEXT
+);
+
+CREATE INDEX IF NOT EXISTS idx_active_visitors_seen ON site_active_visitors(last_seen);
+CREATE INDEX IF NOT EXISTS idx_hits_daily_day ON site_hits_daily(day);

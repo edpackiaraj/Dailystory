@@ -1,6 +1,7 @@
 ---
 import brandConfig from '../../config/brand.json';
 import { getT, getLanguageMeta } from '../lib/i18n';
+import HitCounter from './HitCounter.astro';
 
 interface Props {
   currentLang: string;
@@ -101,6 +102,9 @@ const isHi = currentLang === 'hi';
 
     </div>
 
+    <!-- Live Multi-Period Reading Pulse & Hit Counter -->
+    <HitCounter currentLang={currentLang} />
+
     <!-- Bottom Bar -->
     <div class="pt-8 border-t border-[#EEDFC8] dark:border-[#383659] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
       <div>
@@ -109,16 +113,30 @@ const isHi = currentLang === 'hi';
           : `© ${new Date().getFullYear()} ${brandConfig.name}. All rights reserved. Built with love for universal storytelling.`}
       </div>
 
-      <!-- Live Visitor Hit Counter Badge -->
-      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-xs shadow-2xs font-medium">
-        <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+      <!-- Live Visitor Hit Counter Badge (Synced in Real-Time) -->
+      <a
+        href="#global-hit-counter-section"
+        title="View live engagement metrics"
+        class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] text-xs shadow-2xs font-medium hover:border-[#D97706] transition-all cursor-pointer"
+      >
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+        </span>
         <span class="text-[#6B5644] dark:text-[#C8BFAF]">
-          {isTa ? 'பார்வையாளர்கள்' : (isHi ? 'पाठक संख्या' : 'Global Readers')}:
+          {isTa ? 'நேரலை' : (isHi ? 'लाइव' : 'Live')}:
         </span>
-        <span id="site-hit-counter" class="font-bold font-mono text-[#D97706] dark:text-[#F59E0B]">
-          15,420+
+        <span data-sync-hit="live" class="font-bold font-mono text-emerald-600 dark:text-emerald-400">
+          --
         </span>
-      </div>
+        <span class="text-[#EEDFC8] dark:text-[#383659]">|</span>
+        <span class="text-[#6B5644] dark:text-[#C8BFAF]">
+          {isTa ? 'மொத்தம்' : (isHi ? 'कुल' : 'Total')}:
+        </span>
+        <span id="site-hit-counter" data-sync-hit="lifetime" class="font-bold font-mono text-[#D97706] dark:text-[#F59E0B]">
+          154,200+
+        </span>
+      </a>
 
       <div class="flex items-center gap-4 text-[#D97706]">
         <span>{isTa ? 'விளம்பரங்கள் இல்லை' : 'Zero Ads'}</span>
@@ -131,25 +149,3 @@ const isHi = currentLang === 'hi';
 
   </div>
 </footer>
-
-<script is:inline>
-  (function initHitCounter() {
-    try {
-      const el = document.getElementById('site-hit-counter');
-      if (!el) return;
-      const pathKey = window.location.pathname.replace(/\/+$/, '') || 'home';
-      fetch('/api/hits?page=' + encodeURIComponent(pathKey))
-        .then(function(res) { return res.json(); })
-        .then(function(data) {
-          if (data && data.count) {
-            el.textContent = Number(data.count).toLocaleString();
-          }
-        })
-        .catch(function() {
-          const localHits = (parseInt(localStorage.getItem('dailytale_hits') || '15420', 10) + 1);
-          localStorage.setItem('dailytale_hits', String(localHits));
-          el.textContent = localHits.toLocaleString() + '+';
-        });
-    } catch(e) {}
-  })();
-</script>
