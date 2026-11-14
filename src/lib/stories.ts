@@ -287,6 +287,22 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
     "paramartha-guru": "परमार्थ गुरु की कथाएँ",
     "vikram-vetal": "विक्रम-वेताल की कहानियाँ",
     "charles-perrault": "चार्ल्स पेरौल्ट की कहानियाँ"
+  },
+  ur: {
+    "cinderella-stories": "سنڈریلا کی عالمی کہانیاں",
+    "akbar-birbal": "اکبر و بیربل کے قصے",
+    "panchatantra": "پنچ تنتر کی کہانیاں",
+    "tenali-rama": "تینالی راما کی کہانیاں",
+    "aesop-s-fables": "ایسوپ کی اخلاقی کہانیاں",
+    "aesops-fables": "ایسوپ کی اخلاقی کہانیاں",
+    "grimm-fairy-tales": "برادرانِ گریم کی کہانیاں",
+    "hans-christian-andersen": "ہانس کرسچن اینڈرسن کی کہانیاں",
+    "mulla-nasruddin": "ملا نصر الدین کے لطائف و قصے",
+    "jataka-tales": "جاتک کہانیاں",
+    "arabian-nights": "الف لیلہ و لیلہ (عربین نائٹس)",
+    "paramartha-guru": "پرمارتھ گرو کی کہانیاں",
+    "vikram-vetal": "وکرم اور ویتال کی کہانیاں",
+    "charles-perrault": "چارلس پیرول کی کہانیاں"
   }
 };
 

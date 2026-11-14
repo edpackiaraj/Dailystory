@@ -10,6 +10,7 @@ import ml from '../locales/ml.json';
 import te from '../locales/te.json';
 import kn from '../locales/kn.json';
 import mr from '../locales/mr.json';
+import ur from '../locales/ur.json';
 
 export type TranslationDict = typeof en;
 
@@ -21,7 +22,8 @@ const locales: Record<string, TranslationDict> = {
   ml,
   te,
   kn,
-  mr
+  mr,
+  ur
 };
 
 export function getT(lang: string): TranslationDict {

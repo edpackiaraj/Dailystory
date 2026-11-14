@@ -30,7 +30,8 @@
     { "code": "ml", "name": "Malayalam", "native": "മലയാളം", "direction": "ltr", "flag": "", "fontClass": "font-malayalam" },
     { "code": "te", "name": "Telugu", "native": "తెలుగు", "direction": "ltr", "flag": "", "fontClass": "font-telugu" },
     { "code": "kn", "name": "Kannada", "native": "ಕನ್ನಡ", "direction": "ltr", "flag": "", "fontClass": "font-kannada" },
-    { "code": "mr", "name": "Marathi", "native": "मराठी", "direction": "ltr", "flag": "", "fontClass": "font-hindi" }
+    { "code": "mr", "name": "Marathi", "native": "मराठी", "direction": "ltr", "flag": "", "fontClass": "font-hindi" },
+    { "code": "ur", "name": "Urdu", "native": "اردو", "direction": "rtl", "flag": "", "fontClass": "font-sans" }
   ],
   "localizedBrand": {
     "en": {
@@ -72,6 +73,11 @@
       "title": "Daily Tale — संस्कारक्षम बोधकथा आणि रंजक लोककथा",
       "metaDescription": "अकबर-बिरबल, पंचतंत्र आणि जगभरातील सुंदर संस्कारक्षम बोधकथा. दररोज एक नवीन गोष्ट.",
       "tagline": "संस्कारक्षम बोधकथा आणि रंजक लोककथा"
+    },
+    "ur": {
+      "title": "Daily Tale — اخلاقی کہانیاں اور دلچسپ لوک کہانیاں",
+      "metaDescription": "اکبر و بیربل، پنچ تنتر، اور دنیا بھر کی سبق آموز اخلاقی کہانیاں اور بچوں کے قصے۔ ہر روز ایک نئی کہانی۔",
+      "tagline": "اخلاقی کہانیاں اور دلچسپ لوک کہانیاں"
     }
   },
   "contact": {

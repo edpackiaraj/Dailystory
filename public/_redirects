@@ -32,6 +32,7 @@
 /te.html /te/ 301
 /kn.html /kn/ 301
 /mr.html /mr/ 301
+/ur.html /ur/ 301
 
 # EN Legacy Collections
 /en/collections/en-collection-aesop-s-fables /en/collections/aesops-fables/ 301
@@ -409,6 +410,7 @@
 /te/collections/te-collection-:name /te/collections/:name/ 301
 /kn/collections/kn-collection-:name /kn/collections/:name/ 301
 /mr/collections/mr-collection-:name /mr/collections/:name/ 301
+/ur/collections/ur-collection-:name /ur/collections/:name/ 301
 # Cloudflare Pages 200 rewrite for universal story reader
 /:lang/:collection/:slug/  /:lang/story/  200
 /:lang/:collection/:slug   /:lang/story/  200
