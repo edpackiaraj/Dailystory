@@ -1,5 +1,5 @@
 // Cloudflare Pages Function: Real-Time Privacy-Safe Visitor Hit Counter
-// Supports Live active visitors, Today, This Week, This Month, This Year, and Lifetime
+// Genuine telemetry for newly hosted site (Zero artificial inflation)
 
 interface Env {
   DB?: D1Database;
@@ -16,14 +16,6 @@ const CORS_HEADERS = {
 export const onRequestOptions: PagesFunction = async () => {
   return new Response(null, { headers: CORS_HEADERS });
 };
-
-// Baselines for established literary archive
-const BASE_LIFETIME = 154200;
-const BASE_YEAR = 42800;
-const BASE_MONTH = 5640;
-const BASE_WEEK = 1420;
-const BASE_TODAY = 160;
-const BASE_MIN_LIVE = 12;
 
 async function handleHits(context: EventContext<Env, any, any>, isPost: boolean) {
   const { request, env } = context;
@@ -144,7 +136,7 @@ async function handleHits(context: EventContext<Env, any, any>, isPost: boolean)
         ]);
       }
 
-      // 3. Query all multi-period stats in parallel
+      // 3. Query all multi-period stats in parallel (pure real counts)
       const [liveRes, todayRes, weekRes, monthRes, yearRes, lifetimeRes, pageRes] = await Promise.all([
         env.DB.prepare(`SELECT count(*) as total FROM site_active_visitors WHERE last_seen >= ?`).bind(cutoffSec).first<{ total: number }>(),
         env.DB.prepare(`SELECT count FROM site_hits_daily WHERE day = ?`).bind(todayStr).first<{ count: number }>(),
@@ -155,13 +147,13 @@ async function handleHits(context: EventContext<Env, any, any>, isPost: boolean)
         env.DB.prepare(`SELECT count FROM site_visits WHERE page = ?`).bind(page).first<{ count: number }>()
       ]);
 
-      const live = (liveRes?.total || 0) + BASE_MIN_LIVE;
-      const today = (todayRes?.count || 0) + BASE_TODAY;
-      const week = (weekRes?.total || 0) + BASE_WEEK;
-      const month = (monthRes?.total || 0) + BASE_MONTH;
-      const year = (yearRes?.total || 0) + BASE_YEAR;
-      const lifetime = (lifetimeRes?.total || 0) + BASE_LIFETIME;
-      const pageHits = pageRes?.count || (page === 'site_total' ? lifetime : 1);
+      const live = Math.max(1, liveRes?.total || 1);
+      const today = Math.max(1, todayRes?.count || 1);
+      const week = Math.max(today, weekRes?.total || today);
+      const month = Math.max(week, monthRes?.total || week);
+      const year = Math.max(month, yearRes?.total || month);
+      const lifetime = Math.max(year, lifetimeRes?.total || year);
+      const pageHits = pageRes?.count || 1;
 
       return new Response(JSON.stringify({
         success: true,
@@ -181,30 +173,16 @@ async function handleHits(context: EventContext<Env, any, any>, isPost: boolean)
     }
   }
 
-  // Graceful dynamic fallback for local development or prior to D1 deployment
-  const h = now.getUTCHours();
-  const m = now.getUTCMinutes();
-  const dayOfYear = Math.floor((now.getTime() - new Date(now.getUTCFullYear(), 0, 0).getTime()) / 86400000);
-  const dayOfWeekIdx = (now.getUTCDay() + 6) % 7;
-  const dayOfMonth = now.getUTCDate();
-
-  // Dynamic values that progress realistically with time
-  const dynamicLive = BASE_MIN_LIVE + ((h * 7 + m) % 11);
-  const dynamicToday = BASE_TODAY + Math.floor(h * 24 + m * 0.4);
-  const dynamicWeek = BASE_WEEK + (dayOfWeekIdx * 340) + dynamicToday;
-  const dynamicMonth = BASE_MONTH + (dayOfMonth * 280) + dynamicToday;
-  const dynamicYear = BASE_YEAR + (dayOfYear * 180) + dynamicToday;
-  const dynamicLifetime = BASE_LIFETIME + dynamicYear;
-
+  // Graceful fallback for local development or prior to D1 deployment (genuine starting counts)
   return new Response(JSON.stringify({
     success: true,
-    live: dynamicLive,
-    today: dynamicToday,
-    week: dynamicWeek,
-    month: dynamicMonth,
-    year: dynamicYear,
-    lifetime: dynamicLifetime,
-    count: dynamicLifetime,
+    live: 1,
+    today: 1,
+    week: 1,
+    month: 1,
+    year: 1,
+    lifetime: 1,
+    count: 1,
     page_count: 1,
     page,
     fallback: true,

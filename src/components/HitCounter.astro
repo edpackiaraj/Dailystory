@@ -320,8 +320,15 @@ const texts = translations[currentLang] || translations.en;
 <!-- Client-side Live Counter Controller -->
 <script is:inline>
 (function setupLiveHitCounter() {
-  const STORAGE_KEY = 'dth_hit_metrics_v3';
+  const STORAGE_KEY = 'dth_hit_metrics_v5';
   const SESSION_KEY = 'dth_session_id';
+
+  // Purge any legacy inflated test data from previous builds
+  try {
+    localStorage.removeItem('dth_hit_metrics_v3');
+    localStorage.removeItem('dth_hit_metrics_v2');
+    localStorage.removeItem('dailytale_hits');
+  } catch (e) {}
 
   // Session ID for anonymous edge active ping
   let sessionId = '';
@@ -351,7 +358,7 @@ const texts = translations[currentLang] || translations.en;
 
     function applyValue(el, val) {
       if (!el) return;
-      const formatted = Number(val).toLocaleString();
+      const formatted = Number(val || 1).toLocaleString();
       if (el.textContent !== formatted) {
         el.textContent = formatted;
         if (animate) {
@@ -373,19 +380,19 @@ const texts = translations[currentLang] || translations.en;
     // Sync any secondary badges on the page (like bottom footer bar)
     secondaryCounters.forEach(function(badge) {
       const type = badge.getAttribute('data-sync-hit');
-      if (type === 'live' && metrics.live) {
-        badge.textContent = Number(metrics.live).toLocaleString();
-      } else if (type === 'lifetime' && metrics.lifetime) {
-        badge.textContent = Number(metrics.lifetime).toLocaleString() + '+';
-      } else if (type === 'today' && metrics.today) {
-        badge.textContent = Number(metrics.today).toLocaleString();
+      if (type === 'live') {
+        badge.textContent = Number(metrics.live || 1).toLocaleString();
+      } else if (type === 'lifetime') {
+        badge.textContent = Number(metrics.lifetime || 1).toLocaleString();
+      } else if (type === 'today') {
+        badge.textContent = Number(metrics.today || 1).toLocaleString();
       }
     });
 
     // Also update legacy site-hit-counter if present
     const legacyEl = document.getElementById('site-hit-counter');
-    if (legacyEl && metrics.lifetime) {
-      legacyEl.textContent = Number(metrics.lifetime).toLocaleString() + '+';
+    if (legacyEl) {
+      legacyEl.textContent = Number(metrics.lifetime || 1).toLocaleString();
     }
   }
 
@@ -404,46 +411,32 @@ const texts = translations[currentLang] || translations.en;
     } catch(e) {}
   }
 
-  // Local calculation fallback when offline or in dev
+  // Genuine count progression for recently launched site
   function calculateLocalFallback() {
     const now = new Date();
     const todayStr = now.toISOString().slice(0, 10);
-    const h = now.getHours();
-    const m = now.getMinutes();
-    const dayOfYear = Math.floor((now.getTime() - new Date(now.getFullYear(), 0, 0).getTime()) / 86400000);
-    const dayOfWeek = (now.getDay() + 6) % 7;
-    const dayOfMonth = now.getDate();
-
     let cached = getCachedMetrics() || {};
 
-    // Base values
-    const baseLifetime = 154200;
-    const baseYear = 42800;
-    const baseMonth = 5640;
-    const baseWeek = 1420;
-    const baseToday = 160;
-
-    // Check if new day
     if (cached.todayStr !== todayStr) {
       cached.todayStr = todayStr;
-      cached.todayIncrement = 1;
+      cached.today = 1;
     } else {
-      cached.todayIncrement = (cached.todayIncrement || 0) + 1;
+      cached.today = (cached.today || 0) + 1;
     }
 
-    const live = 14 + ((h * 7 + m) % 11);
-    const today = baseToday + Math.floor(h * 24 + m * 0.4) + cached.todayIncrement;
-    const week = baseWeek + (dayOfWeek * 340) + today;
-    const month = baseMonth + (dayOfMonth * 280) + today;
-    const year = baseYear + (dayOfYear * 180) + today;
-    const lifetime = baseLifetime + year;
+    const lifetime = (cached.lifetime || 0) + 1;
+    const today = cached.today;
+    const week = (cached.week || 0) + 1;
+    const month = (cached.month || 0) + 1;
+    const year = (cached.year || 0) + 1;
+    const live = 1;
 
-    const metrics = { live, today, week, month, year, lifetime, todayStr, todayIncrement: cached.todayIncrement };
+    const metrics = { live, today, week, month, year, lifetime, todayStr };
     saveCachedMetrics(metrics);
     return metrics;
   }
 
-  // Step 1: Render cached metrics immediately
+  // Step 1: Render cached metrics or clean starting count immediately
   const initialCache = getCachedMetrics();
   if (initialCache) {
     updateDom(initialCache, false);
@@ -471,12 +464,12 @@ const texts = translations[currentLang] || translations.en;
     .then(function(data) {
       if (data && data.success) {
         const metrics = {
-          live: data.live || 14,
-          today: data.today || 210,
-          week: data.week || 1640,
-          month: data.month || 6200,
-          year: data.year || 45200,
-          lifetime: data.lifetime || data.count || 154200,
+          live: Math.max(1, data.live || 1),
+          today: Math.max(1, data.today || 1),
+          week: Math.max(1, data.week || data.today || 1),
+          month: Math.max(1, data.month || data.today || 1),
+          year: Math.max(1, data.year || data.today || 1),
+          lifetime: Math.max(1, data.lifetime || data.count || data.today || 1),
           todayStr: new Date().toISOString().slice(0, 10)
         };
         saveCachedMetrics(metrics);
@@ -499,16 +492,8 @@ const texts = translations[currentLang] || translations.en;
 
   // Step 3: Periodic Live Heartbeat Ping (keeps "Live" count real-time and active)
   let pingInterval = setInterval(function() {
-    // Only ping if tab is active/visible
     if (document.hidden) return;
-
-    fetchStats('ping').catch(function() {
-      // In offline mode, gently fluctuate live count (+1/-1) so the user experiences live activity
-      const cached = getCachedMetrics() || calculateLocalFallback();
-      const delta = (Math.random() > 0.5 ? 1 : -1) * (Math.floor(Math.random() * 2) + 1);
-      cached.live = Math.max(8, (cached.live || 14) + delta);
-      updateDom(cached, true);
-    });
+    fetchStats('ping').catch(function() {});
   }, 18000);
 
   // When user returns to tab, refresh stats immediately

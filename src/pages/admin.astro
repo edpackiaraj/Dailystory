@@ -260,7 +260,7 @@ const sampleStories = getAllReviewedStories('en');
         if (elMonth && data.month) elMonth.textContent = Number(data.month).toLocaleString();
         if (elYear && data.year) elYear.textContent = Number(data.year).toLocaleString();
         if (elLifetime && (data.lifetime || data.count)) {
-          elLifetime.textContent = Number(data.lifetime || data.count).toLocaleString() + '+';
+          elLifetime.textContent = Number(data.lifetime || data.count).toLocaleString();
         }
       }
 
@@ -275,7 +275,7 @@ const sampleStories = getAllReviewedStories('en');
           .catch(function() {
             // Local fallback
             try {
-              const cached = JSON.parse(localStorage.getItem('dth_hit_metrics_v3') || '{}');
+              const cached = JSON.parse(localStorage.getItem('dth_hit_metrics_v5') || '{}');
               if (cached && cached.lifetime) updateAdminUi(cached);
             } catch(e) {}
           });
