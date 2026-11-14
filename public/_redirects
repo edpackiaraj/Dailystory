@@ -409,3 +409,6 @@
 /te/collections/te-collection-:name /te/collections/:name/ 301
 /kn/collections/kn-collection-:name /kn/collections/:name/ 301
 /mr/collections/mr-collection-:name /mr/collections/:name/ 301
+# Cloudflare Pages 200 rewrite for universal story reader
+/:lang/:collection/:slug/  /:lang/story/  200
+/:lang/:collection/:slug   /:lang/story/  200

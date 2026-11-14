@@ -1,8 +1,8 @@
 ---
-import brandConfig from '../../../../config/brand.json';
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import StoryIllustration from '../../../components/StoryIllustration.astro';
-import { getT, getLanguageMeta } from '../../../lib/i18n';
+import brandConfig from '../../../config/brand.json';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryIllustration from '../../components/StoryIllustration.astro';
+import { getT, getLanguageMeta } from '../../lib/i18n';
 import {
   getAllReviewedStories,
   getStoriesByCollection,
@@ -16,48 +16,23 @@ import {
   sanitizeQuizAndDiscussion,
   cleanStorySummary,
   type Story
-} from '../../../lib/stories';
+} from '../../lib/stories';
 
 export function getStaticPaths() {
-  const paths: any[] = [];
-
-  for (const lang of brandConfig.supportedLanguages) {
-    const stories = getAllReviewedStories(lang.code);
-    for (let i = 0; i < stories.length; i++) {
-      const story = stories[i];
-      const colSlug = getCollectionSlug(story.collection);
-      const prevStory = i > 0 ? stories[i - 1] : null;
-      const nextStory = i < stories.length - 1 ? stories[i + 1] : null;
-
-      paths.push({
-        params: {
-          lang: lang.code,
-          collection: colSlug,
-          slug: story.slug
-        },
-        props: {
-          story,
-          prevStory,
-          nextStory
-        }
-      });
-    }
-  }
-
-  return paths;
+  return brandConfig.supportedLanguages.map(l => ({
+    params: { lang: l.code }
+  }));
 }
 
-interface Props {
-  story: Story;
-  prevStory: Story | null;
-  nextStory: Story | null;
-}
-
-const { lang, collection, slug } = Astro.params;
-const { story: rawStory, prevStory, nextStory } = Astro.props;
+const { lang } = Astro.params;
 const currentLang = lang || 'en';
 const t = getT(currentLang);
 const currentLangObj = getLanguageMeta(currentLang);
+
+const allStories = getAllReviewedStories(currentLang);
+const rawStory = allStories[0] || ({} as Story);
+const prevStory = null;
+const nextStory = allStories[1] || null;
 
 // Sanitize mismatched quiz options and generic boilerplate
 const story = sanitizeQuizAndDiscussion(rawStory);
@@ -204,7 +179,7 @@ const jsonLd = [
     aria-hidden="true"
   ></div>
 
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
+  <div id="story-app-container" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
     
     <!-- Breadcrumbs -->
     <nav aria-label="Breadcrumb" class="flex items-center gap-2 text-xs text-[#6B5644] dark:text-[#C8BFAF] mb-6 overflow-x-auto whitespace-nowrap">
@@ -212,11 +187,11 @@ const jsonLd = [
       <span>/</span>
       <a href={`/${lang}/collections/`} class="hover:text-[#D97706] transition-colors">{t.collections}</a>
       <span>/</span>
-      <a href={`/${lang}/collections/${colSlug}/`} class="hover:text-[#D97706] transition-colors">
-        {story.collection}
+      <a id="story-crumb-col-link" href={`/${lang}/collections/${colSlug}/`} class="hover:text-[#D97706] transition-colors">
+        <span id="story-crumb-col-name">{story.collection}</span>
       </a>
       <span>/</span>
-      <span class="text-[#3B2A1A] dark:text-[#F3EBDD] font-semibold truncate max-w-xs">{cleanTitle}</span>
+      <span id="story-crumb-title" class="text-[#3B2A1A] dark:text-[#F3EBDD] font-semibold truncate max-w-xs">{cleanTitle}</span>
     </nav>
 
     <!-- Main Reader Layout: 2 Columns on Desktop (Centered Reading Column + Right Companion Panel) -->
@@ -228,7 +203,7 @@ const jsonLd = [
         <!-- Story Header -->
         <header class="space-y-4">
           <div class="flex flex-wrap items-center gap-2 text-xs">
-            <span class="px-3 py-1 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] font-bold">
+            <span id="story-badge-col" class="px-3 py-1 rounded-full bg-[#D97706]/15 text-[#D97706] dark:text-[#F59E0B] font-bold">
               {story.collection}
             </span>
             <span class="px-3 py-1 rounded-full bg-[#0F766E]/15 text-[#0F766E] dark:text-[#2DD4BF] font-semibold">
@@ -244,14 +219,14 @@ const jsonLd = [
             )}
           </div>
 
-          <h1 class={lang === 'ta'
+          <h1 id="story-main-title" class={lang === 'ta'
             ? "text-lg sm:text-xl md:text-2xl font-bold font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-normal leading-snug"
             : "text-xl sm:text-2xl lg:text-3xl font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] tracking-tight leading-tight"
           }>
             {cleanTitle}
           </h1>
 
-          <p class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed italic">
+          <p id="story-summary-text" class="text-sm sm:text-base text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed italic">
             {cleanSummary}
           </p>
         </header>
@@ -473,17 +448,15 @@ const jsonLd = [
             </div>
 
             <!-- Highlighted Moral Card (Prominent & Always Visible for all Readers) -->
-            {cleanMoral && (
-              <div class="p-6 rounded-3xl bg-[#D97706]/10 dark:bg-[#D97706]/20 border-2 border-[#D97706]/40 shadow-xs space-y-2">
-                <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#D97706] dark:text-[#F59E0B]">
-                  <span>💡</span>
-                  <span>{t.moral}</span>
-                </div>
-                <p class="text-base sm:text-lg font-bold text-[#3B2A1A] dark:text-[#F3EBDD] leading-snug">
-                  {cleanMoral}
-                </p>
+            <div id="story-moral-card" class={`p-6 rounded-3xl bg-[#D97706]/10 dark:bg-[#D97706]/20 border-2 border-[#D97706]/40 shadow-xs space-y-2 ${cleanMoral ? '' : 'hidden'}`}>
+              <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#D97706] dark:text-[#F59E0B]">
+                <span>💡</span>
+                <span>{t.moral}</span>
               </div>
-            )}
+              <p id="story-moral-text" class="text-base sm:text-lg font-bold text-[#3B2A1A] dark:text-[#F3EBDD] leading-snug">
+                {cleanMoral}
+              </p>
+            </div>
 
             <!-- Pedagogy & Learning Suite (School / Classroom Mode Only - Strictly hidden in General Mode) -->
             <div class="pedagogy-learning-suite space-y-6 pt-4">
@@ -534,95 +507,101 @@ const jsonLd = [
               </div>
 
               <!-- Interactive Collapsible Sections: Discuss, Vocabulary, Quiz (Hidden in General Mode) -->
-              <div class="space-y-4">
+              <div id="story-pedagogy-sections" class="space-y-4">
                 
                 <!-- Section 1: Think & Talk (Bloom's Taxonomy) -->
-                {story.discussion_questions && story.discussion_questions.length > 0 && (
-                  <details class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
-                    <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
-                      <span class="flex items-center gap-2.5">
-                        <span>💬</span> {t.discuss}
-                      </span>
-                      <span class="text-xs transition-transform group-open:rotate-180">▼</span>
-                    </summary>
-                    <div class="pt-4 space-y-3 text-sm text-[#6B5644] dark:text-[#C8BFAF]">
-                      {story.discussion_questions.map(q => (
-                        <div class="p-3 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60">
-                          <span class="text-xs font-bold text-[#D97706] uppercase">{q.tier || q.type}:</span>
-                          <p class="mt-0.5 text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">{q.prompt || q.question}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </details>
-                )}
+                <div id="story-discuss-container">
+                  {story.discussion_questions && story.discussion_questions.length > 0 && (
+                    <details class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
+                      <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+                        <span class="flex items-center gap-2.5">
+                          <span>💬</span> {t.discuss}
+                        </span>
+                        <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+                      </summary>
+                      <div class="pt-4 space-y-3 text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+                        {story.discussion_questions.map(q => (
+                          <div class="p-3 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60">
+                            <span class="text-xs font-bold text-[#D97706] uppercase">{q.tier || q.type}:</span>
+                            <p class="mt-0.5 text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">{q.prompt || q.question}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </details>
+                  )}
+                </div>
 
                 <!-- Section 2: Words to Learn (Vocabulary) -->
-                {story.vocabulary && story.vocabulary.length > 0 && (
-                  <details class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
-                    <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
-                      <span class="flex items-center gap-2.5">
-                        <span>📚</span> {t.vocabulary}
-                      </span>
-                      <span class="text-xs transition-transform group-open:rotate-180">▼</span>
-                    </summary>
-                    <div class="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-sm">
-                      {story.vocabulary.map(v => (
-                        <div class="p-3 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60">
-                          <strong class="text-[#0F766E] dark:text-[#2DD4BF]">{v.word}</strong>
-                          <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] mt-0.5">{v.meaning}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </details>
-                )}
+                <div id="story-vocab-container">
+                  {story.vocabulary && story.vocabulary.length > 0 && (
+                    <details class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
+                      <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+                        <span class="flex items-center gap-2.5">
+                          <span>📚</span> {t.vocabulary}
+                        </span>
+                        <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+                      </summary>
+                      <div class="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-sm">
+                        {story.vocabulary.map(v => (
+                          <div class="p-3 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60">
+                            <strong class="text-[#0F766E] dark:text-[#2DD4BF]">{v.word}</strong>
+                            <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] mt-0.5">{v.meaning}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </details>
+                  )}
+                </div>
 
                 <!-- Section 3: Quick Quiz Challenge -->
-                {story.quiz && story.quiz.length > 0 && (
-                  <details open class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
-                    <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
-                      <span class="flex items-center gap-2.5">
-                        <span>🎯</span> {t.quiz}
-                      </span>
-                      <span class="text-xs transition-transform group-open:rotate-180">▼</span>
-                    </summary>
-                    <div class="pt-4 space-y-4" id="story-quiz-container" data-total-questions={story.quiz.length} data-story-title={story.title}>
-                      <!-- Real-Time Quiz Score Banner (Injected on Completion) -->
-                      <div id="quiz-completion-banner" class="hidden p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-500/40 text-emerald-800 dark:text-emerald-200 text-xs font-bold flex items-center justify-between">
-                        <div class="flex items-center gap-2">
-                          <span class="text-lg">🎉</span>
-                          <span id="quiz-completion-text">{t.quizComplete || "Quiz Complete!"}</span>
-                        </div>
-                        <a href={`/${currentLang}/classroom/`} class="underline text-emerald-700 dark:text-emerald-300">
-                          {currentLang === 'ta' ? 'வகுப்பறைப் பலகையைக் காண்க →' : (currentLang === 'hi' ? 'कक्षा बोर्ड देखें →' : 'View Classroom Board →')}
-                        </a>
-                      </div>
-
-                      {story.quiz.map((q, qIdx) => (
-                        <div class="quiz-question-card p-4 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60 space-y-3" data-qindex={qIdx}>
-                          <p class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
-                            {qIdx + 1}. {q.question}
-                          </p>
-                          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                            {q.options.map((opt: string, optIdx: number) => (
-                              <button
-                                type="button"
-                                class="quiz-option-btn p-3 rounded-xl border border-[#EEDFC8] dark:border-[#383659] bg-white dark:bg-[#25243E] hover:border-[#D97706] text-xs font-semibold text-start text-[#3B2A1A] dark:text-[#F3EBDD] transition-all flex items-center justify-between min-h-[44px]"
-                                data-question-idx={qIdx}
-                                data-option-idx={optIdx}
-                                data-is-correct={optIdx === q.answerIndex ? 'true' : 'false'}
-                                data-correct={optIdx === q.answerIndex ? 'true' : 'false'}
-                                data-hint={q.hint}
-                              >
-                                <span>{opt}</span>
-                                <span class="quiz-feedback-icon hidden"></span>
-                              </button>
-                            ))}
+                <div id="story-quiz-container-wrapper">
+                  {story.quiz && story.quiz.length > 0 && (
+                    <details open class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
+                      <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+                        <span class="flex items-center gap-2.5">
+                          <span>🎯</span> {t.quiz}
+                        </span>
+                        <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+                      </summary>
+                      <div class="pt-4 space-y-4" id="story-quiz-container" data-total-questions={story.quiz.length} data-story-title={story.title}>
+                        <!-- Real-Time Quiz Score Banner (Injected on Completion) -->
+                        <div id="quiz-completion-banner" class="hidden p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-500/40 text-emerald-800 dark:text-emerald-200 text-xs font-bold flex items-center justify-between">
+                          <div class="flex items-center gap-2">
+                            <span class="text-lg">🎉</span>
+                            <span id="quiz-completion-text">{t.quizComplete || "Quiz Complete!"}</span>
                           </div>
+                          <a href={`/${currentLang}/classroom/`} class="underline text-emerald-700 dark:text-emerald-300">
+                            {currentLang === 'ta' ? 'வகுப்பறைப் பலகையைக் காண்க →' : (currentLang === 'hi' ? 'कक्षा बोर्ड देखें →' : 'View Classroom Board →')}
+                          </a>
                         </div>
-                      ))}
-                    </div>
-                  </details>
-                )}
+
+                        {story.quiz.map((q, qIdx) => (
+                          <div class="quiz-question-card p-4 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60 space-y-3" data-qindex={qIdx}>
+                            <p class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+                              {qIdx + 1}. {q.question}
+                            </p>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                              {q.options.map((opt: string, optIdx: number) => (
+                                <button
+                                  type="button"
+                                  class="quiz-option-btn p-3 rounded-xl border border-[#EEDFC8] dark:border-[#383659] bg-white dark:bg-[#25243E] hover:border-[#D97706] text-xs font-semibold text-start text-[#3B2A1A] dark:text-[#F3EBDD] transition-all flex items-center justify-between min-h-[44px]"
+                                  data-question-idx={qIdx}
+                                  data-option-idx={optIdx}
+                                  data-is-correct={optIdx === q.answerIndex ? 'true' : 'false'}
+                                  data-correct={optIdx === q.answerIndex ? 'true' : 'false'}
+                                  data-hint={q.hint}
+                                >
+                                  <span>{opt}</span>
+                                  <span class="quiz-feedback-icon hidden"></span>
+                                </button>
+                              ))}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </details>
+                  )}
+                </div>
 
               </div>
             </div>
@@ -647,6 +626,7 @@ const jsonLd = [
           <div class="flex items-center gap-2 text-xs font-bold">
             <span class="text-[#6B5644] dark:text-[#C8BFAF]">{t.share}:</span>
             <a
+              id="share-whatsapp-link"
               href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
                 lang === 'ta'
                   ? `${cleanTitle} – தினம் ஒரு கதையில் வாசியுங்கள்: ${canonicalUrl}`
@@ -660,6 +640,7 @@ const jsonLd = [
               💬 WhatsApp
             </a>
             <a
+              id="share-twitter-link"
               href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(story.title)}&url=${encodeURIComponent(canonicalUrl)}`}
               target="_blank"
               rel="noopener noreferrer"
@@ -682,72 +663,46 @@ const jsonLd = [
 
         <!-- Story Pagination: Previous Story & Next Story -->
         <nav aria-label="Story Navigation" class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6">
-          {prevStory ? (
-            <a
-              href={getStoryUrl(prevStory, lang || 'en')}
-              class="p-4 rounded-2xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] transition-all text-start group space-y-1"
-            >
-              <span class="text-xs text-[#6B5644] dark:text-[#C8BFAF] flex items-center gap-1 group-hover:text-[#D97706]">
-                ← {t.previous}
-              </span>
-              <p class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1">
-                {prevStory.title}
-              </p>
-            </a>
-          ) : (
-            <a
-              href={`/${currentLang}/collections/${colSlug}/`}
-              class="p-4 rounded-2xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] transition-all text-start group space-y-1"
-            >
-              <span class="text-xs text-[#6B5644] dark:text-[#C8BFAF] flex items-center gap-1 group-hover:text-[#D97706]">
-                ← {currentLang === 'ta' ? 'தொகுப்பிற்குத் திரும்பு' : 'View Collection'}
-              </span>
-              <p class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1">
-                {story.collection}
-              </p>
-            </a>
-          )}
+          <a
+            id="story-nav-prev-link"
+            href={prevStory ? getStoryUrl(prevStory, lang || 'en') : `/${currentLang}/collections/${colSlug}/`}
+            class="p-4 rounded-2xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] transition-all text-start group space-y-1"
+          >
+            <span class="text-xs text-[#6B5644] dark:text-[#C8BFAF] flex items-center gap-1 group-hover:text-[#D97706]">
+              ← {t.previous}
+            </span>
+            <p id="story-nav-prev-title" class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1">
+              {prevStory ? prevStory.title : story.collection}
+            </p>
+          </a>
 
-          {nextStory ? (
-            <a
-              href={getStoryUrl(nextStory, lang || 'en')}
-              class="p-4 rounded-2xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] transition-all text-end group space-y-1"
-            >
-              <span class="text-xs text-[#6B5644] dark:text-[#C8BFAF] flex items-center justify-end gap-1 group-hover:text-[#D97706]">
-                {t.next} →
-              </span>
-              <p class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1">
-                {nextStory.title}
-              </p>
-            </a>
-          ) : (
-            <a
-              href={`/${currentLang}/collections/${colSlug}/`}
-              class="p-4 rounded-2xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] transition-all text-end group space-y-1"
-            >
-              <span class="text-xs text-[#6B5644] dark:text-[#C8BFAF] flex items-center justify-end gap-1 group-hover:text-[#D97706]">
-                {currentLang === 'ta' ? 'அனைத்து கதைகளும்' : 'All Stories'} →
-              </span>
-              <p class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1">
-                {story.collection}
-              </p>
-            </a>
-          )}
+          <a
+            id="story-nav-next-link"
+            href={nextStory ? getStoryUrl(nextStory, lang || 'en') : `/${currentLang}/collections/${colSlug}/`}
+            class="p-4 rounded-2xl border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] transition-all text-end group space-y-1"
+          >
+            <span class="text-xs text-[#6B5644] dark:text-[#C8BFAF] flex items-center justify-end gap-1 group-hover:text-[#D97706]">
+              {t.next} →
+            </span>
+            <p id="story-nav-next-title" class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1">
+              {nextStory ? nextStory.title : story.collection}
+            </p>
+          </a>
         </nav>
 
         <!-- Related Stories from the Same Collection (Deep Crawlable Internal Links) -->
         {relatedStories.length > 0 && (
           <section class="pt-8 border-t border-[#EEDFC8] dark:border-[#383659] space-y-4">
             <div class="flex items-center justify-between">
-              <h2 class="text-base sm:text-lg font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
+              <h2 id="story-related-heading" class="text-base sm:text-lg font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD]">
                 {currentLang === 'ta' ? `மேலும் ${localizedColName}:` : `More Stories from ${story.collection}:`}
               </h2>
-              <a href={`/${currentLang}/collections/${colSlug}/`} class="text-xs font-bold text-[#D97706] hover:underline">
+              <a id="story-related-all-link" href={`/${currentLang}/collections/${colSlug}/`} class="text-xs font-bold text-[#D97706] hover:underline">
                 {currentLang === 'ta' ? 'அனைத்து கதைகளும் →' : 'View Collection →'}
               </a>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div id="story-related-stories-container" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {relatedStories.map(rel => (
                 <a
                   href={getStoryUrl(rel, currentLang)}
@@ -900,14 +855,13 @@ const jsonLd = [
     aria-label="Story Quick Controls"
   >
     <div class="max-w-md mx-auto flex items-center justify-between gap-2">
-      {prevStory ? (
-        <a
-          href={getStoryUrl(prevStory, lang || 'en')}
-          class="p-2 rounded-xl text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF] hover:text-[#D97706] flex items-center gap-1 min-h-[44px]"
-        >
-          <span>←</span> {t.previous}
-        </a>
-      ) : <div class="w-16" />}
+      <a
+        id="mobile-nav-prev-link"
+        href={prevStory ? getStoryUrl(prevStory, lang || 'en') : `/${currentLang}/collections/${colSlug}/`}
+        class="p-2 rounded-xl text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF] hover:text-[#D97706] flex items-center gap-1 min-h-[44px]"
+      >
+        <span>←</span> <span id="mobile-nav-prev-text">{t.previous}</span>
+      </a>
 
       {isTranslated ? (
         <button
@@ -936,19 +890,147 @@ const jsonLd = [
         Aa
       </button>
 
-      {nextStory ? (
-        <a
-          href={getStoryUrl(nextStory, lang || 'en')}
-          class="p-2 rounded-xl text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF] hover:text-[#D97706] flex items-center gap-1 min-h-[44px]"
-        >
-          {t.next} <span>→</span>
-        </a>
-      ) : <div class="w-16" />}
+      <a
+        id="mobile-nav-next-link"
+        href={nextStory ? getStoryUrl(nextStory, lang || 'en') : `/${currentLang}/collections/${colSlug}/`}
+        class="p-2 rounded-xl text-xs font-bold text-[#6B5644] dark:text-[#C8BFAF] hover:text-[#D97706] flex items-center gap-1 min-h-[44px]"
+      >
+        <span id="mobile-nav-next-text">{t.next}</span> <span>→</span>
+      </a>
     </div>
   </aside>
 </BaseLayout>
 
 <script is:inline>
+  // 0. Universal Hydration & Dynamic Story Loader
+  (async function hydrateStory() {
+    let payload = null;
+    const payloadEl = document.getElementById('initial-story-payload');
+    if (payloadEl && payloadEl.textContent) {
+      try {
+        payload = JSON.parse(payloadEl.textContent);
+      } catch (e) {}
+    }
+
+    const pathParts = window.location.pathname.split('/').filter(Boolean);
+    const urlLang = pathParts[0] || 'en';
+    const urlCol = pathParts[1] || '';
+    const urlSlug = pathParts[2] || '';
+
+    // Fallback: If payload wasn't pre-injected (e.g. running under dev preview or direct static shell)
+    if (!payload && urlCol && urlSlug && urlSlug !== 'story') {
+      try {
+        const res = await fetch(`/data/collections/${urlLang}_${urlCol}.json`);
+        if (res.ok) {
+          const stories = await res.json();
+          payload = stories.find(s => s.slug === urlSlug);
+        }
+      } catch (e) {}
+    }
+
+    if (payload) {
+      window.__CURRENT_STORY_DATA = payload;
+      const cleanTitle = (payload.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim();
+      const cleanSummary = (payload.summary || '').trim();
+      const cleanMoral = (payload.moral || '').trim();
+
+      document.title = `${cleanTitle} | Daily Tale`;
+      const h1 = document.getElementById('story-main-title');
+      if (h1) h1.textContent = cleanTitle;
+
+      const summaryEl = document.getElementById('story-summary-text');
+      if (summaryEl) summaryEl.textContent = cleanSummary;
+
+      const bodyEl = document.getElementById('story-body-content');
+      if (bodyEl && payload.full_text) {
+        bodyEl.innerHTML = payload.full_text
+          .split(/\n\n+/)
+          .map(p => `<p class="leading-[1.75] tracking-normal mb-6">${p}</p>`)
+          .join('');
+      }
+
+      const moralCard = document.getElementById('story-moral-card');
+      const moralEl = document.getElementById('story-moral-text');
+      if (moralCard && moralEl) {
+        if (cleanMoral) {
+          moralEl.textContent = cleanMoral;
+          moralCard.classList.remove('hidden');
+        } else {
+          moralCard.classList.add('hidden');
+        }
+      }
+
+      // Populate Pedagogy: Vocabulary, Think & Talk, Quiz
+      if (typeof hydratePedagogy === 'function') {
+        hydratePedagogy(payload, urlLang);
+      }
+
+      // Sync Social Share, Favourite & Copy Link
+      const canUrl = window.location.href;
+      const favBtn = document.getElementById('favourite-story-btn');
+      if (favBtn) {
+        favBtn.setAttribute('data-story-id', String(payload.id || urlSlug));
+        favBtn.setAttribute('data-story-title', cleanTitle);
+        favBtn.setAttribute('data-story-url', canUrl);
+      }
+      const waLink = document.getElementById('share-whatsapp-link');
+      if (waLink) {
+        const waMsg = urlLang === 'ta'
+          ? `${cleanTitle} – தினம் ஒரு கதையில் வாசியுங்கள்: ${canUrl}`
+          : `${cleanTitle} - Read on Daily Tale: ${canUrl}`;
+        waLink.setAttribute('href', `https://api.whatsapp.com/send?text=${encodeURIComponent(waMsg)}`);
+      }
+      const twLink = document.getElementById('share-twitter-link');
+      if (twLink) {
+        twLink.setAttribute('href', `https://twitter.com/intent/tweet?text=${encodeURIComponent(cleanTitle)}&url=${encodeURIComponent(canUrl)}`);
+      }
+      const cpBtn = document.getElementById('copy-link-btn');
+      if (cpBtn) {
+        cpBtn.setAttribute('data-url', canUrl);
+      }
+    }
+
+    // Always fetch collection playlist for auto-advance narration and pagination
+    if (urlCol && urlCol !== 'story') {
+      try {
+        if (!collectionPlaylist || collectionPlaylist.length === 0) {
+          const res = await fetch(`/data/collections/${urlLang}_${urlCol}.json`);
+          if (res.ok) {
+            collectionPlaylist = await res.json();
+          }
+        }
+        if (collectionPlaylist && collectionPlaylist.length > 0) {
+          const curSlug = window.location.pathname.split('/').filter(Boolean).pop() || '';
+          const sIdx = collectionPlaylist.findIndex(s => s.slug === curSlug);
+          if (sIdx !== -1) {
+            currentPlaylistIdx = sIdx;
+            const prev = sIdx > 0 ? collectionPlaylist[sIdx - 1] : null;
+            const next = sIdx < collectionPlaylist.length - 1 ? collectionPlaylist[sIdx + 1] : null;
+
+            const prevLink = document.getElementById('story-nav-prev-link');
+            const prevTitle = document.getElementById('story-nav-prev-title');
+            if (prevLink && prev) {
+              prevLink.setAttribute('href', `/${urlLang}/${urlCol}/${prev.slug}/`);
+              if (prevTitle) prevTitle.textContent = (prev.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim();
+            }
+
+            const nextLink = document.getElementById('story-nav-next-link');
+            const nextTitle = document.getElementById('story-nav-next-title');
+            if (nextLink && next) {
+              nextLink.setAttribute('href', `/${urlLang}/${urlCol}/${next.slug}/`);
+              if (nextTitle) nextTitle.textContent = (next.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim();
+            }
+
+            const mPrev = document.getElementById('mobile-nav-prev-link');
+            if (mPrev && prev) mPrev.setAttribute('href', `/${urlLang}/${urlCol}/${prev.slug}/`);
+            const mNext = document.getElementById('mobile-nav-next-link');
+            if (mNext && next) mNext.setAttribute('href', `/${urlLang}/${urlCol}/${next.slug}/`);
+          }
+        }
+      } catch (e) {}
+    }
+  })();
+
   // 1. Reading Progress Bar
   const progressBar = document.getElementById('reading-progress-bar');
   window.addEventListener('scroll', () => {
@@ -1433,7 +1515,15 @@ const jsonLd = [
     }
 
     // Determine current story data
-    let currentStoryData = collectionPlaylist[currentPlaylistIdx];
+    let currentStoryData = window.__CURRENT_STORY_DATA || collectionPlaylist[currentPlaylistIdx];
+    if (!currentStoryData) {
+      const payloadEl = document.getElementById('initial-story-payload');
+      if (payloadEl && payloadEl.textContent) {
+        try {
+          currentStoryData = JSON.parse(payloadEl.textContent);
+        } catch(e) {}
+      }
+    }
     if (!currentStoryData) {
       const titleEl = document.querySelector('h1');
       const bodyEl = document.getElementById('story-body-content');
@@ -1504,69 +1594,180 @@ const jsonLd = [
   });
 
   // 4. Interactive Quiz Option Checker & Classroom Score Logging
-  let quizAnsweredCount = 0;
-  let quizCorrectCount = 0;
-  const quizContainer = document.getElementById('story-quiz-container');
-  const totalQuestions = quizContainer ? parseInt(quizContainer.getAttribute('data-total-questions') || '0', 10) : 0;
-  const currentStoryTitle = quizContainer?.getAttribute('data-story-title') || document.title;
+  function bindQuizEvents() {
+    let quizAnsweredCount = 0;
+    let quizCorrectCount = 0;
+    const quizContainer = document.getElementById('story-quiz-container');
+    const totalQuestions = quizContainer ? parseInt(quizContainer.getAttribute('data-total-questions') || '0', 10) : 0;
+    const currentStoryTitle = quizContainer?.getAttribute('data-story-title') || document.title;
 
-  document.querySelectorAll('.quiz-option-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const parent = btn.closest('.grid');
-      const isCorrect = (btn.getAttribute('data-is-correct') || btn.getAttribute('data-correct')) === 'true';
+    document.querySelectorAll('.quiz-option-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const parent = btn.closest('.grid');
+        const isCorrect = (btn.getAttribute('data-is-correct') || btn.getAttribute('data-correct')) === 'true';
 
-      if (isCorrect) {
-        quizCorrectCount++;
-      }
-      quizAnsweredCount++;
+        if (isCorrect) {
+          quizCorrectCount++;
+        }
+        quizAnsweredCount++;
 
-      parent.querySelectorAll('.quiz-option-btn').forEach(b => {
-        b.disabled = true;
-        const bCorrect = (b.getAttribute('data-is-correct') || b.getAttribute('data-correct')) === 'true';
-        if (bCorrect) {
-          b.classList.add('bg-emerald-100', 'border-emerald-500', 'text-emerald-900', 'dark:bg-emerald-950/70', 'dark:text-emerald-200');
+        parent.querySelectorAll('.quiz-option-btn').forEach(b => {
+          b.disabled = true;
+          const bCorrect = (b.getAttribute('data-is-correct') || b.getAttribute('data-correct')) === 'true';
+          if (bCorrect) {
+            b.classList.add('bg-emerald-100', 'border-emerald-500', 'text-emerald-900', 'dark:bg-emerald-950/70', 'dark:text-emerald-200');
+          }
+        });
+
+        if (!isCorrect) {
+          btn.classList.add('bg-red-100', 'border-red-500', 'text-red-900', 'dark:bg-red-950/70', 'dark:text-red-200');
+        }
+
+        // Check if all questions are answered
+        if (totalQuestions > 0 && quizAnsweredCount >= totalQuestions) {
+          const scorePercent = Math.round((quizCorrectCount / totalQuestions) * 100);
+          const banner = document.getElementById('quiz-completion-banner');
+          const text = document.getElementById('quiz-completion-text');
+          if (banner && text) {
+            text.textContent = `Completed! Score: ${quizCorrectCount}/${totalQuestions} (${scorePercent}%) — Logged to Classroom`;
+            banner.classList.remove('hidden');
+          }
+
+          // Automatic logging to Classroom Results
+          try {
+            const studentProfile = JSON.parse(localStorage.getItem('dailytale_current_student') || 'null');
+            const studentName = studentProfile?.name || 'Reader (Guest)';
+            const urlParams = new URLSearchParams(window.location.search);
+            const classCode = urlParams.get('class') || studentProfile?.classCode || 'CLASS-5A';
+
+            const record = {
+              id: Date.now().toString(),
+              studentName,
+              classCode,
+              storyTitle: currentStoryTitle,
+              score: `${quizCorrectCount}/${totalQuestions} (${scorePercent}%)`,
+              scoreNum: scorePercent,
+              date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit' }),
+              status: scorePercent >= 70 ? 'Distinction' : scorePercent >= 40 ? 'Passed' : 'Review Needed'
+            };
+
+            const existingResults = JSON.parse(localStorage.getItem('dailytale_classroom_results') || '[]');
+            existingResults.unshift(record);
+            localStorage.setItem('dailytale_classroom_results', JSON.stringify(existingResults.slice(0, 100)));
+          } catch(e) {}
         }
       });
-
-      if (!isCorrect) {
-        btn.classList.add('bg-red-100', 'border-red-500', 'text-red-900', 'dark:bg-red-950/70', 'dark:text-red-200');
-      }
-
-      // Check if all questions are answered
-      if (totalQuestions > 0 && quizAnsweredCount >= totalQuestions) {
-        const scorePercent = Math.round((quizCorrectCount / totalQuestions) * 100);
-        const banner = document.getElementById('quiz-completion-banner');
-        const text = document.getElementById('quiz-completion-text');
-        if (banner && text) {
-          text.textContent = `Completed! Score: ${quizCorrectCount}/${totalQuestions} (${scorePercent}%) — Logged to Classroom`;
-          banner.classList.remove('hidden');
-        }
-
-        // Automatic logging to Classroom Results
-        try {
-          const studentProfile = JSON.parse(localStorage.getItem('dailytale_current_student') || 'null');
-          const studentName = studentProfile?.name || 'Reader (Guest)';
-          const urlParams = new URLSearchParams(window.location.search);
-          const classCode = urlParams.get('class') || studentProfile?.classCode || 'CLASS-5A';
-
-          const record = {
-            id: Date.now().toString(),
-            studentName,
-            classCode,
-            storyTitle: currentStoryTitle,
-            score: `${quizCorrectCount}/${totalQuestions} (${scorePercent}%)`,
-            scoreNum: scorePercent,
-            date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit' }),
-            status: scorePercent >= 70 ? 'Distinction' : scorePercent >= 40 ? 'Passed' : 'Review Needed'
-          };
-
-          const existingResults = JSON.parse(localStorage.getItem('dailytale_classroom_results') || '[]');
-          existingResults.unshift(record);
-          localStorage.setItem('dailytale_classroom_results', JSON.stringify(existingResults.slice(0, 100)));
-        } catch(e) {}
-      }
     });
-  });
+  }
+  bindQuizEvents();
+
+  function hydratePedagogy(st, lang) {
+    if (!st) return;
+
+    // 1. Discussion
+    const discussCont = document.getElementById('story-discuss-container');
+    if (discussCont) {
+      if (st.discussion_questions && st.discussion_questions.length > 0) {
+        const titleText = lang === 'ta' ? 'சிந்திப்போம் & பேசுவோம்' : 'Think & Talk';
+        discussCont.innerHTML = `
+          <details class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+              <span class="flex items-center gap-2.5"><span>💬</span> ${titleText}</span>
+              <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+            </summary>
+            <div class="pt-4 space-y-3 text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+              ${st.discussion_questions.map((q) => `
+                <div class="p-3 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60">
+                  <span class="text-xs font-bold text-[#D97706] uppercase">${q.tier || q.type || 'QUESTION'}:</span>
+                  <p class="mt-0.5 text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">${q.prompt || q.question}</p>
+                </div>
+              `).join('')}
+            </div>
+          </details>`;
+      } else {
+        discussCont.innerHTML = '';
+      }
+    }
+
+    // 2. Vocabulary
+    const vocabCont = document.getElementById('story-vocab-container');
+    if (vocabCont) {
+      if (st.vocabulary && st.vocabulary.length > 0) {
+        const vocabTitle = lang === 'ta' ? 'புதிய சொற்கள்' : 'Vocabulary';
+        vocabCont.innerHTML = `
+          <details class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+              <span class="flex items-center gap-2.5"><span>📚</span> ${vocabTitle}</span>
+              <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+            </summary>
+            <div class="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-sm">
+              ${st.vocabulary.map((v) => `
+                <div class="p-3 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60">
+                  <strong class="text-[#0F766E] dark:text-[#2DD4BF]">${v.word}</strong>
+                  <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] mt-0.5">${v.meaning}</p>
+                </div>
+              `).join('')}
+            </div>
+          </details>`;
+      } else {
+        vocabCont.innerHTML = '';
+      }
+    }
+
+    // 3. Quiz
+    const quizCont = document.getElementById('story-quiz-container-wrapper');
+    if (quizCont) {
+      if (st.quiz && st.quiz.length > 0) {
+        const quizTitle = lang === 'ta' ? 'வினாடி வினா' : 'Quick Quiz Challenge';
+        const quizCompText = lang === 'ta' ? 'வினாடி வினா முடிந்தது!' : 'Quiz Complete!';
+        const classroomText = lang === 'ta' ? 'வகுப்பறைப் பலகையைக் காண்க →' : 'View Classroom Board →';
+        quizCont.innerHTML = `
+          <details open class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+              <span class="flex items-center gap-2.5"><span>🎯</span> ${quizTitle}</span>
+              <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+            </summary>
+            <div class="pt-4 space-y-4" id="story-quiz-container" data-total-questions="${st.quiz.length}" data-story-title="${(st.title || '').replace(/"/g, '&quot;')}">
+              <div id="quiz-completion-banner" class="hidden p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-500/40 text-emerald-800 dark:text-emerald-200 text-xs font-bold flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <span class="text-lg">🎉</span>
+                  <span id="quiz-completion-text">${quizCompText}</span>
+                </div>
+                <a href="/${lang}/classroom/" class="underline text-emerald-700 dark:text-emerald-300">
+                  ${classroomText}
+                </a>
+              </div>
+              ${st.quiz.map((q, qIdx) => `
+                <div class="quiz-question-card p-4 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60 space-y-3" data-qindex="${qIdx}">
+                  <p class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+                    ${qIdx + 1}. ${q.question}
+                  </p>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    ${(q.options || []).map((opt, optIdx) => `
+                      <button
+                        type="button"
+                        class="quiz-option-btn p-3 rounded-xl border border-[#EEDFC8] dark:border-[#383659] bg-white dark:bg-[#25243E] hover:border-[#D97706] text-xs font-semibold text-start text-[#3B2A1A] dark:text-[#F3EBDD] transition-all flex items-center justify-between min-h-[44px]"
+                        data-question-idx="${qIdx}"
+                        data-option-idx="${optIdx}"
+                        data-is-correct="${optIdx === q.answerIndex ? 'true' : 'false'}"
+                        data-correct="${optIdx === q.answerIndex ? 'true' : 'false'}"
+                        data-hint="${(q.hint || '').replace(/"/g, '&quot;')}"
+                      >
+                        <span>${opt}</span>
+                        <span class="quiz-feedback-icon hidden"></span>
+                      </button>
+                    `).join('')}
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </details>`;
+        bindQuizEvents();
+      } else {
+        quizCont.innerHTML = '';
+      }
+    }
+  }
 
   // Classroom Share Button
   const shareClassBtn = document.getElementById('share-classroom-btn');

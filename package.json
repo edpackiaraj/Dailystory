@@ -15,6 +15,7 @@
     "export:stories": "node scripts/export-individual-stories.mjs"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^11.2.0",
     "@astrojs/tailwind": "^5.1.4",
     "astro": "^4.16.18",
     "tailwindcss": "^3.4.17"
