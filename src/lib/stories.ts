@@ -280,7 +280,9 @@ export const collectionImageMap: Record<string, string> = {
   'panchatantra': '/images/stories/panchatantra.webp',
   'paramartha-guru': '/images/stories/paramartha-guru.webp',
   'tenali-rama': '/images/stories/tenali-rama.webp',
-  'vikram-vetal': '/images/stories/vikram-vetal.webp'
+  'vikram-vetal': '/images/stories/vikram-vetal.webp',
+  'science-stories': '/images/og-default.png',
+  'science-discovery': '/images/og-default.png'
 };
 
 export function getStoryOgImage(story?: { collection?: string; image?: string } | null): string {
@@ -310,7 +312,9 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
     "arabian-nights": "ஆயிரத்தொரு இரவுகள் (அரேபிய இரவுகள்)",
     "paramartha-guru": "பரமார்த்த குரு கதைகள் (வீரமாமுனிவர்)",
     "vikram-vetal": "விக்கிரமாதித்தன்–வேதாளம் கதைகள்",
-    "charles-perrault": "சார்லஸ் பெரோ கதைகள்"
+    "charles-perrault": "சார்லஸ் பெரோ கதைகள்",
+    "science-stories": "அறிவியல் கண்டுபிடிப்புக் கதைகள்",
+    "science-discovery": "அறிவியல் கண்டுபிடிப்புக் கதைகள்"
   },
   hi: {
     "cinderella-stories": "सिंड्रेला की विश्व प्रसिद्ध कहानियाँ",
@@ -326,7 +330,9 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
     "arabian-nights": "अलिफ़ लैला (अरेबियन नाइट्स)",
     "paramartha-guru": "परमार्थ गुरु की कथाएँ",
     "vikram-vetal": "विक्रम-वेताल की कहानियाँ",
-    "charles-perrault": "चार्ल्स पेरौल्ट की कहानियाँ"
+    "charles-perrault": "चार्ल्स पेरौल्ट की कहानियाँ",
+    "science-stories": "विज्ञान एवं खोज की कहानियाँ",
+    "science-discovery": "विज्ञान एवं खोज की कहानियाँ"
   },
   ur: {
     "cinderella-stories": "سنڈریلا کی عالمی کہانیاں",
@@ -342,7 +348,9 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
     "arabian-nights": "الف لیلہ و لیلہ (عربین نائٹس)",
     "paramartha-guru": "پرمارتھ گرو کی کہانیاں",
     "vikram-vetal": "وکرم اور ویتال کی کہانیاں",
-    "charles-perrault": "چارلس پیرول کی کہانیاں"
+    "charles-perrault": "چارلس پیرول کی کہانیاں",
+    "science-stories": "سائنس اور دریافت کی کہانیاں",
+    "science-discovery": "سائنس اور دریافت کی کہانیاں"
   }
 };
 

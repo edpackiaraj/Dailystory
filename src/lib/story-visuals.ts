@@ -243,6 +243,22 @@ export function getStoryVisual(story: {
     };
   }
 
+  if (col.includes('science') || col.includes('அறிவியல்') || col.includes('discovery') || col.includes('விஞ்ஞான')) {
+    return {
+      motif: 'science_discovery',
+      icon: '🔬 ⚡ 🌌 🧪',
+      theme: 'river_cyan',
+      bgGradient: 'from-teal-800 via-cyan-950 to-slate-950',
+      accentColor: '#38BDF8',
+      decorType: 'stars',
+      label: {
+        en: 'Science & Discovery Tales',
+        ta: 'அறிவியல் கண்டுபிடிப்புக் கதைகள்',
+        hi: 'विज्ञान एवं खोज की कहानियाँ'
+      }
+    };
+  }
+
   // 2. SPECIFIC FAMOUS FABLES & TALES
   if (text.includes('red riding hood') || text.includes('chaperon rouge') || text.includes('சிவப்புத் தொப்பி')) {
     return {
