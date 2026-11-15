@@ -65,6 +65,13 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   const ogImage = story.image || '/images/stories/default.jpg';
   const fullOgImage = ogImage.startsWith('http') ? ogImage : `https://dailystory.pages.dev${ogImage}`;
 
+  const storySource = (story.source_book || story.source || '').trim();
+  const storyAuthor = (story.source_author || '').trim();
+  const storyYear = (story.source_year || '').trim();
+  const storyChapter = (story.source_chapter || '').trim();
+  const storyAuthNote = (story.authenticity_note || '').trim();
+  const hasSource = Boolean(storySource);
+
   const storyBody = (story.full_text || story.content || '').trim();
   const paragraphsHtml = storyBody
     .split(/\n\n+/)
@@ -337,6 +344,118 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     .on('#story-moral-text', {
       element(el) {
         el.setInnerContent(cleanMoral);
+      }
+    })
+    .on('#story-source-book-card', {
+      element(el) {
+        if (!hasSource) {
+          el.setAttribute('class', 'hidden');
+        } else {
+          el.setAttribute('class', 'p-6 rounded-3xl bg-linear-to-br from-cyan-900/10 via-teal-900/10 to-slate-900/10 dark:from-cyan-950/40 dark:via-teal-950/30 dark:to-[#1B1A2E] border-2 border-cyan-600/30 dark:border-cyan-500/40 shadow-xs space-y-3');
+        }
+      }
+    })
+    .on('#story-source-book-title', {
+      element(el) {
+        el.setInnerContent(storySource);
+      }
+    })
+    .on('#story-source-book-meta', {
+      element(el) {
+        if (!storyAuthor && !storyYear && !storyChapter) {
+          el.setAttribute('class', 'hidden');
+        } else {
+          el.setAttribute('class', 'flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[#6B5644] dark:text-[#C8BFAF]');
+        }
+      }
+    })
+    .on('#story-source-book-author-wrap', {
+      element(el) {
+        if (!storyAuthor) {
+          el.setAttribute('class', 'hidden');
+        } else {
+          el.setAttribute('class', '');
+        }
+      }
+    })
+    .on('#story-source-book-author', {
+      element(el) {
+        el.setInnerContent(storyAuthor);
+      }
+    })
+    .on('#story-source-book-year-wrap', {
+      element(el) {
+        if (!storyYear) {
+          el.setAttribute('class', 'hidden');
+        } else {
+          el.setAttribute('class', '');
+        }
+      }
+    })
+    .on('#story-source-book-year', {
+      element(el) {
+        el.setInnerContent(storyYear);
+      }
+    })
+    .on('#story-source-book-chapter-wrap', {
+      element(el) {
+        if (!storyChapter) {
+          el.setAttribute('class', 'hidden');
+        } else {
+          el.setAttribute('class', '');
+        }
+      }
+    })
+    .on('#story-source-book-chapter', {
+      element(el) {
+        el.setInnerContent(storyChapter);
+      }
+    })
+    .on('#story-source-auth-note', {
+      element(el) {
+        if (!storyAuthNote) {
+          el.setAttribute('class', 'hidden');
+        } else {
+          el.setAttribute('class', 'text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed pt-1 border-t border-cyan-700/10 dark:border-cyan-400/10');
+        }
+      }
+    })
+    .on('#story-source-auth-note-text', {
+      element(el) {
+        el.setInnerContent(storyAuthNote);
+      }
+    })
+    .on('#companion-source-book-card', {
+      element(el) {
+        if (!hasSource) {
+          el.setAttribute('class', 'hidden');
+        } else {
+          el.setAttribute('class', 'p-5 rounded-3xl bg-linear-to-br from-cyan-950/10 via-teal-950/10 to-transparent dark:bg-[#25243E] border border-cyan-600/30 dark:border-cyan-500/40 shadow-xs space-y-2.5');
+        }
+      }
+    })
+    .on('#companion-source-year', {
+      element(el) {
+        el.setInnerContent(storyYear || 'Verified');
+      }
+    })
+    .on('#companion-source-title', {
+      element(el) {
+        el.setInnerContent(storySource);
+      }
+    })
+    .on('#companion-source-author-wrap', {
+      element(el) {
+        if (!storyAuthor) {
+          el.setAttribute('class', 'hidden');
+        } else {
+          el.setAttribute('class', 'text-[11px] text-[#6B5644] dark:text-[#C8BFAF]');
+        }
+      }
+    })
+    .on('#companion-source-author', {
+      element(el) {
+        el.setInnerContent(storyAuthor);
       }
     })
     .on('#story-nav-prev-link', {

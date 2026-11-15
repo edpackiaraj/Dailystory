@@ -487,54 +487,42 @@ const jsonLd = [
             </div>
 
             <!-- Authentic Historical Source Book & Chronicle Citation Card -->
-            {(story.source_book || story.source) && (
-              <div
-                id="story-source-book-card"
-                class="p-6 rounded-3xl bg-linear-to-br from-cyan-900/10 via-teal-900/10 to-slate-900/10 dark:from-cyan-950/40 dark:via-teal-950/30 dark:to-[#1B1A2E] border-2 border-cyan-600/30 dark:border-cyan-500/40 shadow-xs space-y-3"
-              >
-                <div class="flex items-center justify-between border-b border-cyan-700/20 dark:border-cyan-400/20 pb-2.5">
-                  <div class="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-cyan-800 dark:text-cyan-300">
-                    <span class="text-base">📖</span>
-                    <span>{lang === 'ta' ? 'மூல நூல் ஆதாரம் (வரலாற்றுப் பதிவு)' : 'Authentic Historical Source Book & Chronicle'}</span>
-                  </div>
-                  <span class="px-2.5 py-0.5 rounded-full bg-cyan-700/15 text-cyan-800 dark:text-cyan-300 font-bold text-[10px] tracking-wide uppercase border border-cyan-600/30">
-                    {lang === 'ta' ? 'நிரூபிக்கப்பட்ட உண்மை' : 'Primary Source Verified'}
+            <div
+              id="story-source-book-card"
+              class={`p-6 rounded-3xl bg-linear-to-br from-cyan-900/10 via-teal-900/10 to-slate-900/10 dark:from-cyan-950/40 dark:via-teal-950/30 dark:to-[#1B1A2E] border-2 border-cyan-600/30 dark:border-cyan-500/40 shadow-xs space-y-3 ${(story.source_book || story.source) ? '' : 'hidden'}`}
+            >
+              <div class="flex items-center justify-between border-b border-cyan-700/20 dark:border-cyan-400/20 pb-2.5">
+                <div class="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-cyan-800 dark:text-cyan-300">
+                  <span class="text-base">📖</span>
+                  <span>{lang === 'ta' ? 'மூல நூல் ஆதாரம் (வரலாற்றுப் பதிவு)' : 'Authentic Historical Source Book & Chronicle'}</span>
+                </div>
+                <span class="px-2.5 py-0.5 rounded-full bg-cyan-700/15 text-cyan-800 dark:text-cyan-300 font-bold text-[10px] tracking-wide uppercase border border-cyan-600/30">
+                  {lang === 'ta' ? 'நிரூபிக்கப்பட்ட உண்மை' : 'Primary Source Verified'}
+                </span>
+              </div>
+
+              <div class="space-y-1.5">
+                <h3 id="story-source-book-title" class="text-base sm:text-lg font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] leading-snug italic">
+                  {story.source_book || story.source || ''}
+                </h3>
+                
+                <div id="story-source-book-meta" class={`flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[#6B5644] dark:text-[#C8BFAF] ${(story.source_author || story.source_year || story.source_chapter) ? '' : 'hidden'}`}>
+                  <span id="story-source-book-author-wrap" class={story.source_author ? '' : 'hidden'}>
+                    <strong class="text-[#3B2A1A] dark:text-[#F3EBDD]">{lang === 'ta' ? 'ஆசிரியர்:' : 'Author:'}</strong> <span id="story-source-book-author">{story.source_author || ''}</span>
+                  </span>
+                  <span id="story-source-book-year-wrap" class={story.source_year ? '' : 'hidden'}>
+                    <strong class="text-[#3B2A1A] dark:text-[#F3EBDD]">{lang === 'ta' ? 'காலம்:' : 'Era/Year:'}</strong> <span id="story-source-book-year">{story.source_year || ''}</span>
+                  </span>
+                  <span id="story-source-book-chapter-wrap" class={story.source_chapter ? '' : 'hidden'}>
+                    <strong class="text-[#3B2A1A] dark:text-[#F3EBDD]">{lang === 'ta' ? 'பிரிவு:' : 'Section:'}</strong> <span id="story-source-book-chapter">{story.source_chapter || ''}</span>
                   </span>
                 </div>
-
-                <div class="space-y-1.5">
-                  <h3 id="story-source-book-title" class="text-base sm:text-lg font-black font-display text-[#3B2A1A] dark:text-[#F3EBDD] leading-snug italic">
-                    {story.source_book || story.source}
-                  </h3>
-                  
-                  {(story.source_author || story.source_year || story.source_chapter) && (
-                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[#6B5644] dark:text-[#C8BFAF]">
-                      {story.source_author && (
-                        <span>
-                          <strong class="text-[#3B2A1A] dark:text-[#F3EBDD]">{lang === 'ta' ? 'ஆசிரியர்:' : 'Author:'}</strong> <span id="story-source-book-author">{story.source_author}</span>
-                        </span>
-                      )}
-                      {story.source_year && (
-                        <span>
-                          <strong class="text-[#3B2A1A] dark:text-[#F3EBDD]">{lang === 'ta' ? 'காலம்:' : 'Era/Year:'}</strong> <span id="story-source-book-year">{story.source_year}</span>
-                        </span>
-                      )}
-                      {story.source_chapter && (
-                        <span>
-                          <strong class="text-[#3B2A1A] dark:text-[#F3EBDD]">{lang === 'ta' ? 'பிரிவு:' : 'Section:'}</strong> <span id="story-source-book-chapter">{story.source_chapter}</span>
-                        </span>
-                      )}
-                    </div>
-                  )}
-                </div>
-
-                {story.authenticity_note && (
-                  <p id="story-source-auth-note" class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed pt-1 border-t border-cyan-700/10 dark:border-cyan-400/10">
-                    <strong class="text-cyan-900 dark:text-cyan-200">{lang === 'ta' ? 'வரலாற்றுப் பின்னணி & உண்மைத் தன்மை:' : 'Historical Authentication & Context:'}</strong> {story.authenticity_note}
-                  </p>
-                )}
               </div>
-            )}
+
+              <p id="story-source-auth-note" class={`text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed pt-1 border-t border-cyan-700/10 dark:border-cyan-400/10 ${story.authenticity_note ? '' : 'hidden'}`}>
+                <strong class="text-cyan-900 dark:text-cyan-200">{lang === 'ta' ? 'வரலாற்றுப் பின்னணி & உண்மைத் தன்மை:' : 'Historical Authentication & Context:'}</strong> <span id="story-source-auth-note-text">{story.authenticity_note || ''}</span>
+              </p>
+            </div>
 
             <!-- Pedagogy & Learning Suite (School / Classroom Mode Only - Strictly hidden in General Mode) -->
             <div class="pedagogy-learning-suite space-y-6 pt-4">
@@ -855,26 +843,25 @@ const jsonLd = [
           </div>
 
         <!-- Primary Historical Source Book Card (Desktop Companion) -->
-        {(story.source_book || story.source) && (
-          <div class="p-5 rounded-3xl bg-linear-to-br from-cyan-950/10 via-teal-950/10 to-transparent dark:bg-[#25243E] border border-cyan-600/30 dark:border-cyan-500/40 shadow-xs space-y-2.5">
-            <div class="flex items-center justify-between">
-              <span class="text-xs font-bold uppercase tracking-wider text-cyan-800 dark:text-cyan-300 flex items-center gap-1.5">
-                <span>📖</span> {lang === 'ta' ? 'மூல நூல் ஆதாரம்' : 'Authentic Source Book'}
-              </span>
-              <span class="text-[10px] px-2 py-0.5 rounded-full bg-cyan-700/15 text-cyan-800 dark:text-cyan-300 font-bold">
-                {story.source_year || 'Verified'}
-              </span>
-            </div>
-            <p class="text-xs font-bold text-[#3B2A1A] dark:text-[#F3EBDD] italic line-clamp-2">
-              {story.source_book || story.source}
-            </p>
-            {story.source_author && (
-              <p class="text-[11px] text-[#6B5644] dark:text-[#C8BFAF]">
-                <strong>{lang === 'ta' ? 'ஆசிரியர்:' : 'Author:'}</strong> {story.source_author}
-              </p>
-            )}
+        <div
+          id="companion-source-book-card"
+          class={`p-5 rounded-3xl bg-linear-to-br from-cyan-950/10 via-teal-950/10 to-transparent dark:bg-[#25243E] border border-cyan-600/30 dark:border-cyan-500/40 shadow-xs space-y-2.5 ${(story.source_book || story.source) ? '' : 'hidden'}`}
+        >
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold uppercase tracking-wider text-cyan-800 dark:text-cyan-300 flex items-center gap-1.5">
+              <span>📖</span> <span>{lang === 'ta' ? 'மூல நூல் ஆதாரம்' : 'Authentic Source Book'}</span>
+            </span>
+            <span id="companion-source-year" class="text-[10px] px-2 py-0.5 rounded-full bg-cyan-700/15 text-cyan-800 dark:text-cyan-300 font-bold">
+              {story.source_year || 'Verified'}
+            </span>
           </div>
-        )}
+          <p id="companion-source-title" class="text-xs font-bold text-[#3B2A1A] dark:text-[#F3EBDD] italic line-clamp-2">
+            {story.source_book || story.source || ''}
+          </p>
+          <p id="companion-source-author-wrap" class={`text-[11px] text-[#6B5644] dark:text-[#C8BFAF] ${story.source_author ? '' : 'hidden'}`}>
+            <strong id="companion-source-author-label">{lang === 'ta' ? 'ஆசிரியர்:' : 'Author:'}</strong> <span id="companion-source-author">{story.source_author || ''}</span>
+          </p>
+        </div>
 
         <!-- Quick Reader Controls Card (Aa Settings) -->
         <div class="p-6 rounded-3xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] shadow-sm space-y-3">
@@ -1108,27 +1095,93 @@ const jsonLd = [
         }
       }
 
-      // Sync Authentic Source Book Card
+      // Sync Authentic Source Book Card (In-Body)
       const sourceCard = document.getElementById('story-source-book-card');
       if (sourceCard) {
         if (payload.source_book || payload.source) {
           const sTitle = document.getElementById('story-source-book-title');
           const sAuthor = document.getElementById('story-source-book-author');
+          const sAuthorWrap = document.getElementById('story-source-book-author-wrap');
           const sYear = document.getElementById('story-source-book-year');
+          const sYearWrap = document.getElementById('story-source-book-year-wrap');
           const sChapter = document.getElementById('story-source-book-chapter');
+          const sChapterWrap = document.getElementById('story-source-book-chapter-wrap');
+          const sMeta = document.getElementById('story-source-book-meta');
           const sAuthNote = document.getElementById('story-source-auth-note');
+          const sAuthNoteText = document.getElementById('story-source-auth-note-text');
 
           if (sTitle) sTitle.textContent = payload.source_book || payload.source;
-          if (sAuthor && payload.source_author) sAuthor.textContent = payload.source_author;
-          if (sYear && payload.source_year) sYear.textContent = payload.source_year;
-          if (sChapter && payload.source_chapter) sChapter.textContent = payload.source_chapter;
-          if (sAuthNote && payload.authenticity_note) {
-            const prefix = urlLang === 'ta' ? 'வரலாற்றுப் பின்னணி & உண்மைத் தன்மை: ' : 'Historical Authentication & Context: ';
-            sAuthNote.innerHTML = `<strong class="text-cyan-900 dark:text-cyan-200">${prefix}</strong>${payload.authenticity_note}`;
+
+          if (sAuthor && payload.source_author) {
+            sAuthor.textContent = payload.source_author;
+            if (sAuthorWrap) sAuthorWrap.classList.remove('hidden');
+          } else if (sAuthorWrap) {
+            sAuthorWrap.classList.add('hidden');
+          }
+
+          if (sYear && payload.source_year) {
+            sYear.textContent = payload.source_year;
+            if (sYearWrap) sYearWrap.classList.remove('hidden');
+          } else if (sYearWrap) {
+            sYearWrap.classList.add('hidden');
+          }
+
+          if (sChapter && payload.source_chapter) {
+            sChapter.textContent = payload.source_chapter;
+            if (sChapterWrap) sChapterWrap.classList.remove('hidden');
+          } else if (sChapterWrap) {
+            sChapterWrap.classList.add('hidden');
+          }
+
+          if (sMeta) {
+            if (payload.source_author || payload.source_year || payload.source_chapter) {
+              sMeta.classList.remove('hidden');
+            } else {
+              sMeta.classList.add('hidden');
+            }
+          }
+
+          if (sAuthNote) {
+            if (payload.authenticity_note) {
+              if (sAuthNoteText) {
+                sAuthNoteText.textContent = payload.authenticity_note;
+              } else {
+                const prefix = urlLang === 'ta' ? 'வரலாற்றுப் பின்னணி & உண்மைத் தன்மை: ' : 'Historical Authentication & Context: ';
+                sAuthNote.innerHTML = `<strong class="text-cyan-900 dark:text-cyan-200">${prefix}</strong>${payload.authenticity_note}`;
+              }
+              sAuthNote.classList.remove('hidden');
+            } else {
+              sAuthNote.classList.add('hidden');
+            }
           }
           sourceCard.classList.remove('hidden');
         } else {
           sourceCard.classList.add('hidden');
+        }
+      }
+
+      // Sync Primary Historical Source Book Card (Desktop Companion - Right Sidebar)
+      const compCard = document.getElementById('companion-source-book-card');
+      if (compCard) {
+        if (payload.source_book || payload.source) {
+          const cTitle = document.getElementById('companion-source-title');
+          const cYear = document.getElementById('companion-source-year');
+          const cAuthor = document.getElementById('companion-source-author');
+          const cAuthorWrap = document.getElementById('companion-source-author-wrap');
+
+          if (cTitle) cTitle.textContent = payload.source_book || payload.source;
+          if (cYear) cYear.textContent = payload.source_year || 'Verified';
+
+          if (cAuthor && payload.source_author) {
+            cAuthor.textContent = payload.source_author;
+            if (cAuthorWrap) cAuthorWrap.classList.remove('hidden');
+          } else if (cAuthorWrap) {
+            cAuthorWrap.classList.add('hidden');
+          }
+
+          compCard.classList.remove('hidden');
+        } else {
+          compCard.classList.add('hidden');
         }
       }
 
