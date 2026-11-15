@@ -1,0 +1,130 @@
+{
+  "id": "science-33-priestley-breath-oxygen",
+  "slug": "science-33-priestley-breath-oxygen",
+  "language": "en",
+  "title": "Joseph Priestley: The Gas That Feeds the Mouse and the Living Plant",
+  "genre": "Science & Discovery",
+  "collection": "Science & Discovery",
+  "culture_region": "England (Leeds / Wiltshire)",
+  "age_group": "All Ages",
+  "summary": "Focusing sunlight through a 12-inch glass burning lens in 1774, English dissenting minister Joseph Priestley heats red mercuric oxide and collects a miraculous gas. Discovering that a mouse survives twice as long in this gas and that green sprigs of mint restore foul air, Priestley uncovers the breath of life and the foundation of photosynthesis.",
+  "keywords": [
+    "joseph priestley",
+    "oxygen",
+    "photosynthesis",
+    "carbon dioxide",
+    "mercuric oxide",
+    "chemistry",
+    "plants"
+  ],
+  "tags": [
+    "science",
+    "chemistry",
+    "biology",
+    "plants",
+    "photosynthesis",
+    "discovery"
+  ],
+  "full_text": "In the quiet English village of Calne in Wiltshire, inside the laboratory of Bowood House, stood a gentle, nonconformist minister named Joseph Priestley. Priestley was a man of boundless curiosity who lived beside a public brewery in Leeds, where he was enchanted by the heavy gas (*carbon dioxide*) bubbling off the beer vats—leading him to invent refreshing carbonated sparkling soda water!\n\nOn the warm afternoon of August 1, 1774, Priestley prepared an experiment that would alter human understanding of the breath of life. He had acquired a magnificent, twelve-inch circular glass burning lens. Using this glass lens to focus the blazing summer sunlight into a pinpoint beam of concentrated heat, he aimed it into an inverted glass tube filled with a red mineral powder known as *mercurius calcinatus* (red mercuric oxide), resting over liquid mercury.\n\nUnder the intense heat of the solar beam, the red powder began to boil and vanish! In its place, tiny droplets of pure liquid mercury formed on the glass, while an invisible gas bubbled up into the top of the tube.\n\nPriestley tested the new gas with a lit candle. Normally, placing a flame into a sealed jar quickly snuffs it out. But when Priestley lowered the burning candle into this mysterious gas, he jumped back in amazement: the flame did not die; it exploded with a dazzling, brilliant, crackling white light! A glowing wood ember burst into roaring flame!\n\nNext, Priestley placed a live mouse into a jar of ordinary atmospheric air; the mouse survived for about fifteen minutes before collapsing from suffocation. But when he placed another mouse into a jar of his new gas, the little creature lived for over half an hour, running around cheerfully and breathing with effortless vitality!\n\nPriestley dared to inhale a small breath of the pure gas through a glass tube himself. \"The feeling of it to my lungs,\" he recorded with delight, \"was not sensibly different from that of common air; but I fancied that my breast felt peculiarly light and easy for some time afterwards!\"\n\nThen came Priestley’s most profound biological insight. He knew that humans, animals, and fires constantly consume air, making it stale, poisonous, and foul. Why, then, didn't the atmosphere of the entire Earth eventually turn toxic and suffocate all living beings?\n\nTo find out, Priestley took a jar of foul air in which a candle had burned out. He placed a sprig of fresh green garden mint inside the sealed jar and left it on a sunlit windowsill. Months later, he tested the air again: to his awe, the mint plant had completely cleansed and restored the air! A candle burned brightly once more inside the jar!\n\nPriestley had discovered that nature maintains an eternal balance: animals inhale oxygen and exhale carbon dioxide, while green plants, drinking sunlight, take in carbon dioxide and exhale fresh oxygen—the miraculous cycle of **Photosynthesis**!\n\nThough Priestley called his gas \"dephlogisticated air,\" his discovery gave Antoine Lavoisier the missing key to name Oxygen. Joseph Priestley's sunlight, mint sprigs, and playful mice showed the world that all living creatures and green plants are bound together in one magnificent, breathing web of life.",
+  "moral": "All life on Earth is interconnected; plants and animals share one continuous breath in the harmonious balance of nature.",
+  "image": "/images/stories/panchatantra.webp",
+  "image_alt": "Joseph Priestley focusing sunlight through a glass lens onto red mercuric oxide in 1774.",
+  "word_count": 670,
+  "reading_time": "4 min",
+  "listen_time": "4 min",
+  "audio_url": "",
+  "publish_date": "2026-11-14",
+  "is_bedtime": false,
+  "quiz": [
+    {
+      "question": "What happened when Joseph Priestley placed a sprig of green mint into a jar of foul, burned air?",
+      "options": [
+        "The mint plant restored the air, allowing a candle to burn and a mouse to breathe again.",
+        "The mint plant withered into black charcoal within two seconds.",
+        "The glass jar shattered due to built-up pressure.",
+        "The air turned into liquid strawberry juice."
+      ],
+      "answerIndex": 0,
+      "hint": "Recall his foundational discovery of the plant cycle of photosynthesis."
+    },
+    {
+      "question": "How did Priestley heat the red mercuric oxide powder to release pure oxygen gas in 1774?",
+      "options": [
+        "By focusing summer sunlight through a large 12-inch glass burning lens.",
+        "By using an electric kitchen toaster.",
+        "By holding it over an erupting volcano.",
+        "By rubbing it with woolen socks."
+      ],
+      "answerIndex": 0,
+      "hint": "Think about the focused beam of solar heat."
+    },
+    {
+      "question": "What everyday commercial beverage did Joseph Priestley invent while observing fermentation vats in Leeds?",
+      "options": [
+        "Carbonated sparkling soda water.",
+        "Instant powdered milk.",
+        "Orange marmalade.",
+        "Freeze-dried coffee."
+      ],
+      "answerIndex": 0,
+      "hint": "Recall the bubbling carbon dioxide gas dissolved in water."
+    }
+  ],
+  "author": "Historical Science Chronicle / Daily Tale Editorial",
+  "status": "published",
+  "content_notes": "Documented in Priestley's Experiments and Observations on Different Kinds of Air (1774–1775).",
+  "values": [
+    "interconnectedness of nature",
+    "curiosity",
+    "clean air",
+    "observation",
+    "ecology"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "photosynthesis",
+      "meaning": "the process by which green plants use sunlight to synthesize nutrients from carbon dioxide and water, generating oxygen"
+    },
+    {
+      "word": "respiration",
+      "meaning": "the biological process of inhaling oxygen and releasing energy and carbon dioxide"
+    },
+    {
+      "word": "combustion",
+      "meaning": "the chemical process of burning, in which a substance reacts rapidly with oxygen and produces heat and light"
+    },
+    {
+      "word": "carbon dioxide",
+      "meaning": "a colorless, odorless gas produced by burning and respiration, and absorbed by plants in photosynthesis"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "How did Priestley discover that candles and mice breathe the same gas that plants produce?"
+    },
+    {
+      "tier": "Analyze",
+      "prompt": "Why is the Amazon rainforest often called 'the lungs of the planet' based on Priestley's plant discovery?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "Why do we keep green houseplants inside our living rooms and classrooms today?"
+    }
+  ],
+  "reflection_prompt": "Next time you sit under a green tree, breathe deeply and remember that every breath you take is a gift from the leaves above you.",
+  "activity": "Place a freshly cut green leaf inside a clear glass of water under bright sunlight: watch tiny bubbles of oxygen form along the edges after an hour.",
+  "mood": "wonder",
+  "teaser": "How focusing sunlight on red powder and watching a sprig of mint revealed the breath of life.",
+  "series_id": "science-pioneers",
+  "part_number": 33,
+  "reviewed": true,
+  "source_book": "Experiments and Observations on Different Kinds of Air (1774–1775)",
+  "source_author": "Dr. Joseph Priestley, FRS",
+  "source_year": "1774 / 1775",
+  "source_chapter": "Vol. II, Section III (Of Dephlogisticated Air / Oxygen); Vol. I, Section IV (Restoration of Air by Vegetation)",
+  "source_edition": "J. Johnson, London (1775); Royal Society of London Archives",
+  "authenticity_note": "Primary 18th-century chemical publication documenting the preparation of oxygen from mercuric oxide and the discovery of plant photosynthesis.",
+  "source": "Joseph Priestley, Experiments on Different Kinds of Air (1774)"
+}

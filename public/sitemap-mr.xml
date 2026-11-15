@@ -12,6 +12,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/"/>
   </url>
   <url>
@@ -26,6 +27,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/search/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/search/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/search/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/search/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/search/"/>
   </url>
   <url>
@@ -40,6 +42,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/favorites/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/favorites/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/favorites/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/favorites/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/favorites/"/>
   </url>
   <url>
@@ -54,6 +57,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/"/>
   </url>
   <url>
@@ -68,6 +72,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/submit/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/submit/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/submit/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/submit/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/submit/"/>
   </url>
   <url>
@@ -82,6 +87,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/guide/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/guide/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/guide/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/guide/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/guide/"/>
   </url>
   <url>
@@ -96,6 +102,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/about/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/about/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/about/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/about/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/about/"/>
   </url>
   <url>
@@ -110,6 +117,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/contact/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/contact/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/contact/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/contact/"/>
   </url>
   <url>
@@ -124,6 +132,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/disclaimer/"/>
   </url>
   <url>
@@ -138,6 +147,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/privacy/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/privacy/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/privacy/"/>
   </url>
   <url>
@@ -152,6 +162,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/terms/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/terms/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/terms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/terms/"/>
   </url>
   <url>
@@ -166,6 +177,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/copyright/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/copyright/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/copyright/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/copyright/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/copyright/"/>
   </url>
   <url>
@@ -180,6 +192,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/arabian-nights/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/arabian-nights/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/arabian-nights/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/arabian-nights/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/arabian-nights/"/>
   </url>
   <url>
@@ -194,6 +207,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/tenali-rama/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/tenali-rama/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/tenali-rama/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/tenali-rama/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/tenali-rama/"/>
   </url>
   <url>
@@ -208,6 +222,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/aesop-s-fables/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/aesop-s-fables/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/aesop-s-fables/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/aesop-s-fables/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/aesop-s-fables/"/>
   </url>
   <url>
@@ -222,6 +237,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/cinderella-stories/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/cinderella-stories/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/cinderella-stories/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/cinderella-stories/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/cinderella-stories/"/>
   </url>
   <url>
@@ -236,6 +252,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/mulla-nasruddin/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/mulla-nasruddin/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/mulla-nasruddin/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/mulla-nasruddin/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/mulla-nasruddin/"/>
   </url>
   <url>
@@ -250,6 +267,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/hans-christian-andersen/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/hans-christian-andersen/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/hans-christian-andersen/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/hans-christian-andersen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/hans-christian-andersen/"/>
   </url>
   <url>
@@ -264,6 +282,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/jataka-tales/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/jataka-tales/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/jataka-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/jataka-tales/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/jataka-tales/"/>
   </url>
   <url>
@@ -278,6 +297,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/charles-perrault/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/charles-perrault/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/charles-perrault/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/charles-perrault/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/charles-perrault/"/>
   </url>
   <url>
@@ -292,6 +312,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/paramartha-guru/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/paramartha-guru/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/paramartha-guru/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/paramartha-guru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/paramartha-guru/"/>
   </url>
   <url>
@@ -306,6 +327,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/grimm-fairy-tales/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/grimm-fairy-tales/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/grimm-fairy-tales/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/grimm-fairy-tales/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/grimm-fairy-tales/"/>
   </url>
   <url>
@@ -320,6 +342,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/akbar-birbal/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/akbar-birbal/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/akbar-birbal/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/akbar-birbal/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/akbar-birbal/"/>
   </url>
   <url>
@@ -334,6 +357,7 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/vikram-vetal/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/vikram-vetal/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/vikram-vetal/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/vikram-vetal/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/vikram-vetal/"/>
   </url>
   <url>
@@ -348,7 +372,53 @@
     <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/panchatantra/"/>
     <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/panchatantra/"/>
     <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/panchatantra/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/panchatantra/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/panchatantra/"/>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/collections/science-discovery/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dailystory.pages.dev/en/collections/science-discovery/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dailystory.pages.dev/ta/collections/science-discovery/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dailystory.pages.dev/hi/collections/science-discovery/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dailystory.pages.dev/zh/collections/science-discovery/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dailystory.pages.dev/ml/collections/science-discovery/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/science-discovery/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/science-discovery/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/science-discovery/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/science-discovery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/science-discovery/"/>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/collections/science-stories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dailystory.pages.dev/en/collections/science-stories/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dailystory.pages.dev/ta/collections/science-stories/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dailystory.pages.dev/hi/collections/science-stories/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dailystory.pages.dev/zh/collections/science-stories/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dailystory.pages.dev/ml/collections/science-stories/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/science-stories/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/science-stories/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/science-stories/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/science-stories/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/science-stories/"/>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/collections/witty-debates/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dailystory.pages.dev/en/collections/witty-debates/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://dailystory.pages.dev/ta/collections/witty-debates/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://dailystory.pages.dev/hi/collections/witty-debates/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://dailystory.pages.dev/zh/collections/witty-debates/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://dailystory.pages.dev/ml/collections/witty-debates/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/witty-debates/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/witty-debates/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/witty-debates/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/witty-debates/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/witty-debates/"/>
   </url>
   <url>
     <loc>https://dailystory.pages.dev/mr/aesop-s-fables/aesops-fables-1-the-fox-and-the-grapes/</loc>
@@ -5601,7 +5671,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/mr/cinderella-stories/cinderella-stories-1-yeh-shen-ye-xian-china-oldest-known-cinderella/</loc>
+    <loc>https://dailystory.pages.dev/mr/cinderella-stories/cinderella-stories-1-yeh-shen-ye-xian-china-tang-dynasty/</loc>
     <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -12411,7 +12481,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/mr/panchatantra/panchatantra-1.0-the-loss-of-friends-frame/</loc>
+    <loc>https://dailystory.pages.dev/mr/panchatantra/panchatantra-1-the-loss-of-friends-frame/</loc>
     <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -13528,6 +13598,606 @@
   </url>
   <url>
     <loc>https://dailystory.pages.dev/mr/paramartha-guru/paramartha-guru-100-paramartha-guru-tale-100/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-1-archimedes-golden-crown/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-2-eratosthenes-measuring-earth/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-3-newton-apple-and-prism/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-4-galileo-swinging-chandelier/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-5-fleming-miracle-mold/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-6-raman-deep-blue-sea/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-7-bose-whispering-plants/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-8-ibn-al-haytham-dark-room/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-9-jenner-milkmaids-secret/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-10-mendel-garden-peas/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-11-mary-anning-sea-dragons/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-12-ada-lovelace-flying-machine/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-13-marie-curie-glowing-mineral/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-14-franklin-kite-and-key/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-15-fabre-ant-citadel/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-16-aryabhata-spinning-earth/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-17-sushruta-pioneer-surgeon/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-18-charaka-inner-flame/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-19-kanada-atom-anu/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-20-brahmagupta-gravity-zero/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-21-bhaskara-lilavati-math/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-22-al-biruni-mountain-radius/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-23-copernicus-sun-center/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-24-galileo-telescope-jupiter/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-25-kepler-planetary-harmony/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-26-huygens-wave-light/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-27-robert-hooke-microscopic-cork/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-28-leeuwenhoek-animalcules/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-29-william-harvey-circulating-blood/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-30-torricelli-mercury-barometer/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-31-boyle-spring-of-air/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-32-lavoisier-conservation-mass/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-33-priestley-breath-oxygen/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-34-john-dalton-billiard-atoms/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-discovery/science-35-humphry-davy-electric-elements/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-36-faraday-magnetic-induction/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-37-maxwell-electromagnetic-unification/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-38-hertz-first-radio-waves/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-39-tesla-rotating-magnetic-field/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-40-edison-carbon-filament-lamp/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-41-joule-paddle-wheel-heat/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-42-kelvin-absolute-zero/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-43-darwin-galapagos-finches/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-44-wallace-malay-ternate-essay/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-45-mcclintock-jumping-genes-maize/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-46-carson-silent-spring/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-47-goodall-termite-fishing-gombe/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-48-margulis-endosymbiosis-cell/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-49-semmelweis-handwashing-childbed-fever/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-50-pasteur-rabies-joseph-meister/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-51-koch-tubercle-bacillus/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-52-ross-mosquito-stomach-malaria/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-53-salk-polio-vaccine/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-54-landsteiner-abo-blood-groups/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-55-banting-best-insulin-discovery/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-56-tu-youyou-artemisinin-malaria/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-57-planck-black-body-quanta/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-58-einstein-miracle-year-light/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-59-eddington-1919-eclipse-gravity/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-60-rutherford-gold-foil-nucleus/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-61-bohr-quantum-orbits/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-62-de-broglie-matter-waves/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-63-heisenberg-uncertainty-principle/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-64-schrodinger-wave-equation/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-65-meitner-nuclear-fission/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-66-ramanujan-infinity-notebooks/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-67-sn-bose-quantum-statistics/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-68-saha-thermal-ionization/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-69-chandrasekhar-limit-white-dwarfs/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-70-homi-bhabha-cosmic-showers/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-71-vikram-sarabhai-thumba-rocket/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-72-abdul-kalam-slv3-rohini/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-73-janaki-ammal-sweet-sugarcane/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-74-asima-chatterjee-alkaloids-epilepsy/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-75-yellapragada-subbarow-atp-folic-acid/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-76-shanti-swaroop-bhatnagar-colloids/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-77-pc-mahalanobis-sample-surveys/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-78-gn-ramachandran-collagen-plot/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-79-salim-ali-birdman-ornithology/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-80-ms-swaminathan-wheat-revolution/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-81-alfred-wegener-drifting-continents/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-82-marie-tharp-ocean-floor-rift/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-83-edwin-hubble-expanding-universe/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-84-henrietta-leavitt-pulsing-stars/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-85-cecilia-payne-hydrogen-stars/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-86-jocelyn-bell-pulsar-tick/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-87-vera-rubin-dark-matter-halos/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-88-carl-sagan-pale-blue-dot/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-89-stephen-hawking-radiating-black-holes/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-90-ligo-gravitational-wave-chirp/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-91-alan-turing-enigma-universal-machine/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-92-claude-shannon-bit-information/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-93-von-neumann-stored-program/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-94-rosalind-franklin-photo-51/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-95-watson-crick-double-helix/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-96-grace-hopper-moth-in-relay/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-97-tim-berners-lee-world-wide-web/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-98-doudna-charpentier-crispr-scissors/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-99-yamanaka-four-stem-factors/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/science-stories/science-100-jwst-first-deep-field/</loc>
     <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -15035,6 +15705,756 @@
   <url>
     <loc>https://dailystory.pages.dev/mr/vikram-vetal/vikram-vetal-100-the-final-riddle-the-yogi-s-treachery-and-the-ultimate-victory/</loc>
     <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-1-anna-yale-because-sentence/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-2-anna-vadakku-vazhgiradhu-assembly/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-3-anna-goat-beard-governor/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-4-anna-sivaji-court-case/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-5-anna-rajaji-mutual-respect/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-6-anna-rajya-sabha-dravidian-stock/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-7-anna-hindi-peacock-analogy/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-8-anna-hundred-days-achievement/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-9-anna-train-reading-habit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-10-anna-heart-to-bear-anything/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-11-anna-annamalai-university-speech/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-12-anna-election-campaign-stone/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-13-periyar-rajaji-mango-dialogue/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-14-periyar-courtroom-refusing-fine/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-15-periyar-temple-coconut-elephant/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-16-periyar-womens-property-rights-1929/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-17-periyar-hecklers-garland-shoes/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-18-periyar-ambedkar-bombay-1940/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-19-periyar-nonagenarian-on-wheels/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-20-periyar-eclipse-rahu-ketu/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-21-periyar-self-respect-marriage/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-22-periyar-erode-water-equality-1917/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-23-periyar-atheist-conscience-vs-hypocrisy/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-24-periyar-wit-on-age-and-doctors/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-25-periyar-anna-parting-and-heart/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-26-kalaignar-assembly-rice-debate/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-27-kalaignar-parasakthi-courtroom-debate/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-28-kalaignar-hande-assembly-repartees/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-29-kalaignar-lamp-and-oil-metaphor/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-30-kalaignar-mgr-legislative-civility/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-31-kalaignar-press-conference-wit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-32-kalaignar-hecklers-and-stones/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-33-kalaignar-classical-tamil-debate/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-34-kalaignar-midnight-arrest-and-pen/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-35-kalaignar-orthodox-three-questions/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-36-kalaignar-kallakudi-rail-tracks/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-37-kalaignar-jayalalithaa-assembly-fire/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-38-kalaignar-75-years-pen-and-stage/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-39-ambedkar-constituent-assembly-final-speech/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-40-ambedkar-gandhi-poona-pact-1932/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-41-ambedkar-mahad-satyagraha-1927/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-42-ambedkar-burning-of-manusmriti-1927/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-43-ambedkar-hindu-code-bill-resignation/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-44-ambedkar-columbia-library-hunger/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-45-ambedkar-fundamental-rights-patel-nehru/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-46-ambedkar-educate-agitate-organize/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-47-ambedkar-rbi-problem-of-the-rupee/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-48-ambedkar-conversion-to-buddhism-1956/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-49-ambedkar-article-370-refusal/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-50-ambedkar-library-fifty-thousand-books/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-51-gandhi-buckingham-palace-clothes/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-52-gandhi-western-civilization-quote/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-53-gandhi-third-class-train-travel/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-54-gandhi-sarojini-naidu-poverty-costs/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-55-gandhi-lord-irwin-tea-salt/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-56-gandhi-charlie-chaplin-machines/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-57-gandhi-pocket-watch-safety-pin/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-58-gandhi-south-africa-turban-court/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-59-gandhi-goat-milk-doctor-humor/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-60-gandhi-optimist-vs-pessimist/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-61-gandhi-bhu-1916-speech-princes/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-62-gandhi-kasturba-domestic-wit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-63-lincoln-two-faced-retort/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-64-lincoln-cleaning-own-boots/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-65-lincoln-general-mcclellan-army/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-66-lincoln-grant-whiskey-brand/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-67-lincoln-new-orleans-slave-auction/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-68-lincoln-gettysburg-address-wit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-69-lincoln-cabinet-vote-seven-nays-one-aye/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-70-lincoln-how-long-legs-wit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-71-lincoln-frontier-courtroom-horse-wit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-72-lincoln-forgiving-enemies-friends/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-73-churchill-shaw-opening-night-tickets/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-74-churchill-lady-astor-poisoned-coffee/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-75-churchill-bessie-braddock-sober-wit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-76-churchill-attlee-modest-man/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-77-shaw-isadora-duncan-brains-beauty/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-78-churchill-nobel-prize-literature/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-79-churchill-iron-curtain-speech/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-80-churchill-rudeness-and-truth/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-81-churchill-on-democracy-worst-system/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-82-shaw-vegetarian-funeral-wit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-83-socrates-drinking-hemlock-trial/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-84-socrates-xanthippe-thunder-rain/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-85-vivekananda-chicago-sisters-brothers/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-86-vivekananda-tata-ship-dialogue-1893/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-87-kamaraj-midday-meal-scheme-dialogue/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-88-kamaraj-electric-fan-village-humor/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-89-mandela-rivonia-trial-speech-1964/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-90-mandela-christo-brand-jailer-friend/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-91-patel-integration-565-princely-states/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-92-patel-nizam-hyderabad-operation-polo/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-93-nehru-tryst-with-destiny-1947/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-94-nehru-einstein-princeton-peace-1949/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-95-tagore-einstein-truth-reality-1930/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-96-bharati-british-court-fearless/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-97-voc-swadeshi-steam-navigation/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-98-mlk-i-have-a-dream-1963/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-99-benjamin-franklin-hang-together/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-100-gandhi-talisman-poorest-man/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-101-periyar-gandhi-bangalore-1927/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-102-gandhi-charlie-chaplin-1931/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-103-ambedkar-gandhi-spinning-roundtable-1931/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-104-kalaignar-software-hardware-english-movie/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-105-kalaignar-bill-gates-business-partnership/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-106-tagore-gandhi-spinning-poems-1921/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-107-einstein-gandhi-letters-1931/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-108-lincoln-stanton-splints-horse/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-109-lincoln-defusing-slavery-debate/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-110-mandela-dutch-journalist-1990/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-111-roosevelt-churchill-same-decade-1942/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-112-gandhi-homeopathy-doctor/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-113-gandhi-jail-superintendent-yerawada/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-114-gandhi-ashram-children-arjuna/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-115-ambedkar-anup-singh-temple-demon-1955/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-116-mandela-margaret-thatcher-civilization/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-117-churchill-lords-retirement-1955/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-118-kalaignar-hande-fourth-grade-repartee/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-119-kalaignar-karuthiruman-cremation-ground/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-120-kalaignar-nurse-cauvery-water-pun/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-121-kalaignar-erode-vallalar-vadalur-periyar/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-122-kalaignar-broad-agreement-fraud-agreement/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-123-kalaignar-speaker-may-god-protect/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-124-kalaignar-namakkal-temple-moving-assets/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dailystory.pages.dev/mr/witty-debates/debate-125-kalaignar-cooum-penance-mla/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
