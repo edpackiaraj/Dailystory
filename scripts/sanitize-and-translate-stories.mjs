@@ -46,7 +46,7 @@ for (const lang of languages) {
         .trim();
     }
 
-    if (s.moral) {
+    if (s.moral && typeof s.moral === 'string') {
       s.moral = s.moral
         .replace(tagRegex, '')
         .trim();

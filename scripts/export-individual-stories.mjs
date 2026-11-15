@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const rootDir = process.cwd();
-const languages = ['en', 'hi', 'kn', 'ml', 'mr', 'ta', 'te', 'zh'];
+const languages = ['en', 'ta', 'hi', 'zh', 'ml', 'te', 'kn', 'mr', 'ur'];
 
 export function getGroupSlug(collection) {
   if (!collection) return 'folktale';
@@ -20,6 +20,8 @@ export function getGroupSlug(collection) {
   if (c.includes('vikram') || c.includes('vetal')) return 'vikram-vetal';
   if (c.includes('cinderella')) return 'cinderella';
   if (c.includes('perrault')) return 'charles-perrault';
+  if (c.includes('science')) return 'science-stories';
+  if (c.includes('debate') || c.includes('witty')) return 'witty-debates';
   return collection.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 

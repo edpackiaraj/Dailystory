@@ -25,7 +25,10 @@ const collectionImageMap = {
   'aesops-fables': '/images/stories/aesop.webp',
   'cinderella-stories': '/images/stories/cinderella.webp',
   'hans-christian-andersen': '/images/stories/andersen.webp',
-  'mulla-nasruddin': '/images/stories/nasruddin.webp'
+  'mulla-nasruddin': '/images/stories/nasruddin.webp',
+  'science-stories': '/images/stories/science-stories.webp',
+  'science-discovery': '/images/stories/science-stories.webp',
+  'witty-debates': '/images/stories/witty-debates.webp'
 };
 
 function getCorrectImage(collectionName) {

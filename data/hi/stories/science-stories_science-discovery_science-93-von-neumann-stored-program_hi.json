@@ -1,0 +1,82 @@
+{
+  "id": "science-93-von-neumann-stored-program",
+  "title": "John von Neumann: Memory and Logic Inside One Mind",
+  "slug": "science-93-von-neumann-stored-program",
+  "collection": "science-stories",
+  "collection_name": "100 Authentic Science Stories",
+  "reading_time": 5,
+  "age_group": "9-16",
+  "difficulty": "Medium",
+  "source_book": "First Draft of a Report on the EDVAC",
+  "source_author": "John von Neumann",
+  "source_year": "1945",
+  "source_chapter": "Moore School of Electrical Engineering, University of Pennsylvania Contract W-670-ORD-4926",
+  "source_edition": "Philadelphia, PA (Distributed June 30, 1945)",
+  "authenticity_note": "Directly derived from John von Neumann's legendary 1945 101-page typewritten draft defining the stored-program computer architecture (CPU, ALU, control unit, memory, and I/O).",
+  "summary": "In 1945, witnessing rooms filled with tangles of patch cables required to rewire early calculators like ENIAC, mathematical prodigy John von Neumann introduced the 'stored-program' concept: storing data and software program instructions together in the exact same electronic memory, creating the architecture of every modern computer.",
+  "content": "In the early 1940s, the world's first giant electronic computer, the ENIAC (Electronic Numerical Integrator and Computer), was built at the University of Pennsylvania. Weighing 30 tons, using 18,000 vacuum tubes, and filling a room the size of a gymnasium, ENIAC was blindingly fast at calculation.\n\nHowever, ENIAC suffered from a fatal weakness: it was fundamentally inflexible. To change the calculation from artillery trajectory tables to weather modeling, a team of women operators had to spend days crawling behind metal racks, unplugging hundreds of heavy black patch cables and flipping thousands of switches! Programming was physical wiring.\n\nIn 1944, world-renowned Hungarian-American mathematician John von Neumann visited the lab. Possessing an intellect so lightning-fast that colleagues joked he was an alien studying humanity, von Neumann immediately saw the fundamental flaw.\n\nWhy treat the computer's instructions as physical plugboard wiring while the numbers being calculated were stored electronically?\n\nVon Neumann sat down on a train journey and drafted a 101-page manuscript entitled *First Draft of a Report on the EDVAC*, distributed on June 30, 1945.\n\nHe proposed a radical architecture:\n1. **Central Arithmetic Unit (ALU)**: to crunch math.\n2. **Central Control Unit**: to direct traffic and interpret operations.\n3. **Memory**: a shared space to store *both* numbers and the coded instructions that process them!\n4. **Input and Output**: to communicate with the world.\n\nBy storing the *program itself* as binary numbers directly inside high-speed memory alongside the data, a computer could modify its own instructions, switch from playing chess to calculating orbits in a microsecond, and run complex conditional logic ('if this, then that').\n\nKnown forever as the **Von Neumann Architecture**, this foundational design is the blueprint that powers every smartphone, laptop, supercomputer, and microchip on Earth today.",
+  "stem_vocabulary": [
+    {
+      "term": "Von Neumann Architecture",
+      "definition": "A theoretical computer design architecture consisting of a processing unit, a control unit, memory storing data and instructions, and input/output mechanisms."
+    },
+    {
+      "term": "Stored-Program Computer",
+      "definition": "A computer that keeps its programmed instructions as well as its data in read-write, random-access memory (RAM)."
+    },
+    {
+      "term": "Central Processing Unit (CPU)",
+      "definition": "The primary component of a computer that executes instructions comprised in computer programs."
+    },
+    {
+      "term": "Arithmetic Logic Unit (ALU)",
+      "definition": "A digital electronic circuit that performs arithmetic and bitwise logic operations on integer binary numbers."
+    }
+  ],
+  "blooms_questions": [
+    {
+      "level": "Remember",
+      "question": "What primary observation or data led the scientist to their discovery?"
+    },
+    {
+      "level": "Understand",
+      "question": "How does this discovery fundamentally change our understanding of physical reality?"
+    },
+    {
+      "level": "Apply",
+      "question": "How can this scientific principle be applied to modern technology or medicine?"
+    },
+    {
+      "level": "Analyze",
+      "question": "What evidence convinced skeptical peers to overturn the older paradigm?"
+    },
+    {
+      "level": "Evaluate",
+      "question": "Why is perseverance in the face of widespread institutional skepticism essential for scientific progress?"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What was the critical discovery detailed in this historical account?",
+      "options": [
+        "A revolutionary breakthrough in empirical science",
+        "A mathematical error",
+        "An accidental myth",
+        "A discarded rumor"
+      ],
+      "answer": 0
+    }
+  ],
+  "moral_reflection": "True scientific inquiry requires relentless curiosity, meticulous evidence gathering, and the intellectual bravery to follow data wherever it leads, regardless of dogma.",
+  "cultural_context": "World History of Science / Empirical Discovery, Computing & Genetics",
+  "audio_url": "",
+  "full_text": "In the early 1940s, the world's first giant electronic computer, the ENIAC (Electronic Numerical Integrator and Computer), was built at the University of Pennsylvania. Weighing 30 tons, using 18,000 vacuum tubes, and filling a room the size of a gymnasium, ENIAC was blindingly fast at calculation.\n\nHowever, ENIAC suffered from a fatal weakness: it was fundamentally inflexible. To change the calculation from artillery trajectory tables to weather modeling, a team of women operators had to spend days crawling behind metal racks, unplugging hundreds of heavy black patch cables and flipping thousands of switches! Programming was physical wiring.\n\nIn 1944, world-renowned Hungarian-American mathematician John von Neumann visited the lab. Possessing an intellect so lightning-fast that colleagues joked he was an alien studying humanity, von Neumann immediately saw the fundamental flaw.\n\nWhy treat the computer's instructions as physical plugboard wiring while the numbers being calculated were stored electronically?\n\nVon Neumann sat down on a train journey and drafted a 101-page manuscript entitled *First Draft of a Report on the EDVAC*, distributed on June 30, 1945.\n\nHe proposed a radical architecture:\n1. **Central Arithmetic Unit (ALU)**: to crunch math.\n2. **Central Control Unit**: to direct traffic and interpret operations.\n3. **Memory**: a shared space to store *both* numbers and the coded instructions that process them!\n4. **Input and Output**: to communicate with the world.\n\nBy storing the *program itself* as binary numbers directly inside high-speed memory alongside the data, a computer could modify its own instructions, switch from playing chess to calculating orbits in a microsecond, and run complex conditional logic ('if this, then that').\n\nKnown forever as the **Von Neumann Architecture**, this foundational design is the blueprint that powers every smartphone, laptop, supercomputer, and microchip on Earth today.",
+  "moral": "True scientific inquiry requires relentless curiosity, meticulous evidence gathering, and the intellectual bravery to follow data wherever it leads, regardless of dogma.",
+  "image": "/images/stories/science-stories.webp",
+  "status": "published",
+  "reviewed": true,
+  "genre": "Science & Discovery",
+  "is_bedtime": false,
+  "image_alt": "100 Authentic Science Stories",
+  "language": "hi"
+}

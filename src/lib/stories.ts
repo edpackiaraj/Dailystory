@@ -261,7 +261,9 @@ export function getLengthCategory(wordCount?: number): 'short' | 'medium' | 'lon
 
 export function getCollectionSlug(collection: string): string {
   if (!collection) return 'world-folktales';
-  return collection.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  const slug = collection.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  if (slug === 'science-discovery' || slug === 'science-and-discovery') return 'science-stories';
+  return slug;
 }
 
 export const collectionImageMap: Record<string, string> = {

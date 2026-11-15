@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const rootDir = process.cwd();
-const languages = ['en', 'hi', 'kn', 'ml', 'mr', 'ta', 'te', 'zh'];
+const languages = ['en', 'ta', 'hi', 'zh', 'ml', 'te', 'kn', 'mr', 'ur'];
 
 const collectionSlugs = [
   "panchatantra",
@@ -17,13 +17,17 @@ const collectionSlugs = [
   "grimm-fairy-tales",
   "hans-christian-andersen",
   "cinderella-stories",
-  "charles-perrault"
+  "charles-perrault",
+  "science-stories",
+  "witty-debates"
 ];
 
 function getCollectionSlug(collection) {
   if (!collection) return 'world-folktales';
   const norm = collection.toLowerCase();
   if (norm.includes('cinderella')) return 'cinderella-stories';
+  if (norm.includes('science')) return 'science-stories';
+  if (norm.includes('debate') || norm.includes('witty')) return 'witty-debates';
   return norm.replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
@@ -59,8 +63,8 @@ for (const lang of languages) {
       title: s.title,
       collection: s.collection,
       reading_time: s.reading_time || '3m',
-      full_text: s.full_text || '',
-      moral: s.moral || '',
+      full_text: s.full_text || s.content || '',
+      moral: s.moral || s.moral_reflection || '',
       vocabulary: (s.vocabulary || []).slice(0, 3),
       discussion_questions: (s.discussion_questions || []).slice(0, 2)
     }));

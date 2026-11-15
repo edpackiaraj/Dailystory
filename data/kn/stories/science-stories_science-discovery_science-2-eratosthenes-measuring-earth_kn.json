@@ -1,0 +1,131 @@
+{
+  "id": "science-2-eratosthenes-measuring-earth",
+  "slug": "science-2-eratosthenes-measuring-earth",
+  "language": "kn",
+  "title": "Eratosthenes and the Shadow in the Sunken Well",
+  "genre": "Science & Discovery",
+  "collection": "science-stories",
+  "culture_region": "Ancient Egypt & Hellenistic Greece (Alexandria)",
+  "age_group": "All Ages",
+  "summary": "Armed only with a wooden stick, simple shadows, and geometry, Eratosthenes of Cyrene, Chief Librarian of Alexandria, calculated the circumference of the entire Earth with breathtaking accuracy over two thousand years ago.",
+  "keywords": [
+    "eratosthenes",
+    "circumference of earth",
+    "astronomy",
+    "geometry",
+    "alexandria",
+    "shadows"
+  ],
+  "tags": [
+    "science",
+    "astronomy",
+    "mathematics",
+    "geometry",
+    "earth"
+  ],
+  "full_text": "In the third century BCE, the Great Library of Alexandria in Egypt was the intellectual crown of the ancient world. Scholars from across Africa, Asia, and the Mediterranean gathered under its vaulted colonnades to study half a million scrolls of philosophy, astronomy, and poetry. At the helm of this temple of knowledge stood Eratosthenes of Cyrene—a scholar so versatile that his admirers called him 'Pentathlos', the champion of all intellectual fields.\n\nOne quiet morning, while reading a traveler's parchment scroll from the southern frontier town of Syene (near modern-day Aswan), Eratosthenes came upon a fascinating geographical note. The author recorded that on the summer solstice—the longest day of the year, exactly at solar noon—vertical columns cast no shadow whatsoever. Deep down in the stone water wells of Syene, the reflection of the midday sun could be seen gleaming directly at the bottom, proving the sun stood at the absolute zenith, perpendicular to the ground.\n\nEratosthenes paused. He lived hundreds of miles to the north, in coastal Alexandria. He stepped outside into the courtyard of the library at the very same hour on the summer solstice. Looking down at the tall stone obelisks and pillars, he observed that they cast noticeable shadows.\n\nIf the Earth were completely flat, like a wooden tabletop, the sun's rays—traveling from unimaginably far away in parallel beams—would illuminate Alexandria and Syene at the identical angle. A flat world would mean zero shadows in both cities at noon.\n\n\"The Earth cannot be flat,\" Eratosthenes reasoned with quiet awe. \"If Syene has no shadow, but Alexandria has a shadow, the surface of the planet must be gently curved.\"\n\nTo test his deduction, Eratosthenes planted a simple vertical rod, called a gnomon, in the sunny courtyard of Alexandria on the summer solstice at noon. He measured the angle cast by the rod's slender shadow. Using elementary geometry, he calculated the angle of the sun's rays to be roughly 7.2 degrees.\n\nNow came the masterstroke of geometric insight. Eratosthenes knew that a complete circle contains 360 degrees. Dividing 360 by 7.2 yielded 50. This meant that the distance between Alexandria and Syene represented exactly one-fiftieth (1/50th) of the entire circular circumference of the globe!\n\nAll he needed now was the physical distance between the two cities. In the ancient world, precise distance measurement was a tremendous undertaking. Eratosthenes hired professional 'bematists'—expert pacesetters trained to walk with uniform, unvarying strides across deserts and trade routes. They surveyed the camel trails along the Nile and measured the distance between Syene and Alexandria to be approximately 5,000 stadia (around 800 kilometers).\n\nEratosthenes sat at his desk with a papyrus reed pen. The mathematics was breathtakingly simple:\nIf 1/50th of the Earth's circumference was 5,000 stadia, then the full circumference must be 50 times 5,000:\n50 × 5,000 = 250,000 stadia!\n\nConverted into modern metric measurements, Eratosthenes' calculation concluded that the Earth had a circumference of approximately 40,000 kilometers. Modern satellite measurements today confirm the Earth's equatorial circumference to be 40,075 kilometers—meaning that with nothing more than a wooden stick, a traveler's note, and the power of human geometry, Eratosthenes had measured the planet to within one percent of its true size!\n\nHe did not possess telescopes, airplanes, or space shuttles. He had only a question, an open mind, and the courage to measure the shadows cast upon our world.",
+  "moral": "Great discoveries do not always require complex machinery; curiosity, careful reasoning, and humble tools can measure the world.",
+  "image": "/images/stories/science-stories.webp",
+  "image_alt": "Eratosthenes measuring the sun angle with a gnomon stick in Alexandria.",
+  "word_count": 620,
+  "reading_time": "4 min",
+  "listen_time": "4 min",
+  "audio_url": "",
+  "publish_date": "2026-11-14",
+  "is_bedtime": false,
+  "quiz": [
+    {
+      "question": "What unique phenomenon occurred in the town of Syene on the summer solstice at noon?",
+      "options": [
+        "Vertical columns cast no shadow and the sun shone directly down water wells.",
+        "A total solar eclipse turned the midday sky pitch black.",
+        "The Nile river completely froze over for one hour.",
+        "A massive sandstorm blocked the light of the sun."
+      ],
+      "answerIndex": 0,
+      "hint": "Recall what the traveler's scroll reported about vertical shadows in Syene."
+    },
+    {
+      "question": "Why did the presence of a shadow in Alexandria prove that the Earth is curved?",
+      "options": [
+        "If the Earth were flat, parallel sunlight would create identical shadow angles in both cities.",
+        "Shadows only appear when the Earth spins backwards.",
+        "Alexandria was closer to the moon than Syene.",
+        "The stone in Alexandria was darker than the stone in Syene."
+      ],
+      "answerIndex": 0,
+      "hint": "Think about how parallel light rays hit a curved surface versus a flat surface."
+    },
+    {
+      "question": "What fraction of a complete 360-degree circle was the 7.2-degree angle measured by Eratosthenes?",
+      "options": [
+        "1/50th of a circle",
+        "1/10th of a circle",
+        "1/100th of a circle",
+        "1/25th of a circle"
+      ],
+      "answerIndex": 0,
+      "hint": "360 divided by 7.2 equals 50."
+    }
+  ],
+  "author": "Historical Folklore / Daily Tale Editorial",
+  "status": "published",
+  "content_notes": "Universal scientific history documented by Cleomedes in On the Circular Motions of the Celestial Bodies.",
+  "values": [
+    "curiosity",
+    "mathematics",
+    "critical thinking",
+    "observation"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "word": "circumference",
+      "meaning": "the enclosing boundary or perimeter of a circle or sphere"
+    },
+    {
+      "word": "solstice",
+      "meaning": "either of the two times in the year when the sun reaches its highest or lowest point in the sky at noon"
+    },
+    {
+      "word": "gnomon",
+      "meaning": "a vertical rod or pillar that casts a shadow used to measure the sun's position"
+    },
+    {
+      "word": "bematist",
+      "meaning": "an ancient surveyor trained to measure distances by pacing with precise, steady steps"
+    }
+  ],
+  "discussion_questions": [
+    {
+      "tier": "Remember",
+      "prompt": "What two cities did Eratosthenes use to calculate the Earth's circumference?"
+    },
+    {
+      "tier": "Understand",
+      "prompt": "Why was it essential that the shadows were measured on the exact same date and time of the year?"
+    },
+    {
+      "tier": "Apply",
+      "prompt": "How can you use your own shadow during different times of day to understand the movement of the sun?"
+    }
+  ],
+  "reflection_prompt": "Notice how Eratosthenes turned a simple traveler's note into a world-changing discovery.",
+  "activity": "Place a ruler vertically in your backyard or school playground at 12:00 PM and 3:00 PM. Trace and measure the length of its shadow.",
+  "mood": "inspiring",
+  "teaser": "How an ancient librarian measured the entire Earth using a single stick and a well.",
+  "series_id": "science-pioneers",
+  "part_number": 2,
+  "reviewed": true,
+  "source": "Cleomedes & Strabo (preserving Eratosthenes of Cyrene's treatise On the Measure of the Earth), De motu circulari corporum caelestium (On the Circular Motions of the Celestial Bodies), Book I & Strabo's Geographica, Book II (c. 1st Century CE (Original calculation c. 240 BCE))",
+  "license": "CC-BY-4.0",
+  "credit": "Daily Tale Science & Discovery Anthologies",
+  "source_book": "De motu circulari corporum caelestium (On the Circular Motions of the Celestial Bodies), Book I & Strabo's Geographica, Book II",
+  "source_author": "Cleomedes & Strabo (preserving Eratosthenes of Cyrene's treatise On the Measure of the Earth)",
+  "source_year": "c. 1st Century CE (Original calculation c. 240 BCE)",
+  "source_chapter": "Cleomedes Book I, Chapter 10; Strabo Geographica 2.5.7",
+  "source_edition": "Robert Todd (Cleomedes, Teubner edition); H.L. Jones (Strabo, Loeb Classical Library)",
+  "authenticity_note": "The foundational surviving astronomical treatise recording Eratosthenes' exact geometric method: the sun shining directly down the Syene well at summer solstice noon, the 7.2° shadow of the Alexandria gnomon, and calculating Earth's circumference to within ~1% of modern satellite measurements.",
+  "content": "In the third century BCE, the Great Library of Alexandria in Egypt was the intellectual crown of the ancient world. Scholars from across Africa, Asia, and the Mediterranean gathered under its vaulted colonnades to study half a million scrolls of philosophy, astronomy, and poetry. At the helm of this temple of knowledge stood Eratosthenes of Cyrene—a scholar so versatile that his admirers called him 'Pentathlos', the champion of all intellectual fields.\n\nOne quiet morning, while reading a traveler's parchment scroll from the southern frontier town of Syene (near modern-day Aswan), Eratosthenes came upon a fascinating geographical note. The author recorded that on the summer solstice—the longest day of the year, exactly at solar noon—vertical columns cast no shadow whatsoever. Deep down in the stone water wells of Syene, the reflection of the midday sun could be seen gleaming directly at the bottom, proving the sun stood at the absolute zenith, perpendicular to the ground.\n\nEratosthenes paused. He lived hundreds of miles to the north, in coastal Alexandria. He stepped outside into the courtyard of the library at the very same hour on the summer solstice. Looking down at the tall stone obelisks and pillars, he observed that they cast noticeable shadows.\n\nIf the Earth were completely flat, like a wooden tabletop, the sun's rays—traveling from unimaginably far away in parallel beams—would illuminate Alexandria and Syene at the identical angle. A flat world would mean zero shadows in both cities at noon.\n\n\"The Earth cannot be flat,\" Eratosthenes reasoned with quiet awe. \"If Syene has no shadow, but Alexandria has a shadow, the surface of the planet must be gently curved.\"\n\nTo test his deduction, Eratosthenes planted a simple vertical rod, called a gnomon, in the sunny courtyard of Alexandria on the summer solstice at noon. He measured the angle cast by the rod's slender shadow. Using elementary geometry, he calculated the angle of the sun's rays to be roughly 7.2 degrees.\n\nNow came the masterstroke of geometric insight. Eratosthenes knew that a complete circle contains 360 degrees. Dividing 360 by 7.2 yielded 50. This meant that the distance between Alexandria and Syene represented exactly one-fiftieth (1/50th) of the entire circular circumference of the globe!\n\nAll he needed now was the physical distance between the two cities. In the ancient world, precise distance measurement was a tremendous undertaking. Eratosthenes hired professional 'bematists'—expert pacesetters trained to walk with uniform, unvarying strides across deserts and trade routes. They surveyed the camel trails along the Nile and measured the distance between Syene and Alexandria to be approximately 5,000 stadia (around 800 kilometers).\n\nEratosthenes sat at his desk with a papyrus reed pen. The mathematics was breathtakingly simple:\nIf 1/50th of the Earth's circumference was 5,000 stadia, then the full circumference must be 50 times 5,000:\n50 × 5,000 = 250,000 stadia!\n\nConverted into modern metric measurements, Eratosthenes' calculation concluded that the Earth had a circumference of approximately 40,000 kilometers. Modern satellite measurements today confirm the Earth's equatorial circumference to be 40,075 kilometers—meaning that with nothing more than a wooden stick, a traveler's note, and the power of human geometry, Eratosthenes had measured the planet to within one percent of its true size!\n\nHe did not possess telescopes, airplanes, or space shuttles. He had only a question, an open mind, and the courage to measure the shadows cast upon our world.",
+  "moral_reflection": "Great discoveries do not always require complex machinery; curiosity, careful reasoning, and humble tools can measure the world."
+}

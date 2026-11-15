@@ -56,7 +56,7 @@ for (const lang of languages) {
 
       // Check if text has any match
       const checkAndReplace = (sourceText, fieldName) => {
-        if (!sourceText) return sourceText;
+        if (!sourceText || typeof sourceText !== 'string') return sourceText || '';
         return sourceText.replace(regex, (match, offset, str) => {
           // Check if surrounding context or story metadata contains allowlist
           const windowStart = Math.max(0, offset - 50);

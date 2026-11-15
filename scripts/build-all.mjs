@@ -24,6 +24,10 @@ console.log('\n1c. Overhauling Aesop fables, deduplicating & cleaning slugs...')
 res = spawnSync('node', ['scripts/overhaul-aesop.mjs'], { stdio: 'inherit' });
 if (res.status !== 0) process.exit(res.status || 1);
 
+console.log('\n1d. Unifying science collection and normalizing story fields...');
+res = spawnSync('node', ['scripts/unify-science-collection.mjs'], { stdio: 'inherit' });
+if (res.status !== 0) process.exit(res.status || 1);
+
 console.log('\n2. Partitioning collections...');
 res = spawnSync('node', ['scripts/partition-stories.mjs'], { stdio: 'inherit' });
 if (res.status !== 0) process.exit(res.status || 1);

@@ -1,0 +1,81 @@
+{
+  "id": "science-75-yellapragada-subbarow-atp-folic-acid",
+  "title": "Yellapragada Subbarow: The Unsung Healer Who Discovered ATP and Folic Acid",
+  "slug": "science-75-yellapragada-subbarow-atp-folic-acid",
+  "collection": "science-stories",
+  "collection_name": "Science & Discovery",
+  "reading_time": "5 min",
+  "age_group": "Kids & Families (All Ages)",
+  "difficulty": "Intermediate",
+  "source_book": "The Colorimetric Determination of Phosphorus, Journal of Biological Chemistry (Vol. 66, pp. 375–400, 1925)",
+  "source_author": "Cyrus H. Fiske & Yellapragada Subbarow",
+  "source_year": "1925–1948 CE",
+  "source_chapter": "Discovery of Phosphocreatine, Adenosine Triphosphate (ATP), and Synthesis of Methotrexate",
+  "source_edition": "Science (Vol. 107, pp. 300–302, 1948); In Search of SubbaRow by S. P. K. Gupta (1987)",
+  "authenticity_note": "Historical documentation of SubbaRow's Fiske-Subbarow method for phosphorus estimation, discovery of ATP and phosphocreatine in muscle, chemical synthesis of folic acid, and invention of methotrexate and aureomycin.",
+  "summary": "A modest Indian immigrant biochemist in Boston discovered ATP—the universal energy coin of life—synthesized folic acid, created the first chemotherapy drug methotrexate, and gave humanity its first broad-spectrum antibiotic.",
+  "content": "In 1923, an impoverished young medical graduate from Andhra Pradesh named Yellapragada Subbarow arrived in the United States with only a few dollars in his pocket. Haunted by the deaths of two of his brothers from tropical sprue, SubbaRow was obsessed with finding medical cures.\n\nWorking night shifts cleaning hospital chamberpots to pay his tuition at Harvard Medical School, SubbaRow joined the biochemistry laboratory of Cyrus Fiske.\n\nAt the time, measuring phosphorus in living tissue was nearly impossible. Together, they developed the **Fiske-SubbaRow Method** (1925)—a legendary colorimetric test using ammonium molybdate that turns blue in the presence of phosphate. It became one of the most widely cited scientific papers in biological history.\n\nUsing this new tool on living muscle tissue, SubbaRow made an earth-shattering biological discovery in 1929: **Phosphocreatine** and **Adenosine Triphosphate (ATP)**!\n\nATP is the universal molecular energy currency of all living things on planet Earth—every heartbeat, every muscle flex, every thought in your brain is powered by the splitting of ATP into ADP!\n\nDespite this Nobel-worthy discovery, Harvard denied SubbaRow a regular faculty tenure track. Unfazed by racial prejudice, SubbaRow moved in 1940 to Lederle Laboratories in Pearl River, New York, as Director of Research.\n\nThere, SubbaRow unleashed an unprecedented golden age of medical breakthroughs:\n\n1. **Folic Acid (Vitamin B9)**: In 1945, SubbaRow's team isolated and chemically synthesized pure folic acid, curing deadly tropical sprue and nutritional anemias.\n2. **Methotrexate**: Knowing cancer cells crave folic acid to divide, SubbaRow designed an anti-folate antagonist called aminopterin and **methotrexate** (1948). Working with Dr. Sidney Farber, it achieved the world's first remissions in acute childhood leukemia—marking the birth of modern **cancer chemotherapy**!\n3. **Aureomycin (Chlortetracycline)**: In 1948, SubbaRow's team isolated aureomycin from a soil fungus—the world's very first **broad-spectrum antibiotic**, far more versatile than penicillin, capable of killing both Gram-positive and Gram-negative bacteria.\n4. **Hetrazan (Diethylcarbamazine)**: He synthesized the drug that eradicated lymphatic filariasis (elephantiasis) worldwide.\n\nWhen SubbaRow died suddenly in his sleep in 1948 at the age of fifty-two, novelist Doron K. Antrim wrote:\n*\"You've probably never heard of Dr. Yellapragada SubbaRow. Yet, because he lived, you may be well and alive today; because he lived, you may live longer.\"*",
+  "stem_vocabulary": [
+    {
+      "term": "Adenosine Triphosphate (ATP)",
+      "definition": "The primary high-energy molecule that stores and transfers chemical energy in all living cells.",
+      "context": "Discovered by SubbaRow in muscle tissue in 1929."
+    },
+    {
+      "term": "Methotrexate",
+      "definition": "A folate antagonist chemotherapy drug that inhibits dihydrofolate reductase, halting cancer cell replication.",
+      "context": "Synthesized by SubbaRow to treat acute childhood leukemia."
+    },
+    {
+      "term": "Aureomycin (Chlortetracycline)",
+      "definition": "The first broad-spectrum antibiotic discovered, effective against a wide range of bacterial infections.",
+      "context": "Developed under SubbaRow's leadership at Lederle Laboratories in 1948."
+    },
+    {
+      "term": "Fiske-Subbarow Method",
+      "definition": "A colorimetric chemical assay using molybdic acid to measure inorganic phosphate in biological samples.",
+      "context": "One of the most frequently cited analytical biochemistry techniques in history."
+    }
+  ],
+  "blooms_questions": {
+    "remember": "What high-energy molecule, known as the cellular energy currency, did Subbarow discover in 1929?",
+    "analyze": "How does methotrexate's role as a folic acid antagonist stop rapidly dividing leukemia cells?",
+    "apply_create": "Why is Yellapragada Subbarow often described as one of the most prolific yet forgotten benefactors of human health?"
+  },
+  "quiz": [
+    {
+      "question": "What universal energy-storing molecule in cells did Yellapragada Subbarow discover in 1929?",
+      "options": [
+        "Adenosine Triphosphate (ATP)",
+        "Silicon dioxide",
+        "Chlorophyll",
+        "Carbon monoxide"
+      ],
+      "correct_index": 0,
+      "explanation": "SubbaRow isolated phosphocreatine and ATP, proving it serves as the cellular currency of mechanical and chemical energy.",
+      "hint": "Three-letter abbreviation for cellular energy."
+    },
+    {
+      "question": "What historic medical milestone did SubbaRow's synthetic compound Methotrexate achieve with Dr. Sidney Farber?",
+      "options": [
+        "The first temporary remissions of childhood leukemia (cancer chemotherapy)",
+        "The invention of eyeglasses",
+        "The curing of broken bones",
+        "The discovery of blood types"
+      ],
+      "correct_index": 0,
+      "explanation": "Methotrexate became the foundation of modern cancer chemotherapy, curing forms of leukemia.",
+      "hint": "It launched modern cancer chemotherapy."
+    }
+  ],
+  "image": "/images/stories/science-stories.webp",
+  "image_alt": "Yellapragada Subbarow and ATP Discovery",
+  "full_text": "In 1923, an impoverished young medical graduate from Andhra Pradesh named Yellapragada Subbarow arrived in the United States with only a few dollars in his pocket. Haunted by the deaths of two of his brothers from tropical sprue, SubbaRow was obsessed with finding medical cures.\n\nWorking night shifts cleaning hospital chamberpots to pay his tuition at Harvard Medical School, SubbaRow joined the biochemistry laboratory of Cyrus Fiske.\n\nAt the time, measuring phosphorus in living tissue was nearly impossible. Together, they developed the **Fiske-SubbaRow Method** (1925)—a legendary colorimetric test using ammonium molybdate that turns blue in the presence of phosphate. It became one of the most widely cited scientific papers in biological history.\n\nUsing this new tool on living muscle tissue, SubbaRow made an earth-shattering biological discovery in 1929: **Phosphocreatine** and **Adenosine Triphosphate (ATP)**!\n\nATP is the universal molecular energy currency of all living things on planet Earth—every heartbeat, every muscle flex, every thought in your brain is powered by the splitting of ATP into ADP!\n\nDespite this Nobel-worthy discovery, Harvard denied SubbaRow a regular faculty tenure track. Unfazed by racial prejudice, SubbaRow moved in 1940 to Lederle Laboratories in Pearl River, New York, as Director of Research.\n\nThere, SubbaRow unleashed an unprecedented golden age of medical breakthroughs:\n\n1. **Folic Acid (Vitamin B9)**: In 1945, SubbaRow's team isolated and chemically synthesized pure folic acid, curing deadly tropical sprue and nutritional anemias.\n2. **Methotrexate**: Knowing cancer cells crave folic acid to divide, SubbaRow designed an anti-folate antagonist called aminopterin and **methotrexate** (1948). Working with Dr. Sidney Farber, it achieved the world's first remissions in acute childhood leukemia—marking the birth of modern **cancer chemotherapy**!\n3. **Aureomycin (Chlortetracycline)**: In 1948, SubbaRow's team isolated aureomycin from a soil fungus—the world's very first **broad-spectrum antibiotic**, far more versatile than penicillin, capable of killing both Gram-positive and Gram-negative bacteria.\n4. **Hetrazan (Diethylcarbamazine)**: He synthesized the drug that eradicated lymphatic filariasis (elephantiasis) worldwide.\n\nWhen SubbaRow died suddenly in his sleep in 1948 at the age of fifty-two, novelist Doron K. Antrim wrote:\n*\"You've probably never heard of Dr. Yellapragada SubbaRow. Yet, because he lived, you may be well and alive today; because he lived, you may live longer.\"*",
+  "moral": "",
+  "status": "published",
+  "reviewed": true,
+  "genre": "Science & Discovery",
+  "is_bedtime": false,
+  "moral_reflection": "",
+  "language": "ml"
+}

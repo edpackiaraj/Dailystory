@@ -47,7 +47,7 @@ function sanitizeTag(str?: string) {
 
 const cleanTitle = sanitizeTag(story.title);
 const cleanSummary = cleanStorySummary(story.summary);
-const cleanMoral = sanitizeTag(story.moral);
+const cleanMoral = sanitizeTag(story.moral || (story as any).moral_reflection || '');
 
 const isTranslated = isStoryTranslated(story, currentLang);
 const colSlug = getCollectionSlug(story.collection);
@@ -442,7 +442,7 @@ const jsonLd = [
               class="story-reading-content max-w-prose mx-auto lg:mx-0 text-[#3B2A1A] dark:text-[#F3EBDD] space-y-6 text-lg leading-relaxed pt-2"
               style="font-size: var(--story-font-size, 19px); line-height: var(--story-line-height, 1.75);"
             >
-              {story.full_text.split('\n\n').map((paragraph: string) => (
+              {(story.full_text || (story as any).content || '').split('\n\n').map((paragraph: string) => (
                 <p class="leading-[1.75] tracking-normal">{paragraph}</p>
               ))}
             </div>

@@ -1,0 +1,81 @@
+{
+  "id": "science-72-abdul-kalam-slv3-rohini",
+  "title": "A. P. J. Abdul Kalam: The Rohini Satellite and the Wings of Fire",
+  "slug": "science-72-abdul-kalam-slv3-rohini",
+  "collection": "science-stories",
+  "collection_name": "Science & Discovery",
+  "reading_time": "5 min",
+  "age_group": "Kids & Families (All Ages)",
+  "difficulty": "Intermediate",
+  "source_book": "Wings of Fire: An Autobiography (Universities Press, 1999)",
+  "source_author": "A. P. J. Abdul Kalam & Arun Tiwari",
+  "source_year": "1979–1980 CE",
+  "source_chapter": "Chapter 7: Creation (The SLV-3 Project & The Bay of Bengal Failure/Success)",
+  "source_edition": "Ignited Minds (2002); ISRO Scientific Missions Record (1980)",
+  "authenticity_note": "Historical documentation of the first SLV-3 experimental flight failure on August 10, 1979, and the historic successful launch of the Rohini RS-1 satellite into Earth orbit on July 18, 1980.",
+  "summary": "From selling newspapers in Rameswaram to leading India's first satellite launch vehicle project, Kalam turned a crushing rocket crash into an orbital triumph through resilience and leadership.",
+  "content": "In the seaside temple town of Rameswaram, Tamil Nadu, a young boy named Avul Pakir Jainulabdeen Abdul Kalam used to collect bundles of newspapers thrown from passing trains, delivering them before dawn to support his humble family. As he watched seagulls soar effortlessly over the Palk Strait, Kalam dreamed of the skies.\n\nDecades later, in the late 1970s on the barrier island of Sriharikota in Andhra Pradesh, Dr. Kalam stood as Project Director of India's most ambitious technological mission: **SLV-3** (Satellite Launch Vehicle 3). The goal was audacious—to design, build, and launch a four-stage solid-propellant rocket capable of placing an indigenous satellite into Earth orbit.\n\nOn **August 10, 1979**, after seven years of exhausting labor by thousands of engineers, SLV-3 stood gleaming on the launchpad.\n\nThe countdown commenced. At $T=0$, the first stage ignited with a thunderous roar. The rocket climbed majestically into the sky.\n\nThen, at stage two separation, disaster struck. A telemetry sensor showed a leak in the control system thrust vector valve. Within seconds, the rocket began tumbling out of control and plunged into the Bay of Bengal, 560 kilometers off the coast.\n\nKalam was devastated. Millions of dollars and years of sweat had sunk into the ocean.\n\nAs a hostile press corps waited outside, ISRO Chairman Satish Dhawan stepped forward. Dhawan refused to let Kalam take the podium. Instead, Dhawan faced the harsh cameras himself:\n*\"Our team made a great attempt, but we had a technical failure. I take full responsibility. I have full confidence that my team will succeed on the next attempt.\"*\n\nKalam never forgot that lesson in noble leadership: **a true leader absorbs failure and gives credit for success to the team.**\n\nFor the next eleven months, Kalam and his team analyzed thousands of telemetry data points, re-engineered the control valves, and worked eighty-hour weeks.\n\nOn **July 18, 1980**, SLV-3 stood on the launchpad once more.\n\nThe command was given. The rocket ignited, piercing the azure sky with perfect symmetry. Stage one burned cleanly. Stage two performed flawlessly. Stage three fired with pinpoint precision. Finally, the fourth stage ignited, hurling the 35-kilogram **Rohini (RS-1)** satellite into orbit at a blistering 28,000 kilometers per hour!\n\nOrbit tracking stations in Trivandrum and Ahmedabad chimed: *Rohini is in orbit!*\n\nIndia had become only the sixth nation in human history capable of independently placing a satellite into orbit.\n\nWhen the press conference convened that afternoon, Chairman Satish Dhawan stepped aside, handed the microphone to Kalam, and said: *\"Now, Kalam, you speak.\"*",
+  "stem_vocabulary": [
+    {
+      "term": "Solid-Propellant Rocket",
+      "definition": "A rocket engine that uses propellants in solid form (fuel and oxidizer mixed together), known for simplicity, reliability, and instant readiness.",
+      "context": "SLV-3 was India's first four-stage solid-fuel launch vehicle designed under Kalam's directorship."
+    },
+    {
+      "term": "Telemetry",
+      "definition": "The automated transmission of data and operational measurements from remote spacecraft and rockets to ground monitoring stations.",
+      "context": "Telemetry data alerted Kalam's team to the second-stage valve leak during the 1979 test flight."
+    },
+    {
+      "term": "Orbital Velocity",
+      "definition": "The horizontal velocity required for an object to stay in stable orbit around a planet (approx. 7.8 km/s or 28,000 km/h for low Earth orbit).",
+      "context": "SLV-3 successfully accelerated the Rohini satellite to orbital velocity on July 18, 1980."
+    },
+    {
+      "term": "Thrust Vector Control",
+      "definition": "The ability of an aircraft or rocket engine to manipulate the direction of its engine thrust to control altitude and angular velocity.",
+      "context": "A hydraulic leak in the thrust vector control caused the 1979 flight failure."
+    }
+  ],
+  "blooms_questions": {
+    "remember": "On what date did India successfully place the Rohini satellite into Earth orbit with SLV-3?",
+    "analyze": "How did Satish Dhawan's management of the 1979 failure illustrate the difference between authority and leadership?",
+    "apply_create": "Write a short reflective plan describing how you would handle failure in a team project to maintain morale and achieve eventual success."
+  },
+  "quiz": [
+    {
+      "question": "What satellite did SLV-3 successfully launch into Earth orbit on July 18, 1980?",
+      "options": [
+        "Rohini (RS-1)",
+        "Hubble",
+        "Sputnik",
+        "Voyager"
+      ],
+      "correct_index": 0,
+      "explanation": "The Rohini RS-1 satellite was placed into low Earth orbit, making India the sixth spacefaring nation.",
+      "hint": "Named after an auspicious Indian constellation."
+    },
+    {
+      "question": "What crucial leadership action did ISRO Chairman Satish Dhawan take when the first SLV-3 test failed in 1979?",
+      "options": [
+        "He fired the engineering team",
+        "He took personal responsibility at the press conference and protected his team",
+        "He cancelled the space program",
+        "He blamed the newspaper reporters"
+      ],
+      "correct_index": 1,
+      "explanation": "Dhawan absorbed all criticism publicly, shielding Kalam and inspiring the team to rebuild and succeed.",
+      "hint": "He shielded his team from public criticism."
+    }
+  ],
+  "image": "/images/stories/science-stories.webp",
+  "image_alt": "A. P. J. Abdul Kalam and SLV-3 Rohini Launch",
+  "full_text": "In the seaside temple town of Rameswaram, Tamil Nadu, a young boy named Avul Pakir Jainulabdeen Abdul Kalam used to collect bundles of newspapers thrown from passing trains, delivering them before dawn to support his humble family. As he watched seagulls soar effortlessly over the Palk Strait, Kalam dreamed of the skies.\n\nDecades later, in the late 1970s on the barrier island of Sriharikota in Andhra Pradesh, Dr. Kalam stood as Project Director of India's most ambitious technological mission: **SLV-3** (Satellite Launch Vehicle 3). The goal was audacious—to design, build, and launch a four-stage solid-propellant rocket capable of placing an indigenous satellite into Earth orbit.\n\nOn **August 10, 1979**, after seven years of exhausting labor by thousands of engineers, SLV-3 stood gleaming on the launchpad.\n\nThe countdown commenced. At $T=0$, the first stage ignited with a thunderous roar. The rocket climbed majestically into the sky.\n\nThen, at stage two separation, disaster struck. A telemetry sensor showed a leak in the control system thrust vector valve. Within seconds, the rocket began tumbling out of control and plunged into the Bay of Bengal, 560 kilometers off the coast.\n\nKalam was devastated. Millions of dollars and years of sweat had sunk into the ocean.\n\nAs a hostile press corps waited outside, ISRO Chairman Satish Dhawan stepped forward. Dhawan refused to let Kalam take the podium. Instead, Dhawan faced the harsh cameras himself:\n*\"Our team made a great attempt, but we had a technical failure. I take full responsibility. I have full confidence that my team will succeed on the next attempt.\"*\n\nKalam never forgot that lesson in noble leadership: **a true leader absorbs failure and gives credit for success to the team.**\n\nFor the next eleven months, Kalam and his team analyzed thousands of telemetry data points, re-engineered the control valves, and worked eighty-hour weeks.\n\nOn **July 18, 1980**, SLV-3 stood on the launchpad once more.\n\nThe command was given. The rocket ignited, piercing the azure sky with perfect symmetry. Stage one burned cleanly. Stage two performed flawlessly. Stage three fired with pinpoint precision. Finally, the fourth stage ignited, hurling the 35-kilogram **Rohini (RS-1)** satellite into orbit at a blistering 28,000 kilometers per hour!\n\nOrbit tracking stations in Trivandrum and Ahmedabad chimed: *Rohini is in orbit!*\n\nIndia had become only the sixth nation in human history capable of independently placing a satellite into orbit.\n\nWhen the press conference convened that afternoon, Chairman Satish Dhawan stepped aside, handed the microphone to Kalam, and said: *\"Now, Kalam, you speak.\"*",
+  "moral": "",
+  "status": "published",
+  "reviewed": true,
+  "genre": "Science & Discovery",
+  "is_bedtime": false,
+  "moral_reflection": "",
+  "language": "ml"
+}

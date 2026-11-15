@@ -11,7 +11,8 @@ interface Env {
 export const onRequestGet: PagesFunction<Env> = async (context) => {
   const { request, params, env } = context;
   const lang = (params.lang as string) || 'en';
-  const collection = (params.collection as string) || '';
+  const rawCol = (params.collection as string) || '';
+  const collection = (rawCol === 'science-discovery' || rawCol === 'science-and-discovery') ? 'science-stories' : rawCol;
   const rawSlug = (params.slug as string) || '';
   const slug = rawSlug.replace(/\/$/, '');
 
@@ -53,7 +54,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   // 3. Prepare SEO & Content fields
   const cleanTitle = (story.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim();
   const cleanSummary = (story.summary || '').trim();
-  const cleanMoral = (story.moral || '').trim();
+  const cleanMoral = (story.moral || story.moral_reflection || '').trim();
   const canonicalUrl = `https://dailystory.pages.dev/${lang}/${collection}/${slug}/`;
   const seoTitle = lang === 'ta'
     ? `${cleanTitle}: ${story.collection} நீதிக்கதை | Daily Tale`
@@ -64,7 +65,8 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   const ogImage = story.image || '/images/stories/default.jpg';
   const fullOgImage = ogImage.startsWith('http') ? ogImage : `https://dailystory.pages.dev${ogImage}`;
 
-  const paragraphsHtml = (story.full_text || '')
+  const storyBody = (story.full_text || story.content || '').trim();
+  const paragraphsHtml = storyBody
     .split(/\n\n+/)
     .map((p: string) => `<p class="leading-[1.75] tracking-normal mb-6">${p}</p>`)
     .join('');

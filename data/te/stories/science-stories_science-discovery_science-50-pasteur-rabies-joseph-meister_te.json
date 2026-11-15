@@ -1,0 +1,99 @@
+{
+  "id": "science-50-pasteur-rabies-joseph-meister",
+  "title": "Louis Pasteur and the Boy Who Faced the Rabid Wolf",
+  "slug": "science-50-pasteur-rabies-joseph-meister",
+  "collection": "science-stories",
+  "collection_name": "Science & Discovery",
+  "reading_time": "5 min",
+  "age_group": "Kids & Families (All Ages)",
+  "difficulty": "Intermediate",
+  "source_book": "Méthode pour prévenir la rage après morsure (1885)",
+  "source_author": "Louis Pasteur, FRS",
+  "source_year": "1885 CE",
+  "source_chapter": "Comptes Rendus de l'Académie des Sciences (Vol. 101, pp. 765–774, October 26, 1885)",
+  "source_edition": "Académie des Sciences, Paris (1885); The Life of Pasteur by René Vallery-Radot (1900)",
+  "authenticity_note": "Presented before the French Academy of Sciences on October 26, 1885. Detailed clinical documentation of the 14-dose post-exposure rabies immunization of nine-year-old Joseph Meister between July 6 and July 16, 1885.",
+  "summary": "On a sweltering July morning in Paris, a terrified mother brought her nine-year-old son, mauled by a rabid dog, to chemist Louis Pasteur. Taking an enormous moral risk, Pasteur administered his experimental attenuated vaccine—and triumphed over humanity's most terrifying disease.",
+  "content": "On the morning of July 6, 1885, a weeping mother named Marie-Angélique Meister arrived at a laboratory on the Rue d'Ulm in Paris, France. Clinging to her skirt was her nine-year-old son, Joseph Meister, from the village of Meissengott in Alsace. Two days earlier, while walking to school, little Joseph had been attacked by a rabid dog, thrown to the ground, and mauled with fourteen deep, bleeding puncture wounds across his arms and thighs.\n\nFor thousands of years, rabies had been the most dreaded diagnosis in human history. To be bitten by a mad animal was a virtual death sentence. After weeks of agonizing suspense, victims suffered hallucinations, terrified spasms at the sight of water (hydrophobia), wild convulsions, paralysis, and excruciating death. No doctor on Earth had ever cured a single case.\n\nThe laboratory belonged to sixty-two-year-old chemist Louis Pasteur.\n\nPasteur had already changed the world: he had saved the French wine, beer, and silk industries from bacterial spoiling, invented pasteurization, disproved spontaneous generation, and developed animal vaccines against chicken cholera and anthrax.\n\nFor five years, Pasteur and his dedicated colleagues, Émile Roux and Charles Chamberland, had been hunting the elusive rabies virus. The microbe was too small to be seen under any optical microscope. Pasteur deduced that the virus attacked the central nervous system.\n\nPasteur had made a brilliant discovery: he inoculated rabbits with the rabies virus, removed their spinal cords after death, and hung the spinal tissue in sterile glass flasks over caustic potash to dry in the dark. As the tissue dried day by day, the virus gradually lost its virulence. Tissue dried for fourteen days was completely harmless. Tissue dried for ten days was slightly active. Tissue dried for one day was deadly virulent.\n\nBy inoculating dogs sequentially over two weeks—starting with the harmless 14-day dried tissue and ending with the freshly virulent tissue—Pasteur had successfully immunized fifty dogs against rabies!\n\nYet, Pasteur was terrified of testing his vaccine on a human being. Pasteur was a chemist, not a licensed medical doctor. If he injected a child and the child died, he could be branded a murderer and sent to prison.\n\nPasteur summoned two of France's most eminent physicians: Dr. Joseph-Antoine Vulpian, member of the Academy of Medicine, and Dr. Jacques-Joseph Grancher. The doctors carefully examined young Joseph's festering wounds.\n\nDr. Vulpian turned to Pasteur with solemn gravity: \"The child is doomed to an inevitable, terrible death. If you do nothing, he will certainly die within weeks. The experimental vaccine offers his only hope. You have a moral duty to try.\"\n\nAt 8:00 PM on July 6, 1885, in a small laboratory room, Dr. Grancher injected a small syringe of milky fluid containing a tiny fragment of 14-day attenuated rabbit spinal cord into the skin of little Joseph's abdomen.\n\nOver the next ten days, Joseph received twelve more injections of increasing potency.\n\nPasteur lived in a torment of anxiety. He could neither sleep nor eat. He wandered through the night in the gardens of the École Normale, imagining the boy developing hydrophobia.\n\nOn July 16, at 11:00 AM, the fateful final injection was administered: pure, unweakened rabies virus of maximum lethality—an injection that would kill an untreated animal in days!\n\nPasteur sat beside Joseph's bed, holding the boy's hand. Joseph smiled, played with the laboratory rabbits, and ate heartily.\n\nDays passed. Weeks passed. Months passed.\n\nJoseph Meister remained radiant, healthy, and completely free of disease. The rabies virus had been conquered!\n\nThree months later, Pasteur announced the breakthrough to a stunned, weeping French Academy of Sciences. Within a year, over 2,500 people bitten by rabid wolves and dogs—including nineteen Russian peasants attacked by a rabid wolf in Smolensk—traveled to Paris and were saved.\n\nGratitude poured in from all over the world, funding the construction of the world-famous Institut Pasteur.\n\nYears later, an adult Joseph Meister returned to the Pasteur Institute, serving as its devoted gatekeeper for over thirty years—a living monument to the compassion and courage of the scientist who saved his life.",
+  "stem_vocabulary": [
+    {
+      "term": "Attenuated Vaccine",
+      "definition": "A vaccine created by reducing the virulence (pathogenicity) of a pathogen, while still keeping it viable so it stimulates an immune response.",
+      "context": "Pasteur weakened the rabies virus by drying infected spinal cords in sterile glass jars."
+    },
+    {
+      "term": "Rabies Virus (Lyssavirus)",
+      "definition": "A fatal neurotropic virus that causes severe encephalitis and inflammation of the brain in mammals, transmitted through saliva.",
+      "context": "Rabies travels along peripheral nerves to the brain, causing hydrophobia and fatal paralysis."
+    },
+    {
+      "term": "Post-Exposure Prophylaxis (PEP)",
+      "definition": "Medical treatment administered immediately after exposure to a pathogen to prevent the infection from establishing itself in the body.",
+      "context": "Pasteur's treatment worked because the slow incubation period of rabies allowed immunity to build before the virus reached the brain."
+    },
+    {
+      "term": "Virulence",
+      "definition": "The degree of pathogenicity or ability of a microorganism to cause damage and disease to its host.",
+      "context": "Pasteur demonstrated that virulence could be dialed down through desiccation and chemical treatment."
+    }
+  ],
+  "blooms_questions": {
+    "remember": "What was the name of the nine-year-old boy whom Pasteur successfully treated for rabies?",
+    "analyze": "Why was Pasteur able to vaccinate Joseph Meister *after* he had already been bitten, whereas most modern vaccines must be given before exposure?",
+    "apply_create": "Think about pets in your community today. How did Pasteur's rabies vaccine make our relationship with dogs and cats so much safer?"
+  },
+  "quiz": [
+    {
+      "question": "How did Louis Pasteur weaken (attenuate) the rabies virus for his vaccine series?",
+      "options": [
+        "He boiled it in hot vinegar",
+        "He dried infected rabbit spinal cords over caustic potash in sterile glass flasks",
+        "He exposed it to direct sunlight for a month",
+        "He froze it in Arctic ice"
+      ],
+      "correct_index": 1,
+      "explanation": "Pasteur desiccated spinal cords in sterile glass bottles; longer drying times resulted in progressively weaker virus.",
+      "hint": "He dried nervous tissue inside special sterile flasks."
+    },
+    {
+      "question": "Why was Louis Pasteur deeply hesitant to administer his vaccine to young Joseph Meister?",
+      "options": [
+        "Pasteur disliked children",
+        "Pasteur was a chemist, not a licensed medical doctor, and feared the legal and ethical consequences if the child died",
+        "The vaccine was too expensive to make",
+        "The boy's mother refused the treatment"
+      ],
+      "correct_index": 1,
+      "explanation": "As a chemist, Pasteur faced immense legal and ethical liability testing an unproven human vaccine without medical licensing.",
+      "hint": "He lacked medical credentials and feared being branded a murderer if the experiment failed."
+    },
+    {
+      "question": "What famous research institution was founded in Paris using international donations following this victory?",
+      "options": [
+        "The World Health Organization",
+        "The Institut Pasteur",
+        "The Nobel Institute",
+        "The Royal Society"
+      ],
+      "correct_index": 1,
+      "explanation": "Global gratitude for the rabies vaccine funded the creation of the Institut Pasteur in Paris in 1887.",
+      "hint": "It carries Louis Pasteur's own name and remains a premier biomedical institute today."
+    }
+  ],
+  "moral_reflection": {
+    "value": "Moral Responsibility and Courage in the Face of Fear",
+    "insight": "When an innocent child faced certain agonizing death, Pasteur put his entire reputation and career on the line to offer the gift of life.",
+    "family_prompt": "Have you ever had to make a difficult decision where doing the right thing felt scary? How can caring for others give us the bravery to act?"
+  },
+  "cultural_context": "Louis Pasteur's tomb lies in the crypt of the Pasteur Institute in Paris, decorated with mosaics depicting his scientific triumphs: silkworms, sheep, wine vats, and the rabid dog.",
+  "audio_url": "",
+  "full_text": "On the morning of July 6, 1885, a weeping mother named Marie-Angélique Meister arrived at a laboratory on the Rue d'Ulm in Paris, France. Clinging to her skirt was her nine-year-old son, Joseph Meister, from the village of Meissengott in Alsace. Two days earlier, while walking to school, little Joseph had been attacked by a rabid dog, thrown to the ground, and mauled with fourteen deep, bleeding puncture wounds across his arms and thighs.\n\nFor thousands of years, rabies had been the most dreaded diagnosis in human history. To be bitten by a mad animal was a virtual death sentence. After weeks of agonizing suspense, victims suffered hallucinations, terrified spasms at the sight of water (hydrophobia), wild convulsions, paralysis, and excruciating death. No doctor on Earth had ever cured a single case.\n\nThe laboratory belonged to sixty-two-year-old chemist Louis Pasteur.\n\nPasteur had already changed the world: he had saved the French wine, beer, and silk industries from bacterial spoiling, invented pasteurization, disproved spontaneous generation, and developed animal vaccines against chicken cholera and anthrax.\n\nFor five years, Pasteur and his dedicated colleagues, Émile Roux and Charles Chamberland, had been hunting the elusive rabies virus. The microbe was too small to be seen under any optical microscope. Pasteur deduced that the virus attacked the central nervous system.\n\nPasteur had made a brilliant discovery: he inoculated rabbits with the rabies virus, removed their spinal cords after death, and hung the spinal tissue in sterile glass flasks over caustic potash to dry in the dark. As the tissue dried day by day, the virus gradually lost its virulence. Tissue dried for fourteen days was completely harmless. Tissue dried for ten days was slightly active. Tissue dried for one day was deadly virulent.\n\nBy inoculating dogs sequentially over two weeks—starting with the harmless 14-day dried tissue and ending with the freshly virulent tissue—Pasteur had successfully immunized fifty dogs against rabies!\n\nYet, Pasteur was terrified of testing his vaccine on a human being. Pasteur was a chemist, not a licensed medical doctor. If he injected a child and the child died, he could be branded a murderer and sent to prison.\n\nPasteur summoned two of France's most eminent physicians: Dr. Joseph-Antoine Vulpian, member of the Academy of Medicine, and Dr. Jacques-Joseph Grancher. The doctors carefully examined young Joseph's festering wounds.\n\nDr. Vulpian turned to Pasteur with solemn gravity: \"The child is doomed to an inevitable, terrible death. If you do nothing, he will certainly die within weeks. The experimental vaccine offers his only hope. You have a moral duty to try.\"\n\nAt 8:00 PM on July 6, 1885, in a small laboratory room, Dr. Grancher injected a small syringe of milky fluid containing a tiny fragment of 14-day attenuated rabbit spinal cord into the skin of little Joseph's abdomen.\n\nOver the next ten days, Joseph received twelve more injections of increasing potency.\n\nPasteur lived in a torment of anxiety. He could neither sleep nor eat. He wandered through the night in the gardens of the École Normale, imagining the boy developing hydrophobia.\n\nOn July 16, at 11:00 AM, the fateful final injection was administered: pure, unweakened rabies virus of maximum lethality—an injection that would kill an untreated animal in days!\n\nPasteur sat beside Joseph's bed, holding the boy's hand. Joseph smiled, played with the laboratory rabbits, and ate heartily.\n\nDays passed. Weeks passed. Months passed.\n\nJoseph Meister remained radiant, healthy, and completely free of disease. The rabies virus had been conquered!\n\nThree months later, Pasteur announced the breakthrough to a stunned, weeping French Academy of Sciences. Within a year, over 2,500 people bitten by rabid wolves and dogs—including nineteen Russian peasants attacked by a rabid wolf in Smolensk—traveled to Paris and were saved.\n\nGratitude poured in from all over the world, funding the construction of the world-famous Institut Pasteur.\n\nYears later, an adult Joseph Meister returned to the Pasteur Institute, serving as its devoted gatekeeper for over thirty years—a living monument to the compassion and courage of the scientist who saved his life.",
+  "moral": "Moral Responsibility and Courage in the Face of Fear: When an innocent child faced certain agonizing death, Pasteur put his entire reputation and career on the line to offer the gift of life.",
+  "image": "/images/stories/science-stories.webp",
+  "status": "published",
+  "reviewed": true,
+  "genre": "Science & Discovery",
+  "is_bedtime": false,
+  "image_alt": "100 Authentic Science Stories",
+  "language": "te"
+}

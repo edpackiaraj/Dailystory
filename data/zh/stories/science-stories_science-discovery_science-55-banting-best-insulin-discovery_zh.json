@@ -1,0 +1,99 @@
+{
+  "id": "science-55-banting-best-insulin-discovery",
+  "title": "Frederick Banting, Charles Best, and the Elixir of Life",
+  "slug": "science-55-banting-best-insulin-discovery",
+  "collection": "science-stories",
+  "collection_name": "Science & Discovery",
+  "reading_time": "5 min",
+  "age_group": "Kids & Families (All Ages)",
+  "difficulty": "Intermediate",
+  "source_book": "The Internal Secretion of the Pancreas (1922)",
+  "source_author": "Frederick Grant Banting & Charles Herbert Best",
+  "source_year": "1921–1922 CE",
+  "source_chapter": "Journal of Laboratory and Clinical Medicine (Vol. 7, No. 5, pp. 251–266, February 1922)",
+  "source_edition": "Nobel Lecture in Physiology or Medicine (1923); University of Toronto Archives",
+  "authenticity_note": "Conducted in laboratory room 43 at the University of Toronto, May–December 1921. Details duct-ligation of canine pancreas to degenerate acinar tissue, extracting islet hormone that revived diabetic dog Marjorie and saved dying fourteen-year-old Leonard Thompson on January 11–23, 1922.",
+  "summary": "In a sweltering attic laboratory in Toronto, an unknown young surgeon and a medical student tied off pancreatic ducts, isolated a mysterious hormone from the Islets of Langerhans, and walked into hospital wards of dying diabetic children to bring them back to life.",
+  "content": "In the stifling heat of July 1921, in an attic laboratory at the University of Toronto in Canada, two young men worked in their shirtsleeves, dripping with sweat. One was Dr. Frederick Banting, a thirty-year-old struggling orthopedic surgeon and wounded World War I veteran. The other was Charles Best, a twenty-two-year-old medical student with expertise in blood chemistry.\n\nThey were pursuing a goal that the world's greatest professors had deemed impossible: finding the cure for **Diabetes Mellitus**.\n\nIn the early 1920s, a diagnosis of Type 1 Diabetes in a child was a death sentence. Children suffering from the disease could not process sugar. Their bodies burned their own fats and muscles for fuel. They suffered insatiable thirst, rapid wasting, blindness, and coma. The only available treatment was the \"Starvation Diet\"—feeding children barely 400 calories a day to delay death, reducing vibrant boys and girls to living skeletons weighing barely thirty pounds before they slipped into diabetic ketoacidosis and died.\n\nDoctors had known since 1889 that the pancreas was linked to diabetes. The pancreas had two functions: producing harsh digestive enzymes for the gut, and housing tiny clusters of cells called the **Islets of Langerhans** that produced an elusive internal secretion.\n\nWhenever scientists had tried to grind up a pancreas to extract this secretion, the organ's powerful digestive juices (trypsin) immediately destroyed the fragile hormone before it could be isolated!\n\nOn the night of October 31, 1920, unable to sleep in his small medical office in London, Ontario, Banting had jotted a twenty-five-word scribbled note in his diary at 2:00 AM:\n\"Diabetus. Ligate pancreatic ducts of dogs. Keep dogs alive till acini degenerate leaving Islets. Try to isolate internal secretion to relieve glycosurea.\"\n\nBanting's flash of genius was simple: if you tie off (ligate) the pancreatic ducts that carry digestive juices, the digestive tissue will wither away and die over several weeks. But the Islets of Langerhans will survive! Then, you can extract the pure, undamaged hormone!\n\nProfessor J.J.R. Macleod at the University of Toronto gave Banting a dingy attic room, ten dogs, and the assistance of young Charles Best for eight weeks during summer vacation, convinced they would fail.\n\nWorking with tireless devotion, Banting and Best tied off the pancreatic ducts. Weeks later, they removed the shriveled glands, chilled them in ice, ground them in chilled saline solution, and filtered the extract.\n\nThey tested the murky liquid on a diabetic dog named Marjorie. Marjorie lay dying in a coma, her blood sugar skyrocketing.\n\nBanting drew up the extract into a syringe and injected it into Marjorie's vein.\n\nWithin two hours, a miracle occurred: Marjorie's blood sugar plunged from deadly levels down to completely normal! The dog opened her eyes, lifted her head, stood up, and wagged her tail!\n\nWith the assistance of biochemist James Collip, the team purified the extract, eliminating toxic contaminants. They named the miraculous hormone **Insulin** (from the Latin *insula*, meaning \"island\").\n\nIn January 1922, Banting and Best walked into the diabetic ward of Toronto General Hospital. The ward was filled with fifty comatose, skeletal children, with grieving parents gathered around their beds waiting for the end.\n\nBanting and Best moved from bed to bed, injecting the clear extract of insulin into the dying children.\n\nBefore they had reached the last child in the ward, the first children who had been injected began to awaken from their comas! Their eyes opened, their breathing stabilized, and their color returned. Parents fell to their knees in tears. One of the most heartbreaking wards of death in human medicine had transformed in a single afternoon into a sanctuary of life and resurrection.\n\nFourteen-year-old Leonard Thompson, weighing only sixty-five pounds on the verge of death, received the first official injection on January 11, 1922. Within days, his strength returned, and he lived for another thirteen years.\n\nIn 1923, Frederick Banting and J.J.R. Macleod were awarded the Nobel Prize in Physiology or Medicine. Banting was furious that Charles Best had not been included, and immediately shared half of his Nobel prize money with Best.\n\nWhen offered millions for the patent rights to insulin, Banting, Best, and Collip sold the patent to the University of Toronto for a symbolic **one dollar**, famously stating:\n**\"Insulin does not belong to me; it belongs to the world.\"**",
+  "stem_vocabulary": [
+    {
+      "term": "Insulin",
+      "definition": "A peptide hormone produced by the beta cells of the pancreatic islets that regulates the metabolism of carbohydrates, fats, and protein by promoting glucose absorption.",
+      "context": "Banting and Best successfully isolated insulin from the Islets of Langerhans."
+    },
+    {
+      "term": "Islets of Langerhans",
+      "definition": "Microscopic clusters of endocrine cells scattered throughout the pancreas that produce hormones including insulin and glucagon.",
+      "context": "The Islets of Langerhans survived after the pancreatic ducts were ligated."
+    },
+    {
+      "term": "Type 1 Diabetes Mellitus",
+      "definition": "A chronic autoimmune disease in which the immune system destroys insulin-producing beta cells, leading to hyperglycemia.",
+      "context": "Before insulin was discovered, Type 1 diabetes was fatal for every diagnosed child."
+    },
+    {
+      "term": "Pancreatic Duct Ligation",
+      "definition": "The surgical tying of the pancreatic ducts to cause atrophy of the digestive enzyme-secreting acinar cells while sparing the endocrine islets.",
+      "context": "Banting's breakthrough idea was to ligate the ducts so digestive enzymes would not destroy the insulin."
+    }
+  ],
+  "blooms_questions": {
+    "remember": "What medical student worked alongside Dr. Frederick Banting in the attic laboratory at the University of Toronto?",
+    "analyze": "Why had previous scientists failed to extract insulin when grinding up a normal, whole pancreas?",
+    "apply_create": "Millions of people with diabetes lead full, healthy lives today by checking blood sugar and taking insulin. How did Banting and Best's one-dollar patent enable global access to life-saving treatment?"
+  },
+  "quiz": [
+    {
+      "question": "What ingenious surgical technique did Banting conceive to isolate insulin without it being destroyed by digestive enzymes?",
+      "options": [
+        "Freezing the entire animal in liquid nitrogen",
+        "Tying off the pancreatic ducts so digestive tissues withered, leaving only the hormone-producing islets",
+        "Boiling the pancreas in alcohol",
+        "Feeding the animals only pure sugar"
+      ],
+      "correct_index": 1,
+      "explanation": "Ligating the ducts caused the digestive enzyme-producing cells to degenerate, leaving the hormone islets intact.",
+      "hint": "He tied off the ducts that carry digestive juices."
+    },
+    {
+      "question": "For how much money did Banting, Best, and Collip sell the patent for insulin to the University of Toronto?",
+      "options": [
+        "Ten million dollars",
+        "One dollar",
+        "One hundred thousand dollars",
+        "They kept the patent for themselves"
+      ],
+      "correct_index": 1,
+      "explanation": "They surrendered all commercial profits, selling the patent for a single dollar so insulin would be available to everyone.",
+      "hint": "A symbolic single coin."
+    },
+    {
+      "question": "What was the name of the dying diabetic dog that Banting and Best first successfully revived with insulin?",
+      "options": [
+        "Laika",
+        "Marjorie",
+        "Rover",
+        "Belka"
+      ],
+      "correct_index": 1,
+      "explanation": "Dog 33, named Marjorie, was the first diabetic dog kept alive and healthy using the pancreatic extract.",
+      "hint": "A human girl's name starting with M."
+    }
+  ],
+  "moral_reflection": {
+    "value": "Compassion Above Greed",
+    "insight": "Banting and Best could have become the wealthiest men in Canada. Instead, they sold their patent for one dollar, proving that true healers measure their success in lives saved, not dollars amassed.",
+    "family_prompt": "When you have the power to help people who are suffering, how can putting kindness above personal gain make the world a better place?"
+  },
+  "cultural_context": "World Diabetes Day is celebrated globally every year on November 14, marking the birthday of Sir Frederick Banting. The eternal 'Flame of Hope' at Banting House in Ontario burns until a cure for diabetes is found.",
+  "audio_url": "",
+  "full_text": "In the stifling heat of July 1921, in an attic laboratory at the University of Toronto in Canada, two young men worked in their shirtsleeves, dripping with sweat. One was Dr. Frederick Banting, a thirty-year-old struggling orthopedic surgeon and wounded World War I veteran. The other was Charles Best, a twenty-two-year-old medical student with expertise in blood chemistry.\n\nThey were pursuing a goal that the world's greatest professors had deemed impossible: finding the cure for **Diabetes Mellitus**.\n\nIn the early 1920s, a diagnosis of Type 1 Diabetes in a child was a death sentence. Children suffering from the disease could not process sugar. Their bodies burned their own fats and muscles for fuel. They suffered insatiable thirst, rapid wasting, blindness, and coma. The only available treatment was the \"Starvation Diet\"—feeding children barely 400 calories a day to delay death, reducing vibrant boys and girls to living skeletons weighing barely thirty pounds before they slipped into diabetic ketoacidosis and died.\n\nDoctors had known since 1889 that the pancreas was linked to diabetes. The pancreas had two functions: producing harsh digestive enzymes for the gut, and housing tiny clusters of cells called the **Islets of Langerhans** that produced an elusive internal secretion.\n\nWhenever scientists had tried to grind up a pancreas to extract this secretion, the organ's powerful digestive juices (trypsin) immediately destroyed the fragile hormone before it could be isolated!\n\nOn the night of October 31, 1920, unable to sleep in his small medical office in London, Ontario, Banting had jotted a twenty-five-word scribbled note in his diary at 2:00 AM:\n\"Diabetus. Ligate pancreatic ducts of dogs. Keep dogs alive till acini degenerate leaving Islets. Try to isolate internal secretion to relieve glycosurea.\"\n\nBanting's flash of genius was simple: if you tie off (ligate) the pancreatic ducts that carry digestive juices, the digestive tissue will wither away and die over several weeks. But the Islets of Langerhans will survive! Then, you can extract the pure, undamaged hormone!\n\nProfessor J.J.R. Macleod at the University of Toronto gave Banting a dingy attic room, ten dogs, and the assistance of young Charles Best for eight weeks during summer vacation, convinced they would fail.\n\nWorking with tireless devotion, Banting and Best tied off the pancreatic ducts. Weeks later, they removed the shriveled glands, chilled them in ice, ground them in chilled saline solution, and filtered the extract.\n\nThey tested the murky liquid on a diabetic dog named Marjorie. Marjorie lay dying in a coma, her blood sugar skyrocketing.\n\nBanting drew up the extract into a syringe and injected it into Marjorie's vein.\n\nWithin two hours, a miracle occurred: Marjorie's blood sugar plunged from deadly levels down to completely normal! The dog opened her eyes, lifted her head, stood up, and wagged her tail!\n\nWith the assistance of biochemist James Collip, the team purified the extract, eliminating toxic contaminants. They named the miraculous hormone **Insulin** (from the Latin *insula*, meaning \"island\").\n\nIn January 1922, Banting and Best walked into the diabetic ward of Toronto General Hospital. The ward was filled with fifty comatose, skeletal children, with grieving parents gathered around their beds waiting for the end.\n\nBanting and Best moved from bed to bed, injecting the clear extract of insulin into the dying children.\n\nBefore they had reached the last child in the ward, the first children who had been injected began to awaken from their comas! Their eyes opened, their breathing stabilized, and their color returned. Parents fell to their knees in tears. One of the most heartbreaking wards of death in human medicine had transformed in a single afternoon into a sanctuary of life and resurrection.\n\nFourteen-year-old Leonard Thompson, weighing only sixty-five pounds on the verge of death, received the first official injection on January 11, 1922. Within days, his strength returned, and he lived for another thirteen years.\n\nIn 1923, Frederick Banting and J.J.R. Macleod were awarded the Nobel Prize in Physiology or Medicine. Banting was furious that Charles Best had not been included, and immediately shared half of his Nobel prize money with Best.\n\nWhen offered millions for the patent rights to insulin, Banting, Best, and Collip sold the patent to the University of Toronto for a symbolic **one dollar**, famously stating:\n**\"Insulin does not belong to me; it belongs to the world.\"**",
+  "moral": "Compassion Above Greed: Banting and Best could have become the wealthiest men in Canada. Instead, they sold their patent for one dollar, proving that true healers measure their success in lives saved, not dollars amassed.",
+  "image": "/images/stories/science-stories.webp",
+  "status": "published",
+  "reviewed": true,
+  "genre": "Science & Discovery",
+  "is_bedtime": false,
+  "image_alt": "100 Authentic Science Stories",
+  "language": "zh"
+}

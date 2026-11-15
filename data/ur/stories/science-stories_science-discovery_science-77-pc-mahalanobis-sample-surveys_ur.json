@@ -1,0 +1,81 @@
+{
+  "id": "science-77-pc-mahalanobis-sample-surveys",
+  "title": "Prasanta Chandra Mahalanobis: The Distance of Numbers and the Pulse of a Nation",
+  "slug": "science-77-pc-mahalanobis-sample-surveys",
+  "collection": "science-stories",
+  "collection_name": "Science & Discovery",
+  "reading_time": "5 min",
+  "age_group": "Kids & Families (All Ages)",
+  "difficulty": "Intermediate",
+  "source_book": "On the Generalised Distance in Statistics, Proceedings of the National Institute of Sciences of India (Vol. 2, pp. 49–55, 1936)",
+  "source_author": "Prasanta Chandra Mahalanobis",
+  "source_year": "1931–1955 CE",
+  "source_chapter": "Mahalanobis Distance ($D^2$), Large-Scale Sample Surveys, and National Planning",
+  "source_edition": "Sankhyā: The Indian Journal of Statistics (1933); The Second Five-Year Plan Draft (1955)",
+  "authenticity_note": "Historical documentation of the founding of the Indian Statistical Institute (ISI) in Presidency College in 1931, the mathematical formulation of the $D^2$-statistic, and the creation of India's National Sample Survey (NSS).",
+  "summary": "Transforming mathematics from abstract theory into an engine of nation-building, an Indian statistician invented the Mahalanobis Distance and pioneered national sample surveys that measure the heartbeat of millions.",
+  "content": "In 1915, a brilliant physics student from Calcutta named Prasanta Chandra Mahalanobis was leaving Cambridge, England, to return home to India. Right before his train departed, his tutor introduced him to copies of *Biometrika*—a journal founded by Karl Pearson dedicated to applying mathematical statistics to biological measurements.\n\nMahalanobis took the volumes home on the ship. What began as shipboard reading became his lifelong passion.\n\nSetting up a tiny 'Statistical Laboratory' in a spare room at Presidency College in Calcutta with a few manual hand-cranked calculators, Mahalanobis began analyzing anthropometric measurements of different population groups.\n\nStandard Euclidean distance ($d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$) worked fine for points in a simple flat space. But human measurements—like height, arm length, head circumference, and skull width—are correlated with each other: taller people naturally tend to have longer arms.\n\nIn 1936, Mahalanobis published a groundbreaking paper introducing the **Mahalanobis Distance** ($D^2$ statistic):\n$$D^2 = (\\mathbf{x} - \\mathbf{y})^T \\mathbf{\\Sigma}^{-1} (\\mathbf{x} - \\mathbf{y})$$\nwhere $\\mathbf{\\Sigma}$ is the covariance matrix.\n\nBy dividing out the statistical covariance between variables, Mahalanobis created a scale-invariant metric that accurately measures the distance between a point and a multi-dimensional distribution! Today, Mahalanobis Distance is used everywhere in artificial intelligence, machine learning, medical diagnosis, facial recognition, and outlier detection.\n\nMahalanobis was also a pioneer of **large-scale sample surveys**. Before him, governments believed that to understand crop yields or poverty, you had to count every single farm or person—an impossibly expensive task.\n\nMahalanobis proved that by carefully selecting randomized statistical samples (introducing techniques like **interpenetrating sub-samples** to assess margin of error), you could determine national crop yields with astonishing precision at a fraction of the cost!\n\nIn 1931, he founded the **Indian Statistical Institute (ISI)** and launched the world-renowned journal *Sankhyā*.\n\nFollowing independence, Prime Minister Nehru appointed Mahalanobis to draft India's Second Five-Year Plan (1956–1961), utilizing mathematical input-output models to build heavy industry. In 1950, he established the **National Sample Survey (NSS)**—which remains one of the largest socio-economic statistical surveying apparatuses in the world. In India, his birthday, June 29, is celebrated annually as **National Statistics Day**.",
+  "stem_vocabulary": [
+    {
+      "term": "Mahalanobis Distance ($D^2$)",
+      "definition": "A multi-dimensional statistical distance metric that measures how many standard deviations a point is from the center of a distribution, accounting for correlations between variables.",
+      "context": "Invented by Mahalanobis in 1936, widely used in machine learning and pattern classification."
+    },
+    {
+      "term": "Covariance Matrix ($\\Sigma$)",
+      "definition": "A square matrix giving the covariance between pairs of elements in a random vector.",
+      "context": "Inverted in the Mahalanobis formula to normalize correlated variables."
+    },
+    {
+      "term": "Interpenetrating Sub-samples",
+      "definition": "A surveying methodology where independent, overlapping sample sets are surveyed by separate teams to detect surveyor bias and verify statistical variance.",
+      "context": "Devised by Mahalanobis to ensure data integrity in national surveys."
+    },
+    {
+      "term": "Indian Statistical Institute (ISI)",
+      "definition": "A world-renowned academic and research institution founded by Mahalanobis in 1931 in Kolkata.",
+      "context": "Trained generations of world-class mathematicians and data scientists."
+    }
+  ],
+  "blooms_questions": {
+    "remember": "What mathematical metric did Mahalanobis formulate in 1936 to measure multi-dimensional distance while accounting for correlation?",
+    "analyze": "Why does standard Euclidean distance fail when analyzing correlated measurements like height and weight?",
+    "apply_create": "How can modern data scientists use Mahalanobis Distance to detect fraud or cyber security anomalies in banking transactions?"
+  },
+  "quiz": [
+    {
+      "question": "What makes the Mahalanobis Distance superior to ordinary Euclidean distance for real-world data?",
+      "options": [
+        "It takes into account correlations between variables using a covariance matrix",
+        "It only uses whole integers",
+        "It ignores all negative numbers",
+        "It can only be computed with a wooden ruler"
+      ],
+      "correct_index": 0,
+      "explanation": "Mahalanobis distance accounts for the variance and covariance of multi-dimensional data, preventing correlated traits from skewing distance.",
+      "hint": "It accounts for correlations between variables."
+    },
+    {
+      "question": "What premier research institute did Mahalanobis establish in Kolkata in 1931?",
+      "options": [
+        "Indian Statistical Institute (ISI)",
+        "Royal Academy of Music",
+        "Bank of England",
+        "London Stock Exchange"
+      ],
+      "correct_index": 0,
+      "explanation": "P. C. Mahalanobis founded the Indian Statistical Institute (ISI) in Kolkata in 1931.",
+      "hint": "Indian Statistical Institute."
+    }
+  ],
+  "image": "/images/stories/science-stories.webp",
+  "image_alt": "P. C. Mahalanobis and Statistical Distance",
+  "full_text": "In 1915, a brilliant physics student from Calcutta named Prasanta Chandra Mahalanobis was leaving Cambridge, England, to return home to India. Right before his train departed, his tutor introduced him to copies of *Biometrika*—a journal founded by Karl Pearson dedicated to applying mathematical statistics to biological measurements.\n\nMahalanobis took the volumes home on the ship. What began as shipboard reading became his lifelong passion.\n\nSetting up a tiny 'Statistical Laboratory' in a spare room at Presidency College in Calcutta with a few manual hand-cranked calculators, Mahalanobis began analyzing anthropometric measurements of different population groups.\n\nStandard Euclidean distance ($d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$) worked fine for points in a simple flat space. But human measurements—like height, arm length, head circumference, and skull width—are correlated with each other: taller people naturally tend to have longer arms.\n\nIn 1936, Mahalanobis published a groundbreaking paper introducing the **Mahalanobis Distance** ($D^2$ statistic):\n$$D^2 = (\\mathbf{x} - \\mathbf{y})^T \\mathbf{\\Sigma}^{-1} (\\mathbf{x} - \\mathbf{y})$$\nwhere $\\mathbf{\\Sigma}$ is the covariance matrix.\n\nBy dividing out the statistical covariance between variables, Mahalanobis created a scale-invariant metric that accurately measures the distance between a point and a multi-dimensional distribution! Today, Mahalanobis Distance is used everywhere in artificial intelligence, machine learning, medical diagnosis, facial recognition, and outlier detection.\n\nMahalanobis was also a pioneer of **large-scale sample surveys**. Before him, governments believed that to understand crop yields or poverty, you had to count every single farm or person—an impossibly expensive task.\n\nMahalanobis proved that by carefully selecting randomized statistical samples (introducing techniques like **interpenetrating sub-samples** to assess margin of error), you could determine national crop yields with astonishing precision at a fraction of the cost!\n\nIn 1931, he founded the **Indian Statistical Institute (ISI)** and launched the world-renowned journal *Sankhyā*.\n\nFollowing independence, Prime Minister Nehru appointed Mahalanobis to draft India's Second Five-Year Plan (1956–1961), utilizing mathematical input-output models to build heavy industry. In 1950, he established the **National Sample Survey (NSS)**—which remains one of the largest socio-economic statistical surveying apparatuses in the world. In India, his birthday, June 29, is celebrated annually as **National Statistics Day**.",
+  "moral": "",
+  "status": "published",
+  "reviewed": true,
+  "genre": "Science & Discovery",
+  "is_bedtime": false,
+  "moral_reflection": "",
+  "language": "ur"
+}

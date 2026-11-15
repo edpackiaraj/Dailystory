@@ -376,21 +376,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/panchatantra/"/>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/collections/science-discovery/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dailystory.pages.dev/en/collections/science-discovery/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://dailystory.pages.dev/ta/collections/science-discovery/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://dailystory.pages.dev/hi/collections/science-discovery/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://dailystory.pages.dev/zh/collections/science-discovery/"/>
-    <xhtml:link rel="alternate" hreflang="ml" href="https://dailystory.pages.dev/ml/collections/science-discovery/"/>
-    <xhtml:link rel="alternate" hreflang="te" href="https://dailystory.pages.dev/te/collections/science-discovery/"/>
-    <xhtml:link rel="alternate" hreflang="kn" href="https://dailystory.pages.dev/kn/collections/science-discovery/"/>
-    <xhtml:link rel="alternate" hreflang="mr" href="https://dailystory.pages.dev/mr/collections/science-discovery/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://dailystory.pages.dev/ur/collections/science-discovery/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dailystory.pages.dev/en/collections/science-discovery/"/>
-  </url>
-  <url>
     <loc>https://dailystory.pages.dev/ur/collections/science-stories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -13603,211 +13588,211 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-1-archimedes-golden-crown/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-1-archimedes-golden-crown/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-2-eratosthenes-measuring-earth/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-2-eratosthenes-measuring-earth/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-3-newton-apple-and-prism/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-3-newton-apple-and-prism/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-4-galileo-swinging-chandelier/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-4-galileo-swinging-chandelier/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-5-fleming-miracle-mold/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-5-fleming-miracle-mold/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-6-raman-deep-blue-sea/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-6-raman-deep-blue-sea/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-7-bose-whispering-plants/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-7-bose-whispering-plants/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-8-ibn-al-haytham-dark-room/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-8-ibn-al-haytham-dark-room/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-9-jenner-milkmaids-secret/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-9-jenner-milkmaids-secret/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-10-mendel-garden-peas/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-10-mendel-garden-peas/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-11-mary-anning-sea-dragons/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-11-mary-anning-sea-dragons/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-12-ada-lovelace-flying-machine/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-12-ada-lovelace-flying-machine/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-13-marie-curie-glowing-mineral/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-13-marie-curie-glowing-mineral/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-14-franklin-kite-and-key/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-14-franklin-kite-and-key/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-15-fabre-ant-citadel/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-15-fabre-ant-citadel/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-16-aryabhata-spinning-earth/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-16-aryabhata-spinning-earth/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-17-sushruta-pioneer-surgeon/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-17-sushruta-pioneer-surgeon/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-18-charaka-inner-flame/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-18-charaka-inner-flame/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-19-kanada-atom-anu/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-19-kanada-atom-anu/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-20-brahmagupta-gravity-zero/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-20-brahmagupta-gravity-zero/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-21-bhaskara-lilavati-math/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-21-bhaskara-lilavati-math/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-22-al-biruni-mountain-radius/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-22-al-biruni-mountain-radius/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-23-copernicus-sun-center/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-23-copernicus-sun-center/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-24-galileo-telescope-jupiter/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-24-galileo-telescope-jupiter/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-25-kepler-planetary-harmony/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-25-kepler-planetary-harmony/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-26-huygens-wave-light/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-26-huygens-wave-light/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-27-robert-hooke-microscopic-cork/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-27-robert-hooke-microscopic-cork/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-28-leeuwenhoek-animalcules/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-28-leeuwenhoek-animalcules/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-29-william-harvey-circulating-blood/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-29-william-harvey-circulating-blood/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-30-torricelli-mercury-barometer/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-30-torricelli-mercury-barometer/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-31-boyle-spring-of-air/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-31-boyle-spring-of-air/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-32-lavoisier-conservation-mass/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-32-lavoisier-conservation-mass/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-33-priestley-breath-oxygen/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-33-priestley-breath-oxygen/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-34-john-dalton-billiard-atoms/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-34-john-dalton-billiard-atoms/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dailystory.pages.dev/ur/science-discovery/science-35-humphry-davy-electric-elements/</loc>
+    <loc>https://dailystory.pages.dev/ur/science-stories/science-35-humphry-davy-electric-elements/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

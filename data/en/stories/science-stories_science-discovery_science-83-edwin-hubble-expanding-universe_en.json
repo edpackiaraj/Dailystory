@@ -1,0 +1,82 @@
+{
+  "id": "science-83-edwin-hubble-expanding-universe",
+  "title": "Edwin Hubble: The Redshift of the Running Galaxies",
+  "slug": "science-83-edwin-hubble-expanding-universe",
+  "collection": "science-stories",
+  "collection_name": "100 Authentic Science Stories",
+  "reading_time": 5,
+  "age_group": "9-16",
+  "difficulty": "Medium",
+  "source_book": "The Realm of the Nebulae",
+  "source_author": "Edwin Hubble",
+  "source_year": "1936",
+  "source_chapter": "Chapter 5: Red-Shifts in the Spectra of Nebulae",
+  "source_edition": "Yale University Press, New Haven",
+  "authenticity_note": "Drawn directly from Edwin Hubble's 1929 landmark PNAS paper 'A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae' and his 1936 Silliman Lectures on cosmological redshift.",
+  "summary": "Perched atop Mount Wilson in California with the 100-inch Hooker telescope, Edwin Hubble proved that fuzzy spirals in the sky were separate galaxies millions of light-years away, and that their light shifted toward the red end of the spectrum—proving the entire universe was born in a cosmic expansion.",
+  "content": "In the 1920s, most astronomers believed that our Milky Way galaxy was the entire cosmos—an isolated island universe floating in an infinite, timeless void.\n\nPerched above the clouds at Mount Wilson Observatory in California, American astronomer Edwin Hubble stepped onto the observation platform of the 100-inch Hooker telescope—then the most powerful eye on Earth. In October 1923, Hubble photographed the spiral Andromeda nebula (M31). Examining the glass photographic plates under a magnifying loupe, he spotted a dim point of light that varied rhythmically in brightness.\n\nIt was a Cepheid variable star! Using Henrietta Leavitt's period-luminosity relation, Hubble calculated its distance. Andromeda was not a small gas cloud inside the Milky Way; it was nearly a million light-years away (now measured at 2.5 million)—a gigantic, independent galaxy containing hundreds of billions of stars! Overnight, the known universe expanded tenfold.\n\nHubble did not stop there. Collaborating with telescope technician Milton Humason, he gathered spectra from dozens of distant galaxies. Light from atoms leaves distinct dark fingerprint lines across the rainbow spectrum. But when Hubble inspected the spectral lines of distant galaxies, something bizarre stood out: the absorption lines were consistently shifted toward the longer, redder wavelengths—a phenomenon called redshift.\n\nEven more astounding: the further away a galaxy was, the faster it appeared to be speeding away from us! In 1929, Hubble published his monumental law: velocity equals distance multiplied by a constant ($v = H_0 \\cdot d$).\n\nGalaxies were not merely flying through space; the fabric of space itself was stretching like the surface of an inflating balloon. If the universe was expanding outward, then winding time backward meant everything had originated from a single, intensely dense point—the Big Bang. Edwin Hubble had opened humanity's eyes to a dynamic, evolving cosmos.",
+  "stem_vocabulary": [
+    {
+      "term": "Cosmological Redshift",
+      "definition": "The stretching of light wavelengths toward the red end of the spectrum as space itself expands."
+    },
+    {
+      "term": "Hubble's Law",
+      "definition": "The observation that galaxies are moving away from Earth at speeds proportional to their distance ($v = H_0 cdot d$)."
+    },
+    {
+      "term": "Cepheid Variable",
+      "definition": "A type of star that pulsates radially, varying in both diameter and temperature, used as a standard candle to measure cosmic distances."
+    },
+    {
+      "term": "Expanding Universe",
+      "definition": "The physical reality that the metric of space between galaxies is continuously increasing over time."
+    }
+  ],
+  "blooms_questions": [
+    {
+      "level": "Remember",
+      "question": "What primary observation or data led the scientist to their discovery?"
+    },
+    {
+      "level": "Understand",
+      "question": "How does this discovery fundamentally change our understanding of physical reality?"
+    },
+    {
+      "level": "Apply",
+      "question": "How can this scientific principle be applied to modern technology or space exploration?"
+    },
+    {
+      "level": "Analyze",
+      "question": "What evidence convinced skeptical peers to overturn the older paradigm?"
+    },
+    {
+      "level": "Evaluate",
+      "question": "Why is perseverance in the face of widespread institutional skepticism essential for scientific progress?"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What was the critical discovery detailed in this historical account?",
+      "options": [
+        "A revolutionary breakthrough in empirical science",
+        "A mathematical error",
+        "An accidental myth",
+        "A discarded rumor"
+      ],
+      "answer": 0
+    }
+  ],
+  "moral_reflection": "True scientific inquiry requires relentless curiosity, meticulous evidence gathering, and the intellectual bravery to follow data wherever it leads, regardless of dogma.",
+  "cultural_context": "World History of Science / Empirical Discovery & Cosmology",
+  "audio_url": "",
+  "full_text": "In the 1920s, most astronomers believed that our Milky Way galaxy was the entire cosmos—an isolated island universe floating in an infinite, timeless void.\n\nPerched above the clouds at Mount Wilson Observatory in California, American astronomer Edwin Hubble stepped onto the observation platform of the 100-inch Hooker telescope—then the most powerful eye on Earth. In October 1923, Hubble photographed the spiral Andromeda nebula (M31). Examining the glass photographic plates under a magnifying loupe, he spotted a dim point of light that varied rhythmically in brightness.\n\nIt was a Cepheid variable star! Using Henrietta Leavitt's period-luminosity relation, Hubble calculated its distance. Andromeda was not a small gas cloud inside the Milky Way; it was nearly a million light-years away (now measured at 2.5 million)—a gigantic, independent galaxy containing hundreds of billions of stars! Overnight, the known universe expanded tenfold.\n\nHubble did not stop there. Collaborating with telescope technician Milton Humason, he gathered spectra from dozens of distant galaxies. Light from atoms leaves distinct dark fingerprint lines across the rainbow spectrum. But when Hubble inspected the spectral lines of distant galaxies, something bizarre stood out: the absorption lines were consistently shifted toward the longer, redder wavelengths—a phenomenon called redshift.\n\nEven more astounding: the further away a galaxy was, the faster it appeared to be speeding away from us! In 1929, Hubble published his monumental law: velocity equals distance multiplied by a constant ($v = H_0 \\cdot d$).\n\nGalaxies were not merely flying through space; the fabric of space itself was stretching like the surface of an inflating balloon. If the universe was expanding outward, then winding time backward meant everything had originated from a single, intensely dense point—the Big Bang. Edwin Hubble had opened humanity's eyes to a dynamic, evolving cosmos.",
+  "moral": "True scientific inquiry requires relentless curiosity, meticulous evidence gathering, and the intellectual bravery to follow data wherever it leads, regardless of dogma.",
+  "image": "/images/stories/science-stories.webp",
+  "status": "published",
+  "reviewed": true,
+  "genre": "Science & Discovery",
+  "is_bedtime": false,
+  "image_alt": "100 Authentic Science Stories",
+  "language": "en"
+}

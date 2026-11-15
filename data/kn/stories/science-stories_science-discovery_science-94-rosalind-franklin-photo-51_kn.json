@@ -1,0 +1,82 @@
+{
+  "id": "science-94-rosalind-franklin-photo-51",
+  "title": "Rosalind Franklin: The Golden Cross of Photo 51",
+  "slug": "science-94-rosalind-franklin-photo-51",
+  "collection": "science-stories",
+  "collection_name": "100 Authentic Science Stories",
+  "reading_time": 5,
+  "age_group": "9-16",
+  "difficulty": "Medium",
+  "source_book": "Molecular Configuration in Sodium Thymonucleate (Nature, Vol. 171)",
+  "source_author": "Rosalind E. Franklin & Raymond G. Gosling",
+  "source_year": "1953",
+  "source_chapter": "Nature 171, 740–741 (25 April 1953)",
+  "source_edition": "Macmillan Journals, London",
+  "authenticity_note": "Directly derived from Rosalind Franklin and Raymond Gosling's May 1952 X-ray diffraction photograph 'Photo 51' of the B-form of DNA, demonstrating helical dimensions, phosphate backbone placement, and symmetry.",
+  "summary": "Working with rigorous precision in a basement lab at King's College London in May 1952, physical chemist Rosalind Franklin exposed a fine fiber of hydrated DNA to X-rays for 100 hours. The resulting image, 'Photo 51', revealed a striking dark 'X' pattern—providing the critical empirical proof that DNA is a double helix with its phosphate backbone on the outside.",
+  "content": "In 1951, 31-year-old English physical chemist Rosalind Franklin arrived at King's College London. Having mastered the demanding technique of X-ray crystallography while studying carbon and coal structures in Paris, Franklin brought unmatched technical precision and experimental rigor to the study of biological fibers.\n\nHer target was the mystery molecule of life: deoxyribonucleic acid (DNA). Scientists knew DNA carried hereditary traits, but its physical three-dimensional architecture remained a total enigma.\n\nFranklin discovered that DNA existed in two distinct states: a dry crystalline 'A-form' and a wet, hydrated 'B-form'. Recognizing that DNA inside living cells is surrounded by water, she meticulously engineered a special micro-camera with a sealed chamber, controlling humidity with hydrogen gas bubbled through saturated salt solutions.\n\nUsing a fine glass needle, Franklin suspended a strand of DNA no thicker than a single human hair. In May 1952, she and her research student Raymond Gosling exposed this hydrated DNA fiber to a narrow beam of X-rays for over 100 continuous hours.\n\nWhen Franklin developed the photographic film in her darkroom, she stared at a masterpiece of empirical science: **Photo 51**.\n\nAcross the center of the image stretched a bold, unmistakable dark cross—the letter 'X'. In the mathematics of Fourier transforms and diffraction optics, a clear 'X' could mean only one thing: a **helix**.\n\nEven more critically, the missing reflections on the fourth layer line proved that DNA had two strands intertwined—a double helix. Furthermore, Franklin's precise thermodynamic calculations showed that the hydrophobic nitrogenous bases must be tucked safely inside, while the hydrophilic phosphate-sugar backbone faced outward to interact with water.\n\nWithout her knowledge or permission, this precious image was shown to James Watson and Francis Crick in early 1953 by Maurice Wilkins. The moment Watson saw Photo 51, \"his mouth fell open and his pulse began to race.\" It provided the missing geometric measurements that unlocked their legendary double helix model.\n\nRosalind Franklin died tragically of ovarian cancer in 1958 at just 37 years old. Today, her brilliance, technical mastery, and pivotal contribution to cracking the secret of life are celebrated worldwide.",
+  "stem_vocabulary": [
+    {
+      "term": "X-ray Crystallography",
+      "definition": "An experimental technique determining the atomic and molecular structure of a crystal by causing a beam of incident X-rays to diffract into specific directions."
+    },
+    {
+      "term": "Photo 51",
+      "definition": "An X-ray diffraction image of the paracrystalline gel of B-form DNA taken by Rosalind Franklin and Raymond Gosling in May 1952."
+    },
+    {
+      "term": "Double Helix",
+      "definition": "The structure formed by double-stranded molecules of nucleic acids such as DNA."
+    },
+    {
+      "term": "Phosphate Backbone",
+      "definition": "The alternating chain of phosphate and sugar groups forming the structural exterior of the DNA strands."
+    }
+  ],
+  "blooms_questions": [
+    {
+      "level": "Remember",
+      "question": "What primary observation or data led the scientist to their discovery?"
+    },
+    {
+      "level": "Understand",
+      "question": "How does this discovery fundamentally change our understanding of physical reality?"
+    },
+    {
+      "level": "Apply",
+      "question": "How can this scientific principle be applied to modern technology or medicine?"
+    },
+    {
+      "level": "Analyze",
+      "question": "What evidence convinced skeptical peers to overturn the older paradigm?"
+    },
+    {
+      "level": "Evaluate",
+      "question": "Why is perseverance in the face of widespread institutional skepticism essential for scientific progress?"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What was the critical discovery detailed in this historical account?",
+      "options": [
+        "A revolutionary breakthrough in empirical science",
+        "A mathematical error",
+        "An accidental myth",
+        "A discarded rumor"
+      ],
+      "answer": 0
+    }
+  ],
+  "moral_reflection": "True scientific inquiry requires relentless curiosity, meticulous evidence gathering, and the intellectual bravery to follow data wherever it leads, regardless of dogma.",
+  "cultural_context": "World History of Science / Empirical Discovery, Computing & Genetics",
+  "audio_url": "",
+  "full_text": "In 1951, 31-year-old English physical chemist Rosalind Franklin arrived at King's College London. Having mastered the demanding technique of X-ray crystallography while studying carbon and coal structures in Paris, Franklin brought unmatched technical precision and experimental rigor to the study of biological fibers.\n\nHer target was the mystery molecule of life: deoxyribonucleic acid (DNA). Scientists knew DNA carried hereditary traits, but its physical three-dimensional architecture remained a total enigma.\n\nFranklin discovered that DNA existed in two distinct states: a dry crystalline 'A-form' and a wet, hydrated 'B-form'. Recognizing that DNA inside living cells is surrounded by water, she meticulously engineered a special micro-camera with a sealed chamber, controlling humidity with hydrogen gas bubbled through saturated salt solutions.\n\nUsing a fine glass needle, Franklin suspended a strand of DNA no thicker than a single human hair. In May 1952, she and her research student Raymond Gosling exposed this hydrated DNA fiber to a narrow beam of X-rays for over 100 continuous hours.\n\nWhen Franklin developed the photographic film in her darkroom, she stared at a masterpiece of empirical science: **Photo 51**.\n\nAcross the center of the image stretched a bold, unmistakable dark cross—the letter 'X'. In the mathematics of Fourier transforms and diffraction optics, a clear 'X' could mean only one thing: a **helix**.\n\nEven more critically, the missing reflections on the fourth layer line proved that DNA had two strands intertwined—a double helix. Furthermore, Franklin's precise thermodynamic calculations showed that the hydrophobic nitrogenous bases must be tucked safely inside, while the hydrophilic phosphate-sugar backbone faced outward to interact with water.\n\nWithout her knowledge or permission, this precious image was shown to James Watson and Francis Crick in early 1953 by Maurice Wilkins. The moment Watson saw Photo 51, \"his mouth fell open and his pulse began to race.\" It provided the missing geometric measurements that unlocked their legendary double helix model.\n\nRosalind Franklin died tragically of ovarian cancer in 1958 at just 37 years old. Today, her brilliance, technical mastery, and pivotal contribution to cracking the secret of life are celebrated worldwide.",
+  "moral": "True scientific inquiry requires relentless curiosity, meticulous evidence gathering, and the intellectual bravery to follow data wherever it leads, regardless of dogma.",
+  "image": "/images/stories/science-stories.webp",
+  "status": "published",
+  "reviewed": true,
+  "genre": "Science & Discovery",
+  "is_bedtime": false,
+  "image_alt": "100 Authentic Science Stories",
+  "language": "kn"
+}

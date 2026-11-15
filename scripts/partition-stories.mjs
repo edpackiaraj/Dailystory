@@ -2,11 +2,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const rootDir = process.cwd();
-const languages = ['en', 'hi', 'kn', 'ml', 'mr', 'ta', 'te', 'zh'];
+const languages = ['en', 'ta', 'hi', 'zh', 'ml', 'te', 'kn', 'mr', 'ur'];
 
 function getCollectionSlug(collection) {
   if (!collection) return 'world-folktales';
-  return collection.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  const slug = collection.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  if (slug === 'science-discovery' || slug === 'science-and-discovery') return 'science-stories';
+  return slug;
 }
 
 console.log('=== PARTITIONING 25,000 STORIES ACROSS 10 LANGUAGES INTO OPTIMIZED COLLECTION FILES ===\n');
@@ -71,11 +73,19 @@ for (const lang of languages) {
     fs.mkdirSync(collectionsDir, { recursive: true });
   }
 
+  const publicCollectionsDir = path.join(rootDir, 'public', 'data', 'collections');
+  if (!fs.existsSync(publicCollectionsDir)) {
+    fs.mkdirSync(publicCollectionsDir, { recursive: true });
+  }
+
   // Write individual collection files with unique lang prefix
   let langFilesCount = 0;
   for (const [colSlug, colStories] of groups.entries()) {
     const colPath = path.join(collectionsDir, `${lang}_${colSlug}.json`);
-    fs.writeFileSync(colPath, JSON.stringify(colStories, null, 2), 'utf8');
+    const jsonStr = JSON.stringify(colStories, null, 2);
+    fs.writeFileSync(colPath, jsonStr, 'utf8');
+    const pubColPath = path.join(publicCollectionsDir, `${lang}_${colSlug}.json`);
+    fs.writeFileSync(pubColPath, jsonStr, 'utf8');
     langFilesCount++;
   }
 

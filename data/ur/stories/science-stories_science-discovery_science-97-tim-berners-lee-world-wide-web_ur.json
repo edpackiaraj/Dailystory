@@ -1,0 +1,82 @@
+{
+  "id": "science-97-tim-berners-lee-world-wide-web",
+  "title": "Tim Berners-Lee: Connecting the World with One Click",
+  "slug": "science-97-tim-berners-lee-world-wide-web",
+  "collection": "science-stories",
+  "collection_name": "100 Authentic Science Stories",
+  "reading_time": 5,
+  "age_group": "9-16",
+  "difficulty": "Medium",
+  "source_book": "Information Management: A Proposal (CERN Report) & Weaving the Web",
+  "source_author": "Tim Berners-Lee",
+  "source_year": "1989",
+  "source_chapter": "CERN Archive March 1989 & Chapter 1: Enquire Within Upon Everything",
+  "source_edition": "HarperSanFrancisco, New York (1999)",
+  "authenticity_note": "Based on Tim Berners-Lee's original March 1989 CERN proposal annotated by his supervisor Mike Sendall as 'Vague but exciting...', creating HTML, HTTP, URLs, and the first web browser/server.",
+  "summary": "In 1989, at CERN in Switzerland, British software engineer Tim Berners-Lee grew frustrated that scientists could not share documents across different computer systems. He invented HTML, HTTP, and the World Wide Web—and gave his invention to humanity completely free, changing human civilization forever.",
+  "content": "In 1989, the European particle physics laboratory CERN in Geneva, Switzerland, was a bubbling hive of brilliant international scientists. But CERN had a maddening logistical nightmare: thousands of researchers from dozens of countries brought their own incompatible computers, operating systems, and disk formats. If a scientist in Geneva wanted to read data gathered by a colleague in Rome, they often had to physically log into a separate terminal or mail a magnetic tape!\n\nBritish computer programmer Tim Berners-Lee envisioned a radical solution. Inspired by a Victorian household encyclopedia called *Enquire Within Upon Everything*, Berners-Lee proposed linking documents together using 'hypertext'—clickable words that instantly jump across networks from one file to another.\n\nIn March 1989, Berners-Lee handed his supervisor Mike Sendall a proposal entitled *Information Management: A Proposal*. Sendall read the document, chuckled, and scribbled four immortal words on the cover: *\"Vague but exciting...\"*\n\nGiven the green light, Berners-Lee worked furiously on a black NeXT computer in late 1990. In just a few months, he created the three fundamental pillars of the web:\n1. **HTML** (HyperText Markup Language): the language to format pages.\n2. **URI / URL** (Uniform Resource Identifier): universal addresses for every document on Earth.\n3. **HTTP** (Hypertext Transfer Protocol): the rules for servers to send pages to browsers.\n\nBy Christmas 1990, Berners-Lee launched the world's very first website: `http://info.cern.ch`, running on his desktop computer with a handwritten red sticker warning: *\"This machine is a server. DO NOT POWER IT DOWN!\"*\n\nBerners-Lee could have patented the web and become the wealthiest individual on Earth. Instead, in April 1993, he convinced CERN to release the entire source code into the public domain royalty-free forever. His selfless gift connected billions of minds, democratized human knowledge, and created the modern global civilization.",
+  "stem_vocabulary": [
+    {
+      "term": "World Wide Web (WWW)",
+      "definition": "An information system where documents and other web resources are identified by URLs, interlinked by hypertext, and accessible via the Internet."
+    },
+    {
+      "term": "Hypertext Transfer Protocol (HTTP)",
+      "definition": "An application-layer protocol for transmitting hypermedia documents, such as HTML."
+    },
+    {
+      "term": "HTML (HyperText Markup Language)",
+      "definition": "The standard markup language for documents designed to be displayed in a web browser."
+    },
+    {
+      "term": "Uniform Resource Locator (URL)",
+      "definition": "A ubiquitous address used to identify and locate a specific resource on the computer network."
+    }
+  ],
+  "blooms_questions": [
+    {
+      "level": "Remember",
+      "question": "What primary observation or data led the scientist to their discovery?"
+    },
+    {
+      "level": "Understand",
+      "question": "How does this discovery fundamentally change our understanding of physical reality?"
+    },
+    {
+      "level": "Apply",
+      "question": "How can this scientific principle be applied to modern technology or medicine?"
+    },
+    {
+      "level": "Analyze",
+      "question": "What evidence convinced skeptical peers to overturn the older paradigm?"
+    },
+    {
+      "level": "Evaluate",
+      "question": "Why is perseverance in the face of widespread institutional skepticism essential for scientific progress?"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What was the critical discovery detailed in this historical account?",
+      "options": [
+        "A revolutionary breakthrough in empirical science",
+        "A mathematical error",
+        "An accidental myth",
+        "A discarded rumor"
+      ],
+      "answer": 0
+    }
+  ],
+  "moral_reflection": "True scientific inquiry requires relentless curiosity, meticulous evidence gathering, and the intellectual bravery to follow data wherever it leads, regardless of dogma.",
+  "cultural_context": "World History of Science / Empirical Discovery, Computing & Genetics",
+  "audio_url": "",
+  "full_text": "In 1989, the European particle physics laboratory CERN in Geneva, Switzerland, was a bubbling hive of brilliant international scientists. But CERN had a maddening logistical nightmare: thousands of researchers from dozens of countries brought their own incompatible computers, operating systems, and disk formats. If a scientist in Geneva wanted to read data gathered by a colleague in Rome, they often had to physically log into a separate terminal or mail a magnetic tape!\n\nBritish computer programmer Tim Berners-Lee envisioned a radical solution. Inspired by a Victorian household encyclopedia called *Enquire Within Upon Everything*, Berners-Lee proposed linking documents together using 'hypertext'—clickable words that instantly jump across networks from one file to another.\n\nIn March 1989, Berners-Lee handed his supervisor Mike Sendall a proposal entitled *Information Management: A Proposal*. Sendall read the document, chuckled, and scribbled four immortal words on the cover: *\"Vague but exciting...\"*\n\nGiven the green light, Berners-Lee worked furiously on a black NeXT computer in late 1990. In just a few months, he created the three fundamental pillars of the web:\n1. **HTML** (HyperText Markup Language): the language to format pages.\n2. **URI / URL** (Uniform Resource Identifier): universal addresses for every document on Earth.\n3. **HTTP** (Hypertext Transfer Protocol): the rules for servers to send pages to browsers.\n\nBy Christmas 1990, Berners-Lee launched the world's very first website: `http://info.cern.ch`, running on his desktop computer with a handwritten red sticker warning: *\"This machine is a server. DO NOT POWER IT DOWN!\"*\n\nBerners-Lee could have patented the web and become the wealthiest individual on Earth. Instead, in April 1993, he convinced CERN to release the entire source code into the public domain royalty-free forever. His selfless gift connected billions of minds, democratized human knowledge, and created the modern global civilization.",
+  "moral": "True scientific inquiry requires relentless curiosity, meticulous evidence gathering, and the intellectual bravery to follow data wherever it leads, regardless of dogma.",
+  "image": "/images/stories/science-stories.webp",
+  "status": "published",
+  "reviewed": true,
+  "genre": "Science & Discovery",
+  "is_bedtime": false,
+  "image_alt": "100 Authentic Science Stories",
+  "language": "ur"
+}
