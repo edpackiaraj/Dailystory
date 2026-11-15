@@ -282,7 +282,8 @@ export const collectionImageMap: Record<string, string> = {
   'tenali-rama': '/images/stories/tenali-rama.webp',
   'vikram-vetal': '/images/stories/vikram-vetal.webp',
   'science-stories': '/images/og-default.png',
-  'science-discovery': '/images/og-default.png'
+  'science-discovery': '/images/og-default.png',
+  'witty-debates': '/images/og-default.png'
 };
 
 export function getStoryOgImage(story?: { collection?: string; image?: string } | null): string {
@@ -314,7 +315,8 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
     "vikram-vetal": "விக்கிரமாதித்தன்–வேதாளம் கதைகள்",
     "charles-perrault": "சார்லஸ் பெரோ கதைகள்",
     "science-stories": "அறிவியல் கண்டுபிடிப்புக் கதைகள்",
-    "science-discovery": "அறிவியல் கண்டுபிடிப்புக் கதைகள்"
+    "science-discovery": "அறிவியல் கண்டுபிடிப்புக் கதைகள்",
+    "witty-debates": "தலைவர்களின் சுவையான விவாதங்கள்"
   },
   hi: {
     "cinderella-stories": "सिंड्रेला की विश्व प्रसिद्ध कहानियाँ",
@@ -332,7 +334,8 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
     "vikram-vetal": "विक्रम-वेताल की कहानियाँ",
     "charles-perrault": "चार्ल्स पेरौल्ट की कहानियाँ",
     "science-stories": "विज्ञान एवं खोज की कहानियाँ",
-    "science-discovery": "विज्ञान एवं खोज की कहानियाँ"
+    "science-discovery": "विज्ञान एवं खोज की कहानियाँ",
+    "witty-debates": "महान नेताओं के रोचक संवाद"
   },
   ur: {
     "cinderella-stories": "سنڈریلا کی عالمی کہانیاں",
@@ -350,7 +353,8 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
     "vikram-vetal": "وکرم اور ویتال کی کہانیاں",
     "charles-perrault": "چارلس پیرول کی کہانیاں",
     "science-stories": "سائنس اور دریافت کی کہانیاں",
-    "science-discovery": "سائنس اور دریافت کی کہانیاں"
+    "science-discovery": "سائنس اور دریافت کی کہانیاں",
+    "witty-debates": "عظیم رہنماؤں کے دلچسپ مباحثے اور مکالمے"
   }
 };
 
