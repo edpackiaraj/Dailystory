@@ -39,8 +39,8 @@ const collectionsList = [
   { slug: "hans-christian-andersen", name: isTa ? "🦢 ஹான்ஸ் கிறிஸ்டியன் ஆண்டர்சன்" : "🦢 H.C. Andersen" },
   { slug: "cinderella-stories", name: isTa ? "👠 சிண்ட்ரெல்லா உலகக் கதைகள்" : "👠 Cinderella Variants" },
   { slug: "charles-perrault", name: isTa ? "👢 சார்லஸ் பெரோ கதைகள்" : "👢 Charles Perrault" },
-  { slug: "science-stories", name: isTa ? "🔬 100 அறிவியல் கண்டுபிடிப்புக் கதைகள்" : "🔬 100 Authentic Science Stories" },
-  { slug: "witty-debates", name: isTa ? "🎙️ உலகத் தலைவர்களின் சுவையான விவாதங்கள்" : "🎙️ Witty Debates of World Leaders" }
+  { slug: "science-stories", name: isTa ? "🔬 200 அறிவியல் கண்டுபிடிப்புக் கதைகள்" : "🔬 200 Authentic Science Stories" },
+  { slug: "witty-debates", name: isTa ? "🎙️ விசித்திர விவாதங்கள் (225+ தலைவர்களின் உரையாடல்கள்)" : "🎙️ Witty Debates of World Leaders" }
 ];
 ---
 
@@ -1111,12 +1111,23 @@ const collectionsList = [
       if (!voices.length) return;
 
       voiceSelect.innerHTML = '';
+      const prefix = currentLang.slice(0, 2).toLowerCase();
       const matchingVoices = voices
-        .filter(v => v.lang.startsWith(currentLang) || v.lang.startsWith(targetBcp47) || v.lang.startsWith('en'))
+        .filter(v => {
+          const vl = (v.lang || '').toLowerCase().replace('_', '-');
+          return vl.startsWith(prefix);
+        })
         .sort((a, b) => (b.name.includes('Natural') ? 1 : 0) - (a.name.includes('Natural') ? 1 : 0));
 
-      const list = matchingVoices.length ? matchingVoices : voices;
-      list.forEach(v => {
+      if (!matchingVoices.length) {
+        const opt = document.createElement('option');
+        opt.value = '';
+        opt.textContent = isTa ? 'சாதனக் குரல் (தானியங்கி)' : 'Default Device Voice';
+        voiceSelect.appendChild(opt);
+        return;
+      }
+
+      matchingVoices.forEach(v => {
         const opt = document.createElement('option');
         opt.value = v.name;
         opt.textContent = `${v.name.includes('Natural') ? '✨ ' : ''}${v.name} (${v.lang})`;

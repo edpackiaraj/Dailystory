@@ -319,7 +319,7 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
     "charles-perrault": "சார்லஸ் பெரோ கதைகள்",
     "science-stories": "அறிவியல் கண்டுபிடிப்புக் கதைகள்",
     "science-discovery": "அறிவியல் கண்டுபிடிப்புக் கதைகள்",
-    "witty-debates": "தலைவர்களின் சுவையான விவாதங்கள்"
+    "witty-debates": "விசித்திர விவாதங்கள்"
   },
   hi: {
     "cinderella-stories": "सिंड्रेला की विश्व प्रसिद्ध कहानियाँ",

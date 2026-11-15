@@ -49,7 +49,7 @@ for (const lang of languages) {
       if (story.is_bedtime === undefined) story.is_bedtime = false;
       story.image = '/images/stories/science-stories.webp';
       if (!story.image_alt) {
-        story.image_alt = lang === 'ta' ? '100 அறிவியல் கண்டுபிடிப்புக் கதைகள்' : '100 Authentic Science Stories';
+        story.image_alt = lang === 'ta' ? '200 அறிவியல் கண்டுபிடிப்புக் கதைகள்' : '200 Authentic Science Stories';
       }
       sciCount++;
     } else if (isDeb) {
@@ -60,7 +60,7 @@ for (const lang of languages) {
       if (story.is_bedtime === undefined) story.is_bedtime = false;
       story.image = '/images/stories/witty-debates.webp';
       if (!story.image_alt) {
-        story.image_alt = lang === 'ta' ? 'அறிவார்ந்த நகைச்சுவை விவாதங்கள்' : '125 Witty Debates & Intellectual Exchanges';
+        story.image_alt = lang === 'ta' ? 'விசித்திர விவாதங்கள் (225+ விவாதங்கள்)' : '225 Witty Debates & Intellectual Exchanges';
       }
       debCount++;
     }

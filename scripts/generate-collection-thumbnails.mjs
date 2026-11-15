@@ -8,8 +8,8 @@ const scienceSvg = `
   <defs>
     <!-- Deep Cosmic Nebula Gradient -->
     <radialGradient id="nebulaCore" cx="70%" cy="35%" r="65%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.8"/>
-      <stop offset="35%" stop-color="#0f766e" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.85"/>
+      <stop offset="35%" stop-color="#0f766e" stop-opacity="0.65"/>
       <stop offset="70%" stop-color="#042f2e" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#020617" stop-opacity="1"/>
     </radialGradient>
@@ -38,7 +38,7 @@ const scienceSvg = `
   <rect width="1200" height="750" fill="url(#nebulaCore)"/>
 
   <!-- Distant Stars Field -->
-  <g fill="#ffffff" opacity="0.75">
+  <g fill="#ffffff" opacity="0.8">
     <circle cx="85" cy="95" r="1.5"/>
     <circle cx="190" cy="180" r="2.2" opacity="0.9"/>
     <circle cx="280" cy="80" r="1.2"/>
@@ -68,9 +68,9 @@ const scienceSvg = `
     <circle cx="0" cy="0" r="14" fill="#ffffff"/>
 
     <!-- Elliptical Electron Paths -->
-    <ellipse cx="0" cy="0" rx="220" ry="80" fill="none" stroke="#38bdf8" stroke-width="2.5" opacity="0.7" transform="rotate(25)"/>
-    <ellipse cx="0" cy="0" rx="220" ry="80" fill="none" stroke="#2dd4bf" stroke-width="2.5" opacity="0.7" transform="rotate(-35)"/>
-    <ellipse cx="0" cy="0" rx="220" ry="80" fill="none" stroke="#f59e0b" stroke-width="2.5" opacity="0.6" transform="rotate(85)"/>
+    <ellipse cx="0" cy="0" rx="220" ry="80" fill="none" stroke="#38bdf8" stroke-width="2.5" opacity="0.75" transform="rotate(25)"/>
+    <ellipse cx="0" cy="0" rx="220" ry="80" fill="none" stroke="#2dd4bf" stroke-width="2.5" opacity="0.75" transform="rotate(-35)"/>
+    <ellipse cx="0" cy="0" rx="220" ry="80" fill="none" stroke="#f59e0b" stroke-width="2.5" opacity="0.65" transform="rotate(85)"/>
 
     <!-- Orbiting Electrons -->
     <circle cx="190" cy="65" r="7" fill="#67e8f9" filter="url(#glow)"/>
@@ -79,7 +79,7 @@ const scienceSvg = `
   </g>
 
   <!-- DNA Double Helix Waveform (Lower Arc) -->
-  <g stroke="#38bdf8" stroke-width="3" opacity="0.45" fill="none">
+  <g stroke="#38bdf8" stroke-width="3" opacity="0.5" fill="none">
     <path d="M 0 680 Q 150 630 300 680 T 600 680 T 900 680 T 1200 680"/>
     <path d="M 0 680 Q 150 730 300 680 T 600 680 T 900 680 T 1200 680" stroke="#2dd4bf"/>
     <!-- Ladder Rungs -->
@@ -100,56 +100,61 @@ const scienceSvg = `
     <line x1="80" y1="-22" x2="80" y2="22" stroke="#fef08a" stroke-width="3"/>
     <line x1="160" y1="-25" x2="160" y2="25" stroke="#fef08a" stroke-width="3"/>
 
-    <!-- Light Beam Shooting into Deep Space -->
-    <polygon points="280,-30 750,-90 750,90 280,30" fill="url(#cyanBeam)" opacity="0.25"/>
+    <!-- Light Beam Emerging from Objective Lens -->
+    <polygon points="280,-30 520,-90 520,30 280,30" fill="url(#cyanBeam)" opacity="0.25" filter="url(#glow)"/>
   </g>
 
-  <!-- Prismatic Rainbow Glass Triangle (Lower Center) -->
-  <g transform="translate(540, 500)">
-    <polygon points="60,0 120,100 0,100" fill="#ffffff" fill-opacity="0.15" stroke="#ffffff" stroke-width="2.5"/>
-    <!-- White incident beam -->
-    <line x1="-70" y1="70" x2="45" y2="55" stroke="#ffffff" stroke-width="4" filter="url(#glow)"/>
-    <!-- Refracted rainbow spectrum rays -->
-    <line x1="75" y1="50" x2="220" y2="15" stroke="#ef4444" stroke-width="3"/>
-    <line x1="80" y1="56" x2="220" y2="30" stroke="#f97316" stroke-width="3"/>
-    <line x1="85" y1="62" x2="220" y2="45" stroke="#eab308" stroke-width="3"/>
-    <line x1="90" y1="68" x2="220" y2="60" stroke="#22c55e" stroke-width="3"/>
-    <line x1="95" y1="74" x2="220" y2="75" stroke="#06b6d4" stroke-width="3"/>
-    <line x1="100" y1="80" x2="220" y2="90" stroke="#8b5cf6" stroke-width="3"/>
+  <!-- Newton's Optical Prism with Dispersed Rainbow Spectrum -->
+  <g transform="translate(560, 430)">
+    <!-- Glass Triangle -->
+    <polygon points="0,90 90,-70 180,90" fill="#082f49" fill-opacity="0.6" stroke="#38bdf8" stroke-width="3"/>
+    <polygon points="10,85 90,-55 170,85" fill="#38bdf8" fill-opacity="0.15"/>
+    
+    <!-- Incoming White Ray -->
+    <line x1="-160" y1="30" x2="45" y2="10" stroke="#ffffff" stroke-width="3.5" filter="url(#glow)"/>
+
+    <!-- Dispersed Rainbow Fans -->
+    <polygon points="135,15 320,-35 320,-20 135,20" fill="#ef4444" opacity="0.85"/>
+    <polygon points="135,20 320,-20 320,-5 135,25" fill="#f97316" opacity="0.85"/>
+    <polygon points="135,25 320,-5 320,10 135,30" fill="#eab308" opacity="0.85"/>
+    <polygon points="135,30 320,10 320,25 135,35" fill="#22c55e" opacity="0.85"/>
+    <polygon points="135,35 320,25 320,40 135,40" fill="#06b6d4" opacity="0.85"/>
+    <polygon points="135,40 320,40 320,55 135,45" fill="#3b82f6" opacity="0.85"/>
+    <polygon points="135,45 320,55 320,70 135,50" fill="#a855f7" opacity="0.85"/>
   </g>
 
   <!-- TOP-LEFT ELEGANT TYPOGRAPHY BADGE -->
   <g transform="translate(60, 60)">
     <!-- Dark Glass Container -->
-    <rect width="660" height="230" rx="24" fill="#030712" fill-opacity="0.82" stroke="#0ea5e9" stroke-width="2.5"/>
+    <rect width="660" height="230" rx="24" fill="#020617" fill-opacity="0.88" stroke="#0ea5e9" stroke-width="2.5"/>
     
-    <!-- Domain Tag Pill -->
+    <!-- STEM Badge Pill -->
     <rect x="35" y="30" width="220" height="32" rx="16" fill="#0f766e" stroke="#2dd4bf" stroke-width="1.5"/>
-    <text x="145" y="52" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#ccfbf1" text-anchor="middle" letter-spacing="1">100 PRIMARY DISCOVERIES</text>
+    <text x="145" y="52" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#a7f3d0" text-anchor="middle" letter-spacing="1">STEM EXCELLENCE • 200 STORIES</text>
 
     <!-- Main Title (English) -->
     <text x="35" y="112" font-family="system-ui, sans-serif" font-size="38" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
-      100 Authentic Science Stories
+      200 Authentic Science Stories
     </text>
 
     <!-- Tamil Title -->
-    <text x="35" y="158" font-family="system-ui, sans-serif" font-size="25" font-weight="bold" fill="#38bdf8">
-      100 வரலாற்று அறிவியல் கதைகள்
+    <text x="35" y="158" font-family="system-ui, sans-serif" font-size="26" font-weight="bold" fill="#38bdf8">
+      200 அறிவியல் கண்டுபிடிப்புக் கதைகள்
     </text>
 
-    <!-- Subtitle / Authenticity Guarantee -->
+    <!-- Subtitle -->
     <text x="35" y="200" font-family="system-ui, sans-serif" font-size="15" fill="#94a3b8">
-      Archimedes • Newton • Curie • Raman • Einstein • Kalam • JWST
+      Archimedes to Quantum Physics &amp; Space • Primary Sources Verified
     </text>
   </g>
 
   <!-- Bottom Right Decorative Milestone Seal -->
   <g transform="translate(1080, 650)">
     <circle cx="0" cy="0" r="48" fill="#042f2e" stroke="#2dd4bf" stroke-width="3"/>
-    <circle cx="0" cy="0" r="42" fill="none" stroke="#f59e0b" stroke-dasharray="4 4" stroke-width="1.5"/>
-    <text x="0" y="-8" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#2dd4bf" text-anchor="middle">100</text>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#fef08a" stroke-dasharray="4 4" stroke-width="1.5"/>
+    <text x="0" y="-8" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#2dd4bf" text-anchor="middle">200</text>
     <text x="0" y="12" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#fef08a" text-anchor="middle">STORIES</text>
-    <text x="0" y="26" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#94a3b8" text-anchor="middle">VERIFIED</text>
+    <text x="0" y="26" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#94a3b8" text-anchor="middle">AUTHENTIC</text>
   </g>
 </svg>
 `;
@@ -160,9 +165,9 @@ const debatesSvg = `
   <defs>
     <!-- Parliamentary / Assembly Chamber Gradient -->
     <radialGradient id="chamberGlow" cx="40%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#7c2d12" stop-opacity="0.85"/>
-      <stop offset="40%" stop-color="#451a03" stop-opacity="0.9"/>
-      <stop offset="75%" stop-color="#1c1005" stop-opacity="0.95"/>
+      <stop offset="0%" stop-color="#7c2d12" stop-opacity="0.88"/>
+      <stop offset="40%" stop-color="#451a03" stop-opacity="0.92"/>
+      <stop offset="75%" stop-color="#1c1005" stop-opacity="0.96"/>
       <stop offset="100%" stop-color="#0a0502" stop-opacity="1"/>
     </radialGradient>
 
@@ -273,25 +278,25 @@ const debatesSvg = `
   <!-- TOP-LEFT ELEGANT TYPOGRAPHY BADGE -->
   <g transform="translate(60, 60)">
     <!-- Dark Amber Glass Container -->
-    <rect width="660" height="230" rx="24" fill="#0f0702" fill-opacity="0.88" stroke="#d97706" stroke-width="2.5"/>
+    <rect width="660" height="230" rx="24" fill="#0f0702" fill-opacity="0.9" stroke="#d97706" stroke-width="2.5"/>
     
     <!-- Leadership Tag Pill -->
-    <rect x="35" y="30" width="230" height="32" rx="16" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
-    <text x="150" y="52" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#fef3c7" text-anchor="middle" letter-spacing="1">HISTORIC WIT &amp; WISDOM</text>
+    <rect x="35" y="30" width="280" height="32" rx="16" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="175" y="52" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#fef3c7" text-anchor="middle" letter-spacing="1">HISTORIC WIT &amp; WISDOM • 225+ DEBATES</text>
 
     <!-- Main Title (English) -->
     <text x="35" y="112" font-family="system-ui, sans-serif" font-size="36" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
       Witty Debates of World Leaders
     </text>
 
-    <!-- Tamil Title -->
-    <text x="35" y="158" font-family="system-ui, sans-serif" font-size="25" font-weight="bold" fill="#fbbf24">
-      உலகத் தலைவர்களின் சுவையான விவாதங்கள்
+    <!-- Tamil Title (விசித்திர விவாதங்கள்) -->
+    <text x="35" y="158" font-family="system-ui, sans-serif" font-size="30" font-weight="bold" fill="#fbbf24">
+      விசித்திர விவாதங்கள்
     </text>
 
     <!-- Subtitle / Leaders List -->
     <text x="35" y="200" font-family="system-ui, sans-serif" font-size="15" fill="#fed7aa">
-      Anna • Periyar • Kalaignar • Ambedkar • Gandhi • Lincoln • Churchill
+      அண்ணா • பெரியார் • கலைஞர் • அம்பேத்கர் • காந்தி • லிங்கன் • சர்ச்சில் • சாக்ரடீஸ்
     </text>
   </g>
 
@@ -299,8 +304,8 @@ const debatesSvg = `
   <g transform="translate(1080, 650)">
     <circle cx="0" cy="0" r="48" fill="#451a03" stroke="#f59e0b" stroke-width="3"/>
     <circle cx="0" cy="0" r="42" fill="none" stroke="#fde047" stroke-dasharray="4 4" stroke-width="1.5"/>
-    <text x="0" y="-8" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#fef3c7" text-anchor="middle">125+</text>
-    <text x="0" y="12" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#f59e0b" text-anchor="middle">DEBATES</text>
+    <text x="0" y="-8" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#fef3c7" text-anchor="middle">225+</text>
+    <text x="0" y="12" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#f59e0b" text-anchor="middle">விவாதங்கள்</text>
     <text x="0" y="26" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#fed7aa" text-anchor="middle">CURATED</text>
   </g>
 </svg>
@@ -319,26 +324,29 @@ async function run() {
   fs.writeFileSync(debatesSvgPath, debatesSvg.trim(), 'utf8');
   console.log('Saved SVGs: science-stories.svg & witty-debates.svg');
 
-  // Convert to WebP (1200 x 750, high quality 90)
+  // Convert Science SVG to WebP
   const scienceWebpPath = path.join(storiesDir, 'science-stories.webp');
-  const debatesWebpPath = path.join(storiesDir, 'witty-debates.webp');
-
   await sharp(Buffer.from(scienceSvg))
-    .resize(1200, 750)
-    .webp({ quality: 90 })
+    .webp({ quality: 90, effort: 6 })
     .toFile(scienceWebpPath);
-  console.log('Generated:', scienceWebpPath, fs.statSync(scienceWebpPath).size, 'bytes');
+  console.log('Generated WebP: science-stories.webp');
 
-  await sharp(Buffer.from(debatesSvg))
-    .resize(1200, 750)
-    .webp({ quality: 90 })
-    .toFile(debatesWebpPath);
-  console.log('Generated:', debatesWebpPath, fs.statSync(debatesWebpPath).size, 'bytes');
-
-  // Also create a copy named science-discovery.webp for backward compatibility
+  // Backward compatibility alias for science-discovery.webp
   const scienceDiscoveryWebp = path.join(storiesDir, 'science-discovery.webp');
   fs.copyFileSync(scienceWebpPath, scienceDiscoveryWebp);
-  console.log('Created copy: science-discovery.webp');
+  console.log('Copied alias: science-discovery.webp');
+
+  // Convert Debates SVG to WebP
+  const debatesWebpPath = path.join(storiesDir, 'witty-debates.webp');
+  await sharp(Buffer.from(debatesSvg))
+    .webp({ quality: 90, effort: 6 })
+    .toFile(debatesWebpPath);
+  console.log('Generated WebP: witty-debates.webp');
+
+  console.log('\n=== ALL COLLECTION THUMBNAILS BEAUTIFULLY UPDATED ===\n');
 }
 
-run().catch(console.error);
+run().catch(err => {
+  console.error('Error generating thumbnails:', err);
+  process.exit(1);
+});

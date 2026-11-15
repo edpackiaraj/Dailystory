@@ -219,6 +219,11 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
         el.setInnerContent(JSON.stringify(jsonLdData));
       }
     })
+    .on('#initial-story-payload', {
+      element(el) {
+        el.setInnerContent(JSON.stringify(story));
+      }
+    })
     .on('#story-crumb-col-link', {
       element(el) {
         el.setAttribute('href', `/${lang}/collections/${collection}/`);

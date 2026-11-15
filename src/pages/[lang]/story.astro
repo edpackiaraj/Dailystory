@@ -290,12 +290,15 @@ const jsonLd = [
                 collection: s.collection,
                 reading_time: s.reading_time || '3m',
                 url: getStoryUrl(s, currentLang),
-                full_text: s.full_text || '',
-                moral: s.moral || '',
+                full_text: s.full_text || (s as any).content || '',
+                moral: s.moral || (s as any).moral_reflection || '',
                 vocabulary: s.vocabulary || [],
                 discussion_questions: s.discussion_questions || []
               }))
             )}></script>
+
+            <!-- Dedicated Initial Story Data Payload for Instant Client Hydration -->
+            <script type="application/json" id="initial-story-payload" set:html={JSON.stringify(story)}></script>
 
             <!-- Dedicated Audio & Bedtime Suite Card (Prominent on all devices above story text) -->
             <section
@@ -992,10 +995,12 @@ const jsonLd = [
     // Fallback: If payload wasn't pre-injected (e.g. running under dev preview or direct static shell)
     if (!payload && urlCol && urlSlug && urlSlug !== 'story') {
       try {
-        const res = await fetch(`/data/collections/${urlLang}_${urlCol}.json`);
+        let colToFetch = urlCol;
+        if (colToFetch === 'science-discovery' || colToFetch === 'science-and-discovery') colToFetch = 'science-stories';
+        const res = await fetch(`/data/collections/${urlLang}_${colToFetch}.json`);
         if (res.ok) {
           const stories = await res.json();
-          payload = stories.find(s => s.slug === urlSlug);
+          payload = stories.find(s => s.slug === urlSlug || s.slug === urlSlug.replace(/\/$/, ''));
         }
       } catch (e) {}
     }
@@ -1004,7 +1009,7 @@ const jsonLd = [
       window.__CURRENT_STORY_DATA = payload;
       const cleanTitle = (payload.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim();
       const cleanSummary = (payload.summary || '').trim();
-      const cleanMoral = (payload.moral || '').trim();
+      const cleanMoral = (payload.moral || payload.moral_reflection || '').trim();
 
       document.title = `${cleanTitle} | Daily Tale`;
       const h1 = document.getElementById('story-main-title');
@@ -1014,8 +1019,9 @@ const jsonLd = [
       if (summaryEl) summaryEl.textContent = cleanSummary;
 
       const bodyEl = document.getElementById('story-body-content');
-      if (bodyEl && payload.full_text) {
-        bodyEl.innerHTML = payload.full_text
+      const storyText = (payload.full_text || payload.content || '').trim();
+      if (bodyEl && storyText) {
+        bodyEl.innerHTML = storyText
           .split(/\n\n+/)
           .map(p => `<p class="leading-[1.75] tracking-normal mb-6">${p}</p>`)
           .join('');
@@ -1289,7 +1295,7 @@ const jsonLd = [
     } else if (vLang.startsWith(prefix)) {
       score += 100;
     } else {
-      return 10; // Allow fallback to any system voice
+      return -1; // Strict: Hide voices that do not match the selected language
     }
 
     const name = (voice.name || '').toLowerCase();
@@ -1309,6 +1315,7 @@ const jsonLd = [
     const all = window.speechSynthesis.getVoices();
     return all
       .map(v => ({ voice: v, score: scoreVoice(v, targetBcp47) }))
+      .filter(item => item.score > 0)
       .sort((a, b) => b.score - a.score);
   }
 

@@ -2,9 +2,9 @@
   <defs>
     <!-- Parliamentary / Assembly Chamber Gradient -->
     <radialGradient id="chamberGlow" cx="40%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#7c2d12" stop-opacity="0.85"/>
-      <stop offset="40%" stop-color="#451a03" stop-opacity="0.9"/>
-      <stop offset="75%" stop-color="#1c1005" stop-opacity="0.95"/>
+      <stop offset="0%" stop-color="#7c2d12" stop-opacity="0.88"/>
+      <stop offset="40%" stop-color="#451a03" stop-opacity="0.92"/>
+      <stop offset="75%" stop-color="#1c1005" stop-opacity="0.96"/>
       <stop offset="100%" stop-color="#0a0502" stop-opacity="1"/>
     </radialGradient>
 
@@ -115,25 +115,25 @@
   <!-- TOP-LEFT ELEGANT TYPOGRAPHY BADGE -->
   <g transform="translate(60, 60)">
     <!-- Dark Amber Glass Container -->
-    <rect width="660" height="230" rx="24" fill="#0f0702" fill-opacity="0.88" stroke="#d97706" stroke-width="2.5"/>
+    <rect width="660" height="230" rx="24" fill="#0f0702" fill-opacity="0.9" stroke="#d97706" stroke-width="2.5"/>
     
     <!-- Leadership Tag Pill -->
-    <rect x="35" y="30" width="230" height="32" rx="16" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
-    <text x="150" y="52" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#fef3c7" text-anchor="middle" letter-spacing="1">HISTORIC WIT &amp; WISDOM</text>
+    <rect x="35" y="30" width="280" height="32" rx="16" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="175" y="52" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#fef3c7" text-anchor="middle" letter-spacing="1">HISTORIC WIT &amp; WISDOM • 225+ DEBATES</text>
 
     <!-- Main Title (English) -->
     <text x="35" y="112" font-family="system-ui, sans-serif" font-size="36" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
       Witty Debates of World Leaders
     </text>
 
-    <!-- Tamil Title -->
-    <text x="35" y="158" font-family="system-ui, sans-serif" font-size="25" font-weight="bold" fill="#fbbf24">
-      உலகத் தலைவர்களின் சுவையான விவாதங்கள்
+    <!-- Tamil Title (விசித்திர விவாதங்கள்) -->
+    <text x="35" y="158" font-family="system-ui, sans-serif" font-size="30" font-weight="bold" fill="#fbbf24">
+      விசித்திர விவாதங்கள்
     </text>
 
     <!-- Subtitle / Leaders List -->
     <text x="35" y="200" font-family="system-ui, sans-serif" font-size="15" fill="#fed7aa">
-      Anna • Periyar • Kalaignar • Ambedkar • Gandhi • Lincoln • Churchill
+      அண்ணா • பெரியார் • கலைஞர் • அம்பேத்கர் • காந்தி • லிங்கன் • சர்ச்சில் • சாக்ரடீஸ்
     </text>
   </g>
 
@@ -141,8 +141,8 @@
   <g transform="translate(1080, 650)">
     <circle cx="0" cy="0" r="48" fill="#451a03" stroke="#f59e0b" stroke-width="3"/>
     <circle cx="0" cy="0" r="42" fill="none" stroke="#fde047" stroke-dasharray="4 4" stroke-width="1.5"/>
-    <text x="0" y="-8" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#fef3c7" text-anchor="middle">125+</text>
-    <text x="0" y="12" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#f59e0b" text-anchor="middle">DEBATES</text>
+    <text x="0" y="-8" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#fef3c7" text-anchor="middle">225+</text>
+    <text x="0" y="12" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#f59e0b" text-anchor="middle">விவாதங்கள்</text>
     <text x="0" y="26" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#fed7aa" text-anchor="middle">CURATED</text>
   </g>
 </svg>

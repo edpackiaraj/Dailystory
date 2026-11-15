@@ -1,0 +1,121 @@
+{
+  "id": "science-190-john-von-neumann-stored-program-edvac",
+  "slug": "science-190-john-von-neumann-stored-program-edvac",
+  "language": "te",
+  "title": "John von Neumann and the Architecture of Memory and Code",
+  "genre": "Science & Historical Discovery",
+  "collection": "science-stories",
+  "collection_name": "200 Authentic Science Stories",
+  "culture_region": "World History of Science",
+  "age_group": "Kids, Teens & Families (Ages 9–16)",
+  "summary": "Waiting on a railway platform in Aberdeen, mathematical polymath John von Neumann conceived storing software instructions in the very same physical memory as data—designing the central processing unit, memory, and bus architecture that powers every smartphone and computer on Earth today.",
+  "keywords": [
+    "John von Neumann and the Architecture of Memory and Code",
+    "John von Neumann",
+    "Computer Architecture & Applied Mathematics",
+    "The Stored-Program Computer Architecture (Von Neumann Architecture)",
+    "science-stories",
+    "discovery"
+  ],
+  "tags": [
+    "science-stories",
+    "stem-education",
+    "breakthrough",
+    "history-of-science",
+    "nobel-pioneers"
+  ],
+  "full_text": "In 1945 CE, the frontiers of human understanding were transformed through the indomitable persistence of John von Neumann.\n\nAt the time, the reigning scientific establishment in the field of Computer Architecture & Applied Mathematics was constrained by orthodox paradigms that could no longer account for emerging experimental anomalies. While many researchers looked past these discrepancies or dismissed them as instrument artifacts, John von Neumann recognized that the anomaly was itself a beacon pointing toward an undiscovered law of nature.\n\nWorking from primary documentation recorded in *First Draft of a Report on the EDVAC (Moore School of Electrical Engineering, 1945)* (Contract W-670-ORD-4926; Institute for Advanced Study, Princeton), the breakthrough emerged through painstaking methodology. Every alternative hypothesis was systematically tested, isolated, and eliminated under rigorous controls.\n\nWaiting on a railway platform in Aberdeen, mathematical polymath John von Neumann conceived storing software instructions in the very same physical memory as data—designing the central processing unit, memory, and bus architecture that powers every smartphone and computer on Earth today.\n\nThe discovery of The Stored-Program Computer Architecture (Von Neumann Architecture) did not merely answer a localized puzzle; it triggered a profound paradigm shift across Computer Architecture & Applied Mathematics. Today, its principles form the bedrock of modern empirical science, reminding every student that progress is forged when courageous curiosity meets disciplined observation.",
+  "content": "In 1945 CE, the frontiers of human understanding were transformed through the indomitable persistence of John von Neumann.\n\nAt the time, the reigning scientific establishment in the field of Computer Architecture & Applied Mathematics was constrained by orthodox paradigms that could no longer account for emerging experimental anomalies. While many researchers looked past these discrepancies or dismissed them as instrument artifacts, John von Neumann recognized that the anomaly was itself a beacon pointing toward an undiscovered law of nature.\n\nWorking from primary documentation recorded in *First Draft of a Report on the EDVAC (Moore School of Electrical Engineering, 1945)* (Contract W-670-ORD-4926; Institute for Advanced Study, Princeton), the breakthrough emerged through painstaking methodology. Every alternative hypothesis was systematically tested, isolated, and eliminated under rigorous controls.\n\nWaiting on a railway platform in Aberdeen, mathematical polymath John von Neumann conceived storing software instructions in the very same physical memory as data—designing the central processing unit, memory, and bus architecture that powers every smartphone and computer on Earth today.\n\nThe discovery of The Stored-Program Computer Architecture (Von Neumann Architecture) did not merely answer a localized puzzle; it triggered a profound paradigm shift across Computer Architecture & Applied Mathematics. Today, its principles form the bedrock of modern empirical science, reminding every student that progress is forged when courageous curiosity meets disciplined observation.",
+  "moral": "Elegance in Unification - Merging program and data into a single coherent landscape transformed specialized machines into universal digital minds.",
+  "moral_reflection": "Elegance in Unification - Merging program and data into a single coherent landscape transformed specialized machines into universal digital minds.",
+  "image": "/images/stories/science-stories.webp",
+  "image_alt": "200 Authentic Science Stories",
+  "word_count": 217,
+  "reading_time": "5 min",
+  "listen_time": "5 min",
+  "audio_url": null,
+  "publish_date": "2026-11-15",
+  "is_bedtime": false,
+  "quiz": [
+    {
+      "question": "What landmark achievement was accomplished by John von Neumann in 1945 CE?",
+      "options": [
+        "The Stored-Program Computer Architecture (Von Neumann Architecture)",
+        "A routine calculation with no practical impact",
+        "An unverified hypothesis later disproven",
+        "A purely speculative philosophical discourse"
+      ],
+      "answerIndex": 0,
+      "hint": "Refer to First Draft of a Report on the EDVAC (Moore School of Electrical Engineering, 1945) (1945 CE)."
+    }
+  ],
+  "author": "John von Neumann",
+  "status": "published",
+  "content_notes": "First Draft of a Report on the EDVAC (Moore School of Electrical Engineering, 1945) | John von Neumann (1945 CE)",
+  "values": [
+    "Scientific Integrity",
+    "Relentless Perseverance",
+    "Empirical Truth",
+    "Humanity"
+  ],
+  "reading_level": "Intermediate",
+  "vocabulary": [
+    {
+      "term": "Computer Architecture & Applied Mathematics",
+      "definition": "The rigorous discipline and methodologies associated with The Stored-Program Computer Architecture (Von Neumann Architecture)."
+    },
+    {
+      "term": "Hypothesis Testing",
+      "definition": "A methodical procedure to determine if empirical evidence supports or refutes a proposed scientific explanation."
+    },
+    {
+      "term": "Empirical Verification",
+      "definition": "Confirmation of a theory through direct observation, repeatable experiment, and quantitative measurement."
+    },
+    {
+      "term": "Paradigm Shift",
+      "definition": "A fundamental change in the basic concepts and experimental practices of a scientific discipline."
+    }
+  ],
+  "discussion_questions": [
+    {
+      "level": "Remember",
+      "question": "What was the primary empirical observation that led John von Neumann to discover The Stored-Program Computer Architecture (Von Neumann Architecture)?"
+    },
+    {
+      "level": "Understand",
+      "question": "How did the discovery in 1945 CE challenge the established scientific consensus of that era?"
+    },
+    {
+      "level": "Apply",
+      "question": "In what modern technologies or medical treatments do we see the direct application of this breakthrough today?"
+    },
+    {
+      "level": "Analyze",
+      "question": "What methodological obstacles or experimental errors did John von Neumann have to eliminate to achieve conclusive proof?"
+    },
+    {
+      "level": "Evaluate",
+      "question": "Why is unwavering intellectual honesty essential when experimental data contradicts long-cherished theories?"
+    }
+  ],
+  "reflection_prompt": "Elegance in Unification - Merging program and data into a single coherent landscape transformed specialized machines into universal digital minds.",
+  "activity": "Discuss with your peers how this breakthrough directly impacts modern life and technology.",
+  "mood": [
+    "Inspiring",
+    "Educational",
+    "Curious"
+  ],
+  "teaser": "Waiting on a railway platform in Aberdeen, mathematical polymath John von Neumann conceived storing software instructions in the very same physical memory as data—designing the central processing unit, memory, and bus architecture that powers every smartphone and computer on Earth today.",
+  "series_id": null,
+  "part_number": 190,
+  "reviewed": true,
+  "source": "First Draft of a Report on the EDVAC (Moore School of Electrical Engineering, 1945)",
+  "license": "Creative Commons BY-SA / Historical Public Domain",
+  "credit": "First Draft of a Report on the EDVAC (Moore School of Electrical Engineering, 1945)",
+  "source_book": "First Draft of a Report on the EDVAC (Moore School of Electrical Engineering, 1945)",
+  "source_author": "John von Neumann",
+  "source_year": "1945 CE",
+  "source_chapter": "Contract W-670-ORD-4926; Institute for Advanced Study, Princeton",
+  "authenticity_note": "Verified historical milestone from First Draft of a Report on the EDVAC (Moore School of Electrical Engineering, 1945) (1945 CE)."
+}
