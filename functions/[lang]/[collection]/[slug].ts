@@ -56,21 +56,110 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   const cleanSummary = (story.summary || '').trim();
   const cleanMoral = (story.moral || story.moral_reflection || '').trim();
   const canonicalUrl = `https://dailystory.pages.dev/${lang}/${collection}/${slug}/`;
-  const seoTitle = lang === 'ta'
-    ? `${cleanTitle}: ${story.collection} நீதிக்கதை | Daily Tale`
-    : (lang === 'hi'
-        ? `${cleanTitle}: ${story.collection} | Daily Tale`
-        : `${cleanTitle}: ${story.collection} Story with Moral | Daily Tale`);
 
-  const ogImage = story.image || '/images/stories/default.jpg';
+  // Prepare Collection Visual & Authentic Hero Thumbnail
+  const colNorm = (collection || story.collection || '').toLowerCase();
+  let heroIcon = '📖 ✨ 🌍';
+  let heroBadgeText = story.collection || '';
+  let defaultHeroImg = '/images/stories/default.jpg';
+
+  if (colNorm.includes('witty') || colNorm.includes('debate') || colNorm.includes('விவாதம்') || colNorm.includes('தலைவர்')) {
+    heroIcon = '🎙️ ⚖️ 🏛️ 📜';
+    heroBadgeText = lang === 'ta' ? 'விசித்திர விவாதங்கள்' : (lang === 'hi' ? 'विश्व नेताओं के रोचक संवाद' : 'Witty Debates');
+    defaultHeroImg = '/images/stories/witty-debates.webp';
+  } else if (colNorm.includes('science') || colNorm.includes('அறிவியல்') || colNorm.includes('discovery')) {
+    heroIcon = '🔬 ⚡ 🌌 🧪';
+    heroBadgeText = lang === 'ta' ? '200 அறிவியல் கண்டுபிடிப்புக் கதைகள்' : (lang === 'hi' ? '200 प्रामाणिक विज्ञान कहानियाँ' : '200 Science Stories');
+    defaultHeroImg = '/images/stories/science-stories.webp';
+  } else if (colNorm.includes('panchatantra') || colNorm.includes('பஞ்சதந்திர')) {
+    heroIcon = '🦁 🐘 🦊 📜';
+    heroBadgeText = lang === 'ta' ? 'பஞ்சதந்திரக் கதைகள்' : 'Panchatantra';
+    defaultHeroImg = '/images/stories/panchatantra.webp';
+  } else if (colNorm.includes('tenali') || colNorm.includes('தெனாலிராமன்')) {
+    heroIcon = '👳‍♂️ 🪷 👑 ✨';
+    heroBadgeText = lang === 'ta' ? 'தெனாலிராமன் கதைகள்' : 'Tenali Rama';
+    defaultHeroImg = '/images/stories/tenali-rama.webp';
+  } else if (colNorm.includes('akbar') || colNorm.includes('birbal') || colNorm.includes('அக்பர்')) {
+    heroIcon = '👑 🏛️ 💎 📜';
+    heroBadgeText = lang === 'ta' ? 'அக்பர்–பீர்பால் கதைகள்' : 'Akbar–Birbal';
+    defaultHeroImg = '/images/stories/akbar-birbal.webp';
+  } else if (colNorm.includes('vikram') || colNorm.includes('விக்கிரமாதித்தன்')) {
+    heroIcon = '🗡️ 🌲 🌕 🦉';
+    heroBadgeText = lang === 'ta' ? 'விக்கிரமாதித்தன்–வேதாளம் கதைகள்' : 'Vikram–Vetal';
+    defaultHeroImg = '/images/stories/vikram-vetal.webp';
+  } else if (colNorm.includes('paramartha') || colNorm.includes('பரமார்த்த')) {
+    heroIcon = '🌴 🥥 📜 🐂';
+    heroBadgeText = lang === 'ta' ? 'பரமார்த்த குரு கதைகள்' : 'Paramartha Guru';
+    defaultHeroImg = '/images/stories/paramartha-guru.webp';
+  } else if (colNorm.includes('aesop') || colNorm.includes('ஈசாப்')) {
+    heroIcon = '🏛️ 🦊 🍇 🦉';
+    heroBadgeText = lang === 'ta' ? 'ஈசாப் உலக நீதிக்கதைகள்' : "Aesop's Fables";
+    defaultHeroImg = '/images/stories/aesop.webp';
+  } else if (colNorm.includes('mulla') || colNorm.includes('nasruddin') || colNorm.includes('முல்லா')) {
+    heroIcon = '🫏 👳 🌻 📜';
+    heroBadgeText = lang === 'ta' ? 'முல்லா நஸ்ருதீன் கதைகள்' : 'Mulla Nasruddin';
+    defaultHeroImg = '/images/stories/nasruddin.webp';
+  } else if (colNorm.includes('arabian') || colNorm.includes('ஆயிரத்தொரு') || colNorm.includes('அரேபிய')) {
+    heroIcon = '🌙 🕌 ⭐ 🧞';
+    heroBadgeText = lang === 'ta' ? 'ஆயிரத்தொரு இரவுகள்' : '1001 Arabian Nights';
+    defaultHeroImg = '/images/stories/arabian-nights.webp';
+  }
+
+  const seoTitle = lang === 'ta'
+    ? `${cleanTitle}: ${heroBadgeText} நீதிக்கதை | Daily Tale`
+    : (lang === 'hi'
+        ? `${cleanTitle}: ${heroBadgeText} | Daily Tale`
+        : `${cleanTitle}: ${heroBadgeText} Story with Moral | Daily Tale`);
+
+  const ogImage = story.image || defaultHeroImg;
   const fullOgImage = ogImage.startsWith('http') ? ogImage : `https://dailystory.pages.dev${ogImage}`;
 
   const storySource = (story.source_book || story.source || '').trim();
-  const storyAuthor = (story.source_author || '').trim();
+  const storyAuthor = (story.source_author || story.author || '').trim();
   const storyYear = (story.source_year || '').trim();
   const storyChapter = (story.source_chapter || '').trim();
   const storyAuthNote = (story.authenticity_note || '').trim();
   const hasSource = Boolean(storySource);
+
+  // Audience category
+  const ageGroup = (story.age_group || story.audience || '').toLowerCase();
+  let audienceLabel = lang === 'ta' ? 'அனைவருக்கும்' : 'Everyone';
+  if (colNorm.includes('witty') || colNorm.includes('debate') || colNorm.includes('vikram') || ageGroup.includes('teen') || ageGroup.includes('12') || ageGroup.includes('13')) {
+    audienceLabel = lang === 'ta' ? 'இளைஞர்கள்' : (lang === 'hi' ? 'किशोर' : 'Teens');
+  } else if (colNorm.includes('aesop') || colNorm.includes('panchatantra') || colNorm.includes('jataka') || colNorm.includes('cinderella') || ageGroup.includes('kid')) {
+    audienceLabel = lang === 'ta' ? 'சிறுவர்கள்' : (lang === 'hi' ? 'बच्चे' : 'Kids');
+  }
+
+  // Reading time
+  const readingTimeRaw = story.reading_time || '4 min';
+  const localizedReadingTime = lang === 'ta'
+    ? String(readingTimeRaw).replace('min', 'நிமிடம்').replace('m', ' நிமிடம்')
+    : readingTimeRaw;
+
+  // Culture / Region
+  const cultureRaw = story.culture_region || '';
+  let localizedCulture = cultureRaw;
+  if (lang === 'ta' && cultureRaw) {
+    const cultureRegionsMap: Record<string, string> = {
+      "India": "பாரதப் பாரம்பரியம்",
+      "Ancient India": "பண்டைய பாரதம்",
+      "Greece": "பண்டைய கிரேக்கம்",
+      "Ancient Greece": "பண்டைய கிரேக்கம்",
+      "Middle East": "மத்திய கிழக்கு",
+      "Germany": "ஜெர்மன் நாட்டார் மரபு",
+      "Denmark": "டென்மார்க் இலக்கியம்",
+      "France": "பிரெஞ்சுப் பாரம்பரியம்",
+      "Arabia": "அரேபியப் பாரம்பரியம்",
+      "Global": "உலக நாட்டார் கதைகள்"
+    };
+    localizedCulture = cultureRegionsMap[cultureRaw] || cultureRaw;
+  }
+
+  const classShareWhatsapp = `https://api.whatsapp.com/send?text=${encodeURIComponent(
+    lang === 'ta'
+      ? `📚 வகுப்பறைக் கதை: ${cleanTitle}\nகதையை வாசித்து வினாடி வினாவிற்கு விடையளிக்கவும்:\n${canonicalUrl}`
+      : `📚 Classroom Story: ${cleanTitle}\nRead the story and answer the quiz here:\n${canonicalUrl}`
+  )}`;
 
   const storyBody = (story.full_text || story.content || '').trim();
   const paragraphsHtml = storyBody
@@ -145,7 +234,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
       "image": fullOgImage,
       "inLanguage": lang,
       "genre": story.genre || "Folk Tale",
-      "articleSection": story.collection,
+      "articleSection": heroBadgeText,
       "wordCount": story.word_count || 450,
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -169,54 +258,6 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     }
   ];
 
-  // Prepare Collection Visual & Authentic Hero Thumbnail
-  const colNorm = (collection || story.collection || '').toLowerCase();
-  let heroIcon = '📖 ✨ 🌍';
-  let heroBadgeText = story.collection || '';
-  let defaultHeroImg = '/images/stories/default.jpg';
-
-  if (colNorm.includes('witty') || colNorm.includes('debate') || colNorm.includes('விவாதம்') || colNorm.includes('தலைவர்')) {
-    heroIcon = '🎙️ ⚖️ 🏛️ 📜';
-    heroBadgeText = lang === 'ta' ? 'விசித்திர விவாதங்கள்' : (lang === 'hi' ? 'विश्व नेताओं के रोचक संवाद' : 'Witty Debates');
-    defaultHeroImg = '/images/stories/witty-debates.webp';
-  } else if (colNorm.includes('science') || colNorm.includes('அறிவியல்') || colNorm.includes('discovery')) {
-    heroIcon = '🔬 ⚡ 🌌 🧪';
-    heroBadgeText = lang === 'ta' ? '200 அறிவியல் கண்டுபிடிப்புக் கதைகள்' : (lang === 'hi' ? '200 प्रामाणिक विज्ञान कहानियाँ' : '200 Science Stories');
-    defaultHeroImg = '/images/stories/science-stories.webp';
-  } else if (colNorm.includes('panchatantra') || colNorm.includes('பஞ்சதந்திர')) {
-    heroIcon = '🦁 🐘 🦊 📜';
-    heroBadgeText = lang === 'ta' ? 'பஞ்சதந்திரக் கதைகள்' : 'Panchatantra';
-    defaultHeroImg = '/images/stories/panchatantra.webp';
-  } else if (colNorm.includes('tenali') || colNorm.includes('தெனாலிராமன்')) {
-    heroIcon = '👳‍♂️ 🪷 👑 ✨';
-    heroBadgeText = lang === 'ta' ? 'தெனாலிராமன் கதைகள்' : 'Tenali Rama';
-    defaultHeroImg = '/images/stories/tenali-rama.webp';
-  } else if (colNorm.includes('akbar') || colNorm.includes('birbal') || colNorm.includes('அக்பர்')) {
-    heroIcon = '👑 🏛️ 💎 📜';
-    heroBadgeText = lang === 'ta' ? 'அக்பர்–பீர்பால் கதைகள்' : 'Akbar–Birbal';
-    defaultHeroImg = '/images/stories/akbar-birbal.webp';
-  } else if (colNorm.includes('vikram') || colNorm.includes('விக்கிரமாதித்தன்')) {
-    heroIcon = '🗡️ 🌲 🌕 🦉';
-    heroBadgeText = lang === 'ta' ? 'விக்கிரமாதித்தன்–வேதாளம் கதைகள்' : 'Vikram–Vetal';
-    defaultHeroImg = '/images/stories/vikram-vetal.webp';
-  } else if (colNorm.includes('paramartha') || colNorm.includes('பரமார்த்த')) {
-    heroIcon = '🌴 🥥 📜 🐂';
-    heroBadgeText = lang === 'ta' ? 'பரமார்த்த குரு கதைகள்' : 'Paramartha Guru';
-    defaultHeroImg = '/images/stories/paramartha-guru.webp';
-  } else if (colNorm.includes('aesop') || colNorm.includes('ஈசாப்')) {
-    heroIcon = '🏛️ 🦊 🍇 🦉';
-    heroBadgeText = lang === 'ta' ? 'ஈசாப் உலக நீதிக்கதைகள்' : "Aesop's Fables";
-    defaultHeroImg = '/images/stories/aesop.webp';
-  } else if (colNorm.includes('mulla') || colNorm.includes('nasruddin') || colNorm.includes('முல்லா')) {
-    heroIcon = '🫏 👳 🌻 📜';
-    heroBadgeText = lang === 'ta' ? 'முல்லா நஸ்ருதீன் கதைகள்' : 'Mulla Nasruddin';
-    defaultHeroImg = '/images/stories/nasruddin.webp';
-  } else if (colNorm.includes('arabian') || colNorm.includes('ஆயிரத்தொரு') || colNorm.includes('அரேபிய')) {
-    heroIcon = '🌙 🕌 ⭐ 🧞';
-    heroBadgeText = lang === 'ta' ? 'ஆயிரத்தொரு இரவுகள்' : '1001 Arabian Nights';
-    defaultHeroImg = '/images/stories/arabian-nights.webp';
-  }
-
   const effectiveHeroImg = story.image || defaultHeroImg;
 
   // 4. Inject metadata & content into HTML using Cloudflare's C++ streaming HTMLRewriter
@@ -229,6 +270,11 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     .on('meta[name="description"]', {
       element(el) {
         el.setAttribute('content', cleanSummary);
+      }
+    })
+    .on('meta[name="author"]', {
+      element(el) {
+        el.setAttribute('content', storyAuthor || (lang === 'ta' ? 'Daily Tale பதிப்பகம்' : 'Daily Tale Editorial Team'));
       }
     })
     .on('link[rel="canonical"]', {
@@ -288,7 +334,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     })
     .on('#story-crumb-col-name', {
       element(el) {
-        el.setInnerContent(story.collection);
+        el.setInnerContent(heroBadgeText);
       }
     })
     .on('#story-crumb-title', {
@@ -298,7 +344,27 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     })
     .on('#story-badge-col', {
       element(el) {
-        el.setInnerContent(story.collection);
+        el.setInnerContent(heroBadgeText);
+      }
+    })
+    .on('#story-badge-audience', {
+      element(el) {
+        el.setInnerContent(audienceLabel);
+      }
+    })
+    .on('#story-reading-time', {
+      element(el) {
+        el.setInnerContent(`⏱ ${localizedReadingTime}`);
+      }
+    })
+    .on('#story-culture-region', {
+      element(el) {
+        if (!localizedCulture) {
+          el.setAttribute('class', 'hidden');
+        } else {
+          el.setAttribute('class', 'text-[#6B5644] dark:text-[#C8BFAF]');
+          el.setInnerContent(`• ${localizedCulture}`);
+        }
       }
     })
     .on('#story-hero-image', {
@@ -510,6 +576,58 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
         el.setAttribute('data-story-url', canonicalUrl);
       }
     })
+    .on('#share-classroom-btn', {
+      element(el) {
+        el.setAttribute('data-title', cleanTitle);
+        el.setAttribute('data-url', canonicalUrl);
+      }
+    })
+    .on('#share-classroom-whatsapp', {
+      element(el) {
+        el.setAttribute('href', classShareWhatsapp);
+      }
+    })
+    .on('#story-pedagogy-container', {
+      element(el) {
+        const hasPed = (story.quiz && story.quiz.length > 0) || (story.vocabulary && story.vocabulary.length > 0) || (story.discussion_questions && story.discussion_questions.length > 0);
+        if (!hasPed) {
+          el.setAttribute('class', 'hidden');
+        } else {
+          el.setAttribute('class', 'pedagogy-learning-suite space-y-6 pt-4');
+        }
+      }
+    })
+    .on('#story-vocab-container', {
+      element(el) {
+        if (!story.vocabulary || story.vocabulary.length === 0) {
+          el.setInnerContent('');
+        }
+      }
+    })
+    .on('#story-discuss-container', {
+      element(el) {
+        if (!story.discussion_questions || story.discussion_questions.length === 0) {
+          el.setInnerContent('');
+        }
+      }
+    })
+    .on('#story-quiz-container-wrapper', {
+      element(el) {
+        if (!story.quiz || story.quiz.length === 0) {
+          el.setInnerContent('');
+        }
+      }
+    })
+    .on('#story-sidebar-related-col', {
+      element(el) {
+        el.setInnerContent(heroBadgeText);
+      }
+    })
+    .on('#story-sidebar-related-all-link', {
+      element(el) {
+        el.setAttribute('href', `/${lang}/collections/${collection}/`);
+      }
+    })
     .on('#story-related-stories-container', {
       element(el) {
         if (relatedHtml) {
@@ -519,7 +637,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     })
     .on('#story-related-heading', {
       element(el) {
-        const text = lang === 'ta' ? `மேலும் ${story.collection}:` : `More Stories from ${story.collection}:`;
+        const text = lang === 'ta' ? `மேலும் ${heroBadgeText}:` : `More Stories from ${heroBadgeText}:`;
         el.setInnerContent(text);
       }
     })

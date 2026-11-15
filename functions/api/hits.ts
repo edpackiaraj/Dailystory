@@ -207,7 +207,7 @@ async function handleHits(context: EventContext<Env, any, any>, isPost: boolean)
   const weekCount = 85 + (todayCount * 4);
   const monthCount = 240 + (todayCount * 12);
   const lifetimeCount = BASE_LIFETIME + globalIncrement;
-  const yearCount = lifetimeCount;
+  const yearCount = Math.round(lifetimeCount * 0.72);
 
   return new Response(JSON.stringify({
     success: true,

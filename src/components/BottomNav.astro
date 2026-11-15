@@ -1,10 +1,27 @@
 ---
+import { getT } from '../lib/i18n';
+
 interface Props {
   currentLang: string;
   activeTab?: 'home' | 'stories' | 'classroom' | 'favourites';
 }
 
 const { currentLang, activeTab = 'home' } = Astro.props;
+const t = getT(currentLang);
+
+const navLabels: Record<string, { today: string; stories: string; classroom: string; favorites: string }> = {
+  ta: { today: 'இன்று', stories: 'கதைகள்', classroom: 'வகுப்பறை', favorites: 'விருப்பங்கள்' },
+  hi: { today: 'आज', stories: 'कहानियाँ', classroom: 'कक्षा', favorites: 'पसंदीदा' },
+  te: { today: 'ఈరోజు', stories: 'కథలు', classroom: 'తరగతి గది', favorites: 'ఇష్టమైనవి' },
+  kn: { today: 'ಇಂದು', stories: 'ಕಥೆಗಳು', classroom: 'ತರಗತಿ ಕೊಠಡಿ', favorites: 'ಮೆಚ್ಚಿನವುಗಳು' },
+  ml: { today: 'ഇന്ന്', stories: 'കഥകൾ', classroom: 'ക്ലാസ് റൂം', favorites: 'പ്രിയപ്പെട്ടവ' },
+  mr: { today: 'आज', stories: 'गोष्टी', classroom: 'वर्गखोली', favorites: 'आवडीचे' },
+  zh: { today: '今日', stories: '故事集', classroom: '课堂', favorites: '收藏' },
+  ur: { today: 'آج', stories: 'کہانیاں', classroom: 'کلاس روم', favorites: 'پسندیدہ' },
+  en: { today: 'Today', stories: 'Stories', classroom: 'Classroom', favorites: 'Favorites' }
+};
+
+const labels = navLabels[currentLang] || navLabels.en;
 ---
 
 <!-- Fixed Mobile Bottom Navigation Bar (Phone: 360px - 600px) -->
@@ -26,7 +43,7 @@ const { currentLang, activeTab = 'home' } = Astro.props;
       aria-current={activeTab === 'home' ? 'page' : undefined}
     >
       <span class="text-lg leading-none">📖</span>
-      <span class="text-[11px] font-semibold tracking-tight mt-1">Today</span>
+      <span class="text-[11px] font-semibold tracking-tight mt-1">{labels.today}</span>
     </a>
 
     <!-- Stories Tab (replaces Search) -->
@@ -40,7 +57,7 @@ const { currentLang, activeTab = 'home' } = Astro.props;
       aria-current={activeTab === 'stories' ? 'page' : undefined}
     >
       <span class="text-lg leading-none">📚</span>
-      <span class="text-[11px] font-semibold tracking-tight mt-1">Stories</span>
+      <span class="text-[11px] font-semibold tracking-tight mt-1">{labels.stories}</span>
     </a>
 
     <!-- Classroom Tab -->
@@ -54,7 +71,7 @@ const { currentLang, activeTab = 'home' } = Astro.props;
       aria-current={activeTab === 'classroom' ? 'page' : undefined}
     >
       <span class="text-lg leading-none">🎓</span>
-      <span class="text-[11px] font-semibold tracking-tight mt-1">Classroom</span>
+      <span class="text-[11px] font-semibold tracking-tight mt-1">{labels.classroom}</span>
     </a>
 
     <!-- Favorites Tab -->
@@ -68,7 +85,7 @@ const { currentLang, activeTab = 'home' } = Astro.props;
       aria-current={activeTab === 'favourites' ? 'page' : undefined}
     >
       <span class="text-lg leading-none">⭐</span>
-      <span class="text-[11px] font-semibold tracking-tight mt-1">Favorites</span>
+      <span class="text-[11px] font-semibold tracking-tight mt-1">{labels.favorites}</span>
     </a>
 
   </div>

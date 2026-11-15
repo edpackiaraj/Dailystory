@@ -302,6 +302,25 @@ export function getStoryOgImage(story?: { collection?: string; image?: string } 
 }
 
 export const localizedCollectionNames: Record<string, Record<string, string>> = {
+  en: {
+    "cinderella-stories": "Cinderella Stories",
+    "akbar-birbal": "Akbar–Birbal",
+    "panchatantra": "Panchatantra",
+    "tenali-rama": "Tenali Rama",
+    "aesop-s-fables": "Aesop's Fables",
+    "aesops-fables": "Aesop's Fables",
+    "grimm-fairy-tales": "Grimm Fairy Tales",
+    "hans-christian-andersen": "Hans Christian Andersen",
+    "mulla-nasruddin": "Mulla Nasruddin",
+    "jataka-tales": "Jataka Tales",
+    "arabian-nights": "1001 Arabian Nights",
+    "paramartha-guru": "Paramartha Guru",
+    "vikram-vetal": "Vikram–Vetal",
+    "charles-perrault": "Charles Perrault",
+    "science-stories": "200 Authentic Science Stories",
+    "science-discovery": "200 Authentic Science Stories",
+    "witty-debates": "Witty Debates"
+  },
   ta: {
     "cinderella-stories": "சிண்ட்ரெல்லா உலகக் கதைகள்",
     "akbar-birbal": "அக்பர்–பீர்பால் கதைகள்",
@@ -317,8 +336,8 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
     "paramartha-guru": "பரமார்த்த குரு கதைகள் (வீரமாமுனிவர்)",
     "vikram-vetal": "விக்கிரமாதித்தன்–வேதாளம் கதைகள்",
     "charles-perrault": "சார்லஸ் பெரோ கதைகள்",
-    "science-stories": "அறிவியல் கண்டுபிடிப்புக் கதைகள்",
-    "science-discovery": "அறிவியல் கண்டுபிடிப்புக் கதைகள்",
+    "science-stories": "200 அறிவியல் கண்டுபிடிப்புக் கதைகள்",
+    "science-discovery": "200 அறிவியல் கண்டுபிடிப்புக் கதைகள்",
     "witty-debates": "விசித்திர விவாதங்கள்"
   },
   hi: {
@@ -336,9 +355,9 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
     "paramartha-guru": "परमार्थ गुरु की कथाएँ",
     "vikram-vetal": "विक्रम-वेताल की कहानियाँ",
     "charles-perrault": "चार्ल्स पेरौल्ट की कहानियाँ",
-    "science-stories": "विज्ञान एवं खोज की कहानियाँ",
-    "science-discovery": "विज्ञान एवं खोज की कहानियाँ",
-    "witty-debates": "महान नेताओं के रोचक संवाद"
+    "science-stories": "200 प्रामाणिक विज्ञान कहानियाँ",
+    "science-discovery": "200 प्रामाणिक विज्ञान कहानियाँ",
+    "witty-debates": "विश्व नेताओं के रोचक संवाद"
   },
   ur: {
     "cinderella-stories": "سنڈریلا کی عالمی کہانیاں",
@@ -355,8 +374,8 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
     "paramartha-guru": "پرمارتھ گرو کی کہانیاں",
     "vikram-vetal": "وکرم اور ویتال کی کہانیاں",
     "charles-perrault": "چارلس پیرول کی کہانیاں",
-    "science-stories": "سائنس اور دریافت کی کہانیاں",
-    "science-discovery": "سائنس اور دریافت کی کہانیاں",
+    "science-stories": "200 سائنس اور دریافت کی کہانیاں",
+    "science-discovery": "200 سائنس اور دریافت کی کہانیاں",
     "witty-debates": "عظیم رہنماؤں کے دلچسپ مباحثے اور مکالمے"
   }
 };
@@ -364,11 +383,11 @@ export const localizedCollectionNames: Record<string, Record<string, string>> = 
 export function getLocalizedCollectionName(collectionName: string, lang: string): string {
   if (!collectionName) return '';
   const colSlug = getCollectionSlug(collectionName);
-  const langMap = localizedCollectionNames[lang];
+  const langMap = localizedCollectionNames[lang] || localizedCollectionNames['en'];
   if (langMap && langMap[colSlug]) {
     return langMap[colSlug];
   }
-  return collectionName;
+  return colSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
 
 export function cleanStorySummary(summary?: string): string {

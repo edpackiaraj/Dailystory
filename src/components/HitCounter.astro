@@ -191,10 +191,10 @@ const texts = translations[currentLang] || translations.en;
     <!-- Privacy & Verification Badge -->
     <div class="shrink-0 flex items-center gap-2 text-[11px] text-[#8C7662] dark:text-[#A89F91]">
       <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-xl bg-white/80 dark:bg-[#2A2946]/80 border border-[#EEDFC8] dark:border-[#383659] font-medium" title="Zero cookies, no personal data, ephemeral 5-min session count only.">
-        <span>🛡️</span> Zero Cookies • Anonymous Active Count
+        <span>🛡️</span> {currentLang === 'ta' ? 'குக்கீகள் இல்லை • அநாமதேய நேரலை எண்ணிக்கை' : (currentLang === 'hi' ? 'शून्य कुकीज़ • अनाम सक्रिय गणना' : 'Zero Cookies • Anonymous Active Count')}
       </span>
       <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-xl bg-white/80 dark:bg-[#2A2946]/80 border border-[#EEDFC8] dark:border-[#383659] font-medium">
-        <span>⚡</span> Edge Synced
+        <span>⚡</span> {currentLang === 'ta' ? 'எட்ஜ் ஒத்திசைவு' : (currentLang === 'hi' ? 'एज सिंक' : 'Edge Synced')}
       </span>
     </div>
   </div>
@@ -215,7 +215,7 @@ const texts = translations[currentLang] || translations.en;
       </div>
       <div class="my-2">
         <div id="hit-count-live" class="text-2xl sm:text-3xl font-black font-mono tracking-tight text-emerald-600 dark:text-emerald-400 transition-all duration-300">
-          8
+          3
         </div>
       </div>
       <div class="text-[11px] text-[#8C7662] dark:text-[#A89F91] font-medium">
@@ -287,7 +287,7 @@ const texts = translations[currentLang] || translations.en;
       </div>
       <div class="my-2">
         <div id="hit-count-year" class="text-2xl sm:text-3xl font-black font-mono tracking-tight text-teal-600 dark:text-teal-400 transition-all duration-300">
-          1,005+
+          720+
         </div>
       </div>
       <div class="text-[11px] text-[#8C7662] dark:text-[#A89F91] font-medium">
@@ -305,7 +305,7 @@ const texts = translations[currentLang] || translations.en;
       </div>
       <div class="my-2">
         <div id="hit-count-lifetime" class="text-2xl sm:text-3xl font-black font-mono tracking-tight text-[#B45309] dark:text-[#FBBF24] transition-all duration-300">
-          1,005+
+          1,000+
         </div>
       </div>
       <div class="text-[11px] text-[#8C7662] dark:text-[#A89F91] font-medium">
@@ -412,7 +412,8 @@ const texts = translations[currentLang] || translations.en;
     let cached = getCachedMetrics() || {};
 
     // Initial base metrics (starts from 1,000 verified readers)
-    const baseLifetime = 1005;
+    const baseLifetime = 1000;
+    const baseYear = 720;
     const baseToday = 24;
     const baseWeek = 125;
     const baseMonth = 380;
@@ -428,7 +429,7 @@ const texts = translations[currentLang] || translations.en;
       cached.lifetime = Math.max(baseLifetime, (cached.lifetime || baseLifetime) + 1);
       cached.week = Math.max(baseWeek, (cached.week || baseWeek) + 1);
       cached.month = Math.max(baseMonth, (cached.month || baseMonth) + 1);
-      cached.year = cached.lifetime;
+      cached.year = Math.max(baseYear, Math.round((cached.lifetime || baseLifetime) * 0.72));
     }
 
     // Dynamic diurnal live reader count
@@ -442,7 +443,7 @@ const texts = translations[currentLang] || translations.en;
       today: cached.today || baseToday,
       week: cached.week || baseWeek,
       month: cached.month || baseMonth,
-      year: cached.lifetime || baseLifetime,
+      year: cached.year || baseYear,
       lifetime: cached.lifetime || baseLifetime,
       todayStr: todayStr
     };

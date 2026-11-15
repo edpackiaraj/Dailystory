@@ -65,7 +65,7 @@ const { storyId, storyTitle, storyText, audioUrl, language } = Astro.props;
 
       <!-- Voice Selector (Dynamic from window.speechSynthesis) -->
       <select id="audio-voice-select" aria-label="Voice Selector" class="bg-white dark:bg-slate-700 px-3 py-1 rounded-full border border-slate-300 dark:border-slate-600 font-medium text-slate-800 dark:text-white focus:outline-none max-w-[140px] truncate">
-        <option value="">Default Voice</option>
+        <option value="">{language === 'ta' ? 'இயல்புநிலைக் குரல்' : (language === 'hi' ? 'डिफ़ॉल्ट आवाज़' : 'Default Voice')}</option>
       </select>
     </div>
   </div>
@@ -178,7 +178,7 @@ const { storyId, storyTitle, storyText, audioUrl, language } = Astro.props;
         .sort((a, b) => b.score - a.score);
 
       if (!pool.length) {
-        voiceSelect.innerHTML = '<option value="">Default Device Voice</option>';
+        voiceSelect.innerHTML = `<option value="">${lang === 'ta' ? 'இயல்புநிலைக் குரல்' : (lang === 'hi' ? 'डिफ़ॉल्ट आवाज़' : 'Default Device Voice')}</option>`;
         return;
       }
 

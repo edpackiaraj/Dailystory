@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02",
+  "lastUpdated": "2026-11-15",
   "pages": {
     "about": {
       "title": "About Daily Tale",
@@ -140,26 +140,25 @@
       ]
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "h1": "Privacy Policy: Zero-Tracking Protection",
-      "metaDescription": "Plain-language, cookie-free privacy policy adhering to COPPA, GDPR, and global data protection laws. We protect readers by collecting zero unnecessary data.",
-      "summary": "Plain Language Summary: We believe reading should be completely private. We do not require accounts, we do not track reading behavior across the web, we use zero third-party advertising trackers, and we never sell data. Your favorites and reading progress stay exclusively inside your own device's browser memory.",
+      "title": "Privacy Policy & Reader Data Protection",
+      "h1": "Reader Privacy, COPPA Compliance, and Edge Telemetry",
+      "metaDescription": "Daily Tale's privacy policy: Zero cookies, no advertising, anonymous edge hit counter, COPPA reader protection, and commitment to student privacy.",
       "sections": [
         {
-          "heading": "1. What We Collect and Why",
-          "content": "Because we operate without user logins for readers, we collect virtually no personal information:\n• On-Device Data (localStorage): Your reading history, bookmarked favorites, and audio preferences remain strictly in your browser's local memory. We never transmit or store this on our servers.\n• Daily Story Email Subscribers (Adults Only): When an adult subscribes to our daily story email, we store their email address and language preference securely. This requires explicit confirmation.\n• Community Story Submissions: When a writer submits a story, we collect the submitted text, pen name, and contact email solely for editorial communication and attribution.\n• Privacy-Friendly Aggregated Telemetry: We maintain aggregate page hit counts and an active reader counter. To show real-time concurrent reading activity without tracking individuals, our edge server records temporary, anonymous session pings that automatically expire within 5 minutes. We use zero cookies, log no IP addresses, perform no device fingerprinting, and run zero invasive tracking scripts."
+          "heading": "1. Absolute Commitment to Reader Privacy",
+          "content": "Daily Tale is designed from the ground up as a safe, distraction-free educational reading platform. We do not require account registration, do not collect personal names or phone numbers, and never sell or monetize reader data. We do not use third-party marketing cookies, behavioural trackers, or targeted advertising networks."
         },
         {
-          "heading": "2. Reader Protection (COPPA & Global Standards)",
-          "content": "We comply strictly with international child protection and data privacy standards:\n• No personal data is knowingly requested or collected from children.\n• Newsletter signups and contact forms are intended strictly for adults and guardians.\n• If we learn that personal data of a minor has been unintentionally submitted, we purge it immediately."
+          "heading": "2. Edge Telemetry and Anonymous Hit Counter",
+          "content": "Daily Tale is hosted on Cloudflare's global edge network (Cloudflare Pages and Workers). To display an aggregate, anonymous live reader count (Hit Counter), our edge worker registers an anonymous visit tally stored securely in Cloudflare KV. This process operates without persistent tracking cookies, without fingerprinting, and without logging personal IP addresses. The counter measures aggregate platform traffic strictly for server health and educational impact monitoring."
         },
         {
-          "heading": "3. No Advertising & No Data Selling",
-          "content": "We do not sell, rent, monetize, or disclose user information to data brokers, ad networks, or commercial third parties under any circumstances."
+          "heading": "3. Child Protection & Student Privacy (COPPA & Global Standards)",
+          "content": "Daily Tale is dedicated to the safety of young readers and fully complies with the Children's Online Privacy Protection Act (COPPA) and international student privacy norms. No personal identifiers are ever solicited from children. Local settings (such as text-to-speech voice preference, dark mode, font size, and bedtime reading mode) are saved solely inside the user's local browser storage (localStorage) and never transmitted to our servers."
         },
         {
-          "heading": "4. Your Rights & Data Deletion",
-          "content": "You have the right to request access, correction, or permanent erasure of any contact details or subscriber records associated with your email. You may contact support@dailystory.pages.dev at any time."
+          "heading": "4. Publisher & Editorial Contact",
+          "content": "Daily Tale is published as an Open Educational Resource initiative curated by Dr. S. Edward Packiaraj, Consultant in Educational Media Technologies, Rosary e-Solutions, Tiruchirappalli, Tamil Nadu, India. For privacy inquiries or editorial questions, please contact edpackiaraj@gmail.com or editor@dailystory.pages.dev."
         }
       ]
     },
@@ -191,21 +190,25 @@
       ]
     },
     "copyright": {
-      "title": "Copyright & Takedown Policy",
-      "h1": "Copyright Notice & DMCA Takedown Procedure",
-      "metaDescription": "Notice of public domain sources, educational fair use, and our rapid 24-hour copyright review procedure.",
+      "title": "Copyright & Intellectual Property Policy",
+      "h1": "Intellectual Property, Public Domain, and Fair Use Policy",
+      "metaDescription": "Daily Tale's comprehensive copyright policy covering public domain folklore, historical fair use for science and leader debates, and creative commons educational licenses.",
       "sections": [
         {
-          "heading": "Public Domain and Proprietary Content",
-          "content": "Traditional folktales and fables on this platform are drawn from public-domain folklore. Original retellings, translations, pedagogical quizzes, discussion cards, custom artwork, logos, and UI code are the exclusive intellectual property of Daily Tale."
+          "heading": "1. Public Domain Folklore and Classical Heritage",
+          "content": "Traditional folktales, fables, and ancient literatures featured on Daily Tale—including Aesop's Fables, Panchatantra, Jataka Tales, Vikram & Vetal, Tenali Rama, Birbal anecdotes, Grimm's Fairy Tales, Hans Christian Andersen tales, and Arabian Nights—belong to the worldwide public domain. These foundational world stories are freely retold and adapted for modern educational and cultural literacy."
         },
         {
-          "heading": "Notice and Takedown Procedure",
-          "content": "If you are a copyright owner or authorized agent and believe that content published on our platform infringes upon your copyright, please submit a written notice to support@dailystory.pages.dev including:\n1. Identification of the copyrighted work claimed to be infringed.\n2. The exact URL of the material on our platform.\n3. Your contact address, phone number, and email.\n4. A statement of good faith belief that the use is unauthorized.\n5. A statement made under penalty of perjury that you are authorized to act."
+          "heading": "2. Historical Science Chronicles & Leader Debates (Fair Use & OER)",
+          "content": "The chronicles in '200 Authentic Science Stories' and 'Witty Debates & Historic Repartees' are educational historical non-fiction accounts based on documented public records, speeches, biographies, and academic archives. These retellings are authored under academic Fair Use principles and Open Educational Resources (OER) frameworks, designed to cultivate scientific curiosity, moral reasoning, and parliamentary eloquence among students and lifelong learners worldwide."
         },
         {
-          "heading": "Resolution Timeline",
-          "content": "Upon receipt of a valid notice, our team will review the claim, temporarily restrict access if warranted, and respond within 24 to 48 hours."
+          "heading": "3. Pedagogical Content and Creative Commons Licensing",
+          "content": "The original literary adaptations, modern translations across 9 languages, curated pedagogical quizzes, vocabulary glossaries, classroom discussion prompts, editorial essays, and responsive UI components are the creative works of Daily Tale and its Chief Editor, Dr. S. Edward Packiaraj. Educational non-commercial reuse is encouraged under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
+        },
+        {
+          "heading": "4. Notice and Takedown Procedure (DMCA & Global Standards)",
+          "content": "Daily Tale adheres strictly to copyright laws and respects intellectual property rights. If you are a copyright holder or designated agent and believe that any text, image, or audio on our site infringes your rights, please send a formal notice to our editorial office at edpackiaraj@gmail.com or editor@dailystory.pages.dev. Please include: (a) Identification of the work claimed to be infringed; (b) The specific URL on Daily Tale; (c) Your full contact details; and (d) A statement of good faith belief. Legitimate inquiries receive an immediate acknowledgement within 24 hours and resolution within 48 hours."
         }
       ]
     }

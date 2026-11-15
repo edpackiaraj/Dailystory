@@ -2,5 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
+Disallow: /*/favorites/
+Disallow: /*/search/
 
 Sitemap: https://dailystory.pages.dev/sitemap.xml

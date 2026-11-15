@@ -204,7 +204,7 @@ if (view === 'search') {
   description={pageDesc}
   lang={currentLang}
   canonicalUrl={`${brandConfig.siteUrl}/${currentLang}/${page}/`}
-  noindex={view === 'favorites'}
+  noindex={view === 'favorites' || view === 'search'}
   activeNavTab={view === 'search' ? 'search' : (view === 'favorites' ? 'favourites' : (view === 'collections' ? 'stories' : 'home'))}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">

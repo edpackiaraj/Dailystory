@@ -7,6 +7,7 @@ import {
   getAllReviewedStories,
   getStoriesByCollection,
   getCollectionSlug,
+  getLocalizedCollectionName,
   getAudienceCategory,
   getLengthCategory,
   getStoryUrl,
@@ -157,12 +158,12 @@ const localizedCollectionIntros: Record<string, Record<string, string>> = {
 
 const collectionSeoMeta: Record<string, { title: string; description: string }> = {
   "science-stories": {
-    title: "100 Authentic Science Stories: Primary Discoveries from Archimedes to JWST",
-    description: "Read 100 authentic science stories based on primary sources and founding papers. STEM vocabulary, Bloom's questions, and interactive quizzes for students."
+    title: "200 Authentic Science Stories: Primary Discoveries from Archimedes to JWST",
+    description: "Read 200 authentic science stories based on primary sources and founding papers. STEM vocabulary, Bloom's questions, and interactive quizzes for students."
   },
   "science-discovery": {
-    title: "100 Authentic Science Stories: Primary Discoveries from Archimedes to JWST",
-    description: "Read 100 authentic science stories based on primary sources and founding papers. STEM vocabulary, Bloom's questions, and interactive quizzes for students."
+    title: "200 Authentic Science Stories: Primary Discoveries from Archimedes to JWST",
+    description: "Read 200 authentic science stories based on primary sources and founding papers. STEM vocabulary, Bloom's questions, and interactive quizzes for students."
   },
   "witty-debates": {
     title: "Great Leaders' Witty Debates: Sparkling Historical Dialogues",
@@ -222,7 +223,7 @@ const collectionSeoMeta: Record<string, { title: string; description: string }> 
   }
 };
 
-const displayCollectionName = localizedCollectionNames[currentLang]?.[colSlug] || rawCollection;
+const displayCollectionName = getLocalizedCollectionName(colSlug, currentLang);
 const introText = localizedCollectionIntros[currentLang]?.[colSlug] || collectionIntros[colSlug] || `Explore authentic, beautifully illustrated stories from the ${rawCollection} collection on Daily Tale.`;
 const pageSeoTitle = currentLang === 'ta'
   ? `${displayCollectionName} (${matchingStories.length}+ தமிழ் நீதிக்கதைகள் & ஆடியோ) | ${brandConfig.name}`

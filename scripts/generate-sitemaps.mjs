@@ -38,22 +38,23 @@ const manifestPath = path.join(dataDir, 'en', 'manifest-en.json');
 let allCollections = [
   "Cinderella Stories", "Akbar–Birbal", "Panchatantra", "Tenali Rama",
   "Aesop's Fables", "Grimm Fairy Tales", "Hans Christian Andersen", "Mulla Nasruddin",
-  "Jataka Tales", "Charles Perrault", "Arabian Nights", "Vikram–Vetal", "Paramartha Guru"
+  "Jataka Tales", "Charles Perrault", "Arabian Nights", "Vikram–Vetal", "Paramartha Guru",
+  "science-stories", "witty-debates"
 ];
 
 if (fs.existsSync(manifestPath)) {
   try {
     const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
-    allCollections = Array.from(new Set(manifest.map(m => m.collection))).filter(Boolean);
+    const manifestCols = Array.from(new Set(manifest.map(m => m.collection))).filter(Boolean);
+    allCollections = Array.from(new Set([...allCollections, ...manifestCols]));
   } catch {}
 }
 
-// Clean static core routes for each language
+// Clean static core routes for each language (favorites and search excluded from sitemap to prevent low-value indexing)
 const coreRoutes = [
   '',
-  'search',
-  'favorites',
   'collections',
+  'classroom',
   'submit',
   'guide',
   'about',
@@ -98,10 +99,12 @@ for (const lang of languages) {
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
 
   // 1. Core pages (clean URLs)
+  const syncDate = '2026-11-15';
   for (const route of coreRoutes) {
     const loc = route ? `${siteUrl}/${lang}/${route}/` : `${siteUrl}/${lang}/`;
     xml += '  <url>\n';
     xml += `    <loc>${loc}</loc>\n`;
+    xml += `    <lastmod>${syncDate}</lastmod>\n`;
     xml += `    <changefreq>${route === '' ? 'daily' : 'monthly'}</changefreq>\n`;
     xml += `    <priority>${route === '' ? '1.0' : '0.7'}</priority>\n`;
 
@@ -120,10 +123,17 @@ for (const lang of languages) {
     const colSlug = col.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     const colStories = indexableStories.filter(s => {
       const norm = (s.collection || '').toLowerCase();
+      const colId = (s.collection_id || '').toLowerCase();
       if (colSlug.includes('cinderella')) {
         return norm.includes('cinderella') || (s.tags && s.tags.some(t => t.toLowerCase().includes('cinderella'))) || s.slug.includes('cinderella');
       }
-      return norm === col.toLowerCase();
+      if (colSlug.includes('science')) {
+        return norm.includes('science') || colId.includes('science');
+      }
+      if (colSlug.includes('witty') || colSlug.includes('debate')) {
+        return norm.includes('witty') || norm.includes('debate') || colId.includes('witty') || colId.includes('debate');
+      }
+      return norm === col.toLowerCase() || colId === col.toLowerCase();
     });
 
     if (colStories.length >= 1) {
@@ -131,6 +141,7 @@ for (const lang of languages) {
       const loc = `${siteUrl}/${lang}/collections/${colSlug}/`;
       xml += '  <url>\n';
       xml += `    <loc>${loc}</loc>\n`;
+      xml += `    <lastmod>${syncDate}</lastmod>\n`;
       xml += `    <changefreq>weekly</changefreq>\n`;
       xml += `    <priority>0.9</priority>\n`;
 
@@ -147,7 +158,7 @@ for (const lang of languages) {
   for (const story of indexableStories) {
     const colSlug = (story.collection || 'world-folktales').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     const storyLoc = `${siteUrl}/${lang}/${colSlug}/${story.slug}/`;
-    const lastModDate = story.publish_date || '2026-03-25';
+    const lastModDate = syncDate;
 
     xml += '  <url>\n';
     xml += `    <loc>${storyLoc}</loc>\n`;
@@ -166,7 +177,7 @@ for (const lang of languages) {
   console.log(`[Sitemap Generator] Generated ${sitemapFilename}: ${coreRoutes.length} core, ${collectionsIndexed} collections, ${storiesIndexed} stories.`);
 }
 
-const todayIsoDate = new Date().toISOString().split('T')[0];
+const todayIsoDate = '2026-11-15';
 let indexXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
 indexXml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 for (const fn of sitemapFilenames) {
@@ -188,6 +199,8 @@ const robotsTxt = `User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
+Disallow: /*/favorites/
+Disallow: /*/search/
 
 Sitemap: ${siteUrl}/sitemap.xml
 `;

@@ -94,9 +94,10 @@ const isHi = currentLang === 'hi';
         <ul class="space-y-2.5 text-xs sm:text-sm">
           <li><a href={`/${currentLang}/privacy/`} class="hover:text-[#D97706] transition-colors">{isTa ? 'தனியுரிமைக் கொள்கை' : (isHi ? 'गोपनीयता नीति' : 'Privacy Policy')}</a></li>
           <li><a href={`/${currentLang}/terms/`} class="hover:text-[#D97706] transition-colors">{isTa ? 'பயன்பாட்டு விதிமுறைகள்' : (isHi ? 'उपयोग की शर्तें' : 'Terms of Use')}</a></li>
+          <li><a href={`/${currentLang}/copyright/`} class="hover:text-[#D97706] transition-colors">{isTa ? 'பதிப்புரிமை & மூலங்கள்' : (isHi ? 'कॉपीराइट व स्रोत' : 'Copyright & Sources')}</a></li>
           <li><a href={`/${currentLang}/disclaimer/`} class="hover:text-[#D97706] transition-colors">{isTa ? 'ஆசிரியர் பொறுப்புத் துறப்பு' : (isHi ? 'अस्वीकरण' : 'Editorial Disclaimer')}</a></li>
           <li><a href={`/${currentLang}/contact/`} class="hover:text-[#D97706] transition-colors">{isTa ? 'தொடர்பு கொள்ள' : (isHi ? 'संपर्क करें' : 'Contact Us')}</a></li>
-          <li><a href="/sitemap.xml" class="hover:text-[#D97706] transition-colors">XML Sitemap</a></li>
+          <li><a href="/sitemap.xml" class="hover:text-[#D97706] transition-colors">{isTa ? 'தள வரைபடம்' : 'XML Sitemap'}</a></li>
         </ul>
       </div>
 

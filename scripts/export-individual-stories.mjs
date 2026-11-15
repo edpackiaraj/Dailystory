@@ -39,7 +39,7 @@ export function getCategorySlug(genre) {
   if (g.includes('fantasy')) return 'fantasy';
   if (g.includes('mystery') || g.includes('riddle')) return 'mystery';
   if (g.includes('mytholog') || g.includes('legend')) return 'mythology';
-  if (g.includes('history') || g.includes('historical')) return 'historical';
+  if (g.includes('history') || g.includes('historical') || g.includes('debate') || g.includes('விவாதம்')) return 'historical';
   if (g.includes('philosoph')) return 'philosophical';
   if (g.includes('romance') || g.includes('love')) return 'love';
   return genre.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
