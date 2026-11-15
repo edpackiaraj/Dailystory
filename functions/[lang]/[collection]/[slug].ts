@@ -162,6 +162,56 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     }
   ];
 
+  // Prepare Collection Visual & Authentic Hero Thumbnail
+  const colNorm = (collection || story.collection || '').toLowerCase();
+  let heroIcon = '📖 ✨ 🌍';
+  let heroBadgeText = story.collection || '';
+  let defaultHeroImg = '/images/stories/default.jpg';
+
+  if (colNorm.includes('witty') || colNorm.includes('debate') || colNorm.includes('விவாதம்') || colNorm.includes('தலைவர்')) {
+    heroIcon = '🎙️ ⚖️ 🏛️ 📜';
+    heroBadgeText = lang === 'ta' ? 'விசித்திர விவாதங்கள்' : (lang === 'hi' ? 'विश्व नेताओं के रोचक संवाद' : 'Witty Debates');
+    defaultHeroImg = '/images/stories/witty-debates.webp';
+  } else if (colNorm.includes('science') || colNorm.includes('அறிவியல்') || colNorm.includes('discovery')) {
+    heroIcon = '🔬 ⚡ 🌌 🧪';
+    heroBadgeText = lang === 'ta' ? '200 அறிவியல் கண்டுபிடிப்புக் கதைகள்' : (lang === 'hi' ? '200 प्रामाणिक विज्ञान कहानियाँ' : '200 Science Stories');
+    defaultHeroImg = '/images/stories/science-stories.webp';
+  } else if (colNorm.includes('panchatantra') || colNorm.includes('பஞ்சதந்திர')) {
+    heroIcon = '🦁 🐘 🦊 📜';
+    heroBadgeText = lang === 'ta' ? 'பஞ்சதந்திரக் கதைகள்' : 'Panchatantra';
+    defaultHeroImg = '/images/stories/panchatantra.webp';
+  } else if (colNorm.includes('tenali') || colNorm.includes('தெனாலிராமன்')) {
+    heroIcon = '👳‍♂️ 🪷 👑 ✨';
+    heroBadgeText = lang === 'ta' ? 'தெனாலிராமன் கதைகள்' : 'Tenali Rama';
+    defaultHeroImg = '/images/stories/tenali-rama.webp';
+  } else if (colNorm.includes('akbar') || colNorm.includes('birbal') || colNorm.includes('அக்பர்')) {
+    heroIcon = '👑 🏛️ 💎 📜';
+    heroBadgeText = lang === 'ta' ? 'அக்பர்–பீர்பால் கதைகள்' : 'Akbar–Birbal';
+    defaultHeroImg = '/images/stories/akbar-birbal.webp';
+  } else if (colNorm.includes('vikram') || colNorm.includes('விக்கிரமாதித்தன்')) {
+    heroIcon = '🗡️ 🌲 🌕 🦉';
+    heroBadgeText = lang === 'ta' ? 'விக்கிரமாதித்தன்–வேதாளம் கதைகள்' : 'Vikram–Vetal';
+    defaultHeroImg = '/images/stories/vikram-vetal.webp';
+  } else if (colNorm.includes('paramartha') || colNorm.includes('பரமார்த்த')) {
+    heroIcon = '🌴 🥥 📜 🐂';
+    heroBadgeText = lang === 'ta' ? 'பரமார்த்த குரு கதைகள்' : 'Paramartha Guru';
+    defaultHeroImg = '/images/stories/paramartha-guru.webp';
+  } else if (colNorm.includes('aesop') || colNorm.includes('ஈசாப்')) {
+    heroIcon = '🏛️ 🦊 🍇 🦉';
+    heroBadgeText = lang === 'ta' ? 'ஈசாப் உலக நீதிக்கதைகள்' : "Aesop's Fables";
+    defaultHeroImg = '/images/stories/aesop.webp';
+  } else if (colNorm.includes('mulla') || colNorm.includes('nasruddin') || colNorm.includes('முல்லா')) {
+    heroIcon = '🫏 👳 🌻 📜';
+    heroBadgeText = lang === 'ta' ? 'முல்லா நஸ்ருதீன் கதைகள்' : 'Mulla Nasruddin';
+    defaultHeroImg = '/images/stories/nasruddin.webp';
+  } else if (colNorm.includes('arabian') || colNorm.includes('ஆயிரத்தொரு') || colNorm.includes('அரேபிய')) {
+    heroIcon = '🌙 🕌 ⭐ 🧞';
+    heroBadgeText = lang === 'ta' ? 'ஆயிரத்தொரு இரவுகள்' : '1001 Arabian Nights';
+    defaultHeroImg = '/images/stories/arabian-nights.webp';
+  }
+
+  const effectiveHeroImg = story.image || defaultHeroImg;
+
   // 4. Inject metadata & content into HTML using Cloudflare's C++ streaming HTMLRewriter
   const rewriter = new HTMLRewriter()
     .on('title', {
@@ -242,6 +292,22 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     .on('#story-badge-col', {
       element(el) {
         el.setInnerContent(story.collection);
+      }
+    })
+    .on('#story-hero-image', {
+      element(el) {
+        el.setAttribute('src', effectiveHeroImg);
+        el.setAttribute('alt', cleanTitle);
+      }
+    })
+    .on('#story-hero-badge-icon', {
+      element(el) {
+        el.setInnerContent(heroIcon);
+      }
+    })
+    .on('#story-hero-badge-text', {
+      element(el) {
+        el.setInnerContent(heroBadgeText);
       }
     })
     .on('#story-main-title', {

@@ -252,14 +252,14 @@ export function getStoryVisual(story: {
       accentColor: '#38BDF8',
       decorType: 'stars',
       label: {
-        en: '100 Authentic Science Stories',
-        ta: '100 வரலாற்று அறிவியல் கதைகள்',
-        hi: '100 प्रामाणिक विज्ञान कहानियाँ'
+        en: '200 Breakthrough Science Stories',
+        ta: '200 அறிவியல் கண்டுபிடிப்புக் கதைகள்',
+        hi: '200 प्रामाणिक विज्ञान कहानियाँ'
       }
     };
   }
 
-  if (col.includes('witty') || col.includes('debate') || col.includes('விவாதம்') || col.includes('தலைவர்')) {
+  if (col.includes('witty') || col.includes('debate') || col.includes('விவாதம்') || col.includes('தலைவர்') || col.includes('விசித்திர')) {
     return {
       motif: 'witty_debates',
       icon: '🎙️ ⚖️ 🏛️ 📜',
@@ -269,7 +269,7 @@ export function getStoryVisual(story: {
       decorType: 'palace',
       label: {
         en: 'Witty Debates of World Leaders',
-        ta: 'உலகத் தலைவர்களின் சுவையான விவாதங்கள்',
+        ta: 'விசித்திர விவாதங்கள்',
         hi: 'विश्व नेताओं के रोचक संवाद व तर्क'
       }
     };

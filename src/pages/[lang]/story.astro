@@ -231,9 +231,34 @@ const jsonLd = [
           </p>
         </header>
 
-        <!-- Story-Specific Thematic Illustration -->
-        <div class="relative rounded-3xl overflow-hidden shadow-lg border border-[#EEDFC8] dark:border-[#383659]">
-          <StoryIllustration story={story} size="hero" lang={currentLang} />
+        <!-- Story-Specific Thematic Illustration / Authentic Thumbnail -->
+        <div id="story-hero-container" class="relative rounded-3xl overflow-hidden shadow-lg border border-[#EEDFC8] dark:border-[#383659]">
+          <div id="story-hero-inner" class="relative w-full aspect-16/9 sm:aspect-21/9 overflow-hidden bg-slate-900 group flex items-center justify-center">
+            <img
+              id="story-hero-image"
+              src={story.image || '/images/stories/witty-debates.webp'}
+              alt={cleanTitle}
+              class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+              loading="eager"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/20 pointer-events-none"></div>
+            <div class="relative z-10 flex flex-col items-center justify-center p-3 text-center space-y-2 pointer-events-none">
+              <div
+                id="story-hero-medallion"
+                class="flex items-center justify-center rounded-2xl bg-black/40 backdrop-blur-md border border-white/40 w-20 h-20 sm:w-24 sm:h-24 text-3xl sm:text-4xl ring-4 ring-white/25 shadow-2xl"
+              >
+                <span id="story-hero-badge-icon" class="filter drop-shadow-lg tracking-widest leading-none">🎙️ ⚖️ 🏛️ 📜</span>
+              </div>
+              <div class="max-w-[92%] pt-0.5">
+                <span
+                  id="story-hero-badge-text"
+                  class="inline-block font-black tracking-wide px-4 py-1.5 rounded-full text-xs sm:text-sm text-white bg-black/60 backdrop-blur-md border border-white/25 shadow-md"
+                >
+                  {localizedColName}
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Real-Time Translation Banner (For untranslated editions other than Tamil) -->
@@ -1014,6 +1039,51 @@ const jsonLd = [
       document.title = `${cleanTitle} | Daily Tale`;
       const h1 = document.getElementById('story-main-title');
       if (h1) h1.textContent = cleanTitle;
+
+      // Dynamically sync Story Hero Thumbnail & Authentic Badge
+      const heroImg = document.getElementById('story-hero-image');
+      if (heroImg && payload.image) {
+        heroImg.setAttribute('src', payload.image);
+        heroImg.setAttribute('alt', cleanTitle);
+      }
+      const badgeIcon = document.getElementById('story-hero-badge-icon');
+      const badgeText = document.getElementById('story-hero-badge-text');
+      const colNorm = (payload.collection || '').toLowerCase();
+      let icon = '📖 ✨ 🌍';
+      let colLabel = payload.collection || '';
+      if (colNorm.includes('witty') || colNorm.includes('debate') || colNorm.includes('விவாதம்') || colNorm.includes('தலைவர்')) {
+        icon = '🎙️ ⚖️ 🏛️ 📜';
+        colLabel = urlLang === 'ta' ? 'விசித்திர விவாதங்கள்' : (urlLang === 'hi' ? 'विश्व नेताओं के रोचक संवाद' : 'Witty Debates');
+      } else if (colNorm.includes('science') || colNorm.includes('அறிவியல்') || colNorm.includes('discovery')) {
+        icon = '🔬 ⚡ 🌌 🧪';
+        colLabel = urlLang === 'ta' ? '200 அறிவியல் கண்டுபிடிப்புக் கதைகள்' : (urlLang === 'hi' ? '200 प्रामाणिक विज्ञान कहानियाँ' : '200 Science Stories');
+      } else if (colNorm.includes('panchatantra') || colNorm.includes('பஞ்சதந்திர')) {
+        icon = '🦁 🐘 🦊 📜';
+        colLabel = urlLang === 'ta' ? 'பஞ்சதந்திரக் கதைகள்' : 'Panchatantra';
+      } else if (colNorm.includes('tenali') || colNorm.includes('தெனாலிராமன்')) {
+        icon = '👳‍♂️ 🪷 👑 ✨';
+        colLabel = urlLang === 'ta' ? 'தெனாலிராமன் கதைகள்' : 'Tenali Rama';
+      } else if (colNorm.includes('akbar') || colNorm.includes('birbal') || colNorm.includes('அக்பர்')) {
+        icon = '👑 🏛️ 💎 📜';
+        colLabel = urlLang === 'ta' ? 'அக்பர்–பீர்பால் கதைகள்' : 'Akbar–Birbal';
+      } else if (colNorm.includes('vikram') || colNorm.includes('விக்கிரமாதித்தன்')) {
+        icon = '🗡️ 🌲 🌕 🦉';
+        colLabel = urlLang === 'ta' ? 'விக்கிரமாதித்தன்–வேதாளம் கதைகள்' : 'Vikram–Vetal';
+      } else if (colNorm.includes('paramartha') || colNorm.includes('பரமார்த்த')) {
+        icon = '🌴 🥥 📜 🐂';
+        colLabel = urlLang === 'ta' ? 'பரமார்த்த குரு கதைகள்' : 'Paramartha Guru';
+      } else if (colNorm.includes('nasruddin') || colNorm.includes('முல்லா')) {
+        icon = '🫏 👳 🌻 📜';
+        colLabel = urlLang === 'ta' ? 'முல்லா நஸ்ருதீன் கதைகள்' : 'Mulla Nasruddin';
+      } else if (colNorm.includes('arabian') || colNorm.includes('ஆயிரத்தொரு') || colNorm.includes('அரேபிய')) {
+        icon = '🌙 🕌 ⭐ 🧞';
+        colLabel = urlLang === 'ta' ? 'ஆயிரத்தொரு இரவுகள்' : '1001 Arabian Nights';
+      } else if (colNorm.includes('aesop') || colNorm.includes('ஈசாப்')) {
+        icon = '🏛️ 🦊 🍇 🦉';
+        colLabel = urlLang === 'ta' ? 'ஈசாப் உலக நீதிக்கதைகள்' : "Aesop's Fables";
+      }
+      if (badgeIcon) badgeIcon.textContent = icon;
+      if (badgeText) badgeText.textContent = colLabel;
 
       const summaryEl = document.getElementById('story-summary-text');
       if (summaryEl) summaryEl.textContent = cleanSummary;
