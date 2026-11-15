@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <!-- Deep Cosmic Nebula Gradient -->
+    <radialGradient id="nebulaCore" cx="70%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#0f766e" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#042f2e" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Star Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <linearGradient id="goldBeam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <linearGradient id="cyanBeam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Background -->
+  <rect width="1200" height="750" fill="#020617"/>
+  <rect width="1200" height="750" fill="url(#nebulaCore)"/>
+
+  <!-- Distant Stars Field -->
+  <g fill="#ffffff" opacity="0.75">
+    <circle cx="85" cy="95" r="1.5"/>
+    <circle cx="190" cy="180" r="2.2" opacity="0.9"/>
+    <circle cx="280" cy="80" r="1.2"/>
+    <circle cx="360" cy="220" r="1.8"/>
+    <circle cx="490" cy="110" r="2.5" opacity="0.95"/>
+    <circle cx="580" cy="190" r="1.2"/>
+    <circle cx="710" cy="70" r="2"/>
+    <circle cx="820" cy="140" r="1.5"/>
+    <circle cx="940" cy="90" r="2.8" opacity="0.9"/>
+    <circle cx="1060" cy="160" r="1.8"/>
+    <circle cx="1140" cy="80" r="2.2"/>
+    
+    <circle cx="120" cy="420" r="1.8"/>
+    <circle cx="240" cy="510" r="1.2"/>
+    <circle cx="380" cy="460" r="2"/>
+    <circle cx="510" cy="580" r="1.5"/>
+    <circle cx="680" cy="490" r="2.2"/>
+    <circle cx="830" cy="560" r="1.4"/>
+    <circle cx="990" cy="480" r="2"/>
+    <circle cx="1110" cy="590" r="1.6"/>
+  </g>
+
+  <!-- Giant Rutherford-Bohr Atomic Orbitals (Center-Right) -->
+  <g transform="translate(850, 380)" opacity="0.85">
+    <!-- Glowing Nucleus -->
+    <circle cx="0" cy="0" r="28" fill="url(#goldBeam)" filter="url(#glow)"/>
+    <circle cx="0" cy="0" r="14" fill="#ffffff"/>
+
+    <!-- Elliptical Electron Paths -->
+    <ellipse cx="0" cy="0" rx="220" ry="80" fill="none" stroke="#38bdf8" stroke-width="2.5" opacity="0.7" transform="rotate(25)"/>
+    <ellipse cx="0" cy="0" rx="220" ry="80" fill="none" stroke="#2dd4bf" stroke-width="2.5" opacity="0.7" transform="rotate(-35)"/>
+    <ellipse cx="0" cy="0" rx="220" ry="80" fill="none" stroke="#f59e0b" stroke-width="2.5" opacity="0.6" transform="rotate(85)"/>
+
+    <!-- Orbiting Electrons -->
+    <circle cx="190" cy="65" r="7" fill="#67e8f9" filter="url(#glow)"/>
+    <circle cx="-160" cy="95" r="6" fill="#fef08a" filter="url(#glow)"/>
+    <circle cx="25" cy="-210" r="6.5" fill="#a7f3d0" filter="url(#glow)"/>
+  </g>
+
+  <!-- DNA Double Helix Waveform (Lower Arc) -->
+  <g stroke="#38bdf8" stroke-width="3" opacity="0.45" fill="none">
+    <path d="M 0 680 Q 150 630 300 680 T 600 680 T 900 680 T 1200 680"/>
+    <path d="M 0 680 Q 150 730 300 680 T 600 680 T 900 680 T 1200 680" stroke="#2dd4bf"/>
+    <!-- Ladder Rungs -->
+    <line x1="150" y1="640" x2="150" y2="720" stroke="#fef08a" stroke-width="2.5"/>
+    <line x1="300" y1="675" x2="300" y2="685" stroke="#fef08a" stroke-width="2.5"/>
+    <line x1="450" y1="640" x2="450" y2="720" stroke="#fef08a" stroke-width="2.5"/>
+    <line x1="750" y1="640" x2="750" y2="720" stroke="#fef08a" stroke-width="2.5"/>
+    <line x1="1050" y1="640" x2="1050" y2="720" stroke="#fef08a" stroke-width="2.5"/>
+  </g>
+
+  <!-- Antique Brass Telescope & Ray of Light (Left Side) -->
+  <g transform="translate(240, 480) rotate(-38)" opacity="0.9">
+    <!-- Telescope Body -->
+    <polygon points="0,-18 260,-28 260,28 0,18" fill="url(#goldBeam)" stroke="#fef08a" stroke-width="2"/>
+    <rect x="250" y="-35" width="30" height="70" rx="6" fill="#78350f" stroke="#fef08a" stroke-width="2"/>
+    <rect x="-40" y="-14" width="45" height="28" rx="4" fill="#b45309" stroke="#fef08a" stroke-width="1.5"/>
+    <!-- Focus Rings -->
+    <line x1="80" y1="-22" x2="80" y2="22" stroke="#fef08a" stroke-width="3"/>
+    <line x1="160" y1="-25" x2="160" y2="25" stroke="#fef08a" stroke-width="3"/>
+
+    <!-- Light Beam Shooting into Deep Space -->
+    <polygon points="280,-30 750,-90 750,90 280,30" fill="url(#cyanBeam)" opacity="0.25"/>
+  </g>
+
+  <!-- Prismatic Rainbow Glass Triangle (Lower Center) -->
+  <g transform="translate(540, 500)">
+    <polygon points="60,0 120,100 0,100" fill="#ffffff" fill-opacity="0.15" stroke="#ffffff" stroke-width="2.5"/>
+    <!-- White incident beam -->
+    <line x1="-70" y1="70" x2="45" y2="55" stroke="#ffffff" stroke-width="4" filter="url(#glow)"/>
+    <!-- Refracted rainbow spectrum rays -->
+    <line x1="75" y1="50" x2="220" y2="15" stroke="#ef4444" stroke-width="3"/>
+    <line x1="80" y1="56" x2="220" y2="30" stroke="#f97316" stroke-width="3"/>
+    <line x1="85" y1="62" x2="220" y2="45" stroke="#eab308" stroke-width="3"/>
+    <line x1="90" y1="68" x2="220" y2="60" stroke="#22c55e" stroke-width="3"/>
+    <line x1="95" y1="74" x2="220" y2="75" stroke="#06b6d4" stroke-width="3"/>
+    <line x1="100" y1="80" x2="220" y2="90" stroke="#8b5cf6" stroke-width="3"/>
+  </g>
+
+  <!-- TOP-LEFT ELEGANT TYPOGRAPHY BADGE -->
+  <g transform="translate(60, 60)">
+    <!-- Dark Glass Container -->
+    <rect width="660" height="230" rx="24" fill="#030712" fill-opacity="0.82" stroke="#0ea5e9" stroke-width="2.5"/>
+    
+    <!-- Domain Tag Pill -->
+    <rect x="35" y="30" width="220" height="32" rx="16" fill="#0f766e" stroke="#2dd4bf" stroke-width="1.5"/>
+    <text x="145" y="52" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#ccfbf1" text-anchor="middle" letter-spacing="1">100 PRIMARY DISCOVERIES</text>
+
+    <!-- Main Title (English) -->
+    <text x="35" y="112" font-family="system-ui, sans-serif" font-size="38" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+      100 Authentic Science Stories
+    </text>
+
+    <!-- Tamil Title -->
+    <text x="35" y="158" font-family="system-ui, sans-serif" font-size="25" font-weight="bold" fill="#38bdf8">
+      100 வரலாற்று அறிவியல் கதைகள்
+    </text>
+
+    <!-- Subtitle / Authenticity Guarantee -->
+    <text x="35" y="200" font-family="system-ui, sans-serif" font-size="15" fill="#94a3b8">
+      Archimedes • Newton • Curie • Raman • Einstein • Kalam • JWST
+    </text>
+  </g>
+
+  <!-- Bottom Right Decorative Milestone Seal -->
+  <g transform="translate(1080, 650)">
+    <circle cx="0" cy="0" r="48" fill="#042f2e" stroke="#2dd4bf" stroke-width="3"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#f59e0b" stroke-dasharray="4 4" stroke-width="1.5"/>
+    <text x="0" y="-8" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#2dd4bf" text-anchor="middle">100</text>
+    <text x="0" y="12" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#fef08a" text-anchor="middle">STORIES</text>
+    <text x="0" y="26" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#94a3b8" text-anchor="middle">VERIFIED</text>
+  </g>
+</svg>

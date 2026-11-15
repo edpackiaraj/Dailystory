@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <!-- Parliamentary / Assembly Chamber Gradient -->
+    <radialGradient id="chamberGlow" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#7c2d12" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#451a03" stop-opacity="0.9"/>
+      <stop offset="75%" stop-color="#1c1005" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0a0502" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Gold Foil Gradient -->
+    <linearGradient id="debateGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="35%" stop-color="#f59e0b"/>
+      <stop offset="80%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+
+    <!-- Amber Glow -->
+    <filter id="amberGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Deep Background -->
+  <rect width="1200" height="750" fill="#0a0502"/>
+  <rect width="1200" height="750" fill="url(#chamberGlow)"/>
+
+  <!-- Classical Parliamentary Pillars / Architecture (Background) -->
+  <g fill="#291407" opacity="0.65">
+    <!-- Left Pillar -->
+    <rect x="780" y="80" width="45" height="540" rx="4"/>
+    <rect x="765" y="60" width="75" height="25" rx="3" fill="#451a03"/>
+    <rect x="765" y="620" width="75" height="30" rx="3" fill="#451a03"/>
+
+    <!-- Middle Pillar -->
+    <rect x="910" y="80" width="45" height="540" rx="4"/>
+    <rect x="895" y="60" width="75" height="25" rx="3" fill="#451a03"/>
+    <rect x="895" y="620" width="75" height="30" rx="3" fill="#451a03"/>
+
+    <!-- Right Pillar -->
+    <rect x="1040" y="80" width="45" height="540" rx="4"/>
+    <rect x="1025" y="60" width="75" height="25" rx="3" fill="#451a03"/>
+    <rect x="1025" y="620" width="75" height="30" rx="3" fill="#451a03"/>
+
+    <!-- Arch Linking Pillars -->
+    <path d="M 760 80 Q 845 20 930 80 Q 1015 20 1100 80" stroke="#78350f" stroke-width="6" fill="none"/>
+  </g>
+
+  <!-- Scales of Justice (Center-Right Symbol of Balance & Truth) -->
+  <g transform="translate(930, 260)" stroke="url(#debateGold)" stroke-width="3" fill="none">
+    <!-- Center Mast -->
+    <line x1="0" y1="0" x2="0" y2="180" stroke-width="5"/>
+    <circle cx="0" cy="0" r="10" fill="#f59e0b"/>
+    <polygon points="-25,180 25,180 35,200 -35,200" fill="url(#debateGold)"/>
+
+    <!-- Horizontal Beam -->
+    <line x1="-120" y1="20" x2="120" y2="10" stroke-width="4"/>
+
+    <!-- Left Pan -->
+    <line x1="-120" y1="20" x2="-150" y2="90" stroke-width="2"/>
+    <line x1="-120" y1="20" x2="-90" y2="90" stroke-width="2"/>
+    <path d="M -160 90 Q -120 120 -80 90 Z" fill="#b45309" stroke-width="2"/>
+
+    <!-- Right Pan -->
+    <line x1="120" y1="10" x2="90" y2="80" stroke-width="2"/>
+    <line x1="120" y1="10" x2="150" y2="80" stroke-width="2"/>
+    <path d="M 80 80 Q 120 110 160 80 Z" fill="#b45309" stroke-width="2"/>
+  </g>
+
+  <!-- Parliamentary Orator's Podium & Vintage Microphone (Lower Right) -->
+  <g transform="translate(760, 420)">
+    <!-- Wooden Podium Body -->
+    <polygon points="80,120 220,120 240,330 60,330" fill="#381a08" stroke="#9a3412" stroke-width="3"/>
+    <!-- Angled Desk Top -->
+    <polygon points="50,120 250,120 230,80 70,80" fill="#54240c" stroke="#f59e0b" stroke-width="2"/>
+
+    <!-- Leather Constitution / Law Book on Desk -->
+    <polygon points="100,105 180,100 200,115 120,120" fill="#b91c1c" stroke="#fbbf24" stroke-width="2"/>
+    <line x1="150" y1="102" x2="160" y2="117" stroke="#fbbf24" stroke-width="1.5"/>
+
+    <!-- Vintage Chrome Ribbon Microphone -->
+    <line x1="150" y1="80" x2="150" y2="10" stroke="#d4d4d8" stroke-width="5"/>
+    <ellipse cx="150" cy="10" rx="16" ry="24" fill="#52525b" stroke="#f4f4f5" stroke-width="3" filter="url(#amberGlow)"/>
+    <line x1="138" y1="5" x2="162" y2="5" stroke="#f4f4f5" stroke-width="1.5"/>
+    <line x1="138" y1="12" x2="162" y2="12" stroke="#f4f4f5" stroke-width="1.5"/>
+    <line x1="138" y1="19" x2="162" y2="19" stroke="#f4f4f5" stroke-width="1.5"/>
+
+    <!-- Speech Resonance Sound Waves Emitting from Mic -->
+    <path d="M 120 -5 A 40 40 0 0 0 120 25" fill="none" stroke="#f59e0b" stroke-width="2.5" opacity="0.8"/>
+    <path d="M 105 -15 A 60 60 0 0 0 105 35" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+    <path d="M 90 -25 A 80 80 0 0 0 90 45" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.3"/>
+  </g>
+
+  <!-- Ancient Quill and Scroll of Wisdom (Lower Center-Left) -->
+  <g transform="translate(420, 520)">
+    <!-- Unrolled Parchment Scroll -->
+    <path d="M 0 60 Q 80 40 160 60 Q 140 110 160 160 Q 80 140 0 160 Z" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <!-- Scroll Text Lines -->
+    <line x1="25" y1="75" x2="135" y2="75" stroke="#92400e" stroke-width="2" stroke-linecap="round"/>
+    <line x1="25" y1="95" x2="120" y2="95" stroke="#92400e" stroke-width="2" stroke-linecap="round"/>
+    <line x1="25" y1="115" x2="130" y2="115" stroke="#92400e" stroke-width="2" stroke-linecap="round"/>
+    <line x1="25" y1="135" x2="90" y2="135" stroke="#92400e" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Glass Inkpot -->
+    <ellipse cx="190" cy="140" rx="16" ry="12" fill="#1e1b4b" stroke="#f59e0b" stroke-width="1.5"/>
+    <rect x="184" y="122" width="12" height="10" fill="#312e81"/>
+
+    <!-- White Feather Quill -->
+    <path d="M 190 126 C 210 90 260 20 280 0 C 265 25 240 70 210 110 Z" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <line x1="190" y1="126" x2="280" y2="0" stroke="#cbd5e1" stroke-width="1.5"/>
+  </g>
+
+  <!-- TOP-LEFT ELEGANT TYPOGRAPHY BADGE -->
+  <g transform="translate(60, 60)">
+    <!-- Dark Amber Glass Container -->
+    <rect width="660" height="230" rx="24" fill="#0f0702" fill-opacity="0.88" stroke="#d97706" stroke-width="2.5"/>
+    
+    <!-- Leadership Tag Pill -->
+    <rect x="35" y="30" width="230" height="32" rx="16" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="150" y="52" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#fef3c7" text-anchor="middle" letter-spacing="1">HISTORIC WIT &amp; WISDOM</text>
+
+    <!-- Main Title (English) -->
+    <text x="35" y="112" font-family="system-ui, sans-serif" font-size="36" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+      Witty Debates of World Leaders
+    </text>
+
+    <!-- Tamil Title -->
+    <text x="35" y="158" font-family="system-ui, sans-serif" font-size="25" font-weight="bold" fill="#fbbf24">
+      உலகத் தலைவர்களின் சுவையான விவாதங்கள்
+    </text>
+
+    <!-- Subtitle / Leaders List -->
+    <text x="35" y="200" font-family="system-ui, sans-serif" font-size="15" fill="#fed7aa">
+      Anna • Periyar • Kalaignar • Ambedkar • Gandhi • Lincoln • Churchill
+    </text>
+  </g>
+
+  <!-- Bottom Right Decorative Milestone Seal -->
+  <g transform="translate(1080, 650)">
+    <circle cx="0" cy="0" r="48" fill="#451a03" stroke="#f59e0b" stroke-width="3"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#fde047" stroke-dasharray="4 4" stroke-width="1.5"/>
+    <text x="0" y="-8" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#fef3c7" text-anchor="middle">125+</text>
+    <text x="0" y="12" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#f59e0b" text-anchor="middle">DEBATES</text>
+    <text x="0" y="26" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#fed7aa" text-anchor="middle">CURATED</text>
+  </g>
+</svg>

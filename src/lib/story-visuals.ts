@@ -252,9 +252,25 @@ export function getStoryVisual(story: {
       accentColor: '#38BDF8',
       decorType: 'stars',
       label: {
-        en: 'Science & Discovery Tales',
-        ta: 'அறிவியல் கண்டுபிடிப்புக் கதைகள்',
-        hi: 'विज्ञान एवं खोज की कहानियाँ'
+        en: '100 Authentic Science Stories',
+        ta: '100 வரலாற்று அறிவியல் கதைகள்',
+        hi: '100 प्रामाणिक विज्ञान कहानियाँ'
+      }
+    };
+  }
+
+  if (col.includes('witty') || col.includes('debate') || col.includes('விவாதம்') || col.includes('தலைவர்')) {
+    return {
+      motif: 'witty_debates',
+      icon: '🎙️ ⚖️ 🏛️ 📜',
+      theme: 'amber_gold',
+      bgGradient: 'from-amber-800 via-orange-950 to-slate-950',
+      accentColor: '#F59E0B',
+      decorType: 'palace',
+      label: {
+        en: 'Witty Debates of World Leaders',
+        ta: 'உலகத் தலைவர்களின் சுவையான விவாதங்கள்',
+        hi: 'विश्व नेताओं के रोचक संवाद व तर्क'
       }
     };
   }

@@ -281,9 +281,10 @@ export const collectionImageMap: Record<string, string> = {
   'paramartha-guru': '/images/stories/paramartha-guru.webp',
   'tenali-rama': '/images/stories/tenali-rama.webp',
   'vikram-vetal': '/images/stories/vikram-vetal.webp',
-  'science-stories': '/images/og-default.png',
-  'science-discovery': '/images/og-default.png',
-  'witty-debates': '/images/og-default.png'
+  'science-stories': '/images/stories/science-stories.webp',
+  'science-discovery': '/images/stories/science-stories.webp',
+  'science-&-discovery': '/images/stories/science-stories.webp',
+  'witty-debates': '/images/stories/witty-debates.webp'
 };
 
 export function getStoryOgImage(story?: { collection?: string; image?: string } | null): string {

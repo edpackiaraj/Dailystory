@@ -635,8 +635,21 @@ for (const s of newEnStories) {
 }
 console.log(`Cleaned ${cleanedSlugs} Jataka and Vikram-Vetal slugs in English catalog.`);
 
+function safeWriteFile(filePath, content) {
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    try {
+      fs.writeFileSync(filePath, content, 'utf8');
+      return;
+    } catch (e) {
+      if (attempt === 5) throw e;
+      const waitMs = attempt * 150;
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, waitMs);
+    }
+  }
+}
+
 // Save updated data/en/stories-en.json
-fs.writeFileSync(path.resolve(dataDir, 'en', 'stories-en.json'), JSON.stringify(newEnStories, null, 2), 'utf8');
+safeWriteFile(path.resolve(dataDir, 'en', 'stories-en.json'), JSON.stringify(newEnStories, null, 2));
 console.log('Saved data/en/stories-en.json!');
 
 // 10. Synchronize duplicate removal and slug updates across all 9 other languages
@@ -668,7 +681,7 @@ for (const lang of otherLangs) {
     filteredList.push(s);
   }
 
-  fs.writeFileSync(filePath, JSON.stringify(filteredList, null, 2), 'utf8');
+  safeWriteFile(filePath, JSON.stringify(filteredList, null, 2));
   console.log(`[${lang.toUpperCase()}] Removed ${langRemoved} duplicates. Total stories: ${filteredList.length}. Saved stories-${lang}.json!`);
 }
 
