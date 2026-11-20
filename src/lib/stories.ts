@@ -202,7 +202,7 @@ export function getCollectionsWithCounts(lang: string) {
 }
 
 export function getAudienceCategory(
-  ageGroupOrStory?: string | { age_group?: string; collection?: string; title?: string; slug?: string },
+  ageGroupOrStory?: string | { age_group?: string; collection?: string; title?: string; slug?: string; tags?: string[] },
   collectionArg?: string,
   titleArg?: string,
   slugArg?: string
@@ -211,29 +211,44 @@ export function getAudienceCategory(
   let collection = collectionArg || '';
   let title = titleArg || '';
   let slug = slugArg || '';
+  let tags: string[] = [];
 
   if (typeof ageGroupOrStory === 'object' && ageGroupOrStory !== null) {
     ageGroup = ageGroupOrStory.age_group || '';
     collection = collection || ageGroupOrStory.collection || '';
     title = title || ageGroupOrStory.title || '';
     slug = slug || ageGroupOrStory.slug || '';
+    if (Array.isArray((ageGroupOrStory as any).tags)) {
+      tags = (ageGroupOrStory as any).tags;
+    }
   } else if (typeof ageGroupOrStory === 'string') {
     ageGroup = ageGroupOrStory;
   }
 
   const colSlug = getCollectionSlug(collection);
-  const textCheck = `${title} ${slug}`.toLowerCase();
+  const textCheck = `${title} ${slug} ${tags.join(' ')}`.toLowerCase();
+  const ageLower = ageGroup.toLowerCase();
 
-  // 1. Mature themes / dark folklore / riddles with ghouls & executions -> Teens (13+)
+  // 1. Explicit Teens or Adults specified in metadata
   if (
-    colSlug === 'arabian-nights' ||
-    colSlug === 'vikram-vetal' ||
-    /shahryar|vetal|vetala|cremation|corpse|execution|adultery|bluebeard|godfather-death|fitcher|bridegroom|juniper-tree|snow-white/i.test(textCheck)
+    ageLower.includes('teen') ||
+    ageLower.includes('13+') ||
+    ageLower.includes('14+') ||
+    ageLower.includes('adult')
   ) {
     return 'teens';
   }
 
-  // 2. Playful animal fables, simple wisdom & classic childhood fairy tales -> Kids
+  // 2. Mature themes / dark folklore / solemn historical episodes with violence, bondage, executions
+  if (
+    colSlug === 'arabian-nights' ||
+    colSlug === 'vikram-vetal' ||
+    /shahryar|vetal|vetala|cremation|corpse|execution|adultery|bluebeard|godfather-death|fitcher|bridegroom|juniper-tree|snow-white|slave|auction|chains|arrest|hemlock|trial|manusmriti|war|revolt|lynch|gallows/i.test(textCheck)
+  ) {
+    return 'teens';
+  }
+
+  // 3. Playful animal fables, simple wisdom & classic childhood fairy tales -> Kids
   if (
     colSlug === 'aesop-s-fables' ||
     colSlug === 'aesops-fables' ||
@@ -242,13 +257,16 @@ export function getAudienceCategory(
     colSlug === 'cinderella-stories' ||
     colSlug === 'cinderella' ||
     colSlug === 'charles-perrault' ||
-    ageGroup.toLowerCase().includes('below 8') ||
-    ageGroup.toLowerCase().includes('below 10')
+    ageLower.includes('below 8') ||
+    ageLower.includes('below 10') ||
+    ageLower.includes('below 12') ||
+    ageLower.includes('kid') ||
+    ageLower.includes('child')
   ) {
     return 'kids';
   }
 
-  // 3. Witty courtroom humour, philosophical satire, family folklore -> Everyone
+  // 4. Witty courtroom humour, philosophical satire, family folklore -> Everyone
   return 'everyone';
 }
 

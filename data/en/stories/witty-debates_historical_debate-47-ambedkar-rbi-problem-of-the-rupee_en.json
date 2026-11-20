@@ -7,7 +7,7 @@
   "collection": "witty-debates",
   "culture_region": "Historical Chronicles & Global Statecraft",
   "age_group": "Teens & Adults (13+)",
-  "summary": "Few remember that India's central bank—the Reserve Bank of India—was established in 1935 based directly on the economic doctrines framed in Ambedkar's LSE doctoral thesis.",
+  "summary": "Few remember that India's central bank—the Reserve Bank of India—was conceptualized with foundational inputs from Dr. Ambedkar's landmark 1923 treatise and his expert testimony before the Royal Commission on Indian Currency and Finance.",
   "keywords": [
     "Founding the Reserve Bank of India: The Master Economist",
     "Dr. B. R. Ambedkar",
@@ -21,9 +21,9 @@
     "dialogues",
     "wisdom"
   ],
-  "full_text": "While celebrated globally as a jurist and social crusader, Dr. B. R. Ambedkar was first and foremost an economist of extraordinary caliber, holding doctorates from both Columbia University and the London School of Economics.\n\nIn 1923, Ambedkar published his landmark doctoral treatise at LSE: **The Problem of the Rupee: Its Origin and Its Solution**.\n\nIn this pioneering work, he analyzed currency management, exchange rate fluctuations, and the perils of inflation, arguing that monetary stability is the prerequisite for social equity.\n\nIn 1925, the British government appointed the **Hilton Young Commission (Royal Commission on Indian Currency and Finance)** to restructure India's financial system.\n\nDr. Ambedkar was summoned as an expert witness. The British commissioners asked:\n\"Dr. Ambedkar! Why does India require an independent Central Bank? Can the Bank of England not continue regulating Indian monetary flows from London?\"\n\nAmbedkar countered with razor-sharp logic:\n\"Gentlemen! Can a physician sitting in London accurately monitor the pulse and body temperature of a patient in Delhi?\nIndia is a vast subcontinental economy. If the purchasing power of the rupee is to be preserved, monetary management must not be left to the whims of political executives or distant colonial boards.\nIndia requires an autonomous Central Bank dedicated to stabilizing the currency and controlling the money supply.\nUncontrolled inflation is not a mere statistical curve; it is an invisible thief that plunders the food from the plates of the working poor!\"\n\nThe commissioners were so deeply impressed that the Hilton Young Commission explicitly recorded that the legislative guidelines for creating the central bank should be modeled upon the principles enunciated in Dr. Ambedkar's *The Problem of the Rupee*.\n\nOn April 1, 1935, the **Reserve Bank of India (RBI)** opened its doors.\n\nThe bedrock of modern Indian banking and macroeconomic stability was laid by the profound scholarship of Babasaheb Ambedkar.",
-  "moral": "Rigorous scientific economics must serve the vulnerable; sound monetary policy protects the hard-earned wages of ordinary laborers.",
-  "witty_quote": "Inflation is an invisible thief that robs the wages of the working poor in broad daylight!",
+  "full_text": "While celebrated globally as a jurist and constitutional architect, Dr. B. R. Ambedkar was also an economist of extraordinary caliber, having earned doctorates from Columbia University and the London School of Economics.\n\nIn 1923, Ambedkar published his landmark doctoral treatise: **The Problem of the Rupee: Its Origin and Its Solution**.\n\nIn this pioneering work, he analyzed currency management, exchange rate mechanisms, and the perils of price volatility, arguing that monetary stability is an essential prerequisite for economic justice.\n\nIn 1925, the British government appointed the **Hilton Young Commission (Royal Commission on Indian Currency and Finance)** to examine and restructure India's monetary architecture.\n\nDr. Ambedkar was summoned as an expert witness. The commission examined the necessity of establishing an independent central banking institution.\n\nAmbedkar presented cogent economic arguments:\n\"Gentlemen! Can a physician sitting in London accurately monitor the pulse and body temperature of a patient in Delhi?\nIndia is a vast subcontinental economy. If the purchasing power of the rupee is to be safeguarded, monetary management must not be left to the short-term convenience of political executives or distant colonial boards.\nIndia requires an autonomous Central Bank dedicated to stabilizing the currency and regulating the credit supply.\nUncontrolled inflation is not a mere statistical curve; it operates like an invisible levy that erodes the wages of the working poor!\"\n\nAmbedkar's testimony and treatise served as key conceptual references during the commission's deliberations, which ultimately recommended establishing an independent central bank.\n\nWhen the **Reserve Bank of India (RBI)** was constituted under the Reserve Bank of India Act in 1934 and commenced operations on April 1, 1935, its design reflected the principles of monetary discipline and currency management that Ambedkar had so vigorously championed.",
+  "moral": "Rigorous economic reasoning must serve the public good; sound monetary governance protects the purchasing power of working families.",
+  "witty_quote": "Uncontrolled inflation is like an invisible tax that erodes the wages of the working poor!",
   "image": "/images/stories/witty-debates.webp",
   "image_alt": "Founding the Reserve Bank of India: The Master Economist",
   "word_count": 302,
@@ -34,7 +34,7 @@
   "is_bedtime": false,
   "quiz": [
     {
-      "question": "Which doctoral treatise by Dr. Ambedkar provided the conceptual framework for establishing the Reserve Bank of India (RBI)?",
+      "question": "Which doctoral treatise by Dr. Ambedkar provided key conceptual arguments for establishing India's central bank?",
       "options": [
         "Annihilation of Caste",
         "The Problem of the Rupee: Its Origin and Its Solution",
@@ -42,17 +42,17 @@
         "The Buddha and His Dhamma"
       ],
       "answerIndex": 1,
-      "hint": "Ambedkar's 1923 treatise *The Problem of the Rupee* served as the foundational blueprint for creating the RBI."
+      "hint": "Ambedkar's 1923 treatise *The Problem of the Rupee* was presented as evidence before the Hilton Young Commission."
     }
   ],
   "author": "Dr. B. R. Ambedkar",
   "status": "published",
-  "content_notes": "The 1925 testimony of Dr. Ambedkar before the Royal Commission on Indian Currency and Finance (Hilton Young Commission) that laid the conceptual foundations of the RBI.",
+  "content_notes": "The 1925 testimony of Dr. Ambedkar before the Royal Commission on Indian Currency and Finance (Hilton Young Commission) on central banking and currency stabilization.",
   "values": [
     "Equality",
     "Social Justice",
     "Intellectual Reason",
-    "Humor",
+    "Economic Sovereignty",
     "Humanity"
   ],
   "reading_level": "Intermediate",
@@ -60,27 +60,29 @@
   "discussion_questions": [
     {
       "tier": "Reflect",
-      "prompt": "Inflation is an invisible thief that robs the wages of the working poor in broad daylight!"
+      "prompt": "How does currency and inflation stability directly impact working people and the vulnerable?"
     }
   ],
   "reflection_prompt": "Rigorous scientific economics must serve the vulnerable; sound monetary policy protects the hard-earned wages of ordinary laborers.",
-  "activity": "Share and discuss the logic and historical significance of this debate with friends and peers.",
+  "activity": "Share and discuss the economic legacy of Dr. Ambedkar with friends and peers.",
   "mood": [
     "Inspiring",
     "Thought-Provoking",
     "Witty"
   ],
-  "teaser": "Inflation is an invisible thief that robs the wages of the working poor in broad daylight!",
+  "teaser": "How Dr. Ambedkar's economic treatise helped shape the creation of the Reserve Bank of India.",
   "series_id": null,
   "part_number": null,
   "reviewed": true,
-  "source": "The Problem of the Rupee: Its Origin and Its Solution (1923) & Hilton Young Commission Minutes",
+  "source": "The Problem of the Rupee: Its Origin and Its Solution (1923) & Hilton Young Commission Minutes (1926)",
   "license": "Historical Public Domain / Creative Commons BY-SA",
-  "credit": "The Problem of the Rupee: Its Origin and Its Solution (1923) & Hilton Young Commission Minutes",
-  "source_book": "The Problem of the Rupee: Its Origin and Its Solution (1923) & Hilton Young Commission Minutes",
+  "credit": "The Problem of the Rupee: Its Origin and Its Solution (1923) & Hilton Young Commission Minutes (1926)",
+  "source_book": "The Problem of the Rupee: Its Origin and Its Solution (1923) & Hilton Young Commission Minutes (1926)",
   "source_author": "Dr. B. R. Ambedkar",
   "source_year": "1925",
-  "source_context": "The 1925 testimony of Dr. Ambedkar before the Royal Commission on Indian Currency and Finance (Hilton Young Commission) that laid the conceptual foundations of the RBI.",
-  "content": "While celebrated globally as a jurist and social crusader, Dr. B. R. Ambedkar was first and foremost an economist of extraordinary caliber, holding doctorates from both Columbia University and the London School of Economics.\n\nIn 1923, Ambedkar published his landmark doctoral treatise at LSE: **The Problem of the Rupee: Its Origin and Its Solution**.\n\nIn this pioneering work, he analyzed currency management, exchange rate fluctuations, and the perils of inflation, arguing that monetary stability is the prerequisite for social equity.\n\nIn 1925, the British government appointed the **Hilton Young Commission (Royal Commission on Indian Currency and Finance)** to restructure India's financial system.\n\nDr. Ambedkar was summoned as an expert witness. The British commissioners asked:\n\"Dr. Ambedkar! Why does India require an independent Central Bank? Can the Bank of England not continue regulating Indian monetary flows from London?\"\n\nAmbedkar countered with razor-sharp logic:\n\"Gentlemen! Can a physician sitting in London accurately monitor the pulse and body temperature of a patient in Delhi?\nIndia is a vast subcontinental economy. If the purchasing power of the rupee is to be preserved, monetary management must not be left to the whims of political executives or distant colonial boards.\nIndia requires an autonomous Central Bank dedicated to stabilizing the currency and controlling the money supply.\nUncontrolled inflation is not a mere statistical curve; it is an invisible thief that plunders the food from the plates of the working poor!\"\n\nThe commissioners were so deeply impressed that the Hilton Young Commission explicitly recorded that the legislative guidelines for creating the central bank should be modeled upon the principles enunciated in Dr. Ambedkar's *The Problem of the Rupee*.\n\nOn April 1, 1935, the **Reserve Bank of India (RBI)** opened its doors.\n\nThe bedrock of modern Indian banking and macroeconomic stability was laid by the profound scholarship of Babasaheb Ambedkar.",
-  "moral_reflection": "Rigorous scientific economics must serve the vulnerable; sound monetary policy protects the hard-earned wages of ordinary laborers."
+  "source_context": "The 1925 testimony of Dr. Ambedkar before the Royal Commission on Indian Currency and Finance (Hilton Young Commission).",
+  "content": "While celebrated globally as a jurist and constitutional architect, Dr. B. R. Ambedkar was also an economist of extraordinary caliber, having earned doctorates from Columbia University and the London School of Economics.\n\nIn 1923, Ambedkar published his landmark doctoral treatise: **The Problem of the Rupee: Its Origin and Its Solution**.\n\nIn this pioneering work, he analyzed currency management, exchange rate mechanisms, and the perils of price volatility, arguing that monetary stability is an essential prerequisite for economic justice.\n\nIn 1925, the British government appointed the **Hilton Young Commission (Royal Commission on Indian Currency and Finance)** to examine and restructure India's monetary architecture.\n\nDr. Ambedkar was summoned as an expert witness. The commission examined the necessity of establishing an independent central banking institution.\n\nAmbedkar presented cogent economic arguments:\n\"Gentlemen! Can a physician sitting in London accurately monitor the pulse and body temperature of a patient in Delhi?\nIndia is a vast subcontinental economy. If the purchasing power of the rupee is to be safeguarded, monetary management must not be left to the short-term convenience of political executives or distant colonial boards.\nIndia requires an autonomous Central Bank dedicated to stabilizing the currency and regulating the credit supply.\nUncontrolled inflation is not a mere statistical curve; it operates like an invisible levy that erodes the wages of the working poor!\"\n\nAmbedkar's testimony and treatise served as key conceptual references during the commission's deliberations, which ultimately recommended establishing an independent central bank.\n\nWhen the **Reserve Bank of India (RBI)** was constituted under the Reserve Bank of India Act in 1934 and commenced operations on April 1, 1935, its design reflected the principles of monetary discipline and currency management that Ambedkar had so vigorously championed.",
+  "moral_reflection": "Rigorous scientific economics must serve the vulnerable; sound monetary policy protects the hard-earned wages of ordinary laborers.",
+  "provenance_tier": "documented",
+  "authenticity_note": "Documented in the Royal Commission on Indian Currency and Finance (Hilton Young Commission) Report and Evidence volumes (1926) and Dr. Ambedkar's published treatise 'The Problem of the Rupee: Its Origin and Its Solution' (P. S. King & Son, London, 1923)."
 }

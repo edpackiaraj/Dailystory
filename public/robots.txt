@@ -4,5 +4,7 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /*/favorites/
 Disallow: /*/search/
+Disallow: /*?audience=
+Disallow: /*?length=
 
 Sitemap: https://dailystory.pages.dev/sitemap.xml

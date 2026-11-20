@@ -421,9 +421,6 @@
 /kn/collections/kn-collection-:name /kn/collections/:name/ 301
 /mr/collections/mr-collection-:name /mr/collections/:name/ 301
 /ur/collections/ur-collection-:name /ur/collections/:name/ 301
-# Cloudflare Pages 200 rewrite for universal story reader
-/:lang/:collection/:slug/  /:lang/story/  200
-/:lang/:collection/:slug   /:lang/story/  200
 
 /:lang/witty-debates/debate-102-gandhi-charlie-chaplin-1931/ /:lang/witty-debates/debate-102-vivekananda-ingersoll-dialogue-1894/ 301
 /:lang/witty-debates/debate-102-gandhi-charlie-chaplin-1931 /:lang/witty-debates/debate-102-vivekananda-ingersoll-dialogue-1894/ 301

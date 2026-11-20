@@ -37,6 +37,19 @@ const nextStory = allStories[1] || null;
 // Sanitize mismatched quiz options and generic boilerplate
 const story = sanitizeQuizAndDiscussion(rawStory);
 
+// Provenance-tier-aware source label
+const provenanceTier = (story as any).provenance_tier || '';
+const sourceLabel =
+  provenanceTier === 'documented' || provenanceTier === 'documented_ancient'
+    ? (lang === 'ta' ? 'ஆதாரம் உள்ளது' : 'Source Documented')
+    : provenanceTier === 'attributed'
+    ? (lang === 'ta' ? 'மரபு வழி கதை' : 'Attributed Tradition')
+    : provenanceTier === 'traditional'
+    ? (lang === 'ta' ? 'மரபு வழிக் கதை' : 'Traditional Account')
+    : (story.source_book || story.source)
+    ? (lang === 'ta' ? 'ஆதாரம் உள்ளது' : 'Source Cited')
+    : (lang === 'ta' ? 'ஆசிரியர் தொகுப்பு' : 'Editorial Retelling');
+
 function sanitizeTag(str?: string) {
   if (!str) return '';
   return str
@@ -61,7 +74,7 @@ const seoStoryTitle = currentLang === 'ta'
   ? `${cleanTitle}: ${localizedColName} நீதிக்கதை | ${brandConfig.name}`
   : (currentLang === 'hi'
       ? `${cleanTitle}: ${localizedColName} | ${brandConfig.name}`
-      : `${cleanTitle}: ${story.collection} Story with Moral | ${brandConfig.name}`);
+      : `${cleanTitle}: ${localizedColName} Story | ${brandConfig.name}`);
 
 // Guaranteed Collection-Specific OG Visual
 const storyOgImage = getStoryOgImage(story);
@@ -188,7 +201,7 @@ const jsonLd = [
       <a href={`/${lang}/collections/`} class="hover:text-[#D97706] transition-colors">{t.collections}</a>
       <span>/</span>
       <a id="story-crumb-col-link" href={`/${lang}/collections/${colSlug}/`} class="hover:text-[#D97706] transition-colors">
-        <span id="story-crumb-col-name">{story.collection}</span>
+        <span id="story-crumb-col-name">{localizedColName}</span>
       </a>
       <span>/</span>
       <span id="story-crumb-title" class="text-[#3B2A1A] dark:text-[#F3EBDD] font-semibold truncate max-w-xs">{cleanTitle}</span>
@@ -494,8 +507,8 @@ const jsonLd = [
                   <span class="text-base">📖</span>
                   <span>{lang === 'ta' ? 'மூல நூல் ஆதாரம் (வரலாற்றுப் பதிவு)' : 'Authentic Historical Source Book & Chronicle'}</span>
                 </div>
-                <span class="px-2.5 py-0.5 rounded-full bg-cyan-700/15 text-cyan-800 dark:text-cyan-300 font-bold text-[10px] tracking-wide uppercase border border-cyan-600/30">
-                  {lang === 'ta' ? 'நிரூபிக்கப்பட்ட உண்மை' : 'Primary Source Verified'}
+                <span id="story-provenance-badge" class="px-2.5 py-0.5 rounded-full bg-cyan-700/15 text-cyan-800 dark:text-cyan-300 font-bold text-[10px] tracking-wide uppercase border border-cyan-600/30">
+                  {sourceLabel}
                 </span>
               </div>
 
@@ -737,7 +750,7 @@ const jsonLd = [
               ← {t.previous}
             </span>
             <p id="story-nav-prev-title" class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1">
-              {prevStory ? prevStory.title : story.collection}
+              {prevStory ? prevStory.title : localizedColName}
             </p>
           </a>
 
@@ -750,7 +763,7 @@ const jsonLd = [
               {t.next} →
             </span>
             <p id="story-nav-next-title" class="text-xs sm:text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD] line-clamp-1">
-              {nextStory ? nextStory.title : story.collection}
+              {nextStory ? nextStory.title : localizedColName}
             </p>
           </a>
         </nav>
@@ -880,7 +893,7 @@ const jsonLd = [
           <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] leading-relaxed">
             {lang === 'ta'
               ? 'எழுத்து அளவு, வரி இடைவெளி, பின்னணி நிறம் மற்றும் தெளிவான எழுத்துருவை மாற்றியமைக்கலாம்.'
-              : 'Adjust font size, spacing, contrast, and OpenDyslexic mode anytime.'}
+              : 'Adjust font size, spacing, contrast, and high-legibility mode anytime.'}
           </p>
         </div>
 
@@ -908,7 +921,7 @@ const jsonLd = [
                 {currentLang === 'ta' ? 'அனைத்தும் →' : 'All →'}
               </a>
             </div>
-            <div class="space-y-2">
+            <div class="space-y-2" id="story-sidebar-related-list">
               {relatedStories.slice(0, 4).map(rel => (
                 <a
                   href={getStoryUrl(rel, currentLang)}
@@ -985,9 +998,12 @@ const jsonLd = [
       </a>
     </div>
   </aside>
-</BaseLayout>
 
-<script is:inline>
+  <script is:inline>
+  // Global State declared before hydration to prevent Temporal Dead Zone ReferenceError
+  let collectionPlaylist = [];
+  let currentPlaylistIdx = 0;
+
   // 0. Universal Hydration & Dynamic Story Loader
   (async function hydrateStory() {
     let payload = null;
@@ -1022,7 +1038,6 @@ const jsonLd = [
       const cleanSummary = (payload.summary || '').trim();
       const cleanMoral = (payload.moral || payload.moral_reflection || '').trim();
 
-      document.title = `${cleanTitle} | Daily Tale`;
       const h1 = document.getElementById('story-main-title');
       if (h1) h1.textContent = cleanTitle;
 
@@ -1078,11 +1093,26 @@ const jsonLd = [
       if (audBadge) {
         const colN = (payload.collection || '').toLowerCase();
         const ageG = (payload.age_group || payload.audience || '').toLowerCase();
-        let aLabel = urlLang === 'ta' ? 'அனைவருக்கும்' : 'Everyone';
-        if (colN.includes('witty') || colN.includes('debate') || colN.includes('vikram') || ageG.includes('teen') || ageG.includes('12') || ageG.includes('13')) {
-          aLabel = urlLang === 'ta' ? 'இளைஞர்கள்' : (urlLang === 'hi' ? 'किशोर' : 'Teens');
-        } else if (colN.includes('aesop') || colN.includes('panchatantra') || colN.includes('jataka') || colN.includes('cinderella') || ageG.includes('kid')) {
+        let aLabel = urlLang === 'ta' ? 'அனைவருக்கும்' : (urlLang === 'hi' ? 'सभी के लिए' : 'Everyone');
+        if (
+          ageG.includes('below 13') ||
+          ageG.includes('kid') ||
+          ageG.includes('child') ||
+          colN.includes('aesop') ||
+          colN.includes('panchatantra') ||
+          colN.includes('jataka') ||
+          colN.includes('cinderella')
+        ) {
           aLabel = urlLang === 'ta' ? 'சிறுவர்கள்' : (urlLang === 'hi' ? 'बच्चे' : 'Kids');
+        } else if (
+          ageG.includes('teen') ||
+          ageG.includes('13+') ||
+          ageG.includes('young adult') ||
+          colN.includes('witty') ||
+          colN.includes('debate') ||
+          colN.includes('vikram')
+        ) {
+          aLabel = urlLang === 'ta' ? 'இளைஞர்கள்' : (urlLang === 'hi' ? 'किशोर' : 'Teens');
         }
         audBadge.textContent = aLabel;
       }
@@ -1366,8 +1396,6 @@ const jsonLd = [
   let selectedDurationMins = 0; // 0 = Single Story, >0 = minutes, -1 = infinite
   let timerInterval = null;
   let remainingSeconds = 0;
-  let currentPlaylistIdx = 0;
-  let collectionPlaylist = [];
 
   const langCode = document.documentElement.lang || 'en';
   const lPrefix = langCode.toLowerCase().slice(0, 2);
@@ -1571,7 +1599,7 @@ const jsonLd = [
 
   if ('speechSynthesis' in window) {
     initVoiceSelectors();
-    window.speechSynthesis.onvoiceschanged = initVoiceSelectors;
+    window.speechSynthesis.addEventListener('voiceschanged', initVoiceSelectors);
   }
 
   // Duration Timer Setup (Pills)
@@ -1928,11 +1956,36 @@ const jsonLd = [
     });
   });
 
-  // Spacebar toggle
+  // Safe Keyboard Navigation & Audio Controls
   document.addEventListener('keydown', (e) => {
-    if (e.code === 'Space' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName)) {
-      e.preventDefault();
-      toggleSpeech();
+    const activeEl = document.activeElement;
+    const tagName = activeEl?.tagName;
+    if (['INPUT', 'TEXTAREA', 'SELECT', 'BUTTON', 'A'].includes(tagName)) {
+      return; // Do not intercept native interaction for buttons, links, or form controls
+    }
+
+    if (e.code === 'Space') {
+      const isAudioTarget = activeEl?.closest?.('#story-audio-suite') || document.querySelector('#story-audio-suite:hover');
+      if (isAudioTarget) {
+        e.preventDefault();
+        toggleSpeech();
+      }
+    } else if (e.key === 'ArrowRight') {
+      const nextLink = document.getElementById('story-nav-next-link');
+      if (nextLink && nextLink.getAttribute('href')) {
+        window.location.href = nextLink.getAttribute('href');
+      }
+    } else if (e.key === 'ArrowLeft') {
+      const prevLink = document.getElementById('story-nav-prev-link');
+      if (prevLink && prevLink.getAttribute('href')) {
+        window.location.href = prevLink.getAttribute('href');
+      }
+    } else if (e.key === '/') {
+      const searchBox = document.querySelector('input[type="search"], input[name="q"]');
+      if (searchBox) {
+        e.preventDefault();
+        searchBox.focus();
+      }
     }
   });
 
@@ -2002,7 +2055,7 @@ const jsonLd = [
       });
     });
   }
-  bindQuizEvents();
+  // Note: bindQuizEvents is called when pedagogy is hydrated or initialized, avoiding duplicate handlers.
 
   function hydratePedagogy(st, lang) {
     if (!st) return;
@@ -2380,3 +2433,4 @@ const jsonLd = [
     }
   })();
 </script>
+</BaseLayout>

@@ -320,20 +320,7 @@ const texts = translations[currentLang] || translations.en;
 <!-- Client-side Live Counter Controller -->
 <script is:inline>
 (function setupLiveHitCounter() {
-  const STORAGE_KEY = 'dth_hit_metrics_v6';
-  const SESSION_KEY = 'dth_session_id';
-
-  // Session ID for anonymous telemetry
-  let sessionId = '';
-  try {
-    sessionId = sessionStorage.getItem(SESSION_KEY) || '';
-    if (!sessionId) {
-      sessionId = 'dt_' + Math.random().toString(36).slice(2, 9) + Date.now().toString(36);
-      sessionStorage.setItem(SESSION_KEY, sessionId);
-    }
-  } catch (e) {
-    sessionId = 'dt_local_' + Math.random().toString(36).slice(2, 9);
-  }
+  const STORAGE_KEY = 'dth_hit_metrics_v7';
 
   // DOM Elements
   const elLive = document.getElementById('hit-count-live');
@@ -343,7 +330,6 @@ const texts = translations[currentLang] || translations.en;
   const elYear = document.getElementById('hit-count-year');
   const elLifetime = document.getElementById('hit-count-lifetime');
 
-  // Secondary badges in footer or header
   const secondaryCounters = document.querySelectorAll('[data-sync-hit]');
 
   function updateDom(metrics, animate) {
@@ -351,7 +337,8 @@ const texts = translations[currentLang] || translations.en;
 
     function applyValue(el, val, suffix) {
       if (!el) return;
-      const formatted = Number(val || 1).toLocaleString() + (suffix || '');
+      const num = Number(val || 0);
+      const formatted = num.toLocaleString() + (suffix || '');
       if (el.textContent !== formatted) {
         el.textContent = formatted;
         if (animate) {
@@ -370,22 +357,20 @@ const texts = translations[currentLang] || translations.en;
     applyValue(elYear, metrics.year, '+');
     applyValue(elLifetime, metrics.lifetime, '+');
 
-    // Sync bottom footer badges
     secondaryCounters.forEach(function(badge) {
       const type = badge.getAttribute('data-sync-hit');
       if (type === 'live') {
         badge.textContent = Number(metrics.live || 1).toLocaleString();
       } else if (type === 'lifetime') {
-        badge.textContent = Number(metrics.lifetime || 1).toLocaleString() + '+';
+        badge.textContent = Number(metrics.lifetime || 0).toLocaleString() + '+';
       } else if (type === 'today') {
-        badge.textContent = Number(metrics.today || 1).toLocaleString();
+        badge.textContent = Number(metrics.today || 0).toLocaleString();
       }
     });
 
-    // Also update legacy site-hit-counter
     const legacyEl = document.getElementById('site-hit-counter');
     if (legacyEl) {
-      legacyEl.textContent = Number(metrics.lifetime || 1).toLocaleString() + '+';
+      legacyEl.textContent = Number(metrics.lifetime || 0).toLocaleString() + '+';
     }
   }
 
@@ -403,68 +388,19 @@ const texts = translations[currentLang] || translations.en;
     } catch(e) {}
   }
 
-  // Calculate or increment local reading progression
-  function getProgressiveMetrics(incrementHits) {
-    const now = new Date();
-    const todayStr = now.toISOString().slice(0, 10);
-    const hour = now.getHours();
-
-    let cached = getCachedMetrics() || {};
-
-    // Initial base metrics (starts from 1,000 verified readers)
-    const baseLifetime = 1000;
-    const baseYear = 720;
-    const baseToday = 24;
-    const baseWeek = 125;
-    const baseMonth = 380;
-
-    // Reset today counter if new calendar day
-    if (cached.todayStr !== todayStr) {
-      cached.todayStr = todayStr;
-      cached.today = baseToday;
-    }
-
-    if (incrementHits) {
-      cached.today = (cached.today || baseToday) + 1;
-      cached.lifetime = Math.max(baseLifetime, (cached.lifetime || baseLifetime) + 1);
-      cached.week = Math.max(baseWeek, (cached.week || baseWeek) + 1);
-      cached.month = Math.max(baseMonth, (cached.month || baseMonth) + 1);
-      cached.year = Math.max(baseYear, Math.round((cached.lifetime || baseLifetime) * 0.72));
-    }
-
-    // Dynamic diurnal live reader count
-    const isDayTime = (hour >= 6 && hour <= 23);
-    const baseLive = isDayTime ? 12 : 6;
-    const jitter = Math.floor(Math.random() * 5) - 2; // -2 to +2
-    const live = Math.max(3, (cached.live ? cached.live : baseLive) + jitter);
-
-    const metrics = {
-      live: live,
-      today: cached.today || baseToday,
-      week: cached.week || baseWeek,
-      month: cached.month || baseMonth,
-      year: cached.year || baseYear,
-      lifetime: cached.lifetime || baseLifetime,
-      todayStr: todayStr
-    };
-
-    saveCachedMetrics(metrics);
-    return metrics;
+  // Load last known cached metrics immediately
+  const cached = getCachedMetrics();
+  if (cached) {
+    updateDom(cached, false);
   }
 
-  // Step 1: Immediately render and increment on page load
-  const initialMetrics = getProgressiveMetrics(true);
-  updateDom(initialMetrics, false);
-
-  // Step 2: Sync with Edge API
+  // Sync with Edge API once on page visit (avoids continuous polling that exhausts quota)
   const pageKey = window.location.pathname.replace(/\/+$/, '') || 'home';
 
-  function syncWithServer(action) {
-    const apiUrl = '/api/hits?action=' + encodeURIComponent(action) +
-      '&page=' + encodeURIComponent(pageKey) +
-      '&clientId=' + encodeURIComponent(sessionId);
+  function fetchServerMetrics() {
+    const apiUrl = '/api/hits?action=hit&page=' + encodeURIComponent(pageKey);
 
-    return fetch(apiUrl, {
+    fetch(apiUrl, {
       method: 'GET',
       headers: { 'Accept': 'application/json' },
       cache: 'no-store'
@@ -475,48 +411,26 @@ const texts = translations[currentLang] || translations.en;
     })
     .then(function(data) {
       if (data && data.success) {
-        const cached = getCachedMetrics() || {};
-        
-        // Monotonic progression: Never allow a lower server fallback to decrease the count!
-        const merged = {
-          live: Math.max(1, data.live || cached.live || 8),
-          today: Math.max(cached.today || 24, data.today || 24),
-          week: Math.max(cached.week || 125, data.week || 125),
-          month: Math.max(cached.month || 380, data.month || 380),
-          year: Math.max(cached.year || 1005, data.year || data.lifetime || 1005),
-          lifetime: Math.max(cached.lifetime || 1005, data.lifetime || data.count || 1005),
+        const metrics = {
+          live: data.live || 1,
+          today: data.today || 1,
+          week: data.week || 1,
+          month: data.month || 1,
+          year: data.year || data.lifetime || 1,
+          lifetime: data.lifetime || data.count || 1,
           todayStr: new Date().toISOString().slice(0, 10)
         };
 
-        saveCachedMetrics(merged);
-        updateDom(merged, true);
-        return merged;
+        saveCachedMetrics(metrics);
+        updateDom(metrics, true);
       }
     })
-    .catch(function(err) {
-      // Offline fallback: graceful organic heartbeat
-      const cached = getCachedMetrics() || {};
-      const delta = (Math.random() > 0.5 ? 1 : -1);
-      cached.live = Math.max(4, Math.min(26, (cached.live || 10) + delta));
-      updateDom(cached, true);
+    .catch(function() {
+      // Offline: keep cached display without manufacturing artificial social proof
     });
   }
 
-  // Fire initial sync
-  syncWithServer('hit');
-
-  // Step 3: Periodic Heartbeat Ping every 15s to keep active count alive & synchronized
-  setInterval(function() {
-    if (document.hidden) return;
-    syncWithServer('ping');
-  }, 15000);
-
-  // When user returns to active tab, refresh immediately
-  document.addEventListener('visibilitychange', function() {
-    if (!document.hidden) {
-      syncWithServer('ping');
-    }
-  });
-
+  // Single respectful visit registration
+  fetchServerMetrics();
 })();
 </script>

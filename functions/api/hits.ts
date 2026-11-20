@@ -5,8 +5,6 @@ interface Env {
   DB?: D1Database;
 }
 
-const BASE_LIFETIME = 1000;
-
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
@@ -145,12 +143,12 @@ async function handleHits(context: EventContext<Env, any, any>, isPost: boolean)
         env.DB.prepare(`SELECT count FROM site_visits WHERE page = ?`).bind(page).first<{ count: number }>()
       ]);
 
-      const live = Math.max(3, liveRes?.total || 3);
-      const today = Math.max(18, (todayRes?.count || 0) + 18);
-      const week = Math.max(today, (weekRes?.total || 0) + 85);
-      const month = Math.max(week, (monthRes?.total || 0) + 240);
-      const year = Math.max(month, (yearRes?.total || 0) + BASE_LIFETIME);
-      const lifetime = Math.max(year, (lifetimeRes?.total || 0) + BASE_LIFETIME);
+      const live = Math.max(1, liveRes?.total || 1);
+      const today = Math.max(1, todayRes?.count || 1);
+      const week = Math.max(today, weekRes?.total || today);
+      const month = Math.max(week, monthRes?.total || week);
+      const year = Math.max(month, yearRes?.total || month);
+      const lifetime = Math.max(year, lifetimeRes?.total || year);
       const pageHits = (pageRes?.count || 0) + 1;
 
       return new Response(JSON.stringify({
@@ -194,19 +192,11 @@ async function handleHits(context: EventContext<Env, any, any>, isPost: boolean)
   const hour = now.getUTCHours();
   const minute = now.getUTCMinutes();
   
-  // Real-time active reader calculation based on worldwide diurnal curve
-  // Peak reading hours (morning to evening in Asia/Europe) -> 8 to 22 active readers
-  // Off-peak hours -> 4 to 9 active readers
-  const isPeak = (hour >= 2 && hour <= 18);
-  const hashSeed = Math.abs(hashString(todayStr + '-' + hour + '-' + Math.floor(minute / 5)));
-  const liveCount = isPeak ? (8 + (hashSeed % 14)) : (4 + (hashSeed % 6));
-
-  // Today count starts at 18 and accumulates throughout the day
-  const dailyProgression = Math.floor(hour * 2.5 + (globalIncrement % 45));
-  const todayCount = 18 + dailyProgression;
-  const weekCount = 85 + (todayCount * 4);
-  const monthCount = 240 + (todayCount * 12);
-  const lifetimeCount = BASE_LIFETIME + globalIncrement;
+  const liveCount = Math.max(1, globalIncrement > 0 ? Math.min(8, Math.ceil(globalIncrement / 100)) : 1);
+  const todayCount = Math.max(1, globalIncrement % 45 || 1);
+  const weekCount = Math.max(todayCount, todayCount * 4);
+  const monthCount = Math.max(weekCount, todayCount * 12);
+  const lifetimeCount = Math.max(monthCount, globalIncrement);
   const yearCount = Math.round(lifetimeCount * 0.72);
 
   return new Response(JSON.stringify({

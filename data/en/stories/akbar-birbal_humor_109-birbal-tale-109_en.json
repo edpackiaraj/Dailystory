@@ -34,37 +34,37 @@
   "is_bedtime": true,
   "quiz": [
     {
-      "question": "What is the central moral lesson taught in \"Birbal Tale 109\"?",
+      "question": "What central dilemma or conflict arises in \"The Center of the Earth and the Count of Stars\"?",
       "options": [
-        "Wit beats power",
-        "Acting in haste and anger without thinking",
-        "Believing rumors and flattery without proof",
-        "Leaving work unfinished"
+        "A conceited philosopher asks Birbal to identify the center of the earth and the number of hairs on a sheep",
+        "A foreign ambassador challenges the imperial army to an archery contest.",
+        "The royal treasurer accidentally misplaced the imperial seal in the Yamuna river.",
+        "Akbar orders the immediate construction of a palace made entirely of crystal."
       ],
       "answerIndex": 0,
-      "hint": "Remember the moral lesson of this traditional story."
+      "hint": "Reflect on how the story opens: \"A conceited philosopher asks Birbal to identify the center of the earth and...\""
     },
     {
-      "question": "How do the characters overcome their challenge?",
+      "question": "How does Birbal resolve the dilemma presented to Emperor Akbar?",
       "options": [
-        "Through patience, calm reflection, and wisdom",
-        "By shouting loudly and blaming others",
-        "By running away from every problem",
-        "By ignoring good advice"
+        "Birbal leaves Agra immediately and refuses to advise the Emperor.",
+        "Birbal demands that Akbar arrest every guard stationed at the palace gates.",
+        "Birbal refuses to speak until a grand feast with fifty dishes is prepared.",
+        "Birbal uses keen observation and clever reasoning to reveal the truth peacefully"
       ],
-      "answerIndex": 0,
-      "hint": "Consider the virtues praised in world folklore."
+      "answerIndex": 3,
+      "hint": "Think about Birbal's signature method of using wit, calm logic, and natural insight."
     },
     {
-      "question": "What memorable conclusion does this story teach young readers?",
+      "question": "What enduring life lesson does \"The Center of the Earth and the Count of Stars\" teach?",
       "options": [
-        "Honesty, kindness, and clear thinking lead to peace",
-        "Deceit is never discovered",
-        "Greed always makes you happy",
-        "Might is always right"
+        "Reckless bravado and loud shouting will always conquer quiet wisdom.",
+        "It is better to act in angry haste than to pause and observe carefully.",
+        "Material wealth matters more than honesty, justice, and truth.",
+        "Do not waste your intellect on unprovable trifles; answer folly with its own reflection."
       ],
-      "answerIndex": 0,
-      "hint": "Reflect upon the resolution of the story."
+      "answerIndex": 3,
+      "hint": "The story emphasizes: \"Do not waste your intellect on unprovable trifles; answer fo...\""
     }
   ],
   "author": "Traditional Court Folklore of Akbar and Birbal",
@@ -76,38 +76,42 @@
   "reading_level": "Beginner",
   "vocabulary": [
     {
-      "word": "counsel",
-      "meaning": "wise advice given to guide decisions"
+      "word": "colossal",
+      "meaning": "extraordinarily large, powerful, or imposing"
     },
     {
-      "word": "discernment",
-      "meaning": "the ability to judge well and understand the truth"
+      "word": "courtiers",
+      "meaning": "officials and noble companions attending a royal court"
     },
     {
-      "word": "presence of mind",
-      "meaning": "the ability to remain calm and think clearly during sudden events"
+      "word": "haughty",
+      "meaning": "a key descriptive term expressing haughty in the narrative"
+    },
+    {
+      "word": "philosopher",
+      "meaning": "a key descriptive term expressing philosopher in the narrative"
     }
   ],
   "discussion_questions": [
     {
       "tier": "Remember",
-      "prompt": "What is the main situation at the beginning of \"Birbal Tale 109\"?"
+      "prompt": "What specific challenge or riddle did Emperor Akbar or a courtier pose in \"The Center of the Earth and the Count of Stars\"?"
     },
     {
       "tier": "Understand",
-      "prompt": "Why does this story teach that \"Wit beats power\"?"
+      "prompt": "Why does this story conclude that \"Do not waste your intellect on unprovable trifles; answer folly with its own reflection.\"? How did the events prove this truth?"
     },
     {
       "tier": "Apply",
-      "prompt": "How could you use this lesson in your own school or family life?"
+      "prompt": "Can you recall a situation at school, sports, or home where quiet reflection worked better than anger or bragging?"
     },
     {
       "tier": "Evaluate",
-      "prompt": "Was the character’s final decision fair and kind to everyone?"
+      "prompt": "Did Birbal treat everyone with justice and dignity in his solution? Was his response fair to all parties?"
     },
     {
       "tier": "Create",
-      "prompt": "Imagine an alternate peaceful ending or a new creative adventure for these characters."
+      "prompt": "If you had been present in Akbar's court, what alternative clever suggestion might you have offered?"
     }
   ],
   "reflection_prompt": "Have you ever had to choose between acting quickly in anger or waiting patiently to understand the truth?",

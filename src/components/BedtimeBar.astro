@@ -1,6 +1,5 @@
 ---
 import { getT } from '../lib/i18n';
-import { getStoriesByLang } from '../lib/stories';
 
 interface Props {
   currentLang: string;
@@ -10,19 +9,9 @@ const { currentLang } = Astro.props;
 const t = getT(currentLang);
 const isTa = currentLang === 'ta';
 
-// Curate 5 initial stories for 0ms offline instant bedtime narration on any page
-const allLangStories = getStoriesByLang(currentLang);
-const initialStories = (allLangStories || []).slice(0, 5).map(s => ({
-  id: s.id,
-  slug: s.slug,
-  title: s.title,
-  collection: s.collection,
-  reading_time: s.reading_time || '3m',
-  full_text: s.full_text || '',
-  moral: s.moral || '',
-  vocabulary: (s.vocabulary || []).slice(0, 3),
-  discussion_questions: (s.discussion_questions || []).slice(0, 2)
-}));
+// Initial bedtime playlist starts empty so story-specific pages load their own collection playlist
+// without leaking arbitrary stories into page payloads or increasing page weight
+const initialStories = [];
 
 const collectionsList = [
   { slug: "all", name: isTa ? "🌟 அனைத்துக் கதைத் தொகுப்புகள்" : "🌟 All Collections (Mixed Wisdom)" },
@@ -448,6 +437,10 @@ const collectionsList = [
             if (safeSlug === 'all' || safeSlug === pathCol || (!cachedPlaylists[cacheKey] && safeSlug === 'panchatantra')) {
               playlist = inlineList;
               cachedPlaylists[cacheKey] = playlist;
+              if (colSelect && pathCol) {
+                const opt = Array.from(colSelect.options).find(o => o.value === pathCol || pathCol.includes(o.value) || o.value.includes(pathCol));
+                if (opt) colSelect.value = opt.value;
+              }
               if (!isPlaying) {
                 currentStoryIdx = foundIdx >= 0 ? foundIdx : 0;
                 updateStoryUI();

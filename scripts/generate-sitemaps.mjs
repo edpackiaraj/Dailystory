@@ -105,8 +105,6 @@ for (const lang of languages) {
     xml += '  <url>\n';
     xml += `    <loc>${loc}</loc>\n`;
     xml += `    <lastmod>${syncDate}</lastmod>\n`;
-    xml += `    <changefreq>${route === '' ? 'daily' : 'monthly'}</changefreq>\n`;
-    xml += `    <priority>${route === '' ? '1.0' : '0.7'}</priority>\n`;
 
     for (const altLang of languages) {
       const altLoc = route ? `${siteUrl}/${altLang}/${route}/` : `${siteUrl}/${altLang}/`;
@@ -142,8 +140,6 @@ for (const lang of languages) {
       xml += '  <url>\n';
       xml += `    <loc>${loc}</loc>\n`;
       xml += `    <lastmod>${syncDate}</lastmod>\n`;
-      xml += `    <changefreq>weekly</changefreq>\n`;
-      xml += `    <priority>0.9</priority>\n`;
 
       for (const altLang of languages) {
         xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${siteUrl}/${altLang}/collections/${colSlug}/"/>\n`;
@@ -163,8 +159,6 @@ for (const lang of languages) {
     xml += '  <url>\n';
     xml += `    <loc>${storyLoc}</loc>\n`;
     xml += `    <lastmod>${lastModDate}</lastmod>\n`;
-    xml += `    <changefreq>monthly</changefreq>\n`;
-    xml += `    <priority>0.8</priority>\n`;
     xml += '  </url>\n';
     storiesIndexed++;
   }
@@ -201,6 +195,8 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /*/favorites/
 Disallow: /*/search/
+Disallow: /*?audience=
+Disallow: /*?length=
 
 Sitemap: ${siteUrl}/sitemap.xml
 `;

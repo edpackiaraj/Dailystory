@@ -1,6 +1,6 @@
 // Cloudflare Pages Function: High-Speed Edge Story Renderer
 // Preserves 100% of canonical URLs, metadata, OpenGraph, JSON-LD, and story content
-// Delivers sub-millisecond edge rendering without static file explosion
+// Delivers sub-millisecond edge rendering without static file explosion or template bleeding
 
 interface Env {
   ASSETS: {
@@ -8,11 +8,49 @@ interface Env {
   };
 }
 
+function escapeHtml(str: string): string {
+  if (!str) return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function escapeAttr(str: string): string {
+  if (!str) return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
 export const onRequestGet: PagesFunction<Env> = async (context) => {
   const { request, params, env } = context;
   const lang = (params.lang as string) || 'en';
   const rawCol = (params.collection as string) || '';
-  const collection = (rawCol === 'science-discovery' || rawCol === 'science-and-discovery') ? 'science-stories' : rawCol;
+
+  // Canonical collection normalization
+  let collection = rawCol.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  if (collection === 'science' || collection === 'science-discovery' || collection === 'science-and-discovery') {
+    collection = 'science-stories';
+  } else if (collection === 'aesops-fables' || collection === 'aesop-fables' || collection === 'aesop') {
+    collection = 'aesop-s-fables';
+  } else if (collection === 'witty-debate' || collection === 'debates') {
+    collection = 'witty-debates';
+  } else if (collection === 'cinderella') {
+    collection = 'cinderella-stories';
+  } else if (collection === 'grimm' || collection === 'brothers-grimm') {
+    collection = 'grimm-fairy-tales';
+  } else if (collection === 'andersen') {
+    collection = 'hans-christian-andersen';
+  } else if (collection === 'mulla' || collection === 'nasruddin') {
+    collection = 'mulla-nasruddin';
+  }
+
   const rawSlug = (params.slug as string) || '';
   const slug = rawSlug.replace(/\/$/, '');
 
@@ -105,11 +143,14 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     defaultHeroImg = '/images/stories/arabian-nights.webp';
   }
 
+  const isMoralCollection = colNorm.includes('aesop') || colNorm.includes('panchatantra') || colNorm.includes('jataka') || colNorm.includes('paramartha');
+  const storySuffix = isMoralCollection ? 'Story with Moral' : 'Story';
+  const taSuffix = isMoralCollection ? 'நீதிக்கதை' : 'கதை';
   const seoTitle = lang === 'ta'
-    ? `${cleanTitle}: ${heroBadgeText} நீதிக்கதை | Daily Tale`
+    ? `${cleanTitle}: ${heroBadgeText} ${taSuffix} | Daily Tale`
     : (lang === 'hi'
         ? `${cleanTitle}: ${heroBadgeText} | Daily Tale`
-        : `${cleanTitle}: ${heroBadgeText} Story with Moral | Daily Tale`);
+        : `${cleanTitle}: ${heroBadgeText} ${storySuffix} | Daily Tale`);
 
   const ogImage = story.image || defaultHeroImg;
   const fullOgImage = ogImage.startsWith('http') ? ogImage : `https://dailystory.pages.dev${ogImage}`;
@@ -121,13 +162,41 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   const storyAuthNote = (story.authenticity_note || '').trim();
   const hasSource = Boolean(storySource);
 
-  // Audience category
+  // Provenance-tier-aware source badge label
+  const provenanceTier = ((story.provenance_tier as string) || '').toLowerCase();
+  const provenanceLabel =
+    provenanceTier === 'documented' || provenanceTier === 'documented_ancient'
+      ? (lang === 'ta' ? 'ஆதாரம் உள்ளது' : 'Source Documented')
+      : provenanceTier === 'attributed'
+      ? (lang === 'ta' ? 'மரபு வழி கதை' : 'Attributed Tradition')
+      : provenanceTier === 'traditional'
+      ? (lang === 'ta' ? 'மரபு வழிக் கதை' : 'Traditional Account')
+      : hasSource
+      ? (lang === 'ta' ? 'ஆதாரம் உள்ளது' : 'Source Cited')
+      : (lang === 'ta' ? 'ஆசிரியர் தொகுப்பு' : 'Editorial Retelling');
+
+  // Audience category: accurately distinguish kids vs teens (never map "Below 13" to teens)
   const ageGroup = (story.age_group || story.audience || '').toLowerCase();
-  let audienceLabel = lang === 'ta' ? 'அனைவருக்கும்' : 'Everyone';
-  if (colNorm.includes('witty') || colNorm.includes('debate') || colNorm.includes('vikram') || ageGroup.includes('teen') || ageGroup.includes('12') || ageGroup.includes('13')) {
-    audienceLabel = lang === 'ta' ? 'இளைஞர்கள்' : (lang === 'hi' ? 'किशोर' : 'Teens');
-  } else if (colNorm.includes('aesop') || colNorm.includes('panchatantra') || colNorm.includes('jataka') || colNorm.includes('cinderella') || ageGroup.includes('kid')) {
+  let audienceLabel = lang === 'ta' ? 'அனைவருக்கும்' : (lang === 'hi' ? 'सभी के लिए' : 'Everyone');
+  if (
+    ageGroup.includes('below 13') ||
+    ageGroup.includes('kid') ||
+    ageGroup.includes('child') ||
+    colNorm.includes('aesop') ||
+    colNorm.includes('panchatantra') ||
+    colNorm.includes('jataka') ||
+    colNorm.includes('cinderella')
+  ) {
     audienceLabel = lang === 'ta' ? 'சிறுவர்கள்' : (lang === 'hi' ? 'बच्चे' : 'Kids');
+  } else if (
+    ageGroup.includes('teen') ||
+    ageGroup.includes('13+') ||
+    ageGroup.includes('young adult') ||
+    colNorm.includes('witty') ||
+    colNorm.includes('debate') ||
+    colNorm.includes('vikram')
+  ) {
+    audienceLabel = lang === 'ta' ? 'இளைஞர்கள்' : (lang === 'hi' ? 'किशोर' : 'Teens');
   }
 
   // Reading time
@@ -164,7 +233,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   const storyBody = (story.full_text || story.content || '').trim();
   const paragraphsHtml = storyBody
     .split(/\n\n+/)
-    .map((p: string) => `<p class="leading-[1.75] tracking-normal mb-6">${p}</p>`)
+    .map((p: string) => `<p class="leading-[1.75] tracking-normal mb-6">${escapeHtml(p)}</p>`)
     .join('');
 
   // Pagination & Related Stories
@@ -174,8 +243,8 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
 
   const prevUrl = prevStory ? `/${lang}/${collection}/${prevStory.slug}/` : `/${lang}/collections/${collection}/`;
   const nextUrl = nextStory ? `/${lang}/${collection}/${nextStory.slug}/` : `/${lang}/collections/${collection}/`;
-  const prevTitle = prevStory ? (prevStory.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim() : story.collection;
-  const nextTitle = nextStory ? (nextStory.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim() : story.collection;
+  const prevTitle = prevStory ? (prevStory.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim() : heroBadgeText;
+  const nextTitle = nextStory ? (nextStory.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim() : heroBadgeText;
 
   const whatsappText = lang === 'ta'
     ? `${cleanTitle} – தினம் ஒரு கதையில் வாசியுங்கள்: ${canonicalUrl}`
@@ -183,9 +252,10 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(whatsappText)}`;
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(cleanTitle)}&url=${encodeURIComponent(canonicalUrl)}`;
 
+  // Related Stories HTML (Bottom Section)
   const relatedHtml = relatedStories.map((rel: any) => {
-    const rTitle = (rel.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim();
-    const rSummary = (rel.summary || '').trim();
+    const rTitle = escapeHtml((rel.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim());
+    const rSummary = escapeHtml((rel.summary || '').trim());
     const rUrl = `/${lang}/${collection}/${rel.slug}/`;
     return `
       <a href="${rUrl}" class="p-4 rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] hover:border-[#D97706] hover:shadow-md transition-all group flex items-start gap-3">
@@ -200,6 +270,126 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
         </div>
       </a>`;
   }).join('');
+
+  // Sidebar Related Stories HTML
+  const sidebarHtml = relatedStories.slice(0, 4).map((rel: any) => {
+    const rTitle = escapeHtml((rel.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim());
+    const rUrl = `/${lang}/${collection}/${rel.slug}/`;
+    const rTime = escapeHtml(rel.reading_time || '2 min');
+    return `
+      <a href="${rUrl}" class="p-2.5 rounded-xl bg-[#FFF8EC]/60 dark:bg-[#1B1A2E]/60 border border-[#EEDFC8]/60 dark:border-[#383659]/60 hover:border-[#D97706] transition-all flex items-center gap-2.5 group">
+        <span class="text-base shrink-0">📖</span>
+        <div class="min-w-0 flex-1">
+          <p class="text-xs font-bold text-[#3B2A1A] dark:text-[#F3EBDD] group-hover:text-[#D97706] transition-colors truncate">
+            ${rTitle}
+          </p>
+          <span class="text-[10px] text-[#6B5644] dark:text-[#C8BFAF]">
+            ⏱ ${rTime}
+          </span>
+        </div>
+      </a>`;
+  }).join('');
+
+  // Story-Specific Pedagogy HTML (Prevents template bleeding between stories)
+  const discussHtml = (story.discussion_questions && story.discussion_questions.length > 0)
+    ? `<details class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
+        <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+          <span class="flex items-center gap-2.5">
+            <span>💬</span> ${lang === 'ta' ? 'சிந்திப்போம் & பேசுவோம்' : 'Think & Talk'}
+          </span>
+          <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+        </summary>
+        <div class="pt-4 space-y-3 text-sm text-[#6B5644] dark:text-[#C8BFAF]">
+          ${story.discussion_questions.map((q: any) => `
+            <div class="p-3 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60">
+              <span class="text-xs font-bold text-[#D97706] uppercase">${escapeHtml(q.tier || q.type || 'QUESTION')}:</span>
+              <p class="mt-0.5 text-[#3B2A1A] dark:text-[#F3EBDD] font-medium">${escapeHtml(q.prompt || q.question || '')}</p>
+            </div>
+          `).join('')}
+        </div>
+      </details>`
+    : '';
+
+  const vocabHtml = (story.vocabulary && story.vocabulary.length > 0)
+    ? `<details class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
+        <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+          <span class="flex items-center gap-2.5">
+            <span>📚</span> ${lang === 'ta' ? 'புதிய சொற்கள்' : 'Vocabulary'}
+          </span>
+          <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+        </summary>
+        <div class="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-sm">
+          ${story.vocabulary.map((v: any) => `
+            <div class="p-3 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60">
+              <strong class="text-[#0F766E] dark:text-[#2DD4BF]">${escapeHtml(v.word || '')}</strong>
+              <p class="text-xs text-[#6B5644] dark:text-[#C8BFAF] mt-0.5">${escapeHtml(v.meaning || '')}</p>
+            </div>
+          `).join('')}
+        </div>
+      </details>`
+    : '';
+
+  const quizTitle = lang === 'ta' ? 'வினாடி வினா' : 'Quick Quiz Challenge';
+  const quizCompText = lang === 'ta' ? 'வினாடி வினா முடிந்தது!' : 'Quiz Complete!';
+  const classroomText = lang === 'ta' ? 'வகுப்பறைப் பலகையைக் காண்க →' : 'View Classroom Board →';
+  const quizHtml = (story.quiz && story.quiz.length > 0)
+    ? `<details open class="group rounded-2xl bg-white dark:bg-[#25243E] border border-[#EEDFC8] dark:border-[#383659] p-5 transition-all">
+        <summary class="flex items-center justify-between cursor-pointer font-bold text-base text-[#3B2A1A] dark:text-[#F3EBDD] select-none">
+          <span class="flex items-center gap-2.5">
+            <span>🎯</span> ${quizTitle}
+          </span>
+          <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+        </summary>
+        <div class="pt-4 space-y-4" id="story-quiz-container" data-total-questions="${story.quiz.length}" data-story-title="${escapeAttr(cleanTitle)}">
+          <div id="quiz-completion-banner" class="hidden p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-500/40 text-emerald-800 dark:text-emerald-200 text-xs font-bold flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="text-lg">🎉</span>
+              <span id="quiz-completion-text">${quizCompText}</span>
+            </div>
+            <a href="/${lang}/classroom/" class="underline text-emerald-700 dark:text-emerald-300">
+              ${classroomText}
+            </a>
+          </div>
+          ${story.quiz.map((q: any, qIdx: number) => `
+            <div class="quiz-question-card p-4 rounded-xl bg-[#FFF8EC] dark:bg-[#1B1A2E] border border-[#EEDFC8]/60 dark:border-[#383659]/60 space-y-3" data-qindex="${qIdx}">
+              <p class="text-sm font-bold text-[#3B2A1A] dark:text-[#F3EBDD]">
+                ${qIdx + 1}. ${escapeHtml(q.question || '')}
+              </p>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                ${(q.options || []).map((opt: string, optIdx: number) => `
+                  <button
+                    type="button"
+                    class="quiz-option-btn p-3 rounded-xl border border-[#EEDFC8] dark:border-[#383659] bg-white dark:bg-[#25243E] hover:border-[#D97706] text-xs font-semibold text-start text-[#3B2A1A] dark:text-[#F3EBDD] transition-all flex items-center justify-between min-h-[44px]"
+                    data-question-idx="${qIdx}"
+                    data-option-idx="${optIdx}"
+                    data-is-correct="${optIdx === q.answerIndex ? 'true' : 'false'}"
+                    data-correct="${optIdx === q.answerIndex ? 'true' : 'false'}"
+                    data-hint="${escapeAttr(q.hint || '')}"
+                  >
+                    <span>${escapeHtml(opt)}</span>
+                    <span class="quiz-feedback-icon hidden"></span>
+                  </button>
+                `).join('')}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </details>`
+    : '';
+
+  // Collection Playlist (Embed up to 30 stories from the active collection)
+  const playlistItems = stories.slice(0, 30).map((s: any) => ({
+    id: s.id,
+    title: (s.title || '').replace(/\s*\[[A-Za-z]{2}\]/g, '').trim(),
+    slug: s.slug,
+    collection: s.collection,
+    reading_time: s.reading_time || '3m',
+    url: `/${lang}/${collection}/${s.slug}/`,
+    full_text: s.full_text || s.content || '',
+    moral: s.moral || s.moral_reflection || '',
+    vocabulary: s.vocabulary || [],
+    discussion_questions: s.discussion_questions || []
+  }));
 
   const jsonLdData = [
     {
@@ -236,14 +426,15 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
       "genre": story.genre || "Folk Tale",
       "articleSection": heroBadgeText,
       "wordCount": story.word_count || 450,
+      "datePublished": story.publish_date || "2026-03-25T00:00:00Z",
+      "dateModified": new Date().toISOString().split('T')[0] + "T00:00:00Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": canonicalUrl
       },
       "author": {
         "@type": "Person",
-        "name": "Dr. Edward Packiaraj",
-        "jobTitle": "Chief Editor & Educational Researcher",
+        "name": storyAuthor || "Daily Tale Editorial Team",
         "url": `https://dailystory.pages.dev/${lang}/about/`
       },
       "publisher": {
@@ -259,8 +450,9 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   ];
 
   const effectiveHeroImg = story.image || defaultHeroImg;
+  let jsonLdInjected = false;
 
-  // 4. Inject metadata & content into HTML using Cloudflare's C++ streaming HTMLRewriter
+  // 4. Inject metadata & content into HTML using Cloudflare's streaming HTMLRewriter
   const rewriter = new HTMLRewriter()
     .on('title', {
       element(el) {
@@ -282,6 +474,17 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
         el.setAttribute('href', canonicalUrl);
       }
     })
+    // Canonical Multilingual hreflang update (replaces placeholder /story/ links)
+    .on('link[rel="alternate"][hreflang]', {
+      element(el) {
+        const hLang = el.getAttribute('hreflang');
+        if (hLang === 'x-default') {
+          el.setAttribute('href', `https://dailystory.pages.dev/en/${collection}/${slug}/`);
+        } else if (hLang) {
+          el.setAttribute('href', `https://dailystory.pages.dev/${hLang}/${collection}/${slug}/`);
+        }
+      }
+    })
     .on('meta[property="og:title"]', {
       element(el) {
         el.setAttribute('content', cleanTitle);
@@ -294,7 +497,8 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     })
     .on('meta[property="og:url"]', {
       element(el) {
-        el.setAttribute('href', canonicalUrl);
+        // Critical: Set content attribute (not href) so social cards and crawlers get accurate URL
+        el.setAttribute('content', canonicalUrl);
       }
     })
     .on('meta[property="og:image"]', {
@@ -317,14 +521,20 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
         el.setAttribute('content', fullOgImage);
       }
     })
+    // Ensure clean JSON-LD without 4x duplication
     .on('script[type="application/ld+json"]', {
       element(el) {
-        el.setInnerContent(JSON.stringify(jsonLdData));
+        if (!jsonLdInjected) {
+          jsonLdInjected = true;
+          el.setInnerContent(JSON.stringify(jsonLdData));
+        } else {
+          el.remove();
+        }
       }
     })
     .on('#initial-story-payload', {
       element(el) {
-        el.setInnerContent(JSON.stringify(story));
+        el.setInnerContent(JSON.stringify(story).replace(/<\//g, '<\\/'));
       }
     })
     .on('#story-crumb-col-link', {
@@ -421,6 +631,11 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
         }
       }
     })
+    .on('#story-provenance-badge', {
+      element(el) {
+        el.setInnerContent(provenanceLabel);
+      }
+    })
     .on('#story-source-book-title', {
       element(el) {
         el.setInnerContent(storySource);
@@ -502,7 +717,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     })
     .on('#companion-source-year', {
       element(el) {
-        el.setInnerContent(storyYear || 'Verified');
+        el.setInnerContent(storyYear || (hasSource ? 'Chronicle' : 'Folklore'));
       }
     })
     .on('#companion-source-title', {
@@ -522,6 +737,20 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     .on('#companion-source-author', {
       element(el) {
         el.setInnerContent(storyAuthor);
+      }
+    })
+    // Story Audio Suite attributes (fixes data-story-id bleed)
+    .on('#story-audio-suite', {
+      element(el) {
+        el.setAttribute('data-story-id', String(story.id || slug));
+        el.setAttribute('data-story-title', cleanTitle);
+        el.setAttribute('data-collection', story.collection || collection);
+      }
+    })
+    // Collection Playlist (Embeds actual collection playlist, fixes Aesop bedtime bleed)
+    .on('#story-collection-playlist', {
+      element(el) {
+        el.setInnerContent(JSON.stringify(playlistItems).replace(/<\//g, '<\\/'));
       }
     })
     .on('#story-nav-prev-link', {
@@ -587,9 +816,14 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
         el.setAttribute('href', classShareWhatsapp);
       }
     })
+    // School / Classroom Pedagogy Suite: Injects story-specific content
     .on('#story-pedagogy-container', {
       element(el) {
-        const hasPed = (story.quiz && story.quiz.length > 0) || (story.vocabulary && story.vocabulary.length > 0) || (story.discussion_questions && story.discussion_questions.length > 0);
+        const hasPed = Boolean(
+          (story.quiz && story.quiz.length > 0) ||
+          (story.vocabulary && story.vocabulary.length > 0) ||
+          (story.discussion_questions && story.discussion_questions.length > 0)
+        );
         if (!hasPed) {
           el.setAttribute('class', 'hidden');
         } else {
@@ -599,25 +833,20 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     })
     .on('#story-vocab-container', {
       element(el) {
-        if (!story.vocabulary || story.vocabulary.length === 0) {
-          el.setInnerContent('');
-        }
+        el.setInnerContent(vocabHtml, { html: true });
       }
     })
     .on('#story-discuss-container', {
       element(el) {
-        if (!story.discussion_questions || story.discussion_questions.length === 0) {
-          el.setInnerContent('');
-        }
+        el.setInnerContent(discussHtml, { html: true });
       }
     })
     .on('#story-quiz-container-wrapper', {
       element(el) {
-        if (!story.quiz || story.quiz.length === 0) {
-          el.setInnerContent('');
-        }
+        el.setInnerContent(quizHtml, { html: true });
       }
     })
+    // Sidebar Related Stories (fixes Aesop links bleed in sidebar)
     .on('#story-sidebar-related-col', {
       element(el) {
         el.setInnerContent(heroBadgeText);
@@ -628,6 +857,14 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
         el.setAttribute('href', `/${lang}/collections/${collection}/`);
       }
     })
+    .on('#story-sidebar-related-list', {
+      element(el) {
+        if (sidebarHtml) {
+          el.setInnerContent(sidebarHtml, { html: true });
+        }
+      }
+    })
+    // Bottom Related Stories Strip
     .on('#story-related-stories-container', {
       element(el) {
         if (relatedHtml) {
@@ -644,11 +881,6 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     .on('#story-related-all-link', {
       element(el) {
         el.setAttribute('href', `/${lang}/collections/${collection}/`);
-      }
-    })
-    .on('#story-app-container', {
-      element(el) {
-        el.append(`<script id="initial-story-payload" type="application/json">${JSON.stringify(story).replace(/<\//g, '<\\/')}</script>`, { html: true });
       }
     });
 
